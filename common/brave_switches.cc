@@ -10,13 +10,13 @@ namespace switches {
 // Allows disabling the Brave extension.
 // This is commonly used for loading the extension manually to debug things
 // in debug mode with auto-reloading.
-const char kDisableBraveExtension[] = "disable-brave-extension";
+const char kDisableBraveExtension[] = "disable-dissenter-extension";
 
 // Allows disabling the Brave Rewards extension.
 const char kDisableBraveRewardsExtension[] = "disable-brave-rewards-extension";
 
 // This switch disables update module(Sparkle).
-const char kDisableBraveUpdate[] = "disable-brave-update";
+const char kDisableBraveUpdate[] = "disable-dissenter-update";
 
 // This switch disables the ChromeGoogleURLTrackerClient
 const char kDisableChromeGoogleURLTrackingClient[] =

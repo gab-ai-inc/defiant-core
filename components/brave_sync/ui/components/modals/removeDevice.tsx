@@ -15,10 +15,10 @@ import {
   ModalContent,
   TwoColumnButtonGrid,
   OneColumnButtonGrid
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Icons
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Utils
 import { getLocale } from '../../../../common/locale'

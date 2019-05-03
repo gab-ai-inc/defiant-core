@@ -14,7 +14,8 @@ int WINAPI wWinMain(HINSTANCE instance, HINSTANCE prev_instance,
                                           show_command);
   if (!return_code) {
     const base::CommandLine& cmd_line = *base::CommandLine::ForCurrentProcess();
-    if (cmd_line.HasSwitch(kBraveReferralCode)) {
+    // Dissenter: We don't do referral codes.
+    if (false) { // cmd_line.HasSwitch(kBraveReferralCode)) {
       const std::string referral_code =
           cmd_line.GetSwitchValueASCII(kBraveReferralCode);
       if (!referral_code.empty()) {

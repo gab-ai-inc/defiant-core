@@ -4,7 +4,7 @@
 
 const qr = require('qr-image')
 import BigNumber from 'bignumber.js'
-import { Address } from 'brave-ui/features/rewards/modalAddFunds'
+import { Address } from 'dissenter-ui/features/rewards/modalAddFunds'
 
 export let actions: any = null
 

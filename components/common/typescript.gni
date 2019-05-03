@@ -32,6 +32,7 @@ brave_common_web_compile_inputs = [
   "//brave/package-lock.json",
   # brave-ui changes on its own (perhaps a manual local link)
   "//brave/node_modules/brave-ui/package.json",
+  "//brave/node_modules/dissenter-ui/package.json",
 ]
 
 # Runs webpack for the specified entry point(s) and outputs a GRD file

@@ -19,7 +19,9 @@
     "baseUrl": ".",
     "paths": {
       "brave-ui": ["node_modules/brave-ui/src"],
-      "brave-ui/*": ["node_modules/brave-ui/src/*"]
+      "brave-ui/*": ["node_modules/brave-ui/src/*"],
+      "dissenter-ui": ["node_modules/dissenter-ui/src"],
+      "dissenter-ui/*": ["node_modules/dissenter-ui/src/*"]
     },
     "typeRoots": [
       "./node_modules/@types",

@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/mac/sign_app.sh.in b/chrome/installer/mac/sign_app.sh.in
-index 16edd99ae8432c130876beec52834c2211513282..47f495214d1ef5848bf52a759ba713604c7c441a 100644
+index 16edd99ae8432c130876beec52834c2211513282..5571bd7c7e0fdbd86b97b905350eec0972f2cd74 100644
 --- a/chrome/installer/mac/sign_app.sh.in
 +++ b/chrome/installer/mac/sign_app.sh.in
 @@ -79,10 +79,10 @@ fi
@@ -10,10 +10,10 @@ index 16edd99ae8432c130876beec52834c2211513282..47f495214d1ef5848bf52a759ba71360
 -identifier \"com.google.Chrome.beta\" or \
 -identifier \"com.google.Chrome.dev\" or \
 -identifier \"com.google.Chrome.canary\") \
-+(identifier \"com.brave.Browser\" or \
-+identifier \"com.brave.Browser.beta\" or \
-+identifier \"com.brave.Browser.dev\" or \
-+identifier \"com.brave.Browser.nightly\") \
++(identifier \"com.gab.Dissenter\" or \
++identifier \"com.gab.Dissenter.beta\" or \
++identifier \"com.gab.Dissenter.dev\" or \
++identifier \"com.gab.Dissenter.nightly\") \
  ${requirement_suffix} \
  "
  

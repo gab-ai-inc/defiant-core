@@ -36,13 +36,14 @@ void BraveExtensionService::AddComponentExtension(const Extension* extension) {
   // disabling it would apply to the regular profile as well. Instead, catch
   // the extension when BraveActionViewController is queried about the
   // visibility of the action.
-  if ((extension->id() == brave_rewards_extension_id) &&
-      (profile_->IsGuestSession() || profile_->IsTorProfile())) {
+  // Dissenter: disable brave rewards always.
+  if ((extension->id() == brave_rewards_extension_id)) {
     extensions::ExtensionActionManager* extension_action_manager =
         ExtensionActionManager::Get(profile_);
     ExtensionAction* action =
         extension_action_manager->GetExtensionAction(*extension);
     action->SetIsVisible(ExtensionAction::kDefaultTabId, false);
+    return; // Dissenter (skip ever even enabling it.)
   }
 
   // ContentSettingsStore::RegisterExtension is only called for default components

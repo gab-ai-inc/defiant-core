@@ -7,9 +7,9 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import { Checkbox, Grid, Column, Select, ControlWrapper } from 'brave-ui/components'
-import { Box, TableContribute, DisabledContent, List, ModalContribute, Tokens, NextContribution } from 'brave-ui/features/rewards'
-import { Provider } from 'brave-ui/features/rewards/profile'
+import { Checkbox, Grid, Column, Select, ControlWrapper } from 'dissenter-ui/components'
+import { Box, TableContribute, DisabledContent, List, ModalContribute, Tokens, NextContribution } from 'dissenter-ui/features/rewards'
+import { Provider } from 'dissenter-ui/features/rewards/profile'
 
 // Utils
 import { getLocale } from '../../../../common/locale'

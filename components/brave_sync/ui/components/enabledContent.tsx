@@ -6,9 +6,9 @@ import * as React from 'react'
 
 // Components
 import { Button, AlertBox } from 'brave-ui'
-import { CloseCircleIcon } from 'brave-ui/components/icons'
-import Table, { Cell, Row } from 'brave-ui/components/dataTables/table'
-import { Toggle } from 'brave-ui/features/shields'
+import { CloseCircleIcon } from 'dissenter-ui/components/icons'
+import Table, { Cell, Row } from 'dissenter-ui/components/dataTables/table'
+import { Toggle } from 'dissenter-ui/features/shields'
 
 // Feature-specific components
 import {
@@ -25,7 +25,7 @@ import {
   TableButtonGrid,
   EnabledContent,
   SyncCard
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Modals
 import RemoveDeviceModal from './modals/removeDevice'

@@ -6,7 +6,7 @@ import * as React from 'react'
 
 // Components
 import { Button, Modal } from 'brave-ui'
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Feature-specific components
 import {
@@ -17,7 +17,7 @@ import {
   ScanGrid,
   ThreeColumnButtonGrid,
   Link
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Dialogs
 import CancelDeviceSyncingDialog from '../commonDialogs/cancelDeviceSyncing'
@@ -26,7 +26,7 @@ import CancelDeviceSyncingDialog from '../commonDialogs/cancelDeviceSyncing'
 import { getLocale } from '../../../../common/locale'
 
 // Images
-import { SyncMobilePicture, QRCode } from 'brave-ui/features/sync/images'
+import { SyncMobilePicture, QRCode } from 'dissenter-ui/features/sync/images'
 
 interface Props {
   syncData: Sync.State

@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/util/util_constants.cc b/chrome/installer/util/util_constants.cc
-index e3f9cc439f83e49291721cbf045119e1de5e1156..6e2421346cb600c35768e0906c568af74ba32c70 100644
+index e3f9cc439f83e49291721cbf045119e1de5e1156..3f8b53abe45a66d2ae48934b35a9ab1f5f948069 100644
 --- a/chrome/installer/util/util_constants.cc
 +++ b/chrome/installer/util/util_constants.cc
 @@ -177,7 +177,13 @@ namespace env_vars {
@@ -21,7 +21,7 @@ index e3f9cc439f83e49291721cbf045119e1de5e1156..6e2421346cb600c35768e0906c568af7
  const wchar_t kChromeDll[] = L"chrome.dll";
  const wchar_t kChromeChildDll[] = L"chrome_child.dll";
 +#if defined(BRAVE_CHROMIUM_BUILD)
-+const wchar_t kChromeExe[] = L"brave.exe";
++const wchar_t kChromeExe[] = L"dissenter.exe";
 +#else
  const wchar_t kChromeExe[] = L"chrome.exe";
 +#endif

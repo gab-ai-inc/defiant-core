@@ -40,7 +40,7 @@ brave_feed_url = "$base_sparkle_update_url/$_update_channel/appcast.xml"
 brave_version = "$brave_version_major.$brave_version_minor.$brave_version_build"
 
 if (brave_exe == "") {
-  brave_exe = brave_project_name
+  brave_exe = "dissenter"
 }
 
 brave_dist_dir = "$root_out_dir/dist"
@@ -69,13 +69,13 @@ if (is_win) {
   if (target_cpu == "x86") {
     _arch = "32"
   }
-  brave_installer_exe = "brave_installer$brave_underline_full_version.exe"
-  brave_stub_installer_exe = "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_stub_installer_exe = "BraveBrowserSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_stub_installer_exe = "BraveBrowserUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_standalone_installer_exe = "BraveBrowserStandalone$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_installer_exe = "BraveBrowserStandaloneSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_installer_exe = "BraveBrowserStandaloneUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_installer_exe = "dissenter_installer$brave_underline_full_version.exe"
+  brave_stub_installer_exe = "DissenterBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_silent_stub_installer_exe = "DissenterBrowserSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_untagged_stub_installer_exe = "DissenterBrowserUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_standalone_installer_exe = "DissenterBrowserStandalone$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_silent_installer_exe = "DissenterBrowserStandaloneSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_untagged_installer_exe = "DissenterBrowserStandaloneUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
 } else if (is_mac) {
   brave_exe = "$chrome_product_full_name.app"
   brave_dmg = "$chrome_product_full_name.dmg"
@@ -95,7 +95,7 @@ if (is_win) {
   } else {
     brave_product_dir_name_suffix = "-Development"
   }
-  brave_product_dir_name = "BraveSoftware/Brave-Browser$brave_product_dir_name_suffix"
+  brave_product_dir_name = "GabAI/Dissenter-Browser$brave_product_dir_name_suffix"
 }
 
 brave_platform = "darwin"

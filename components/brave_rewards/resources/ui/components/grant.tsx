@@ -11,14 +11,14 @@ import {
   GrantWrapper,
   GrantCaptcha,
   GrantComplete
-} from 'brave-ui/features/rewards'
-import GrantClaim, { Type } from 'brave-ui/features/rewards/grantClaim'
+} from 'dissenter-ui/features/rewards'
+import GrantClaim, { Type } from 'dissenter-ui/features/rewards/grantClaim'
 
 // Utils
 import * as rewardsActions from '../actions/rewards_actions'
 import { getLocale } from '../../../../common/locale'
 import { convertProbiToFixed } from '../utils'
-import GrantError from 'brave-ui/features/rewards/grantError'
+import GrantError from 'dissenter-ui/features/rewards/grantError'
 
 interface State {
   grantShow: boolean

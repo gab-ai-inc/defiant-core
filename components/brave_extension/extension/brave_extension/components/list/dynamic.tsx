@@ -20,7 +20,7 @@ import {
   BlockedListItemHeaderStats,
   BlockedListItemHeaderText,
   ShieldsButton
-} from 'brave-ui/features/shields'
+} from 'dissenter-ui/features/shields'
 
 // Locale
 import { getLocale } from '../../background/api/localeAPI'

@@ -37,13 +37,13 @@ const char kChromeVersion[] = CHROME_VERSION_STRING;
 
 #if defined(OS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutableNameChromium[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kBrowserProcessExecutableName[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kHelperProcessExecutableNameChromium[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kHelperProcessExecutableName[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 #elif defined(OS_MACOSX)
 const base::FilePath::CharType kBrowserProcessExecutableNameChromium[] =
     FPL(CHROMIUM_PRODUCT_STRING);
@@ -74,13 +74,13 @@ const base::FilePath::CharType kHelperProcessExecutableName[] = FPL("exe");
 
 #if defined(OS_WIN)
 const base::FilePath::CharType kBrowserProcessExecutablePathChromium[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kBrowserProcessExecutablePath[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kHelperProcessExecutablePathChromium[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 const base::FilePath::CharType kHelperProcessExecutablePath[] =
-    FPL("brave.exe");
+    FPL("dissenter.exe");
 #elif defined(OS_MACOSX)
 const base::FilePath::CharType kBrowserProcessExecutablePathChromium[] =
     FPL(CHROMIUM_PRODUCT_STRING ".app/Contents/MacOS/" CHROMIUM_PRODUCT_STRING);

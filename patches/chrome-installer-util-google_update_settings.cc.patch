@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/util/google_update_settings.cc b/chrome/installer/util/google_update_settings.cc
-index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b9773403f 100644
+index 4f0ad5378847cb9ee99569a206994c50683d06bf..8bae0b0f6ae18e1d3b45774965d62fe8ea6b40a2 100644
 --- a/chrome/installer/util/google_update_settings.cc
 +++ b/chrome/installer/util/google_update_settings.cc
 @@ -31,7 +31,11 @@ using base::win::RegKey;
@@ -7,7 +7,7 @@ index 4f0ad5378847cb9ee99569a206994c50683d06bf..6e128e4631a358208b9b3cda3213c52b
  
  const wchar_t GoogleUpdateSettings::kPoliciesKey[] =
 +#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+    L"SOFTWARE\\Policies\\BraveSoftware\\Update";
++    L"SOFTWARE\\Policies\\GabAI\\Update";
 +#else
      L"SOFTWARE\\Policies\\Google\\Update";
 +#endif

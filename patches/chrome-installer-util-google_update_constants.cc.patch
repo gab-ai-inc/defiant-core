@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/util/google_update_constants.cc b/chrome/installer/util/google_update_constants.cc
-index f1ce1fbba3147b9f2c66bab79018c776ae144d53..9eced089da97dc81bc04f3f188ca2620e4cf5bd2 100644
+index f1ce1fbba3147b9f2c66bab79018c776ae144d53..b123c02272f1819fb98748f507ec4403c481093c 100644
 --- a/chrome/installer/util/google_update_constants.cc
 +++ b/chrome/installer/util/google_update_constants.cc
 @@ -6,6 +6,17 @@
@@ -11,11 +11,11 @@ index f1ce1fbba3147b9f2c66bab79018c776ae144d53..9eced089da97dc81bc04f3f188ca2620
 +const wchar_t kGoogleUpdateUpgradeCode[] =
 +    L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
 +const wchar_t kGoogleUpdateSetupExe[] = L"BraveUpdateSetup.exe";
-+const wchar_t kRegPathClients[] = L"Software\\BraveSoftware\\Update\\Clients";
-+const wchar_t kRegPathClientState[] = L"Software\\BraveSoftware\\Update\\ClientState";
++const wchar_t kRegPathClients[] = L"Software\\GabAI\\Update\\Clients";
++const wchar_t kRegPathClientState[] = L"Software\\GabAI\\Update\\ClientState";
 +const wchar_t kRegPathClientStateMedium[] =
-+    L"Software\\BraveSoftware\\Update\\ClientStateMedium";
-+const wchar_t kRegPathGoogleUpdate[] = L"Software\\BraveSoftware\\Update";
++    L"Software\\GabAI\\Update\\ClientStateMedium";
++const wchar_t kRegPathGoogleUpdate[] = L"Software\\GabAI\\Update";
 +#else
  const wchar_t kChromeUpgradeCode[] = L"{8A69D345-D564-463C-AFF1-A69D9E530F96}";
  

@@ -122,7 +122,7 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
 
   switch (id) {
     case IDC_SHOW_BRAVE_REWARDS:
-      brave::ShowBraveRewards(browser_);
+      //brave::ShowBraveRewards(browser_);
       break;
     case IDC_SHOW_BRAVE_ADBLOCK:
       brave::ShowBraveAdblock(browser_);
@@ -134,7 +134,7 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       brave::NewTorIdentity(browser_);
       break;
     case IDC_SHOW_BRAVE_SYNC:
-      brave::ShowBraveSync(browser_);
+      //brave::ShowBraveSync(browser_);
       break;
 
     default:

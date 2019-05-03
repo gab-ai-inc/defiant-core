@@ -13,16 +13,16 @@ import {
   WalletWrapper,
   WalletEmpty,
   WalletSummary
-} from 'brave-ui/features/rewards'
-import { WalletAddIcon } from 'brave-ui/components/icons'
-import { AlertWallet } from 'brave-ui/features/rewards/walletWrapper'
+} from 'dissenter-ui/features/rewards'
+import { WalletAddIcon } from 'dissenter-ui/components/icons'
+import { AlertWallet } from 'dissenter-ui/features/rewards/walletWrapper'
 
 // Utils
 import { getLocale } from '../../../../common/locale'
 import * as rewardsActions from '../actions/rewards_actions'
 import * as utils from '../utils'
-import WalletOff from 'brave-ui/features/rewards/walletOff'
-import ModalAddFunds from 'brave-ui/features/rewards/modalAddFunds'
+import WalletOff from 'dissenter-ui/features/rewards/walletOff'
+import ModalAddFunds from 'dissenter-ui/features/rewards/modalAddFunds'
 
 const clipboardCopy = require('clipboard-copy')
 

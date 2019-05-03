@@ -39,7 +39,8 @@
 #include "services/network/public/cpp/simple_url_loader.h"
 
 // Fetch headers from the referral server once a day.
-const int kFetchReferralHeadersFrequency = 60 * 60 * 24;
+// Dissenter: This is now unused.
+//const int kFetchReferralHeadersFrequency = 60 * 60 * 24;
 
 // Maximum size of the referral server response in bytes.
 const int kMaxReferralServerResponseSizeBytes = 1024 * 1024;
@@ -71,8 +72,10 @@ std::string BuildReferralEndpoint(const std::string& path) {
   env->GetVar("BRAVE_REFERRALS_SERVER", &referral_server);
   if (referral_server.empty())
     referral_server = kBraveReferralsServer;
-  return base::StringPrintf("https://%s%s", referral_server.c_str(),
-                            path.c_str());
+  // Dissenter: Ensure Brave Refferal activity is disabled by redirection.
+  return base::StringPrintf("https://%s/", "0.0.0.0");
+  //return base::StringPrintf("https://%s%s", referral_server.c_str(),
+  //                          path.c_str());
 }
 
 }  // namespace
@@ -100,9 +103,12 @@ void BraveReferralsService::Start() {
                                     base::Unretained(this)));
 
   // Fetch the referral headers on startup.
-  FetchReferralHeaders();
+  // Dissenter: Don't.
+  // FetchReferralHeaders();
 
   // Also, periodically fetch the referral headers.
+  // Dissenter: Also, Don't.
+  /*
   DCHECK(!fetch_referral_headers_timer_);
   fetch_referral_headers_timer_ = std::make_unique<base::RepeatingTimer>();
   fetch_referral_headers_timer_->Start(
@@ -124,7 +130,7 @@ void BraveReferralsService::Start() {
                    base::Unretained(this)),
         base::Bind(&BraveReferralsService::OnReadPromoCodeComplete,
                    weak_factory_.GetWeakPtr()));
-
+  */
   initialized_ = true;
 }
 
@@ -140,6 +146,8 @@ bool BraveReferralsService::GetMatchingReferralHeaders(
     const GURL& url) {
   // If the domain for this request matches one of our target domains,
   // set the associated custom headers.
+  // Dissenter: Don't.
+  return false;
   for (const auto& headers_value : referral_headers_list) {
     const base::Value* domains_list =
         headers_value.FindKeyOfType("domains", base::Value::Type::LIST);
@@ -169,7 +177,8 @@ bool BraveReferralsService::GetMatchingReferralHeaders(
 }
 
 void BraveReferralsService::OnFetchReferralHeadersTimerFired() {
-  FetchReferralHeaders();
+  // Dissenter: Don't.
+  //FetchReferralHeaders();
 }
 
 void BraveReferralsService::OnReferralHeadersLoadComplete(
@@ -447,6 +456,8 @@ std::string BraveReferralsService::BuildReferralFinalizationCheckPayload()
 }
 
 void BraveReferralsService::FetchReferralHeaders() {
+  // Dissenter: No.
+  return;
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation(
         "brave_referral_headers_fetcher", R"(
@@ -488,6 +499,8 @@ void BraveReferralsService::FetchReferralHeaders() {
 }
 
 void BraveReferralsService::InitReferral() {
+  // Dissenter: No.
+  /*
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("brave_referral_initializer", R"(
         semantics {
@@ -528,9 +541,12 @@ void BraveReferralsService::InitReferral() {
       base::BindOnce(&BraveReferralsService::OnReferralInitLoadComplete,
                      base::Unretained(this)),
       kMaxReferralServerResponseSizeBytes);
+  */
 }
 
 void BraveReferralsService::CheckForReferralFinalization() {
+  // Dissenter: No.
+  /*
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("brave_referral_finalization_checker",
         R"(
@@ -573,12 +589,14 @@ void BraveReferralsService::CheckForReferralFinalization() {
           &BraveReferralsService::OnReferralFinalizationCheckLoadComplete,
           base::Unretained(this)),
       kMaxReferralServerResponseSizeBytes);
+  */
 }
 
 std::string BraveReferralsService::FormatExtraHeaders(
     const base::Value* referral_headers,
     const GURL& url) {
-  if (!referral_headers)
+  // Dissenter: Return empty string.
+  if (true) // !referral_headers)
     return std::string();
 
   const base::ListValue* referral_headers_list = nullptr;

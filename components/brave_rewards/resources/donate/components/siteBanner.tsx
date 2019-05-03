@@ -7,8 +7,8 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import { SiteBanner } from 'brave-ui/features/rewards'
-import { Provider } from 'brave-ui/features/rewards/profile'
+import { SiteBanner } from 'dissenter-ui/features/rewards'
+import { Provider } from 'dissenter-ui/features/rewards/profile'
 
 // Utils
 import * as donateActions from '../actions/donate_actions'

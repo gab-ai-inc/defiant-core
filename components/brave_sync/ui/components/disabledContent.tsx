@@ -16,9 +16,9 @@ import {
   Paragraph,
   SyncCard,
   DisabledContent
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
-import { SyncStartIcon } from 'brave-ui/features/sync/images'
+import { SyncStartIcon } from 'dissenter-ui/features/sync/images'
 
 // Modals
 import DeviceTypeModal from './modals/deviceType'

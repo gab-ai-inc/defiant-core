@@ -249,7 +249,8 @@
       "<rootDir>/components/test/**/**/?(*_)(test).{ts,tsx}"
     ],
     "transformIgnorePatterns": [
-      "<rootDir>/node_modules/(?!(brave-ui)/)"
+      "<rootDir>/node_modules/(?!(brave-ui)/)",
+      "<rootDir>/node_modules/(?!(dissenter-ui)/)"
     ],
     "setupFilesAfterEnv": [
       "<rootDir>/components/test/testSetup.ts"
@@ -261,7 +262,9 @@
       "\\.(jpg|jpeg|png|gif|eot|otf|svg|ttf|woff|woff2)$": "<rootDir>/components/test/fileMock.ts",
       "\\.(css|less)$": "identity-obj-proxy",
       "^brave-ui$": "<rootDir>/node_modules/brave-ui/src",
-      "^brave-ui\\/(.*)": "<rootDir>/node_modules/brave-ui/src/$1"
+      "^brave-ui\\/(.*)": "<rootDir>/node_modules/brave-ui/src/$1",
+      "^dissenter-ui$": "<rootDir>/node_modules/dissenter-ui/src",
+      "^dissenter-ui\\/(.*)": "<rootDir>/node_modules/dissenter-ui/src/$1"
     }
   },
   "devDependencies": {
@@ -278,6 +281,7 @@
     "@types/redux-logger": "^3.0.7",
     "awesome-typescript-loader": "^5.2.1",
     "brave-ui": "github:brave/brave-ui#210a82491cf12d25c789c68b3634a41e3bc4b7c2",
+    "dissenter-ui": "git+https://github.com/gab-ai-inc/defiant-ui.git",
     "css-loader": "^2.1.1",
     "csstype": "^2.5.5",
     "deep-freeze-node": "^1.1.3",

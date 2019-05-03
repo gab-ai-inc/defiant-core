@@ -5,14 +5,15 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Content, Title, Paragraph } from 'brave-ui/features/welcome'
+import { Content, Title, Paragraph } from 'dissenter-ui/features/welcome'
 
 // Shared components
-import { Button } from 'brave-ui'
-import { ArrowRightIcon } from 'brave-ui/components/icons'
+import { Button } from 'dissenter-ui'
+import { ArrowRightIcon } from 'dissenter-ui/components/icons'
 
 // Images
-import { WelcomeLionImage } from 'brave-ui/features/welcome/images'
+//import { WelcomeLionImage } from 'dissenter-ui/features/welcome/images'
+import { WelcomeDissenterImage } from 'dissenter-ui/features/welcome/images'
 
 // Utils
 import { getLocale } from '../../../common/locale'
@@ -33,9 +34,9 @@ export default class ThemingBox extends React.PureComponent<Props, {}> {
         screenPosition={'1' + (index + 1) + '0%'}
         isPrevious={index <= currentScreen}
       >
-        <WelcomeLionImage />
-        <Title>{getLocale('welcome')}</Title>
-        <Paragraph>{getLocale('whatIsBrave')}</Paragraph>
+        <WelcomeDissenterImage />
+        <Title>Welcome To The Free Speech Internet</Title>
+        <Paragraph>Dissenter creates a comment section on every URL across the web. It also blocks ads and prevents Silicon Valley tech giants from tracking you. Ready to speak freely?</Paragraph>
         <Button
           level='primary'
           type='accent'

@@ -5,12 +5,12 @@
 import * as React from 'react'
 import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
-import { WalletAddIcon, BatColorIcon } from 'brave-ui/components/icons'
-import { WalletWrapper, WalletSummary, WalletSummarySlider, WalletPanel } from 'brave-ui/features/rewards'
-import { Provider } from 'brave-ui/features/rewards/profile'
-import { NotificationType } from 'brave-ui/features/rewards/walletWrapper'
+import { WalletAddIcon, BatColorIcon } from 'dissenter-ui/components/icons'
+import { WalletWrapper, WalletSummary, WalletSummarySlider, WalletPanel } from 'dissenter-ui/features/rewards'
+import { Provider } from 'dissenter-ui/features/rewards/profile'
+import { NotificationType } from 'dissenter-ui/features/rewards/walletWrapper'
 import { RewardsNotificationType } from '../constants/rewards_panel_types'
-import { Type as AlertType } from 'brave-ui/features/rewards/alert'
+import { Type as AlertType } from 'dissenter-ui/features/rewards/alert'
 
 // Utils
 import * as rewardsPanelActions from '../actions/rewards_panel_actions'

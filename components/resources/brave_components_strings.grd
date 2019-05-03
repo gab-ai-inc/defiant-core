@@ -145,22 +145,22 @@
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_SEARCH_SETTINGS" desc="">Search settings</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_THIS_IS_A" desc="">This is a</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW" desc="">Private Window</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC" desc="">Brave doesn’t remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you’re done. Private Windows don’t make you completely anonymous online, though.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC" desc="">Dissenter doesn’t remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you’re done. Private Windows don’t make you completely anonymous online, though.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_BUTTON" desc="">Learn more</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR" desc="">Private Window with Tor</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_DESC" desc="">Brave never remembers what you do in a Private Window. With Tor, your browsing is also hidden from your ISP or employer, and your IP address is hidden from the sites you visit.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_DESC" desc="">Dissenter never remembers what you do in a Private Window. With Tor, your browsing is also hidden from your ISP or employer, and your IP address is hidden from the sites you visit.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WIONDOW_TOR_BUTTON" desc="">Learn more about Private Windows with Tor</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_LABEL" desc="">Search Privately with</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TITLE" desc="">DuckDuckGo</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_1" desc="">With private search, Brave will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn’t track your search history, so you can search privately.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_1" desc="">With private search, Dissenter will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn’t track your search history, so you can search privately.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_2" desc="">In Private Windows with Tor, DuckDuckGo is the default search engine. Some of the other popular search engines are harder to use with Tor. DuckDuckGo doesn’t track your search history; with Tor, they don’t even know your IP address.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_BUTTON" desc="">Search with DuckDuckGo</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_LABEL" desc="">Make Private Windows much more private</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_LABEL_2" desc="">This Private Window is much more private</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TITLE" desc="">with Tor</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_1" desc="">Tor hides your IP address from the sites you visit, by routing your browsing through several Tor servers before it reaches your destination. These connections are encrypted, so your ISP or employer can’t see which sites you’re visiting either. Tor can slow down browsing and some sites might not work at all.</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_2" desc="">Using Private Windows only changes what Brave does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit, and hides the sites you visit from your ISP or your employer. Open a Private Window with Tor from the menu, or with {{ key }}.</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_BUTTON" desc="">Learn more about Tor in Brave</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_2" desc="">Using Private Windows only changes what Dissenter does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit, and hides the sites you visit from your ISP or your employer. Open a Private Window with Tor from the menu, or with {{ key }}.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_BUTTON" desc="">Learn more about Tor in Dissenter</message>
 
       <!-- WebUI adblock resources -->
       <message name="IDS_ADBLOCK_ADDITIONAL_FILTERS_TITLE" desc="Title for additional filters section">Additional Filters</message>
@@ -170,23 +170,23 @@
       <message name="IDS_ADBLOCK_CUSTOM_FILTERS_INSTRUCTIONS" desc="Instructions for custom filters section">One per line, a filter is described in Adblock Plus filter syntax</message>
 
       <!-- WebUI welcome page resources -->
-      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Brave the new Internet</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Dissenter the new Internet</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_DESC" desc="Welcome message description">Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_BUTTON" desc="Button that moves to the next welcome screen">Let's go</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_TITLE" desc="Welcome message title for Brave Rewards">Enable Brave Rewards</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_DESC" desc="Explainer text about Brave Rewards">Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_BUTTON" desc="Button to enable Brave Rewards from the welcome page">Enable Rewards</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_TITLE" desc="Welcome message title for import from another browser">Import bookmarks and settings</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_DESC" desc="Explainer text about importing from another browser">Brave makes it easy to set up your usual environment by importing bookmarks and settings from other browsers installed on your computer.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_DESC" desc="Explainer text about importing from another browser">Dissenter makes it easy to set up your usual environment by importing bookmarks and settings from other browsers installed on your computer.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_BUTTON" desc="Button to import from another browser">Import</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_TITLE" desc="Welcome message title for shields">Manage your shields</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_DESC" desc="Explainer text about shields">Brave shields protects you from unwanted ads and trackers while browsing. If you encounter an issue while browsing a particular site, adjust your protection level from the shields panel in the toolbar.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_DESC" desc="Explainer text about shields">Dissenter shields protects you from unwanted ads and trackers while browsing. If you encounter an issue while browsing a particular site, adjust your protection level from the shields panel in the toolbar.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_BUTTON" desc="Button to open shield settings">Shield Settings</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_TITLE" desc="Welcome message title for search engines">Change your search engine</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_DESC" desc="Explainer text about search engines in Brave">Choose the search engine you would like to use by default when searching the web from the address bar.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_DESC" desc="Explainer text about search engines in Dissenter">Choose the search engine you would like to use by default when searching the web from the address bar.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_BUTTON" desc="Button to open the preferences page for search">Settings</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_THEME_TITLE" desc="Welcome message title for theming">Choose your color theme</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_THEME_DESC" desc="Explainer text about theminng in Brave">Set the color of your toolbar by selecting the light or dark option from the settings panel.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_THEME_DESC" desc="Explainer text about theminng in Dissenter">Set the color of your toolbar by selecting the light or dark option from the settings panel.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_THEME_BUTTON" desc="Button to open the theming page">Choose your theme</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SKIP_BUTTON" desc="Button to skip the welcome tour and go to the new tab page">Skip welcome tour</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_NEXT_BUTTON" desc="Button to move to the next slide of the welcome tour">Next</message>
@@ -290,7 +290,7 @@
       <!-- WebUI brave ui resources -->
       <message name="IDS_BRAVE_UI_ABOUT" desc="">about</message>
       <message name="IDS_BRAVE_UI_ACCEPT" desc="">Accept</message>
-      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc="">©2016–2018 Brave Software. Brave is a registered trademark of Brave Software. Site names may be trademarks or registered trademarks of the site owner.</message>
+      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc="">©2016–2019 Gab AI, Inc. Dissenter is a registered trademark of Gab AI. Site names may be trademarks or registered trademarks of the site owner.</message>
       <message name="IDS_BRAVE_UI_ACTIVITY_NOTE" desc="">To protect your privacy, this Brave Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Brave in the event of data loss on your device.</message>
       <message name="IDS_BRAVE_UI_ADD_FUNDS" desc="">add funds</message>
       <message name="IDS_BRAVE_UI_AUTO_TIP_TEXT" desc="">You are automatically sending a tip to:</message>
@@ -429,7 +429,7 @@
       <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_ATTENTION_SCORE" desc="">Attention</message>
       <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_TEXT1" desc="">You’re currently supporting</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT2" desc="">without your consent.</message>
-      <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT3" desc="">Today, Brave welcomes you to the new internet.</message>
+      <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT3" desc="">Today, Dissenter welcomes you to the new internet.</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT4" desc="">One where your time is valued, your personal data is kept private, and you actually get paid for your attention.</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT5" desc="">With your old browser, you paid to browse the web by viewing ads with your valuable attention. You spent your valuable time downloading invasive ad technology that transmitted your valuable private data to advertisers — without your consent.</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT1" desc="">Sadly, no tokens yet.</message>

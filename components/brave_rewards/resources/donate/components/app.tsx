@@ -8,7 +8,7 @@ import { connect } from 'react-redux'
 
 // Components
 import Banner from './siteBanner'
-import DonationOverlay from 'brave-ui/features/rewards/donationOverlay'
+import DonationOverlay from 'dissenter-ui/features/rewards/donationOverlay'
 
 // Utils
 import * as rewardsActions from '../actions/donate_actions'

@@ -9,8 +9,8 @@ import {
   PanelWelcome,
   WalletPanelDisabled,
   WalletWrapper
-} from 'brave-ui/features/rewards'
-import { BatColorIcon, WalletAddIcon } from 'brave-ui/components/icons'
+} from 'dissenter-ui/features/rewards'
+import { BatColorIcon, WalletAddIcon } from 'dissenter-ui/components/icons'
 
 // Components
 import Panel from './panel'

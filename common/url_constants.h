@@ -16,6 +16,6 @@ extern const char kWidevineTOS[];
 // |kDownloadChromeUrl| couldn't be replaced with char array because array
 // should be initialized with initialize list or string literal.
 // So, this macro is used.
-#define kDownloadBraveUrl "https://www.brave.com/download"
+#define kDownloadBraveUrl "https://www.dissenter.com/download"
 
 #endif  // BRAVE_COMMON_URL_CONSTANTS_H_

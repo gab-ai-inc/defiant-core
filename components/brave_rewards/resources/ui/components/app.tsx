@@ -11,7 +11,7 @@ import SettingsPage from './settingsPage'
 
 // Utils
 import * as rewardsActions from '../actions/rewards_actions'
-import { WelcomePage } from 'brave-ui/features/rewards'
+import { WelcomePage } from 'dissenter-ui/features/rewards'
 
 interface Props extends Rewards.ComponentProps {
 }
