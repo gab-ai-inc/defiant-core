@@ -3,7 +3,7 @@ use_relative_paths = True
 deps = {
   "vendor/ad-block": "https://github.com/brave/ad-block.git@11ab48c4b2bd5355e789d4c87005ab2c14eecc09",
   "vendor/autoplay-whitelist": "https://github.com/brave/autoplay-whitelist.git@458053a3c95b403cbe0872f289a2aafa106ee9d8",
-  "vendor/extension-whitelist": "https://github.com/gab-ai-inc/defiant-extension-whitelist.git@6e074e9ecc5c250e251a0d4d868616d7ef1078fe",
+  "vendor/extension-whitelist": "https://github.com/gab-ai-inc/defiant-extension-list.git@02ba9f628126b11f041818d90bc5ce72328ece4f",
   "vendor/tracking-protection": "https://github.com/brave/tracking-protection.git@29b1f86b11a8c7438fd7d57b446a77a84946712a",
   "vendor/hashset-cpp": "https://github.com/brave/hashset-cpp.git@4b55fe39bb25bb0d8b11a43d547d75f00c6c46fb",
   "vendor/bloom-filter-cpp": "https://github.com/brave/bloom-filter-cpp.git@9be5c63b14e094156e00c8b28f205e7794f0b92c",
