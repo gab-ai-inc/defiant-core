@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Modal, AlertBox } from 'brave-ui'
+import { Modal, AlertBox } from 'dissenter-ui'
 
 // Feature-specific components
 import {

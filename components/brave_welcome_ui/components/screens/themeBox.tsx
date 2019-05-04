@@ -8,7 +8,7 @@ import * as React from 'react'
 import { Content, Title, Paragraph } from 'dissenter-ui/features/welcome'
 
 // Shared components
-import { Button } from 'brave-ui'
+import { Button } from 'dissenter-ui'
 
 // Images
 import { WelcomeThemeImage } from 'dissenter-ui/features/welcome/images'

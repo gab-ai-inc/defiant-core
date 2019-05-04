@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Button, Modal } from 'brave-ui'
+import { Button, Modal } from 'dissenter-ui'
 import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Feature-specific components

@@ -5,7 +5,7 @@
 import * as React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { initLocale } from 'brave-ui'
+import { initLocale } from 'dissenter-ui'
 import { bindActionCreators } from 'redux'
 require('emptykit.css')
 

@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Button, AlertBox } from 'brave-ui'
+import { Button, AlertBox } from 'dissenter-ui'
 import { CloseCircleIcon } from 'dissenter-ui/components/icons'
 import Table, { Cell, Row } from 'dissenter-ui/components/dataTables/table'
 import { Toggle } from 'dissenter-ui/features/shields'
