@@ -56,6 +56,7 @@
       <include name="IDR_DISSENTER_EXTENSION_ICON_TOPSITES" file="dissenter_extension/assets/images/icons/top-sites.svg" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_ICON_UPVOTE" file="dissenter_extension/assets/images/icons/upvote.svg" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_ICON_YAHOO" file="dissenter_extension/assets/images/icons/yahoo.svg" type="BINDATA" />
+      <include name="IDR_DISSENTER_EXTENSION_ICON_QWANT" file="dissenter_extension/assets/images/icons/qwant.svg" type="BINDATA" />
 
     </includes>
   </release>
