@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/gcapi/gcapi.cc b/chrome/installer/gcapi/gcapi.cc
-index 77c15b7f2e822afeb855e3c0bc75556a53c74c54..44d120f5aba56b1d41d617fe82732907cfc6a6e1 100644
+index 77c15b7f2e822afeb855e3c0bc75556a53c74c54..26ee42f7362ab78726d160ebcdec0b3865a8119e 100644
 --- a/chrome/installer/gcapi/gcapi.cc
 +++ b/chrome/installer/gcapi/gcapi.cc
 @@ -56,6 +56,16 @@ using base::win::ScopedHandle;
@@ -7,7 +7,7 @@ index 77c15b7f2e822afeb855e3c0bc75556a53c74c54..44d120f5aba56b1d41d617fe82732907
  namespace {
  
 +#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+const wchar_t kGCAPITempKey[] = L"Software\\BraveSoftware\\GCAPITemp";
++const wchar_t kGCAPITempKey[] = L"Software\\GabAI\\GCAPITemp";
 +const wchar_t kChromeRegVersion[] = L"pv";
 +const wchar_t kNoChromeOfferUntil[] =
 +    L"SOFTWARE\\GabAI\\No Chrome Offer Until";

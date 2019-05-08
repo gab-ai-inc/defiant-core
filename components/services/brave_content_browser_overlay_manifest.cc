@@ -15,9 +15,9 @@ const service_manager::Manifest& GetBraveContentBrowserOverlayManifest() {
   static base::NoDestructor<service_manager::Manifest> manifest{
       service_manager::ManifestBuilder()
           .WithServiceName("content_browser")
-          .WithDisplayName("Brave")
-          .RequireCapability("bat_ads", "bat_ads")
-          .RequireCapability("bat_ledger", "bat_ledger")
+          .WithDisplayName("Dissenter")
+//          .RequireCapability("bat_ads", "bat_ads")
+//          .RequireCapability("bat_ledger", "bat_ledger")
           .RequireCapability("tor_launcher", "tor_launcher")
           .Build()};
   return *manifest;
