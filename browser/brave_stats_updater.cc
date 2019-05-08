@@ -93,6 +93,8 @@ BraveStatsUpdater::~BraveStatsUpdater() {
 }
 
 void BraveStatsUpdater::Start() {
+  // Dissenter: Disable this entirely.
+  return;
   // Startup timer, only initiated once we've checked for a promo
   // code.
   DCHECK(!server_ping_startup_timer_);
@@ -158,6 +160,8 @@ void BraveStatsUpdater::OnSimpleLoaderComplete(
 }
 
 void BraveStatsUpdater::OnServerPingTimerFired() {
+  // Dissenter: Make sure this never happens.
+  return;
   // If we already pinged the stats server today, then we're done.
   std::string today_ymd = brave::GetDateAsYMD(base::Time::Now());
   std::string last_check_ymd = pref_service_->GetString(kLastCheckYMD);
@@ -179,6 +183,8 @@ void BraveStatsUpdater::StartServerPingStartupTimer() {
 }
 
 void BraveStatsUpdater::SendServerPing() {
+  // Dissenter: Don't.
+  return;
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("brave_stats_updater", R"(
         semantics {
