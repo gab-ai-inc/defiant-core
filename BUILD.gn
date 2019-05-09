@@ -71,8 +71,7 @@ if (is_mac) {
     # the chrome_framework target so we add it here
     public_configs = [ ":rust_link" ]
     deps = [
-      "components/brave_extension/extension/brave_extension:brave_extension_framework_bundle_data",
-      "components/dissenter_extension/extension/dissenter_extension:dissenter_extension_framework_bundle_data",
+      "components/brave_extension/extension/brave_extension:brave_extension_framework_bundle_data"
     ]
     if (brave_rewards_enabled) {
       deps += [
