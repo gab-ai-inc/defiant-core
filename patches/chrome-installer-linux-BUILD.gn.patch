@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/linux/BUILD.gn b/chrome/installer/linux/BUILD.gn
-index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f29982666929f 100644
+index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..182a361f6b354acead877a35a41d6f07880201e4 100644
 --- a/chrome/installer/linux/BUILD.gn
 +++ b/chrome/installer/linux/BUILD.gn
 @@ -27,8 +27,8 @@ declare_args() {
@@ -8,8 +8,8 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
  packaging_files_executables = [
 -  "$root_out_dir/chrome",
 -  "$root_out_dir/chrome_sandbox",
-+  "$root_out_dir/brave",
-+  "$root_out_dir/brave_sandbox",
++  "$root_out_dir/dissenter",
++  "$root_out_dir/dissenter_sandbox",
  ]
  packaging_files_shlibs = []
  
@@ -18,7 +18,7 @@ index 05e0c5f9f789e140989b16e9a4347b4fd4d11e1f..403bc4300d732211fdbc1fc9fe3f2998
  
  action("strip_chrome_binary") {
 -  prog_name = "$root_out_dir/chrome"
-+  prog_name = "$root_out_dir/brave"
++  prog_name = "$root_out_dir/dissenter"
    debug_file = prog_name + ".debug"
    stripped_file = prog_name + ".stripped"
    deps = [
