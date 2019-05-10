@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/gcapi/google_update_util.cc b/chrome/installer/gcapi/google_update_util.cc
-index 53a42d799992b4530c8a78513350cf501bcd0e97..15a695cce54d7d15eefbfcf3efd94359d234cccb 100644
+index 53a42d799992b4530c8a78513350cf501bcd0e97..d79b3eb66f86b086f13bd80f0d369c4d209671a3 100644
 --- a/chrome/installer/gcapi/google_update_util.cc
 +++ b/chrome/installer/gcapi/google_update_util.cc
 @@ -11,6 +11,17 @@
@@ -9,13 +9,13 @@ index 53a42d799992b4530c8a78513350cf501bcd0e97..15a695cce54d7d15eefbfcf3efd94359
 +#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
 +const wchar_t kChromeRegClientsKey[] =
 +    L"Software\\GabAI\\Update\\Clients\\"
-+    L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
++    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
 +const wchar_t kChromeRegClientStateKey[] =
 +    L"Software\\GabAI\\Update\\ClientState\\"
-+    L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
++    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
 +const wchar_t kChromeRegClientStateMediumKey[] =
 +    L"Software\\BraveSGabAIoftware\\Update\\ClientStateMedium\\"
-+    L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
++    L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
 +#else
  const wchar_t kChromeRegClientsKey[] =
      L"Software\\Google\\Update\\Clients\\"
