@@ -159,6 +159,8 @@ source_set("ui") {
       "//brave/browser/resources/md_extensions:resources",
       "//brave/components/brave_extension:static_resources",
       "//brave/components/brave_extension:generated_resources",
+      "//brave/components/dissenter_extension:static_resources",
+      "//brave/components/dissenter_extension:generated_resources",
       "//chrome/browser/extensions",
       "//extensions/browser",
     ]

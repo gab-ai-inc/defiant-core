@@ -46,6 +46,8 @@ source_set("extensions") {
     "//brave/common/extensions/api",
     "//brave/components/brave_extension:static_resources",
     "//brave/components/brave_extension:generated_resources",
+    "//brave/components/dissenter_extension:static_resources",
+    "//brave/components/dissenter_extension:generated_resources",
     "//brave/components/brave_sync",
     "//brave/components/brave_sync:generated_resources",
     "//brave/components/brave_sync:static_resources",
