@@ -7,10 +7,9 @@
 
 #include <memory>
 
+#include "base/memory/ptr_util.h"
 #include "brave/browser/ui/webui/brave_adblock_ui.h"
-#include "brave/browser/ui/webui/brave_md_settings_ui.h"
 #include "brave/browser/ui/webui/brave_new_tab_ui.h"
-#include "brave/browser/ui/webui/brave_welcome_ui.h"
 #include "brave/browser/ui/webui/sync/sync_ui.h"
 #include "brave/common/webui_url_constants.h"
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
@@ -18,8 +17,13 @@
 #include "chrome/common/url_constants.h"
 #include "url/gurl.h"
 
+#if !defined(OS_ANDROID)
+#include "brave/browser/ui/webui/brave_md_settings_ui.h"
+#include "brave/browser/ui/webui/brave_welcome_ui.h"
+#endif
+
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
-#include "brave/browser/ui/webui/brave_donate_ui.h"
+#include "brave/browser/ui/webui/brave_tip_ui.h"
 #include "brave/browser/ui/webui/brave_rewards_internals_ui.h"
 #include "brave/browser/ui/webui/brave_rewards_ui.h"
 #endif
@@ -52,15 +56,19 @@ WebUIController* NewWebUI<BasicUI>(WebUI* web_ui, const GURL& url) {
     return new BraveRewardsUI(web_ui, url.host());
   } else if (host == kRewardsInternalsHost) {
     return new BraveRewardsInternalsUI(web_ui, url.host());
-  } else if (host == kDonateHost) {
-    return new BraveDonateUI(web_ui, url.host());
+  } else if (host == kTipHost) {
+    return new BraveTipUI(web_ui, url.host());
 #endif
+#if !defined(OS_ANDROID)
   } else if (host == kWelcomeHost) {
     return new BraveWelcomeUI(web_ui, url.host());
+#endif
   } else if (host == chrome::kChromeUINewTabHost) {
     return new BraveNewTabUI(web_ui, url.host());
+#if !defined(OS_ANDROID)
   } else if (host == chrome::kChromeUISettingsHost) {
     return new BraveMdSettingsUI(web_ui, url.host());
+#endif
   }
   return nullptr;
 }
@@ -74,7 +82,7 @@ WebUIFactoryFunction GetWebUIFactoryFunction(WebUI* web_ui,
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
       url.host_piece() == kRewardsHost ||
       url.host_piece() == kRewardsInternalsHost ||
-      url.host_piece() == kDonateHost ||
+      url.host_piece() == kTipHost ||
 #endif
       url.host_piece() == kWelcomeHost ||
       url.host_piece() == chrome::kChromeUIWelcomeURL ||

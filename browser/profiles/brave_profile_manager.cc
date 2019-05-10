@@ -10,7 +10,7 @@
 
 #include "base/metrics/histogram_macros.h"
 #include "brave/browser/brave_browser_process_impl.h"
-#include "brave/browser/extensions/brave_tor_client_updater.h"
+#include "brave/browser/tor/buildflags.h"
 #include "brave/browser/tor/tor_profile_service.h"
 #include "brave/browser/tor/tor_profile_service_factory.h"
 #include "brave/common/tor/pref_names.h"
@@ -27,11 +27,16 @@
 #include "chrome/grit/generated_resources.h"
 #include "components/bookmarks/common/bookmark_pref_names.h"
 #include "components/prefs/pref_service.h"
+#include "components/safe_browsing/common/safe_browsing_prefs.h"
 #include "components/signin/core/browser/signin_pref_names.h"
 #include "content/public/browser/browser_thread.h"
 #include "content/public/browser/url_data_source.h"
 #include "content/public/common/webrtc_ip_handling_policy.h"
 #include "ui/base/l10n/l10n_util.h"
+
+#if BUILDFLAG(ENABLE_TOR)
+#include "brave/browser/extensions/brave_tor_client_updater.h"
+#endif
 
 using content::BrowserThread;
 
@@ -59,6 +64,7 @@ void BraveProfileManager::InitTorProfileUserPrefs(Profile* profile) {
   pref_service->SetBoolean(tor::prefs::kProfileUsingTor, true);
   pref_service->SetString(prefs::kWebRTCIPHandlingPolicy,
                           content::kWebRTCIPHandlingDisableNonProxiedUdp);
+  pref_service->SetBoolean(prefs::kSafeBrowsingEnabled, false);
 }
 
 void BraveProfileManager::InitProfileUserPrefs(Profile* profile) {
@@ -113,6 +119,9 @@ void BraveProfileManager::DoFinalInitForServices(Profile* profile,
 }
 
 void BraveProfileManager::LaunchTorProcess(Profile* profile) {
+  // TODO(bridiver) - this should all go inside the Tor Service and just
+  // call LaunchTor()
+#if BUILDFLAG(ENABLE_TOR)
   tor::TorProfileService* tor_profile_service =
     TorProfileServiceFactory::GetForProfile(profile);
   if (tor_profile_service->GetTorPid() < 0) {
@@ -123,6 +132,7 @@ void BraveProfileManager::LaunchTorProcess(Profile* profile) {
     tor::TorConfig config(path, proxy);
     tor_profile_service->LaunchTor(config);
   }
+#endif
 }
 
 // This overridden method doesn't clear |kDefaultSearchProviderDataPrefName|.

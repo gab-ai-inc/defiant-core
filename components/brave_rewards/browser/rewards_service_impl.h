@@ -13,6 +13,7 @@
 #include <utility>
 #include <vector>
 
+#include "base/containers/flat_set.h"
 #include "bat/ledger/ledger.h"
 #include "bat/ledger/wallet_info.h"
 #include "base/files/file_path.h"
@@ -26,7 +27,6 @@
 #include "extensions/buildflags/buildflags.h"
 #include "extensions/common/one_shot_event.h"
 #include "mojo/public/cpp/bindings/associated_binding.h"
-#include "net/url_request/url_fetcher_delegate.h"
 #include "brave/components/brave_rewards/browser/balance_report.h"
 #include "brave/components/brave_rewards/browser/content_site.h"
 #include "brave/components/brave_rewards/browser/contribution_info.h"
@@ -54,11 +54,13 @@ namespace leveldb {
 class DB;
 }  // namespace leveldb
 
-namespace net {
-class URLFetcher;
-}  // namespace net
+namespace network {
+class SimpleURLLoader;
+}  // namespace network
+
 
 class Profile;
+class BraveRewardsBrowserTest;
 
 namespace brave_rewards {
 
@@ -69,11 +71,14 @@ using GetProductionCallback = base::Callback<void(bool)>;
 using GetDebugCallback = base::Callback<void(bool)>;
 using GetReconcileTimeCallback = base::Callback<void(int32_t)>;
 using GetShortRetriesCallback = base::Callback<void(bool)>;
+using GetTestResponseCallback =
+    base::Callback<void(const std::string&,
+                        std::string*,
+                        std::map<std::string, std::string>*)>;
 
 class RewardsServiceImpl : public RewardsService,
-                            public ledger::LedgerClient,
-                            public net::URLFetcherDelegate,
-                            public base::SupportsWeakPtr<RewardsServiceImpl> {
+                           public ledger::LedgerClient,
+                           public base::SupportsWeakPtr<RewardsServiceImpl> {
  public:
   explicit RewardsServiceImpl(Profile* profile);
   ~RewardsServiceImpl() override;
@@ -215,8 +220,8 @@ class RewardsServiceImpl : public RewardsService,
   void StartAutoContributeForTest();
 
  private:
-  friend class RewardsServiceTest;
   FRIEND_TEST_ALL_PREFIXES(RewardsServiceTest, OnWalletProperties);
+  friend class ::BraveRewardsBrowserTest;
 
   const extensions::OneShotEvent& ready() const { return ready_; }
   void OnLedgerStateSaved(ledger::LedgerCallbackHandler* handler,
@@ -266,9 +271,9 @@ class RewardsServiceImpl : public RewardsService,
                                   const std::string& value);
   void OnResetState(ledger::OnResetCallback callback,
                                  bool success);
-  void OnDonate_PublisherInfoSaved(ledger::Result result,
+  void OnTipPublisherInfoSaved(ledger::Result result,
                                    std::unique_ptr<ledger::PublisherInfo> info);
-  void OnDonate(const std::string& publisher_key,
+  void OnTip(const std::string& publisher_key,
                 int amount,
                 bool recurring,
                 const ledger::PublisherInfo* publisher_info = NULL) override;
@@ -292,7 +297,7 @@ class RewardsServiceImpl : public RewardsService,
       std::unique_ptr<ledger::PublisherInfoList> list);
   void OnWalletProperties(ledger::Result result,
                           std::unique_ptr<ledger::WalletInfo> info) override;
-  void OnDonate(const std::string& publisher_key, int amount, bool recurring,
+  void OnTip(const std::string& publisher_key, int amount, bool recurring,
       std::unique_ptr<brave_rewards::ContentSite> site) override;
 
   void DeleteActivityInfo(const std::string& publisher_key);
@@ -435,8 +440,9 @@ class RewardsServiceImpl : public RewardsService,
       ledger::GetExcludedPublishersNumberDBCallback callback,
       int number);
 
-  // URLFetcherDelegate impl
-  void OnURLFetchComplete(const net::URLFetcher* source) override;
+  void OnURLLoaderComplete(network::SimpleURLLoader* loader,
+                           ledger::LoadURLCallback callback,
+                           std::unique_ptr<std::string> response_body);
 
   void StartNotificationTimers(bool main_enabled);
   void StopNotificationTimers();
@@ -500,7 +506,7 @@ class RewardsServiceImpl : public RewardsService,
 #endif
 
   extensions::OneShotEvent ready_;
-  std::map<const net::URLFetcher*, ledger::LoadURLCallback> fetchers_;
+  base::flat_set<network::SimpleURLLoader*> url_loaders_;
   std::map<uint32_t, std::unique_ptr<base::OneShotTimer>> timers_;
   std::vector<std::string> current_media_fetchers_;
   std::vector<BitmapFetcherService::RequestId> request_ids_;
@@ -508,6 +514,8 @@ class RewardsServiceImpl : public RewardsService,
   std::unique_ptr<base::RepeatingTimer> notification_periodic_timer_;
 
   uint32_t next_timer_id_;
+
+  GetTestResponseCallback test_response_callback_;
 
   DISALLOW_COPY_AND_ASSIGN(RewardsServiceImpl);
 };
