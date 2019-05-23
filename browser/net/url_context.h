@@ -71,12 +71,13 @@ struct BraveRequestInfo {
   scoped_refptr<net::HttpResponseHeaders>* override_response_headers = nullptr;
   GURL* allowed_unsafe_redirect_url = nullptr;
   BraveNetworkDelegateEventType event_type = kUnknownEventType;
-  const base::ListValue* referral_headers_list = nullptr;
   BlockedBy blocked_by = kNotBlocked;
   bool cancel_request_explicitly = false;
   // Default to invalid type for resource_type, so delegate helpers
   // can properly detect that the info couldn't be obtained.
-  content::ResourceType resource_type = content::RESOURCE_TYPE_LAST_TYPE;
+  static constexpr content::ResourceType kInvalidResourceType =
+      static_cast<content::ResourceType>(-1);
+  content::ResourceType resource_type = kInvalidResourceType;
 
   static void FillCTXFromRequest(const net::URLRequest* request,
     std::shared_ptr<brave::BraveRequestInfo> ctx);

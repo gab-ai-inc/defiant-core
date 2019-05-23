@@ -1,0 +1,12 @@
+diff --git a/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc b/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
+index dd095e0a904436062eeff1cfd65486b3bac430eb..22739aed04cdd7db186f7e6692992408dcb2a0b1 100644
+--- a/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
++++ b/chrome/browser/ui/webui/bookmarks/bookmarks_ui.cc
+@@ -45,6 +45,7 @@ content::WebUIDataSource* CreateBookmarksUIHTMLSource(Profile* profile) {
+   content::WebUIDataSource* source =
+       content::WebUIDataSource::Create(chrome::kChromeUIBookmarksHost);
+ 
++  BraveCustomizeBookmarksDataSource(source);
+   // Build an Accelerator to describe undo shortcut
+   // NOTE: the undo shortcut is also defined in bookmarks/command_manager.js
+   // TODO(crbug/893033): de-duplicate shortcut by moving all shortcut

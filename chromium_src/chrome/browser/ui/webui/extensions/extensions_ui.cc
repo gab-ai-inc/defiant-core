@@ -3,8 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
-#include "brave/browser/resources/md_extensions/grit/brave_extensions_resources.h"
-#include "brave/browser/resources/md_extensions/grit/brave_extensions_resources_map.h"
+#include "brave/browser/resources/extensions/grit/brave_extensions_resources.h"
+#include "brave/browser/resources/extensions/grit/brave_extensions_resources_map.h"
+#include "brave/browser/ui/webui/navigation_bar_data_provider.h"
 #include "brave/grit/brave_generated_resources.h"
 #include "chrome/common/buildflags.h"
 #include "chrome/grit/generated_resources.h"
@@ -23,6 +24,7 @@ void BraveAddExtensionsResources(content::WebUIDataSource* source) {
                             kBraveExtensionsResources[i].value);
   }
 #endif
+  NavigationBarDataProvider::Initialize(source);
 }
 
 }  // namespace

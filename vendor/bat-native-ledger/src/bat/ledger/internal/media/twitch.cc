@@ -7,11 +7,11 @@
 #include <cmath>
 #include <utility>
 #include <vector>
-#include <iostream>
 
 #include "bat/ledger/internal/bat_helper.h"
 #include "bat/ledger/internal/ledger_impl.h"
 #include "bat/ledger/internal/media/twitch.h"
+#include "net/http/http_status_code.h"
 
 using std::placeholders::_1;
 using std::placeholders::_2;
@@ -178,7 +178,6 @@ std::string MediaTwitch::GetLinkType(const std::string& url,
       braveledger_bat_helper::HasSameDomainAndPath(
                                   url, "ttvnw.net", "/v1/segment/");
 
-  std::cout << is_valid_twitch_path << first_party_url;
   if (
     (
       (first_party_url.find("https://www.twitch.tv/") == 0 ||
@@ -372,7 +371,7 @@ void MediaTwitch::OnMediaPublisherInfo(
     const uint64_t window_id,
     const std::string& user_id,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
   if (result != ledger::Result::LEDGER_OK &&
       result != ledger::Result::NOT_FOUND) {
     BLOG(ledger_, ledger::LogLevel::LOG_ERROR)
@@ -380,7 +379,7 @@ void MediaTwitch::OnMediaPublisherInfo(
     return;
   }
 
-  if (!publisher_info && !publisher_info.get()) {
+  if (!publisher_info) {
     if (media_id.empty()) {
       return;
     }
@@ -501,7 +500,7 @@ void MediaTwitch::OnEmbedResponse(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     // TODO(anyone): add error handler
     return;
   }
@@ -533,7 +532,7 @@ void MediaTwitch::OnMediaPublisherActivity(
     const std::string& media_id,
     const std::string& publisher_blob,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info) {
+    ledger::PublisherInfoPtr info) {
   if (result != ledger::Result::LEDGER_OK &&
     result != ledger::Result::NOT_FOUND) {
     OnMediaActivityError(visit_data, window_id);
@@ -585,7 +584,7 @@ void MediaTwitch::OnPublisherInfo(
     const std::string& media_id,
     const std::string& publisher_blob,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
   if (result != ledger::Result::LEDGER_OK  &&
     result != ledger::Result::NOT_FOUND) {
     OnMediaActivityError(visit_data, window_id);

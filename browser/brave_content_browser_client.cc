@@ -17,6 +17,7 @@
 #include "brave/browser/renderer_host/brave_navigation_ui_data.h"
 #include "brave/browser/tor/buildflags.h"
 #include "brave/common/brave_cookie_blocking.h"
+#include "brave/common/brave_switches.h"
 #include "brave/common/tor/switches.h"
 #include "brave/common/tor/tor_launcher.mojom.h"
 #include "brave/common/webui_url_constants.h"
@@ -38,6 +39,7 @@
 #include "chrome/common/url_constants.h"
 #include "components/content_settings/core/browser/cookie_settings.h"
 #include "components/services/heap_profiling/public/mojom/heap_profiling_client.mojom.h"
+#include "components/version_info/version_info.h"
 #include "content/browser/frame_host/render_frame_host_impl.h"
 #include "content/public/browser/browser_context.h"
 #include "content/public/browser/browser_task_traits.h"
@@ -116,9 +118,8 @@ bool HandleURLRewrite(GURL* url, content::BrowserContext* browser_context) {
 
 }  // namespace
 
-BraveContentBrowserClient::BraveContentBrowserClient(
-    ChromeFeatureListCreator* chrome_feature_list_creator)
-    : ChromeContentBrowserClient(chrome_feature_list_creator) {}
+BraveContentBrowserClient::BraveContentBrowserClient(StartupData* startup_data)
+    : ChromeContentBrowserClient(startup_data) {}
 
 BraveContentBrowserClient::~BraveContentBrowserClient() {}
 
@@ -228,7 +229,9 @@ bool BraveContentBrowserClient::HandleExternalProtocol(
     ui::PageTransition page_transition,
     bool has_user_gesture,
     const std::string& method,
-    const net::HttpRequestHeaders& headers) {
+    const net::HttpRequestHeaders& headers,
+    network::mojom::URLLoaderFactoryRequest* factory_request,
+    network::mojom::URLLoaderFactory*& out_factory) {  // NOLINT
 #if BUILDFLAG(ENABLE_BRAVE_WEBTORRENT)
   if (webtorrent::HandleMagnetProtocol(url, web_contents_getter,
                                        page_transition, has_user_gesture)) {
@@ -238,7 +241,8 @@ bool BraveContentBrowserClient::HandleExternalProtocol(
 
   return ChromeContentBrowserClient::HandleExternalProtocol(
       url, web_contents_getter, child_id, navigation_data, is_main_frame,
-      page_transition, has_user_gesture, method, headers);
+      page_transition, has_user_gesture, method, headers, factory_request,
+      out_factory);
 }
 
 void BraveContentBrowserClient::RegisterOutOfProcessServices(
@@ -344,4 +348,13 @@ GURL BraveContentBrowserClient::GetEffectiveURL(
 #else
   return url;
 #endif
+}
+
+std::string BraveContentBrowserClient::GetUserAgent() const {
+  if (base::CommandLine::ForCurrentProcess()->HasSwitch(
+          switches::kDisableOverrideUA))
+    return ChromeContentBrowserClient::GetUserAgent();
+
+  return ChromeContentBrowserClient::GetUserAgent() +
+      " Brave/" + version_info::GetMajorVersionNumber();
 }

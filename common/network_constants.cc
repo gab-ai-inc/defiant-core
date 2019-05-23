@@ -55,9 +55,6 @@ const char kTwitterRedirectURL[] = "https://mobile.twitter.com/i/nojs_router*";
 const char kCookieHeader[] = "Cookie";
 // Intentional misspelling on referrer to match HTTP spec
 const char kRefererHeader[] = "Referer";
-const char kUserAgentHeader[] = "User-Agent";
-// Dissenter: We will not identify our users in any way.
-//const char kBravePartnerHeader[] = "X-Brave-Partner";
 
 const char kBittorrentMimeType[] = "application/x-bittorrent";
 const char kOctetStreamMimeType[] = "application/octet-stream";

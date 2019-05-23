@@ -39,10 +39,6 @@
 #include "services/network/public/cpp/resource_request.h"
 #include "services/network/public/cpp/simple_url_loader.h"
 
-// Fetch headers from the referral server once a day.
-// Dissenter: This is now unused.
-//const int kFetchReferralHeadersFrequency = 60 * 60 * 24;
-
 // Maximum size of the referral server response in bytes.
 const int kMaxReferralServerResponseSizeBytes = 1024 * 1024;
 
@@ -68,11 +64,11 @@ std::string GetPlatformIdentifier() {
 }
 
 std::string BuildReferralEndpoint(const std::string& path) {
-  std::unique_ptr<base::Environment> env(base::Environment::Create());
-  std::string referral_server;
-  env->GetVar("BRAVE_REFERRALS_SERVER", &referral_server);
-  if (referral_server.empty())
-    referral_server = kBraveReferralsServer;
+  //std::unique_ptr<base::Environment> env(base::Environment::Create());
+  //std::string referral_server;
+  //env->GetVar("BRAVE_REFERRALS_SERVER", &referral_server);
+  //if (referral_server.empty())
+  //  referral_server = kBraveReferralsServer;
   // Dissenter: Ensure Brave Refferal activity is disabled by redirection.
   return base::StringPrintf("https://%s/", "0.0.0.0");
   //return base::StringPrintf("https://%s%s", referral_server.c_str(),
@@ -95,29 +91,14 @@ BraveReferralsService::~BraveReferralsService() {
 }
 
 void BraveReferralsService::Start() {
-  if (initialized_)
-    return;
+  // Dissenter: Never start.
+  //if (initialized_)
+  return;
 
   // Retrieve first run sentinel creation time.
   task_runner_->PostTask(FROM_HERE,
                          base::Bind(&BraveReferralsService::GetFirstRunTime,
                                     base::Unretained(this)));
-
-  // Fetch the referral headers on startup.
-  // Dissenter: Don't.
-  // FetchReferralHeaders();
-
-  // Also, periodically fetch the referral headers.
-  // Dissenter: Also, Don't.
-  /*
-  DCHECK(!fetch_referral_headers_timer_);
-  fetch_referral_headers_timer_ = std::make_unique<base::RepeatingTimer>();
-  fetch_referral_headers_timer_->Start(
-      FROM_HERE,
-      base::TimeDelta::FromSeconds(kFetchReferralHeadersFrequency +
-                                   base::RandInt(0, 60 * 10)),
-      this, &BraveReferralsService::OnFetchReferralHeadersTimerFired);
-  DCHECK(fetch_referral_headers_timer_->IsRunning());
 
   // On first run, read the promo code from user-data-dir and
   // initialize the referral.
@@ -136,78 +117,7 @@ void BraveReferralsService::Start() {
 }
 
 void BraveReferralsService::Stop() {
-  fetch_referral_headers_timer_.reset();
   initialized_ = false;
-}
-
-// static
-bool BraveReferralsService::GetMatchingReferralHeaders(
-    const base::ListValue& referral_headers_list,
-    const base::DictionaryValue** request_headers_dict,
-    const GURL& url) {
-  // If the domain for this request matches one of our target domains,
-  // set the associated custom headers.
-  // Dissenter: Don't.
-  return false;
-  for (const auto& headers_value : referral_headers_list) {
-    const base::Value* domains_list =
-        headers_value.FindKeyOfType("domains", base::Value::Type::LIST);
-    if (!domains_list) {
-      LOG(WARNING) << "Failed to retrieve 'domains' key from referral headers";
-      continue;
-    }
-    const base::Value* headers_dict =
-        headers_value.FindKeyOfType("headers", base::Value::Type::DICTIONARY);
-    if (!headers_dict) {
-      LOG(WARNING) << "Failed to retrieve 'headers' key from referral headers";
-      continue;
-    }
-    for (const auto& domain_value : domains_list->GetList()) {
-      URLPattern url_pattern(URLPattern::SCHEME_HTTPS |
-                             URLPattern::SCHEME_HTTP);
-      url_pattern.SetScheme("*");
-      url_pattern.SetHost(domain_value.GetString());
-      url_pattern.SetPath("/*");
-      url_pattern.SetMatchSubdomains(true);
-      if (!url_pattern.MatchesURL(url))
-        continue;
-      return headers_dict->GetAsDictionary(request_headers_dict);
-    }
-  }
-  return false;
-}
-
-void BraveReferralsService::OnFetchReferralHeadersTimerFired() {
-  // Dissenter: Don't.
-  //FetchReferralHeaders();
-}
-
-void BraveReferralsService::OnReferralHeadersLoadComplete(
-    std::unique_ptr<std::string> response_body) {
-  int response_code = -1;
-  if (referral_headers_loader_->ResponseInfo() &&
-      referral_headers_loader_->ResponseInfo()->headers)
-    response_code =
-        referral_headers_loader_->ResponseInfo()->headers->response_code();
-  if (referral_headers_loader_->NetError() != net::OK || response_code < 200 ||
-      response_code > 299) {
-    const std::string safe_response_body =
-        response_body ? *response_body : std::string();
-    LOG(ERROR) << "Failed to fetch headers from referral server"
-               << ", error: " << referral_headers_loader_->NetError()
-               << ", response code: " << response_code
-               << ", payload: " << safe_response_body
-               << ", url: " << referral_headers_loader_->GetFinalURL().spec();
-    return;
-  }
-
-  base::Optional<base::Value> root =
-      base::JSONReader().ReadToValue(*response_body);
-  if (!root || !root->is_list()) {
-    LOG(ERROR) << "Failed to parse referral headers response";
-    return;
-  }
-  pref_service_->Set(kReferralHeaders, root.value());
 }
 
 void BraveReferralsService::OnReferralInitLoadComplete(
@@ -242,11 +152,6 @@ void BraveReferralsService::OnReferralInitLoadComplete(
     return;
   }
 
-  const base::Value* headers = root->FindKey("headers");
-  if (headers) {
-    pref_service_->Set(kReferralHeaders, *headers);
-  }
-
   const base::Value* download_id = root->FindKey("download_id");
   pref_service_->SetString(kReferralDownloadID, download_id->GetString());
 
@@ -258,7 +163,6 @@ void BraveReferralsService::OnReferralInitLoadComplete(
               content::OpenURLParams open_url_params(gurl, content::Referrer(),
         WindowOpenDisposition::NEW_FOREGROUND_TAB,
         ui::PAGE_TRANSITION_AUTO_TOPLEVEL, false);
-    open_url_params.extra_headers = FormatExtraHeaders(headers, gurl);
     browser_displayer.browser()->OpenURL(open_url_params);
   }
 
@@ -456,49 +360,6 @@ std::string BraveReferralsService::BuildReferralFinalizationCheckPayload()
   return result;
 }
 
-void BraveReferralsService::FetchReferralHeaders() {
-  // Dissenter: No.
-  return;
-  net::NetworkTrafficAnnotationTag traffic_annotation =
-      net::DefineNetworkTrafficAnnotation(
-        "brave_referral_headers_fetcher", R"(
-        semantics {
-          sender:
-            "Brave Referrals Service"
-          description:
-            "Fetches referral headers from Brave."
-          trigger:
-            "An update timer indicates that it's time to fetch referral headers."
-          data: "Brave referral headers."
-          destination: WEBSITE
-        }
-        policy {
-          cookies_allowed: NO
-          setting:
-            "This feature cannot be disabled by settings."
-          policy_exception_justification:
-            "Not implemented."
-        })");
-  auto resource_request = std::make_unique<network::ResourceRequest>();
-  resource_request->url =
-      GURL(BuildReferralEndpoint(kBraveReferralsHeadersPath));
-  resource_request->load_flags =
-      net::LOAD_DO_NOT_SEND_COOKIES | net::LOAD_DO_NOT_SAVE_COOKIES |
-      net::LOAD_BYPASS_CACHE | net::LOAD_DISABLE_CACHE |
-      net::LOAD_DO_NOT_SEND_AUTH_DATA;
-  network::mojom::URLLoaderFactory* loader_factory =
-      g_browser_process->system_network_context_manager()
-          ->GetURLLoaderFactory();
-  referral_headers_loader_ = network::SimpleURLLoader::Create(
-      std::move(resource_request), traffic_annotation);
-  referral_headers_loader_->SetAllowHttpErrorResults(true);
-  referral_headers_loader_->DownloadToString(
-      loader_factory,
-      base::BindOnce(&BraveReferralsService::OnReferralHeadersLoadComplete,
-                     base::Unretained(this)),
-      kMaxReferralServerResponseSizeBytes);
-}
-
 void BraveReferralsService::InitReferral() {
   // Dissenter: No.
   /*
@@ -593,33 +454,6 @@ void BraveReferralsService::CheckForReferralFinalization() {
   */
 }
 
-std::string BraveReferralsService::FormatExtraHeaders(
-    const base::Value* referral_headers,
-    const GURL& url) {
-  // Dissenter: Return empty string.
-  if (true) // !referral_headers)
-    return std::string();
-
-  const base::ListValue* referral_headers_list = nullptr;
-  if (!referral_headers->GetAsList(&referral_headers_list))
-    return std::string();
-
-  const base::DictionaryValue* request_headers_dict = nullptr;
-  if (!GetMatchingReferralHeaders(*referral_headers_list, &request_headers_dict,
-                                  url))
-    return std::string();
-
-  std::string extra_headers;
-  for (const auto& it : request_headers_dict->DictItems()) {
-    extra_headers += base::StringPrintf("%s: %s\r\n", it.first.c_str(),
-                                        it.second.GetString().c_str());
-  }
-  if (!extra_headers.empty())
-    extra_headers += "\r\n";
-
-  return extra_headers;
-}
-
 ///////////////////////////////////////////////////////////////////////////////
 
 std::unique_ptr<BraveReferralsService> BraveReferralsServiceFactory(
@@ -634,7 +468,6 @@ void RegisterPrefsForBraveReferralsService(PrefRegistrySimple* registry) {
   registry->RegisterStringPref(kReferralTimestamp, std::string());
   registry->RegisterTimePref(kReferralAttemptTimestamp, base::Time());
   registry->RegisterIntegerPref(kReferralAttemptCount, 0);
-  registry->RegisterListPref(kReferralHeaders);
 }
 
 }  // namespace brave

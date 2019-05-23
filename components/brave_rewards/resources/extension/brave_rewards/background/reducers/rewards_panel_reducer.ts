@@ -5,21 +5,7 @@
 import { types } from '../../constants/rewards_panel_types'
 import * as storage from '../storage'
 import { getTabData } from '../api/tabs_api'
-
-function setBadgeText (state: RewardsExtension.State): void {
-  let text = ''
-
-  if (state && state.notifications) {
-    const count = Object.keys(state.notifications).length
-    if (count > 0) {
-      text = count.toString()
-    }
-  }
-
-  chrome.browserAction.setBadgeText({
-    text
-  })
-}
+import { setBadgeText } from '../browserAction'
 
 const getWindowId = (id: number) => {
   return `id_${id}`
@@ -90,7 +76,8 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
       const publisher = publishers[id]
       const validKey = publisher && publisher.publisher_key && publisher.publisher_key.length > 0
 
-      if (!publisher || (publisher && (publisher.tabUrl !== tab.url || !validKey))) {
+      if (!publisher || (publisher.tabUrl !== tab.url || !validKey)) {
+        // Invalid publisher for tab, re-fetch publisher.
         chrome.braveRewards.getPublisherData(
           tab.windowId,
           tab.url,
@@ -102,9 +89,20 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
         }
 
         publishers[id] = {
-          tabUrl: tab.url
+          tabUrl: tab.url,
+          tabId: tab.id
         }
+      } else if (publisher &&
+                 publisher.tabUrl === tab.url &&
+                 (publisher.tabId !== tab.id || payload.activeTabIsLoadingTriggered) &&
+                 validKey) {
+        // Valid match and either is a different tab with the same url,
+        // or the same tab but it has been unloaded and re-loaded.
+        // Set state.
+        setBadgeText(state, publisher.verified, tab.id)
+        publishers[id].tabId = tab.id
       }
+
       state = {
         ...state,
         publishers
@@ -120,6 +118,11 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
         delete publishers[id]
       } else {
         publishers[id] = { ...publishers[id], ...publisher }
+        const newPublisher = publishers[id]
+
+        if (newPublisher.tabId) {
+          setBadgeText(state, newPublisher.verified, newPublisher.tabId)
+        }
       }
 
       state = {
@@ -149,11 +152,13 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
         return
       }
 
-      const id = payload.id
-      let notifications: Record<number, RewardsExtension.Notification> = state.notifications
+      const id: string = payload.id
+      let notifications: Record<string, RewardsExtension.Notification> = state.notifications
 
-      if (!notifications) {
-        notifications = []
+      // Array check for previous version of state types
+      // (https://github.com/brave/brave-browser/issues/4344)
+      if (!notifications || Array.isArray(notifications)) {
+        notifications = {}
       }
 
       notifications[id] = {
@@ -368,7 +373,7 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
       break
     }
     case types.ON_ALL_NOTIFICATIONS: {
-      const list = payload.list
+      const list: RewardsExtension.Notification[] = payload.list
 
       if (!list) {
         break
@@ -377,8 +382,10 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
       let notifications: Record<number, RewardsExtension.Notification> = state.notifications
       let id = ''
 
-      if (!notifications) {
-        notifications = []
+      // Array check for previous version of state types
+      // (https://github.com/brave/brave-browser/issues/4344)
+      if (!notifications || Array.isArray(notifications)) {
+        notifications = {}
       }
 
       list.forEach((notification: RewardsExtension.Notification) => {
@@ -401,6 +408,29 @@ export const rewardsPanelReducer = (state: RewardsExtension.State | undefined, a
       }
 
       setBadgeText(state)
+      break
+    }
+
+    case types.ON_INIT: {
+      const tabs: chrome.tabs.Tab[] = payload.tabs
+
+      if (!tabs) {
+        break
+      }
+
+      const publishers: Record<string, RewardsExtension.Publisher> = state.publishers
+
+      tabs.forEach((tab) => {
+        const id = getWindowId(tab.windowId)
+        const publisher = publishers[id]
+
+        if (!publisher || publisher.tabId !== tab.id) {
+          return
+        }
+
+        setBadgeText(state, publisher.verified, publisher.tabId)
+      })
+
       break
     }
   }

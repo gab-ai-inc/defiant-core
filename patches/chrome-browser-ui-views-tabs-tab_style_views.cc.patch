@@ -1,0 +1,40 @@
+diff --git a/chrome/browser/ui/views/tabs/tab_style_views.cc b/chrome/browser/ui/views/tabs/tab_style_views.cc
+index 464249bcc81eeec81b89969fb85af88f212a06eb..25b6147a25e61d29aa4cfec86b0badc2486d239a 100644
+--- a/chrome/browser/ui/views/tabs/tab_style_views.cc
++++ b/chrome/browser/ui/views/tabs/tab_style_views.cc
+@@ -224,6 +224,7 @@ SkPath GM2TabStyle::GetPath(PathType path_type,
+   // When the radius shrinks, it leaves a gap between the bottom corners and the
+   // edge of the tab. Make sure we account for this - and for any adjustment we
+   // may have made to the location of the tab!
++  bottom_radius = 0;
+   const float corner_gap = (right - tab_right) - bottom_radius;
+ 
+   SkPath path;
+@@ -496,7 +497,7 @@ TabStyle::SeparatorBounds GM2TabStyle::GetSeparatorBounds(float scale) const {
+   separator_bounds.leading =
+       gfx::RectF(aligned_bounds.x() + corner_radius,
+                  aligned_bounds.y() +
+-                     (aligned_bounds.height() - separator_size.height()) / 2,
++                     aligned_bounds.height() - separator_size.height(),
+                  separator_size.width(), separator_size.height());
+ 
+   separator_bounds.trailing = separator_bounds.leading;
+@@ -756,12 +757,16 @@ void GM2TabStyle::PaintSeparators(gfx::Canvas* canvas) const {
+                                                    SK_AlphaOPAQUE));
+   };
+ 
++  // Even if |separator_radius| becomes 1 native pixel the 'roundedness'
++  // will be approximated with color, although extremely subtle and
++  // likely only on screens >= 2x (i.e. separator width is 2+px)!
++  const int separator_radius =  separator_bounds.leading.width() / 2;
+   cc::PaintFlags flags;
+   flags.setAntiAlias(true);
+   flags.setColor(separator_color(separator_opacities.left));
+-  canvas->DrawRect(separator_bounds.leading, flags);
++  canvas->DrawRoundRect(separator_bounds.leading, separator_radius, flags);
+   flags.setColor(separator_color(separator_opacities.right));
+-  canvas->DrawRect(separator_bounds.trailing, flags);
++  canvas->DrawRoundRect(separator_bounds.trailing, separator_radius, flags);
+ }
+ 
+ // static

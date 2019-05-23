@@ -109,6 +109,9 @@ source_set("browser_process") {
     "//components/search_engines",
     "//components/spellcheck/browser",
     "//components/unified_consent",
+    "//components/update_client:patch_impl",
+    "//components/update_client:unzip_impl",
+    "//components/version_info",
     "//content/public/browser",
     "//content/public/common",
     "//extensions/buildflags",
@@ -127,6 +130,7 @@ source_set("browser_process") {
 
     deps += [
       "importer",
+      "//brave/app:brave_generated_resources_grit",
     ]
   }
 

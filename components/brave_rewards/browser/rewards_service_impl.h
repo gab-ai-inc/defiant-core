@@ -18,6 +18,7 @@
 #include "bat/ledger/wallet_info.h"
 #include "base/files/file_path.h"
 #include "base/observer_list.h"
+#include "base/one_shot_event.h"
 #include "base/memory/weak_ptr.h"
 #include "bat/ledger/ledger_client.h"
 #include "brave/components/services/bat_ledger/public/interfaces/bat_ledger.mojom.h"
@@ -25,7 +26,6 @@
 #include "chrome/browser/bitmap_fetcher/bitmap_fetcher_service.h"
 #include "content/public/browser/browser_thread.h"
 #include "extensions/buildflags/buildflags.h"
-#include "extensions/common/one_shot_event.h"
 #include "mojo/public/cpp/bindings/associated_binding.h"
 #include "brave/components/brave_rewards/browser/balance_report.h"
 #include "brave/components/brave_rewards/browser/content_site.h"
@@ -72,9 +72,10 @@ using GetDebugCallback = base::Callback<void(bool)>;
 using GetReconcileTimeCallback = base::Callback<void(int32_t)>;
 using GetShortRetriesCallback = base::Callback<void(bool)>;
 using GetTestResponseCallback =
-    base::Callback<void(const std::string&,
-                        std::string*,
-                        std::map<std::string, std::string>*)>;
+    base::Callback<void(const std::string& url,
+                        int* response_status_code,
+                        std::string* response,
+                        std::map<std::string, std::string>* headers)>;
 
 class RewardsServiceImpl : public RewardsService,
                            public ledger::LedgerClient,
@@ -112,7 +113,7 @@ class RewardsServiceImpl : public RewardsService,
       const GetContentSiteListCallback& callback) override;
   void OnGetContentSiteList(
       const GetContentSiteListCallback& callback,
-      const std::vector<std::string>& json_list,
+      ledger::PublisherInfoList list,
       uint32_t next_record);
   void OnLoad(SessionID tab_id, const GURL& url) override;
   void OnUnload(SessionID tab_id) override;
@@ -172,7 +173,7 @@ class RewardsServiceImpl : public RewardsService,
   void RemoveRecurringTip(const std::string& publisher_key) override;
   void OnGetRecurringTipsUI(
       GetRecurringTipsCallback callback,
-      const std::vector<std::string>& json_list);
+      ledger::PublisherInfoList list);
   void GetRecurringTipsUI(GetRecurringTipsCallback callback) override;
   void GetOneTimeTips(
       ledger::PublisherInfoListCallback callback) override;
@@ -215,6 +216,8 @@ class RewardsServiceImpl : public RewardsService,
   const RewardsNotificationService::RewardsNotificationsMap&
   GetAllNotifications() override;
 
+  void SetContributionAmount(const double amount) const override;
+
   // Testing methods
   void SetLedgerEnvForTesting();
   void StartAutoContributeForTest();
@@ -223,7 +226,7 @@ class RewardsServiceImpl : public RewardsService,
   FRIEND_TEST_ALL_PREFIXES(RewardsServiceTest, OnWalletProperties);
   friend class ::BraveRewardsBrowserTest;
 
-  const extensions::OneShotEvent& ready() const { return ready_; }
+  const base::OneShotEvent& ready() const { return ready_; }
   void OnLedgerStateSaved(ledger::LedgerCallbackHandler* handler,
                           bool success);
   void OnLedgerStateLoaded(ledger::LedgerCallbackHandler* handler,
@@ -244,23 +247,23 @@ class RewardsServiceImpl : public RewardsService,
   void TriggerOnGrantFinish(ledger::Result result, const ledger::Grant& grant);
   void TriggerOnRewardsMainEnabled(bool rewards_main_enabled);
   void OnPublisherInfoSaved(ledger::PublisherInfoCallback callback,
-                            std::unique_ptr<ledger::PublisherInfo> info,
+                            ledger::PublisherInfoPtr info,
                             bool success);
   void OnActivityInfoSaved(ledger::PublisherInfoCallback callback,
-                            std::unique_ptr<ledger::PublisherInfo> info,
+                            ledger::PublisherInfoPtr info,
                             bool success);
   void OnActivityInfoLoaded(ledger::PublisherInfoCallback callback,
                             const std::string& publisher_key,
-                            const ledger::PublisherInfoList& list);
+                            ledger::PublisherInfoList list);
   void OnMediaPublisherInfoSaved(bool success);
   void OnPublisherInfoLoaded(ledger::PublisherInfoCallback callback,
-                             std::unique_ptr<ledger::PublisherInfo> info);
+                             ledger::PublisherInfoPtr info);
   void OnMediaPublisherInfoLoaded(ledger::PublisherInfoCallback callback,
-                             std::unique_ptr<ledger::PublisherInfo> info);
+                             ledger::PublisherInfoPtr info);
   void OnPublisherInfoListLoaded(uint32_t start,
                                  uint32_t limit,
                                  ledger::PublisherInfoListCallback callback,
-                                 const ledger::PublisherInfoList& list);
+                                 ledger::PublisherInfoList list);
   void OnPublishersListSaved(ledger::LedgerCallbackHandler* handler,
                              bool success);
   void OnTimer(uint32_t timer_id);
@@ -272,19 +275,19 @@ class RewardsServiceImpl : public RewardsService,
   void OnResetState(ledger::OnResetCallback callback,
                                  bool success);
   void OnTipPublisherInfoSaved(ledger::Result result,
-                                   std::unique_ptr<ledger::PublisherInfo> info);
+                                   ledger::PublisherInfoPtr info);
   void OnTip(const std::string& publisher_key,
-                int amount,
-                bool recurring,
-                const ledger::PublisherInfo* publisher_info = NULL) override;
+             int amount,
+             bool recurring,
+             ledger::PublisherInfoPtr publisher_info);
   void OnContributionInfoSaved(const ledger::REWARDS_CATEGORY category,
                                bool success);
   void OnRecurringTipSaved(bool success);
   void OnGetRecurringTips(
       const ledger::PublisherInfoListCallback callback,
-      const ledger::PublisherInfoList& list);
+      ledger::PublisherInfoList list);
   void OnGetOneTimeTips(ledger::PublisherInfoListCallback callback,
-                        const ledger::PublisherInfoList& list);
+                        ledger::PublisherInfoList list);
   void OnRemovedRecurringTip(ledger::RecurringRemoveCallback callback,
                           bool success);
   void OnRemoveRecurring(const std::string& publisher_key,
@@ -293,10 +296,13 @@ class RewardsServiceImpl : public RewardsService,
       const ledger::BalanceReportInfo& report);
   void MaybeShowBackupNotification(uint64_t boot_stamp);
   void MaybeShowAddFundsNotification(uint64_t reconcile_stamp);
-  void OnPublisherListNormalizedSaved(
-      std::unique_ptr<ledger::PublisherInfoList> list);
+  void OnPublisherListNormalizedSaved(ContentSiteList site_list,
+                                      bool success);
   void OnWalletProperties(ledger::Result result,
                           std::unique_ptr<ledger::WalletInfo> info) override;
+  void OnTip(const std::string& publisher_key,
+             int amount,
+             bool recurring) override;
   void OnTip(const std::string& publisher_key, int amount, bool recurring,
       std::unique_ptr<brave_rewards::ContentSite> site) override;
 
@@ -309,11 +315,11 @@ class RewardsServiceImpl : public RewardsService,
                             bool result);
 
   void OnGetOneTimeTipsUI(GetRecurringTipsCallback callback,
-                          const std::vector<std::string>& json_list);
+                          ledger::PublisherInfoList list);
 
   void OnPublisherActivityInfoLoaded(ledger::PublisherInfoCallback callback,
                                      uint32_t result,
-                                     const std::string& info_json);
+                                     ledger::PublisherInfoPtr info);
 
   // ledger::LedgerClient
   std::string GenerateGUID() const override;
@@ -337,9 +343,9 @@ class RewardsServiceImpl : public RewardsService,
                        ledger::LedgerCallbackHandler* handler) override;
   void SavePublisherState(const std::string& publisher_state,
                           ledger::LedgerCallbackHandler* handler) override;
-  void SavePublisherInfo(std::unique_ptr<ledger::PublisherInfo> publisher_info,
+  void SavePublisherInfo(ledger::PublisherInfoPtr publisher_info,
                          ledger::PublisherInfoCallback callback) override;
-  void SaveActivityInfo(std::unique_ptr<ledger::PublisherInfo> publisher_info,
+  void SaveActivityInfo(ledger::PublisherInfoPtr publisher_info,
                         ledger::PublisherInfoCallback callback) override;
   void LoadActivityInfo(ledger::ActivityInfoFilter filter,
                          ledger::PublisherInfoCallback callback) override;
@@ -365,7 +371,6 @@ class RewardsServiceImpl : public RewardsService,
   void SetPublisherMinVisits(unsigned int visits) const override;
   void SetPublisherAllowNonVerified(bool allow) const override;
   void SetPublisherAllowVideos(bool allow) const override;
-  void SetContributionAmount(double amount) const override;
   void SetUserChangedContribution() const override;
   void SetAutoContribute(bool enabled) const override;
   void SetCatalogIssuers(const std::string& json) override;
@@ -378,8 +383,8 @@ class RewardsServiceImpl : public RewardsService,
   void OnExcludedSitesChanged(const std::string& publisher_id,
                               ledger::PUBLISHER_EXCLUDE exclude) override;
   void OnPanelPublisherInfo(ledger::Result result,
-                          std::unique_ptr<ledger::PublisherInfo> info,
-                          uint64_t window_id) override;
+                            ledger::PublisherInfoPtr info,
+                            uint64_t window_id) override;
   void FetchFavIcon(const std::string& url,
                     const std::string& favicon_key,
                     ledger::FetchIconCallback callback) override;
@@ -420,7 +425,7 @@ class RewardsServiceImpl : public RewardsService,
   void OnRestorePublishers(ledger::OnRestoreCallback callback) override;
   void OnPanelPublisherInfoLoaded(
       ledger::PublisherInfoCallback callback,
-      std::unique_ptr<ledger::PublisherInfo> publisher_info);
+      ledger::PublisherInfoPtr publisher_info);
 
   void SavePendingContribution(
       const ledger::PendingContributionList& list) override;
@@ -431,7 +436,7 @@ class RewardsServiceImpl : public RewardsService,
                                    bool result);
 
   void SaveNormalizedPublisherList(
-      const ledger::PublisherInfoListStruct& list) override;
+      ledger::PublisherInfoList list) override;
 
   void GetExcludedPublishersNumberDB(
       ledger::GetExcludedPublishersNumberDBCallback callback) override;
@@ -505,7 +510,7 @@ class RewardsServiceImpl : public RewardsService,
   std::unique_ptr<ExtensionRewardsServiceObserver> private_observer_;
 #endif
 
-  extensions::OneShotEvent ready_;
+  base::OneShotEvent ready_;
   base::flat_set<network::SimpleURLLoader*> url_loaders_;
   std::map<uint32_t, std::unique_ptr<base::OneShotTimer>> timers_;
   std::vector<std::string> current_media_fetchers_;

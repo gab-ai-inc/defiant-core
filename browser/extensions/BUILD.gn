@@ -42,6 +42,7 @@ source_set("extensions") {
 
   deps = [
     "//base",
+    "//brave/app:brave_generated_resources_grit",
     "//brave/common:pref_names",
     "//brave/common/extensions/api",
     "//brave/components/brave_extension:static_resources",
@@ -52,6 +53,8 @@ source_set("extensions") {
     "//brave/components/brave_sync:generated_resources",
     "//brave/components/brave_sync:static_resources",
     "//components/prefs",
+    "//components/update_client:patch_impl",
+    "//components/update_client:unzip_impl",
     "//content/public/browser",
     "//extensions/browser",
     "//extensions/common",

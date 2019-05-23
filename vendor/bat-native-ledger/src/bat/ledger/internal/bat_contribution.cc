@@ -17,6 +17,7 @@
 #include "bat/ledger/internal/bat_contribution.h"
 #include "bat/ledger/internal/ledger_impl.h"
 #include "bat/ledger/internal/rapidjson_bat_helper.h"
+#include "net/http/http_status_code.h"
 
 using std::placeholders::_1;
 using std::placeholders::_2;
@@ -93,7 +94,7 @@ std::string BatContribution::GetAnonizeProof(
 
 ledger::PublisherInfoList BatContribution::GetVerifiedListAuto(
     const std::string& viewing_id,
-    const ledger::PublisherInfoList& list,
+    const ledger::PublisherInfoList* list,
     double* budget) {
   ledger::PublisherInfoList verified;
   ledger::PublisherInfoList temp;
@@ -103,28 +104,27 @@ ledger::PublisherInfoList BatContribution::GetVerifiedListAuto(
   double non_verified_bat = 0.0;
   double ac_amount = ledger_->GetContributionAmount();
 
-  for (const auto& publisher : list) {
-    if (publisher.verified) {
-      verified.push_back(publisher);
-      verified_total += publisher.percent;
+  for (const auto& publisher : *list) {
+    if (publisher->verified) {
+      verified.push_back(publisher->Clone());
+      verified_total += publisher->percent;
     } else {
-      temp.push_back(publisher);
+      temp.push_back(publisher->Clone());
     }
   }
 
   // verified publishers
-  for (auto publisher : verified) {
-    ledger::PendingContribution contribution;
-    publisher.percent = static_cast<uint32_t>(
-        static_cast<double>(publisher.percent) / verified_total) * 100;
+  for (auto& publisher : verified) {
+    publisher->percent = static_cast<uint32_t>(
+        static_cast<double>(publisher->percent) / verified_total) * 100;
   }
 
   // non-verified publishers
   for (const auto& publisher : temp) {
     ledger::PendingContribution contribution;
     contribution.amount =
-        (static_cast<double>(publisher.percent) / 100) * ac_amount;
-    contribution.publisher_key = publisher.id;
+        (static_cast<double>(publisher->percent) / 100) * ac_amount;
+    contribution.publisher_key = publisher->id;
     contribution.viewing_id = viewing_id;
     contribution.category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
 
@@ -143,23 +143,23 @@ ledger::PublisherInfoList BatContribution::GetVerifiedListAuto(
 
 ledger::PublisherInfoList BatContribution::GetVerifiedListRecurring(
     const std::string& viewing_id,
-    const ledger::PublisherInfoList& list,
+    const ledger::PublisherInfoList* list,
     double* budget) {
   ledger::PublisherInfoList verified;
   ledger::PendingContributionList non_verified;
 
-  for (const auto& publisher : list) {
-    if (publisher.id.empty()) {
+  for (const auto& publisher : *list) {
+    if (publisher->id.empty()) {
       continue;
     }
 
-    if (publisher.verified) {
-      verified.push_back(publisher);
-      *budget += publisher.weight;
+    if (publisher->verified) {
+      verified.push_back(publisher->Clone());
+      *budget += publisher->weight;
     } else {
       ledger::PendingContribution contribution;
-      contribution.amount = publisher.weight;
-      contribution.publisher_key = publisher.id;
+      contribution.amount = publisher->weight;
+      contribution.publisher_key = publisher->id;
       contribution.viewing_id = viewing_id;
       contribution.category = ledger::REWARDS_CATEGORY::RECURRING_TIP;
 
@@ -176,7 +176,7 @@ ledger::PublisherInfoList BatContribution::GetVerifiedListRecurring(
 
 void BatContribution::ReconcilePublisherList(
     ledger::REWARDS_CATEGORY category,
-    const ledger::PublisherInfoList& list,
+    ledger::PublisherInfoList list,
     uint32_t next_record) {
   std::string viewing_id = ledger_->GenerateGUID();
   ledger::PublisherInfoList verified_list;
@@ -184,24 +184,23 @@ void BatContribution::ReconcilePublisherList(
 
   if (category == ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE) {
     ledger::PublisherInfoList normalized_list;
-    ledger_->NormalizeContributeWinners(&normalized_list, list, 0);
-    std::sort(normalized_list.begin(), normalized_list.end());
-    verified_list = GetVerifiedListAuto(viewing_id, normalized_list, &budget);
+    ledger_->NormalizeContributeWinners(&normalized_list, &list, 0);
+    verified_list = GetVerifiedListAuto(viewing_id, &normalized_list, &budget);
   } else {
-    verified_list = GetVerifiedListRecurring(viewing_id, list, &budget);
+    verified_list = GetVerifiedListRecurring(viewing_id, &list, &budget);
   }
 
   braveledger_bat_helper::PublisherList new_list;
 
   for (const auto &publisher : verified_list) {
     braveledger_bat_helper::PUBLISHER_ST new_publisher;
-    new_publisher.id_ = publisher.id;
-    new_publisher.percent_ = publisher.percent;
-    new_publisher.weight_ = publisher.weight;
-    new_publisher.duration_ = publisher.duration;
-    new_publisher.score_ = publisher.score;
-    new_publisher.visits_ = publisher.visits;
-    new_publisher.verified_ = publisher.verified;
+    new_publisher.id_ = publisher->id;
+    new_publisher.percent_ = publisher->percent;
+    new_publisher.weight_ = publisher->weight;
+    new_publisher.duration_ = publisher->duration;
+    new_publisher.score_ = publisher->score;
+    new_publisher.visits_ = publisher->visits;
+    new_publisher.verified_ = publisher->verified;
     new_list.push_back(new_publisher);
   }
 
@@ -445,7 +444,7 @@ void BatContribution::ReconcileCallback(
 
   auto reconcile = ledger_->GetReconcileById(viewing_id);
 
-  if (response_status_code != 200 || reconcile.viewingId_.empty()) {
+  if (response_status_code != net::HTTP_OK || reconcile.viewingId_.empty()) {
     AddRetry(ledger::ContributionRetry::STEP_RECONCILE,
              viewing_id);
     return;
@@ -510,7 +509,7 @@ void BatContribution::CurrentReconcileCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     AddRetry(ledger::ContributionRetry::STEP_CURRENT,
              viewing_id);
     return;
@@ -630,13 +629,19 @@ void BatContribution::ReconcilePayloadCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
-    AddRetry(ledger::ContributionRetry::STEP_PAYLOAD,
-             viewing_id);
+  const auto reconcile = ledger_->GetReconcileById(viewing_id);
+
+  if (response_status_code != net::HTTP_OK) {
+    if (response_status_code == net::HTTP_REQUESTED_RANGE_NOT_SATISFIABLE) {
+      OnReconcileComplete(ledger::Result::CONTRIBUTION_AMOUNT_TOO_LOW,
+                          viewing_id,
+                          reconcile.category_);
+    } else {
+      AddRetry(ledger::ContributionRetry::STEP_PAYLOAD,
+               viewing_id);
+    }
     return;
   }
-
-  const auto reconcile = ledger_->GetReconcileById(viewing_id);
 
   braveledger_bat_helper::TRANSACTION_ST transaction;
   bool success = braveledger_bat_helper::getJSONTransaction(response,
@@ -685,7 +690,7 @@ void BatContribution::RegisterViewingCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     AddRetry(ledger::ContributionRetry::STEP_REGISTER,
              viewing_id);
     return;
@@ -762,7 +767,7 @@ void BatContribution::ViewingCredentialsCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     AddRetry(ledger::ContributionRetry::STEP_VIEWING,
              viewing_id);
     return;
@@ -1118,7 +1123,7 @@ void BatContribution::PrepareBatchCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     AddRetry(ledger::ContributionRetry::STEP_PREPARE, "");
     return;
   }
@@ -1400,7 +1405,7 @@ void BatContribution::VoteBatchCallback(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     AddRetry(ledger::ContributionRetry::STEP_VOTE, "");
     return;
   }
