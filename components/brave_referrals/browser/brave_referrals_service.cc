@@ -39,9 +39,6 @@
 #include "services/network/public/cpp/resource_request.h"
 #include "services/network/public/cpp/simple_url_loader.h"
 
-// Maximum size of the referral server response in bytes.
-const int kMaxReferralServerResponseSizeBytes = 1024 * 1024;
-
 // Default promo code, used when no promoCode file exists on first
 // run.
 const char kDefaultPromoCode[] = "BRV001";
@@ -61,18 +58,6 @@ std::string GetPlatformIdentifier() {
 #else
   return std::string();
 #endif
-}
-
-std::string BuildReferralEndpoint(const std::string& path) {
-  //std::unique_ptr<base::Environment> env(base::Environment::Create());
-  //std::string referral_server;
-  //env->GetVar("BRAVE_REFERRALS_SERVER", &referral_server);
-  //if (referral_server.empty())
-  //  referral_server = kBraveReferralsServer;
-  // Dissenter: Ensure Brave Refferal activity is disabled by redirection.
-  return base::StringPrintf("https://%s/", "0.0.0.0");
-  //return base::StringPrintf("https://%s%s", referral_server.c_str(),
-  //                          path.c_str());
 }
 
 }  // namespace
@@ -112,7 +97,6 @@ void BraveReferralsService::Start() {
                    base::Unretained(this)),
         base::Bind(&BraveReferralsService::OnReadPromoCodeComplete,
                    weak_factory_.GetWeakPtr()));
-  */
   initialized_ = true;
 }
 
