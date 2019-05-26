@@ -1,8 +1,39 @@
 diff --git a/chrome/browser/resources/settings/about_page/about_page.js b/chrome/browser/resources/settings/about_page/about_page.js
-index 7f9047f7226b76c675f649cd7cc0b94124b591b5..359e76bbf576b37807a9d7620f36532a328aa598 100644
+index 7f9047f7226b76c675f649cd7cc0b94124b591b5..d99dfcc341c6b23b79844b29ef86b42335d2330b 100644
 --- a/chrome/browser/resources/settings/about_page/about_page.js
 +++ b/chrome/browser/resources/settings/about_page/about_page.js
-@@ -303,7 +303,14 @@ Polymer({
+@@ -210,9 +210,10 @@ Polymer({
+     // <if expr="not chromeos">
+     this.startListening_();
+     // </if>
+-    if (settings.getQueryParameters().get('checkForUpdate') == 'true') {
+-      this.onCheckUpdatesTap_();
+-    }
++    // Dissenter (UPDATES): Disable for now.
++    //if (settings.getQueryParameters().get('checkForUpdate') == 'true') {
++    //  this.onCheckUpdatesTap_();
++    //}
+   },
+ 
+   /**
+@@ -231,6 +232,8 @@ Polymer({
+ 
+   /** @private */
+   startListening_: function() {
++    // Dissenter (UPDATES): Disable for now.
++    /*
+     this.addWebUIListener(
+         'update-status-changed', this.onUpdateStatusChanged_.bind(this));
+     // <if expr="_google_chrome and is_macosx">
+@@ -245,6 +248,7 @@ Polymer({
+         this.onTPMFirmwareUpdateStatusChanged_.bind(this));
+     this.aboutBrowserProxy_.refreshTPMFirmwareUpdateStatus();
+     // </if>
++    */
+   },
+ 
+   /**
+@@ -303,7 +307,14 @@ Polymer({
  
    /** @private */
    onRelaunchTap_: function() {
