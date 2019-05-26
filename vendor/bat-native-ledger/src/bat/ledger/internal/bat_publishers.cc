@@ -68,6 +68,8 @@ std::string getProviderName(const std::string& publisher_id) {
     return YOUTUBE_MEDIA_TYPE;
   } else if (publisher_id.find(TWITCH_MEDIA_TYPE) != std::string::npos) {
     return TWITCH_MEDIA_TYPE;
+  } else if (publisher_id.find(TWITTER_MEDIA_TYPE) != std::string::npos) {
+    return TWITTER_MEDIA_TYPE;
   }
   return "";
 }
@@ -85,7 +87,8 @@ void BatPublishers::AddRecurringPayment(const std::string& publisher_id,
 void BatPublishers::saveVisit(const std::string& publisher_id,
                               const ledger::VisitData& visit_data,
                               const uint64_t& duration,
-                              uint64_t window_id) {
+                              uint64_t window_id,
+                              const ledger::PublisherInfoCallback callback) {
   if (!ledger_->GetRewardsMainEnabled() || publisher_id.empty()) {
     return;
   }
@@ -103,6 +106,7 @@ void BatPublishers::saveVisit(const std::string& publisher_id,
                 visit_data,
                 duration,
                 window_id,
+                callback,
                 _1,
                 _2);
   ledger_->GetActivityInfo(filter, callbackGetPublishers);
@@ -137,12 +141,13 @@ void BatPublishers::saveVisitInternal(
     ledger::VisitData visit_data,
     uint64_t duration,
     uint64_t window_id,
+    const ledger::PublisherInfoCallback callback,
     ledger::Result result,
     ledger::PublisherInfoPtr publisher_info) {
   DCHECK(result != ledger::Result::TOO_MANY_RESULTS);
   if (result != ledger::Result::LEDGER_OK &&
       result != ledger::Result::NOT_FOUND) {
-    // TODO(anyone) error handling
+    callback(ledger::Result::LEDGER_ERROR, nullptr);
     return;
   }
   bool verified = isVerified(publisher_id);
@@ -221,15 +226,20 @@ void BatPublishers::saveVisitInternal(
     ledger_->SetActivityInfo(std::move(publisher_info));
   }
 
-  if (panel_info && window_id > 0) {
+  if (panel_info) {
     if (panel_info->favicon_url == ledger::_clear_favicon) {
       panel_info->favicon_url = std::string();
     }
 
-    OnPanelPublisherInfo(ledger::Result::LEDGER_OK,
-                        std::move(panel_info),
-                        window_id,
-                        visit_data);
+    auto callback_info = panel_info->Clone();
+    callback(ledger::Result::LEDGER_OK, std::move(callback_info));
+
+    if (window_id > 0) {
+      OnPanelPublisherInfo(ledger::Result::LEDGER_OK,
+                           std::move(panel_info),
+                           window_id,
+                           visit_data);
+    }
   }
 }
 
@@ -692,11 +702,17 @@ void BatPublishers::getPublisherActivityFromUrl(
     return;
   }
 
-  if ((visit_data.domain == YOUTUBE_TLD || visit_data.domain == TWITCH_TLD) &&
+  const bool is_media = visit_data.domain == YOUTUBE_TLD ||
+                        visit_data.domain == TWITCH_TLD ||
+                        visit_data.domain == TWITTER_TLD;
+
+  if (is_media &&
       visit_data.path != "" && visit_data.path != "/") {
     std::string type = YOUTUBE_MEDIA_TYPE;
     if (visit_data.domain == TWITCH_TLD) {
       type = TWITCH_MEDIA_TYPE;
+    } else if (visit_data.domain == TWITTER_TLD) {
+      type = TWITTER_MEDIA_TYPE;
     }
 
     ledger::VisitData new_visit_data(visit_data);
@@ -707,8 +723,10 @@ void BatPublishers::getPublisherActivityFromUrl(
 
     new_visit_data.url = new_visit_data.url + new_visit_data.path;
 
-    ledger_->GetMediaActivityFromUrl(
-        windowId, new_visit_data, type, publisher_blob);
+    ledger_->GetMediaActivityFromUrl(windowId,
+                                     new_visit_data,
+                                     type,
+                                     publisher_blob);
     return;
   }
 
@@ -735,6 +753,12 @@ void BatPublishers::getPublisherActivityFromUrl(
                   new_data));
 }
 
+void BatPublishers::OnSaveVisitInternal(
+    ledger::Result result,
+    ledger::PublisherInfoPtr info) {
+  // TODO(nejczdovc): handle if needed
+}
+
 void BatPublishers::OnPanelPublisherInfo(
     ledger::Result result,
     ledger::PublisherInfoPtr info,
@@ -745,10 +769,16 @@ void BatPublishers::OnPanelPublisherInfo(
   }
 
   if (result == ledger::Result::NOT_FOUND && !visit_data.domain.empty()) {
+    auto callback = std::bind(&BatPublishers::OnSaveVisitInternal,
+                              this,
+                              _1,
+                              _2);
+
     saveVisitInternal(visit_data.domain,
                       visit_data,
                       0,
                       windowId,
+                      callback,
                       result,
                       nullptr);
   }
