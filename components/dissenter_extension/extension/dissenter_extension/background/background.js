@@ -445,7 +445,7 @@ if (BROWSER_CONFIG.slug !== "edge") {
     chrome.tabs.onCreated.addListener(function(tab) {
         //Get/Send value
         var newTabEnabled = gdes.getValue(CUSTOM_NEW_TAB_ENABLED);
-        if (!newTabEnabled) return false;
+        if (!newTabEnabled || !tab.url) return false;
 
         if ((BROWSER_CONFIG.slug === "chrome" && tab.url === "chrome://newtab/") ||
             (BROWSER_CONFIG.slug === "chrome" && tab.url.indexOf("chrome://vivaldi-webui/startpage") > -1) || //vivaldi
