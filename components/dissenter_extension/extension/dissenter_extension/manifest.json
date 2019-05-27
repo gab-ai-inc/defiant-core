@@ -9,7 +9,7 @@
       "48": "assets/images/logo/icon-48.png",
       "128": "assets/images/logo/icon-128.png"
   },
-  "permissions": ["activeTab", "https://*.dissenter.com/*"],
+  "permissions": ["topSites", "activeTab", "https://*.dissenter.com/*"],
   "browser_action": {
       "default_icon": "assets/images/logo/icon-128.png",
       "default_popup": "popup/popup.html"
@@ -51,7 +51,6 @@
   "chrome_url_overrides": {
       "newtab": "newtab/newtab.html"
   },
-  "optional_permissions": ["topSites"],
   "offline_enabled": false,
   "version_name": "0.1.9",
   "version": "0.1.9",
