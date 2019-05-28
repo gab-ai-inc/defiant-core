@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.org/brave/brave-core.svg?branch=master)](https://travis-ci.org/brave/brave-core)
-
 Download Dissenter from [https://dissenter.com](https://dissenter.com)
 
 # Defiant Core
