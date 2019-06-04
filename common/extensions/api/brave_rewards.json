@@ -330,6 +330,17 @@
             "type": "boolean"
           }
         ]
+      },
+      {
+        "name": "onPendingContributionRemoved",
+        "type": "function",
+        "description": "",
+        "parameters": [
+          {
+            "name": "result",
+            "type": "integer"
+          }
+        ]
       }
     ],
     "functions": [
@@ -440,7 +451,7 @@
             "type": "string"
           },
           {
-            "name": "excluded",
+            "name": "exclude",
             "type": "boolean"
           }
         ]

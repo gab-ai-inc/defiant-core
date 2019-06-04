@@ -107,7 +107,7 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
   std::string URIEncode(const std::string& value) override;
 
   void SavePendingContribution(
-      const ledger::PendingContributionList& list) override;
+      ledger::PendingContributionList list) override;
 
   void LoadActivityInfo(ledger::ActivityInfoFilter filter,
                         ledger::PublisherInfoCallback callback) override;
@@ -137,8 +137,24 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
 
   void ConfirmationsTransactionHistoryDidChange() override;
 
-  void GetExcludedPublishersNumberDB(
-      ledger::GetExcludedPublishersNumberDBCallback callback) override;
+  void GetPendingContributions(
+      const ledger::PendingContributionInfoListCallback& callback) override;
+
+  void RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    const ledger::RemovePendingContributionCallback& callback) override;
+
+  void RemoveAllPendingContributions(
+    const ledger::RemovePendingContributionCallback& callback) override;
+
+  void GetPendingContributionsTotal(
+    const ledger::PendingContributionsTotalCallback& callback) override;
+
+  void GetCountryCodes(
+      const std::vector<std::string>& countries,
+      ledger::GetCountryCodesCallback callback) override;
 
  private:
   bool Connected() const;

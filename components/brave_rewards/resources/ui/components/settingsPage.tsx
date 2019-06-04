@@ -36,11 +36,11 @@ class SettingsPage extends React.Component<Props, {}> {
     this.actions.getCurrentReport()
     this.actions.getTipTable()
     this.actions.getContributeList()
-    this.actions.getPendingContributionsTotal()
+    this.actions.getPendingContributions()
     this.actions.getReconcileStamp()
     this.actions.getTransactionHistoryForThisCycle()
-    this.actions.getExcludedPublishersNumber()
     this.actions.getAdsData()
+    this.actions.getExcludedSites()
   }
 
   componentDidMount () {

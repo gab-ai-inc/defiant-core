@@ -7,6 +7,13 @@ import("//extensions/buildflags/buildflags.gni")
 import("//third_party/widevine/cdm/widevine.gni")
 
 source_set("browser_process") {
+  visibility = [
+    "//chrome/browser/*",
+    "//brave/browser/*",
+    "//brave:browser_dependencies",
+    "//brave/test:*"
+  ]
+
   sources = [
     "autocomplete/brave_autocomplete_provider_client.cc",
     "autocomplete/brave_autocomplete_provider_client.h",
@@ -87,6 +94,7 @@ source_set("browser_process") {
     "ui",
     "//base",
     "//brave/browser/tor",
+    "//brave/browser/translate/buildflags",
     "//brave/common",
     "//brave/components/brave_ads/browser",
     "//brave/components/brave_component_updater/browser",
@@ -94,6 +102,7 @@ source_set("browser_process") {
     "//brave/components/brave_rewards/browser",
     "//brave/components/brave_shields/browser:brave_shields",
     "//brave/components/brave_sync",
+    "//brave/components/brave_wallet/browser",
     "//brave/components/brave_webtorrent/browser/buildflags",
     "//brave/components/content_settings/core/browser",
     "//brave/components/resources",
@@ -110,7 +119,6 @@ source_set("browser_process") {
     "//components/unified_consent",
     "//components/update_client:patch_impl",
     "//components/update_client:unzip_impl",
-    "//components/version_info",
     "//content/public/browser",
     "//content/public/common",
     "//extensions/buildflags",
@@ -186,6 +194,13 @@ source_set("version_info") {
 }
 
 source_set("browser") {
+  visibility = [
+    "//chrome/browser/*",
+    "//brave/browser/*",
+    "//brave:browser_dependencies",
+    "//brave/test:*"
+  ]
+
   deps = [
     "//chrome/browser",
   ]

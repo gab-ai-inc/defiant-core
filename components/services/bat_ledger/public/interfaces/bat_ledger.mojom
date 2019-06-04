@@ -59,11 +59,10 @@ interface BatLedger {
   FetchGrants(string lang, string payment_id);
   GetGrantCaptcha(string promotion_id, string promotion_type);
   GetWalletPassphrase() => (string wallet_passphrase);
-  GetExcludedPublishersNumber() => (uint32 num_excluded_sites);
   RecoverWallet(string passPhrase);
   SolveGrantCaptcha(string solution, string promotionId);
 
-  GetAddresses() => (map<string, string> addresses);
+  GetAddresses(int32 current_country_code) => (map<string, string> addresses);
   GetBATAddress() => (string address);
   GetBTCAddress() => (string address);
   GetETHAddress() => (string address);
@@ -128,6 +127,15 @@ interface BatLedger {
 
   GetShareURL(string type, map<string, string> args) =>
       (string url);
+
+  GetPendingContributions() => (array<ledger.mojom.PendingContributionInfo> list);
+
+  RemovePendingContribution(string publisher_key, string viewing_id,
+      uint64 added_date) => (int32 result);
+
+  RemoveAllPendingContributions() => (int32 result);
+
+  GetPendingContributionsTotal() => (double amount);
 };
 
 interface BatLedgerClient {
@@ -190,7 +198,7 @@ interface BatLedgerClient {
   [Sync]
   URIEncode(string value) => (string encoded_value);
 
-  SavePendingContribution(string list);
+  SavePendingContribution(array<ledger.mojom.PendingContribution> list);
 
   LoadActivityInfo(string filter) =>
       (int32 result, ledger.mojom.PublisherInfo? publisher_info);
@@ -211,5 +219,15 @@ interface BatLedgerClient {
   SetConfirmationsIsReady(bool is_ready);
   ConfirmationsTransactionHistoryDidChange();
 
-  GetExcludedPublishersNumberDB() => (uint32 number);
+  GetPendingContributions() => (array<ledger.mojom.PendingContributionInfo> list);
+
+  RemovePendingContribution(string publisher_key, string viewing_id,
+      uint64 added_date) => (int32 result);
+
+  RemoveAllPendingContributions() => (int32 result);
+
+  GetPendingContributionsTotal() => (double amount);
+
+  GetCountryCodes(array<string> countries) =>
+        (array<int32> limited_country_codes);
 };

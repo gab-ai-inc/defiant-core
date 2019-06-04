@@ -54,8 +54,6 @@ class PublisherInfoDatabase {
 
   bool RestorePublishers();
 
-  int GetExcludedPublishersCount();
-
   bool InsertOrUpdateActivityInfo(const ledger::PublisherInfo& info);
 
   bool InsertOrUpdateActivityInfos(const ledger::PublisherInfoList& list);
@@ -64,6 +62,8 @@ class PublisherInfoDatabase {
                        int limit,
                        const ledger::ActivityInfoFilter& filter,
                        ledger::PublisherInfoList* list);
+
+  bool GetExcludedList(ledger::PublisherInfoList* list);
 
   bool InsertOrUpdateMediaPublisherInfo(const std::string& media_key,
                                         const std::string& publisher_id);
@@ -81,6 +81,15 @@ class PublisherInfoDatabase {
   bool InsertPendingContribution(const ledger::PendingContributionList& list);
 
   double GetReservedAmount();
+
+  void GetPendingContributions(
+      ledger::PendingContributionInfoList* list);
+
+  bool RemovePendingContributions(const std::string& publisher_key,
+                                  const std::string& viewing_id,
+                                  uint64_t added_date);
+
+  bool RemoveAllPendingContributions();
 
   // Returns the current version of the publisher info database
   int GetCurrentVersion();

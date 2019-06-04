@@ -3,6 +3,9 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+#include <stdint.h>
+
+#include <algorithm>
 #include <ctime>
 #include <iostream>
 #include <random>
@@ -615,11 +618,6 @@ unsigned int LedgerImpl::GetPublisherMinVisits() const {
   return bat_publishers_->getPublisherMinVisits();
 }
 
-void LedgerImpl::GetExcludedPublishersNumber(
-    ledger::GetExcludedPublishersNumberDBCallback callback) const {
-  ledger_client_->GetExcludedPublishersNumberDB(callback);
-}
-
 bool LedgerImpl::GetPublisherAllowNonVerified() const {
   return bat_publishers_->getPublisherAllowNonVerified();
 }
@@ -636,13 +634,31 @@ bool LedgerImpl::GetAutoContribute() const {
   return bat_state_->GetAutoContribute();
 }
 
-std::map<std::string, std::string> LedgerImpl::GetAddresses() {
+void LedgerImpl::GetAddresses(
+    int32_t current_country_code,
+    ledger::GetAddressesCallback callback) {
+  ledger_client_->GetCountryCodes(
+      braveledger_ledger::_add_funds_limited_countries,
+      std::bind(&LedgerImpl::GetAddressesInternal,
+                             this,
+                             _1,
+                             current_country_code,
+                             callback));
+}
+
+void LedgerImpl::GetAddressesInternal(
+    const std::vector<int32_t>& country_codes,
+    int32_t current_country_code,
+    ledger::GetAddressesCallback callback) {
   std::map<std::string, std::string> addresses;
   addresses.emplace("BAT", GetBATAddress());
-  addresses.emplace("BTC", GetBTCAddress());
-  addresses.emplace("ETH", GetETHAddress());
-  addresses.emplace("LTC", GetLTCAddress());
-  return addresses;
+  if (std::find(country_codes.begin(), country_codes.end(),
+      current_country_code) == country_codes.end()) {
+    addresses.emplace("BTC", GetBTCAddress());
+    addresses.emplace("ETH", GetETHAddress());
+    addresses.emplace("LTC", GetLTCAddress());
+  }
+  callback(addresses);
 }
 
 const std::string& LedgerImpl::GetBATAddress() const {
@@ -801,8 +817,8 @@ void LedgerImpl::SetBalanceReport(
 }
 
 void LedgerImpl::SaveUnverifiedContribution(
-    const ledger::PendingContributionList& list) {
-  ledger_client_->SavePendingContribution(list);
+    ledger::PendingContributionList list) {
+  ledger_client_->SavePendingContribution(std::move(list));
 }
 
 void LedgerImpl::DoDirectTip(const std::string& publisher_id,
@@ -820,15 +836,15 @@ void LedgerImpl::DoDirectTip(const std::string& publisher_id,
 
   // Save to the pending list if not verified
   if (!is_verified) {
-    ledger::PendingContribution contribution;
-    contribution.publisher_key = publisher_id;
-    contribution.amount = amount;
-    contribution.category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+    auto contribution = ledger::PendingContribution::New();
+    contribution->publisher_key = publisher_id;
+    contribution->amount = amount;
+    contribution->category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
 
     ledger::PendingContributionList list;
-    list.list_ = std::vector<ledger::PendingContribution> { contribution };
+    list.push_back(std::move(contribution));
 
-    SaveUnverifiedContribution(list);
+    SaveUnverifiedContribution(std::move(list));
 
     return;
   }
@@ -1061,10 +1077,6 @@ void LedgerImpl::FetchFavIcon(const std::string& url,
 void LedgerImpl::GetPublisherBanner(const std::string& publisher_id,
                                     ledger::PublisherBannerCallback callback) {
   bat_publishers_->getPublisherBanner(publisher_id, callback);
-}
-
-double LedgerImpl::GetBalance() {
-  return bat_state_->GetBalance();
 }
 
 void LedgerImpl::OnReconcileCompleteSuccess(
@@ -1415,8 +1427,9 @@ double LedgerImpl::GetDefaultContributionAmount() {
   return bat_state_->GetDefaultContributionAmount();
 }
 
-bool LedgerImpl::HasSufficientBalanceToReconcile() {
-  return GetBalance() >= GetContributionAmount();
+void LedgerImpl::HasSufficientBalanceToReconcile(
+    ledger::HasSufficientBalanceToReconcileCallback callback) {
+  bat_contribution_->HasSufficientBalance(callback);
 }
 
 void LedgerImpl::SaveNormalizedPublisherList(
@@ -1545,6 +1558,52 @@ std::string LedgerImpl::GetShareURL(
     const std::string& type,
     const std::map<std::string, std::string>& args) {
   return bat_get_media_->GetShareURL(type, args);
+}
+
+void LedgerImpl::OnGetPendingContributions(
+    const ledger::PendingContributionInfoList& list,
+    ledger::PendingContributionInfoListCallback callback) {
+  ledger::PendingContributionInfoList new_list;
+  for (const auto& item : list) {
+    auto new_item = item->Clone();
+    new_item->expiration_date =
+        new_item->added_date +
+        braveledger_ledger::_pending_contribution_expiration;
+
+    new_list.push_back(std::move(new_item));
+  }
+
+  callback(std::move(new_list));
+}
+
+void LedgerImpl::GetPendingContributions(
+    ledger::PendingContributionInfoListCallback callback) {
+  ledger_client_->GetPendingContributions(
+      std::bind(&LedgerImpl::OnGetPendingContributions,
+                this,
+                _1,
+                callback));
+}
+
+void LedgerImpl::RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    const ledger::RemovePendingContributionCallback& callback) {
+  ledger_client_->RemovePendingContribution(publisher_key,
+                                            viewing_id,
+                                            added_date,
+                                            callback);
+}
+
+void LedgerImpl::RemoveAllPendingContributions(
+    const ledger::RemovePendingContributionCallback& callback) {
+  ledger_client_->RemoveAllPendingContributions(callback);
+}
+
+void LedgerImpl::GetPendingContributionsTotal(
+    const ledger::PendingContributionsTotalCallback& callback) {
+  ledger_client_->GetPendingContributionsTotal(callback);
 }
 
 }  // namespace bat_ledger

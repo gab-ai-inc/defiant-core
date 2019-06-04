@@ -90,11 +90,12 @@ void OnResetState(const ledger::OnSaveCallback& callback,
   callback(ToLedgerResult(result));
 }
 
-void OnExcludedNumberDB(
-    const ledger::GetExcludedPublishersNumberDBCallback& callback,
-    uint32_t result) {
-  callback(result);
+void OnGetCountryCodes(
+    const ledger::GetCountryCodesCallback& callback,
+    const std::vector<int32_t>& countries) {
+  callback(countries);
 }
+
 
 }  // namespace
 
@@ -568,11 +569,11 @@ std::string BatLedgerClientMojoProxy::URIEncode(const std::string& value) {
 }
 
 void BatLedgerClientMojoProxy::SavePendingContribution(
-      const ledger::PendingContributionList& list) {
+      ledger::PendingContributionList list) {
   if (!Connected())
     return;
 
-  bat_ledger_client_->SavePendingContribution(list.ToJson());
+  bat_ledger_client_->SavePendingContribution(std::move(list));
 }
 
 void OnLoadActivityInfo(
@@ -717,15 +718,89 @@ bool BatLedgerClientMojoProxy::Connected() const {
   return bat_ledger_client_.is_bound();
 }
 
-void BatLedgerClientMojoProxy::GetExcludedPublishersNumberDB(
-    ledger::GetExcludedPublishersNumberDBCallback callback) {
+void OnGetPendingContributions(
+    const ledger::PendingContributionInfoListCallback& callback,
+    ledger::PendingContributionInfoList list) {
+  callback(std::move(list));
+}
+
+void BatLedgerClientMojoProxy::GetPendingContributions(
+    const ledger::PendingContributionInfoListCallback& callback) {
   if (!Connected()) {
-    callback(0);
+    callback(ledger::PendingContributionInfoList());
     return;
   }
 
-  bat_ledger_client_->GetExcludedPublishersNumberDB(
-      base::BindOnce(&OnExcludedNumberDB, std::move(callback)));
+  bat_ledger_client_->GetPendingContributions(
+      base::BindOnce(&OnGetPendingContributions, std::move(callback)));
+}
+
+void OnRemovePendingContribution(
+    const ledger::RemovePendingContributionCallback& callback,
+    int32_t result) {
+  callback(ToLedgerResult(result));
+}
+
+void BatLedgerClientMojoProxy::RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    const ledger::RemovePendingContributionCallback& callback) {
+  if (!Connected()) {
+    callback(ledger::Result::LEDGER_ERROR);
+    return;
+  }
+
+  bat_ledger_client_->RemovePendingContribution(
+      publisher_key,
+      viewing_id,
+      added_date,
+      base::BindOnce(&OnRemovePendingContribution, std::move(callback)));
+}
+
+void OnRemoveAllPendingContributions(
+    const ledger::RemovePendingContributionCallback& callback,
+    int32_t result) {
+  callback(ToLedgerResult(result));
+}
+
+void BatLedgerClientMojoProxy::RemoveAllPendingContributions(
+    const ledger::RemovePendingContributionCallback& callback) {
+  if (!Connected()) {
+    callback(ledger::Result::LEDGER_ERROR);
+    return;
+  }
+
+  bat_ledger_client_->RemoveAllPendingContributions(
+      base::BindOnce(&OnRemoveAllPendingContributions, std::move(callback)));
+}
+
+void OnGetPendingContributionsTotal(
+    const ledger::PendingContributionsTotalCallback& callback,
+    double amount) {
+  callback(amount);
+}
+
+void BatLedgerClientMojoProxy::GetPendingContributionsTotal(
+    const ledger::PendingContributionsTotalCallback& callback) {
+  if (!Connected()) {
+    callback(0.0);
+    return;
+  }
+
+  bat_ledger_client_->GetPendingContributionsTotal(
+      base::BindOnce(&OnGetPendingContributionsTotal, std::move(callback)));
+}
+
+void BatLedgerClientMojoProxy::GetCountryCodes(
+    const std::vector<std::string>& countries,
+    ledger::GetCountryCodesCallback callback) {
+  if (!Connected()) {
+    return;
+  }
+
+  bat_ledger_client_->GetCountryCodes(countries,
+      base::BindOnce(&OnGetCountryCodes, std::move(callback)));
 }
 
 }  // namespace bat_ledger

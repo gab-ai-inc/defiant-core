@@ -74,6 +74,8 @@ ExtensionFunction::ResponseAction BraveRewardsTipSiteFunction::Run() {
 
   auto params_dict = std::make_unique<base::DictionaryValue>();
   params_dict->SetString("publisherKey", params->publisher_key);
+  params_dict->SetString(
+      "url", contents ? contents->GetLastCommittedURL().spec() : std::string());
   ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
 
   return RespondNow(NoArguments());
@@ -143,6 +145,7 @@ void BraveRewardsTipTwitterUserFunction::OnTwitterPublisherInfoSaved(
 
   auto params_dict = std::make_unique<base::DictionaryValue>();
   params_dict->SetString("publisherKey", publisher_info->id);
+  params_dict->SetString("url", publisher_info->url);
 
   auto tweet_meta_data_dict = std::make_unique<base::DictionaryValue>();
   tweet_meta_data_dict->SetString("name", publisher_info->name);
@@ -177,7 +180,8 @@ ExtensionFunction::ResponseAction
     RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
     rewards_service->SetContributionAutoInclude(
-      params->publisher_key, params->excluded);
+      params->publisher_key,
+      params->exclude);
   }
   return RespondNow(NoArguments());
 }
@@ -282,7 +286,7 @@ BraveRewardsGetPendingContributionsTotalFunction::Run() {
           std::make_unique<base::Value>(0.0)));
   }
 
-  rewards_service->GetPendingContributionsTotal(base::Bind(
+  rewards_service->GetPendingContributionsTotalUI(base::Bind(
         &BraveRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal,
         this));
   return RespondLater();

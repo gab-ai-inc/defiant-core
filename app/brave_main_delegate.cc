@@ -15,6 +15,7 @@
 #include "build/build_config.h"
 #include "brave/app/brave_command_line_helper.h"
 #include "brave/browser/brave_content_browser_client.h"
+#include "brave/browser/translate/buildflags/buildflags.h"
 #include "brave/common/brave_switches.h"
 #include "brave/common/resource_bundle_helper.h"
 #include "brave/components/brave_ads/browser/buildflags/buildflags.h"
@@ -26,11 +27,11 @@
 #include "chrome/common/chrome_switches.h"
 #include "components/autofill/core/common/autofill_features.h"
 #include "components/autofill/core/common/autofill_payments_features.h"
+#include "components/omnibox/common/omnibox_features.h"
 #include "components/password_manager/core/common/password_manager_features.h"
+#include "components/translate/core/browser/translate_prefs.h"
 #include "components/unified_consent/feature.h"
-#include "content/public/common/content_features.h"
 #include "extensions/common/extension_features.h"
-#include "gpu/config/gpu_finch_features.h"
 #include "services/network/public/cpp/features.h"
 #include "third_party/widevine/cdm/buildflags.h"
 #include "ui/base/ui_base_features.h"
@@ -132,6 +133,8 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   command_line.AppendSwitch(switches::kDisableDomainReliability);
   command_line.AppendSwitch(switches::kDisableChromeGoogleURLTrackingClient);
   command_line.AppendSwitch(switches::kNoPings);
+  command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
+      switches::kExtensionContentVerificationEnforceStrict);
 
   // Enabled features.
   const std::unordered_set<const char*> enabled_features = {
@@ -139,21 +142,20 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
       extensions_features::kNewExtensionUpdaterService.name,
 #endif
       features::kDesktopPWAWindowing.name,
+      omnibox::kSimplifyHttpsIndicator.name,
   };
 
   // Disabled features.
   const std::unordered_set<const char*> disabled_features = {
       autofill::features::kAutofillSaveCardSignInAfterLocalSave.name,
       autofill::features::kAutofillServerCommunication.name,
-      features::kAudioServiceOutOfProcess.name,
-      features::kDefaultEnableOopRasterization.name,
       network::features::kNetworkService.name,
       unified_consent::kUnifiedConsent.name,
-      features::kLookalikeUrlNavigationSuggestionsUI.name,
+#if !defined(CHROME_MULTIPLE_DLL_CHILD) && !BUILDFLAG(ENABLE_BRAVE_TRANSLATE)
+      translate::kTranslateUI.name,  // only available in browser process
+#endif
   };
-
   command_line.AppendFeatures(enabled_features, disabled_features);
-
 
   bool ret = ChromeMainDelegate::BasicStartupComplete(exit_code);
 

@@ -5,6 +5,8 @@
 
 #include "brave/components/services/bat_ledger/bat_ledger_impl.h"
 
+#include <stdint.h>
+
 #include <map>
 #include <string>
 #include <utility>
@@ -206,24 +208,6 @@ void BatLedgerImpl::GetWalletPassphrase(GetWalletPassphraseCallback callback) {
   std::move(callback).Run(ledger_->GetWalletPassphrase());
 }
 
-// static
-void BatLedgerImpl::OnGetExcludedPublishersNumber(
-    CallbackHolder<GetExcludedPublishersNumberCallback>* holder,
-    uint32_t number) {
-  if (holder->is_valid())
-    std::move(holder->get()).Run(number);
-  delete holder;
-}
-
-void BatLedgerImpl::GetExcludedPublishersNumber(
-    GetExcludedPublishersNumberCallback callback) {
-  // delete in OnGetExcludedPublishersNumber
-  auto* holder = new CallbackHolder<GetExcludedPublishersNumberCallback>(
-      AsWeakPtr(), std::move(callback));
-  ledger_->GetExcludedPublishersNumber(
-      std::bind(BatLedgerImpl::OnGetExcludedPublishersNumber, holder, _1));
-}
-
 void BatLedgerImpl::RecoverWallet(const std::string& passPhrase) {
   ledger_->RecoverWallet(passPhrase);
 }
@@ -233,8 +217,22 @@ void BatLedgerImpl::SolveGrantCaptcha(const std::string& solution,
   ledger_->SolveGrantCaptcha(solution, promotion_id);
 }
 
-void BatLedgerImpl::GetAddresses(GetAddressesCallback callback) {
-  std::move(callback).Run(mojo::MapToFlatMap(ledger_->GetAddresses()));
+void BatLedgerImpl::OnGetAddresses(
+    CallbackHolder<GetAddressesCallback>* holder,
+    std::map<std::string, std::string> addresses) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(mojo::MapToFlatMap(addresses));
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::GetAddresses(
+    int32_t current_country_code,
+    GetAddressesCallback callback) {
+  auto* holder = new CallbackHolder<GetAddressesCallback>(
+      AsWeakPtr(), std::move(callback));
+  ledger_->GetAddresses(current_country_code,
+      std::bind(BatLedgerImpl::OnGetAddresses, holder, _1));
 }
 
 void BatLedgerImpl::GetBATAddress(GetBATAddressCallback callback) {
@@ -364,9 +362,21 @@ void BatLedgerImpl::GetRewardsMainEnabled(
   std::move(callback).Run(ledger_->GetRewardsMainEnabled());
 }
 
+void BatLedgerImpl::OnHasSufficientBalanceToReconcile(
+    CallbackHolder<HasSufficientBalanceToReconcileCallback>* holder,
+    bool sufficient) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(sufficient);
+  }
+  delete holder;
+}
+
 void BatLedgerImpl::HasSufficientBalanceToReconcile(
     HasSufficientBalanceToReconcileCallback callback) {
-  std::move(callback).Run(ledger_->HasSufficientBalanceToReconcile());
+  auto* holder = new CallbackHolder<HasSufficientBalanceToReconcileCallback>(
+      AsWeakPtr(), std::move(callback));
+  ledger_->HasSufficientBalanceToReconcile(
+      std::bind(BatLedgerImpl::OnHasSufficientBalanceToReconcile, holder, _1));
 }
 
 // static
@@ -574,6 +584,94 @@ void BatLedgerImpl::GetShareURL(
     const base::flat_map<std::string, std::string>& args,
     GetShareURLCallback callback) {
   std::move(callback).Run(ledger_->GetShareURL(type, mojo::FlatMapToMap(args)));
+}
+
+// static
+void BatLedgerImpl::OnGetPendingContributions(
+    CallbackHolder<GetPendingContributionsCallback>* holder,
+    ledger::PendingContributionInfoList list) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(std::move(list));
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::GetPendingContributions(
+    GetPendingContributionsCallback callback) {
+  auto* holder = new CallbackHolder<GetPendingContributionsCallback>(
+      AsWeakPtr(), std::move(callback));
+
+  ledger_->GetPendingContributions(std::bind(
+      BatLedgerImpl::OnGetPendingContributions, holder, _1));
+}
+
+// static
+void BatLedgerImpl::OnRemovePendingContribution(
+    CallbackHolder<RemovePendingContributionCallback>* holder,
+    ledger::Result result) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(result);
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    RemovePendingContributionCallback callback) {
+  auto* holder = new CallbackHolder<RemovePendingContributionCallback>(
+      AsWeakPtr(), std::move(callback));
+
+  ledger_->RemovePendingContribution(
+      publisher_key,
+      viewing_id,
+      added_date,
+      std::bind(BatLedgerImpl::OnRemovePendingContribution,
+                holder,
+                _1));
+}
+
+// static
+void BatLedgerImpl::OnRemoveAllPendingContributions(
+    CallbackHolder<RemovePendingContributionCallback>* holder,
+    ledger::Result result) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(result);
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::RemoveAllPendingContributions(
+    RemovePendingContributionCallback callback) {
+  auto* holder = new CallbackHolder<RemovePendingContributionCallback>(
+      AsWeakPtr(), std::move(callback));
+
+  ledger_->RemoveAllPendingContributions(
+      std::bind(BatLedgerImpl::OnRemoveAllPendingContributions,
+                holder,
+                _1));
+}
+
+// static
+void BatLedgerImpl::OnGetPendingContributionsTotal(
+    CallbackHolder<GetPendingContributionsTotalCallback>* holder,
+    double amount) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(amount);
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::GetPendingContributionsTotal(
+    GetPendingContributionsTotalCallback callback) {
+  auto* holder = new CallbackHolder<GetPendingContributionsTotalCallback>(
+      AsWeakPtr(), std::move(callback));
+
+  ledger_->GetPendingContributionsTotal(
+      std::bind(BatLedgerImpl::OnGetPendingContributionsTotal,
+                holder,
+                _1));
 }
 
 }  // namespace bat_ledger

@@ -131,8 +131,8 @@ void RewardsTipDOMHandler::RegisterMessages() {
 
 void RewardsTipDOMHandler::GetPublisherTipData(
     const base::ListValue* args) {
-  std::string publisher_key;
-  args->GetString(0, &publisher_key);
+  CHECK_EQ(1U, args->GetSize());
+  const std::string publisher_key = args->GetList()[0].GetString();
   rewards_service_->GetPublisherBanner(
       publisher_key,
       base::Bind(&RewardsTipDOMHandler::OnPublisherBanner,
@@ -199,15 +199,15 @@ void RewardsTipDOMHandler::OnWalletProperties(
 }
 
 void RewardsTipDOMHandler::OnTip(const base::ListValue* args) {
-  if (!rewards_service_ || !args)
+  if (!rewards_service_ || !args) {
     return;
+  }
 
-  std::string publisher_key;
-  int amount;
-  bool recurring;
-  args->GetString(0, &publisher_key);
-  args->GetInteger(1, &amount);
-  args->GetBoolean(2, &recurring);
+  CHECK_EQ(3U, args->GetSize());
+
+  const std::string publisher_key = args->GetList()[0].GetString();
+  const int amount = args->GetList()[1].GetInt();
+  const bool recurring = args->GetList()[2].GetBool();
 
   if (publisher_key.empty() || amount < 1) {
     // TODO(nejczdovc) add error
@@ -363,8 +363,11 @@ void RewardsTipDOMHandler::TweetTip(const base::ListValue *args) {
   // Share the tip comment/compliment on Twitter.
   std::string comment = l10n_util::GetStringFUTF8(
       IDS_BRAVE_REWARDS_LOCAL_COMPLIMENT_TWEET, base::UTF8ToUTF16(name));
+  std::string hashtag = l10n_util::GetStringUTF8(
+      IDS_BRAVE_REWARDS_LOCAL_COMPLIMENT_TWEET_HASHTAG);
   std::map<std::string, std::string> share_url_args;
   share_url_args["comment"] = comment;
+  share_url_args["hashtag"] = hashtag;
   share_url_args["name"] = name.erase(0, 1);
   share_url_args["tweet_id"] = tweet_id;
   rewards_service_->GetShareURL(

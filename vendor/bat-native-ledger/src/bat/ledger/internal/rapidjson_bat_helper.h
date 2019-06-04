@@ -24,8 +24,6 @@ struct ActivityInfoFilter;
 struct RewardsInternalsInfo;
 struct VisitData;
 struct WalletInfo;
-struct PendingContribution;
-struct PendingContributionList;
 
 }  // namespace ledger
 
@@ -71,8 +69,6 @@ void saveToJson(JsonWriter* writer, const ledger::ReconcileInfo&);
 void saveToJson(JsonWriter* writer, const ledger::RewardsInternalsInfo&);
 void saveToJson(JsonWriter* writer, const ledger::VisitData&);
 void saveToJson(JsonWriter* writer, const ledger::WalletInfo&);
-void saveToJson(JsonWriter* writer, const ledger::PendingContribution&);
-void saveToJson(JsonWriter* writer, const ledger::PendingContributionList&);
 void saveToJson(JsonWriter* writer, const WALLET_PROPERTIES_ST&);
 void saveToJson(JsonWriter* writer, const GRANT&);
 

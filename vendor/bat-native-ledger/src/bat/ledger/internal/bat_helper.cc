@@ -2642,15 +2642,6 @@ uint8_t niceware_mnemonic_to_bytes(
   return 0;
 }
 
-uint64_t getRandomValue(uint8_t min, uint8_t max) {
-  std::random_device seeder;
-  const auto seed = seeder.entropy() ? seeder() : time(nullptr);
-  std::mt19937 eng(static_cast<std::mt19937::result_type> (seed));
-  std::uniform_int_distribution <> dist(min, max);
-
-  return dist(eng);
-}
-
 void saveToJson(JsonWriter* writer, const ledger::VisitData& visitData) {
   writer->StartObject();
 
@@ -2888,42 +2879,6 @@ void saveToJson(JsonWriter* writer,
 
   writer->String("reconcile_stamp");
   writer->Uint64(props.reconcile_stamp);
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer,
-                const ledger::PendingContribution& contribution) {
-  writer->StartObject();
-
-  writer->String("publisher_key");
-  writer->String(contribution.publisher_key.c_str());
-
-  writer->String("amount");
-  writer->Double(contribution.amount);
-
-  writer->String("added_date");
-  writer->Uint64(contribution.added_date);
-
-  writer->String("viewing_id");
-  writer->String(contribution.viewing_id.c_str());
-
-  writer->String("category");
-  writer->Int(contribution.category);
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer,
-                const ledger::PendingContributionList& contributions) {
-  writer->StartObject();
-
-  writer->String("list");
-  writer->StartArray();
-  for (const auto& contribution : contributions.list_) {
-    saveToJson(writer, contribution);
-  }
-  writer->EndArray();
 
   writer->EndObject();
 }

@@ -94,8 +94,7 @@ class LedgerClientMojoProxy : public mojom::BatLedgerClient,
     int32_t method,
     LoadURLCallback callback) override;
 
-  void SavePendingContribution(
-      const std::string& list) override;
+  void SavePendingContribution(ledger::PendingContributionList list) override;
 
   void LoadActivityInfo(const std::string& filter,
       LoadActivityInfoCallback callback) override;
@@ -124,8 +123,24 @@ class LedgerClientMojoProxy : public mojom::BatLedgerClient,
 
   void ConfirmationsTransactionHistoryDidChange() override;
 
-  void GetExcludedPublishersNumberDB(
-      GetExcludedPublishersNumberDBCallback callback) override;
+  void GetPendingContributions(
+      GetPendingContributionsCallback callback) override;
+
+  void RemovePendingContribution(
+      const std::string& publisher_key,
+      const std::string& viewing_id,
+      uint64_t added_date,
+      RemovePendingContributionCallback callback) override;
+
+  void RemoveAllPendingContributions(
+      RemovePendingContributionCallback callback) override;
+
+  void GetPendingContributionsTotal(
+      GetPendingContributionsTotalCallback callback) override;
+
+  void GetCountryCodes(
+      const std::vector<std::string>& countries,
+      GetCountryCodesCallback callback) override;
 
  private:
   // workaround to pass base::OnceCallback into std::bind
@@ -231,14 +246,30 @@ class LedgerClientMojoProxy : public mojom::BatLedgerClient,
       CallbackHolder<ResetStateCallback>* holder,
       ledger::Result result);
 
-  static void OnGetExcludedPublishersNumberDB(
-      CallbackHolder<GetExcludedPublishersNumberDBCallback>* holder,
-      uint32_t number);
-
   static void OnGetOneTimeTips(
       CallbackHolder<GetOneTimeTipsCallback>* holder,
       ledger::PublisherInfoList publisher_info_list,
       uint32_t next_record);
+
+  static void OnGetPendingContributions(
+      CallbackHolder<GetPendingContributionsCallback>* holder,
+      ledger::PendingContributionInfoList info_list);
+
+  static void OnRemovePendingContribution(
+      CallbackHolder<RemovePendingContributionCallback>* holder,
+      ledger::Result result);
+
+  static void OnRemoveAllPendingContributions(
+      CallbackHolder<RemovePendingContributionCallback>* holder,
+      ledger::Result result);
+
+  static void OnGetPendingContributionsTotal(
+      CallbackHolder<GetPendingContributionsTotalCallback>* holder,
+      double amount);
+
+  static void OnGetCountryCodes(
+      CallbackHolder<GetCountryCodesCallback>* holder,
+      const std::vector<int32_t>& countries);
 
   ledger::LedgerClient* ledger_client_;
 

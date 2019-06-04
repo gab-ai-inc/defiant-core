@@ -3,6 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+#include <stdint.h>
+
 #include <algorithm>
 #include <cmath>
 #include <ctime>
@@ -18,6 +20,7 @@
 #include "bat/ledger/internal/ledger_impl.h"
 #include "bat/ledger/internal/rapidjson_bat_helper.h"
 #include "net/http/http_status_code.h"
+#include "brave_base/random.h"
 
 using std::placeholders::_1;
 using std::placeholders::_2;
@@ -92,6 +95,102 @@ std::string BatContribution::GetAnonizeProof(
   return proof;
 }
 
+void BatContribution::HasSufficientBalance(
+    ledger::HasSufficientBalanceToReconcileCallback callback) {
+  ledger_->FetchWalletProperties(
+      std::bind(&BatContribution::OnSufficientBalanceWallet,
+        this, _1, _2, callback));
+}
+
+void BatContribution::GetVerifiedAutoAmount(
+    const ledger::PublisherInfoList& publisher_list,
+    uint32_t record,
+    double balance,
+    ledger::HasSufficientBalanceToReconcileCallback callback) {
+  double ac_amount = ledger_->GetContributionAmount();
+  double total_reconcile_amount(GetAmountFromVerifiedAuto(
+      publisher_list, ac_amount));
+  if (balance < total_reconcile_amount && !publisher_list.empty()) {
+    callback(false);
+    return;
+  }
+  ledger_->GetRecurringTips(
+      std::bind(&BatContribution::GetVerifiedRecurringAmount,
+                this,
+                _1,
+                _2,
+                balance,
+                total_reconcile_amount,
+                callback));
+}
+
+// static
+double BatContribution::GetAmountFromVerifiedAuto(
+    const ledger::PublisherInfoList& publisher_list,
+    double ac_amount) {
+  double non_verified_bat = 0.0;
+  for (const auto& publisher : publisher_list) {
+    if (!publisher->verified) {
+      non_verified_bat += (publisher->percent / 100.0) * ac_amount;
+    }
+  }
+  return ac_amount - non_verified_bat;
+}
+
+void BatContribution::GetVerifiedRecurringAmount(
+    const ledger::PublisherInfoList& publisher_list,
+    uint32_t record,
+    double balance,
+    double total_reconcile_amount,
+    ledger::HasSufficientBalanceToReconcileCallback callback) {
+  if (publisher_list.empty()) {
+    callback(true);
+    return;
+  }
+  total_reconcile_amount += GetAmountFromVerifiedRecurring(publisher_list);
+  callback(balance >= total_reconcile_amount);
+}
+
+// static
+double BatContribution::GetAmountFromVerifiedRecurring(
+    const ledger::PublisherInfoList& publisher_list) {
+  double total_recurring_amount(0.0);
+  for (const auto& publisher : publisher_list) {
+    if (publisher->id.empty()) {
+      continue;
+    }
+    if (publisher->verified) {
+      total_recurring_amount += publisher->weight;
+    }
+  }
+  return total_recurring_amount;
+}
+
+void BatContribution::OnSufficientBalanceWallet(
+    ledger::Result result,
+    std::unique_ptr<ledger::WalletInfo> info,
+    ledger::HasSufficientBalanceToReconcileCallback callback) {
+  if (result == ledger::Result::LEDGER_OK && info) {
+    ledger::ActivityInfoFilter filter = ledger_->CreateActivityFilter(
+      std::string(),
+      ledger::EXCLUDE_FILTER::FILTER_ALL_EXCEPT_EXCLUDED,
+      true,
+      ledger_->GetReconcileStamp(),
+      ledger_->GetPublisherAllowNonVerified(),
+      ledger_->GetPublisherMinVisits());
+  ledger_->GetActivityInfoList(
+      0,
+      0,
+      filter,
+      std::bind(&BatContribution::GetVerifiedAutoAmount,
+                this,
+                _1,
+                _2,
+                info->balance_,
+                callback));
+  }
+}
+
 ledger::PublisherInfoList BatContribution::GetVerifiedListAuto(
     const std::string& viewing_id,
     const ledger::PublisherInfoList* list,
@@ -121,19 +220,19 @@ ledger::PublisherInfoList BatContribution::GetVerifiedListAuto(
 
   // non-verified publishers
   for (const auto& publisher : temp) {
-    ledger::PendingContribution contribution;
-    contribution.amount =
+    auto contribution = ledger::PendingContribution::New();
+    contribution->amount =
         (static_cast<double>(publisher->percent) / 100) * ac_amount;
-    contribution.publisher_key = publisher->id;
-    contribution.viewing_id = viewing_id;
-    contribution.category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
+    contribution->publisher_key = publisher->id;
+    contribution->viewing_id = viewing_id;
+    contribution->category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
 
-    non_verified_bat += contribution.amount;
-    non_verified.list_.push_back(contribution);
+    non_verified_bat += contribution->amount;
+    non_verified.push_back(std::move(contribution));
   }
 
-  if (non_verified.list_.size() > 0) {
-    ledger_->SaveUnverifiedContribution(non_verified);
+  if (non_verified.size() > 0) {
+    ledger_->SaveUnverifiedContribution(std::move(non_verified));
   }
 
   *budget = ac_amount - non_verified_bat;
@@ -157,18 +256,18 @@ ledger::PublisherInfoList BatContribution::GetVerifiedListRecurring(
       verified.push_back(publisher->Clone());
       *budget += publisher->weight;
     } else {
-      ledger::PendingContribution contribution;
-      contribution.amount = publisher->weight;
-      contribution.publisher_key = publisher->id;
-      contribution.viewing_id = viewing_id;
-      contribution.category = ledger::REWARDS_CATEGORY::RECURRING_TIP;
+      auto contribution = ledger::PendingContribution::New();
+      contribution->amount = publisher->weight;
+      contribution->publisher_key = publisher->id;
+      contribution->viewing_id = viewing_id;
+      contribution->category = ledger::REWARDS_CATEGORY::RECURRING_TIP;
 
-      non_verified.list_.push_back(contribution);
+      non_verified.push_back(std::move(contribution));
     }
   }
 
-  if (non_verified.list_.size() > 0) {
-    ledger_->SaveUnverifiedContribution(non_verified);
+  if (non_verified.size() > 0) {
+    ledger_->SaveUnverifiedContribution(std::move(non_verified));
   }
 
   return verified;
@@ -1505,7 +1604,7 @@ void BatContribution::SetReconcileTimer() {
 
 void BatContribution::SetTimer(uint32_t* timer_id, uint64_t start_timer_in) {
   if (start_timer_in == 0) {
-    start_timer_in = braveledger_bat_helper::getRandomValue(10, 60);
+    start_timer_in = brave_base::random::Geometric(45);
   }
 
   BLOG(ledger_, ledger::LogLevel::LOG_INFO) <<

@@ -137,6 +137,10 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
       if (key) {
         state[key] = value
         chrome.send('brave_rewards.saveAdsSetting', [key, value.toString()])
+
+        if (key === 'adsEnabledMigrated') {
+          state.enabledAdsMigrated = true
+        }
       }
       break
     }
@@ -188,7 +192,7 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
       const key = action.payload.key
       const value = action.payload.value
 
-      if (!value || value === '') {
+      if (key == null || key.length === 0 || value == null) {
         break
       }
 

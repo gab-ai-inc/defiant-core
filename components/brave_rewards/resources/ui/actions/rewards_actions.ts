@@ -91,6 +91,10 @@ export const onContributeList = (list: Rewards.Publisher[]) => action(types.ON_C
   list
 })
 
+export const onExcludedList = (list: Rewards.ExcludedPublisher[]) => action(types.ON_EXCLUDED_LIST, {
+  list
+})
+
 export const onBalanceReports = (reports: Record<string, Rewards.Report>) => action(types.ON_BALANCE_REPORTS, {
   reports
 })
@@ -108,10 +112,6 @@ export const onWalletExists = (exists: boolean) => action(types.ON_WALLET_EXISTS
 })
 
 export const restorePublishers = () => action(types.ON_RESTORE_PUBLISHERS)
-
-export const onExcludedNumber = (num: number) => action(types.ON_EXCLUDED_PUBLISHERS_NUMBER, {
-  num
-})
 
 export const onContributionAmount = (amount: number) => action(types.ON_CONTRIBUTION_AMOUNT, {
   amount
@@ -158,11 +158,12 @@ export const getAddresses = () => action(types.GET_ADDRESSES)
 
 export const getReconcileStamp = () => action(types.GET_RECONCILE_STAMP)
 
-export const getPendingContributionsTotal = () => action(types.GET_PENDING_CONTRIBUTION_TOTAL)
+export const getPendingContributions = () => action(types.GET_PENDING_CONTRIBUTIONS)
 
-export const onPendingContributionTotal = (amount: number) => action(types.ON_PENDING_CONTRIBUTION_TOTAL, {
-  amount
-})
+export const onPendingContributions = (list: Rewards.PendingContribution[]) =>
+  action(types.ON_PENDING_CONTRIBUTIONS, {
+    list
+  })
 
 export const onRewardsEnabled = (enabled: boolean) => action(types.ON_REWARDS_ENABLED, {
   enabled
@@ -184,8 +185,6 @@ export const getTransactionHistoryForThisCycle = () => action(types.GET_TRANSACT
 
 export const onTransactionHistoryForThisCycleChanged = () => action(types.ON_TRANSACTION_HISTORY_FOR_THIS_CYCLE_CHANGED)
 
-export const getExcludedPublishersNumber = () => action(types.GET_EXCLUDED_PUBLISHERS_NUMBER)
-
 export const getRewardsMainEnabled = () => action(types.GET_REWARDS_MAIN_ENABLED)
 
 export const onRecurringTipSaved = (success: boolean) => action(types.ON_RECURRING_TIP_SAVED, {
@@ -205,3 +204,18 @@ export const onInlineTipSettingChange = (key: string, value: boolean) => action(
   key,
   value
 })
+
+export const removePendingContribution = (publisherKey: string, viewingId: string, addedDate: string) =>
+  action(types.REMOVE_PENDING_CONTRIBUTION, {
+    publisherKey,
+    viewingId,
+    addedDate
+  })
+
+export const removeAllPendingContribution = () => action(types.REMOVE_ALL_PENDING_CONTRIBUTION)
+
+export const restorePublisher = (publisherKey: string) => action(types.ON_RESTORE_PUBLISHER, {
+  publisherKey
+})
+
+export const getExcludedSites = () => action(types.GET_EXCLUDED_SITES)

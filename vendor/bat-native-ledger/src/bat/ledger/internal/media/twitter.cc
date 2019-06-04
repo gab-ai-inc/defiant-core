@@ -150,33 +150,24 @@ std::string MediaTwitter::GetUserId(const std::string& response) {
 }
 
 // static
-std::string MediaTwitter::GetPublisherName(const std::string& response,
-                                           const std::string& user_name) {
+std::string MediaTwitter::GetPublisherName(const std::string& response) {
   if (response.empty()) {
     return std::string();
   }
 
-  std::string title = braveledger_media::ExtractData(
+  const std::string title = braveledger_media::ExtractData(
       response, "<title>", "</title>");
 
   if (title.empty()) {
     return std::string();
   }
 
-  base::ReplaceSubstringsAfterOffset(&title,
-                                     0,
-                                     " (@" + user_name + ")",
-                                     "");
+  std::vector<std::string> parts = base::SplitStringUsingSubstr(
+      title, " (@", base::TRIM_WHITESPACE, base::SPLIT_WANT_NONEMPTY);
 
-  base::ReplaceSubstringsAfterOffset(&title,
-                                     0,
-                                     " / Twitter",
-                                     "");
-
-  base::ReplaceSubstringsAfterOffset(&title,
-                                     0,
-                                     " | Twitter",
-                                     "");
+  if (parts.size() > 0) {
+    return parts.at(0);
+  }
 
   return title;
 }
@@ -211,27 +202,34 @@ void MediaTwitter::SaveMediaInfo(const std::map<std::string, std::string>& data,
                     _2));
 }
 
+// static
 std::string MediaTwitter::GetShareURL(
     const std::map<std::string, std::string>& args) {
   auto comment = args.find("comment");
   auto name = args.find("name");
   auto tweet_id = args.find("tweet_id");
-  if (comment == args.end() || name == args.end() || tweet_id == args.end())
+  auto hashtag = args.find("hashtag");
+  if (comment == args.end() || name == args.end() || hashtag == args.end())
     return std::string();
+
+  // Append hashtag to comment ("%20%23" = percent-escaped space and
+  // number sign)
+  std::string comment_with_hashtag =
+      comment->second + "%20%23" + hashtag->second;
 
   // If a tweet ID was specified, then quote the original tweet along
   // with the supplied comment; otherwise, just tweet the comment.
   std::string share_url;
-  if (!tweet_id->second.empty()) {
+  if (tweet_id != args.end() && !tweet_id->second.empty()) {
     std::string quoted_tweet_url =
         base::StringPrintf("https://twitter.com/%s/status/%s",
                            name->second.c_str(), tweet_id->second.c_str());
-    share_url =
-        base::StringPrintf("https://twitter.com/intent/tweet?url=%s&text=%s",
-                           quoted_tweet_url.c_str(), comment->second.c_str());
+    share_url = base::StringPrintf(
+        "https://twitter.com/intent/tweet?text=%s&url=%s",
+        comment_with_hashtag.c_str(), quoted_tweet_url.c_str());
   } else {
     share_url = base::StringPrintf("https://twitter.com/intent/tweet?text=%s",
-                                   comment->second.c_str());
+                                   comment_with_hashtag.c_str());
   }
   return share_url;
 }
@@ -446,7 +444,7 @@ void MediaTwitter::OnUserPage(
 
   const std::string user_id = GetUserId(response);
   const std::string user_name = GetUserNameFromUrl(visit_data.path);
-  std::string publisher_name = GetPublisherName(response, user_name);
+  std::string publisher_name = GetPublisherName(response);
 
   if (publisher_name.empty()) {
     publisher_name = user_name;
