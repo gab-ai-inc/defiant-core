@@ -8,7 +8,6 @@
 #include "brave/app/brave_command_ids.h"
 #include "brave/browser/ui/brave_pages.h"
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
-#include "brave/components/brave_wallet/browser/buildflags/buildflags.h"
 #include "brave/components/brave_sync/brave_sync_service.h"
 #include "brave/browser/ui/browser_commands.h"
 #include "chrome/browser/profiles/profile.h"
@@ -86,9 +85,6 @@ void BraveBrowserCommandController::InitBraveCommandState() {
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
     UpdateCommandForBraveRewards();
 #endif
-#if BUILDFLAG(BRAVE_WALLET_ENABLED)
-    UpdateCommandForBraveWallet();
-#endif
     if (brave_sync::BraveSyncService::is_enabled())
       UpdateCommandForBraveSync();
   }
@@ -111,10 +107,6 @@ void BraveBrowserCommandController::UpdateCommandForTor() {
 
 void BraveBrowserCommandController::UpdateCommandForBraveSync() {
   UpdateCommandEnabled(IDC_SHOW_BRAVE_SYNC, true);
-}
-
-void BraveBrowserCommandController::UpdateCommandForBraveWallet() {
-  UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET, true);
 }
 
 bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
@@ -143,9 +135,6 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       break;
     case IDC_SHOW_BRAVE_SYNC:
       //brave::ShowBraveSync(browser_);
-      break;
-    case IDC_SHOW_BRAVE_WALLET:
-      brave::ShowBraveWallet(browser_);
       break;
 
     default:
