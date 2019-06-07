@@ -1,10 +1,10 @@
-import("buildflags/buildflags.gni")
+# import("buildflags/buildflags.gni")
 import("//brave/components/common/typescript.gni")
 import("//build/config/features.gni")
 import("//tools/grit/grit_rule.gni")
 import("//tools/grit/repack.gni")
 
-if (enable_brave_sync) {
+if (false) {
   source_set("js_sync_lib_impl") {
     sources = [
       "brave_sync_service_impl.cc",
@@ -71,7 +71,7 @@ source_set("core") {
     "//extensions/buildflags",
   ]
 
-  if (enable_brave_sync) {
+  if (false) {
     deps += [
       ":js_sync_lib_impl",
     ]

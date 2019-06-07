@@ -1,4 +1,4 @@
-import("//brave/browser/tor/buildflags/buildflags.gni")
+# import("//brave/browser/tor/buildflags/buildflags.gni")
 import("//brave/components/brave_ads/browser/buildflags/buildflags.gni")
 import("//brave/components/brave_rewards/browser/buildflags/buildflags.gni")
 import("//build/config/features.gni")
@@ -39,9 +39,9 @@ source_set("utility") {
     ]
   }
 
-  if (enable_tor) {
+  # if (enable_tor) {
     deps += [ "tor" ]
-  }
+  # }
 
   if (brave_ads_enabled) {
     deps += [ "//brave/components/services/bat_ads:lib" ]
