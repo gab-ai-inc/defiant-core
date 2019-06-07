@@ -74,8 +74,6 @@ class BatState {
 
   bool IsWalletCreated() const;
 
-  double GetBalance() const;
-
   const std::string& GetPaymentId() const;
 
   void SetPaymentId(const std::string& payment_id);
@@ -148,6 +146,10 @@ class BatState {
   double GetDefaultContributionAmount();
 
   void SetAddress(std::map<std::string, std::string> addresses);
+
+  void SetInlineTipSetting(const std::string& key, bool enabled);
+
+  bool GetInlineTipSetting(const std::string& key) const;
 
  private:
   void SaveState();

@@ -12,15 +12,20 @@
 #include <utility>
 
 #include "bat/ledger/export.h"
+#include "bat/ledger/public/interfaces/ledger.mojom.h"
 
 namespace ledger {
+
+using PublisherInfo = mojom::PublisherInfo;
+using PublisherInfoPtr = mojom::PublisherInfoPtr;
+using PublisherInfoList = std::vector<PublisherInfoPtr>;
 
 const char _clear_favicon[] = "clear";
 
 LEDGER_EXPORT enum REWARDS_CATEGORY {
   AUTO_CONTRIBUTE = 1 << 1,  // 2
   ONE_TIME_TIP = 1 << 3,  // 8
-  RECURRING_TIP = 1 << 4,  // 21
+  RECURRING_TIP = 1 << 4,  // 16
   ALL_CATEGORIES = (1 << 5) - 1,
 };
 
@@ -82,7 +87,7 @@ LEDGER_EXPORT struct ContributionInfo {
   const std::string ToJson() const;
   bool loadFromJson(const std::string& json);
 
-  std::string publisher;  // Filled only for recurrent donations
+  std::string publisher;  // Filled only for recurrent tips
   double value;
   uint64_t date;
 };
@@ -106,49 +111,6 @@ LEDGER_EXPORT struct PublisherBanner {
   std::map<std::string, std::string> social;
   bool verified;
 };
-
-LEDGER_EXPORT struct PublisherInfo {
-  PublisherInfo();
-  PublisherInfo(const std::string& publisher_id);
-  PublisherInfo(const PublisherInfo& info);
-  ~PublisherInfo();
-
-  bool operator<(const PublisherInfo& rhs) const;
-  bool is_valid() const;
-
-  const std::string ToJson() const;
-  bool loadFromJson(const std::string& json);
-
-  std::string id;
-  uint64_t duration;
-  double score;
-  uint32_t visits;
-  uint32_t percent;
-  double weight;
-  PUBLISHER_EXCLUDE excluded;
-  REWARDS_CATEGORY category;
-  uint64_t reconcile_stamp;
-  bool verified;
-  std::string name;
-  std::string url;
-  std::string provider;
-  std::string favicon_url;
-
-  std::vector<ContributionInfo> contributions;
-};
-
-LEDGER_EXPORT struct PublisherInfoListStruct {
-  PublisherInfoListStruct();
-  ~PublisherInfoListStruct();
-  PublisherInfoListStruct(const PublisherInfoListStruct& data);
-
-  const std::string ToJson() const;
-  bool loadFromJson(const std::string& json);
-
-  std::vector<PublisherInfo> list;
-};
-
-using PublisherInfoList = std::vector<PublisherInfo>;
 
 }  // namespace ledger
 

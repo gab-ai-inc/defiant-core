@@ -10,6 +10,7 @@
 #include "bat/ledger/internal/ledger_impl.h"
 #include "bat/ledger/internal/media/helper.h"
 #include "bat/ledger/internal/media/youtube.h"
+#include "net/http/http_status_code.h"
 
 using std::placeholders::_1;
 using std::placeholders::_2;
@@ -375,6 +376,12 @@ void MediaYouTube::ProcessActivityFromUrl(uint64_t window_id,
   OnMediaActivityError(visit_data, window_id);
 }
 
+void MediaYouTube::OnSaveMediaVisit(
+    ledger::Result result,
+    ledger::PublisherInfoPtr info) {
+  // TODO(nejczdovc): handle if needed
+}
+
 void MediaYouTube::OnMediaPublisherInfo(
     const std::string& media_id,
     const std::string& media_key,
@@ -382,7 +389,7 @@ void MediaYouTube::OnMediaPublisherInfo(
     const ledger::VisitData& visit_data,
     const uint64_t window_id,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
   if (result != ledger::Result::LEDGER_OK &&
       result != ledger::Result::NOT_FOUND) {
     BLOG(ledger_, ledger::LogLevel::LOG_ERROR)
@@ -390,7 +397,7 @@ void MediaYouTube::OnMediaPublisherInfo(
     return;
   }
 
-  if (!publisher_info && !publisher_info.get()) {
+  if (!publisher_info) {
     std::string media_url = GetVideoUrl(media_id);
     auto callback = std::bind(
         &MediaYouTube::OnEmbedResponse,
@@ -416,7 +423,17 @@ void MediaYouTube::OnMediaPublisherInfo(
     updated_visit_data.provider = YOUTUBE_MEDIA_TYPE;
     updated_visit_data.favicon_url = publisher_info->favicon_url;
     std::string id = publisher_info->id;
-    ledger_->SaveMediaVisit(id, updated_visit_data, duration, window_id);
+
+    auto callback = std::bind(&MediaYouTube::OnSaveMediaVisit,
+                              this,
+                              _1,
+                              _2);
+
+    ledger_->SaveMediaVisit(id,
+                            updated_visit_data,
+                            duration,
+                            window_id,
+                            callback);
   }
 }
 
@@ -431,9 +448,9 @@ void MediaYouTube::OnEmbedResponse(
     const std::map<std::string, std::string>& headers) {
   ledger_->LogResponse(__func__, response_status_code, response, headers);
 
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     // embedding disabled, need to scrape
-    if (response_status_code == 401) {
+    if (response_status_code == net::HTTP_UNAUTHORIZED) {
       FetchDataFromUrl(visit_data.url,
           std::bind(&MediaYouTube::OnPublisherPage,
                     this,
@@ -482,12 +499,12 @@ void MediaYouTube::OnPublisherPage(
     int response_status_code,
     const std::string& response,
     const std::map<std::string, std::string>& headers) {
-  if (response_status_code != 200 && publisher_name.empty()) {
+  if (response_status_code != net::HTTP_OK && publisher_name.empty()) {
     OnMediaActivityError(visit_data, window_id);
     return;
   }
 
-  if (response_status_code == 200) {
+  if (response_status_code == net::HTTP_OK) {
     std::string fav_icon = GetFavIconUrl(response);
     std::string channel_id = GetChannelId(response);
 
@@ -544,10 +561,16 @@ void MediaYouTube::SavePublisherInfo(const uint64_t duration,
   updated_visit_data.name = publisher_name;
   updated_visit_data.url = url;
 
+  auto callback = std::bind(&MediaYouTube::OnSaveMediaVisit,
+                            this,
+                            _1,
+                            _2);
+
   ledger_->SaveMediaVisit(publisher_id,
                           updated_visit_data,
                           duration,
-                          window_id);
+                          window_id,
+                          callback);
   if (!media_key.empty()) {
     ledger_->SetMediaPublisherInfo(media_key, publisher_id);
   }
@@ -588,7 +611,7 @@ void MediaYouTube::WatchPath(uint64_t window_id,
 
 void MediaYouTube::OnMediaPublisherActivity(
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info,
+    ledger::PublisherInfoPtr info,
     uint64_t window_id,
     const ledger::VisitData& visit_data,
     const std::string& media_key,
@@ -644,7 +667,7 @@ void MediaYouTube::OnPublisherPanleInfo(
     const std::string& publisher_key,
     bool is_custom_path,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info) {
+    ledger::PublisherInfoPtr info) {
   if (!info || result == ledger::Result::NOT_FOUND) {
     FetchDataFromUrl(visit_data.url,
                      std::bind(&MediaYouTube::GetChannelHeadlineVideo,
@@ -668,7 +691,7 @@ void MediaYouTube::GetChannelHeadlineVideo(
     int response_status_code,
     const std::string& response,
     const std::map<std::string, std::string>& headers) {
-  if (response_status_code != 200) {
+  if (response_status_code != net::HTTP_OK) {
     OnMediaActivityError(visit_data, window_id);
     return;
   }
@@ -741,7 +764,7 @@ void MediaYouTube::OnUserActivity(
     const ledger::VisitData& visit_data,
     const std::string& media_key,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info) {
+    ledger::PublisherInfoPtr info) {
   if (result != ledger::Result::LEDGER_OK  &&
       result != ledger::Result::NOT_FOUND) {
     OnMediaActivityError(visit_data, window_id);

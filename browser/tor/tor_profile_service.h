@@ -6,6 +6,8 @@
 #ifndef BRAVE_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
 #define BRAVE_BROWSER_TOR_TOR_PROFILE_SERVICE_H_
 
+#include <string>
+
 #include "base/macros.h"
 #include "base/observer_list.h"
 #include "brave/common/tor/tor_common.h"
@@ -47,6 +49,8 @@ class TorProfileService : public KeyedService {
 
   void AddObserver(TorLauncherServiceObserver* observer);
   void RemoveObserver(TorLauncherServiceObserver* observer);
+
+  static std::string CircuitIsolationKey(const GURL& request_url);
 
  protected:
   base::ObserverList<TorLauncherServiceObserver> observers_;

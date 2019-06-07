@@ -46,15 +46,13 @@ class PublisherInfoDatabase {
 
   bool InsertOrUpdatePublisherInfo(const ledger::PublisherInfo& info);
 
-  std::unique_ptr<ledger::PublisherInfo> GetPublisherInfo(
+  ledger::PublisherInfoPtr GetPublisherInfo(
      const std::string& media_key);
 
-  std::unique_ptr<ledger::PublisherInfo> GetPanelPublisher(
+  ledger::PublisherInfoPtr GetPanelPublisher(
      const ledger::ActivityInfoFilter& filter);
 
   bool RestorePublishers();
-
-  int GetExcludedPublishersCount();
 
   bool InsertOrUpdateActivityInfo(const ledger::PublisherInfo& info);
 
@@ -65,10 +63,12 @@ class PublisherInfoDatabase {
                        const ledger::ActivityInfoFilter& filter,
                        ledger::PublisherInfoList* list);
 
+  bool GetExcludedList(ledger::PublisherInfoList* list);
+
   bool InsertOrUpdateMediaPublisherInfo(const std::string& media_key,
                                         const std::string& publisher_id);
 
-  std::unique_ptr<ledger::PublisherInfo> GetMediaPublisherInfo(
+  ledger::PublisherInfoPtr GetMediaPublisherInfo(
       const std::string& media_key);
 
   bool InsertOrUpdateRecurringTip(
@@ -81,6 +81,15 @@ class PublisherInfoDatabase {
   bool InsertPendingContribution(const ledger::PendingContributionList& list);
 
   double GetReservedAmount();
+
+  void GetPendingContributions(
+      ledger::PendingContributionInfoList* list);
+
+  bool RemovePendingContributions(const std::string& publisher_key,
+                                  const std::string& viewing_id,
+                                  uint64_t added_date);
+
+  bool RemoveAllPendingContributions();
 
   // Returns the current version of the publisher info database
   int GetCurrentVersion();

@@ -12,11 +12,11 @@ import {
   FooterRightColumn,
   SkipButton,
   Bullet
-} from 'brave-ui/features/welcome'
+} from 'dissenter-ui/features/welcome'
 
 // Shared components
-import { ArrowRightIcon } from 'brave-ui/components/icons'
-import { Button } from 'brave-ui'
+import { ArrowRightIcon } from 'dissenter-ui/components/icons'
+import { Button } from 'dissenter-ui'
 
 // Utils
 import { getLocale } from '../../../common/locale'

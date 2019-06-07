@@ -63,10 +63,12 @@
 
 #define YOUTUBE_MEDIA_TYPE              "youtube"
 #define TWITCH_MEDIA_TYPE               "twitch"
+#define TWITTER_MEDIA_TYPE              "twitter"
 #define YOUTUBE_PROVIDER_URL            "https://www.youtube.com/oembed"
 #define TWITCH_PROVIDER_URL             "https://api.twitch.tv/v5/oembed"
 #define YOUTUBE_TLD                     "youtube.com"
 #define TWITCH_TLD                      "twitch.tv"
+#define TWITTER_TLD                     "twitter.com"
 #define TWITCH_VOD_URL                  "https://www.twitch.tv/videos/"
 #define MEDIA_DELIMITER                 '_'
 #define WALLET_PASSPHRASE_DELIM         ' '
@@ -113,6 +115,13 @@ static const uint64_t _reconcile_default_interval = 30 * 24 * 60 * 60;
 
 // 1 day in seconds
 static const uint64_t _grant_load_interval = 24 * 60 * 60;
+
+// pending contribution expiration in seconds (90 days)
+static const uint64_t _pending_contribution_expiration = 90 * 24 * 60 * 60;
+
+static const std::vector<std::string> _add_funds_limited_countries = {
+  "JP"
+};
 
 }  // namespace braveledger_ledger
 

@@ -1,4 +1,5 @@
 const path = require('path')
+const GenerateDepfilePlugin = require('./webpack-plugin-depfile')
 
 module.exports = (env, argv) => ({
   devtool: argv.mode === 'development' ? '#inline-source-map' : false,
@@ -12,12 +13,19 @@ module.exports = (env, argv) => ({
     alias: {
       'bittorrent-tracker': path.resolve(__dirname, '../../node_modules/bittorrent-tracker'),
       'brave-ui': path.resolve(__dirname, '../../node_modules/brave-ui/src'),
+      'dissenter-ui': path.resolve(__dirname, '../../node_modules/dissenter-ui/src'),
       'dgram': 'chrome-dgram',
       'dns': path.resolve(__dirname, '../common/dns.ts'),
       'net': 'chrome-net',
       'torrent-discovery': path.resolve(__dirname, '../../node_modules/torrent-discovery')
     }
   },
+  plugins: [
+    new GenerateDepfilePlugin({
+      depfilePath: process.env.DEPFILE_PATH,
+      depfileSourceName: process.env.DEPFILE_SOURCE_NAME
+    })
+  ],
   module: {
     rules: [
       {

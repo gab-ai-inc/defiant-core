@@ -12,8 +12,8 @@
 #include "base/strings/utf_string_conversions.h"
 #include "brave/browser/brave_browser_process_impl.h"
 #include "brave/common/extensions/extension_constants.h"
+#include "brave/components/brave_component_updater/browser/local_data_files_service.h"
 #include "brave/components/brave_shields/browser/extension_whitelist_service.h"
-#include "brave/components/brave_shields/browser/local_data_files_service.h"
 #include "brave/grit/brave_generated_resources.h"
 #include "ui/base/l10n/l10n_util.h"
 
@@ -27,8 +27,7 @@ bool IsBlacklisted(const extensions::Extension* extension) {
       {// Used for tests, corresponds to
        // brave/test/data/should-be-blocked-extension.
        "mlklomjnahgiddgfdgjhibinlfibfffc",
-       // Chromium PDF Viewer.
-       "mhjfbmdgcfjbbpaeojofohoefgiehjai"});
+     });
 
   if (std::find(blacklisted_extensions.begin(), blacklisted_extensions.end(),
                 extension->id()) != blacklisted_extensions.end())
@@ -53,15 +52,15 @@ bool BraveExtensionProvider::IsVetted(const Extension* extension) {
 
 bool BraveExtensionProvider::IsVetted(const std::string id) {
   static std::vector<std::string> vetted_extensions({
+      dissenter_extension_id,
       brave_extension_id,
       brave_rewards_extension_id,
       brave_sync_extension_id,
       brave_webtorrent_extension_id,
       crl_set_extension_id,
-      pdfjs_extension_id,
       hangouts_extension_id,
       widevine_extension_id,
-      brave_shields::kLocalDataFilesComponentId,
+      brave_component_updater::kLocalDataFilesComponentId,
       // Web Store
       "ahfgeienlihckogmohjhadlkjgocpleb",
       // Brave Automation Extension
@@ -79,6 +78,8 @@ bool BraveExtensionProvider::IsVetted(const std::string id) {
       "bhlmpjhncoojbkemjkeppfahkglffilp",
       // Test ID: Brave Tor Client Updater
       "ngicbhhaldfdgmjhilmnleppfpmkgbbk",
+      // Chromium PDF Viewer.
+      "mhjfbmdgcfjbbpaeojofohoefgiehjai",
   });
   if (std::find(vetted_extensions.begin(), vetted_extensions.end(), id) !=
       vetted_extensions.end())
@@ -121,6 +122,7 @@ bool BraveExtensionProvider::MustRemainInstalled(const Extension* extension,
                                                  base::string16* error) const {
   return extension->id() == brave_extension_id ||
          extension->id() == brave_rewards_extension_id ||
+         extension->id() == dissenter_extension_id ||
          extension->id() == brave_sync_extension_id;
 }
 

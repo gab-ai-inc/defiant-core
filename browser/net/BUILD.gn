@@ -16,8 +16,6 @@ source_set("net") {
     "brave_network_delegate_base.h",
     "brave_profile_network_delegate.cc",
     "brave_profile_network_delegate.h",
-    "brave_referrals_network_delegate_helper.cc",
-    "brave_referrals_network_delegate_helper.h",
     "brave_site_hacks_network_delegate_helper.cc",
     "brave_site_hacks_network_delegate_helper.h",
     "brave_static_redirect_network_delegate_helper.cc",
@@ -29,10 +27,10 @@ source_set("net") {
     "url_context.cc",
     "url_context.h",
   ]
+
   deps = [
+    "//base",
     "//brave/browser/safebrowsing",
-    "//brave/components/brave_webtorrent/browser/net",
-    "//chrome/browser",
     "//content/public/browser",
     "//content/public/common",
     "//extensions/common:common_constants",

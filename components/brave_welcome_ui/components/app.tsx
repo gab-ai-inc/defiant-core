@@ -7,19 +7,15 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Feature-specific components
-import { Page, Panel, SlideContent } from 'brave-ui/features/welcome'
+import { Page, Panel, SlideContent } from 'dissenter-ui/features/welcome'
 
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
 import ImportBox from './screens/importBox'
-import RewardsBox from './screens/rewardsBox'
-import SearchBox from './screens/searchBox'
-import ShieldsBox from './screens/shieldsBox'
-import ThemeBox from './screens/themeBox'
 import FooterBox from './screens/footerBox'
 
 // Images
-import { Background, BackgroundContainer } from 'brave-ui/features/welcome/images'
+import { Background, BackgroundContainer } from 'dissenter-ui/features/welcome/images'
 
 // Utils
 import * as welcomeActions from '../actions/welcome_actions'
@@ -38,7 +34,7 @@ export interface State {
   currentScreen: number
 }
 
-const totalScreensSize = 6
+const totalScreensSize = 2
 
 export class WelcomePage extends React.Component<Props, State> {
   constructor (props: Props) {
@@ -59,7 +55,8 @@ export class WelcomePage extends React.Component<Props, State> {
   onClickImport = () => {
     // clicking this button executes functionality and then auto proceed to next screen
     this.props.actions.importNowRequested()
-    this.setState({ currentScreen: this.state.currentScreen + 1 })
+    this.onClickDone()
+    //this.setState({ currentScreen: this.state.currentScreen + 1 })
   }
 
   onClickConfirmDefaultSearchEngine = () => {
@@ -68,6 +65,7 @@ export class WelcomePage extends React.Component<Props, State> {
 
   onClickChooseYourTheme = () => {
     this.props.actions.goToTabRequested('chrome://settings/appearance', '_blank')
+    this.onClickDone()
   }
 
   onClickRewardsGetStarted = () => {
@@ -102,10 +100,6 @@ export class WelcomePage extends React.Component<Props, State> {
             <SlideContent>
               <WelcomeBox index={1} currentScreen={this.currentScreen} onClick={this.onClickLetsGo} />
               <ImportBox index={2} currentScreen={this.currentScreen} onClick={this.onClickImport} />
-              <SearchBox index={3} currentScreen={this.currentScreen} onClick={this.onClickConfirmDefaultSearchEngine} />
-              <ThemeBox index={4} currentScreen={this.currentScreen} onClick={this.onClickChooseYourTheme} />
-              <ShieldsBox index={5} currentScreen={this.currentScreen} />
-              <RewardsBox index={6} currentScreen={this.currentScreen} onClick={this.onClickRewardsGetStarted} />
             </SlideContent>
             <FooterBox
               totalScreensSize={totalScreensSize}

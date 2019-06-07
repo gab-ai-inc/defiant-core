@@ -9,6 +9,7 @@ index 05336f93301b9d34b7e195b0ca3296b4c7c0a825..a4394cb3612c1e23cdf73fb6ef3af189
 +  GetContentClient()->browser()->MaybeHideReferrer(browser_context,
 +                                                   common_params_.url,
 +                                                   top_document_url,
++                                                   frame_tree_node_->IsMainFrame(),
 +                                                   &common_params_.referrer);
 +
    loader_ = NavigationURLLoader::Create(

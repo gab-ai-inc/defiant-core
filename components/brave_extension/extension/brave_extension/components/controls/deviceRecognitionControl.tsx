@@ -11,7 +11,7 @@ import {
   ArrowDownIcon,
   BlockedInfoRowStats,
   SelectBox
-} from 'brave-ui/features/shields'
+} from 'dissenter-ui/features/shields'
 
 // Group Components
 import StaticList from '../list/static'

@@ -11,11 +11,11 @@ index ba074e1acbd9844d629d234b525e6fed4b266cef..25eccc73e80488f6f6fdcb92c58219a8
 +const wchar_t kGoogleUpdateUpgradeCode[] =
 +    L"{B131C935-9BE6-41DA-9599-1F776BEB8019}";
 +const wchar_t kGoogleUpdateSetupExe[] = L"BraveUpdateSetup.exe";
-+const wchar_t kRegPathClients[] = L"Software\\BraveSoftware\\Update\\Clients";
-+const wchar_t kRegPathClientState[] = L"Software\\BraveSoftware\\Update\\ClientState";
++const wchar_t kRegPathClients[] = L"Software\\GabAI\\Update\\Clients";
++const wchar_t kRegPathClientState[] = L"Software\\GabAI\\Update\\ClientState";
 +const wchar_t kRegPathClientStateMedium[] =
-+    L"Software\\BraveSoftware\\Update\\ClientStateMedium";
-+const wchar_t kRegPathGoogleUpdate[] = L"Software\\BraveSoftware\\Update";
++    L"Software\\GabAI\\Update\\ClientStateMedium";
++const wchar_t kRegPathGoogleUpdate[] = L"Software\\GabAI\\Update";
 +#else
  const wchar_t kChromeUpgradeCode[] = L"{8A69D345-D564-463C-AFF1-A69D9E530F96}";
  

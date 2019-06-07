@@ -102,7 +102,7 @@ void BraveNewTabUI::CustomizeNewTabWebUIProperties(content::RenderViewHost* rend
 void BraveNewTabUI::UpdateWebUIProperties() {
   if (IsSafeToSetWebUIProperties()) {
     CustomizeNewTabWebUIProperties(GetRenderViewHost());
-    web_ui()->CallJavascriptFunctionUnsafe("brave_new_tab.statsUpdated");
+    web_ui()->CallJavascriptFunctionUnsafe("window.brave_new_tab.statsUpdated");
   }
 }
 

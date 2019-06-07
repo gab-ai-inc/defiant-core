@@ -5,8 +5,8 @@
 import * as React from 'react'
 
 // Components
-import { Button, Modal, TextAreaClipboard } from 'brave-ui'
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { Button, Modal, TextAreaClipboard } from 'dissenter-ui'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Feature-specific components
 import {
@@ -16,7 +16,7 @@ import {
   ThreeColumnButtonGrid,
   Bold,
   Link
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Dialogs
 import CancelDeviceSyncingDialog from '../commonDialogs/cancelDeviceSyncing'

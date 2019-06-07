@@ -9,6 +9,7 @@
 #include "base/strings/utf_string_conversions.h"
 #include "brave/browser/brave_content_browser_client.h"
 #include "brave/common/brave_paths.h"
+#include "brave/common/brave_switches.h"
 #include "brave/common/extensions/extension_constants.h"
 #include "brave/common/pref_names.h"
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
@@ -26,6 +27,7 @@
 #include "chrome/test/base/ui_test_utils.h"
 #include "components/content_settings/core/browser/host_content_settings_map.h"
 #include "components/prefs/pref_service.h"
+#include "components/version_info/version_info.h"
 #include "content/public/browser/navigation_entry.h"
 #include "content/public/test/browser_test_utils.h"
 #include "content/public/test/test_navigation_observer.h"
@@ -474,22 +476,45 @@ IN_PROC_BROWSER_TEST_F(BraveContentBrowserClientReferrerTest,
                        DefaultBehaviour) {
   const GURL kRequestUrl("http://request.com/path?query");
   const GURL kDocumentUrl("http://document.com/path?query");
+  const GURL kSameOriginRequestUrl("http://document.com/different/path");
 
   content::Referrer kReferrer(kDocumentUrl,
                               network::mojom::ReferrerPolicy::kDefault);
 
-  // Should be hidden by default.
+  // Cross-origin navigations don't get a referrer.
   content::Referrer referrer = kReferrer;
   client()->MaybeHideReferrer(browser()->profile(),
-                              kRequestUrl, kDocumentUrl,
+                              kRequestUrl, kDocumentUrl, true,
+                              &referrer);
+  EXPECT_EQ(referrer.url, GURL());
+
+  // Same-origin navigations get full referrers.
+  referrer = kReferrer;
+  client()->MaybeHideReferrer(browser()->profile(),
+                              kSameOriginRequestUrl, kDocumentUrl, true,
+                              &referrer);
+  EXPECT_EQ(referrer.url, kDocumentUrl);
+
+  // Cross-origin iframe navigations get a spoofed referrer.
+  referrer = kReferrer;
+  client()->MaybeHideReferrer(browser()->profile(),
+                              kRequestUrl, kDocumentUrl, false,
                               &referrer);
   EXPECT_EQ(referrer.url, kRequestUrl.GetOrigin());
 
+  // Same-origin iframe navigations get full referrers.
+  referrer = kReferrer;
+  client()->MaybeHideReferrer(browser()->profile(),
+                              kSameOriginRequestUrl, kDocumentUrl, false,
+                              &referrer);
+  EXPECT_EQ(referrer.url, kDocumentUrl);
+
   // Special rule for extensions.
   const GURL kExtensionUrl("chrome-extension://abc/path?query");
+  referrer = kReferrer;
   referrer.url = kExtensionUrl;
   client()->MaybeHideReferrer(browser()->profile(),
-                              kRequestUrl, kExtensionUrl,
+                              kRequestUrl, kExtensionUrl, true,
                               &referrer);
   EXPECT_EQ(referrer.url, kExtensionUrl);
 
@@ -501,7 +526,33 @@ IN_PROC_BROWSER_TEST_F(BraveContentBrowserClientReferrerTest,
       brave_shields::kReferrers, CONTENT_SETTING_ALLOW);
   referrer = kReferrer;
   client()->MaybeHideReferrer(browser()->profile(),
-                              kRequestUrl, kDocumentUrl,
+                              kRequestUrl, kDocumentUrl, true,
                               &referrer);
   EXPECT_EQ(referrer.url, kDocumentUrl);
+}
+
+IN_PROC_BROWSER_TEST_F(BraveContentBrowserClientTest, OverrideUATest) {
+  const std::string appended_ua =
+      "Brave/" + version_info::GetMajorVersionNumber();
+  content::EvalJsResult js_result =
+      EvalJs(browser()->tab_strip_model()->GetActiveWebContents(),
+             "navigator.userAgent");
+  EXPECT_TRUE(js_result.ExtractString().find(appended_ua) != std::string::npos);
+}
+
+class BraveContentBrowserClientWithoutUAOverride
+    : public BraveContentBrowserClientTest {
+ public:
+  void SetUpDefaultCommandLine(base::CommandLine* command_line) override {
+    BraveContentBrowserClientTest::SetUpDefaultCommandLine(command_line);
+    command_line->AppendSwitch(switches::kDisableOverrideUA);
+  }
+};
+
+IN_PROC_BROWSER_TEST_F(BraveContentBrowserClientWithoutUAOverride,
+                       DisableOverrideUATest) {
+  content::EvalJsResult js_result =
+      EvalJs(browser()->tab_strip_model()->GetActiveWebContents(),
+             "navigator.userAgent");
+  EXPECT_EQ(js_result.ExtractString(), GetUserAgent());
 }

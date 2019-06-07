@@ -3,9 +3,9 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 import * as React from 'react'
-import { Table } from 'brave-ui/components'
-import { Cell, Row } from 'brave-ui/components/dataTables/table/index'
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { Table } from 'dissenter-ui/components'
+import { Cell, Row } from 'dissenter-ui/components/dataTables/table/index'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Constants
 import { File, TorrentObj } from '../constants/webtorrentState'

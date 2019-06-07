@@ -9,10 +9,10 @@ import {
   SiteRemovalNotification,
   SiteRemovalAction,
   SiteRemovalText
-} from 'brave-ui/features/newTab/default'
+} from 'dissenter-ui/features/newTab/default'
 
 // Icons
-import { CloseStrokeIcon } from 'brave-ui/components/icons'
+import { CloseStrokeIcon } from 'dissenter-ui/components/icons'
 
 // Utils
 import { getLocale } from '../../../common/locale'

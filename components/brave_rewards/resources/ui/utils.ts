@@ -4,7 +4,7 @@
 
 const qr = require('qr-image')
 import BigNumber from 'bignumber.js'
-import { Address } from 'brave-ui/features/rewards/modalAddFunds'
+import { Address } from 'dissenter-ui/features/rewards/modalAddFunds'
 
 export let actions: any = null
 
@@ -95,7 +95,7 @@ export const getAddresses = (addresses?: Record<Rewards.AddressesType, Rewards.A
 
   sortedArray.forEach((type: Rewards.AddressesType) => {
     const item: Rewards.Address = addresses[type]
-    if (item) {
+    if (item && item.address) {
       result.push({
         type,
         qr: item.qr,
@@ -117,7 +117,7 @@ export const convertProbiToFixed = (probi: string, places: number = 1) => {
   return result
 }
 
-export const donationTotal = (report: Rewards.Report) => {
+export const tipsTotal = (report: Rewards.Report) => {
   if (!report) {
     return '0.0'
   }

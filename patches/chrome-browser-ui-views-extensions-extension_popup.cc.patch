@@ -27,6 +27,7 @@ index db05a2b9b79e16562096916eea2f1a5362c09f34..7b35a6ea6abafa2bfeb538e292f85845
 +#if defined(OS_MACOSX) || defined(OS_WIN)
 +  const auto extensionId = host_->extension()->id();
 +  const bool isBraveExtension = (extensionId == brave_extension_id ||
++      extensionId == dissenter_extension_id ||
 +      extensionId == brave_rewards_extension_id);
 +  shouldDisableRadiusForPopup = isBraveExtension;
 +#endif

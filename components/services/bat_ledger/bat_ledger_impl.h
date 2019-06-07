@@ -6,6 +6,8 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BAT_LEDGER_BAT_LEDGER_IMPL_H_
 #define BRAVE_COMPONENTS_SERVICES_BAT_LEDGER_BAT_LEDGER_IMPL_H_
 
+#include <stdint.h>
+
 #include <map>
 #include <memory>
 #include <string>
@@ -77,14 +79,14 @@ class BatLedgerImpl : public mojom::BatLedger,
     const std::string& promotion_id,
     const std::string& promotion_type) override;
   void GetWalletPassphrase(GetWalletPassphraseCallback callback) override;
-  void GetExcludedPublishersNumber(
-      GetExcludedPublishersNumberCallback callback) override;
   void RecoverWallet(const std::string& passPhrase) override;
   void SolveGrantCaptcha(
       const std::string& solution,
       const std::string& promotionId) override;
 
-  void GetAddresses(GetAddressesCallback callback) override;
+  void GetAddresses(
+      int32_t current_country_code,
+      GetAddressesCallback callback) override;
   void GetBATAddress(GetBATAddressCallback callback) override;
   void GetBTCAddress(GetBTCAddressCallback callback) override;
   void GetETHAddress(GetETHAddressCallback callback) override;
@@ -117,8 +119,9 @@ class BatLedgerImpl : public mojom::BatLedger,
   void GetPublisherBanner(const std::string& publisher_id,
       GetPublisherBannerCallback callback) override;
 
-  void DoDirectDonation(const std::string& publisher_info, int32_t amount,
-      const std::string& currency) override;
+  void DoDirectTip(const std::string& publisher_id,
+                   int32_t amount,
+                   const std::string& currency) override;
 
   void RemoveRecurringTip(const std::string& publisher_key) override;
   void GetBootStamp(GetBootStampCallback callback) override;
@@ -151,6 +154,37 @@ class BatLedgerImpl : public mojom::BatLedger,
   void LoadPublisherInfo(
     const std::string& publisher_key,
     LoadPublisherInfoCallback callback) override;
+
+  void SaveMediaInfo(
+      const std::string& type,
+      const base::flat_map<std::string, std::string>& args,
+      SaveMediaInfoCallback callback) override;
+
+  void SetInlineTipSetting(const std::string& key, bool enabled) override;
+
+  void GetInlineTipSetting(
+    const std::string& key,
+    GetInlineTipSettingCallback callback) override;
+
+  void GetShareURL(
+    const std::string& type,
+    const base::flat_map<std::string, std::string>& args,
+    GetShareURLCallback callback) override;
+
+  void GetPendingContributions(
+    GetPendingContributionsCallback callback) override;
+
+  void RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    RemovePendingContributionCallback callback) override;
+
+  void RemoveAllPendingContributions(
+    RemovePendingContributionCallback callback) override;
+
+  void GetPendingContributionsTotal(
+    GetPendingContributionsTotalCallback callback) override;
 
  private:
   void SetCatalogIssuers(const std::string& info) override;
@@ -190,18 +224,14 @@ class BatLedgerImpl : public mojom::BatLedger,
       CallbackHolder<GetTransactionHistoryForThisCycleCallback>* holder,
       std::unique_ptr<ledger::TransactionsInfo> history);
 
-  static void OnGetExcludedPublishersNumber(
-      CallbackHolder<GetExcludedPublishersNumberCallback>* holder,
-      uint32_t number);
-
   static void OnGetRecurringTips(
       CallbackHolder<GetRecurringTipsCallback>* holder,
-      const ledger::PublisherInfoList& list,
+      ledger::PublisherInfoList list,
       uint32_t num);
 
   static void OnGetOneTimeTips(
       CallbackHolder<GetRecurringTipsCallback>* holder,
-      const ledger::PublisherInfoList& list,
+      ledger::PublisherInfoList list,
       uint32_t num);
   static void OnRefreshPublisher(
       CallbackHolder<RefreshPublisherCallback>* holder,
@@ -209,13 +239,42 @@ class BatLedgerImpl : public mojom::BatLedger,
 
   static void OnGetActivityInfoList(
     CallbackHolder<GetActivityInfoListCallback>* holder,
-    const ledger::PublisherInfoList& list,
+    ledger::PublisherInfoList list,
     uint32_t num);
 
   static void OnLoadPublisherInfo(
     CallbackHolder<LoadPublisherInfoCallback>* holder,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info);
+    ledger::PublisherInfoPtr info);
+
+  static void OnSaveMediaInfoCallback(
+    CallbackHolder<SaveMediaInfoCallback>* holder,
+    ledger::Result result,
+    ledger::PublisherInfoPtr info);
+
+  static void OnGetPendingContributions(
+    CallbackHolder<GetPendingContributionsCallback>* holder,
+    ledger::PendingContributionInfoList list);
+
+  static void OnRemovePendingContribution(
+    CallbackHolder<RemovePendingContributionCallback>* holder,
+    ledger::Result result);
+
+  static void OnRemoveAllPendingContributions(
+    CallbackHolder<RemovePendingContributionCallback>* holder,
+    ledger::Result result);
+
+  static void OnGetPendingContributionsTotal(
+    CallbackHolder<GetPendingContributionsTotalCallback>* holder,
+    double amount);
+
+  static void OnGetAddresses(
+    CallbackHolder<GetAddressesCallback>* holder,
+    std::map<std::string, std::string> addresses);
+
+  static void OnHasSufficientBalanceToReconcile(
+    CallbackHolder<HasSufficientBalanceToReconcileCallback>* holder,
+    bool sufficient);
 
   std::unique_ptr<BatLedgerClientMojoProxy> bat_ledger_client_mojo_proxy_;
   std::unique_ptr<ledger::Ledger> ledger_;

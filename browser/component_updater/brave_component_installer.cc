@@ -1,4 +1,5 @@
-/* This Source Code Form is subject to the terms of the Mozilla Public
+/* Copyright (c) 2019 The Brave Authors. All rights reserved.
+ * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
@@ -21,8 +22,8 @@
 #include "components/update_client/update_client_errors.h"
 #include "components/update_client/utils.h"
 #include "crypto/sha2.h"
-#include "extensions/common/constants.h"
-#include "extensions/common/manifest_constants.h"
+
+using brave_component_updater::BraveComponent;
 
 namespace {
 using Result = update_client::CrxInstaller::Result;
@@ -39,7 +40,7 @@ bool RewriteManifestFile(
   DCHECK(!public_key.empty());
 
   std::unique_ptr<base::DictionaryValue> final_manifest(manifest.DeepCopy());
-  final_manifest->SetString(extensions::manifest_keys::kPublicKey, public_key);
+  final_manifest->SetString("key", public_key);
 
   std::string manifest_json;
   JSONStringValueSerializer serializer(&manifest_json);
@@ -49,7 +50,7 @@ bool RewriteManifestFile(
   }
 
   base::FilePath manifest_path =
-    extension_root.Append(extensions::kManifestFilename);
+    extension_root.Append(FILE_PATH_LITERAL("manifest.json"));
   int size = base::checked_cast<int>(manifest_json.size());
   if (base::WriteFile(manifest_path, manifest_json.data(), size) != size) {
     return false;
@@ -57,15 +58,14 @@ bool RewriteManifestFile(
   return true;
 }
 
-std::string GetManifestString(const base::DictionaryValue& manifest,
+std::string GetManifestString(std::unique_ptr<base::DictionaryValue> manifest,
     const std::string &public_key) {
-  std::unique_ptr<base::DictionaryValue> final_manifest(manifest.DeepCopy());
-  final_manifest->SetString(extensions::manifest_keys::kPublicKey, public_key);
+  manifest->SetString("key", public_key);
 
   std::string manifest_json;
   JSONStringValueSerializer serializer(&manifest_json);
   serializer.set_pretty_print(true);
-  if (!serializer.Serialize(*final_manifest)) {
+  if (!serializer.Serialize(*manifest)) {
     return "";
   }
   return manifest_json;
@@ -79,10 +79,10 @@ namespace brave {
 BraveComponentInstallerPolicy::BraveComponentInstallerPolicy(
     const std::string& name,
     const std::string& base64_public_key,
-    const ReadyCallback& ready_callback)
+    BraveComponent::ReadyCallback ready_callback)
     : name_(name),
       base64_public_key_(base64_public_key),
-      ready_callback_(ready_callback) {
+      ready_callback_(std::move(ready_callback)) {
   base::Base64Decode(base64_public_key, &public_key_);
 }
 
@@ -101,7 +101,8 @@ bool BraveComponentInstallerPolicy::VerifyInstallation(
       install_dir.Append(FILE_PATH_LITERAL("manifest.json")));
 }
 
-bool BraveComponentInstallerPolicy::SupportsGroupPolicyEnabledComponentUpdates() const {
+bool BraveComponentInstallerPolicy::
+SupportsGroupPolicyEnabledComponentUpdates() const {
   return false;
 }
 
@@ -109,7 +110,8 @@ bool BraveComponentInstallerPolicy::RequiresNetworkEncryption() const {
   return false;
 }
 
-update_client::CrxInstaller::Result BraveComponentInstallerPolicy::OnCustomInstall(
+update_client::CrxInstaller::Result
+BraveComponentInstallerPolicy::OnCustomInstall(
   const base::DictionaryValue& manifest,
   const base::FilePath& install_dir) {
   return Result(InstallError::NONE);
@@ -119,10 +121,20 @@ void BraveComponentInstallerPolicy::OnCustomUninstall() {
 }
 
 void BraveComponentInstallerPolicy::ComponentReady(
-  const base::Version& version,
-  const base::FilePath& install_dir,
-  std::unique_ptr<base::DictionaryValue> manifest) {
-  ready_callback_.Run(install_dir, GetManifestString(*manifest, base64_public_key_));
+    const base::Version& version,
+    const base::FilePath& install_dir,
+    std::unique_ptr<base::DictionaryValue> manifest) {
+  // It appears to be possible for the ComponentInstaller to call
+  // `ComponentReady` more than once. There is a call in
+  // ComponentInstaller::FinishRegistration and another one in
+  // ComponentInstaller::Install. So a call to Register followed by a call
+  // to Install could result in a crash here. See
+  // https://github.com/brave/brave-browser/issues/4624
+  if (!ready_callback_.is_null()) {
+    std::move(ready_callback_).Run(
+          install_dir,
+          GetManifestString(std::move(manifest), base64_public_key_));
+  }
 }
 
 base::FilePath BraveComponentInstallerPolicy::GetRelativeInstallDir() const {
@@ -146,7 +158,8 @@ std::vector<std::string> BraveComponentInstallerPolicy::GetMimeTypes() const {
   return std::vector<std::string>();
 }
 
-update_client::InstallerAttributes BraveComponentInstallerPolicy::GetInstallerAttributes() const {
+update_client::InstallerAttributes
+BraveComponentInstallerPolicy::GetInstallerAttributes() const {
   return update_client::InstallerAttributes();
 }
 
@@ -154,11 +167,12 @@ void RegisterComponent(
     component_updater::ComponentUpdateService* cus,
     const std::string& name,
     const std::string& base64_public_key,
-    const base::Closure& registered_callback,
-    const ReadyCallback& ready_callback) {
+    base::OnceClosure registered_callback,
+    BraveComponent::ReadyCallback ready_callback) {
   auto installer = base::MakeRefCounted<component_updater::ComponentInstaller>(
-    std::make_unique<BraveComponentInstallerPolicy>(name, base64_public_key, ready_callback));
-  installer->Register(cus, registered_callback);
+      std::make_unique<BraveComponentInstallerPolicy>(
+          name, base64_public_key, std::move(ready_callback)));
+  installer->Register(cus, std::move(registered_callback));
 }
 
 }  // namespace brave

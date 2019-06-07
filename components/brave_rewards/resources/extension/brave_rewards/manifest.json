@@ -4,6 +4,7 @@
   "manifest_version": 2,
   "description": "Brave Rewards Extension",
   "default_locale": "en_US",
+  "incognito": "not_allowed",
   "background" : {
     "scripts": ["out/brave_rewards_panel_background.bundle.js"],
     "persistent": true
@@ -25,6 +26,16 @@
       "256": "img/bat-256.png"
     }
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.twitter.com/*"
+      ],
+      "js": [
+        "out/brave_rewards_panel_content_twitter.bundle.js"
+      ]
+    }
+  ],
   "icons": {
     "16": "img/bat-16.png",
     "32": "img/bat-32.png",

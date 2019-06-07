@@ -7,12 +7,12 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import { Column, Grid } from 'brave-ui/components'
-import { DisabledBox, MainToggle, SettingsPage as Page } from 'brave-ui/features/rewards'
+import { Column, Grid } from 'dissenter-ui/components'
+import { DisabledBox, MainToggle, SettingsPage as Page } from 'dissenter-ui/features/rewards'
 import PageWallet from './pageWallet'
 import AdsBox from './adsBox'
 import ContributeBox from './contributeBox'
-import DonationBox from './donationsBox'
+import TipBox from './tipsBox'
 
 // Utils
 import * as rewardsActions from '../actions/rewards_actions'
@@ -34,13 +34,13 @@ class SettingsPage extends React.Component<Props, {}> {
 
   refreshActions () {
     this.actions.getCurrentReport()
-    this.actions.getDonationTable()
+    this.actions.getTipTable()
     this.actions.getContributeList()
-    this.actions.getPendingContributionsTotal()
+    this.actions.getPendingContributions()
     this.actions.getReconcileStamp()
     this.actions.getTransactionHistoryForThisCycle()
-    this.actions.getExcludedPublishersNumber()
     this.actions.getAdsData()
+    this.actions.getExcludedSites()
   }
 
   componentDidMount () {
@@ -158,7 +158,7 @@ class SettingsPage extends React.Component<Props, {}> {
             }
             <AdsBox />
             <ContributeBox />
-            <DonationBox />
+            <TipBox />
           </Column>
           <Column size={1} customStyle={{ justifyContent: 'center', flexWrap: 'wrap' }}>
             {

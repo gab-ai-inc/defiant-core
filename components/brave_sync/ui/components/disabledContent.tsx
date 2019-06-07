@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Button } from 'brave-ui'
+import { Button } from 'dissenter-ui'
 
 // Component-specific components
 import {
@@ -16,9 +16,9 @@ import {
   Paragraph,
   SyncCard,
   DisabledContent
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
-import { SyncStartIcon } from 'brave-ui/features/sync/images'
+import { SyncStartIcon } from 'dissenter-ui/features/sync/images'
 
 // Modals
 import DeviceTypeModal from './modals/deviceType'

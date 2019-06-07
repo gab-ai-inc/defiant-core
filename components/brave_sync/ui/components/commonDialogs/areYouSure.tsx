@@ -5,10 +5,10 @@
 import * as React from 'react'
 
 // Components
-import { AlertBox } from 'brave-ui'
+import { AlertBox } from 'dissenter-ui'
 
 // Feature-specific components
-import { Title } from 'brave-ui/features/sync'
+import { Title } from 'dissenter-ui/features/sync'
 
 // Utils
 import { getLocale } from '../../../../common/locale'

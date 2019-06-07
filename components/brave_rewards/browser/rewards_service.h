@@ -16,6 +16,7 @@
 #include "brave/components/brave_rewards/browser/balance_report.h"
 #include "brave/components/brave_rewards/browser/content_site.h"
 #include "brave/components/brave_rewards/browser/publisher_banner.h"
+#include "brave/components/brave_rewards/browser/pending_contribution.h"
 #include "brave/components/brave_rewards/browser/rewards_internals_info.h"
 #include "brave/components/brave_rewards/browser/rewards_notification_service.h"
 #include "build/build_config.h"
@@ -29,10 +30,6 @@ class Profile;
 namespace ads {
 struct IssuersInfo;
 struct NotificationInfo;
-}
-
-namespace ledger {
-struct PublisherInfo;
 }
 
 namespace content {
@@ -57,7 +54,6 @@ using GetWalletPassphraseCallback = base::Callback<void(const std::string&)>;
 using GetContributionAmountCallback = base::Callback<void(double)>;
 using GetAddressesCallback = base::Callback<void(
     const std::map<std::string, std::string>&)>;
-using GetExcludedPublishersNumberCallback = base::Callback<void(uint32_t)>;
 using GetAutoContributePropsCallback = base::Callback<void(
     std::unique_ptr<brave_rewards::AutoContributeProps>)>;
 using GetPublisherMinVisitTimeCallback = base::Callback<void(uint64_t)>;
@@ -81,6 +77,13 @@ using GetPublisherBannerCallback =
     base::OnceCallback<void(std::unique_ptr<brave_rewards::PublisherBanner>)>;
 using RefreshPublisherCallback =
     base::OnceCallback<void(bool, const std::string&)>;
+using SaveMediaInfoCallback =
+    base::OnceCallback<void(std::unique_ptr<brave_rewards::ContentSite>)>;
+using GetInlineTipSettingCallback = base::OnceCallback<void(bool)>;
+using GetShareURLCallback = base::OnceCallback<void(const std::string&)>;
+using GetPendingContributionsCallback = base::OnceCallback<void(
+    std::unique_ptr<brave_rewards::PendingContributionInfoList>)>;
+using GetCurrentCountryCallback = base::OnceCallback<void(const std::string&)>;
 
 class RewardsService : public KeyedService {
  public:
@@ -96,6 +99,7 @@ class RewardsService : public KeyedService {
       uint64_t reconcile_stamp,
       bool allow_non_verified,
       uint32_t min_visits,
+      bool fetch_excluded,
       const GetContentSiteListCallback& callback) = 0;
   virtual void FetchGrants(const std::string& lang,
                            const std::string& paymentId) = 0;
@@ -106,10 +110,7 @@ class RewardsService : public KeyedService {
                                  const std::string& promotionId) const = 0;
   virtual void GetWalletPassphrase(
       const GetWalletPassphraseCallback& callback) = 0;
-  virtual void GetExcludedPublishersNumber(
-      const GetExcludedPublishersNumberCallback& callback) = 0;
-  virtual void RecoverWallet(const std::string passPhrase) const = 0;
-  virtual void ExcludePublisher(const std::string publisherKey) const = 0;
+  virtual void RecoverWallet(const std::string& passPhrase) const = 0;
   virtual void RestorePublishers() = 0;
   virtual void OnLoad(SessionID tab_id, const GURL& gurl) = 0;
   virtual void OnUnload(SessionID tab_id) = 0;
@@ -164,21 +165,23 @@ class RewardsService : public KeyedService {
       const GetContributionAmountCallback& callback) = 0;
   virtual void GetPublisherBanner(const std::string& publisher_id,
                                   GetPublisherBannerCallback callback) = 0;
-  virtual void OnDonate(const std::string& publisher_key, int amount,
-      bool recurring, const ledger::PublisherInfo* publisher_info = NULL) = 0;
-  virtual void OnDonate(const std::string& publisher_key, int amount,
+  virtual void OnTip(const std::string& publisher_key,
+                     int amount,
+                     bool recurring) = 0;
+  virtual void OnTip(const std::string& publisher_key, int amount,
       bool recurring, std::unique_ptr<brave_rewards::ContentSite> site) = 0;
   virtual void RemoveRecurringTip(const std::string& publisher_key) = 0;
   virtual void GetRecurringTipsUI(GetRecurringTipsCallback callback) = 0;
   virtual void GetOneTimeTipsUI(GetOneTimeTipsCallback callback) = 0;
   virtual void SetContributionAutoInclude(
-    const std::string& publisher_key, bool excluded) = 0;
+      const std::string& publisher_key,
+      bool exclude) = 0;
   virtual RewardsNotificationService* GetNotificationService() const = 0;
   virtual bool CheckImported() = 0;
   virtual void SetBackupCompleted() = 0;
   virtual void GetAutoContributeProps(
     const GetAutoContributePropsCallback& callback) = 0;
-  virtual void GetPendingContributionsTotal(
+  virtual void GetPendingContributionsTotalUI(
     const GetPendingContributionsTotalCallback& callback) = 0;
   virtual void GetRewardsMainEnabled(
     const GetRewardsMainEnabledCallback& callback) const = 0;
@@ -198,6 +201,14 @@ class RewardsService : public KeyedService {
       const std::string& publisher_key,
       RefreshPublisherCallback callback) = 0;
 
+  virtual void GetPendingContributionsUI(
+    GetPendingContributionsCallback callback) = 0;
+
+  virtual void RemovePendingContributionUI(const std::string& publisher_key,
+                                         const std::string& viewing_id,
+                                         uint64_t added_date) = 0;
+  virtual void RemoveAllPendingContributionsUI() = 0;
+
   void AddObserver(RewardsServiceObserver* observer);
   void RemoveObserver(RewardsServiceObserver* observer);
 
@@ -208,6 +219,21 @@ class RewardsService : public KeyedService {
 
   virtual const RewardsNotificationService::RewardsNotificationsMap&
   GetAllNotifications() = 0;
+
+  virtual void SaveTwitterPublisherInfo(
+      const std::map<std::string, std::string>& args,
+      SaveMediaInfoCallback callback) = 0;
+
+  virtual void SetInlineTipSetting(const std::string& key, bool enabled) = 0;
+
+  virtual void GetInlineTipSetting(
+      const std::string& key,
+      GetInlineTipSettingCallback callback) = 0;
+
+  virtual void GetShareURL(
+      const std::string& type,
+      const std::map<std::string, std::string>& args,
+      GetShareURLCallback callback) = 0;
 
  protected:
   base::ObserverList<RewardsServiceObserver> observers_;

@@ -14,8 +14,8 @@ import {
   List,
   NextContribution,
   Tokens
-} from 'brave-ui/features/rewards'
-import { Grid, Column, Select, ControlWrapper } from 'brave-ui/components'
+} from 'dissenter-ui/features/rewards'
+import { Grid, Column, Select, ControlWrapper } from 'dissenter-ui/components'
 
 // Utils
 import * as utils from '../utils'

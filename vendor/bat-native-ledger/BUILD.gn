@@ -13,7 +13,10 @@ dep_base = rebase_path("../..", "//")
 
 config("external_config") {
   visibility = [ ":*" ]
-  include_dirs = [ "include" ]
+  include_dirs = [
+    "include",
+    "$target_gen_dir/include",
+  ]
 }
 
 config("internal_config") {
@@ -77,6 +80,10 @@ source_set("headers") {
     "include/bat/ledger/transaction_info.h",
     "include/bat/ledger/transactions_info.h",
   ]
+
+  public_deps = [
+    "include/bat/ledger/public/interfaces"
+  ]
 }
 
 source_set("ledger") {
@@ -105,6 +112,8 @@ source_set("ledger") {
     "src/bat/ledger/internal/media/helper.cc",
     "src/bat/ledger/internal/media/twitch.h",
     "src/bat/ledger/internal/media/twitch.cc",
+    "src/bat/ledger/internal/media/twitter.h",
+    "src/bat/ledger/internal/media/twitter.cc",
     "src/bat/ledger/internal/media/youtube.h",
     "src/bat/ledger/internal/media/youtube.cc",
     "src/bat/ledger/ledger.cc",
@@ -123,6 +132,7 @@ source_set("ledger") {
     rebase_path("bip39wally-core-native:bip39wally-core", dep_base),
     rebase_path("bat-native-tweetnacl:tweetnacl", dep_base),
     rebase_path("bat-native-rapidjson", dep_base),
+    rebase_path("brave_base", dep_base),
   ]
 
   public_deps = [

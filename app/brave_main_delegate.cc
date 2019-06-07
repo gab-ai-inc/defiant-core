@@ -30,9 +30,7 @@
 #include "components/password_manager/core/common/password_manager_features.h"
 #include "components/translate/core/browser/translate_prefs.h"
 #include "components/unified_consent/feature.h"
-#include "content/public/common/content_features.h"
 #include "extensions/common/extension_features.h"
-#include "gpu/config/gpu_finch_features.h"
 #include "services/network/public/cpp/features.h"
 #include "third_party/widevine/cdm/buildflags.h"
 #include "ui/base/ui_base_features.h"
@@ -99,7 +97,7 @@ BraveMainDelegate::CreateContentUtilityClient() {
 
 void BraveMainDelegate::PreSandboxStartup() {
   ChromeMainDelegate::PreSandboxStartup();
-#if defined(OS_POSIX)
+#if defined(OS_LINUX) || defined(OS_MACOSX)
   // Setup NativeMessagingHosts to point to the default Chrome locations
   // because that's where native apps will create them
   base::FilePath chrome_user_data_dir;
@@ -120,7 +118,7 @@ void BraveMainDelegate::PreSandboxStartup() {
       false, true);
   base::PathService::OverrideAndCreateIfNeeded(chrome::DIR_NATIVE_MESSAGING,
       native_messaging_dir, false, true);
-#endif  // OS_POSIX
+#endif  // defined(OS_LINUX) || defined(OS_MACOSX)
   if (brave::SubprocessNeedsResourceBundle()) {
     brave::InitializeResourceBundle();
   }
@@ -134,19 +132,22 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   command_line.AppendSwitch(switches::kDisableDomainReliability);
   command_line.AppendSwitch(switches::kDisableChromeGoogleURLTrackingClient);
   command_line.AppendSwitch(switches::kNoPings);
+  command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
+      switches::kExtensionContentVerificationEnforceStrict);
 
   // Enabled features.
   const std::unordered_set<const char*> enabled_features = {
+#if BUILDFLAG(ENABLE_EXTENSIONS)
       extensions_features::kNewExtensionUpdaterService.name,
+#endif
       features::kDesktopPWAWindowing.name,
+      omnibox::kSimplifyHttpsIndicator.name,
   };
 
   // Disabled features.
   const std::unordered_set<const char*> disabled_features = {
       autofill::features::kAutofillSaveCardSignInAfterLocalSave.name,
       autofill::features::kAutofillServerCommunication.name,
-      features::kAudioServiceOutOfProcess.name,
-      features::kDefaultEnableOopRasterization.name,
       network::features::kNetworkService.name,
       unified_consent::kUnifiedConsent.name,
       features::kLookalikeUrlNavigationSuggestionsUI.name,

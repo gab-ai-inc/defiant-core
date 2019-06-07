@@ -51,7 +51,7 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
   void SavePublisherState(const std::string& publisher_state,
                           ledger::LedgerCallbackHandler* handler) override;
 
-  void SavePublisherInfo(std::unique_ptr<ledger::PublisherInfo> publisher_info,
+  void SavePublisherInfo(ledger::PublisherInfoPtr publisher_info,
                          ledger::PublisherInfoCallback callback) override;
   void LoadPublisherInfo(const std::string& publisher_key,
                          ledger::PublisherInfoCallback callback) override;
@@ -73,8 +73,8 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
   void OnExcludedSitesChanged(const std::string& publisher_id,
                               ledger::PUBLISHER_EXCLUDE exclude) override;
   void OnPanelPublisherInfo(ledger::Result result,
-                           std::unique_ptr<ledger::PublisherInfo> info,
-                           uint64_t windowId) override;
+                            ledger::PublisherInfoPtr info,
+                            uint64_t windowId) override;
   void FetchFavIcon(const std::string& url,
                     const std::string& favicon_key,
                     ledger::FetchIconCallback callback) override;
@@ -107,12 +107,12 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
   std::string URIEncode(const std::string& value) override;
 
   void SavePendingContribution(
-      const ledger::PendingContributionList& list) override;
+      ledger::PendingContributionList list) override;
 
   void LoadActivityInfo(ledger::ActivityInfoFilter filter,
                         ledger::PublisherInfoCallback callback) override;
 
-  void SaveActivityInfo(std::unique_ptr<ledger::PublisherInfo> publisher_info,
+  void SaveActivityInfo(ledger::PublisherInfoPtr publisher_info,
                         ledger::PublisherInfoCallback callback) override;
 
   void OnRestorePublishers(ledger::OnRestoreCallback callback) override;
@@ -123,7 +123,7 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
                            ledger::PublisherInfoListCallback callback) override;
 
   void SaveNormalizedPublisherList(
-    const ledger::PublisherInfoListStruct& normalized_list) override;
+      ledger::PublisherInfoList normalized_list) override;
 
   void SaveState(const std::string& name,
                  const std::string& value,
@@ -137,8 +137,24 @@ class BatLedgerClientMojoProxy : public ledger::LedgerClient,
 
   void ConfirmationsTransactionHistoryDidChange() override;
 
-  void GetExcludedPublishersNumberDB(
-      ledger::GetExcludedPublishersNumberDBCallback callback) override;
+  void GetPendingContributions(
+      const ledger::PendingContributionInfoListCallback& callback) override;
+
+  void RemovePendingContribution(
+    const std::string& publisher_key,
+    const std::string& viewing_id,
+    uint64_t added_date,
+    const ledger::RemovePendingContributionCallback& callback) override;
+
+  void RemoveAllPendingContributions(
+    const ledger::RemovePendingContributionCallback& callback) override;
+
+  void GetPendingContributionsTotal(
+    const ledger::PendingContributionsTotalCallback& callback) override;
+
+  void GetCountryCodes(
+      const std::vector<std::string>& countries,
+      ledger::GetCountryCodesCallback callback) override;
 
  private:
   bool Connected() const;

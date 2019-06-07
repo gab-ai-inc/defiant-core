@@ -87,7 +87,7 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
       state.reconcileStamp = parseInt(action.payload.stamp, 10)
       break
     }
-    case types.GET_DONATION_TABLE: {
+    case types.GET_TIP_TABLE: {
       chrome.send('brave_rewards.getRecurringTips')
       chrome.send('brave_rewards.getOneTimeTips')
       break
@@ -180,6 +180,32 @@ const rewardsReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State
       if (properties && properties.success && properties.category === 8) {
         chrome.send('brave_rewards.getOneTimeTips')
       }
+      break
+    }
+    case types.ON_INLINE_TIP_SETTINGS_CHANGE: {
+      if (!state.inlineTip) {
+        state.inlineTip = {
+          twitter: true
+        }
+      }
+
+      const key = action.payload.key
+      const value = action.payload.value
+
+      if (key == null || key.length === 0 || value == null) {
+        break
+      }
+
+      let inlineTip = state.inlineTip
+
+      inlineTip[key] = value
+      chrome.send('brave_rewards.setInlineTipSetting', [key, value.toString()])
+
+      state = {
+        ...state,
+        inlineTip
+      }
+
       break
     }
   }

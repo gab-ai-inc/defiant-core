@@ -20,6 +20,12 @@ declare namespace Rewards {
     GRANT_NOT_FOUND = 13
   }
 
+  export enum RewardsCategory {
+    AUTO_CONTRIBUTE = 2,
+    ONE_TIME_TIP = 8,
+    RECURRING_TIP = 16
+  }
+
   export type AddressesType = 'BTC' | 'ETH' | 'BAT' | 'LTC'
   export type Address = { address: string, qr: string | null }
 
@@ -42,9 +48,13 @@ declare namespace Rewards {
     enabledAdsMigrated: boolean
     enabledContribute: boolean
     enabledMain: boolean
+    inlineTip: {
+      twitter: boolean
+    }
+    excludedList: ExcludedPublisher[]
     firstLoad: boolean | null
     grants?: Grant[]
-    excludedPublishersNumber: number
+    pendingContributions: PendingContribution[]
     pendingContributionTotal: number
     reconcileStamp: number
     recoveryKey: string
@@ -132,6 +142,15 @@ declare namespace Rewards {
     tipDate?: number
   }
 
+  export interface ExcludedPublisher {
+    id: string
+    verified: boolean
+    url: string
+    name: string
+    provider: string
+    favIcon: string
+  }
+
   export interface Report {
     ads: string
     closing: string
@@ -167,5 +186,20 @@ declare namespace Rewards {
   export interface ContributionSaved {
     success: boolean
     category: Category
+  }
+
+  export interface PendingContribution {
+    publisherKey: string
+    percentage: number
+    verified: boolean
+    url: string
+    name: string
+    provider: string
+    favIcon: string
+    amount: number
+    addedDate: string
+    category: RewardsCategory
+    viewingId: string
+    expirationDate: string
   }
 }

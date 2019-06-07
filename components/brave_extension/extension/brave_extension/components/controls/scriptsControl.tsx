@@ -12,7 +12,7 @@ import {
   BlockedInfoRowStats,
   BlockedInfoRowText,
   Toggle
-} from 'brave-ui/features/shields'
+} from 'dissenter-ui/features/shields'
 
 // Group Components
 import DynamicList from '../list/dynamic'

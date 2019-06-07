@@ -22,7 +22,8 @@ RewardsFetcherServiceObserver::~RewardsFetcherServiceObserver() {}
 void RewardsFetcherServiceObserver::OnImageChanged(BitmapFetcherService::RequestId request_id,
                                                    const SkBitmap& answers_image) {
   if (callback_) {
-    callback_.Run(favicon_key_, url_, request_id, answers_image);
+    // Dissenter: F whatever this is.
+    // callback_.Run(favicon_key_, url_, request_id, answers_image);
   }
 }
 

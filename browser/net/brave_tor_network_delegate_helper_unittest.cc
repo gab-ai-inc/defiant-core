@@ -16,6 +16,7 @@
 #include "brave/browser/profiles/tor_unittest_profile_manager.h"
 #include "brave/browser/renderer_host/brave_navigation_ui_data.h"
 #include "brave/browser/tor/mock_tor_profile_service_factory.h"
+#include "brave/browser/tor/tor_proxy_config_service.h"
 #include "brave/common/tor/tor_common.h"
 #include "brave/common/tor/tor_test_constants.h"
 #include "chrome/test/base/chrome_render_view_host_test_harness.h"
@@ -112,6 +113,14 @@ TEST_F(BraveTorNetworkDelegateHelperTest, NotTorProfile) {
 }
 
 TEST_F(BraveTorNetworkDelegateHelperTest, TorProfile) {
+  const GURL urls[] = {
+    GURL("https://check.torproject.org"),
+    GURL("https://1.1.1.1"),
+    GURL("https://127.0.0.1"),
+    GURL("https://[::1]"),
+    GURL("https://localhost"),
+  };
+
   ProfileManager* profile_manager = g_browser_process->profile_manager();
   base::FilePath tor_path = BraveProfileManager::GetTorProfilePath();
 

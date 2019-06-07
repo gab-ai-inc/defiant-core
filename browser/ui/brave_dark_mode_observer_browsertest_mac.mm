@@ -35,7 +35,7 @@ IN_PROC_BROWSER_TEST_F(BraveDarkModeObserverTest,
 
     // Load webui to instantiate BraveDarkModeObserver.
     AddTabAtIndexToBrowser(
-        browser(), 0, GURL("brave://history"), ui::PAGE_TRANSITION_TYPED, true);
+        browser(), 0, GURL("dissenter://history"), ui::PAGE_TRANSITION_TYPED, true);
 
     // Initially set to light.
     SetBraveThemeType(profile, BraveThemeType::BRAVE_THEME_TYPE_LIGHT);

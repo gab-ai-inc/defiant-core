@@ -7,9 +7,9 @@ import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
 
 // Components
-import { Checkbox, Grid, Column, Select, ControlWrapper } from 'brave-ui/components'
-import { Box, TableContribute, DisabledContent, List, ModalContribute, Tokens, NextContribution } from 'brave-ui/features/rewards'
-import { Provider } from 'brave-ui/features/rewards/profile'
+import { Checkbox, Grid, Column, Select, ControlWrapper } from 'dissenter-ui/components'
+import { Box, TableContribute, DisabledContent, List, ModalContribute, Tokens, NextContribution } from 'dissenter-ui/features/rewards'
+import { Provider } from 'dissenter-ui/features/rewards/profile'
 
 // Utils
 import { getLocale } from '../../../../common/locale'
@@ -19,6 +19,7 @@ import * as utils from '../utils'
 interface State {
   modalContribute: boolean
   settings: boolean
+  activeTabId: number
 }
 
 interface MonthlyChoice {
@@ -34,7 +35,8 @@ class ContributeBox extends React.Component<Props, State> {
     super(props)
     this.state = {
       modalContribute: false,
-      settings: false
+      settings: false,
+      activeTabId: 0
     }
   }
 
@@ -65,6 +67,39 @@ class ContributeBox extends React.Component<Props, State> {
         attention: item.percentage,
         onRemove: () => { this.actions.excludePublisher(item.id) }
       }
+    })
+  }
+
+  getExcludedRows = (list?: Rewards.ExcludedPublisher[]) => {
+    if (!list) {
+      return []
+    }
+
+    return list.map((item: Rewards.ExcludedPublisher) => {
+      let faviconUrl = `chrome://favicon/size/48@1x/${item.url}`
+      if (item.favIcon && item.verified) {
+        faviconUrl = `chrome://favicon/size/48@1x/${item.favIcon}`
+      }
+
+      return {
+        profile: {
+          name: item.name,
+          verified: item.verified,
+          provider: (item.provider ? item.provider : undefined) as Provider,
+          src: faviconUrl
+        },
+        url: item.url,
+        attention: 0,
+        onRemove: () => { this.actions.restorePublisher(item.id) }
+      }
+    })
+  }
+
+  onTabChange = () => {
+    const newId = this.state.activeTabId === 0 ? 1 : 0
+
+    this.setState({
+      activeTabId: newId
     })
   }
 
@@ -189,14 +224,16 @@ class ContributeBox extends React.Component<Props, State> {
       contributionMonthly,
       enabledContribute,
       reconcileStamp,
-      excludedPublishersNumber,
-      autoContributeList
+      autoContributeList,
+      excludedList
     } = this.props.rewardsData
     const monthlyList: MonthlyChoice[] = utils.generateContributionMonthly(walletInfo.choices, walletInfo.rates)
     const contributeRows = this.getContributeRows(autoContributeList)
+    const excludedRows = this.getExcludedRows(excludedList)
     const topRows = contributeRows.slice(0, 5)
     const numRows = contributeRows && contributeRows.length
-    const allSites = !(numRows > 5)
+    const numExcludedRows = excludedRows && excludedRows.length
+    const allSites = !(excludedRows.length > 0 || numRows > 5)
     const showDisabled = firstLoad !== false || !enabledMain || !enabledContribute
 
     return (
@@ -218,7 +255,9 @@ class ContributeBox extends React.Component<Props, State> {
           ? <ModalContribute
             rows={contributeRows}
             onRestore={this.onRestore}
-            numExcludedSites={excludedPublishersNumber}
+            excludedRows={excludedRows}
+            activeTabId={this.state.activeTabId}
+            onTabChange={this.onTabChange}
             onClose={this.onModalContributeToggle}
           />
           : null
@@ -259,11 +298,10 @@ class ContributeBox extends React.Component<Props, State> {
           rows={topRows}
           allSites={allSites}
           numSites={numRows}
-          numExcludedSites={excludedPublishersNumber}
-          onRestore={this.onRestore}
           onShowAll={this.onModalContributeToggle}
           headerColor={true}
           showRemove={true}
+          numExcludedSites={numExcludedRows}
         >
           {getLocale('contributionVisitSome')}
         </TableContribute>

@@ -6,6 +6,7 @@
 #include <fstream>
 #include <streambuf>
 #include <string>
+#include <utility>
 
 #include "brave/components/brave_rewards/browser/publisher_info_database.h"
 
@@ -34,6 +35,8 @@ class PublisherInfoDatabaseTest : public ::testing::Test {
 
   ~PublisherInfoDatabaseTest() override {
   }
+
+  void PreparePendingContributions();
 
   sql::Database& GetDB() {
     return publisher_info_database_->GetDB();
@@ -529,31 +532,33 @@ TEST_F(PublisherInfoDatabaseTest, GetPanelPublisher) {
    * Publisher ID is missing
    */
   ledger::ActivityInfoFilter filter_1;
-  EXPECT_EQ(publisher_info_database_->GetPanelPublisher(filter_1), nullptr);
+  EXPECT_EQ(publisher_info_database_->GetPanelPublisher(filter_1),
+            static_cast<ledger::PublisherInfoPtr>(nullptr));
 
   /**
    * Empty table
    */
   ledger::ActivityInfoFilter filter_2;
   filter_2.id = "test";
-  EXPECT_EQ(publisher_info_database_->GetPanelPublisher(filter_2), nullptr);
+  EXPECT_EQ(publisher_info_database_->GetPanelPublisher(filter_2),
+            static_cast<ledger::PublisherInfoPtr>(nullptr));
 
   /**
    * Still get data if reconcile stamp is not found
    */
-  ledger::PublisherInfo info_1;
-  info_1.id = "page.com";
-  info_1.url = "https://page.com";
-  info_1.percent = 11;
-  info_1.reconcile_stamp = 9;
+  auto info_1 = ledger::PublisherInfo::New();
+  info_1->id = "page.com";
+  info_1->url = "https://page.com";
+  info_1->percent = 11;
+  info_1->reconcile_stamp = 9;
 
-  bool success = publisher_info_database_->InsertOrUpdateActivityInfo(info_1);
+  bool success = publisher_info_database_->InsertOrUpdateActivityInfo(*info_1);
   EXPECT_TRUE(success);
 
   ledger::ActivityInfoFilter filter_4;
   filter_4.id = "page.com";
   filter_4.reconcile_stamp = 10;
-  std::unique_ptr<ledger::PublisherInfo> result =
+  ledger::PublisherInfoPtr result =
       publisher_info_database_->GetPanelPublisher(filter_4);
   EXPECT_TRUE(result);
   EXPECT_EQ(result->id, "page.com");
@@ -568,21 +573,21 @@ TEST_F(PublisherInfoDatabaseTest, InsertOrUpdateActivityInfos) {
   /**
    * Good path
    */
-  ledger::PublisherInfo info_1;
-  info_1.id = "brave.com";
-  info_1.url = "https://brave.com";
-  info_1.percent = 11;
-  info_1.reconcile_stamp = 10;
+  auto info_1 = ledger::PublisherInfo::New();
+  info_1->id = "brave.com";
+  info_1->url = "https://brave.com";
+  info_1->percent = 11;
+  info_1->reconcile_stamp = 10;
 
-  ledger::PublisherInfo info_2;
-  info_2.id = "clifton.io";
-  info_2.url = "https://clifton.io";
-  info_2.percent = 11;
-  info_2.reconcile_stamp = 10;
+  auto info_2 = ledger::PublisherInfo::New();
+  info_2->id = "clifton.io";
+  info_2->url = "https://clifton.io";
+  info_2->percent = 11;
+  info_2->reconcile_stamp = 10;
 
   ledger::PublisherInfoList list;
-  list.push_back(info_1);
-  list.push_back(info_2);
+  list.push_back(std::move(info_1));
+  list.push_back(std::move(info_2));
 
   bool success = publisher_info_database_->InsertOrUpdateActivityInfos(list);
   EXPECT_TRUE(success);
@@ -599,13 +604,13 @@ TEST_F(PublisherInfoDatabaseTest, InsertOrUpdateActivityInfos) {
    * One publisher has empty ID
    */
 
-  ledger::PublisherInfo info_3;
-  info_3.id = "";
-  info_3.url = "https://page.io";
-  info_3.percent = 11;
-  info_3.reconcile_stamp = 10;
+  auto info_3 = ledger::PublisherInfo::New();
+  info_3->id = "";
+  info_3->url = "https://page.io";
+  info_3->percent = 11;
+  info_3->reconcile_stamp = 10;
 
-  list.push_back(info_3);
+  list.push_back(std::move(info_3));
 
   success = publisher_info_database_->InsertOrUpdateActivityInfos(list);
   EXPECT_FALSE(success);
@@ -619,25 +624,26 @@ TEST_F(PublisherInfoDatabaseTest, InsertPendingContribution) {
   base::FilePath db_file;
   CreateTempDatabase(&temp_dir, &db_file);
 
-  ledger::PendingContribution contribution1;
-  contribution1.publisher_key = "key1";
-  contribution1.amount = 10;
-  contribution1.added_date = 10;
-  contribution1.viewing_id = "fsodfsdnf23r23rn";
-  contribution1.category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
+  auto contribution1 = ledger::PendingContribution::New();
+  contribution1->publisher_key = "key1";
+  contribution1->amount = 10;
+  contribution1->added_date = 10;
+  contribution1->viewing_id = "fsodfsdnf23r23rn";
+  contribution1->category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
 
-  ledger::PendingContribution contribution2;
-  contribution2.publisher_key = "key2";
-  contribution2.amount = 20;
-  contribution2.viewing_id = "aafsofdfsdnf23r23rn";
-  contribution2.category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+  auto contribution2 = ledger::PendingContribution::New();
+  contribution2->publisher_key = "key2";
+  contribution2->amount = 20;
+  contribution2->viewing_id = "aafsofdfsdnf23r23rn";
+  contribution2->category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+
 
   ledger::PendingContributionList list;
-  list.list_.push_back(contribution1);
-  list.list_.push_back(contribution2);
+  list.push_back(contribution1->Clone());
+  list.push_back(contribution2->Clone());
 
   bool success = publisher_info_database_->InsertPendingContribution(
-      list);
+      std::move(list));
   EXPECT_TRUE(success);
 
   std::string query = "SELECT * FROM pending_contribution";
@@ -647,21 +653,21 @@ TEST_F(PublisherInfoDatabaseTest, InsertPendingContribution) {
 
   // First contribution
   EXPECT_TRUE(info_sql.Step());
-  EXPECT_EQ(info_sql.ColumnString(0), contribution1.publisher_key);
-  EXPECT_EQ(info_sql.ColumnDouble(1), contribution1.amount);
+  EXPECT_EQ(info_sql.ColumnString(0), contribution1->publisher_key);
+  EXPECT_EQ(info_sql.ColumnDouble(1), contribution1->amount);
   EXPECT_GE(info_sql.ColumnInt64(2), 20);
-  EXPECT_EQ(info_sql.ColumnString(3), contribution1.viewing_id);
+  EXPECT_EQ(info_sql.ColumnString(3), contribution1->viewing_id);
   EXPECT_EQ(static_cast<ledger::REWARDS_CATEGORY>(info_sql.ColumnInt(4)),
-      contribution1.category);
+      contribution1->category);
 
   // Second contribution
   EXPECT_TRUE(info_sql.Step());
-  EXPECT_EQ(info_sql.ColumnString(0), contribution2.publisher_key);
-  EXPECT_EQ(info_sql.ColumnDouble(1), contribution2.amount);
+  EXPECT_EQ(info_sql.ColumnString(0), contribution2->publisher_key);
+  EXPECT_EQ(info_sql.ColumnDouble(1), contribution2->amount);
   EXPECT_GE(info_sql.ColumnInt64(2), 0);
-  EXPECT_EQ(info_sql.ColumnString(3), contribution2.viewing_id);
+  EXPECT_EQ(info_sql.ColumnString(3), contribution2->viewing_id);
   EXPECT_EQ(static_cast<ledger::REWARDS_CATEGORY>(info_sql.ColumnInt(4)),
-      contribution2.category);
+      contribution2->category);
 }
 
 TEST_F(PublisherInfoDatabaseTest, GetActivityList) {
@@ -747,8 +753,8 @@ TEST_F(PublisherInfoDatabaseTest, GetActivityList) {
                                                         &list_1));
   EXPECT_EQ(static_cast<int>(list_1.size()), 2);
 
-  EXPECT_EQ(list_1.at(0).id, "publisher_2");
-  EXPECT_EQ(list_1.at(1).id, "publisher_6");
+  EXPECT_EQ(list_1.at(0)->id, "publisher_2");
+  EXPECT_EQ(list_1.at(1)->id, "publisher_6");
 
   /**
    * Get verified publishers
@@ -763,8 +769,8 @@ TEST_F(PublisherInfoDatabaseTest, GetActivityList) {
                                                         &list_2));
   EXPECT_EQ(static_cast<int>(list_2.size()), 2);
 
-  EXPECT_EQ(list_2.at(0).id, "publisher_3");
-  EXPECT_EQ(list_2.at(1).id, "publisher_6");
+  EXPECT_EQ(list_2.at(0)->id, "publisher_3");
+  EXPECT_EQ(list_2.at(1)->id, "publisher_6");
 
   /**
    * Get all publishers that are not excluded
@@ -778,11 +784,11 @@ TEST_F(PublisherInfoDatabaseTest, GetActivityList) {
                                                         &list_3));
   EXPECT_EQ(static_cast<int>(list_3.size()), 5);
 
-  EXPECT_EQ(list_3.at(0).id, "publisher_1");
-  EXPECT_EQ(list_3.at(1).id, "publisher_2");
-  EXPECT_EQ(list_3.at(2).id, "publisher_3");
-  EXPECT_EQ(list_3.at(3).id, "publisher_5");
-  EXPECT_EQ(list_3.at(4).id, "publisher_6");
+  EXPECT_EQ(list_3.at(0)->id, "publisher_1");
+  EXPECT_EQ(list_3.at(1)->id, "publisher_2");
+  EXPECT_EQ(list_3.at(2)->id, "publisher_3");
+  EXPECT_EQ(list_3.at(3)->id, "publisher_5");
+  EXPECT_EQ(list_3.at(4)->id, "publisher_6");
 
   /**
    * Get publisher with min_visits
@@ -797,8 +803,8 @@ TEST_F(PublisherInfoDatabaseTest, GetActivityList) {
                                                         &list_4));
   EXPECT_EQ(static_cast<int>(list_4.size()), 2);
 
-  EXPECT_EQ(list_4.at(0).id, "publisher_5");
-  EXPECT_EQ(list_4.at(1).id, "publisher_6");
+  EXPECT_EQ(list_4.at(0)->id, "publisher_5");
+  EXPECT_EQ(list_4.at(1)->id, "publisher_6");
 }
 
 
@@ -813,10 +819,10 @@ TEST_F(PublisherInfoDatabaseTest, Migrationv3tov4) {
   EXPECT_TRUE(publisher_info_database_->GetActivityList(0, 0, filter, &list));
   EXPECT_EQ(static_cast<int>(list.size()), 2);
 
-  EXPECT_EQ(list.at(0).id, "slo-tech.com");
-  EXPECT_EQ(list.at(0).visits, 5u);
-  EXPECT_EQ(list.at(1).id, "brave.com");
-  EXPECT_EQ(list.at(1).visits, 5u);
+  EXPECT_EQ(list.at(0)->id, "slo-tech.com");
+  EXPECT_EQ(list.at(0)->visits, 5u);
+  EXPECT_EQ(list.at(1)->id, "brave.com");
+  EXPECT_EQ(list.at(1)->visits, 5u);
   EXPECT_EQ(publisher_info_database_->GetTableVersionNumber(), 4);
 
   const std::string schema = publisher_info_database_->GetSchema();
@@ -834,12 +840,12 @@ TEST_F(PublisherInfoDatabaseTest, Migrationv4tov5) {
   EXPECT_TRUE(publisher_info_database_->GetActivityList(0, 0, filter, &list));
   EXPECT_EQ(static_cast<int>(list.size()), 3);
 
-  EXPECT_EQ(list.at(0).id, "brave.com");
-  EXPECT_EQ(list.at(0).visits, 1u);
-  EXPECT_EQ(list.at(1).id, "slo-tech.com");
-  EXPECT_EQ(list.at(1).visits, 1u);
-  EXPECT_EQ(list.at(2).id, "basicattentiontoken.org");
-  EXPECT_EQ(list.at(2).visits, 3u);
+  EXPECT_EQ(list.at(0)->id, "brave.com");
+  EXPECT_EQ(list.at(0)->visits, 1u);
+  EXPECT_EQ(list.at(1)->id, "slo-tech.com");
+  EXPECT_EQ(list.at(1)->visits, 1u);
+  EXPECT_EQ(list.at(2)->id, "basicattentiontoken.org");
+  EXPECT_EQ(list.at(2)->visits, 3u);
   EXPECT_EQ(publisher_info_database_->GetTableVersionNumber(), 5);
 
   const std::string schema = publisher_info_database_->GetSchema();
@@ -857,29 +863,29 @@ TEST_F(PublisherInfoDatabaseTest, Migrationv5tov6) {
   EXPECT_TRUE(publisher_info_database_->GetActivityList(0, 0, filter, &list));
   EXPECT_EQ(static_cast<int>(list.size()), 3);
 
-  EXPECT_EQ(list.at(0).id, "basicattentiontoken.org");
-  EXPECT_EQ(list.at(0).duration, 31u);
-  EXPECT_EQ(list.at(0).visits, 1u);
-  EXPECT_NEAR(list.at(0).score, 1.1358598545838, 0.001f);
-  EXPECT_EQ(list.at(0).percent, 26u);
-  EXPECT_NEAR(list.at(0).weight, 25.919327084376, 0.001f);
-  EXPECT_EQ(list.at(0).reconcile_stamp, 1553423066u);
+  EXPECT_EQ(list.at(0)->id, "basicattentiontoken.org");
+  EXPECT_EQ(list.at(0)->duration, 31u);
+  EXPECT_EQ(list.at(0)->visits, 1u);
+  EXPECT_NEAR(list.at(0)->score, 1.1358598545838, 0.001f);
+  EXPECT_EQ(list.at(0)->percent, 26u);
+  EXPECT_NEAR(list.at(0)->weight, 25.919327084376, 0.001f);
+  EXPECT_EQ(list.at(0)->reconcile_stamp, 1553423066u);
 
-  EXPECT_EQ(list.at(1).id, "brave.com");
-  EXPECT_EQ(list.at(1).duration, 20u);
-  EXPECT_EQ(list.at(1).visits, 2u);
-  EXPECT_NEAR(list.at(1).score, 1.07471534438942, 0.001f);
-  EXPECT_EQ(list.at(1).percent, 25u);
-  EXPECT_NEAR(list.at(1).weight, 24.5240629127033, 0.001f);
-  EXPECT_EQ(list.at(1).reconcile_stamp, 1553423066u);
+  EXPECT_EQ(list.at(1)->id, "brave.com");
+  EXPECT_EQ(list.at(1)->duration, 20u);
+  EXPECT_EQ(list.at(1)->visits, 2u);
+  EXPECT_NEAR(list.at(1)->score, 1.07471534438942, 0.001f);
+  EXPECT_EQ(list.at(1)->percent, 25u);
+  EXPECT_NEAR(list.at(1)->weight, 24.5240629127033, 0.001f);
+  EXPECT_EQ(list.at(1)->reconcile_stamp, 1553423066u);
 
-  EXPECT_EQ(list.at(2).id, "slo-tech.com");
-  EXPECT_EQ(list.at(2).duration, 44u);
-  EXPECT_EQ(list.at(2).visits, 2u);
-  EXPECT_NEAR(list.at(2).score, 2.1717139356, 0.001f);
-  EXPECT_EQ(list.at(2).percent, 49u);
-  EXPECT_NEAR(list.at(2).weight, 49.556610002920678, 0.001f);
-  EXPECT_EQ(list.at(2).reconcile_stamp, 1553423066u);
+  EXPECT_EQ(list.at(2)->id, "slo-tech.com");
+  EXPECT_EQ(list.at(2)->duration, 44u);
+  EXPECT_EQ(list.at(2)->visits, 2u);
+  EXPECT_NEAR(list.at(2)->score, 2.1717139356, 0.001f);
+  EXPECT_EQ(list.at(2)->percent, 49u);
+  EXPECT_NEAR(list.at(2)->weight, 49.556610002920678, 0.001f);
+  EXPECT_EQ(list.at(2)->reconcile_stamp, 1553423066u);
 
   EXPECT_EQ(publisher_info_database_->GetTableVersionNumber(), 6);
 
@@ -898,59 +904,20 @@ TEST_F(PublisherInfoDatabaseTest, Migrationv4tov6) {
   EXPECT_TRUE(publisher_info_database_->GetActivityList(0, 0, filter, &list));
   EXPECT_EQ(static_cast<int>(list.size()), 3);
 
-  EXPECT_EQ(list.at(0).id, "basicattentiontoken.org");
-  EXPECT_EQ(list.at(0).duration, 15u);
-  EXPECT_EQ(list.at(0).visits, 3u);
-  EXPECT_EQ(list.at(0).reconcile_stamp, 1552214829u);
-  EXPECT_EQ(list.at(1).id, "brave.com");
-  EXPECT_EQ(list.at(1).duration, 10u);
-  EXPECT_EQ(list.at(1).visits, 1u);
-  EXPECT_EQ(list.at(1).reconcile_stamp, 1552214829u);
-  EXPECT_EQ(list.at(2).id, "slo-tech.com");
-  EXPECT_EQ(list.at(2).duration, 12u);
-  EXPECT_EQ(list.at(2).visits, 1u);
-  EXPECT_EQ(list.at(2).reconcile_stamp, 1552214829u);
+  EXPECT_EQ(list.at(0)->id, "basicattentiontoken.org");
+  EXPECT_EQ(list.at(0)->duration, 15u);
+  EXPECT_EQ(list.at(0)->visits, 3u);
+  EXPECT_EQ(list.at(0)->reconcile_stamp, 1552214829u);
+  EXPECT_EQ(list.at(1)->id, "brave.com");
+  EXPECT_EQ(list.at(1)->duration, 10u);
+  EXPECT_EQ(list.at(1)->visits, 1u);
+  EXPECT_EQ(list.at(1)->reconcile_stamp, 1552214829u);
+  EXPECT_EQ(list.at(2)->id, "slo-tech.com");
+  EXPECT_EQ(list.at(2)->duration, 12u);
+  EXPECT_EQ(list.at(2)->visits, 1u);
+  EXPECT_EQ(list.at(2)->reconcile_stamp, 1552214829u);
 
   EXPECT_EQ(publisher_info_database_->GetTableVersionNumber(), 6);
-}
-
-TEST_F(PublisherInfoDatabaseTest, GetExcludedPublishersCount) {
-  base::ScopedTempDir temp_dir;
-  base::FilePath db_file;
-  CreateTempDatabase(&temp_dir, &db_file);
-
-  // empty table
-  EXPECT_EQ(publisher_info_database_->GetExcludedPublishersCount(), 0);
-
-  // with data
-  ledger::PublisherInfo info;
-  info.id = "publisher_1";
-  info.verified = false;
-  info.excluded = ledger::PUBLISHER_EXCLUDE::DEFAULT;
-  info.name = "name";
-  info.url = "https://brave.com";
-  info.provider = "";
-  info.favicon_url = "0";
-
-  EXPECT_TRUE(publisher_info_database_->InsertOrUpdatePublisherInfo(info));
-
-  info.id = "publisher_2";
-  EXPECT_TRUE(publisher_info_database_->InsertOrUpdatePublisherInfo(info));
-
-  info.id = "publisher_3";
-  info.excluded = ledger::PUBLISHER_EXCLUDE::INCLUDED;
-  EXPECT_TRUE(publisher_info_database_->InsertOrUpdatePublisherInfo(info));
-
-  info.id = "publisher_4";
-  info.excluded = ledger::PUBLISHER_EXCLUDE::EXCLUDED;
-  EXPECT_TRUE(publisher_info_database_->InsertOrUpdatePublisherInfo(info));
-
-  info.id = "publisher_5";
-  info.excluded = ledger::PUBLISHER_EXCLUDE::EXCLUDED;
-  EXPECT_TRUE(publisher_info_database_->InsertOrUpdatePublisherInfo(info));
-  EXPECT_EQ(CountTableRows("publisher_info"), 5);
-
-  EXPECT_EQ(publisher_info_database_->GetExcludedPublishersCount(), 2);
 }
 
 TEST_F(PublisherInfoDatabaseTest, DeleteActivityInfo) {
@@ -998,9 +965,156 @@ TEST_F(PublisherInfoDatabaseTest, DeleteActivityInfo) {
   EXPECT_TRUE(publisher_info_database_->GetActivityList(0, 0, filter, &list));
   EXPECT_EQ(static_cast<int>(list.size()), 2);
 
-  EXPECT_EQ(list.at(0).id, "publisher_1");
-  EXPECT_EQ(list.at(0).reconcile_stamp, 1u);
-  EXPECT_EQ(list.at(1).id, "publisher_2");
+  EXPECT_EQ(list.at(0)->id, "publisher_1");
+  EXPECT_EQ(list.at(0)->reconcile_stamp, 1u);
+  EXPECT_EQ(list.at(1)->id, "publisher_2");
+}
+
+void PublisherInfoDatabaseTest::PreparePendingContributions() {
+  // Insert publishers
+  ledger::PublisherInfo info;
+  info.id = "key1";
+  info.verified = false;
+  info.excluded = ledger::PUBLISHER_EXCLUDE::DEFAULT;
+  info.name = "key1";
+  info.url = "https://key1.com";
+  info.provider = "";
+  info.favicon_url = "";
+
+  bool success = publisher_info_database_->InsertOrUpdatePublisherInfo(info);
+  EXPECT_TRUE(success);
+
+  info.id = "key2";
+  info.name = "key2";
+  info.url = "https://key2.com";
+  success = publisher_info_database_->InsertOrUpdatePublisherInfo(info);
+  EXPECT_TRUE(success);
+
+  info.id = "key3";
+  info.name = "key3";
+  info.url = "https://key3.com";
+  success = publisher_info_database_->InsertOrUpdatePublisherInfo(info);
+  EXPECT_TRUE(success);
+
+  info.id = "key4";
+  info.name = "key4";
+  info.url = "https://key4.com";
+  success = publisher_info_database_->InsertOrUpdatePublisherInfo(info);
+  EXPECT_TRUE(success);
+
+  EXPECT_EQ(CountTableRows("publisher_info"), 4);
+
+  // Insert some pending contributions
+  auto contribution1 = ledger::PendingContribution::New();
+  contribution1->publisher_key = "key1";
+  contribution1->amount = 10;
+  contribution1->viewing_id = "fsodfsdnf23r23rn";
+  contribution1->category = ledger::REWARDS_CATEGORY::AUTO_CONTRIBUTE;
+
+  auto contribution2 = ledger::PendingContribution::New();
+  contribution2->publisher_key = "key2";
+  contribution2->amount = 20;
+  contribution2->viewing_id = "aafsoffdffdfsdnf23r23rn";
+  contribution2->category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+
+  auto contribution3 = ledger::PendingContribution::New();
+  contribution3->publisher_key = "key3";
+  contribution3->amount = 30;
+  contribution3->viewing_id = "aafszxfzcofdfsdnf23r23rn";
+  contribution3->category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+
+  auto contribution4 = ledger::PendingContribution::New();
+  contribution4->publisher_key = "key4";
+  contribution4->amount = 40;
+  contribution4->viewing_id = "aafsofdfs12333dnf23r23rn";
+  contribution4->category = ledger::REWARDS_CATEGORY::ONE_TIME_TIP;
+
+  ledger::PendingContributionList list;
+  list.push_back(std::move(contribution1));
+  list.push_back(std::move(contribution2));
+  list.push_back(std::move(contribution3));
+  list.push_back(std::move(contribution4));
+
+  success = publisher_info_database_->InsertPendingContribution(
+      list);
+  EXPECT_TRUE(success);
+  EXPECT_EQ(CountTableRows("pending_contribution"), 4);
+}
+
+TEST_F(PublisherInfoDatabaseTest, GetPendingContributions) {
+  base::ScopedTempDir temp_dir;
+  base::FilePath db_file;
+  CreateTempDatabase(&temp_dir, &db_file);
+
+  PreparePendingContributions();
+
+  /**
+   * Good path
+  */
+  ledger::PendingContributionInfoList select_list;
+  publisher_info_database_->GetPendingContributions(&select_list);
+  EXPECT_EQ(static_cast<int>(select_list.size()), 4);
+
+  EXPECT_EQ(select_list.at(0)->publisher_key, "key1");
+  EXPECT_EQ(select_list.at(1)->publisher_key, "key2");
+  EXPECT_EQ(select_list.at(2)->publisher_key, "key3");
+  EXPECT_EQ(select_list.at(3)->publisher_key, "key4");
+
+  EXPECT_EQ(select_list.at(0)->url, "https://key1.com");
+}
+
+TEST_F(PublisherInfoDatabaseTest, RemovePendingContributions) {
+  base::ScopedTempDir temp_dir;
+  base::FilePath db_file;
+  CreateTempDatabase(&temp_dir, &db_file);
+
+  PreparePendingContributions();
+
+  /**
+   * Good path
+  */
+  ledger::PendingContributionInfoList select_list;
+  publisher_info_database_->GetPendingContributions(&select_list);
+  EXPECT_EQ(select_list.at(0)->publisher_key, "key1");
+  bool success = publisher_info_database_->RemovePendingContributions(
+      "key1",
+      "fsodfsdnf23r23rn",
+      select_list.at(0)->added_date);
+  EXPECT_TRUE(success);
+
+  ledger::PendingContributionInfoList list;
+  publisher_info_database_->GetPendingContributions(&list);
+  EXPECT_EQ(static_cast<int>(list.size()), 3);
+
+  EXPECT_EQ(list.at(0)->publisher_key, "key2");
+  EXPECT_EQ(list.at(1)->publisher_key, "key3");
+  EXPECT_EQ(list.at(2)->publisher_key, "key4");
+
+  /**
+   * Trying to delete not existing row
+  */
+  success = publisher_info_database_->RemovePendingContributions(
+      "key0",
+      "viewing_id",
+      10);
+  EXPECT_TRUE(success);
+  EXPECT_EQ(CountTableRows("pending_contribution"), 3);
+}
+
+
+TEST_F(PublisherInfoDatabaseTest, RemoveAllPendingContributions) {
+  base::ScopedTempDir temp_dir;
+  base::FilePath db_file;
+  CreateTempDatabase(&temp_dir, &db_file);
+
+  PreparePendingContributions();
+
+  /**
+   * Good path
+  */
+  bool success = publisher_info_database_->RemoveAllPendingContributions();
+  EXPECT_TRUE(success);
+  EXPECT_EQ(CountTableRows("pending_contribution"), 0);
 }
 
 }  // namespace brave_rewards

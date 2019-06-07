@@ -14,7 +14,8 @@ declare namespace chrome.dns {
 
 declare namespace chrome.braveRewards {
   const createWallet: () => {}
-  const donateToSite: (tabId: number, publisherKey: string) => {}
+  const tipSite: (tabId: number, publisherKey: string) => {}
+  const tipTwitterUser: (tabId: number, tweetMetaData: RewardsTip.TweetMetaData) => {}
   const getPublisherData: (windowId: number, url: string, faviconUrl: string, publisherBlob: string | undefined) => {}
   const getWalletProperties: () => {}
   const getCurrentReport: () => {}
@@ -39,7 +40,7 @@ declare namespace chrome.braveRewards {
   const onGrantCaptcha: {
     addListener: (callback: (properties: RewardsExtension.Captcha) => void) => void
   }
-  const includeInAutoContribution: (publisherKey: string, excluded: boolean) => {}
+  const includeInAutoContribution: (publisherKey: string, exclude: boolean) => {}
   const getGrants: () => {}
   const getGrantCaptcha: (promotionId: string, type: string) => {}
   const solveGrantCaptcha: (solution: string, promotionId: string) => {}
@@ -73,6 +74,7 @@ declare namespace chrome.braveRewards {
   }
   const refreshPublisher: (publisherKey: string, callback: (enabled: boolean, publisherKey: string) => void) => {}
   const getAllNotifications: (callback: (list: RewardsExtension.Notification[]) => void) => {}
+  const getInlineTipSetting: (key: string, callback: (enabled: boolean) => void) => {}
 }
 
 declare namespace chrome.rewardsNotifications {

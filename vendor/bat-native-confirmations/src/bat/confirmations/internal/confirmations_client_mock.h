@@ -95,11 +95,11 @@ class MockConfirmationsClient : public ConfirmationsClient {
       ledger::GetNicewareListCallback callback));
 
   MOCK_METHOD2(SavePublisherInfo, void(
-      std::unique_ptr<ledger::PublisherInfo> publisher_info,
+      ledger::PublisherInfoPtr publisher_info,
       ledger::PublisherInfoCallback callback));
 
   MOCK_METHOD2(SaveActivityInfo, void(
-      std::unique_ptr<ledger::PublisherInfo> publisher_info,
+      ledger::PublisherInfoPtr publisher_info,
       ledger::PublisherInfoCallback callback));
 
   MOCK_METHOD2(LoadPublisherInfo, void(
@@ -155,7 +155,7 @@ class MockConfirmationsClient : public ConfirmationsClient {
 
   MOCK_METHOD3(OnPanelPublisherInfo, void(
       ledger::Result result,
-      std::unique_ptr<ledger::PublisherInfo>,
+      ledger::PublisherInfoPtr,
       uint64_t windowId));
 
   MOCK_METHOD2(OnExcludedSitesChanged, void(
@@ -203,13 +203,12 @@ class MockConfirmationsClient : public ConfirmationsClient {
       const URLRequestMethod method,
       URLRequestCallback callback));
 
-  MOCK_METHOD3(SetContributionAutoInclude, void(
+  MOCK_METHOD2(SetContributionAutoInclude, void(
       const std::string& publisher_key,
-      bool excluded,
-      uint64_t windowId));
+      bool exclude));
 
   MOCK_METHOD1(SavePendingContribution, void(
-      const ledger::PendingContributionList& list));
+      ledger::PendingContributionList list));
 
   std::unique_ptr<ledger::LogStream> Log(
       const char* file,
@@ -238,15 +237,31 @@ class MockConfirmationsClient : public ConfirmationsClient {
       ledger::OnRestoreCallback callback));
 
   MOCK_METHOD1(SaveNormalizedPublisherList, void(
-      const ledger::PublisherInfoListStruct& normalized_list));
+      ledger::PublisherInfoList normalized_list));
 
   MOCK_METHOD1(SetConfirmationsIsReady, void(
       const bool is_ready));
 
   MOCK_METHOD0(ConfirmationsTransactionHistoryDidChange, void());
 
-  MOCK_METHOD1(GetExcludedPublishersNumberDB, void(
-      ledger::GetExcludedPublishersNumberDBCallback callback));
+  MOCK_METHOD1(GetPendingContributions, void(
+      const ledger::PendingContributionInfoListCallback& callback));
+
+  MOCK_METHOD4(RemovePendingContribution, void(
+      const std::string& publisher_key,
+      const std::string& viewing_id,
+      uint64_t added_date,
+      const ledger::RemovePendingContributionCallback& callback));
+
+  MOCK_METHOD1(RemoveAllPendingContributions, void(
+    const ledger::RemovePendingContributionCallback& callback));
+
+  MOCK_METHOD1(GetPendingContributionsTotal, void(
+    const ledger::PendingContributionsTotalCallback& callback));
+
+  MOCK_METHOD2(GetCountryCodes, void(
+      const std::vector<std::string>& countries,
+      ledger::GetCountryCodesCallback callback));
 };
 
 }  // namespace confirmations

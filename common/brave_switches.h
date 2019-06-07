@@ -18,8 +18,6 @@ extern const char kDisableBraveUpdate[];
 
 extern const char kDisableChromeGoogleURLTrackingClient[];
 
-extern const char kDisablePDFJSExtension[];
-
 extern const char kDisableTorClientUpdaterExtension[];
 
 extern const char kDisableWebTorrentExtension[];
@@ -37,6 +35,8 @@ extern const char kDisableMachineId[];
 extern const char kDisableEncryptionWin[];
 
 extern const char kEnableSmartTrackingProtection[];
+
+extern const char kDisableOverrideUA[];
 
 }  // namespace switches
 

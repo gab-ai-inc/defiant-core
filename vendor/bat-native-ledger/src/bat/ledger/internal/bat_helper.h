@@ -365,6 +365,7 @@ struct CLIENT_STATE_ST {
   CurrentReconciles current_reconciles_;
   bool auto_contribute_ = false;
   bool rewards_enabled_ = false;
+  std::map<std::string, bool> inline_tip_;
 };
 
 struct GRANTS_PROPERTIES_ST {
@@ -541,8 +542,6 @@ uint8_t niceware_mnemonic_to_bytes(
     std::vector<uint8_t>* bytes_out,
     size_t* written,
     std::vector<std::string> wordDictionary);
-
-uint64_t getRandomValue(uint8_t min, uint8_t max);
 
 bool HasSameDomainAndPath(
     const std::string& url,

@@ -15,8 +15,6 @@ source_set("browser") {
     "balance_report.h",
     "rewards_notification_service.cc",
     "rewards_notification_service.h",
-    "rewards_notification_service_impl.cc",
-    "rewards_notification_service_impl.h",
     "rewards_notification_service_observer.h",
     "content_site.cc",
     "content_site.h",
@@ -29,6 +27,8 @@ source_set("browser") {
     "wallet_properties.h",
     "grant.cc",
     "grant.h",
+    "pending_contribution.cc",
+    "pending_contribution.h",
     "publisher_banner.cc",
     "publisher_banner.h",
     "contribution_info.cc",
@@ -40,15 +40,6 @@ source_set("browser") {
     "rewards_internals_info.cc",
     "rewards_internals_info.h",
   ]
-
-  if (enable_extensions) {
-    sources += [
-      "extension_rewards_notification_service_observer.cc",
-      "extension_rewards_notification_service_observer.h",
-      "extension_rewards_service_observer.cc",
-      "extension_rewards_service_observer.h",
-    ]
-  }
 
   deps = [
     "//base",
@@ -84,7 +75,18 @@ source_set("browser") {
       "publisher_info_database.h",
       "rewards_fetcher_service_observer.cc",
       "rewards_fetcher_service_observer.h",
+      "rewards_notification_service_impl.cc",
+      "rewards_notification_service_impl.h",
     ]
+
+    if (enable_extensions) {
+      sources += [
+        "extension_rewards_notification_service_observer.cc",
+        "extension_rewards_notification_service_observer.h",
+        "extension_rewards_service_observer.cc",
+        "extension_rewards_service_observer.h",
+      ]
+    }
 
     if (!is_android) {
       sources += [
@@ -95,15 +97,19 @@ source_set("browser") {
 
     deps += [
       "//brave/vendor/bat-native-ledger",
+      "//brave/components/resources",
       "//brave/components/services/bat_ledger/public/cpp",
       "//mojo/public/cpp/bindings",
       "//net",
+      "//services/network/public/cpp",
       "//services/service_manager/public/cpp",
       "//url",
     ]
   }
 }
 
+# TODO(bridiver) - fix tests on android
+if (!is_android) {
 source_set("testutil") {
   testonly = true
 
@@ -120,4 +126,5 @@ source_set("testutil") {
     "test_util.cc",
     "test_util.h",
   ]
+}
 }

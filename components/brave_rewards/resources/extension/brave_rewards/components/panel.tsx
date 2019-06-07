@@ -5,12 +5,12 @@
 import * as React from 'react'
 import { bindActionCreators, Dispatch } from 'redux'
 import { connect } from 'react-redux'
-import { WalletAddIcon, BatColorIcon } from 'brave-ui/components/icons'
-import { WalletWrapper, WalletSummary, WalletSummarySlider, WalletPanel } from 'brave-ui/features/rewards'
-import { Provider } from 'brave-ui/features/rewards/profile'
-import { NotificationType } from 'brave-ui/features/rewards/walletWrapper'
+import { WalletAddIcon, BatColorIcon } from 'dissenter-ui/components/icons'
+import { WalletWrapper, WalletSummary, WalletSummarySlider, WalletPanel } from 'dissenter-ui/features/rewards'
+import { Provider } from 'dissenter-ui/features/rewards/profile'
+import { NotificationType } from 'dissenter-ui/features/rewards/walletWrapper'
 import { RewardsNotificationType } from '../constants/rewards_panel_types'
-import { Type as AlertType } from 'brave-ui/features/rewards/alert'
+import { Type as AlertType } from 'dissenter-ui/features/rewards/alert'
 
 // Utils
 import * as rewardsPanelActions from '../actions/rewards_panel_actions'
@@ -27,18 +27,20 @@ interface State {
   publisherKey: string | null
   refreshingPublisher: boolean
   publisherRefreshed: boolean
+  timerPassed: boolean
 }
 
 export class Panel extends React.Component<Props, State> {
   private defaultTipAmounts: number[]
-
+  private delayTimer: ReturnType<typeof setTimeout>
   constructor (props: Props) {
     super(props)
     this.state = {
       showSummary: true,
       publisherKey: null,
       refreshingPublisher: false,
-      publisherRefreshed: false
+      publisherRefreshed: false,
+      timerPassed: false
     }
     this.defaultTipAmounts = [1, 5, 10]
   }
@@ -83,6 +85,10 @@ export class Panel extends React.Component<Props, State> {
         publisherKey: null
       })
     }
+  }
+
+  componentWillUnmount () {
+    clearTimeout(this.delayTimer)
   }
 
   get gradientColor () {
@@ -198,7 +204,7 @@ export class Panel extends React.Component<Props, State> {
     })
   }
 
-  showDonateToSiteDetail = () => {
+  showTipSiteDetail = () => {
     const publisher: RewardsExtension.Publisher | undefined = this.getPublisher()
     // TODO: why do we store windowId instead of active tab id in state?
     chrome.tabs.query({
@@ -213,7 +219,7 @@ export class Panel extends React.Component<Props, State> {
         return
       }
 
-      chrome.braveRewards.donateToSite(tabId, publisher.publisher_key)
+      chrome.braveRewards.tipSite(tabId, publisher.publisher_key)
       window.close()
     })
   }
@@ -414,10 +420,33 @@ export class Panel extends React.Component<Props, State> {
     return defaultContribution
   }
 
+  initiateDelayCounter = () => {
+    clearTimeout(this.delayTimer)
+    this.delayTimer = setTimeout(() => {
+      this.setState({
+        timerPassed: true
+      })
+    }, 2000)
+  }
+
+  resetPublisherStatus = (wasVerified: boolean) => {
+    if (wasVerified || this.state.timerPassed) {
+      this.setState({
+        timerPassed: false,
+        refreshingPublisher: false,
+        publisherRefreshed: true
+      })
+    } else {
+      setTimeout(this.resetPublisherStatus, 250)
+    }
+  }
+
   refreshPublisher = () => {
     this.setState({
-      refreshingPublisher: true
+      refreshingPublisher: true,
+      timerPassed: false
     })
+    this.initiateDelayCounter()
     const publisher: RewardsExtension.Publisher | undefined = this.getPublisher()
     const publisherKey = publisher && publisher.publisher_key
     if (publisherKey) {
@@ -425,10 +454,7 @@ export class Panel extends React.Component<Props, State> {
         if (publisherKey) {
           this.actions.refreshPublisher(verified, publisherKey)
         }
-        this.setState({
-          refreshingPublisher: false,
-          publisherRefreshed: true
-        })
+        this.resetPublisherStatus(verified)
       })
     }
   }
@@ -515,7 +541,7 @@ export class Panel extends React.Component<Props, State> {
               includeInAuto={!publisher.excluded}
               attentionScore={(publisher.percentage || 0).toString()}
               onToggleTips={this.doNothing}
-              donationAction={this.showDonateToSiteDetail}
+              donationAction={this.showTipSiteDetail}
               onAmountChange={this.onContributionAmountChange}
               onIncludeInAuto={this.switchAutoContribute}
               showUnVerified={!publisher.verified}

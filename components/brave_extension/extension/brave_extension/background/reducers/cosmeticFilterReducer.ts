@@ -48,7 +48,8 @@ export default function cosmeticFilterReducer (state: State = {
     case webNavigationTypes.ON_COMMITTED: {
       const tabData = shieldsPanelState.getActiveTabData(state)
       if (!tabData) {
-        console.error('Active tab not found')
+        // Dissenter: This isn't (always) an error.  New tab prints this.  Switch to info.
+        console.info('Active tab not found')
         break
       }
       if (action.isMainFrame) {

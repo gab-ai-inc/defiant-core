@@ -3,8 +3,12 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+#include <memory>
+
 #include "base/path_service.h"
 #include "base/run_loop.h"
+#include "base/strings/string_split.h"
+#include "base/memory/weak_ptr.h"
 #include "bat/ledger/internal/bat_helper.h"
 #include "bat/ledger/internal/static_values.h"
 #include "bat/ledger/ledger.h"
@@ -15,20 +19,26 @@
 #include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "brave/components/brave_rewards/browser/rewards_service_impl.h"
 #include "brave/components/brave_rewards/browser/rewards_service_observer.h"
+#include "brave/components/brave_rewards/browser/rewards_notification_service_impl.h"  // NOLINT
+#include "brave/components/brave_rewards/browser/rewards_notification_service_observer.h"  // NOLINT
+#include "brave/components/brave_rewards/common/pref_names.h"
 #include "chrome/browser/ui/browser.h"
 #include "chrome/browser/ui/views/frame/browser_view.h"
 #include "chrome/common/chrome_paths.h"
 #include "chrome/test/base/in_process_browser_test.h"
 #include "chrome/test/base/ui_test_utils.h"
+#include "components/network_session_configurator/common/network_switches.h"
 #include "content/public/browser/notification_service.h"
 #include "content/public/browser/notification_types.h"
 #include "content/public/test/browser_test_utils.h"
-#include "google_apis/gaia/mock_url_fetcher_factory.h"
 #include "net/dns/mock_host_resolver.h"
+#include "net/test/embedded_test_server/embedded_test_server.h"
+#include "net/test/embedded_test_server/http_request.h"
 #include "net/test/embedded_test_server/http_response.h"
-#include "net/url_request/url_fetcher_delegate.h"
 #include "testing/gmock/include/gmock/gmock.h"
 #include "testing/gtest/include/gtest/gtest.h"
+
+// npm run test -- brave_browser_tests --filter=BraveRewardsBrowserTest.*
 
 using braveledger_bat_helper::SERVER_TYPES;
 
@@ -40,9 +50,35 @@ std::unique_ptr<net::test_server::HttpResponse> HandleRequest(
       new net::test_server::BasicHttpResponse());
   http_response->set_code(net::HTTP_OK);
   http_response->set_content_type("text/html");
-  http_response->set_content(
-      "<html><head></head><body><div>Hello, world!</div></body></html>");
+  if (request.relative_url == "/twitter") {
+    http_response->set_content(
+        "<html>"
+        "  <head></head>"
+        "  <body>"
+        "    <div class='tweet'>"
+        "      <div class='js-actions'>Hello, Twitter!</div>"
+        "    </div>"
+        "  </body>"
+        "</html>");
+  } else {
+    http_response->set_content(
+        "<html>"
+        "  <head></head>"
+        "  <body>"
+        "    <div>Hello, world!</div>"
+        "  </body>"
+        "</html>");
+  }
   return std::move(http_response);
+}
+
+bool URLMatches(const std::string& url,
+                const std::string& path,
+                const std::string& prefix,
+                const SERVER_TYPES& server) {
+  const std::string target_url =
+      braveledger_bat_helper::buildURL(path, prefix, server);
+  return (url.find(target_url) == 0);
 }
 
 }  // namespace
@@ -64,150 +100,38 @@ namespace brave_test_resp {
   std::string surveyor_voting_credential_;
 }  // namespace brave_test_resp
 
-namespace brave_net {
-class BraveURLFetcher : public net::TestURLFetcher {
- public:
-  BraveURLFetcher(bool success,
-                  const GURL& url,
-                  const std::string& results,
-                  net::URLFetcher::RequestType request_type,
-                  net::URLFetcherDelegate* d);
-  ~BraveURLFetcher() override;
-
-  void Start() override;
-  void DetermineURLResponsePath(const std::string& url);
-
- private:
-  void RunDelegate();
-
-  base::WeakPtrFactory<BraveURLFetcher> weak_factory_{this};
-  DISALLOW_COPY_AND_ASSIGN(BraveURLFetcher);
-};
-
-void split(std::vector<std::string>* tmp,
-           const std::string& query,
-           char delimiter) {
-  DCHECK(tmp);
-  std::stringstream ss(query);
-  std::string item;
-  while (std::getline(ss, item, delimiter)) {
-    if (query[0] != '\n') {
-      tmp->push_back(item);
-    }
-  }
-}
-
-bool URLMatches(const std::string& url,
-                const std::string& path,
-                const std::string& prefix,
-                const SERVER_TYPES& server) {
-  const std::string target_url =
-      braveledger_bat_helper::buildURL(path, prefix, server);
-  return (url.find(target_url) == 0);
-}
-
-void BraveURLFetcher::DetermineURLResponsePath(const std::string& url) {
-  std::vector<std::string> tmp;
-  brave_net::split(&tmp, url, '/');
-  if (url.find(braveledger_bat_helper::buildURL(REGISTER_PERSONA, PREFIX_V2,
-    braveledger_bat_helper::SERVER_TYPES::LEDGER)) == 0
-    && tmp.size() == 6) {
-    SetResponseString(brave_test_resp::registrarVK_);
-  } else if (URLMatches(url, REGISTER_PERSONA, PREFIX_V2,
-                        SERVER_TYPES::LEDGER) &&
-             tmp.size() == 7) {
-    SetResponseString(brave_test_resp::verification_);
-  } else if (URLMatches(url, WALLET_PROPERTIES, PREFIX_V2,
-                        SERVER_TYPES::BALANCE)) {
-    SetResponseString(brave_test_resp::wallet_);
-  } else if (URLMatches(url, WALLET_PROPERTIES, PREFIX_V2,
-                        SERVER_TYPES::LEDGER)) {
-    GURL gurl(url);
-    if (gurl.has_query())
-      SetResponseString(brave_test_resp::reconcile_);
-    else
-      SetResponseString(brave_test_resp::current_reconcile_);
-  } else if (URLMatches(url, GET_SET_PROMOTION, PREFIX_V2,
-                        SERVER_TYPES::LEDGER)) {
-    GURL gurl(url);
-    if (gurl.has_query())
-      SetResponseString(brave_test_resp::grant_);
-    else
-      SetResponseString(brave_test_resp::captcha_solution_);
-  } else if (URLMatches(url, GET_SET_PROMOTION, PREFIX_V4,
-                        SERVER_TYPES::LEDGER)) {
-    SetResponseString(brave_test_resp::grant_v4_);
-  } else if (URLMatches(url, GET_PROMOTION_CAPTCHA, PREFIX_V4,
-                        SERVER_TYPES::LEDGER)) {
-    // The hint we use doesn't matter since we mock the server's
-    // responses anyway, but ledger verifies that the response headers contain
-    // a hint so we must add one
-    scoped_refptr<net::HttpResponseHeaders> http_response_headers(
-        new net::HttpResponseHeaders(""));
-    http_response_headers->AddHeader("Captcha-Hint: Triangle");
-    set_response_headers(http_response_headers);
-    SetResponseString(brave_test_resp::captcha_);
-  } else if (URLMatches(url, RECONCILE_CONTRIBUTION, PREFIX_V2,
-                        SERVER_TYPES::LEDGER)) {
-    SetResponseString(brave_test_resp::contribution_);
-  } else if (URLMatches(url, REGISTER_VIEWING, PREFIX_V2,
-                        SERVER_TYPES::LEDGER)) {
-    if (url.find(REGISTER_VIEWING "/") != std::string::npos)
-      SetResponseString(brave_test_resp::register_credential_);
-    else
-      SetResponseString(brave_test_resp::register_);
-  } else if (URLMatches(url, SURVEYOR_BATCH_VOTING, PREFIX_V2,
-                        SERVER_TYPES::LEDGER)) {
-    if (url.find(SURVEYOR_BATCH_VOTING "/") != std::string::npos)
-      SetResponseString(brave_test_resp::surveyor_voting_credential_);
-    else
-      SetResponseString(brave_test_resp::surveyor_voting_);
-  } else if (URLMatches(url, GET_PUBLISHERS_LIST_V1, "",
-                        SERVER_TYPES::PUBLISHER_DISTRO)) {
-    SetResponseString("[[\"duckduckgo.com\",true,false]]");
-  }
-}
-
-BraveURLFetcher::BraveURLFetcher(bool success,
-  const GURL& url,
-  const std::string& results,
-  net::URLFetcher::RequestType request_type,
-  net::URLFetcherDelegate* d)
-  : net::TestURLFetcher(0, url, d) {
-  set_url(url);
-  set_status(net::URLRequestStatus(net::URLRequestStatus::SUCCESS, 0));
-  set_response_code(net::HTTP_OK);
-  DetermineURLResponsePath(url.spec());
-}
-
-BraveURLFetcher::~BraveURLFetcher() = default;
-
-void BraveURLFetcher::Start() {
-  base::ThreadTaskRunnerHandle::Get()->PostTask(
-      FROM_HERE,
-      base::BindOnce(&BraveURLFetcher::RunDelegate,
-      weak_factory_.GetWeakPtr()));
-}
-
-void BraveURLFetcher::RunDelegate() {
-  delegate()->OnURLFetchComplete(this);
-}
-
-}  // namespace brave_net
-
-class BraveRewardsBrowserTest : public InProcessBrowserTest,
-                                public brave_rewards::RewardsServiceObserver {
+class BraveRewardsBrowserTest :
+    public InProcessBrowserTest,
+    public brave_rewards::RewardsServiceObserver,
+    public brave_rewards::RewardsNotificationServiceObserver,
+    public base::SupportsWeakPtr<BraveRewardsBrowserTest> {
  public:
   void SetUpOnMainThread() override {
     InProcessBrowserTest::SetUpOnMainThread();
+
     host_resolver()->AddRule("*", "127.0.0.1");
     content::SetupCrossSiteRedirector(embedded_test_server());
-    InitEmbeddedTestServer();
+
+    // Setup up embedded test server for HTTP requests
+    embedded_test_server()->RegisterRequestHandler(
+        base::BindRepeating(&HandleRequest));
+    ASSERT_TRUE(embedded_test_server()->Start());
+
+    // Setup up embedded test server for HTTPS requests
+    https_server_.reset(new net::EmbeddedTestServer(
+        net::test_server::EmbeddedTestServer::TYPE_HTTPS));
+    https_server_->SetSSLConfig(net::EmbeddedTestServer::CERT_OK);
+    https_server_->RegisterRequestHandler(base::BindRepeating(&HandleRequest));
+    ASSERT_TRUE(https_server_->Start());
+
     brave::RegisterPathProvider();
     ReadTestData();
     rewards_service_ = static_cast<brave_rewards::RewardsServiceImpl*>(
         brave_rewards::RewardsServiceFactory::GetForProfile(
             browser()->profile()));
+    rewards_service_->test_response_callback_ =
+        base::BindRepeating(&BraveRewardsBrowserTest::GetTestResponse,
+                            base::Unretained(this));
     rewards_service_->SetLedgerEnvForTesting();
   }
 
@@ -215,14 +139,89 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
     InProcessBrowserTest::TearDown();
   }
 
-  void InitEmbeddedTestServer() {
-    embedded_test_server()->RegisterRequestHandler(base::Bind(&HandleRequest));
-    ASSERT_TRUE(embedded_test_server()->Start());
+  void SetUpCommandLine(base::CommandLine* command_line) override {
+    // HTTPS server only serves a valid cert for localhost, so this is needed
+    // to load pages from other hosts without an error
+    command_line->AppendSwitch(switches::kIgnoreCertificateErrors);
   }
+
+  net::EmbeddedTestServer* https_server() { return https_server_.get(); }
 
   void RunUntilIdle() {
     base::RunLoop loop;
     loop.RunUntilIdle();
+  }
+
+  void GetTestResponse(const std::string& url,
+                       int* response_status_code,
+                       std::string* response,
+                       std::map<std::string, std::string>* headers) {
+    std::vector<std::string> tmp = base::SplitString(url,
+                                                     "/",
+                                                     base::TRIM_WHITESPACE,
+                                                     base::SPLIT_WANT_ALL);
+    if (url.find(braveledger_bat_helper::buildURL(REGISTER_PERSONA, PREFIX_V2,
+      braveledger_bat_helper::SERVER_TYPES::LEDGER)) == 0
+      && tmp.size() == 6) {
+      *response = brave_test_resp::registrarVK_;
+    } else if (URLMatches(url, REGISTER_PERSONA, PREFIX_V2,
+                          SERVER_TYPES::LEDGER) &&
+               tmp.size() == 7) {
+      *response = brave_test_resp::verification_;
+    } else if (URLMatches(url, WALLET_PROPERTIES, PREFIX_V2,
+                          SERVER_TYPES::BALANCE)) {
+      *response = brave_test_resp::wallet_;
+    } else if (URLMatches(url, WALLET_PROPERTIES, PREFIX_V2,
+                          SERVER_TYPES::LEDGER)) {
+      GURL gurl(url);
+      if (gurl.has_query()) {
+        *response = brave_test_resp::reconcile_;
+      } else {
+        if (ac_low_amount_) {
+          *response = "";
+          *response_status_code = net::HTTP_REQUESTED_RANGE_NOT_SATISFIABLE;
+        } else {
+          *response = brave_test_resp::current_reconcile_;
+        }
+      }
+
+    } else if (URLMatches(url, GET_SET_PROMOTION, PREFIX_V2,
+                          SERVER_TYPES::LEDGER)) {
+      GURL gurl(url);
+      if (gurl.has_query())
+        *response = brave_test_resp::grant_;
+      else
+        *response = brave_test_resp::captcha_solution_;
+    } else if (URLMatches(url, GET_SET_PROMOTION, PREFIX_V4,
+                          SERVER_TYPES::LEDGER)) {
+      *response = brave_test_resp::grant_v4_;
+    } else if (URLMatches(url, GET_PROMOTION_CAPTCHA, PREFIX_V4,
+                          SERVER_TYPES::LEDGER)) {
+      // The hint we use doesn't matter since we mock the server's
+      // responses anyway, but ledger verifies that the response headers contain
+      // a hint so we must add one
+      (*headers)["captcha-hint"] = "Triangle";
+      *response = brave_test_resp::captcha_;
+    } else if (URLMatches(url, RECONCILE_CONTRIBUTION, PREFIX_V2,
+                          SERVER_TYPES::LEDGER)) {
+      *response = brave_test_resp::contribution_;
+    } else if (URLMatches(url, REGISTER_VIEWING, PREFIX_V2,
+                          SERVER_TYPES::LEDGER)) {
+      if (url.find(REGISTER_VIEWING "/") != std::string::npos)
+        *response = brave_test_resp::register_credential_;
+      else
+        *response = brave_test_resp::register_;
+    } else if (URLMatches(url, SURVEYOR_BATCH_VOTING, PREFIX_V2,
+                          SERVER_TYPES::LEDGER)) {
+      if (url.find(SURVEYOR_BATCH_VOTING "/") != std::string::npos)
+        *response = brave_test_resp::surveyor_voting_credential_;
+      else
+        *response = brave_test_resp::surveyor_voting_;
+    } else if (URLMatches(url, GET_PUBLISHERS_LIST_V1, "",
+                          SERVER_TYPES::PUBLISHER_DISTRO)) {
+      *response =
+          "[[\"bumpsmack.com\",true,false],[\"duckduckgo.com\",true,false]]";
+    }
   }
 
   void WaitForWalletInitialization() {
@@ -265,6 +264,14 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
       return;
     wait_for_reconcile_completed_loop_.reset(new base::RunLoop);
     wait_for_reconcile_completed_loop_->Run();
+  }
+
+  void WaitForInsufficientFundsNotification() {
+    if (insufficient_notification_would_have_already_shown_) {
+      return;
+    }
+    wait_for_insufficient_notification_loop_.reset(new base::RunLoop);
+    wait_for_insufficient_notification_loop_->Run();
   }
 
   void GetReconcileTime() {
@@ -378,9 +385,9 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
         ASSERT_TRUE(base::ReadFileToString(
             path.AppendASCII("wallet_balance_contributed_resp.json"),
             &brave_test_resp::wallet_));
-      } else if (donation_made_) {
+      } else if (tip_made) {
         ASSERT_TRUE(base::ReadFileToString(
-            path.AppendASCII("wallet_balance_donated_resp.json"),
+            path.AppendASCII("wallet_balance_tipped_resp.json"),
             &brave_test_resp::wallet_));
       } else {
         ASSERT_TRUE(base::ReadFileToString(
@@ -501,7 +508,9 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
     EXPECT_NE(js_result.ExtractString().find("30.0 BAT"), std::string::npos);
   }
 
-  void VisitPublisher(const std::string& publisher, bool verified) {
+  void VisitPublisher(const std::string& publisher,
+                      bool verified,
+                      bool last_add = false) {
     GURL url = embedded_test_server()->GetURL(publisher, "/index.html");
     ui_test_utils::NavigateToURLWithDisposition(
         browser(), url, WindowOpenDisposition::NEW_FOREGROUND_TAB,
@@ -524,8 +533,8 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
         contents(),
         "const delay = t => new Promise(resolve => setTimeout(resolve, t));"
         "delay(1000).then(() => "
-        "  document.querySelector(\"[data-test-id='autoContribute']\")."
-        "    getElementsByTagName('a')[0].innerText);",
+        "  document.querySelector(\"[data-test-id='ac_link_" + publisher + "']"
+        "\").innerText);",
         content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
         content::ISOLATED_WORLD_ID_CONTENT_END);
     EXPECT_STREQ(js_result.ExtractString().c_str(), publisher.c_str());
@@ -535,21 +544,25 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
       // favicon and the verified icon
       content::EvalJsResult js_result =
           EvalJs(contents(),
-                 "document.querySelector(\"[data-test-id='autoContribute']\")."
-                 "    getElementsByTagName('svg').length === 2;",
-                 content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
-                 content::ISOLATED_WORLD_ID_CONTENT_END);
+                "document.querySelector(\"[data-test-id='ac_link_" +
+                publisher + "']\").getElementsByTagName('svg').length === 1;",
+                content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+                content::ISOLATED_WORLD_ID_CONTENT_END);
       EXPECT_TRUE(js_result.ExtractBool());
     } else {
       // An unverified site has one image associated with it, the site's
       // favicon
       content::EvalJsResult js_result =
           EvalJs(contents(),
-                 "document.querySelector(\"[data-test-id='autoContribute']\")."
-                 "    getElementsByTagName('svg').length === 1;",
-                 content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
-                 content::ISOLATED_WORLD_ID_CONTENT_END);
+                "document.querySelector(\"[data-test-id='ac_link_" +
+                publisher + "']\").getElementsByTagName('svg').length === 0;",
+                content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+                content::ISOLATED_WORLD_ID_CONTENT_END);
       EXPECT_TRUE(js_result.ExtractBool());
+    }
+
+    if (last_add) {
+      last_publisher_added_ = true;
     }
   }
 
@@ -578,7 +591,7 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
         content::NotificationService::AllSources());
 
     // Click button to initiate sending a tip
-     content::EvalJsResult js_result = EvalJs(
+    content::EvalJsResult js_result = EvalJs(
       popup_contents,
       "new Promise((resolve) => {"
       "let count = 10;"
@@ -642,10 +655,10 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
         content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
         content::ISOLATED_WORLD_ID_CONTENT_END));
 
-    // Signal that direct donation was made and update wallet with new
+    // Signal that direct tip was made and update wallet with new
     // balance
     if (!monthly) {
-      donation_made_ = true;
+      tip_made = true;
       UpdateTestData();
     }
 
@@ -777,6 +790,30 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
     }
   }
 
+  bool IsTwitterTipsInjected() {
+    content::EvalJsResult js_result =
+        EvalJs(contents(),
+               "new Promise((resolve) => {"
+               "let count = 10;"
+               "var interval = setInterval(function() {"
+               "  if (count === 0) {"
+               "    clearInterval(interval);"
+               "    resolve(false);"
+               "  } else {"
+               "    count -= 1;"
+               "  }"
+               "  const braveTipActions"
+               "    = document.querySelectorAll(\".action-brave-tip\");"
+               "  if (braveTipActions && braveTipActions.length === 1) {"
+               "    clearInterval(interval);"
+               "    resolve(true);"
+               "  }"
+               "}, 500);});",
+               content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+               content::ISOLATED_WORLD_ID_CONTENT_END);
+    return js_result.ExtractBool();
+  }
+
   void OnWalletInitialized(brave_rewards::RewardsService* rewards_service,
                            uint32_t result) {
     ASSERT_TRUE(result == ledger::Result::WALLET_CREATED ||
@@ -834,16 +871,60 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
       wait_for_reconcile_completed_loop_->Quit();
   }
 
+  void ACLowAmount() {
+    ac_low_amount_ = true;
+  }
+
+  void OnNotificationAdded(
+      brave_rewards::RewardsNotificationService* rewards_notification_service,
+      const brave_rewards::RewardsNotificationService::RewardsNotification&
+      notification) {
+    const brave_rewards::RewardsNotificationService::RewardsNotificationsMap&
+        notifications = rewards_notification_service->GetAllNotifications();
+    for (const auto& notification : notifications) {
+      if (notification.second.type_ ==
+          brave_rewards::RewardsNotificationService::RewardsNotificationType
+          ::REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS) {
+        insufficient_notification_would_have_already_shown_ = true;
+        if (wait_for_insufficient_notification_loop_) {
+          wait_for_insufficient_notification_loop_->Quit();
+        }
+      }
+    }
+  }
+
+  /**
+   * When using notification observer for insufficient funds, tests will fail
+   * for sufficient funds because observer will never be called for
+   * notification. Use this as callback to know when we come back with
+   * sufficient funds to prevent inf loop
+   * */
+  void ShowNotificationAddFundsForTesting(bool sufficient) {
+    if (sufficient) {
+      insufficient_notification_would_have_already_shown_ = true;
+      if (wait_for_insufficient_notification_loop_) {
+        wait_for_insufficient_notification_loop_->Quit();
+      }
+    }
+  }
+
+  void CheckInsufficientFundsForTesting() {
+    rewards_service_->MaybeShowNotificationAddFundsForTesting(
+        base::BindOnce(
+            &BraveRewardsBrowserTest::ShowNotificationAddFundsForTesting,
+            AsWeakPtr()));
+  }
+
   MOCK_METHOD1(OnGetProduction, void(bool));
   MOCK_METHOD1(OnGetDebug, void(bool));
   MOCK_METHOD1(OnGetReconcileTime, void(int32_t));
   MOCK_METHOD1(OnGetShortRetries, void(bool));
 
+  std::unique_ptr<net::EmbeddedTestServer> https_server_;
+
   brave_rewards::RewardsServiceImpl* rewards_service_;
 
   brave_rewards::Grant grant_;
-
-  MockURLFetcherFactory<brave_net::BraveURLFetcher> factory;
 
   std::unique_ptr<base::RunLoop> wait_for_wallet_initialization_loop_;
   bool wallet_initialized_ = false;
@@ -864,8 +945,13 @@ class BraveRewardsBrowserTest : public InProcessBrowserTest,
   bool reconcile_completed_ = false;
   unsigned int reconcile_status_ = ledger::LEDGER_ERROR;
 
+  std::unique_ptr<base::RunLoop> wait_for_insufficient_notification_loop_;
+  bool insufficient_notification_would_have_already_shown_ = false;
+
   bool contribution_made_ = false;
-  bool donation_made_ = false;
+  bool tip_made = false;
+  bool ac_low_amount_ = false;
+  bool last_publisher_added_ = false;
 };
 
 IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest, RenderWelcome) {
@@ -1238,7 +1324,7 @@ IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
       "}, 500);});",
       content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
       content::ISOLATED_WORLD_ID_CONTENT_END);
-    EXPECT_NE(js_result.ExtractString().find("Brave Verified Publisher"),
+    EXPECT_NE(js_result.ExtractString().find("Brave Verified Creator"),
               std::string::npos);
     EXPECT_NE(js_result.ExtractString().find(publisher), std::string::npos);
   }
@@ -1419,4 +1505,348 @@ IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
 
   // Stop observing the Rewards service
   rewards_service_->RemoveObserver(this);
+}
+
+// Tip is below server threshold
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       ContributionWithLowAmount) {
+  // Observe the Rewards service
+  rewards_service_->AddObserver(this);
+
+  // Enable Rewards
+  EnableRewards();
+
+  // Claim grant using panel
+  const bool use_panel = true;
+  ClaimGrant(use_panel);
+
+  // Set monthly to 0.2 BAT
+  rewards_service()->SetContributionAmount(0.2);
+
+  // Visit verified publisher
+  const bool verified = true;
+  VisitPublisher("duckduckgo.com", verified);
+
+  ACLowAmount();
+
+  // Trigger auto contribution now
+  rewards_service()->StartAutoContributeForTest();
+
+  // Wait for reconciliation to complete successfully
+  WaitForReconcileCompleted();
+  ASSERT_EQ(reconcile_status_, ledger::Result::CONTRIBUTION_AMOUNT_TOO_LOW);
+
+  // Stop observing the Rewards service
+  rewards_service_->RemoveObserver(this);
+}
+
+// Brave tip icon is injected when visiting Twitter
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest, TwitterTipsInjectedOnTwitter) {
+  // Enable Rewards
+  EnableRewards();
+
+  // Navigate to Twitter in a new tab
+  GURL url = https_server()->GetURL("twitter.com", "/twitter");
+  ui_test_utils::NavigateToURLWithDisposition(
+      browser(), url, WindowOpenDisposition::NEW_FOREGROUND_TAB,
+      ui_test_utils::BROWSER_TEST_WAIT_FOR_NAVIGATION);
+
+  // Ensure that Twitter tips injection is active
+  EXPECT_TRUE(IsTwitterTipsInjected());
+}
+
+// Brave tip icon is not injected when visiting Twitter while Brave
+// Rewards is disabled
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       TwitterTipsNotInjectedWhenRewardsDisabled) {
+  // Navigate to Twitter in a new tab
+  GURL url = https_server()->GetURL("twitter.com", "/twitter");
+  ui_test_utils::NavigateToURLWithDisposition(
+      browser(), url, WindowOpenDisposition::NEW_FOREGROUND_TAB,
+      ui_test_utils::BROWSER_TEST_WAIT_FOR_NAVIGATION);
+
+  // Ensure that Twitter tips injection is not active
+  EXPECT_FALSE(IsTwitterTipsInjected());
+}
+
+// Brave tip icon is not injected into non-Twitter sites
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       TwitterTipsNotInjectedOnNonTwitter) {
+  // Enable Rewards
+  EnableRewards();
+
+  // Navigate to a non-Twitter site in a new tab
+  GURL url = embedded_test_server()->GetURL("google.com", "/twitter");
+  ui_test_utils::NavigateToURLWithDisposition(
+      browser(), url, WindowOpenDisposition::NEW_FOREGROUND_TAB,
+      ui_test_utils::BROWSER_TEST_WAIT_FOR_NAVIGATION);
+
+  // Ensure that Twitter tips injection is not active
+  EXPECT_FALSE(IsTwitterTipsInjected());
+}
+
+// Check pending contributions
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       PendingContributionTip) {
+  const std::string publisher = "example.com";
+
+  // Observe the Rewards service
+  rewards_service_->AddObserver(this);
+
+  // Enable Rewards
+  EnableRewards();
+
+  // Tip unverified publisher
+  TipPublisher(publisher, false, false);
+
+  // Check that link for pending is shown
+  {
+    content::EvalJsResult js_result = EvalJs(
+        contents(),
+        "const delay = t => new Promise(resolve => setTimeout(resolve, t));"
+        "delay(0).then(() => "
+        "  document.querySelector(\"[data-test-id='reservedAllLink']\")"
+        "    .parentElement.parentElement.innerText);",
+        content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+        content::ISOLATED_WORLD_ID_CONTENT_END);
+    EXPECT_NE(
+        js_result.ExtractString().find("Show all pending contributions"),
+        std::string::npos);
+  }
+
+  // Open modal
+  {
+    ASSERT_TRUE(ExecJs(contents(),
+        "if (document.querySelector(\"[data-test-id='reservedAllLink']\")) {"
+        "  document.querySelector("
+        "      \"[data-test-id='reservedAllLink']\").click();"
+        "}",
+        content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+        content::ISOLATED_WORLD_ID_CONTENT_END));
+  }
+
+  // Make sure that table is populated
+  {
+    content::EvalJsResult js_result = EvalJs(
+        contents(),
+        "const delay = t => new Promise(resolve => setTimeout(resolve, t));"
+        "delay(0).then(() => "
+        " document.querySelector(\"[id='pendingContributionTable']\")"
+        "    .getElementsByTagName('a')[0].innerText);",
+        content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+        content::ISOLATED_WORLD_ID_CONTENT_END);
+    EXPECT_NE(
+        js_result.ExtractString().find(publisher),
+        std::string::npos);
+  }
+
+  // Stop observing the Rewards service
+  rewards_service_->RemoveObserver(this);
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest, AddFunds) {
+  rewards_service_->AddObserver(this);
+  EnableRewards();
+  content::EvalJsResult js_result = EvalJs(
+    contents(),
+    "document.querySelector(\"[data-test-id='panel-add-funds']\").click();"
+    "new Promise((resolve) => {"
+    "var count = 10;"
+    "var interval = setInterval(function() {"
+    "  if (count === 0) {"
+    "    clearInterval(interval);"
+    "    resolve(false);"
+    "  } else {"
+    "    count -= 1;"
+    "  }"
+    "  const addresses = document.querySelector("
+    "      \"[data-test-id='addresses']\");"
+    "  if (addresses) {"
+    "    clearInterval(interval);"
+    "    resolve(document.querySelectorAll(\"[data-test-id='single-address']\")"
+    "        .length === 4);"
+    "  }"
+    "}, 500);});",
+    content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+    content::ISOLATED_WORLD_ID_CONTENT_END);
+  ASSERT_TRUE(js_result.ExtractBool());
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest, AddFundsCountryLimited) {
+  rewards_service_->SetCurrentCountry("JP");
+  rewards_service_->AddObserver(this);
+  EnableRewards();
+  content::EvalJsResult js_result = EvalJs(
+    contents(),
+    "document.querySelector(\"[data-test-id='panel-add-funds']\").click();"
+    "new Promise((resolve) => {"
+    "var count = 10;"
+    "var interval = setInterval(function() {"
+    "  if (count === 0) {"
+    "    clearInterval(interval);"
+    "    resolve(false);"
+    "  } else {"
+    "    count -= 1;"
+    "  }"
+    "  const addresses = document.querySelector("
+    "      \"[data-test-id='addresses']\");"
+    "  if (addresses) {"
+    "    clearInterval(interval);"
+    "    resolve(document.querySelectorAll(\"[data-test-id='single-address']\")"
+    "        .length === 1);"
+    "  }"
+    "}, 500);});",
+    content::EXECUTE_SCRIPT_DEFAULT_OPTIONS,
+    content::ISOLATED_WORLD_ID_CONTENT_END);
+  ASSERT_TRUE(js_result.ExtractBool());
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+    InsufficientNotificationForVerifiedsZeroAmountZeroPublishers) {
+  rewards_service_->GetNotificationService()->AddObserver(this);
+  EnableRewards();
+  CheckInsufficientFundsForTesting();
+  WaitForInsufficientFundsNotification();
+  const brave_rewards::RewardsNotificationService::RewardsNotificationsMap&
+      notifications = rewards_service_->GetAllNotifications();
+
+  if (notifications.empty()) {
+    SUCCEED();
+  }
+  bool notification_shown = false;
+  for (const auto& notification : notifications) {
+    if (notification.second.type_ ==
+        brave_rewards::RewardsNotificationService::RewardsNotificationType
+        ::REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS) {
+      notification_shown = true;
+      break;
+    }
+  }
+  EXPECT_FALSE(notification_shown);
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       InsufficientNotificationForVerifiedsDefaultAmount) {
+  rewards_service_->AddObserver(this);
+  rewards_service_->GetNotificationService()->AddObserver(this);
+  EnableRewards();
+  // Claim grant using panel
+  const bool use_panel = true;
+  ClaimGrant(use_panel);
+
+  // Visit publishers
+  const bool verified = true;
+  while (!last_publisher_added_) {
+    VisitPublisher("duckduckgo.com", verified);
+    VisitPublisher("bumpsmack.com", verified);
+    VisitPublisher("google.com", !verified, true);
+  }
+
+  CheckInsufficientFundsForTesting();
+  WaitForInsufficientFundsNotification();
+  const brave_rewards::RewardsNotificationService::RewardsNotificationsMap&
+      notifications = rewards_service_->GetAllNotifications();
+
+  if (notifications.empty()) {
+    SUCCEED();
+  }
+  bool notification_shown = false;
+  for (const auto& notification : notifications) {
+    if (notification.second.type_ ==
+        brave_rewards::RewardsNotificationService::RewardsNotificationType
+        ::REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS) {
+      notification_shown = true;
+      break;
+    }
+  }
+  EXPECT_FALSE(notification_shown);
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       InsufficientNotificationForVerifiedsSufficientAmount) {
+  rewards_service_->AddObserver(this);
+  rewards_service_->GetNotificationService()->AddObserver(this);
+
+  EnableRewards();
+  // Claim grant using panel
+  const bool use_panel = true;
+  ClaimGrant(use_panel);
+
+  // Visit publishers
+  const bool verified = true;
+  while (!last_publisher_added_) {
+    VisitPublisher("duckduckgo.com", verified);
+    VisitPublisher("bumpsmack.com", verified);
+    VisitPublisher("google.com", !verified, true);
+  }
+
+  rewards_service_->SetContributionAmount(40.0);
+
+  CheckInsufficientFundsForTesting();
+  WaitForInsufficientFundsNotification();
+  const brave_rewards::RewardsNotificationService::RewardsNotificationsMap&
+      notifications = rewards_service_->GetAllNotifications();
+  if (notifications.empty()) {
+    SUCCEED();
+  }
+  bool notification_shown = false;
+  for (const auto& notification : notifications) {
+    if (notification.second.type_ ==
+        brave_rewards::RewardsNotificationService::RewardsNotificationType
+        ::REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS) {
+      notification_shown = true;
+      break;
+    }
+  }
+  EXPECT_FALSE(notification_shown);
+}
+
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest,
+                       InsufficientNotificationForVerifiedsInsufficientAmount) {
+  rewards_service_->AddObserver(this);
+  rewards_service_->GetNotificationService()->AddObserver(this);
+  EnableRewards();
+  // Claim grant using panel
+  const bool use_panel = true;
+  ClaimGrant(use_panel);
+
+  // Visit publishers
+  const bool verified = true;
+  while (!last_publisher_added_) {
+    VisitPublisher("duckduckgo.com", verified);
+    VisitPublisher("bumpsmack.com", verified);
+    VisitPublisher("google.com", !verified, true);
+  }
+  rewards_service_->SetContributionAmount(100.0);
+
+  rewards_service_->CheckInsufficientFundsForTesting();
+  WaitForInsufficientFundsNotification();
+  const brave_rewards::RewardsNotificationService::RewardsNotificationsMap&
+      notifications = rewards_service_->GetAllNotifications();
+
+  if (notifications.empty()) {
+    FAIL() << "Should see Insufficient Funds notification";
+  }
+  bool notification_shown = false;
+  for (const auto& notification : notifications) {
+    if (notification.second.type_ ==
+        brave_rewards::RewardsNotificationService::RewardsNotificationType
+        ::REWARDS_NOTIFICATION_INSUFFICIENT_FUNDS) {
+      notification_shown = true;
+      break;
+    }
+  }
+  EXPECT_TRUE(notification_shown);
+}
+
+// Test whether rewards is diabled in private profile.
+IN_PROC_BROWSER_TEST_F(BraveRewardsBrowserTest, PrefsTestInPrivateWindow) {
+  EnableRewards();
+  auto* profile = browser()->profile();
+  EXPECT_TRUE(profile->GetPrefs()->GetBoolean(
+      brave_rewards::prefs::kBraveRewardsEnabled));
+
+  Profile* private_profile = profile->GetOffTheRecordProfile();
+  EXPECT_FALSE(private_profile->GetPrefs()->GetBoolean(
+      brave_rewards::prefs::kBraveRewardsEnabled));
 }

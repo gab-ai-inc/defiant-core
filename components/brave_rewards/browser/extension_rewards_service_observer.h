@@ -46,13 +46,16 @@ class ExtensionRewardsServiceObserver : public RewardsServiceObserver,
   void OnRecurringTipRemoved(RewardsService* rewards_service,
                              bool success) override;
 
+  void OnPendingContributionRemoved(RewardsService* rewards_service,
+                                    int32_t result) override;
+
   // RewardsServicePrivateObserver implementation
   void OnGetCurrentBalanceReport(RewardsService* rewards_service,
                                  const BalanceReport& balance_report) override;
   void OnPanelPublisherInfo(
       RewardsService* rewards_service,
       int error_code,
-      std::unique_ptr<ledger::PublisherInfo> info,
+      const ledger::PublisherInfo* info,
       uint64_t windowId) override;
   void OnGrant(RewardsService* rewards_service,
                unsigned int result,

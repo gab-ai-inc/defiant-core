@@ -44,7 +44,7 @@ const std::map<BravePrepopulatedEngineID, const PrepopulatedEngine*>
 
 // Engine ID to use as the default engine.
 const BravePrepopulatedEngineID kDefaultEngineID =
-    PREPOPULATED_ENGINE_ID_GOOGLE;
+    PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
 // A map to keep track of default engines for countries that don't use the
 // regular default engine.
@@ -58,10 +58,10 @@ const std::map<int, BravePrepopulatedEngineID>
 
 // Default order in which engines will appear in the UI.
 const BravePrepopulatedEngineID brave_engines_default[] = {
-    PREPOPULATED_ENGINE_ID_GOOGLE,
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
-    PREPOPULATED_ENGINE_ID_QWANT,
     PREPOPULATED_ENGINE_ID_BING,
+    PREPOPULATED_ENGINE_ID_GOOGLE,
+    PREPOPULATED_ENGINE_ID_QWANT,
     PREPOPULATED_ENGINE_ID_STARTPAGE,
 };
 
@@ -210,7 +210,7 @@ std::vector<std::unique_ptr<TemplateURLData>> GetPrepopulatedEngines(
 std::vector<std::unique_ptr<TemplateURLData>> GetLocalPrepopulatedEngines(
     const std::string& locale) {
   int country_id = country_codes::CountryStringToCountryID(locale);
-  if (country_id == kCountryIDUnknown) {
+  if (country_id == country_codes::kCountryIDUnknown) {
     LOG(ERROR) << "Unknown country code specified: " << locale;
     return std::vector<std::unique_ptr<TemplateURLData>>();
   }

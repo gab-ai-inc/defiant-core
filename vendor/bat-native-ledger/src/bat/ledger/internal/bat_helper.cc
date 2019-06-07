@@ -1507,6 +1507,7 @@ CLIENT_STATE_ST::CLIENT_STATE_ST(const CLIENT_STATE_ST& other) {
   auto_contribute_ = other.auto_contribute_;
   rewards_enabled_ = other.rewards_enabled_;
   current_reconciles_ = other.current_reconciles_;
+  inline_tip_ = other.inline_tip_;
 }
 
 CLIENT_STATE_ST::~CLIENT_STATE_ST() {}
@@ -1625,6 +1626,13 @@ bool CLIENT_STATE_ST::loadFromJson(const std::string & json) {
       i.Accept(writer);
       walletProperties_.loadFromJson(sb.GetString());
     }
+
+    if (d.HasMember("inlineTip") && d["inlineTip"].IsObject()) {
+      for (auto & k : d["inlineTip"].GetObject()) {
+        inline_tip_.insert(
+            std::make_pair(k.name.GetString(), k.value.GetBool()));
+      }
+    }
   }
 
   return !error;
@@ -1718,6 +1726,14 @@ void saveToJson(JsonWriter* writer, const CLIENT_STATE_ST& data) {
 
   writer->String("walletProperties");
   saveToJson(writer, data.walletProperties_);
+
+  writer->String("inlineTip");
+  writer->StartObject();
+  for (auto & p : data.inline_tip_) {
+    writer->String(p.first.c_str());
+    writer->Bool(p.second);
+  }
+  writer->EndObject();
 
   writer->EndObject();
 }
@@ -2626,15 +2642,6 @@ uint8_t niceware_mnemonic_to_bytes(
   return 0;
 }
 
-uint64_t getRandomValue(uint8_t min, uint8_t max) {
-  std::random_device seeder;
-  const auto seed = seeder.entropy() ? seeder() : time(nullptr);
-  std::mt19937 eng(static_cast<std::mt19937::result_type> (seed));
-  std::uniform_int_distribution <> dist(min, max);
-
-  return dist(eng);
-}
-
 void saveToJson(JsonWriter* writer, const ledger::VisitData& visitData) {
   writer->StartObject();
 
@@ -2715,76 +2722,6 @@ void saveToJson(JsonWriter* writer, const ledger::Grant& grant) {
 
   writer->String("type");
   writer->String(grant.type.c_str());
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer, const ledger::PublisherInfo& info) {
-  writer->StartObject();
-
-  writer->String("id");
-  writer->String(info.id.c_str());
-
-  writer->String("duration");
-  writer->Uint64(info.duration);
-
-  writer->String("score");
-  writer->Double(info.score);
-
-  writer->String("visits");
-  writer->Uint(info.visits);
-
-  writer->String("percent");
-  writer->Uint(info.percent);
-
-  writer->String("weight");
-  writer->Double(info.weight);
-
-  writer->String("excluded");
-  writer->Int(info.excluded);
-
-  writer->String("category");
-  writer->Int(info.category);
-
-  writer->String("reconcile_stamp");
-  writer->Uint64(info.reconcile_stamp);
-
-  writer->String("verified");
-  writer->Bool(info.verified);
-
-  writer->String("name");
-  writer->String(info.name.c_str());
-
-  writer->String("url");
-  writer->String(info.url.c_str());
-
-  writer->String("provider");
-  writer->String(info.provider.c_str());
-
-  writer->String("favicon_url");
-  writer->String(info.favicon_url.c_str());
-
-  writer->String("contributions");
-  writer->StartArray();
-  for (auto & contribution : info.contributions) {
-    saveToJson(writer, contribution);
-  }
-  writer->EndArray();
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer, const ledger::ContributionInfo& info) {
-  writer->StartObject();
-
-  writer->String("publisher");
-  writer->String(info.publisher.c_str());
-
-  writer->String("value");
-  writer->Double(info.value);
-
-  writer->String("date");
-  writer->Uint64(info.date);
 
   writer->EndObject();
 }
@@ -2942,56 +2879,6 @@ void saveToJson(JsonWriter* writer,
 
   writer->String("reconcile_stamp");
   writer->Uint64(props.reconcile_stamp);
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer,
-                const ledger::PendingContribution& contribution) {
-  writer->StartObject();
-
-  writer->String("publisher_key");
-  writer->String(contribution.publisher_key.c_str());
-
-  writer->String("amount");
-  writer->Double(contribution.amount);
-
-  writer->String("added_date");
-  writer->Uint64(contribution.added_date);
-
-  writer->String("viewing_id");
-  writer->String(contribution.viewing_id.c_str());
-
-  writer->String("category");
-  writer->Int(contribution.category);
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer,
-                const ledger::PendingContributionList& contributions) {
-  writer->StartObject();
-
-  writer->String("list");
-  writer->StartArray();
-  for (const auto& contribution : contributions.list_) {
-    saveToJson(writer, contribution);
-  }
-  writer->EndArray();
-
-  writer->EndObject();
-}
-
-void saveToJson(JsonWriter* writer,
-                const ledger::PublisherInfoListStruct& publishers) {
-  writer->StartObject();
-
-  writer->String("list");
-  writer->StartArray();
-  for (const auto& publisher : publishers.list) {
-    saveToJson(writer, publisher);
-  }
-  writer->EndArray();
 
   writer->EndObject();
 }

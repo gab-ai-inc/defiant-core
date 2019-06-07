@@ -141,6 +141,7 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
         walletInfo.grants = grants || []
         chrome.send('brave_rewards.getWalletPassphrase')
         chrome.send('brave_rewards.getAddresses')
+        chrome.send('brave_rewards.getGrants', ['', ''])
         ui.emptyWallet = balance <= 0
         ui.modalBackup = false
         ui.walletCorrupted = false
@@ -221,13 +222,26 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
       chrome.send('brave_rewards.getReconcileStamp')
       break
     }
-    case types.GET_PENDING_CONTRIBUTION_TOTAL: {
-      chrome.send('brave_rewards.getPendingContributionsTotal')
+    case types.GET_PENDING_CONTRIBUTIONS: {
+      chrome.send('brave_rewards.getPendingContributions')
       break
     }
-    case types.ON_PENDING_CONTRIBUTION_TOTAL: {
+    case types.ON_PENDING_CONTRIBUTIONS: {
       state = { ...state }
-      state.pendingContributionTotal = action.payload.amount
+      state.pendingContributions = action.payload.list
+      const total = state.pendingContributions
+        .reduce((accumulator: number, item: Rewards.PendingContribution) => {
+          return accumulator + item.amount
+        }, 0)
+      state.pendingContributionTotal = total
+      break
+    }
+    case types.REMOVE_PENDING_CONTRIBUTION: {
+      chrome.send('brave_rewards.removePendingContribution', [
+        action.payload.publisherKey,
+        action.payload.viewingId,
+        action.payload.addedDate
+      ])
       break
     }
     case types.GET_ADDRESSES_FOR_PAYMENT_ID: {
@@ -246,6 +260,10 @@ const walletReducer: Reducer<Rewards.State | undefined> = (state: Rewards.State,
         ...state,
         ui
       }
+      break
+    }
+    case types.REMOVE_ALL_PENDING_CONTRIBUTION: {
+      chrome.send('brave_rewards.removeAllPendingContribution')
       break
     }
   }

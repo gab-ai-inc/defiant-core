@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Modal, AlertBox } from 'brave-ui'
+import { Modal, AlertBox } from 'dissenter-ui'
 
 // Feature-specific components
 import {
@@ -16,7 +16,7 @@ import {
   DeviceGrid,
   DeviceContainer,
   ModalSubTitle
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Modals
 import ViewSyncCode from './viewSyncCode'
@@ -26,7 +26,7 @@ import ScanCode from './scanCode'
 import { getLocale } from '../../../../common/locale'
 
 // Images
-import { SyncDesktopIcon, SyncMobileIcon } from 'brave-ui/features/sync/images'
+import { SyncDesktopIcon, SyncMobileIcon } from 'dissenter-ui/features/sync/images'
 
 interface Props {
   syncData: Sync.State

@@ -7,7 +7,7 @@ let rule = {
 
 // parent menu
 chrome.contextMenus.create({
-  title: 'Brave',
+  title: 'Dissenter',
   id: 'brave',
   contexts: ['all']
 })

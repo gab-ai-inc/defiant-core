@@ -2,12 +2,46 @@ diff --git a/chrome/browser/resources/settings/about_page/about_page.html b/chro
 index bb8758591da2c649554188411815c680135f0203..09f4621d74419cdc289d142355f72f42b84e3a25 100644
 --- a/chrome/browser/resources/settings/about_page/about_page.html
 +++ b/chrome/browser/resources/settings/about_page/about_page.html
-@@ -132,7 +132,7 @@
+@@ -119,7 +119,13 @@
+               </iron-icon>
+             </div>
+             <div class="start padded">
+-              <div id="updateStatusMessage" hidden="[[!showUpdateStatus_]]">
++              <div id="updateStatusMessage" >
++                <div>
++                  <p><b>A word on updates:</b></p>
++                  <p>As of this build, Dissenter does not auto-update the browser itself.  We're of two minds on this: On one side, auto-update is nice, users get the latest software with the most bug and security fixes.  On the other side, auto-update means your web browser is reaching out at least daily checking for updates. While we are still in alpha testing we are going to explore a happy medium that users agree with and gives users a choice. Until such time, please check <a href="https://dissenter.com/download">Dissenter.com/download</a> every few weeks for new updates.</p>
++                </div>
++
++<!--
+                 <div
+ <if expr="not chromeos">
+                     inner-h-t-m-l="[[getUpdateStatusMessage_(
+@@ -132,7 +138,7 @@
                  </div>
                  <a hidden$="[[!shouldShowLearnMoreLink_(
                      currentUpdateStatusEvent_)]]" target="_blank"
 -                    href="https://support.google.com/chrome?p=update_error">
-+                    href="https://community.brave.com?p=update_error">
++                    href="https://dissenter.com?p=update_error">
                    $i18n{learnMore}
                  </a>
                </div>
+@@ -153,6 +159,8 @@
+                </a>
+              </div>
+ </if>
++-->
++                </div>
+               <div class="secondary">$i18n{aboutBrowserVersion}</div>
+             </div>
+             <div class="separator" hidden="[[!showButtonContainer_]]"></div>
+@@ -247,6 +255,9 @@
+         </div>
+ 
+         <div class="info-section">
++          <div class="secondary">
++            <p>Dedicated to Justice Scalia.  Watch: <a href="https://youtu.be/gk8IKBWrTqw">The Great Dissent</a></p>
++          </div>
+           <div class="secondary">$i18nRaw{aboutProductLicense}</div>
+ <if expr="chromeos">
+           <div class="secondary"

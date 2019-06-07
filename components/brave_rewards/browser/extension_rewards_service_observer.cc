@@ -126,19 +126,14 @@ void ExtensionRewardsServiceObserver::OnGetCurrentBalanceReport(
 void ExtensionRewardsServiceObserver::OnPanelPublisherInfo(
     RewardsService* rewards_service,
     int error_code,
-    std::unique_ptr<ledger::PublisherInfo> info,
+    const ledger::PublisherInfo* info,
     uint64_t windowId) {
   auto* event_router = extensions::EventRouter::Get(profile_);
-  if (!event_router) {
+  if (!event_router || !info) {
     return;
   }
 
   extensions::api::brave_rewards::OnPublisherData::Publisher publisher;
-
-  if (!info.get()) {
-    info.reset(new ledger::PublisherInfo());
-    info->id = "";
-  }
 
   publisher.percentage = info->percent;
   publisher.verified = info->verified;
@@ -360,6 +355,25 @@ void ExtensionRewardsServiceObserver::OnRecurringTipRemoved(
   std::unique_ptr<extensions::Event> event(new extensions::Event(
       extensions::events::BRAVE_START,
       extensions::api::brave_rewards::OnRecurringTipRemoved::kEventName,
+      std::move(args)));
+  event_router->BroadcastEvent(std::move(event));
+}
+
+void ExtensionRewardsServiceObserver::OnPendingContributionRemoved(
+    RewardsService* rewards_service,
+    int32_t result) {
+  extensions::EventRouter* event_router =
+      extensions::EventRouter::Get(profile_);
+  if (!event_router) {
+    return;
+  }
+
+  std::unique_ptr<base::ListValue> args(
+      extensions::api::brave_rewards::OnPendingContributionRemoved::Create(
+          result).release());
+  std::unique_ptr<extensions::Event> event(new extensions::Event(
+      extensions::events::BRAVE_START,
+      extensions::api::brave_rewards::OnPendingContributionRemoved::kEventName,
       std::move(args)));
   event_router->BroadcastEvent(std::move(event));
 }

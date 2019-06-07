@@ -7,9 +7,9 @@ import { render } from 'react-dom'
 import { Provider } from 'react-redux'
 import { Store } from 'react-chrome-redux'
 
-import Theme from 'brave-ui/theme/brave-default'
-import { ThemeProvider } from 'brave-ui/theme'
-import { initLocale } from 'brave-ui/helpers'
+import Theme from 'dissenter-ui/theme/brave-default'
+import { ThemeProvider } from 'dissenter-ui/theme'
+import { initLocale } from 'dissenter-ui/helpers'
 require('emptykit.css')
 require('../../../../fonts/muli.css')
 require('../../../../fonts/poppins.css')

@@ -7,6 +7,8 @@
 
 
 std::vector<std::string> TopSitesProvider::top_sites_ = {
+  "gab.com",
+  "dissenter.com",
   "google.com",
   "gmail.com",
   "mail.google.com",

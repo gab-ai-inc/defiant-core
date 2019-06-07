@@ -68,6 +68,8 @@ std::string getProviderName(const std::string& publisher_id) {
     return YOUTUBE_MEDIA_TYPE;
   } else if (publisher_id.find(TWITCH_MEDIA_TYPE) != std::string::npos) {
     return TWITCH_MEDIA_TYPE;
+  } else if (publisher_id.find(TWITTER_MEDIA_TYPE) != std::string::npos) {
+    return TWITTER_MEDIA_TYPE;
   }
   return "";
 }
@@ -85,7 +87,8 @@ void BatPublishers::AddRecurringPayment(const std::string& publisher_id,
 void BatPublishers::saveVisit(const std::string& publisher_id,
                               const ledger::VisitData& visit_data,
                               const uint64_t& duration,
-                              uint64_t window_id) {
+                              uint64_t window_id,
+                              const ledger::PublisherInfoCallback callback) {
   if (!ledger_->GetRewardsMainEnabled() || publisher_id.empty()) {
     return;
   }
@@ -103,6 +106,7 @@ void BatPublishers::saveVisit(const std::string& publisher_id,
                 visit_data,
                 duration,
                 window_id,
+                callback,
                 _1,
                 _2);
   ledger_->GetActivityInfo(filter, callbackGetPublishers);
@@ -137,20 +141,22 @@ void BatPublishers::saveVisitInternal(
     ledger::VisitData visit_data,
     uint64_t duration,
     uint64_t window_id,
+    const ledger::PublisherInfoCallback callback,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
   DCHECK(result != ledger::Result::TOO_MANY_RESULTS);
   if (result != ledger::Result::LEDGER_OK &&
       result != ledger::Result::NOT_FOUND) {
-    // TODO(anyone) error handling
+    callback(ledger::Result::LEDGER_ERROR, nullptr);
     return;
   }
   bool verified = isVerified(publisher_id);
 
   bool new_visit = false;
-  if (!publisher_info.get()) {
+  if (!publisher_info) {
     new_visit = true;
-    publisher_info.reset(new ledger::PublisherInfo(publisher_id));
+    publisher_info = ledger::PublisherInfo::New();
+    publisher_info->id = publisher_id;
   }
 
   std::string fav_icon = visit_data.favicon_url;
@@ -176,13 +182,15 @@ void BatPublishers::saveVisitInternal(
   publisher_info->url = visit_data.url;
   publisher_info->verified = verified;
 
-  bool excluded = isExcluded(publisher_info->id, publisher_info->excluded);
+  bool excluded = isExcluded(
+      publisher_info->id,
+      static_cast<ledger::PUBLISHER_EXCLUDE>(publisher_info->excluded));
   bool ignore_time = ignoreMinTime(publisher_id);
   if (duration == 0) {
     ignore_time = false;
   }
 
-  std::unique_ptr<ledger::PublisherInfo> panel_info = nullptr;
+  ledger::PublisherInfoPtr panel_info = nullptr;
 
   if (excluded) {
     publisher_info->excluded = ledger::PUBLISHER_EXCLUDE::EXCLUDED;
@@ -201,7 +209,7 @@ void BatPublishers::saveVisitInternal(
        !ledger_->GetAutoContribute() ||
        min_duration_new ||
        verified_new)) {
-    panel_info = std::make_unique<ledger::PublisherInfo>(*publisher_info);
+    panel_info = publisher_info->Clone();
 
     ledger_->SetPublisherInfo(std::move(publisher_info));
   } else if (!excluded &&
@@ -213,20 +221,25 @@ void BatPublishers::saveVisitInternal(
     publisher_info->score += concaveScore(duration);
     publisher_info->reconcile_stamp = ledger_->GetReconcileStamp();
 
-    panel_info = std::make_unique<ledger::PublisherInfo>(*publisher_info);
+    panel_info = publisher_info->Clone();
 
     ledger_->SetActivityInfo(std::move(publisher_info));
   }
 
-  if (panel_info && window_id > 0) {
+  if (panel_info) {
     if (panel_info->favicon_url == ledger::_clear_favicon) {
       panel_info->favicon_url = std::string();
     }
 
-    OnPanelPublisherInfo(ledger::Result::LEDGER_OK,
-                        std::move(panel_info),
-                        window_id,
-                        visit_data);
+    auto callback_info = panel_info->Clone();
+    callback(ledger::Result::LEDGER_OK, std::move(callback_info));
+
+    if (window_id > 0) {
+      OnPanelPublisherInfo(ledger::Result::LEDGER_OK,
+                           std::move(panel_info),
+                           window_id,
+                           visit_data);
+    }
   }
 }
 
@@ -251,14 +264,13 @@ void BatPublishers::onFetchFavIcon(const std::string& publisher_key,
 
 void BatPublishers::onFetchFavIconDBResponse(
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info,
+    ledger::PublisherInfoPtr info,
     const std::string& favicon_url,
     uint64_t window_id) {
   if (result == ledger::Result::LEDGER_OK && !favicon_url.empty()) {
     info->favicon_url = favicon_url;
 
-    std::unique_ptr<ledger::PublisherInfo> panel_info =
-        std::make_unique<ledger::PublisherInfo>(*info);
+    ledger::PublisherInfoPtr panel_info = info->Clone();
 
     ledger_->SetPublisherInfo(std::move(info));
 
@@ -277,8 +289,8 @@ void BatPublishers::onFetchFavIconDBResponse(
 
 void BatPublishers::OnPublisherInfoSaved(
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info) {
-  if (result != ledger::Result::LEDGER_OK || !info.get()) {
+    ledger::PublisherInfoPtr info) {
+  if (result != ledger::Result::LEDGER_OK || !info) {
     BLOG(ledger_, ledger::LogLevel::LOG_ERROR) <<
       "Publisher info was not saved!";
   }
@@ -299,7 +311,7 @@ void BatPublishers::setExclude(const std::string& publisher_id,
 void BatPublishers::onSetExcludeInternal(
     ledger::PUBLISHER_EXCLUDE exclude,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
   if (result != ledger::Result::LEDGER_OK &&
       result != ledger::Result::NOT_FOUND) {
     return;
@@ -400,7 +412,7 @@ void BatPublishers::SetMigrateScore(bool value) {
 
 void BatPublishers::NormalizeContributeWinners(
     ledger::PublisherInfoList* newList,
-    const ledger::PublisherInfoList& list,
+    const ledger::PublisherInfoList* list,
     uint32_t record) {
 
   synopsisNormalizerInternal(newList, list, record);
@@ -408,22 +420,20 @@ void BatPublishers::NormalizeContributeWinners(
 
 void BatPublishers::synopsisNormalizerInternal(
     ledger::PublisherInfoList* newList,
-    const ledger::PublisherInfoList& oldList,
+    const ledger::PublisherInfoList* list,
     uint32_t /* next_record */) {
-  // TODO(SZ): We can pass non const value here to avoid copying
-  ledger::PublisherInfoList list = oldList;
-  if (list.size() == 0) {
+  if (list->size() == 0) {
     return;
   }
 
   double totalScores = 0.0;
-  for (size_t i = 0; i < list.size(); i++) {
+  for (size_t i = 0; i < list->size(); i++) {
     // Check which would test uint problem from this issue
     // https://github.com/brave/brave-browser/issues/3134
     if (GetMigrateScore()) {
-      list[i].score = concaveScore(list[i].duration);
+      (*list)[i]->score = concaveScore((*list)[i]->duration);
     }
-    totalScores += list[i].score;
+    totalScores += (*list)[i]->score;
   }
 
   if (GetMigrateScore()) {
@@ -435,8 +445,8 @@ void BatPublishers::synopsisNormalizerInternal(
   std::vector<double> realPercents;
   std::vector<double> roundoffs;
   unsigned int totalPercents = 0;
-  for (size_t i = 0; i < list.size(); i++) {
-    double floatNumber = (list[i].score / totalScores) * 100.0;
+  for (size_t i = 0; i < list->size(); i++) {
+    double floatNumber = ((*list)[i]->score / totalScores) * 100.0;
     double roundNumber = (unsigned int)std::lround(floatNumber);
     realPercents.push_back(floatNumber);
     percents.push_back(roundNumber);
@@ -477,12 +487,12 @@ void BatPublishers::synopsisNormalizerInternal(
     }
   }
   size_t currentValue = 0;
-  for (size_t i = 0; i < list.size(); i++) {
-    list[i].percent = percents[currentValue];
-    list[i].weight = weights[currentValue];
+  for (size_t i = 0; i < list->size(); i++) {
+    (*list)[i]->percent = percents[currentValue];
+    (*list)[i]->weight = weights[currentValue];
     currentValue++;
     if (newList) {
-      newList->push_back(list[i]);
+      newList->push_back((*list)[i]->Clone());
     }
   }
 }
@@ -505,11 +515,11 @@ void BatPublishers::SynopsisNormalizer() {
 }
 
 void BatPublishers::SynopsisNormalizerCallback(
-    const ledger::PublisherInfoList& list,
+    ledger::PublisherInfoList list,
     uint32_t record) {
   ledger::PublisherInfoList normalized_list;
-  synopsisNormalizerInternal(&normalized_list, list, 0);
-  ledger_->SaveNormalizedPublisherList(normalized_list);
+  synopsisNormalizerInternal(&normalized_list, &list, 0);
+  ledger_->SaveNormalizedPublisherList(std::move(normalized_list));
 }
 
 bool BatPublishers::isVerified(const std::string& publisher_id) {
@@ -661,20 +671,6 @@ void BatPublishers::OnPublisherStateSaved(ledger::Result result) {
   }
 }
 
-std::vector<ledger::ContributionInfo>
-BatPublishers::GetRecurringDonationList() {
-  std::vector<ledger::ContributionInfo> res;
-
-  for (const auto & e : state_->recurring_donation_) {
-    ledger::ContributionInfo info;
-    info.publisher = e.first;
-    info.value = e.second;
-    res.push_back(info);
-  }
-
-  return res;
-}
-
 void BatPublishers::RefreshPublishersList(const std::string& json) {
   ledger_->SavePublishersList(json);
   loadPublisherList(json);
@@ -706,11 +702,17 @@ void BatPublishers::getPublisherActivityFromUrl(
     return;
   }
 
-  if ((visit_data.domain == YOUTUBE_TLD || visit_data.domain == TWITCH_TLD) &&
+  const bool is_media = visit_data.domain == YOUTUBE_TLD ||
+                        visit_data.domain == TWITCH_TLD ||
+                        visit_data.domain == TWITTER_TLD;
+
+  if (is_media &&
       visit_data.path != "" && visit_data.path != "/") {
     std::string type = YOUTUBE_MEDIA_TYPE;
     if (visit_data.domain == TWITCH_TLD) {
       type = TWITCH_MEDIA_TYPE;
+    } else if (visit_data.domain == TWITTER_TLD) {
+      type = TWITTER_MEDIA_TYPE;
     }
 
     ledger::VisitData new_visit_data(visit_data);
@@ -721,8 +723,10 @@ void BatPublishers::getPublisherActivityFromUrl(
 
     new_visit_data.url = new_visit_data.url + new_visit_data.path;
 
-    ledger_->GetMediaActivityFromUrl(
-        windowId, new_visit_data, type, publisher_blob);
+    ledger_->GetMediaActivityFromUrl(windowId,
+                                     new_visit_data,
+                                     type,
+                                     publisher_blob);
     return;
   }
 
@@ -749,9 +753,15 @@ void BatPublishers::getPublisherActivityFromUrl(
                   new_data));
 }
 
+void BatPublishers::OnSaveVisitInternal(
+    ledger::Result result,
+    ledger::PublisherInfoPtr info) {
+  // TODO(nejczdovc): handle if needed
+}
+
 void BatPublishers::OnPanelPublisherInfo(
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> info,
+    ledger::PublisherInfoPtr info,
     uint64_t windowId,
     const ledger::VisitData& visit_data) {
   if (result == ledger::Result::LEDGER_OK) {
@@ -759,12 +769,18 @@ void BatPublishers::OnPanelPublisherInfo(
   }
 
   if (result == ledger::Result::NOT_FOUND && !visit_data.domain.empty()) {
+    auto callback = std::bind(&BatPublishers::OnSaveVisitInternal,
+                              this,
+                              _1,
+                              _2);
+
     saveVisitInternal(visit_data.domain,
                       visit_data,
                       0,
                       windowId,
+                      callback,
                       result,
-                      std::move(info));
+                      nullptr);
   }
 }
 
@@ -793,11 +809,11 @@ void BatPublishers::setBalanceReportItem(ledger::ACTIVITY_MONTH month,
       report_info.auto_contribute_ =
           braveledger_bat_bignum::sum(report_info.auto_contribute_, probi);
       break;
-    case ledger::ReportType::DONATION:
+    case ledger::ReportType::TIP:
       report_info.one_time_donation_ =
           braveledger_bat_bignum::sum(report_info.one_time_donation_, probi);
       break;
-    case ledger::ReportType::DONATION_RECURRING:
+    case ledger::ReportType::TIP_RECURRING:
       report_info.recurring_donation_ =
           braveledger_bat_bignum::sum(report_info.recurring_donation_, probi);
       break;
@@ -854,7 +870,7 @@ void BatPublishers::onPublisherBanner(
     ledger::PublisherBannerCallback callback,
     ledger::PublisherBanner banner,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info) {
+    ledger::PublisherInfoPtr publisher_info) {
 
   auto new_banner = std::make_unique<ledger::PublisherBanner>(banner);
 

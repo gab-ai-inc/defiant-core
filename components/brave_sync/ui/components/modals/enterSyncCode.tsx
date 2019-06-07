@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { AlertBox, Button, Modal, TextAreaClipboard } from 'brave-ui'
+import { AlertBox, Button, Modal, TextAreaClipboard } from 'dissenter-ui'
 
 // Feature-specific components
 import {
@@ -17,10 +17,10 @@ import {
   OneColumnButtonGrid,
   Title,
   SubTitle
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Icons
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Utils
 import { getLocale } from '../../../../common/locale'

@@ -9,8 +9,8 @@ import {
   PanelWelcome,
   WalletPanelDisabled,
   WalletWrapper
-} from 'brave-ui/features/rewards'
-import { BatColorIcon, WalletAddIcon } from 'brave-ui/components/icons'
+} from 'dissenter-ui/features/rewards'
+import { BatColorIcon, WalletAddIcon } from 'dissenter-ui/components/icons'
 
 // Components
 import Panel from './panel'
@@ -60,6 +60,9 @@ export class RewardsPanel extends React.Component<Props, State> {
       this.props.rewardsPanelData.walletCreated
     ) {
       this.getTabData()
+    }
+    if (!prevProps.rewardsPanelData.enabledMain && this.props.rewardsPanelData.enabledMain) {
+      chrome.windows.getCurrent({}, this.onWindowCallback)
     }
   }
 

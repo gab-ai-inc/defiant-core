@@ -1,8 +1,19 @@
 import("//brave/build/config.gni")
+import("//brave/browser/tor/buildflags/buildflags.gni")
+import("//brave/components/brave_ads/browser/buildflags/buildflags.gni")
+import("//brave/components/brave_webtorrent/browser/buildflags/buildflags.gni")
 import("//build/config/features.gni")
+import("//extensions/buildflags/buildflags.gni")
 import("//third_party/widevine/cdm/widevine.gni")
 
 source_set("browser_process") {
+  visibility = [
+    "//chrome/browser/*",
+    "//brave/browser/*",
+    "//brave:browser_dependencies",
+    "//brave/test:*"
+  ]
+
   sources = [
     "autocomplete/brave_autocomplete_provider_client.cc",
     "autocomplete/brave_autocomplete_provider_client.h",
@@ -18,6 +29,8 @@ source_set("browser_process") {
     "brave_browser_main_parts_mac.h",
     "brave_browser_process_impl.cc",
     "brave_browser_process_impl.h",
+    "brave_content_browser_client.cc",
+    "brave_content_browser_client.h",
     "brave_drm_tab_helper.cc",
     "brave_drm_tab_helper.h",
     "brave_local_state_prefs.cc",
@@ -32,8 +45,6 @@ source_set("browser_process") {
     "brave_stats_updater_util.h",
     "brave_tab_helpers.cc",
     "brave_tab_helpers.h",
-    "brave_rewards/donations_dialog.cc",
-    "brave_rewards/donations_dialog.h",
     "browser_context_keyed_service_factories.cc",
     "browser_context_keyed_service_factories.h",
     "browsing_data/brave_clear_browsing_data.cc",
@@ -42,6 +53,8 @@ source_set("browser_process") {
     "component_updater/brave_component_installer.h",
     "component_updater/brave_component_updater_configurator.cc",
     "component_updater/brave_component_updater_configurator.h",
+    "component_updater/brave_component_updater_delegate.cc",
+    "component_updater/brave_component_updater_delegate.h",
     "component_updater/brave_crx_update_service.cc",
     "component_updater/brave_crx_update_service.h",
     "content_settings/brave_cookie_settings_factory.cc",
@@ -71,20 +84,34 @@ source_set("browser_process") {
 
   deps = [
     ":version_info",
+    "autoplay",
+    "download",
+    "net",
+    "permissions",
+    "profiles",
+    "renderer_context_menu",
+    "renderer_host",
+    "ui",
     "//base",
     "//brave/browser/tor",
     "//brave/browser/translate/buildflags",
     "//brave/common",
     "//brave/components/brave_ads/browser",
+    "//brave/components/brave_component_updater/browser",
+    "//brave/components/brave_referrals/browser",
     "//brave/components/brave_rewards/browser",
     "//brave/components/brave_shields/browser:brave_shields",
     "//brave/components/brave_sync",
-    "//brave/components/brave_webtorrent/browser",
+    "//brave/components/brave_wallet/browser",
+    "//brave/components/brave_webtorrent/browser/buildflags",
     "//brave/components/content_settings/core/browser",
+    "//brave/components/resources",
     "//brave/components/services:brave_content_manifest_overlays",
     "//chrome/common",
+    "//components/autofill/core/common",
     "//components/browsing_data/core",
     "//components/component_updater",
+    "//components/password_manager/core/common",
     "//components/prefs",
     "//components/safe_browsing/common:safe_browsing_prefs",
     "//components/search_engines",
@@ -92,9 +119,13 @@ source_set("browser_process") {
     "//components/update_client:patch_impl",
     "//components/update_client:unzip_impl",
     "//content/public/browser",
+    "//content/public/common",
+    "//extensions/buildflags",
     "//brave/chromium_src:browser",
     "themes",
-    "//third_party/widevine/cdm:buildflags",
+    "//services/network/public/cpp",
+    "//services/service_manager/embedder",
+    "//ui/base",
   ]
 
   if (!is_android) {
@@ -131,37 +162,16 @@ source_set("version_info") {
 }
 
 source_set("browser") {
-  sources = [
-    "brave_content_browser_client.cc",
-    "brave_content_browser_client.h",
+  visibility = [
+    "//chrome/browser/*",
+    "//brave/browser/*",
+    "//brave:browser_dependencies",
+    "//brave/test:*"
   ]
 
   deps = [
-    "autoplay",
-    "//base",
-    "//brave/components/brave_ads/browser",
-    "//brave/components/brave_referrals/browser",
-    "//brave/components/brave_rewards/browser",
-    "//brave/components/brave_shields/browser:brave_shields",
-    "//brave/components/brave_webtorrent/browser",
-    "//brave/components/resources",
     "//chrome/browser",
-    "//content/public/browser",
-    "//content/public/common",
-    "//services/service_manager/embedder",
-    "download",
-    "extensions",
-    "importer",
-    "net",
-    "permissions",
-    "profiles",
-    "renderer_context_menu",
-    "renderer_host",
-    "tor",
-    "ui",
-    "//ui/base",
   ]
-
   if (is_mac) {
     deps += [
       "//brave/vendor/sparkle:sparkle_framework_bundle_data"

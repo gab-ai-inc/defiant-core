@@ -1,6 +1,13 @@
 import("//build/config/features.gni")
 
 source_set("renderer") {
+  visibility = [
+    "//chrome/renderer/*",
+    "//brave/renderer/*",
+    "//brave:child_dependencies",
+    "//brave/test:*"
+  ]
+
   sources = [
     "brave_content_renderer_client.cc",
     "brave_content_renderer_client.h",
@@ -11,7 +18,7 @@ source_set("renderer") {
   deps = [
     "//skia",
     "//third_party/blink/public:blink",
-    "//brave/chromium_src:renderer",
     "//brave/content:common",
+    "//url",
   ]
 }

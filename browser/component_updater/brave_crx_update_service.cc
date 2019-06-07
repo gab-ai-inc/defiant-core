@@ -3,6 +3,8 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
+#include "brave/browser/component_updater/brave_crx_update_service.h"
+
 #include <string>
 #include <utility>
 #include <vector>
@@ -10,14 +12,17 @@
 #include "base/bind.h"
 #include "base/bind_helpers.h"
 #include "base/threading/thread_task_runner_handle.h"
-#include "brave/browser/component_updater/brave_crx_update_service.h"
-#include "brave/browser/extensions/brave_extension_provider.h"
 #include "components/component_updater/update_scheduler.h"
 #include "components/update_client/configurator.h"
 #include "components/update_client/task_update.h"
 #include "components/update_client/update_client_internal.h"
 #include "components/update_client/update_engine.h"
 #include "components/update_client/utils.h"
+#include "extensions/buildflags/buildflags.h"
+
+#if BUILDFLAG(ENABLE_EXTENSIONS)
+#include "brave/browser/extensions/brave_extension_provider.h"
+#endif
 
 namespace component_updater {
 
@@ -37,44 +42,6 @@ void BraveCrxUpdateService::Start() {
       base::DoNothing());
 }
 
-bool BraveCrxUpdateService::RegisterComponent(const CrxComponent& component) {
-  DCHECK(thread_checker_.CalledOnValidThread());
-  if (component.pk_hash.empty() || !component.version.IsValid() ||
-      !component.installer) {
-    return false;
-  }
-
-  // Update the registration data if the component has been registered before.
-  const std::string id(GetCrxComponentID(component));
-  auto it = components_.find(id);
-  if (it != components_.end()) {
-    it->second = component;
-    return true;
-  }
-
-  components_.insert(std::make_pair(id, component));
-  components_order_.push_back(id);
-  for (const auto& mime_type : component.handled_mime_types)
-    component_ids_by_mime_type_[mime_type] = id;
-
-  // Create an initial state for this component. The state is mutated in
-  // response to events from the UpdateClient instance.
-  CrxUpdateItem item;
-  item.id = id;
-  item.component = component;
-  const auto inserted = component_states_.insert(std::make_pair(id, item));
-  DCHECK(inserted.second);
-
-  // Start the timer if this is the first component registered. The first timer
-  // event occurs after an interval defined by the component update
-  // configurator. The subsequent timer events are repeated with a period
-  // defined by the same configurator.
-  if (components_.size() == 1)
-    Start();
-
-  return true;
-}
-
 bool BraveCrxUpdateService::CheckForUpdates(
     UpdateScheduler::OnFinishedCallback on_finished) {
   DCHECK(thread_checker_.CalledOnValidThread());
@@ -83,10 +50,11 @@ bool BraveCrxUpdateService::CheckForUpdates(
   std::vector<std::string> unsecure_ids;  // Can fallback to HTTP.
   for (const auto id : components_order_) {
     DCHECK(components_.find(id) != components_.end());
+#if BUILDFLAG(ENABLE_EXTENSIONS)
     if (!extensions::BraveExtensionProvider::IsVetted(id)) {
-          continue;
+      continue;
     }
-
+#endif
     const auto component = GetComponent(id);
     if (!component || component->requires_network_encryption)
       secure_ids.push_back(id);

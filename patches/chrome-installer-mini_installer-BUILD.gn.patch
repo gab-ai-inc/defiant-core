@@ -23,7 +23,7 @@ index 397c151b160b6c302a644bfbd67a96679c3505be..6fc6838e41c80b60b7d62dda6c53c751
 +        "$root_out_dir/chrome.exe",
 +      ]
 +      inputs += [
-+        "$root_out_dir/brave.exe",
++        "$root_out_dir/dissenter.exe",
 +        "$root_out_dir/brave_resources.pak",
 +        "$root_out_dir/brave_100_percent.pak",
 +        "$root_out_dir/brave_200_percent.pak",

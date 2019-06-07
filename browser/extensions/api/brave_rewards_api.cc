@@ -5,6 +5,7 @@
 
 #include "brave/browser/extensions/api/brave_rewards_api.h"
 
+#include <map>
 #include <memory>
 #include <string>
 #include <utility>
@@ -13,19 +14,19 @@
 #include "brave/browser/brave_rewards/donations_dialog.h"
 #include "base/strings/string_number_conversions.h"
 #include "brave/common/extensions/api/brave_rewards.h"
-#include "brave/components/brave_rewards/browser/rewards_service.h"
-#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "brave/components/brave_ads/browser/ads_service.h"
 #include "brave/components/brave_ads/browser/ads_service_factory.h"
-#include "content/public/browser/web_contents.h"
+#include "brave/components/brave_rewards/browser/rewards_service.h"
+#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "chrome/browser/extensions/api/tabs/tabs_constants.h"
 #include "chrome/browser/extensions/extension_tab_util.h"
 #include "chrome/browser/profiles/profile.h"
+#include "content/public/browser/web_contents.h"
 
-using brave_rewards::RewardsService;
-using brave_rewards::RewardsServiceFactory;
 using brave_ads::AdsService;
 using brave_ads::AdsServiceFactory;
+using brave_rewards::RewardsService;
+using brave_rewards::RewardsServiceFactory;
 
 namespace extensions {
 namespace api {
@@ -42,19 +43,19 @@ ExtensionFunction::ResponseAction BraveRewardsCreateWalletFunction::Run() {
   return RespondNow(NoArguments());
 }
 
-BraveRewardsDonateToSiteFunction::~BraveRewardsDonateToSiteFunction() {
+BraveRewardsTipSiteFunction::~BraveRewardsTipSiteFunction() {
 }
 
-ExtensionFunction::ResponseAction BraveRewardsDonateToSiteFunction::Run() {
-  std::unique_ptr<brave_rewards::DonateToSite::Params> params(
-      brave_rewards::DonateToSite::Params::Create(*args_));
+ExtensionFunction::ResponseAction BraveRewardsTipSiteFunction::Run() {
+  std::unique_ptr<brave_rewards::TipSite::Params> params(
+      brave_rewards::TipSite::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
 
-  // Sanity check: don't allow donations in private / tor contexts,
+  // Sanity check: don't allow tips in private / tor contexts,
   // although the command should not have been enabled in the first place.
   Profile* profile = Profile::FromBrowserContext(browser_context());
   if (profile->IsOffTheRecord()) {
-    return RespondNow(Error("Cannot donate to site in a private context"));
+    return RespondNow(Error("Cannot tip to site in a private context"));
   }
 
   // Get web contents for this tab
@@ -62,7 +63,7 @@ ExtensionFunction::ResponseAction BraveRewardsDonateToSiteFunction::Run() {
   if (!ExtensionTabUtil::GetTabById(
         params->tab_id,
         profile,
-        include_incognito_information(),
+        false,
         nullptr,
         nullptr,
         &contents,
@@ -70,9 +71,97 @@ ExtensionFunction::ResponseAction BraveRewardsDonateToSiteFunction::Run() {
     return RespondNow(Error(tabs_constants::kTabNotFoundError,
                             base::NumberToString(params->tab_id)));
   }
-  ::brave_rewards::OpenDonationDialog(contents, params->publisher_key);
+
+  auto params_dict = std::make_unique<base::DictionaryValue>();
+  params_dict->SetString("publisherKey", params->publisher_key);
+  params_dict->SetString(
+      "url", contents ? contents->GetLastCommittedURL().spec() : std::string());
+  ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
 
   return RespondNow(NoArguments());
+}
+
+BraveRewardsTipTwitterUserFunction::BraveRewardsTipTwitterUserFunction()
+    : weak_factory_(this) {
+}
+
+BraveRewardsTipTwitterUserFunction::~BraveRewardsTipTwitterUserFunction() {
+}
+
+ExtensionFunction::ResponseAction
+BraveRewardsTipTwitterUserFunction::Run() {
+  std::unique_ptr<brave_rewards::TipTwitterUser::Params> params(
+      brave_rewards::TipTwitterUser::Params::Create(*args_));
+  EXTENSION_FUNCTION_VALIDATE(params.get());
+
+  // Sanity check: don't allow tips in private / tor contexts,
+  // although the command should not have been enabled in the first place.
+  Profile* profile = Profile::FromBrowserContext(browser_context());
+  if (profile->IsOffTheRecord()) {
+    return RespondNow(
+        Error("Cannot tip Twitter user in a private context"));
+  }
+
+  auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
+  if (rewards_service) {
+    AddRef();
+    std::map<std::string, std::string> args;
+    args["user_id"] = params->tweet_meta_data.user_id;
+    args["name"] = params->tweet_meta_data.name;
+    args["screen_name"] = params->tweet_meta_data.screen_name;
+    rewards_service->SaveTwitterPublisherInfo(
+        args,
+        base::Bind(&BraveRewardsTipTwitterUserFunction::
+                   OnTwitterPublisherInfoSaved,
+                   weak_factory_.GetWeakPtr()));
+  }
+
+  return RespondNow(NoArguments());
+}
+
+void BraveRewardsTipTwitterUserFunction::OnTwitterPublisherInfoSaved(
+    std::unique_ptr<::brave_rewards::ContentSite> publisher_info) {
+  std::unique_ptr<brave_rewards::TipTwitterUser::Params> params(
+      brave_rewards::TipTwitterUser::Params::Create(*args_));
+
+  if (!publisher_info) {
+    // TODO(nejczdovc): what should we do in this case?
+    Release();
+    return;
+  }
+
+  // Get web contents for this tab
+  content::WebContents* contents = nullptr;
+  if (!ExtensionTabUtil::GetTabById(
+        params->tab_id,
+        Profile::FromBrowserContext(browser_context()),
+        false,
+        nullptr,
+        nullptr,
+        &contents,
+        nullptr)) {
+    return;
+  }
+
+  auto params_dict = std::make_unique<base::DictionaryValue>();
+  params_dict->SetString("publisherKey", publisher_info->id);
+  params_dict->SetString("url", publisher_info->url);
+
+  auto tweet_meta_data_dict = std::make_unique<base::DictionaryValue>();
+  tweet_meta_data_dict->SetString("name", publisher_info->name);
+  tweet_meta_data_dict->SetString("screenName",
+                                  params->tweet_meta_data.screen_name);
+  tweet_meta_data_dict->SetString("userId", params->tweet_meta_data.user_id);
+  tweet_meta_data_dict->SetString("tweetId", params->tweet_meta_data.tweet_id);
+  tweet_meta_data_dict->SetInteger("tweetTimestamp",
+                                   params->tweet_meta_data.tweet_timestamp);
+  tweet_meta_data_dict->SetString("tweetText",
+                                  params->tweet_meta_data.tweet_text);
+  params_dict->SetDictionary("tweetMetaData", std::move(tweet_meta_data_dict));
+
+  ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
+
+  Release();
 }
 
 BraveRewardsGetPublisherDataFunction::~BraveRewardsGetPublisherDataFunction() {
@@ -91,7 +180,8 @@ ExtensionFunction::ResponseAction
     RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
     rewards_service->SetContributionAutoInclude(
-      params->publisher_key, params->excluded);
+      params->publisher_key,
+      params->exclude);
   }
   return RespondNow(NoArguments());
 }
@@ -196,7 +286,7 @@ BraveRewardsGetPendingContributionsTotalFunction::Run() {
           std::make_unique<base::Value>(0.0)));
   }
 
-  rewards_service->GetPendingContributionsTotal(base::Bind(
+  rewards_service->GetPendingContributionsTotalUI(base::Bind(
         &BraveRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal,
         this));
   return RespondLater();
@@ -490,6 +580,34 @@ BraveRewardsGetAllNotificationsFunction::Run() {
   }
 
   return RespondNow(OneArgument(std::move(list)));
+}
+
+BraveRewardsGetInlineTipSettingFunction::
+~BraveRewardsGetInlineTipSettingFunction() {
+}
+
+ExtensionFunction::ResponseAction
+BraveRewardsGetInlineTipSettingFunction::Run() {
+  std::unique_ptr<brave_rewards::GetInlineTipSetting::Params> params(
+      brave_rewards::GetInlineTipSetting::Params::Create(*args_));
+
+  Profile* profile = Profile::FromBrowserContext(browser_context());
+  RewardsService* rewards_service =
+    RewardsServiceFactory::GetForProfile(profile);
+  if (!rewards_service) {
+    return RespondNow(OneArgument(std::make_unique<base::Value>(false)));
+  }
+
+  rewards_service->GetInlineTipSetting(
+      params->key,
+      base::BindOnce(
+          &BraveRewardsGetInlineTipSettingFunction::OnInlineTipSetting,
+          this));
+  return RespondLater();
+}
+
+void BraveRewardsGetInlineTipSettingFunction::OnInlineTipSetting(bool value) {
+  Respond(OneArgument(std::make_unique<base::Value>(value)));
 }
 
 }  // namespace api

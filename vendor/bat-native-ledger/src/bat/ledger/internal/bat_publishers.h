@@ -38,7 +38,8 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   void saveVisit(const std::string& publisher_id,
                  const ledger::VisitData& visit_data,
                  const uint64_t& duration,
-                 uint64_t window_id);
+                 uint64_t window_id,
+                 const ledger::PublisherInfoCallback callback);
 
   void AddRecurringPayment(const std::string& publisher_id,
                            const double& value);
@@ -84,11 +85,9 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
 
   void OnPublisherInfoSaved(
       ledger::Result result,
-      std::unique_ptr<ledger::PublisherInfo>);
+      ledger::PublisherInfoPtr);
 
   std::string GetBalanceReportName(ledger::ACTIVITY_MONTH month, int year);
-
-  std::vector<ledger::ContributionInfo> GetRecurringDonationList();
 
   void RefreshPublishersList(const std::string & pubs_list);
 
@@ -120,7 +119,7 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   void clearAllBalanceReports();
 
   void NormalizeContributeWinners(ledger::PublisherInfoList* newList,
-                                  const ledger::PublisherInfoList& list,
+                                  const ledger::PublisherInfoList* list,
                                   uint32_t /* next_record */);
 
   bool isVerified(const std::string& publisher_id);
@@ -133,7 +132,7 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   void onPublisherActivitySave(uint64_t windowId,
                                const ledger::VisitData& visit_data,
                                ledger::Result result,
-                               std::unique_ptr<ledger::PublisherInfo> info);
+                               ledger::PublisherInfoPtr info);
 
   // LedgerCallbackHandler impl
   void OnPublisherStateSaved(ledger::Result result) override;
@@ -146,8 +145,9 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
       ledger::VisitData visit_data,
       uint64_t duration,
       uint64_t window_id,
+      const ledger::PublisherInfoCallback callback,
       ledger::Result result,
-      std::unique_ptr<ledger::PublisherInfo> publisher_info);
+      ledger::PublisherInfoPtr publisher_info);
 
   void onFetchFavIcon(const std::string& publisher_key,
                       uint64_t window_id,
@@ -155,14 +155,14 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
                       const std::string& favicon_url);
 
   void onFetchFavIconDBResponse(ledger::Result result,
-                                std::unique_ptr<ledger::PublisherInfo> info,
+                                ledger::PublisherInfoPtr info,
                                 const std::string& favicon_url,
                                 uint64_t window_id);
 
   void onSetExcludeInternal(
     ledger::PUBLISHER_EXCLUDE exclude,
     ledger::Result result,
-    std::unique_ptr<ledger::PublisherInfo> publisher_info);
+    ledger::PublisherInfoPtr publisher_info);
 
   void OnRestorePublishersInternal(bool success);
 
@@ -174,11 +174,11 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
 
   void SynopsisNormalizer();
 
-  void SynopsisNormalizerCallback(const ledger::PublisherInfoList& list,
+  void SynopsisNormalizerCallback(ledger::PublisherInfoList list,
                                   uint32_t /* next_record */);
 
   void synopsisNormalizerInternal(ledger::PublisherInfoList* newList,
-                                  const ledger::PublisherInfoList& list,
+                                  const ledger::PublisherInfoList* list,
                                   uint32_t /* next_record */);
 
   bool GetMigrateScore() const;
@@ -188,9 +188,13 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   bool isPublisherVisible(
       const braveledger_bat_helper::PUBLISHER_ST& publisher_st);
 
+  void OnSaveVisitInternal(
+    ledger::Result result,
+    ledger::PublisherInfoPtr info);
+
   void OnPanelPublisherInfo(
       ledger::Result result,
-      std::unique_ptr<ledger::PublisherInfo> publisher_info,
+      ledger::PublisherInfoPtr publisher_info,
       uint64_t windowId,
       const ledger::VisitData& visit_data);
 
@@ -200,7 +204,7 @@ class BatPublishers : public ledger::LedgerCallbackHandler {
   void onPublisherBanner(ledger::PublisherBannerCallback callback,
                          ledger::PublisherBanner banner,
                          ledger::Result result,
-                         std::unique_ptr<ledger::PublisherInfo> publisher_info);
+                         ledger::PublisherInfoPtr publisher_info);
 
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
 

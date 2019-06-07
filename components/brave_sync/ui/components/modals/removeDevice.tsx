@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Components
-import { Button, Modal } from 'brave-ui'
+import { Button, Modal } from 'dissenter-ui'
 
 // Feature-specific components
 import {
@@ -15,10 +15,10 @@ import {
   ModalContent,
   TwoColumnButtonGrid,
   OneColumnButtonGrid
-} from 'brave-ui/features/sync'
+} from 'dissenter-ui/features/sync'
 
 // Icons
-import { LoaderIcon } from 'brave-ui/components/icons'
+import { LoaderIcon } from 'dissenter-ui/components/icons'
 
 // Utils
 import { getLocale } from '../../../../common/locale'

@@ -8,15 +8,14 @@
 #include <map>
 #include <vector>
 
+#include "components/grit/brave_components_resources.h"
 #include "components/grit/brave_components_strings.h"
+#include "components/grit/components_resources.h"
 #include "content/public/browser/web_ui_data_source.h"
 
 #if !defined(OS_ANDROID)
 #include "brave/browser/ui/webui/navigation_bar_data_provider.h"
 #include "brave/components/brave_rewards/resources/grit/brave_rewards_resources.h"
-#include "components/grit/brave_components_resources.h"
-#else
-#include "components/grit/components_resources.h"
 #endif
 
 namespace {
@@ -82,6 +81,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "c168145d6bf1abf2c0322636366f7dbe.svg", IDR_BRAVE_PRIVATE_TAB_TOR_IMG },               // NOLINT
         { "dbdc336ccc651b8a7c925b3482d6e65a.svg", IDR_BRAVE_PRIVATE_TAB_IMG }
       }
+#if !defined(OS_ANDROID)
     }, {
       std::string("rewards"), {
         { "favicon.ico", IDR_BRAVE_REWARDS_FAVICON },
@@ -95,17 +95,17 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "2c6f798a519beabb327149c349912f5f.svg", IDR_BRAVE_REWARDS_IMG_LTC },
       }
     }, {
+      std::string("tip"), {
+        { "2e7994eaf768ee4a99272ea96cb39849.svg", IDR_BRAVE_TIP_BG_1 },
+        { "4364e454dba7ea966b117f643832e871.svg", IDR_BRAVE_TIP_BG_2 },
+      }
+#endif
+    }, {
       std::string("welcome"), {
         { "favicon.ico", IDR_BRAVE_WELCOME_PAGE_FAVICON }
       }
     }, {
-      std::string("adblock"), {
-      }
-    }, {
-      std::string("donate"), {
-        { "2e7994eaf768ee4a99272ea96cb39849.svg", IDR_BRAVE_DONATE_BG_1 },
-        { "4364e454dba7ea966b117f643832e871.svg", IDR_BRAVE_DONATE_BG_2 },
-      }
+      std::string("adblock"), {}
     }
   };
   AddResourcePaths(source, resources[name]);
@@ -368,6 +368,13 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "paymentMonthly", IDS_BRAVE_UI_PAYMENT_MONTHLY },
         { "paymentNotMade", IDS_BRAVE_UI_PAYMENT_NOT_MADE },
         { "paymentWarning", IDS_BRAVE_UI_PAYMENT_WARNING },
+        { "pendingContributions", IDS_BRAVE_UI_PENDING_CONTRIBUTIONS },
+        { "pendingContributionEmpty", IDS_BRAVE_UI_PENDING_CONTRIBUTION_EMPTY },
+        { "pendingContributionRemoveAll", IDS_BRAVE_UI_PENDING_CONTRIBUTION_REMOVE_ALL },        // NOLINT
+        { "pendingTyperecurring", IDS_BRAVE_UI_PENDING_TYPE_RECURRING },
+        { "pendingTypetip", IDS_BRAVE_UI_PENDING_TYPE_TIP },
+        { "pendingTypeac", IDS_BRAVE_UI_PENDING_TYPE_AC },
+        { "pendingUntil", IDS_BRAVE_UI_PENDING_UNTIL },
         { "pinnedSitesHeader", IDS_BRAVE_UI_PAYMENT_PINNED_SITES_HEADER },
         { "pinnedSitesMsg", IDS_BRAVE_UI_PAYMENT_PINNED_SITES_MSG },
         { "pinnedSitesOne", IDS_BRAVE_UI_PAYMENT_PINNED_SITES_ONE },
@@ -386,6 +393,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "remove", IDS_BRAVE_UI_REMOVE },
         { "reservedAmountText", IDS_BRAVE_UI_RESERVED_AMOUNT_TEXT },
         { "reservedMoreLink", IDS_BRAVE_UI_RESERVED_MORE_LINK },
+        { "reservedAllLink", IDS_BRAVE_UI_RESERVED_ALL_LINK },
         { "restore", IDS_BRAVE_UI_RESTORE },
         { "restoreAll", IDS_BRAVE_UI_RESTORE_ALL },
         { "reviewSitesMsg", IDS_BRAVE_UI_REVIEW_SITE_MSG },
@@ -462,10 +470,17 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "yourWallet", IDS_BRAVE_UI_YOUR_WALLET },
 
         { "and", IDS_BRAVE_UI_AND },
+        { "excludedSites", IDS_BRAVE_UI_EXCLUDED_SITES_TEXT },
         { "privacyPolicy", IDS_BRAVE_UI_PRIVACY_POLICY },
+        { "restoreSite", IDS_BRAVE_UI_RESTORE_SITE },
+        { "rewardsExcludedText1", IDS_BRAVE_UI_REWARDS_EXCLUDED_TEXT_1 },
+        { "rewardsExcludedText2", IDS_BRAVE_UI_REWARDS_EXCLUDED_TEXT_2 },
         { "rewardsOffText5", IDS_BRAVE_UI_REWARDS_OFF_TEXT5 },
         { "serviceTextToggle", IDS_BRAVE_UI_SERVICE_TEXT_TOGGLE },
         { "serviceTextWelcome", IDS_BRAVE_UI_SERVICE_TEXT_WELCOME },
+        { "serviceTextReady", IDS_BRAVE_UI_SERVICE_TEXT_READY },
+        { "showAll", IDS_BRAVE_UI_SHOW_ALL },
+        { "supportedSites", IDS_BRAVE_UI_SUPPORTED_SITES },
         { "termsOfService", IDS_BRAVE_UI_TERMS_OF_SERVICE }
       }
     }, {
@@ -552,7 +567,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "customFiltersInstructions", IDS_ADBLOCK_CUSTOM_FILTERS_INSTRUCTIONS },                // NOLINT
       }
     }, {
-      std::string("donate"), {
+      std::string("tip"), {
         { "about", IDS_BRAVE_UI_ABOUT },
         { "addFunds", IDS_BRAVE_UI_ADD_FUNDS },
         { "autoTipText", IDS_BRAVE_UI_AUTO_TIP_TEXT },
@@ -569,9 +584,13 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "sendDonation", IDS_BRAVE_UI_SEND_DONATION },
         { "siteBannerNoticeNote", IDS_BRAVE_UI_SITE_BANNER_NOTICE_NOTE },
         { "siteBannerNoticeText", IDS_BRAVE_UI_SITE_BANNER_NOTICE_TEXT },
+        { "tellOthers", IDS_BRAVE_UI_TELL_OTHERS },
         { "thankYou", IDS_BRAVE_UI_THANK_YOU },
         { "tipText", IDS_BRAVE_UI_TIP_TEXT },
         { "tokens", IDS_BRAVE_UI_TOKENS },
+        { "tweetNow", IDS_BRAVE_UI_TWEET_NOW },
+        { "tweetTipTitle", IDS_BRAVE_UI_TWEET_TIP_TITLE },
+        { "tweetTipTitleEmpty", IDS_BRAVE_UI_TWEET_TIP_TITLE_EMPTY },
         { "unVerifiedTextMore", IDS_BRAVE_UI_SITE_UNVERIFIED_TEXT_MORE },
         { "walletBalance", IDS_BRAVE_UI_WALLET_BALANCE },
         { "welcome", IDS_BRAVE_UI_WELCOME },

@@ -9,6 +9,7 @@
 #include "brave/browser/brave_stats_updater_util.h"
 #include "brave/browser/version_info.h"
 #include "brave/common/pref_names.h"
+#include "brave/components/brave_referrals/buildflags/buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/net/system_network_context_manager.h"
 #include "chrome/common/channel_info.h"
@@ -93,10 +94,13 @@ BraveStatsUpdater::~BraveStatsUpdater() {
 }
 
 void BraveStatsUpdater::Start() {
+  // Dissenter: Disable this entirely.
+  return;
   // Startup timer, only initiated once we've checked for a promo
   // code.
   DCHECK(!server_ping_startup_timer_);
   server_ping_startup_timer_ = std::make_unique<base::OneShotTimer>();
+#if BUILDFLAG(ENABLE_BRAVE_REFERRALS)
   if (pref_service_->GetBoolean(kReferralCheckedForPromoCodeFile)) {
     StartServerPingStartupTimer();
   } else {
@@ -107,6 +111,9 @@ void BraveStatsUpdater::Start() {
         base::Bind(&BraveStatsUpdater::OnReferralCheckedForPromoCodeFileChanged,
                    base::Unretained(this)));
   }
+#else
+  StartServerPingStartupTimer();
+#endif
 
   // Periodic timer.
   DCHECK(!server_ping_periodic_timer_);
@@ -158,6 +165,8 @@ void BraveStatsUpdater::OnSimpleLoaderComplete(
 }
 
 void BraveStatsUpdater::OnServerPingTimerFired() {
+  // Dissenter: Make sure this never happens.
+  return;
   // If we already pinged the stats server today, then we're done.
   std::string today_ymd = brave::GetDateAsYMD(base::Time::Now());
   std::string last_check_ymd = pref_service_->GetString(kLastCheckYMD);
@@ -179,6 +188,8 @@ void BraveStatsUpdater::StartServerPingStartupTimer() {
 }
 
 void BraveStatsUpdater::SendServerPing() {
+  // Dissenter: Don't.
+  return;
   net::NetworkTrafficAnnotationTag traffic_annotation =
       net::DefineNetworkTrafficAnnotation("brave_stats_updater", R"(
         semantics {

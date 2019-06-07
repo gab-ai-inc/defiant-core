@@ -5,7 +5,7 @@
 import * as React from 'react'
 import { render } from 'react-dom'
 import { Provider } from 'react-redux'
-import { initLocale } from 'brave-ui'
+import { initLocale } from 'dissenter-ui'
 import { bindActionCreators } from 'redux'
 require('emptykit.css')
 
@@ -16,8 +16,8 @@ require('../../../fonts/poppins.css')
 
 // Utils
 import store from './store'
-import { ThemeProvider } from 'brave-ui/theme'
-import Theme from 'brave-ui/theme/brave-default'
+import { ThemeProvider } from 'dissenter-ui/theme'
+import Theme from 'dissenter-ui/theme/brave-default'
 import { getActions as getUtilActions, setActions } from './utils'
 import * as rewardsActions from './actions/rewards_actions'
 
@@ -93,8 +93,8 @@ window.cr.define('brave_rewards', function () {
     getActions().onContributeList(list)
   }
 
-  function excludedNumber (num: number) {
-    getActions().onExcludedNumber(num)
+  function excludedList (list: Rewards.ExcludedPublisher[]) {
+    getActions().onExcludedList(list)
   }
 
   function balanceReports (reports: Record<string, Rewards.Report>) {
@@ -129,13 +129,9 @@ window.cr.define('brave_rewards', function () {
     getActions().onAdsData(adsData)
   }
 
-  function pendingContributionTotal (amount: number) {
-    getActions().onPendingContributionTotal(amount)
-  }
-
   function onPendingContributionSaved (result: number) {
     if (result === 0) {
-      getActions().getPendingContributionsTotal()
+      getActions().getPendingContributions()
     }
   }
 
@@ -167,6 +163,21 @@ window.cr.define('brave_rewards', function () {
     getActions().onContributionSaved(properties)
   }
 
+  function pendingContributions (list: Rewards.PendingContribution[]) {
+    getActions().onPendingContributions(list)
+  }
+
+  function onRemovePendingContribution (result: number) {
+    if (result === 0) {
+      getActions().getPendingContributions()
+    }
+  }
+
+  function excludedSiteChanged () {
+    getActions().getExcludedSites()
+    getActions().getContributeList()
+  }
+
   return {
     initialize,
     walletCreated,
@@ -180,7 +191,7 @@ window.cr.define('brave_rewards', function () {
     reconcileStamp,
     addresses,
     contributeList,
-    excludedNumber,
+    excludedList,
     balanceReports,
     walletExists,
     contributionAmount,
@@ -189,7 +200,7 @@ window.cr.define('brave_rewards', function () {
     initAutoContributeSettings,
     imported,
     adsData,
-    pendingContributionTotal,
+    pendingContributions,
     onPendingContributionSaved,
     rewardsEnabled,
     addressesForPaymentId,
@@ -197,7 +208,9 @@ window.cr.define('brave_rewards', function () {
     transactionHistoryForThisCycleChanged,
     recurringTipSaved,
     recurringTipRemoved,
-    onContributionSaved
+    onContributionSaved,
+    onRemovePendingContribution,
+    excludedSiteChanged
   }
 })
 

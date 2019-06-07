@@ -9,9 +9,10 @@
 #include <memory>
 #include <string>
 
-#include "extensions/browser/extension_function.h"
+#include "base/memory/weak_ptr.h"
 #include "brave/components/brave_rewards/browser/content_site.h"
 #include "brave/components/brave_rewards/browser/publisher_banner.h"
+#include "extensions/browser/extension_function.h"
 
 namespace extensions {
 namespace api {
@@ -26,14 +27,31 @@ class BraveRewardsCreateWalletFunction : public UIThreadExtensionFunction {
   ResponseAction Run() override;
 };
 
-class BraveRewardsDonateToSiteFunction : public UIThreadExtensionFunction {
+class BraveRewardsTipSiteFunction : public UIThreadExtensionFunction {
  public:
-  DECLARE_EXTENSION_FUNCTION("braveRewards.donateToSite", UNKNOWN)
+  DECLARE_EXTENSION_FUNCTION("braveRewards.tipSite", UNKNOWN)
 
  protected:
-  ~BraveRewardsDonateToSiteFunction() override;
+  ~BraveRewardsTipSiteFunction() override;
 
   ResponseAction Run() override;
+};
+
+class BraveRewardsTipTwitterUserFunction
+    : public UIThreadExtensionFunction {
+ public:
+  BraveRewardsTipTwitterUserFunction();
+  DECLARE_EXTENSION_FUNCTION("braveRewards.tipTwitterUser", UNKNOWN)
+
+ protected:
+  ~BraveRewardsTipTwitterUserFunction() override;
+
+  ResponseAction Run() override;
+
+ private:
+  base::WeakPtrFactory<BraveRewardsTipTwitterUserFunction> weak_factory_;
+  void OnTwitterPublisherInfoSaved(
+      std::unique_ptr<brave_rewards::ContentSite> publisher_info);
 };
 
 class BraveRewardsGetPublisherDataFunction : public UIThreadExtensionFunction {
@@ -245,6 +263,20 @@ class BraveRewardsGetAllNotificationsFunction :
   ~BraveRewardsGetAllNotificationsFunction() override;
 
   ResponseAction Run() override;
+};
+
+class BraveRewardsGetInlineTipSettingFunction :
+    public UIThreadExtensionFunction {
+ public:
+  DECLARE_EXTENSION_FUNCTION("braveRewards.getInlineTipSetting", UNKNOWN)
+
+ protected:
+  ~BraveRewardsGetInlineTipSettingFunction() override;
+
+  ResponseAction Run() override;
+
+ private:
+  void OnInlineTipSetting(bool value);
 };
 
 }  // namespace api

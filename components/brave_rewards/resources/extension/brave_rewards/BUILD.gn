@@ -7,36 +7,10 @@ group("brave_rewards") {
 }
 
 transpile_web_ui("brave_rewards_panel") {
-  inputs = [
-    "actions/rewards_panel_actions.ts",
-    "background.ts",
-    "background/actions/rewardsPanelActions.ts",
-    "background/api/locale_api.ts",
-    "background/api/tabs_api.ts",
-    "background/events/rewardsEvents.ts",
-    "background/events/tabEvents.ts",
-    "background/reducers/grant_panel_reducer.ts",
-    "background/reducers/index.ts",
-    "background/reducers/rewards_panel_reducer.ts",
-    "background/storage.ts",
-    "background/store.ts",
-    "brave_rewards_panel.html",
-    "brave_rewards_panel.tsx",
-    "components/app.tsx",
-    "components/panel.tsx",
-    "constants/rewards_panel_types.ts",
-    "img/rewards-off.png",
-    "img/rewards-off@2x.png",
-    "img/rewards-off@3x.png",
-    "img/rewards-on.png",
-    "img/rewards-on@2x.png",
-    "img/rewards-on@3x.png",
-    "utils.ts",
-  ]
-
   entry_points = [
     ["brave_rewards_panel", rebase_path("brave_rewards_panel.tsx")],
-    ["brave_rewards_panel_background", rebase_path("background.ts")]
+    ["brave_rewards_panel_background", rebase_path("background.ts")],
+    ["brave_rewards_panel_content_twitter", rebase_path("content_scripts/twitter.ts")]
   ]
 
   resource_name = "brave_rewards_panel"

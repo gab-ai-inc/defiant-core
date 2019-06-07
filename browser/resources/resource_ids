@@ -58,16 +58,23 @@
   "brave/components/brave_extension/extension/resources.grd": {
     "includes": [38600],
   },
+  "brave/components/dissenter_extension/extension/resources.grd": {
+    "includes": [38650],
+  },
   # This file is generated during the build.
   "<(ROOT_GEN_DIR)/brave/web-ui-brave_extension/brave_extension.grd": {
     "includes": [37650],
+  },
+  # This file is generated during the build.
+  "<(ROOT_GEN_DIR)/brave/web-ui-dissenter_extension/dissenter_extension.grd": {
+    "includes": [38900],
   },
   # This file is generated during the build.
   "<(ROOT_GEN_DIR)/brave/web-ui-brave_rewards/brave_rewards.grd": {
     "includes": [38700],
   },
   # This file is generated during the build.
-  "<(ROOT_GEN_DIR)/brave/web-ui-brave_donate/brave_donate.grd": {
+  "<(ROOT_GEN_DIR)/brave/web-ui-brave_tip/brave_tip.grd": {
     "includes": [38800],
   },
   "brave/components/resources/brave_components_strings.grd": {

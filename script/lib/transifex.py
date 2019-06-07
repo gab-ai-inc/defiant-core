@@ -13,8 +13,8 @@ import lxml.etree
 import FP
 
 
-transifex_project_name = 'brave'
-base_url = 'https://www.transifex.com/api/2/'
+transifex_project_name = 'dissenter'
+base_url = 'https://0.0.0.0/api/2/'
 
 
 def transifex_name_from_filename(source_file_path, filename):
@@ -410,9 +410,9 @@ def get_transifex_string_hash(string_name):
 
 def braveify(string_value):
     """Replace Chromium branded strings with Brave beranded strings."""
-    return (string_value.replace('Chrome', 'Brave')
-            .replace('Chromium', 'Brave')
-            .replace('Google', 'Brave Software'))
+    return (string_value.replace('Chrome', 'Dissenter')
+            .replace('Chromium', 'Dissenter')
+            .replace('Google', 'Gab AI'))
 
 
 def upload_missing_translation_to_transifex(source_string_path, lang_code,

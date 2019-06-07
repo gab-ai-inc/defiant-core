@@ -11,6 +11,7 @@
 #include <string>
 #include <vector>
 
+#include "base/gtest_prod_util.h"
 #include "bat/ledger/ledger.h"
 #include "bat/ledger/internal/bat_helper.h"
 
@@ -146,6 +147,8 @@ class BatContribution {
                                   ledger::ACTIVITY_MONTH month,
                                   int year,
                                   uint32_t date);
+  void HasSufficientBalance(
+    ledger::HasSufficientBalanceToReconcileCallback callback);
 
   // Triggers contribution process for auto contribute table
   void StartAutoContribute();
@@ -159,25 +162,25 @@ class BatContribution {
   // save unverified to the db
   ledger::PublisherInfoList GetVerifiedListAuto(
       const std::string& viewing_id,
-      const ledger::PublisherInfoList& all,
+      const ledger::PublisherInfoList* all,
       double* budget);
 
   // RECURRING DONTAIONS: from the list gets only verified publishers and
   // save unverified to the db
   ledger::PublisherInfoList GetVerifiedListRecurring(
       const std::string& viewing_id,
-      const ledger::PublisherInfoList& all,
+      const ledger::PublisherInfoList* all,
       double* budget);
 
   // Entry point for contribution where we have publisher info list
   void ReconcilePublisherList(ledger::REWARDS_CATEGORY category,
-                              const ledger::PublisherInfoList& list,
+                              ledger::PublisherInfoList list,
                               uint32_t next_record);
 
   // Resets reconcile stamps
   void ResetReconcileStamp();
 
-  // Fetches recurring donations that will be then used for the contribution.
+  // Fetches recurring tips that will be then used for the contribution.
   // This is called from global timer in impl.
   void OnTimerReconcile();
 
@@ -244,7 +247,7 @@ class BatContribution {
                             const std::string& viewing_id,
                             const braveledger_bat_helper::PublisherList& list);
 
-  void GetDonationWinners(const unsigned int ballots,
+  void GetTipsWinners(const unsigned int ballots,
                           const std::string& viewing_id,
                           const braveledger_bat_helper::PublisherList& list);
 
@@ -298,11 +301,41 @@ class BatContribution {
 
   void DoRetry(const std::string& viewing_id);
 
+  void GetVerifiedAutoAmount(
+      const ledger::PublisherInfoList& publisher_list,
+      uint32_t record,
+      double balance,
+      ledger::HasSufficientBalanceToReconcileCallback callback);
+
+  void GetVerifiedRecurringAmount(
+      const ledger::PublisherInfoList& publisher_list,
+      uint32_t record,
+      double balance,
+      double budget,
+      ledger::HasSufficientBalanceToReconcileCallback callback);
+
+  static double GetAmountFromVerifiedAuto(
+      const ledger::PublisherInfoList& publisher_list,
+      double ac_amount);
+
+  static double GetAmountFromVerifiedRecurring(
+      const ledger::PublisherInfoList& publisher_list);
+
+  void OnSufficientBalanceWallet(
+      ledger::Result result,
+      std::unique_ptr<ledger::WalletInfo> info,
+      ledger::HasSufficientBalanceToReconcileCallback callback);
+
   bat_ledger::LedgerImpl* ledger_;  // NOT OWNED
   uint32_t last_reconcile_timer_id_;
   uint32_t last_prepare_vote_batch_timer_id_;
   uint32_t last_vote_batch_timer_id_;
   std::map<std::string, uint32_t> retry_timers_;
+
+  // For testing purposes
+  friend class BatContributionTest;
+  FRIEND_TEST_ALL_PREFIXES(BatContributionTest, GetAmountFromVerifiedAuto);
+  FRIEND_TEST_ALL_PREFIXES(BatContributionTest, GetAmountFromVerifiedRecurring);
 };
 
 }  // namespace braveledger_bat_contribution

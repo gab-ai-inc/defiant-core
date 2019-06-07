@@ -10,20 +10,17 @@ namespace switches {
 // Allows disabling the Brave extension.
 // This is commonly used for loading the extension manually to debug things
 // in debug mode with auto-reloading.
-const char kDisableBraveExtension[] = "disable-brave-extension";
+const char kDisableBraveExtension[] = "disable-dissenter-extension";
 
 // Allows disabling the Brave Rewards extension.
 const char kDisableBraveRewardsExtension[] = "disable-brave-rewards-extension";
 
 // This switch disables update module(Sparkle).
-const char kDisableBraveUpdate[] = "disable-brave-update";
+const char kDisableBraveUpdate[] = "disable-dissenter-update";
 
 // This switch disables the ChromeGoogleURLTrackerClient
 const char kDisableChromeGoogleURLTrackingClient[] =
     "disable-chrome-google-url-tracking-client";
-
-// Allows disabling the PDFJS extension.
-const char kDisablePDFJSExtension[] = "disable-pdfjs-extension";
 
 // Allows disabling the Tor client updater extension.
 const char kDisableTorClientUpdaterExtension[] =
@@ -54,5 +51,8 @@ const char kDisableEncryptionWin[] = "disable-encryption-win";
 // This enables smart tracking protection
 const char kEnableSmartTrackingProtection[] =
     "enable-smart-tracking-protection";
+
+// This prevents appending "Brave" to UA.
+const char kDisableOverrideUA[] = "disable-override-ua";
 
 }  // namespace switches
