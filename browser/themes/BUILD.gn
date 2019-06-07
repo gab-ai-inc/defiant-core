@@ -13,14 +13,15 @@ source_set("themes") {
       "theme_properties.h",
     ]
 
-  deps = [
-    "//base",
-    "//brave/app:brave_generated_resources_grit",
-    "//brave/common",
-    "//chrome/common",
-    "//components/prefs",
-    "//components/pref_registry",
-    "//components/version_info",
-    "//skia",
-  ]
+    deps = [
+      "//base",
+      "//brave/app:brave_generated_resources_grit",
+      "//brave/common",
+      "//chrome/common",
+      "//components/prefs",
+      "//components/pref_registry",
+      "//components/version_info",
+      "//skia",
+    ]
+  }
 }

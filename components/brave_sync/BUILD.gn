@@ -1,4 +1,3 @@
-# import("buildflags/buildflags.gni")
 import("//brave/components/common/typescript.gni")
 import("//build/config/features.gni")
 import("//tools/grit/grit_rule.gni")
@@ -87,7 +86,6 @@ source_set("brave_sync") {
 
   deps = [
     ":core",
-    "buildflags",
     "//base",
     "//components/bookmarks/browser",
     "//components/keyed_service/content",
