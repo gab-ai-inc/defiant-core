@@ -14,7 +14,6 @@
 #include "brave/browser/translate/buildflags/buildflags.h"
 #include "brave/common/pref_names.h"
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
-#include "brave/components/brave_webtorrent/browser/buildflags/buildflags.h"
 #include "chrome/browser/profiles/profile_manager.h"
 #include "components/prefs/pref_service.h"
 
@@ -22,13 +21,9 @@
 #include "brave/components/brave_rewards/browser/net/network_delegate_helper.h"
 #endif
 
-#if BUILDFLAG(ENABLE_TOR)
 #include "brave/browser/net/brave_tor_network_delegate_helper.h"
-#endif
 
-#if BUILDFLAG(ENABLE_BRAVE_WEBTORRENT)
 #include "brave/components/brave_webtorrent/browser/net/brave_torrent_redirect_network_delegate_helper.h"
-#endif
 
 #if BUILDFLAG(ENABLE_BRAVE_TRANSLATE)
 #include "brave/browser/net/brave_translate_redirect_network_delegate_helper.h"

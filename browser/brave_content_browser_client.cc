@@ -28,7 +28,6 @@
 #include "brave/components/brave_shields/browser/buildflags/buildflags.h"  // For STP
 #include "brave/components/brave_shields/browser/tracking_protection_service.h"
 #include "brave/components/brave_shields/common/brave_shield_constants.h"
-#include "brave/components/brave_webtorrent/browser/buildflags/buildflags.h"
 #include "brave/components/content_settings/core/browser/brave_cookie_settings.h"
 #include "brave/components/services/brave_content_browser_overlay_manifest.h"
 #include "brave/components/services/brave_content_packaged_service_overlay_manifest.h"
@@ -73,9 +72,7 @@ using extensions::ChromeContentBrowserClientExtensionsPart;
 #include "brave/components/brave_webtorrent/browser/content_browser_client_helper.h"
 #endif
 
-#if BUILDFLAG(ENABLE_TOR)
 #include "brave/browser/tor/tor_profile_service_factory.h"
-#endif
 
 namespace {
 
@@ -246,10 +243,8 @@ bool BraveContentBrowserClient::HandleExternalProtocol(
 void BraveContentBrowserClient::RegisterOutOfProcessServices(
     OutOfProcessServiceMap* services) {
   ChromeContentBrowserClient::RegisterOutOfProcessServices(services);
-#if BUILDFLAG(ENABLE_TOR)
   (*services)[tor::mojom::kTorLauncherServiceName] = base::BindRepeating(
       l10n_util::GetStringUTF16, IDS_UTILITY_PROCESS_TOR_LAUNCHER_NAME);
-#endif
 #if BUILDFLAG(BRAVE_ADS_ENABLED)
   (*services)[bat_ads::mojom::kServiceName] =
       base::BindRepeating(l10n_util::GetStringUTF16, IDS_SERVICE_BAT_ADS);
@@ -265,12 +260,10 @@ BraveContentBrowserClient::GetNavigationUIData(
     content::NavigationHandle* navigation_handle) {
   std::unique_ptr<BraveNavigationUIData> navigation_ui_data =
       std::make_unique<BraveNavigationUIData>(navigation_handle);
-#if BUILDFLAG(ENABLE_TOR)
   Profile* profile = Profile::FromBrowserContext(
       navigation_handle->GetWebContents()->GetBrowserContext());
   TorProfileServiceFactory::SetTorNavigationUIData(profile,
                                                    navigation_ui_data.get());
-#endif
   return std::move(navigation_ui_data);
 }
 
@@ -291,7 +284,6 @@ void BraveContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
   ChromeContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
       identity, command_line);
 
-#if BUILDFLAG(ENABLE_TOR)
   if (identity.name() == tor::mojom::kTorLauncherServiceName) {
     base::FilePath path =
         g_brave_browser_process->tor_client_updater()->GetExecutablePath();
@@ -299,7 +291,6 @@ void BraveContentBrowserClient::AdjustUtilityServiceProcessCommandLine(
     command_line->AppendSwitchPath(tor::switches::kTorExecutablePath,
                                    path.BaseName());
   }
-#endif
 }
 
 void BraveContentBrowserClient::MaybeHideReferrer(
