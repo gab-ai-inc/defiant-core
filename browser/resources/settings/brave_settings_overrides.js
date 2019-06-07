@@ -155,11 +155,11 @@ BravePatching.RegisterPolymerTemplateModifications({
     const extensionEl = createMenuElement(loadTimeData.getString('braveDefaultExtensions'), '/extensions', 'brave_settings:extensions')
     getStartedEl.insertAdjacentElement('afterend', extensionEl)
     // Add Sync item
-    const syncEl = createMenuElement(loadTimeData.getString('braveSync'), '/braveSync', 'brave_settings:sync')
-    extensionEl.insertAdjacentElement('afterend', syncEl)
+    //const syncEl = createMenuElement(loadTimeData.getString('braveSync'), '/braveSync', 'brave_settings:sync')
+    //extensionEl.insertAdjacentElement('afterend', syncEl)
     // Add Shields item
     const shieldsEl = createMenuElement(loadTimeData.getString('braveShieldsTitle'), '/shields',  'brave_settings:shields')
-    syncEl.insertAdjacentElement('afterend', shieldsEl)
+    getStartedEl.insertAdjacentElement('afterend', shieldsEl)
     // Add Embed Blocking item
     const embedEl = createMenuElement(loadTimeData.getString('socialBlocking'), '/socialBlocking', 'brave_settings:social-permissions')
     shieldsEl.insertAdjacentElement('afterend', embedEl)
@@ -244,12 +244,6 @@ BravePatching.RegisterPolymerTemplateModifications({
         <template is="dom-if" if="[[showPage_(pageVisibility.extensions)]]">
           <settings-section page-title="${loadTimeData.getString('braveDefaultExtensions')}" section="extensions">
             <settings-brave-default-extensions-page prefs="{{prefs}}"></settings-brave-default-extensions-page>
-          </settings-section>
-        </template>
-        <template is="dom-if" if="[[showPage_(pageVisibility.braveSync)]]"
-        restamp>
-          <settings-section page-title="${loadTimeData.getString('braveSync')}" section="braveSync">
-            <settings-brave-sync-page prefs="{{prefs}}"></settings-brave-sync-page>
           </settings-section>
         </template>
         <template is="dom-if" if="[[showPage_(pageVisibility.shields)]]"

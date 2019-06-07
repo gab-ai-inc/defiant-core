@@ -90,14 +90,14 @@ export const theme = {
     justifyContent: 'flex-end'
   },
   bulletActive: {
-    color: '#FB542B',
-    hoverColor: '#FB542B',
+    color: '#00d177',
+    hoverColor: '#00c466',
     padding: '0 7px',
     fontSize: '40px'
   },
   bullet: {
     color: '#7D7D7D',
-    hoverColor: '#FB542B',
+    hoverColor: '#00c466',
     padding: '0 7px',
     fontSize: '40px'
   }

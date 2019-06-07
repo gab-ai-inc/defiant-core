@@ -5,7 +5,7 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { BlockedInfoRowSingle, SelectBox } from 'brave-ui/features/shields'
+import { BlockedInfoRowSingle, SelectBox } from 'dissenter-ui/features/shields'
 
 // Locale
 import { getLocale } from '../../background/api/localeAPI'

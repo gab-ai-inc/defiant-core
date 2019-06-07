@@ -30,6 +30,7 @@ void BraveAppMenuModel::Build() {
 void BraveAppMenuModel::InsertBraveMenuItems() {
   // Sync & Rewards pages are redirected to normal window when it is loaded in
   // private window. So, only hide them in guest(tor) window.
+  /*
   if (!browser_->profile()->IsGuestSession()) {
     InsertItemWithStringIdAt(
         GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
@@ -42,6 +43,7 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
           IDS_SHOW_BRAVE_SYNC);
     }
   }
+  */
   InsertItemWithStringIdAt(
       GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
       IDC_SHOW_BRAVE_ADBLOCK,

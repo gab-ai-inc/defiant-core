@@ -4,14 +4,14 @@
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
 
 #include "brave/common/network_constants.h"
-
+// Dissenter(TODO): No updates for now.
 const char kBraveUpdatesExtensionsEndpoint[] =
-    "https://go-updater.brave.com/extensions";
+    "https://0.0.0.0/";
 // For debgugging:
 // const char kBraveUpdatesExtensionsEndpoint[] =
 // "http://localhost:8192/extensions";
 
-const char kBraveReferralsServer[] = "laptop-updates.brave.com";
+const char kBraveReferralsServer[] = "0.0.0.0";
 const char kBraveReferralsHeadersPath[] = "/promo/custom-headers";
 const char kBraveReferralsInitPath[] = "/promo/initialize/nonua";
 const char kBraveReferralsActivityPath[] = "/promo/activity";
@@ -54,7 +54,8 @@ const char kCookieHeader[] = "Cookie";
 // Intentional misspelling on referrer to match HTTP spec
 const char kRefererHeader[] = "Referer";
 const char kUserAgentHeader[] = "User-Agent";
-const char kBravePartnerHeader[] = "X-Brave-Partner";
+// Dissenter: We will not identify our users.
+// const char kBravePartnerHeader[] = "X-Brave-Partner";
 
 const char kBittorrentMimeType[] = "application/x-bittorrent";
 const char kOctetStreamMimeType[] = "application/octet-stream";

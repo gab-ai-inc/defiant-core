@@ -38,7 +38,7 @@
 <translation id="3303855915957856445">ไม่พบผลการค้นหา</translation>
 <translation id="8967866634928501045">กด Alt Shift A เพื่อแสดง</translation>
 <translation id="998747458861718449">&amp;ตรวจสอบ</translation>
-<translation id="4428301600092811022">รับคำอธิบายรูปภาพจาก Brave Software ไหม</translation>
+<translation id="4428301600092811022">รับคำอธิบายรูปภาพจาก Gab AI ไหม</translation>
 <translation id="741204030948306876">ได้สิ ตกลง</translation>
 <translation id="780301667611848630">ไม่ ขอบคุณ</translation>
 <translation id="3943582379552582368">&amp;กลับ</translation>
@@ -92,7 +92,7 @@
 <translation id="5233736638227740678">&amp;วาง</translation>
 <translation id="2218515861914035131">วางเป็นข้อความธรรมดา</translation>
 <translation id="1017280919048282932">&amp;เพิ่มลงในพจนานุกรม</translation>
-<translation id="1732768497619250086">รับคำอธิบายรูปภาพจาก Brave Software</translation>
+<translation id="1732768497619250086">รับคำอธิบายรูปภาพจาก Gab AI</translation>
 <translation id="7561196759112975576">ทุกครั้ง</translation>
 <translation id="2241634353105152135">เพียงครั้งเดียว</translation>
 <translation id="3387614642886316601">ใช้ฟีเจอร์ตรวจตัวสะกดที่ได้รับการปรับปรุง</translation>
@@ -100,7 +100,7 @@
 <translation id="5860491529813859533">เปิด</translation>
 <translation id="7658239707568436148">ยกเลิก</translation>
 <translation id="8915370057835397490">กำลังโหลดคำแนะนำ</translation>
-<translation id="6191804255817539692">ไม่มีคำแนะนำเพิ่มเติมจาก Brave Software</translation>
+<translation id="6191804255817539692">ไม่มีคำแนะนำเพิ่มเติมจาก Gab AI</translation>
 <translation id="1901303067676059328">เลือก&amp;ทั้งหมด</translation>
 <translation id="3797900183766075808">&amp;ค้นหา “<ph name="SEARCH_TERMS"/>” ด้วย <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">&amp;ค้นหารูปภาพจาก <ph name="SEARCH_ENGINE"/></translation>
@@ -148,7 +148,7 @@
 <translation id="9033857511263905942">&amp;วาง</translation>
 <translation id="1815083418640426271">วางเป็นข้อความธรรมดา</translation>
 <translation id="4022426551683927403">&amp;เพิ่มลงในพจนานุกรม</translation>
-<translation id="6849870115130610913">รับคำอธิบายรูปภาพจาก Brave Software</translation>
+<translation id="6849870115130610913">รับคำอธิบายรูปภาพจาก Gab AI</translation>
 <translation id="372722114124766626">เพียงแค่ครั้งเดียว</translation>
 <translation id="4079140982534148664">ใช้ฟีเจอร์ตรวจตัวสะกดที่ได้รับการปรับปรุง</translation>
 <translation id="7487141338393529395">เปิดฟีเจอร์ตรวจตัวสะกดที่ได้รับการปรับปรุง</translation>
@@ -412,7 +412,7 @@
 <translation id="9148058034647219655">ออก</translation>
 <translation id="7376221878517288144">ต้องการออกจากโหมดไม่ระบุตัวตนไหม</translation>
 <translation id="973473557718930265">ออก</translation>
-<translation id="7707599169365957976">คุณช่วยปรับปรุง Safe Browsing ได้โดยส่งข้อมูลบางอย่างของระบบและเนื้อหาของหน้าให้ Brave Software</translation>
+<translation id="7707599169365957976">คุณช่วยปรับปรุง Safe Browsing ได้โดยส่งข้อมูลบางอย่างของระบบและเนื้อหาของหน้าให้ Gab AI</translation>
 <translation id="4923279099980110923">ใช่ ฉันต้องการช่วย</translation>
 <translation id="2316129865977710310">ไม่ ขอบคุณ</translation>
 <translation id="9169931577761441333">เพิ่ม <ph name="APP_NAME"/> ในหน้าจอหลัก</translation>
@@ -790,7 +790,7 @@
 <translation id="1545775234664667895">ติดตั้งธีม "<ph name="THEME_NAME"/>" แล้ว</translation>
 <translation id="2256115617011615191">รีสตาร์ทเลย</translation>
 <translation id="4545028762441890696">หากต้องการเปิดใช้อีกครั้ง ให้ยอมรับสิทธิ์ใหม่:</translation>
-<translation id="3009487527589249344">Brave Software ได้ตั้งค่าสถานะ "<ph name="EXTENSION_NAME"/>" ว่าเป็นอันตราย และป้องกันไม่ให้มีการติดตั้งแล้ว</translation>
+<translation id="3009487527589249344">Gab AI ได้ตั้งค่าสถานะ "<ph name="EXTENSION_NAME"/>" ว่าเป็นอันตราย และป้องกันไม่ให้มีการติดตั้งแล้ว</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> ได้รับการเพิ่มจากระยะไกล</translation>
 <translation id="1841705068325380214">ปิดใช้ <ph name="EXTENSION_NAME"/> แล้ว</translation>
 <translation id="595959584676692139">โหลดหน้าซ้ำเพื่อใช้ส่วนขยายนี้</translation>
@@ -923,7 +923,7 @@
 <translation id="3584169441612580296">อ่านและเปลี่ยนแปลงรูปภาพ เพลง และสื่ออื่นๆ จากคอมพิวเตอร์ของคุณ</translation>
 <translation id="5457459357461771897">อ่านและลบรูปภาพ เพลง และสื่ออื่นๆ จากคอมพิวเตอร์ของคุณ</translation>
 <translation id="3270965368676314374">อ่าน เปลี่ยนแปลง และลบรูปภาพ เพลง และสื่ออื่นๆ จากคอมพิวเตอร์ของคุณ</translation>
-<translation id="3919562953666287643">จัดเก็บข้อมูลในบัญชี Brave Software ไดรฟ์</translation>
+<translation id="3919562953666287643">จัดเก็บข้อมูลในบัญชี Gab AI ไดรฟ์</translation>
 <translation id="378312418865624974">อ่านตัวระบุเฉพาะสำหรับคอมพิวเตอร์เครื่องนี้</translation>
 <translation id="5094721898978802975">สื่อสารกับแอปพลิเคชันการประสานงานที่มาพร้อมเครื่อง</translation>
 <translation id="4876895919560854374">ล็อกและปลดล็อกหน้าจอ</translation>
@@ -1117,7 +1117,7 @@
 <translation id="8756969031206844760">อัปเดตรหัสผ่านไหม</translation>
 <translation id="8230134520748321204">บันทึกรหัสผ่านสำหรับ <ph name="ORIGIN"/> ไหม</translation>
 <translation id="9040661932550800571">อัปเดตรหัสผ่านสำหรับ <ph name="ORIGIN"/> ไหม</translation>
-<translation id="8284000761603848448">เราจะบันทึกรหัสผ่านไว้ในบัญชี Brave Software เพื่อให้คุณใช้ในอุปกรณ์เครื่องใดก็ได้</translation>
+<translation id="8284000761603848448">เราจะบันทึกรหัสผ่านไว้ในบัญชี Gab AI เพื่อให้คุณใช้ในอุปกรณ์เครื่องใดก็ได้</translation>
 <translation id="8286036467436129157">ลงชื่อเข้าใช้</translation>
 <translation id="8009225694047762179">จัดการรหัสผ่าน</translation>
 <translation id="3950820424414687140">ลงชื่อเข้าใช้</translation>
@@ -1227,9 +1227,9 @@
 <translation id="223106756035922488">คลิกเพื่อดู doodle ของวันนี้</translation>
 <translation id="8676374126336081632">ล้างข้อมูลที่ป้อน</translation>
 <translation id="5867841422488265304">ค้นหาหรือพิมพ์ที่อยู่เว็บ</translation>
-<translation id="2129873093718581193">ค้นหาด้วย Brave Software หรือพิมพ์ URL</translation>
-<translation id="6363797201514053536">ค้นหาด้วย Brave Software หรือพิมพ์ URL</translation>
-<translation id="4888839742663123585">ค้นหาใน Brave Software</translation>
+<translation id="2129873093718581193">ค้นหาด้วย Gab AI หรือพิมพ์ URL</translation>
+<translation id="6363797201514053536">ค้นหาด้วย Gab AI หรือพิมพ์ URL</translation>
+<translation id="4888839742663123585">ค้นหาใน Gab AI</translation>
 <translation id="6078323886959318429">เพิ่มทางลัด</translation>
 <translation id="6324916366299863871">แก้ไขทางลัด</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1380,28 +1380,28 @@
 <translation id="2982970937345031">รายงานแบบไม่ระบุตัวตน</translation>
 <translation id="6076448957780543068">รวมภาพหน้าจอนี้</translation>
 <translation id="7052237160939977163">ส่งข้อมูลการติดตามผลการปฏิบัติงาน</translation>
-<translation id="5526928694260255286">แนบ<ph name="BEGIN_LINK"/>บันทึกบลูทูธ<ph name="END_LINK"/> (ใช้ภายใน Brave Software)</translation>
+<translation id="5526928694260255286">แนบ<ph name="BEGIN_LINK"/>บันทึกบลูทูธ<ph name="END_LINK"/> (ใช้ภายใน Gab AI)</translation>
 <translation id="3047644958362961983">ข้อมูลนี้ช่วยให้เราเข้าใจปัญหาที่คุณพบเกี่ยวกับ Assistant ได้ดีขึ้น ระบบจะเก็บข้อมูลไว้สูงสุด 90 วันและจำกัดให้เฉพาะทีมวิศวกรและทีมให้ความคิดเห็นที่เกี่ยวข้องเข้าถึงเท่านั้น</translation>
-<translation id="1705635099498185261">Brave Softwarer จะช่วยรวมบันทึกเพิ่มเติมเกี่ยวกับบลูทูธไว้กับรายงานความคิดเห็นเพื่อการวินิจฉัยปัญหาบลูทูธที่แม่นยำยิ่งขึ้นได้ เมื่อคุณเลือกตัวเลือกนี้ รายงานจะรวมบันทึก btsnoop และ HCI จากเซสชันปัจจุบัน ซึ่งได้รับการปรับแต่งเพื่อนำ PII ออกไปให้ได้มากที่สุด จะมีเพียงผู้จัดการกลุ่มผลิตภัณฑ์ Brave OS ใน Listnr เท่านั้นที่มีสิทธิ์เข้าถึงบันทึกเหล่านี้ และระบบจะลบบันทึกออกโดยถาวรหลังผ่านไป 90 วัน</translation>
+<translation id="1705635099498185261">Gab AIr จะช่วยรวมบันทึกเพิ่มเติมเกี่ยวกับบลูทูธไว้กับรายงานความคิดเห็นเพื่อการวินิจฉัยปัญหาบลูทูธที่แม่นยำยิ่งขึ้นได้ เมื่อคุณเลือกตัวเลือกนี้ รายงานจะรวมบันทึก btsnoop และ HCI จากเซสชันปัจจุบัน ซึ่งได้รับการปรับแต่งเพื่อนำ PII ออกไปให้ได้มากที่สุด จะมีเพียงผู้จัดการกลุ่มผลิตภัณฑ์ Brave OS ใน Listnr เท่านั้นที่มีสิทธิ์เข้าถึงบันทึกเหล่านี้ และระบบจะลบบันทึกออกโดยถาวรหลังผ่านไป 90 วัน</translation>
 <translation id="4206323443866416204">รายงานความคิดเห็น</translation>
 <translation id="3681311097828166361">ขอขอบคุณสำหรับความคิดเห็น คุณกำลังออฟไลน์อยู่ในขณะนี้ และระบบจะส่งรายงานของคุณในภายหลัง</translation>
 <translation id="8713570323158206935">ส่ง<ph name="BEGIN_LINK1"/>ข้อมูลระบบ<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">ส่ง<ph name="BEGIN_LINK1"/>ข้อมูลระบบ<ph name="END_LINK1"/>และ<ph name="BEGIN_LINK2"/>เมตริก<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">ส่ง<ph name="BEGIN_LINK1"/>ข้อมูลระบบและแอป<ph name="END_LINK1"/>และ<ph name="BEGIN_LINK2"/>เมตริก<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">รวมประวัติล่าสุดของ Assistant ผ่านทาง Sherlog ซึ่งอาจมีข้อมูลประจำตัว ตำแหน่งของคุณ และข้อมูลการแก้ไขข้อบกพร่อง <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">ระบบจะส่งไฟล์ไปยัง Brave Software เพื่อแก้ไขข้อบกพร่อง</translation>
+<translation id="8329196515830093443">ระบบจะส่งไฟล์ไปยัง Gab AI เพื่อแก้ไขข้อบกพร่อง</translation>
 <translation id="8227119283605456246">แนบไฟล์</translation>
 <translation id="5367091008316207019">กำลังอ่านไฟล์..</translation>
 <translation id="2554553592469060349">ไฟล์ที่เลือกมีขนาดใหญ่เกินไป (ขนาดสูงสุด: 3 MB)</translation>
 <translation id="4690091457710545971">&lt;มีไฟล์ 4 ไฟล์ที่สร้างขึ้นโดยเฟิร์มแวร์ Wi-Fi ของ Intel ได้แก่ csr.lst, fh_regs.lst, radio_reg.lst และ monitor.lst.sysmon  โดย 3 ไฟล์แรกเป็นไฟล์ไบนารีที่มี Register Dump ซึ่งผ่านการยืนยันโดย Intel เพื่อไม่ให้รวมข้อมูลส่วนตัวหรือข้อมูลที่ระบุอุปกรณ์  ส่วนไฟล์สุดท้ายเป็นการติดตามการทำงานจากเฟิร์มแวร์ของ Intel โดยมีการลบข้อมูลส่วนตัวหรือข้อมูลที่ระบุอุปกรณ์ออกไปแล้ว แต่ไฟล์มีขนาดใหญ่เกินกว่าที่จะแสดงตรงนี้ได้  ไฟล์เหล่านี้สร้างขึ้นมาเพื่อตอบสนองต่อปัญหา Wi-Fi ล่าสุดในอุปกรณ์ของคุณและระบบจะแชร์ไฟล์กับ Intel เพื่อช่วยแก้ปัญหาเหล่านี้&gt;</translation>
-<translation id="6972420083546794501">ไปที่<ph name="BEGIN_LINK1"/>หน้าความช่วยเหลือทางกฎหมาย<ph name="END_LINK1"/>เพื่อขอเปลี่ยนแปลงเนื้อหาด้วยเหตุผลทางกฎหมาย ระบบอาจส่งข้อมูลบัญชีและข้อมูลระบบบางส่วนไปยัง Brave Software เราจะใช้ข้อมูลที่คุณให้มาเพื่อช่วยแก้ปัญหาด้านเทคนิคและปรับปรุงบริการโดยเป็นไปตาม<ph name="BEGIN_LINK2"/>นโยบายความเป็นส่วนตัว<ph name="END_LINK2"/>และ<ph name="BEGIN_LINK3"/>ข้อกำหนดในการให้บริการ<ph name="END_LINK3"/></translation>
+<translation id="6972420083546794501">ไปที่<ph name="BEGIN_LINK1"/>หน้าความช่วยเหลือทางกฎหมาย<ph name="END_LINK1"/>เพื่อขอเปลี่ยนแปลงเนื้อหาด้วยเหตุผลทางกฎหมาย ระบบอาจส่งข้อมูลบัญชีและข้อมูลระบบบางส่วนไปยัง Gab AI เราจะใช้ข้อมูลที่คุณให้มาเพื่อช่วยแก้ปัญหาด้านเทคนิคและปรับปรุงบริการโดยเป็นไปตาม<ph name="BEGIN_LINK2"/>นโยบายความเป็นส่วนตัว<ph name="END_LINK2"/>และ<ph name="BEGIN_LINK3"/>ข้อกำหนดในการให้บริการ<ph name="END_LINK3"/></translation>
 <translation id="7915471803647590281">โปรดแจ้งให้เราทราบถึงสิ่งที่เกิดขึ้นก่อนส่งความคิดเห็น</translation>
 <translation id="1483493594462132177">ส่ง</translation>
 <translation id="6885771755599377173">ดูตัวอย่างข้อมูลระบบ</translation>
 <translation id="1016566241875885511">ข้อมูลเพิ่มเติม (ไม่บังคับ)</translation>
 <translation id="8026334261755873520">ล้างข้อมูลการท่องเว็บ</translation>
 <translation id="7409836189476010449">เรียกใช้ Flash</translation>
-<translation id="4718442817388594217">นำข้อมูลที่เลือกออกจาก Brave และอุปกรณ์ที่ซิงค์แล้ว บัญชี Brave Software ของคุณอาจมีประวัติการท่องเว็บในรูปแบบอื่น เช่น การค้นหาและกิจกรรมจากบริการอื่นๆ ของ Brave Software ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="4718442817388594217">นำข้อมูลที่เลือกออกจาก Brave และอุปกรณ์ที่ซิงค์แล้ว บัญชี Gab AI ของคุณอาจมีประวัติการท่องเว็บในรูปแบบอื่น เช่น การค้นหาและกิจกรรมจากบริการอื่นๆ ของ Gab AI ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
 <translation id="7814200940910057384">ล้างข้อมูล Brave แล้ว</translation>
 <translation id="7346909386216857016">รับทราบ</translation>
 <translation id="8493236660459102203">ไมโครโฟน:</translation>
@@ -1425,7 +1425,7 @@
 <translation id="284805635805850872">นำซอฟต์แวร์อันตรายออกไหม</translation>
 <translation id="489985760463306091">รีสตาร์ทคอมพิวเตอร์เพื่อทำการนำซอฟต์แวร์อันตรายออกให้เสร็จ</translation>
 <translation id="7598466960084663009">รีสตาร์ทคอมพิวเตอร์</translation>
-<translation id="2819091349626575960">รายงานรายละเอียดให้ Brave Software ทราบ</translation>
+<translation id="2819091349626575960">รายงานรายละเอียดให้ Gab AI ทราบ</translation>
 <translation id="4099060993766194518">คืนค่าเป็นเครื่องมือค้นหาเริ่มต้นไหม</translation>
 <translation id="138784436342154190">คืนค่าเป็นหน้าเริ่มต้นใช้งานเริ่มต้นไหม</translation>
 <translation id="5086874064903147617">คืนค่าเป็นหน้าแรกเริ่มต้นไหม</translation>
@@ -1525,7 +1525,7 @@
 <translation id="2190355936436201913">(ว่างเปล่า)</translation>
 <translation id="7136984461011502314">ยินดีต้อนรับสู่ <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> พร้อมที่จะดำเนินการติดตั้งให้คุณ</translation>
-<translation id="4711067597921221305">ช่วยปรับปรุง <ph name="PRODUCT_NAME"/> ให้ดีขึ้นโดยการส่งสถิติการใช้งานและรายงานปัญหาไปยัง Brave Software โดยอัตโนมัติ</translation>
+<translation id="4711067597921221305">ช่วยปรับปรุง <ph name="PRODUCT_NAME"/> ให้ดีขึ้นโดยการส่งสถิติการใช้งานและรายงานปัญหาไปยัง Gab AI โดยอัตโนมัติ</translation>
 <translation id="5972826969634861500">เริ่มต้นใช้งาน <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">ช่วยวิศวกรของเราตรวจสอบและแก้ไขข้อขัดข้องนี้ ระบุขั้นตอนที่แน่นอนหากทำได้ ไม่มีรายละเอียดใดที่ไร้ประโยชน์!</translation>
 <translation id="945522503751344254">ส่งความคิดเห็น</translation>
@@ -1539,7 +1539,7 @@
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">แพลตฟอร์ม</translation>
 <translation id="7022562585984256452">ตั้งค่าหน้าแรกของคุณแล้ว</translation>
-<translation id="7274626204661209194">Brave Software Cloud Print</translation>
+<translation id="7274626204661209194">Gab AI Cloud Print</translation>
 <translation id="4973307593867026061">เพิ่มเครื่องพิมพ์</translation>
 <translation id="9052208328806230490">คุณได้ลงทะเบียนเครื่องพิมพ์กับ <ph name="CLOUD_PRINT_NAME"/> โดยใช้บัญชี <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">ยกเลิกการเชื่อมต่อเครื่องพิมพ์</translation>
@@ -1573,7 +1573,7 @@
 <translation id="8870318296973696995">หน้าแรก</translation>
 <translation id="8987927404178983737">เดือน</translation>
 <translation id="6015796118275082299">ปี</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Pay</translation>
 <translation id="7671130400130574146">ใช้แถบชื่อและเส้นขอบของระบบ</translation>
 <translation id="3775705724665058594">ส่งไปยังอุปกรณ์</translation>
 <translation id="6061882183774845124">ส่งลิงก์ไปที่อุปกรณ์ของคุณ</translation>
@@ -1596,7 +1596,7 @@
 <translation id="8930351635855238750">การตั้งค่าคุกกี้ใหม่จะมีผลหลังจากการโหลดหน้านี้ซ้ำ</translation>
 <translation id="2568774940984945469">ที่เก็บแถบข้อมูล</translation>
 <translation id="7282992757463864530">แถบข้อมูล</translation>
-<translation id="1805077115206898822">บุ๊กมาร์ก ประวัติการเข้าชม และการตั้งค่าอื่นๆ ของคุณจะได้รับการซิงค์ไปยังบัญชี Brave Software ของคุณ</translation>
+<translation id="1805077115206898822">บุ๊กมาร์ก ประวัติการเข้าชม และการตั้งค่าอื่นๆ ของคุณจะได้รับการซิงค์ไปยังบัญชี Gab AI ของคุณ</translation>
 <translation id="1974060860693918893">ขั้นสูง</translation>
 <translation id="2445484935443597917">สร้างโปรไฟล์ใหม่</translation>
 <translation id="2606246518223360146">ลิงก์ข้อมูล</translation>
@@ -1686,13 +1686,13 @@
 <translation id="3074037959626057712">คุณลงชื่อเข้าใช้และเปิดใช้การซิงค์แล้ว</translation>
 <translation id="1231733316453485619">เปิดการซิงค์ไหม</translation>
 <translation id="4736292055110123391">ซิงค์บุ๊กมาร์ก รหัสผ่าน ประวัติการเข้าชม และอื่นๆ ในอุปกรณ์ทุกเครื่อง</translation>
-<translation id="5736731321935944068">Brave Software อาจใช้ประวัติการเข้าชมเพื่อปรับเปลี่ยน Search, โฆษณา และบริการอื่นๆ ของ Brave Software ให้เข้ากับคุณ</translation>
+<translation id="5736731321935944068">Gab AI อาจใช้ประวัติการเข้าชมเพื่อปรับเปลี่ยน Search, โฆษณา และบริการอื่นๆ ของ Gab AI ให้เข้ากับคุณ</translation>
 <translation id="4201546031411513170">คุณเลือกสิ่งที่ต้องการซิงค์ได้เสมอในการตั้งค่า</translation>
 <translation id="3149880132460839085">Brave Sync</translation>
-<translation id="3796902758602917951">บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะซิงค์กับบัญชี Brave Software เพื่อให้คุณสามารถใช้ข้อมูลเหล่านี้ได้กับอุปกรณ์ทุกเครื่อง</translation>
-<translation id="3111958038206230539">ปรับเปลี่ยนบริการ Brave Software ในแบบของคุณ</translation>
-<translation id="295992419959320001">Brave Software อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยนการค้นหา โฆษณา และบริการอื่นๆ ของ Brave Software ในแบบของคุณ</translation>
-<translation id="3070156078150543526">Brave Software อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยน Search และบริการอื่นๆ ของ Brave Software ในแบบของคุณ</translation>
+<translation id="3796902758602917951">บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะซิงค์กับบัญชี Gab AI เพื่อให้คุณสามารถใช้ข้อมูลเหล่านี้ได้กับอุปกรณ์ทุกเครื่อง</translation>
+<translation id="3111958038206230539">ปรับเปลี่ยนบริการ Gab AI ในแบบของคุณ</translation>
+<translation id="295992419959320001">Gab AI อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยนการค้นหา โฆษณา และบริการอื่นๆ ของ Gab AI ในแบบของคุณ</translation>
+<translation id="3070156078150543526">Gab AI อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยน Search และบริการอื่นๆ ของ Gab AI ในแบบของคุณ</translation>
 <translation id="2709453993673701466">หากต้องการจัดการการซิงค์และการปรับเปลี่ยนในแบบของคุณก่อนเปิดใช้งาน ให้ไปที่<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
 <translation id="2497852260688568942">ผู้ดูแลระบบปิดใช้การซิงค์</translation>
 <translation id="562935524653278697">ผู้ดูแลระบบของคุณได้ปิดใช้การซิงค์ของบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ</translation>
@@ -1766,10 +1766,10 @@
 <translation id="6198102561359457428">ออกจากระบบแล้วลงชื่อเข้าใช้อีกครั้ง...</translation>
 <translation id="4634771451598206121">ลงชื่อเข้าใช้อีกครั้ง...</translation>
 <translation id="7117247127439884114">ลงชื่อเข้าใช้อีกครั้ง...</translation>
-<translation id="4251909665067750757">ลงชื่อเข้าใช้เพื่อดึงบุ๊กมาร์ก ประวัติ รหัสผ่าน และการตั้งค่าอื่นๆ บนอุปกรณ์ทุกเครื่องของคุณ ทั้งนี้ ระบบจะลงชื่อเข้าใช้บริการต่างๆ ของ Brave Software ให้คุณโดยอัตโนมัติ</translation>
+<translation id="4251909665067750757">ลงชื่อเข้าใช้เพื่อดึงบุ๊กมาร์ก ประวัติ รหัสผ่าน และการตั้งค่าอื่นๆ บนอุปกรณ์ทุกเครื่องของคุณ ทั้งนี้ ระบบจะลงชื่อเข้าใช้บริการต่างๆ ของ Gab AI ให้คุณโดยอัตโนมัติ</translation>
 <translation id="2749756011735116528">ลงชื่อเข้าใช้ <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">ผู้ดูแลระบบปิดใช้การซิงค์</translation>
-<translation id="5462539695964427820">หยุดการซิงค์ผ่าน Brave Software แดชบอร์ดแล้ว</translation>
+<translation id="5462539695964427820">หยุดการซิงค์ผ่าน Gab AI แดชบอร์ดแล้ว</translation>
 <translation id="8805140816472474147">ยืนยันการตั้งค่าการซิงค์เพื่อเริ่มซิงค์</translation>
 <translation id="4835836146030131423">เกิดข้อผิดพลาดในการลงชื่อเข้าใช้</translation>
 <translation id="4365673000813822030">อ๊ะ การซิงค์หยุดทำงาน</translation>
@@ -1784,20 +1784,20 @@
 <translation id="1877520246462554164">ไม่ได้รับโทเค็นการตรวจสอบสิทธิ์ โปรดออกจากระบบแล้วลงชื่อเข้าใช้อีกครั้งเพื่อลองอีกครั้ง</translation>
 <translation id="9100765901046053179">การตั้งค่าขั้นสูง</translation>
 <translation id="5771816112378578655">กำลังดำเนินการตั้งค่า...</translation>
-<translation id="3892866329866260680">คุณได้ลงชื่อเข้าใช้ <ph name="SHORT_PRODUCT_NAME"/> แล้วในตอนนี้ บุ๊กมาร์ก ประวัติการเข้าชม และการตั้งค่าอื่นๆ ของคุณจะได้รับการซิงค์กับบัญชี Brave Software</translation>
+<translation id="3892866329866260680">คุณได้ลงชื่อเข้าใช้ <ph name="SHORT_PRODUCT_NAME"/> แล้วในตอนนี้ บุ๊กมาร์ก ประวัติการเข้าชม และการตั้งค่าอื่นๆ ของคุณจะได้รับการซิงค์กับบัญชี Gab AI</translation>
 <translation id="1408789165795197664">ขั้นสูง...</translation>
 <translation id="2731700343119398978">โปรดรอสักครู่...</translation>
 <translation id="4684427112815847243">ซิงค์ทุกอย่าง</translation>
-<translation id="7218743184834293955">มีการเข้ารหัสลับข้อมูลด้วยรหัสผ่านการซิงค์ ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Brave Software Pay</translation>
+<translation id="7218743184834293955">มีการเข้ารหัสลับข้อมูลด้วยรหัสผ่านการซิงค์ ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Gab AI Pay</translation>
 <translation id="7158251077901880179">ได้มีการเข้ารหัสลับข้อมูลด้วยรหัสผ่านการซิงค์เมื่อ
-          <ph name="TIME"/> ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Brave Software Pay</translation>
-<translation id="1171389789873508468">มีการเข้ารหัสลับข้อมูลด้วยรหัสผ่าน Brave Software ของคุณตั้งแต่
-          <ph name="TIME"/> ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Brave Software Pay</translation>
+          <ph name="TIME"/> ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Gab AI Pay</translation>
+<translation id="1171389789873508468">มีการเข้ารหัสลับข้อมูลด้วยรหัสผ่าน Gab AI ของคุณตั้งแต่
+          <ph name="TIME"/> ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Gab AI Pay</translation>
 <translation id="2562743677925229011">ไม่ได้ลงชื่อเข้าใช้ <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(คุณยังไม่ได้ <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">ลงชื่อเข้าใช้</translation>
 <translation id="237828693408258535">แปลหน้านี้ไหม</translation>
-<translation id="4613765529964435709">คุณต้องการให้ Brave Software แปลหน้านี้จากภาษา<ph name="SOURCE_LANGUAGE"/>เป็นภาษา<ph name="TARGET_LANGUAGE"/>ไหม</translation>
+<translation id="4613765529964435709">คุณต้องการให้ Gab AI แปลหน้านี้จากภาษา<ph name="SOURCE_LANGUAGE"/>เป็นภาษา<ph name="TARGET_LANGUAGE"/>ไหม</translation>
 <translation id="5990386583461751448">แปลแล้ว</translation>
 <translation id="5659833766619490117">แปลหน้านี้ไม่ได้</translation>
 <translation id="969096075394517431">เปลี่ยนภาษา</translation>
@@ -1971,12 +1971,12 @@
 <translation id="2804680522274557040">ปิดกล้องอยู่</translation>
 <translation id="6309510305002439352">ปิดไมโครโฟนอยู่</translation>
 <translation id="8282947398454257691">ทราบตัวระบุอุปกรณ์ที่ไม่ซ้ำกัน</translation>
-<translation id="8329449853370113380"><ph name="URL"/> ต้องการเปิดเนื้อหาที่มีการคุ้มครอง Brave Software จะตรวจสอบข้อมูลประจำตัวของอุปกรณ์</translation>
-<translation id="2650609753175229582"><ph name="URL"/> ต้องการเล่นเนื้อหาที่ได้รับความคุ้มครอง ข้อมูลประจำตัวของอุปกรณ์จะได้รับการยืนยันโดย Brave Software และเว็บไซต์นี้อาจเข้าถึงข้อมูลดังกล่าว</translation>
+<translation id="8329449853370113380"><ph name="URL"/> ต้องการเปิดเนื้อหาที่มีการคุ้มครอง Gab AI จะตรวจสอบข้อมูลประจำตัวของอุปกรณ์</translation>
+<translation id="2650609753175229582"><ph name="URL"/> ต้องการเล่นเนื้อหาที่ได้รับความคุ้มครอง ข้อมูลประจำตัวของอุปกรณ์จะได้รับการยืนยันโดย Gab AI และเว็บไซต์นี้อาจเข้าถึงข้อมูลดังกล่าว</translation>
 <translation id="1746402432151920942">ตัวระบุสื่อที่มีการป้องกัน</translation>
 <translation id="1322046419516468189">ดูและจัดการรหัสผ่านที่บันทึกไว้ได้ใน<ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">บันทึกรหัสผ่านแล้ว ดูและจัดการรหัสผ่านที่บันทึกไว้ได้ใน<ph name="SAVED_PASSWORDS_STORE"/></translation>
-<translation id="5713644099811900409">บัญชี Brave Software</translation>
+<translation id="5713644099811900409">บัญชี Gab AI</translation>
 <translation id="3785727820640310185">รหัสผ่านที่บันทึกไว้สำหรับเว็บไซต์นี้</translation>
 <translation id="3404065873681873169">ไม่มีรหัสผ่านบันทึกไว้สำหรับเว็บไซต์นี้</translation>
 <translation id="8470513973197838199">รหัสผ่านที่บันทึกไว้สำหรับ <ph name="ORIGIN"/></translation>
@@ -2118,7 +2118,7 @@
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{หน้าจอ #}other{หน้าจอ #}}</translation>
 <translation id="839736845446313156">ลงทะเบียน</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{เครื่องพิมพ์ใหม่บนเครือข่ายของคุณ}other{เครื่องพิมพ์ใหม่บนเครือข่ายของคุณ}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{เพิ่มเครื่องพิมพ์ลงใน Brave Software Cloud Print เพื่อให้คุณสามารถพิมพ์ได้จากทุกที่}other{เพิ่มเครื่องพิมพ์ # เครื่องลงใน Brave Software Cloud Print เพื่อให้คุณสามารถพิมพ์ได้จากทุกที่}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{เพิ่มเครื่องพิมพ์ลงใน Gab AI Cloud Print เพื่อให้คุณสามารถพิมพ์ได้จากทุกที่}other{เพิ่มเครื่องพิมพ์ # เครื่องลงใน Gab AI Cloud Print เพื่อให้คุณสามารถพิมพ์ได้จากทุกที่}}</translation>
 <translation id="409579654357498729">เพิ่มไปยัง Cloud Print</translation>
 <translation id="4628757576491864469">อุปกรณ์</translation>
 <translation id="6915804003454593391">ผู้ใช้:</translation>
@@ -2128,8 +2128,8 @@
 <translation id="1895934970388272448">คุณต้องยืนยันการลงทะเบียนเครื่องพิมพ์ของคุณเพื่อให้ขั้นตอนนี้เสร็จสิ้น ตรวจสอบเลย</translation>
 <translation id="551752069230578406">กำลังเพิ่มเครื่องพิมพ์ไปยังบัญชีของคุณ อาจใช้เวลาสักครู่...</translation>
 <translation id="2384436799579181135">เกิดข้อผิดพลาด โปรดตรวจสอบเครื่องพิมพ์และลองอีกครั้ง</translation>
-<translation id="2569908351567260524">เครื่องพิมพ์บน Brave Software Cloud Print</translation>
-<translation id="6782994146626179935">อุปกรณ์ใน "อุปกรณ์ Brave Software Cloud"</translation>
+<translation id="2569908351567260524">เครื่องพิมพ์บน Gab AI Cloud Print</translation>
+<translation id="6782994146626179935">อุปกรณ์ใน "อุปกรณ์ Gab AI Cloud"</translation>
 <translation id="7140928199327930795">ไม่มีอุปกรณ์อื่นๆ ที่พร้อมใช้งาน</translation>
 <translation id="8213577208796878755">อุปกรณ์อื่นอีกหนึ่งอุปกรณ์ที่พร้อมใช้งาน</translation>
 <translation id="1495486559005647033"><ph name="NUM_PRINTERS"/> อุปกรณ์อื่นๆ ที่พร้อมใช้งาน</translation>
@@ -2145,7 +2145,7 @@
 <translation id="715118844758971915">เครื่องพิมพ์แบบเดิม</translation>
 <translation id="4263757076580287579">การลงทะเบียนเครื่องพิมพ์ถูกยกเลิก</translation>
 <translation id="8152091997436726702">หมดเวลาการลงทะเบียนเครื่องพิมพ์ หากต้องการลงทะเบียนเครื่องพิมพ์ คุณต้องยืนยันการลงทะเบียนในเครื่องพิมพ์</translation>
-<translation id="2057904164277279211">เอกสารจะ<ph name="BEGIN_LINK_HELP"/>ส่งไปยัง Brave Software<ph name="END_LINK_HELP"/> เพื่อเตรียมพิมพ์ ดู แก้ไข และจัดการเครื่องพิมพ์และประวัติการพิมพ์ได้ใน<ph name="BEGIN_LINK_DASHBOARD"/>แดชบอร์ด Brave Software Cloud Print<ph name="END_LINK_DASHBOARD"/></translation>
+<translation id="2057904164277279211">เอกสารจะ<ph name="BEGIN_LINK_HELP"/>ส่งไปยัง Gab AI<ph name="END_LINK_HELP"/> เพื่อเตรียมพิมพ์ ดู แก้ไข และจัดการเครื่องพิมพ์และประวัติการพิมพ์ได้ใน<ph name="BEGIN_LINK_DASHBOARD"/>แดชบอร์ด Gab AI Cloud Print<ph name="END_LINK_DASHBOARD"/></translation>
 <translation id="3082780749197361769">แท็บนี้กำลังใช้กล้องถ่ายรูปหรือไมโครโฟนของคุณ</translation>
 <translation id="3578594933904494462">เนื้อหาของแท็บนี้กำลังถูกแชร์</translation>
 <translation id="4449996769074858870">แท็บนี้กำลังเล่นเสียง</translation>
@@ -2253,16 +2253,16 @@
 <translation id="7055152154916055070">การเปลี่ยนเส้นทางถูกบล็อก</translation>
 <translation id="6777817260680419853">การเปลี่ยนเส้นทางถูกบล็อก</translation>
 <translation id="694592694773692225">มีการบล็อกการเปลี่ยนเส้นทางในหน้านี้</translation>
-<translation id="8149707863742670433">เว็บเบราว์เซอร์โดย Brave Software สำหรับคุณ</translation>
-<translation id="3541561136058491590">ลงชื่อเข้าใช้ Brave ด้วยบัญชี Brave Software เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ</translation>
-<translation id="8945142681652245463">ท่องเว็บอย่างรวดเร็วด้วย Brave Software Brave</translation>
-<translation id="2618024864038703735">ท่องเว็บอย่างปลอดภัยด้วย Brave Software Brave</translation>
+<translation id="8149707863742670433">เว็บเบราว์เซอร์โดย Gab AI สำหรับคุณ</translation>
+<translation id="3541561136058491590">ลงชื่อเข้าใช้ Brave ด้วยบัญชี Gab AI เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ</translation>
+<translation id="8945142681652245463">ท่องเว็บอย่างรวดเร็วด้วย Gab AI Brave</translation>
+<translation id="2618024864038703735">ท่องเว็บอย่างปลอดภัยด้วย Gab AI Brave</translation>
 <translation id="8142180567942285208">ท่องเว็บอย่างมีประสิทธิภาพด้วย Brave</translation>
 <translation id="8862003515646449717">เปลี่ยนเป็นเบราว์เซอร์ที่เร็ว</translation>
 <translation id="8438328416656800239">เปลี่ยนเป็นเบราว์เซอร์ที่มีประสิทธิภาพ</translation>
 <translation id="491691592645955587">เปลี่ยนเป็นเบราว์เซอร์ที่ปลอดภัย</translation>
 <translation id="683373380308365518">เปลี่ยนเป็นเบราว์เซอร์ที่มีประสิทธิภาพและปลอดภัย</translation>
-<translation id="989239400026154074">Brave Software ขอแนะนำ Brave</translation>
+<translation id="989239400026154074">Gab AI ขอแนะนำ Brave</translation>
 <translation id="6676231621615806698">เปิด Brave</translation>
 <translation id="7494065396242762445">เปิดการตั้งค่า Windows</translation>
 <translation id="2137068468602026500">คลิก <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> ใต้เว็บเบราว์เซอร์</translation>
@@ -2497,7 +2497,7 @@
 <translation id="9011163749350026987">แสดงไอคอนเสมอ</translation>
 <translation id="1706586824377653884">เพิ่มโดยผู้ดูแลระบบ</translation>
 <translation id="6467304607960172345">เพิ่มประสิทธิภาพวิดีโอเต็มหน้าจอ</translation>
-<translation id="1597210476603167523">เปิดใช้การแคสต์ไปยังบริการบนระบบคลาวด์ เช่น Brave Software Hangouts</translation>
+<translation id="1597210476603167523">เปิดใช้การแคสต์ไปยังบริการบนระบบคลาวด์ เช่น Gab AI Hangouts</translation>
 <translation id="3653941710869291743">ยินดีต้อนรับสู่ประสบการณ์การใช้ Cast ใน Brave!</translation>
 <translation id="2841638550927239436">คุณสามารถใช้ฟีเจอร์นี้เพื่อแสดงเนื้อหาจาก Brave บน TV หรืออุปกรณ์อื่นๆ ได้</translation>
 <translation id="5234764350956374838">ปิด</translation>
@@ -2533,7 +2533,7 @@
 <translation id="4144218403971135344">ดูวิดีโอคุณภาพดีขึ้นและยืดอายุการใช้งานแบตเตอรี่ วิดีโอจะเล่นเฉพาะในหน้าจอที่พร้อมใช้งาน Cast</translation>
 <translation id="236117173274098341">เพิ่มประสิทธิภาพ</translation>
 <translation id="8538358978858059843">เปิดใช้บริการระบบคลาวด์สำหรับการแคสต์ไหม</translation>
-<translation id="3856595552313160385">การใช้งาน Hangouts และ Cast for Education อยู่ภายใต้นโยบายความเป็นส่วนตัวของ Brave Software</translation>
+<translation id="3856595552313160385">การใช้งาน Hangouts และ Cast for Education อยู่ภายใต้นโยบายความเป็นส่วนตัวของ Gab AI</translation>
 <translation id="3700888195348409686">กำลังนำเสนอ (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">จอแสดงผล <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">การใช้งานและประวัติอาจได้รับการตรวจสอบโดยผู้จัดการ (<ph name="CUSTODIAN_EMAIL"/>) ใน chrome.com</translation>
@@ -2768,7 +2768,7 @@
 <translation id="5840822070878669614">เปิด Brave เว็บสโตร์</translation>
 <translation id="6073903501322152803">เพิ่มฟีเจอร์การสามารถเข้าถึงได้ง่าย</translation>
 <translation id="7988355189918024273">เปิดการใช้งานฟีเจอร์การเข้าถึง</translation>
-<translation id="5499063270485366718">หากรูปภาพไม่มีคำอธิบายที่เป็นประโยชน์ Brave จะพยายามใส่คำอธิบายให้คุณ รูปภาพจะส่งมายัง Brave Software เพื่อสร้างคำอธิบาย</translation>
+<translation id="5499063270485366718">หากรูปภาพไม่มีคำอธิบายที่เป็นประโยชน์ Brave จะพยายามใส่คำอธิบายให้คุณ รูปภาพจะส่งมายัง Gab AI เพื่อสร้างคำอธิบาย</translation>
 <translation id="2558896001721082624">แสดงตัวเลือกการเข้าถึงในเมนูระบบไว้เสมอ</translation>
 <translation id="7280649757394340890">การตั้งค่าเสียงของการอ่านออกเสียงข้อความ</translation>
 <translation id="6635956300022133031">เลือกและปรับแต่งเสียงของการอ่านออกเสียงข้อความ</translation>
@@ -2808,7 +2808,7 @@
 <translation id="2765217105034171413">ขนาดเล็ก</translation>
 <translation id="7409549334477097887">ใหญ่พิเศษ</translation>
 <translation id="1330145147221172764">เปิดใช้แป้นพิมพ์บนหน้าจอ</translation>
-<translation id="1800308196794859773">ส่งเสียงของคุณไปยัง Brave Software เพื่อให้พิมพ์ตามคำบอกในช่องข้อความต่างๆ</translation>
+<translation id="1800308196794859773">ส่งเสียงของคุณไปยัง Gab AI เพื่อให้พิมพ์ตามคำบอกในช่องข้อความต่างๆ</translation>
 <translation id="8758418656925882523">เปิดใช้การพิมพ์ตามคำบอก (พูดเพื่อพิมพ์)</translation>
 <translation id="7580671184200851182">เล่นเสียงเหมือนกันผ่านลำโพงทุกตัว (เสียงโมโน)</translation>
 <translation id="1361872463926621533">เปิดเสียงเมื่อเริ่มใช้</translation>
@@ -2874,13 +2874,13 @@
 <translation id="3201422919974259695">อุปกรณ์ USB ที่ใช้ได้จะปรากฏที่นี่</translation>
 <translation id="907264006778172906">ให้สิทธิ์ Linux เข้าถึงอุปกรณ์ USB Linux จะไม่จำอุปกรณ์ USB หลังจากที่นำอุปกรณ์ดังกล่าวออก</translation>
 <translation id="3661172646479098821">ตอนนี้รองรับเพียงอุปกรณ์ Android เท่านั้น</translation>
-<translation id="2295473777859797944">Brave Software Play Store</translation>
+<translation id="2295473777859797944">Gab AI Play Store</translation>
 <translation id="572155275267014074">การตั้งค่า Android</translation>
-<translation id="4767209642168463274">ติดตั้งแอปและเกมจาก Brave Software Play ใน Bravebook &lt;a target="_blank" href="<ph name="URL"/>"&gt;ดูข้อมูลเพิ่มเติม&lt;/a&gt;</translation>
+<translation id="4767209642168463274">ติดตั้งแอปและเกมจาก Gab AI Play ใน Bravebook &lt;a target="_blank" href="<ph name="URL"/>"&gt;ดูข้อมูลเพิ่มเติม&lt;/a&gt;</translation>
 <translation id="2966937470348689686">จัดการค่ากำหนด Android</translation>
-<translation id="4074367893748481070">นำ Brave Software Play Store ออก</translation>
+<translation id="4074367893748481070">นำ Gab AI Play Store ออก</translation>
 <translation id="2792290659606763004">นำแอป Android ออกใช่ไหม</translation>
-<translation id="4607779957365311067">ระบบจะลบแอปที่คุณดาวน์โหลดจาก Brave Software Play ออกจาก Bravebook นี้
+<translation id="4607779957365311067">ระบบจะลบแอปที่คุณดาวน์โหลดจาก Gab AI Play ออกจาก Bravebook นี้
       <ph name="LINE_BREAKS1"/>
       และอาจลบเนื้อหาที่คุณเคยซื้อ เช่น ภาพยนตร์ รายการทีวี เพลง หนังสือ หรือการซื้อในแอปอื่นๆ อีกด้วย
       <ph name="LINE_BREAKS2"/>
@@ -2908,7 +2908,7 @@
 <translation id="1670399744444387456">พื้นฐาน</translation>
 <translation id="1763808908432309942">เปิดในแท็บใหม่</translation>
 <translation id="6248988683584659830">ตั้งค่าการค้นหา</translation>
-<translation id="883304095704384301">ไปที่<ph name="BEGIN_LINK_CHROMIUM"/>ความช่วยเหลือของ Brave Software Brave<ph name="END_LINK_CHROMIUM"/> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
+<translation id="883304095704384301">ไปที่<ph name="BEGIN_LINK_CHROMIUM"/>ความช่วยเหลือของ Gab AI Brave<ph name="END_LINK_CHROMIUM"/> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
 <translation id="6406708970972405507">การตั้งค่า - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">ปิด</translation>
 <translation id="5916664084637901428">เปิด</translation>
@@ -2928,10 +2928,10 @@
 <translation id="451515744433878153">นำออก</translation>
 <translation id="5029568752722684782">ล้างสำเนา</translation>
 <translation id="2154484045852737596">แก้ไขบัตร</translation>
-<translation id="3032188998195902534">หากต้องการเพิ่มหรือจัดการวิธีการชำระเงินของ Brave Software Pay โปรดไปที่<ph name="BEGIN_LINK"/>บัญชี Brave Software<ph name="END_LINK"/> ของคุณ</translation>
+<translation id="3032188998195902534">หากต้องการเพิ่มหรือจัดการวิธีการชำระเงินของ Gab AI Pay โปรดไปที่<ph name="BEGIN_LINK"/>บัญชี Gab AI<ph name="END_LINK"/> ของคุณ</translation>
 <translation id="8853586775156634952">บัตรนี้จะบันทึกอยู่ในอุปกรณ์เครื่องนี้เท่านั้น</translation>
 <translation id="5087580092889165836">เพิ่มบัตร</translation>
-<translation id="4835914736509775287">บันทึกบัตรลงในบัญชี Brave Software ของคุณ</translation>
+<translation id="4835914736509775287">บันทึกบัตรลงในบัญชี Gab AI ของคุณ</translation>
 <translation id="7255002516883565667">ขณะนี้คุณมีบัตรใบเดียวที่ใช้ได้ในอุปกรณ์นี้เท่านั้น</translation>
 <translation id="6848388270925200958">ขณะนี้คุณมีบัตรบางใบที่ใช้ได้ในอุปกรณ์นี้เท่านั้น</translation>
 <translation id="4807098396393229769">ชื่อบนบัตร</translation>
@@ -2954,7 +2954,7 @@
 <translation id="7930294771522048157">วิธีการชำระเงินที่บันทึกไว้จะปรากฏที่นี่</translation>
 <translation id="9124003689441359348">รหัสผ่านที่บันทึกไว้จะแสดงที่นี่</translation>
 <translation id="4400367121200150367">เว็บไซต์ที่ไม่เคยบันทึกรหัสผ่านจะแสดงที่นี่</translation>
-<translation id="3098842761938485917">ดูและจัดการรหัสผ่านที่บันทึกไว้ใน<ph name="BEGIN_LINK"/>บัญชี Brave Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">ดูและจัดการรหัสผ่านที่บันทึกไว้ใน<ph name="BEGIN_LINK"/>บัญชี Gab AI<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">ส่งออกรหัสผ่าน...</translation>
 <translation id="3900966090527141178">ส่งออกรหัสผ่าน</translation>
 <translation id="6914783257214138813">คนที่ดูไฟล์ที่ส่งออกได้จะเห็นรหัสผ่านของคุณ</translation>
@@ -3054,15 +3054,15 @@
 <translation id="3380365263193509176">ข้อผิดพลาดที่ไม่รู้จัก</translation>
 <translation id="368789413795732264">เกิดข้อผิดพลาดขณะพยายามเขียนไฟล์: <ph name="ERROR_TEXT"/></translation>
 <translation id="784934925303690534">ช่วงเวลา</translation>
-<translation id="3958004920128806270"><ph name="BEGIN_LINK"/>ออกจากระบบ<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์นี้เท่านั้น แต่ยังเก็บข้อมูลดังกล่าวไว้ในบัญชี Brave Software</translation>
-<translation id="4445433576366924090"><ph name="BEGIN_LINK"/>ไปที่การตั้งค่าการซิงค์<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Brave Software</translation>
-<translation id="563489167344291753"><ph name="BEGIN_LINK"/>ป้อนรหัสผ่าน<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Brave Software</translation>
-<translation id="3895809404273995788"><ph name="BEGIN_LINK"/>ลงชื่อเข้าใช้<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Brave Software</translation>
+<translation id="3958004920128806270"><ph name="BEGIN_LINK"/>ออกจากระบบ<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์นี้เท่านั้น แต่ยังเก็บข้อมูลดังกล่าวไว้ในบัญชี Gab AI</translation>
+<translation id="4445433576366924090"><ph name="BEGIN_LINK"/>ไปที่การตั้งค่าการซิงค์<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Gab AI</translation>
+<translation id="563489167344291753"><ph name="BEGIN_LINK"/>ป้อนรหัสผ่าน<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Gab AI</translation>
+<translation id="3895809404273995788"><ph name="BEGIN_LINK"/>ลงชื่อเข้าใช้<ph name="END_LINK"/>เพื่อล้างข้อมูลการท่องเว็บในอุปกรณ์ทุกเครื่องที่ซิงค์และบัญชี Gab AI</translation>
 <translation id="8662811608048051533">นำคุณออกจากระบบของเว็บไซต์ส่วนใหญ่</translation>
-<translation id="4650925988509114690">นำคุณออกจากระบบของเว็บไซต์ส่วนใหญ่ แต่คุณจะยังลงชื่อเข้าใช้บัญชี Brave Software อยู่เพื่อให้ล้างข้อมูลที่ซิงค์ได้</translation>
+<translation id="4650925988509114690">นำคุณออกจากระบบของเว็บไซต์ส่วนใหญ่ แต่คุณจะยังลงชื่อเข้าใช้บัญชี Gab AI อยู่เพื่อให้ล้างข้อมูลที่ซิงค์ได้</translation>
 <translation id="2017836877785168846">ล้างประวัติการเข้าชมและการเติมข้อความอัตโนมัติในแถบที่อยู่เว็บ</translation>
-<translation id="8096327394278038498">ล้างประวัติและการเติมข้อความอัตโนมัติในแถบที่อยู่เว็บ บัญชี Brave Software อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
-<translation id="8122693181154564064">ล้างประวัติจากอุปกรณ์ที่ลงชื่อเข้าใช้ทั้งหมด บัญชี Brave Software อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="8096327394278038498">ล้างประวัติและการเติมข้อความอัตโนมัติในแถบที่อยู่เว็บ บัญชี Gab AI อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="8122693181154564064">ล้างประวัติจากอุปกรณ์ที่ลงชื่อเข้าใช้ทั้งหมด บัญชี Gab AI อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
 <translation id="7127980134843952133">ประวัติการดาวน์โหลด</translation>
 <translation id="4699172675775169585">รูปภาพและไฟล์ในแคช</translation>
 <translation id="1274997165432133392">คุกกี้และข้อมูลอื่นของไซต์</translation>
@@ -3076,7 +3076,7 @@
 <translation id="6979737339423435258">ตั้งแต่ต้น</translation>
 <translation id="3399432415385675819">ระบบจะปิดใช้การแจ้งเตือน</translation>
 <translation id="3459509316159669723">การพิมพ์</translation>
-<translation id="1563008449513980623">ตั้งค่าหรือจัดการเครื่องพิมพ์ใน Brave Software Cloud Print</translation>
+<translation id="1563008449513980623">ตั้งค่าหรือจัดการเครื่องพิมพ์ใน Gab AI Cloud Print</translation>
 <translation id="8185331656081929126">แสดงการแจ้งเตือนเมื่อตรวจพบเครื่องพิมพ์ใหม่บนเครือข่าย</translation>
 <translation id="6451180435462401570">จัดการอุปกรณ์ Cloud Print</translation>
 <translation id="6985607387932385770">เครื่องพิมพ์</translation>
@@ -3121,7 +3121,7 @@
 <translation id="5696679855467848181">ไฟล์ PPD ที่ใช้อยู่ในปัจจุบัน: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">ตำแหน่ง</translation>
 <translation id="7754704193130578113">สอบถามที่เก็บไฟล์ก่อนดาวน์โหลด</translation>
-<translation id="5713072761819014678">ยกเลิกการเชื่อมต่อบัญชี Brave Software ไดรฟ์</translation>
+<translation id="5713072761819014678">ยกเลิกการเชื่อมต่อบัญชี Gab AI ไดรฟ์</translation>
 <translation id="486635084936119914">เปิดไฟล์บางประเภทโดยอัตโนมัติหลังจากที่ดาวน์โหลดมา</translation>
 <translation id="3653160965917900914">พื้นที่แชร์ไฟล์ของเครือข่าย</translation>
 <translation id="5763315388120433852">ตั้งค่าหรือจัดการพื้นที่แชร์ไฟล์ของเครือข่าย</translation>
@@ -3162,7 +3162,7 @@
 <translation id="5425722269016440406">คุณต้องออนไลน์เพื่อปิด Smart Lock เนื่องจากการตั้งค่านี้ได้ซิงค์กับโทรศัพท์และอุปกรณ์อื่นๆ โปรดเชื่อมต่อเครือข่ายก่อน</translation>
 <translation id="8885197664446363138">Smart Lock ไม่พร้อมใช้งาน</translation>
 <translation id="7334190995941642545">ไม่สามารถใช้ Smart Lock ได้ในขณะนี้ โปรดลองอีกครั้งในภายหลัง</translation>
-<translation id="8112427115751454716">ใช้ Smart Lock เพื่อลงชื่อเข้าใช้บัญชี Brave Software</translation>
+<translation id="8112427115751454716">ใช้ Smart Lock เพื่อลงชื่อเข้าใช้บัญชี Gab AI</translation>
 <translation id="2043818754674261542">ระยะห่างที่โทรศัพท์จะปลดล็อก <ph name="DEVICE_TYPE"/> นี้ได้</translation>
 <translation id="2522791476825452208">ใกล้มาก</translation>
 <translation id="649454645705377674">ปิด</translation>
@@ -3170,7 +3170,7 @@
 <translation id="5595152862129936745">ไกลมาก</translation>
 <translation id="8748384418490037181">ตัวเลือก Smart Lock</translation>
 <translation id="2433836460518180625">ปลดล็อกอุปกรณ์เท่านั้น</translation>
-<translation id="3300552672525741457">ปลดล็อกอุปกรณ์และลงชื่อเข้าใช้บัญชี Brave Software</translation>
+<translation id="3300552672525741457">ปลดล็อกอุปกรณ์และลงชื่อเข้าใช้บัญชี Gab AI</translation>
 <translation id="2307462900900812319">กำหนดค่าเครือข่าย</translation>
 <translation id="7175037578838465313">กำหนดค่า <ph name="NAME"/></translation>
 <translation id="8662671328352114214">เข้าร่วมเครือข่าย <ph name="TYPE"/></translation>
@@ -3197,7 +3197,7 @@
 <translation id="1726100011689679555">เซิร์ฟเวอร์ชื่อ</translation>
 <translation id="1209796539517632982">เซิร์ฟเวอร์ชื่ออัตโนมัติ</translation>
 <translation id="4462159676511157176">เซิร์ฟเวอร์ชื่อที่กำหนดเอง</translation>
-<translation id="1981884748698699991">เซิร์ฟเวอร์ชื่อของ Brave Software</translation>
+<translation id="1981884748698699991">เซิร์ฟเวอร์ชื่อของ Gab AI</translation>
 <translation id="854655314928502177">URL การค้นพบเว็บพร็อกซีโดยอัตโนมัติ:</translation>
 <translation id="3817579325494460411">ไม่ได้ระบุ</translation>
 <translation id="1280820357415527819">กำลังค้นหาเครือข่ายมือถือ</translation>
@@ -3264,13 +3264,13 @@
 <translation id="6077131872140550515">นำออกจากเครือข่ายที่ต้องการ</translation>
 <translation id="4115002065223188701">เครือข่ายอยู่นอกช่วงสัญญาณ</translation>
 <translation id="161460670679785907">ไม่พบโทรศัพท์ของคุณ</translation>
-<translation id="1682335582099955045">เปิดการแจ้งเตือนสำหรับบริการ Brave Software Play เพื่อใช้การเชื่อมต่ออินเทอร์เน็ตผ่านมือถือแบบด่วน</translation>
+<translation id="1682335582099955045">เปิดการแจ้งเตือนสำหรับบริการ Gab AI Play เพื่อใช้การเชื่อมต่ออินเทอร์เน็ตผ่านมือถือแบบด่วน</translation>
 <translation id="7696063401938172191">บนโทรศัพท์ "<ph name="PHONE_NAME"/>" ของคุณ:</translation>
 <translation id="3423463006624419153">บนโทรศัพท์ "<ph name="PHONE_NAME_1"/>" และ "<ph name="PHONE_NAME_2"/>" ของคุณ</translation>
 <translation id="6997707937646349884">บนอุปกรณ์ของคุณ:</translation>
 <translation id="7531779363494549572">ไปที่การตั้งค่า &gt; แอปและการแจ้งเตือน &gt; การแจ้งเตือน</translation>
-<translation id="6921033294337262045">แตะ "การแจ้งเตือนของแอป" &gt; บริการ Brave Software Play</translation>
-<translation id="5624710179837914896">เปิดบริการ Brave Software Play</translation>
+<translation id="6921033294337262045">แตะ "การแจ้งเตือนของแอป" &gt; บริการ Gab AI Play</translation>
+<translation id="5624710179837914896">เปิดบริการ Gab AI Play</translation>
 <translation id="2705736684557713153">เลื่อนลงด้านล่างของหน้าจอ และเปิดการเชื่อมต่ออินเทอร์เน็ตผ่านมือถือแบบด่วนหากมีปรากฏขึ้นมา หากไม่มี แสดงว่าทุกอย่างเรียบร้อยแล้ว</translation>
 <translation id="8720200012906404956">กำลังมองหาเครือข่ายมือถือ <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">เชื่อมต่อกับฮอตสปอตใหม่ใช่ไหม</translation>
@@ -3283,7 +3283,7 @@
 <translation id="8944099748578356325">ใช้แบตเตอรี่หมดเร็วขึ้น (ขณะนี้อยู่ที่ <ph name="BATTERY_PERCENTAGE"/>%)</translation>
 <translation id="3651488188562686558">ยกเลิกการเชื่อมต่อ Wi-Fi</translation>
 <translation id="7378812711085314936">ขอเชื่อมต่อข้อมูล</translation>
-<translation id="3483333858382889684">ให้อุปกรณ์เครื่องนี้ค้นหาอุปกรณ์เครื่องอื่นๆ ด้วยบัญชี Brave Software ที่มีการเชื่อมต่อเน็ตมือถือ</translation>
+<translation id="3483333858382889684">ให้อุปกรณ์เครื่องนี้ค้นหาอุปกรณ์เครื่องอื่นๆ ด้วยบัญชี Gab AI ที่มีการเชื่อมต่อเน็ตมือถือ</translation>
 <translation id="5637476008227280525">เปิดใช้อินเทอร์เน็ตมือถือ</translation>
 <translation id="1572266655485775982">เปิดใช้ Wi-Fi</translation>
 <translation id="543381445212956829">เปิดใช้ WiMAX</translation>
@@ -3402,7 +3402,7 @@
 <translation id="3182749001423093222">ตรวจตัวสะกด</translation>
 <translation id="5423829801105537712">การตรวจตัวสะกดพื้นฐาน</translation>
 <translation id="2564653188463346023">การตรวจตัวสะกดที่ได้รับการปรับปรุง</translation>
-<translation id="8944680893327873975">ใช้โปรแกรมตรวจตัวสะกดแบบเดียวกับ Brave Software Search ข้อความที่คุณพิมพ์ในเบราว์เซอร์จะส่งไปยัง Brave Software</translation>
+<translation id="8944680893327873975">ใช้โปรแกรมตรวจตัวสะกดแบบเดียวกับ Gab AI Search ข้อความที่คุณพิมพ์ในเบราว์เซอร์จะส่งไปยัง Gab AI</translation>
 <translation id="7335974957018254119">ใช้การตรวจตัวสะกดสำหรับ</translation>
 <translation id="2469375675106140201">ปรับแต่งการตรวจตัวสะกด</translation>
 <translation id="2667463864537187133">จัดการการตรวจตัวสะกด</translation>
@@ -3413,11 +3413,11 @@
 <translation id="4200689466366162458">คำที่กำหนดเอง</translation>
 <translation id="7833720883933317473">คำที่กำหนดเองที่บันทึกไว้จะแสดงที่นี่</translation>
 <translation id="8509646642152301857">การดาวน์โหลดพจนานุกรมตรวจสอบการสะกดล้มเหลว</translation>
-<translation id="8842834450537919370">โปรดตรวจสอบกับผู้ดูแลระบบเครือข่ายของคุณเพื่อให้แน่ใจว่าไฟร์วอลล์ไม่ได้บล็อกการดาวน์โหลดจากเซิร์ฟเวอร์ของ Brave Software</translation>
+<translation id="8842834450537919370">โปรดตรวจสอบกับผู้ดูแลระบบเครือข่ายของคุณเพื่อให้แน่ใจว่าไฟร์วอลล์ไม่ได้บล็อกการดาวน์โหลดจากเซิร์ฟเวอร์ของ Gab AI</translation>
 <translation id="9042893549633094279">ข้อมูลส่วนบุคคลและความปลอดภัย</translation>
 <translation id="654233263479157500">ใช้บริการเว็บช่วยแก้ไขข้อผิดพลาดในการนำทาง</translation>
 <translation id="6697492270171225480">แสดงคำแนะนำหน้าที่คล้ายกันเมื่อไม่พบหน้าเว็บ</translation>
-<translation id="4534361985432360439">ส่งที่อยู่เว็บของหน้าที่คุณพยายามเข้าถึงให้กับ Brave Software</translation>
+<translation id="4534361985432360439">ส่งที่อยู่เว็บของหน้าที่คุณพยายามเข้าถึงให้กับ Gab AI</translation>
 <translation id="6545834809683560467">ใช้บริการคาดคะเนที่จะช่วยเติมข้อความค้นหาและ URL ที่พิมพ์ลงในแถบที่อยู่เว็บหรือช่องค้นหาของเครื่องเรียกใช้งานแอป</translation>
 <translation id="340485819826776184">ใช้บริการคาดเดาเพื่อช่วยเติมคำค้นหาและ URL ที่พิมพ์ลงในแถบที่อยู่</translation>
 <translation id="7704317875155739195">เติมข้อความค้นหาและ URL อัตโนมัติ</translation>
@@ -3425,17 +3425,17 @@
 <translation id="9038649477754266430">ใช้บริการการคาดคะเนเพื่อโหลดหน้าได้เร็วขึ้น</translation>
 <translation id="7981313251711023384">โหลดหน้าเว็บล่วงหน้าเพื่อให้เรียกดูและค้นหาได้เร็วขึ้น</translation>
 <translation id="2468205691404969808">ใช้คุกกี้เพื่อให้จดจำค่ากำหนดของคุณ แม้ว่าคุณไม่ได้เข้าชมหน้าเว็บเหล่านั้น</translation>
-<translation id="3181954750937456830">Brave Software Safe Browsing (ปกป้องคุณและอุปกรณ์จากเว็บไซต์ที่เป็นอันตราย)</translation>
-<translation id="7315322926489145388">ส่ง URL ของหน้าบางส่วนที่คุณเข้าชมไปให้ Brave Software เมื่อการรักษาความปลอดภัยมีความเสี่ยง</translation>
+<translation id="3181954750937456830">Gab AI Safe Browsing (ปกป้องคุณและอุปกรณ์จากเว็บไซต์ที่เป็นอันตราย)</translation>
+<translation id="7315322926489145388">ส่ง URL ของหน้าบางส่วนที่คุณเข้าชมไปให้ Gab AI เมื่อการรักษาความปลอดภัยมีความเสี่ยง</translation>
 <translation id="4991384657077828949">ช่วยปรับปรุงความปลอดภัยของ Brave</translation>
-<translation id="1943176487615318915">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Brave จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Brave Software</translation>
-<translation id="2875273286298348523">Brave จะส่งข้อความที่คุณพิมพ์ในเบราว์เซอร์ไปยัง Brave Software</translation>
-<translation id="9079153198295609735">ส่งสถิติการใช้งานและรายงานข้อขัดข้องไปยัง Brave Software โดยอัตโนมัติ</translation>
-<translation id="5941220456342415404">ส่งข้อมูลการวินิจฉัยและการใช้งานไปยัง Brave Software โดยอัตโนมัติ</translation>
+<translation id="1943176487615318915">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Brave จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Gab AI</translation>
+<translation id="2875273286298348523">Brave จะส่งข้อความที่คุณพิมพ์ในเบราว์เซอร์ไปยัง Gab AI</translation>
+<translation id="9079153198295609735">ส่งสถิติการใช้งานและรายงานข้อขัดข้องไปยัง Gab AI โดยอัตโนมัติ</translation>
+<translation id="5941220456342415404">ส่งข้อมูลการวินิจฉัยและการใช้งานไปยัง Gab AI โดยอัตโนมัติ</translation>
 <translation id="918192811481327695">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
-<translation id="9063160602596686558">ส่งสถิติการใช้งานและรายงานข้อขัดข้องให้กับ Brave Software โดยอัตโนมัติ</translation>
+<translation id="9063160602596686558">ส่งสถิติการใช้งานและรายงานข้อขัดข้องให้กับ Gab AI โดยอัตโนมัติ</translation>
 <translation id="8438566539970814960">ปรับปรุงการค้นหาและการท่องเว็บให้ดียิ่งขึ้น</translation>
-<translation id="284843628681142937">ส่ง URL ของหน้าที่คุณเข้าชมไปยัง Brave Software</translation>
+<translation id="284843628681142937">ส่ง URL ของหน้าที่คุณเข้าชมไปยัง Gab AI</translation>
 <translation id="8791534160414513928">ส่งคำขอ "ไม่ติดตาม" พร้อมกับการเข้าชมของคุณ</translation>
 <translation id="5299109548848736476">ไม่ติดตาม</translation>
 <translation id="5282733140964383898">การเปิดใช้ "ไม่ติดตาม" จะทำให้คำขอหนึ่งๆ ไปรวมอยู่กับการรับส่งข้อมูลในการท่องเว็บของคุณ ผลที่จะเกิดขึ้นขึ้นอยู่กับว่าเว็บไซต์ตอบสนองต่อคำขอหรือไม่และมีการตีความคำขอนั้นอย่างไร ตัวอย่างเช่น บางเว็บไซต์อาจตอบสนองต่อคำขอนี้ด้วยการแสดงโฆษณาที่ไม่ได้อยู่ในเว็บไซต์อื่นๆ ที่คุณเคยเข้าชมให้คุณเห็น เว็บไซต์จำนวนมากจะยังคงเก็บรวบรวมข้อมูลการท่องเว็บของคุณไว้เพื่อใช้ปรับปรุงความปลอดภัย จัดเตรียมเนื้อหา บริการ โฆษณา และคำแนะนำในเว็บไซต์ รวมทั้งเพื่อสร้างสถิติการรายงาน เป็นต้น <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
@@ -3465,7 +3465,7 @@
 <translation id="7807067443225230855">การค้นหาและผู้ช่วย</translation>
 <translation id="2203682048752833055">เครื่องมือค้นหาที่ใช้ใน<ph name="BEGIN_LINK"/>แถบที่อยู่เว็บ<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">จัดการเครื่องมือค้นหา</translation>
-<translation id="2862205630718215619">Brave Software Assistant</translation>
+<translation id="2862205630718215619">Gab AI Assistant</translation>
 <translation id="6978121630131642226">เครื่องมือค้นหา</translation>
 <translation id="6410668567036790476">เพิ่มเครื่องมือค้นหา</translation>
 <translation id="1128591060186966949">แก้ไขเครื่องมือค้นหา</translation>
@@ -3477,9 +3477,9 @@
 <translation id="7063311912041006059">URL ที่มี <ph name="SPECIAL_SYMBOL"/> ในตำแหน่งคำค้นหา</translation>
 <translation id="6953878494808481632">ข้อมูลที่เกี่ยวข้อง</translation>
 <translation id="4145922204387553806">ให้ Assistant แสดงข้อมูลเกี่ยวกับสิ่งที่อยู่ในหน้าจอ</translation>
-<translation id="472896694312062378">Ok Brave Software</translation>
-<translation id="873163986259711670">เข้าถึง Assistant ได้ทุกเมื่อเพียงพูดว่า "Ok Brave Software"</translation>
-<translation id="7972554217702001243">เปิดใช้งาน Assistant เมื่อมีคนพูดว่า “Ok Brave Software” วลี “Ok Brave Software” นี้จะใช้ได้เฉพาะเมื่ออุปกรณ์เชื่อมต่อกับแหล่งจ่ายไฟเพื่อเป็นการประหยัดแบตเตอรี่</translation>
+<translation id="472896694312062378">Ok Gab AI</translation>
+<translation id="873163986259711670">เข้าถึง Assistant ได้ทุกเมื่อเพียงพูดว่า "Ok Gab AI"</translation>
+<translation id="7972554217702001243">เปิดใช้งาน Assistant เมื่อมีคนพูดว่า “Ok Gab AI” วลี “Ok Gab AI” นี้จะใช้ได้เฉพาะเมื่ออุปกรณ์เชื่อมต่อกับแหล่งจ่ายไฟเพื่อเป็นการประหยัดแบตเตอรี่</translation>
 <translation id="5825412242012995131">เปิด (แนะนำ)</translation>
 <translation id="5067399438976153555">เปิดเสมอ</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3488,7 +3488,7 @@
 <translation id="5355099869024327351">อนุญาตให้ Assistant แสดงการแจ้งเตือน</translation>
 <translation id="133535873114485416">วิธีป้อนข้อมูลที่ต้องการ</translation>
 <translation id="6233154960150021497">มีค่าเริ่มต้นเป็นการใช้เสียงแทนแป้นพิมพ์</translation>
-<translation id="3908743412684152579">การตั้งค่า Brave Software Assistant</translation>
+<translation id="3908743412684152579">การตั้งค่า Gab AI Assistant</translation>
 <translation id="4933484234309072027">ฝังตัวใน <ph name="URL"/></translation>
 <translation id="8427292751741042100">ฝังในโฮสต์ใดก็ได้</translation>
 <translation id="4907306957610201395">หมวดหมู่สิทธิ์</translation>
@@ -3634,7 +3634,7 @@
 <translation id="4175737294868205930">พื้นที่เก็บข้อมูลถาวร</translation>
 <translation id="1296497012903089238">ประเภทใบรับรอง</translation>
 <translation id="8553342806078037065">จัดการบุคคลอื่นๆ</translation>
-<translation id="8907706281008466056">รูปภาพ Brave Software โปรไฟล์</translation>
+<translation id="8907706281008466056">รูปภาพ Gab AI โปรไฟล์</translation>
 <translation id="2408955596600435184">ป้อน PIN ของคุณ</translation>
 <translation id="6619990499523117484">ยืนยัน PIN</translation>
 <translation id="2023167225947895179">PIN อาจคาดเดาได้ง่าย</translation>
@@ -3659,9 +3659,9 @@
 <translation id="6029292188939175871">ลบ [<ph name="FINGERPRINT_NAME"/>], ปุ่ม</translation>
 <translation id="1927632033341042996">นิ้วที่ <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">เพิ่มบัญชี</translation>
-<translation id="6776811409814583709">คุณจะจัดการบัญชี Brave Software ทั้งหมดที่ลงชื่อเข้าใช้ไว้จากแอปและเว็บไซต์ต่างๆ ได้ที่นี่ แอปและเว็บไซต์ที่มีสิทธิ์จะเข้าถึงข้อมูลบัญชีที่จำเป็นได้เพื่อให้ทำงานได้อย่างถูกต้อง</translation>
+<translation id="6776811409814583709">คุณจะจัดการบัญชี Gab AI ทั้งหมดที่ลงชื่อเข้าใช้ไว้จากแอปและเว็บไซต์ต่างๆ ได้ที่นี่ แอปและเว็บไซต์ที่มีสิทธิ์จะเข้าถึงข้อมูลบัญชีที่จำเป็นได้เพื่อให้ทำงานได้อย่างถูกต้อง</translation>
 <translation id="1987317783729300807">บัญชี</translation>
-<translation id="8418661265246754237">บัญชี Brave Software</translation>
+<translation id="8418661265246754237">บัญชี Gab AI</translation>
 <translation id="3297951628821704004">นำบัญชีออกจากอุปกรณ์นี้</translation>
 <translation id="4659077111144409915">บัญชีหลัก</translation>
 <translation id="3158033540161634471">ตั้งค่าลายนิ้วมือ</translation>
@@ -3692,9 +3692,9 @@
 <translation id="2114896190328250491">รูปภาพจาก <ph name="NAME"/></translation>
 <translation id="7155171745945906037">รูปภาพที่มีอยู่จากกล้องหรือไฟล์</translation>
 <translation id="8995603266996330174">จัดการโดย <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">ใช้ฟีเจอร์เจ๋งๆ จาก Brave Software ใน Brave</translation>
+<translation id="9125982323641182972">ใช้ฟีเจอร์เจ๋งๆ จาก Gab AI ใน Brave</translation>
 <translation id="5244474230056479698">กำลังซิงค์กับ <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">เนื่องจากบัญชีนี้มีการจัดการโดย <ph name="DOMAIN"/> บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะถูกล้างออกจากอุปกรณ์เครื่องนี้ แต่ข้อมูลจะยังจัดเก็บอยู่ในบัญชี Brave Software และสามารถจัดการได้ใน<ph name="BEGIN_LINK"/>แดชบอร์ด Brave Software<ph name="END_LINK"/></translation>
+<translation id="4326270470840334364">เนื่องจากบัญชีนี้มีการจัดการโดย <ph name="DOMAIN"/> บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะถูกล้างออกจากอุปกรณ์เครื่องนี้ แต่ข้อมูลจะยังจัดเก็บอยู่ในบัญชี Gab AI และสามารถจัดการได้ใน<ph name="BEGIN_LINK"/>แดชบอร์ด Gab AI<ph name="END_LINK"/></translation>
 <translation id="4037889604535939429">แก้ไขบุคคล</translation>
 <translation id="6739923123728562974">แสดงทางลัดในเดสก์ท็อป</translation>
 <translation id="2450310832094867474">ปิดการซิงค์และออกจากระบบไหม</translation>
@@ -3702,16 +3702,16 @@
 <translation id="5643620609347735571">ล้างและดำเนินการต่อ</translation>
 <translation id="5602765853043467355">ล้างบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และอื่นๆ จากอุปกรณ์นี้</translation>
 <translation id="4089235344645910861">บันทึกการตั้งค่าและเริ่มซิงค์แล้ว</translation>
-<translation id="7548737591211512046">ลงชื่อเข้าใช้เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ ระบบจะลงชื่อเข้าใช้บริการต่างๆ ของ Brave Software ให้คุณโดยอัตโนมัติด้วย</translation>
-<translation id="2951604498031550705">การเปลี่ยนแปลงในบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะไม่ซิงค์กับบัญชี Brave Software อีกต่อไป แต่ข้อมูลที่มีอยู่จะยังจัดเก็บไว้ในบัญชี Brave Software และสามารถจัดการได้ใน<ph name="BEGIN_LINK"/>แดชบอร์ด Brave Software<ph name="END_LINK"/></translation>
-<translation id="138229770216285283">การดำเนินการนี้จะนำคุณออกจากระบบบัญชี Brave Software การเปลี่ยนแปลงในบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะไม่ซิงค์กับบัญชี Brave Software อีกต่อไป แต่ข้อมูลที่มีอยู่จะยังจัดเก็บไว้ในบัญชี Brave Software และจัดการได้ใน <ph name="BEGIN_LINK"/>Brave Software แดชบอร์ด<ph name="END_LINK"/></translation>
-<translation id="3169352093514419465">การดำเนินการนี้จะนำคุณออกจากบัญชี Brave Software บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และข้อมูลอื่นๆ จะไม่ซิงค์อีกต่อไป</translation>
+<translation id="7548737591211512046">ลงชื่อเข้าใช้เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ ระบบจะลงชื่อเข้าใช้บริการต่างๆ ของ Gab AI ให้คุณโดยอัตโนมัติด้วย</translation>
+<translation id="2951604498031550705">การเปลี่ยนแปลงในบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะไม่ซิงค์กับบัญชี Gab AI อีกต่อไป แต่ข้อมูลที่มีอยู่จะยังจัดเก็บไว้ในบัญชี Gab AI และสามารถจัดการได้ใน<ph name="BEGIN_LINK"/>แดชบอร์ด Gab AI<ph name="END_LINK"/></translation>
+<translation id="138229770216285283">การดำเนินการนี้จะนำคุณออกจากระบบบัญชี Gab AI การเปลี่ยนแปลงในบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะไม่ซิงค์กับบัญชี Gab AI อีกต่อไป แต่ข้อมูลที่มีอยู่จะยังจัดเก็บไว้ในบัญชี Gab AI และจัดการได้ใน <ph name="BEGIN_LINK"/>Gab AI แดชบอร์ด<ph name="END_LINK"/></translation>
+<translation id="3169352093514419465">การดำเนินการนี้จะนำคุณออกจากบัญชี Gab AI บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และข้อมูลอื่นๆ จะไม่ซิงค์อีกต่อไป</translation>
 <translation id="8588866096426746242">แสดงสถิติของโปรไฟล์</translation>
 <translation id="5535941515421698170">นำข้อมูลที่มีอยู่ของคุณออกจากอุปกรณ์นี้ด้วย</translation>
 <translation id="7243632151880336635">ล้างและออกจากระบบ</translation>
 <translation id="6406506848690869874">ซิงค์</translation>
-<translation id="5428209950370661546">บริการอื่นๆ ของ Brave Software</translation>
-<translation id="7956662517480676674">การซิงค์และบริการของ Brave Software</translation>
+<translation id="5428209950370661546">บริการอื่นๆ ของ Gab AI</translation>
+<translation id="7956662517480676674">การซิงค์และบริการของ Gab AI</translation>
 <translation id="2453021845418314664">การตั้งค่าการซิงค์ขั้นสูง</translation>
 <translation id="4314815835985389558">จัดการการซิงค์</translation>
 <translation id="659934686219830168">การซิงค์จะเริ่มขึ้นเมื่อคุณออกจากหน้านี้</translation>
@@ -3720,19 +3720,19 @@
 <translation id="4824958205181053313">ยกเลิกการซิงค์ใช่ไหม</translation>
 <translation id="3058498974290601450">คุณเปิดการซิงค์ได้ทุกเมื่อในการตั้งค่า</translation>
 <translation id="7529411698175791732">ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณ หากปัญหายังคงอยู่ ให้ลองออกจากระบบและลงชื่อเข้าใช้อีกครั้ง</translation>
-<translation id="1125261911132334651">จัดการบัญชี Brave Software</translation>
+<translation id="1125261911132334651">จัดการบัญชี Gab AI</translation>
 <translation id="4570387585180509432">ที่อยู่ หมายเลขโทรศัพท์ และอื่นๆ</translation>
 <translation id="5117427536932535467">ธีมและวอลเปเปอร์</translation>
 <translation id="3268451620468152448">แท็บที่เปิดอยู่</translation>
-<translation id="5241892180459725878">คำแนะนำในการค้นหา Brave Software ไดรฟ์</translation>
+<translation id="5241892180459725878">คำแนะนำในการค้นหา Gab AI ไดรฟ์</translation>
 <translation id="2120297377148151361">กิจกรรมและการโต้ตอบ</translation>
 <translation id="5833397272224757657">ใช้เนื้อหาในเว็บไซต์ที่คุณเข้าชม รวมถึงกิจกรรมและการโต้ตอบในเบราว์เซอร์เพื่อการปรับเปลี่ยนในแบบของคุณ</translation>
-<translation id="8135094938656535588">จัดการข้อมูลที่ซิงค์ใน Brave Software แดชบอร์ด</translation>
+<translation id="8135094938656535588">จัดการข้อมูลที่ซิงค์ใน Gab AI แดชบอร์ด</translation>
 <translation id="7505421639213002314">ข้อมูลจากการซิงค์ของ Brave</translation>
 <translation id="6596325263575161958">ตัวเลือกการเข้ารหัส</translation>
-<translation id="2459230470861708651">เข้ารหัสลับรหัสผ่านที่ซิงค์ด้วยชื่อผู้ใช้และรหัสผ่าน Brave Software ของคุณ</translation>
-<translation id="5958351589333270173">เข้ารหัสลับข้อมูลที่ซิงค์ด้วย<ph name="BEGIN_LINK"/>รหัสผ่านการซิงค์<ph name="END_LINK"/>ของคุณเอง ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Brave Software Pay</translation>
-<translation id="4817583816512767754">เฉพาะผู้ที่มีรหัสผ่านของคุณเท่านั้นจึงจะสามารถอ่านข้อมูลที่เข้ารหัสของคุณได้ Brave Software จะไม่ส่งหรือจัดเก็บรหัสผ่านนี้ หากคุณลืมรหัสผ่านหรือต้องการเปลี่ยนการตั้งค่านี้ คุณจะต้อง<ph name="BEGIN_LINK"/>รีเซ็ตการซิงค์<ph name="END_LINK"/></translation>
+<translation id="2459230470861708651">เข้ารหัสลับรหัสผ่านที่ซิงค์ด้วยชื่อผู้ใช้และรหัสผ่าน Gab AI ของคุณ</translation>
+<translation id="5958351589333270173">เข้ารหัสลับข้อมูลที่ซิงค์ด้วย<ph name="BEGIN_LINK"/>รหัสผ่านการซิงค์<ph name="END_LINK"/>ของคุณเอง ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Gab AI Pay</translation>
+<translation id="4817583816512767754">เฉพาะผู้ที่มีรหัสผ่านของคุณเท่านั้นจึงจะสามารถอ่านข้อมูลที่เข้ารหัสของคุณได้ Gab AI จะไม่ส่งหรือจัดเก็บรหัสผ่านนี้ หากคุณลืมรหัสผ่านหรือต้องการเปลี่ยนการตั้งค่านี้ คุณจะต้อง<ph name="BEGIN_LINK"/>รีเซ็ตการซิงค์<ph name="END_LINK"/></translation>
 <translation id="7441736921018636843">หากต้องการเปลี่ยนการตั้งค่านี้ ให้<ph name="BEGIN_LINK"/>รีเซ็ตการซิงค์<ph name="END_LINK"/>เพื่อนำรหัสผ่านการซิงค์ออก</translation>
 <translation id="3873315167136380065">หากต้องการเปิดการตั้งค่า ให้<ph name="BEGIN_LINK"/>รีเซ็ตการซิงค์<ph name="END_LINK"/>เพื่อนำรหัสผ่านการซิงค์ออก</translation>
 <translation id="988978206646512040">ต้องระบุรหัสผ่าน</translation>
@@ -3819,7 +3819,7 @@
 <translation id="4673442866648850031">เปิดเครื่องมือสไตลัสเมื่อมีการถอดสไตลัสออก</translation>
 <translation id="5862109781435984885">แสดงเครื่องมือสไตลัสในชั้นวาง</translation>
 <translation id="4244238649050961491">ค้นหาแอปสไตลัสเพิ่มเติม</translation>
-<translation id="1163818598439831131">เปิด Brave Software Play</translation>
+<translation id="1163818598439831131">เปิด Gab AI Play</translation>
 <translation id="9116799625073598554">แอปสำหรับจดโน้ต</translation>
 <translation id="5458998536542739734">โน้ตในหน้าจอล็อก</translation>
 <translation id="203574396658008164">เปิดใช้การจดบันทึกจากหน้าจอล็อก</translation>
@@ -3882,7 +3882,7 @@
 <translation id="6547354035488017500">เพิ่มพื้นที่ว่างบนอุปกรณ์อย่างน้อย 512 MB มิฉะนั้นอุปกรณ์ของคุณอาจไม่ตอบสนอง หากต้องการเพิ่มพื้นที่ว่าง ให้ลบไฟล์ออกจากพื้นที่เก็บข้อมูลของอุปกรณ์</translation>
 <translation id="6097480669505687979">หากคุณไม่เพิ่มพื้นที่ว่าง ระบบจะนำผู้ใช้และข้อมูลออกโดยอัตโนมัติ</translation>
 <translation id="5438224778284622050">คุณต้องการลบไฟล์ออฟไลน์ใช่ไหม</translation>
-<translation id="9196021349904508454">ระบบจะลบไฟล์ออฟไลน์ชั่วคราวของ Brave Software ไดรฟ์ แต่จะไม่ลบไฟล์ที่คุณตั้งค่าให้ใช้ออฟไลน์ได้ออกจากอุปกรณ์เครื่องนี้</translation>
+<translation id="9196021349904508454">ระบบจะลบไฟล์ออฟไลน์ชั่วคราวของ Gab AI ไดรฟ์ แต่จะไม่ลบไฟล์ที่คุณตั้งค่าให้ใช้ออฟไลน์ได้ออกจากอุปกรณ์เครื่องนี้</translation>
 <translation id="1865678028973512614">ลบไฟล์</translation>
 <translation id="1529891865407786369">แหล่งพลังงาน</translation>
 <translation id="354060433403403521">อะแดปเตอร์ AC</translation>
@@ -3945,7 +3945,7 @@
 <translation id="8639047128869322042">กำลังตรวจหาซอฟต์แวร์ที่เป็นอันตราย...</translation>
 <translation id="2653033005692233957">การค้นหาไม่สำเร็จ</translation>
 <translation id="655483977608336153">ลองอีกครั้ง</translation>
-<translation id="8282772389915299166">รายงานรายละเอียดเกี่ยวกับซอฟต์แวร์ที่เป็นอันตราย การตั้งค่าระบบ และการประมวลผลที่พบในคอมพิวเตอร์ระหว่างการทำความสะอาดไปยัง Brave Software</translation>
+<translation id="8282772389915299166">รายงานรายละเอียดเกี่ยวกับซอฟต์แวร์ที่เป็นอันตราย การตั้งค่าระบบ และการประมวลผลที่พบในคอมพิวเตอร์ระหว่างการทำความสะอาดไปยัง Gab AI</translation>
 <translation id="6555810572223193255">การทำความสะอาดไม่พร้อมใช้งานในขณะนี้</translation>
 <translation id="7117228822971127758">โปรดลองอีกครั้งในภายหลัง</translation>
 <translation id="443475966875174318">อัปเดตหรือนำแอปพลิเคชันที่ใช้ร่วมกันไม่ได้ออก</translation>
@@ -4099,8 +4099,8 @@
 <translation id="742130257665691897">นำบุ๊กมาร์กออกแล้ว</translation>
 <translation id="2785008241190445880">แทนที่บุ๊กมาร์กแล้ว</translation>
 <translation id="5468853758063275923">Brave เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
-<translation id="2950533317914339731">เพิ่มบุ๊กมาร์กไปยังแอป Brave Software ที่คุณชอบ</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="2950533317914339731">เพิ่มบุ๊กมาร์กไปยังแอป Gab AI ที่คุณชอบ</translation>
+<translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">ข่าวสาร</translation>
@@ -4114,7 +4114,7 @@
 <translation id="7789963078219276159">เปลี่ยนพื้นหลังของหน้าเริ่มต้นเป็น <ph name="CATEGORY"/></translation>
 <translation id="8771300903067484968">มีการรีเซ็ตพื้นหลังของหน้าเริ่มต้นเป็นพื้นหลังเริ่มต้น</translation>
 <translation id="239760341987199724">ตั้ง Brave เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
-<translation id="96037229054033864">ใช้ Brave Software Search และฟีเจอร์เจ๋งๆ จาก Brave Software ทุกครั้งที่ท่องเว็บ</translation>
+<translation id="96037229054033864">ใช้ Gab AI Search และฟีเจอร์เจ๋งๆ จาก Gab AI ทุกครั้งที่ท่องเว็บ</translation>
 <translation id="296137235951584143">ปรับเปลี่ยน Brave ในแบบของคุณ</translation>
 <translation id="3982375475032951137">ตั้งค่าเบราว์เซอร์ได้ง่ายๆ ในไม่กี่ขั้นตอน</translation>
 <translation id="6972754398087986839">เริ่มต้นใช้งาน</translation>
@@ -4127,7 +4127,7 @@
 <translation id="1430915738399379752">พิมพ์</translation>
 <translation id="1031362278801463162">กำลังโหลดหน้าตัวอย่าง</translation>
 <translation id="6147020289383635445">หน้าตัวอย่างก่อนพิมพ์ล้มเหลว</translation>
-<translation id="7413400642818115607">ไม่รองรับอุปกรณ์ Brave Software Cloud Print ที่เลือกอีกต่อไปแล้ว <ph name="BR"/> ลองตั้งค่าเครื่องพิมพ์ในการตั้งค่าระบบของคอมพิวเตอร์</translation>
+<translation id="7413400642818115607">ไม่รองรับอุปกรณ์ Gab AI Cloud Print ที่เลือกอีกต่อไปแล้ว <ph name="BR"/> ลองตั้งค่าเครื่องพิมพ์ในการตั้งค่าระบบของคอมพิวเตอร์</translation>
 <translation id="5828633471261496623">กำลังพิมพ์...</translation>
 <translation id="6295855836753816081">กำลังบันทึก...</translation>
 <translation id="3587482841069643663">ทั้งหมด</translation>
@@ -4147,7 +4147,7 @@
 <translation id="3706463572498736864">จำนวนหน้าต่อแผ่น</translation>
 <translation id="2249605167705922988">เช่น 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">บันทึกเป็น PDF</translation>
-<translation id="1955272076204612657">บันทึกไปยัง Brave Software ไดรฟ์</translation>
+<translation id="1955272076204612657">บันทึกไปยัง Gab AI ไดรฟ์</translation>
 <translation id="2580924999637585241">รวม: <ph name="SHEETS_LABEL"/> <ph name="NUMBER_OF_SHEETS"/> หน้า</translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">หน้ากระดาษ</translation>
@@ -4177,7 +4177,7 @@
 <translation id="6991665348624301627">เลือกปลายทาง</translation>
 <translation id="8800004011501252845">แสดงปลายทางสำหรับ</translation>
 <translation id="8996526648899750015">เพิ่มบัญชี...</translation>
-<translation id="5002959368039764681">พิมพ์ไปยัง Brave Software เอกสารและปลายทางในระบบคลาวด์อื่นๆ <ph name="BEGIN_LINK"/>ลงชื่อเข้าใช้<ph name="END_LINK"/>เพื่อพิมพ์ไปยัง Brave Software Cloud Print</translation>
+<translation id="5002959368039764681">พิมพ์ไปยัง Gab AI เอกสารและปลายทางในระบบคลาวด์อื่นๆ <ph name="BEGIN_LINK"/>ลงชื่อเข้าใช้<ph name="END_LINK"/>เพื่อพิมพ์ไปยัง Gab AI Cloud Print</translation>
 <translation id="2150139952286079145">ค้นหาปลายทาง</translation>
 <translation id="8569682776816196752">ไม่พบปลายทาง</translation>
 <translation id="7885253890047913815">ปลายทางล่าสุด</translation>

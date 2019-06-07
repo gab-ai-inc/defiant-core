@@ -1,25 +1,25 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="tr">
-<translation id="3333887201479867589">Brave Ödülleri</translation>
-<translation id="7942180974165298215">Brave Reklam Engelleme</translation>
+<translation id="3333887201479867589">Dissenter Ödülleri</translation>
+<translation id="7942180974165298215">Dissenter Reklam Engelleme</translation>
 <translation id="6406506848690869874">Sync</translation>
 <translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") Brave'de izin verilmiyor.</translation>
 <translation id="7450557937477381864">Chrome'u Kapat</translation>
 <translation id="7008934821596358692">İçe aktarmayı bitirmek için tüm Chrome pencerelerini kapatın.</translation>
 <translation id="5735465527556462863">Brave'i (eski) Kapat</translation>
-<translation id="7737066986958447692">İçe aktarmayı tamamlamak için tüm Brave (eski) pencerelerini kapatın.</translation>
+<translation id="7737066986958447692">İçe aktarmayı tamamlamak için tüm Dissenter (eski) pencerelerini kapatın.</translation>
 <translation id="6447842834002726250">Çerezler</translation>
 <translation id="4983925687993168579">İstatistik</translation>
-<translation id="6165477144235978006">Brave Ödemeleri</translation>
+<translation id="6165477144235978006">Dissenter Ödemeleri</translation>
 <translation id="3489524616427966890">Açık pencereler ve sekmeler</translation>
 <translation id="3699882589215410581">Widevine'ı yükle ve çalıştır</translation>
 <translation id="8053096063396012732">Widevine'ı yükle</translation>
 <translation id="4840334696217618631">Widevine’ı etkinleştirmek için tarayıcıyı yeniden başlatın</translation>
-<translation id="8410111618231938546">Google Widevine, Brave Yazılım'da sahibi olmadığımız ve denetlemediğimiz bir Digital Rights Management (DRM) kodu parçasıdır. Google Widevine kodu bizim sunucularımızdan değil Google sunucularından yüklenir. Sadece bu seçeneği etkinleştirdiğinizde yüklenir. DRM kullanımını teşvik etmiyoruz, fakat kullanıcı tercihlerine saygı duyuyor ve bazı Brave kullanıcılarının bunu gerektiren hizmetleri kullanmak isteyebileceğini biliyoruz.
+<translation id="8410111618231938546">Google Widevine, Dissenter Yazılım'da sahibi olmadığımız ve denetlemediğimiz bir Digital Rights Management (DRM) kodu parçasıdır. Google Widevine kodu bizim sunucularımızdan değil Google sunucularından yüklenir. Sadece bu seçeneği etkinleştirdiğinizde yüklenir. DRM kullanımını teşvik etmiyoruz, fakat kullanıcı tercihlerine saygı duyuyor ve bazı Dissenter kullanıcılarının bunu gerektiren hizmetleri kullanmak isteyebileceğini biliyoruz.
 
 Bu eklentiyi yükleyerek, Google Widevine Kullanım Koşulları'nı kabul etmiş sayılırsınız. Brave'in, Google Widevine kullanımı ile oluşabilecek herhangi bir hasar ya da bağlantı kayıplarından sorumlu olmayacağını kabul etmiş sayılırsınız.</translation>
-<translation id="6499845530162974140">Brave (eski)</translation>
+<translation id="6499845530162974140">Dissenter (eski)</translation>
 <translation id="3198814717959506569">Brave'den içeri aktarıldı</translation>
 <translation id="453977518730680921">Medyaları otomatik oynat</translation>
 <translation id="410351446219883937">Otomatik oynat</translation>
@@ -28,17 +28,17 @@ Bu eklentiyi yükleyerek, Google Widevine Kullanım Koşulları'nı kabul etmiş
 <translation id="3218385319396786393">Bu sayfada otomatik oynatma engellenmiş</translation>
 <translation id="4988333904713528597"><ph name="HOST">$1<ex>mail.google.com</ex></ph> her zaman otomatik oynatmaya izin ver</translation>
 <translation id="4150684676757176434">Oto-Oynatmayı engellemeye devam et</translation>
-<translation id="7543906827780734027">Brave bu uzantıyı henüz incelemedi, kötü amaçlı olabilir. <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" gene de eklensin mi?</translation>
-<translation id="2044383478723007273">Brave renkleri</translation>
-<translation id="6123134130710658846">Brave Ödülleri butonunu gizle</translation>
-<translation id="7635711399568194460">Brave Ödülleri etkin olmadığında konum çubuğundaki Brave Ödülleri butonunu gizler</translation>
+<translation id="7543906827780734027">Dissenter bu uzantıyı henüz incelemedi, kötü amaçlı olabilir. <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" gene de eklensin mi?</translation>
+<translation id="2044383478723007273">Dissenter renkleri</translation>
+<translation id="6123134130710658846">Dissenter Ödülleri butonunu gizle</translation>
+<translation id="7635711399568194460">Dissenter Ödülleri etkin olmadığında konum çubuğundaki Dissenter Ödülleri butonunu gizler</translation>
 <translation id="7965178729203412357">Yeni Tor Kimliği</translation>
 <translation id="8784924142044142231">Tor'dan Çıkış</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Tor Penceresini Aç</translation>
 <translation id="1434416574322382019">Yeni Tor ile Özel Pencere</translation>
 <translation id="4703780849509456860">Bağlantıyı Tor içeren Özel Pencereyle Aç</translation>
-<translation id="3488584642074079080">Tor ile Brave Özel Pencere Açma Linki</translation>
+<translation id="3488584642074079080">Tor ile Dissenter Özel Pencere Açma Linki</translation>
 <translation id="6313675821927505581">Tor ile yeni özel pencere</translation>
 <translation id="2638041073279639246">Bağlantıyı Tor ile özel pencerede aç</translation>
 <translation id="3425600262621021599">Bağlantıyı Brave'de Tor ile özel pencerede aç</translation>

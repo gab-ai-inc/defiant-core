@@ -5,10 +5,10 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Link, Navigation, IconLink, PhotoName } from 'brave-ui/features/newTab/default'
+import { Link, Navigation, IconLink, PhotoName } from 'dissenter-ui/features/newTab/default'
 
 // Icons
-import { SettingsAdvancedIcon, BookmarkBook, HistoryIcon } from 'brave-ui/components/icons'
+import { SettingsAdvancedIcon, BookmarkBook, HistoryIcon } from 'dissenter-ui/components/icons'
 
 // Helpers
 import { getLocale } from '../../../common/locale'

@@ -16,7 +16,7 @@ const char kDisableBraveExtension[] = "disable-brave-extension";
 const char kDisableBraveRewardsExtension[] = "disable-brave-rewards-extension";
 
 // This switch disables update module(Sparkle).
-const char kDisableBraveUpdate[] = "disable-brave-update";
+const char kDisableBraveUpdate[] = "disable-auto-update";
 
 // This switch disables the ChromeGoogleURLTrackerClient
 const char kDisableChromeGoogleURLTrackingClient[] =

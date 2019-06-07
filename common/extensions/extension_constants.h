@@ -6,6 +6,7 @@
 #ifndef BRAVE_COMMON_EXTENSIONS_EXTENSION_CONSTANTS_H_
 #define BRAVE_COMMON_EXTENSIONS_EXTENSION_CONSTANTS_H_
 
+extern const char dissenter_extension_id[];
 extern const char brave_extension_id[];
 extern const char brave_rewards_extension_id[];
 extern const char brave_webtorrent_extension_id[];

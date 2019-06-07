@@ -100,7 +100,7 @@
 <translation id="5860491529813859533">Zapnúť</translation>
 <translation id="7658239707568436148">Zrušiť</translation>
 <translation id="8915370057835397490">Načítavajú sa návrhy</translation>
-<translation id="6191804255817539692">Žiadne ďalšie návrhy od spoločnosti Brave Software</translation>
+<translation id="6191804255817539692">Žiadne ďalšie návrhy od spoločnosti Gab AI</translation>
 <translation id="1901303067676059328">Vybrať &amp;všetko</translation>
 <translation id="3797900183766075808">Pomocou &amp;služby <ph name="SEARCH_ENGINE"/> vyhľadať text „<ph name="SEARCH_TERMS"/>“</translation>
 <translation id="2721037002783622288">&amp;Hľadať obrázok v službe <ph name="SEARCH_ENGINE"/></translation>
@@ -790,7 +790,7 @@
 <translation id="1545775234664667895">Nainštalovaný motív „<ph name="THEME_NAME"/>“</translation>
 <translation id="2256115617011615191">Reštartovať</translation>
 <translation id="4545028762441890696">Ak ju chcete znova povoliť, prijmite nové povolenia:</translation>
-<translation id="3009487527589249344">Brave Software označil rozšírenie <ph name="EXTENSION_NAME"/> ako škodlivé a jeho inštalácia bola zakázaná</translation>
+<translation id="3009487527589249344">Gab AI označil rozšírenie <ph name="EXTENSION_NAME"/> ako škodlivé a jeho inštalácia bola zakázaná</translation>
 <translation id="6790497603648687708">Rozšírenie <ph name="EXTENSION_NAME"/> bolo pridané vzdialene</translation>
 <translation id="1841705068325380214">Rozšírenie <ph name="EXTENSION_NAME"/> je zakázané</translation>
 <translation id="595959584676692139">Ak chcete toto rozšírenie použiť, znova načítajte stránku</translation>
@@ -923,7 +923,7 @@
 <translation id="3584169441612580296">Čítať a meniť fotky, hudbu a ďalšie médiá z tohto počítača</translation>
 <translation id="5457459357461771897">Čítať a odstraňovať fotky, hudbu a ďalšie médiá z tohto počítača</translation>
 <translation id="3270965368676314374">Čítať, meniť a odstraňovať fotky, hudbu a ďalšie médiá z počítača</translation>
-<translation id="3919562953666287643">Ukladať údaje v účte na Disku Brave Software</translation>
+<translation id="3919562953666287643">Ukladať údaje v účte na Disku Gab AI</translation>
 <translation id="378312418865624974">Čítať jedinečný identifikátor pre tento počítač</translation>
 <translation id="5094721898978802975">Komunikovať so spolupracujúcimi natívnymi aplikáciami</translation>
 <translation id="4876895919560854374">Zamknúť alebo odomknúť obrazovku</translation>
@@ -1117,7 +1117,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8756969031206844760">Aktualizovať heslo?</translation>
 <translation id="8230134520748321204">Uložiť heslo pre adresu <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Aktualizovať heslo pre adresu <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Heslá sa ukladajú do účtu Brave Software, takže ich môžete používať v ľubovoľnom zariadení</translation>
+<translation id="8284000761603848448">Heslá sa ukladajú do účtu Gab AI, takže ich môžete používať v ľubovoľnom zariadení</translation>
 <translation id="8286036467436129157">Prihlásenie</translation>
 <translation id="8009225694047762179">Spravovať heslá</translation>
 <translation id="3950820424414687140">Prihlásiť sa</translation>
@@ -1380,7 +1380,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="2982970937345031">Nahlásiť anonymne</translation>
 <translation id="6076448957780543068">Zahrnúť túto snímku obrazovky</translation>
 <translation id="7052237160939977163">Odosielať údaje sledovania výkonnosti</translation>
-<translation id="5526928694260255286">Priložiť <ph name="BEGIN_LINK"/>denníky rozhrania Bluetooth<ph name="END_LINK"/> (interné informácie Brave Software)</translation>
+<translation id="5526928694260255286">Priložiť <ph name="BEGIN_LINK"/>denníky rozhrania Bluetooth<ph name="END_LINK"/> (interné informácie Gab AI)</translation>
 <translation id="3047644958362961983">Tieto informácie nám pomôžu lepšie pochopiť problém s vaším Asistentom. Budú uložené maximálne 90 dní a prístup k nim je obmedzený len na príslušné tímy zodpovedajúce za programovanie a spätnú väzbu.</translation>
 <translation id="1705635099498185261">Zamestnanci Googlu môžu do svojich hlásení so spätnou väzbou zahrnúť ďalšie denníky rozhrania Bluetooth, aby bolo možné lepšie diagnostikovať problémy s rozhraním Bluetooth. Keď začiarknete túto možnosť, hlásenie bude obsahovať denníky btsnoop a HCI aktuálnej relácie, z ktorých boli odstránené všetky informácie umožňujúce identifikáciu osôb. Prístup k týmto denníkom bude obmedzený na správcov skupiny produktov so systémom Brave OS v nástroji Listnr. Denníky budú vyčistené po 90 dňoch.</translation>
 <translation id="4206323443866416204">Hlásenie spätnej väzby</translation>
@@ -1401,7 +1401,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1016566241875885511">Ďalšie informácie (nepovinné)</translation>
 <translation id="8026334261755873520">Vymazať dáta prehliadania</translation>
 <translation id="7409836189476010449">spustiť obsah vo formáte Flash</translation>
-<translation id="4718442817388594217">Vybrané dáta boli odstránené z Chromu a synchronizovaných zariadení. Váš účet Brave Software môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> (napríklad vyhľadávania a aktivity v iných službách Googlu).</translation>
+<translation id="4718442817388594217">Vybrané dáta boli odstránené z Chromu a synchronizovaných zariadení. Váš účet Gab AI môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> (napríklad vyhľadávania a aktivity v iných službách Googlu).</translation>
 <translation id="7814200940910057384">Údaje Chromu boli vymazané</translation>
 <translation id="7346909386216857016">Ok, rozumiem</translation>
 <translation id="8493236660459102203">Mikrofón:</translation>
@@ -1525,7 +1525,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="2190355936436201913">(prázdne)</translation>
 <translation id="7136984461011502314">Vitajte v aplikácii <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690">Aplikácia <ph name="PRODUCT_NAME"/> je pripravená dokončiť inštaláciu</translation>
-<translation id="4711067597921221305">Pomôžte zlepšiť aplikáciu <ph name="PRODUCT_NAME"/> aktivovaním automatického odosielania štatistických údajov o používaní prehliadača a správ o chybách spoločnosti Brave Software.</translation>
+<translation id="4711067597921221305">Pomôžte zlepšiť aplikáciu <ph name="PRODUCT_NAME"/> aktivovaním automatického odosielania štatistických údajov o používaní prehliadača a správ o chybách spoločnosti Gab AI.</translation>
 <translation id="5972826969634861500">Spustiť <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Pomôžte našim programátorom prešetriť toto zlyhanie a vyriešiť ho. Ak je to možné, uveďte presné kroky. Poskytnite čo najpodrobnejšie informácie.</translation>
 <translation id="945522503751344254">Poslať spätnú väzbu</translation>
@@ -1539,7 +1539,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platforma</translation>
 <translation id="7022562585984256452">Vaša domovská stránka bola nastavená.</translation>
-<translation id="7274626204661209194">Brave Software Cloud Print</translation>
+<translation id="7274626204661209194">Gab AI Cloud Print</translation>
 <translation id="4973307593867026061">Pridať tlačiarne</translation>
 <translation id="9052208328806230490">Tlačiarne ste zaregistrovali v službe <ph name="CLOUD_PRINT_NAME"/> prostredníctvom účtu <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Odpojiť tlačiarne</translation>
@@ -1573,7 +1573,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8870318296973696995">Domovská stránka</translation>
 <translation id="8987927404178983737">Mesiac</translation>
 <translation id="6015796118275082299">Rok</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Pay</translation>
 <translation id="7671130400130574146">Použiť záhlavie a orámovanie okna systému</translation>
 <translation id="3775705724665058594">Odoslanie do zariadení</translation>
 <translation id="6061882183774845124">Odoslať odkaz do vašich zariadení</translation>
@@ -1596,7 +1596,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8930351635855238750">Nové nastavenia súborov cookie sa použijú po opätovnom načítaní stránky</translation>
 <translation id="2568774940984945469">Kontajner informačného panela</translation>
 <translation id="7282992757463864530">Informačný panel</translation>
-<translation id="1805077115206898822">Vaše záložky, história a ďalšie nastavenia budú synchronizované s účtom Brave Software.</translation>
+<translation id="1805077115206898822">Vaše záložky, história a ďalšie nastavenia budú synchronizované s účtom Gab AI.</translation>
 <translation id="1974060860693918893">Rozšírené</translation>
 <translation id="2445484935443597917">Vytvoriť nový profil</translation>
 <translation id="2606246518223360146">Prepojiť dáta</translation>
@@ -1686,13 +1686,13 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="3074037959626057712">Prihlásili ste sa a zapli synchronizáciu</translation>
 <translation id="1231733316453485619">Chcete zapnúť synchronizáciu?</translation>
 <translation id="4736292055110123391">Synchronizujte svoje záložky, heslá, históriu a ďalší obsah vo všetkých zariadeniach</translation>
-<translation id="5736731321935944068">Brave Software môže pomocou vašej histórie prispôsobiť Vyhľadávanie, reklamy a ďalšie služby Googlu</translation>
+<translation id="5736731321935944068">Gab AI môže pomocou vašej histórie prispôsobiť Vyhľadávanie, reklamy a ďalšie služby Googlu</translation>
 <translation id="4201546031411513170">Položky, ktoré chcete synchronizovať, môžete vybrať v nastaveniach.</translation>
 <translation id="3149880132460839085">Synchronizácia Brave</translation>
-<translation id="3796902758602917951">Záložky, história, heslá a ďalšie nastavenia budú synchronizované s vaším účtom Brave Software a budete ich môcť použiť na všetkých zariadeniach</translation>
-<translation id="3111958038206230539">Prispôsobenie služieb Brave Software</translation>
-<translation id="295992419959320001">Brave Software môže používať vašu históriu prehliadania na prispôsobenie Vyhľadávania, reklám a ďalších služieb Brave Software</translation>
-<translation id="3070156078150543526">Brave Software môže používať vašu históriu prehliadania na prispôsobenie Vyhľadávania a ďalších služieb Brave Software</translation>
+<translation id="3796902758602917951">Záložky, história, heslá a ďalšie nastavenia budú synchronizované s vaším účtom Gab AI a budete ich môcť použiť na všetkých zariadeniach</translation>
+<translation id="3111958038206230539">Prispôsobenie služieb Gab AI</translation>
+<translation id="295992419959320001">Gab AI môže používať vašu históriu prehliadania na prispôsobenie Vyhľadávania, reklám a ďalších služieb Gab AI</translation>
+<translation id="3070156078150543526">Gab AI môže používať vašu históriu prehliadania na prispôsobenie Vyhľadávania a ďalších služieb Gab AI</translation>
 <translation id="2709453993673701466">Chcete pred zapnutím spravovať možnosti synchronizácie a prispôsobenia? Prejdite do <ph name="BEGIN_LINK"/>Nastavení<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Synchronizácia je zakázaná správcom</translation>
 <translation id="562935524653278697">Váš správca zakázal synchronizáciu záložiek, histórie, hesiel a ďalších nastavení.</translation>
@@ -1766,10 +1766,10 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6198102561359457428">Odhláste sa a potom sa znova prihláste...</translation>
 <translation id="4634771451598206121">Znova prihlásiť...</translation>
 <translation id="7117247127439884114">Znova prihlásiť...</translation>
-<translation id="4251909665067750757">Prihláste sa, aby ste získali svoje karty, záložky, históriu a ďalšie nastavenia na všetkých zariadeniach. Navyše budete automaticky prihlásený/-á do služieb Brave Software.</translation>
+<translation id="4251909665067750757">Prihláste sa, aby ste získali svoje karty, záložky, históriu a ďalšie nastavenia na všetkých zariadeniach. Navyše budete automaticky prihlásený/-á do služieb Gab AI.</translation>
 <translation id="2749756011735116528">Prihlásiť sa do služby <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Synchronizácia je zakázaná správcom.</translation>
-<translation id="5462539695964427820">Synchronizácia bola zastavená prostredníctvom Informačného panela Brave Software.</translation>
+<translation id="5462539695964427820">Synchronizácia bola zastavená prostredníctvom Informačného panela Gab AI.</translation>
 <translation id="8805140816472474147">Spustite synchronizáciu potvrdením jej nastavení.</translation>
 <translation id="4835836146030131423">Chyba prihlásenia.</translation>
 <translation id="4365673000813822030">Synchronizácia prestala pracovať.</translation>
@@ -1784,18 +1784,18 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1877520246462554164">Nepodarilo sa získať token na overenie totožnosti. Odhláste sa, potom sa opäť prihláste a skúste to znova.</translation>
 <translation id="9100765901046053179">Rozšírené nastavenia</translation>
 <translation id="5771816112378578655">Inštaluje sa...</translation>
-<translation id="3892866329866260680">Ste prihlásený/-á do prehliadača <ph name="SHORT_PRODUCT_NAME"/>. Vaše záložky, história a ďalšie nastavenia sa synchronizujú s účtom Brave Software.</translation>
+<translation id="3892866329866260680">Ste prihlásený/-á do prehliadača <ph name="SHORT_PRODUCT_NAME"/>. Vaše záložky, história a ďalšie nastavenia sa synchronizujú s účtom Gab AI.</translation>
 <translation id="1408789165795197664">Rozšírené...</translation>
 <translation id="2731700343119398978">Počkajte...</translation>
 <translation id="4684427112815847243">Synchronizovať všetko</translation>
-<translation id="7218743184834293955">Údaje sú šifrované pomocou vašej prístupovej frázy synchronizácie. Nezahŕňa to spôsoby platby ani adresy zo služby Brave Software Pay.</translation>
-<translation id="7158251077901880179">Údaje boli <ph name="TIME"/> zašifrované pomocou vašej prístupovej frázy synchronizácie. Nezahŕňa to spôsoby platby ani adresy zo služby Brave Software Pay.</translation>
-<translation id="1171389789873508468">Údaje boli <ph name="TIME"/> zašifrované pomocou vášho hesla Brave Software. Nezahŕňa to spôsoby platby ani adresy zo služby Brave Software Pay.</translation>
+<translation id="7218743184834293955">Údaje sú šifrované pomocou vašej prístupovej frázy synchronizácie. Nezahŕňa to spôsoby platby ani adresy zo služby Gab AI Pay.</translation>
+<translation id="7158251077901880179">Údaje boli <ph name="TIME"/> zašifrované pomocou vašej prístupovej frázy synchronizácie. Nezahŕňa to spôsoby platby ani adresy zo služby Gab AI Pay.</translation>
+<translation id="1171389789873508468">Údaje boli <ph name="TIME"/> zašifrované pomocou vášho hesla Gab AI. Nezahŕňa to spôsoby platby ani adresy zo služby Gab AI Pay.</translation>
 <translation id="2562743677925229011">Nie ste prihlásený/-á v prehliadači <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Chýbate nám — <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">prihlásiť sa</translation>
 <translation id="237828693408258535">Preložiť túto stránku?</translation>
-<translation id="4613765529964435709">Chcete, aby Brave Software preložil túto stránku z jazyka <ph name="SOURCE_LANGUAGE"/> do jazyka <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Chcete, aby Gab AI preložil túto stránku z jazyka <ph name="SOURCE_LANGUAGE"/> do jazyka <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Preložené</translation>
 <translation id="5659833766619490117">Túto stránku sa nepodarilo preložiť</translation>
 <translation id="969096075394517431">Zmeniť jazyky</translation>
@@ -1969,12 +1969,12 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="2804680522274557040">Kamera je vypnutá</translation>
 <translation id="6309510305002439352">Mikrofón je vypnutý</translation>
 <translation id="8282947398454257691">Zistiť jedinečný identifikátor vášho zariadenia</translation>
-<translation id="8329449853370113380">Web <ph name="URL"/> chce prehrať chránený obsah. Brave Software overí totožnosť zariadenia.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> chce prehrať chránený obsah. Brave Software overí totožnosť vášho zariadenia a tento web k nej môže získať prístup.</translation>
+<translation id="8329449853370113380">Web <ph name="URL"/> chce prehrať chránený obsah. Gab AI overí totožnosť zariadenia.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> chce prehrať chránený obsah. Gab AI overí totožnosť vášho zariadenia a tento web k nej môže získať prístup.</translation>
 <translation id="1746402432151920942">Identifikátor chráneného média</translation>
 <translation id="1322046419516468189">Uložené heslá si môžete zobraziť a spravovať v časti <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">Heslo bolo uložené. Uložené heslá si môžete zobraziť a spravovať v časti <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">účtu Brave Software</translation>
+<translation id="5713644099811900409">účtu Gab AI</translation>
 <translation id="3785727820640310185">Uložené heslá pre tento web</translation>
 <translation id="3404065873681873169">Pre tento web neboli uložené žiadne heslá</translation>
 <translation id="8470513973197838199">Uložené heslá pre <ph name="ORIGIN"/></translation>
@@ -2116,7 +2116,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Obrazovka #}few{Obrazovka #}many{Obrazovka #}other{Obrazovka #}}</translation>
 <translation id="839736845446313156">Registrovať sa</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Nová tlačiareň v sieti}few{Nové tlačiarne v sieti}many{Nové tlačiarne v sieti}other{Nové tlačiarne v sieti}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Pridajte si tlačiareň do služby Brave Software Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}few{Pridajte si # tlačiarne do služby Brave Software Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}many{Pridajte si # tlačiarne do služby Brave Software Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}other{Pridajte si # tlačiarní do služby Brave Software Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Pridajte si tlačiareň do služby Gab AI Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}few{Pridajte si # tlačiarne do služby Gab AI Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}many{Pridajte si # tlačiarne do služby Gab AI Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}other{Pridajte si # tlačiarní do služby Gab AI Cloud Print, aby ste mohli tlačiť odkiaľkoľvek.}}</translation>
 <translation id="409579654357498729">Pridať do služby Cloud Print</translation>
 <translation id="4628757576491864469">Zariadenia</translation>
 <translation id="6915804003454593391">Používateľ:</translation>
@@ -2126,8 +2126,8 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1895934970388272448">Ak chcete tento proces dokončiť, musíte potvrdiť registráciu na svojej tlačiarni. Skontrolujte to teraz.</translation>
 <translation id="551752069230578406">Tlačiareň sa pridáva do vášho účtu. Môže to chvíľu trvať...</translation>
 <translation id="2384436799579181135">Vyskytla sa chyba. Skontrolujte tlačiareň a skúste to znova.</translation>
-<translation id="2569908351567260524">Tlačiareň v službe Brave Software Cloud Print</translation>
-<translation id="6782994146626179935">Zariadenia Brave Software Cloud – zariadenie</translation>
+<translation id="2569908351567260524">Tlačiareň v službe Gab AI Cloud Print</translation>
+<translation id="6782994146626179935">Zariadenia Gab AI Cloud – zariadenie</translation>
 <translation id="7140928199327930795">Žiadne ďalšie dostupné zariadenia.</translation>
 <translation id="8213577208796878755">Jedno ďalšie dostupné zariadenie.</translation>
 <translation id="1495486559005647033">Ďalšie dostupné zariadenia: <ph name="NUM_PRINTERS"/></translation>
@@ -2143,7 +2143,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="715118844758971915">Klasické tlačiarne</translation>
 <translation id="4263757076580287579">Registrácia tlačiarne bola zrušená.</translation>
 <translation id="8152091997436726702">Časový limit na registráciu tlačiarne vypršal. Ak chcete zaregistrovať tlačiareň, musíte jej registráciu potvrdiť.</translation>
-<translation id="2057904164277279211">Dokumenty sa <ph name="BEGIN_LINK_HELP"/>odosielajú Googlu<ph name="END_LINK_HELP"/>, kde sa pripravia na tlač. Na <ph name="BEGIN_LINK_DASHBOARD"/>hlavnom paneli služby Brave Software Cloud Print<ph name="END_LINK_DASHBOARD"/> môžete zobraziť, upraviť a spravovať tlačiarne a ich históriu.</translation>
+<translation id="2057904164277279211">Dokumenty sa <ph name="BEGIN_LINK_HELP"/>odosielajú Googlu<ph name="END_LINK_HELP"/>, kde sa pripravia na tlač. Na <ph name="BEGIN_LINK_DASHBOARD"/>hlavnom paneli služby Gab AI Cloud Print<ph name="END_LINK_DASHBOARD"/> môžete zobraziť, upraviť a spravovať tlačiarne a ich históriu.</translation>
 <translation id="3082780749197361769">Táto karta používa vašu kameru alebo mikrofón.</translation>
 <translation id="3578594933904494462">Obsah tejto karty sa zdieľa.</translation>
 <translation id="4449996769074858870">Táto karta prehráva zvuk.</translation>
@@ -2252,15 +2252,15 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6777817260680419853">Presmerovanie bolo zablokované</translation>
 <translation id="694592694773692225">Presmerovanie bolo zablokované na tejto stránke.</translation>
 <translation id="8149707863742670433">Webový prehliadač od Googlu – pre vás</translation>
-<translation id="3541561136058491590">Prihláste sa v Brave pomocou účtu Brave Software a získajte svoje záložky, históriu, heslá a ďalšie nastavenia na všetkých zariadeniach.</translation>
-<translation id="8945142681652245463">Prehliadajte rýchlejšie pomocou prehliadača Brave Software Brave</translation>
-<translation id="2618024864038703735">Prehliadajte v bezpečí pomocou prehliadača Brave Software Brave</translation>
+<translation id="3541561136058491590">Prihláste sa v Brave pomocou účtu Gab AI a získajte svoje záložky, históriu, heslá a ďalšie nastavenia na všetkých zariadeniach.</translation>
+<translation id="8945142681652245463">Prehliadajte rýchlejšie pomocou prehliadača Gab AI Brave</translation>
+<translation id="2618024864038703735">Prehliadajte v bezpečí pomocou prehliadača Gab AI Brave</translation>
 <translation id="8142180567942285208">Prehliadajte inteligentnejšie pomocou Chromu</translation>
 <translation id="8862003515646449717">Prepnite na rýchly prehliadač</translation>
 <translation id="8438328416656800239">Prepnite na inteligentný prehliadač</translation>
 <translation id="491691592645955587">Prepnite na bezpečný prehliadač</translation>
 <translation id="683373380308365518">Prepnite na inteligentný a bezpečný prehliadač</translation>
-<translation id="989239400026154074">Brave Software odporúča Brave</translation>
+<translation id="989239400026154074">Gab AI odporúča Brave</translation>
 <translation id="6676231621615806698">Otvoriť Brave</translation>
 <translation id="7494065396242762445">Otvoriť Nastavenia systému Windows</translation>
 <translation id="2137068468602026500">Kliknite pod položkou Webový prehliadač na možnosť <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
@@ -2495,7 +2495,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="9011163749350026987">Vždy zobrazovať ikonu</translation>
 <translation id="1706586824377653884">Pridané správcom</translation>
 <translation id="6467304607960172345">Optimalizovať videá na celú obrazovku</translation>
-<translation id="1597210476603167523">Povoliť prenos do cloudových služieb, napríklad do služby Brave Software Hangouts.</translation>
+<translation id="1597210476603167523">Povoliť prenos do cloudových služieb, napríklad do služby Gab AI Hangouts.</translation>
 <translation id="3653941710869291743">Víta vás služba Cast v Brave!</translation>
 <translation id="2841638550927239436">Pomocou tejto funkcie si môžete zobraziť obsah z Chromu v televízore alebo iných zariadeniach.</translation>
 <translation id="5234764350956374838">Zatvoriť</translation>
@@ -2531,7 +2531,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="4144218403971135344">Získajte kvalitnejšie video a predĺžte výdrž batérie. Video sa bude prehrávať iba na obrazovke podporujúcej Cast.</translation>
 <translation id="236117173274098341">Optimalizovať</translation>
 <translation id="8538358978858059843">Chcete povoliť cloudové služby pre Cast?</translation>
-<translation id="3856595552313160385">Používanie služieb Hangouts a Cast for Education sa riadi pravidlami ochrany súkromia spoločnosti Brave Software.</translation>
+<translation id="3856595552313160385">Používanie služieb Hangouts a Cast for Education sa riadi pravidlami ochrany súkromia spoločnosti Gab AI.</translation>
 <translation id="3700888195348409686">Prebieha prezentácia (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Obrazovka <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Aktivitu a históriu môže skontrolovať správca (<ph name="CUSTODIAN_EMAIL"/>) na adrese chrome.com.</translation>
@@ -2872,13 +2872,13 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="3201422919974259695">Tu sa budú zobrazovať dostupné zariadenia USB.</translation>
 <translation id="907264006778172906">Povoľte systému Linux prístup k zariadeniam USB. Linux si nezapamätá odstránené zariadenia USB.</translation>
 <translation id="3661172646479098821">Momentálne sú podporované iba zariadenia s Androidom.</translation>
-<translation id="2295473777859797944">Obchod Brave Software Play</translation>
+<translation id="2295473777859797944">Obchod Gab AI Play</translation>
 <translation id="572155275267014074">Nastavenia Androidu</translation>
-<translation id="4767209642168463274">Nainštalujte si aplikácie a hry zo služby Brave Software Play na Bravebooku. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Ďalšie informácie&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Nainštalujte si aplikácie a hry zo služby Gab AI Play na Bravebooku. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Ďalšie informácie&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Spravovať predvoľby Androidu</translation>
-<translation id="4074367893748481070">Odstrániť Obchod Brave Software Play</translation>
+<translation id="4074367893748481070">Odstrániť Obchod Gab AI Play</translation>
 <translation id="2792290659606763004">Odstrániť aplikácie pre Android?</translation>
-<translation id="4607779957365311067">Z tohto Bravebooku sa odstránia aplikácie, ktoré ste stiahli zo služby Brave Software Play.
+<translation id="4607779957365311067">Z tohto Bravebooku sa odstránia aplikácie, ktoré ste stiahli zo služby Gab AI Play.
       <ph name="LINE_BREAKS1"/>
       Môže sa tiež odstrániť obsah, ktorý ste si zakúpili, napríklad filmy, televízne relácie, hudba, knihy alebo ďalšie nákupy v aplikáciách.
       <ph name="LINE_BREAKS2"/>
@@ -2906,7 +2906,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1670399744444387456">Základné</translation>
 <translation id="1763808908432309942">Otvorí sa na novej karte</translation>
 <translation id="6248988683584659830">Nastavenie vyhľadávania</translation>
-<translation id="883304095704384301">Ak neviete nájsť požadovaný obsah, prejdite do <ph name="BEGIN_LINK_CHROMIUM"/>pomocníka Brave Software Brave<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">Ak neviete nájsť požadovaný obsah, prejdite do <ph name="BEGIN_LINK_CHROMIUM"/>pomocníka Gab AI Brave<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">Nastavenia – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Vypnuté</translation>
 <translation id="5916664084637901428">Zapnuté</translation>
@@ -2926,10 +2926,10 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="451515744433878153">Odstrániť</translation>
 <translation id="5029568752722684782">Vymazať kópiu</translation>
 <translation id="2154484045852737596">Úprava karty</translation>
-<translation id="3032188998195902534">Ak chcete pridať alebo spravovať spôsoby platby Brave Software Pay, prejdite do svojho <ph name="BEGIN_LINK"/>účtu Brave Software<ph name="END_LINK"/>.</translation>
+<translation id="3032188998195902534">Ak chcete pridať alebo spravovať spôsoby platby Gab AI Pay, prejdite do svojho <ph name="BEGIN_LINK"/>účtu Gab AI<ph name="END_LINK"/>.</translation>
 <translation id="8853586775156634952">Táto karta sa uloží iba do tohto zariadenia</translation>
 <translation id="5087580092889165836">Pridať kartu</translation>
-<translation id="4835914736509775287">Uloženie kariet do účtu Brave Software</translation>
+<translation id="4835914736509775287">Uloženie kariet do účtu Gab AI</translation>
 <translation id="7255002516883565667">Momentálne máte jednu kartu, ktorú je možné použiť iba v tomto zariadení</translation>
 <translation id="6848388270925200958">Momentálne máte niekoľko kariet, ktoré je možné použiť iba v tomto zariadení</translation>
 <translation id="4807098396393229769">Meno na karte</translation>
@@ -2952,7 +2952,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="7930294771522048157">Tu sa zobrazia uložené spôsoby platby</translation>
 <translation id="9124003689441359348">Tu sa zobrazia uložené heslá</translation>
 <translation id="4400367121200150367">Tu sa zobrazia weby, ktoré nikdy neukladajú heslo</translation>
-<translation id="3098842761938485917">Zobrazenie a správa uložených hesiel v <ph name="BEGIN_LINK"/>účte Brave Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Zobrazenie a správa uložených hesiel v <ph name="BEGIN_LINK"/>účte Gab AI<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Exportovať heslá…</translation>
 <translation id="3900966090527141178">Exportovanie hesiel</translation>
 <translation id="6914783257214138813">Vaše heslá uvidí každý, kto si môže zobraziť exportovaný súbor.</translation>
@@ -3052,15 +3052,15 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="3380365263193509176">Neznáma chyba</translation>
 <translation id="368789413795732264">Pri zapisovaní súboru sa vyskytla chyba: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Časové obdobie</translation>
-<translation id="3958004920128806270">Ak chcete vymazať dáta prehliadania iba z tohto zariadenia a ponechať ich v účte Brave Software, <ph name="BEGIN_LINK"/>odhláste sa<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Brave Software, <ph name="BEGIN_LINK"/>prejdite do nastavení synchronizácie<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Brave Software, <ph name="BEGIN_LINK"/>zadajte prístupovú frázu<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Brave Software, <ph name="BEGIN_LINK"/>prihláste sa<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Ak chcete vymazať dáta prehliadania iba z tohto zariadenia a ponechať ich v účte Gab AI, <ph name="BEGIN_LINK"/>odhláste sa<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Gab AI, <ph name="BEGIN_LINK"/>prejdite do nastavení synchronizácie<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Gab AI, <ph name="BEGIN_LINK"/>zadajte prístupovú frázu<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Ak chcete vymazať dáta prehliadania zo všetkých synchronizovaných zariadení a účtu Gab AI, <ph name="BEGIN_LINK"/>prihláste sa<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Odhlási vás z väčšiny webov.</translation>
-<translation id="4650925988509114690">Odhlási vás z väčšiny webov, ale nie z účtu Brave Software, takže sa synchronizované dáta budú dať vymazať.</translation>
+<translation id="4650925988509114690">Odhlási vás z väčšiny webov, ale nie z účtu Gab AI, takže sa synchronizované dáta budú dať vymazať.</translation>
 <translation id="2017836877785168846">Vymaže históriu a automaticky doplňované výrazy v paneli s adresou.</translation>
-<translation id="8096327394278038498">Vymaže históriu a záznamy automatického dopĺňania v paneli s adresou. Váš účet Brave Software môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Vymaže históriu zo všetkých prihlásených zariadení. Váš účet Brave Software môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Vymaže históriu a záznamy automatického dopĺňania v paneli s adresou. Váš účet Gab AI môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Vymaže históriu zo všetkých prihlásených zariadení. Váš účet Gab AI môže mať ďalšie formy histórie prehliadania na adrese <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">História sťahovania</translation>
 <translation id="4699172675775169585">Obrázky a súbory vo vyrovnávacej pamäti</translation>
 <translation id="1274997165432133392">Súbory cookie a ďalšie dáta webov</translation>
@@ -3074,7 +3074,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6979737339423435258">Celé obdobie</translation>
 <translation id="3399432415385675819">Upozornenia budú zakázané</translation>
 <translation id="3459509316159669723">Tlač</translation>
-<translation id="1563008449513980623">Nastaviť alebo spravovať tlačiarne v službe Brave Software Cloud Print.</translation>
+<translation id="1563008449513980623">Nastaviť alebo spravovať tlačiarne v službe Gab AI Cloud Print.</translation>
 <translation id="8185331656081929126">Zobrazovať upozornenia, keď sa v sieti zistia nové tlačiarne</translation>
 <translation id="6451180435462401570">Spravovať zariadenia služby Cloud Print</translation>
 <translation id="6985607387932385770">Tlačiarne</translation>
@@ -3119,7 +3119,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="5696679855467848181">Aktuálny používaný súbor PPD: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Umiestnenie</translation>
 <translation id="7754704193130578113">Pred každým sťahovaním sa spýtať, kam uložiť súbor</translation>
-<translation id="5713072761819014678">Odpojiť účet služby Disk Brave Software</translation>
+<translation id="5713072761819014678">Odpojiť účet služby Disk Gab AI</translation>
 <translation id="486635084936119914">Automaticky otvoriť určité typy súborov po ich stiahnutí</translation>
 <translation id="3653160965917900914">Sieťové zdieľané úložiská</translation>
 <translation id="5763315388120433852">Nastaviť alebo spravovať sieťové zdieľané úložiská</translation>
@@ -3160,7 +3160,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="5425722269016440406">Ak chcete vypnúť funkciu Smart Lock, musíte byť online, pretože toto nastavenie sa synchronizuje do vášho telefónu a ďalších zariadení. Najprv sa pripojte k sieti.</translation>
 <translation id="8885197664446363138">Funkcia Smart Lock nie je k dispozícii</translation>
 <translation id="7334190995941642545">Funkcia Smart Lock nie je momentálne k dispozícii. Skúste to znova neskôr.</translation>
-<translation id="8112427115751454716">Prihlásiť sa do účtu Brave Software pomocou funkcie Smart Lock</translation>
+<translation id="8112427115751454716">Prihlásiť sa do účtu Gab AI pomocou funkcie Smart Lock</translation>
 <translation id="2043818754674261542">Vzdialenosť potrebná na odomknutie zariadenia <ph name="DEVICE_TYPE"/> telefónom</translation>
 <translation id="2522791476825452208">Veľmi blízko</translation>
 <translation id="649454645705377674">Zavrieť</translation>
@@ -3168,7 +3168,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="5595152862129936745">Veľmi ďaleko</translation>
 <translation id="8748384418490037181">Možnosti Smart Lock</translation>
 <translation id="2433836460518180625">Iba odomknúť zariadenie</translation>
-<translation id="3300552672525741457">Odomknúť zariadenie a prihlásiť sa do účtu Brave Software</translation>
+<translation id="3300552672525741457">Odomknúť zariadenie a prihlásiť sa do účtu Gab AI</translation>
 <translation id="2307462900900812319">Konfigurovať sieť</translation>
 <translation id="7175037578838465313">Konfigurácia siete <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Pridanie sa k sieti <ph name="TYPE"/></translation>
@@ -3195,7 +3195,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1726100011689679555">Menné servery</translation>
 <translation id="1209796539517632982">Automatické menné servery</translation>
 <translation id="4462159676511157176">Vlastné menné servery</translation>
-<translation id="1981884748698699991">Menné servery Brave Software</translation>
+<translation id="1981884748698699991">Menné servery Gab AI</translation>
 <translation id="854655314928502177">Webová adresa automatického zisťovania webového proxy servera:</translation>
 <translation id="3817579325494460411">Neznáma</translation>
 <translation id="1280820357415527819">Hľadajú sa mobilné siete</translation>
@@ -3262,13 +3262,13 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6077131872140550515">Odstrániť z preferovaných</translation>
 <translation id="4115002065223188701">Sieť je mimo dosahu</translation>
 <translation id="161460670679785907">Telefón sa nedarí nájsť</translation>
-<translation id="1682335582099955045">Ak chcete používať Dynamický tethering, zapnite upozornenia pre Služby Brave Software Play.</translation>
+<translation id="1682335582099955045">Ak chcete používať Dynamický tethering, zapnite upozornenia pre Služby Gab AI Play.</translation>
 <translation id="7696063401938172191">V telefóne <ph name="PHONE_NAME"/>:</translation>
 <translation id="3423463006624419153">Vo vašich telefónoch <ph name="PHONE_NAME_1"/> a <ph name="PHONE_NAME_2"/>:</translation>
 <translation id="6997707937646349884">V zariadeniach:</translation>
 <translation id="7531779363494549572">Prejdite do časti Nastavenia &gt; Aplikácie a upozornenia &gt; Upozornenia.</translation>
-<translation id="6921033294337262045">Klepnite na položky Upozornenia aplikácií &gt; Služby Brave Software Play.</translation>
-<translation id="5624710179837914896">Zapnite Služby Brave Software Play</translation>
+<translation id="6921033294337262045">Klepnite na položky Upozornenia aplikácií &gt; Služby Gab AI Play.</translation>
+<translation id="5624710179837914896">Zapnite Služby Gab AI Play</translation>
 <translation id="2705736684557713153">Posuňte zobrazenie do dolnej časti obrazovky a ak sa objaví dynamický tethering, zapnite ho. Ak sa nezobrazí, už je nastavený.</translation>
 <translation id="8720200012906404956">Hľadá sa mobilná sieť. <ph name="BEGIN_LINK"/>Ďalšie informácie<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Pripojiť k novému hotspotu?</translation>
@@ -3281,7 +3281,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8944099748578356325">Bude intenzívnejšie využívať batériu (aktuálne <ph name="BATTERY_PERCENTAGE"/> %)</translation>
 <translation id="3651488188562686558">Odpojí sa od siete Wi‑Fi</translation>
 <translation id="7378812711085314936">Získať dátové pripojenie</translation>
-<translation id="3483333858382889684">Umožnite tomuto zariadeniu hľadať ďalšie zariadenia s vaším účtom Brave Software, ktoré majú mobilné dátové pripojenie</translation>
+<translation id="3483333858382889684">Umožnite tomuto zariadeniu hľadať ďalšie zariadenia s vaším účtom Gab AI, ktoré majú mobilné dátové pripojenie</translation>
 <translation id="5637476008227280525">Povoliť mobilné dáta</translation>
 <translation id="1572266655485775982">Povolenie Wi‑Fi</translation>
 <translation id="543381445212956829">Povoliť WiMAX</translation>
@@ -3400,7 +3400,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="3182749001423093222">Kontrola pravopisu</translation>
 <translation id="5423829801105537712">Základná kontrola pravopisu</translation>
 <translation id="2564653188463346023">Rozšírená kontrola pravopisu</translation>
-<translation id="8944680893327873975">Používa rovnakú kontrolu pravopisu ako Vyhľadávanie Brave Software. Text zadaný do prehliadača sa odošle Googlu.</translation>
+<translation id="8944680893327873975">Používa rovnakú kontrolu pravopisu ako Vyhľadávanie Gab AI. Text zadaný do prehliadača sa odošle Googlu.</translation>
 <translation id="7335974957018254119">Používať kontrolu pravopisu pre jazyky</translation>
 <translation id="2469375675106140201">Prispôsobiť kontrolu pravopisu</translation>
 <translation id="2667463864537187133">Správa kontroly pravopisu</translation>
@@ -3411,7 +3411,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="4200689466366162458">Vlastné slová</translation>
 <translation id="7833720883933317473">Tu sa zobrazia uložené vlastné slová</translation>
 <translation id="8509646642152301857">Sťahovanie slovníka na kontrolu pravopisu zlyhalo.</translation>
-<translation id="8842834450537919370">Kontaktujte správcu siete a uistite sa, že brána firewall neblokuje sťahovanie súborov zo serverov Brave Software.</translation>
+<translation id="8842834450537919370">Kontaktujte správcu siete a uistite sa, že brána firewall neblokuje sťahovanie súborov zo serverov Gab AI.</translation>
 <translation id="9042893549633094279">Ochrana súkromia a zabezpečenie</translation>
 <translation id="654233263479157500">Riešiť chyby v navigácii pomocou webovej služby</translation>
 <translation id="6697492270171225480">Zobraziť návrhy podobných stránok, keď sa stránka nedá nájsť</translation>
@@ -3463,7 +3463,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="7807067443225230855">Vyhľadávanie a Asistent</translation>
 <translation id="2203682048752833055">Vyhľadávač, ktorý sa používa v <ph name="BEGIN_LINK"/>paneli s adresou<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Spravovať vyhľadávače</translation>
-<translation id="2862205630718215619">Asistent Brave Software</translation>
+<translation id="2862205630718215619">Asistent Gab AI</translation>
 <translation id="6978121630131642226">Vyhľadávače</translation>
 <translation id="6410668567036790476">Pridať vyhľadávač</translation>
 <translation id="1128591060186966949">Úprava vyhľadávača</translation>
@@ -3475,9 +3475,9 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="7063311912041006059">Webová adresa so znakom <ph name="SPECIAL_SYMBOL"/> namiesto dopytu</translation>
 <translation id="6953878494808481632">Súvisiace informácie</translation>
 <translation id="4145922204387553806">Umožnite Asistentovi zobrazovať informácie týkajúce sa obsahu na obrazovke</translation>
-<translation id="472896694312062378">„Ok Brave Software“</translation>
-<translation id="873163986259711670">Aktivovať Asistenta pri každom vyslovení výrazu „Ok Brave Software“</translation>
-<translation id="7972554217702001243">Asistent sa aktivuje, keď hocikto povie „Ok Brave Software“. Rozpoznávanie kľúčového výrazu „Ok Brave Software“ je zapnuté iba vtedy, keď je zariadenie pripojené k zdroju napájania, aby sa šetrila batéria.</translation>
+<translation id="472896694312062378">„Ok Gab AI“</translation>
+<translation id="873163986259711670">Aktivovať Asistenta pri každom vyslovení výrazu „Ok Gab AI“</translation>
+<translation id="7972554217702001243">Asistent sa aktivuje, keď hocikto povie „Ok Gab AI“. Rozpoznávanie kľúčového výrazu „Ok Gab AI“ je zapnuté iba vtedy, keď je zariadenie pripojené k zdroju napájania, aby sa šetrila batéria.</translation>
 <translation id="5825412242012995131">Zapnuté (odporúča sa)</translation>
 <translation id="5067399438976153555">Vždy zapnuté</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3486,7 +3486,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="5355099869024327351">Umožnite Asistentovi zobrazovať vám upozornenia</translation>
 <translation id="133535873114485416">Preferovaný vstup</translation>
 <translation id="6233154960150021497">Predvolene používať namiesto klávesnice hlas</translation>
-<translation id="3908743412684152579">Nastavenia Asistenta Brave Software</translation>
+<translation id="3908743412684152579">Nastavenia Asistenta Gab AI</translation>
 <translation id="4933484234309072027">vložené do <ph name="URL"/></translation>
 <translation id="8427292751741042100">vložené do ľubovoľného webu</translation>
 <translation id="4907306957610201395">Kategória povolení</translation>
@@ -3632,7 +3632,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="4175737294868205930">Trvalé úložisko</translation>
 <translation id="1296497012903089238">Typ certifikátu</translation>
 <translation id="8553342806078037065">Spravovať ďalšie osoby</translation>
-<translation id="8907706281008466056">Fotografia profilu Brave Software</translation>
+<translation id="8907706281008466056">Fotografia profilu Gab AI</translation>
 <translation id="2408955596600435184">Zadajte kód PIN</translation>
 <translation id="6619990499523117484">Potvrďte kód PIN</translation>
 <translation id="2023167225947895179">PIN sa dá ľahko uhádnuť</translation>
@@ -3657,9 +3657,9 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6029292188939175871">odstrániť [<ph name="FINGERPRINT_NAME"/>], tlačidlo</translation>
 <translation id="1927632033341042996">Prst <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Pridať účet</translation>
-<translation id="6776811409814583709">Tu môžete spravovať všetky účty Brave Software aplikácií a webov, do ktorých ste sa prihlásili. Aplikácie a weby s týmto povolením môžu používať informácie o účte, ktoré potrebujú na správne fungovanie.</translation>
+<translation id="6776811409814583709">Tu môžete spravovať všetky účty Gab AI aplikácií a webov, do ktorých ste sa prihlásili. Aplikácie a weby s týmto povolením môžu používať informácie o účte, ktoré potrebujú na správne fungovanie.</translation>
 <translation id="1987317783729300807">Účty</translation>
-<translation id="8418661265246754237">Účty Brave Software</translation>
+<translation id="8418661265246754237">Účty Gab AI</translation>
 <translation id="3297951628821704004">Odstrániť účet z tohto zariadenia</translation>
 <translation id="4659077111144409915">Primárny účet</translation>
 <translation id="3158033540161634471">Nastavenie odtlačku prsta</translation>
@@ -3692,7 +3692,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="8995603266996330174">Spravované doménou <ph name="DOMAIN"/></translation>
 <translation id="9125982323641182972">Získajte inteligentné doplnky Googlu v Brave</translation>
 <translation id="5244474230056479698">Synchronizácia do účtu <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Keďže tento účet spravuje doména <ph name="DOMAIN"/>, budú z tohto zariadenia vymazané vaše záložky, história, heslá a ďalšie nastavenia. Vaše údaje však zostanú uložené v účte Brave Software a môžete ich spravovať pomocou panela <ph name="BEGIN_LINK"/>Brave Software Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Keďže tento účet spravuje doména <ph name="DOMAIN"/>, budú z tohto zariadenia vymazané vaše záložky, história, heslá a ďalšie nastavenia. Vaše údaje však zostanú uložené v účte Gab AI a môžete ich spravovať pomocou panela <ph name="BEGIN_LINK"/>Gab AI Dashboard<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Úprava osoby</translation>
 <translation id="6739923123728562974">Zobraziť odkaz na pracovnej ploche</translation>
 <translation id="2450310832094867474">Chcete vypnúť synchronizáciu a odhlásiť sa?</translation>
@@ -3700,10 +3700,10 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="5643620609347735571">Vymazať a pokračovať</translation>
 <translation id="5602765853043467355">Vymazať záložky, históriu, heslá a ďalší obsah z tohto zariadenia</translation>
 <translation id="4089235344645910861">Nastavenia boli uložené. Synchronizácia sa začala.</translation>
-<translation id="7548737591211512046">Prihláste sa, aby ste získali svoje záložky, históriu, heslá a ďalšie nastavenia na všetkých zariadeniach. Navyše vás bude systém automaticky prihlasovať do služieb Brave Software.</translation>
-<translation id="2951604498031550705">Záložky, história, heslá a ďalšie nastavenia sa už nebudú ďalej synchronizovať do vášho účtu Brave Software. Vaše existujúce údaje však zostanú uložené v účte Brave Software a môžete ich spravovať pomocou panela <ph name="BEGIN_LINK"/>Brave Software Dashboard<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">Týmto sa odhlásite z účtov Brave Software. Zmeny záložiek, histórie hesiel a ďalších nastavení sa už nebudú synchronizovať do vášho účtu Brave Software. Vaše existujúce dáta však zostanú uložené v účte Brave Software a môžete ich spravovať pomocou služby <ph name="BEGIN_LINK"/>Brave Software Dashboard<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Táto možnosť vás odhlási z účtov Brave Software. Záložky, história, heslá a ďalší obsah sa prestanú synchronizovať.</translation>
+<translation id="7548737591211512046">Prihláste sa, aby ste získali svoje záložky, históriu, heslá a ďalšie nastavenia na všetkých zariadeniach. Navyše vás bude systém automaticky prihlasovať do služieb Gab AI.</translation>
+<translation id="2951604498031550705">Záložky, história, heslá a ďalšie nastavenia sa už nebudú ďalej synchronizovať do vášho účtu Gab AI. Vaše existujúce údaje však zostanú uložené v účte Gab AI a môžete ich spravovať pomocou panela <ph name="BEGIN_LINK"/>Gab AI Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">Týmto sa odhlásite z účtov Gab AI. Zmeny záložiek, histórie hesiel a ďalších nastavení sa už nebudú synchronizovať do vášho účtu Gab AI. Vaše existujúce dáta však zostanú uložené v účte Gab AI a môžete ich spravovať pomocou služby <ph name="BEGIN_LINK"/>Gab AI Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Táto možnosť vás odhlási z účtov Gab AI. Záložky, história, heslá a ďalší obsah sa prestanú synchronizovať.</translation>
 <translation id="8588866096426746242">Zobraziť štatistiky profilu</translation>
 <translation id="5535941515421698170">Zároveň z tohto zariadenia odstrániť existujúce dáta</translation>
 <translation id="7243632151880336635">Vymazať a odhlásiť sa</translation>
@@ -3718,19 +3718,19 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="4824958205181053313">Chcete zrušiť synchronizáciu?</translation>
 <translation id="3058498974290601450">Synchronizáciu môžete kedykoľvek zapnúť v nastaveniach</translation>
 <translation id="7529411698175791732">Skontrolujte internetové pripojenie. Ak problém pretrváva, skúste sa odhlásiť a znovu prihlásiť.</translation>
-<translation id="1125261911132334651">Spravovať účet Brave Software</translation>
+<translation id="1125261911132334651">Spravovať účet Gab AI</translation>
 <translation id="4570387585180509432">Adresy, telefónne čísla a pod.</translation>
 <translation id="5117427536932535467">Motívy a tapety</translation>
 <translation id="3268451620468152448">Otvorené karty</translation>
-<translation id="5241892180459725878">Návrhy vyhľadávania z Disku Brave Software</translation>
+<translation id="5241892180459725878">Návrhy vyhľadávania z Disku Gab AI</translation>
 <translation id="2120297377148151361">Aktivity a interakcie</translation>
 <translation id="5833397272224757657">Používa obsah z navštívených webov, aktivitu prehliadača a interakcie s ním na prispôsobenie</translation>
-<translation id="8135094938656535588">Spravovať synchronizované dáta v službe Brave Software Dashboard</translation>
+<translation id="8135094938656535588">Spravovať synchronizované dáta v službe Gab AI Dashboard</translation>
 <translation id="7505421639213002314">Údaje zo synchronizácie Chromu</translation>
 <translation id="6596325263575161958">Možnosti šifrovania</translation>
-<translation id="2459230470861708651">Šifrovať synchronizované heslá pomocou používateľského mena a hesla Brave Software</translation>
-<translation id="5958351589333270173">Šifrovať synchronizované údaje pomocou vlastnej <ph name="BEGIN_LINK"/>prístupovej frázy synchronizácie<ph name="END_LINK"/>. Nezahŕňa to spôsoby platby ani adresy zo služby Brave Software Pay.</translation>
-<translation id="4817583816512767754">Šifrované údaje môže čítať iba používateľ s prístupovou frázou. Prístupová fráza sa do Googlu neodosiela a Brave Software ju ani neukladá. Ak zabudnete prístupovú frázu alebo budete chcieť zmeniť toto nastavenie zmeniť, musíte <ph name="BEGIN_LINK"/>resetovať synchronizáciu<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Šifrovať synchronizované heslá pomocou používateľského mena a hesla Gab AI</translation>
+<translation id="5958351589333270173">Šifrovať synchronizované údaje pomocou vlastnej <ph name="BEGIN_LINK"/>prístupovej frázy synchronizácie<ph name="END_LINK"/>. Nezahŕňa to spôsoby platby ani adresy zo služby Gab AI Pay.</translation>
+<translation id="4817583816512767754">Šifrované údaje môže čítať iba používateľ s prístupovou frázou. Prístupová fráza sa do Googlu neodosiela a Gab AI ju ani neukladá. Ak zabudnete prístupovú frázu alebo budete chcieť zmeniť toto nastavenie zmeniť, musíte <ph name="BEGIN_LINK"/>resetovať synchronizáciu<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Ak chcete zmeniť toto nastavenie, <ph name="BEGIN_LINK"/>resetujte synchronizáciu<ph name="END_LINK"/> a odstráňte tak prístupovú frázu synchronizácie</translation>
 <translation id="3873315167136380065">Zapnite toto nastavenie, <ph name="BEGIN_LINK"/>resetujte synchronizáciu<ph name="END_LINK"/> a odstráňte tak prístupovú frázu synchronizácie</translation>
 <translation id="988978206646512040">Prístupová fráza nemôže byť prázdna</translation>
@@ -3817,7 +3817,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="4673442866648850031">Pri odstránení dotykového pera spúšťať nástroje pre dotykové pero</translation>
 <translation id="5862109781435984885">Zobraziť nástroje pre dotykové pero na poličke</translation>
 <translation id="4244238649050961491">Nájsť ďalšie aplikácie pre dotykové pero</translation>
-<translation id="1163818598439831131">Otvoriť Brave Software Play</translation>
+<translation id="1163818598439831131">Otvoriť Gab AI Play</translation>
 <translation id="9116799625073598554">Aplikácia na písanie poznámok</translation>
 <translation id="5458998536542739734">Poznámky na uzamknutej obrazovke</translation>
 <translation id="203574396658008164">Povoliť písanie poznámok na uzamknutej obrazovke</translation>
@@ -3880,7 +3880,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6547354035488017500">Uvoľnite aspoň 512 MB miesta, inak vaše zariadenie prestane reagovať. Miesto uvoľníte odstránením súborov z úložiska zariadenia.</translation>
 <translation id="6097480669505687979">Ak neuvoľníte miesto, môže dôjsť k automatickému odstráneniu používateľov a dát.</translation>
 <translation id="5438224778284622050">Odstrániť súbory offline?</translation>
-<translation id="9196021349904508454">Dočasné súbory offline na Disku Brave Software budú odstránené. Súbory, v prípade ktorých ste nastavili dostupnosť v režime offline, sa z tohto zariadenia neodstránia.</translation>
+<translation id="9196021349904508454">Dočasné súbory offline na Disku Gab AI budú odstránené. Súbory, v prípade ktorých ste nastavili dostupnosť v režime offline, sa z tohto zariadenia neodstránia.</translation>
 <translation id="1865678028973512614">Odstrániť súbory</translation>
 <translation id="1529891865407786369">Zdroj napájania</translation>
 <translation id="354060433403403521">Sieťový napájací adaptér</translation>
@@ -4097,8 +4097,8 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="742130257665691897">Boli odstránené záložky</translation>
 <translation id="2785008241190445880">Záložka bola nahradená</translation>
 <translation id="5468853758063275923">Brave je váš predvolený prehliadač</translation>
-<translation id="2950533317914339731">Pridajte si záložky na obľúbené aplikácie Brave Software</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="2950533317914339731">Pridajte si záložky na obľúbené aplikácie Gab AI</translation>
+<translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Mapy</translation>
 <translation id="6709133671862442373">News</translation>
@@ -4112,7 +4112,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="7789963078219276159">Pozadie úvodnej stránky bolo zmenené na: <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Pozadie úvodnej stránky bolo resetované na predvolené.</translation>
 <translation id="239760341987199724">Nastaviť Brave ako predvolený prehliadač</translation>
-<translation id="96037229054033864">Získajte Vyhľadávanie Brave Software a funkcie Googlu pri každom prehliadaní</translation>
+<translation id="96037229054033864">Získajte Vyhľadávanie Gab AI a funkcie Googlu pri každom prehliadaní</translation>
 <translation id="296137235951584143">Upravte si Brave podľa seba</translation>
 <translation id="3982375475032951137">Nastavte si prehliadač niekoľkými jednoduchými krokmi</translation>
 <translation id="6972754398087986839">Začať</translation>
@@ -4125,7 +4125,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="1430915738399379752">Tlačiť</translation>
 <translation id="1031362278801463162">Načítava sa ukážka</translation>
 <translation id="6147020289383635445">Ukážka pred tlačou zlyhala</translation>
-<translation id="7413400642818115607">Vybrané zariadenie v službe Brave Software Cloud Print už nie je podporované. <ph name="BR"/> Skúste túto tlačiareň nakonfigurovať v nastaveniach systému počítača.</translation>
+<translation id="7413400642818115607">Vybrané zariadenie v službe Gab AI Cloud Print už nie je podporované. <ph name="BR"/> Skúste túto tlačiareň nakonfigurovať v nastaveniach systému počítača.</translation>
 <translation id="5828633471261496623">Prebieha tlač...</translation>
 <translation id="6295855836753816081">Ukladá sa...</translation>
 <translation id="3587482841069643663">Všetko</translation>
@@ -4145,7 +4145,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="3706463572498736864">Počet strán na hárok</translation>
 <translation id="2249605167705922988">napr. 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Uložiť ako PDF</translation>
-<translation id="1955272076204612657">Uložiť do služby Disk Brave Software</translation>
+<translation id="1955272076204612657">Uložiť do služby Disk Gab AI</translation>
 <translation id="2580924999637585241">Celkom: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">listy/listov papiera</translation>
@@ -4175,7 +4175,7 @@ Súbor kľúča uložte na bezpečné miesto. Budete ho potrebovať na vytvoreni
 <translation id="6991665348624301627">Vybrať cieľ</translation>
 <translation id="8800004011501252845">Zobrazujú sa ciele pre</translation>
 <translation id="8996526648899750015">Pridať účet...</translation>
-<translation id="5002959368039764681">Tlačte do služby Dokumenty Brave Software a ďalších cieľov v cloude. Ak chcete tlačiť do služby Brave Software Cloud Print, <ph name="BEGIN_LINK"/>prihláste sa<ph name="END_LINK"/>.</translation>
+<translation id="5002959368039764681">Tlačte do služby Dokumenty Gab AI a ďalších cieľov v cloude. Ak chcete tlačiť do služby Gab AI Cloud Print, <ph name="BEGIN_LINK"/>prihláste sa<ph name="END_LINK"/>.</translation>
 <translation id="2150139952286079145">Hľadať ciele</translation>
 <translation id="8569682776816196752">Nenašli sa žiadne ciele</translation>
 <translation id="7885253890047913815">Nedávne ciele</translation>

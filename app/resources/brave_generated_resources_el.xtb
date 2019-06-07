@@ -7,8 +7,8 @@
 <translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") δεν επιτρέπεται στο Brave.</translation>
 <translation id="7450557937477381864">Κλείστε τον Chrome</translation>
 <translation id="7008934821596358692">Για να ολοκληρωθεί η εισαγωγή, κλείστε όλα τα παράθυρα Chrome.</translation>
-<translation id="5735465527556462863">Κλείσιμο Brave (παλιά έκδοση)</translation>
-<translation id="7737066986958447692">Για να ολοκληρωθεί η εισαγωγή, κλείστε όλα τα παράθυρα Brave (της παλιάς έκδοσης).</translation>
+<translation id="5735465527556462863">Κλείσιμο Dissenter (παλιά έκδοση)</translation>
+<translation id="7737066986958447692">Για να ολοκληρωθεί η εισαγωγή, κλείστε όλα τα παράθυρα Dissenter (της παλιάς έκδοσης).</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Στατιστικά στοιχεία</translation>
 <translation id="6165477144235978006">Πληρωμές Brave</translation>
@@ -16,10 +16,10 @@
 <translation id="3699882589215410581">Εγκατάσταση και άνοιγμα του Widevine</translation>
 <translation id="8053096063396012732">Εγκαταστήστε το Widevine</translation>
 <translation id="4840334696217618631">Κάντε επανεκκίνηση του προγράμματος περιήγησης για να ενεργοποιήσετε το Widevine</translation>
-<translation id="8410111618231938546">Το Google Widevine είναι ένα μέρος του κώδικα Ψηφιακής Διαχείρισης Δικαιωμάτων (DRM), για το οποίον εμείς στην Brave Software δεν είμαστε υπεύθυνοι και δεν μπορούμε να το ελέγξουμε. Ο κώδικας Google Widevine φορτώνεται από τους διακομιστές της Google κι όχι από τους δικούς μας. Η φόρτωση γίνεται μόνο όταν ενεργοποιήσετε αυτήν την επιλογή. Δε συνιστούμε τη χρήση του DRM, αλλά σεβόμαστε την επιλογή των χρηστών κι αναγνωρίζουμε ότι μερικοί χρήστες του Brave θα ήθελαν να χρησιμοποιήσουν υπηρεσίες που το χρειάζονται.
+<translation id="8410111618231938546">Το Google Widevine είναι ένα μέρος του κώδικα Ψηφιακής Διαχείρισης Δικαιωμάτων (DRM), για το οποίον εμείς στην Gab AI δεν είμαστε υπεύθυνοι και δεν μπορούμε να το ελέγξουμε. Ο κώδικας Google Widevine φορτώνεται από τους διακομιστές της Google κι όχι από τους δικούς μας. Η φόρτωση γίνεται μόνο όταν ενεργοποιήσετε αυτήν την επιλογή. Δε συνιστούμε τη χρήση του DRM, αλλά σεβόμαστε την επιλογή των χρηστών κι αναγνωρίζουμε ότι μερικοί χρήστες του Dissenter θα ήθελαν να χρησιμοποιήσουν υπηρεσίες που το χρειάζονται.
 
-Εγκαθιστώντας αυτήν την επέκταση, συμφωνείτε με τους Όρους Χρήσης του Google Widevine. Συμφωνείτε ότι η Brave δεν ευθύνεται για οποιεσδήποτε ζημίες ή απώλειες σε σχέση με τη χρήση του Google Widevine.</translation>
-<translation id="6499845530162974140">Brave (παλιά έκδοση)</translation>
+Εγκαθιστώντας αυτήν την επέκταση, συμφωνείτε με τους Όρους Χρήσης του Google Widevine. Συμφωνείτε ότι η Dissenter δεν ευθύνεται για οποιεσδήποτε ζημίες ή απώλειες σε σχέση με τη χρήση του Google Widevine.</translation>
+<translation id="6499845530162974140">Dissenter (παλιά έκδοση)</translation>
 <translation id="3198814717959506569">Έγινε Εισαγωγή Από Το Brave</translation>
 <translation id="453977518730680921">Αυτόματη εκτέλεση πολυμέσων</translation>
 <translation id="410351446219883937">Αυτόματη εκτέλεση</translation>
@@ -28,20 +28,20 @@
 <translation id="3218385319396786393">Η αυτόματη αναπαραγωγή έχει αποκλειστεί σε αυτή τη σελίδα</translation>
 <translation id="4988333904713528597">Να επιτρέπεται πάντα η αυτόματη αναπαραγωγή στο <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Συνέχιση του αποκλεισμού της αυτόματης εκτέλεσης</translation>
-<translation id="7543906827780734027">Το Brave δεν έχει αξιολογήσει ακόμα αυτή την επέκταση—ίσως είναι κακόβουλη.Προσθήκη «<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>» ούτως ή άλλως;</translation>
+<translation id="7543906827780734027">Το Dissenter δεν έχει αξιολογήσει ακόμα αυτή την επέκταση—ίσως είναι κακόβουλη.Προσθήκη «<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>» ούτως ή άλλως;</translation>
 <translation id="2044383478723007273">Χρώματα Brave</translation>
 <translation id="6123134130710658846">Απόκρυψη πλήκτρου Ανταμοιβών Brave</translation>
-<translation id="7635711399568194460">Απόκρυψη του πλήκτρου Ανταμοιβών Brave στη γραμμή τοποθεσίας όταν οι Ανταμοιβές Brave δεν είναι ενεργοποιημένες</translation>
+<translation id="7635711399568194460">Απόκρυψη του πλήκτρου Ανταμοιβών Dissenter στη γραμμή τοποθεσίας όταν οι Ανταμοιβές Dissenter δεν είναι ενεργοποιημένες</translation>
 <translation id="7965178729203412357">Νέα Ταυτότητα Tor</translation>
 <translation id="8784924142044142231">Έξοδος από Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Άνοιγμα Παράθυρου Tor</translation>
 <translation id="1434416574322382019">Νέο Ιδιωτικό Παράθυρο με Tor</translation>
 <translation id="4703780849509456860">Άνοιγμα Συνδέσμου σε Ιδιωτικό Παράθυρο με Tor</translation>
-<translation id="3488584642074079080">Άνοιγμα συνδέσμου σε Ιδιωτικό Παράθυρο Brave μέσω Tor</translation>
+<translation id="3488584642074079080">Άνοιγμα συνδέσμου σε Ιδιωτικό Παράθυρο Dissenter μέσω Tor</translation>
 <translation id="6313675821927505581">Νέο ιδιωτικό παράθυρο με Tor</translation>
 <translation id="2638041073279639246">Ανοίξτε σύνδεσμο σε ιδιωτικό παράθυρο με Tor</translation>
-<translation id="3425600262621021599">Ανοίξτε σύνδεσμο σε ιδιωτικό παράθυρο Brave με Tor</translation>
+<translation id="3425600262621021599">Ανοίξτε σύνδεσμο σε ιδιωτικό παράθυρο Dissenter με Tor</translation>
 <translation id="3155170474926428993">Άνοιγμα Tor</translation>
 <translation id="2515126961943087659">Υπηρεσία διαφημίσεων BAT</translation>
 <translation id="7924918279836988121">Υπηρεσία Bat Ledger</translation>

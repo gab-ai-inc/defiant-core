@@ -6,26 +6,26 @@
 # chromium-browser packages for various platforms.
 
 # Base name of the package.
-PACKAGE="brave-browser"
+PACKAGE="dissenter-browser"
 
 # Filename of the main executable (for generating launcher scripts, etc.)
-PROGNAME=brave
+PROGNAME=dissenter
 
 # Base directory for package installation.
-INSTALLDIR=/opt/brave.com/brave
+INSTALLDIR=/opt/gab/dissenter
 
 # Display string for desktop menu/icon.
-MENUNAME="Brave Web Browser"
+MENUNAME="Dissenter Browser"
 
 # Brief package description.
-SHORTDESC="The web browser from Brave"
+SHORTDESC="The free speech web browser"
 
 # Detailed package description.
-FULLDESC="Browse faster by blocking ads and trackers that violate your privacy and cost you time and money."
+FULLDESC="Join the comments section on any page on the internet. Browse faster by blocking ads and trackers that violate your privacy and cost you time and money."
 
 # Package maintainer information.
-MAINTNAME="Brave Software"
-MAINTMAIL="support+laptop@brave.com"
-PRODUCTURL="https://brave.com/"
+MAINTNAME="Gab AI"
+MAINTMAIL="legal@gab.com"
+PRODUCTURL="https://dissenter.com/"
 VERSION=$(cat $BUILDDIR/version | tr -d 'v,')
 VERSIONFULL=$VERSION

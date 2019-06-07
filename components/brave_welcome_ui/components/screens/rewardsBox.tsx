@@ -5,13 +5,13 @@
 import * as React from 'react'
 
 // Feature-specific components
-import { Content, Title, Paragraph } from 'brave-ui/features/welcome'
+import { Content, Title, Paragraph } from 'dissenter-ui/features/welcome'
 
 // Shared components
-import { Button } from 'brave-ui'
+import { Button } from 'dissenter-ui'
 
 // Images
-import { WelcomeRewardsImage } from 'brave-ui/features/welcome/images'
+import { WelcomeRewardsImage } from 'dissenter-ui/features/welcome/images'
 
 // Utils
 import { getLocale } from '../../../common/locale'

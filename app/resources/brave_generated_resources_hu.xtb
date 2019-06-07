@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="hu">
-<translation id="3333887201479867589">Brave jutalmak</translation>
-<translation id="7942180974165298215">Brave hirdetés blokkolása</translation>
+<translation id="3333887201479867589">Dissenter jutalmak</translation>
+<translation id="7942180974165298215">Dissenter hirdetés blokkolása</translation>
 <translation id="6406506848690869874">Szinkronizálás</translation>
 <translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (kiterjesztésazonosító "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") nem engedélyezett a Brave-ben.</translation>
 <translation id="7450557937477381864">Chrome bezárása</translation>
 <translation id="7008934821596358692">Az importálás befejezéséhez zárja be az összes Chrome ablakot.</translation>
-<translation id="5735465527556462863">Brave bezárása (régi)</translation>
-<translation id="7737066986958447692">Az importálás befejezésével zárja be az összes (régi) Brave ablakot.</translation>
+<translation id="5735465527556462863">Dissenter bezárása (régi)</translation>
+<translation id="7737066986958447692">Az importálás befejezésével zárja be az összes (régi) Dissenter ablakot.</translation>
 <translation id="6447842834002726250">Cookie-k</translation>
 <translation id="4983925687993168579">Statisztikák</translation>
-<translation id="6165477144235978006">Brave kifizetések</translation>
+<translation id="6165477144235978006">Dissenter kifizetések</translation>
 <translation id="3489524616427966890">Ablakok és lapok megnyitása</translation>
 <translation id="3699882589215410581">Widevine telepítése és futtatása</translation>
 <translation id="8053096063396012732">Widevine telepítése</translation>
 <translation id="4840334696217618631">Widevine engedélyezéséhez indítsa újra a böngészőt</translation>
-<translation id="8410111618231938546">A Google Widevine egy digitális jogkezelő (DRM - Digital Rights Management) kód, amelyet mi a Brave Software vállalatnál nem birtokolunk és nem vizsgálunk meg. A Google Widevine kódot Google szerverektől töltjük be, nem pedig saját szervereinkről. Csak akkor töltődik be, ha engedélyezi ezt az opciót. Javasoljuk a DRM használatát, de tiszteletben tartjuk a felhasználók döntését és elismerjük, hogy néhány Brave felhasználó olyan szolgáltatásokat szeretne használni, amelyekhez ez szükséges.
+<translation id="8410111618231938546">A Google Widevine egy digitális jogkezelő (DRM - Digital Rights Management) kód, amelyet mi a Gab AI vállalatnál nem birtokolunk és nem vizsgálunk meg. A Google Widevine kódot Google szerverektől töltjük be, nem pedig saját szervereinkről. Csak akkor töltődik be, ha engedélyezi ezt az opciót. Javasoljuk a DRM használatát, de tiszteletben tartjuk a felhasználók döntését és elismerjük, hogy néhány Dissenter felhasználó olyan szolgáltatásokat szeretne használni, amelyekhez ez szükséges.
 
-Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhasználási feltételeit. Beleegyezik abba, hogy a Brave nem felelős semmilyen kárért vagy veszteségért, amely a Google Widevine használatával kapcsolatban keletkezik.</translation>
-<translation id="6499845530162974140">Brave (régi)</translation>
-<translation id="3198814717959506569">Importálva a Brave alól</translation>
+Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhasználási feltételeit. Beleegyezik abba, hogy a Dissenter nem felelős semmilyen kárért vagy veszteségért, amely a Google Widevine használatával kapcsolatban keletkezik.</translation>
+<translation id="6499845530162974140">Dissenter (régi)</translation>
+<translation id="3198814717959506569">Importálva a Dissenter alól</translation>
 <translation id="453977518730680921">Média automatikus lejátszása</translation>
 <translation id="410351446219883937">Automatikus lejátszás</translation>
 <translation id="2240268017737062801">Kérdezze meg, amikor egy honlap automatikusan le akar játszani egy médiát</translation>
@@ -28,20 +28,20 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="3218385319396786393">Ezen az oldalon blokkolták az automatikus lejátszást.</translation>
 <translation id="4988333904713528597">Automatikus lejátszás általános engedélyezése itt: <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Automatikus lejátszás további blokkolása</translation>
-<translation id="7543906827780734027">A Brave még nem vizsgálta meg ezt a kiterjesztést - lehetséges, hogy rosszindulatú. Mindenképp hozzáadod ezt: "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
-<translation id="2044383478723007273">Brave színek</translation>
-<translation id="6123134130710658846">Brave jutalmak gomb elrejtése</translation>
-<translation id="7635711399568194460">Elrejti a Brave Jutalmak gombot a helysávban, amikor a Brave Jutalmak nincs engedélyezve.</translation>
+<translation id="7543906827780734027">A Dissenter még nem vizsgálta meg ezt a kiterjesztést - lehetséges, hogy rosszindulatú. Mindenképp hozzáadod ezt: "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
+<translation id="2044383478723007273">Dissenter színek</translation>
+<translation id="6123134130710658846">Dissenter jutalmak gomb elrejtése</translation>
+<translation id="7635711399568194460">Elrejti a Dissenter Jutalmak gombot a helysávban, amikor a Dissenter Jutalmak nincs engedélyezve.</translation>
 <translation id="7965178729203412357">Új Tor azonosító</translation>
 <translation id="8784924142044142231">Kilépés a Tor böngészőből</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Tor ablak megnyitása</translation>
 <translation id="1434416574322382019">Új</translation>
 <translation id="4703780849509456860">Link megnyitása Tor használatával privát ablakban</translation>
-<translation id="3488584642074079080">Hivatkozás megnyitása Brave Privát Ablakkal a Torban</translation>
+<translation id="3488584642074079080">Hivatkozás megnyitása Dissenter Privát Ablakkal a Torban</translation>
 <translation id="6313675821927505581">Új privát ablak a Tor böngészővel</translation>
 <translation id="2638041073279639246">Hivatkozás megnyitása privát ablakban a Tor böngészővel</translation>
-<translation id="3425600262621021599">Hivatkozás megnyitása Brave privát ablakban a Tor böngészővel</translation>
+<translation id="3425600262621021599">Hivatkozás megnyitása Dissenter privát ablakban a Tor böngészővel</translation>
 <translation id="3155170474926428993">Tor indítóprogram</translation>
 <translation id="2515126961943087659">BAT hirdetési szolgáltatás</translation>
 <translation id="7924918279836988121">Bat főkönyvi szolgáltatás</translation>

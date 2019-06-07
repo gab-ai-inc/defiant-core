@@ -25,7 +25,7 @@ BraveLocationBarModelDelegate::FormattedStringWithEquivalentMeaning(
         &new_formatted_url,
         0,
         base::UTF8ToUTF16("chrome://"),
-        base::UTF8ToUTF16("brave://"));
+        base::UTF8ToUTF16("dissenter://"));
   }
 
   return new_formatted_url;

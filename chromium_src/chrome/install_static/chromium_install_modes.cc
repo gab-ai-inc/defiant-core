@@ -13,12 +13,12 @@
 
 namespace install_static {
 
-const wchar_t kCompanyPathName[] = L"BraveSoftware";
+const wchar_t kCompanyPathName[] = L"GabAI";
 
 #if defined(OFFICIAL_BUILD)
-const wchar_t kProductPathName[] = L"Brave-Browser";
+const wchar_t kProductPathName[] = L"Dissenter";
 #else
-const wchar_t kProductPathName[] = L"Brave-Browser-Development";
+const wchar_t kProductPathName[] = L"Dissenter-Development";
 #endif
 
 const size_t kProductPathNameLength = _countof(kProductPathName) - 1;
@@ -33,7 +33,7 @@ const wchar_t kBinariesAppGuid[] = L"";
 // Brave integrates with Brave Update, so the app GUID above is used.
 const wchar_t kBinariesPathName[] = L"";
 #else
-const wchar_t kBinariesPathName[] = L"Brave Binaries";
+const wchar_t kBinariesPathName[] = L"Dissenter Binaries";
 #endif
 
 const char kSafeBrowsingName[] = "chromium";
@@ -50,10 +50,10 @@ const InstallConstants kInstallModes[] = {
         L"",           // Empty install_suffix for the primary install mode.
         L"",           // No logo suffix for the primary install mode.
         L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}",
-        L"Brave",                           // A distinct base_app_name.
-        L"Brave",                           // A distinct base_app_id.
-        L"BraveHTML",                              // ProgID prefix.
-        L"Brave HTML Document",                    // ProgID description.
+        L"Dissenter",                           // A distinct base_app_name.
+        L"Dissenter",                           // A distinct base_app_id.
+        L"DissenterHTML",                              // ProgID prefix.
+        L"Dissenter HTML Document",                    // ProgID description.
         L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}",  // Active Setup GUID.
         L"{B1C5AAC5-2B7C-4C9D-9E96-774C53151B20}",  // CommandExecuteImpl CLSID.
         { 0x6c9646d,
@@ -87,10 +87,10 @@ const InstallConstants kInstallModes[] = {
         L"-Beta",       // Install suffix.
         L"Beta",        // Logo suffix.
         L"{103BD053-949B-43A8-9120-2E424887DE11}",  // A distinct app GUID.
-        L"Brave Beta",                      // A distinct base_app_name.
-        L"BraveBeta",                              // A distinct base_app_id.
-        L"BraveBHTML",                             // ProgID prefix.
-        L"Brave Beta HTML Document",               // ProgID description.
+        L"Dissenter Beta",                      // A distinct base_app_name.
+        L"DissenterBeta",                              // A distinct base_app_id.
+        L"DissenterBHTML",                             // ProgID prefix.
+        L"Dissenter Beta HTML Document",               // ProgID description.
         L"{103BD053-949B-43A8-9120-2E424887DE11}",  // Active Setup GUID.
         L"",                                        // CommandExecuteImpl CLSID.
         { 0x9560028d,
@@ -125,10 +125,10 @@ const InstallConstants kInstallModes[] = {
         L"-Dev",       // Install suffix.
         L"Dev",        // Logo suffix.
         L"{CB2150F2-595F-4633-891A-E39720CE0531}",  // A distinct app GUID.
-        L"Brave Dev",                       // A distinct base_app_name.
-        L"BraveDev",                               // A distinct base_app_id.
-        L"BraveDHTML",                             // ProgID prefix.
-        L"Brave Dev HTML Document",                // ProgID description.
+        L"Dissenter Dev",                       // A distinct base_app_name.
+        L"DissenterDev",                               // A distinct base_app_id.
+        L"DissenterDHTML",                             // ProgID prefix.
+        L"Dissenter Dev HTML Document",                // ProgID description.
         L"{CB2150F2-595F-4633-891A-E39720CE0531}",  // Active Setup GUID.
         L"",                                        // CommandExecuteImpl CLSID.
         { 0x20b22981,
@@ -163,10 +163,10 @@ const InstallConstants kInstallModes[] = {
         L"-Nightly",    // Install suffix.
         L"Canary",      // Logo suffix.
         L"{C6CB981E-DB30-4876-8639-109F8933582C}",  // A distinct app GUID.
-        L"Brave Nightly",                    // A distinct base_app_name.
-        L"BraveNightly",                            // A distinct base_app_id.
-        L"BraveSSHTM",                             // ProgID prefix.
-        L"Brave Nightly HTML Document",             // ProgID description.
+        L"Dissenter Nightly",                    // A distinct base_app_name.
+        L"DissenterNightly",                            // A distinct base_app_id.
+        L"DissenterSSHTM",                             // ProgID prefix.
+        L"Dissenter Nightly HTML Document",             // ProgID description.
         L"{C6CB981E-DB30-4876-8639-109F8933582C}",  // Active Setup GUID.
         L"{312ABB99-A176-4939-A39F-E8D34EA4D393}",  // CommandExecuteImpl CLSID.
         { 0xf2edbc59,
@@ -204,10 +204,10 @@ const InstallConstants kInstallModes[] = {
         L"",              // Empty install_suffix for the primary install mode.
         L"",              // No logo suffix for the primary install mode.
         L"",            // Empty app_guid since no integraion with Brave Update.
-        L"Brave Development",  // A distinct base_app_name.
-        L"BraveDevelopment",   // A distinct base_app_id.
-        L"BraveDevHTM",                             // ProgID prefix.
-        L"Brave Development HTML Document",           // ProgID description.
+        L"Dissenter Development",  // A distinct base_app_name.
+        L"DissenterDevelopment",   // A distinct base_app_id.
+        L"DissenterDevHTM",                             // ProgID prefix.
+        L"Dissenter Development HTML Document",           // ProgID description.
         L"{D6527C63-5CDD-4EF3-9299-1504E17CBD18}",  // Active Setup GUID.
         L"{B2863926-AF5D-43A2-99CC-29EC43790C89}",  // CommandExecuteImpl CLSID.
         { 0xeb41c6e8,

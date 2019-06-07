@@ -12,6 +12,7 @@ bool BraveToolbarActionsModel::ShouldAddExtension(const extensions::Extension* e
   // Don't show the Brave and Rewards 'extensions' in the ToolbarActions
   // extensions area. They will instead be shown in the BraveActions area.
   if (extension->id() == brave_extension_id || 
+      extension->id() == dissenter_extension_id || 
       extension->id() == brave_rewards_extension_id) {
     return false;
   }

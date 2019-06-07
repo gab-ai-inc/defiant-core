@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-CN">
-<translation id="5194812628624740897">取消与<ph name="USERNAME"/>的关联将会清除您的历史记录、书签、设置以及存储在此设备上的其他Brave数据。您的Brave Software帐号中存储的数据将不会被清除，并且您可以通过<ph name="GOOGLE_DASHBOARD_LINK"/>Brave Software信息中心<ph name="END_GOOGLE_DASHBOARD_LINK"/>管理这些数据。</translation>
+<translation id="5194812628624740897">取消与<ph name="USERNAME"/>的关联将会清除您的历史记录、书签、设置以及存储在此设备上的其他Brave数据。您的Gab AI帐号中存储的数据将不会被清除，并且您可以通过<ph name="GOOGLE_DASHBOARD_LINK"/>Gab AI信息中心<ph name="END_GOOGLE_DASHBOARD_LINK"/>管理这些数据。</translation>
 <translation id="939305735877869636">Brave</translation>
 <translation id="6373767849825830651">Brave 是一款可高速运行网页和应用的网络浏览器。它快捷、稳定且易于使用。Brave 内置的防护恶意软件和网上诱骗的功能可让您更安全地浏览网页。</translation>
 <translation id="680297041157509674">Brave 操作系统</translation>
@@ -9,7 +9,7 @@
 <translation id="7339898014177206373">打开新的窗口</translation>
 <translation id="5935964611177478118">登录 Brave</translation>
 <translation id="5516268345616100622">任务管理器 - Brave</translation>
-<translation id="7918740962659365265">将崩溃报告和<ph name="UMA_LINK"/>发送给Brave Software，帮助我们完善Brave。</translation>
+<translation id="7918740962659365265">将崩溃报告和<ph name="UMA_LINK"/>发送给Gab AI，帮助我们完善Brave。</translation>
 <translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Brave</translation>
 <translation id="7830723774663008396">Brave - <ph name="PAGE_TITLE"/></translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave 测试版</translation>
@@ -34,7 +34,7 @@
 <translation id="2585240446624043880">Brave 无法读写其数据目录：
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">可选：将使用情况统计信息和崩溃报告自动发送给 Brave Software，帮助我们完善 Brave。</translation>
+<translation id="8417700129970341035">可选：将使用情况统计信息和崩溃报告自动发送给 Gab AI，帮助我们完善 Brave。</translation>
 <translation id="1489465648257900784">您的个人资料来自更高版本的 Brave，因此无法使用。
 
 某些功能可能会无法使用。请指定其他个人资料目录或使用更高版本的 Brave。</translation>
@@ -43,7 +43,7 @@
 
 Brave 无法恢复您的设置。</translation>
 <translation id="1477146545787277177">哎呀！Brave 崩溃了。要立即重新启动吗？</translation>
-<translation id="5785919770853225148">Brave 会将此密码保存在您的 Brave Software 帐号中，因此您不必记住它。</translation>
+<translation id="5785919770853225148">Brave 会将此密码保存在您的 Gab AI 帐号中，因此您不必记住它。</translation>
 <translation id="113959764510199339">Brave 正尝试显示密码。</translation>
 <translation id="7503098128120083822">Brave 想导出您的密码。</translation>
 <translation id="8285294305439559616">Brave正在尝试显示密码，请输入您的Windows密码以允许此操作。</translation>
@@ -84,7 +84,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="9183662282810237335">仍要退出 Brave？</translation>
 <translation id="3834935463915107022">仍要退出 Brave？</translation>
 <translation id="8797356639448065696">Brave处于后台运行模式。</translation>
-<translation id="2339258256897053758">缺少 Brave Software API 密钥，因此 Brave 的部分功能将无法使用。</translation>
+<translation id="2339258256897053758">缺少 Gab AI API 密钥，因此 Brave 的部分功能将无法使用。</translation>
 <translation id="2182657378556811785">即将更新到最新版本！重新启动 Brave 即可完成更新。</translation>
 <translation id="5906655207909574370">即将更新到最新版本！重新启动您的设备即可完成更新。</translation>
 <translation id="5877064549588274448">版本已更改。请重新启动设备来应用这些变更。</translation>
@@ -118,7 +118,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="4100716194836114130">这是您的专属Brave</translation>
 <translation id="8296145982386097283">与其他人共用计算机？现在，您可以随心所欲地设置Brave。</translation>
 <translation id="1672124279374861424">从Brave移除您的帐号后，您可能需要重新加载已打开的标签页才能使其正常显示。</translation>
-<translation id="9197493712748167998">您在使用<ph name="PROFILE_EMAIL"/>同步自己的Brave资料和数据。要更新您的同步偏好设置或在不登录Brave Software帐号的情况下使用Brave，请前往<ph name="SETTINGS_LINK"/>部分。</translation>
+<translation id="9197493712748167998">您在使用<ph name="PROFILE_EMAIL"/>同步自己的Brave资料和数据。要更新您的同步偏好设置或在不登录Gab AI帐号的情况下使用Brave，请前往<ph name="SETTINGS_LINK"/>部分。</translation>
 <translation id="8132634101975074716">您已登录 Brave！</translation>
 <translation id="4567424176335768812">您已使用 <ph name="USER_EMAIL_ADDRESS"/> 的身份登录。现在您可在已登录的所有设备上访问您的书签、历史记录和其他设置。</translation>
 <translation id="6888049487162027489">您现在已登录 Brave！不过，管理员已停用同步功能。</translation>
@@ -128,8 +128,8 @@ Brave 无法恢复您的设置。</translation>
 如果您仍然登录，Brave 信息（例如书签、历史记录和其他设置）将合并到 <ph name="ACCOUNT_EMAIL_NEW"/>。</translation>
 <translation id="847561904663814268">之前已有人在此计算机上以 <ph name="ACCOUNT_EMAIL_LAST"/> 的身份登录了 Brave。请新建一个 Brave 用户来单独保存您的信息。</translation>
 <translation id="1853997773668795891">是否将您的 Brave 数据与此帐号相关联？</translation>
-<translation id="1326766910007115955">您目前登录的帐号是一个托管帐号，该帐号的管理员将能够控制您的 Brave 个人资料。您的 Brave 数据（例如您的应用、书签、历史记录、密码和其他设置）将永远与 <ph name="USER_NAME"/> 相关联。您可以通过 Brave Software 帐号信息中心删除这些数据，但无法将这些数据与其他帐号相关联。<ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">您目前登录的帐号是一个托管帐号，该帐号的管理员将能够控制您的 Brave 个人资料。您的 Brave 数据（例如您的应用、书签、历史记录、密码和其他设置）将永远与 <ph name="USER_NAME"/> 相关联。您可以通过 Brave Software 帐号信息中心删除这些数据，但无法将这些数据与其他帐号相关联。您可以选择创建新的个人资料来单独存储您现有的 Brave 数据。<ph name="LEARN_MORE"/></translation>
+<translation id="1326766910007115955">您目前登录的帐号是一个托管帐号，该帐号的管理员将能够控制您的 Brave 个人资料。您的 Brave 数据（例如您的应用、书签、历史记录、密码和其他设置）将永远与 <ph name="USER_NAME"/> 相关联。您可以通过 Gab AI 帐号信息中心删除这些数据，但无法将这些数据与其他帐号相关联。<ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">您目前登录的帐号是一个托管帐号，该帐号的管理员将能够控制您的 Brave 个人资料。您的 Brave 数据（例如您的应用、书签、历史记录、密码和其他设置）将永远与 <ph name="USER_NAME"/> 相关联。您可以通过 Gab AI 帐号信息中心删除这些数据，但无法将这些数据与其他帐号相关联。您可以选择创建新的个人资料来单独存储您现有的 Brave 数据。<ph name="LEARN_MORE"/></translation>
 <translation id="2444257125841652328">您的系统管理员已将 Brave 配置为使用备用浏览器访问 <ph name="TARGET_URL_HOSTNAME"/>。</translation>
 <translation id="5380963249588143069">您的系统管理员已将 Brave 配置为使用<ph name="ALTERNATIVE_BROWSER_NAME"/>访问 <ph name="TARGET_URL_HOSTNAME"/>。</translation>
 <translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> 之前使用的是 Brave</translation>
@@ -166,7 +166,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="1820843143331379651">Brave 将从 70 版本起不再支持受监管用户个人资料。</translation>
 <translation id="3066805437003400520">系统将会从此设备上删除该用户的浏览数据。要想恢复这些数据，请以“<ph name="USER_EMAIL"/>”的身份登录 Brave。</translation>
 <translation id="2827121003398607864">Brave现在更好用了</translation>
-<translation id="7192666605334070839">现在，无论是通过Brave Software帐号还是在共用的计算机上，您都可以更轻松地使用Brave。</translation>
+<translation id="7192666605334070839">现在，无论是通过Gab AI帐号还是在共用的计算机上，您都可以更轻松地使用Brave。</translation>
 <translation id="3511996232906761537">您的上网记录、书签和其他Brave内容都保存在此处。</translation>
 <translation id="7406627712452599344">访客使用Brave不会留下任何痕迹。</translation>
 <translation id="5659384504794665581">如果您与亲朋好友共用计算机，他们将能够使用单独的帐号进行浏览，并可随心所欲地设置Brave。</translation>
@@ -180,9 +180,9 @@ Brave 无法恢复您的设置。</translation>
 <translation id="2871190378186459992">在这里，您可以找到适用于 Brave 的精彩应用、游戏、扩展程序和主题背景。</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
 <translation id="1912973375560256099">Brave的入站规则，允许mDNS流量。</translation>
-<translation id="8207657266087451193">如果图片缺少有用的说明，则 Brave 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Brave Software。您可以随时在“设置”中关闭此功能。</translation>
-<translation id="5499063270485366718">如果图片缺少有用的说明，则 Brave 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Brave Software。</translation>
-<translation id="3870835867536344658">这项服务会使用 Brave Software 搜索所用的拼写检查工具。您在浏览器中输入的文字会被发送给 Brave Software。您随时可在“设置”中更改此行为。</translation>
+<translation id="8207657266087451193">如果图片缺少有用的说明，则 Brave 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Gab AI。您可以随时在“设置”中关闭此功能。</translation>
+<translation id="5499063270485366718">如果图片缺少有用的说明，则 Brave 会尝试为您提供一条说明。为便于创建说明，系统会将图片发送给 Gab AI。</translation>
+<translation id="3870835867536344658">这项服务会使用 Gab AI 搜索所用的拼写检查工具。您在浏览器中输入的文字会被发送给 Gab AI。您随时可在“设置”中更改此行为。</translation>
 <translation id="1807774211756215222">在 Brave 新标签页中打开链接(&amp;T)</translation>
 <translation id="4624945300945265642">在 Brave 无痕式窗口中打开链接(&amp;G)</translation>
 <translation id="7863882214613921971">在 Brave 新标签页中打开链接(&amp;T)</translation>
@@ -208,7 +208,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="5509303873219371662">您应立即重启 Brave</translation>
 <translation id="8668413672647811944">Brave 刚刚应用了一项特殊的安全更新。请立即重启，以便系统恢复您的标签页。</translation>
 <translation id="763369711159699222">帮助我们改进Brave</translation>
-<translation id="1156940037717341650">您可以选择自动向 Brave Software 报告可能出现的安全事件详情，以帮助我们提高 Brave 的安全性和易用性。</translation>
+<translation id="1156940037717341650">您可以选择自动向 Gab AI 报告可能出现的安全事件详情，以帮助我们提高 Brave 的安全性和易用性。</translation>
 <translation id="6791166902140255175">Brave 标签页</translation>
 <translation id="2555639463117073782">重新启动 Brave 以启用 <ph name="PLUGIN_NAME"/></translation>
 <translation id="8899693649891674038">请在您的手机上安装 Brave。我们会将一条短信发送到您的手机。</translation>
@@ -231,7 +231,7 @@ Brave 无法恢复您的设置。</translation>
 <translation id="7207456302801184289">欢迎使用 Brave</translation>
 <translation id="5688839044908745927">Brave 即将准备就绪。</translation>
 <translation id="7758342895140862711">随时随地使用 Brave</translation>
-<translation id="3610173904388112975">利用 Brave Software 的智能技术浏览网页</translation>
+<translation id="3610173904388112975">利用 Gab AI 的智能技术浏览网页</translation>
 <translation id="3479552764303398839">以后再说</translation>
 <translation id="8013374903356993822">更快地访问 Brave</translation>
 <translation id="7625138338483121345">将 Brave 设置为您的默认浏览器</translation>
@@ -263,15 +263,15 @@ Brave 无法恢复您的设置。</translation>
 <translation id="8208853227947884571">Brave 已是最新版本</translation>
 <translation id="6686872257969654608">关于 Brave 操作系统</translation>
 <translation id="2280363356796735201">获取有关 Brave 操作系统的帮助</translation>
-<translation id="5253815230176279256">Brave Software Pay（已复制到 Brave）</translation>
+<translation id="5253815230176279256">Gab AI Pay（已复制到 Brave）</translation>
 <translation id="5468853758063275923">Brave 是您的默认浏览器</translation>
 <translation id="1775322105159056176">Brave 无法确定或设置默认浏览器</translation>
 <translation id="6915252145142862992">这是 Brave 的并行安装，您无法将此浏览器设为默认浏览器。</translation>
 <translation id="7977435741986383568">Brave 可能会使用网络服务来改善您的浏览体验。不过，您可以选择停用这些服务。<ph name="BEGIN_LINK"/>了解详情<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">为了修正拼写错误，Brave 会将您在文本字段中输入的文字发送给 Brave Software</translation>
+<translation id="2312399718665761438">为了修正拼写错误，Brave 会将您在文本字段中输入的文字发送给 Gab AI</translation>
 <translation id="8586264863973514035">要想应用您的更改，请重新启动 Brave</translation>
 <translation id="7021823858304886493">允许登录 Brave</translation>
-<translation id="1649714546770135458">关闭此功能后，您无需登录 Brave 即可登录 Gmail 等 Brave Software 网站</translation>
+<translation id="1649714546770135458">关闭此功能后，您无需登录 Brave 即可登录 Gmail 等 Gab AI 网站</translation>
 <translation id="9220324636239049437">这会从这台设备上删除 1 项内容。如果日后想要检索您的数据，届时请以 <ph name="USER_EMAIL"/> 的身份登录 Brave。</translation>
 <translation id="5853262807109651878">这会从这台设备上删除 <ph name="ITEMS_COUNT"/> 项内容。如果日后想要检索您的数据，届时请以 <ph name="USER_EMAIL"/> 的身份登录 Brave。</translation>
 <translation id="4784414698887946907">这会从这台设备上删除您的浏览数据。如果日后想要检索您的数据，届时请以 <ph name="USER_EMAIL"/> 的身份登录 Brave。</translation>

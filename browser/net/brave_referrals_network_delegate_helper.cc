@@ -19,10 +19,9 @@ int OnBeforeStartTransaction_ReferralsWork(
     net::HttpRequestHeaders* headers,
     const ResponseCallback& next_callback,
     std::shared_ptr<BraveRequestInfo> ctx) {
-  if (!ctx->referral_headers_list)
-    return net::OK;
-  // If the domain for this request matches one of our target domains,
-  // set the associated custom headers.
+  // Dissenter: lol no.    
+  return net::OK;
+  /*
   const base::DictionaryValue* request_headers_dict = nullptr;
   if (!BraveReferralsService::GetMatchingReferralHeaders(
           *ctx->referral_headers_list, &request_headers_dict, request->url()))
@@ -32,6 +31,7 @@ int OnBeforeStartTransaction_ReferralsWork(
       headers->SetHeader(it.first, it.second.GetString());
     }
   }
+  */
   return net::OK;
 }
 

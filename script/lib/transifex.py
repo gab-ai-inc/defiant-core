@@ -412,7 +412,7 @@ def braveify(string_value):
     """Replace Chromium branded strings with Brave beranded strings."""
     return (string_value.replace('Chrome', 'Brave')
             .replace('Chromium', 'Brave')
-            .replace('Google', 'Brave Software'))
+            .replace('Google', 'Gab AI'))
 
 
 def upload_missing_translation_to_transifex(source_string_path, lang_code,

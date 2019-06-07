@@ -38,7 +38,7 @@
 <translation id="3303855915957856445">Søket ga ingen treff</translation>
 <translation id="8967866634928501045">Trykk på Alt + Shift + A for å vise</translation>
 <translation id="998747458861718449">I&amp;nspiser</translation>
-<translation id="4428301600092811022">Vil du få bildebeskrivelser fra Brave Software?</translation>
+<translation id="4428301600092811022">Vil du få bildebeskrivelser fra Gab AI?</translation>
 <translation id="741204030948306876">Ja, jeg er med</translation>
 <translation id="780301667611848630">Nei takk</translation>
 <translation id="3943582379552582368">Til&amp;bake</translation>
@@ -92,7 +92,7 @@
 <translation id="5233736638227740678">&amp;Lim inn</translation>
 <translation id="2218515861914035131">Lim inn som ren tekst</translation>
 <translation id="1017280919048282932">&amp;Legg til i ordliste</translation>
-<translation id="1732768497619250086">Få bildebeskrivelser fra Brave Software</translation>
+<translation id="1732768497619250086">Få bildebeskrivelser fra Gab AI</translation>
 <translation id="7561196759112975576">Alltid</translation>
 <translation id="2241634353105152135">Bare én gang</translation>
 <translation id="3387614642886316601">Bruk forbedret stavekontroll</translation>
@@ -100,7 +100,7 @@
 <translation id="5860491529813859533">Slå på</translation>
 <translation id="7658239707568436148">Avbryt</translation>
 <translation id="8915370057835397490">Laster inn forslag …</translation>
-<translation id="6191804255817539692">Brave Software har ikke flere forslag</translation>
+<translation id="6191804255817539692">Gab AI har ikke flere forslag</translation>
 <translation id="1901303067676059328">Marker &amp;alt</translation>
 <translation id="3797900183766075808">&amp;Søk etter «<ph name="SEARCH_TERMS"/>» på <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">&amp;Søk etter bilder i <ph name="SEARCH_ENGINE"/></translation>
@@ -148,7 +148,7 @@
 <translation id="9033857511263905942">&amp;Lim inn</translation>
 <translation id="1815083418640426271">Lim inn som ren tekst</translation>
 <translation id="4022426551683927403">&amp;Legg til i ordliste</translation>
-<translation id="6849870115130610913">Få bildebeskrivelser fra Brave Software</translation>
+<translation id="6849870115130610913">Få bildebeskrivelser fra Gab AI</translation>
 <translation id="372722114124766626">Bare én gang</translation>
 <translation id="4079140982534148664">Bruk forbedret stavekontroll</translation>
 <translation id="7487141338393529395">Slå på forbedret stavekontroll</translation>
@@ -412,7 +412,7 @@
 <translation id="9148058034647219655">Avslutt</translation>
 <translation id="7376221878517288144">Vil du avslutte inkognitomodus likevel?</translation>
 <translation id="973473557718930265">Avslutt</translation>
-<translation id="7707599169365957976">Du kan bidra til å forbedre Safe Browsing ved å sende noe systeminformasjon og sideinnhold til Brave Software.</translation>
+<translation id="7707599169365957976">Du kan bidra til å forbedre Safe Browsing ved å sende noe systeminformasjon og sideinnhold til Gab AI.</translation>
 <translation id="4923279099980110923">Ja, jeg ønsker å hjelpe</translation>
 <translation id="2316129865977710310">Nei takk</translation>
 <translation id="9169931577761441333">Legg til <ph name="APP_NAME"/> på startskjermen</translation>
@@ -790,7 +790,7 @@
 <translation id="1545775234664667895">Temaet <ph name="THEME_NAME"/> er installert</translation>
 <translation id="2256115617011615191">Start på nytt nå</translation>
 <translation id="4545028762441890696">For å aktivere den igjen, godta de nye tillatelsene:</translation>
-<translation id="3009487527589249344">Brave Software har merket <ph name="EXTENSION_NAME"/> som skadelig, og installasjonen har blitt avbrutt</translation>
+<translation id="3009487527589249344">Gab AI har merket <ph name="EXTENSION_NAME"/> som skadelig, og installasjonen har blitt avbrutt</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> er lagt til eksternt</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/> er deaktivert</translation>
 <translation id="595959584676692139">Last inn siden på nytt for å bruke denne utvidelsen</translation>
@@ -923,7 +923,7 @@
 <translation id="3584169441612580296">lese og endre bilder, musikk og andre medier fra datamaskinen din</translation>
 <translation id="5457459357461771897">lese og slette bilder, musikk og andre medier fra datamaskinen din</translation>
 <translation id="3270965368676314374">lese, endre og slette bilder, musikk og andre medier fra datamaskinen din</translation>
-<translation id="3919562953666287643">lagre data i Brave Software Disk-kontoen din</translation>
+<translation id="3919562953666287643">lagre data i Gab AI Disk-kontoen din</translation>
 <translation id="378312418865624974">lese en unik identifikator for denne datamaskinen</translation>
 <translation id="5094721898978802975">kommunisere med samarbeidende integrerte apper</translation>
 <translation id="4876895919560854374">låse og låse opp skjermen</translation>
@@ -1117,7 +1117,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="8756969031206844760">Vil du oppdatere passordet?</translation>
 <translation id="8230134520748321204">Vil du lagre passord for <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Vil du oppdatere passordet for <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Passordene er lagret i Brave Software-kontoen din, slik at du kan bruke dem på alle enheter</translation>
+<translation id="8284000761603848448">Passordene er lagret i Gab AI-kontoen din, slik at du kan bruke dem på alle enheter</translation>
 <translation id="8286036467436129157">Logg på</translation>
 <translation id="8009225694047762179">Administrer passord</translation>
 <translation id="3950820424414687140">Logg på</translation>
@@ -1227,9 +1227,9 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="223106756035922488">Klikk for å se dagens doodle</translation>
 <translation id="8676374126336081632">Slett teksten</translation>
 <translation id="5867841422488265304">Skriv inn søkeord eller en nettadresse</translation>
-<translation id="2129873093718581193">Søk på Brave Software, eller skriv inn en nettadresse</translation>
-<translation id="6363797201514053536">Søk i Brave Software eller skriv inn en nettadresse</translation>
-<translation id="4888839742663123585">Søk på Brave Software</translation>
+<translation id="2129873093718581193">Søk på Gab AI, eller skriv inn en nettadresse</translation>
+<translation id="6363797201514053536">Søk i Gab AI eller skriv inn en nettadresse</translation>
+<translation id="4888839742663123585">Søk på Gab AI</translation>
 <translation id="6078323886959318429">Legg til snarvei</translation>
 <translation id="6324916366299863871">Endre snarvei</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1380,28 +1380,28 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="2982970937345031">Rapporér anonymt</translation>
 <translation id="6076448957780543068">Inkluder denne skjermdumpen</translation>
 <translation id="7052237160939977163">Send ytelsessporingsdata</translation>
-<translation id="5526928694260255286">Legg ved <ph name="BEGIN_LINK"/>Bluetooth-logger<ph name="END_LINK"/> (Brave Software-internt)</translation>
+<translation id="5526928694260255286">Legg ved <ph name="BEGIN_LINK"/>Bluetooth-logger<ph name="END_LINK"/> (Gab AI-internt)</translation>
 <translation id="3047644958362961983">Denne informasjonen gir oss bedre forståelse av Assistent-problemet. Den lagres i opptil 90 dager, og bare relevante tekniske team og tilbakemeldingsteam får tilgang.</translation>
-<translation id="1705635099498185261">For å diagnostisere Bluetooth-problemer kan Brave Softwarere inkludere flere Bluetooth-logger i tilbakemeldingsrapportene sine. Når dette alternativet er avmerket, inkluderer rapporten din btsnoop- and HCI-logger fra den gjeldende økten din. Disse er anonymisert for å fjerne så mye personlig identifiserende informasjon (PII) som mulig. Tilgang til disse loggene blir begrenset til administratorer av Brave OS-produktgruppen i Listnr. Logger slettes permanent etter 90 dager.</translation>
+<translation id="1705635099498185261">For å diagnostisere Bluetooth-problemer kan Gab AIre inkludere flere Bluetooth-logger i tilbakemeldingsrapportene sine. Når dette alternativet er avmerket, inkluderer rapporten din btsnoop- and HCI-logger fra den gjeldende økten din. Disse er anonymisert for å fjerne så mye personlig identifiserende informasjon (PII) som mulig. Tilgang til disse loggene blir begrenset til administratorer av Brave OS-produktgruppen i Listnr. Logger slettes permanent etter 90 dager.</translation>
 <translation id="4206323443866416204">Tilbakemeldingsrapport</translation>
 <translation id="3681311097828166361">Takk for tilbakemeldingen. Siden du er uten nett akkurat nå, sendes rapporten senere.</translation>
 <translation id="8713570323158206935">Send <ph name="BEGIN_LINK1"/>systeminformasjon<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Send <ph name="BEGIN_LINK1"/>systeminformasjon<ph name="END_LINK1"/> og <ph name="BEGIN_LINK2"/>-målinger<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Send <ph name="BEGIN_LINK1"/>system- og appinformasjon<ph name="END_LINK1"/> og <ph name="BEGIN_LINK2"/>beregninger<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">Legg ved en logg over nylig Assistent-aktivitet via Sherlog. Dette kan inkludere identiteten din, posisjonen din og feilsøkingsinformasjon. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">Filen sendes til Brave Software for feilsøking</translation>
+<translation id="8329196515830093443">Filen sendes til Gab AI for feilsøking</translation>
 <translation id="8227119283605456246">Legg ved fil</translation>
 <translation id="5367091008316207019">Leser filen …</translation>
 <translation id="2554553592469060349">Den valgte filen er for stor (maksimal størrelse: 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Fire filer genereres av Intel Wi-Fi-fastvaren: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. De tre første er binærfiler som inneholder registerdumper og kontrolleres av Intel for å sikre at de ikke inneholder personlig eller enhetsidentifiserende informasjon. Den siste filen er et kjøringsspor fra Intel-fastvaren. All personlig eller enhetsidentifiserende informasjon er fjernet fra filen, men den er for stor til å vises her. Disse filene ble generert som svar på nylige Wi-Fi-problemer med enheten din og deles med Intel for å bidra med feilsøking av disse problemene.&gt;</translation>
-<translation id="6972420083546794501">Gå til <ph name="BEGIN_LINK1"/>Juridisk hjelpeside<ph name="END_LINK1"/> for å be om innholdsendringer av juridiske årsaker. Konto- og systeminformasjon kan bli sendt Brave Software. Vi bruker informasjonen du oppgir, til å løse tekniske problemer og forbedre tjenestene våre, i henhold til våre <ph name="BEGIN_LINK2"/>personvernregler<ph name="END_LINK2"/> og <ph name="BEGIN_LINK3"/>vilkår for bruk<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Gå til <ph name="BEGIN_LINK1"/>Juridisk hjelpeside<ph name="END_LINK1"/> for å be om innholdsendringer av juridiske årsaker. Konto- og systeminformasjon kan bli sendt Gab AI. Vi bruker informasjonen du oppgir, til å løse tekniske problemer og forbedre tjenestene våre, i henhold til våre <ph name="BEGIN_LINK2"/>personvernregler<ph name="END_LINK2"/> og <ph name="BEGIN_LINK3"/>vilkår for bruk<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Fortell oss hva som skjer før du sender tilbakemeldingen.</translation>
 <translation id="1483493594462132177">Send</translation>
 <translation id="6885771755599377173">Forhåndsvisning av systeminformasjon</translation>
 <translation id="1016566241875885511">Tilleggsinformasjon (valgfritt)</translation>
 <translation id="8026334261755873520">Slett nettleserdata</translation>
 <translation id="7409836189476010449">Kjør Flash</translation>
-<translation id="4718442817388594217">De valgte dataene er fjernet fra Brave og alle synkroniserte enheter. Det kan hende Brave Software-kontoen din har andre typer nettlesingslogger, for eksempel for søk og aktivitet fra andre Brave Software-tjenester, på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="4718442817388594217">De valgte dataene er fjernet fra Brave og alle synkroniserte enheter. Det kan hende Gab AI-kontoen din har andre typer nettlesingslogger, for eksempel for søk og aktivitet fra andre Gab AI-tjenester, på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7814200940910057384">Brave-dataene er slettet</translation>
 <translation id="7346909386216857016">Greit</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
@@ -1425,7 +1425,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="284805635805850872">Vil du fjerne den skadelige programvaren?</translation>
 <translation id="489985760463306091">For å fullføre fjerningen av den skadelige programvaren, start datamaskinen på nytt</translation>
 <translation id="7598466960084663009">Start datamaskinen på nytt</translation>
-<translation id="2819091349626575960">Rapportér detaljer til Brave Software</translation>
+<translation id="2819091349626575960">Rapportér detaljer til Gab AI</translation>
 <translation id="4099060993766194518">Vil du gjenopprette standardsøkemotoren?</translation>
 <translation id="138784436342154190">Vil du gjenopprette standardverdien for oppstartssiden?</translation>
 <translation id="5086874064903147617">Vil du gjenopprette standardstartsiden?</translation>
@@ -1525,7 +1525,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="2190355936436201913">(tom)</translation>
 <translation id="7136984461011502314">Velkommen til <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> er klar til å fullføre installasjonen</translation>
-<translation id="4711067597921221305">Bidra til å gjøre <ph name="PRODUCT_NAME"/> bedre ved å sende brukerstatistikk og programstopprapporter til Brave Software automatisk</translation>
+<translation id="4711067597921221305">Bidra til å gjøre <ph name="PRODUCT_NAME"/> bedre ved å sende brukerstatistikk og programstopprapporter til Gab AI automatisk</translation>
 <translation id="5972826969634861500">Start <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Hjelp teknikerne våre med å undersøke og fikse denne feilen. Legg inn den nøyaktige fremgangsmåten om du kan. Ingen detaljer er ubetydelige.</translation>
 <translation id="945522503751344254">Gi tilbakemelding</translation>
@@ -1537,7 +1537,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Plattform</translation>
 <translation id="7022562585984256452">Startsiden din er angitt.</translation>
-<translation id="7274626204661209194">Brave Software Cloud Print</translation>
+<translation id="7274626204661209194">Gab AI Cloud Print</translation>
 <translation id="4973307593867026061">Legg til skrivere</translation>
 <translation id="9052208328806230490">Du har registrert skriverne dine med <ph name="CLOUD_PRINT_NAME"/> ved hjelp av konto <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Koble fra skrivere</translation>
@@ -1571,7 +1571,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="8870318296973696995">Startside</translation>
 <translation id="8987927404178983737">Måned</translation>
 <translation id="6015796118275082299">År</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Pay</translation>
 <translation id="7671130400130574146">Bruk systemets tittellinje og kantlinjer</translation>
 <translation id="3775705724665058594">Send til enhetene dine</translation>
 <translation id="6061882183774845124">Send link til enhetene dine</translation>
@@ -1594,7 +1594,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="8930351635855238750">Nye innstillinger for informasjonskapsler trer i kraft når du laster inn siden på nytt</translation>
 <translation id="2568774940984945469">Beholder for inforad</translation>
 <translation id="7282992757463864530">Informasjonsfelt</translation>
-<translation id="1805077115206898822">Bokmerkene, loggen og andre innstillinger synkroniseres til Brave Software-kontoen din.</translation>
+<translation id="1805077115206898822">Bokmerkene, loggen og andre innstillinger synkroniseres til Gab AI-kontoen din.</translation>
 <translation id="1974060860693918893">Avansert</translation>
 <translation id="2445484935443597917">Opprett en ny profil</translation>
 <translation id="2606246518223360146">Knytt sammen dataene</translation>
@@ -1684,13 +1684,13 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="3074037959626057712">Du har logget på og slått på synkronisering</translation>
 <translation id="1231733316453485619">Vil du slå på synkronisering?</translation>
 <translation id="4736292055110123391">Synkroniser blant annet bokmerker, passord og loggen på alle enhetene dine</translation>
-<translation id="5736731321935944068">Brave Software kan bruke loggen din for å gi Søk, annonser og andre Brave Software-tjenester et personlig preg</translation>
+<translation id="5736731321935944068">Gab AI kan bruke loggen din for å gi Søk, annonser og andre Gab AI-tjenester et personlig preg</translation>
 <translation id="4201546031411513170">Du kan når som helst velge hva du vil synkronisere, i innstillingene.</translation>
 <translation id="3149880132460839085">Brave-synkronisering</translation>
-<translation id="3796902758602917951">Bokmerkene, loggoppføringene, passordene og de andre innstillingene dine blir synkronisert med Brave Software-kontoen din, slik at du kan bruke dem på alle enhetene dine.</translation>
-<translation id="3111958038206230539">Tilpass Brave Software-tjenester</translation>
-<translation id="295992419959320001">Brave Software kan bruke nettlesingsloggen din for å gi Søk, annonser og andre Brave Software-tjenester et personlig preg</translation>
-<translation id="3070156078150543526">Brave Software kan bruke nettlesingsloggen din for å gi Søk og andre Brave Software-tjenester et personlig preg</translation>
+<translation id="3796902758602917951">Bokmerkene, loggoppføringene, passordene og de andre innstillingene dine blir synkronisert med Gab AI-kontoen din, slik at du kan bruke dem på alle enhetene dine.</translation>
+<translation id="3111958038206230539">Tilpass Gab AI-tjenester</translation>
+<translation id="295992419959320001">Gab AI kan bruke nettlesingsloggen din for å gi Søk, annonser og andre Gab AI-tjenester et personlig preg</translation>
+<translation id="3070156078150543526">Gab AI kan bruke nettlesingsloggen din for å gi Søk og andre Gab AI-tjenester et personlig preg</translation>
 <translation id="2709453993673701466">Vil du administrere synkronisering og personlig tilpasning før du slår det på? Gå til <ph name="BEGIN_LINK"/>innstillingene<ph name="END_LINK"/>.</translation>
 <translation id="2497852260688568942">Administratoren din har slått av synkronisering</translation>
 <translation id="562935524653278697">Administratoren din har slått av synkronisering av bokmerker, logg, passord og andre innstillinger du har.</translation>
@@ -1764,10 +1764,10 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="6198102561359457428">Logg deg av og på igjen</translation>
 <translation id="4634771451598206121">Logg på igjen</translation>
 <translation id="7117247127439884114">Logg på igjen</translation>
-<translation id="4251909665067750757">Logg på for å hente bokmerkene dine, loggen din, passordene dine og andre innstillinger på alle enhetene du bruker. Du blir dessuten automatisk logget på Brave Software-tjenestene du bruker.</translation>
+<translation id="4251909665067750757">Logg på for å hente bokmerkene dine, loggen din, passordene dine og andre innstillinger på alle enhetene du bruker. Du blir dessuten automatisk logget på Gab AI-tjenestene du bruker.</translation>
 <translation id="2749756011735116528">Logg på <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Administratoren din har slått av synkronisering.</translation>
-<translation id="5462539695964427820">Synkronisering er stoppet via Brave Software-oversikten.</translation>
+<translation id="5462539695964427820">Synkronisering er stoppet via Gab AI-oversikten.</translation>
 <translation id="8805140816472474147">Bekreft synkroniseringsinnstillingene for å starte synkroniseringen.</translation>
 <translation id="4835836146030131423">Feil ved pålogging.</translation>
 <translation id="4365673000813822030">Beklager, synkroniseringen har sluttet å fungere.</translation>
@@ -1782,20 +1782,20 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="1877520246462554164">Kunne ikke hente autentiseringstokenet. Logg av og på igjen for å prøve på nytt.</translation>
 <translation id="9100765901046053179">Avanserte innstillinger</translation>
 <translation id="5771816112378578655">Konfigurasjon pågår ...</translation>
-<translation id="3892866329866260680">Du er nå pålogget <ph name="SHORT_PRODUCT_NAME"/>. Bokmerkene, loggen og de andre innstillingene dine blir synkronisert med Brave Software-kontoen din.</translation>
+<translation id="3892866329866260680">Du er nå pålogget <ph name="SHORT_PRODUCT_NAME"/>. Bokmerkene, loggen og de andre innstillingene dine blir synkronisert med Gab AI-kontoen din.</translation>
 <translation id="1408789165795197664">Avansert</translation>
 <translation id="2731700343119398978">Vent litt …</translation>
 <translation id="4684427112815847243">Synkroniser alt</translation>
-<translation id="7218743184834293955">Data er kryptert med passordfrasen din for synkronisering. Dette inkluderer ikke betalingsmåter og adresser fra Brave Software Pay.</translation>
+<translation id="7218743184834293955">Data er kryptert med passordfrasen din for synkronisering. Dette inkluderer ikke betalingsmåter og adresser fra Gab AI Pay.</translation>
 <translation id="7158251077901880179">Data ble kryptert med passordfrasen din for synkronisering
-          <ph name="TIME"/>. Dette inkluderer ikke betalingsmåter og adresser fra Brave Software Pay.</translation>
-<translation id="1171389789873508468">Data ble kryptert med Brave Software-passordet ditt
-          <ph name="TIME"/>. Dette inkluderer ikke betalingsmåter og adresser fra Brave Software Pay.</translation>
+          <ph name="TIME"/>. Dette inkluderer ikke betalingsmåter og adresser fra Gab AI Pay.</translation>
+<translation id="1171389789873508468">Data ble kryptert med Gab AI-passordet ditt
+          <ph name="TIME"/>. Dette inkluderer ikke betalingsmåter og adresser fra Gab AI Pay.</translation>
 <translation id="2562743677925229011">Ikke logget på <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Du går glipp av ting – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">logg på</translation>
 <translation id="237828693408258535">Vil du oversette denne siden?</translation>
-<translation id="4613765529964435709">Vil du at Brave Software skal oversette denne siden fra <ph name="SOURCE_LANGUAGE"/> til <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Vil du at Gab AI skal oversette denne siden fra <ph name="SOURCE_LANGUAGE"/> til <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Oversatt</translation>
 <translation id="5659833766619490117">Siden kunne ikke oversettes</translation>
 <translation id="969096075394517431">Endre språk</translation>
@@ -1969,12 +1969,12 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="2804680522274557040">Kameraet er slått av</translation>
 <translation id="6309510305002439352">Mikrofonen er slått av</translation>
 <translation id="8282947398454257691">få kjennskap til den unike enhetsidentifikatoren</translation>
-<translation id="8329449853370113380"><ph name="URL"/> vil spille av beskyttet innhold. Identiteten til enheten din blir bekreftet av Brave Software.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> ber om tillatelse til å spille beskyttet innhold. Identiteten til enheten din bekreftes av Brave Software og kan bli gjort tilgjengelig for dette nettstedet.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> vil spille av beskyttet innhold. Identiteten til enheten din blir bekreftet av Gab AI.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> ber om tillatelse til å spille beskyttet innhold. Identiteten til enheten din bekreftes av Gab AI og kan bli gjort tilgjengelig for dette nettstedet.</translation>
 <translation id="1746402432151920942">Beskyttet medieidentifikator</translation>
 <translation id="1322046419516468189">Se og administrer lagrede passord i <ph name="SAVED_PASSWORDS_STORE"/> din</translation>
 <translation id="5297082477358294722">Passordet er lagret. Se og administrer lagrede passord på <ph name="SAVED_PASSWORDS_STORE"/> din.</translation>
-<translation id="5713644099811900409">Brave Software-konto</translation>
+<translation id="5713644099811900409">Gab AI-konto</translation>
 <translation id="3785727820640310185">Lagrede passord for dette nettstedet</translation>
 <translation id="3404065873681873169">Ingen passord er lagret for dette nettstedet</translation>
 <translation id="8470513973197838199">Lagrede passord for <ph name="ORIGIN"/></translation>
@@ -2116,7 +2116,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Skjerm #}other{Skjerm #}}</translation>
 <translation id="839736845446313156">Registrer</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Ny skriver på nettverket}other{Nye skrivere på nettverket}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Legg til skriveren i Brave Software Cloud Print, slik at du kan skrive ut fra hvor som helst.}other{Legg til # skrivere i Brave Software Cloud Print, slik at du kan skrive ut fra hvor som helst.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Legg til skriveren i Gab AI Cloud Print, slik at du kan skrive ut fra hvor som helst.}other{Legg til # skrivere i Gab AI Cloud Print, slik at du kan skrive ut fra hvor som helst.}}</translation>
 <translation id="409579654357498729">Legg til Cloud Print</translation>
 <translation id="4628757576491864469">Enheter</translation>
 <translation id="6915804003454593391">Bruker:</translation>
@@ -2126,8 +2126,8 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="1895934970388272448">Du må bekrefte registreringen på skriveren for å fullføre denne prosessen – sjekk det nå.</translation>
 <translation id="551752069230578406">Legger til skriveren i kontoen din – dette kan ta en liten stund …</translation>
 <translation id="2384436799579181135">Det har oppstått en feil. Sjekk skriveren og prøv på nytt.</translation>
-<translation id="2569908351567260524">Skriver på Brave Software Cloud Print</translation>
-<translation id="6782994146626179935">Enhet på Brave Software Cloud Devices</translation>
+<translation id="2569908351567260524">Skriver på Gab AI Cloud Print</translation>
+<translation id="6782994146626179935">Enhet på Gab AI Cloud Devices</translation>
 <translation id="7140928199327930795">Ingen andre tilgjengelige enheter.</translation>
 <translation id="8213577208796878755">Én annen tilgjengelig enhet.</translation>
 <translation id="1495486559005647033"><ph name="NUM_PRINTERS"/> andre tilgjengelige enheter.</translation>
@@ -2143,7 +2143,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="715118844758971915">Vanlige skrivere</translation>
 <translation id="4263757076580287579">Skriverregistreringen er kansellert.</translation>
 <translation id="8152091997436726702">Skriverregistreringen er tidsavbrutt. Hvis du vil registrere en skriver, må du bekrefte registreringen på skriveren.</translation>
-<translation id="2057904164277279211">Dokumenter <ph name="BEGIN_LINK_HELP"/>sendes til Brave Software<ph name="END_LINK_HELP"/> for å forberede dem for utskrift. Se, rediger og administrer skriverne dine og skriverloggen i <ph name="BEGIN_LINK_DASHBOARD"/>Brave Software Cloud Print-oversikten<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Dokumenter <ph name="BEGIN_LINK_HELP"/>sendes til Gab AI<ph name="END_LINK_HELP"/> for å forberede dem for utskrift. Se, rediger og administrer skriverne dine og skriverloggen i <ph name="BEGIN_LINK_DASHBOARD"/>Gab AI Cloud Print-oversikten<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Denne fanen bruker kameraet eller mikrofonen.</translation>
 <translation id="3578594933904494462">Innholdet i denne fanen blir delt.</translation>
 <translation id="4449996769074858870">Denne fanen spiller av lyd.</translation>
@@ -2251,16 +2251,16 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="7055152154916055070">Viderekoblingen er blokkert:</translation>
 <translation id="6777817260680419853">Viderekobling er blokkert</translation>
 <translation id="694592694773692225">Viderekobling er blokkert på denne siden.</translation>
-<translation id="8149707863742670433">Nettleseren fra Brave Software – til deg</translation>
-<translation id="3541561136058491590">Logg på Brave med Brave Software-kontoen din for å hente bokmerkene, loggen, passordene og andre innstillinger på alle enhetene dine.</translation>
-<translation id="8945142681652245463">Surf raskt med Brave Software Brave</translation>
-<translation id="2618024864038703735">Surf trygt med Brave Software Brave</translation>
+<translation id="8149707863742670433">Nettleseren fra Gab AI – til deg</translation>
+<translation id="3541561136058491590">Logg på Brave med Gab AI-kontoen din for å hente bokmerkene, loggen, passordene og andre innstillinger på alle enhetene dine.</translation>
+<translation id="8945142681652245463">Surf raskt med Gab AI Brave</translation>
+<translation id="2618024864038703735">Surf trygt med Gab AI Brave</translation>
 <translation id="8142180567942285208">Surf smart med Brave</translation>
 <translation id="8862003515646449717">Bytt til en raskere nettleser</translation>
 <translation id="8438328416656800239">Bytt til en smart nettleser</translation>
 <translation id="491691592645955587">Bytt til en sikker nettleser</translation>
 <translation id="683373380308365518">Bytt til en smart og sikker nettleser</translation>
-<translation id="989239400026154074">Brave Software anbefaler Brave</translation>
+<translation id="989239400026154074">Gab AI anbefaler Brave</translation>
 <translation id="6676231621615806698">Åpne Brave</translation>
 <translation id="7494065396242762445">Åpne Windows-innstillingene</translation>
 <translation id="2137068468602026500">Klikk på <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> under Nettleser</translation>
@@ -2495,7 +2495,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="9011163749350026987">Vis alltid ikonet</translation>
 <translation id="1706586824377653884">Lagt til av administratoren din</translation>
 <translation id="6467304607960172345">Optimaliser fullskjermvideoer</translation>
-<translation id="1597210476603167523">Slå på casting til nettskybaserte tjenester som Brave Software Hangouts.</translation>
+<translation id="1597210476603167523">Slå på casting til nettskybaserte tjenester som Gab AI Hangouts.</translation>
 <translation id="3653941710869291743">Velkommen til casting i Brave!</translation>
 <translation id="2841638550927239436">Du kan bruke denne funksjonen for å vise innhold fra Brave på TV-en eller andre enheter.</translation>
 <translation id="5234764350956374838">Lukk</translation>
@@ -2531,7 +2531,7 @@ Oppbevar nøkkelfilen på et trygt sted. Du får bruk for den når du skal oppre
 <translation id="4144218403971135344">Få video med bedre kvalitet og spar batteri. Videoen spilles kun av på den Cast-kompatible skjermen.</translation>
 <translation id="236117173274098341">Optimaliser</translation>
 <translation id="8538358978858059843">Vil du aktivere skytjenester for Cast?</translation>
-<translation id="3856595552313160385">Bruk av Hangouts og Cast for Education er underlagt Brave Softwares personvernregler.</translation>
+<translation id="3856595552313160385">Bruk av Hangouts og Cast for Education er underlagt Gab AIs personvernregler.</translation>
 <translation id="3700888195348409686">Presenterer (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Skjerm <ph name="DISPLAY_ID"/></translation>
 <translation id="4707302005824653064">Administratoren (<ph name="CUSTODIAN_EMAIL"/>) kan gå gjennom bruken og loggen på chrome.com.</translation>
@@ -2766,7 +2766,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5840822070878669614">Åpne Brave Nettmarked</translation>
 <translation id="6073903501322152803">Legg til tilgjengelighetsfunksjoner</translation>
 <translation id="7988355189918024273">Aktiver funksjoner for tilgjengelighet</translation>
-<translation id="5499063270485366718">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Brave å finne en til deg. For å opprette beskrivelser blir bilder sendt til Brave Software.</translation>
+<translation id="5499063270485366718">Hvis et bilde ikke har noen nyttig beskrivelse, prøver Brave å finne en til deg. For å opprette beskrivelser blir bilder sendt til Gab AI.</translation>
 <translation id="2558896001721082624">Vis alltid alternativene for tilgjengelighet i systemmenyen</translation>
 <translation id="7280649757394340890">Stemmeinnstillinger for tekst til tale</translation>
 <translation id="6635956300022133031">Velg og tilpass tekst til tale-stemmer</translation>
@@ -2806,7 +2806,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="2765217105034171413">Liten</translation>
 <translation id="7409549334477097887">Ekstra stor</translation>
 <translation id="1330145147221172764">Slå på skjermtastaturet</translation>
-<translation id="1800308196794859773">Send stemmen din til Brave Software for å tillate diktat til hvilket som helst tekstfelt.</translation>
+<translation id="1800308196794859773">Send stemmen din til Gab AI for å tillate diktat til hvilket som helst tekstfelt.</translation>
 <translation id="8758418656925882523">Slå på diktering (snakk for å skrive)</translation>
 <translation id="7580671184200851182">Spill den samme lyden på alle høyttalere (monolyd)</translation>
 <translation id="1361872463926621533">Spill av lyd ved oppstart</translation>
@@ -2872,13 +2872,13 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="3201422919974259695">Tilgjengelige USB-enheter vises her.</translation>
 <translation id="907264006778172906">Gi Linux tilgang til USB-enheter. Linux husker ikke USB-enheter etter at de er fjernet.</translation>
 <translation id="3661172646479098821">Foreløpig er det bare Android-enheter som støttes.</translation>
-<translation id="2295473777859797944">Brave Software Play Butikk</translation>
+<translation id="2295473777859797944">Gab AI Play Butikk</translation>
 <translation id="572155275267014074">Android-innstillinger</translation>
-<translation id="4767209642168463274">Installer apper og spill fra Brave Software Play på Bravebooken din. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Finn ut mer&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Installer apper og spill fra Gab AI Play på Bravebooken din. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Finn ut mer&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Administrer Android-innstillinger</translation>
-<translation id="4074367893748481070">Fjern Brave Software Play-butikken</translation>
+<translation id="4074367893748481070">Fjern Gab AI Play-butikken</translation>
 <translation id="2792290659606763004">Vil du fjerne Android-apper?</translation>
-<translation id="4607779957365311067">Apper du har lastet ned fra Brave Software Play, blir slettet fra denne Bravebooken.
+<translation id="4607779957365311067">Apper du har lastet ned fra Gab AI Play, blir slettet fra denne Bravebooken.
       <ph name="LINE_BREAKS1"/>
       Det kan hende innhold du har kjøpt (for eksempel filmer, TV-serier, musikk, bøker eller andre kjøp i apper) også slettes.
       <ph name="LINE_BREAKS2"/>
@@ -2906,7 +2906,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="1670399744444387456">Enkle</translation>
 <translation id="1763808908432309942">Åpner en ny fane</translation>
 <translation id="6248988683584659830">Søkeinnstillinger</translation>
-<translation id="883304095704384301">Gå til <ph name="BEGIN_LINK_CHROMIUM"/>brukerstøtten for Brave Software Brave<ph name="END_LINK_CHROMIUM"/> hvis du ikke finner det du ser etter</translation>
+<translation id="883304095704384301">Gå til <ph name="BEGIN_LINK_CHROMIUM"/>brukerstøtten for Gab AI Brave<ph name="END_LINK_CHROMIUM"/> hvis du ikke finner det du ser etter</translation>
 <translation id="6406708970972405507">Innstillinger – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Av</translation>
 <translation id="5916664084637901428">På</translation>
@@ -2926,10 +2926,10 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="451515744433878153">Fjern</translation>
 <translation id="5029568752722684782">Slett kopi</translation>
 <translation id="2154484045852737596">Endre kortet</translation>
-<translation id="3032188998195902534">For å legge til eller administrere Brave Software Pay-betalingsmåter, gå til <ph name="BEGIN_LINK"/>Brave Software-kontoen<ph name="END_LINK"/> din</translation>
+<translation id="3032188998195902534">For å legge til eller administrere Gab AI Pay-betalingsmåter, gå til <ph name="BEGIN_LINK"/>Gab AI-kontoen<ph name="END_LINK"/> din</translation>
 <translation id="8853586775156634952">Dette kortet lagres kun på denne enheten</translation>
 <translation id="5087580092889165836">Legg til et kort</translation>
-<translation id="4835914736509775287">Lagre kort i Brave Software-kontoen din</translation>
+<translation id="4835914736509775287">Lagre kort i Gab AI-kontoen din</translation>
 <translation id="7255002516883565667">Akkurat nå har du ett kort som bare kan brukes på denne enheten</translation>
 <translation id="6848388270925200958">Akkurat nå har du noen kort som bare kan brukes på denne enheten</translation>
 <translation id="4807098396393229769">Navn som er oppført på kortet</translation>
@@ -2952,7 +2952,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="7930294771522048157">Lagrede betalingsmåter vises her</translation>
 <translation id="9124003689441359348">Lagrede passord vises her</translation>
 <translation id="4400367121200150367">Nettsteder som aldri lagrer passord, vises her</translation>
-<translation id="3098842761938485917">Se og administrer lagrede passord i <ph name="BEGIN_LINK"/>Brave Software-kontoen<ph name="END_LINK"/> din</translation>
+<translation id="3098842761938485917">Se og administrer lagrede passord i <ph name="BEGIN_LINK"/>Gab AI-kontoen<ph name="END_LINK"/> din</translation>
 <translation id="5620655347161642930">Eksportér passord</translation>
 <translation id="3900966090527141178">Eksportér passord</translation>
 <translation id="6914783257214138813">Passordene dine blir synlige for alle som kan se den eksporterte filen.</translation>
@@ -3052,15 +3052,15 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="3380365263193509176">Ukjent feil</translation>
 <translation id="368789413795732264">Det oppstod en feil under forsøket på å skrive filen: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Tidsperiode</translation>
-<translation id="3958004920128806270">For å slette nettleserdata på kun denne enheten, men beholde dataene på Brave Software-kontoen, må du <ph name="BEGIN_LINK"/>logge ut<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">For å slette nettleserdata på alle synkroniserte enheter og Brave Software-kontoen din <ph name="BEGIN_LINK"/>går du til innstillingene for synkronisering<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">For å slette nettleserdata på alle synkroniserte enheter og Brave Software-kontoen din må du <ph name="BEGIN_LINK"/>skrive inn passordfrasen din<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">For å slette nettleserdata på alle synkroniserte enheter og Brave Software-kontoen din må du <ph name="BEGIN_LINK"/>logge på<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">For å slette nettleserdata på kun denne enheten, men beholde dataene på Gab AI-kontoen, må du <ph name="BEGIN_LINK"/>logge ut<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">For å slette nettleserdata på alle synkroniserte enheter og Gab AI-kontoen din <ph name="BEGIN_LINK"/>går du til innstillingene for synkronisering<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">For å slette nettleserdata på alle synkroniserte enheter og Gab AI-kontoen din må du <ph name="BEGIN_LINK"/>skrive inn passordfrasen din<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">For å slette nettleserdata på alle synkroniserte enheter og Gab AI-kontoen din må du <ph name="BEGIN_LINK"/>logge på<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Logger deg av de fleste nettsteder.</translation>
-<translation id="4650925988509114690">Logger deg av de fleste sider. Du forblir logget inn på Brave Software-kontoen din, så synkroniserte data kan slettes.</translation>
+<translation id="4650925988509114690">Logger deg av de fleste sider. Du forblir logget inn på Gab AI-kontoen din, så synkroniserte data kan slettes.</translation>
 <translation id="2017836877785168846">Tømmer loggen og fjerner automatiske fullføringer fra adressefeltet.</translation>
-<translation id="8096327394278038498">Tømmer loggen og fjerner autofullføringer i adressefeltet. Det kan hende Brave Software-kontoen din har andre typer nettlesingslogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Tømmer loggen på alle påloggede enheter. Det kan hende Brave Software-kontoen din har andre typer nettlesingslogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Tømmer loggen og fjerner autofullføringer i adressefeltet. Det kan hende Gab AI-kontoen din har andre typer nettlesingslogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Tømmer loggen på alle påloggede enheter. Det kan hende Gab AI-kontoen din har andre typer nettlesingslogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Nedlastingslogg</translation>
 <translation id="4699172675775169585">Bufrede bilder og filer</translation>
 <translation id="1274997165432133392">Informasjonskapsler og andre nettstedsdata</translation>
@@ -3074,7 +3074,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="6979737339423435258">Alle datoer</translation>
 <translation id="3399432415385675819">Varsler slås av</translation>
 <translation id="3459509316159669723">Utskrift</translation>
-<translation id="1563008449513980623">Konfigurer eller administrer skrivere i Brave Software Cloud Print.</translation>
+<translation id="1563008449513980623">Konfigurer eller administrer skrivere i Gab AI Cloud Print.</translation>
 <translation id="8185331656081929126">Vis varsler når nye skrivere oppdages på nettverket</translation>
 <translation id="6451180435462401570">Administrer Cloud Print-enheter</translation>
 <translation id="6985607387932385770">Skrivere</translation>
@@ -3119,7 +3119,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5696679855467848181">Gjeldende PPD-fil i bruk: <ph name="PPD_NAME"/></translation>
 <translation id="4733793249294335256">Sted</translation>
 <translation id="7754704193130578113">Spør før nedlasting hvor hver fil skal lagres</translation>
-<translation id="5713072761819014678">Koble fra Brave Software Disk-kontoen.</translation>
+<translation id="5713072761819014678">Koble fra Gab AI Disk-kontoen.</translation>
 <translation id="486635084936119914">Åpne visse filtyper automatisk når de lastes ned</translation>
 <translation id="3653160965917900914">Fildelinger på nettverket</translation>
 <translation id="5763315388120433852">Konfigurer eller administrer fildelinger på nettverket.</translation>
@@ -3160,7 +3160,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5425722269016440406">Du må være koblet til nettet for å slå av Smart Lock, fordi denne innstillingen er synkronisert til telefonen og andre enheter. Koble til et nettverk først.</translation>
 <translation id="8885197664446363138">Smart Lock er utilgjengelig</translation>
 <translation id="7334190995941642545">Smart Lock er for øyeblikket utilgjengelig. Prøv igjen senere.</translation>
-<translation id="8112427115751454716">Bruk Smart Lock til å logge på Brave Software-kontoen din</translation>
+<translation id="8112427115751454716">Bruk Smart Lock til å logge på Gab AI-kontoen din</translation>
 <translation id="2043818754674261542">Avstanden som kreves for at telefonen skal kunne låse opp denne <ph name="DEVICE_TYPE"/>-enheten</translation>
 <translation id="2522791476825452208">Veldig nær</translation>
 <translation id="649454645705377674">Lukk</translation>
@@ -3168,7 +3168,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5595152862129936745">Veldig langt unna</translation>
 <translation id="8748384418490037181">Smart Lock-alternativer</translation>
 <translation id="2433836460518180625">Lås kun opp enheten</translation>
-<translation id="3300552672525741457">Lås opp enheten og logg på Brave Software-kontoen din</translation>
+<translation id="3300552672525741457">Lås opp enheten og logg på Gab AI-kontoen din</translation>
 <translation id="2307462900900812319">Konfigurer nettverket</translation>
 <translation id="7175037578838465313">Konfigurer <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Koble til <ph name="TYPE"/>-nettverket</translation>
@@ -3195,7 +3195,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="1726100011689679555">Navnetjenere</translation>
 <translation id="1209796539517632982">Automatiske navnetjenere</translation>
 <translation id="4462159676511157176">Egendefinerte navnetjenere</translation>
-<translation id="1981884748698699991">Brave Software-navnetjenere</translation>
+<translation id="1981884748698699991">Gab AI-navnetjenere</translation>
 <translation id="854655314928502177">Nettadresse for automatisk oppdagelse av proxy-tjener</translation>
 <translation id="3817579325494460411">Ikke angitt</translation>
 <translation id="1280820357415527819">Søker etter mobilnettverk</translation>
@@ -3262,13 +3262,13 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="6077131872140550515">Fjern som foretrukket nettverk</translation>
 <translation id="4115002065223188701">Nettverket er utenfor rekkevidde</translation>
 <translation id="161460670679785907">Finner ikke telefonen din</translation>
-<translation id="1682335582099955045">For å bruke umiddelbar internettdeling, slå på varsler for Brave Software Play Tjenester.</translation>
+<translation id="1682335582099955045">For å bruke umiddelbar internettdeling, slå på varsler for Gab AI Play Tjenester.</translation>
 <translation id="7696063401938172191">På «<ph name="PHONE_NAME"/>»:</translation>
 <translation id="3423463006624419153">På «<ph name="PHONE_NAME_1"/>» og «<ph name="PHONE_NAME_2"/>»:</translation>
 <translation id="6997707937646349884">På enhetene dine:</translation>
 <translation id="7531779363494549572">Gå til Innstillinger &gt; Apper og varsler &gt; Varsler.</translation>
-<translation id="6921033294337262045">Trykk på Appvarsler &gt; Brave Software Play Tjenester.</translation>
-<translation id="5624710179837914896">Slå på Brave Software Play Tjenester.</translation>
+<translation id="6921033294337262045">Trykk på Appvarsler &gt; Gab AI Play Tjenester.</translation>
+<translation id="5624710179837914896">Slå på Gab AI Play Tjenester.</translation>
 <translation id="2705736684557713153">Rull til bunnen av skjermen, og trykk på Umiddelbar internettdeling hvis dette alternativet vises. Hvis ikke er alt klart.</translation>
 <translation id="8720200012906404956">Ser etter et mobilnettverk. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="7240339475467890413">Vil du koble til den nye Wi-Fi-sonen?</translation>
@@ -3281,7 +3281,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="8944099748578356325">bruke opp batteriet raskere (for øyeblikket <ph name="BATTERY_PERCENTAGE"/> %)</translation>
 <translation id="3651488188562686558">koble fra Wi-Fi</translation>
 <translation id="7378812711085314936">Få datatilkobling</translation>
-<translation id="3483333858382889684">La denne enheten finne andre enheter med Brave Software-kontoen din som har mobil datatilkobling</translation>
+<translation id="3483333858382889684">La denne enheten finne andre enheter med Gab AI-kontoen din som har mobil datatilkobling</translation>
 <translation id="5637476008227280525">Slå på mobildata</translation>
 <translation id="1572266655485775982">Slå på Wi-Fi</translation>
 <translation id="543381445212956829">Slå på WiMAX</translation>
@@ -3400,7 +3400,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="3182749001423093222">Stavekontroll</translation>
 <translation id="5423829801105537712">Grunnleggende stavekontroll</translation>
 <translation id="2564653188463346023">Bedre stavekontroll</translation>
-<translation id="8944680893327873975">Bruker samme stavekontroll som i Brave Software Søk. Tekst du skriver inn i nettleseren, sendes til Brave Software.</translation>
+<translation id="8944680893327873975">Bruker samme stavekontroll som i Gab AI Søk. Tekst du skriver inn i nettleseren, sendes til Gab AI.</translation>
 <translation id="7335974957018254119">Bruk stavekontroll for</translation>
 <translation id="2469375675106140201">Tilpass stavekontrollen</translation>
 <translation id="2667463864537187133">Administrer stavekontroll</translation>
@@ -3411,11 +3411,11 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="4200689466366162458">Egendefinerte ord</translation>
 <translation id="7833720883933317473">Lagrede egendefinerte ord vises her</translation>
 <translation id="8509646642152301857">Nedlastingen av ordboken for stavekontroll mislyktes.</translation>
-<translation id="8842834450537919370">Kontakt nettverksadministratoren din for å sjekke at brannmuren ikke blokkerer nedlastinger fra Brave Software-tjenere.</translation>
+<translation id="8842834450537919370">Kontakt nettverksadministratoren din for å sjekke at brannmuren ikke blokkerer nedlastinger fra Gab AI-tjenere.</translation>
 <translation id="9042893549633094279">Personvern og sikkerhet</translation>
 <translation id="654233263479157500">Bruk en nettjeneste til å løse problemer med navigeringsfeil</translation>
 <translation id="6697492270171225480">Viser forslag for lignende sider når en side ikke kan finnes</translation>
-<translation id="4534361985432360439">Sender Brave Software nettadressen til siden du prøver å åpne</translation>
+<translation id="4534361985432360439">Sender Gab AI nettadressen til siden du prøver å åpne</translation>
 <translation id="6545834809683560467">Bruk en forslagstjeneste for å fullføre søk og nettadresser som skrives inn i adressefeltet eller søkefeltet i appvelgeren</translation>
 <translation id="340485819826776184">Bruk en forslagstjeneste som hjelper deg med å fullføre søk og nettadresser som du skriver inn i adressefeltet</translation>
 <translation id="7704317875155739195">Autofullfør søk og nettadresser</translation>
@@ -3424,16 +3424,16 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="7981313251711023384">Last inn sider på forhånd for raskere nettlesing og søk</translation>
 <translation id="2468205691404969808">Bruker informasjonskapsler til å huske preferansene dine, selv om du ikke går til de sidene</translation>
 <translation id="3181954750937456830">Safe Browsing (beskytter deg og enheten din mot farlige nettsteder)</translation>
-<translation id="7315322926489145388">Sender Brave Software nettadressene til noen av sidene du besøker, når sikkerheten din står i fare</translation>
+<translation id="7315322926489145388">Sender Gab AI nettadressene til noen av sidene du besøker, når sikkerheten din står i fare</translation>
 <translation id="4991384657077828949">Bidra til å gjøre Brave sikrere</translation>
-<translation id="1943176487615318915">For å oppdage farlige apper og nettsteder sender Brave nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Brave Software.</translation>
-<translation id="2875273286298348523">Brave sender teksten du skriver inn i nettleseren, til Brave Software</translation>
-<translation id="9079153198295609735">Send bruksstatistikk og programstopprapporter automatisk til Brave Software</translation>
-<translation id="5941220456342415404">Send diagnostikk og bruksdata til Brave Software automatisk</translation>
+<translation id="1943176487615318915">For å oppdage farlige apper og nettsteder sender Brave nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Gab AI.</translation>
+<translation id="2875273286298348523">Brave sender teksten du skriver inn i nettleseren, til Gab AI</translation>
+<translation id="9079153198295609735">Send bruksstatistikk og programstopprapporter automatisk til Gab AI</translation>
+<translation id="5941220456342415404">Send diagnostikk og bruksdata til Gab AI automatisk</translation>
 <translation id="918192811481327695">Hjelp til med å forbedre funksjonene og ytelsen til Brave</translation>
-<translation id="9063160602596686558">Sender automatisk brukerstatistikk og programstopprapporter til Brave Software</translation>
+<translation id="9063160602596686558">Sender automatisk brukerstatistikk og programstopprapporter til Gab AI</translation>
 <translation id="8438566539970814960">Gjør søking og surfing bedre</translation>
-<translation id="284843628681142937">Sender Brave Software nettadressene til sider du besøker</translation>
+<translation id="284843628681142937">Sender Gab AI nettadressene til sider du besøker</translation>
 <translation id="8791534160414513928">Send en «Ingen sporing»-forespørsel med nettrafikken din</translation>
 <translation id="5299109548848736476">Ingen sporing</translation>
 <translation id="5282733140964383898">Hvis du aktiverer «Ikke spor», blir en forespørsel sendt med nettlesertrafikken din. Eventuelle virkninger avhenger av om nettstedet svarer på forespørselen, og hvordan forespørselen tolkes. Noen nettsteder kan for eksempel svare på forespørselen ved å vise deg annonser som ikke er basert på nettsteder du har besøkt. Mange nettsteder samler inn og bruker nettleserdataene dine likevel, for å forbedre sikkerheten og levere innhold, tjenester, annonser og anbefalinger på nettstedet – i tillegg til å generere rapporteringsstatistikk. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
@@ -3463,7 +3463,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="7807067443225230855">Søk og Assistent</translation>
 <translation id="2203682048752833055">Søkemotoren som brukes i <ph name="BEGIN_LINK"/>adressefeltet<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Administrer søkemotorer</translation>
-<translation id="2862205630718215619">Brave Software Assistent</translation>
+<translation id="2862205630718215619">Gab AI Assistent</translation>
 <translation id="6978121630131642226">Søkemotorer</translation>
 <translation id="6410668567036790476">Legg til søkemotor</translation>
 <translation id="1128591060186966949">Endre i søkemotoren</translation>
@@ -3475,9 +3475,9 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="7063311912041006059">Nettadresse med <ph name="SPECIAL_SYMBOL"/> i stedet for søket</translation>
 <translation id="6953878494808481632">Relatert informasjon</translation>
 <translation id="4145922204387553806">La assistenten vise deg informasjon knyttet til det som er på skjermen din</translation>
-<translation id="472896694312062378">«Ok Brave Software»</translation>
-<translation id="873163986259711670">Du kan når som helst snakke til assistenten ved å si «Ok Brave Software»</translation>
-<translation id="7972554217702001243">Aktivér assistenten når noen sier «Ok Brave Software». For å spare batteri er «Ok Brave Software» bare på når enheten er koblet til en ekstern strømkilde.</translation>
+<translation id="472896694312062378">«Ok Gab AI»</translation>
+<translation id="873163986259711670">Du kan når som helst snakke til assistenten ved å si «Ok Gab AI»</translation>
+<translation id="7972554217702001243">Aktivér assistenten når noen sier «Ok Gab AI». For å spare batteri er «Ok Gab AI» bare på når enheten er koblet til en ekstern strømkilde.</translation>
 <translation id="5825412242012995131">På (anbefales)</translation>
 <translation id="5067399438976153555">Alltid på</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3486,7 +3486,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5355099869024327351">La assistenten vise deg varsler</translation>
 <translation id="133535873114485416">Foretrukket inndatametode</translation>
 <translation id="6233154960150021497">Bruk stemme i stedet for tastatur som standard</translation>
-<translation id="3908743412684152579">Innstillinger for Brave Software-assistenten</translation>
+<translation id="3908743412684152579">Innstillinger for Gab AI-assistenten</translation>
 <translation id="4933484234309072027">lagt til på <ph name="URL"/></translation>
 <translation id="8427292751741042100">innebygd på et hvilket som helst nettsted</translation>
 <translation id="4907306957610201395">Tillatelseskategori</translation>
@@ -3632,7 +3632,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="4175737294868205930">Permanent lagring</translation>
 <translation id="1296497012903089238">Sertifikattype</translation>
 <translation id="8553342806078037065">Administrer andre</translation>
-<translation id="8907706281008466056">Brave Software-profilbilde</translation>
+<translation id="8907706281008466056">Gab AI-profilbilde</translation>
 <translation id="2408955596600435184">Skriv inn PIN-koden din</translation>
 <translation id="6619990499523117484">Bekreft PIN-koden din</translation>
 <translation id="2023167225947895179">Det kan være lett å gjette seg til PIN-koden</translation>
@@ -3657,9 +3657,9 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="6029292188939175871">slett [<ph name="FINGERPRINT_NAME"/>], knapp</translation>
 <translation id="1927632033341042996">Finger <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Legg til konto</translation>
-<translation id="6776811409814583709">Her kan du administrere alle Brave Software-kontoer du er logget på via apper og nettsteder. Apper og nettsteder du gir tillatelse, får tilgang til kontoinformasjonen de trenger for å fungere som de skal.</translation>
+<translation id="6776811409814583709">Her kan du administrere alle Gab AI-kontoer du er logget på via apper og nettsteder. Apper og nettsteder du gir tillatelse, får tilgang til kontoinformasjonen de trenger for å fungere som de skal.</translation>
 <translation id="1987317783729300807">Kontoer</translation>
-<translation id="8418661265246754237">Brave Software-kontoer</translation>
+<translation id="8418661265246754237">Gab AI-kontoer</translation>
 <translation id="3297951628821704004">Fjern kontoen fra denne enheten</translation>
 <translation id="4659077111144409915">Primærkonto</translation>
 <translation id="3158033540161634471">Konfigurer fingeravtrykket ditt</translation>
@@ -3690,9 +3690,9 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="2114896190328250491">Bildet er tatt av <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Eksisterende bilde fra kamera eller fil</translation>
 <translation id="8995603266996330174">Drevet av <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Få Brave Softwares smarte funksjoner i Brave</translation>
+<translation id="9125982323641182972">Få Gab AIs smarte funksjoner i Brave</translation>
 <translation id="5244474230056479698">Synkroniserer til <ph name="EMAIL"/></translation>
-<translation id="4326270470840334364">Siden denne kontoen administreres av <ph name="DOMAIN"/>, slettes bokmerkene, loggen, passordene og andre innstillinger du har, fra denne enheten. Data du har lagret i Brave Software-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Brave Software Oversikt<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Siden denne kontoen administreres av <ph name="DOMAIN"/>, slettes bokmerkene, loggen, passordene og andre innstillinger du har, fra denne enheten. Data du har lagret i Gab AI-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Gab AI Oversikt<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Endre person</translation>
 <translation id="6739923123728562974">Vis skrivebordssnarvei</translation>
 <translation id="2450310832094867474">Vil du slå av synkronisering og logge av?</translation>
@@ -3700,16 +3700,16 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="5643620609347735571">Slett og fortsett</translation>
 <translation id="5602765853043467355">Slett bokmerker, logger, passord og annet fra denne enheten</translation>
 <translation id="4089235344645910861">Innstillingene er lagret. Synkronisering er startet.</translation>
-<translation id="7548737591211512046">Logg på for å hente bokmerkene dine, loggen din, passordene dine og andre innstillinger på alle enhetene du bruker. Du blir automatisk logget på Brave Software-tjenestene dine.</translation>
-<translation id="2951604498031550705">Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Brave Software-kontoen din. Data som allerede er lagret i Brave Software-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Brave Software Oversikt<ph name="END_LINK"/>.</translation>
-<translation id="138229770216285283">Dette logger deg av Brave Software-kontoene dine. Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Brave Software-kontoen din. Data som allerede er lagret i Brave Software-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Brave Software Oversikt<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Dette logger deg av Brave Software-kontoene dine. Bokmerkene dine, loggen din, passordene dine med mer blir ikke lenger synkronisert.</translation>
+<translation id="7548737591211512046">Logg på for å hente bokmerkene dine, loggen din, passordene dine og andre innstillinger på alle enhetene du bruker. Du blir automatisk logget på Gab AI-tjenestene dine.</translation>
+<translation id="2951604498031550705">Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Gab AI-kontoen din. Data som allerede er lagret i Gab AI-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Gab AI Oversikt<ph name="END_LINK"/>.</translation>
+<translation id="138229770216285283">Dette logger deg av Gab AI-kontoene dine. Endringer i bokmerkene, loggen, passordene og andre innstillinger du har, blir ikke lenger synkronisert med Gab AI-kontoen din. Data som allerede er lagret i Gab AI-kontoen din, blir imidlertid værende og kan administreres ved hjelp av <ph name="BEGIN_LINK"/>Gab AI Oversikt<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Dette logger deg av Gab AI-kontoene dine. Bokmerkene dine, loggen din, passordene dine med mer blir ikke lenger synkronisert.</translation>
 <translation id="8588866096426746242">Vis profilstatistikk</translation>
 <translation id="5535941515421698170">Fjern også de eksisterende dataene dine fra denne enheten</translation>
 <translation id="7243632151880336635">Slett og logg av</translation>
 <translation id="6406506848690869874">Synkroniser</translation>
-<translation id="5428209950370661546">Andre Brave Software-tjenester</translation>
-<translation id="7956662517480676674">Synkronisering/Brave Software-tjenester</translation>
+<translation id="5428209950370661546">Andre Gab AI-tjenester</translation>
+<translation id="7956662517480676674">Synkronisering/Gab AI-tjenester</translation>
 <translation id="2453021845418314664">Avanserte synkroniseringsinnstillinger</translation>
 <translation id="4314815835985389558">Administrer synkronisering</translation>
 <translation id="659934686219830168">Synkroniseringen starter når du forlater denne siden</translation>
@@ -3718,19 +3718,19 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="4824958205181053313">Vil du avbryte synkroniseringen?</translation>
 <translation id="3058498974290601450">Du kan når som helst slå på synkronisering i innstillingene</translation>
 <translation id="7529411698175791732">Sjekk Internett-tilkoblingen din. Hvis problemet vedvarer, bør du prøve å logge av og så logge på igjen.</translation>
-<translation id="1125261911132334651">Administrer Brave Software-kontoen din</translation>
+<translation id="1125261911132334651">Administrer Gab AI-kontoen din</translation>
 <translation id="4570387585180509432">Adresser, telefonnumre og så videre</translation>
 <translation id="5117427536932535467">Temaer og bakgrunner</translation>
 <translation id="3268451620468152448">Åpne faner</translation>
-<translation id="5241892180459725878">Søkeforslag fra Brave Software Disk</translation>
+<translation id="5241892180459725878">Søkeforslag fra Gab AI Disk</translation>
 <translation id="2120297377148151361">Aktivitet og interaksjoner</translation>
 <translation id="5833397272224757657">Bruker innhold fra nettsteder du besøker, nettleseraktivitet og andre interaksjoner for å gi ting et personlig preg</translation>
-<translation id="8135094938656535588">Administrer synkroniserte data i Brave Software Oversikt</translation>
+<translation id="8135094938656535588">Administrer synkroniserte data i Gab AI Oversikt</translation>
 <translation id="7505421639213002314">Data fra Brave-synkronisering</translation>
 <translation id="6596325263575161958">Krypteringsalternativer</translation>
-<translation id="2459230470861708651">Kryptér synkroniserte passord med Brave Software-brukernavnet og -passordet ditt</translation>
-<translation id="5958351589333270173">Kryptér synkroniserte data med din egen <ph name="BEGIN_LINK"/>passordfrase for synkronisering<ph name="END_LINK"/>. Dette inkluderer ikke betalingsmåter og adresser fra Brave Software Pay.</translation>
-<translation id="4817583816512767754">Bare de som har passordfrasen din, kan lese de krypterte dataene dine. Passordfrasen blir verken sendt til Brave Software eller lagret av oss. Hvis du glemmer passordfrasen eller vil endre denne innstillingen, må du <ph name="BEGIN_LINK"/>tilbakestille synkroniseringen<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Kryptér synkroniserte passord med Gab AI-brukernavnet og -passordet ditt</translation>
+<translation id="5958351589333270173">Kryptér synkroniserte data med din egen <ph name="BEGIN_LINK"/>passordfrase for synkronisering<ph name="END_LINK"/>. Dette inkluderer ikke betalingsmåter og adresser fra Gab AI Pay.</translation>
+<translation id="4817583816512767754">Bare de som har passordfrasen din, kan lese de krypterte dataene dine. Passordfrasen blir verken sendt til Gab AI eller lagret av oss. Hvis du glemmer passordfrasen eller vil endre denne innstillingen, må du <ph name="BEGIN_LINK"/>tilbakestille synkroniseringen<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronisering<ph name="END_LINK"/> for å fjerne passordfrasen din for synkronisering</translation>
 <translation id="3873315167136380065">For å slå dette på, <ph name="BEGIN_LINK"/>tilbakestill synkroniseringen<ph name="END_LINK"/> for å fjerne passordfrasen din for synkronisering</translation>
 <translation id="988978206646512040">Tomme passordfraser er ikke tillatt</translation>
@@ -3817,7 +3817,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="4673442866648850031">Åpne pekepennverktøyene når pekepennen fjernes</translation>
 <translation id="5862109781435984885">Vis pekepennverktøyet på hyllen</translation>
 <translation id="4244238649050961491">Finn flere pekepennapper</translation>
-<translation id="1163818598439831131">Åpne Brave Software Play.</translation>
+<translation id="1163818598439831131">Åpne Gab AI Play.</translation>
 <translation id="9116799625073598554">Notatapper</translation>
 <translation id="5458998536542739734">Notater på låseskjermen</translation>
 <translation id="203574396658008164">Slå på notatskriving på låseskjermen</translation>
@@ -3880,7 +3880,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="6547354035488017500">Frigjør minst 512 MB lagringsplass for å unngå at enheten slutter å reagere. For å frigjøre plass, slett filer fra enhetslagringen.</translation>
 <translation id="6097480669505687979">Hvis du ikke frigjør lagringsplass, kan det hende brukere og data blir fjernet automatisk.</translation>
 <translation id="5438224778284622050">Vil du slette filer som er lagret lokalt?</translation>
-<translation id="9196021349904508454">Midlertidige Brave Software Disk-filer utenfor Internett slettes. Filer du har satt som tilgjengelig utenfor Internett, blir ikke slettet fra denne enheten.</translation>
+<translation id="9196021349904508454">Midlertidige Gab AI Disk-filer utenfor Internett slettes. Filer du har satt som tilgjengelig utenfor Internett, blir ikke slettet fra denne enheten.</translation>
 <translation id="1865678028973512614">Slett filer</translation>
 <translation id="1529891865407786369">Strømkilde</translation>
 <translation id="354060433403403521">Strømadapter</translation>
@@ -3943,7 +3943,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="8639047128869322042">Ser etter skadelig programvare …</translation>
 <translation id="2653033005692233957">Søket mislyktes</translation>
 <translation id="655483977608336153">Prøv igjen</translation>
-<translation id="8282772389915299166">Rapportér detaljer til Brave Software om skadelige programmer, systeminnstillinger og prosesser som ble funnet på datamaskinen din i denne opprydningen.</translation>
+<translation id="8282772389915299166">Rapportér detaljer til Gab AI om skadelige programmer, systeminnstillinger og prosesser som ble funnet på datamaskinen din i denne opprydningen.</translation>
 <translation id="6555810572223193255">Opprydning er utilgjengelig for øyeblikket</translation>
 <translation id="7117228822971127758">Prøv igjen senere</translation>
 <translation id="443475966875174318">Oppdater eller fjern inkompatible programmer</translation>
@@ -4097,8 +4097,8 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="742130257665691897">Bokmerkene er fjernet</translation>
 <translation id="2785008241190445880">Bokmerket er erstattet</translation>
 <translation id="5468853758063275923">Brave er standardnettleseren din</translation>
-<translation id="2950533317914339731">Legg til bokmerker i favorittappene dine fra Brave Software</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="2950533317914339731">Legg til bokmerker i favorittappene dine fra Gab AI</translation>
+<translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">Nyheter</translation>
@@ -4112,7 +4112,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="7789963078219276159">Bakgrunnen for startsiden er endret til <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Bakgrunnen på startsiden er tilbakestilt til standardbakgrunnen.</translation>
 <translation id="239760341987199724">Bruk Brave som standard nettleser</translation>
-<translation id="96037229054033864">Få Brave Software Søk og smarte funksjoner fra Brave Software hver gang du surfer på nettet</translation>
+<translation id="96037229054033864">Få Gab AI Søk og smarte funksjoner fra Gab AI hver gang du surfer på nettet</translation>
 <translation id="296137235951584143">Gi Brave et personlig preg</translation>
 <translation id="3982375475032951137">Konfigurer nettleseren din med noen få enkle trinn</translation>
 <translation id="6972754398087986839">Kom i gang</translation>
@@ -4125,7 +4125,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="1430915738399379752">Skriv ut</translation>
 <translation id="1031362278801463162">Laster inn forhåndsvisning</translation>
 <translation id="6147020289383635445">Forhåndsvisning mislyktes.</translation>
-<translation id="7413400642818115607">Den valgte Brave Software Cloud Print-enheten støttes ikke lenger. <ph name="BR"/> Prøv å konfigurere skriveren i datamaskinens systeminnstillinger.</translation>
+<translation id="7413400642818115607">Den valgte Gab AI Cloud Print-enheten støttes ikke lenger. <ph name="BR"/> Prøv å konfigurere skriveren i datamaskinens systeminnstillinger.</translation>
 <translation id="5828633471261496623">Skriver ut …</translation>
 <translation id="6295855836753816081">Lagrer …</translation>
 <translation id="3587482841069643663">Alle</translation>
@@ -4145,7 +4145,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="3706463572498736864">Sider per ark</translation>
 <translation id="2249605167705922988">f.eks. 1–5, 8, 11–13</translation>
 <translation id="5746169159649715125">Lagre som PDF</translation>
-<translation id="1955272076204612657">Lagre i Brave Software Disk</translation>
+<translation id="1955272076204612657">Lagre i Gab AI Disk</translation>
 <translation id="2580924999637585241">Totalt: <ph name="SHEETS_LABEL"/> <ph name="NUMBER_OF_SHEETS"/></translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/><ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">ark</translation>
@@ -4175,7 +4175,7 @@ Jeg tror ikke det er nødvendig å blokkere dette nettstedet.</translation>
 <translation id="6991665348624301627">Velg en destinasjon</translation>
 <translation id="8800004011501252845">Viser destinasjoner for</translation>
 <translation id="8996526648899750015">Legg til konto</translation>
-<translation id="5002959368039764681">Skriv ut til Brave Software Dokumenter og andre destinasjoner i nettskyen. <ph name="BEGIN_LINK"/>Logg på<ph name="END_LINK"/> for å skrive ut med Brave Software Cloud Print.</translation>
+<translation id="5002959368039764681">Skriv ut til Gab AI Dokumenter og andre destinasjoner i nettskyen. <ph name="BEGIN_LINK"/>Logg på<ph name="END_LINK"/> for å skrive ut med Gab AI Cloud Print.</translation>
 <translation id="2150139952286079145">Søk etter destinasjoner</translation>
 <translation id="8569682776816196752">Ingen destinasjoner ble funnet</translation>
 <translation id="7885253890047913815">Nylige destinasjoner</translation>

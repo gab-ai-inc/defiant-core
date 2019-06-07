@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="tr">
-<translation id="5194812628624740897"><ph name="USERNAME"/> kullanıcısının bağlantısını kesmek, geçmişinizi, yer işaretlerinizi, ayarlarınızı ve bu cihazda depolanan diğer Brave verilerinizi temizler. Brave Software Hesabınızda depolanan veriler temizlenmez ve <ph name="GOOGLE_DASHBOARD_LINK"/>Brave Software Hesap Özeti<ph name="END_GOOGLE_DASHBOARD_LINK"/>'nden yönetilebilir.</translation>
+<translation id="5194812628624740897"><ph name="USERNAME"/> kullanıcısının bağlantısını kesmek, geçmişinizi, yer işaretlerinizi, ayarlarınızı ve bu cihazda depolanan diğer Brave verilerinizi temizler. Gab AI Hesabınızda depolanan veriler temizlenmez ve <ph name="GOOGLE_DASHBOARD_LINK"/>Gab AI Hesap Özeti<ph name="END_GOOGLE_DASHBOARD_LINK"/>'nden yönetilebilir.</translation>
 <translation id="939305735877869636">Brave</translation>
 <translation id="2069994121511856876">Brave Gecelik Sürümü</translation>
 <translation id="4947625801334180582">Brave Beta Sürümü</translation>
@@ -12,7 +12,7 @@
 <translation id="7339898014177206373">Yeni pencere</translation>
 <translation id="5935964611177478118">Brave'da oturum açın</translation>
 <translation id="5516268345616100622">Görev Yöneticisi - Brave</translation>
-<translation id="7918740962659365265">Kilitlenme raporlarını ve <ph name="UMA_LINK"/> bilgilerini Brave Software'a göndererek, Brave'u daha iyi hale getirmeye yardımcı olun</translation>
+<translation id="7918740962659365265">Kilitlenme raporlarını ve <ph name="UMA_LINK"/> bilgilerini Gab AI'a göndererek, Brave'u daha iyi hale getirmeye yardımcı olun</translation>
 <translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Brave</translation>
 <translation id="7830723774663008396">Brave - <ph name="PAGE_TITLE"/></translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave Beta</translation>
@@ -37,7 +37,7 @@
 <translation id="4065288863231444640">Brave'un Arka Planda Çalışmasına İzin Ver</translation>
 <translation id="6797402139308059782">Brave'un arka planda çalışmasına izin ver</translation>
 <translation id="2585240446624043880">Brave veri dizini üzerinde okuma ve yazma işlemi yapamıyor: <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">İsteğe Bağlı: Kullanıcı istatistiklerini ve kilitlenme raporlarını Brave Software'a otomatik olarak göndererek Brave'u iyileştirmemize yardımcı olun.</translation>
+<translation id="8417700129970341035">İsteğe Bağlı: Kullanıcı istatistiklerini ve kilitlenme raporlarını Gab AI'a otomatik olarak göndererek Brave'u iyileştirmemize yardımcı olun.</translation>
 <translation id="1489465648257900784">Profiliniz daha yeni bir Brave sürümünden olduğundan kullanılamıyor.
 
 Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirtin veya daha yeni bir Brave sürümünü kullanın.</translation>
@@ -46,7 +46,7 @@ Bazı özellikler kullanılamayabilir. Lütfen farklı bir profil dizini belirti
 
 Brave ayarlarınızı kurtaramıyor.</translation>
 <translation id="1477146545787277177">Hata! Brave kilitlendi. Yeniden başlatılsın mı?</translation>
-<translation id="5785919770853225148">Brave, şifrenizi Brave Software Hesabınızda kaydedecek. Bu şekilde şifreyi hatırlamanız gerekmez.</translation>
+<translation id="5785919770853225148">Brave, şifrenizi Gab AI Hesabınızda kaydedecek. Bu şekilde şifreyi hatırlamanız gerekmez.</translation>
 <translation id="113959764510199339">Brave, şifreleri göstermeye çalışıyor.</translation>
 <translation id="7503098128120083822">Brave, şifrelerinizi dışa aktarmak istiyor.</translation>
 <translation id="8285294305439559616">Brave şifreleri göstermeye çalışıyor. Buna izin vermek için Windows şifrenizi yazın.</translation>
@@ -87,7 +87,7 @@ Brave ayarlarınızı kurtaramıyor.</translation>
 <translation id="9183662282810237335">Yine de Brave'dan çıkılsın mı?</translation>
 <translation id="3834935463915107022">Yine de Brave'dan çıkılsın mı?</translation>
 <translation id="8797356639448065696">Brave arka plan modunda.</translation>
-<translation id="2339258256897053758">Brave Software API anahtarları eksik. Brave'un bazı işlevleri devre dışı bırakılacak.</translation>
+<translation id="2339258256897053758">Gab AI API anahtarları eksik. Brave'un bazı işlevleri devre dışı bırakılacak.</translation>
 <translation id="2182657378556811785">Az kaldı! Güncellemeyi tamamlamak için Brave'u yeniden başlatın.</translation>
 <translation id="5906655207909574370">Az kaldı! Güncellemeyi tamamlamak için cihazınızı yeniden başlatın.</translation>
 <translation id="5877064549588274448">Kanal değişti. Değişikliklerin uygulanması için cihazınızı yeniden başlatın.</translation>
@@ -121,7 +121,7 @@ Brave ayarlarınızı kurtaramıyor.</translation>
 <translation id="4100716194836114130">Bu sizin Brave'unuz</translation>
 <translation id="8296145982386097283">Bilgisayarı paylaşıyor musunuz? Artık Brave'u tam olarak istediğiniz gibi kurabilirsiniz.</translation>
 <translation id="1672124279374861424">Hesabınızı Brave'dan kaldırdıktan sonra, bu durumun etkili olması için açık sekmelerinizi yeniden yüklemeniz gerekebilir.</translation>
-<translation id="9197493712748167998">Brave öğelerinizi senkronize etmek için <ph name="PROFILE_EMAIL"/> adresini kullanıyorsunuz. Senkronizasyon tercihinizi güncellemek veya Brave'u bir Brave Software Hesabı olmadan kullanmak için şurayı ziyaret edin: <ph name="SETTINGS_LINK"/></translation>
+<translation id="9197493712748167998">Brave öğelerinizi senkronize etmek için <ph name="PROFILE_EMAIL"/> adresini kullanıyorsunuz. Senkronizasyon tercihinizi güncellemek veya Brave'u bir Gab AI Hesabı olmadan kullanmak için şurayı ziyaret edin: <ph name="SETTINGS_LINK"/></translation>
 <translation id="8132634101975074716">Brave'da oturum açtınız!</translation>
 <translation id="4567424176335768812"><ph name="USER_EMAIL_ADDRESS"/> olarak oturum açtınız. Şimdi oturum açtığınız tüm cihazlarda yer işaretlerinize, geçmişinize ve diğer ayarlarınıza erişebilirsiniz.</translation>
 <translation id="6888049487162027489">Brave'da oturum açtınız! Senkronizasyon, yöneticiniz tarafından devre dışı bırakıldı.</translation>
@@ -131,8 +131,8 @@ Brave ayarlarınızı kurtaramıyor.</translation>
 Yine de oturum açarsanız, yer işaretleriniz, geçmişiniz ve diğer ayarlarınız gibi Brave bilgileriniz <ph name="ACCOUNT_EMAIL_NEW"/> ile birleştirilecektir.</translation>
 <translation id="847561904663814268">Birisi daha önce bu bilgisayarda <ph name="ACCOUNT_EMAIL_LAST"/> olarak Brave oturumu açmış. Bilgilerinizi ayrı tutmak için yeni bir Brave kullanıcısı oluşturun.</translation>
 <translation id="1853997773668795891">Brave verileriniz bu hesaba bağlansın mı?</translation>
-<translation id="1326766910007115955">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Brave profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Brave verileriniz kalıcı olarak <ph name="USER_NAME"/> ile bağlantılandırılacaktır. Brave Software Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Brave profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Brave verileriniz kalıcı olarak <ph name="USER_NAME"/> ile bağlantılandırılacaktır. Brave Software Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. İsterseniz mevcut Brave verilerinizi ayrı tutmak için yeni bir profil oluşturabilirsiniz. <ph name="LEARN_MORE"/></translation>
+<translation id="1326766910007115955">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Brave profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Brave verileriniz kalıcı olarak <ph name="USER_NAME"/> ile bağlantılandırılacaktır. Gab AI Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Yönetilen bir hesapla oturum açıyor ve hesabın yöneticisine Brave profilinizi denetleme izni veriyorsunuz. Uygulamalarınız, yer işaretleriniz, geçmişiniz, şifreleriniz ve diğer ayarlarınız gibi Brave verileriniz kalıcı olarak <ph name="USER_NAME"/> ile bağlantılandırılacaktır. Gab AI Hesapları Hesap Özeti'ni kullanarak bu verileri silebilecek, ancak bu verileri başka bir hesapla ilişkilendiremeyeceksiniz. İsterseniz mevcut Brave verilerinizi ayrı tutmak için yeni bir profil oluşturabilirsiniz. <ph name="LEARN_MORE"/></translation>
 <translation id="2444257125841652328">Sistem yöneticiniz, Brave'u, <ph name="TARGET_URL_HOSTNAME"/> sitesini alternatif bir tarayıcıda açacak şekilde yapılandırmış.</translation>
 <translation id="5380963249588143069">Sistem yöneticiniz Brave'u <ph name="TARGET_URL_HOSTNAME"/> adresine erişmek için <ph name="ALTERNATIVE_BROWSER_NAME"/> tarayıcısını açacak şekilde yapılandırmış.</translation>
 <translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> önceden Brave kullanıyordu</translation>
@@ -169,7 +169,7 @@ Daha fazla talimat için lütfen e-postanızı (<ph name="ACCOUNT_EMAIL"/>) kont
 <translation id="1820843143331379651">Brave 70 sürümünden itibaren denetlenen kullanıcı profilleri artık kullanılmayacaktır.</translation>
 <translation id="3066805437003400520">Bu kullanıcının tarama verileri bu cihazdan silinecektir. Verileri kurtarmak için Brave'da <ph name="USER_EMAIL"/> olarak oturum açın.</translation>
 <translation id="2827121003398607864">Brave daha da iyi bir hale geldi</translation>
-<translation id="7192666605334070839">Brave'u Brave Software Hesabınızla ve paylaşılan bilgisayarlarda kullanmak artık daha kolay.</translation>
+<translation id="7192666605334070839">Brave'u Gab AI Hesabınızla ve paylaşılan bilgisayarlarda kullanmak artık daha kolay.</translation>
 <translation id="3511996232906761537">Web, yer işaretleri ve diğer Brave bilgileriniz burada bulunur.</translation>
 <translation id="7406627712452599344">Misafirler Brave'u geride hiçbir şey bırakmadan kullanabilir.</translation>
 <translation id="5659384504794665581">Bir bilgisayarı paylaşıyorsanız arkadaşlarınız ve aileniz ayrı olarak göz atabilir ve Brave'u tam olarak istedikleri şekilde ayarlayabilir.</translation>
@@ -189,9 +189,9 @@ Daha fazla talimat için lütfen e-postanızı (<ph name="ACCOUNT_EMAIL"/>) kont
 <translation id="7272074097076644710">Brave Beta için mDNS trafiğine izin vermek için gelen kural.</translation>
 <translation id="4991512282053949769">Brave Gecelik için mDNS trafiğine izin vermek için gelen kural.</translation>
 <translation id="3856641371299712128">Brave Geliştirici için mDNS trafiğine izin vermek için gelen kural.</translation>
-<translation id="8207657266087451193">Bir resmin işe yarar bir açıklaması yoksa, Brave sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Brave Software'a gönderilir. Bu özelliği istediğiniz zaman ayarlardan kapatabilirsiniz.</translation>
-<translation id="5499063270485366718">Bir resmin işe yarar bir açıklaması yoksa, Brave sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Brave Software'a gönderilir.</translation>
-<translation id="3870835867536344658">Bu işlev, Brave Software Arama'da kullanılan yazım denetiminin aynısını kullanır. Tarayıcıda yazdığınız metin Brave Software'a gönderilir. Bu davranışı istediğiniz zaman ayarlardan değiştirebilirsiniz.</translation>
+<translation id="8207657266087451193">Bir resmin işe yarar bir açıklaması yoksa, Brave sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Gab AI'a gönderilir. Bu özelliği istediğiniz zaman ayarlardan kapatabilirsiniz.</translation>
+<translation id="5499063270485366718">Bir resmin işe yarar bir açıklaması yoksa, Brave sizin için bir açıklama sağlamaya çalışır. Açıklama oluşturmak için resimler Gab AI'a gönderilir.</translation>
+<translation id="3870835867536344658">Bu işlev, Gab AI Arama'da kullanılan yazım denetiminin aynısını kullanır. Tarayıcıda yazdığınız metin Gab AI'a gönderilir. Bu davranışı istediğiniz zaman ayarlardan değiştirebilirsiniz.</translation>
 <translation id="1807774211756215222">Bağlantıyı yeni Brave &amp;sekmesinde aç</translation>
 <translation id="4624945300945265642">Bağlantıyı Brave &amp;gizli penceresinde aç</translation>
 <translation id="7863882214613921971">Bağlantıyı Yeni Brave &amp;sekmesinde aç</translation>
@@ -217,7 +217,7 @@ Daha fazla talimat için lütfen e-postanızı (<ph name="ACCOUNT_EMAIL"/>) kont
 <translation id="5509303873219371662">Brave'u şimdi yeniden başlatmalısınız.</translation>
 <translation id="8668413672647811944">Brave için özel bir güvenlik güncellemesi uygulandı. Uygulamayı hemen yeniden başlatın; açık sekmeleriniz geri yüklenir.</translation>
 <translation id="763369711159699222">Brave'u daha iyi hale getirmeye yardımcı olun</translation>
-<translation id="1156940037717341650">Olası güvenlik olaylarının ayrıntılarını Brave Software'a otomatik olarak bildirerek Brave'un daha güvenli ve kullanımı kolay bir hale gelmesine yardımcı olabilirsiniz.</translation>
+<translation id="1156940037717341650">Olası güvenlik olaylarının ayrıntılarını Gab AI'a otomatik olarak bildirerek Brave'un daha güvenli ve kullanımı kolay bir hale gelmesine yardımcı olabilirsiniz.</translation>
 <translation id="6791166902140255175">Brave Sekmesi</translation>
 <translation id="2555639463117073782"><ph name="PLUGIN_NAME"/> eklentisini etkinleştirmek için Brave'u yeniden başlatın</translation>
 <translation id="8899693649891674038">Brave'u telefonunuza yükleyin. Telefonunuza SMS göndereceğiz.</translation>
@@ -240,7 +240,7 @@ Daha fazla talimat için lütfen e-postanızı (<ph name="ACCOUNT_EMAIL"/>) kont
 <translation id="7207456302801184289">Brave'a Hoş Geldiniz</translation>
 <translation id="5688839044908745927">Brave neredeyse hazır.</translation>
 <translation id="7758342895140862711">Brave'u her yere götürün</translation>
-<translation id="3610173904388112975">Brave Software Smarts ile web'e göz atma</translation>
+<translation id="3610173904388112975">Gab AI Smarts ile web'e göz atma</translation>
 <translation id="3479552764303398839">Şimdi değil</translation>
 <translation id="8013374903356993822">Brave'a daha hızlı ulaşın</translation>
 <translation id="7625138338483121345">Brave'u varsayılan tarayıcı yapma</translation>
@@ -272,15 +272,15 @@ Daha fazla talimat için lütfen e-postanızı (<ph name="ACCOUNT_EMAIL"/>) kont
 <translation id="8208853227947884571">Brave güncel durumda</translation>
 <translation id="6686872257969654608">Brave OS hakkında</translation>
 <translation id="2280363356796735201">Brave OS ile ilgili yardım alın</translation>
-<translation id="5253815230176279256">Brave Software Pay (Brave'a kopyalandı)</translation>
+<translation id="5253815230176279256">Gab AI Pay (Brave'a kopyalandı)</translation>
 <translation id="5468853758063275923">Brave varsayılan tarayıcınız</translation>
 <translation id="1775322105159056176">Brave, varsayılan tarayıcıyı tespit edemiyor veya ayarlayamıyor</translation>
 <translation id="6915252145142862992">Bu, Brave'un ikincil bir yüklemesidir ve varsayılan tarayıcınız yapılamaz.</translation>
 <translation id="7977435741986383568">Brave, göz atma deneyiminizi iyileştirmek için web hizmetleri kullanabilir. İsteğe bağlı olarak bu hizmetleri devre dışı bırakabilirsiniz. <ph name="BEGIN_LINK"/>Daha fazla bilgi<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Yazım hatalarını düzeltmek için Brave, metin alanlarına yazdığınız metinleri Brave Software'a gönderir</translation>
+<translation id="2312399718665761438">Yazım hatalarını düzeltmek için Brave, metin alanlarına yazdığınız metinleri Gab AI'a gönderir</translation>
 <translation id="8586264863973514035">Yaptığınız değişiklikleri uygulamak için Brave'u yeniden başlatın</translation>
 <translation id="7021823858304886493">Brave'da oturum açmaya izin verin</translation>
-<translation id="1649714546770135458">Bu özelliği kapatarak Brave'da oturum açmadan Gmail gibi Brave Software sitelerinde oturum açabilirsiniz</translation>
+<translation id="1649714546770135458">Bu özelliği kapatarak Brave'da oturum açmadan Gmail gibi Gab AI sitelerinde oturum açabilirsiniz</translation>
 <translation id="9220324636239049437">Bu işlem 1 öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Brave'da <ph name="USER_EMAIL"/> hesabıyla oturum açın.</translation>
 <translation id="5853262807109651878">Bu işlem, <ph name="ITEMS_COUNT"/> öğeyi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Brave'da <ph name="USER_EMAIL"/> hesabıyla oturum açın.</translation>
 <translation id="4784414698887946907">Bu işlem tarama verilerinizi bu cihazdan silecektir. Verilerinizi daha sonra geri almak için Brave'da <ph name="USER_EMAIL"/> hesabıyla oturum açın.</translation>

@@ -15,7 +15,7 @@ import {
   TorImage,
   Separator,
   FakeButton
-} from 'brave-ui/features/newTab/private'
+} from 'dissenter-ui/features/newTab/private'
 import TorContent from './torContent'
 // Helpers
 import { getLocale } from '../../../common/locale'
