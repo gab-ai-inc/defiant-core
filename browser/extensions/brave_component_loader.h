@@ -43,6 +43,21 @@ class BraveComponentLoader : public ComponentLoader {
 #if BUILDFLAG(ENABLE_HANGOUT_SERVICES_EXTENSION)
   void AddHangoutServicesExtension() override;
 #endif  // BUILDFLAG(ENABLE_HANGOUT_SERVICES_EXTENSION)
+  friend class ::BraveComponentLoaderTest;
+  void ObserveOpenPdfExternallySetting();
+  // Callback for changes to the AlwaysOpenPdfExternally setting.
+  void UpdatePdfExtension(const std::string& pref_name);
+
+  struct TestingCallbacks {
+    enum PdfExtensionAction {
+      NONE,
+      WILL_ADD,
+      WILL_REMOVE,
+    };
+    virtual void OnPdfExtensionAction(PdfExtensionAction action) = 0;
+  };
+
+  void set_testing_callbacks(TestingCallbacks* testing_callbacks);
 
   Profile* profile_;
   PrefService* profile_prefs_;

@@ -11,7 +11,6 @@
 #include <vector>
 
 #include "base/base_paths.h"
-#include "base/bind.h"
 #include "base/json/json_reader.h"
 #include "base/logging.h"
 #include "base/macros.h"
@@ -19,6 +18,8 @@
 #include "base/strings/utf_string_conversions.h"
 #include "base/threading/scoped_blocking_call.h"
 #include "base/values.h"
+#include "brave/components/brave_shields/browser/dat_file_util.h"
+#include "chrome/browser/browser_process.h"
 #include "third_party/leveldatabase/src/include/leveldb/db.h"
 #include "third_party/re2/src/re2/re2.h"
 #include "third_party/zlib/google/zip.h"
@@ -79,17 +80,6 @@ std::string leveldbGet(leveldb::DB* db, const std::string &key) {
 
 namespace brave_shields {
 
-const char kHTTPSEverywhereComponentName[] = "Brave HTTPS Everywhere Updater";
-const char kHTTPSEverywhereComponentId[] = "oofiananboodjbbmdelgdommihjbkfag";
-const char kHTTPSEverywhereComponentBase64PublicKey[] =
-    "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvn9zSMjTmhkQyrZu5UdN"
-    "350nPqLoSeCYngcC7yDFwaUHjoBQXCZqGeDC69ciCQ2mlRhcV2nxXqlUDkiC6+7m"
-    "651nI+gi4oVqHagc7EFUyGA0yuIk7qIMvCBdH7wbET27de0rzbRzRht9EKzEjIhC"
-    "BtoPnmyrO/8qPrH4XR4cPfnFPuJssBBxC1B35H7rh0Br9qePhPDDe9OjyqYxPuio"
-    "+YcC9obL4g5krVrfrlKLfFNpIewUcJyBpSlCgfxEyEhgDkK9cILTMUi5vC7GxS3P"
-    "OtZqgfRg8Da4i+NwmjQqrz0JFtPMMSyUnmeMj+mSOL4xZVWr8fU2/GOCXs9gczDp"
-    "JwIDAQAB";
-
 bool HTTPSEverywhereService::g_ignore_port_for_test_(false);
 std::string HTTPSEverywhereService::g_https_everywhere_component_id_(
     kHTTPSEverywhereComponentId);
@@ -97,10 +87,7 @@ std::string
 HTTPSEverywhereService::g_https_everywhere_component_base64_public_key_(
     kHTTPSEverywhereComponentBase64PublicKey);
 
-HTTPSEverywhereService::HTTPSEverywhereService(
-    BraveComponent::Delegate* delegate)
-    : BaseBraveShieldsService(delegate),
-      level_db_(nullptr) {
+HTTPSEverywhereService::HTTPSEverywhereService() : level_db_(nullptr) {
   DETACH_FROM_SEQUENCE(sequence_checker_);
 }
 
@@ -112,12 +99,11 @@ void HTTPSEverywhereService::Cleanup() {
   GetTaskRunner()->PostTask(
       FROM_HERE,
       base::Bind(&HTTPSEverywhereService::CloseDatabase,
-                 AsWeakPtr()));
+                 base::Unretained(this)));
 }
 
 bool HTTPSEverywhereService::Init() {
-  Register(kHTTPSEverywhereComponentName,
-           g_https_everywhere_component_id_,
+  Register(kHTTPSEverywhereComponentName, g_https_everywhere_component_id_,
            g_https_everywhere_component_base64_public_key_);
   return true;
 }
@@ -158,14 +144,13 @@ void HTTPSEverywhereService::OnComponentReady(
   GetTaskRunner()->PostTask(
       FROM_HERE,
       base::Bind(&HTTPSEverywhereService::InitDB,
-                 AsWeakPtr(),
+                 base::Unretained(this),
                  install_dir));
 }
 
 bool HTTPSEverywhereService::GetHTTPSURL(
-    const GURL* url,
-    const uint64_t& request_identifier,
-    std::string* new_url) {
+    const GURL* url, const uint64_t& request_identifier,
+    std::string& new_url) {
   DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);
 
   if (!url->is_valid())
@@ -178,7 +163,7 @@ bool HTTPSEverywhereService::GetHTTPSURL(
     return false;
   }
 
-  if (recently_used_cache_.get(url->spec(), new_url)) {
+  if (recently_used_cache_.get(url->spec(), &new_url)) {
     AddHTTPSEUrlToRedirectList(request_identifier);
     return true;
   }
@@ -195,9 +180,9 @@ bool HTTPSEverywhereService::GetHTTPSURL(
   for (auto domain : domains) {
     std::string value = leveldbGet(level_db_, domain);
     if (!value.empty()) {
-      *new_url = ApplyHTTPSRule(candidate_url.spec(), value);
-      if (0 != new_url->length()) {
-        recently_used_cache_.add(candidate_url.spec(), *new_url);
+      new_url = ApplyHTTPSRule(candidate_url.spec(), value);
+      if (0 != new_url.length()) {
+        recently_used_cache_.add(candidate_url.spec(), new_url);
         AddHTTPSEUrlToRedirectList(request_identifier);
         return true;
       }
@@ -210,7 +195,7 @@ bool HTTPSEverywhereService::GetHTTPSURL(
 bool HTTPSEverywhereService::GetHTTPSURLFromCacheOnly(
     const GURL* url,
     const uint64_t& request_identifier,
-    std::string* cached_url) {
+    std::string& cached_url) {
   if (!url->is_valid())
     return false;
 
@@ -221,7 +206,7 @@ bool HTTPSEverywhereService::GetHTTPSURLFromCacheOnly(
     return false;
   }
 
-  if (recently_used_cache_.get(url->spec(), cached_url)) {
+  if (recently_used_cache_.get(url->spec(), &cached_url)) {
     AddHTTPSEUrlToRedirectList(request_identifier);
     return true;
   }
@@ -230,7 +215,7 @@ bool HTTPSEverywhereService::GetHTTPSURLFromCacheOnly(
 
 bool HTTPSEverywhereService::ShouldHTTPSERedirect(
     const uint64_t& request_identifier) {
-  base::AutoLock auto_lock(httpse_get_urls_redirects_count_mutex_);
+  std::lock_guard<std::mutex> guard(httpse_get_urls_redirects_count_mutex_);
   for (size_t i = 0; i < httpse_urls_redirects_count_.size(); i++) {
     if (request_identifier ==
         httpse_urls_redirects_count_[i].request_identifier_ &&
@@ -246,7 +231,7 @@ bool HTTPSEverywhereService::ShouldHTTPSERedirect(
 void HTTPSEverywhereService::AddHTTPSEUrlToRedirectList(
     const uint64_t& request_identifier) {
   // Adding redirects count for the current request
-  base::AutoLock auto_lock(httpse_get_urls_redirects_count_mutex_);
+  std::lock_guard<std::mutex> guard(httpse_get_urls_redirects_count_mutex_);
   bool hostFound = false;
   for (size_t i = 0; i < httpse_urls_redirects_count_.size(); i++) {
     if (request_identifier ==
@@ -407,9 +392,8 @@ void HTTPSEverywhereService::SetIgnorePortForTest(bool ignore) {
 
 // The brave shields factory. Using the Brave Shields as a singleton
 // is the job of the browser process.
-std::unique_ptr<HTTPSEverywhereService> HTTPSEverywhereServiceFactory(
-    BraveComponent::Delegate* delegate) {
-  return std::make_unique<HTTPSEverywhereService>(delegate);
+std::unique_ptr<HTTPSEverywhereService> HTTPSEverywhereServiceFactory() {
+  return std::make_unique<HTTPSEverywhereService>();
 }
 
 }  // namespace brave_shields

@@ -24,13 +24,12 @@ namespace brave_shields {
 // for a specific region.
 class AdBlockRegionalService : public AdBlockBaseService {
  public:
-  explicit AdBlockRegionalService(
-      const std::string& uuid,
-      brave_component_updater::BraveComponent::Delegate* delegate);
+  explicit AdBlockRegionalService(const std::string& uuid);
   ~AdBlockRegionalService() override;
 
   std::string GetUUID() const { return uuid_; }
   std::string GetTitle() const { return title_; }
+  scoped_refptr<base::SequencedTaskRunner> GetTaskRunner() override;
 
  protected:
   bool Init() override;
@@ -56,8 +55,7 @@ class AdBlockRegionalService : public AdBlockBaseService {
 
 // Creates the AdBlockRegionalService
 std::unique_ptr<AdBlockRegionalService> AdBlockRegionalServiceFactory(
-    const std::string& uuid,
-    brave_component_updater::BraveComponent::Delegate* delegate);
+    const std::string& uuid);
 
 }  // namespace brave_shields
 

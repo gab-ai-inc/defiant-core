@@ -9,7 +9,6 @@
 #include <memory>
 
 #include "brave/browser/tor/buildflags.h"
-#include "brave/components/brave_component_updater/browser/brave_component.h"
 #include "brave/components/brave_referrals/buildflags/buildflags.h"
 #include "chrome/browser/browser_process_impl.h"
 #include "extensions/buildflags/buildflags.h"
@@ -24,10 +23,6 @@ class BraveStatsUpdater;
 class BraveWidevineBundleManager;
 #endif
 
-namespace brave_component_updater {
-class LocalDataFilesService;
-}
-
 namespace brave_shields {
 class AdBlockService;
 class AdBlockCustomFiltersService;
@@ -35,6 +30,7 @@ class AdBlockRegionalServiceManager;
 class AutoplayWhitelistService;
 class ExtensionWhitelistService;
 class HTTPSEverywhereService;
+class LocalDataFilesService;
 class ReferrerWhitelistService;
 class TrackingProtectionService;
 }  // namespace brave_shields
@@ -43,8 +39,6 @@ namespace extensions {
 class BraveTorClientUpdater;
 }
 
-using brave_component_updater::BraveComponent;
-
 class BraveBrowserProcessImpl : public BrowserProcessImpl {
  public:
   explicit BraveBrowserProcessImpl(StartupData* startup_data);
@@ -52,7 +46,6 @@ class BraveBrowserProcessImpl : public BrowserProcessImpl {
 
   // BrowserProcess implementation.
   component_updater::ComponentUpdateService* component_updater() override;
-  void ResourceDispatcherHostCreated() override;
 
   ProfileManager* profile_manager() override;
 
@@ -67,7 +60,7 @@ class BraveBrowserProcessImpl : public BrowserProcessImpl {
   brave_shields::ReferrerWhitelistService* referrer_whitelist_service();
   brave_shields::TrackingProtectionService* tracking_protection_service();
   brave_shields::HTTPSEverywhereService* https_everywhere_service();
-  brave_component_updater::LocalDataFilesService* local_data_files_service();
+  brave_shields::LocalDataFilesService* local_data_files_service();
 #if BUILDFLAG(ENABLE_TOR)
   extensions::BraveTorClientUpdater* tor_client_updater();
 #endif
@@ -78,9 +71,6 @@ class BraveBrowserProcessImpl : public BrowserProcessImpl {
  private:
   void CreateProfileManager();
 
-  BraveComponent::Delegate* brave_component_updater_delegate();
-
-  std::unique_ptr<BraveComponent::Delegate> brave_component_updater_delegate_;
   std::unique_ptr<brave_shields::AdBlockService> ad_block_service_;
   std::unique_ptr<brave_shields::AdBlockCustomFiltersService>
       ad_block_custom_filters_service_;
@@ -96,7 +86,7 @@ class BraveBrowserProcessImpl : public BrowserProcessImpl {
       tracking_protection_service_;
   std::unique_ptr<brave_shields::HTTPSEverywhereService>
       https_everywhere_service_;
-  std::unique_ptr<brave_component_updater::LocalDataFilesService>
+  std::unique_ptr<brave_shields::LocalDataFilesService>
       local_data_files_service_;
   std::unique_ptr<brave::BraveStatsUpdater> brave_stats_updater_;
 #if BUILDFLAG(ENABLE_BRAVE_REFERRALS)

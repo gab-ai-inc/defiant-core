@@ -25,10 +25,8 @@
 
 namespace brave_shields {
 
-AdBlockRegionalServiceManager::AdBlockRegionalServiceManager(
-    brave_component_updater::BraveComponent::Delegate* delegate)
-    : delegate_(delegate),
-      initialized_(false) {
+AdBlockRegionalServiceManager::AdBlockRegionalServiceManager()
+    : initialized_(false) {
   if (Init()) {
     initialized_ = true;
   }
@@ -78,7 +76,7 @@ void AdBlockRegionalServiceManager::StartRegionalServices() {
     if (regional_filter_dict)
       regional_filter_dict->GetBoolean("enabled", &enabled);
     if (enabled) {
-      auto regional_service = AdBlockRegionalServiceFactory(uuid, delegate_);
+      auto regional_service = AdBlockRegionalServiceFactory(uuid);
       regional_service->Start();
       regional_services_.insert(
           std::make_pair(uuid, std::move(regional_service)));
@@ -159,14 +157,14 @@ void AdBlockRegionalServiceManager::EnableFilterList(const std::string& uuid,
     auto it = regional_services_.find(uuid);
     if (enabled) {
       DCHECK(it == regional_services_.end());
-      auto regional_service = AdBlockRegionalServiceFactory(uuid, delegate_);
+      auto regional_service = AdBlockRegionalServiceFactory(uuid);
       regional_service->Start();
       regional_services_.insert(
           std::make_pair(uuid, std::move(regional_service)));
     } else {
       DCHECK(it != regional_services_.end());
       it->second->Stop();
-      it->second->Unregister();
+      BraveComponentExtension::Unregister(uuid);
       regional_services_.erase(it);
     }
   }
@@ -177,6 +175,12 @@ void AdBlockRegionalServiceManager::EnableFilterList(const std::string& uuid,
       FROM_HERE, {content::BrowserThread::UI},
       base::BindOnce(&AdBlockRegionalServiceManager::UpdateFilterListPrefs,
                      base::Unretained(this), uuid, enabled));
+}
+
+scoped_refptr<base::SequencedTaskRunner>
+AdBlockRegionalServiceManager::GetTaskRunner() {
+  // We share the same task runner for all ad-block and TP code
+  return g_brave_browser_process->ad_block_service()->GetTaskRunner();
 }
 
 // static
@@ -226,8 +230,8 @@ AdBlockRegionalServiceManager::GetRegionalLists() {
 ///////////////////////////////////////////////////////////////////////////////
 
 std::unique_ptr<AdBlockRegionalServiceManager>
-AdBlockRegionalServiceManagerFactory(BraveComponent::Delegate* delegate) {
-  return std::make_unique<AdBlockRegionalServiceManager>(delegate);
+AdBlockRegionalServiceManagerFactory() {
+  return std::make_unique<AdBlockRegionalServiceManager>();
 }
 
 }  // namespace brave_shields

@@ -6,20 +6,24 @@
 #ifndef BRAVE_COMPONENTS_BRAVE_SHIELDS_BROWSER_TRACKING_PROTECTION_SERVICE_H_
 #define BRAVE_COMPONENTS_BRAVE_SHIELDS_BROWSER_TRACKING_PROTECTION_SERVICE_H_
 
+#include <stdint.h>
+
 #include <map>
 #include <memory>
+// TODO(brave): <mutex> is an unapproved C++11 header
+#include <mutex>  // NOLINT
 #include <string>
-#include <utility>
 #include <vector>
 
 #include "base/containers/flat_set.h"
 #include "base/files/file_path.h"
 #include "base/memory/weak_ptr.h"
+#include "base/sequence_checker.h"
 #include "base/sequenced_task_runner.h"
 #include "base/synchronization/lock.h"
-#include "brave/components/brave_component_updater/browser/dat_file_util.h"
-#include "brave/components/brave_component_updater/browser/local_data_files_observer.h"
+#include "brave/components/brave_shields/browser/base_local_data_files_observer.h"
 #include "brave/components/brave_shields/browser/buildflags/buildflags.h"  // For STP
+#include "brave/components/brave_shields/browser/dat_file_util.h"
 #include "content/public/common/resource_type.h"
 #include "url/gurl.h"
 
@@ -31,19 +35,12 @@ namespace content_settings {
 class BraveCookieSettings;
 }
 
-using brave_component_updater::LocalDataFilesObserver;
-using brave_component_updater::LocalDataFilesService;
-
 namespace brave_shields {
 
 // The brave shields service in charge of tracking protection and init.
-class TrackingProtectionService : public LocalDataFilesObserver {
+class TrackingProtectionService : public BaseLocalDataFilesObserver {
  public:
-  using GetDATFileDataResult =
-      brave_component_updater::LoadDATFileDataResult<CTPParser>;
-
-  explicit TrackingProtectionService(
-      LocalDataFilesService* local_data_files_service);
+  TrackingProtectionService();
   ~TrackingProtectionService() override;
 
   bool ShouldStartRequest(const GURL& spec,
@@ -60,7 +57,9 @@ class TrackingProtectionService : public LocalDataFilesObserver {
                         const GURL& first_party_url,
                         const GURL& tab_url) const;
 
-  // implementation of LocalDataFilesObserver
+  scoped_refptr<base::SequencedTaskRunner> GetTaskRunner();
+
+  // implementation of BaseLocalDataFilesObserver
   void OnComponentReady(const std::string& component_id,
                         const base::FilePath& install_dir,
                         const std::string& manifest) override;
@@ -92,8 +91,7 @@ class TrackingProtectionService : public LocalDataFilesObserver {
 #if BUILDFLAG(BRAVE_STP_ENABLED)
   // ParseStorageTrackersData parses the storage trackers list provided by
   // the offline-crawler
-  void OnGetSTPDATFileData(std::string contents);
-  void UpdateFirstPartyStorageTrackers(std::vector<std::string>);
+  void ParseStorageTrackersData();
 
   // For Smart Tracking Protection, we need to keep track of the starting site
   // that initiated the redirects. We use RenderFrameIdKey to determine the
@@ -111,31 +109,29 @@ class TrackingProtectionService : public LocalDataFilesObserver {
 #endif
 
  private:
-  void OnGetDATFileData(GetDATFileDataResult result);
-  void UpdateTrackingProtectionClient(
-      std::unique_ptr<CTPParser> tracking_protection_client,
-      brave_component_updater::DATFileDataBuffer);
+  void OnDATFileDataReady();
   std::vector<std::string> GetThirdPartyHosts(const std::string& base_host);
 
 #if BUILDFLAG(BRAVE_STP_ENABLED)
   base::flat_set<std::string> first_party_storage_trackers_;
   std::map<RenderFrameIdKey, GURL> render_frame_key_to_starting_site_url;
+
+  brave_shields::DATFileDataBuffer storage_trackers_buffer_;
 #endif
+  brave_shields::DATFileDataBuffer buffer_;
 
   std::unique_ptr<CTPParser> tracking_protection_client_;
   std::vector<std::string> third_party_base_hosts_;
   std::map<std::string, std::vector<std::string>> third_party_hosts_cache_;
   base::Lock third_party_hosts_lock_;
-  brave_component_updater::DATFileDataBuffer buffer_;
 
+  SEQUENCE_CHECKER(sequence_checker_);
   base::WeakPtrFactory<TrackingProtectionService> weak_factory_;
-  base::WeakPtrFactory<TrackingProtectionService> weak_factory_io_thread_;
   DISALLOW_COPY_AND_ASSIGN(TrackingProtectionService);
 };
 
 // Creates the TrackingProtectionService
-std::unique_ptr<TrackingProtectionService> TrackingProtectionServiceFactory(
-    LocalDataFilesService* local_data_files_service);
+std::unique_ptr<TrackingProtectionService> TrackingProtectionServiceFactory();
 
 }  // namespace brave_shields
 

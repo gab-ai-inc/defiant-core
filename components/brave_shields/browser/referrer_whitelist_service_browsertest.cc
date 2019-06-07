@@ -9,13 +9,10 @@
 #include "base/test/thread_test_helper.h"
 #include "brave/browser/brave_browser_process_impl.h"
 #include "brave/common/brave_paths.h"
-#include "brave/components/brave_component_updater/browser/local_data_files_service.h"
+#include "brave/components/brave_shields/browser/local_data_files_service.h"
 #include "brave/components/brave_shields/browser/referrer_whitelist_service.h"
 #include "chrome/browser/extensions/extension_browsertest.h"
-#include "content/public/browser/browser_task_traits.h"
-#include "content/public/browser/browser_thread.h"
 
-using content::BrowserThread;
 using extensions::ExtensionBrowserTest;
 
 const char kLocalDataFilesComponentTestId[] =
@@ -48,7 +45,7 @@ class ReferrerWhitelistServiceTest : public ExtensionBrowserTest {
   }
 
   void InitService() {
-    brave_component_updater::LocalDataFilesService::
+    brave_shields::LocalDataFilesService::
         SetComponentIdAndBase64PublicKeyForTest(
             kLocalDataFilesComponentTestId,
             kLocalDataFilesComponentTestBase64PublicKey);
@@ -76,12 +73,10 @@ class ReferrerWhitelistServiceTest : public ExtensionBrowserTest {
   }
 
   void WaitForReferrerWhitelistServiceThread() {
-    scoped_refptr<base::ThreadTestHelper> tr_helper(new base::ThreadTestHelper(
-        g_brave_browser_process->local_data_files_service()->GetTaskRunner()));
-    ASSERT_TRUE(tr_helper->Run());
-    scoped_refptr<base::ThreadTestHelper> io_helper(new base::ThreadTestHelper(
-        base::CreateSingleThreadTaskRunnerWithTraits({BrowserThread::IO})
-            .get()));
+    scoped_refptr<base::ThreadTestHelper> io_helper(
+        new base::ThreadTestHelper(
+            g_brave_browser_process->referrer_whitelist_service()->
+            GetTaskRunner()));
     ASSERT_TRUE(io_helper->Run());
     base::RunLoop().RunUntilIdle();
   }
