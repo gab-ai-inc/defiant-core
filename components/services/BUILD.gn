@@ -1,6 +1,5 @@
 import("//brave/components/brave_ads/browser/buildflags/buildflags.gni")
 import("//brave/components/brave_rewards/browser/buildflags/buildflags.gni")
-import("//brave/browser/tor/buildflags/buildflags.gni")
 
 # Per-profile services.
 source_set("brave_content_browser_overlay_manifest") {
@@ -56,7 +55,7 @@ source_set("brave_content_packaged_service_overlay_manifest") {
     ]
   }
 
-  if (enable_tor) {
+  if (!is_android) {
     deps += [
       "//brave/utility/tor/public/cpp:manifest",
     ]
