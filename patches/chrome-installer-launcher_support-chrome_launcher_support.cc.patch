@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/launcher_support/chrome_launcher_support.cc b/chrome/installer/launcher_support/chrome_launcher_support.cc
-index e8bd45b7bb6be86360f1c484b880e9caf3a5ef0d..f2df383bc60f5afde66f93698ae4e019460fda04 100644
+index e8bd45b7bb6be86360f1c484b880e9caf3a5ef0d..1a35fb4fe9189d3ffd8d16d28a3cf7e5c88e24c6 100644
 --- a/chrome/installer/launcher_support/chrome_launcher_support.cc
 +++ b/chrome/installer/launcher_support/chrome_launcher_support.cc
 @@ -28,12 +28,24 @@ const wchar_t kBrowserAppGuid[] = L"{8A69D345-D564-463c-AFF1-A69D9E530F96}";
@@ -11,9 +11,9 @@ index e8bd45b7bb6be86360f1c484b880e9caf3a5ef0d..f2df383bc60f5afde66f93698ae4e019
 +    L"Software\\GabAI\\Update\\ClientState";
 +// Copied from
 +// brave/chromium_src/chrome_install_static/chromium_install_modes.cc
-+const wchar_t kBinariesAppGuid[] = L"{F7526127-0B8A-406F-8998-282BEA40103A}";
-+const wchar_t kBrowserAppGuid[] =  L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
-+const wchar_t kSxSBrowserAppGuid[] = L"{C6CB981E-DB30-4876-8639-109F8933582C}";
++const wchar_t kBinariesAppGuid[] = L"{DA2C89DD-D3D6-4E1C-9534-27E0F66759A1}";
++const wchar_t kBrowserAppGuid[] =  L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
++const wchar_t kSxSBrowserAppGuid[] = L"{7D06B97B-CBC7-49E6-8440-4A6750F016A6}";
  #else
  const wchar_t kInstallationRegKey[] = L"Software\\Chromium";
  #endif
