@@ -5,21 +5,21 @@
   <!-- About Page -->
   <if expr="not chromeos">
     <message name="IDS_SETTINGS_ABOUT_PROGRAM" desc="Menu title for the About Dissenter page.">
-      About Brave
+      About Dissenter
     </message>
     <message name="IDS_SETTINGS_GET_HELP_USING_CHROME" desc="Text of the button which takes the user to the Dissenter help page.">
-      Get help with Brave
+      Get help with Dissenter
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating Brave">
-      Updating Brave
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating Dissenter">
+      Updating Dissenter
     </message>
     <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating Dissenter (90%)">
       Updating Dissenter (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Brave">
+    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Dissenter">
       Nearly up to date! Relaunch Dissenter to finish updating.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (Brave)">
+    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (Dissenter)">
       Dissenter is up to date
     </message>
   </if>
@@ -33,8 +33,8 @@
   </if>
 
   <!-- Autofill Page -->
-  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS_CACHED" desc="Label that will be used to show that a credit card comes from Dissenter Pay and is saved locally. This should follow the casing of the 'Dissenter Pay' and 'Brave' brands. 'Copied to Brave' is short for 'The credit card is copied to Brave'. 'Dissenter Pay' should not be translated as it is the product name.">
-    Dissenter Pay (copied to Brave)
+  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS_CACHED" desc="Label that will be used to show that a credit card comes from Dissenter Pay and is saved locally. This should follow the casing of the 'Dissenter Pay' and 'Dissenter' brands. 'Copied to Dissenter' is short for 'The credit card is copied to Dissenter'. 'Dissenter Pay' should not be translated as it is the product name.">
+    Dissenter Pay (copied to Dissenter)
   </message>
 
   <!-- Default Browser Page -->
@@ -49,7 +49,7 @@
       Dissenter cannot determine or set the default browser
     </message>
     <message name="IDS_SETTINGS_DEFAULT_BROWSER_SECONDARY" desc="The text displayed when Dissenter is installed in side-by-side mode, which does not support setting as the default browser.">
-      This is a secondary installation of Brave, and cannot be made your default browser.
+      This is a secondary installation of Dissenter, and cannot be made your default browser.
     </message>
   </if>
 
@@ -57,17 +57,17 @@
   <message name="IDS_SETTINGS_IMPROVE_BROWSING_EXPERIENCE" desc="The text in the options panel that describes how we use web services to improve browsing experience.">
     Dissenter may use web services to improve your browsing experience. You may optionally disable these services. <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_SPELLING_DESCRIPTION_UNIFIED_CONSENT" desc="Description of using a web serviced to help resolve spelling errors. It is important to convey that what the user types will be sent to Brave.">
-    To fix spelling errors, Dissenter sends the text you type in text fields to Brave
+  <message name="IDS_SETTINGS_SPELLING_DESCRIPTION_UNIFIED_CONSENT" desc="Description of using a web serviced to help resolve spelling errors. It is important to convey that what the user types will be sent to Dissenter.">
+    To fix spelling errors, Dissenter sends the text you type in text fields to Dissenter
   </message>
   <message name="IDS_SETTINGS_RESTART_TO_APPLY_CHANGES" desc="Description in the snackbar to restart Dissenter and apply changes.">
-    To apply your changes, relaunch Brave
+    To apply your changes, relaunch Dissenter
   </message>
-  <message name="IDS_SETTINGS_SIGNIN_ALLOWED" desc="The title of the preference to allow to sign-in to Brave">
+  <message name="IDS_SETTINGS_SIGNIN_ALLOWED" desc="The title of the preference to allow to sign-in to Dissenter">
     Allow Dissenter sign-in
   </message>
-  <message name="IDS_SETTINGS_SIGNIN_ALLOWED_DESC" desc="The description of the preference to allow to sign-in to Brave">
-    By turning this off, you can sign in to Dissenter sites like Gmail without signing in to Brave
+  <message name="IDS_SETTINGS_SIGNIN_ALLOWED_DESC" desc="The description of the preference to allow to sign-in to Dissenter">
+    By turning this off, you can sign in to Dissenter sites like Gmail without signing in to Dissenter
   </message>
 
   <!-- People Page -->
@@ -84,29 +84,29 @@
   <message name="IDS_SETTINGS_PROFILE_NAME_AND_PICTURE" desc="Label of the link that takes you to the page to edit your name and picture for your chrome profile.">
     Dissenter name and picture
   </message>
-  <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT_SECONDARY_WITH_ACCOUNT" desc="The secondary text displayed to prompt users to enable sync for an account that is alredy present in Brave.">
+  <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT_SECONDARY_WITH_ACCOUNT" desc="The secondary text displayed to prompt users to enable sync for an account that is alredy present in Dissenter.">
     Sync and personalize Dissenter across your devices
   </message>
 </if>
 
   <!-- Sync Page -->
   <message name="IDS_SETTINGS_SYNC_SIGNIN" desc="The label that appears on the sync button in the options dialog when sync has not been set up by the user.">
-    Sign in to Brave
+    Sign in to Dissenter
   </message>
   <message name="IDS_SETTINGS_SYNC_DATA_ENCRYPTED_TEXT" desc="Text alerting the user that synced data is encrypted.">
     For added security, Dissenter will encrypt your data.
   </message>
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_TITLE" desc="The title of the dialog to stop syncing and sign out.">
-    Sign out of Brave?
+    Sign out of Dissenter?
   </message>
   <message name="IDS_DRIVE_SUGGEST_PREF_DESC" desc="The documentation string of the 'Show Drive Results in Omnibox' - full description sentence">
     Dissenter will access your Drive to make suggestions in the address bar
   </message>
 <if expr="not chromeos">
-    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_NO_ACCOUNT" desc="The text displayed to prompt users to sign in to Brave.">
+    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_NO_ACCOUNT" desc="The text displayed to prompt users to sign in to Dissenter.">
       Sign in to sync and personalize Dissenter across your devices
     </message>
-    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_ACCOUNT" desc="The text displayed to prompt users to enable sync for an account that is alredy present in Brave.">
+    <message name="IDS_SETTINGS_SYNC_SIGN_IN_PROMPT_WITH_ACCOUNT" desc="The text displayed to prompt users to enable sync for an account that is alredy present in Dissenter.">
       Sync and personalize Dissenter across your devices
     </message>
 </if>

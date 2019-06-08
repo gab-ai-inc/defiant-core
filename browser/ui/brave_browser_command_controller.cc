@@ -12,6 +12,7 @@
 #include "brave/browser/ui/browser_commands.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
+#include "chrome/browser/ui/browser_tabstrip.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
 
 namespace {
@@ -90,6 +91,7 @@ void BraveBrowserCommandController::InitBraveCommandState() {
   }
   UpdateCommandForBraveAdblock();
   UpdateCommandForTor();
+  UpdateCommandForDissenterExtension();
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveRewards() {
@@ -107,6 +109,10 @@ void BraveBrowserCommandController::UpdateCommandForTor() {
 
 void BraveBrowserCommandController::UpdateCommandForBraveSync() {
   UpdateCommandEnabled(IDC_SHOW_BRAVE_SYNC, true);
+}
+
+void BraveBrowserCommandController::UpdateCommandForDissenterExtension() {
+  UpdateCommandEnabled(IDC_SHOW_DISSENTER_EXTENSION_SETTINGS, true);
 }
 
 bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
@@ -135,6 +141,11 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       break;
     case IDC_SHOW_BRAVE_SYNC:
       //brave::ShowBraveSync(browser_);
+      break;
+    case IDC_SHOW_DISSENTER_EXTENSION_SETTINGS:
+      chrome::AddSelectedTabWithURL(browser_, 
+        GURL("chrome-extension://komainihbiaopejdcakhjbjmglkcfhgb/options/options.html"),
+        ui::PAGE_TRANSITION_LINK);
       break;
 
     default:

@@ -11,8 +11,9 @@ announcements.
 
 ## June 7th, 2019
 
-* Rebased on to the release channel, 0.65.x
-* Size/Speed improvements by removing Brave Ads, Brave Rewards, Brave Sync, and Brave Translate from the build.
+* Rebased on to the stable release channel, 0.65.x
+* Added a menu option to visit dissenter extension settings
+* Renamed menu options and re-ordered a few, for clarity
 
 ## May 27th, 2019
 
