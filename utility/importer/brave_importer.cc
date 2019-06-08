@@ -112,12 +112,12 @@ void BraveImporter::StartImport(const importer::SourceProfile& source_profile,
 
   if ((items & importer::LEDGER) && !cancelled()) {
     // `ImportLedger` returns true if "importable"
-    if (ImportLedger()) {
+    // if (ImportLedger()) {
       // NOTE: RecoverWallet is async.
       // Its handler will call NotifyItemEnded/NotifyEnded
-      bridge_->NotifyItemStarted(importer::LEDGER);
-      return;
-    }
+      // bridge_->NotifyItemStarted(importer::LEDGER);
+    return;
+    //}
   }
 
   bridge_->NotifyEnded();

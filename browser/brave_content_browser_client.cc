@@ -233,12 +233,10 @@ void BraveContentBrowserClient::RegisterOutOfProcessServices(
   (*services)[tor::mojom::kTorLauncherServiceName] = base::BindRepeating(
       l10n_util::GetStringUTF16, IDS_UTILITY_PROCESS_TOR_LAUNCHER_NAME);
 #if BUILDFLAG(BRAVE_ADS_ENABLED)
-  (*services)[bat_ads::mojom::kServiceName] =
-      base::BindRepeating(l10n_util::GetStringUTF16, IDS_SERVICE_BAT_ADS);
+  (*services)[bat_ads::mojom::kServiceName] = base::BindRepeating(l10n_util::GetStringUTF16, IDS_SERVICE_BAT_ADS);
 #endif
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
-  (*services)[bat_ledger::mojom::kServiceName] = base::BindRepeating(
-      l10n_util::GetStringUTF16, IDS_UTILITY_PROCESS_LEDGER_NAME);
+  (*services)[bat_ledger::mojom::kServiceName] = base::BindRepeating(l10n_util::GetStringUTF16, IDS_UTILITY_PROCESS_LEDGER_NAME);
 #endif
 }
 

@@ -274,10 +274,10 @@ void BraveActionsContainer::OnExtensionSystemReady() {
   extension_registry_observer_.Add(extension_registry_);
   extension_action_observer_.Add(extension_action_api_);
   // Check if dissenter extension already loaded
-  const extensions::Extension* extension =
+  const extensions::Extension* dextension =
           extension_registry_->enabled_extensions().GetByID(dissenter_extension_id);
-  if (extension)
-    AddAction(extension);
+  if (dextension)
+    AddAction(dextension);
 
   // Check if brave extension already loaded
   const extensions::Extension* extension =

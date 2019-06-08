@@ -146,34 +146,6 @@ bool BraveReferralsService::GetMatchingReferralHeaders(
   // set the associated custom headers.
   // Dissenter: Don't.
   return false;
-  /*
-  for (const auto& headers_value : referral_headers_list) {
-    const base::Value* domains_list =
-        headers_value.FindKeyOfType("domains", base::Value::Type::LIST);
-    if (!domains_list) {
-      LOG(WARNING) << "Failed to retrieve 'domains' key from referral headers";
-      continue;
-    }
-    const base::Value* headers_dict =
-        headers_value.FindKeyOfType("headers", base::Value::Type::DICTIONARY);
-    if (!headers_dict) {
-      LOG(WARNING) << "Failed to retrieve 'headers' key from referral headers";
-      continue;
-    }
-    for (const auto& domain_value : domains_list->GetList()) {
-      URLPattern url_pattern(URLPattern::SCHEME_HTTPS |
-                             URLPattern::SCHEME_HTTP);
-      url_pattern.SetScheme("*");
-      url_pattern.SetHost(domain_value.GetString());
-      url_pattern.SetPath("/*");
-      url_pattern.SetMatchSubdomains(true);
-      if (!url_pattern.MatchesURL(url))
-        continue;
-      return headers_dict->GetAsDictionary(request_headers_dict);
-    }
-  }
-  return false;
-  */
 }
 
 void BraveReferralsService::OnFetchReferralHeadersTimerFired() {
