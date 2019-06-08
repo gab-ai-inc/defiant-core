@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/resources/settings/about_page/about_page.html b/chrome/browser/resources/settings/about_page/about_page.html
-index bb8758591da2c649554188411815c680135f0203..78b437cd22334f2a6df8b6157e9760ab8f8f7194 100644
+index bb8758591da2c649554188411815c680135f0203..23a5b3f2f9b90d28b43cc6387964adfc6b1669b7 100644
 --- a/chrome/browser/resources/settings/about_page/about_page.html
 +++ b/chrome/browser/resources/settings/about_page/about_page.html
 @@ -119,40 +119,12 @@
@@ -47,3 +47,13 @@ index bb8758591da2c649554188411815c680135f0203..78b437cd22334f2a6df8b6157e9760ab
                <div class="secondary">$i18n{aboutBrowserVersion}</div>
              </div>
              <div class="separator" hidden="[[!showButtonContainer_]]"></div>
+@@ -247,6 +219,9 @@
+         </div>
+ 
+         <div class="info-section">
++          <div class="secondary">
++            <p>Dedicated to Justice Scalia.  Watch: <a href="https://youtu.be/gk8IKBWrTqw">The Great Dissent</a></p>
++          </div>
+           <div class="secondary">$i18nRaw{aboutProductLicense}</div>
+ <if expr="chromeos">
+           <div class="secondary"
