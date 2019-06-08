@@ -1,0 +1,13 @@
+diff --git a/chrome/browser/extensions/ntp_overridden_bubble_delegate.cc b/chrome/browser/extensions/ntp_overridden_bubble_delegate.cc
+index e2b768ff5868efce0058d6b55e6f44b99cfdba89..a938e57295883b1c454b68efeb1c06f47e33464b 100644
+--- a/chrome/browser/extensions/ntp_overridden_bubble_delegate.cc
++++ b/chrome/browser/extensions/ntp_overridden_bubble_delegate.cc
+@@ -88,6 +88,8 @@ void NtpOverriddenBubbleDelegate::MaybeAcknowledgeExistingNtpExtensions(
+ 
+ bool NtpOverriddenBubbleDelegate::ShouldIncludeExtension(
+     const extensions::Extension* extension) {
++  // Dissenter: Don't nag about the users new tab.
++  return false;
+   if (!extension_id_.empty() && extension_id_ != extension->id())
+     return false;
+ 

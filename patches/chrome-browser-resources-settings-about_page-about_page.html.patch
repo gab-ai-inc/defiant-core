@@ -1,13 +1,49 @@
 diff --git a/chrome/browser/resources/settings/about_page/about_page.html b/chrome/browser/resources/settings/about_page/about_page.html
-index bb8758591da2c649554188411815c680135f0203..09f4621d74419cdc289d142355f72f42b84e3a25 100644
+index bb8758591da2c649554188411815c680135f0203..78b437cd22334f2a6df8b6157e9760ab8f8f7194 100644
 --- a/chrome/browser/resources/settings/about_page/about_page.html
 +++ b/chrome/browser/resources/settings/about_page/about_page.html
-@@ -132,7 +132,7 @@
+@@ -119,40 +119,12 @@
+               </iron-icon>
+             </div>
+             <div class="start padded">
+-              <div id="updateStatusMessage" hidden="[[!showUpdateStatus_]]">
+-                <div
+-<if expr="not chromeos">
+-                    inner-h-t-m-l="[[getUpdateStatusMessage_(
+-                        currentUpdateStatusEvent_)]]">
+-</if>
+-<if expr="chromeos">
+-                    inner-h-t-m-l="[[getUpdateStatusMessage_(
+-                        currentUpdateStatusEvent_, targetChannel_)]]">
+-</if>
++              <div id="updateStatusMessage">
++                <div>
++                  <p><b>A word on updates:</b></p>
++                  <p>As of this build, Dissenter does not auto-update the browser itself.  We're of two minds on this: On one side, auto-update is nice, users get the latest software with the most bug and security fixes.  On the other side, auto-update means your web browser is reaching out at least daily checking for updates. While we are still in alpha testing we are going to explore a happy medium that users agree with and gives users a choice. Until such time, please check <a href="https://dissenter.com/download">Dissenter.com/download</a> every few weeks for new updates.</p>
                  </div>
-                 <a hidden$="[[!shouldShowLearnMoreLink_(
-                     currentUpdateStatusEvent_)]]" target="_blank"
+-                <a hidden$="[[!shouldShowLearnMoreLink_(
+-                    currentUpdateStatusEvent_)]]" target="_blank"
 -                    href="https://support.google.com/chrome?p=update_error">
-+                    href="https://community.brave.com?p=update_error">
-                   $i18n{learnMore}
-                 </a>
+-                  $i18n{learnMore}
+-                </a>
                </div>
+-<if expr="not chromeos">
+-              <span id="deprecationWarning"
+-                  hidden="[[!obsoleteSystemInfo_.obsolete]]">
+-                $i18n{aboutObsoleteSystem}
+-                <a href="$i18n{aboutObsoleteSystemURL}" target="_blank">
+-                  $i18n{learnMore}
+-                </a>
+-              </span>
+-</if>
+-<if expr="chromeos">
+-             <div id="endOfLifeMessageContainer" hidden="[[!hasEndOfLife_]]">
+-               $i18n{endOfLifeMessage}
+-               <a href="$i18n{endOfLifeLearnMoreURL}" target="_blank">
+-                 $i18n{learnMore}
+-               </a>
+-             </div>
+-</if>
+               <div class="secondary">$i18n{aboutBrowserVersion}</div>
+             </div>
+             <div class="separator" hidden="[[!showButtonContainer_]]"></div>
