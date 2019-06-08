@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/mini_installer/mini_installer.cc b/chrome/installer/mini_installer/mini_installer.cc
-index 6d86e7487289124cd89ee0d574f58f035e538f61..b553e8acd90761bfcf8baf739b08a3a30d0e378d 100644
+index 6d86e7487289124cd89ee0d574f58f035e538f61..d17386b1db5b92493d9701e9ffb367b7d76cbbf2 100644
 --- a/chrome/installer/mini_installer/mini_installer.cc
 +++ b/chrome/installer/mini_installer/mini_installer.cc
 @@ -62,7 +62,7 @@ struct Context {
@@ -134,7 +134,7 @@ index 6d86e7487289124cd89ee0d574f58f035e538f61..b553e8acd90761bfcf8baf739b08a3a3
 +bool GetStubInstallerFilename(PathString& installer_filename) {
 +  wchar_t value[MAX_PATH] = {0,};
 +  const bool result =
-+      RegKey::ReadSZValue(HKEY_CURRENT_USER, L"Software\\BraveSoftware\\Promo",
++      RegKey::ReadSZValue(HKEY_CURRENT_USER, L"Software\\GabAI\\Promo",
 +                          L"StubInstallerPath", value, _countof(value)) ;
 +
 +  if (!result)

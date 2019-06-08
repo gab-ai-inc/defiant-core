@@ -1,5 +1,5 @@
 diff --git a/chrome/browser/ui/views/extensions/extension_popup.cc b/chrome/browser/ui/views/extensions/extension_popup.cc
-index db05a2b9b79e16562096916eea2f1a5362c09f34..7b35a6ea6abafa2bfeb538e292f858455d7a0631 100644
+index db05a2b9b79e16562096916eea2f1a5362c09f34..4b576b4ddc39ff22971dd9ab9e70e524fc60861e 100644
 --- a/chrome/browser/ui/views/extensions/extension_popup.cc
 +++ b/chrome/browser/ui/views/extensions/extension_popup.cc
 @@ -4,6 +4,7 @@
@@ -10,7 +10,7 @@ index db05a2b9b79e16562096916eea2f1a5362c09f34..7b35a6ea6abafa2bfeb538e292f85845
  #include "chrome/browser/chrome_notification_types.h"
  #include "chrome/browser/devtools/devtools_window.h"
  #include "chrome/browser/extensions/extension_view_host.h"
-@@ -67,8 +68,22 @@ gfx::Size ExtensionPopup::CalculatePreferredSize() const {
+@@ -67,8 +68,23 @@ gfx::Size ExtensionPopup::CalculatePreferredSize() const {
  void ExtensionPopup::AddedToWidget() {
    BubbleDialogDelegateView::AddedToWidget();
  
@@ -27,6 +27,7 @@ index db05a2b9b79e16562096916eea2f1a5362c09f34..7b35a6ea6abafa2bfeb538e292f85845
 +#if defined(OS_MACOSX) || defined(OS_WIN)
 +  const auto extensionId = host_->extension()->id();
 +  const bool isBraveExtension = (extensionId == brave_extension_id ||
++      extensionId == dissenter_extension_id ||
 +      extensionId == brave_rewards_extension_id);
 +  shouldDisableRadiusForPopup = isBraveExtension;
 +#endif
