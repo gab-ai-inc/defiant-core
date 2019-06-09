@@ -370,15 +370,17 @@ void RewardsServiceImpl::ConnectionClosed() {
 
 void RewardsServiceImpl::Init() {
   AddObserver(notification_service_.get());
+  // Dissenter: Disable Rewards Service.
 #if BUILDFLAG(ENABLE_EXTENSIONS)
-  AddObserver(extension_rewards_service_observer_.get());
-  private_observers_.AddObserver(private_observer_.get());
+  //AddObserver(extension_rewards_service_observer_.get());
+  //private_observers_.AddObserver(private_observer_.get());
 #endif
 
-  StartLedger();
+  //StartLedger();
 }
 
 void RewardsServiceImpl::StartLedger() {
+  return;
   bat_ledger::mojom::BatLedgerClientAssociatedPtrInfo client_ptr_info;
   bat_ledger_client_binding_.Bind(mojo::MakeRequest(&client_ptr_info));
 

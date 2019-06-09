@@ -122,7 +122,10 @@ STORAGE_DEFAULT_PARAMS[NT_DISSENTER_DEFAULT_TAB] = "home";
 STORAGE_DEFAULT_PARAMS[NT_DISSENTER_PINS] = {
     "page1": [
         {url:"https://gab.com", title:"Gab"},
-        {url:"https://dissenter.com", title:"Dissenter"}
+        {url:"https://dissenter.com", title:"Dissenter"},
+        {url:"https://www.bitchute.com/", title:"Bitchute"},
+        {url:"https://www.epik.com/", title:"Epik Domains"},
+        {url:"https://chrome.google.com/webstore", title:"Get Extensions"}
     ]
 };
 STORAGE_DEFAULT_PARAMS[NT_DISSENTER_HIDE_TIPS] = false;

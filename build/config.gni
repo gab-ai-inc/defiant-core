@@ -25,7 +25,7 @@ declare_args() {
   build_omaha = false
   tag_ap =""
 
-  skip_signing = false
+  skip_signing = true
 }
 
 if (base_sparkle_update_url == "") {
