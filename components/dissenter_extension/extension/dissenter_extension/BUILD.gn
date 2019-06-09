@@ -9,6 +9,7 @@ transpile_web_ui("dissenter_extension") {
     "assets/images/logo/icon-128.png",
     "assets/images/logo/gab-logo.png",
     "assets/images/logo/dissenter-logo.png",
+    "assets/images/defiant-bg1.jpg",
     "background/background.js",
     "background/background.html",
     "popup/popup.html",

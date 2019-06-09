@@ -84,9 +84,13 @@ var NT_COLORS_TEXT = 'nt_colors_text';
 var NT_BACKGROUND_SOLID_COLOR = 'nt_background_solid_color';
 var NT_BACKGROUND_IMAGE = 'nt_background_image';
 var NT_BACKGROUND_RANDOM_GRADIENT = 'nt_background_random_gradient';
+var NT_BACKGROUND_IMAGE_URL = 'nt_background_image_url';
 
 var NT_DISSENTER_ENABLED = 'nt_dissenter_enabled';
 var NT_DISSENTER_DEFAULT_TAB = 'nt_dissenter_default_tab';
+
+var NT_DISSENTER_PINS = 'nt_dissenter_pins';
+var NT_DISSENTER_HIDE_TIPS = 'nt_dissenter_hide_tips';
 
 /* STORAGE DEFAULTS */
 var STORAGE_DEFAULT_PARAMS = {};
@@ -100,7 +104,7 @@ STORAGE_DEFAULT_PARAMS[WIKIPEDIA_BUTTONS_ENABLED] = true;
 STORAGE_DEFAULT_PARAMS[CUSTOM_NEW_TAB_ENABLED] = true;
 STORAGE_DEFAULT_PARAMS[NT_DEFAULT_SEARCH_ENGINE] = SEARCH_ENGINES[0];
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_ENABLED] = true;
-STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_LIMIT] = 10;
+STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_LIMIT] = 20;
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_SIZE] = "md";
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_SHAPE] = "circle";
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_HIGHLIGHT] = "light";
@@ -109,11 +113,19 @@ STORAGE_DEFAULT_PARAMS[NT_DATETIME_SHOW_DATE] = true;
 STORAGE_DEFAULT_PARAMS[NT_DATETIME_SHOW_TIME] = true;
 STORAGE_DEFAULT_PARAMS[NT_COLORS_SEARCH] = "white";
 STORAGE_DEFAULT_PARAMS[NT_COLORS_TEXT] = "white";
-STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_SOLID_COLOR] = "#444";
+STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_SOLID_COLOR] = "";
 STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_IMAGE] = "";
+STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_IMAGE_URL] = "../assets/images/defiant-bg1.jpg";
 STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_RANDOM_GRADIENT] = false;
-STORAGE_DEFAULT_PARAMS[NT_DISSENTER_ENABLED] = true;
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_ENABLED] = false;
 STORAGE_DEFAULT_PARAMS[NT_DISSENTER_DEFAULT_TAB] = "home";
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_PINS] = {
+    "page1": [
+        {url:"https://gab.com", title:"Gab"},
+        {url:"https://dissenter.com", title:"Dissenter"}
+    ]
+};
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_HIDE_TIPS] = false;
 
 var STORAGE_KEY_ALL = 'all';
 
@@ -439,23 +451,6 @@ if (BROWSER_CONFIG.slug !== "edge") {
         }
     });
 
-    /**
-     * @description - Tab function for onCreated
-     */
-    chrome.tabs.onCreated.addListener(function(tab) {
-        //Get/Send value
-        var newTabEnabled = gdes.getValue(CUSTOM_NEW_TAB_ENABLED);
-        if (!newTabEnabled || !tab.url) return false;
-
-        if ((BROWSER_CONFIG.slug === "chrome" && tab.url === "chrome://newtab/") ||
-            (BROWSER_CONFIG.slug === "chrome" && tab.url.indexOf("chrome://vivaldi-webui/startpage") > -1) || //vivaldi
-            (BROWSER_CONFIG.slug === "chrome" && tab.url === "chrome://startpage/") || //opera
-            (BROWSER_CONFIG.slug === "firefox" && tab.url === "about:newtab")) {
-            chrome.tabs.update(tab.id, {
-                url: chrome.extension.getURL("newtab/newtab.html")
-            });
-        }
-    });
 }
 
 /**

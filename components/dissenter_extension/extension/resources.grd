@@ -16,6 +16,7 @@
       <include name="IDR_DISSENTER_EXTENSION_ICON_128" file="dissenter_extension/assets/images/logo/icon-128.png" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_GAB_LOGO" file="dissenter_extension/assets/images/logo/gab-logo.png" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_D_LOGO" file="dissenter_extension/assets/images/logo/dissenter-logo.png" type="BINDATA" />
+      <include name="IDR_DEFIANT_BACKGROUND_1" file="dissenter_extension/assets/images/defiant-bg1.jpg" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_POPUP_HTML" file="dissenter_extension/popup/popup.html" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_POPUP_JS" file="dissenter_extension/popup/popup.js" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_POPUP_CSS" file="dissenter_extension/popup/popup.css" type="BINDATA" />

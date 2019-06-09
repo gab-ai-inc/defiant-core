@@ -84,9 +84,13 @@ var NT_COLORS_TEXT = 'nt_colors_text';
 var NT_BACKGROUND_SOLID_COLOR = 'nt_background_solid_color';
 var NT_BACKGROUND_IMAGE = 'nt_background_image';
 var NT_BACKGROUND_RANDOM_GRADIENT = 'nt_background_random_gradient';
+var NT_BACKGROUND_IMAGE_URL = 'nt_background_image_url';
 
 var NT_DISSENTER_ENABLED = 'nt_dissenter_enabled';
 var NT_DISSENTER_DEFAULT_TAB = 'nt_dissenter_default_tab';
+
+var NT_DISSENTER_PINS = 'nt_dissenter_pins';
+var NT_DISSENTER_HIDE_TIPS = 'nt_dissenter_hide_tips';
 
 /* STORAGE DEFAULTS */
 var STORAGE_DEFAULT_PARAMS = {};
@@ -100,7 +104,7 @@ STORAGE_DEFAULT_PARAMS[WIKIPEDIA_BUTTONS_ENABLED] = true;
 STORAGE_DEFAULT_PARAMS[CUSTOM_NEW_TAB_ENABLED] = true;
 STORAGE_DEFAULT_PARAMS[NT_DEFAULT_SEARCH_ENGINE] = SEARCH_ENGINES[0];
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_ENABLED] = true;
-STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_LIMIT] = 10;
+STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_LIMIT] = 20;
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_SIZE] = "md";
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_SHAPE] = "circle";
 STORAGE_DEFAULT_PARAMS[NT_TOP_SITES_HIGHLIGHT] = "light";
@@ -109,11 +113,19 @@ STORAGE_DEFAULT_PARAMS[NT_DATETIME_SHOW_DATE] = true;
 STORAGE_DEFAULT_PARAMS[NT_DATETIME_SHOW_TIME] = true;
 STORAGE_DEFAULT_PARAMS[NT_COLORS_SEARCH] = "white";
 STORAGE_DEFAULT_PARAMS[NT_COLORS_TEXT] = "white";
-STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_SOLID_COLOR] = "#444";
+STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_SOLID_COLOR] = "";
 STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_IMAGE] = "";
+STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_IMAGE_URL] = "../assets/images/defiant-bg1.jpg";
 STORAGE_DEFAULT_PARAMS[NT_BACKGROUND_RANDOM_GRADIENT] = false;
-STORAGE_DEFAULT_PARAMS[NT_DISSENTER_ENABLED] = true;
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_ENABLED] = false;
 STORAGE_DEFAULT_PARAMS[NT_DISSENTER_DEFAULT_TAB] = "home";
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_PINS] = {
+    "page1": [
+        {url:"https://gab.com", title:"Gab"},
+        {url:"https://dissenter.com", title:"Dissenter"}
+    ]
+};
+STORAGE_DEFAULT_PARAMS[NT_DISSENTER_HIDE_TIPS] = false;
 
 var STORAGE_KEY_ALL = 'all';
 
@@ -244,6 +256,9 @@ var Background = function() {
     var mainImage = document.getElementById("main__image");
     var clearUploadedBackgroundBtn = document.getElementById("sidebar-settings-meta-clear-background-image-btn");
     var metaBackgroundImageBox = document.getElementById("sidebar-settings-meta-background-image");
+    var solidColorOption = document.getElementById("si_nt_background_solid_color");
+    var randomGradientOption = document.getElementById("si_nt_background_random_gradient");
+    var hideTipsOption = document.getElementById("si_nt_dissenter_hide_tips");
 
     var colorSchemes = ["cs--black", "cs--white", "cs--light-grey", "cs--dark-grey"];
 
@@ -257,12 +272,21 @@ var Background = function() {
         resetBackgroundImage();
     });
 
+    var tipsCloser = document.getElementById("dissenter-tab-foot-closer");
+    tipsCloser.addEventListener('click', function() {
+        newTab.settings.updateSettingsItem(NT_DISSENTER_HIDE_TIPS, true, true, true);
+        scope.setHideTips();
+    });
+
     function resetBackgroundImage() {
-        metaBackgroundImageBox.src = "";
+        metaBackgroundImageBox.src = newTab.userDefaults[NT_BACKGROUND_IMAGE_URL];
 
-
-        mainImage.classList.toggle("hidden", true);
-        mainImage.style.removeProperty("background-image");
+        if (!solidColorOption.value && !randomGradientOption.enabled) {
+            mainImage.classList.remove("hidden");
+        } else {
+            mainImage.style.removeProperty("background-image");
+            mainImage.classList.add("hidden");
+        }
     };
 
     function getRandomHex() {
@@ -322,13 +346,20 @@ var Background = function() {
 
         var imageData = event.detail;
 
-        if (!imageData) {
+        if (!imageData && !newTab.userDefaults[NT_BACKGROUND_IMAGE_URL]) {
             resetBackgroundImage();
         }
         else {
-            var bgImg = "url(" + imageData + ")";
-            mainImage.style.setProperty("background-image", bgImg, "important");
-            metaBackgroundImageBox.src = imageData;
+            var bgImg = '';
+            if (imageData) {
+                bgImg = "url(" + imageData + ")";
+                mainImage.style.setProperty("background-image", bgImg, "important");
+                metaBackgroundImageBox.src = imageData;
+            } else {
+                bgImg = "url(" + newTab.userDefaults[NT_BACKGROUND_IMAGE_URL] + ")";
+                mainImage.style.setProperty("background-image", bgImg, "important");
+                metaBackgroundImageBox.src = newTab.userDefaults[NT_BACKGROUND_IMAGE_URL];
+            }
 
             //Reset background solid color
             var event2 = new CustomEvent("WELM_update_settings_item", {
@@ -356,12 +387,24 @@ var Background = function() {
         content.classList.add(newClass);
     };
 
+    scope.setHideTips = function() {
+        var enabled = hideTipsOption.checked;
+
+        if (!enabled) {
+            var e = document.getElementById("dissenter-tab-foot");
+            e.classList.remove('hidden');
+        } else {
+            var e = document.getElementById("dissenter-tab-foot");
+            e.classList.add('hidden');
+        }
+    }
     //
 
     window.addEventListener("WELM_nt_background_solid_color", scope.setBackgroundSolidColor, false);
     window.addEventListener("WELM_nt_background_image", scope.setBackgroundImage, false);
     window.addEventListener("WELM_nt_colors_text", scope.setPageColorScheme, false);
     window.addEventListener("WELM_nt_background_random_gradient", scope.setBackgroundRandomGradient, false);
+    window.addEventListener("WELM_nt_dissenter_hide_tips", scope.setHideTips, false);
 };
 
 var DateTime = function() {
@@ -703,6 +746,238 @@ var Settings = function() {
 
 };
 
+var TopSites = function() {
+
+    var scope = this;
+
+    var topSiteList = document.getElementById('top-site-list');
+    var topSitesEnabledCheckbox = document.querySelector('.sidebar-table-item__input.sidebar-table-item__input--checkbox[data-storage-key="nt_top_sites_enabled"]');
+    var topSiteItems = [];
+
+    var sizes = ["sm", "md", "lg"];
+    var highlights = ["light", "dark"];
+    var shapes = ["square", "circle"];
+
+    var allStyleClasses = [].concat.apply([], [sizes, highlights, shapes]);
+
+    topSitesEnabledCheckbox.addEventListener("change", function() {
+        if (!this.checked) return false;
+
+        createTopWithDefaults();
+    });
+
+    function createTopWithDefaults() {
+        createTop(
+            newTab.userDefaults[NT_TOP_SITES_ENABLED],
+            newTab.userDefaults[NT_TOP_SITES_LIMIT],
+            newTab.userDefaults[NT_TOP_SITES_SIZE],
+            newTab.userDefaults[NT_TOP_SITES_SHAPE]
+        );
+    };
+
+    function createTop(enabled, limit, size, shape) {
+        if (!size) size = newTab.userDefaults[NT_TOP_SITES_SIZE];
+        if (!shape) shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
+        if (limit === undefined) limit = newTab.userDefaults[NT_TOP_SITES_LIMIT];
+
+        if (!enabled) {
+            return false;
+        }
+        reset();
+        topSites = newTab.userDefaults[NT_DISSENTER_PINS]['page1'];
+        
+        var max = Math.min(topSites.length, limit);
+
+        for (var i = 0; i < max; i++) {
+            var site = topSites[i];
+
+            var topSiteItem = getTopSiteItem(site);
+            if (!topSiteItem) continue;
+            topSiteItems.push(topSiteItem);
+            topSiteList.appendChild(topSiteItem);
+        }
+    };
+
+    function reset() {
+        topSiteItems = [];
+
+        while (topSiteList.firstChild) {
+            topSiteList.removeChild(topSiteList.firstChild);
+        };
+    };
+
+    function getTopSiteItem(site, size, shape, highlight) {
+        if (!isObject(site)) return false;
+
+        if (!size) size = newTab.userDefaults[NT_TOP_SITES_SIZE];
+        if (!shape) shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
+        if (!highlight) highlight = newTab.userDefaults[NT_TOP_SITES_HIGHLIGHT];
+
+        var hostname;
+        try {
+            hostname = (new URL(site.url)).hostname;
+        } catch (e) { 
+            scope.removePinnedSite(site.url);
+            return false;
+        }
+        var titleText = site.title;
+
+        var button = document.createElement('a');
+        button.className = 'top-site-item';
+        button.href = site.url;
+        button.classList.add(size);
+        button.classList.add(shape);
+        button.classList.add(highlight);
+
+        var title = document.createElement('span');
+        title.className = 'top-site-item__title';
+        title.textContent = titleText;
+
+        var image = document.createElement('img')
+        image.className = 'top-site-item__img';;
+        image.title = site.title;
+        image.src = 'https://logo.clearbit.com/' + hostname;
+
+        button.appendChild(image);
+        button.appendChild(title);
+
+        var wrapper = document.createElement('div');
+        wrapper.className = 'top-site-wrapper';
+        var closer = document.createElement('a');
+        closer.className = 'top-site-remove';
+        closer.textContent = 'X';
+        closer.addEventListener("click", function(event) {
+            scope.removePinnedSite(site.url);
+        });
+        wrapper.appendChild(button);
+        wrapper.appendChild(closer);
+
+        return wrapper;
+    };
+
+    scope.removePinnedSite = function(url) {
+        if (!url) return;
+        var pins = newTab.userDefaults[NT_DISSENTER_PINS]['page1'];
+        pins.splice(pins.findIndex(function(i) {
+            return i.url === url;
+        }), 1);
+        var event2 = new CustomEvent("WELM_update_settings_item", {
+            detail: {
+                key: NT_DISSENTER_PINS,
+                value: {"page1":pins},
+                updateInRuntime: true,
+                updateInput: false
+            }
+        });
+        window.dispatchEvent(event2);
+        createTopWithDefaults();
+    }
+
+    scope.addPinnedSite = function(url, title) {
+        if (!url || !title) return;
+        var newSite = {url:url, title:title};
+        var pins = newTab.userDefaults[NT_DISSENTER_PINS]['page1'];
+        pins.push(newSite);
+        var event2 = new CustomEvent("WELM_update_settings_item", {
+            detail: {
+                key: NT_DISSENTER_PINS,
+                value: {"page1":pins},
+                updateInRuntime: true,
+                updateInput: false
+            }
+        });
+        window.dispatchEvent(event2);
+        createTopWithDefaults();
+    }
+
+    //
+
+    scope.setTopSitesEnabled = function(event) {
+        if (!isObject(event)) return false;
+
+        var enabled = event.detail;
+
+        topSiteList.classList.toggle("hidden", !enabled);
+
+        if (!enabled) return false;
+
+        createTopWithDefaults();
+    };
+
+    scope.updateTopSites = function(event) {
+        if (!isObject(event)) return false;
+
+        createTopWithDefaults();
+    };
+
+    scope.updateTopSiteStyle = function(event) {
+        if (!isObject(event)) return false;
+
+        for (var i = 0; i < topSiteItems.length; i++) {
+            var item = topSiteItems[i];
+
+            removeManyClasses(item, allStyleClasses);
+
+            var size = newTab.userDefaults[NT_TOP_SITES_SIZE];
+            var shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
+            var highlight = newTab.userDefaults[NT_TOP_SITES_HIGHLIGHT];
+
+            item.classList.add(size);
+            item.classList.add(shape);
+            item.classList.add(highlight);
+        };
+    };
+
+    scope.setTopSitesTitlesEnabled = function(event) {
+        if (!isObject(event)) return false;
+
+        var enabled = event.detail;
+
+        topSiteList.classList.toggle("show-titles", enabled);
+    };
+
+    //
+    var pinnedEntryDiv = document.getElementById("pinned-site-entry");
+    var pinnedAddButton = document.getElementById("top-site-add-button");
+    pinnedAddButton.addEventListener('click', function() {
+        pinnedEntryDiv.classList.remove('hidden');
+        pinnedAddButton.classList.add('hidden');
+    });
+
+    var pinnedCancelButton = document.getElementById("pinned-cancel");
+    pinnedCancelButton.addEventListener('click', function() {
+        pinnedEntryDiv.classList.add('hidden');
+        pinnedAddButton.classList.remove('hidden');
+    });
+
+    var pinned_url = document.getElementById("pinned_url");
+    var pinned_title = document.getElementById("pinned_title");
+    var pinned_submit = document.getElementById("pinned-submit");
+    pinned_submit.addEventListener('click', function() {
+        if (!pinned_url.value || !pinned_title.value) {
+            return alert('Must enter both fields.');
+        }
+        try {
+            var url = new URL(pinned_url.value);
+        } catch (e) {
+            return alert('Invalid URL.  Should be a valid url like: https://www.dissenter.com/');
+        }
+        scope.addPinnedSite(pinned_url.value, pinned_title.value);
+        pinnedEntryDiv.classList.add('hidden');
+        pinnedAddButton.classList.remove('hidden');
+        pinned_url.value = '';
+        pinned_title.value = '';
+    })
+
+
+    window.addEventListener("WELM_nt_top_sites_enabled", scope.setTopSitesEnabled, false);
+    window.addEventListener("WELM_nt_top_sites_limit", scope.updateTopSites, false);
+    window.addEventListener("WELM_nt_top_sites_size", scope.updateTopSiteStyle, false);
+    window.addEventListener("WELM_nt_top_sites_shape", scope.updateTopSiteStyle, false);
+    window.addEventListener("WELM_nt_top_sites_highlight", scope.updateTopSiteStyle, false);
+    window.addEventListener("WELM_nt_top_sites_show_title", scope.setTopSitesTitlesEnabled, false);
+};
+
 var Dissenter = function() {
 
     var scope = this;
@@ -719,7 +994,8 @@ var Dissenter = function() {
     //
 
     function updateActiveTab(tab) {
-        if (!tab || !isString(tab)) return false;
+        var on = document.getElementById("si_nt_dissenter_enabled");
+        if (!on.checked || !tab || !isString(tab)) return false;
 
         var activeTab = document.querySelector(".dissenter-section-header__meta-tabs__btn.active");
         if (activeTab) activeTab.classList.remove("active");
@@ -855,6 +1131,7 @@ var Dissenter = function() {
         var enabled = event.detail;
 
         dissenterSection.classList.toggle("hidden", !enabled);
+        if (enabled) updateActiveTab("home");
     };
 
     scope.setDissenterDefaultTab = function(event) {
@@ -1207,181 +1484,6 @@ var DissenterNotifications = function() {
     scope.hide = function() {
         parentContainer.classList.add("hidden");
     };
-};
-
-var TopSites = function() {
-
-    //
-
-    var scope = this;
-
-    //
-
-    var topSiteList = document.getElementById('top-site-list');
-    var topSitesEnabledCheckbox = document.querySelector('.sidebar-table-item__input.sidebar-table-item__input--checkbox[data-storage-key="nt_top_sites_enabled"]');
-
-    var optionalPermissions = {
-        permissions: ["topSites"]
-    };
-
-    var topSiteItems = [];
-
-    var sizes = ["sm", "md", "lg"];
-    var highlights = ["light", "dark"];
-    var shapes = ["square", "circle"];
-
-    var allStyleClasses = [].concat.apply([], [sizes, highlights, shapes]);
-
-    topSitesEnabledCheckbox.addEventListener("change", function() {
-        if (!this.checked) return false;
-
-        chrome.permissions.request(optionalPermissions, function(granted) {
-            if (granted) createTopWithDefaults();
-        });
-    });
-
-
-    function createTopWithDefaults() {
-        createTop(
-            newTab.userDefaults[NT_TOP_SITES_ENABLED],
-            newTab.userDefaults[NT_TOP_SITES_LIMIT],
-            newTab.userDefaults[NT_TOP_SITES_SIZE],
-            newTab.userDefaults[NT_TOP_SITES_SHAPE]
-        );
-    };
-
-    function createTop(enabled, limit, size, shape) {
-        if (!size) size = newTab.newuserDefaults[NT_TOP_SITES_SIZE];
-        if (!shape) shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
-        if (limit === undefined) limit = newTab.userDefaults[NT_TOP_SITES_LIMIT];
-
-        if (!enabled) {
-            return false;
-        }
-
-        //If not enabled, ignore
-        if (!chrome.topSites) return false;
-
-        chrome.topSites.get(function(topSites) {
-            reset();
-
-            if (topSites.length < 5) {
-                topSites.push({url:'https://gab.com', title:'Gab'})
-                topSites.push({url:'https://dissenter.com', title:'Dissenter'})
-                topSites.push({url:'https://en.wikipedia.org/wiki/Constitution_of_the_United_States', title: 'U.S. Constitution'})
-            }
-
-            var max = Math.min(topSites.length, limit);
-
-            for (var i = 0; i < max; i++) {
-                var site = topSites[i];
-
-                var topSiteItem = getTopSiteItem(site);
-                if (!topSiteItem) continue;
-
-                topSiteItems.push(topSiteItem);
-
-                topSiteList.appendChild(topSiteItem);
-            }
-        });
-    };
-
-    function reset() {
-        topSiteItems = [];
-
-        while (topSiteList.firstChild) {
-            topSiteList.removeChild(topSiteList.firstChild);
-        };
-    };
-
-    function getTopSiteItem(site, size, shape, highlight) {
-        if (!isObject(site)) return false;
-
-        if (!size) size = newTab.userDefaults[NT_TOP_SITES_SIZE];
-        if (!shape) shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
-        if (!highlight) highlight = newTab.userDefaults[NT_TOP_SITES_HIGHLIGHT];
-
-        var hostname = (new URL(site.url)).hostname;
-        var titleText = hostname;
-        titleText = titleText.replace('www.', '');
-        titleText = titleText.replace('.com', '');
-
-        var button = document.createElement('a');
-        button.className = 'top-site-item';
-        button.href = site.url;
-        button.classList.add(size);
-        button.classList.add(shape);
-        button.classList.add(highlight);
-
-        var title = document.createElement('span');
-        title.className = 'top-site-item__title';
-        title.textContent = titleText;
-
-        var image = document.createElement('img')
-        image.className = 'top-site-item__img';;
-        image.title = site.title;
-        image.src = 'https://logo.clearbit.com/' + hostname;
-
-        button.appendChild(image);
-        button.appendChild(title);
-
-        return button;
-    };
-
-    //
-
-    scope.setTopSitesEnabled = function(event) {
-        if (!isObject(event)) return false;
-
-        var enabled = event.detail;
-
-        topSiteList.classList.toggle("hidden", !enabled);
-
-        if (!enabled) return false;
-
-        createTopWithDefaults();
-    };
-
-    scope.updateTopSites = function(event) {
-        if (!isObject(event)) return false;
-
-        createTopWithDefaults();
-    };
-
-    scope.updateTopSiteStyle = function(event) {
-        if (!isObject(event)) return false;
-
-        for (var i = 0; i < topSiteItems.length; i++) {
-            var item = topSiteItems[i];
-
-            removeManyClasses(item, allStyleClasses);
-
-            var size = newTab.userDefaults[NT_TOP_SITES_SIZE];
-            var shape = newTab.userDefaults[NT_TOP_SITES_SHAPE];
-            var highlight = newTab.userDefaults[NT_TOP_SITES_HIGHLIGHT];
-
-            item.classList.add(size);
-            item.classList.add(shape);
-            item.classList.add(highlight);
-        };
-    };
-
-    scope.setTopSitesTitlesEnabled = function(event) {
-        if (!isObject(event)) return false;
-
-        var enabled = event.detail;
-
-        topSiteList.classList.toggle("show-titles", enabled);
-    };
-
-    //
-
-    window.addEventListener("WELM_nt_top_sites_enabled", scope.setTopSitesEnabled, false);
-    window.addEventListener("WELM_nt_top_sites_limit", scope.updateTopSites, false);
-    window.addEventListener("WELM_nt_top_sites_size", scope.updateTopSiteStyle, false);
-    window.addEventListener("WELM_nt_top_sites_shape", scope.updateTopSiteStyle, false);
-    window.addEventListener("WELM_nt_top_sites_highlight", scope.updateTopSiteStyle, false);
-    window.addEventListener("WELM_nt_top_sites_show_title", scope.setTopSitesTitlesEnabled, false);
 };
 
 var newTab = {};
