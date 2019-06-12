@@ -37,6 +37,9 @@ bool IsUpdaterURL(const GURL& gurl) {
 int OnBeforeURLRequest_CommonStaticRedirectWork(
     const ResponseCallback& next_callback,
     std::shared_ptr<BraveRequestInfo> ctx) {
+  // Dissenter: Stop sneaky sneaky Brave from slurping up your extension data!
+  return net::OK;
+  // Unreachable code:
   GURL::Replacements replacements;
   if (IsUpdaterURL(ctx->request_url)) {
     replacements.SetQueryStr(ctx->request_url.query_piece());

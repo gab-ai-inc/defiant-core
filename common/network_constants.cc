@@ -5,8 +5,9 @@
 
 #include "brave/common/network_constants.h"
 // Dissenter(TODO): No updates for now.
+// https://go-updater.brave.com/extensions/
 const char kBraveUpdatesExtensionsEndpoint[] =
-    "https://0.0.0.0/";
+    "https://0.0.0.0/extensions/";
 // For debgugging:
 // const char kBraveUpdatesExtensionsEndpoint[] =
 // "http://localhost:8192/extensions";
