@@ -1,7 +1,7 @@
 html,
 html[dark] {
   --brave-toolbar-gradient: linear-gradient(to left, rgb(102, 221, 72), rgb(15, 148, 153)); /* linear gradient: red500 -> magenta600 */
-  --md-background-color: rgb(18, 90, 30); /* neutral200 */
+  --md-background-color: #F1F3F5; /* neutral200 */
   --md-loading-message-color: rgb(19, 109, 27); /* grey700 */
   --md-toolbar-color: rgb(44, 200, 52); /* not design system color. middle value of toolbar's linear gradient. */
   /* --md-toolbar-color: linear-gradient(to left, #b10e95, #e72f4e) !important; */
