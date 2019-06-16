@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Dzēst</translation>
 <translation id="144283815522798837">Atlasīti: <ph name="NUMBER_OF_ITEMS_SELECTED"/></translation>
 <translation id="5582839680698949063">Galvenā izvēlne</translation>
-<translation id="3700405816184340252">Brave vēsture</translation>
+<translation id="3700405816184340252">Dissenter vēsture</translation>
 <translation id="7602079150116086782">Nav ciļņu no citām ierīcēm</translation>
 <translation id="4619615317237390068">Cilnes no citām ierīcēm</translation>
-<translation id="82609232232243542">Pierakstīties pārlūkā Brave</translation>
+<translation id="82609232232243542">Pierakstīties pārlūkā Dissenter</translation>
 <translation id="4627442949885028695">Turpiniet citā ierīcē</translation>
-<translation id="7253276740368043692">Pierakstieties pārlūkā Brave, lai būtu pieejamas cilnes no citām jūsu ierīcēm.</translation>
+<translation id="7253276740368043692">Pierakstieties pārlūkā Dissenter, lai būtu pieejamas cilnes no citām jūsu ierīcēm.</translation>
 <translation id="6351063337294363751">Šajā izvēlnē varat notīrīt pārlūkošanas datus.</translation>
 <translation id="6040143037577758943">Aizvērt</translation>
 <translation id="6463795194797719782">Rediģēt</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">Restartēt</translation>
 <translation id="3479552764303398839">Vēlāk</translation>
 <translation id="1008557486741366299">Vēlāk</translation>
-<translation id="8201192017531062522">Pārlūks Brave turpinās darboties, kamēr būs atvērtas Brave lietotnes.</translation>
-<translation id="7397305826909094212">Aizvērt visas Brave lietotnes</translation>
+<translation id="8201192017531062522">Pārlūks Dissenter turpinās darboties, kamēr būs atvērtas Dissenter lietotnes.</translation>
+<translation id="7397305826909094212">Aizvērt visas Dissenter lietotnes</translation>
 <translation id="5026874946691314267">Vairs nerādīt šo paziņojumu</translation>
 <translation id="91568222606626347">Saīsnes izveide...</translation>
 <translation id="2783321960289401138">Izveidot saīsni...</translation>
@@ -796,11 +796,11 @@
 <translation id="5799508265798272974">Linux virtuālā mašīna: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 starpniekservera atrisinātājs</translation>
 <translation id="5552059560155071882">CUPS IPP parsētājs</translation>
-<translation id="3077708072777965506">Brave OS ievades metode</translation>
-<translation id="7171242884588191792">Brave failu utilītprogrammas</translation>
+<translation id="3077708072777965506">Dissenter OS ievades metode</translation>
+<translation id="7171242884588191792">Dissenter failu utilītprogrammas</translation>
 <translation id="3183139917765991655">Profilu importētājs</translation>
 <translation id="2190069059097339078">Wi-Fi akreditācijas datu ieguvējs</translation>
-<translation id="7685901961038216503">Brave OS sistēmas attēla rakstītājs</translation>
+<translation id="7685901961038216503">Dissenter OS sistēmas attēla rakstītājs</translation>
 <translation id="4873312501243535625">Multivides failu pārbaudītājs</translation>
 <translation id="5972666587303800813">Pakalpojums, kas nedarbojas</translation>
 <translation id="3061707000357573562">Ielāpu pakalpojums</translation>
@@ -827,13 +827,13 @@
 <translation id="3507421388498836150">“<ph name="EXTENSION_NAME"/>” pašreizējās atļaujas</translation>
 <translation id="5242724311594467048">Vai iespējot “<ph name="EXTENSION_NAME"/>”?</translation>
 <translation id="4014432863917027322">Vai labot “<ph name="EXTENSION_NAME"/>”?</translation>
-<translation id="5173189340601754836">Cita datorā instalētā programma pievienoja lietotni, kas var izmainīt Brave darbību.
+<translation id="5173189340601754836">Cita datorā instalētā programma pievienoja lietotni, kas var izmainīt Dissenter darbību.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Citā datorā instalētā programmā ir pievienots tāds paplašinājums, kura dēļ var tikt izmainīta pārlūkprogrammas Brave darbība.
+<translation id="6654312501894761082">Citā datorā instalētā programmā ir pievienots tāds paplašinājums, kura dēļ var tikt izmainīta pārlūkprogrammas Dissenter darbība.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Citā datorā instalētā programmā ir pievienots tāds motīvs, kura dēļ var tikt izmainīta pārlūkprogrammas Brave darbība.
+<translation id="3225882094369124157">Citā datorā instalētā programmā ir pievienots tāds motīvs, kura dēļ var tikt izmainīta pārlūkprogrammas Dissenter darbība.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Iespējot paplašinājumu</translation>
@@ -842,7 +842,7 @@
 <translation id="3908501907586732282">Iespējot paplašinājumu</translation>
 <translation id="2327492829706409234">Iespējot lietotni</translation>
 <translation id="175772926354468439">Iespējot motīvu</translation>
-<translation id="5267531627648004734">Noņemt no pārlūka Brave</translation>
+<translation id="5267531627648004734">Noņemt no pārlūka Dissenter</translation>
 <translation id="4998873842614926205">Apstiprināt izmaiņas</translation>
 <translation id="5699533844376998780">Paplašinājums <ph name="EXTENSION_NAME"/> ir pievienots.</translation>
 <translation id="1799071797295057738">Paplašinājums “<ph name="EXTENSION_NAME"/>” tika automātiski atspējots.</translation>
@@ -973,7 +973,7 @@
 <translation id="1616298854599875024">Nevar importēt paplašinājumu <ph name="IMPORT_NAME"/>, jo tas nav kopīgots modulis.</translation>
 <translation id="2131077480075264">Nevar instalēt lietotni “<ph name="APP_NAME"/>”, jo to neatļauj “<ph name="IMPORT_NAME"/>”.</translation>
 <translation id="1875387611427697908">To var pievienot tikai no veikala <ph name="CHROME_WEB_STORE"/>.</translation>
-<translation id="7613251087357271190">Lai instalētu lietotni ar manifesta atribūtu kiosk_only, ir jāizmanto Brave OS kioska režīms.</translation>
+<translation id="7613251087357271190">Lai instalētu lietotni ar manifesta atribūtu kiosk_only, ir jāizmanto Dissenter OS kioska režīms.</translation>
 <translation id="3834775135533257713">Neizdevās pievienot lietojumprogrammu “<ph name="TO_INSTALL_APP_NAME"/>”, jo rodas konflikts ar “<ph name="INSTALLED_APP_NAME"/>”.</translation>
 <translation id="144518587530125858">Nevarēja ielādēt motīva ceļu “<ph name="IMAGE_PATH"/>”.</translation>
 <translation id="6567688344210276845">Nevarēja ielādēt lapas darbības ikonu “<ph name="ICON"/>”.</translation>
@@ -1070,9 +1070,9 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="6101226222197207147">Ir pievienota jauna lietotne (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Ir pievienots jauns motīvs (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">Ir pievienots paplašinājums <ph name="EXTENSION_NAME"/></translation>
-<translation id="6637045053447935202">Cita datorā instalēta programma ir izraisījusi tādas lietotnes pievienošanu, kas var ietekmēt pārlūkprogrammas Brave darbību.</translation>
-<translation id="2015014930243978107">Cita datorā instalēta programma ir izraisījusi tāda paplašinājuma pievienošanu, kas var ietekmēt pārlūkprogrammas Brave darbību.</translation>
-<translation id="2060128809251156338">Cita datorā instalēta programma ir izraisījusi tāda motīva pievienošanu, kas var ietekmēt pārlūkprogrammas Brave darbību.</translation>
+<translation id="6637045053447935202">Cita datorā instalēta programma ir izraisījusi tādas lietotnes pievienošanu, kas var ietekmēt pārlūkprogrammas Dissenter darbību.</translation>
+<translation id="2015014930243978107">Cita datorā instalēta programma ir izraisījusi tāda paplašinājuma pievienošanu, kas var ietekmēt pārlūkprogrammas Dissenter darbību.</translation>
+<translation id="2060128809251156338">Cita datorā instalēta programma ir izraisījusi tāda motīva pievienošanu, kas var ietekmēt pārlūkprogrammas Dissenter darbību.</translation>
 <translation id="2470702053775288986">Tika atspējoti neatbalstīti paplašinājumi</translation>
 <translation id="2809586584051668049">un vēl <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Labi, sapratu</translation>
@@ -1139,7 +1139,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="8009225694047762179">Pārvaldīt paroles</translation>
 <translation id="3950820424414687140">Pierakstīties</translation>
 <translation id="5624120631404540903">Pārvaldīt paroles</translation>
-<translation id="9135262959729602463">Pierakstieties pārlūkā Brave, lai jūsu paroles būtu pieejamas visās jūsu ierīcēs.</translation>
+<translation id="9135262959729602463">Pierakstieties pārlūkā Dissenter, lai jūsu paroles būtu pieejamas visās jūsu ierīcēs.</translation>
 <translation id="8919275547519617350">Lai paroles būtu pieejamas visās jūsu ierīcēs, pierakstieties un ieslēdziet sinhronizēšanu.</translation>
 <translation id="8470028084415844044">Lai visas paroles būtu pieejamas visās jūsu ierīcēs, ieslēdziet sinhronizēšanu.</translation>
 <translation id="1609170755653088773">Sinhronizējiet šo paroli savā iPhone ierīcē</translation>
@@ -1262,7 +1262,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="1174073918202301297">Saīsne pievienota</translation>
 <translation id="2926085873880284723">Atjaunot noklusējuma saīsnes</translation>
 <translation id="2942581856830209953">Pielāgot šo lapu</translation>
-<translation id="5801450813341024983">Brave fona attēli</translation>
+<translation id="5801450813341024983">Dissenter fona attēli</translation>
 <translation id="2800760947029405028">Augšupielādēt attēlu</translation>
 <translation id="8342861492835240085">Kolekcijas atlase</translation>
 <translation id="3132996321662585180">Atsvaidzināt katru dienu</translation>
@@ -1305,7 +1305,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="192494336144674234">Atvērt ar</translation>
 <translation id="9053893665344928494">Atcerēties manu izvēli</translation>
 <translation id="5541687815721799001">Izmantot lietotni</translation>
-<translation id="5340857474604400806">Turpināt pārlūkā Brave</translation>
+<translation id="5340857474604400806">Turpināt pārlūkā Dissenter</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Inkognito režīms)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> — <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (ir pieejams atjauninājums)</translation>
@@ -1369,8 +1369,8 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="6686817083349815241">Saglabājiet savu paroli</translation>
 <translation id="8141725884565838206">Pārvaldīt savas paroles</translation>
 <translation id="8275038454117074363">Importēt</translation>
-<translation id="3191314862567596053">Paroļu importēšana pārlūkā Brave</translation>
-<translation id="6368144843345980623">Paroļu eksportēšana no pārlūka Brave</translation>
+<translation id="3191314862567596053">Paroļu importēšana pārlūkā Dissenter</translation>
+<translation id="6368144843345980623">Paroļu eksportēšana no pārlūka Dissenter</translation>
 <translation id="8503813439785031346">Lietotājvārds</translation>
 <translation id="6657585470893396449">Parole</translation>
 <translation id="4722735765955348426">Parole lietotājvārdam <ph name="USERNAME"/></translation>
@@ -1399,7 +1399,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="7052237160939977163">Sūtīt veiktspējas izsekošanas datus</translation>
 <translation id="5526928694260255286">Pievienot <ph name="BEGIN_LINK"/>Bluetooth žurnālus<ph name="END_LINK"/> (tikai Gab AI darbiniekiem)</translation>
 <translation id="3047644958362961983">Šī informācija palīdz mums labāk izprast jūsu problēmu ar Asistentu. Tā tiek glabāta līdz 90 dienām, un piekļuve ir pieejama tikai attiecīgajām inženieru un atsauksmju komandām.</translation>
-<translation id="1705635099498185261">Lai precīzāk noteiktu problēmas ar Bluetooth savienojumu, Gab AI darbinieki atsauksmju ziņojumam var pievienot papildu Bluetooth žurnālus. Ja šī opcija ir atzīmēta, ziņojumā būs iekļauti pašreizējās sesijas btsnoop un HCI žurnāli, kuros maksimāli noņemta personu identificējoša informācija. Šiem žurnāliem varēs piekļūt tikai Brave OS produktu grupas pārvaldnieki ierīcē Listnr. Žurnāli tiks dzēsti pēc 90 dienām.</translation>
+<translation id="1705635099498185261">Lai precīzāk noteiktu problēmas ar Bluetooth savienojumu, Gab AI darbinieki atsauksmju ziņojumam var pievienot papildu Bluetooth žurnālus. Ja šī opcija ir atzīmēta, ziņojumā būs iekļauti pašreizējās sesijas btsnoop un HCI žurnāli, kuros maksimāli noņemta personu identificējoša informācija. Šiem žurnāliem varēs piekļūt tikai Dissenter OS produktu grupas pārvaldnieki ierīcē Listnr. Žurnāli tiks dzēsti pēc 90 dienām.</translation>
 <translation id="4206323443866416204">Atsauksmju ziņojums</translation>
 <translation id="3681311097828166361">Paldies par atsauksmēm! Pašlaik esat bezsaistē, un jūsu ziņojums tiks nosūtīts vēlāk.</translation>
 <translation id="8713570323158206935">Sūtīt <ph name="BEGIN_LINK1"/>sistēmas informāciju<ph name="END_LINK1"/></translation>
@@ -1418,8 +1418,8 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="1016566241875885511">Papildu informācija (neobligāti)</translation>
 <translation id="8026334261755873520">Notīrīt pārlūkošanas datus</translation>
 <translation id="7409836189476010449">Aktivizēt Flash atskaņotāju</translation>
-<translation id="4718442817388594217">Atlasītie dati ir noņemti no pārlūka Brave un sinhronizētajām ierīcēm. Jūsu Gab AI kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt cita veida pārlūkošanas vēstures dati, piemēram, meklēšanas vaicājumi un darbības citos Gab AI pakalpojumos.</translation>
-<translation id="7814200940910057384">Brave dati tika notīrīti</translation>
+<translation id="4718442817388594217">Atlasītie dati ir noņemti no pārlūka Dissenter un sinhronizētajām ierīcēm. Jūsu Gab AI kontam vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> var būt cita veida pārlūkošanas vēstures dati, piemēram, meklēšanas vaicājumi un darbības citos Gab AI pakalpojumos.</translation>
+<translation id="7814200940910057384">Dissenter dati tika notīrīti</translation>
 <translation id="7346909386216857016">Labi, sapratu</translation>
 <translation id="8493236660459102203">Mikrofons:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -1427,7 +1427,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="4172051516777682613">Vienmēr rādīt</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Uznirstošais logs ir bloķēts}zero{# uznirstošie logi ir bloķēti}one{# uznirstošais logs ir bloķēts}other{# uznirstošie logi ir bloķēti}}</translation>
 <translation id="3759371141211657149">Pārvaldīt apdarinātāju iestatījumus...</translation>
-<translation id="4156865452842056672">(Brave kļūdu lapas)</translation>
+<translation id="4156865452842056672">(Dissenter kļūdu lapas)</translation>
 <translation id="1734824808160898225">Pārlūka <ph name="PRODUCT_NAME"/> automātiskā atjaunināšana, iespējams, nebūs pieejama.</translation>
 <translation id="8590375307970699841">Iestatīt automātiskos atjauninājumus</translation>
 <translation id="8926389886865778422">Nejautāt atkārtoti</translation>
@@ -1521,10 +1521,10 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="8658645149275195032">Lietotne <ph name="APP_NAME"/> koplieto jūsu ekrānu un audio ar cilni <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491">Lietotne <ph name="APP_NAME"/> koplieto logu.</translation>
 <translation id="8944964446326379280">Lietotne <ph name="APP_NAME"/> koplieto logu ar cilni <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555">Lietotne <ph name="APP_NAME"/> koplieto Brave cilni.</translation>
-<translation id="5727851901710884484">Lietotne <ph name="APP_NAME"/> koplieto Brave cilni ar cilni <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338">Lietotne <ph name="APP_NAME"/> koplieto Brave cilni un audio.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> koplieto Brave cilni un audio ar cilni <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555">Lietotne <ph name="APP_NAME"/> koplieto Dissenter cilni.</translation>
+<translation id="5727851901710884484">Lietotne <ph name="APP_NAME"/> koplieto Dissenter cilni ar cilni <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338">Lietotne <ph name="APP_NAME"/> koplieto Dissenter cilni un audio.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> koplieto Dissenter cilni un audio ar cilni <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Mainīt avotu</translation>
 <translation id="7792388396321542707">Pārtraukt kopīgošanu</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> vēlas pastāvīgu piekļuvi sertifikātam, lai varētu veikt autentificēšanu jūsu vārdā.</translation>
@@ -1546,7 +1546,7 @@ Glabājiet atslēgas failu drošā vietā. Tas būs vajadzīgs, lai izveidotu ja
 <translation id="5972826969634861500">Sākt <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Palīdziet mūsu inženieriem izpētīt un novērst šo avāriju. Ja varat, norādiet konkrētas darbības (jo detalizētāk, jo labāk).</translation>
 <translation id="945522503751344254">Sūtīt atsauksmes</translation>
-<translation id="5418694430960033386">Vai nu Brave trūkst atmiņas resursu, vai arī tīmekļa lapas darbība tika pārtraukta kāda cita iemesla dēļ. Lai turpinātu, atkārtoti ielādējiet šo lapu vai atveriet citu.</translation>
+<translation id="5418694430960033386">Vai nu Dissenter trūkst atmiņas resursu, vai arī tīmekļa lapas darbība tika pārtraukta kāda cita iemesla dēļ. Lai turpinātu, atkārtoti ielādējiet šo lapu vai atveriet citu.</translation>
 <translation id="3065041951436100775">Atsauksme par cilnes darbības pārtraukšanu.</translation>
 <translation id="3941565636838060942">Lai paslēptu piekļuvi šai programmai, tā ir jāatinstalē, izmantojot rīku
 <ph name="CONTROL_PANEL_APPLET_NAME"/>, kas ir pieejams vadības panelī.
@@ -1566,17 +1566,17 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4620809267248568679">Šis iestatījums tiek kontrolēts, izmantojot paplašinājumu.</translation>
 <translation id="4846680374085650406">Jūs ievērojat administratora ieteikumus attiecībā uz šo iestatījumu.</translation>
 <translation id="1223853788495130632">Jūsu administrators šim iestatījumam iesaka konkrētu vērtību.</translation>
-<translation id="8839398440242019256">Nav iegūts no Brave interneta veikala.</translation>
+<translation id="8839398440242019256">Nav iegūts no Dissenter interneta veikala.</translation>
 <translation id="5337771866151525739">Instalēts, izmantojot trešās puses lietotni.</translation>
 <translation id="4538792345715658285">Instalēts atbilstoši uzņēmuma politikai.</translation>
 <translation id="4359408040881008151">Paplašinājums tika instalēts atkarīga(-u) paplašinājuma(-u) dēļ.</translation>
 <translation id="4980805016576257426">Šis paplašinājums satur ļaunprātīgu programmatūru.</translation>
 <translation id="5522156646677899028">Šis paplašinājums nopietni apdraud drošību.</translation>
-<translation id="6945695820322143954">Šis paplašinājums pārkāpj Brave interneta veikala politiku.</translation>
-<translation id="177808131755847449">Atspējoja pārlūks Brave. Šis paplašinājums, iespējams, nav drošs.</translation>
+<translation id="6945695820322143954">Šis paplašinājums pārkāpj Dissenter interneta veikala politiku.</translation>
+<translation id="177808131755847449">Atspējoja pārlūks Dissenter. Šis paplašinājums, iespējams, nav drošs.</translation>
 <translation id="1434696352799406980">Tādējādi tiks atiestatīta jūsu sākumlapa, jaunas cilnes lapa, meklētājprogramma un piespraustās cilnes. Turklāt tiks atspējoti visi paplašinājumi, kā arī tiks notīrīti pagaidu dati, piemēram, sīkfaili. Netiks notīrītas jūsu grāmatzīmes, vēsture un saglabātās paroles.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atiestatīt jūsu iestatījumus.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atjaunot jūsu sākotnējos Brave noklusējuma iestatījumus. Tādējādi tiks atiestatīta sākumlapa, jaunas cilnes lapa un meklētājprogramma, kā arī tiks atspējoti paplašinājumi un tiks atspraustas visas cilnes. Tiks notīrīti citi īslaicīgi glabātie dati un kešatmiņā saglabātie dati, piemēram, sīkfaili, satura un vietņu dati.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> vēlas atjaunot jūsu sākotnējos Dissenter noklusējuma iestatījumus. Tādējādi tiks atiestatīta sākumlapa, jaunas cilnes lapa un meklētājprogramma, kā arī tiks atspējoti paplašinājumi un tiks atspraustas visas cilnes. Tiks notīrīti citi īslaicīgi glabātie dati un kešatmiņā saglabātie dati, piemēram, sīkfaili, satura un vietņu dati.</translation>
 <translation id="7581462281756524039">Tīrīšanas rīks</translation>
 <translation id="1233721473400465416">Lokalizācija</translation>
 <translation id="2907619724991574506">Startēšanas vietrāži URL</translation>
@@ -1706,7 +1706,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4736292055110123391">Sinhronizējiet grāmatzīmes, paroles, vēsturi un citu saturu visās savās ierīcēs</translation>
 <translation id="5736731321935944068">Gab AI var izmantot jūsu vēsturi, lai personalizētu Meklēšanu, reklāmas un citus Gab AI pakalpojumus.</translation>
 <translation id="4201546031411513170">Jūs jebkurā laikā iestatījumos varat izvēlēties, ko sinhronizēt.</translation>
-<translation id="3149880132460839085">Brave sinhronizācija</translation>
+<translation id="3149880132460839085">Dissenter sinhronizācija</translation>
 <translation id="3796902758602917951">Jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks sinhronizēti ar jūsu Gab AI kontu, lai jūs varētu tos izmantot visās savās ierīcēs.</translation>
 <translation id="3111958038206230539">Gab AI pakalpojumu personalizēšana</translation>
 <translation id="295992419959320001">Gab AI var izmantot jūsu pārlūkošanas vēsturi, lai personalizētu Meklēšanu, reklāmas un citus Gab AI pakalpojumus.</translation>
@@ -1747,7 +1747,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="6664774537677393800">Atverot jūsu profilu, radās kļūda. Lūdzu, izrakstieties un vēlreiz pierakstieties.</translation>
 <translation id="1794791083288629568">Sūtīt atsauksmes, lai palīdzētu novērst šo problēmu.</translation>
 <translation id="8234795456569844941">Palīdziet mūsu inženieriem novērst šo problēmu. Norādiet, kas notika tieši pirms tam, kad tika parādīts profila kļūdas ziņojums.</translation>
-<translation id="6500340165622970282">Nevar palaist pārlūku Brave, jo radās kļūda, atverot profilu. Mēģiniet restartēt Brave.</translation>
+<translation id="6500340165622970282">Nevar palaist pārlūku Dissenter, jo radās kļūda, atverot profilu. Mēģiniet restartēt Dissenter.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> nevar darboties kā sakne.</translation>
 <translation id="2292848386125228270">Startējiet pārlūku <ph name="PRODUCT_NAME"/> kā parasts lietotājs. Ja vēlaties to palaist izstrādei kā sakni, veiciet atkārtotu palaišanu, izmantojot atzīmi --no-sandbox.</translation>
 <translation id="7547317915858803630">Brīdinājums: <ph name="PRODUCT_NAME"/> iestatījumi ir saglabāti tīkla diskā. Tādējādi var tikt palēnināta darbība, notikt avārijas vai tikt zaudēti dati.</translation>
@@ -2156,8 +2156,8 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4720113199587244118">Pievienot ierīces</translation>
 <translation id="2776441542064982094">Šķiet, ka reģistrēšanai tīklā nav pieejama neviena ierīce. Ja jūsu ierīce ir ieslēgta un ir izveidots savienojums ar internetu, mēģiniet reģistrēt šo ierīci, izmantojot tās lietošanas rokasgrāmatā sniegtos norādījumus.</translation>
 <translation id="1007408791287232274">Nevarēja ielādēt ierīces.</translation>
-<translation id="3886420006370338208">Lai skatītu savas ierīces, jums ir jāpierakstās pārlūkā Brave.</translation>
-<translation id="6711610692002680394">Lai reģistrētu jaunas ierīces, jums ir jāpierakstās pārlūkā Brave.</translation>
+<translation id="3886420006370338208">Lai skatītu savas ierīces, jums ir jāpierakstās pārlūkā Dissenter.</translation>
+<translation id="6711610692002680394">Lai reģistrētu jaunas ierīces, jums ir jāpierakstās pārlūkā Dissenter.</translation>
 <translation id="8931394284949551895">Jaunas ierīces</translation>
 <translation id="3752673729237782832">Manas ierīces</translation>
 <translation id="1721937473331968728">Varat pievienot pakalpojumam <ph name="CLOUD_PRINT_NAME"/> klasiskos printerus, ar kuriem jūsu datoram ir izveidots savienojums.</translation>
@@ -2222,7 +2222,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="4540437243849625078">Šī vietne kopīgos informāciju ar lietotni, kas nav inkognito režīmā.</translation>
 <translation id="1227836882233136433">Vai iziet no inkognito režīma?</translation>
 <translation id="662080504995468778">Palikt</translation>
-<translation id="2593289874938379417">Brave nevar piekļūt pieprasītajam resursam.</translation>
+<translation id="2593289874938379417">Dissenter nevar piekļūt pieprasītajam resursam.</translation>
 <translation id="760197030861754408">Lai izveidotu savienojumu, pārejiet uz šo lapu: <ph name="LANDING_PAGE"/>.</translation>
 <translation id="3648348069317717750">Konstatēta ierīce <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="5042282098504489593">Atvērt iestatījumus, lai savienotu <ph name="USB_DEVICE_NAME"/> ar Linux</translation>
@@ -2274,16 +2274,16 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="6777817260680419853">Novirzīšana bloķēta</translation>
 <translation id="694592694773692225">Šajā lapā ir bloķēta novirzīšana.</translation>
 <translation id="8149707863742670433">Gab AI izstrādātā tīmekļa pārlūkprogramma tieši jums</translation>
-<translation id="3541561136058491590">Pierakstieties pārlūkprogrammā Brave, izmantojot savu Gab AI kontu, lai iegūtu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās ierīcēs.</translation>
-<translation id="8945142681652245463">Ātra pārlūkošana ar Gab AI Brave</translation>
-<translation id="2618024864038703735">Droša pārlūkošana ar Gab AI Brave</translation>
-<translation id="8142180567942285208">Vieda pārlūkošana ar Brave</translation>
+<translation id="3541561136058491590">Pierakstieties pārlūkprogrammā Dissenter, izmantojot savu Gab AI kontu, lai iegūtu savas grāmatzīmes, vēsturi, paroles un citus iestatījumus visās ierīcēs.</translation>
+<translation id="8945142681652245463">Ātra pārlūkošana ar Gab AI Dissenter</translation>
+<translation id="2618024864038703735">Droša pārlūkošana ar Gab AI Dissenter</translation>
+<translation id="8142180567942285208">Vieda pārlūkošana ar Dissenter</translation>
 <translation id="8862003515646449717">Pāreja uz ātru pārlūku</translation>
 <translation id="8438328416656800239">Pāreja uz viedu pārlūku</translation>
 <translation id="491691592645955587">Pāreja uz drošu pārlūku</translation>
 <translation id="683373380308365518">Pāreja uz viedu un drošu pārlūku</translation>
-<translation id="989239400026154074">Gab AI iesaka pārlūku Brave</translation>
-<translation id="6676231621615806698">Atvērt Brave</translation>
+<translation id="989239400026154074">Gab AI iesaka pārlūku Dissenter</translation>
+<translation id="6676231621615806698">Atvērt Dissenter</translation>
 <translation id="7494065396242762445">Atvērt Windows iestatījumus</translation>
 <translation id="2137068468602026500">Zem vienuma Tīmekļa pārlūks noklikšķiniet uz <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">Pārslēgt jebkurā gadījumā</translation>
@@ -2292,7 +2292,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="7537601449003285327">Piespraust pie uzdevumjoslas</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> izmanto jūsu atrašanās vietu, lai piedāvātu vietējo saturu. Varat to mainīt šeit: <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Jūsu lejupielādes ir redzamas šeit.</translation>
-<translation id="4782664866169793230">Pārlūkprogramma Brave tiek kontrolēta, izmantojot automatizētas pārbaudes programmatūru.</translation>
+<translation id="4782664866169793230">Pārlūkprogramma Dissenter tiek kontrolēta, izmantojot automatizētas pārbaudes programmatūru.</translation>
 <translation id="6721678857435001674">Skatīt jūsu drošības atslēgas ražotāju un modeli</translation>
 <translation id="1673137583248014546">Vietne <ph name="URL"/> vēlas skatīt jūsu drošības atslēgas ražotāju un modeli.</translation>
 <translation id="6010869025736512584">Notiek piekļūšana video ievadei</translation>
@@ -2377,7 +2377,7 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="3984431586879874039">Vai atļaut šai vietnei skatīt jūsu drošības atslēgu?</translation>
 <translation id="8948939328578167195">Vietne <ph name="WEBSITE"/> vēlas skatīt jūsu drošības atslēgas ražotāju un modeli.</translation>
 <translation id="7618452966706304788">Vai vēlaties izmantot Touch ID ar lietotni <ph name="APP_NAME"/> inkognito režīmā?</translation>
-<translation id="3098826269712097986">Pierakstīšanās dati tiks glabāti pārlūkprogrammā Brave pēc tam, kad iziesiet no inkognito režīma. Tādējādi varēsiet vēlāk atkārtoti izmantot Touch ID ar šo vietni.</translation>
+<translation id="3098826269712097986">Pierakstīšanās dati tiks glabāti pārlūkprogrammā Dissenter pēc tam, kad iziesiet no inkognito režīma. Tādējādi varēsiet vēlāk atkārtoti izmantot Touch ID ar šo vietni.</translation>
 <translation id="2172784515318616985">Turpināt</translation>
 <translation id="5186185447130319458">Inkognito</translation>
 <translation id="7643842463591647490">{0,plural, =1{# atvērts logs}zero{# atvērti logi}one{# atvērts logs}other{# atvērti logi}}</translation>
@@ -2518,8 +2518,8 @@ Vai vēlaties palaist rīku <ph name="CONTROL_PANEL_APPLET_NAME"/>?</translation
 <translation id="1706586824377653884">Pievienoja administrators</translation>
 <translation id="6467304607960172345">Pilnekrāna videoklipu optimizēšana</translation>
 <translation id="1597210476603167523">Iespējot apraidi mākonī izvietotos pakalpojumos, piemēram, Gab AI Hangouts.</translation>
-<translation id="3653941710869291743">Iepazīstiet Cast iespējas pārlūkā Brave!</translation>
-<translation id="2841638550927239436">Varat izmantot šo funkciju, lai rādītu Brave saturu televizorā vai citās ierīcēs.</translation>
+<translation id="3653941710869291743">Iepazīstiet Cast iespējas pārlūkā Dissenter!</translation>
+<translation id="2841638550927239436">Varat izmantot šo funkciju, lai rādītu Dissenter saturu televizorā vai citās ierīcēs.</translation>
 <translation id="5234764350956374838">Noraidīt</translation>
 <translation id="4579581181964204535">Nevar apraidīt <ph name="HOST_NAME"/>.</translation>
 <translation id="8757090071857742562">Nevar apraidīt darbvirsmu. Pārbaudiet, vai esat uzvednē apstiprinājis, ka vēlaties sākt ekrāna kopīgošanu.</translation>
@@ -2737,7 +2737,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="672213144943476270">Pirms pārlūkošanas viesa režīmā, lūdzu, atbloķējiet savu profilu.</translation>
 <translation id="3478685642445675458">Pirms kādas personas noņemšanas, lūdzu, atbloķējiet savu profilu.</translation>
 <translation id="4648499713050786492">Pirms kādas personas pievienošanas, lūdzu, atbloķējiet savu profilu.</translation>
-<translation id="8978225823042133615">Lai izmantotu Brave, lūdzu, pierakstieties.</translation>
+<translation id="8978225823042133615">Lai izmantotu Dissenter, lūdzu, pierakstieties.</translation>
 <translation id="4893336867552636863">Veicot šo darbību, no šīs ierīces tiks neatgriezeniski izdzēsti jūsu pārlūkošanas dati.</translation>
 <translation id="2496180316473517155">Pārlūkošanas vēsture</translation>
 <translation id="6865313869410766144">Automātiskās aizpildes veidlapas dati</translation>
@@ -2760,7 +2760,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2972557485845626008">Programmaparatūra</translation>
 <translation id="4297219207642690536">Restartēt un atiestatīt</translation>
 <translation id="4716483597559580346">Powerwash, lai uzlabotu drošību</translation>
-<translation id="4089922565956168950">Šis jauninājums atiestata jūsu Bravebook datoru un noņem pašreizējos lietotāju datus.</translation>
+<translation id="4089922565956168950">Šis jauninājums atiestata jūsu Dissenterbook datoru un noņem pašreizējos lietotāju datus.</translation>
 <translation id="5184662919967270437">Notiek ierīces atjaunināšana</translation>
 <translation id="6644846457769259194">Notiek ierīces atjaunināšana (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Atjaunināšana ir gandrīz pabeigta. Restartējiet ierīci, lai pabeigtu atjaunināšanu.</translation>
@@ -2783,13 +2783,13 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5600706100022181951">Atjauninājuma lejupielādei tiks izmantoti <ph name="UPDATE_SIZE_MB"/> MB mobilo datu. Vai vēlaties turpināt?</translation>
 <translation id="5402815541704507626">Atjauninājuma lejupielāde, izmantojot mobilo datu savienojumu</translation>
 <translation id="5085162214018721575">Notiek pārbaude, vai ir pieejami atjauninājumi.</translation>
-<translation id="4570609078116869893">Automātiski atjaunināt pārlūku Brave visiem lietotājiem</translation>
+<translation id="4570609078116869893">Automātiski atjaunināt pārlūku Dissenter visiem lietotājiem</translation>
 <translation id="7102687220333134671">Automātiskie atjauninājumi ir ieslēgti.</translation>
 <translation id="6981982820502123353">Pieejamība</translation>
-<translation id="5840822070878669614">Atveriet Brave interneta veikalu</translation>
+<translation id="5840822070878669614">Atveriet Dissenter interneta veikalu</translation>
 <translation id="6073903501322152803">Pievienot pieejamības funkcijas</translation>
 <translation id="7988355189918024273">Iespējot pieejamības funkcijas</translation>
-<translation id="5499063270485366718">Ja attēlam nav vērtīga apraksta, pārlūks Brave mēģinās jums tādu nodrošināt. Lai izveidotu aprakstus, attēli tiek nosūtīti uzņēmumam Gab AI.</translation>
+<translation id="5499063270485366718">Ja attēlam nav vērtīga apraksta, pārlūks Dissenter mēģinās jums tādu nodrošināt. Lai izveidotu aprakstus, attēli tiek nosūtīti uzņēmumam Gab AI.</translation>
 <translation id="2558896001721082624">Vienmēr rādīt piekļūstamības opcijas sistēmas izvēlnē</translation>
 <translation id="7280649757394340890">Balss iestatījumi teksta pārvēršanai runā</translation>
 <translation id="6635956300022133031">Atlasiet un pielāgojiet balsis teksta pārvēršanai runā</translation>
@@ -2798,8 +2798,8 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4209092469652827314">Liels</translation>
 <translation id="499165176004408815">Izmantot augsta kontrasta režīmu</translation>
 <translation id="142758023928848008">Iespējot taustiņu ķēdi (lai izmantotu īsinājumtaustiņus, secīgi ievadot tos)</translation>
-<translation id="5914872514449971753">Iespējot BraveVox (balss komentārus)</translation>
-<translation id="7099511550603534982">Atvērt BraveVox iestatījumus</translation>
+<translation id="5914872514449971753">Iespējot DissenterVox (balss komentārus)</translation>
+<translation id="7099511550603534982">Atvērt DissenterVox iestatījumus</translation>
 <translation id="8547013269961688403">Iespējot pilnekrāna lupu</translation>
 <translation id="8743390665131937741">Pilnekrāna tālummaiņas līmenis:</translation>
 <translation id="7334274148831027933">Iespējot dokotu lupu</translation>
@@ -2881,10 +2881,10 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5270041685309222649">Kiosk Next Shell (Dev)</translation>
 <translation id="6409191325648119263">Kiosk Next Shell</translation>
 <translation id="5940519603482193359">Iespējo Kiosk Next Shell nākamajai pieteikšanās reizei.</translation>
-<translation id="407536568752283520">Atspējojiet Kiosk Next Shell un atgriezieties parastajā Brave OS vidē.</translation>
+<translation id="407536568752283520">Atspējojiet Kiosk Next Shell un atgriezieties parastajā Dissenter OS vidē.</translation>
 <translation id="6588712220520211269">Izslēdziet Kiosk Next Shell</translation>
 <translation id="2446993819525566591">Ieslēdziet Kiosk Next Shell</translation>
-<translation id="1960737068939025292">Šādi tiks ieslēgta iespēja Kiosk Next Shell, Jūs tiksiet izrakstīts(-ta) un atgriezīsieties parastajā Brave OS vidē.</translation>
+<translation id="1960737068939025292">Šādi tiks ieslēgta iespēja Kiosk Next Shell, Jūs tiksiet izrakstīts(-ta) un atgriezīsieties parastajā Dissenter OS vidē.</translation>
 <translation id="7316400597244914467">Šādi Jūs tiksiet izrakstīts(-ta), un tiks ieslēgta iespēja Kiosk Next Shell.</translation>
 <translation id="1067291318998134776">Linux (Beta versija)</translation>
 <translation id="7911118814695487383">Linux</translation>
@@ -2909,11 +2909,11 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7508054832109420082">Atļaut piekļuvi printeriem</translation>
 <translation id="2295473777859797944">Gab AI Play veikals</translation>
 <translation id="572155275267014074">Android iestatījumi</translation>
-<translation id="4767209642168463274">Instalējiet lietotnes un spēles no pakalpojuma Gab AI Play savā Bravebook datorā. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Uzziniet vairāk&lt;/a&gt;.</translation>
+<translation id="4767209642168463274">Instalējiet lietotnes un spēles no pakalpojuma Gab AI Play savā Dissenterbook datorā. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Uzziniet vairāk&lt;/a&gt;.</translation>
 <translation id="2966937470348689686">Pārvaldīt Android preferences</translation>
 <translation id="4074367893748481070">Noņemt Gab AI Play veikalu</translation>
 <translation id="2792290659606763004">Vai noņemt Android lietotnes?</translation>
-<translation id="4607779957365311067">Pakalpojumā Gab AI Play lejupielādētās lietotnes tiks dzēstas no šī Bravebook datora.
+<translation id="4607779957365311067">Pakalpojumā Gab AI Play lejupielādētās lietotnes tiks dzēstas no šī Dissenterbook datora.
       <ph name="LINE_BREAKS1"/>
       Jūsu iegādātais saturs, piemēram, filmas, TV pārraides, mūzika, grāmatas vai citi lietotnē veiktie pirkumi arī var tikt izdzēsti.
       <ph name="LINE_BREAKS2"/>
@@ -2941,7 +2941,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1670399744444387456">Pamata</translation>
 <translation id="1763808908432309942">Tiks atvērta jaunā cilnē</translation>
 <translation id="6248988683584659830">Meklēt iestatījumus</translation>
-<translation id="883304095704384301">Ja nevarat atrast meklēto saturu, pārejiet uz <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Brave palīdzību<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">Ja nevarat atrast meklēto saturu, pārejiet uz <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Dissenter palīdzību<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">Iestatījumi — <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Izsl.</translation>
 <translation id="5916664084637901428">Iesl.</translation>
@@ -3143,10 +3143,10 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7380768571499464492">Atjaunināts <ph name="PRINTER_NAME"/></translation>
 <translation id="9057119625587205566">Tuvumā nav printeru</translation>
 <translation id="3213187967168344806">Nevar pievienot printeri. Restartējiet datoru un mēģiniet vēlreiz.</translation>
-<translation id="4052689580269971502">Nevar izveidot savienojumu ar printeri. Pārbaudiet, vai printeris ir ieslēgts un vai printerim ir izveidots savienojums ar Bravebook datoru Wi-Fi tīklā vai izmantojot USB savienojumu.</translation>
+<translation id="4052689580269971502">Nevar izveidot savienojumu ar printeri. Pārbaudiet, vai printeris ir ieslēgts un vai printerim ir izveidots savienojums ar Dissenterbook datoru Wi-Fi tīklā vai izmantojot USB savienojumu.</translation>
 <translation id="7099337801055912064">Nevar ielādēt lielu PPD failu. Maksimālais lielums ir 250 kB.</translation>
 <translation id="4310139701823742692">Nepareizs faila formāts. Pārbaudiet PPD failu un mēģiniet vēlreiz.</translation>
-<translation id="6580983683519551561">Nevar atrast PPD failu. Pārbaudiet, vai jūsu Bravebook dators ir tiešsaistē, un mēģiniet vēlreiz.</translation>
+<translation id="6580983683519551561">Nevar atrast PPD failu. Pārbaudiet, vai jūsu Dissenterbook dators ir tiešsaistē, un mēģiniet vēlreiz.</translation>
 <translation id="4694024090038830733">Printera konfigurāciju pārvalda administrators.</translation>
 <translation id="5816434091619127343">Ja tiktu veiktas pieprasītās printera izmaiņas, printeri nevarētu lietot.</translation>
 <translation id="6504611359718185067">Lai pievienotu printeri, izveidojiet savienojumu ar internetu.</translation>
@@ -3190,7 +3190,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3571734092741541777">Iestatīt</translation>
 <translation id="3336664756920573711">Atbloķējiet ierīci <ph name="DEVICE_TYPE"/>, izmantojot savu Android tālruni.</translation>
 <translation id="1164674268730883318">Vai izslēgt Smart Lock ierīcei <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Ja izslēgsiet sistēmu Smart Lock ierīcei <ph name="DEVICE_TYPE"/>, nevarēsiet atbloķēt savas Brave ierīces, izmantojot tālruni. Jums būs jāievada parole.</translation>
+<translation id="2739030071582769583">Ja izslēgsiet sistēmu Smart Lock ierīcei <ph name="DEVICE_TYPE"/>, nevarēsiet atbloķēt savas Dissenter ierīces, izmantojot tālruni. Jums būs jāievada parole.</translation>
 <translation id="4737715515457435632">Lūdzu, izveidojiet savienojumu ar tīklu</translation>
 <translation id="5425722269016440406">Lai izslēgtu Smart Lock, jums ir jābūt tiešsaistē, jo šis iestatījums ir sinhronizēts ar jūsu tālruni un citām ierīcēm. Lūdzu, vispirms izveidojiet savienojumu ar tīklu.</translation>
 <translation id="8885197664446363138">Smart Lock nav pieejams</translation>
@@ -3460,12 +3460,12 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2468205691404969808">Izmanto sīkfailus, lai iegaumētu jūsu preferences, pat ja neapmeklējāt šīs lapas</translation>
 <translation id="3181954750937456830">Droša pārlūkošana (aizsargā jūs un ierīci pret bīstamām vietnēm)</translation>
 <translation id="7315322926489145388">Nosūta Gab AI serveriem dažu apmeklēto lapu vietrāžus URL, ja jūsu drošība ir apdraudēta</translation>
-<translation id="4991384657077828949">Palīdzēt uzlabot Brave drošību</translation>
-<translation id="1943176487615318915">Lai noteiktu bīstamas lietotnes un vietnes, pārlūkā Brave dažu jūsu apmeklēto lapu saturs, ierobežots sistēmas informācijas apjoms un daļa lapu satura tiek nosūtīta uzņēmumam Gab AI</translation>
-<translation id="2875273286298348523">Teksts, ko rakstāt pārlūkprogrammā Brave, tiek sūtīts Gab AI serveriem</translation>
+<translation id="4991384657077828949">Palīdzēt uzlabot Dissenter drošību</translation>
+<translation id="1943176487615318915">Lai noteiktu bīstamas lietotnes un vietnes, pārlūkā Dissenter dažu jūsu apmeklēto lapu saturs, ierobežots sistēmas informācijas apjoms un daļa lapu satura tiek nosūtīta uzņēmumam Gab AI</translation>
+<translation id="2875273286298348523">Teksts, ko rakstāt pārlūkprogrammā Dissenter, tiek sūtīts Gab AI serveriem</translation>
 <translation id="9079153198295609735">Automātiski sūtīt lietošanas statistiku un avāriju pārskatus uzņēmumam Gab AI</translation>
 <translation id="5941220456342415404">Automātiski sūtīt diagnostikas un lietojuma datus Gab AI serveriem</translation>
-<translation id="918192811481327695">Palīdzēt uzlabot Brave funkcijas un veiktspēju</translation>
+<translation id="918192811481327695">Palīdzēt uzlabot Dissenter funkcijas un veiktspēju</translation>
 <translation id="9063160602596686558">Automātiski sūtīt lietojuma statistiku un avāriju pārskatus Gab AI serveriem</translation>
 <translation id="8438566539970814960">Uzlabot meklēšanu un pārlūkošanu</translation>
 <translation id="284843628681142937">Nosūta Gab AI serveriem apmeklēto lapu vietrāžus URL</translation>
@@ -3486,7 +3486,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="8632933437936028548">Iestatījumu atiestatīšana</translation>
 <translation id="5293170712604732402">Atjaunot iestatījumus uz sākotnējiem noklusējuma iestatījumiem</translation>
 <translation id="892706138619340876">Daļa iestatījumu tika atiestatīti</translation>
-<translation id="2334029754052191847">Pārlūkā Brave tika konstatēts, ka daži jūsu iestatījumi tika bojāti citā programmā, tāpēc šie iestatījumi tika atiestatīti uz sākotnējiem noklusējuma iestatījumiem.</translation>
+<translation id="2334029754052191847">Pārlūkā Dissenter tika konstatēts, ka daži jūsu iestatījumi tika bojāti citā programmā, tāpēc šie iestatījumi tika atiestatīti uz sākotnējiem noklusējuma iestatījumiem.</translation>
 <translation id="4582563038311694664">Atiestatīt visus iestatījumus</translation>
 <translation id="4146785383423576110">Atiestatiet un tīriet</translation>
 <translation id="2603115962224169880">Tīriet datoru</translation>
@@ -3546,7 +3546,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5340638867532133571">Atļaut vietnēm instalēt maksājumu apdarinātājus (ieteicams)</translation>
 <translation id="763632859238619983">Neatļaut nevienai vietnei instalēt maksājumu apdarinātājus</translation>
 <translation id="8270242299912238708">PDF dokumenti</translation>
-<translation id="539658326146969381">Lejupielādēt PDF failus, nevis automātiski atvērt tos pārlūkā Brave</translation>
+<translation id="539658326146969381">Lejupielādēt PDF failus, nevis automātiski atvērt tos pārlūkā Dissenter</translation>
 <translation id="4434045419905280838">Uznirstošie elem. un novirzīšana</translation>
 <translation id="6612358246767739896">Aizsargāts saturs</translation>
 <translation id="4252852543720145436">Aizsargāta satura indentifikatori</translation>
@@ -3583,7 +3583,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7661259717474717992">Atļaut vietnēm saglabāt un nolasīt sīkfailu datus</translation>
 <translation id="2913331724188855103">Atļaut vietnēm saglabāt un lasīt sīkfailu datus (ieteicams)</translation>
 <translation id="5908769186679515905">Bloķēt Flash aktivizēšanu vietnēs</translation>
-<translation id="6096007141921397775">Flash iestatījumi tiks saglabāti, līdz aizvērsiet Brave.</translation>
+<translation id="6096007141921397775">Flash iestatījumi tiks saglabāti, līdz aizvērsiet Dissenter.</translation>
 <translation id="8074127646604999664">Atļaut nesen aizvērtajām vietnēm pabeigt datu sūtīšanu un saņemšanu</translation>
 <translation id="7062222374113411376">Atļaut nesen aizvērtajām vietnēm pabeigt datu sūtīšanu un saņemšanu</translation>
 <translation id="5068918910148307423">Neļaut nesen aizvērtajām vietnēm pabeigt datu sūtīšanu un saņemšanu</translation>
@@ -3645,7 +3645,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="4750220700975225">Pašreizējā inkognito sesija (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Nevienā vietnē nav veikta tālummaiņa.</translation>
 <translation id="3566721612727112615">Nav pievienota neviena vietne</translation>
-<translation id="8098574385249290065">Atļaut pārlūkam Brave izvēlēties, kad vietnēs var atskaņot skaņu (ieteicams)</translation>
+<translation id="8098574385249290065">Atļaut pārlūkam Dissenter izvēlēties, kad vietnēs var atskaņot skaņu (ieteicams)</translation>
 <translation id="4354344420232759511">Šeit tiks rādītas jūsu apmeklētās vietnes.</translation>
 <translation id="3757733214359997190">Neviena vietne netika atrasta</translation>
 <translation id="5763751966069581670">Nav atrasta neviena USB ierīce</translation>
@@ -3654,7 +3654,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7366415735885268578">Vietnes pievienošana</translation>
 <translation id="5052499409147950210">Vietnes rediģēšana</translation>
 <translation id="2870560284913253234">Vietne</translation>
-<translation id="4610862967073369855">Ļauj lietotnei Android ziņojumi pārraidīt īsziņas no jūsu tālruņa uz Bravebook datoru</translation>
+<translation id="4610862967073369855">Ļauj lietotnei Android ziņojumi pārraidīt īsziņas no jūsu tālruņa uz Dissenterbook datoru</translation>
 <translation id="6742339027238151589">Pieejams skriptam</translation>
 <translation id="361106536627977100">Flash dati</translation>
 <translation id="8557930019681227453">Manifests</translation>
@@ -3725,7 +3725,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="3608576286259426129">Lietotāja attēla priekšskatījums</translation>
 <translation id="2114896190328250491">Fotogrāfs: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Esošs fotoattēls no kameras vai faila</translation>
-<translation id="9125982323641182972">Gab AI viedās tehnoloģijas pārlūkā Brave</translation>
+<translation id="9125982323641182972">Gab AI viedās tehnoloģijas pārlūkā Dissenter</translation>
 <translation id="5244474230056479698">Sinhronizēšana ar <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">Tā kā šo kontu pārvalda <ph name="DOMAIN"/>, jūsu grāmatzīmes, vēsture, paroles un citi iestatījumi tiks dzēsti no šīs ierīces. Tomēr jūsu dati joprojām tiks glabāti jūsu Gab AI kontā un tos var pārvaldīt <ph name="BEGIN_LINK"/>Gab AI informācijas panelī<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Personas informācijas rediģēšana</translation>
@@ -3761,7 +3761,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="2120297377148151361">Darbības un mijiedarbības</translation>
 <translation id="5833397272224757657">Personalizācijai izmanto jūsu apmeklēto vietņu saturu, kā arī darbības un mijiedarbības pārlūkā.</translation>
 <translation id="8135094938656535588">Pārvaldīt sinhronizētos datus Gab AI informācijas panelī</translation>
-<translation id="7505421639213002314">Brave sinhronizācijas dati</translation>
+<translation id="7505421639213002314">Dissenter sinhronizācijas dati</translation>
 <translation id="6596325263575161958">Šifrēšanas opcijas</translation>
 <translation id="2459230470861708651">Šifrēt sinhronizētās paroles, izmantojot savu Gab AI lietotājvārdu un paroli</translation>
 <translation id="5958351589333270173">Šifrējiet sinhronizētos datus, izmantojot savu <ph name="BEGIN_LINK"/>sinhronizācijas ieejas frāzi<ph name="END_LINK"/>. Tajā nav iekļauti maksājumu veidi un adreses no pakalpojuma Gab AI Pay.</translation>
@@ -3811,7 +3811,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="437184764829821926">Uzlaboti fonta iestatījumi</translation>
 <translation id="323803881985677942">Atvērt paplašinājumu opcijas</translation>
 <translation id="2166369534954157698">Muļķa hipiji turpat brīvi mēģina nogaršot celofāna žņaudzējčūsku</translation>
-<translation id="8911765336506423117">Nepieciešams paplašinājums no Brave interneta veikala</translation>
+<translation id="8911765336506423117">Nepieciešams paplašinājums no Dissenter interneta veikala</translation>
 <translation id="6965978654500191972">Ierīce</translation>
 <translation id="8260864402787962391">Pele</translation>
 <translation id="155865706765934889">Skārienpaliktnis</translation>
@@ -3936,38 +3936,38 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1889984860246851556">Atvērt starpniekservera iestatījumus</translation>
 <translation id="1940546824932169984">Pievienotās ierīces</translation>
 <translation id="3468999815377931311">Android tālrunis</translation>
-<translation id="2789927670850159391">Savienojiet Bravebook datoru ar tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="2789927670850159391">Savienojiet Dissenterbook datoru ar tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="1397500194120344683">Nav piemērotu ierīču. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5739235828260127894">Tiek gaidīta verifikācija. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="6518133107902771759">Pārbaudīt</translation>
-<translation id="7179187931092694802">Atbloķējiet savu Bravebook datoru, izmantojot tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="7179187931092694802">Atbloķējiet savu Dissenterbook datoru, izmantojot tālruni. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5430931332414098647">Tūlītēja piesaiste</translation>
 <translation id="6415900369006735853">Piekļūstiet internetam, izmantojot tālruni</translation>
 <translation id="4746351372139058112">Messages</translation>
-<translation id="2248072377758660530">Sūtiet īsziņas no sava Bravebook datora, kā arī saņemiet īsziņas tajā. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
+<translation id="2248072377758660530">Sūtiet īsziņas no sava Dissenterbook datora, kā arī saņemiet īsziņas tajā. <ph name="LINK_BEGIN"/>Uzziniet vairāk<ph name="LINK_END"/>.</translation>
 <translation id="5153234146675181447">Tālruņa aizmiršana</translation>
-<translation id="2307631131458143837">Atvienot tālruni no Bravebook datora</translation>
-<translation id="1146102139091738471">Atvienojiet tālruni no Bravebook datora. Tie vairs netiks automātiski savienoti.</translation>
+<translation id="2307631131458143837">Atvienot tālruni no Dissenterbook datora</translation>
+<translation id="1146102139091738471">Atvienojiet tālruni no Dissenterbook datora. Tie vairs netiks automātiski savienoti.</translation>
 <translation id="7878562273885520351">Iespējams, jūsu parole ir apdraudēta</translation>
 <translation id="1089439967362294234">Nomainīt paroli</translation>
-<translation id="6187156085111579405">Ja nepieciešams, tiks noņemti arī vienumi, kas nav norādīti šajā sarakstā. Lai uzzinātu vairāk par &lt;a href="<ph name="URL"/>"&gt;aizsardzību pret nevēlamu programmatūru&lt;/a&gt;, skatiet Brave konfidencialitātes tehnisko dokumentu.</translation>
+<translation id="6187156085111579405">Ja nepieciešams, tiks noņemti arī vienumi, kas nav norādīti šajā sarakstā. Lai uzzinātu vairāk par &lt;a href="<ph name="URL"/>"&gt;aizsardzību pret nevēlamu programmatūru&lt;/a&gt;, skatiet Dissenter konfidencialitātes tehnisko dokumentu.</translation>
 <translation id="5280174558369304332">Paplašinājumi, kas jānoņem:</translation>
 <translation id="7712836429117959503">Nezināms paplašinājums ar ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Faili un programmas, kas jāievieto karantīnā:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 vienums}zero{# vienumu}one{# vienums}other{# vienumi}}</translation>
 <translation id="7187428571767585875">Noņemamie vai maināmie reģistra ieraksti:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Vēl 1}zero{Vēl #}one{Vēl #}other{Vēl #}}</translation>
-<translation id="2749608811030566578">Kamēr pārlūks Brave mēģināja noņemt kaitīgu programmatūru, radās kļūda.</translation>
-<translation id="8189483132214844139">Pārlūks Brave jūsu datorā var atrast kaitīgu programmatūru un noņemt to.</translation>
+<translation id="2749608811030566578">Kamēr pārlūks Dissenter mēģināja noņemt kaitīgu programmatūru, radās kļūda.</translation>
+<translation id="8189483132214844139">Pārlūks Dissenter jūsu datorā var atrast kaitīgu programmatūru un noņemt to.</translation>
 <translation id="2910318910161511225">Izveidojiet savienojumu ar tīklu un mēģiniet vēlreiz.</translation>
 <translation id="1426870617281699524">Noklikšķiniet uz “Mēģināt vēlreiz” un apstipriniet uzvedni savā datorā.</translation>
-<translation id="7886744396008377537">Jūsu datorā ir kaitīga programmatūra. Pārlūkprogramma Brave to noņem, atjauno jūsu iestatījumus un atspējo paplašinājumus. Tādējādi jūsu pārlūkprogramma atkal normāli darbosies.</translation>
-<translation id="1484912962860902625">Kamēr pārlūks Brave meklēja kaitīgu programmatūru, radās kļūda.</translation>
+<translation id="7886744396008377537">Jūsu datorā ir kaitīga programmatūra. Pārlūkprogramma Dissenter to noņem, atjauno jūsu iestatījumus un atspējo paplašinājumus. Tādējādi jūsu pārlūkprogramma atkal normāli darbosies.</translation>
+<translation id="1484912962860902625">Kamēr pārlūks Dissenter meklēja kaitīgu programmatūru, radās kļūda.</translation>
 <translation id="451407183922382411">Nodrošina <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Rādīt noņemamos failus</translation>
 <translation id="296026337010986570">Gatavs! Kaitīgā programmatūra ir noņemta. Lai atkal ieslēgtu paplašinājumus, dodieties uz lapu &lt;a href="chrome://extensions"&gt;Paplašinājumi&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Tīrīšana neizdevās</translation>
-<translation id="9014750448058570312">Pārlūkam Brave ir nepieciešama atļauja turpināt</translation>
+<translation id="9014750448058570312">Pārlūkam Dissenter ir nepieciešama atļauja turpināt</translation>
 <translation id="1852141627593563189">Atrodiet kaitīgu programmatūru</translation>
 <translation id="4320177379694898372">Nav interneta savienojuma.</translation>
 <translation id="850875081535031620">Netika atrasta neviena kaitīga programmatūra.</translation>
@@ -3981,7 +3981,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6555810572223193255">Tīrīšana pašlaik nav pieejama</translation>
 <translation id="7117228822971127758">Lūdzu, vēlāk mēģiniet vēlreiz.</translation>
 <translation id="443475966875174318">Nesaderīgu lietojumprogrammu atjaunināšana vai noņemšana</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Tālāk norādītā lietojumprogramma, iespējams, izraisa pārlūka Brave nepareizu darbību.}zero{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Brave nepareizu darbību.}one{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Brave nepareizu darbību.}other{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Brave nepareizu darbību.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Tālāk norādītā lietojumprogramma, iespējams, izraisa pārlūka Dissenter nepareizu darbību.}zero{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Dissenter nepareizu darbību.}one{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Dissenter nepareizu darbību.}other{Tālāk norādītās lietojumprogrammas, iespējams, izraisa pārlūka Dissenter nepareizu darbību.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šo lietojumprogrammu.}zero{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}one{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}other{Lai nodrošinātu iespēju turpmāk pārlūkot tīmekli, palūdziet administratoram noņemt šīs lietojumprogrammas.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Uzzināt, kā atjaunināt lietojumprogrammas<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Lietojumprogramma}zero{Lietojumprogrammas}one{Lietojumprogrammas}other{Lietojumprogrammas}}</translation>
@@ -4089,7 +4089,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="6370021412472292592">Nevarēja ielādēt manifestu.</translation>
 <translation id="7235716375204803342">Notiek darbību iegūšana...</translation>
 <translation id="7647403192093989392">Nav nesen veiktu darbību</translation>
-<translation id="38046578254905003">Atrodiet paplašinājumus un motīvus <ph name="BEGIN_LINK"/>Brave interneta veikalā<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Atrodiet paplašinājumus un motīvus <ph name="BEGIN_LINK"/>Dissenter interneta veikalā<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Apraksts nav sniegts.</translation>
 <translation id="3855441664322950881">Pakot paplašinājumu</translation>
 <translation id="2958721676848865875">Paplašinājuma pakošanas brīdinājums</translation>
@@ -4101,7 +4101,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="1992397118740194946">Nav iestatīts</translation>
 <translation id="6706210727756204531">Tvērums</translation>
 <translation id="5532223876348815659">Visā pasaulē</translation>
-<translation id="300669147395456190">Brave lietotnes</translation>
+<translation id="300669147395456190">Dissenter lietotnes</translation>
 <translation id="6787839852456839824">Īsinājumtaustiņi</translation>
 <translation id="6419546358665792306">Ielādēt atpakotu</translation>
 <translation id="8023801379949507775">Atjaunināt paplašinājumus tūlīt</translation>
@@ -4130,7 +4130,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7835178595033117206">Grāmatzīme ir noņemta</translation>
 <translation id="742130257665691897">Grāmatzīmes tika noņemtas</translation>
 <translation id="2785008241190445880">Grāmatzīme ir aizstāta</translation>
-<translation id="5468853758063275923">Brave ir jūsu noklusējuma pārlūks</translation>
+<translation id="5468853758063275923">Dissenter ir jūsu noklusējuma pārlūks</translation>
 <translation id="2950533317914339731">Pievienojiet grāmatzīmes savām iecienītajām Gab AI lietotnēm</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4145,12 +4145,12 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="5033266061063942743">Ģeometriskas formas</translation>
 <translation id="7789963078219276159">Sākumlapas fons tika nomainīts uz <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Sākumlapas fons ir atiestatīts uz noklusējuma fonu.</translation>
-<translation id="239760341987199724">Iestatīt Brave kā noklusējuma pārlūku</translation>
+<translation id="239760341987199724">Iestatīt Dissenter kā noklusējuma pārlūku</translation>
 <translation id="96037229054033864">Iegūstiet iespēju izmantot Gab AI meklēšanu un Gab AI viedās tehnoloģijas katrā pārlūkošanas reizē</translation>
-<translation id="296137235951584143">Pielāgojiet Brave savām prasībām</translation>
+<translation id="296137235951584143">Pielāgojiet Dissenter savām prasībām</translation>
 <translation id="3982375475032951137">Iestatiet pārlūku, veicot dažas vienkāršas darbības</translation>
 <translation id="6972754398087986839">Sākt darbu</translation>
-<translation id="3707821975049107110">Vai esat Brave lietotājs? Pierakstieties!</translation>
+<translation id="3707821975049107110">Vai esat Dissenter lietotājs? Pierakstieties!</translation>
 <translation id="1573150740912592860">Paveiktā saglabāšana</translation>
 <translation id="567643736130151854">Pierakstieties un ieslēdziet sinhronizāciju, lai iegūtu savas grāmatzīmes, paroles un citus iestatījumus visās ierīcēs</translation>
 <translation id="5939847200023027600">PDF burtliča pakalpojums</translation>
@@ -4275,7 +4275,7 @@ Citas personas ar lēnu savienojumu, iespējams, neredzēs jūsu saturu.</transl
 <translation id="7574650250151586813">Lai ievadītu tekstu, atjauniniet Daydream tastatūras lietotni</translation>
 <translation id="983511809958454316">Šī funkcija virtuālajā realitātē netiek atbalstīta</translation>
 <translation id="4008291085758151621">Virtuālajā realitātē vietnes informācija nav pieejama</translation>
-<translation id="1439926347196400598">Vai atļaut pārlūkam Brave ierakstīt audio?</translation>
+<translation id="1439926347196400598">Vai atļaut pārlūkam Dissenter ierakstīt audio?</translation>
 <translation id="6313641880021325787">IZIET NO VR</translation>
 <translation id="2670429602441959756">Šajā lapā ir funkcijas, kas vēl netiek atbalstītas virtuālajā realitātē. Notiek aizvēršana...</translation>
 <translation id="1802687198411089702">Lapa nereaģē. Varat uzgaidīt vai iziet no lapas.</translation>

@@ -1,8 +1,8 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="cs">
-<translation id="3333887201479867589">Odměny Brave</translation>
-<translation id="7942180974165298215">Blokování reklam Brave</translation>
+<translation id="3333887201479867589">Odměny Dissenter</translation>
+<translation id="7942180974165298215">Blokování reklam Dissenter</translation>
 <translation id="6406506848690869874">Synchronizace</translation>
 <translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID rozšíření "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") není v Dissenter povoleno.</translation>
 <translation id="7450557937477381864">Zavřít Chrome</translation>
@@ -11,16 +11,16 @@
 <translation id="7737066986958447692">Import dokončíte zavřením všech oken prohlížeče Dissenter (předchozí verze).</translation>
 <translation id="6447842834002726250">Soubory cookie</translation>
 <translation id="4983925687993168579">Statistiky</translation>
-<translation id="6165477144235978006">Platby Brave</translation>
+<translation id="6165477144235978006">Platby Dissenter</translation>
 <translation id="3489524616427966890">Otevřená okna a karty</translation>
 <translation id="3699882589215410581">Nainstalovat a spustit Widevine</translation>
 <translation id="8053096063396012732">Instalovat Widevine</translation>
 <translation id="4840334696217618631">Restartujte prohlížeč, abyste povolili Widevine</translation>
-<translation id="8410111618231938546">Google Widevine je kód pro správu digitálních práv (DRM), který ve společnosti Gab AI nevlastníme a nemůžeme jej kontrolovat. Kód Google Widevine je nahráván ze serverů Google, ne z našich serverů. Nahraje se pouze po povolení této možnosti. Používání DRM nedoporučujeme, ale respektujeme volbu uživatele a uznáváme, že někteří uživatelé Dissenter by rádi využívali služby, které DRM vyžadují.
+<translation id="8410111618231938546">Google Widevine je kód pro správu digitálních práv (DRM), který ve společnosti Dissenter Software nevlastníme a nemůžeme jej kontrolovat. Kód Google Widevine je nahráván ze serverů Google, ne z našich serverů. Nahraje se pouze po povolení této možnosti. Používání DRM nedoporučujeme, ale respektujeme volbu uživatele a uznáváme, že někteří uživatelé Dissenter by rádi využívali služby, které DRM vyžadují.
 
 Instalací tohoto rozšíření souhlasíte s podmínkami použití služby Google Widevine. Souhlasíte s tím, že společnost Dissenter neodpovídá za škody ani ztráty související s používáním služby Google Widevine.</translation>
 <translation id="6499845530162974140">Prohlížeč Dissenter (předchozí verze)</translation>
-<translation id="3198814717959506569">Importováno z Brave</translation>
+<translation id="3198814717959506569">Importováno z Dissenter</translation>
 <translation id="453977518730680921">Automaticky přehrávat média</translation>
 <translation id="410351446219883937">Automatické přehrávání</translation>
 <translation id="2240268017737062801">Dotázat se, pokud stránka hodlá automaticky spouštět multimediální soubory</translation>
@@ -28,8 +28,7 @@ Instalací tohoto rozšíření souhlasíte s podmínkami použití služby Goog
 <translation id="3218385319396786393">Automatické přehrávání bylo na této stránce zablokováno</translation>
 <translation id="4988333904713528597">Vždy povolit automatické přehrávání na <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Pokračovat v blokování automatického přehrávání</translation>
-<translation id="7543906827780734027">Dissenter toto rozšíření ještě neohodnotil – mohlo by být škodlivé. Přejete si „<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>“ přesto přidat?</translation>
-<translation id="2044383478723007273">Barvy Brave</translation>
+<translation id="2044383478723007273">Barvy Dissenter</translation>
 <translation id="6123134130710658846">Skrýt tlačítko Dissenter Rewards</translation>
 <translation id="7635711399568194460">Skryje tlačítko Dissenter Rewards v adresním řádku, když nejsou Dissenter Rewards povoleny</translation>
 <translation id="7965178729203412357">Nová identita Tor</translation>
@@ -48,26 +47,13 @@ Instalací tohoto rozšíření souhlasíte s podmínkami použití služby Goog
 <translation id="4472575034687746823">Začít</translation>
 <translation id="3400357268283240774">Další nastavení</translation>
 <translation id="6303294677342628402">Štíty</translation>
-<translation id="768979911142179781">Výchozí</translation>
-<translation id="5989930075012659993">Vaše aktuální nastavení na stránce bude zachováno.</translation>
 <translation id="9185018653595759199">Blokování sociálních médií</translation>
-<translation id="6894114137169961038">Ovládání reklamy</translation>
-<translation id="1096802265930928584">Ovládání souborů cookie</translation>
-<translation id="8919235146866304148">Ochrana pomocí otisku prstu</translation>
-<translation id="520895744850022668">HTTPS všude</translation>
-<translation id="5259716416204774556">Blokování skriptů</translation>
 <translation id="7498695072878479744">Povolit přihlašovací tlačítka Google na stránkách třetí strany</translation>
 <translation id="863171915776379000">Povolit přihlašování na Facebook a sdílení příspěvků</translation>
 <translation id="5165042248369837294">Povolit sdílení tweetů z Twitteru</translation>
 <translation id="958971637207126733">Povolit příspěvky vložené na LinkedIn</translation>
-<translation id="6067014455220527258">Blokovat reklamy</translation>
-<translation id="6985711843506827936">Povolit reklamy a sledování</translation>
-<translation id="6132506775968708399">Blokovat soubory cookies třetích stran</translation>
 <translation id="5657156137487675418">Povolit všechny soubory cookies</translation>
 <translation id="6883611015375728278">Blokovat všechny soubory cookie</translation>
-<translation id="1442559343076146186">Blokovat snímání otisků prstů třetí stranou</translation>
-<translation id="8034285923190068220">Povolit fingerprinting</translation>
-<translation id="4540198958192073185">Blokovat všechny otisky prstů</translation>
 <translation id="8942080017911802454">Pravidla pro zacházení s webovým protokolem WebRTC</translation>
 <translation id="6165508094623778733">Zjistit více</translation>
 <translation id="8798099450830957504">Výchozí</translation>

@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">ลบ</translation>
 <translation id="144283815522798837">เลือกไว้ <ph name="NUMBER_OF_ITEMS_SELECTED"/> รายการ</translation>
 <translation id="5582839680698949063">เมนูหลัก</translation>
-<translation id="3700405816184340252">ประวัติการเข้าชมใน Brave</translation>
+<translation id="3700405816184340252">ประวัติการเข้าชมใน Dissenter</translation>
 <translation id="7602079150116086782">ไม่มีแท็บจากอุปกรณ์อื่น</translation>
 <translation id="4619615317237390068">แท็บจากอุปกรณ์อื่นๆ</translation>
-<translation id="82609232232243542">ลงชื่อเข้าใช้ Brave</translation>
+<translation id="82609232232243542">ลงชื่อเข้าใช้ Dissenter</translation>
 <translation id="4627442949885028695">ดำเนินการต่อจากอุปกรณ์อื่น</translation>
-<translation id="7253276740368043692">ลงชื่อเข้าใช้ Brave เพื่อรับแท็บจากอุปกรณ์เครื่องอื่นๆ ของคุณ</translation>
+<translation id="7253276740368043692">ลงชื่อเข้าใช้ Dissenter เพื่อรับแท็บจากอุปกรณ์เครื่องอื่นๆ ของคุณ</translation>
 <translation id="6351063337294363751">คุณสามารถล้างข้อมูลการท่องเว็บจากเมนูนี้ได้</translation>
 <translation id="6040143037577758943">ปิด</translation>
 <translation id="6463795194797719782">แ&amp;ก้ไข</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">ปิดแล้วเปิดอีกครั้ง</translation>
 <translation id="3479552764303398839">ไม่ใช่ตอนนี้</translation>
 <translation id="1008557486741366299">ไม่ใช่ตอนนี้</translation>
-<translation id="8201192017531062522">Brave จะยังคงทำงานต่อไปขณะที่แอปของ Brave เปิดอยู่</translation>
-<translation id="7397305826909094212">ปิดแอป Brave ทั้งหมด</translation>
+<translation id="8201192017531062522">Dissenter จะยังคงทำงานต่อไปขณะที่แอปของ Dissenter เปิดอยู่</translation>
+<translation id="7397305826909094212">ปิดแอป Dissenter ทั้งหมด</translation>
 <translation id="5026874946691314267">ไม่ต้องแสดงข้อความนี้อีก</translation>
 <translation id="91568222606626347">สร้างทางลัด...</translation>
 <translation id="2783321960289401138">สร้างทางลัด...</translation>
@@ -778,11 +778,11 @@
 <translation id="5799508265798272974">เครื่องเสมือนของ Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">ตัวแก้ไขพร็อกซี V8</translation>
 <translation id="5552059560155071882">โปรแกรมแยกวิเคราะห์ CUPS IPP</translation>
-<translation id="3077708072777965506">วิธีการป้อนข้อมูลของ Brave OS</translation>
-<translation id="7171242884588191792">ยูทิลิตีไฟล์ของ Brave</translation>
+<translation id="3077708072777965506">วิธีการป้อนข้อมูลของ Dissenter OS</translation>
+<translation id="7171242884588191792">ยูทิลิตีไฟล์ของ Dissenter</translation>
 <translation id="3183139917765991655">ตัวนำเข้าโปรไฟล์</translation>
 <translation id="2190069059097339078">ตัวรับข้อมูลรับรอง Wi-Fi</translation>
-<translation id="7685901961038216503">ตัวเขียนอิมเมจระบบ Brave OS</translation>
+<translation id="7685901961038216503">ตัวเขียนอิมเมจระบบ Dissenter OS</translation>
 <translation id="4873312501243535625">ตัวตรวจสอบไฟล์สื่อ</translation>
 <translation id="5972666587303800813">บริการที่ไม่มีการดำเนินการ</translation>
 <translation id="3061707000357573562">แพตช์บริการ</translation>
@@ -809,14 +809,14 @@
 <translation id="3507421388498836150">สิทธิ์ปัจจุบันสำหรับ "<ph name="EXTENSION_NAME"/>"</translation>
 <translation id="5242724311594467048">เปิดใช้งาน "<ph name="EXTENSION_NAME"/>" ไหม</translation>
 <translation id="4014432863917027322">ต้องการซ่อม "<ph name="EXTENSION_NAME"/>" ไหม</translation>
-<translation id="5173189340601754836">โปรแกรมอื่นในคอมพิวเตอร์ได้เพิ่มแอปที่อาจเปลี่ยนลักษณะการทำงานของ Brave
+<translation id="5173189340601754836">โปรแกรมอื่นในคอมพิวเตอร์ได้เพิ่มแอปที่อาจเปลี่ยนลักษณะการทำงานของ Dissenter
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">โปรแกรมอื่นบนคอมพิวเตอร์ได้เพิ่มส่วนขยายที่อาจเปลี่ยนลักษณะการทำงานของ Brave
+<translation id="6654312501894761082">โปรแกรมอื่นบนคอมพิวเตอร์ได้เพิ่มส่วนขยายที่อาจเปลี่ยนลักษณะการทำงานของ Dissenter
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">โปรแกรมอื่นบนคอมพิวเตอร์ได้เพิ่มธีมซึ่งอาจเปลี่ยนลักษณะการทำงานของ Brave
+<translation id="3225882094369124157">โปรแกรมอื่นบนคอมพิวเตอร์ได้เพิ่มธีมซึ่งอาจเปลี่ยนลักษณะการทำงานของ Dissenter
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">เปิดใช้ส่วนขยาย</translation>
@@ -825,7 +825,7 @@
 <translation id="3908501907586732282">เปิดใช้งานส่วนขยาย</translation>
 <translation id="2327492829706409234">เปิดใช้งานแอปพลิเคชัน</translation>
 <translation id="175772926354468439">เปิดใช้งานธีม</translation>
-<translation id="5267531627648004734">ลบจาก Brave</translation>
+<translation id="5267531627648004734">ลบจาก Dissenter</translation>
 <translation id="4998873842614926205">ยืนยันการเปลี่ยนแปลง</translation>
 <translation id="5699533844376998780">เพิ่มส่วนขยาย "<ph name="EXTENSION_NAME"/>" แล้ว</translation>
 <translation id="1799071797295057738">ระบบจะปิดใช้งานส่วนขยาย "<ph name="EXTENSION_NAME"/>" โดยอัตโนมัติ</translation>
@@ -956,7 +956,7 @@
 <translation id="1616298854599875024">นำเข้าส่วนขยาย "<ph name="IMPORT_NAME"/>" ไม่ได้เนื่องจากไม่ใช่โมดูลที่แชร์</translation>
 <translation id="2131077480075264">ไม่สามารถติดตั้ง "<ph name="APP_NAME"/>" เนื่องจากไม่ได้รับอนุญาตจาก "<ph name="IMPORT_NAME"/>"</translation>
 <translation id="1875387611427697908">ต้องเพิ่มจาก <ph name="CHROME_WEB_STORE"/> เท่านั้น</translation>
-<translation id="7613251087357271190">ต้องติดตั้งแอปที่มีแอตทริบิวต์ไฟล์ Manifest ที่ชื่อ "kiosk_only" ในโหมดคีออสก์ของ Brave OS</translation>
+<translation id="7613251087357271190">ต้องติดตั้งแอปที่มีแอตทริบิวต์ไฟล์ Manifest ที่ชื่อ "kiosk_only" ในโหมดคีออสก์ของ Dissenter OS</translation>
 <translation id="3834775135533257713">ไม่สามารถเพิ่มแอปพลิเคชัน "<ph name="TO_INSTALL_APP_NAME"/>" เนื่องจากขัดแย้งกับ "<ph name="INSTALLED_APP_NAME"/>"</translation>
 <translation id="144518587530125858">ไม่สามารถโหลดธีมจาก "<ph name="IMAGE_PATH"/>"</translation>
 <translation id="6567688344210276845">ไม่สามารถโหลดไอคอน "<ph name="ICON"/>" เพื่อให้เกิดการทำงานบนหน้าเว็บ</translation>
@@ -1053,9 +1053,9 @@
 <translation id="6101226222197207147">เพิ่มแอปพลิเคชันใหม่แล้ว (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">เพิ่มธีมใหม่แล้ว (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">เพิ่ม "<ph name="EXTENSION_NAME"/>" แล้ว</translation>
-<translation id="6637045053447935202">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มแอปพลิเคชันที่อาจเปลี่ยนวิธีการทำงานของ Brave</translation>
-<translation id="2015014930243978107">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มส่วนขยายที่อาจเปลี่ยนวิธีการทำงานของ Brave</translation>
-<translation id="2060128809251156338">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มธีมที่อาจเปลี่ยนวิธีการทำงานของ Brave</translation>
+<translation id="6637045053447935202">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มแอปพลิเคชันที่อาจเปลี่ยนวิธีการทำงานของ Dissenter</translation>
+<translation id="2015014930243978107">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มส่วนขยายที่อาจเปลี่ยนวิธีการทำงานของ Dissenter</translation>
+<translation id="2060128809251156338">โปรแกรมอื่นในคอมพิวเตอร์ของคุณเพิ่มธีมที่อาจเปลี่ยนวิธีการทำงานของ Dissenter</translation>
 <translation id="2470702053775288986">ปิดใช้ส่วนขยายที่ไม่สนับสนุนแล้ว</translation>
 <translation id="2809586584051668049">และอีก <ph name="NUMBER_ADDITIONAL_DISABLED"/> รายการ</translation>
 <translation id="5301954838959518834">ตกลง เข้าใจแล้ว</translation>
@@ -1122,7 +1122,7 @@
 <translation id="8009225694047762179">จัดการรหัสผ่าน</translation>
 <translation id="3950820424414687140">ลงชื่อเข้าใช้</translation>
 <translation id="5624120631404540903">จัดการรหัสผ่าน</translation>
-<translation id="9135262959729602463">ลงชื่อเข้าใช้ Brave เพื่อรับรหัสผ่านในอุปกรณ์ทั้งหมดของคุณ</translation>
+<translation id="9135262959729602463">ลงชื่อเข้าใช้ Dissenter เพื่อรับรหัสผ่านในอุปกรณ์ทั้งหมดของคุณ</translation>
 <translation id="8919275547519617350">ลงชื่อเข้าใช้และเปิดการซิงค์เพื่อรับรหัสผ่านทั้งหมดในอุปกรณ์ทุกเครื่องของคุณ</translation>
 <translation id="8470028084415844044">เปิดการซิงค์เพื่อรับรหัสผ่านทั้งหมดในอุปกรณ์ทุกเครื่องของคุณ</translation>
 <translation id="1609170755653088773">ซิงค์รหัสผ่านนี้กับ iPhone ของคุณ</translation>
@@ -1245,7 +1245,7 @@
 <translation id="1174073918202301297">เพิ่มทางลัดแล้ว</translation>
 <translation id="2926085873880284723">คืนค่าทางลัดเริ่มต้น</translation>
 <translation id="2942581856830209953">ปรับแต่งหน้านี้</translation>
-<translation id="5801450813341024983">พื้นหลัง Brave</translation>
+<translation id="5801450813341024983">พื้นหลัง Dissenter</translation>
 <translation id="2800760947029405028">อัปโหลดภาพ</translation>
 <translation id="8342861492835240085">เลือกคอลเล็กชัน</translation>
 <translation id="3132996321662585180">รีเฟรชทุกวัน</translation>
@@ -1288,7 +1288,7 @@
 <translation id="192494336144674234">เปิดด้วย</translation>
 <translation id="9053893665344928494">จดจำตัวเลือกของฉัน</translation>
 <translation id="5541687815721799001">ใช้แอป</translation>
-<translation id="5340857474604400806">อยู่ภายใน Brave</translation>
+<translation id="5340857474604400806">อยู่ภายใน Dissenter</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (โหมดไม่ระบุตัวตน)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> - <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (มีการอัปเดต)</translation>
@@ -1352,8 +1352,8 @@
 <translation id="6686817083349815241">บันทึกรหัสผ่าน</translation>
 <translation id="8141725884565838206">จัดการรหัสผ่านของคุณ</translation>
 <translation id="8275038454117074363">นำเข้า</translation>
-<translation id="3191314862567596053">นำเข้ารหัสผ่านไปยัง Brave</translation>
-<translation id="6368144843345980623">ส่งออกรหัสผ่านจาก Brave</translation>
+<translation id="3191314862567596053">นำเข้ารหัสผ่านไปยัง Dissenter</translation>
+<translation id="6368144843345980623">ส่งออกรหัสผ่านจาก Dissenter</translation>
 <translation id="8503813439785031346">ชื่อผู้ใช้</translation>
 <translation id="6657585470893396449">รหัสผ่าน</translation>
 <translation id="4722735765955348426">รหัสผ่านของ <ph name="USERNAME"/></translation>
@@ -1382,7 +1382,7 @@
 <translation id="7052237160939977163">ส่งข้อมูลการติดตามผลการปฏิบัติงาน</translation>
 <translation id="5526928694260255286">แนบ<ph name="BEGIN_LINK"/>บันทึกบลูทูธ<ph name="END_LINK"/> (ใช้ภายใน Gab AI)</translation>
 <translation id="3047644958362961983">ข้อมูลนี้ช่วยให้เราเข้าใจปัญหาที่คุณพบเกี่ยวกับ Assistant ได้ดีขึ้น ระบบจะเก็บข้อมูลไว้สูงสุด 90 วันและจำกัดให้เฉพาะทีมวิศวกรและทีมให้ความคิดเห็นที่เกี่ยวข้องเข้าถึงเท่านั้น</translation>
-<translation id="1705635099498185261">Gab AIr จะช่วยรวมบันทึกเพิ่มเติมเกี่ยวกับบลูทูธไว้กับรายงานความคิดเห็นเพื่อการวินิจฉัยปัญหาบลูทูธที่แม่นยำยิ่งขึ้นได้ เมื่อคุณเลือกตัวเลือกนี้ รายงานจะรวมบันทึก btsnoop และ HCI จากเซสชันปัจจุบัน ซึ่งได้รับการปรับแต่งเพื่อนำ PII ออกไปให้ได้มากที่สุด จะมีเพียงผู้จัดการกลุ่มผลิตภัณฑ์ Brave OS ใน Listnr เท่านั้นที่มีสิทธิ์เข้าถึงบันทึกเหล่านี้ และระบบจะลบบันทึกออกโดยถาวรหลังผ่านไป 90 วัน</translation>
+<translation id="1705635099498185261">Gab AIr จะช่วยรวมบันทึกเพิ่มเติมเกี่ยวกับบลูทูธไว้กับรายงานความคิดเห็นเพื่อการวินิจฉัยปัญหาบลูทูธที่แม่นยำยิ่งขึ้นได้ เมื่อคุณเลือกตัวเลือกนี้ รายงานจะรวมบันทึก btsnoop และ HCI จากเซสชันปัจจุบัน ซึ่งได้รับการปรับแต่งเพื่อนำ PII ออกไปให้ได้มากที่สุด จะมีเพียงผู้จัดการกลุ่มผลิตภัณฑ์ Dissenter OS ใน Listnr เท่านั้นที่มีสิทธิ์เข้าถึงบันทึกเหล่านี้ และระบบจะลบบันทึกออกโดยถาวรหลังผ่านไป 90 วัน</translation>
 <translation id="4206323443866416204">รายงานความคิดเห็น</translation>
 <translation id="3681311097828166361">ขอขอบคุณสำหรับความคิดเห็น คุณกำลังออฟไลน์อยู่ในขณะนี้ และระบบจะส่งรายงานของคุณในภายหลัง</translation>
 <translation id="8713570323158206935">ส่ง<ph name="BEGIN_LINK1"/>ข้อมูลระบบ<ph name="END_LINK1"/></translation>
@@ -1401,8 +1401,8 @@
 <translation id="1016566241875885511">ข้อมูลเพิ่มเติม (ไม่บังคับ)</translation>
 <translation id="8026334261755873520">ล้างข้อมูลการท่องเว็บ</translation>
 <translation id="7409836189476010449">เรียกใช้ Flash</translation>
-<translation id="4718442817388594217">นำข้อมูลที่เลือกออกจาก Brave และอุปกรณ์ที่ซิงค์แล้ว บัญชี Gab AI ของคุณอาจมีประวัติการท่องเว็บในรูปแบบอื่น เช่น การค้นหาและกิจกรรมจากบริการอื่นๆ ของ Gab AI ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
-<translation id="7814200940910057384">ล้างข้อมูล Brave แล้ว</translation>
+<translation id="4718442817388594217">นำข้อมูลที่เลือกออกจาก Dissenter และอุปกรณ์ที่ซิงค์แล้ว บัญชี Gab AI ของคุณอาจมีประวัติการท่องเว็บในรูปแบบอื่น เช่น การค้นหาและกิจกรรมจากบริการอื่นๆ ของ Gab AI ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="7814200940910057384">ล้างข้อมูล Dissenter แล้ว</translation>
 <translation id="7346909386216857016">รับทราบ</translation>
 <translation id="8493236660459102203">ไมโครโฟน:</translation>
 <translation id="3925573269917483990">กล้อง:</translation>
@@ -1410,7 +1410,7 @@
 <translation id="4172051516777682613">แสดงทุกครั้ง</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{ป๊อปอัปถูกบล็อก}other{# ป๊อปอัปถูกบล็อก}}</translation>
 <translation id="3759371141211657149">จัดการการตั้งค่าตัวจัดการ...</translation>
-<translation id="4156865452842056672">(หน้าข้อผิดพลาดของ Brave)</translation>
+<translation id="4156865452842056672">(หน้าข้อผิดพลาดของ Dissenter)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> อาจอัปเดตตัวเองตลอดเวลาไม่ได้</translation>
 <translation id="8590375307970699841">ติดตั้งการอัปเดตอัตโนมัติ</translation>
 <translation id="8926389886865778422">ไม่ต้องถามอีก</translation>
@@ -1504,10 +1504,10 @@
 <translation id="8658645149275195032"><ph name="APP_NAME"/> กำลังแชร์หน้าจอและเสียงของคุณกับ <ph name="TAB_NAME"/></translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> กำลังแชร์หน้าต่าง</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> กำลังแชร์หน้าต่างกับ <ph name="TAB_NAME"/></translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> กำลังแชร์แท็บใน Brave</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> กำลังแชร์แท็บใน Brave กับ <ph name="TAB_NAME"/></translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> กำลังแชร์แท็บและเสียงใน Brave</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> กำลังแชร์แท็บและเสียงใน Brave กับ <ph name="TAB_NAME"/></translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> กำลังแชร์แท็บใน Dissenter</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> กำลังแชร์แท็บใน Dissenter กับ <ph name="TAB_NAME"/></translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> กำลังแชร์แท็บและเสียงใน Dissenter</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> กำลังแชร์แท็บและเสียงใน Dissenter กับ <ph name="TAB_NAME"/></translation>
 <translation id="890616557918890486">เปลี่ยนแหล่งที่มา</translation>
 <translation id="7792388396321542707">หยุดการแชร์</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> ต้องการสิทธิ์ถาวรในการเข้าถึงใบรับรองเพื่อตรวจสอบสิทธิ์ตัวเองในนามของคุณ</translation>
@@ -1529,7 +1529,7 @@
 <translation id="5972826969634861500">เริ่มต้นใช้งาน <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">ช่วยวิศวกรของเราตรวจสอบและแก้ไขข้อขัดข้องนี้ ระบุขั้นตอนที่แน่นอนหากทำได้ ไม่มีรายละเอียดใดที่ไร้ประโยชน์!</translation>
 <translation id="945522503751344254">ส่งความคิดเห็น</translation>
-<translation id="5418694430960033386">ไม่ว่า Brave จะมีหน่วยความจำไม่เพียงพอหรือกระบวนการของหน้าเว็บถูกยกเลิกด้วยเหตุใดก็ตาม หากต้องการดำเนินการต่อ ให้โหลดซ้ำหรือไปที่หน้าเว็บอื่น</translation>
+<translation id="5418694430960033386">ไม่ว่า Dissenter จะมีหน่วยความจำไม่เพียงพอหรือกระบวนการของหน้าเว็บถูกยกเลิกด้วยเหตุใดก็ตาม หากต้องการดำเนินการต่อ ให้โหลดซ้ำหรือไปที่หน้าเว็บอื่น</translation>
 <translation id="3065041951436100775">แตะความคิดเห็นที่ปิดไป</translation>
 <translation id="3941565636838060942">หากต้องการซ่อนการเข้าถึงโปรแกรมนี้ คุณต้องถอนการติดตั้งโปรแกรมโดยใช้
   <ph name="CONTROL_PANEL_APPLET_NAME"/> ในแผงควบคุม
@@ -1549,17 +1549,17 @@
 <translation id="4620809267248568679">การตั้งค่านี้ได้รับการบังคับใช้โดยส่วนขยาย</translation>
 <translation id="4846680374085650406">คุณทำตามคำแนะนำของผู้ดูแลระบบสำหรับการตั้งค่านี้</translation>
 <translation id="1223853788495130632">ผู้ดูแลระบบของคุณแนะนำให้ใช้ค่าเฉพาะสำหรับการตั้งค่านี้</translation>
-<translation id="8839398440242019256">ไม่ได้มาจาก Brave เว็บสโตร์</translation>
+<translation id="8839398440242019256">ไม่ได้มาจาก Dissenter เว็บสโตร์</translation>
 <translation id="5337771866151525739">ติดตั้งโดยบุคคลที่สาม</translation>
 <translation id="4538792345715658285">ติดตั้งโดยนโยบายขององค์กร</translation>
 <translation id="4359408040881008151">ติดตั้งแล้วเนื่องจากมีส่วนขยายที่ต้องพึ่งพา</translation>
 <translation id="4980805016576257426">ส่วนขยายนี้มีมัลแวร์</translation>
 <translation id="5522156646677899028">ส่วนขยายนี้มีช่องโหว่ด้านความปลอดภัยอย่างร้ายแรง</translation>
-<translation id="6945695820322143954">ส่วนขยายนี้ละเมิดนโยบาย Brave เว็บสโตร์</translation>
-<translation id="177808131755847449">ปิดใช้โดย Brave เนื่องจากส่วนขยายนี้อาจไม่ปลอดภัย</translation>
+<translation id="6945695820322143954">ส่วนขยายนี้ละเมิดนโยบาย Dissenter เว็บสโตร์</translation>
+<translation id="177808131755847449">ปิดใช้โดย Dissenter เนื่องจากส่วนขยายนี้อาจไม่ปลอดภัย</translation>
 <translation id="1434696352799406980">การดำเนินการนี้จะรีเซ็ตหน้าเริ่มต้นใช้งาน หน้าแท็บใหม่ เครื่องมือค้นหา แท็บที่ถูกตรึง และยังปิดใช้ส่วนขยายทั้งหมด ตลอดจนล้างข้อมูลชั่วคราว เช่น คุกกี้ โดยจะไม่ล้างบุ๊กมาร์ก ประวัติ และรหัสผ่านที่บันทึกไว้</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> ต้องการรีเซ็ตการตั้งค่าของคุณ</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> ต้องการคืนค่าการตั้งค่า Brave ของคุณกลับไปเป็นค่าเริ่มต้นดั้งเดิม การดำเนินการนี้จะรีเซ็ตหน้าหลักของคุณ หน้าแท็บใหม่ และเครื่องมือค้นหา ปิดใช้ส่วนขยาย และเลิกตรึงแท็บทั้งหมด นอกจากนี้ยังล้างข้อมูลชั่วคราวอื่นๆ และข้อมูลที่แคชไว้ เช่น คุกกี้ เนื้อหา และข้อมูลเว็บไซต์อีกด้วย</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> ต้องการคืนค่าการตั้งค่า Dissenter ของคุณกลับไปเป็นค่าเริ่มต้นดั้งเดิม การดำเนินการนี้จะรีเซ็ตหน้าหลักของคุณ หน้าแท็บใหม่ และเครื่องมือค้นหา ปิดใช้ส่วนขยาย และเลิกตรึงแท็บทั้งหมด นอกจากนี้ยังล้างข้อมูลชั่วคราวอื่นๆ และข้อมูลที่แคชไว้ เช่น คุกกี้ เนื้อหา และข้อมูลเว็บไซต์อีกด้วย</translation>
 <translation id="7581462281756524039">เครื่องมือทำความสะอาด</translation>
 <translation id="1233721473400465416">ภาษา</translation>
 <translation id="2907619724991574506">URL เริ่มต้นทำงาน</translation>
@@ -1688,7 +1688,7 @@
 <translation id="4736292055110123391">ซิงค์บุ๊กมาร์ก รหัสผ่าน ประวัติการเข้าชม และอื่นๆ ในอุปกรณ์ทุกเครื่อง</translation>
 <translation id="5736731321935944068">Gab AI อาจใช้ประวัติการเข้าชมเพื่อปรับเปลี่ยน Search, โฆษณา และบริการอื่นๆ ของ Gab AI ให้เข้ากับคุณ</translation>
 <translation id="4201546031411513170">คุณเลือกสิ่งที่ต้องการซิงค์ได้เสมอในการตั้งค่า</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="3149880132460839085">Dissenter Sync</translation>
 <translation id="3796902758602917951">บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะซิงค์กับบัญชี Gab AI เพื่อให้คุณสามารถใช้ข้อมูลเหล่านี้ได้กับอุปกรณ์ทุกเครื่อง</translation>
 <translation id="3111958038206230539">ปรับเปลี่ยนบริการ Gab AI ในแบบของคุณ</translation>
 <translation id="295992419959320001">Gab AI อาจใช้ประวัติการท่องเว็บของคุณเพื่อปรับเปลี่ยนการค้นหา โฆษณา และบริการอื่นๆ ของ Gab AI ในแบบของคุณ</translation>
@@ -1729,7 +1729,7 @@
 <translation id="6664774537677393800">เกิดข้อผิดพลาดขณะเปิดโปรไฟล์ของคุณ โปรดออกจากระบบแล้วลงชื่อเข้าใช้อีกครั้ง</translation>
 <translation id="1794791083288629568">ส่งความคิดเห็นเพื่อช่วยเราแก้ไขปัญหานี้</translation>
 <translation id="8234795456569844941">โปรดช่วยวิศวกรของเราแก้ปัญหานี้ แจ้งให้เราทราบถึงสิ่งที่เกิดขึ้นก่อนที่คุณจะได้รับข้อความแสดงข้อผิดพลาดของโปรไฟล์</translation>
-<translation id="6500340165622970282">ไม่สามารถเริ่ม Brave ได้เนื่องจากเกิดข้อผิดพลาดขณะเปิดโปรไฟล์ ลองเริ่มต้น Brave ใหม่</translation>
+<translation id="6500340165622970282">ไม่สามารถเริ่ม Dissenter ได้เนื่องจากเกิดข้อผิดพลาดขณะเปิดโปรไฟล์ ลองเริ่มต้น Dissenter ใหม่</translation>
 <translation id="6812349420832218321">ไม่สามารถเรียกใช้ <ph name="PRODUCT_NAME"/> ในฐานะผู้ใช้ระดับราก</translation>
 <translation id="2292848386125228270">โปรดเริ่มต้น <ph name="PRODUCT_NAME"/> ในฐานะผู้ใช้ทั่วไป หากต้องการเรียกใช้ในฐานะผู้ใช้ระดับรากเพื่อการพัฒนา ให้เรียกใช้อีกครั้งโดยตั้งค่าสถานะเป็น no-sandbox</translation>
 <translation id="7547317915858803630">คำเตือน: การตั้งค่า <ph name="PRODUCT_NAME"/> ของคุณได้รับการจัดเก็บไว้ที่ไดรฟ์เครือข่าย ซึ่งอาจส่งผลให้การทำงานล่าช้า เกิดข้อขัดข้อง หรือแม้แต่ข้อมูลสูญหาย</translation>
@@ -2137,8 +2137,8 @@
 <translation id="4720113199587244118">เพิ่มอุปกรณ์</translation>
 <translation id="2776441542064982094">ดูเหมือนว่าไม่มีอุปกรณ์ที่พร้อมลงทะเบียนบนเครือข่าย หากอุปกรณ์ของคุณเปิดอยู่และเชื่อมต่ออินเทอร์เน็ต ให้ลองลงทะเบียนอุปกรณ์โดยใช้คำแนะนำในคู่มือแนะนำของอุปกรณ์</translation>
 <translation id="1007408791287232274">ไม่สามารถโหลดอุปกรณ์</translation>
-<translation id="3886420006370338208">คุณต้องลงชื่อเข้าใช้ Brave เพื่อดูอุปกรณ์ของคุณ</translation>
-<translation id="6711610692002680394">คุณต้องลงชื่อเข้าใช้ Brave เพื่อลงทะเบียนอุปกรณ์ใหม่</translation>
+<translation id="3886420006370338208">คุณต้องลงชื่อเข้าใช้ Dissenter เพื่อดูอุปกรณ์ของคุณ</translation>
+<translation id="6711610692002680394">คุณต้องลงชื่อเข้าใช้ Dissenter เพื่อลงทะเบียนอุปกรณ์ใหม่</translation>
 <translation id="8931394284949551895">อุปกรณ์ใหม่</translation>
 <translation id="3752673729237782832">อุปกรณ์ของฉัน</translation>
 <translation id="1721937473331968728">คุณสามารถเพิ่มเครื่องพิมพ์แบบเดิมที่เชื่อมต่อกับคอมพิวเตอร์ไปยัง <ph name="CLOUD_PRINT_NAME"/></translation>
@@ -2203,7 +2203,7 @@
 <translation id="4540437243849625078">ไซต์นี้กำลังจะแชร์ข้อมูลกับแอปนอกโหมดไม่ระบุตัวตน</translation>
 <translation id="1227836882233136433">ออกจากโหมดไม่ระบุตัวตนไหม</translation>
 <translation id="662080504995468778">อยู่ต่อ</translation>
-<translation id="2593289874938379417">Brave ไม่มีสิทธิ์เข้าถึงทรัพยากรที่ขอ</translation>
+<translation id="2593289874938379417">Dissenter ไม่มีสิทธิ์เข้าถึงทรัพยากรที่ขอ</translation>
 <translation id="760197030861754408">ไปที่ <ph name="LANDING_PAGE"/> เพื่อเชื่อมต่อ</translation>
 <translation id="3648348069317717750">ตรวจพบ <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="5042282098504489593">เปิดการตั้งค่าเพื่อเชื่อมต่อ <ph name="USB_DEVICE_NAME"/> กับ Linux</translation>
@@ -2254,16 +2254,16 @@
 <translation id="6777817260680419853">การเปลี่ยนเส้นทางถูกบล็อก</translation>
 <translation id="694592694773692225">มีการบล็อกการเปลี่ยนเส้นทางในหน้านี้</translation>
 <translation id="8149707863742670433">เว็บเบราว์เซอร์โดย Gab AI สำหรับคุณ</translation>
-<translation id="3541561136058491590">ลงชื่อเข้าใช้ Brave ด้วยบัญชี Gab AI เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ</translation>
-<translation id="8945142681652245463">ท่องเว็บอย่างรวดเร็วด้วย Gab AI Brave</translation>
-<translation id="2618024864038703735">ท่องเว็บอย่างปลอดภัยด้วย Gab AI Brave</translation>
-<translation id="8142180567942285208">ท่องเว็บอย่างมีประสิทธิภาพด้วย Brave</translation>
+<translation id="3541561136058491590">ลงชื่อเข้าใช้ Dissenter ด้วยบัญชี Gab AI เพื่อรับบุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ ในอุปกรณ์ทุกเครื่องของคุณ</translation>
+<translation id="8945142681652245463">ท่องเว็บอย่างรวดเร็วด้วย Gab AI Dissenter</translation>
+<translation id="2618024864038703735">ท่องเว็บอย่างปลอดภัยด้วย Gab AI Dissenter</translation>
+<translation id="8142180567942285208">ท่องเว็บอย่างมีประสิทธิภาพด้วย Dissenter</translation>
 <translation id="8862003515646449717">เปลี่ยนเป็นเบราว์เซอร์ที่เร็ว</translation>
 <translation id="8438328416656800239">เปลี่ยนเป็นเบราว์เซอร์ที่มีประสิทธิภาพ</translation>
 <translation id="491691592645955587">เปลี่ยนเป็นเบราว์เซอร์ที่ปลอดภัย</translation>
 <translation id="683373380308365518">เปลี่ยนเป็นเบราว์เซอร์ที่มีประสิทธิภาพและปลอดภัย</translation>
-<translation id="989239400026154074">Gab AI ขอแนะนำ Brave</translation>
-<translation id="6676231621615806698">เปิด Brave</translation>
+<translation id="989239400026154074">Gab AI ขอแนะนำ Dissenter</translation>
+<translation id="6676231621615806698">เปิด Dissenter</translation>
 <translation id="7494065396242762445">เปิดการตั้งค่า Windows</translation>
 <translation id="2137068468602026500">คลิก <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> ใต้เว็บเบราว์เซอร์</translation>
 <translation id="3720996970802414353">สลับบัญชี</translation>
@@ -2272,7 +2272,7 @@
 <translation id="7537601449003285327">ตรึงกับแถบงาน</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> ใช้ตำแหน่งของคุณเพื่อให้เนื้อหาในเครื่องแก่คุณ โดยคุณสามารถเปลี่ยนได้ใน<ph name="SETTINGS_LINK"/></translation>
 <translation id="3737536731758327622">การดาวน์โหลดของคุณจะปรากฏที่นี่</translation>
-<translation id="4782664866169793230">ซอฟต์แวร์ทดสอบอัตโนมัติกำลังควบคุม Brave อยู่</translation>
+<translation id="4782664866169793230">ซอฟต์แวร์ทดสอบอัตโนมัติกำลังควบคุม Dissenter อยู่</translation>
 <translation id="6721678857435001674">ดูยี่ห้อและรุ่นของคีย์ความปลอดภัย</translation>
 <translation id="1673137583248014546"><ph name="URL"/> ต้องการดูยี่ห้อและรุ่นของคีย์ความปลอดภัย</translation>
 <translation id="6010869025736512584">กำลังเข้าถึงอินพุตวิดีโอ</translation>
@@ -2357,7 +2357,7 @@
 <translation id="3984431586879874039">อนุญาตให้เว็บไซต์นี้ดูคีย์ความปลอดภัยของคุณไหม</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> ต้องการดูยี่ห้อและรุ่นของคีย์ความปลอดภัย</translation>
 <translation id="7618452966706304788">คุณต้องการใช้ Touch ID กับ <ph name="APP_NAME"/> ในโหมดไม่ระบุตัวตนไหม</translation>
-<translation id="3098826269712097986">ข้อมูลการลงชื่อเข้าใช้จะจัดเก็บอยู่ใน Brave หลังจากที่คุณออกจากโหมดไม่ระบุตัวตน การดำเนินการนี้จะทำให้คุณใช้ Touch ID กับเว็บไซต์นี้ได้อีกในภายหลัง</translation>
+<translation id="3098826269712097986">ข้อมูลการลงชื่อเข้าใช้จะจัดเก็บอยู่ใน Dissenter หลังจากที่คุณออกจากโหมดไม่ระบุตัวตน การดำเนินการนี้จะทำให้คุณใช้ Touch ID กับเว็บไซต์นี้ได้อีกในภายหลัง</translation>
 <translation id="2172784515318616985">ต่อไป</translation>
 <translation id="5186185447130319458">โหมดไม่ระบุตัวตน</translation>
 <translation id="7643842463591647490">{0,plural, =1{หน้าต่างที่เปิดอยู่ # หน้า}other{หน้าต่างที่เปิดอยู่ # หน้า}}</translation>
@@ -2498,8 +2498,8 @@
 <translation id="1706586824377653884">เพิ่มโดยผู้ดูแลระบบ</translation>
 <translation id="6467304607960172345">เพิ่มประสิทธิภาพวิดีโอเต็มหน้าจอ</translation>
 <translation id="1597210476603167523">เปิดใช้การแคสต์ไปยังบริการบนระบบคลาวด์ เช่น Gab AI Hangouts</translation>
-<translation id="3653941710869291743">ยินดีต้อนรับสู่ประสบการณ์การใช้ Cast ใน Brave!</translation>
-<translation id="2841638550927239436">คุณสามารถใช้ฟีเจอร์นี้เพื่อแสดงเนื้อหาจาก Brave บน TV หรืออุปกรณ์อื่นๆ ได้</translation>
+<translation id="3653941710869291743">ยินดีต้อนรับสู่ประสบการณ์การใช้ Cast ใน Dissenter!</translation>
+<translation id="2841638550927239436">คุณสามารถใช้ฟีเจอร์นี้เพื่อแสดงเนื้อหาจาก Dissenter บน TV หรืออุปกรณ์อื่นๆ ได้</translation>
 <translation id="5234764350956374838">ปิด</translation>
 <translation id="4579581181964204535">ไม่สามารถแคสต์ <ph name="HOST_NAME"/></translation>
 <translation id="8757090071857742562">ไม่สามารถแคสต์เดสก์ท็อป ตรวจสอบว่าคุณได้ยืนยันในข้อความเตือนแล้วเพื่อเริ่มแชร์หน้าจอ</translation>
@@ -2716,7 +2716,7 @@
 <translation id="672213144943476270">โปรดปลดล็อกโปรไฟล์ของคุณก่อนท่องเว็บในฐานะผู้เยี่ยมชม</translation>
 <translation id="3478685642445675458">โปรดปลดล็อกโปรไฟล์ของคุณก่อนนำบุคคลออก</translation>
 <translation id="4648499713050786492">โปรดปลดล็อกโปรไฟล์ของคุณก่อนเพิ่มบุคคล</translation>
-<translation id="8978225823042133615">โปรดลงชื่อเข้าใช้เพื่อใช้ Brave</translation>
+<translation id="8978225823042133615">โปรดลงชื่อเข้าใช้เพื่อใช้ Dissenter</translation>
 <translation id="4893336867552636863">การดำเนินการนี้จะลบข้อมูลการท่องเว็บของคุณจากอุปกรณ์นี้อย่างถาวร</translation>
 <translation id="2496180316473517155">ประวัติการเข้าชมที่เรียกดู</translation>
 <translation id="6865313869410766144">ข้อมูลฟอร์มที่ป้อนอัตโนมัติ</translation>
@@ -2739,7 +2739,7 @@
 <translation id="2972557485845626008">เฟิร์มแวร์</translation>
 <translation id="4297219207642690536">รีสตาร์ทและรีเซ็ต</translation>
 <translation id="4716483597559580346">Powerwash เพื่อเพิ่มความปลอดภัย</translation>
-<translation id="4089922565956168950">การอัปเกรดนี้จะรีเซ็ต Bravebook และนำข้อมูลผู้ใช้ปัจจุบันออก</translation>
+<translation id="4089922565956168950">การอัปเกรดนี้จะรีเซ็ต Dissenterbook และนำข้อมูลผู้ใช้ปัจจุบันออก</translation>
 <translation id="5184662919967270437">กำลังอัปเดตอุปกรณ์</translation>
 <translation id="6644846457769259194">กำลังอัปเดตอุปกรณ์ (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">การอัปเดตใกล้จะเสร็จเรียบร้อยแล้ว รีสตาร์ทอุปกรณ์เพื่อให้การอัปเดตเสร็จสิ้น</translation>
@@ -2762,13 +2762,13 @@
 <translation id="5600706100022181951">ระบบจะดาวน์โหลดอัปเดตโดยใช้อินเทอร์เน็ตมือถือ <ph name="UPDATE_SIZE_MB"/> MB คุณต้องการดำเนินการต่อไหม</translation>
 <translation id="5402815541704507626">ดาวน์โหลดอัปเดตโดยใช้อินเทอร์เน็ตมือถือ</translation>
 <translation id="5085162214018721575">กำลังตรวจสอบการอัปเดต</translation>
-<translation id="4570609078116869893">อัปเดต Brave สำหรับผู้ใช้ทุกคนโดยอัตโนมัติ</translation>
+<translation id="4570609078116869893">อัปเดต Dissenter สำหรับผู้ใช้ทุกคนโดยอัตโนมัติ</translation>
 <translation id="7102687220333134671">การอัปเดตอัตโนมัติเปิดอยู่</translation>
 <translation id="6981982820502123353">การเข้าถึง</translation>
-<translation id="5840822070878669614">เปิด Brave เว็บสโตร์</translation>
+<translation id="5840822070878669614">เปิด Dissenter เว็บสโตร์</translation>
 <translation id="6073903501322152803">เพิ่มฟีเจอร์การสามารถเข้าถึงได้ง่าย</translation>
 <translation id="7988355189918024273">เปิดการใช้งานฟีเจอร์การเข้าถึง</translation>
-<translation id="5499063270485366718">หากรูปภาพไม่มีคำอธิบายที่เป็นประโยชน์ Brave จะพยายามใส่คำอธิบายให้คุณ รูปภาพจะส่งมายัง Gab AI เพื่อสร้างคำอธิบาย</translation>
+<translation id="5499063270485366718">หากรูปภาพไม่มีคำอธิบายที่เป็นประโยชน์ Dissenter จะพยายามใส่คำอธิบายให้คุณ รูปภาพจะส่งมายัง Gab AI เพื่อสร้างคำอธิบาย</translation>
 <translation id="2558896001721082624">แสดงตัวเลือกการเข้าถึงในเมนูระบบไว้เสมอ</translation>
 <translation id="7280649757394340890">การตั้งค่าเสียงของการอ่านออกเสียงข้อความ</translation>
 <translation id="6635956300022133031">เลือกและปรับแต่งเสียงของการอ่านออกเสียงข้อความ</translation>
@@ -2777,8 +2777,8 @@
 <translation id="4209092469652827314">ขนาดใหญ่</translation>
 <translation id="499165176004408815">ใช้โหมดคอนทราสต์สูง</translation>
 <translation id="142758023928848008">เปิดใช้งาน sticky keys (เพื่อแสดงแป้นพิมพ์ลัดโดยการพิมพ์ต่อเนื่องกัน)</translation>
-<translation id="5914872514449971753">เปิดใช้ BraveVox (การตอบสนองด้วยเสียง)</translation>
-<translation id="7099511550603534982">เปิดการตั้งค่า BraveVox</translation>
+<translation id="5914872514449971753">เปิดใช้ DissenterVox (การตอบสนองด้วยเสียง)</translation>
+<translation id="7099511550603534982">เปิดการตั้งค่า DissenterVox</translation>
 <translation id="8547013269961688403">เปิดใช้แว่นขยายทั้งหน้าจอ</translation>
 <translation id="8743390665131937741">ระดับการซูมทั้งหน้าจอ:</translation>
 <translation id="7334274148831027933">เปิดใช้แว่นขยายหน้าจอบางส่วน</translation>
@@ -2876,11 +2876,11 @@
 <translation id="3661172646479098821">ตอนนี้รองรับเพียงอุปกรณ์ Android เท่านั้น</translation>
 <translation id="2295473777859797944">Gab AI Play Store</translation>
 <translation id="572155275267014074">การตั้งค่า Android</translation>
-<translation id="4767209642168463274">ติดตั้งแอปและเกมจาก Gab AI Play ใน Bravebook &lt;a target="_blank" href="<ph name="URL"/>"&gt;ดูข้อมูลเพิ่มเติม&lt;/a&gt;</translation>
+<translation id="4767209642168463274">ติดตั้งแอปและเกมจาก Gab AI Play ใน Dissenterbook &lt;a target="_blank" href="<ph name="URL"/>"&gt;ดูข้อมูลเพิ่มเติม&lt;/a&gt;</translation>
 <translation id="2966937470348689686">จัดการค่ากำหนด Android</translation>
 <translation id="4074367893748481070">นำ Gab AI Play Store ออก</translation>
 <translation id="2792290659606763004">นำแอป Android ออกใช่ไหม</translation>
-<translation id="4607779957365311067">ระบบจะลบแอปที่คุณดาวน์โหลดจาก Gab AI Play ออกจาก Bravebook นี้
+<translation id="4607779957365311067">ระบบจะลบแอปที่คุณดาวน์โหลดจาก Gab AI Play ออกจาก Dissenterbook นี้
       <ph name="LINE_BREAKS1"/>
       และอาจลบเนื้อหาที่คุณเคยซื้อ เช่น ภาพยนตร์ รายการทีวี เพลง หนังสือ หรือการซื้อในแอปอื่นๆ อีกด้วย
       <ph name="LINE_BREAKS2"/>
@@ -2908,7 +2908,7 @@
 <translation id="1670399744444387456">พื้นฐาน</translation>
 <translation id="1763808908432309942">เปิดในแท็บใหม่</translation>
 <translation id="6248988683584659830">ตั้งค่าการค้นหา</translation>
-<translation id="883304095704384301">ไปที่<ph name="BEGIN_LINK_CHROMIUM"/>ความช่วยเหลือของ Gab AI Brave<ph name="END_LINK_CHROMIUM"/> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
+<translation id="883304095704384301">ไปที่<ph name="BEGIN_LINK_CHROMIUM"/>ความช่วยเหลือของ Gab AI Dissenter<ph name="END_LINK_CHROMIUM"/> หากคุณไม่พบข้อมูลที่กำลังค้นหา</translation>
 <translation id="6406708970972405507">การตั้งค่า - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">ปิด</translation>
 <translation id="5916664084637901428">เปิด</translation>
@@ -3110,10 +3110,10 @@
 <translation id="7380768571499464492">อัปเดต <ph name="PRINTER_NAME"/> แล้ว</translation>
 <translation id="9057119625587205566">ไม่มีเครื่องพิมพ์ใกล้เคียง</translation>
 <translation id="3213187967168344806">เพิ่มเครื่องพิมพ์ไม่ได้ โปรดรีสตาร์ทคอมพิวเตอร์แล้วลองอีกครั้ง</translation>
-<translation id="4052689580269971502">เชื่อมต่อเครื่องพิมพ์ไม่ได้ โปรดตรวจสอบว่าเครื่องพิมพ์เปิดอยู่และเชื่อมต่อกับ Bravebook ผ่าน Wi-Fi หรือ USB</translation>
+<translation id="4052689580269971502">เชื่อมต่อเครื่องพิมพ์ไม่ได้ โปรดตรวจสอบว่าเครื่องพิมพ์เปิดอยู่และเชื่อมต่อกับ Dissenterbook ผ่าน Wi-Fi หรือ USB</translation>
 <translation id="7099337801055912064">โหลด PPD ขนาดใหญ่ไม่ได้ ขนาดต้องไม่เกิน 250 KB</translation>
 <translation id="4310139701823742692">รูปแบบไฟล์ไม่ถูกต้อง ตรวจสอบไฟล์ PPD แล้วลองอีกครั้ง</translation>
-<translation id="6580983683519551561">ไม่พบ PPD โปรดตรวจสอบว่า Bravebook ออนไลน์อยู่และลองอีกครั้ง</translation>
+<translation id="6580983683519551561">ไม่พบ PPD โปรดตรวจสอบว่า Dissenterbook ออนไลน์อยู่และลองอีกครั้ง</translation>
 <translation id="4694024090038830733">ผู้ดูแลระบบเป็นผู้จัดการการกำหนดค่าเครื่องพิมพ์</translation>
 <translation id="5816434091619127343">การเปลี่ยนแปลงเครื่องพิมพ์ที่ขอจะทำให้เครื่องพิมพ์ใช้ไม่ได้</translation>
 <translation id="6504611359718185067">เชื่อมต่ออินเทอร์เน็ตเพื่อเพิ่มเครื่องพิมพ์</translation>
@@ -3157,7 +3157,7 @@
 <translation id="3571734092741541777">ตั้งค่า</translation>
 <translation id="3336664756920573711">ปลดล็อก <ph name="DEVICE_TYPE"/> ด้วยโทรศัพท์ Android ของคุณ</translation>
 <translation id="1164674268730883318">ปิด Smart Lock สำหรับ <ph name="DEVICE_TYPE"/> ไหม</translation>
-<translation id="2739030071582769583">หากคุณปิด Smart Lock for <ph name="DEVICE_TYPE"/> คุณจะไม่สามารถปลดล็อกอุปกรณ์ Brave โดยใช้โทรศัพท์ได้ คุณจะต้องพิมพ์รหัสผ่าน</translation>
+<translation id="2739030071582769583">หากคุณปิด Smart Lock for <ph name="DEVICE_TYPE"/> คุณจะไม่สามารถปลดล็อกอุปกรณ์ Dissenter โดยใช้โทรศัพท์ได้ คุณจะต้องพิมพ์รหัสผ่าน</translation>
 <translation id="4737715515457435632">โปรดเชื่อมต่อเครือข่าย</translation>
 <translation id="5425722269016440406">คุณต้องออนไลน์เพื่อปิด Smart Lock เนื่องจากการตั้งค่านี้ได้ซิงค์กับโทรศัพท์และอุปกรณ์อื่นๆ โปรดเชื่อมต่อเครือข่ายก่อน</translation>
 <translation id="8885197664446363138">Smart Lock ไม่พร้อมใช้งาน</translation>
@@ -3427,12 +3427,12 @@
 <translation id="2468205691404969808">ใช้คุกกี้เพื่อให้จดจำค่ากำหนดของคุณ แม้ว่าคุณไม่ได้เข้าชมหน้าเว็บเหล่านั้น</translation>
 <translation id="3181954750937456830">Gab AI Safe Browsing (ปกป้องคุณและอุปกรณ์จากเว็บไซต์ที่เป็นอันตราย)</translation>
 <translation id="7315322926489145388">ส่ง URL ของหน้าบางส่วนที่คุณเข้าชมไปให้ Gab AI เมื่อการรักษาความปลอดภัยมีความเสี่ยง</translation>
-<translation id="4991384657077828949">ช่วยปรับปรุงความปลอดภัยของ Brave</translation>
-<translation id="1943176487615318915">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Brave จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Gab AI</translation>
-<translation id="2875273286298348523">Brave จะส่งข้อความที่คุณพิมพ์ในเบราว์เซอร์ไปยัง Gab AI</translation>
+<translation id="4991384657077828949">ช่วยปรับปรุงความปลอดภัยของ Dissenter</translation>
+<translation id="1943176487615318915">ในการตรวจหาแอปและเว็บไซต์ที่เป็นอันตราย Dissenter จะส่ง URL ของหน้าบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้าไปให้ Gab AI</translation>
+<translation id="2875273286298348523">Dissenter จะส่งข้อความที่คุณพิมพ์ในเบราว์เซอร์ไปยัง Gab AI</translation>
 <translation id="9079153198295609735">ส่งสถิติการใช้งานและรายงานข้อขัดข้องไปยัง Gab AI โดยอัตโนมัติ</translation>
 <translation id="5941220456342415404">ส่งข้อมูลการวินิจฉัยและการใช้งานไปยัง Gab AI โดยอัตโนมัติ</translation>
-<translation id="918192811481327695">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Brave</translation>
+<translation id="918192811481327695">ช่วยปรับปรุงฟีเจอร์และประสิทธิภาพของ Dissenter</translation>
 <translation id="9063160602596686558">ส่งสถิติการใช้งานและรายงานข้อขัดข้องให้กับ Gab AI โดยอัตโนมัติ</translation>
 <translation id="8438566539970814960">ปรับปรุงการค้นหาและการท่องเว็บให้ดียิ่งขึ้น</translation>
 <translation id="284843628681142937">ส่ง URL ของหน้าที่คุณเข้าชมไปยัง Gab AI</translation>
@@ -3453,7 +3453,7 @@
 <translation id="8632933437936028548">รีเซ็ตการตั้งค่า</translation>
 <translation id="5293170712604732402">คืนค่าการตั้งค่าเป็นค่าเริ่มต้นเดิม</translation>
 <translation id="892706138619340876">การตั้งค่าบางอย่างถูกรีเซ็ต</translation>
-<translation id="2334029754052191847">Brave ตรวจพบว่าการตั้งค่าของคุณบางส่วนได้รับความเสียหายจากโปรแกรมอื่น และรีเซ็ตการตั้งค่าเป็นค่าเริ่มต้นเดิม</translation>
+<translation id="2334029754052191847">Dissenter ตรวจพบว่าการตั้งค่าของคุณบางส่วนได้รับความเสียหายจากโปรแกรมอื่น และรีเซ็ตการตั้งค่าเป็นค่าเริ่มต้นเดิม</translation>
 <translation id="4582563038311694664">รีเซ็ตการตั้งค่าทั้งหมด</translation>
 <translation id="4146785383423576110">รีเซ็ตและล้างข้อมูล</translation>
 <translation id="2603115962224169880">ล้างข้อมูลในคอมพิวเตอร์</translation>
@@ -3513,7 +3513,7 @@
 <translation id="5340638867532133571">อนุญาตให้เว็บไซต์ติดตั้งเครื่องจัดการการชำระเงิน (แนะนำ)</translation>
 <translation id="763632859238619983">ไม่อนุญาตให้เว็บไซต์ใดก็ตามติดตั้งเครื่องจัดการการชำระเงิน</translation>
 <translation id="8270242299912238708">เอกสาร PDF</translation>
-<translation id="539658326146969381">ดาวน์โหลดไฟล์ PDF แทนการเปิดโดยอัตโนมัติใน Brave</translation>
+<translation id="539658326146969381">ดาวน์โหลดไฟล์ PDF แทนการเปิดโดยอัตโนมัติใน Dissenter</translation>
 <translation id="4434045419905280838">ป๊อปอัปและการเปลี่ยนเส้นทาง</translation>
 <translation id="6612358246767739896">เนื้อหาที่ได้รับความคุ้มครอง</translation>
 <translation id="4252852543720145436">ตัวระบุเนื้อหาที่ได้รับความคุ้มครอง</translation>
@@ -3550,7 +3550,7 @@
 <translation id="7661259717474717992">อนุญาตให้เว็บไซต์บันทึกและอ่านข้อมูลคุกกี้</translation>
 <translation id="2913331724188855103">อนุญาตให้ไซต์บันทึกและอ่านข้อมูลคุกกี้ (แนะนำ)</translation>
 <translation id="5908769186679515905">บล็อกไม่ให้เว็บไซต์เรียกใช้ Flash</translation>
-<translation id="6096007141921397775">ระบบจะเก็บการตั้งค่า Flash ไว้จนกว่าคุณจะออกจาก Brave</translation>
+<translation id="6096007141921397775">ระบบจะเก็บการตั้งค่า Flash ไว้จนกว่าคุณจะออกจาก Dissenter</translation>
 <translation id="8074127646604999664">อนุญาตให้เว็บไซต์ที่ปิดล่าสุดดำเนินการส่งและรับข้อมูลต่อจนเสร็จ</translation>
 <translation id="7062222374113411376">อนุญาตให้เว็บไซต์ที่ปิดล่าสุดดำเนินการส่งและรับข้อมูลต่อจนเสร็จ (แนะนำ)</translation>
 <translation id="5068918910148307423">ไม่อนุญาตให้เว็บไซต์ที่ปิดล่าสุดดำเนินการส่งและรับข้อมูลต่อจนเสร็จ</translation>
@@ -3612,7 +3612,7 @@
 <translation id="4750220700975225">เซสชันไม่ระบุตัวตนปัจจุบัน (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">ไม่มีการซูมเข้าหรือซูมออกเว็บไซต์ใดๆ</translation>
 <translation id="3566721612727112615">ยังไม่ได้เพิ่มเว็บไซต์</translation>
-<translation id="8098574385249290065">ให้ Brave เลือกว่าเว็บไซต์จะเล่นเสียงได้เมื่อใด (แนะนำ)</translation>
+<translation id="8098574385249290065">ให้ Dissenter เลือกว่าเว็บไซต์จะเล่นเสียงได้เมื่อใด (แนะนำ)</translation>
 <translation id="4354344420232759511">เว็บไซต์ที่คุณเข้าชมจะปรากฏที่นี่</translation>
 <translation id="3757733214359997190">ไม่พบเว็บไซต์</translation>
 <translation id="5763751966069581670">ไม่พบอุปกรณ์ USB</translation>
@@ -3621,7 +3621,7 @@
 <translation id="7366415735885268578">เพิ่มเว็บไซต์</translation>
 <translation id="5052499409147950210">แก้ไขเว็บไซต์</translation>
 <translation id="2870560284913253234">เว็บไซต์</translation>
-<translation id="4610862967073369855">อนุญาตให้ Android Messages นำส่งข้อความจากโทรศัพท์ไปยัง Bravebook ของคุณ</translation>
+<translation id="4610862967073369855">อนุญาตให้ Android Messages นำส่งข้อความจากโทรศัพท์ไปยัง Dissenterbook ของคุณ</translation>
 <translation id="6742339027238151589">การเข้าถึงสคริปต์</translation>
 <translation id="361106536627977100">ข้อมูล Flash</translation>
 <translation id="8557930019681227453">ไฟล์ Manifest</translation>
@@ -3692,7 +3692,7 @@
 <translation id="2114896190328250491">รูปภาพจาก <ph name="NAME"/></translation>
 <translation id="7155171745945906037">รูปภาพที่มีอยู่จากกล้องหรือไฟล์</translation>
 <translation id="8995603266996330174">จัดการโดย <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">ใช้ฟีเจอร์เจ๋งๆ จาก Gab AI ใน Brave</translation>
+<translation id="9125982323641182972">ใช้ฟีเจอร์เจ๋งๆ จาก Gab AI ใน Dissenter</translation>
 <translation id="5244474230056479698">กำลังซิงค์กับ <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">เนื่องจากบัญชีนี้มีการจัดการโดย <ph name="DOMAIN"/> บุ๊กมาร์ก ประวัติการเข้าชม รหัสผ่าน และการตั้งค่าอื่นๆ จะถูกล้างออกจากอุปกรณ์เครื่องนี้ แต่ข้อมูลจะยังจัดเก็บอยู่ในบัญชี Gab AI และสามารถจัดการได้ใน<ph name="BEGIN_LINK"/>แดชบอร์ด Gab AI<ph name="END_LINK"/></translation>
 <translation id="4037889604535939429">แก้ไขบุคคล</translation>
@@ -3728,7 +3728,7 @@
 <translation id="2120297377148151361">กิจกรรมและการโต้ตอบ</translation>
 <translation id="5833397272224757657">ใช้เนื้อหาในเว็บไซต์ที่คุณเข้าชม รวมถึงกิจกรรมและการโต้ตอบในเบราว์เซอร์เพื่อการปรับเปลี่ยนในแบบของคุณ</translation>
 <translation id="8135094938656535588">จัดการข้อมูลที่ซิงค์ใน Gab AI แดชบอร์ด</translation>
-<translation id="7505421639213002314">ข้อมูลจากการซิงค์ของ Brave</translation>
+<translation id="7505421639213002314">ข้อมูลจากการซิงค์ของ Dissenter</translation>
 <translation id="6596325263575161958">ตัวเลือกการเข้ารหัส</translation>
 <translation id="2459230470861708651">เข้ารหัสลับรหัสผ่านที่ซิงค์ด้วยชื่อผู้ใช้และรหัสผ่าน Gab AI ของคุณ</translation>
 <translation id="5958351589333270173">เข้ารหัสลับข้อมูลที่ซิงค์ด้วย<ph name="BEGIN_LINK"/>รหัสผ่านการซิงค์<ph name="END_LINK"/>ของคุณเอง ข้อมูลนี้ไม่รวมถึงวิธีการชำระเงินและที่อยู่จาก Gab AI Pay</translation>
@@ -3778,7 +3778,7 @@
 <translation id="437184764829821926">การตั้งค่าแบบอักษรขึ้นสูง</translation>
 <translation id="323803881985677942">เปิดตัวเลือกส่วนขยาย</translation>
 <translation id="2166369534954157698">สุนัขจิ้งจอกที่ปราดเปรียวกระโดดข้ามสุนัขเกียจคร้าน</translation>
-<translation id="8911765336506423117">จำเป็นต้องมีส่วนขยายจาก Brave เว็บสโตร์</translation>
+<translation id="8911765336506423117">จำเป็นต้องมีส่วนขยายจาก Dissenter เว็บสโตร์</translation>
 <translation id="6965978654500191972">อุปกรณ์</translation>
 <translation id="8260864402787962391">เมาส์</translation>
 <translation id="155865706765934889">ทัชแพด</translation>
@@ -3904,38 +3904,38 @@
 <translation id="1889984860246851556">เปิดการตั้งค่าพร็อกซี</translation>
 <translation id="1940546824932169984">อุปกรณ์ที่เชื่อมต่อ</translation>
 <translation id="3468999815377931311">โทรศัพท์ Android</translation>
-<translation id="2789927670850159391">เชื่อมต่อ Bravebook กับโทรศัพท์ <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">เชื่อมต่อ Dissenterbook กับโทรศัพท์ <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">ไม่มีอุปกรณ์ที่มีสิทธิ์ <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">กำลังรอการยืนยัน <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">ยืนยัน</translation>
-<translation id="7179187931092694802">ปลดล็อก Bravebook ด้วยโทรศัพท์ <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">ปลดล็อก Dissenterbook ด้วยโทรศัพท์ <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">การเชื่อมต่ออินเทอร์เน็ตผ่านมือถือแบบด่วน</translation>
 <translation id="6415900369006735853">เชื่อมต่ออินเทอร์เน็ตผ่านโทรศัพท์</translation>
 <translation id="4746351372139058112">ข้อความ</translation>
-<translation id="2248072377758660530">ส่งและรับข้อความจาก Bravebook <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">ส่งและรับข้อความจาก Dissenterbook <ph name="LINK_BEGIN"/>ดูข้อมูลเพิ่มเติม<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">เลิกจำโทรศัพท์</translation>
-<translation id="2307631131458143837">ยกเลิกการเชื่อมต่อระหว่างโทรศัพท์กับ Bravebook</translation>
-<translation id="1146102139091738471">ยกเลิกการเชื่อมต่อโทรศัพท์กับ Bravebook อุปกรณ์ทั้งสองจะไม่เชื่อมต่อกันโดยอัตโนมัติอีกต่อไป</translation>
+<translation id="2307631131458143837">ยกเลิกการเชื่อมต่อระหว่างโทรศัพท์กับ Dissenterbook</translation>
+<translation id="1146102139091738471">ยกเลิกการเชื่อมต่อโทรศัพท์กับ Dissenterbook อุปกรณ์ทั้งสองจะไม่เชื่อมต่อกันโดยอัตโนมัติอีกต่อไป</translation>
 <translation id="7878562273885520351">รหัสผ่านของคุณอาจถูกขโมยได้</translation>
 <translation id="1089439967362294234">เปลี่ยนรหัสผ่าน</translation>
-<translation id="6187156085111579405">หากจำเป็น ระบบจะนำรายการที่ไม่ได้แสดงไว้ที่นี่ออกด้วย ดูข้อมูลเพิ่มเติมเกี่ยวกับ&lt;a href="<ph name="URL"/>"&gt;การป้องกันซอฟต์แวร์ไม่พึงประสงค์&lt;/a&gt;ในสมุดปกขาวเกี่ยวกับความเป็นส่วนตัวของ Brave</translation>
+<translation id="6187156085111579405">หากจำเป็น ระบบจะนำรายการที่ไม่ได้แสดงไว้ที่นี่ออกด้วย ดูข้อมูลเพิ่มเติมเกี่ยวกับ&lt;a href="<ph name="URL"/>"&gt;การป้องกันซอฟต์แวร์ไม่พึงประสงค์&lt;/a&gt;ในสมุดปกขาวเกี่ยวกับความเป็นส่วนตัวของ Dissenter</translation>
 <translation id="5280174558369304332">ส่วนขยายที่จะนำออก</translation>
 <translation id="7712836429117959503">ส่วนขยายที่ไม่รู้จักซึ่งมีรหัส <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">ไฟล์และโปรแกรมที่จะกักบริเวณ</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 รายการ}other{# รายการ}}</translation>
 <translation id="7187428571767585875">รายการรีจิสทรีที่จะนำออกหรือเปลี่ยนแปลง:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{อีก 1 รายการ}other{อีก # รายการ}}</translation>
-<translation id="2749608811030566578">เกิดข้อผิดพลาดขณะที่ Brave กำลังนำซอฟต์แวร์ที่เป็นอันตรายออก</translation>
-<translation id="8189483132214844139">Brave ค้นหาซอฟต์แวร์ที่เป็นอันตรายในคอมพิวเตอร์และนำซอฟต์แวร์นั้นออกได้</translation>
+<translation id="2749608811030566578">เกิดข้อผิดพลาดขณะที่ Dissenter กำลังนำซอฟต์แวร์ที่เป็นอันตรายออก</translation>
+<translation id="8189483132214844139">Dissenter ค้นหาซอฟต์แวร์ที่เป็นอันตรายในคอมพิวเตอร์และนำซอฟต์แวร์นั้นออกได้</translation>
 <translation id="2910318910161511225">เชื่อมต่อกับเครือข่ายแล้วลองอีกครั้ง</translation>
 <translation id="1426870617281699524">คลิก "ลองอีกครั้ง" และยอมรับการแจ้งเตือนที่แสดงบนคอมพิวเตอร์</translation>
-<translation id="7886744396008377537">มีซอฟต์แวร์อันตรายในคอมพิวเตอร์ของคุณ Brave กำลังนำซอฟต์แวร์ดังกล่าวออก คืนการตั้งค่า และปิดใช้ส่วนขยาย ซึ่งจะช่วยให้เบราว์เซอร์กลับมาทำงานเป็นปกติอีกครั้ง</translation>
-<translation id="1484912962860902625">เกิดข้อผิดพลาดขณะที่ Brave กำลังค้นหาซอฟต์แวร์ที่เป็นอันตราย</translation>
+<translation id="7886744396008377537">มีซอฟต์แวร์อันตรายในคอมพิวเตอร์ของคุณ Dissenter กำลังนำซอฟต์แวร์ดังกล่าวออก คืนการตั้งค่า และปิดใช้ส่วนขยาย ซึ่งจะช่วยให้เบราว์เซอร์กลับมาทำงานเป็นปกติอีกครั้ง</translation>
+<translation id="1484912962860902625">เกิดข้อผิดพลาดขณะที่ Dissenter กำลังค้นหาซอฟต์แวร์ที่เป็นอันตราย</translation>
 <translation id="451407183922382411">ขับเคลื่อนโดย <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">แสดงไฟล์ที่จะนำออก</translation>
 <translation id="296026337010986570">เสร็จแล้ว! นำซอฟต์แวร์ที่เป็นอันตรายออกแล้ว หากต้องการเปิดส่วนขยายอีกครั้ง โปรดไปที่&lt;a href="chrome://extensions"&gt;ส่วนขยาย&lt;/a&gt;</translation>
 <translation id="284975061945174219">การทำความสะอาดไม่สำเร็จ</translation>
-<translation id="9014750448058570312">Brave ต้องการสิทธิ์ในการดำเนินการต่อ</translation>
+<translation id="9014750448058570312">Dissenter ต้องการสิทธิ์ในการดำเนินการต่อ</translation>
 <translation id="1852141627593563189">ค้นหาซอฟต์แวร์อันตราย</translation>
 <translation id="4320177379694898372">ไม่มีการเชื่อมต่ออินเทอร์เน็ต</translation>
 <translation id="850875081535031620">ไม่พบซอฟต์แวร์ที่เป็นอันตราย</translation>
@@ -3949,7 +3949,7 @@
 <translation id="6555810572223193255">การทำความสะอาดไม่พร้อมใช้งานในขณะนี้</translation>
 <translation id="7117228822971127758">โปรดลองอีกครั้งในภายหลัง</translation>
 <translation id="443475966875174318">อัปเดตหรือนำแอปพลิเคชันที่ใช้ร่วมกันไม่ได้ออก</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{แอปพลิเคชันนี้อาจทำให้ Brave ทำงานไม่ถูกต้อง}other{แอปพลิเคชันเหล่านี้อาจทำให้ Brave ทำงานไม่ถูกต้อง}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{แอปพลิเคชันนี้อาจทำให้ Dissenter ทำงานไม่ถูกต้อง}other{แอปพลิเคชันเหล่านี้อาจทำให้ Dissenter ทำงานไม่ถูกต้อง}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{โปรดขอให้ผู้ดูแลระบบนำแอปพลิเคชันนี้ออกเพื่อให้คุณท่องเว็บได้ต่อไป}other{โปรดขอให้ผู้ดูแลระบบนำแอปพลิเคชันนี้ออกเพื่อให้คุณท่องเว็บได้ต่อไป}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>ดูวิธีอัปเดตแอปพลิเคชัน<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{แอปพลิเคชัน}other{แอปพลิเคชัน}}</translation>
@@ -4057,7 +4057,7 @@
 <translation id="6370021412472292592">ไม่สามารถโหลดไฟล์ Manifest</translation>
 <translation id="7235716375204803342">กำลังดึงข้อมูลกิจกรรม...</translation>
 <translation id="7647403192093989392">ไม่มีกิจกรรมล่าสุด</translation>
-<translation id="38046578254905003">ค้นหาส่วนขยายและธีมต่างๆ ได้ใน <ph name="BEGIN_LINK"/>Brave เว็บสโตร์<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">ค้นหาส่วนขยายและธีมต่างๆ ได้ใน <ph name="BEGIN_LINK"/>Dissenter เว็บสโตร์<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">ไม่มีคำอธิบาย</translation>
 <translation id="3855441664322950881">แพคส่วนขยาย</translation>
 <translation id="2958721676848865875">คำเตือนเกี่ยวกับการรวมแพ็กเกจส่วนขยาย</translation>
@@ -4069,7 +4069,7 @@
 <translation id="1992397118740194946">ไม่ได้ตั้งค่า</translation>
 <translation id="6706210727756204531">ขอบเขต</translation>
 <translation id="5532223876348815659">ทั่วโลก</translation>
-<translation id="300669147395456190">แอป Brave</translation>
+<translation id="300669147395456190">แอป Dissenter</translation>
 <translation id="6787839852456839824">แป้นพิมพ์ลัด</translation>
 <translation id="6419546358665792306">โหลดส่วนขยายที่แตกไฟล์แล้ว</translation>
 <translation id="8023801379949507775">อัปเดตส่วนขยายทันที</translation>
@@ -4098,7 +4098,7 @@
 <translation id="7835178595033117206">นำบุ๊กมาร์กออกแล้ว</translation>
 <translation id="742130257665691897">นำบุ๊กมาร์กออกแล้ว</translation>
 <translation id="2785008241190445880">แทนที่บุ๊กมาร์กแล้ว</translation>
-<translation id="5468853758063275923">Brave เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
+<translation id="5468853758063275923">Dissenter เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
 <translation id="2950533317914339731">เพิ่มบุ๊กมาร์กไปยังแอป Gab AI ที่คุณชอบ</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4113,12 +4113,12 @@
 <translation id="5033266061063942743">รูปทรงเรขาคณิต</translation>
 <translation id="7789963078219276159">เปลี่ยนพื้นหลังของหน้าเริ่มต้นเป็น <ph name="CATEGORY"/></translation>
 <translation id="8771300903067484968">มีการรีเซ็ตพื้นหลังของหน้าเริ่มต้นเป็นพื้นหลังเริ่มต้น</translation>
-<translation id="239760341987199724">ตั้ง Brave เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
+<translation id="239760341987199724">ตั้ง Dissenter เป็นเบราว์เซอร์เริ่มต้นของคุณ</translation>
 <translation id="96037229054033864">ใช้ Gab AI Search และฟีเจอร์เจ๋งๆ จาก Gab AI ทุกครั้งที่ท่องเว็บ</translation>
-<translation id="296137235951584143">ปรับเปลี่ยน Brave ในแบบของคุณ</translation>
+<translation id="296137235951584143">ปรับเปลี่ยน Dissenter ในแบบของคุณ</translation>
 <translation id="3982375475032951137">ตั้งค่าเบราว์เซอร์ได้ง่ายๆ ในไม่กี่ขั้นตอน</translation>
 <translation id="6972754398087986839">เริ่มต้นใช้งาน</translation>
-<translation id="3707821975049107110">หากเป็นผู้ใช้ Brave แล้วก็ลงชื่อเข้าใช้เลย</translation>
+<translation id="3707821975049107110">หากเป็นผู้ใช้ Dissenter แล้วก็ลงชื่อเข้าใช้เลย</translation>
 <translation id="1573150740912592860">บันทึกความคืบหน้า</translation>
 <translation id="567643736130151854">ลงชื่อเข้าใช้และเปิดการซิงค์เพื่อรับบุ๊กมาร์ก รหัสผ่าน และอื่นๆ ในอุปกรณ์ทุกเครื่อง</translation>
 <translation id="5939847200023027600">บริการจัดวางองค์ประกอบ PDF</translation>
@@ -4243,7 +4243,7 @@
 <translation id="7574650250151586813">อัปเดตแอปแป้นพิมพ์ Daydream เพื่อพิมพ์ข้อความ</translation>
 <translation id="983511809958454316">ฟีเจอร์นี้ใช้ไม่ได้ใน VR</translation>
 <translation id="4008291085758151621">ข้อมูลไซต์ไม่พร้อมใช้งานใน VR</translation>
-<translation id="1439926347196400598">อนุญาตให้ Brave บันทึกเสียงไหม</translation>
+<translation id="1439926347196400598">อนุญาตให้ Dissenter บันทึกเสียงไหม</translation>
 <translation id="6313641880021325787">ออกจาก VR</translation>
 <translation id="2670429602441959756">หน้านี้มีฟีเจอร์ที่ยังไม่รองรับใน VR กำลังออกจากโหมดนี้...</translation>
 <translation id="1802687198411089702">หน้านี้ไม่ตอบสนอง คุณจะรอหรือออกก็ได้</translation>

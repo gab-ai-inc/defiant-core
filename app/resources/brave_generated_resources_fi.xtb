@@ -2,25 +2,25 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="fi">
 <translation id="3333887201479867589">Dissenter Rewards</translation>
-<translation id="7942180974165298215">Brave-mainostenesto</translation>
+<translation id="7942180974165298215">Dissenter-mainostenesto</translation>
 <translation id="6406506848690869874">Synkronointi</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ei ole sallittu Bravessa.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ei ole sallittu Dissenterssa.</translation>
 <translation id="7450557937477381864">Sulje Chrome</translation>
 <translation id="7008934821596358692">Sulje kaikki Chrome-ikkunat lopettaaksesi tuonnin.</translation>
 <translation id="5735465527556462863">Sulje (vanha)</translation>
-<translation id="7737066986958447692">Kun lopetat tuonnin, sulke kaikki Brave-ikkunat (vanha)</translation>
+<translation id="7737066986958447692">Kun lopetat tuonnin, sulke kaikki Dissenter-ikkunat (vanha)</translation>
 <translation id="6447842834002726250">Evästeet</translation>
 <translation id="4983925687993168579">Tilastot</translation>
-<translation id="6165477144235978006">Brave-maksut</translation>
+<translation id="6165477144235978006">Dissenter-maksut</translation>
 <translation id="3489524616427966890">Avaa ikkunat ja välilehdet</translation>
 <translation id="3699882589215410581">Asenna ja suorita Widevine</translation>
 <translation id="8053096063396012732">Asenna Widevine</translation>
 <translation id="4840334696217618631">Käynnistä selain uudelleen salliaksesi Widevinen</translation>
-<translation id="8410111618231938546">Google Widevine on osa digitaalisen käyttöoikeuksien hallinnan (DRM) koodia, jota me Gab AIlla emme omista tai voi tarkkailla. Google Widevine -koodi ladataan Googlen palvelimilta, ei meidän palvelimiltamme. Se ladataan vain, kun sallit tämän vaihtoehdon. Emme suosittele DRM:n käyttöä, mutta kunnioitamme käyttäjiemme valintaa ja tiedostamme, että jotkut Braven käyttäjät saattavat haluta käyttää palveluita, jotka vaativat sitä.
+<translation id="8410111618231938546">Google Widevine on osa digitaalisen käyttöoikeuksien hallinnan (DRM) koodia, jota me Dissenter Softwarella emme omista tai voi tarkkailla. Google Widevine -koodi ladataan Googlen palvelimilta, ei meidän palvelimiltamme. Se ladataan vain, kun sallit tämän vaihtoehdon. Emme suosittele DRM:n käyttöä, mutta kunnioitamme käyttäjiemme valintaa ja tiedostamme, että jotkut Dissentern käyttäjät saattavat haluta käyttää palveluita, jotka vaativat sitä.
 
 Asentamalla tämän laajennuksen hyväksyt Google Widevinen käyttöehdot. Hyväksyt, että Dissenter ei ole vastuussa mistään vahingoista tai menetyksistä, jotka liittyvät Google Widevinen käyttöön.</translation>
 <translation id="6499845530162974140">Sulje (vanha)</translation>
-<translation id="3198814717959506569">Tuotu Brave:sta</translation>
+<translation id="3198814717959506569">Tuotu Dissenter:sta</translation>
 <translation id="453977518730680921">Toista media automaattisesti</translation>
 <translation id="410351446219883937">Toista automaattisesti</translation>
 <translation id="2240268017737062801">Kysy, kun sivusto haluaa toistaa mediaa automaattisesti</translation>
@@ -28,7 +28,6 @@ Asentamalla tämän laajennuksen hyväksyt Google Widevinen käyttöehdot. Hyvä
 <translation id="3218385319396786393">Automaattinen toisto on estetty tällä sivulla</translation>
 <translation id="4988333904713528597">Salli aina automaattinen toisto <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Jatka automaattisen toiston estoa</translation>
-<translation id="7543906827780734027">Dissenter ei ole tarkastanut tätä laajennusta vielä – se saattaa olla haitallinen. Lisää "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" silti?</translation>
 <translation id="2044383478723007273">Dissenter -värit</translation>
 <translation id="6123134130710658846">Piilota Dissenter Rewards -painike</translation>
 <translation id="7635711399568194460">Piilottaa Dissenter Rewards -painikkeen sijaintipalkissa, kun Dissenter Rewards ei ole sallittu</translation>
@@ -38,36 +37,23 @@ Asentamalla tämän laajennuksen hyväksyt Google Widevinen käyttöehdot. Hyvä
 <translation id="3696187925156352769">Avaa Tor-ikkuna</translation>
 <translation id="1434416574322382019">Uusi Tor-yksityisikkuna</translation>
 <translation id="4703780849509456860">Avaa linkki yksityisessä ikkunassa tai Tor-selaimessa</translation>
-<translation id="3488584642074079080">Avaa linkki Braven yksityisessä ikkunassa Torilla.</translation>
+<translation id="3488584642074079080">Avaa linkki Dissentern yksityisessä ikkunassa Torilla.</translation>
 <translation id="6313675821927505581">Uusi yksityisikkuna käyttäen Toria</translation>
 <translation id="2638041073279639246">Avaa linkki yksityisessä ikkunassa käyttäen Toria</translation>
-<translation id="3425600262621021599">Avaa linkki Braven yksityisikkunassa käyttäen Toria</translation>
+<translation id="3425600262621021599">Avaa linkki Dissentern yksityisikkunassa käyttäen Toria</translation>
 <translation id="3155170474926428993">Tor -laukaisin</translation>
 <translation id="2515126961943087659">Bat-mainospalvelu</translation>
 <translation id="7924918279836988121">BAT-tilikirjapalvelu</translation>
 <translation id="4472575034687746823">Aloita</translation>
 <translation id="3400357268283240774">Lisäasetukset</translation>
 <translation id="6303294677342628402">Shields</translation>
-<translation id="768979911142179781">Oletusarvot</translation>
-<translation id="5989930075012659993">Nykyiset sivukohtaiset asetuksesi säilytetään.</translation>
 <translation id="9185018653595759199">Sosiaalisen median esto</translation>
-<translation id="6894114137169961038">Mainosten hallinnointi</translation>
-<translation id="1096802265930928584">Evästeiden hallinnointi</translation>
-<translation id="8919235146866304148">Tunnistesuojaus</translation>
-<translation id="520895744850022668">HTTPS Everywhere</translation>
-<translation id="5259716416204774556">Komentosarjojen esto</translation>
 <translation id="7498695072878479744">Salli Googlen sisäänkirjautumispainikkeet kolmannen osapuolen sivuilla</translation>
 <translation id="863171915776379000">Salli Facebookin sisäänkirjautumiset ja upotetut julkaisut</translation>
 <translation id="5165042248369837294">Salli Twitterin upotetut tviitit</translation>
 <translation id="958971637207126733">Salli LinkedIn-upotuksen sisältävät julkaisut</translation>
-<translation id="6067014455220527258">Estä mainokset</translation>
-<translation id="6985711843506827936">Salli mainokset ja seuranta</translation>
-<translation id="6132506775968708399">Estä kolmannen osapuolen evästeet</translation>
 <translation id="5657156137487675418">Salli kaikki evästeet</translation>
 <translation id="6883611015375728278">Estä kaikki evästeet</translation>
-<translation id="1442559343076146186">Estä kolmannen osapuolen tunnisteet</translation>
-<translation id="8034285923190068220">Salli tunnisteet</translation>
-<translation id="4540198958192073185">Estä kaikki tunnisteet</translation>
 <translation id="8942080017911802454">WebRTC IP käsittelykäytäntö</translation>
 <translation id="6165508094623778733">Lisätietoa</translation>
 <translation id="8798099450830957504">Oletus</translation>

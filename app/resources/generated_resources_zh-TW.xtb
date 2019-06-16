@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">刪除</translation>
 <translation id="144283815522798837">已選取 <ph name="NUMBER_OF_ITEMS_SELECTED"/> 個項目</translation>
 <translation id="5582839680698949063">主選單</translation>
-<translation id="3700405816184340252">Brave 歷史記錄</translation>
+<translation id="3700405816184340252">Dissenter 歷史記錄</translation>
 <translation id="7602079150116086782">沒有在其他裝置上開啟的分頁</translation>
 <translation id="4619615317237390068">在其他裝置上開啟的分頁</translation>
-<translation id="82609232232243542">登入 Brave</translation>
+<translation id="82609232232243542">登入 Dissenter</translation>
 <translation id="4627442949885028695">透過其他裝置繼續瀏覽</translation>
-<translation id="7253276740368043692">如要存取您在其他裝置上開啟的分頁，請登入 Brave。</translation>
+<translation id="7253276740368043692">如要存取您在其他裝置上開啟的分頁，請登入 Dissenter。</translation>
 <translation id="6351063337294363751">你可以使用這個選單清除瀏覽資料</translation>
 <translation id="6040143037577758943">關閉</translation>
 <translation id="6463795194797719782">編輯(&amp;E)</translation>
@@ -148,7 +148,7 @@
 <translation id="9033857511263905942">貼上(&amp;P)</translation>
 <translation id="1815083418640426271">以純文字貼上</translation>
 <translation id="4022426551683927403">新增到字典(&amp;A)</translation>
-<translation id="6849870115130610913">從 Brave 取得圖片描述</translation>
+<translation id="6849870115130610913">從 Dissenter 取得圖片描述</translation>
 <translation id="372722114124766626">限用一次</translation>
 <translation id="4079140982534148664">使用進階拼字檢查功能</translation>
 <translation id="7487141338393529395">開啟進階拼字檢查功能</translation>
@@ -417,7 +417,7 @@
 <translation id="2316129865977710310">不，謝謝</translation>
 <translation id="9169931577761441333">將 <ph name="APP_NAME"/> 新增至主畫面</translation>
 <translation id="6349101878882523185">安裝 <ph name="APP_NAME"/></translation>
-<translation id="4918221908152712722">安裝 <ph name="APP_NAME">$1<ex>Brave 地圖</ex></ph> （不需要下載）</translation>
+<translation id="4918221908152712722">安裝 <ph name="APP_NAME">$1<ex>Dissenter 地圖</ex></ph> （不需要下載）</translation>
 <translation id="3789841737615482174">安裝</translation>
 <translation id="5280426389926346830">要建立捷徑嗎？</translation>
 <translation id="7525067979554623046">建立</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">重新啟動</translation>
 <translation id="3479552764303398839">現在不要</translation>
 <translation id="1008557486741366299">現在不要</translation>
-<translation id="8201192017531062522">在 Brave 應用程式開啟的狀態下保持 Brave 繼續執行。</translation>
-<translation id="7397305826909094212">結束所有 Brave 應用程式</translation>
+<translation id="8201192017531062522">在 Dissenter 應用程式開啟的狀態下保持 Dissenter 繼續執行。</translation>
+<translation id="7397305826909094212">結束所有 Dissenter 應用程式</translation>
 <translation id="5026874946691314267">不要再顯示這則通知</translation>
 <translation id="91568222606626347">建立捷徑...</translation>
 <translation id="2783321960289401138">建立捷徑...</translation>
@@ -796,11 +796,11 @@
 <translation id="5799508265798272974">Linux 虛擬機器：<ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 Proxy 解析工具</translation>
 <translation id="5552059560155071882">CUPS IPP 剖析工具</translation>
-<translation id="3077708072777965506">Brave 作業系統輸入法</translation>
-<translation id="7171242884588191792">Brave 檔案公用程式</translation>
+<translation id="3077708072777965506">Dissenter 作業系統輸入法</translation>
+<translation id="7171242884588191792">Dissenter 檔案公用程式</translation>
 <translation id="3183139917765991655">設定檔匯入工具</translation>
 <translation id="2190069059097339078">WiFi 憑證擷取工具</translation>
-<translation id="7685901961038216503">Brave 作業系統映像檔寫入工具</translation>
+<translation id="7685901961038216503">Dissenter 作業系統映像檔寫入工具</translation>
 <translation id="4873312501243535625">媒體檔案檢查工具</translation>
 <translation id="5972666587303800813">無作業服務</translation>
 <translation id="3061707000357573562">修補服務</translation>
@@ -827,14 +827,14 @@
 <translation id="3507421388498836150">「<ph name="EXTENSION_NAME"/>」目前擁有的權限</translation>
 <translation id="5242724311594467048">啟用「<ph name="EXTENSION_NAME"/>」？</translation>
 <translation id="4014432863917027322">修復「<ph name="EXTENSION_NAME"/>」？</translation>
-<translation id="5173189340601754836">電腦中的其他程式新增了一個應用程式，可能會使 Brave 的運作方式發生變更。
+<translation id="5173189340601754836">電腦中的其他程式新增了一個應用程式，可能會使 Dissenter 的運作方式發生變更。
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">電腦中的其他程式新增了一個擴充功能，可能會使 Brave 的運作方式發生變更。
+<translation id="6654312501894761082">電腦中的其他程式新增了一個擴充功能，可能會使 Dissenter 的運作方式發生變更。
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">電腦中的其他程式新增了一個主題，可能會使 Brave 的運作方式發生變更。
+<translation id="3225882094369124157">電腦中的其他程式新增了一個主題，可能會使 Dissenter 的運作方式發生變更。
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">啟用擴充功能</translation>
@@ -843,7 +843,7 @@
 <translation id="3908501907586732282">啟用擴充功能</translation>
 <translation id="2327492829706409234">啟用應用程式</translation>
 <translation id="175772926354468439">啟用主題</translation>
-<translation id="5267531627648004734">從 Brave 中移除</translation>
+<translation id="5267531627648004734">從 Dissenter 中移除</translation>
 <translation id="4998873842614926205">確認變更</translation>
 <translation id="5699533844376998780">已安裝「<ph name="EXTENSION_NAME"/>」擴充功能。</translation>
 <translation id="1799071797295057738">系統已自動停用「<ph name="EXTENSION_NAME"/>」擴充功能。</translation>
@@ -974,7 +974,7 @@
 <translation id="1616298854599875024">「<ph name="IMPORT_NAME"/>」擴充功能不是共用模組，因此無法匯入</translation>
 <translation id="2131077480075264">由於「<ph name="IMPORT_NAME"/>」不允許，因此無法安裝「<ph name="APP_NAME"/>」</translation>
 <translation id="1875387611427697908">只能從 <ph name="CHROME_WEB_STORE"/> 新增</translation>
-<translation id="7613251087357271190">含有「kiosk_only」資訊清單屬性的應用程式只能在 Brave 作業系統 Kiosk 模式中安裝</translation>
+<translation id="7613251087357271190">含有「kiosk_only」資訊清單屬性的應用程式只能在 Dissenter 作業系統 Kiosk 模式中安裝</translation>
 <translation id="3834775135533257713">「<ph name="TO_INSTALL_APP_NAME"/>」應用程式和「<ph name="INSTALLED_APP_NAME"/>」發生衝突，因此無法新增。</translation>
 <translation id="144518587530125858">無法載入主題的「<ph name="IMAGE_PATH"/>」。</translation>
 <translation id="6567688344210276845">無法載入網頁動作的圖示「<ph name="ICON"/>」。</translation>
@@ -1071,9 +1071,9 @@
 <translation id="6101226222197207147">已新增以下應用程式：<ph name="EXTENSION_NAME"/></translation>
 <translation id="7818135753970109980">已新增以下主題：<ph name="EXTENSION_NAME"/></translation>
 <translation id="9215293857209265904">已新增「<ph name="EXTENSION_NAME"/>」</translation>
-<translation id="6637045053447935202">電腦中其他程式所新增的應用程式可能會變更 Brave 的運作方式。</translation>
-<translation id="2015014930243978107">電腦中其他程式所新增的擴充功能可能會變更 Brave 的運作方式。</translation>
-<translation id="2060128809251156338">電腦中其他程式所新增的主題可能會變更 Brave 的運作方式。</translation>
+<translation id="6637045053447935202">電腦中其他程式所新增的應用程式可能會變更 Dissenter 的運作方式。</translation>
+<translation id="2015014930243978107">電腦中其他程式所新增的擴充功能可能會變更 Dissenter 的運作方式。</translation>
+<translation id="2060128809251156338">電腦中其他程式所新增的主題可能會變更 Dissenter 的運作方式。</translation>
 <translation id="2470702053775288986">已停用不支援的擴充功能</translation>
 <translation id="2809586584051668049">和另外 <ph name="NUMBER_ADDITIONAL_DISABLED"/> 個</translation>
 <translation id="5301954838959518834">好，我知道了</translation>
@@ -1140,7 +1140,7 @@
 <translation id="8009225694047762179">管理密碼</translation>
 <translation id="3950820424414687140">登入</translation>
 <translation id="5624120631404540903">管理密碼</translation>
-<translation id="9135262959729602463">如要取得你在所有裝置上的密碼，請登入 Brave。</translation>
+<translation id="9135262959729602463">如要取得你在所有裝置上的密碼，請登入 Dissenter。</translation>
 <translation id="8919275547519617350">如要將密碼同步到所有裝置，請登入並開啟同步處理功能。</translation>
 <translation id="8470028084415844044">如要將密碼同步到所有裝置，請開啟同步處理功能。</translation>
 <translation id="1609170755653088773">將這組密碼在 iPhone 上保持同步</translation>
@@ -1263,7 +1263,7 @@
 <translation id="1174073918202301297">已新增捷徑</translation>
 <translation id="2926085873880284723">還原預設捷徑</translation>
 <translation id="2942581856830209953">自訂這個頁面</translation>
-<translation id="5801450813341024983">Brave 背景</translation>
+<translation id="5801450813341024983">Dissenter 背景</translation>
 <translation id="2800760947029405028">上傳圖片</translation>
 <translation id="8342861492835240085">選取集合</translation>
 <translation id="3132996321662585180">每天重新整理</translation>
@@ -1306,7 +1306,7 @@
 <translation id="192494336144674234">選擇開啟工具</translation>
 <translation id="9053893665344928494">記住我的選擇</translation>
 <translation id="5541687815721799001">使用應用程式</translation>
-<translation id="5340857474604400806">繼續使用 Brave</translation>
+<translation id="5340857474604400806">繼續使用 Dissenter</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (無痕模式)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> - <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (有可用的更新)</translation>
@@ -1370,8 +1370,8 @@
 <translation id="6686817083349815241">儲存你的密碼</translation>
 <translation id="8141725884565838206">管理你的密碼</translation>
 <translation id="8275038454117074363">匯入</translation>
-<translation id="3191314862567596053">將密碼匯入 Brave 中</translation>
-<translation id="6368144843345980623">從 Brave 中匯出密碼</translation>
+<translation id="3191314862567596053">將密碼匯入 Dissenter 中</translation>
+<translation id="6368144843345980623">從 Dissenter 中匯出密碼</translation>
 <translation id="8503813439785031346">使用者名稱</translation>
 <translation id="6657585470893396449">密碼</translation>
 <translation id="4722735765955348426"><ph name="USERNAME"/>的密碼</translation>
@@ -1400,7 +1400,7 @@
 <translation id="7052237160939977163">傳送效能追蹤資料</translation>
 <translation id="5526928694260255286">附加<ph name="BEGIN_LINK"/>藍牙記錄<ph name="END_LINK"/> (Gab AI 內部使用)</translation>
 <translation id="3047644958362961983">這項資訊可協助我們進一步瞭解 Gab AI 助理的問題。這項資訊會儲存在系統中最多 90 天，且只有相關的工程小組和意見回饋小組才能存取。</translation>
-<translation id="1705635099498185261">為了進一步診斷藍牙問題，Gab AI 員工可在意見回饋報告額外納入藍牙記錄。勾選這個選項後，你的報告就會納入你目前工作階段的 btsnoop 和 HCI 記錄；這些記錄會經過處理，儘可能移除個人識別資訊 (PII)。這些記錄只有 Listnr 的 Brave 作業系統產品小組主管可以存取，且會在 90 天後遭到清除。</translation>
+<translation id="1705635099498185261">為了進一步診斷藍牙問題，Gab AI 員工可在意見回饋報告額外納入藍牙記錄。勾選這個選項後，你的報告就會納入你目前工作階段的 btsnoop 和 HCI 記錄；這些記錄會經過處理，儘可能移除個人識別資訊 (PII)。這些記錄只有 Listnr 的 Dissenter 作業系統產品小組主管可以存取，且會在 90 天後遭到清除。</translation>
 <translation id="4206323443866416204">意見回饋報告</translation>
 <translation id="3681311097828166361">感謝你提供意見！你目前處於離線狀態，重新上線後系統就會傳送你的意見回饋報告。</translation>
 <translation id="8713570323158206935">傳送<ph name="BEGIN_LINK1"/>系統資訊<ph name="END_LINK1"/></translation>
@@ -1419,8 +1419,8 @@
 <translation id="1016566241875885511">其他資訊 (選填)</translation>
 <translation id="8026334261755873520">清除瀏覽資料</translation>
 <translation id="7409836189476010449">執行 Flash</translation>
-<translation id="4718442817388594217">系統已將所選資料從 Brave 和其他同步的裝置中移除。你的 Gab AI 帳戶仍可能保留了其他類型的瀏覽記錄，例如其他 Gab AI 服務中的搜尋和活動記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
-<translation id="7814200940910057384">已清除 Brave 資料</translation>
+<translation id="4718442817388594217">系統已將所選資料從 Dissenter 和其他同步的裝置中移除。你的 Gab AI 帳戶仍可能保留了其他類型的瀏覽記錄，例如其他 Gab AI 服務中的搜尋和活動記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
+<translation id="7814200940910057384">已清除 Dissenter 資料</translation>
 <translation id="7346909386216857016">好，我知道了</translation>
 <translation id="8493236660459102203">麥克風：</translation>
 <translation id="3925573269917483990">相機：</translation>
@@ -1428,7 +1428,7 @@
 <translation id="4172051516777682613">一律顯示</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{已封鎖彈出式視窗}other{已封鎖 # 個彈出式視窗}}</translation>
 <translation id="3759371141211657149">管理處理常式設定...</translation>
-<translation id="4156865452842056672">(Brave 錯誤頁面)</translation>
+<translation id="4156865452842056672">(Dissenter 錯誤頁面)</translation>
 <translation id="1734824808160898225">「<ph name="PRODUCT_NAME"/>」可能無法自動更新</translation>
 <translation id="8590375307970699841">設定自動更新</translation>
 <translation id="8926389886865778422">不再詢問這個問題</translation>
@@ -1522,10 +1522,10 @@
 <translation id="8658645149275195032"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用您的畫面和音訊。</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> 正在共用視窗。</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用視窗。</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> 正在共用 Brave 分頁。</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用 Brave 分頁。</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> 正在共用 Brave 分頁和音訊。</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用 Brave 分頁和音訊。</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> 正在共用 Dissenter 分頁。</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用 Dissenter 分頁。</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> 正在共用 Dissenter 分頁和音訊。</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> 正在與 <ph name="TAB_NAME"/> 共用 Dissenter 分頁和音訊。</translation>
 <translation id="890616557918890486">變更來源</translation>
 <translation id="7792388396321542707">停止共用</translation>
 <translation id="6630752851777525409">「<ph name="EXTENSION_NAME"/>」要求永久存取可代您驗證其自身的憑證。</translation>
@@ -1547,7 +1547,7 @@
 <translation id="5972826969634861500">啟動 <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">協助我們的工程師調查這項當機問題並予以修正。請儘可能列出所有確切步驟，鉅細靡遺！</translation>
 <translation id="945522503751344254">提供意見</translation>
-<translation id="5418694430960033386">Brave 記憶體不足或其他某些原因導致網頁處理程序終止。如要繼續執行，請重新載入或前往其他網頁。</translation>
+<translation id="5418694430960033386">Dissenter 記憶體不足或其他某些原因導致網頁處理程序終止。如要繼續執行，請重新載入或前往其他網頁。</translation>
 <translation id="3065041951436100775">分頁毀損意見回饋。</translation>
 <translation id="3941565636838060942">如要隱藏這個程式的存取權，你必須使用控制台中的「<ph name="CONTROL_PANEL_APPLET_NAME"/>」解除安裝此程式。
 
@@ -1566,17 +1566,17 @@
 <translation id="4620809267248568679">這項設定是由擴充功能執行。</translation>
 <translation id="4846680374085650406">你目前所採用的是管理員的建議設定。</translation>
 <translation id="1223853788495130632">管理員為這項設定推薦特定的值。</translation>
-<translation id="8839398440242019256">來源不是 Brave 線上應用程式商店。</translation>
+<translation id="8839398440242019256">來源不是 Dissenter 線上應用程式商店。</translation>
 <translation id="5337771866151525739">由第三方安裝。</translation>
 <translation id="4538792345715658285">由公司政策安裝</translation>
 <translation id="4359408040881008151">你已安裝相依的擴充功能，因此必須一併安裝這個擴充功能。</translation>
 <translation id="4980805016576257426">這個擴充功能含有惡意軟體。</translation>
 <translation id="5522156646677899028">這個擴充功能內含嚴重安全性漏洞。</translation>
-<translation id="6945695820322143954">這個擴充功能違反了 Brave 線上應用程式商店政策。</translation>
-<translation id="177808131755847449">這個擴充功能可能不安全，因此遭到 Brave 停用。</translation>
+<translation id="6945695820322143954">這個擴充功能違反了 Dissenter 線上應用程式商店政策。</translation>
+<translation id="177808131755847449">這個擴充功能可能不安全，因此遭到 Dissenter 停用。</translation>
 <translation id="1434696352799406980">這項功能會重設您的起始網頁、新分頁、搜尋引擎和固定分頁，同時停用所有擴充功能並清除 Cookie 等暫存資料，但不會清除您的書籤、歷史記錄和已儲存的密碼。</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> 要求重設您的設定。</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> 要求將您的 Brave 設定還原成原始預設值。這會重設您的首頁、新分頁和搜尋引擎，停用您的擴充功能，以及取消固定所有分頁。其他暫存資料和快取資料 (例如 Cookie、內容和網站資料) 也會一併遭到清除。</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> 要求將您的 Dissenter 設定還原成原始預設值。這會重設您的首頁、新分頁和搜尋引擎，停用您的擴充功能，以及取消固定所有分頁。其他暫存資料和快取資料 (例如 Cookie、內容和網站資料) 也會一併遭到清除。</translation>
 <translation id="7581462281756524039">清理工具</translation>
 <translation id="1233721473400465416">語言代碼</translation>
 <translation id="2907619724991574506">起始網址</translation>
@@ -1622,7 +1622,7 @@
 <translation id="473546211690256853">這個帳戶是由 <ph name="DOMAIN"/> 負責管理。</translation>
 <translation id="622537739776246443">系統將會刪除設定檔</translation>
 <translation id="5632566673632479864">你已不能再將 <ph name="EMAIL"/> 設為主要帳戶。這個帳戶是由 <ph name="DOMAIN"/> 所管理，因此系統會將您的書籤、歷史記錄、密碼和其他設定從這個裝置上清除。</translation>
-<translation id="3797739167230984533">您的 <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph><ph name="DEVICE_TYPE">$2<ex>Bravebook</ex></ph> 管理由<ph name="END_LINK">&lt;/a&gt;</ph> 您的組織</translation>
+<translation id="3797739167230984533">您的 <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph><ph name="DEVICE_TYPE">$2<ex>Dissenterbook</ex></ph> 管理由<ph name="END_LINK">&lt;/a&gt;</ph> 您的組織</translation>
 <translation id="8118488170956489476">你的<ph name="BEGIN_LINK"/>瀏覽器是由貴機構所管理<ph name="END_LINK"/></translation>
 <translation id="8168435359814927499">內容</translation>
 <translation id="7702907602086592255">網域</translation>
@@ -1706,7 +1706,7 @@
 <translation id="4736292055110123391">讓你在所有裝置上的書籤、密碼、歷史記錄及其他設定保持同步</translation>
 <translation id="5736731321935944068">Gab AI 可能會使用你的歷史記錄，為你提供個人化的搜尋服務、廣告內容和其他各項 Gab AI 服務</translation>
 <translation id="4201546031411513170">你隨時可以在設定中選擇要同步處理的資料。</translation>
-<translation id="3149880132460839085">Brave 同步</translation>
+<translation id="3149880132460839085">Dissenter 同步</translation>
 <translation id="3796902758602917951">您的書籤、歷史記錄、密碼和其他設定都會在您的 Gab AI 帳戶中保持同步，讓您在所有個人裝置上使用。</translation>
 <translation id="3111958038206230539">享有個人化的 Gab AI 服務</translation>
 <translation id="295992419959320001">Gab AI 可能會使用您的瀏覽記錄，為您提供個人化的搜尋服務、廣告內容和其他各項 Gab AI 服務</translation>
@@ -1747,7 +1747,7 @@
 <translation id="6664774537677393800">開啟你的設定檔時發生錯誤。請先登出，然後再次登入。</translation>
 <translation id="1794791083288629568">提供意見，協助我們修正這個問題。</translation>
 <translation id="8234795456569844941">請告訴我們在你收到設定檔錯誤訊息前執行的動作，以協助工程師修正此問題：</translation>
-<translation id="6500340165622970282">開啟你的設定檔時發生錯誤，因此無法啟動 Brave，請嘗試重新啟動。</translation>
+<translation id="6500340165622970282">開啟你的設定檔時發生錯誤，因此無法啟動 Dissenter，請嘗試重新啟動。</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> 無法以根使用者的身分執行。</translation>
 <translation id="2292848386125228270">請以一般使用者身分啟用 <ph name="PRODUCT_NAME"/>。開發時，如要以 root 身分執行，請使用 --no-sandbox 標記重新執行。</translation>
 <translation id="7547317915858803630">警告：你的 <ph name="PRODUCT_NAME"/> 設定均儲存在網路硬碟中。這麼做可能導致速度變慢、當機，甚至資料遺失。</translation>
@@ -2154,8 +2154,8 @@
 <translation id="4720113199587244118">新增裝置</translation>
 <translation id="2776441542064982094">網路上沒有可註冊的裝置，如果你的裝置已開啟並連上網際網路，請依照操作說明手冊中的指示進行註冊。</translation>
 <translation id="1007408791287232274">無法載入裝置。</translation>
-<translation id="3886420006370338208">你必須登入 Brave 才能查看自己的裝置</translation>
-<translation id="6711610692002680394">你必須登入 Brave 註冊新裝置</translation>
+<translation id="3886420006370338208">你必須登入 Dissenter 才能查看自己的裝置</translation>
+<translation id="6711610692002680394">你必須登入 Dissenter 註冊新裝置</translation>
 <translation id="8931394284949551895">新裝置</translation>
 <translation id="3752673729237782832">我的裝置</translation>
 <translation id="1721937473331968728">你可以將已連接電腦的傳統印表機新增到 <ph name="CLOUD_PRINT_NAME"/>。</translation>
@@ -2220,7 +2220,7 @@
 <translation id="4540437243849625078">這個網站即將與外部應用程式分享資訊，分享時會自動退出無痕模式。</translation>
 <translation id="1227836882233136433">要退出無痕模式嗎？</translation>
 <translation id="662080504995468778">不離開</translation>
-<translation id="2593289874938379417">Brave 無法存取要求的資源。</translation>
+<translation id="2593289874938379417">Dissenter 無法存取要求的資源。</translation>
 <translation id="760197030861754408">如要連線，請前往 <ph name="LANDING_PAGE"/>。</translation>
 <translation id="3648348069317717750">偵測到 <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="5042282098504489593">開啟設定以將 <ph name="USB_DEVICE_NAME"/> 連線至 Linux</translation>
@@ -2272,16 +2272,16 @@
 <translation id="6777817260680419853">已禁止重新導向</translation>
 <translation id="694592694773692225">已在這個網頁禁止重新導向。</translation>
 <translation id="8149707863742670433">Gab AI 提供的網路瀏覽器，滿足你的需求</translation>
-<translation id="3541561136058491590">無論使用任何裝置，只要以你的 Gab AI 帳戶登入 Brave，即可取得你的書籤、歷史記錄、密碼，並套用相同的設定。</translation>
-<translation id="8945142681652245463">使用 Gab AI Brave 快速瀏覽網路</translation>
-<translation id="2618024864038703735">使用 Gab AI Brave 安全瀏覽網路</translation>
-<translation id="8142180567942285208">使用 Brave 享有智慧瀏覽體驗</translation>
+<translation id="3541561136058491590">無論使用任何裝置，只要以你的 Gab AI 帳戶登入 Dissenter，即可取得你的書籤、歷史記錄、密碼，並套用相同的設定。</translation>
+<translation id="8945142681652245463">使用 Gab AI Dissenter 快速瀏覽網路</translation>
+<translation id="2618024864038703735">使用 Gab AI Dissenter 安全瀏覽網路</translation>
+<translation id="8142180567942285208">使用 Dissenter 享有智慧瀏覽體驗</translation>
 <translation id="8862003515646449717">改用速度飛快的瀏覽器</translation>
 <translation id="8438328416656800239">改用智慧瀏覽器</translation>
 <translation id="491691592645955587">改用安全的瀏覽器</translation>
 <translation id="683373380308365518">改用智慧又安全的瀏覽器</translation>
-<translation id="989239400026154074">Gab AI 推薦使用 Brave</translation>
-<translation id="6676231621615806698">開啟 Brave</translation>
+<translation id="989239400026154074">Gab AI 推薦使用 Dissenter</translation>
+<translation id="6676231621615806698">開啟 Dissenter</translation>
 <translation id="7494065396242762445">開啟 Windows 設定</translation>
 <translation id="2137068468602026500">在「網路瀏覽器」之下，按一下 [Microsoft Edge]<ph name="BEGIN_BOLD"/><ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">確定切換</translation>
@@ -2290,7 +2290,7 @@
 <translation id="7537601449003285327">固定至工作列</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> 會使用你的位置資訊，為你提供當地的相關內容。你可以在 [<ph name="SETTINGS_LINK"/>] 中變更這項設定。</translation>
 <translation id="3737536731758327622">你的下載內容會顯示在這裡</translation>
-<translation id="4782664866169793230">Brave 目前受到自動測試軟體控制。</translation>
+<translation id="4782664866169793230">Dissenter 目前受到自動測試軟體控制。</translation>
 <translation id="6721678857435001674">查看安全金鑰的製造商和型號</translation>
 <translation id="1673137583248014546"><ph name="URL"/> 要求查看安全金鑰的製造商和型號</translation>
 <translation id="6010869025736512584">正在存取視訊輸入</translation>
@@ -2375,7 +2375,7 @@
 <translation id="3984431586879874039">要允許這個網站查看你的安全金鑰嗎？</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> 要求查看安全金鑰的製造商和型號</translation>
 <translation id="7618452966706304788">你要在無痕模式下使用 Touch ID 登入 <ph name="APP_NAME"/> 嗎？</translation>
-<translation id="3098826269712097986">離開無痕模式後，登入資料會儲存在 Brave 中；這樣你日後就能在此網站上再次使用 Touch ID。</translation>
+<translation id="3098826269712097986">離開無痕模式後，登入資料會儲存在 Dissenter 中；這樣你日後就能在此網站上再次使用 Touch ID。</translation>
 <translation id="2172784515318616985">繼續</translation>
 <translation id="5186185447130319458">無痕模式</translation>
 <translation id="7643842463591647490">{0,plural, =1{# 個開啟的視窗}other{# 個開啟的視窗}}</translation>
@@ -2516,8 +2516,8 @@
 <translation id="1706586824377653884">由管理員新增</translation>
 <translation id="6467304607960172345">針對全螢幕影片進行最佳化處理</translation>
 <translation id="1597210476603167523">允許投放到 Gab AI Hangouts 這類雲端服務。</translation>
-<translation id="3653941710869291743">歡迎在 Brave 中體驗 Cast 服務！</translation>
-<translation id="2841638550927239436">您可以使用這項功能讓電視或其他裝置顯示 Brave 的內容。</translation>
+<translation id="3653941710869291743">歡迎在 Dissenter 中體驗 Cast 服務！</translation>
+<translation id="2841638550927239436">您可以使用這項功能讓電視或其他裝置顯示 Dissenter 的內容。</translation>
 <translation id="5234764350956374838">關閉</translation>
 <translation id="4579581181964204535">無法投放 <ph name="HOST_NAME"/>。</translation>
 <translation id="8757090071857742562">無法投放桌面，請檢查您是否已確認要開始分享您的螢幕畫面。</translation>
@@ -2734,7 +2734,7 @@
 <translation id="672213144943476270">以訪客身分瀏覽之前，請先取消鎖定您的個人資料。</translation>
 <translation id="3478685642445675458">移除任何人之前，請先取消鎖定您的個人資料。</translation>
 <translation id="4648499713050786492">新增任何人之前，請先取消鎖定您的個人資料。</translation>
-<translation id="8978225823042133615">如要使用 Brave，請登入帳戶</translation>
+<translation id="8978225823042133615">如要使用 Dissenter，請登入帳戶</translation>
 <translation id="4893336867552636863">這會將您的瀏覽資料從這個裝置上永久刪除。</translation>
 <translation id="2496180316473517155">瀏覽記錄</translation>
 <translation id="6865313869410766144">自動填入表單資料</translation>
@@ -2757,7 +2757,7 @@
 <translation id="2972557485845626008">韌體</translation>
 <translation id="4297219207642690536">重新啟動並重設</translation>
 <translation id="4716483597559580346">執行 Powerwash 以提升安全性</translation>
-<translation id="4089922565956168950">這項升級作業會重設你的 Bravebook 並移除目前的使用者資料。</translation>
+<translation id="4089922565956168950">這項升級作業會重設你的 Dissenterbook 並移除目前的使用者資料。</translation>
 <translation id="5184662919967270437">正在更新您的裝置</translation>
 <translation id="6644846457769259194">正在更新你的裝置 (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">即將更新為最新版本！重新啟動您的裝置即可完成更新程序。</translation>
@@ -2780,13 +2780,13 @@
 <translation id="5600706100022181951">下載更新將使用 <ph name="UPDATE_SIZE_MB"/> MB 的行動數據。要繼續嗎？</translation>
 <translation id="5402815541704507626">使用行動數據下載更新</translation>
 <translation id="5085162214018721575">正在檢查有無更新</translation>
-<translation id="4570609078116869893">自動為所有使用者更新 Brave</translation>
+<translation id="4570609078116869893">自動為所有使用者更新 Dissenter</translation>
 <translation id="7102687220333134671">自動更新功能已開啟</translation>
 <translation id="6981982820502123353">協助工具</translation>
-<translation id="5840822070878669614">開啟 Brave 線上應用程式商店</translation>
+<translation id="5840822070878669614">開啟 Dissenter 線上應用程式商店</translation>
 <translation id="6073903501322152803">新增協助工具功能</translation>
 <translation id="7988355189918024273">啟用協助工具功能</translation>
-<translation id="5499063270485366718">如果圖片缺少有用的說明，Brave 會嘗試為你提供說明。系統會將圖片傳送給 Gab AI，以便產生說明。</translation>
+<translation id="5499063270485366718">如果圖片缺少有用的說明，Dissenter 會嘗試為你提供說明。系統會將圖片傳送給 Gab AI，以便產生說明。</translation>
 <translation id="2558896001721082624">一律在系統選單中顯示協助工具選項</translation>
 <translation id="7280649757394340890">文字轉語音聲音設定</translation>
 <translation id="6635956300022133031">選取及自訂文字轉語音的聲音</translation>
@@ -2795,8 +2795,8 @@
 <translation id="4209092469652827314">大</translation>
 <translation id="499165176004408815">使用高反差模式</translation>
 <translation id="142758023928848008">啟用相黏鍵 (執行鍵盤快速鍵時只需依序輸入按鍵)</translation>
-<translation id="5914872514449971753">啟用 BraveVox (互動朗讀)</translation>
-<translation id="7099511550603534982">開啟 BraveVox 設定</translation>
+<translation id="5914872514449971753">啟用 DissenterVox (互動朗讀)</translation>
+<translation id="7099511550603534982">開啟 DissenterVox 設定</translation>
 <translation id="8547013269961688403">啟用全螢幕放大鏡</translation>
 <translation id="8743390665131937741">全螢幕縮放比例：</translation>
 <translation id="7334274148831027933">啟用停駐放大鏡</translation>
@@ -2878,10 +2878,10 @@
 <translation id="5270041685309222649">Kiosk Next Shell (Dev)</translation>
 <translation id="6409191325648119263">Kiosk Next Shell</translation>
 <translation id="5940519603482193359">下次登入時啟用 Kiosk Next Shell。</translation>
-<translation id="407536568752283520">停用 Kiosk Next Shell 並退回一般的 Brave OS 體驗。</translation>
+<translation id="407536568752283520">停用 Kiosk Next Shell 並退回一般的 Dissenter OS 體驗。</translation>
 <translation id="6588712220520211269">關閉 Kiosk Next Shell</translation>
 <translation id="2446993819525566591">開啟 Kiosk Next Shell</translation>
-<translation id="1960737068939025292">這將會關閉 Kiosk Next Shell，將您登出並退回到一般的 Brave OS 體驗。</translation>
+<translation id="1960737068939025292">這將會關閉 Kiosk Next Shell，將您登出並退回到一般的 Dissenter OS 體驗。</translation>
 <translation id="7316400597244914467">這會將您登出並開啟 Kiosk Next Shell。</translation>
 <translation id="1067291318998134776">Linux (測試版)</translation>
 <translation id="7911118814695487383">Linux</translation>
@@ -2902,15 +2902,15 @@
 <translation id="907264006778172906">請授權 Linux 存取 USB 裝置。移除後，Linux 將不會記住這部 USB 裝置。</translation>
 <translation id="3661172646479098821">目前僅支援 Android 裝置。</translation>
 <translation id="1679806121152819234">外掛程式虛擬機器</translation>
-<translation id="1342664070754997846">在您的 <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> 上執行外掛程式虛擬機器</translation>
+<translation id="1342664070754997846">在您的 <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> 上執行外掛程式虛擬機器</translation>
 <translation id="7508054832109420082">給予印表機的存取權限</translation>
 <translation id="2295473777859797944">Gab AI Play 商店</translation>
 <translation id="572155275267014074">Android 設定</translation>
-<translation id="4767209642168463274">在 Bravebook 上安裝來自 Gab AI Play 的應用程式和遊戲。&lt;a target="_blank" href="<ph name="URL"/>"&gt;瞭解詳情&lt;/a&gt;</translation>
+<translation id="4767209642168463274">在 Dissenterbook 上安裝來自 Gab AI Play 的應用程式和遊戲。&lt;a target="_blank" href="<ph name="URL"/>"&gt;瞭解詳情&lt;/a&gt;</translation>
 <translation id="2966937470348689686">管理 Android 偏好設定</translation>
 <translation id="4074367893748481070">移除 Gab AI Play 商店</translation>
 <translation id="2792290659606763004">要移除 Android 應用程式嗎？</translation>
-<translation id="4607779957365311067">你從 Gab AI Play 下載的應用程式將從這部 Bravebook 中刪除。
+<translation id="4607779957365311067">你從 Gab AI Play 下載的應用程式將從這部 Dissenterbook 中刪除。
       <ph name="LINE_BREAKS1"/>
       你所購買的內容 (例如電影、電視節目、音樂、書籍或其他應用程式內購項目) 也可能會遭到刪除。
       <ph name="LINE_BREAKS2"/>
@@ -2938,7 +2938,7 @@
 <translation id="1670399744444387456">基本</translation>
 <translation id="1763808908432309942">在新分頁中開啟</translation>
 <translation id="6248988683584659830">搜尋設定</translation>
-<translation id="883304095704384301">如果你找不到需要的資訊，請參閱 <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Brave 說明<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">如果你找不到需要的資訊，請參閱 <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Dissenter 說明<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">設定 - <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">關</translation>
 <translation id="5916664084637901428">開啟</translation>
@@ -3140,10 +3140,10 @@
 <translation id="7380768571499464492">已更新「<ph name="PRINTER_NAME"/>」</translation>
 <translation id="9057119625587205566">附近沒有印表機</translation>
 <translation id="3213187967168344806">無法新增印表機。請重新啟動電腦，然後再試一次。</translation>
-<translation id="4052689580269971502">無法連上印表機。請確認印表機已開啟，且已透過 Wi-Fi 或 USB 連上 Bravebook。</translation>
+<translation id="4052689580269971502">無法連上印表機。請確認印表機已開啟，且已透過 Wi-Fi 或 USB 連上 Dissenterbook。</translation>
 <translation id="7099337801055912064">無法載入大型 PPD。大小上限為 250 KB。</translation>
 <translation id="4310139701823742692">檔案格式錯誤。請檢查 PPD 檔案，然後再試一次。</translation>
-<translation id="6580983683519551561">找不到 PPD。請確認 Bravebook 已連上網路，然後再試一次。</translation>
+<translation id="6580983683519551561">找不到 PPD。請確認 Dissenterbook 已連上網路，然後再試一次。</translation>
 <translation id="4694024090038830733">印表機設定是由管理員管理。</translation>
 <translation id="5816434091619127343">要求的印表機變更會讓這部印表機無法使用。</translation>
 <translation id="6504611359718185067">連上網際網路即可新增印表機</translation>
@@ -3187,7 +3187,7 @@
 <translation id="3571734092741541777">設定</translation>
 <translation id="3336664756920573711">使用 Android 手機解鎖你的 <ph name="DEVICE_TYPE"/></translation>
 <translation id="1164674268730883318">要關閉 <ph name="DEVICE_TYPE"/> 專用 Smart Lock 嗎？</translation>
-<translation id="2739030071582769583">關閉 <ph name="DEVICE_TYPE"/> 專用 Smart Lock 後，您必須輸入密碼才能解鎖 Brave 裝置，無法直接使用手機解鎖。</translation>
+<translation id="2739030071582769583">關閉 <ph name="DEVICE_TYPE"/> 專用 Smart Lock 後，您必須輸入密碼才能解鎖 Dissenter 裝置，無法直接使用手機解鎖。</translation>
 <translation id="4737715515457435632">請連上網路</translation>
 <translation id="5425722269016440406">你必須上網才能關閉 Smart Lock，因為這項設定會同步到你的手機和其他裝置上。請先連線至網路。</translation>
 <translation id="8885197664446363138">無法使用 Smart Lock</translation>
@@ -3456,13 +3456,13 @@
 <translation id="7981313251711023384">預先載入網頁，以加快瀏覽及搜尋速度</translation>
 <translation id="2468205691404969808">使用 Cookie 記住你的偏好設定 (即使你沒有造訪這些網頁)</translation>
 <translation id="3181954750937456830">安全瀏覽 (保護你和你的裝置不受危險網站攻擊)</translation>
-<translation id="7315322926489145388">當網站具有安全性風險時，Brave 會將你造訪的部分網頁網址傳送給 Gab AI</translation>
-<translation id="4991384657077828949">協助改善 Brave 安全性</translation>
-<translation id="1943176487615318915">為了偵測危險的應用程式和網站，Brave 會將你造訪的部分網頁網址、部分系統資訊以及部分網頁內容傳送給 Gab AI</translation>
-<translation id="2875273286298348523">Brave 會將你在瀏覽器中輸入的文字傳送給 Gab AI</translation>
+<translation id="7315322926489145388">當網站具有安全性風險時，Dissenter 會將你造訪的部分網頁網址傳送給 Gab AI</translation>
+<translation id="4991384657077828949">協助改善 Dissenter 安全性</translation>
+<translation id="1943176487615318915">為了偵測危險的應用程式和網站，Dissenter 會將你造訪的部分網頁網址、部分系統資訊以及部分網頁內容傳送給 Gab AI</translation>
+<translation id="2875273286298348523">Dissenter 會將你在瀏覽器中輸入的文字傳送給 Gab AI</translation>
 <translation id="9079153198295609735">自動傳送使用統計資料及當機報告給 Gab AI</translation>
 <translation id="5941220456342415404">自動將診斷資料和使用情況資料傳送給 Gab AI</translation>
-<translation id="918192811481327695">協助改善 Brave 的功能與效能</translation>
+<translation id="918192811481327695">協助改善 Dissenter 的功能與效能</translation>
 <translation id="9063160602596686558">自動將使用統計資料和當機報告傳送給 Gab AI</translation>
 <translation id="8438566539970814960">改善搜尋和瀏覽體驗</translation>
 <translation id="284843628681142937">將你造訪的網頁網址傳送給 Gab AI</translation>
@@ -3483,7 +3483,7 @@
 <translation id="8632933437936028548">重設設定</translation>
 <translation id="5293170712604732402">將設定還原成原始預設值</translation>
 <translation id="892706138619340876">部分設定已重設</translation>
-<translation id="2334029754052191847">Brave 偵測到另一個程式竄改了部分瀏覽器設定，現已將這些設定重設為原始預設值。</translation>
+<translation id="2334029754052191847">Dissenter 偵測到另一個程式竄改了部分瀏覽器設定，現已將這些設定重設為原始預設值。</translation>
 <translation id="4582563038311694664">重設所有設定</translation>
 <translation id="4146785383423576110">重設與清理</translation>
 <translation id="2603115962224169880">清理電腦</translation>
@@ -3543,7 +3543,7 @@
 <translation id="5340638867532133571">允許網站安裝付款處理常式 (建議)</translation>
 <translation id="763632859238619983">不允許任何網站安裝付款處理常式</translation>
 <translation id="8270242299912238708">PDF 文件</translation>
-<translation id="539658326146969381">下載 PDF 檔案，而不自動在 Brave 中開啟</translation>
+<translation id="539658326146969381">下載 PDF 檔案，而不自動在 Dissenter 中開啟</translation>
 <translation id="4434045419905280838">彈出式視窗與重新導向</translation>
 <translation id="6612358246767739896">受保護內容</translation>
 <translation id="4252852543720145436">受保護內容 ID</translation>
@@ -3580,7 +3580,7 @@
 <translation id="7661259717474717992">允許網站儲存及讀取 Cookie 資料</translation>
 <translation id="2913331724188855103">允許網站儲存及讀取 Cookie 資料 (建議)</translation>
 <translation id="5908769186679515905">禁止網站執行 Flash</translation>
-<translation id="6096007141921397775">你的 Flash 設定將保留到退出 Brave 為止。</translation>
+<translation id="6096007141921397775">你的 Flash 設定將保留到退出 Dissenter 為止。</translation>
 <translation id="8074127646604999664">允許最近關閉的網站完成資料收發作業</translation>
 <translation id="7062222374113411376">允許最近關閉的網站完成資料的傳送及接收 (建議)</translation>
 <translation id="5068918910148307423">禁止最近關閉的網站完成資料的傳送及接收</translation>
@@ -3642,7 +3642,7 @@
 <translation id="4750220700975225">目前的無痕模式工作階段 (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">未針對任何網站設定縮放等級</translation>
 <translation id="3566721612727112615">未新增任何網站</translation>
-<translation id="8098574385249290065">讓 Brave 自行判斷何時允許網站播放音訊 (建議使用)</translation>
+<translation id="8098574385249290065">讓 Dissenter 自行判斷何時允許網站播放音訊 (建議使用)</translation>
 <translation id="4354344420232759511">這裡會顯示你曾造訪的網站</translation>
 <translation id="3757733214359997190">找不到任何網站</translation>
 <translation id="5763751966069581670">找不到 USB 裝置</translation>
@@ -3651,7 +3651,7 @@
 <translation id="7366415735885268578">新增網站</translation>
 <translation id="5052499409147950210">編輯網站</translation>
 <translation id="2870560284913253234">網站</translation>
-<translation id="4610862967073369855">允許 Android 訊息將簡訊內容從手機轉送到 Bravebook</translation>
+<translation id="4610862967073369855">允許 Android 訊息將簡訊內容從手機轉送到 Dissenterbook</translation>
 <translation id="6742339027238151589">可透過指令碼存取</translation>
 <translation id="361106536627977100">Flash 資料</translation>
 <translation id="8557930019681227453">資訊清單</translation>
@@ -3722,7 +3722,7 @@
 <translation id="3608576286259426129">使用者圖片預覽</translation>
 <translation id="2114896190328250491">相片提供：<ph name="NAME"/></translation>
 <translation id="7155171745945906037">現有的相機相片或圖庫相片</translation>
-<translation id="9125982323641182972">在 Brave 中體驗 Gab AI 智慧功能</translation>
+<translation id="9125982323641182972">在 Dissenter 中體驗 Gab AI 智慧功能</translation>
 <translation id="5244474230056479698">同步到 <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">這個帳戶是由 <ph name="DOMAIN"/> 所管理，因此系統會將你的書籤、歷史記錄、密碼和其他設定從這個裝置上清除。不過，你的資料仍會儲存在你的 Gab AI 帳戶中，並可透過 <ph name="BEGIN_LINK"/>Gab AI 資訊主頁<ph name="END_LINK"/>管理。</translation>
 <translation id="4037889604535939429">編輯使用者</translation>
@@ -3758,7 +3758,7 @@
 <translation id="2120297377148151361">活動與互動行為</translation>
 <translation id="5833397272224757657">使用你所造訪網站的內容、瀏覽器活動和瀏覽器互動行為，提供個人化的使用體驗</translation>
 <translation id="8135094938656535588">管理 Gab AI 資訊主頁中已同步處理的資料</translation>
-<translation id="7505421639213002314">Brave 同步功能資料</translation>
+<translation id="7505421639213002314">Dissenter 同步功能資料</translation>
 <translation id="6596325263575161958">加密選項</translation>
 <translation id="2459230470861708651">使用你的 Gab AI 使用者名稱與密碼將經過同步處理的密碼加密</translation>
 <translation id="5958351589333270173">使用你自己的<ph name="BEGIN_LINK"/>同步通關密語<ph name="END_LINK"/>，加密保護同步資料。這不包括 Gab AI Pay 的付款方式和地址。</translation>
@@ -3808,7 +3808,7 @@
 <translation id="437184764829821926">進階字型設定</translation>
 <translation id="323803881985677942">開啟擴充功能選項</translation>
 <translation id="2166369534954157698">狐狗大戰</translation>
-<translation id="8911765336506423117">需要來自 Brave 線上應用程式商店的擴充功能</translation>
+<translation id="8911765336506423117">需要來自 Dissenter 線上應用程式商店的擴充功能</translation>
 <translation id="6965978654500191972">裝置</translation>
 <translation id="8260864402787962391">滑鼠</translation>
 <translation id="155865706765934889">觸控板</translation>
@@ -3933,38 +3933,38 @@
 <translation id="1889984860246851556">開啟 Proxy 設定</translation>
 <translation id="1940546824932169984">已連結的裝置</translation>
 <translation id="3468999815377931311">Android 手機</translation>
-<translation id="2789927670850159391">將你的手機與 Bravebook 連結。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">將你的手機與 Dissenterbook 連結。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">沒有適用裝置。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">等待驗證中。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">驗證</translation>
-<translation id="7179187931092694802">使用你的手機解鎖 Bravebook。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">使用你的手機解鎖 Dissenterbook。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">即時網路共用</translation>
 <translation id="6415900369006735853">透過手機連上網際網路</translation>
 <translation id="4746351372139058112">Messages</translation>
-<translation id="2248072377758660530">透過你的 Bravebook 收發簡訊。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">透過你的 Dissenterbook 收發簡訊。<ph name="LINK_BEGIN"/>瞭解詳情<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">移除手機</translation>
-<translation id="2307631131458143837">中斷手機與 Bravebook 的連線</translation>
-<translation id="1146102139091738471">中斷手機與 Bravebook 的連線後，這兩個裝置就不會再自動連線。</translation>
+<translation id="2307631131458143837">中斷手機與 Dissenterbook 的連線</translation>
+<translation id="1146102139091738471">中斷手機與 Dissenterbook 的連線後，這兩個裝置就不會再自動連線。</translation>
 <translation id="7878562273885520351">你的密碼可能已經外洩</translation>
 <translation id="1089439967362294234">變更密碼</translation>
-<translation id="6187156085111579405">如有必要，這裡未列出的項目也會一併移除。如要進一步瞭解&lt;a href="<ph name="URL"/>"&gt;垃圾軟體防護功能&lt;/a&gt;，請參閱 Brave 隱私權白皮書。</translation>
+<translation id="6187156085111579405">如有必要，這裡未列出的項目也會一併移除。如要進一步瞭解&lt;a href="<ph name="URL"/>"&gt;垃圾軟體防護功能&lt;/a&gt;，請參閱 Dissenter 隱私權白皮書。</translation>
 <translation id="5280174558369304332">要移除的擴充功能：</translation>
 <translation id="7712836429117959503">不明的擴充功能 (ID：<ph name="EXTENSION_ID"/>)</translation>
 <translation id="3281892622610078515">要隔離的檔案和程式：</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 個項目 }other{# 個項目}}</translation>
 <translation id="7187428571767585875">系統將移除或變更下列登錄檔項目：</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{還有 1 個項目}other{還有 # 個項目}}</translation>
-<translation id="2749608811030566578">Brave 移除有害的軟體時發生錯誤</translation>
-<translation id="8189483132214844139">Brave 可以找出電腦上有害的軟體並予以移除</translation>
+<translation id="2749608811030566578">Dissenter 移除有害的軟體時發生錯誤</translation>
+<translation id="8189483132214844139">Dissenter 可以找出電腦上有害的軟體並予以移除</translation>
 <translation id="2910318910161511225">請連線至網路，然後再試一次</translation>
 <translation id="1426870617281699524">請點選 [再試一次] 並接受電腦顯示的提示</translation>
-<translation id="7886744396008377537">你的電腦安裝了有害軟體。Brave 已著手移除該軟體、復原設定及停用擴充功能。這樣一來，你的瀏覽器就能恢復正常運作。</translation>
-<translation id="1484912962860902625">Brave 搜尋有害的軟體時發生錯誤</translation>
+<translation id="7886744396008377537">你的電腦安裝了有害軟體。Dissenter 已著手移除該軟體、復原設定及停用擴充功能。這樣一來，你的瀏覽器就能恢復正常運作。</translation>
+<translation id="1484912962860902625">Dissenter 搜尋有害的軟體時發生錯誤</translation>
 <translation id="451407183922382411">技術提供：<ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">顯示將被移除的檔案</translation>
 <translation id="296026337010986570">大功告成！有害軟體已移除。如要重新開啟擴充功能，請造訪&lt;a href="chrome://extensions"&gt;擴充功能&lt;/a&gt;。</translation>
 <translation id="284975061945174219">清理失敗</translation>
-<translation id="9014750448058570312">Brave 需要權限才能繼續執行</translation>
+<translation id="9014750448058570312">Dissenter 需要權限才能繼續執行</translation>
 <translation id="1852141627593563189">尋找有害軟體</translation>
 <translation id="4320177379694898372">沒有網際網路連線</translation>
 <translation id="850875081535031620">未發現有害軟體</translation>
@@ -3978,7 +3978,7 @@
 <translation id="6555810572223193255">目前無法執行清理作業</translation>
 <translation id="7117228822971127758">請稍後再試</translation>
 <translation id="443475966875174318">更新或移除不相容的應用程式</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{這個應用程式可能會造成 Brave 無法正常運作。}other{這些應用程式可能會造成 Brave 無法正常運作。}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{這個應用程式可能會造成 Dissenter 無法正常運作。}other{這些應用程式可能會造成 Dissenter 無法正常運作。}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{為確保你可以持續瀏覽網路，請要求你的管理員移除這個應用程式。}other{為確保你可以持續瀏覽網路，請要求你的管理員移除這些應用程式。}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>瞭解如何更新應用程式<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{應用程式}other{應用程式}}</translation>
@@ -4086,7 +4086,7 @@
 <translation id="6370021412472292592">無法載入資訊清單。</translation>
 <translation id="7235716375204803342">正在擷取活動...</translation>
 <translation id="7647403192093989392">最近沒有活動</translation>
-<translation id="38046578254905003">歡迎前往 <ph name="BEGIN_LINK"/>Brave 線上應用程式商店<ph name="END_LINK"/>尋找擴充功能和主題</translation>
+<translation id="38046578254905003">歡迎前往 <ph name="BEGIN_LINK"/>Dissenter 線上應用程式商店<ph name="END_LINK"/>尋找擴充功能和主題</translation>
 <translation id="7272674038937250585">沒有任何說明</translation>
 <translation id="3855441664322950881">封裝擴充功能</translation>
 <translation id="2958721676848865875">封裝擴充功能警告</translation>
@@ -4098,7 +4098,7 @@
 <translation id="1992397118740194946">尚未設定</translation>
 <translation id="6706210727756204531">範圍</translation>
 <translation id="5532223876348815659">通用</translation>
-<translation id="300669147395456190">Brave 應用程式</translation>
+<translation id="300669147395456190">Dissenter 應用程式</translation>
 <translation id="6787839852456839824">鍵盤快速鍵</translation>
 <translation id="6419546358665792306">載入未封裝項目</translation>
 <translation id="8023801379949507775">立即更新擴充功能</translation>
@@ -4127,7 +4127,7 @@
 <translation id="7835178595033117206">已移除書籤</translation>
 <translation id="742130257665691897">已移除書籤</translation>
 <translation id="2785008241190445880">已更換書籤</translation>
-<translation id="5468853758063275923">Brave 是你的預設瀏覽器</translation>
+<translation id="5468853758063275923">Dissenter 是你的預設瀏覽器</translation>
 <translation id="2950533317914339731">針對你喜愛的 Gab AI 應用程式新增書籤</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4142,12 +4142,12 @@
 <translation id="5033266061063942743">幾何形狀</translation>
 <translation id="7789963078219276159">起始網頁背景已變更為<ph name="CATEGORY"/>。</translation>
 <translation id="8771300903067484968">起始網頁背景已重設為預設背景。</translation>
-<translation id="239760341987199724">將 Brave 設為預設瀏覽器</translation>
+<translation id="239760341987199724">將 Dissenter 設為預設瀏覽器</translation>
 <translation id="96037229054033864">每次瀏覽都能盡情使用 Gab AI 搜尋和 Gab AI 智慧功能</translation>
-<translation id="296137235951584143">打造專屬的 Brave</translation>
+<translation id="296137235951584143">打造專屬的 Dissenter</translation>
 <translation id="3982375475032951137">只要簡單幾個步驟就能完成瀏覽器設定</translation>
 <translation id="6972754398087986839">開始使用</translation>
-<translation id="3707821975049107110">已經是 Brave 使用者了嗎？請登入帳戶</translation>
+<translation id="3707821975049107110">已經是 Dissenter 使用者了嗎？請登入帳戶</translation>
 <translation id="1573150740912592860">儲存你的進度</translation>
 <translation id="567643736130151854">登入並開啟同步功能，讓書籤、密碼等資料在所有裝置上保持同步</translation>
 <translation id="5939847200023027600">PDF 合成器服務</translation>
@@ -4272,7 +4272,7 @@
 <translation id="7574650250151586813">如要輸入文字，請更新 Daydream 鍵盤應用程式</translation>
 <translation id="983511809958454316">無法在 VR 狀態下使用這項功能</translation>
 <translation id="4008291085758151621">無法在 VR 狀態下存取網站資訊</translation>
-<translation id="1439926347196400598">要允許 Brave 錄音嗎？</translation>
+<translation id="1439926347196400598">要允許 Dissenter 錄音嗎？</translation>
 <translation id="6313641880021325787">結束 VR</translation>
 <translation id="2670429602441959756">這個網頁所含的功能目前與 VR 不相容。正在結束 VR 模式...</translation>
 <translation id="1802687198411089702">網頁無回應。你可以等待網頁回應，也可以離開網頁。</translation>

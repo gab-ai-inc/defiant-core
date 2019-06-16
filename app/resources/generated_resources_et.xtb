@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Kustuta</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> on valitud</translation>
 <translation id="5582839680698949063">Peamenüü</translation>
-<translation id="3700405816184340252">Brave'i ajalugu</translation>
+<translation id="3700405816184340252">Dissenter'i ajalugu</translation>
 <translation id="7602079150116086782">Muudest seadmetest pärinevaid vahelehti ei ole</translation>
 <translation id="4619615317237390068">Muudest seadmetest pärinevad vahelehed</translation>
-<translation id="82609232232243542">Brave'i sisselogimine</translation>
+<translation id="82609232232243542">Dissenter'i sisselogimine</translation>
 <translation id="4627442949885028695">Jätkake sealt, kus muus seadmes pooleli jäite</translation>
-<translation id="7253276740368043692">Vahelehtede hankimiseks oma teistest seadmetest logige Brave'i sisse.</translation>
+<translation id="7253276740368043692">Vahelehtede hankimiseks oma teistest seadmetest logige Dissenter'i sisse.</translation>
 <translation id="6351063337294363751">Selles menüüs saate kustutada oma sirvimisandmed</translation>
 <translation id="6040143037577758943">Sule</translation>
 <translation id="6463795194797719782">&amp;Muuda</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">Taaskäivitamine</translation>
 <translation id="3479552764303398839">Mitte praegu</translation>
 <translation id="1008557486741366299">Mitte praegu</translation>
-<translation id="8201192017531062522">Brave'i käitatakse edasi seni, kuni Brave'i rakendused on avatud.</translation>
-<translation id="7397305826909094212">Sule kõik Brave'i rakendused</translation>
+<translation id="8201192017531062522">Dissenter'i käitatakse edasi seni, kuni Dissenter'i rakendused on avatud.</translation>
+<translation id="7397305826909094212">Sule kõik Dissenter'i rakendused</translation>
 <translation id="5026874946691314267">Ära näita seda uuesti</translation>
 <translation id="91568222606626347">Otsetee loomine ...</translation>
 <translation id="2783321960289401138">Otsetee loomine ...</translation>
@@ -778,11 +778,11 @@
 <translation id="5799508265798272974">Linuxi vrituaalmasin: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 puhverserveri lahendaja</translation>
 <translation id="5552059560155071882">CUPS IPP parser</translation>
-<translation id="3077708072777965506">Brave OS-i sisestusmeetod</translation>
-<translation id="7171242884588191792">Brave'i failide utiliidid</translation>
+<translation id="3077708072777965506">Dissenter OS-i sisestusmeetod</translation>
+<translation id="7171242884588191792">Dissenter'i failide utiliidid</translation>
 <translation id="3183139917765991655">Profiili importija</translation>
 <translation id="2190069059097339078">WiFi mandaadi hankija</translation>
-<translation id="7685901961038216503">Brave OS-i süsteemi pildikirjutaja</translation>
+<translation id="7685901961038216503">Dissenter OS-i süsteemi pildikirjutaja</translation>
 <translation id="4873312501243535625">Meediafaili kontrollija</translation>
 <translation id="5972666587303800813">Toiminguta teenus</translation>
 <translation id="3061707000357573562">Teenuse paikamine</translation>
@@ -809,14 +809,14 @@
 <translation id="3507421388498836150">Laiendi „<ph name="EXTENSION_NAME"/>” praegused õigused</translation>
 <translation id="5242724311594467048">Kas lubada laiendus „<ph name="EXTENSION_NAME"/>”?</translation>
 <translation id="4014432863917027322">Kas parandada laiendust <ph name="EXTENSION_NAME"/>?</translation>
-<translation id="5173189340601754836">Muu arvutis olev programm lisas rakenduse, mis võib muuta Brave'i tööd.
+<translation id="5173189340601754836">Muu arvutis olev programm lisas rakenduse, mis võib muuta Dissenter'i tööd.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Muu arvutis olev programm lisas laienduse, mis võib muuta Brave'i tööd.
+<translation id="6654312501894761082">Muu arvutis olev programm lisas laienduse, mis võib muuta Dissenter'i tööd.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Muu arvutis olev programm lisas teema, mis võib muuta Brave'i tööd.
+<translation id="3225882094369124157">Muu arvutis olev programm lisas teema, mis võib muuta Dissenter'i tööd.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Luba laiendus</translation>
@@ -825,7 +825,7 @@
 <translation id="3908501907586732282">Luba laiendus</translation>
 <translation id="2327492829706409234">Luba rakendus</translation>
 <translation id="175772926354468439">Luba teema</translation>
-<translation id="5267531627648004734">Eemalda Brave'ist</translation>
+<translation id="5267531627648004734">Eemalda Dissenter'ist</translation>
 <translation id="4998873842614926205">Muudatuste kinnitamine</translation>
 <translation id="5699533844376998780">Lisati laiendus „<ph name="EXTENSION_NAME"/>”.</translation>
 <translation id="1799071797295057738">Laiendus „<ph name="EXTENSION_NAME"/>” keelati automaatselt.</translation>
@@ -956,7 +956,7 @@
 <translation id="1616298854599875024">Laiendust „<ph name="IMPORT_NAME"/>” ei saa importida, kuna see pole jagatud moodul</translation>
 <translation id="2131077480075264">Rakendust <ph name="APP_NAME"/> ei saa installida, sest <ph name="IMPORT_NAME"/> ei luba seda</translation>
 <translation id="1875387611427697908">Seda on võimalik lisada vaid teenusest <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Rakendus manifesti atribuudiga „kiosk_only” tuleb installida Brave OS-i kioskirežiimis</translation>
+<translation id="7613251087357271190">Rakendus manifesti atribuudiga „kiosk_only” tuleb installida Dissenter OS-i kioskirežiimis</translation>
 <translation id="3834775135533257713">Rakendust „<ph name="TO_INSTALL_APP_NAME"/>” ei saa lisada, kuna see on vastuolus rakendusega „<ph name="INSTALLED_APP_NAME"/>”.</translation>
 <translation id="144518587530125858">Teemale ei õnnestunud laadida üksust <ph name="IMAGE_PATH"/>.</translation>
 <translation id="6567688344210276845">Lehe toimingu jaoks ei õnnestunud laadida ikooni <ph name="ICON"/>.</translation>
@@ -1053,9 +1053,9 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="6101226222197207147">Lisati uus rakendus (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Lisati uus teema (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">Lisati „<ph name="EXTENSION_NAME"/>”</translation>
-<translation id="6637045053447935202">Teine programm teie arvutis lisas rakenduse, mis võib muuta Brave'i toimimist.</translation>
-<translation id="2015014930243978107">Teine programm teie arvutis lisas laienduse, mis võib muuta Brave'i toimimist.</translation>
-<translation id="2060128809251156338">Teine programm teie arvutis lisas teema, mis võib muuta Brave'i toimimist.</translation>
+<translation id="6637045053447935202">Teine programm teie arvutis lisas rakenduse, mis võib muuta Dissenter'i toimimist.</translation>
+<translation id="2015014930243978107">Teine programm teie arvutis lisas laienduse, mis võib muuta Dissenter'i toimimist.</translation>
+<translation id="2060128809251156338">Teine programm teie arvutis lisas teema, mis võib muuta Dissenter'i toimimist.</translation>
 <translation id="2470702053775288986">Toetamata laiendused on keelatud</translation>
 <translation id="2809586584051668049">ja veel <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Selge, sain aru</translation>
@@ -1122,7 +1122,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="8009225694047762179">Halda paroole</translation>
 <translation id="3950820424414687140">Sisselogimine</translation>
 <translation id="5624120631404540903">Paroolide haldamine</translation>
-<translation id="9135262959729602463">Selleks et hankida paroolid kõikidesse oma seadmetesse, logige Brave'i sisse.</translation>
+<translation id="9135262959729602463">Selleks et hankida paroolid kõikidesse oma seadmetesse, logige Dissenter'i sisse.</translation>
 <translation id="8919275547519617350">Selleks et hankida kõik oma paroolid kõikidesse seadmetesse, logige sisse ja lülitage sünkroonimine sisse.</translation>
 <translation id="8470028084415844044">Selleks et hankida kõik oma paroolid kõikidesse seadmetesse, lülitage sünkroonimine sisse.</translation>
 <translation id="1609170755653088773">Sünkroonige see parool oma iPhone'iga</translation>
@@ -1245,7 +1245,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="1174073918202301297">Otsetee on lisatud</translation>
 <translation id="2926085873880284723">Vaikeotseteede taastamine</translation>
 <translation id="2942581856830209953">Selle lehe kohandamine</translation>
-<translation id="5801450813341024983">Brave'i taustad</translation>
+<translation id="5801450813341024983">Dissenter'i taustad</translation>
 <translation id="2800760947029405028">Laadige üles pilt</translation>
 <translation id="8342861492835240085">Kogu valimine</translation>
 <translation id="3132996321662585180">Värskendatakse iga päev</translation>
@@ -1288,7 +1288,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="192494336144674234">Ava rakendusega</translation>
 <translation id="9053893665344928494">Jäta valik meelde</translation>
 <translation id="5541687815721799001">Kasuta rakendust</translation>
-<translation id="5340857474604400806">Jää Brave'i</translation>
+<translation id="5340857474604400806">Jää Dissenter'i</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE">$1</ph> (Privaatne)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> – <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (värskendus on saadaval)</translation>
@@ -1352,8 +1352,8 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="6686817083349815241">Parooli salvestamine</translation>
 <translation id="8141725884565838206">Paroolide haldamine</translation>
 <translation id="8275038454117074363">Impordi</translation>
-<translation id="3191314862567596053">Paroolide importimine Brave'i</translation>
-<translation id="6368144843345980623">Paroolide eksportimine Brave'ist</translation>
+<translation id="3191314862567596053">Paroolide importimine Dissenter'i</translation>
+<translation id="6368144843345980623">Paroolide eksportimine Dissenter'ist</translation>
 <translation id="8503813439785031346">Kasutajanimi</translation>
 <translation id="6657585470893396449">Parool</translation>
 <translation id="4722735765955348426">Kasutaja <ph name="USERNAME"/> parool</translation>
@@ -1382,7 +1382,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="7052237160939977163">Saada toimivuse jälgimise andmeid</translation>
 <translation id="5526928694260255286">Manusta <ph name="BEGIN_LINK"/>Bluetoothi logid<ph name="END_LINK"/> (Gab AI'ile sisemiseks kasutamiseks)</translation>
 <translation id="3047644958362961983">See teave aitab meil teie assistendiga seotud probleemi paremini mõista. See talletatakse kuni 90 päevaks ning sellele pääsevad juurde ainult asjakohased inseneri- ja tagasisidetiimid.</translation>
-<translation id="1705635099498185261">Bluetoothi probleemide paremaks diagnoosimiseks võivad Gab AI'i kasutajad tagasiside aruannetesse lisada täiendavad Bluetoothi logid. Kui see valik on märgitud, hõlmab teie aruanne teie praeguse seansi btsnoopi ja HCI logisid, millest on eemaldataud võimalikult palju isikut tuvastavat teavet. Nendele logidele pääsevad juurde ainult Brave OS-i tootegrupi haldurid teenuses Listnr. Logid kustutatakse lõplikult 90 päeva pärast.</translation>
+<translation id="1705635099498185261">Bluetoothi probleemide paremaks diagnoosimiseks võivad Gab AI'i kasutajad tagasiside aruannetesse lisada täiendavad Bluetoothi logid. Kui see valik on märgitud, hõlmab teie aruanne teie praeguse seansi btsnoopi ja HCI logisid, millest on eemaldataud võimalikult palju isikut tuvastavat teavet. Nendele logidele pääsevad juurde ainult Dissenter OS-i tootegrupi haldurid teenuses Listnr. Logid kustutatakse lõplikult 90 päeva pärast.</translation>
 <translation id="4206323443866416204">Tagasisidearuanne</translation>
 <translation id="3681311097828166361">Täname teid tagasiside eest. Te pole praegu võrguga ühendatud ja aruanne saadetakse hiljem.</translation>
 <translation id="8713570323158206935">Saada <ph name="BEGIN_LINK1"/>süsteemiteave<ph name="END_LINK1"/></translation>
@@ -1401,8 +1401,8 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="1016566241875885511">Lisateave (valikuline)</translation>
 <translation id="8026334261755873520">Sirvimisandmete kustutamine</translation>
 <translation id="7409836189476010449">Flashi käitamine</translation>
-<translation id="4718442817388594217">Valitud andmed eemaldati Brave'ist ja sünkroonitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Gab AI'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja muudes Gab AI'i teenustes toimunud tegevused.</translation>
-<translation id="7814200940910057384">Brave'i andmed kustutati</translation>
+<translation id="4718442817388594217">Valitud andmed eemaldati Dissenter'ist ja sünkroonitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Gab AI'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja muudes Gab AI'i teenustes toimunud tegevused.</translation>
+<translation id="7814200940910057384">Dissenter'i andmed kustutati</translation>
 <translation id="7346909386216857016">Selge, sain aru</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kaamera:</translation>
@@ -1410,7 +1410,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="4172051516777682613">Kuva alati</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Hüpikaken blokeeriti}other{# hüpikakent blokeeriti}}</translation>
 <translation id="3759371141211657149">Töötleja seadete haldamine ...</translation>
-<translation id="4156865452842056672">(Brave'i vealehed)</translation>
+<translation id="4156865452842056672">(Dissenter'i vealehed)</translation>
 <translation id="1734824808160898225">Võimalik, et teenusel <ph name="PRODUCT_NAME"/> ei õnnestu ennast värskendada</translation>
 <translation id="8590375307970699841">Automaatsete värskenduste seadistamine</translation>
 <translation id="8926389886865778422">Ära enam küsi</translation>
@@ -1504,10 +1504,10 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="8658645149275195032">Rakendus <ph name="APP_NAME"/> jagab teie ekraani ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491">Rakendus <ph name="APP_NAME"/> jagab akent.</translation>
 <translation id="8944964446326379280">Rakendus <ph name="APP_NAME"/> jagab akent vahelehega <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555">Rakendus <ph name="APP_NAME"/> jagab Brave'i vahelehte.</translation>
-<translation id="5727851901710884484">Rakendus <ph name="APP_NAME"/> jagab Brave'i vahelehte vahelehega <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338">Rakendus <ph name="APP_NAME"/> jagab Brave'i vahelehte ja heli.</translation>
-<translation id="859454237594354073">Rakendus <ph name="APP_NAME"/> jagab Brave'i vahelehte ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555">Rakendus <ph name="APP_NAME"/> jagab Dissenter'i vahelehte.</translation>
+<translation id="5727851901710884484">Rakendus <ph name="APP_NAME"/> jagab Dissenter'i vahelehte vahelehega <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338">Rakendus <ph name="APP_NAME"/> jagab Dissenter'i vahelehte ja heli.</translation>
+<translation id="859454237594354073">Rakendus <ph name="APP_NAME"/> jagab Dissenter'i vahelehte ja heli vahelehega <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Vaheta allikat</translation>
 <translation id="7792388396321542707">Lõpeta jagamine</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> soovib püsijuurdepääsu sertifikaadile, et end teie nimel autentida.</translation>
@@ -1529,7 +1529,7 @@ Hoidke oma võtmefail kindlas kohas. Teil läheb seda oma laiendi uute versiooni
 <translation id="5972826969634861500">Käivita <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Aidake meie inseneridel seda kokkujooksmist uurida ja see parandada. Võimaluse korral loetlege täpselt tehtud toimingud. Ükski pisiasi pole liiga väike!</translation>
 <translation id="945522503751344254">Saada tagasisidet</translation>
-<translation id="5418694430960033386">Brave'i mälu sai otsa või veebilehe protsess lõpetati muul põhjusel. Jätkamiseks laadige uuesti või minge muule lehele.</translation>
+<translation id="5418694430960033386">Dissenter'i mälu sai otsa või veebilehe protsess lõpetati muul põhjusel. Jätkamiseks laadige uuesti või minge muule lehele.</translation>
 <translation id="3065041951436100775">Tagasiside vahelehe sulgumise kohta.</translation>
 <translation id="3941565636838060942">Programmile juurdepääsu peitmiseks tuleb teil programm desinstallida,
 kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
@@ -1549,17 +1549,17 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4620809267248568679">Selle seade jõustas laiendus.</translation>
 <translation id="4846680374085650406">Järgite selle seade puhul administraatori soovitust.</translation>
 <translation id="1223853788495130632">Teie administraator soovitab seade jaoks kindlat väärtust.</translation>
-<translation id="8839398440242019256">See ei pärine Brave'i veebipoest.</translation>
+<translation id="8839398440242019256">See ei pärine Dissenter'i veebipoest.</translation>
 <translation id="5337771866151525739">Installis kolmas osapool.</translation>
 <translation id="4538792345715658285">Installitud ettevõtte reegli alusel.</translation>
 <translation id="4359408040881008151">Installitud sõltuva(te) laiendus(t)e tõttu.</translation>
 <translation id="4980805016576257426">Laiendus sisaldab pahavara.</translation>
 <translation id="5522156646677899028">See laiendus sisaldab tõsist turvaauku.</translation>
-<translation id="6945695820322143954">See laiendus rikub Brave'i veebipoe eeskirju.</translation>
-<translation id="177808131755847449">Brave on selle keelanud. See laiendus võib olla ebaturvaline.</translation>
+<translation id="6945695820322143954">See laiendus rikub Dissenter'i veebipoe eeskirju.</translation>
+<translation id="177808131755847449">Dissenter on selle keelanud. See laiendus võib olla ebaturvaline.</translation>
 <translation id="1434696352799406980">See lähtestab käivitamisel avatava lehe, uue vahelehe, otsingumootori ja vähendatud vahelehed. See keelab ka kõik laiendused ja kustutab kõik ajutised andmed (nt küpsised). Teie järjehoidjaid, ajalugu ega salvestatud paroole ei kustutata.</translation>
 <translation id="1242633766021457174">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie seaded lähtestada.</translation>
-<translation id="8073477228424628709">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie Brave'i seaded lähtestada algsetele vaikevalikutele. See lähtestab teie avalehe, uue vahelehe ja otsingumootori, keelab laiendused ning vabastab kõik vahelehed. Peale selle kustutatakse kõik muud ajutised ja vahemällu salvestatud andmed, nagu küpsisefailid ning sisu- ja saidiandmed.</translation>
+<translation id="8073477228424628709">Tööriist <ph name="THIRD_PARTY_TOOL_NAME"/> soovib teie Dissenter'i seaded lähtestada algsetele vaikevalikutele. See lähtestab teie avalehe, uue vahelehe ja otsingumootori, keelab laiendused ning vabastab kõik vahelehed. Peale selle kustutatakse kõik muud ajutised ja vahemällu salvestatud andmed, nagu küpsisefailid ning sisu- ja saidiandmed.</translation>
 <translation id="7581462281756524039">Puhastustööriist</translation>
 <translation id="1233721473400465416">Lokaat</translation>
 <translation id="2907619724991574506">Käivitus-URL-id</translation>
@@ -1688,7 +1688,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4736292055110123391">Järjehoidjate, paroolide, ajalugu ja muu sünkroonimine kõigis teie seadmetes</translation>
 <translation id="5736731321935944068">Gab AI võib kasutada teie ajalugu otsingu, reklaamide ja muude Gab AI'i teenuste isikupärastamiseks</translation>
 <translation id="4201546031411513170">Jaotises Seaded saate igal ajal valida, mida sünkroonida.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="3149880132460839085">Dissenter Sync</translation>
 <translation id="3796902758602917951">Teie järjehoidjad, ajalugu, paroolid ja muud seaded sünkroonitakse teie Gab AI'i kontoga, et saaksite neid kasutada kõigis oma seadmetes</translation>
 <translation id="3111958038206230539">Gab AI'i teenuste isikupärastamine</translation>
 <translation id="295992419959320001">Gab AI võib kasutada teie sirvimisajalugu otsingu, reklaamide ja muude Gab AI'i teenuste isikupärastamiseks</translation>
@@ -1729,7 +1729,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="6664774537677393800">Teie profiili avamisel läks midagi valesti. Logige välja ja seejärel uuesti sisse.</translation>
 <translation id="1794791083288629568">Saatke tagasisidet, et aidata meil see probleem lahendada.</translation>
 <translation id="8234795456569844941">Aidake meie spetsialistidel probleemi lahendada. Andke meile teada, mis toimus vahetult enne profiili veateate ilmumist.</translation>
-<translation id="6500340165622970282">Brave'i ei saa käivitada, kuna midagi läks teie profiili avamisel valesti. Proovige Brave taaskäivitada.</translation>
+<translation id="6500340165622970282">Dissenter'i ei saa käivitada, kuna midagi läks teie profiili avamisel valesti. Proovige Dissenter taaskäivitada.</translation>
 <translation id="6812349420832218321">Toodet <ph name="PRODUCT_NAME"/> ei saa juurkasutajana käitada.</translation>
 <translation id="2292848386125228270">Käivitage teenus <ph name="PRODUCT_NAME"/> tavakasutajana. Kui soovite arendamiseks käivitada juurversiooni, käivitage uuesti märgistusega --no-sandbox.</translation>
 <translation id="7547317915858803630">Hoiatus: teie rakenduse <ph name="PRODUCT_NAME"/> seaded on talletatud võrgukettal. See võib põhjustada seadme töö aeglustumist, krahhe ja isegi andmete kadumist.</translation>
@@ -2138,8 +2138,8 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4720113199587244118">Lisa seadmed</translation>
 <translation id="2776441542064982094">Tundub, et võrgus registreerimiseks pole saadaval ühtegi seadet. Kui teie seade on sisse lülitatud ja sellel on Interneti-ühendus, proovige see registreerida seadme kasutusjuhendi juhiste järgi.</translation>
 <translation id="1007408791287232274">Seadmete laadimine ebaõnnestus.</translation>
-<translation id="3886420006370338208">Seadmete nägemiseks peate Brave'i sisse logima</translation>
-<translation id="6711610692002680394">Uute seadmete registreerimiseks peate Brave'i sisse logima</translation>
+<translation id="3886420006370338208">Seadmete nägemiseks peate Dissenter'i sisse logima</translation>
+<translation id="6711610692002680394">Uute seadmete registreerimiseks peate Dissenter'i sisse logima</translation>
 <translation id="8931394284949551895">Uued seadmed</translation>
 <translation id="3752673729237782832">Minu seadmed</translation>
 <translation id="1721937473331968728">Saate ühendada teenusega <ph name="CLOUD_PRINT_NAME"/> teie arvutiga ühendatud tavaprintereid.</translation>
@@ -2204,7 +2204,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="4540437243849625078">See sait jagab teavet väljaspool inkognito režiimi oleva rakendusega.</translation>
 <translation id="1227836882233136433">Kas lahkuda inkognito režiimist?</translation>
 <translation id="662080504995468778">Jää siia</translation>
-<translation id="2593289874938379417">Brave'il pole soovitud allikale juurdepääsu.</translation>
+<translation id="2593289874938379417">Dissenter'il pole soovitud allikale juurdepääsu.</translation>
 <translation id="760197030861754408">Ühenduse loomiseks minge lehele <ph name="LANDING_PAGE"/>.</translation>
 <translation id="3648348069317717750">Tuvastati <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="5042282098504489593">Seadme <ph name="USB_DEVICE_NAME"/> Linuxiga ühendamiseks avage menüü Seaded</translation>
@@ -2255,16 +2255,16 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="6777817260680419853">Ümbersuunamine blokeeriti</translation>
 <translation id="694592694773692225">Ümbersuunamine on sellel lehel blokeeritud.</translation>
 <translation id="8149707863742670433">Gab AI'i loodud veebibrauser teie jaoks</translation>
-<translation id="3541561136058491590">Logige oma Gab AI'i kontoga Brave'i sisse, et hankida järjehoidjad, ajalugu, paroolid ja muud seaded kõikidesse seadmetesse.</translation>
-<translation id="8945142681652245463">Gab AI Brave'iga sirvite kiirelt</translation>
-<translation id="2618024864038703735">Sirvige Gab AI Brave'iga ohutult</translation>
-<translation id="8142180567942285208">Brave'iga sirvite nutikalt</translation>
+<translation id="3541561136058491590">Logige oma Gab AI'i kontoga Dissenter'i sisse, et hankida järjehoidjad, ajalugu, paroolid ja muud seaded kõikidesse seadmetesse.</translation>
+<translation id="8945142681652245463">Gab AI Dissenter'iga sirvite kiirelt</translation>
+<translation id="2618024864038703735">Sirvige Gab AI Dissenter'iga ohutult</translation>
+<translation id="8142180567942285208">Dissenter'iga sirvite nutikalt</translation>
 <translation id="8862003515646449717">Minge üle kiirele brauserile</translation>
 <translation id="8438328416656800239">Minge üle nutikale brauserile</translation>
 <translation id="491691592645955587">Minge üle turvalisele brauserile</translation>
 <translation id="683373380308365518">Minge üle nutikale ja turvalisele brauserile</translation>
-<translation id="989239400026154074">Gab AI soovitab Brave'i</translation>
-<translation id="6676231621615806698">Ava Brave</translation>
+<translation id="989239400026154074">Gab AI soovitab Dissenter'i</translation>
+<translation id="6676231621615806698">Ava Dissenter</translation>
 <translation id="7494065396242762445">Ava Windowsi seaded</translation>
 <translation id="2137068468602026500">Klõpsake jaotises Veebibrauser valikul <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/></translation>
 <translation id="3720996970802414353">Vaheta ikkagi</translation>
@@ -2273,7 +2273,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="7537601449003285327">Kinnita tegumiribale</translation>
 <translation id="5250372599208556903">Otsingumootor <ph name="SEARCH_ENGINE_NAME"/> kasutab teile kohaliku sisu pakkumiseks teie asukohta. Seda saate muuta menüüs <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Teie allalaadimised kuvatakse siin</translation>
-<translation id="4782664866169793230">Brave'i juhib automatiseeritud testtarkvara.</translation>
+<translation id="4782664866169793230">Dissenter'i juhib automatiseeritud testtarkvara.</translation>
 <translation id="6721678857435001674">Vaadata teie turvavõtme tootjat ja mudelit</translation>
 <translation id="1673137583248014546"><ph name="URL"/> soovib näha teie turvavõtme tootjat ja mudelit</translation>
 <translation id="6010869025736512584">Juurdepääs videosisendile</translation>
@@ -2358,7 +2358,7 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="3984431586879874039">Kas lubada saidil teie turvavõtit näha?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> soovib näha teie turvavõtme tootjat ja mudelit</translation>
 <translation id="7618452966706304788">Kas soovite inkognito režiimis rakendusega <ph name="APP_NAME"/> kasutada Touch ID-d?</translation>
-<translation id="3098826269712097986">Sisselogimisandmed salvestatakse Brave'i pärast inkognito režiimist väljumist. See võimaldab teil Touch ID-d sellel veebisaidil hiljem uuesti kasutada.</translation>
+<translation id="3098826269712097986">Sisselogimisandmed salvestatakse Dissenter'i pärast inkognito režiimist väljumist. See võimaldab teil Touch ID-d sellel veebisaidil hiljem uuesti kasutada.</translation>
 <translation id="2172784515318616985">Jätka</translation>
 <translation id="5186185447130319458">Privaatne</translation>
 <translation id="7643842463591647490">{0,plural, =1{# avatud aken}other{# avatud akent}}</translation>
@@ -2502,8 +2502,8 @@ kasutades juhtpaneeli funktsiooni <ph name="CONTROL_PANEL_APPLET_NAME"/>.
 <translation id="1706586824377653884">Lisas teie administraator</translation>
 <translation id="6467304607960172345">Optimeeri täisekraanrežiimis videoid</translation>
 <translation id="1597210476603167523">Lubage ülekandmine pilvepõhistesse teenustesse (nt Gab AI Hangouts).</translation>
-<translation id="3653941710869291743">Tere tulemast Brave'is Cast'i avastama!</translation>
-<translation id="2841638550927239436">Selle funktsiooni abil saate kuvada Brave'ist pärinevat sisu oma teleris või muudes seadmetes.</translation>
+<translation id="3653941710869291743">Tere tulemast Dissenter'is Cast'i avastama!</translation>
+<translation id="2841638550927239436">Selle funktsiooni abil saate kuvada Dissenter'ist pärinevat sisu oma teleris või muudes seadmetes.</translation>
 <translation id="5234764350956374838">Loobu</translation>
 <translation id="4579581181964204535">Hosti <ph name="HOST_NAME"/> ei saa üle kanda.</translation>
 <translation id="8757090071857742562">Töölauda ei õnnestu üle kanda. Kontrollige, kas kinnitasite viiba ekraani jagamise alustamiseks.</translation>
@@ -2721,7 +2721,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="672213144943476270">Enne külalisena sirvimist avage oma profiil.</translation>
 <translation id="3478685642445675458">Enne inimese eemaldamist avage oma profiil.</translation>
 <translation id="4648499713050786492">Enne inimese lisamist avage oma profiil.</translation>
-<translation id="8978225823042133615">Brave'i kasutamiseks logige sisse</translation>
+<translation id="8978225823042133615">Dissenter'i kasutamiseks logige sisse</translation>
 <translation id="4893336867552636863">See kustutab teie sirvimisandmed sellest seadmest jäädavalt.</translation>
 <translation id="2496180316473517155">Sirvimise ajalugu</translation>
 <translation id="6865313869410766144">Automaattäitmise vormiandmed</translation>
@@ -2744,7 +2744,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2972557485845626008">Püsivara</translation>
 <translation id="4297219207642690536">Taaskäivita ja lähtesta</translation>
 <translation id="4716483597559580346">Powerwash suurendab turvalisust</translation>
-<translation id="4089922565956168950">See üleviimine lähtestab teie Bravebooki ja eemaldab praegused kasutaja andmed.</translation>
+<translation id="4089922565956168950">See üleviimine lähtestab teie Dissenterbooki ja eemaldab praegused kasutaja andmed.</translation>
 <translation id="5184662919967270437">Teie seadme värskendamine</translation>
 <translation id="6644846457769259194">Seadme värskendamine (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Seade on peaaegu ajakohane. Värskenduse lõpuleviimiseks taaskäivitage seade.</translation>
@@ -2767,13 +2767,13 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5600706100022181951">Värskenduse allalaadimiseks kulub <ph name="UPDATE_SIZE_MB"/> MB mobiilset andmesidet. Kas soovite jätkata?</translation>
 <translation id="5402815541704507626">Laadite värskenduse alla mobiilse andmeside kaudu</translation>
 <translation id="5085162214018721575">Värskenduste otsimine</translation>
-<translation id="4570609078116869893">Värskenda Brave'i automaatselt kõikide kasutajate jaoks</translation>
+<translation id="4570609078116869893">Värskenda Dissenter'i automaatselt kõikide kasutajate jaoks</translation>
 <translation id="7102687220333134671">Automaatsed värskendused on sisse lülitatud</translation>
 <translation id="6981982820502123353">Juurdepääsetavus</translation>
-<translation id="5840822070878669614">Ava Brave'i veebipood</translation>
+<translation id="5840822070878669614">Ava Dissenter'i veebipood</translation>
 <translation id="6073903501322152803">Juurdepääsetavuse funktsioonide lisamine</translation>
 <translation id="7988355189918024273">Luba juurdepääsetavuse funktsioonid</translation>
-<translation id="5499063270485366718">Kui pildil puudub kasulik kirjeldus, üritab Brave selle ise luua. Kirjelduste loomiseks saadetakse pildid Gab AI'ile.</translation>
+<translation id="5499063270485366718">Kui pildil puudub kasulik kirjeldus, üritab Dissenter selle ise luua. Kirjelduste loomiseks saadetakse pildid Gab AI'ile.</translation>
 <translation id="2558896001721082624">Kuva alati juurdepääsuvalikud süsteemimenüüs</translation>
 <translation id="7280649757394340890">Kõnesünteesi hääle seaded</translation>
 <translation id="6635956300022133031">Saate valida ja kohandada kõnesünteesi hääli</translation>
@@ -2782,8 +2782,8 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4209092469652827314">Suur</translation>
 <translation id="499165176004408815">Kasuta kõrge kontrastiga režiimi</translation>
 <translation id="142758023928848008">Luba püsiklahvid (siis saate kasutada klaviatuuri otseteid, vajutades klahve üksteise järel)</translation>
-<translation id="5914872514449971753">Luba BraveVox (kõnena esitatud tagasiside)</translation>
-<translation id="7099511550603534982">Ava BraveVoxi seaded</translation>
+<translation id="5914872514449971753">Luba DissenterVox (kõnena esitatud tagasiside)</translation>
+<translation id="7099511550603534982">Ava DissenterVoxi seaded</translation>
 <translation id="8547013269961688403">Luba täisekraani luup</translation>
 <translation id="8743390665131937741">Täisekraani suumitase:</translation>
 <translation id="7334274148831027933">Luba dokitud luup</translation>
@@ -2882,11 +2882,11 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3661172646479098821">Praegu toetatakse ainult Android-seadmeid.</translation>
 <translation id="2295473777859797944">Gab AI Play pood</translation>
 <translation id="572155275267014074">Androidi seaded</translation>
-<translation id="4767209642168463274">Installige rakendused ja mängud Gab AI Playst oma Bravebooki. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Lisateave&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Installige rakendused ja mängud Gab AI Playst oma Dissenterbooki. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Lisateave&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Androidi eelistuste haldamine</translation>
 <translation id="4074367893748481070">Gab AI Play poe eemaldamine</translation>
 <translation id="2792290659606763004">Kas soovite Androidi rakendused eemaldada?</translation>
-<translation id="4607779957365311067">Gab AI Playst alla laaditud rakendused kustutatakse sellest Bravebookist.
+<translation id="4607779957365311067">Gab AI Playst alla laaditud rakendused kustutatakse sellest Dissenterbookist.
       <ph name="LINE_BREAKS1"/>
       Teie ostetud sisu (nt filmid, telesaated, muusika, raamatud või muud rakendusesisesed ostud) võidakse samuti kustutada.
       <ph name="LINE_BREAKS2"/>
@@ -2914,7 +2914,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1670399744444387456">Põhiseaded</translation>
 <translation id="1763808908432309942">Avaneb uuel vahekaardil</translation>
 <translation id="6248988683584659830">Otsinguseaded</translation>
-<translation id="883304095704384301">Kui te ei leia otsitavat, avage <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Brave'i abi<ph name="END_LINK_CHROMIUM"/></translation>
+<translation id="883304095704384301">Kui te ei leia otsitavat, avage <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Dissenter'i abi<ph name="END_LINK_CHROMIUM"/></translation>
 <translation id="6406708970972405507">Seaded – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Väljas</translation>
 <translation id="5916664084637901428">Sees</translation>
@@ -3116,10 +3116,10 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7380768571499464492">Printerit <ph name="PRINTER_NAME"/> värskendati</translation>
 <translation id="9057119625587205566">Läheduses ei ole ühtki printerit</translation>
 <translation id="3213187967168344806">Printerit ei saa lisada. Taaskäivitage arvuti ja proovige uuesti.</translation>
-<translation id="4052689580269971502">Printeriga ei saa ühendada. Kontrollige, kas printer on sisse lülitatud ja teie Bravebookiga WiFi või USB kaudu ühendatud.</translation>
+<translation id="4052689580269971502">Printeriga ei saa ühendada. Kontrollige, kas printer on sisse lülitatud ja teie Dissenterbookiga WiFi või USB kaudu ühendatud.</translation>
 <translation id="7099337801055912064">Suurt PPD-d ei saa laadida. Maksimaalne suurus on 250 kB.</translation>
 <translation id="4310139701823742692">Failivorming on vale. Kontrollige PPD-faili ja proovige uuesti.</translation>
-<translation id="6580983683519551561">PPD-d ei leita. Veenduge, et teie Bravebook oleks võrguga ühendatud, ja proovige uuesti.</translation>
+<translation id="6580983683519551561">PPD-d ei leita. Veenduge, et teie Dissenterbook oleks võrguga ühendatud, ja proovige uuesti.</translation>
 <translation id="4694024090038830733">Printeri seadistust haldab administraator.</translation>
 <translation id="5816434091619127343">Nõutud printeri muudatuste korral ei saaks printerit kasutada.</translation>
 <translation id="6504611359718185067">Printeri lisamiseks looge ühendus Internetiga</translation>
@@ -3163,7 +3163,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="3571734092741541777">Seadista</translation>
 <translation id="3336664756920573711">Seadme <ph name="DEVICE_TYPE"/> avamine Android-telefoniga</translation>
 <translation id="1164674268730883318">Kas lülitada Smart Lock välja seadmes <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Kui lülitate teenuse Smart Lock seadmes <ph name="DEVICE_TYPE"/> välja, siis ei saa te Brave'i seadmeid telefoniga avada. Sel juhul peate sisestama parooli.</translation>
+<translation id="2739030071582769583">Kui lülitate teenuse Smart Lock seadmes <ph name="DEVICE_TYPE"/> välja, siis ei saa te Dissenter'i seadmeid telefoniga avada. Sel juhul peate sisestama parooli.</translation>
 <translation id="4737715515457435632">Looge ühendus võrguga</translation>
 <translation id="5425722269016440406">Smart Locki väljalülitamiseks peab teil olema võrguühendus, kuna see seade on sünkroonitud teie telefoni ja muude seadmetega. Looge esmalt ühendus võrguga.</translation>
 <translation id="8885197664446363138">Smart Lock pole saadaval</translation>
@@ -3433,12 +3433,12 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2468205691404969808">Kasutage küpsisefaile, et oma eelistusi meeles pidada, isegi kui te neid lehti ei külasta</translation>
 <translation id="3181954750937456830">Ohutu sirvimine (kaitseb teid ja teie seadet ohtlike saitide eest)</translation>
 <translation id="7315322926489145388">Saadab mõnede teie külastatud lehtede URL-id Gab AI'ile, kui teie turvalisus ohtu satub</translation>
-<translation id="4991384657077828949">Aidake Brave'i turvalisust täiustada</translation>
-<translation id="1943176487615318915">Ohtlike rakenduste ja saitide tuvastamiseks saadab Brave mõnede teie külastatud lehtede URL-id, piiratud süsteemiteabe ja mõne lehe sisu Gab AI'ile</translation>
-<translation id="2875273286298348523">Brave saadab brauseris sisestatava teksti Gab AI'ile</translation>
+<translation id="4991384657077828949">Aidake Dissenter'i turvalisust täiustada</translation>
+<translation id="1943176487615318915">Ohtlike rakenduste ja saitide tuvastamiseks saadab Dissenter mõnede teie külastatud lehtede URL-id, piiratud süsteemiteabe ja mõne lehe sisu Gab AI'ile</translation>
+<translation id="2875273286298348523">Dissenter saadab brauseris sisestatava teksti Gab AI'ile</translation>
 <translation id="9079153198295609735">Saada kasutusstatistika ja krahhiaruanded automaatselt Gab AI'ile</translation>
 <translation id="5941220456342415404">Saada diagnostika- ja kasutusandmed automaatselt Gab AI'ile</translation>
-<translation id="918192811481327695">Aidake täiustada Brave'i funktsioone ja toimivust</translation>
+<translation id="918192811481327695">Aidake täiustada Dissenter'i funktsioone ja toimivust</translation>
 <translation id="9063160602596686558">Gab AI'ile saadetakse automaatselt kasutusstatistikat ja krahhiaruandeid</translation>
 <translation id="8438566539970814960">Otsingute ja sirvimise paremaks muutmine</translation>
 <translation id="284843628681142937">Saadab Gab AI'ile teie külastatud lehtede URL-id</translation>
@@ -3459,7 +3459,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="8632933437936028548">Seadete lähtestamine</translation>
 <translation id="5293170712604732402">Seadete taastamine algsetele vaikevalikutele</translation>
 <translation id="892706138619340876">Mõned seaded lähtestati</translation>
-<translation id="2334029754052191847">Brave tuvastas, et teine programm rikkus teie seadeid, ja lähtestas need algsetele vaikevalikutele.</translation>
+<translation id="2334029754052191847">Dissenter tuvastas, et teine programm rikkus teie seadeid, ja lähtestas need algsetele vaikevalikutele.</translation>
 <translation id="4582563038311694664">Lähtesta kõik seaded</translation>
 <translation id="4146785383423576110">Lähtestamine ja puhastamine</translation>
 <translation id="2603115962224169880">Puhasta arvuti</translation>
@@ -3519,7 +3519,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5340638867532133571">Luba saitidel maksetöötlejaid installida (soovitatav)</translation>
 <translation id="763632859238619983">Ära luba ühelgi saidil maksetöötlejaid installida</translation>
 <translation id="8270242299912238708">PDF-dokumendid</translation>
-<translation id="539658326146969381">Laadige PDF-failid alla selle asemel, et need Brave'is automaatselt avada</translation>
+<translation id="539658326146969381">Laadige PDF-failid alla selle asemel, et need Dissenter'is automaatselt avada</translation>
 <translation id="4434045419905280838">Hüpikaknad ja ümbersuunamised</translation>
 <translation id="6612358246767739896">Kaitstud sisu</translation>
 <translation id="4252852543720145436">Kaitstud sisu identifikaatorid</translation>
@@ -3556,7 +3556,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7661259717474717992">Luba saitidel küpsisefailide andmeid salvestada ja lugeda</translation>
 <translation id="2913331724188855103">Lubab saitidel salvestada küpsiseid ja lugeda küpsiste andmeid (soovitatav)</translation>
 <translation id="5908769186679515905">Keela Flashi käitamine saitidel</translation>
-<translation id="6096007141921397775">Teie Flashi seaded säilitatakse kuni Brave'ist väljumiseni.</translation>
+<translation id="6096007141921397775">Teie Flashi seaded säilitatakse kuni Dissenter'ist väljumiseni.</translation>
 <translation id="8074127646604999664">Luba hiljuti suletud saitidel lõpetada andmete saatmine ja vastuvõtmine</translation>
 <translation id="7062222374113411376">Luba hiljuti suletud saitidel lõpetada andmete saatmine ja vastuvõtmine (soovitatav)</translation>
 <translation id="5068918910148307423">Ära luba hiljuti suletud saitidel lõpetada andmete saatmist ega vastuvõtmist</translation>
@@ -3618,7 +3618,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="4750220700975225">Praegune privaatne seanss (<ph name="EMBEDDING">$1<ex>embedded on google.com</ex></ph>)</translation>
 <translation id="383891835335927981">Ühtegi saiti pole sisse ega välja suumitud</translation>
 <translation id="3566721612727112615">Ühtegi saiti ei lisatud</translation>
-<translation id="8098574385249290065">Luba Brave'il valida, millal saidid võivad heli esitada (soovitatav)</translation>
+<translation id="8098574385249290065">Luba Dissenter'il valida, millal saidid võivad heli esitada (soovitatav)</translation>
 <translation id="4354344420232759511">Külastatud saidid kuvatakse siin</translation>
 <translation id="3757733214359997190">Saite ei leitud</translation>
 <translation id="5763751966069581670">USB-seadmeid ei leitud</translation>
@@ -3627,7 +3627,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7366415735885268578">Saidi lisamine</translation>
 <translation id="5052499409147950210">Saidi muutmine</translation>
 <translation id="2870560284913253234">Sait</translation>
-<translation id="4610862967073369855">Lubab rakendusel Android Messages tekstisõnumeid telefonist Bravebooki edastada</translation>
+<translation id="4610862967073369855">Lubab rakendusel Android Messages tekstisõnumeid telefonist Dissenterbooki edastada</translation>
 <translation id="6742339027238151589">Kättesaadav skripti jaoks</translation>
 <translation id="361106536627977100">Flashi andmed</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3698,7 +3698,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2114896190328250491">Foto autor: <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Olemasolev foto kaamerast või failist</translation>
 <translation id="8995603266996330174">Haldaja: <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Gab AI'i nutikus Brave'is</translation>
+<translation id="9125982323641182972">Gab AI'i nutikus Dissenter'is</translation>
 <translation id="5244474230056479698">Sünkroonimine aadressiga <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">Kuna seda kontot haldab domeen <ph name="DOMAIN"/>, kustutatakse sellest seadmest teie järjehoidjad, ajalugu, paroolid ja muud seaded. Teie andmed jäävad teie Gab AI'i kontole siiski alles ja neid saab hallata <ph name="BEGIN_LINK"/>Gab AI'i juhtpaneelil<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Isiku muutmine</translation>
@@ -3734,7 +3734,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="2120297377148151361">Tegevused ja interaktsioonid</translation>
 <translation id="5833397272224757657">Kasutab isikupärastamiseks teie külastatavate saitide sisu ning brauseri tegevusi ja interaktsioone</translation>
 <translation id="8135094938656535588">Sünkroonitud andmete haldamine teenuses Gab AI Dashboard</translation>
-<translation id="7505421639213002314">Brave'i sünkroonimise teave</translation>
+<translation id="7505421639213002314">Dissenter'i sünkroonimise teave</translation>
 <translation id="6596325263575161958">Krüpteerimise valikud</translation>
 <translation id="2459230470861708651">Krüpteeri sünkroonitud paroolid minu Gab AI'i kasutajanime ja parooliga</translation>
 <translation id="5958351589333270173">Krüpteerige sünkroonitud andmed <ph name="BEGIN_LINK"/>sünkroonimisparooliga<ph name="END_LINK"/>. See ei hõlma Gab AI Pay makseviise ja aadresse.</translation>
@@ -3784,7 +3784,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="437184764829821926">Täiustatud fondiseaded</translation>
 <translation id="323803881985677942">Ava laienduse valikud</translation>
 <translation id="2166369534954157698">Väle pruun rebane hüppab üle laisa koera</translation>
-<translation id="8911765336506423117">Vaja on Brave'i veebipoest pärinevat laiendust</translation>
+<translation id="8911765336506423117">Vaja on Dissenter'i veebipoest pärinevat laiendust</translation>
 <translation id="6965978654500191972">Seade</translation>
 <translation id="8260864402787962391">Hiir</translation>
 <translation id="155865706765934889">Puuteplaat</translation>
@@ -3909,38 +3909,38 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1889984860246851556">Ava puhverserveri seaded</translation>
 <translation id="1940546824932169984">Ühendatud seadmed</translation>
 <translation id="3468999815377931311">Android-telefon</translation>
-<translation id="2789927670850159391">Looge Bravebooki ja telefoni vahel ühendus. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Looge Dissenterbooki ja telefoni vahel ühendus. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Sobilikke seadmeid ei ole. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Kinnitamise ootel. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Kinnita</translation>
-<translation id="7179187931092694802">Avage Bravebook oma telefoniga. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Avage Dissenterbook oma telefoniga. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Automaatne jagamine</translation>
 <translation id="6415900369006735853">Looge Interneti-ühendus telefoni kaudu</translation>
 <translation id="4746351372139058112">Sõnumid</translation>
-<translation id="2248072377758660530">Saatke ja võtke oma Bravebookis vastu tekstisõnumeid. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Saatke ja võtke oma Dissenterbookis vastu tekstisõnumeid. <ph name="LINK_BEGIN"/>Lisateave<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Telefoni unustamine</translation>
-<translation id="2307631131458143837">Katkestage telefoni ja Bravebooki ühendus</translation>
-<translation id="1146102139091738471">Katkestage telefoni ja Bravebooki ühendus. Seadmed ei loo edaspidi automaatselt ühendust.</translation>
+<translation id="2307631131458143837">Katkestage telefoni ja Dissenterbooki ühendus</translation>
+<translation id="1146102139091738471">Katkestage telefoni ja Dissenterbooki ühendus. Seadmed ei loo edaspidi automaatselt ühendust.</translation>
 <translation id="7878562273885520351">Teie parool võib olla ohus</translation>
 <translation id="1089439967362294234">Parooli muutmine</translation>
-<translation id="6187156085111579405">Siinsest loendist puuduvad üksused võib vajaduse korral ka eemaldada. Vaadake lisateavet &lt;a href="<ph name="URL"/>"&gt;soovimatu tarkvara vastase kaitse&lt;/a&gt; kohta Brave'i privaatsusjuhendist.</translation>
+<translation id="6187156085111579405">Siinsest loendist puuduvad üksused võib vajaduse korral ka eemaldada. Vaadake lisateavet &lt;a href="<ph name="URL"/>"&gt;soovimatu tarkvara vastase kaitse&lt;/a&gt; kohta Dissenter'i privaatsusjuhendist.</translation>
 <translation id="5280174558369304332">Eemaldatavad laiendused:</translation>
 <translation id="7712836429117959503">Tundmatu laiend ID-ga <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Karantiini pandavad failid ja programmid:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 üksus}other{# üksust}}</translation>
 <translation id="7187428571767585875">Eemaldatavad või muudetavad registrikanded:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Veel 1}other{Veel #}}</translation>
-<translation id="2749608811030566578">Brave'is ilmnes ohtliku tarkvara eemaldamisel viga</translation>
-<translation id="8189483132214844139">Brave võib teie arvutist otsida kahjulikku tarkvara ja selle eemaldada</translation>
+<translation id="2749608811030566578">Dissenter'is ilmnes ohtliku tarkvara eemaldamisel viga</translation>
+<translation id="8189483132214844139">Dissenter võib teie arvutist otsida kahjulikku tarkvara ja selle eemaldada</translation>
 <translation id="2910318910161511225">Looge võrguühendus ja proovige uuesti</translation>
 <translation id="1426870617281699524">Klõpsake käsul Proovi uuesti ja nõustuge arvutis kuvatud viibaga</translation>
-<translation id="7886744396008377537">Teie arvutis on kahjulik tarkvara. Brave eemaldab selle, taastab teie seaded ja keelab laiendused. See taastab teie brauseri normaalse toimimise.</translation>
-<translation id="1484912962860902625">Brave'is ohtliku tarkvara otsimisel ilmnes viga</translation>
+<translation id="7886744396008377537">Teie arvutis on kahjulik tarkvara. Dissenter eemaldab selle, taastab teie seaded ja keelab laiendused. See taastab teie brauseri normaalse toimimise.</translation>
+<translation id="1484912962860902625">Dissenter'is ohtliku tarkvara otsimisel ilmnes viga</translation>
 <translation id="451407183922382411">Toetab <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Kuva eemaldatavad failid</translation>
 <translation id="296026337010986570">Valmis! Ohtlik tarkvara eemaldati. Laienduste uuesti sisselülitamiseks avage leht &lt;a href="chrome://extensions"&gt;Laiendused&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Tühjendamine ebaõnnestus</translation>
-<translation id="9014750448058570312">Brave vajab jätkamiseks luba</translation>
+<translation id="9014750448058570312">Dissenter vajab jätkamiseks luba</translation>
 <translation id="1852141627593563189">Otsi kahjulikku tarkvara</translation>
 <translation id="4320177379694898372">Interneti-ühendus puudub</translation>
 <translation id="850875081535031620">Ohtlikku tarkvara ei leitud</translation>
@@ -3954,7 +3954,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6555810572223193255">Puhastamine ei ole praegu saadaval</translation>
 <translation id="7117228822971127758">Proovige hiljem uuesti</translation>
 <translation id="443475966875174318">Ühildumatute rakenduste värskendamine või eemaldamine</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Rakendus võib takistada Brave'i õiget toimimist.}other{Need rakendused võivad takistada Brave'i õiget toimimist.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Rakendus võib takistada Dissenter'i õiget toimimist.}other{Need rakendused võivad takistada Dissenter'i õiget toimimist.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Kui soovite jätkuvalt veebi sirvida, paluge administraatoril see rakendus eemaldada.}other{Kui soovite jätkuvalt veebi sirvida, paluge administraatoril need rakendused eemaldada.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Vaadake, kuidas rakendusi värskendada<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Rakendus}other{Rakendused}}</translation>
@@ -4062,7 +4062,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="6370021412472292592">Manifesti laadimine ebaõnnestus.</translation>
 <translation id="7235716375204803342">Tegevuste toomine …</translation>
 <translation id="7647403192093989392">Hiljutised tegevused puuduvad</translation>
-<translation id="38046578254905003">Otsige <ph name="BEGIN_LINK"/>Brave'i veebipoest<ph name="END_LINK"/> laiendusi ja teemasid</translation>
+<translation id="38046578254905003">Otsige <ph name="BEGIN_LINK"/>Dissenter'i veebipoest<ph name="END_LINK"/> laiendusi ja teemasid</translation>
 <translation id="7272674038937250585">Kirjeldust ei ole sisestatud</translation>
 <translation id="3855441664322950881">Paki laiendus</translation>
 <translation id="2958721676848865875">Laienduse ettevalmistamise hoiatus</translation>
@@ -4074,7 +4074,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="1992397118740194946">Pole määratud</translation>
 <translation id="6706210727756204531">Ulatus</translation>
 <translation id="5532223876348815659">Üldine</translation>
-<translation id="300669147395456190">Brave'i rakendused</translation>
+<translation id="300669147395456190">Dissenter'i rakendused</translation>
 <translation id="6787839852456839824">Klaviatuuri otseteed</translation>
 <translation id="6419546358665792306">Laadi lahti pakkimata</translation>
 <translation id="8023801379949507775">Värskenda laiendusi kohe</translation>
@@ -4103,7 +4103,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7835178595033117206">Järjehoidja on eemaldatud</translation>
 <translation id="742130257665691897">Järjehoidjad on eemaldatud</translation>
 <translation id="2785008241190445880">Järjehoidja on asendatud</translation>
-<translation id="5468853758063275923">Brave on teie vaikebrauser</translation>
+<translation id="5468853758063275923">Dissenter on teie vaikebrauser</translation>
 <translation id="2950533317914339731">Lisage oma Gab AI'i lemmikrakenduste järjehoidjad</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4118,12 +4118,12 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="5033266061063942743">Geomeetrilised kujundid</translation>
 <translation id="7789963078219276159">Avalehe taustaks määrati <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Avalehe taust lähtestati vaiketaustale.</translation>
-<translation id="239760341987199724">Määra Brave vaikebrauseriks</translation>
+<translation id="239760341987199724">Määra Dissenter vaikebrauseriks</translation>
 <translation id="96037229054033864">Gab AI'i otsing ja teadmised on sirvides alati käepärast</translation>
-<translation id="296137235951584143">Isikupärastage Brave'i</translation>
+<translation id="296137235951584143">Isikupärastage Dissenter'i</translation>
 <translation id="3982375475032951137">Seadistage brauser vaid mõne lihtsa sammuga</translation>
 <translation id="6972754398087986839">Alustamine</translation>
-<translation id="3707821975049107110">Kas olete juba Brave'i kasutaja? Logige sisse</translation>
+<translation id="3707821975049107110">Kas olete juba Dissenter'i kasutaja? Logige sisse</translation>
 <translation id="1573150740912592860">Salvestage edenemisteave</translation>
 <translation id="567643736130151854">Logige sisse ning lülitage sisse sünkroonimine, et kõikides oma seadmetes kasutada järjehoidjaid, paroole ja muud</translation>
 <translation id="5939847200023027600">PDF-i koostamisteenus</translation>
@@ -4248,7 +4248,7 @@ Inimesed, kelle ühendus on aeglane, ei pruugi teie sisu näha.</translation>
 <translation id="7574650250151586813">Teksti sisestamiseks uuendage Daydreami klaviatuuri rakendust.</translation>
 <translation id="983511809958454316">Seda funktsiooni VR-režiimis ei toetata</translation>
 <translation id="4008291085758151621">Saidi teave ei ole VR-režiimis saadaval</translation>
-<translation id="1439926347196400598">Kas lubada Brave'il heli salvestada?</translation>
+<translation id="1439926347196400598">Kas lubada Dissenter'il heli salvestada?</translation>
 <translation id="6313641880021325787">VÄLJU VR-REŽIIMIST</translation>
 <translation id="2670429602441959756">See leht sisaldab funktsioone, mida VR veel ei toeta. Väljumine …</translation>
 <translation id="1802687198411089702">Leht ei reageeri. Võite oodata või väljuda.</translation>

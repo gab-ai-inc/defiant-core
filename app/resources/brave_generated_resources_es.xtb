@@ -2,25 +2,26 @@
 <!DOCTYPE translationbundle>
 <translationbundle lang="es">
 <translation id="3333887201479867589">Dissenter Rewards</translation>
-<translation id="7942180974165298215">Bloqueador de anuncios Brave</translation>
+<translation id="7942180974165298215">Bloqueador de anuncios Dissenter</translation>
 <translation id="6406506848690869874">Dissenter Sync</translation>
-<translation id="120759863357279975">La extensión <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") no está permitida en Brave.</translation>
+<translation id="8488282162676695335">Dissenter Wallet</translation>
+<translation id="120759863357279975">La extensión <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") no está permitida en Dissenter.</translation>
 <translation id="7450557937477381864">Cerrar Chrome</translation>
-<translation id="7008934821596358692">Para finalizar la importación, cierra todas las ventanas de Brave.</translation>
+<translation id="7008934821596358692">Para finalizar la importación, cierra todas las ventanas de Dissenter.</translation>
 <translation id="5735465527556462863">Cerrar Dissenter (antiguo)</translation>
 <translation id="7737066986958447692">Para acabar de importar, cierre todas las ventanas de Dissenter (antiguo).</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Estadísticas</translation>
-<translation id="6165477144235978006">Pagos de Brave</translation>
+<translation id="6165477144235978006">Pagos de Dissenter</translation>
 <translation id="3489524616427966890">Abrir ventanas y pestañas</translation>
 <translation id="3699882589215410581">Instalar y ejecutar Widevine</translation>
 <translation id="8053096063396012732">Instalar Widevine</translation>
 <translation id="4840334696217618631">Reiniciar el navegador para habilitar Widevine</translation>
-<translation id="8410111618231938546">Google Widevine es un código de administración de derechos digitales (DRM)  que no es propiedad de Gab AI y por tanto no podemos inspeccionarlo. El código de Google Widevine se carga desde los servidores de Google, no desde nuestros servidores. Se carga solo cuando habilitas esta opción. Desaconsejamos el uso de DRM, pero respetamos la elección del usuario y entendemos que a algunos usuarios de Dissenter les gustaría usar algunos servicios que lo requieran.
+<translation id="8410111618231938546">Google Widevine es un código de administración de derechos digitales (DRM)  que no es propiedad de Dissenter Software y por tanto no podemos inspeccionarlo. El código de Google Widevine se carga desde los servidores de Google, no desde nuestros servidores. Se carga solo cuando habilitas esta opción. Desaconsejamos el uso de DRM, pero respetamos la elección del usuario y entendemos que a algunos usuarios de Dissenter les gustaría usar algunos servicios que lo requieran.
 
 Al instalar esta extensión, aceptas los Términos de uso de Google Widevine. Aceptas que Dissenter no es responsable por daños o pérdidas en relación con tu uso de Google Widevine.</translation>
 <translation id="6499845530162974140">Dissenter (antiguo)</translation>
-<translation id="3198814717959506569">Importado desde Brave</translation>
+<translation id="3198814717959506569">Importado desde Dissenter</translation>
 <translation id="453977518730680921">Reproducir medios automáticamente</translation>
 <translation id="410351446219883937">Reproducción automática</translation>
 <translation id="2240268017737062801">Preguntar cuando un sitio web desea reproducir automáticamente contenido multimedia</translation>
@@ -28,8 +29,7 @@ Al instalar esta extensión, aceptas los Términos de uso de Google Widevine. Ac
 <translation id="3218385319396786393">La reproducción automática se ha bloqueado en esta página</translation>
 <translation id="4988333904713528597">Permitir siempre la reproducción automática en <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Continuar bloqueando la reproducción automática</translation>
-<translation id="7543906827780734027">Dissenter aún no ha revisado esta extensión, podría ser maliciosa. ¿Añadir "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" de todas maneras?</translation>
-<translation id="2044383478723007273">Modo Brave</translation>
+<translation id="2044383478723007273">Modo Dissenter</translation>
 <translation id="6123134130710658846">Ocultar botón de Dissenter Rewards</translation>
 <translation id="7635711399568194460">Oculta el botón de Dissenter Rewards en la barra de direcciones cuando Dissenter Rewards está deshabilitado</translation>
 <translation id="7965178729203412357">Nueva identidad Tor</translation>
@@ -48,26 +48,13 @@ Al instalar esta extensión, aceptas los Términos de uso de Google Widevine. Ac
 <translation id="4472575034687746823">Empezar</translation>
 <translation id="3400357268283240774">Opciones adicionales</translation>
 <translation id="6303294677342628402">Escudos</translation>
-<translation id="768979911142179781">Predeterminados</translation>
-<translation id="5989930075012659993">Tu configuración actual por sitio se mantendrá.</translation>
 <translation id="9185018653595759199">Bloqueo de redes sociales</translation>
-<translation id="6894114137169961038">Control de publicidad</translation>
-<translation id="1096802265930928584">Control de Cookies</translation>
-<translation id="8919235146866304148">Protección huella digital</translation>
-<translation id="520895744850022668">HTTPS en cualquier sitio</translation>
-<translation id="5259716416204774556">Bloqueo de scripts</translation>
 <translation id="7498695072878479744">Permitir los botones de acceso de Google en sitios web de terceros</translation>
 <translation id="863171915776379000">Permitir los inicios de sesión de Facebook y los mensajes incrustados</translation>
 <translation id="5165042248369837294">Permitir tweets incrustados de Twitter</translation>
 <translation id="958971637207126733">Permitir mensajes incrustados de LinkedIn</translation>
-<translation id="6067014455220527258">Bloquear anuncios</translation>
-<translation id="6985711843506827936">Permitir anuncios y seguimiento</translation>
-<translation id="6132506775968708399">Bloquear cookies de terceros</translation>
 <translation id="5657156137487675418">Permitir cookies</translation>
 <translation id="6883611015375728278">Bloquear cookies</translation>
-<translation id="1442559343076146186">Bloquear toma de huella digital a terceros</translation>
-<translation id="8034285923190068220">Permitir huella digital</translation>
-<translation id="4540198958192073185">Bloquear toma de huella digital</translation>
 <translation id="8942080017911802454">Política de gestión de IP de WebRTC</translation>
 <translation id="6165508094623778733">Saber más</translation>
 <translation id="8798099450830957504">Predeterminado</translation>

@@ -4,23 +4,23 @@
 <translation id="3333887201479867589">„Dissenter Rewards“</translation>
 <translation id="7942180974165298215">„Dissenter Ad Block“</translation>
 <translation id="6406506848690869874">Sinchronizavimas</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (plėtinio ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") nėra leidžiamas naršyklėje „Brave“.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (plėtinio ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") nėra leidžiamas naršyklėje „Dissenter“.</translation>
 <translation id="7450557937477381864">Užverti „Chrome“</translation>
 <translation id="7008934821596358692">Kad užbaigtumėte importuoti, užverkite visus „Chrome“ langus.</translation>
-<translation id="5735465527556462863">Užverti „Brave“ (senąją)</translation>
-<translation id="7737066986958447692">Kad baigtumėte importuoti, užverkite visus „Brave“ (senosios) langus.</translation>
+<translation id="5735465527556462863">Užverti „Dissenter“ (senąją)</translation>
+<translation id="7737066986958447692">Kad baigtumėte importuoti, užverkite visus „Dissenter“ (senosios) langus.</translation>
 <translation id="6447842834002726250">Slapukai</translation>
 <translation id="4983925687993168579">Statistika</translation>
-<translation id="6165477144235978006">„Brave“ mokėjimai</translation>
+<translation id="6165477144235978006">„Dissenter“ mokėjimai</translation>
 <translation id="3489524616427966890">Atidaryti langai ir skirtukai</translation>
 <translation id="3699882589215410581">Įdiekite ir paleiskite „Widevine“</translation>
 <translation id="8053096063396012732">Diegti „Widevine“</translation>
 <translation id="4840334696217618631">Paleiskite naršyklę iš naujo, kad „Widevine“ pradėtų veikti</translation>
-<translation id="8410111618231938546">„Google Widevine“ yra skaitmeninio teisių valdymo (DRM) kodo elementas, kuris nepriklauso „Gab AI“ ir todėl negalime jo patikrinti. „Google Widevine“ kodas įkeliamas iš „Google“ serverių, o ne iš mūsų serverių. Jis įkeliamas tik tada, kai aktyvinate šią parinktį. Mes neskatiname naudoti DRM, bet gerbiame naudotojų pasirinkimą ir pripažįstame, kad kai kurie „Brave“ naudotojai nori naudotis paslaugomis, kurioms DRM yra reikalingas.
+<translation id="8410111618231938546">„Google Widevine“ yra skaitmeninio teisių valdymo (DRM) kodo elementas, kuris nepriklauso „Gab AI“ ir todėl negalime jo patikrinti. „Google Widevine“ kodas įkeliamas iš „Google“ serverių, o ne iš mūsų serverių. Jis įkeliamas tik tada, kai aktyvinate šią parinktį. Mes neskatiname naudoti DRM, bet gerbiame naudotojų pasirinkimą ir pripažįstame, kad kai kurie „Dissenter“ naudotojai nori naudotis paslaugomis, kurioms DRM yra reikalingas.
 
-Įdiegdami šį plėtinį sutinkate su „Google Widevine“ naudojimo sąlygomis. Sutinkate, kad „Brave“ nebus atsakinga už jokią žalą ar nuostolius, patirtus dėl naudojimosi „Google Widevine“.</translation>
-<translation id="6499845530162974140">„Brave“ (senoji)</translation>
-<translation id="3198814717959506569">Importuota iš „Brave“</translation>
+Įdiegdami šį plėtinį sutinkate su „Google Widevine“ naudojimo sąlygomis. Sutinkate, kad „Dissenter“ nebus atsakinga už jokią žalą ar nuostolius, patirtus dėl naudojimosi „Google Widevine“.</translation>
+<translation id="6499845530162974140">„Dissenter“ (senoji)</translation>
+<translation id="3198814717959506569">Importuota iš „Dissenter“</translation>
 <translation id="453977518730680921">Automatiškai leisti mediją</translation>
 <translation id="410351446219883937">Leisti automatiškai</translation>
 <translation id="2240268017737062801">Paklausti, kai svetainė nori automatiškai leisti mediją</translation>
@@ -28,8 +28,7 @@
 <translation id="3218385319396786393">Šiame puslapyje automatinio leidimo funkcija buvo užblokuota</translation>
 <translation id="4988333904713528597">Visada leisti automatinį leidimą svetainėje <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Toliau blokuoti automatinį leidimą</translation>
-<translation id="7543906827780734027">„Brave“ dar neperžiūrėjo šio plėtinio – jis gali būti kenkėjiškas. Ar vis tiek pridėti „<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>“?</translation>
-<translation id="2044383478723007273">„Brave“ spalvos</translation>
+<translation id="2044383478723007273">„Dissenter“ spalvos</translation>
 <translation id="6123134130710658846">Slėpti mygtuką „Dissenter Rewards“</translation>
 <translation id="7635711399568194460">Jei funkcija „Dissenter Rewards“ neįjungta, buvimo vietos juostoje esantį mygtuką „Dissenter Rewards“ paslėpti</translation>
 <translation id="7965178729203412357">Nauja „Tor“ tapatybė</translation>
@@ -38,7 +37,7 @@
 <translation id="3696187925156352769">Atverti „Tor“ langą</translation>
 <translation id="1434416574322382019">Naujas inkognito langas su „Tor“</translation>
 <translation id="4703780849509456860">Atverti nuorodą inkognito lange su „Tor“</translation>
-<translation id="3488584642074079080">Atverti nuorodą „Brave“ inkognito lange su „Tor“</translation>
+<translation id="3488584642074079080">Atverti nuorodą „Dissenter“ inkognito lange su „Tor“</translation>
 <translation id="6313675821927505581">Naujas privatus langas su Tor</translation>
 <translation id="2638041073279639246">Atidaryti saitą privačiame lange su Tor</translation>
 <translation id="3425600262621021599">Atidaryti saitą Dissenter privačiame lange su Tor</translation>
@@ -48,26 +47,13 @@
 <translation id="4472575034687746823">Pradėkite</translation>
 <translation id="3400357268283240774">Papildomi nustatymai</translation>
 <translation id="6303294677342628402">Skydai</translation>
-<translation id="768979911142179781">Numatyta</translation>
-<translation id="5989930075012659993">Bus išlaikyti jūsų dabartinio puslapio nustatymai.</translation>
 <translation id="9185018653595759199">Socialinės žiniasklaidos blokavimas</translation>
-<translation id="6894114137169961038">Reklamos kontrolė</translation>
-<translation id="1096802265930928584">Slapukų kontrolė</translation>
-<translation id="8919235146866304148">Kontrolinio kodo apsauga</translation>
-<translation id="520895744850022668">HTTPS visur</translation>
-<translation id="5259716416204774556">Scenarijų blokavimas</translation>
 <translation id="7498695072878479744">Trečiųjų šalių svetainėse leisti rodyti prisijungimo per „Google“ mygtukus</translation>
 <translation id="863171915776379000">Leisti rodyti prisijungimo per „Facebook“ formą ir įterptuosius įrašus</translation>
 <translation id="5165042248369837294">Leisti rodyti įterptąsias „Twitter“ žinutes</translation>
 <translation id="958971637207126733">Leisti rodyti įterptuosius „LinkedIn“ įrašus</translation>
-<translation id="6067014455220527258">Blokuoti reklamas</translation>
-<translation id="6985711843506827936">Leisti reklamas ir sekimą</translation>
-<translation id="6132506775968708399">Blokuoti trečiųjų šalių slapukus</translation>
 <translation id="5657156137487675418">Leisti visus slapukus</translation>
 <translation id="6883611015375728278">Blokuoti visus slapukus</translation>
-<translation id="1442559343076146186">Blokuoti trečiųjų šalių kontrolinius kodus</translation>
-<translation id="8034285923190068220">Leisti kontrolinius kodus</translation>
-<translation id="4540198958192073185">Blokuoti visus kontrolinius kodus</translation>
 <translation id="8942080017911802454">„WebRTC“ IP tvarkymo politika</translation>
 <translation id="6165508094623778733">Sužinokite daugiau</translation>
 <translation id="8798099450830957504">Numatytasis</translation>

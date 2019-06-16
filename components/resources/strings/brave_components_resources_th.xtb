@@ -70,9 +70,6 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="5946611334574299206">รับเหรียญด้วยการชมโฆษณาใน Dissenter โฆษณาที่นำเสนออิงมาจากความสนใจของคุณซึ่งอนุมานจากพฤติกรรมการท่องเว็บของคุณ ไม่มีข้อมูลส่วนตัวหรือประวัติการท่องเว็บหลุดออกมาจากเบราว์เซอร์ของคุณ</translation>
 <translation id="6112368337882254910">มีส่วนร่วมอัตโนมัติ</translation>
 <translation id="1527222983464337010">วิธีสนับสนุนผู้เผยแพร่และผู้สร้างสรรค์เนื้อหาโดยอัตโนมัติ ให้กำหนดการชำระเงินแบบรายเดือนแล้วเรียกดูตามปกติ ไซต์ที่คุณเยี่ยมชมจะได้รับเงินบริจาคของคุณโดยอัตโนมัติ โดยขึ้นอยู่กับความสนใจของคุณตามที่ Dissenter วัดได้</translation>
-<translation id="7178655681744815321">ประมาณค่าตอบแทนในรอบนี้</translation>
-<translation id="8157096848242649588">วันที่ชำระเงิน</translation>
-<translation id="5208388044986603165">การแจ้งเตือนโฆษณาที่ได้รับ</translation>
 <translation id="4229016885653790965">ขออภัย! ยังไม่มีโฆษณาในพื้นที่ของคุณ</translation>
 <translation id="654711254769318398">เพจโฆษณาที่มีการเข้าชม</translation>
 <translation id="2532127066761785857">จำนวนโฆษณาสูงสุดที่แสดง</translation>
@@ -187,11 +184,9 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="516395624550019162">ใช่ ฉันเอาด้วย!</translation>
 <translation id="529572070778367192">รับรางวัลจากการท่องเน็ต!</translation>
 <translation id="128450776206759934">วิธีทำงาน...</translation>
-<translation id="3825698830825612308">สำนักพิมพ์ที่ได้รับการยืนยันแล้วจาก Brave</translation>
+<translation id="3825698830825612308">สำนักพิมพ์ที่ได้รับการยืนยันแล้วจาก Dissenter</translation>
 <translation id="7658239707568436148">ยกเลิก</translation>
 <translation id="7262285991915892790">ลากไอคอน BAT ไปยัง</translation>
-<translation id="2151535059686617995">วันนี้คุณมีโชค!</translation>
-<translation id="6255773350565723852">โทเค็นเงินบริจาคกำลังจะไปถึงคุณแล้ว</translation>
 <translation id="7656781188259414093">เป้าหมาย</translation>
 <translation id="1555514580945108302">หืม… ไม่ใช่นะ ลองอีกครั้งสิ</translation>
 <translation id="13853865024308201">รับ</translation>
@@ -331,7 +326,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="5636843789453098076">ให้ทิป @{{ user }} สำหรับการทวีต:</translation>
 <translation id="4242384385082203046">ให้ทิป @{{ user }} สำหรับการทวีต!</translation>
 <translation id="2448312741937722512">ประเภท</translation>
-<translation id="8772672608371898774">สำนักพิมพ์ที่ได้รับการยืนยันจาก Brave</translation>
+<translation id="8772672608371898774">สำนักพิมพ์ที่ได้รับการยืนยันจาก Dissenter</translation>
 <translation id="5050370287908180130">ดูรายงานประจำเดือนสำหรับรายละเอียด</translation>
 <translation id="8615803647903750175">กิจกรรมกระเป๋าเงิน</translation>
 <translation id="2620624773940447728">ที่อยู่ Wallet</translation>
@@ -361,6 +356,8 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="7410549756000115387">ไม่มีการบริจาคที่รอพิจารณา…</translation>
 <translation id="1963227389609234879">นำออกทั้งหมด</translation>
 <translation id="923467487918828349">แสดงทั้งหมด</translation>
+<translation id="2151535059686617995">วันนี้คุณมีโชค!</translation>
+<translation id="6255773350565723852">โทเค็นเงินบริจาคกำลังจะไปถึงคุณแล้ว</translation>
 <translation id="1181037720776840403">ลบออก</translation>
 <translation id="7885157704277298658">คัดลอกแล้ว!</translation>
 <translation id="5379640681913450928">จำนวนคำ:</translation>
@@ -396,7 +393,7 @@ DuckDuckGo ไม่บันทึกประวัติการค้นห
 <translation id="6647265259633328698">คำเตือน!</translation>
 <translation id="7226983081288498250">การลบ</translation>
 <translation id="1810742624536999850">ออกจะเป็นการลบกลุ่มการซิงค์นี้</translation>
-<translation id="3263262632668102801">ข้อมูลภายในเครื่องบนอุปกรณ์นี้จะยังคงอยู่ แต่ข้อมูลทั้งหมดในแคช Brave’s Sync จะถูกลบ</translation>
+<translation id="3263262632668102801">ข้อมูลภายในเครื่องบนอุปกรณ์นี้จะยังคงอยู่ แต่ข้อมูลทั้งหมดในแคช Dissenter’s Sync จะถูกลบ</translation>
 <translation id="9209629396585743369">คุณสามารถเริ่มกลุ่มการซิงค์ใหม่หรือซิงค์กับอุปกรณ์ใหม่ได้โดยการป้อนรหัสกลุ่มการซิงค์</translation>
 <translation id="8258002508340330928">คุณแน่ใจหรือไม่</translation>
 <translation id="3407602902101449803">ซิงค์เชนคิวอาร์โค้ด</translation>

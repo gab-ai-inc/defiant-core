@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Verwijderen</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> geselecteerd</translation>
 <translation id="5582839680698949063">Hoofdmenu</translation>
-<translation id="3700405816184340252">Brave-geschiedenis</translation>
+<translation id="3700405816184340252">Dissenter-geschiedenis</translation>
 <translation id="7602079150116086782">Geen van andere apparaten</translation>
 <translation id="4619615317237390068">Tabbladen van andere apparaten</translation>
-<translation id="82609232232243542">Inloggen bij Brave</translation>
+<translation id="82609232232243542">Inloggen bij Dissenter</translation>
 <translation id="4627442949885028695">Doorgaan vanaf een ander apparaat</translation>
-<translation id="7253276740368043692">Log in bij Brave om de tabbladen van je andere apparaten te bekijken.</translation>
+<translation id="7253276740368043692">Log in bij Dissenter om de tabbladen van je andere apparaten te bekijken.</translation>
 <translation id="6351063337294363751">Je kunt je browsergegevens wissen vanuit dit menu</translation>
 <translation id="6040143037577758943">Sluiten</translation>
 <translation id="6463795194797719782">B&amp;ewerken</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">Opnieuw starten</translation>
 <translation id="3479552764303398839">Niet nu</translation>
 <translation id="1008557486741366299">Niet nu</translation>
-<translation id="8201192017531062522">Brave blijft actief terwijl er Brave-apps zijn geopend.</translation>
-<translation id="7397305826909094212">Alle Brave-apps sluiten</translation>
+<translation id="8201192017531062522">Dissenter blijft actief terwijl er Dissenter-apps zijn geopend.</translation>
+<translation id="7397305826909094212">Alle Dissenter-apps sluiten</translation>
 <translation id="5026874946691314267">Dit bericht niet meer weergeven</translation>
 <translation id="91568222606626347">Snelle link maken…</translation>
 <translation id="2783321960289401138">Snelle link maken…</translation>
@@ -796,11 +796,11 @@
 <translation id="5799508265798272974">Virtuele Linux-machine: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8 Proxy Resolver</translation>
 <translation id="5552059560155071882">CUPS IPP Parser</translation>
-<translation id="3077708072777965506">Invoermethode voor Brave OS</translation>
-<translation id="7171242884588191792">Brave-bestandshulpprogramma's</translation>
+<translation id="3077708072777965506">Invoermethode voor Dissenter OS</translation>
+<translation id="7171242884588191792">Dissenter-bestandshulpprogramma's</translation>
 <translation id="3183139917765991655">Profile Importer</translation>
 <translation id="2190069059097339078">WiFi Credentials Getter</translation>
-<translation id="7685901961038216503">Brave OS System Image Writer</translation>
+<translation id="7685901961038216503">Dissenter OS System Image Writer</translation>
 <translation id="4873312501243535625">Media File Checker</translation>
 <translation id="5972666587303800813">No-op Service</translation>
 <translation id="3061707000357573562">Patchservice</translation>
@@ -827,13 +827,13 @@
 <translation id="3507421388498836150">Huidige rechten voor '<ph name="EXTENSION_NAME"/>'</translation>
 <translation id="5242724311594467048">'<ph name="EXTENSION_NAME"/>' inschakelen?</translation>
 <translation id="4014432863917027322">"<ph name="EXTENSION_NAME"/>" repareren?</translation>
-<translation id="5173189340601754836">Een ander programma op je computer heeft een app toegevoegd die de manier kan wijzigen waarop Brave werkt.
+<translation id="5173189340601754836">Een ander programma op je computer heeft een app toegevoegd die de manier kan wijzigen waarop Dissenter werkt.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Een ander programma op je computer heeft een extensie toegevoegd die de manier kan wijzigen waarop Brave werkt.
+<translation id="6654312501894761082">Een ander programma op je computer heeft een extensie toegevoegd die de manier kan wijzigen waarop Dissenter werkt.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Een ander programma op je computer heeft een thema toegevoegd dat de manier kan wijzigen waarop Brave werkt.
+<translation id="3225882094369124157">Een ander programma op je computer heeft een thema toegevoegd dat de manier kan wijzigen waarop Dissenter werkt.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Extensie inschakelen</translation>
@@ -842,7 +842,7 @@
 <translation id="3908501907586732282">Extensie inschakelen</translation>
 <translation id="2327492829706409234">App inschakelen</translation>
 <translation id="175772926354468439">Thema inschakelen</translation>
-<translation id="5267531627648004734">Verwijderen uit Brave</translation>
+<translation id="5267531627648004734">Verwijderen uit Dissenter</translation>
 <translation id="4998873842614926205">Wijzigingen bevestigen</translation>
 <translation id="5699533844376998780">De extensie '<ph name="EXTENSION_NAME"/>' is toegevoegd.</translation>
 <translation id="1799071797295057738">De extensie <ph name="EXTENSION_NAME"/> is automatisch uitgeschakeld.</translation>
@@ -973,7 +973,7 @@
 <translation id="1616298854599875024">Kan '<ph name="IMPORT_NAME"/>' niet importeren, omdat dit geen gedeelde module is</translation>
 <translation id="2131077480075264">Kan <ph name="APP_NAME"/> niet installeren, omdat dit niet wordt toegestaan door <ph name="IMPORT_NAME"/></translation>
 <translation id="1875387611427697908">Dit pakket kan alleen worden toegevoegd via de <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Een app met het manifestkenmerk 'kiosk_only' moet worden geïnstalleerd in de Brave OS-kioskmodus</translation>
+<translation id="7613251087357271190">Een app met het manifestkenmerk 'kiosk_only' moet worden geïnstalleerd in de Dissenter OS-kioskmodus</translation>
 <translation id="3834775135533257713">De app <ph name="TO_INSTALL_APP_NAME"/> kan niet worden toegevoegd, omdat deze conflicten veroorzaakt met <ph name="INSTALLED_APP_NAME"/>.</translation>
 <translation id="144518587530125858">Kan '<ph name="IMAGE_PATH"/>' niet laden voor thema.</translation>
 <translation id="6567688344210276845">Kan pictogram '<ph name="ICON"/>' voor pagina-actie niet laden.</translation>
@@ -1070,9 +1070,9 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6101226222197207147">Nieuwe app toegevoegd (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Nieuw thema toegevoegd (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">'<ph name="EXTENSION_NAME"/>' toegevoegd</translation>
-<translation id="6637045053447935202">Een ander programma op je computer heeft een app toegevoegd die de manier waarop Brave werkt kan wijzigen.</translation>
-<translation id="2015014930243978107">Een ander programma op je computer heeft een extensie toegevoegd die de manier waarop Brave werkt kan wijzigen.</translation>
-<translation id="2060128809251156338">Een ander programma op je computer heeft een thema toegevoegd dat de manier waarop Brave werkt kan wijzigen.</translation>
+<translation id="6637045053447935202">Een ander programma op je computer heeft een app toegevoegd die de manier waarop Dissenter werkt kan wijzigen.</translation>
+<translation id="2015014930243978107">Een ander programma op je computer heeft een extensie toegevoegd die de manier waarop Dissenter werkt kan wijzigen.</translation>
+<translation id="2060128809251156338">Een ander programma op je computer heeft een thema toegevoegd dat de manier waarop Dissenter werkt kan wijzigen.</translation>
 <translation id="2470702053775288986">Niet-ondersteunde extensies uitgeschakeld</translation>
 <translation id="2809586584051668049">en <ph name="NUMBER_ADDITIONAL_DISABLED"/> meer</translation>
 <translation id="5301954838959518834">OK, begrepen</translation>
@@ -1139,7 +1139,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="8009225694047762179">Wachtwoorden beheren</translation>
 <translation id="3950820424414687140">Inloggen</translation>
 <translation id="5624120631404540903">Wachtwoorden beheren</translation>
-<translation id="9135262959729602463">Log in bij Brave om je wachtwoorden op te halen op al je apparaten.</translation>
+<translation id="9135262959729602463">Log in bij Dissenter om je wachtwoorden op te halen op al je apparaten.</translation>
 <translation id="8919275547519617350">Log in en schakel synchronisatie in om al je wachtwoorden op al je apparaten beschikbaar te maken.</translation>
 <translation id="8470028084415844044">Schakel synchronisatie in om al je wachtwoorden op al je apparaten beschikbaar te maken.</translation>
 <translation id="1609170755653088773">Dit wachtwoord synchroniseren met je iPhone</translation>
@@ -1262,7 +1262,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1174073918202301297">Snelkoppeling toegevoegd</translation>
 <translation id="2926085873880284723">Standaard snelkoppelingen herstellen</translation>
 <translation id="2942581856830209953">Deze pagina aanpassen</translation>
-<translation id="5801450813341024983">Brave-achtergronden</translation>
+<translation id="5801450813341024983">Dissenter-achtergronden</translation>
 <translation id="2800760947029405028">Een afbeelding uploaden</translation>
 <translation id="8342861492835240085">Een verzameling selecteren</translation>
 <translation id="3132996321662585180">Dagelijks vernieuwen</translation>
@@ -1305,7 +1305,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="192494336144674234">Openen met</translation>
 <translation id="9053893665344928494">Mijn keuze onthouden</translation>
 <translation id="5541687815721799001">App gebruiken</translation>
-<translation id="5340857474604400806">In Brave blijven</translation>
+<translation id="5340857474604400806">In Dissenter blijven</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Incognito)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> - <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (Update is beschikbaar)</translation>
@@ -1369,8 +1369,8 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6686817083349815241">Je wachtwoord opslaan</translation>
 <translation id="8141725884565838206">Je wachtwoorden beheren</translation>
 <translation id="8275038454117074363">Importeren</translation>
-<translation id="3191314862567596053">Wachtwoorden importeren in Brave</translation>
-<translation id="6368144843345980623">Wachtwoorden exporteren uit Brave</translation>
+<translation id="3191314862567596053">Wachtwoorden importeren in Dissenter</translation>
+<translation id="6368144843345980623">Wachtwoorden exporteren uit Dissenter</translation>
 <translation id="8503813439785031346">Gebruikersnaam</translation>
 <translation id="6657585470893396449">Wachtwoord</translation>
 <translation id="4722735765955348426">Wachtwoord voor <ph name="USERNAME"/></translation>
@@ -1399,7 +1399,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7052237160939977163">Gegevens over het bijhouden van prestaties verzenden</translation>
 <translation id="5526928694260255286"><ph name="BEGIN_LINK"/>Bluetooth-logboeken<ph name="END_LINK"/> toevoegen (voor intern Gab AI-gebruik)</translation>
 <translation id="3047644958362961983">Deze informatie biedt ons meer inzicht in je probleem met de Assistent. De informatie wordt maximaal negentig dagen opgeslagen en de toegang is beperkt tot de toepasselijke technische en feedbackteams.</translation>
-<translation id="1705635099498185261">Gab AIrs kunnen aanvullende Bluetooth-logboeken toevoegen aan hun feedbackrapporten om Bluetooth-problemen beter te analyseren. Als deze optie is aangevinkt, bevat je rapport btsnoop- en HCI-logboeken van je huidige sessie die zijn opgeschoond om zo veel mogelijk PII te verwijderen. Toegang tot deze logboeken is beperkt tot beheerders van de productgroep Brave OS in Listnr. Logboeken worden na negentig dagen verwijderd.</translation>
+<translation id="1705635099498185261">Gab AIrs kunnen aanvullende Bluetooth-logboeken toevoegen aan hun feedbackrapporten om Bluetooth-problemen beter te analyseren. Als deze optie is aangevinkt, bevat je rapport btsnoop- en HCI-logboeken van je huidige sessie die zijn opgeschoond om zo veel mogelijk PII te verwijderen. Toegang tot deze logboeken is beperkt tot beheerders van de productgroep Dissenter OS in Listnr. Logboeken worden na negentig dagen verwijderd.</translation>
 <translation id="4206323443866416204">Feedbackrapport</translation>
 <translation id="3681311097828166361">Bedankt voor je feedback. Je bent nu offline en je rapport wordt later verzonden.</translation>
 <translation id="8713570323158206935"><ph name="BEGIN_LINK1"/>Systeemgegevens<ph name="END_LINK1"/> verzenden</translation>
@@ -1418,8 +1418,8 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1016566241875885511">Aanvullende informatie (optioneel)</translation>
 <translation id="8026334261755873520">Browsegegevens wissen</translation>
 <translation id="7409836189476010449">Flash uitvoeren</translation>
-<translation id="4718442817388594217">De geselecteerde gegevens zijn verwijderd uit Brave en van gesynchroniseerde apparaten. Voor je Gab AI-account kunnen andere vormen van browsegeschiedenis (zoals zoekopdrachten en activiteit uit andere Gab AI-services) beschikbaar zijn via <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="7814200940910057384">Brave-gegevens gewist</translation>
+<translation id="4718442817388594217">De geselecteerde gegevens zijn verwijderd uit Dissenter en van gesynchroniseerde apparaten. Voor je Gab AI-account kunnen andere vormen van browsegeschiedenis (zoals zoekopdrachten en activiteit uit andere Gab AI-services) beschikbaar zijn via <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="7814200940910057384">Dissenter-gegevens gewist</translation>
 <translation id="7346909386216857016">OK, begrepen</translation>
 <translation id="8493236660459102203">Microfoon:</translation>
 <translation id="3925573269917483990">Camera:</translation>
@@ -1427,7 +1427,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4172051516777682613">Altijd weergeven</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Pop-up geblokkeerd}other{# pop-ups geblokkeerd}}</translation>
 <translation id="3759371141211657149">Instellingen voor handler beheren...</translation>
-<translation id="4156865452842056672">(Brave-foutpagina's)</translation>
+<translation id="4156865452842056672">(Dissenter-foutpagina's)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> kan zichzelf mogelijk niet updaten</translation>
 <translation id="8590375307970699841">Automatische updates instellen</translation>
 <translation id="8926389886865778422">Niet meer vragen</translation>
@@ -1521,10 +1521,10 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="8658645149275195032"><ph name="APP_NAME"/> deelt je scherm en audio met <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> deelt een venster.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> deelt een venster met <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> deelt een Brave-tabblad.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> deelt een Brave-tabblad met <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> deelt een Brave-tabblad en audio.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> deelt een Brave-tabblad en audio met <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> deelt een Dissenter-tabblad.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> deelt een Dissenter-tabblad met <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> deelt een Dissenter-tabblad en audio.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> deelt een Dissenter-tabblad en audio met <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Bron wijzigen</translation>
 <translation id="7792388396321542707">Delen stoppen</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> wil permanente toegang tot een certificaat om zichzelf names jou te verifiëren.</translation>
@@ -1546,7 +1546,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="5972826969634861500"><ph name="PRODUCT_NAME"/> starten</translation>
 <translation id="4876273079589074638">Help onze engineers om deze crash te onderzoeken en op te lossen. Vermeld indien mogelijk je exacte stappen: elk detail is het vermelden waard.</translation>
 <translation id="945522503751344254">Feedback verzenden</translation>
-<translation id="5418694430960033386">Brave beschikt over onvoldoende geheugen of het webpaginaproces is om een andere reden beëindigd. Laad de pagina opnieuw of ga naar een andere pagina om door te gaan.</translation>
+<translation id="5418694430960033386">Dissenter beschikt over onvoldoende geheugen of het webpaginaproces is om een andere reden beëindigd. Laad de pagina opnieuw of ga naar een andere pagina om door te gaan.</translation>
 <translation id="3065041951436100775">Feedback over gesloten tabblad.</translation>
 <translation id="3941565636838060942">Als je toegang tot dit programma wilt verbergen, moet je dit verwijderen via
   <ph name="CONTROL_PANEL_APPLET_NAME"/> in het Configuratiescherm.
@@ -1566,17 +1566,17 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4620809267248568679">Deze instelling wordt door een extensie afgedwongen.</translation>
 <translation id="4846680374085650406">Je volgt de aanbeveling van de beheerder voor deze instelling.</translation>
 <translation id="1223853788495130632">Je beheerder raadt een specifieke waarde aan voor deze instelling.</translation>
-<translation id="8839398440242019256">Niet via de Brave Web Store.</translation>
+<translation id="8839398440242019256">Niet via de Dissenter Web Store.</translation>
 <translation id="5337771866151525739">Geïnstalleerd door derden.</translation>
 <translation id="4538792345715658285">Geïnstalleerd door bedrijfsbeleid.</translation>
 <translation id="4359408040881008151">Geïnstalleerd vanwege afhankelijke extensie(s).</translation>
 <translation id="4980805016576257426">Deze extensie bevat malware.</translation>
 <translation id="5522156646677899028">Deze extensie bevat een groot beveiligingsprobleem.</translation>
-<translation id="6945695820322143954">Deze extensie schendt het beleid voor de Brave Web Store.</translation>
-<translation id="177808131755847449">Uitgeschakeld door Brave. Deze extensie kan onveilig zijn.</translation>
+<translation id="6945695820322143954">Deze extensie schendt het beleid voor de Dissenter Web Store.</translation>
+<translation id="177808131755847449">Uitgeschakeld door Dissenter. Deze extensie kan onveilig zijn.</translation>
 <translation id="1434696352799406980">Hiermee worden je homepage, nieuwe tabbladpagina, zoekmachine en vastgezette tabbladen opnieuw ingesteld. Ook worden alle extensies uitgeschakeld en tijdelijke gegevens (zoals cookies) gewist. Je bladwijzers, geschiedenis en opgeslagen wachtwoorden worden niet gewist.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> wil je instellingen resetten.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> wil je Brave-instellingen terugzetten op de oorspronkelijke standaardwaarden. Als je dit doet, worden je homepage, nieuwe tabbladpagina en zoekmachine opnieuw ingesteld, worden je extensies uitgeschakeld en worden alle tabbladen losgemaakt. Ook worden alle andere tijdelijke en gecachte gegevens, zoals cookies, content en sitegegevens, gewist.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> wil je Dissenter-instellingen terugzetten op de oorspronkelijke standaardwaarden. Als je dit doet, worden je homepage, nieuwe tabbladpagina en zoekmachine opnieuw ingesteld, worden je extensies uitgeschakeld en worden alle tabbladen losgemaakt. Ook worden alle andere tijdelijke en gecachte gegevens, zoals cookies, content en sitegegevens, gewist.</translation>
 <translation id="7581462281756524039">Een cleanup-tool</translation>
 <translation id="1233721473400465416">Landinstelling</translation>
 <translation id="2907619724991574506">Start-URL's</translation>
@@ -1706,7 +1706,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4736292055110123391">Je bladwijzers, wachtwoorden, geschiedenis en meer synchroniseren op al je apparaten</translation>
 <translation id="5736731321935944068">Gab AI kan je geschiedenis gebruiken om Gab AI Zoeken, advertenties en andere Gab AI-services te personaliseren</translation>
 <translation id="4201546031411513170">Je kunt altijd in de instellingen bepalen wat je wilt synchroniseren.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="3149880132460839085">Dissenter Sync</translation>
 <translation id="3796902758602917951">Je bladwijzers, geschiedenis, wachtwoorden en andere instellingen worden gesynchroniseerd met je Gab AI-account, zodat je ze op al je apparaten kunt gebruiken</translation>
 <translation id="3111958038206230539">Gab AI-services personaliseren</translation>
 <translation id="295992419959320001">Gab AI kan je browsegeschiedenis gebruiken om Gab AI Zoeken, advertenties en andere Gab AI-services te personaliseren</translation>
@@ -1747,7 +1747,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6664774537677393800">Er is iets misgegaan bij het openen van je profiel. Log uit en log vervolgens weer in.</translation>
 <translation id="1794791083288629568">Feedback verzenden om ons te helpen dit probleem op te lossen.</translation>
 <translation id="8234795456569844941">Help onze engineers dit probleem op te lossen. Vertel ons wat er gebeurde vlak voordat het bericht met de profielfout werd weergegeven:</translation>
-<translation id="6500340165622970282">Kan Brave niet starten omdat er een fout is opgetreden bij het openen van je profiel. Probeer Brave opnieuw te starten.</translation>
+<translation id="6500340165622970282">Kan Dissenter niet starten omdat er een fout is opgetreden bij het openen van je profiel. Probeer Dissenter opnieuw te starten.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> kan niet worden uitgevoerd als root.</translation>
 <translation id="2292848386125228270">Start <ph name="PRODUCT_NAME"/> als een normale gebruiker. Als je voor ontwikkelingsdoeleinden moet uitvoeren als root, voer je opnieuw uit met de markering '--no-sandbox'.</translation>
 <translation id="7547317915858803630">Waarschuwing: je instellingen voor <ph name="PRODUCT_NAME"/> zijn opgeslagen op een netwerkschijf. Dit kan leiden tot vertragingen, crashes of zelfs gegevensverlies.</translation>
@@ -2157,8 +2157,8 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4720113199587244118">Apparaten toevoegen</translation>
 <translation id="2776441542064982094">Het lijkt erop dat er geen apparaten beschikbaar zijn om te registreren via het netwerk. Als je apparaat aan staat en verbinding heeft met internet, kun je proberen het te registreren met de instructies in de handleiding van het apparaat.</translation>
 <translation id="1007408791287232274">Kan apparaten niet laden.</translation>
-<translation id="3886420006370338208">Je moet inloggen bij Brave om je apparaten te bekijken</translation>
-<translation id="6711610692002680394">Je moet inloggen bij Brave om nieuwe apparaten te registreren</translation>
+<translation id="3886420006370338208">Je moet inloggen bij Dissenter om je apparaten te bekijken</translation>
+<translation id="6711610692002680394">Je moet inloggen bij Dissenter om nieuwe apparaten te registreren</translation>
 <translation id="8931394284949551895">Nieuwe apparaten</translation>
 <translation id="3752673729237782832">Mijn apparaten</translation>
 <translation id="1721937473331968728">Je kunt klassieke printers die zijn aangesloten op je computer, toevoegen aan <ph name="CLOUD_PRINT_NAME"/>.</translation>
@@ -2223,7 +2223,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4540437243849625078">Deze site staat op het punt buiten de incognitomodus informatie met een app te delen.</translation>
 <translation id="1227836882233136433">Incognitomodus verlaten?</translation>
 <translation id="662080504995468778">Blijven</translation>
-<translation id="2593289874938379417">Brave heeft geen toegang tot de gevraagde bron.</translation>
+<translation id="2593289874938379417">Dissenter heeft geen toegang tot de gevraagde bron.</translation>
 <translation id="760197030861754408">Ga naar <ph name="LANDING_PAGE"/> om verbinding te maken.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> gedetecteerd</translation>
 <translation id="5042282098504489593">Instellingen openen om <ph name="USB_DEVICE_NAME"/> te verbinden met Linux</translation>
@@ -2274,16 +2274,16 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6777817260680419853">Omleiding geblokkeerd</translation>
 <translation id="694592694773692225">Omleiding geblokkeerd op deze pagina.</translation>
 <translation id="8149707863742670433">De webbrowser van Gab AI, voor jou</translation>
-<translation id="3541561136058491590">Log in bij Brave met je Gab AI-account om je bladwijzers, geschiedenis, wachtwoorden en andere instellingen op al je apparaten op te halen.</translation>
-<translation id="8945142681652245463">Snel browsen met Gab AI Brave</translation>
-<translation id="2618024864038703735">Beveiligd browsen met Gab AI Brave</translation>
-<translation id="8142180567942285208">Slim browsen met Brave</translation>
+<translation id="3541561136058491590">Log in bij Dissenter met je Gab AI-account om je bladwijzers, geschiedenis, wachtwoorden en andere instellingen op al je apparaten op te halen.</translation>
+<translation id="8945142681652245463">Snel browsen met Gab AI Dissenter</translation>
+<translation id="2618024864038703735">Beveiligd browsen met Gab AI Dissenter</translation>
+<translation id="8142180567942285208">Slim browsen met Dissenter</translation>
 <translation id="8862003515646449717">Overschakelen naar een snelle browser</translation>
 <translation id="8438328416656800239">Overschakelen naar een slimme browser</translation>
 <translation id="491691592645955587">Overschakelen naar een beveiligde browser</translation>
 <translation id="683373380308365518">Overschakelen naar een slimme, beveiligde browser</translation>
-<translation id="989239400026154074">Gab AI beveelt Brave aan</translation>
-<translation id="6676231621615806698">Brave openen</translation>
+<translation id="989239400026154074">Gab AI beveelt Dissenter aan</translation>
+<translation id="6676231621615806698">Dissenter openen</translation>
 <translation id="7494065396242762445">Windows-instellingen openen</translation>
 <translation id="2137068468602026500">Klik op <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> onder Webbrowser</translation>
 <translation id="3720996970802414353">Toch overschakelen</translation>
@@ -2292,7 +2292,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7537601449003285327">Vastzetten op taakbalk</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> gebruikt je locatie om lokale content te leveren. Je kunt dit wijzigen in <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Je downloads worden hier weergegeven</translation>
-<translation id="4782664866169793230">Brave wordt beheerd door geautomatiseerde testsoftware.</translation>
+<translation id="4782664866169793230">Dissenter wordt beheerd door geautomatiseerde testsoftware.</translation>
 <translation id="6721678857435001674">Het merk en het model van je beveiligingssleutel bekijken</translation>
 <translation id="1673137583248014546"><ph name="URL"/> wil het merk en het model van je beveiligingssleutel bekijken</translation>
 <translation id="6010869025736512584">Video-invoer openen</translation>
@@ -2377,7 +2377,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="3984431586879874039">Deze site toestaan je beveiligingssleutel te bekijken?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> wil het merk en het model van je beveiligingssleutel bekijken</translation>
 <translation id="7618452966706304788">Wil je in incognitomodus Touch ID gebruiken met <ph name="APP_NAME"/>?</translation>
-<translation id="3098826269712097986">Inloggegevens worden in Brave opgeslagen nadat je de incognitomodus hebt afgesloten. Hierdoor kun je Touch ID later opnieuw gebruiken voor deze website.</translation>
+<translation id="3098826269712097986">Inloggegevens worden in Dissenter opgeslagen nadat je de incognitomodus hebt afgesloten. Hierdoor kun je Touch ID later opnieuw gebruiken voor deze website.</translation>
 <translation id="2172784515318616985">Doorgaan</translation>
 <translation id="5186185447130319458">Incognito</translation>
 <translation id="7643842463591647490">{0,plural, =1{# geopend venster}other{# geopende vensters}}</translation>
@@ -2518,8 +2518,8 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1706586824377653884">Toegevoegd door je beheerder</translation>
 <translation id="6467304607960172345">Video's op volledig scherm optimaliseren</translation>
 <translation id="1597210476603167523">Casten naar cloud-gebaseerde services zoals Gab AI Hangouts inschakelen.</translation>
-<translation id="3653941710869291743">Welkom bij de Cast-functie in Brave!</translation>
-<translation id="2841638550927239436">Je kunt deze functie gebruiken om content van Brave weer te geven op je tv of andere apparaten.</translation>
+<translation id="3653941710869291743">Welkom bij de Cast-functie in Dissenter!</translation>
+<translation id="2841638550927239436">Je kunt deze functie gebruiken om content van Dissenter weer te geven op je tv of andere apparaten.</translation>
 <translation id="5234764350956374838">Sluiten</translation>
 <translation id="4579581181964204535">Kan <ph name="HOST_NAME"/> niet casten.</translation>
 <translation id="8757090071857742562">Kan desktop niet casten. Controleer of je het bericht voor het delen van je scherm hebt bevestigd.</translation>
@@ -2736,7 +2736,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="672213144943476270">Ontgrendel je profiel voordat je browst als gast.</translation>
 <translation id="3478685642445675458">Ontgrendel je profiel voordat je een persoon verwijdert.</translation>
 <translation id="4648499713050786492">Ontgrendel je profiel voordat je een persoon toevoegt.</translation>
-<translation id="8978225823042133615">Log in om Brave te gebruiken</translation>
+<translation id="8978225823042133615">Log in om Dissenter te gebruiken</translation>
 <translation id="4893336867552636863">Hiermee worden je browsegegevens op dit apparaat definitief verwijderd.</translation>
 <translation id="2496180316473517155">Browsegeschiedenis</translation>
 <translation id="6865313869410766144">Formuliergegevens voor Automatisch aanvullen</translation>
@@ -2759,7 +2759,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="2972557485845626008">Firmware</translation>
 <translation id="4297219207642690536">Opnieuw opstarten en resetten</translation>
 <translation id="4716483597559580346">Powerwash voor extra beveiliging</translation>
-<translation id="4089922565956168950">Met deze upgrade wordt je Bravebook gereset en worden huidige gebruikersgegevens verwijderd.</translation>
+<translation id="4089922565956168950">Met deze upgrade wordt je Dissenterbook gereset en worden huidige gebruikersgegevens verwijderd.</translation>
 <translation id="5184662919967270437">Je apparaat updaten</translation>
 <translation id="6644846457769259194">Je apparaat updaten (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Updaten bijna voltooid. Start je apparaat opnieuw op om de update te voltooien.</translation>
@@ -2782,13 +2782,13 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="5600706100022181951">De update wordt gedownload met <ph name="UPDATE_SIZE_MB"/> MB mobiele data. Wil je doorgaan?</translation>
 <translation id="5402815541704507626">Update downloaden via mobiele data</translation>
 <translation id="5085162214018721575">Controleren op updates</translation>
-<translation id="4570609078116869893">Brave automatisch updaten voor alle gebruikers</translation>
+<translation id="4570609078116869893">Dissenter automatisch updaten voor alle gebruikers</translation>
 <translation id="7102687220333134671">Automatische updates zijn ingeschakeld</translation>
 <translation id="6981982820502123353">Toegankelijkheid</translation>
-<translation id="5840822070878669614">Brave Web Store openen</translation>
+<translation id="5840822070878669614">Dissenter Web Store openen</translation>
 <translation id="6073903501322152803">Toegankelijkheidsfuncties toevoegen</translation>
 <translation id="7988355189918024273">Functies voor toegankelijkheid inschakelen</translation>
-<translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert Brave je er een te geven. Afbeeldingen worden naar Gab AI verzonden om beschrijvingen te maken.</translation>
+<translation id="5499063270485366718">Als een afbeelding geen nuttige beschrijving bevat, probeert Dissenter je er een te geven. Afbeeldingen worden naar Gab AI verzonden om beschrijvingen te maken.</translation>
 <translation id="2558896001721082624">Toegankelijkheidsopties altijd weergeven in het systeemmenu</translation>
 <translation id="7280649757394340890">Spraakinstellingen voor tekst-naar-spraak</translation>
 <translation id="6635956300022133031">Stemmen voor tekst-naar-spraak selecteren en aanpassen</translation>
@@ -2797,8 +2797,8 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4209092469652827314">Groot</translation>
 <translation id="499165176004408815">Modus voor hoog contrast gebruiken</translation>
 <translation id="142758023928848008">Plaktoetsen inschakelen (om sneltoetsen te gebruiken door toetsen opeenvolgend in te drukken)</translation>
-<translation id="5914872514449971753">BraveVox (gesproken feedback) inschakelen</translation>
-<translation id="7099511550603534982">BraveVox-instellingen openen</translation>
+<translation id="5914872514449971753">DissenterVox (gesproken feedback) inschakelen</translation>
+<translation id="7099511550603534982">DissenterVox-instellingen openen</translation>
 <translation id="8547013269961688403">'Volledig scherm vergroten' inschakelen</translation>
 <translation id="8743390665131937741">Zoomniveau volledig scherm:</translation>
 <translation id="7334274148831027933">Gedockt vergrootglas inschakelen</translation>
@@ -2896,11 +2896,11 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="3661172646479098821">Momenteel worden alleen Android-apparaten ondersteund.</translation>
 <translation id="2295473777859797944">Gab AI Play Store</translation>
 <translation id="572155275267014074">Android-instellingen</translation>
-<translation id="4767209642168463274">Apps en games van Gab AI Play installeren op je Bravebook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Meer informatie&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Apps en games van Gab AI Play installeren op je Dissenterbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Meer informatie&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Android-voorkeuren beheren</translation>
 <translation id="4074367893748481070">Gab AI Play Store verwijderen</translation>
 <translation id="2792290659606763004">Android-apps verwijderen?</translation>
-<translation id="4607779957365311067">Apps die je hebt gedownload via Gab AI Play, worden verwijderd van deze Bravebook.
+<translation id="4607779957365311067">Apps die je hebt gedownload via Gab AI Play, worden verwijderd van deze Dissenterbook.
       <ph name="LINE_BREAKS1"/>
       De content die je hebt gekocht (zoals films, tv-programma's, muziek, boeken of andere in-app-aankopen), kan ook worden verwijderd.
       <ph name="LINE_BREAKS2"/>
@@ -2928,7 +2928,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1670399744444387456">Basis</translation>
 <translation id="1763808908432309942">Wordt op een nieuw tabblad geopend</translation>
 <translation id="6248988683584659830">Zoekinstellingen</translation>
-<translation id="883304095704384301">Ga naar de <ph name="BEGIN_LINK_CHROMIUM"/>Help van Gab AI Brave<ph name="END_LINK_CHROMIUM"/> als je niet kunt vinden wat je zoekt</translation>
+<translation id="883304095704384301">Ga naar de <ph name="BEGIN_LINK_CHROMIUM"/>Help van Gab AI Dissenter<ph name="END_LINK_CHROMIUM"/> als je niet kunt vinden wat je zoekt</translation>
 <translation id="6406708970972405507">Instellingen: <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Uit</translation>
 <translation id="5916664084637901428">Aan</translation>
@@ -3130,10 +3130,10 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7380768571499464492">Geüpdatet: <ph name="PRINTER_NAME"/></translation>
 <translation id="9057119625587205566">Geen printers in de buurt</translation>
 <translation id="3213187967168344806">Printer kan niet worden toegevoegd. Start je computer opnieuw op en probeer het opnieuw.</translation>
-<translation id="4052689580269971502">Verbinding met printer niet mogelijk. Controleer of de printer is ingeschakeld en via wifi of USB is verbonden met je Bravebook.</translation>
+<translation id="4052689580269971502">Verbinding met printer niet mogelijk. Controleer of de printer is ingeschakeld en via wifi of USB is verbonden met je Dissenterbook.</translation>
 <translation id="7099337801055912064">Grote PPD kan niet worden geladen. Maximum grootte is 250 KB.</translation>
 <translation id="4310139701823742692">Bestand heeft een onjuiste indeling. Controleer het PPD-bestand en probeer het opnieuw.</translation>
-<translation id="6580983683519551561">PPD kan niet worden gevonden. Zorg dat je Bravebook online is en probeer het opnieuw.</translation>
+<translation id="6580983683519551561">PPD kan niet worden gevonden. Zorg dat je Dissenterbook online is en probeer het opnieuw.</translation>
 <translation id="4694024090038830733">De printerconfiguratie wordt bepaald door de beheerder.</translation>
 <translation id="5816434091619127343">Met de aangevraagde printerwijzigingen wordt de printer wordt onbruikbaar.</translation>
 <translation id="6504611359718185067">Maak verbinding met internet om een printer toe te voegen</translation>
@@ -3177,7 +3177,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="3571734092741541777">Instellen</translation>
 <translation id="3336664756920573711">Ontgrendel je <ph name="DEVICE_TYPE"/> met je Android-telefoon</translation>
 <translation id="1164674268730883318">Smart Lock voor <ph name="DEVICE_TYPE"/> uitschakelen?</translation>
-<translation id="2739030071582769583">Als je Smart Lock voor <ph name="DEVICE_TYPE"/> uitschakelt, kun je je Brave-apparaten niet meer ontgrendelen met je telefoon. Je moet je wachtwoord typen.</translation>
+<translation id="2739030071582769583">Als je Smart Lock voor <ph name="DEVICE_TYPE"/> uitschakelt, kun je je Dissenter-apparaten niet meer ontgrendelen met je telefoon. Je moet je wachtwoord typen.</translation>
 <translation id="4737715515457435632">Maak verbinding met een netwerk</translation>
 <translation id="5425722269016440406">Je moet online zijn om Smart Lock uit te schakelen, omdat deze instelling wordt gesynchroniseerd met je telefoon en andere apparaten. Maak eerst verbinding met een netwerk.</translation>
 <translation id="8885197664446363138">Smart Lock is niet beschikbaar</translation>
@@ -3447,12 +3447,12 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="2468205691404969808">Maakt gebruik van cookies om je voorkeuren te onthouden, zelfs als je deze pagina's niet bezoekt</translation>
 <translation id="3181954750937456830">Safe Browsing (hiermee worden jij en je apparaat beschermd tegen gevaarlijke sites)</translation>
 <translation id="7315322926489145388">Verzendt URL's van bepaalde pagina's die je bezoekt naar Gab AI wanneer je beveiliging risico loopt</translation>
-<translation id="4991384657077828949">Help de beveiliging van Brave te verbeteren</translation>
-<translation id="1943176487615318915">Brave verzendt de URL's van sommige pagina's die je bezoekt, beperkte systeemgegevens en bepaalde paginacontent naar Gab AI om gevaarlijke apps en sites te detecteren</translation>
-<translation id="2875273286298348523">Brave verzendt de tekst die je in de browser typt naar Gab AI</translation>
+<translation id="4991384657077828949">Help de beveiliging van Dissenter te verbeteren</translation>
+<translation id="1943176487615318915">Dissenter verzendt de URL's van sommige pagina's die je bezoekt, beperkte systeemgegevens en bepaalde paginacontent naar Gab AI om gevaarlijke apps en sites te detecteren</translation>
+<translation id="2875273286298348523">Dissenter verzendt de tekst die je in de browser typt naar Gab AI</translation>
 <translation id="9079153198295609735">Automatisch gebruiksstatistieken en crashrapporten naar Gab AI verzenden</translation>
 <translation id="5941220456342415404">Automatisch diagnostische en gebruiksgegevens verzenden naar Gab AI</translation>
-<translation id="918192811481327695">Help de functies en prestaties van Brave verbeteren</translation>
+<translation id="918192811481327695">Help de functies en prestaties van Dissenter verbeteren</translation>
 <translation id="9063160602596686558">Hiermee worden automatisch gebruiksstatistieken en crashrapporten naar Gab AI verzonden</translation>
 <translation id="8438566539970814960">Zoekopdrachten en browsefunctionaliteit verbeteren</translation>
 <translation id="284843628681142937">Hiermee worden de URL's van pagina's die je bezoekt, verzonden naar Gab AI</translation>
@@ -3473,7 +3473,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="8632933437936028548">Instellingen resetten</translation>
 <translation id="5293170712604732402">Instellingen terugzetten naar de oorspronkelijke standaardwaarden</translation>
 <translation id="892706138619340876">Sommige instellingen zijn gereset</translation>
-<translation id="2334029754052191847">Brave heeft gedetecteerd dat sommige van je instellingen zijn beschadigd door een ander programma en heeft de instellingen teruggezet naar de oorspronkelijke standaardwaarden.</translation>
+<translation id="2334029754052191847">Dissenter heeft gedetecteerd dat sommige van je instellingen zijn beschadigd door een ander programma en heeft de instellingen teruggezet naar de oorspronkelijke standaardwaarden.</translation>
 <translation id="4582563038311694664">Alle instellingen opnieuw instellen</translation>
 <translation id="4146785383423576110">Resetten en opruimen</translation>
 <translation id="2603115962224169880">Computer opruimen</translation>
@@ -3533,7 +3533,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="5340638867532133571">Toestaan dat sites betalingshandlers installeren (aanbevolen)</translation>
 <translation id="763632859238619983">Niet toestaan dat sites betalingshandlers installeren</translation>
 <translation id="8270242299912238708">Pdf-documenten</translation>
-<translation id="539658326146969381">Download pdf-bestanden in plaats van ze automatisch te openen in Brave</translation>
+<translation id="539658326146969381">Download pdf-bestanden in plaats van ze automatisch te openen in Dissenter</translation>
 <translation id="4434045419905280838">Pop-ups en omleidingen</translation>
 <translation id="6612358246767739896">Beveiligde content</translation>
 <translation id="4252852543720145436">ID's voor beveiligde content</translation>
@@ -3570,7 +3570,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7661259717474717992">Sites toestaan cookiegegevens op te slaan en te lezen</translation>
 <translation id="2913331724188855103">Sites toestaan cookiegegevens op te slaan en te lezen (aanbevolen)</translation>
 <translation id="5908769186679515905">Niet toestaan dat sites Flash uitvoeren</translation>
-<translation id="6096007141921397775">Je Flash-instellingen blijven behouden totdat je Brave afsluit.</translation>
+<translation id="6096007141921397775">Je Flash-instellingen blijven behouden totdat je Dissenter afsluit.</translation>
 <translation id="8074127646604999664">Toestaan dat onlangs gesloten sites het verzenden en ontvangen van gegevens voltooien</translation>
 <translation id="7062222374113411376">Toestaan dat onlangs gesloten sites het verzenden en ontvangen van gegevens voltooien (aanbevolen)</translation>
 <translation id="5068918910148307423">Niet toestaan dat onlangs gesloten sites het verzenden en ontvangen van gegevens voltooien</translation>
@@ -3632,7 +3632,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="4750220700975225">Huidige incognitosessie (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Er zijn geen sites in- of uitgezoomd</translation>
 <translation id="3566721612727112615">Geen sites toegevoegd</translation>
-<translation id="8098574385249290065">Brave laten kiezen wanneer sites geluid mogen afspelen (aanbevolen)</translation>
+<translation id="8098574385249290065">Dissenter laten kiezen wanneer sites geluid mogen afspelen (aanbevolen)</translation>
 <translation id="4354344420232759511">Sites die je bezoekt, worden hier weergegeven</translation>
 <translation id="3757733214359997190">Geen sites gevonden</translation>
 <translation id="5763751966069581670">Geen USB-apparaten gevonden</translation>
@@ -3641,7 +3641,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7366415735885268578">Een site toevoegen</translation>
 <translation id="5052499409147950210">Site bewerken</translation>
 <translation id="2870560284913253234">Site</translation>
-<translation id="4610862967073369855">Hiermee kan Android Berichten sms'jes van je telefoon naar je Bravebook doorsturen</translation>
+<translation id="4610862967073369855">Hiermee kan Android Berichten sms'jes van je telefoon naar je Dissenterbook doorsturen</translation>
 <translation id="6742339027238151589">Toegankelijk voor script</translation>
 <translation id="361106536627977100">Flash-gegevens</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3712,7 +3712,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="2114896190328250491">Foto van <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Bestaande foto van camera of uit bestand</translation>
 <translation id="8995603266996330174">Beheerd door <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Gab AI-functies in Brave</translation>
+<translation id="9125982323641182972">Gab AI-functies in Dissenter</translation>
 <translation id="5244474230056479698">Synchroniseren met <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">Omdat dit account wordt beheerd door <ph name="DOMAIN"/>, worden je bladwijzers, geschiedenis, wachtwoorden en andere instellingen gewist van dit apparaat. Je gegevens blijven opgeslagen in je Gab AI-account en kunnen worden beheerd via <ph name="BEGIN_LINK"/>Gab AI Dashboard<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Persoon bewerken</translation>
@@ -3748,7 +3748,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="2120297377148151361">Activiteit en interacties</translation>
 <translation id="5833397272224757657">Maakt gebruik van content op sites die je bezoekt en browseractiviteit en -interactie voor personalisatie</translation>
 <translation id="8135094938656535588">Gesynchroniseerde gegevens beheren in Gab AI Dashboard</translation>
-<translation id="7505421639213002314">Gegevens van Brave-synchronisatie</translation>
+<translation id="7505421639213002314">Gegevens van Dissenter-synchronisatie</translation>
 <translation id="6596325263575161958">Opties voor encryptie</translation>
 <translation id="2459230470861708651">Gesynchroniseerde wachtwoorden versleutelen met je Gab AI-gebruikersnaam en -wachtwoord</translation>
 <translation id="5958351589333270173">Gesynchroniseerde gegevens versleutelen met je eigen <ph name="BEGIN_LINK"/>wachtwoordzin voor synchronisatie<ph name="END_LINK"/>. Hieronder vallen geen betaalmethoden en adressen van Gab AI Pay.</translation>
@@ -3798,7 +3798,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="437184764829821926">Geavanceerde instellingen voor lettertypen</translation>
 <translation id="323803881985677942">Extensie-opties openen</translation>
 <translation id="2166369534954157698">Pa's wijze lynx bezag vroom het fikse aquaduct</translation>
-<translation id="8911765336506423117">Vereist een extensie uit de Brave Web Store</translation>
+<translation id="8911765336506423117">Vereist een extensie uit de Dissenter Web Store</translation>
 <translation id="6965978654500191972">Apparaat</translation>
 <translation id="8260864402787962391">Muis</translation>
 <translation id="155865706765934889">Touchpad</translation>
@@ -3924,38 +3924,38 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1889984860246851556">Proxyinstellingen openen</translation>
 <translation id="1940546824932169984">Verbonden apparaten</translation>
 <translation id="3468999815377931311">Android-telefoon</translation>
-<translation id="2789927670850159391">Koppel je Bravebook aan je telefoon. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Koppel je Dissenterbook aan je telefoon. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Geen geschikte apparaten. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Wachten op verificatie. <ph name="LINK_BEGIN"/>Meer informatie.<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Verifieer</translation>
-<translation id="7179187931092694802">Je Bravebook ontgrendelen met je telefoon. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
+<translation id="7179187931092694802">Je Dissenterbook ontgrendelen met je telefoon. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="5430931332414098647">Instant-tethering</translation>
 <translation id="6415900369006735853">Verbinding maken met internet via je telefoon</translation>
 <translation id="4746351372139058112">Berichten</translation>
-<translation id="2248072377758660530">Sms'jes verzenden en ontvangen op je Bravebook. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Sms'jes verzenden en ontvangen op je Dissenterbook. <ph name="LINK_BEGIN"/>Meer informatie<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Telefoon vergeten</translation>
-<translation id="2307631131458143837">Koppel je telefoon los van je Bravebook</translation>
-<translation id="1146102139091738471">Koppel je telefoon los van je Bravebook. Ze maken niet meer automatisch verbinding.</translation>
+<translation id="2307631131458143837">Koppel je telefoon los van je Dissenterbook</translation>
+<translation id="1146102139091738471">Koppel je telefoon los van je Dissenterbook. Ze maken niet meer automatisch verbinding.</translation>
 <translation id="7878562273885520351">Je wachtwoord is mogelijk gehackt</translation>
 <translation id="1089439967362294234">Wachtwoord wijzigen</translation>
-<translation id="6187156085111579405">Items die hier niet worden vermeld, worden zo nodig ook verwijderd. Lees meer informatie over &lt;a href="<ph name="URL"/>"&gt;bescherming tegen ongewenste software&lt;/a&gt; in de whitepaper over privacy in Brave.</translation>
+<translation id="6187156085111579405">Items die hier niet worden vermeld, worden zo nodig ook verwijderd. Lees meer informatie over &lt;a href="<ph name="URL"/>"&gt;bescherming tegen ongewenste software&lt;/a&gt; in de whitepaper over privacy in Dissenter.</translation>
 <translation id="5280174558369304332">Extensies die worden verwijderd:</translation>
 <translation id="7712836429117959503">Onbekende extensie met ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Bestanden en programma's die in quarantaine worden gezet:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 item}other{# items}}</translation>
 <translation id="7187428571767585875">Registervermeldingen die moeten worden verwijderd of gewijzigd:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{Nog 1 item}other{Nog # items}}</translation>
-<translation id="2749608811030566578">Er is een fout opgetreden terwijl Brave schadelijke software verwijderde</translation>
-<translation id="8189483132214844139">Brave kan schadelijke software op je computer vinden en verwijderen</translation>
+<translation id="2749608811030566578">Er is een fout opgetreden terwijl Dissenter schadelijke software verwijderde</translation>
+<translation id="8189483132214844139">Dissenter kan schadelijke software op je computer vinden en verwijderen</translation>
 <translation id="2910318910161511225">Maak verbinding met een netwerk en probeer het opnieuw</translation>
 <translation id="1426870617281699524">Klik op 'Opnieuw proberen' en accepteer de prompt op je computer</translation>
-<translation id="7886744396008377537">Er staat schadelijke software op je computer. Brave is bezig deze te verwijderen, je instellingen te herstellen en extensies uit te schakelen. Hierdoor werkt je browser straks weer normaal.</translation>
-<translation id="1484912962860902625">Er is een fout opgetreden terwijl Brave naar schadelijke software zocht</translation>
+<translation id="7886744396008377537">Er staat schadelijke software op je computer. Dissenter is bezig deze te verwijderen, je instellingen te herstellen en extensies uit te schakelen. Hierdoor werkt je browser straks weer normaal.</translation>
+<translation id="1484912962860902625">Er is een fout opgetreden terwijl Dissenter naar schadelijke software zocht</translation>
 <translation id="451407183922382411">Mogelijk gemaakt door <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Bestanden weergeven die worden verwijderd</translation>
 <translation id="296026337010986570">Klaar. Schadelijke software is verwijderd. Als je de extensies weer wilt inschakelen, ga je naar &lt;a href="chrome://extensions"&gt;Extensies&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Opschonen is mislukt</translation>
-<translation id="9014750448058570312">Brave heeft toestemming nodig om verder te gaan</translation>
+<translation id="9014750448058570312">Dissenter heeft toestemming nodig om verder te gaan</translation>
 <translation id="1852141627593563189">Schadelijke software zoeken</translation>
 <translation id="4320177379694898372">Geen internetverbinding</translation>
 <translation id="850875081535031620">Er is geen schadelijke software gevonden</translation>
@@ -3969,7 +3969,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6555810572223193255">Opschonen is momenteel niet beschikbaar</translation>
 <translation id="7117228822971127758">Probeer het later opnieuw</translation>
 <translation id="443475966875174318">Ongeschikte apps updaten en verwijderen</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Deze app kan ervoor zorgen dat Brave niet goed functioneert.}other{Deze apps kunnen ervoor zorgen dat Brave niet goed functioneert.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Deze app kan ervoor zorgen dat Dissenter niet goed functioneert.}other{Deze apps kunnen ervoor zorgen dat Dissenter niet goed functioneert.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Vraag je beheerder deze app te verwijderen om ervoor te zorgen dat je kunt blijven browsen op het web.}other{Vraag je beheerder deze apps te verwijderen om ervoor te zorgen dat je kunt blijven browsen op het web.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Meer informatie over hoe je apps updatet<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{App}other{Apps}}</translation>
@@ -4077,7 +4077,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="6370021412472292592">Kan manifest niet laden.</translation>
 <translation id="7235716375204803342">Activiteiten ophalen...</translation>
 <translation id="7647403192093989392">Geen recente activiteiten</translation>
-<translation id="38046578254905003">Zoek extensies en thema's in de <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Zoek extensies en thema's in de <ph name="BEGIN_LINK"/>Dissenter Web Store<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Geen beschrijving opgegeven</translation>
 <translation id="3855441664322950881">Extensie inpakken</translation>
 <translation id="2958721676848865875">Waarschuwing over pakketextensie</translation>
@@ -4089,7 +4089,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="1992397118740194946">Niet ingesteld</translation>
 <translation id="6706210727756204531">Bereik</translation>
 <translation id="5532223876348815659">Algemeen</translation>
-<translation id="300669147395456190">Brave-apps</translation>
+<translation id="300669147395456190">Dissenter-apps</translation>
 <translation id="6787839852456839824">Sneltoetsen</translation>
 <translation id="6419546358665792306">Uitgepakte extensie laden</translation>
 <translation id="8023801379949507775">Extensies nu updaten</translation>
@@ -4118,7 +4118,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7835178595033117206">Bladwijzer verwijderd</translation>
 <translation id="742130257665691897">Bladwijzers verwijderd</translation>
 <translation id="2785008241190445880">Bladwijzer vervangen</translation>
-<translation id="5468853758063275923">Brave is je standaardbrowser</translation>
+<translation id="5468853758063275923">Dissenter is je standaardbrowser</translation>
 <translation id="2950533317914339731">Voeg bladwijzers toe voor je favoriete Gab AI-apps</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4133,12 +4133,12 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="5033266061063942743">Geometrische vormen</translation>
 <translation id="7789963078219276159">Achtergrond van startpagina is gewijzigd in <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">De achtergrond van de startpagina is gereset naar de standaardachtergrond.</translation>
-<translation id="239760341987199724">Brave instellen als je standaardbrowser</translation>
+<translation id="239760341987199724">Dissenter instellen als je standaardbrowser</translation>
 <translation id="96037229054033864">Gab AI Zoeken en slimme Gab AI-functies standaard instellen voor browsen</translation>
-<translation id="296137235951584143">Personaliseer Brave voor jou</translation>
+<translation id="296137235951584143">Personaliseer Dissenter voor jou</translation>
 <translation id="3982375475032951137">Stel je browser in een paar eenvoudige stappen in</translation>
 <translation id="6972754398087986839">Aan de slag</translation>
-<translation id="3707821975049107110">Ben je al Brave-gebruiker? Log in</translation>
+<translation id="3707821975049107110">Ben je al Dissenter-gebruiker? Log in</translation>
 <translation id="1573150740912592860">Voortgang opslaan</translation>
 <translation id="567643736130151854">Log in en schakel synchronisatie in om je bladwijzers, wachtwoorden en meer op al je apparaten te gebruiken</translation>
 <translation id="5939847200023027600">PDF-samenstellerservice</translation>
@@ -4263,7 +4263,7 @@ Bewaar je sleutelbestand op een veilige plaats. Je hebt het bestand nodig om nie
 <translation id="7574650250151586813">Update de app Daydream-toetsenbord om tekst te typen</translation>
 <translation id="983511809958454316">Deze functie wordt niet ondersteund in VR</translation>
 <translation id="4008291085758151621">Sitegegevens zijn niet beschikbaar in VR</translation>
-<translation id="1439926347196400598">Toestaan dat Brave audio opneemt?</translation>
+<translation id="1439926347196400598">Toestaan dat Dissenter audio opneemt?</translation>
 <translation id="6313641880021325787">VR AFSLUITEN</translation>
 <translation id="2670429602441959756">Deze pagina bevat functies die nog niet worden ondersteund in de VR-modus. Afsluiten...</translation>
 <translation id="1802687198411089702">De pagina reageert niet. Je kunt wachten tot deze reageert of de pagina afsluiten.</translation>

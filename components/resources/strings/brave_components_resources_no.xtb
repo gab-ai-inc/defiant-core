@@ -40,7 +40,7 @@
 <translation id="805807983419360524">med Tor</translation>
 <translation id="8958799246752641148">Tor gjemmer IP-adresser fra nettsteder du besøker ved å dirigere nettlesingen din gjennom flere Tor-servere før det når destinasjonen din. Disse forbindelsene er krypterte, så nettleverandøren eller arbeidsgiveren din kan ikke se hvilke nettsteder du besøker heller. Tor kan gjøre nettlesingen tregere, og noen nettsteder vil kanskje ikke fungere i det hele tatt.</translation>
 <translation id="520608572871993342">Bruk av Private vinduer endrer kun hva Dissenter gjør på enheten din — det endrer ikke hva andre gjør. Tor gjemmer IP-adressen din fra nettstedene du besøker, og nettstedene du besøker fra internettleverandøren din eller arbeidsgiveren din. Åpne et Privat vindu med Tor fra menyen eller med {{ key }}.</translation>
-<translation id="6975708438781948564">Lær mer om Tor i Brave</translation>
+<translation id="6975708438781948564">Lær mer om Tor i Dissenter</translation>
 <translation id="4272382368346338917">Tilleggsfiltre</translation>
 <translation id="8949292968394988358">Advarsel: For mange filtre vil redusere ytelsen</translation>
 <translation id="1869685517625607604">Totale annonser blokkert:</translation>
@@ -49,7 +49,7 @@
 <translation id="2974339193389078578">Dissenter – velkommen til det nye Internett</translation>
 <translation id="7735138632831241257">Gjør deg klar til en raskere og sikrere nettleseropplevelse med nettleseren som er skapt med ditt personvern i tankene.</translation>
 <translation id="6001839398155993679">La oss begynne</translation>
-<translation id="8050847734948770789">Aktiver Brave-belønninger</translation>
+<translation id="8050847734948770789">Aktiver Dissenter-belønninger</translation>
 <translation id="2862598513212603756">Din oppmerksomhet er verdifull. Tjen ved å se annonser som støtter personvern mens du surfer, og send den videre for å støtte skaperene du elsker.</translation>
 <translation id="4942016616604700968">Aktiver belønninger</translation>
 <translation id="3958088479270651626">Importér bokmerker og innstillinger</translation>
@@ -66,12 +66,9 @@
 <translation id="3829010735958850433">Hopp over velkomstturen</translation>
 <translation id="1201402288615127009">Neste</translation>
 <translation id="1919345977826869612">Reklamer</translation>
-<translation id="5946611334574299206">Tjen tokener ved å se annonser i Brave. Annonser som presenteres er basert på dine interesser, som hentet fra dine nettleservaner. Ingen personlige data eller nettleserhistorikk forlater noensinne nettleseren din.</translation>
+<translation id="5946611334574299206">Tjen tokener ved å se annonser i Dissenter. Annonser som presenteres er basert på dine interesser, som hentet fra dine nettleservaner. Ingen personlige data eller nettleserhistorikk forlater noensinne nettleseren din.</translation>
 <translation id="6112368337882254910">Auto-bidra</translation>
 <translation id="1527222983464337010">En automatisk måte å støtte utgivere og tekstforfattere på. Bestem deg for en månedlig betaling og surf som normalt. Dissenter måler den interessen du viser, og sidene du besøker mottar automatisk bidrag fra deg.</translation>
-<translation id="7178655681744815321">Estimerte inntekter denne syklusen</translation>
-<translation id="8157096848242649588">Betalingsdato</translation>
-<translation id="5208388044986603165">Annonsevarsler mottatt</translation>
 <translation id="4229016885653790965">Beklager! Annonser er ikke tilgjengelig i regionen din ennå.</translation>
 <translation id="654711254769318398">Annonsesider vist</translation>
 <translation id="2532127066761785857">Maks antall annonser vist</translation>
@@ -113,13 +110,13 @@
 <translation id="2635094637295383009">Twitter</translation>
 <translation id="3920963435109110161">Gi tips på stedet når du finner skatter.</translation>
 <translation id="6135431587052937035">Støtt favorittsidene dine med gjentakende månedlige tips.</translation>
-<translation id="2788596505277705686">{{balanse}} BAT ble gjenopprettet. Lommeboken din har blitt bekreftet og lastet inn vellykket.</translation>
+<translation id="2788596505277705686">{{balance}} BAT ble gjenopprettet. Lommeboken din har blitt bekreftet og lastet inn vellykket.</translation>
 <translation id="1083279119532577005">Lommebok gjenopprettet!</translation>
 <translation id="7841456038054167122">Vennligst tast inn nøkler på nytt, eller prøv andre nøkler.</translation>
 <translation id="2195074481553016770">Nesten der…</translation>
 <translation id="5254740304961202261">Bevis at du er et menneske!</translation>
 <translation id="2187043784382239974">Hm, ikke helt...</translation>
-<translation id="7510166204621526816">Brave-serveren svarer ikke. Vi vil rette opp i dette så raskt som mulig.</translation>
+<translation id="7510166204621526816">Dissenter-serveren svarer ikke. Vi vil rette opp i dette så raskt som mulig.</translation>
 <translation id="2323069945529668668">Oisann!</translation>
 <translation id="4929019589540826496">Dette stipendet er ikke tilgjengelig lenger.</translation>
 <translation id="6965382102122355670">OK</translation>
@@ -130,7 +127,7 @@
 <translation id="7797604753681168055">Gjenopprett nå!</translation>
 <translation id="1184075897575325927">Beklager, men det ser ut til at dette stipendet allerede er gjort krav på.</translation>
 <translation id="282693359045252357">Neste månedlige tipsdato</translation>
-<translation id="6231182869178328516">Jeg tipset akkurat <ph name="NAME">$1<ex>user</ex></ph> som bruker Brave-nettleseren. Sjekk det ut på https://brave.com/tips.</translation>
+<translation id="6231182869178328516">Jeg tipset akkurat <ph name="NAME">$1<ex>user</ex></ph> som bruker Dissenter-nettleseren. Sjekk det ut på https://brave.com/tips.</translation>
 <translation id="7422678632904904341">Beløp:</translation>
 <translation id="5923611424721173182">Gjeldende forsoning</translation>
 <translation id="5457113250005438886">Ugyldig</translation>
@@ -163,7 +160,7 @@
 <translation id="1036277985068412734">legg til midler</translation>
 <translation id="5441565662498481293">Du sender automatisk et tips til:</translation>
 <translation id="4496990471549986619">FAQ-en</translation>
-<translation id="1688876543043079268">Påminnelse: Brave-lommeboken er enveis og BAT går til utgivernettsider. For mer informasjon om Dissenter Rewards, vennligst besøk</translation>
+<translation id="1688876543043079268">Påminnelse: Dissenter-lommeboken er enveis og BAT går til utgivernettsider. For mer informasjon om Dissenter Rewards, vennligst besøk</translation>
 <translation id="2790014973538267577">Vis QR-kode</translation>
 <translation id="5690154556705187369">Pass på å bruke adressen nedenfor som stemmer overens med typen kryptovaluta du eier. Uphold vil automatisk veksle det om til BAT, og det vil vises som en økt saldo i Dissenter Rewards-lommeboken din. Lommeboksaldoen din skal være oppdatert i løpet av en time.</translation>
 <translation id="8874657527115501951">Send kryptvaluta fra din eksterne konto til Dissenter Rewards-lommeboken din.</translation>
@@ -172,9 +169,9 @@
 <translation id="3819257035322786455">Sikkerhetskopi</translation>
 <translation id="1312977698678162065">Få betalt for å se relevante annonser som respekterer ditt privatliv.</translation>
 <translation id="7655723274266132226">Nå kan du tjene på å se annonser.</translation>
-<translation id="2975780980638932742">Brave-annonser er her!</translation>
+<translation id="2975780980638932742">Dissenter-annonser er her!</translation>
 <translation id="3361548743396744457">Støtt favorittsidene dine kun ved å surfe på nett – eller gi tips til en side når du måtte ønske.</translation>
-<translation id="3333887201479867589">Brave-belønninger</translation>
+<translation id="3333887201479867589">Dissenter-belønninger</translation>
 <translation id="4493850495402472953">og</translation>
 <translation id="8804164990146287819">Personvernerklæring</translation>
 <translation id="4281844954008187215">Brukervilkår</translation>
@@ -186,11 +183,9 @@
 <translation id="516395624550019162">Ja, jeg er med!</translation>
 <translation id="529572070778367192">Bli belønnet for å surfe!</translation>
 <translation id="128450776206759934">Hvordan det virker …</translation>
-<translation id="3825698830825612308">Brave-verifiserte utgivere</translation>
+<translation id="3825698830825612308">Dissenter-verifiserte utgivere</translation>
 <translation id="7658239707568436148">Avbryt</translation>
 <translation id="7262285991915892790">Dra BAT-ikonet til</translation>
-<translation id="2151535059686617995">Det er din lykkedag!</translation>
-<translation id="6255773350565723852">Tokenstipendet ditt er på vei.</translation>
 <translation id="7656781188259414093">mål.</translation>
 <translation id="1555514580945108302">Hmm… det stemmer ikke helt. Prøv på nytt.</translation>
 <translation id="13853865024308201">Gjør krav på</translation>
@@ -295,10 +290,10 @@ dag i hver måned.</translation>
 <translation id="7359258898775969374">3 måter å fylle lommeboken din på:</translation>
 <translation id="8087614920008846901">Du kan legge til penger.</translation>
 <translation id="996024295464837691">Du kan tjene polletter ved å se annonser.</translation>
-<translation id="8014425282125849700">Nå og da vil du få tilbud om tildeling av gratis tokens fra Brave. Pass på at du får med deg beskjeden!</translation>
+<translation id="8014425282125849700">Nå og da vil du få tilbud om tildeling av gratis tokens fra Dissenter. Pass på at du får med deg beskjeden!</translation>
 <translation id="1370034647041840967">Tjen tokens for din oppmerksomhet til annonser og bruk det til å støtte skapere som du setter pris på!</translation>
 <translation id="3905359437915971466">Legg til, ta ut og administrer penger</translation>
-<translation id="5866139915213160210">Brave-lommeboken din er styrt av</translation>
+<translation id="5866139915213160210">Dissenter-lommeboken din er styrt av</translation>
 <translation id="6401272292123354754">Dissenter Rewards er bygget på Basic Attention Token. Lær mer om BAT</translation>
 <translation id="7823359893981882407">her</translation>
 <translation id="4483635855837696643">Restaurere din lommebok</translation>
@@ -306,7 +301,7 @@ dag i hver måned.</translation>
 <translation id="4600052736217630789">Gjenopprettelse med en gjenopprettingsnøkkel vil erstatte din nåværende lommebok. Sørg for at du tømmer eller sikkerhetskopierer din nåværende lommebok før du gjenoppretter.</translation>
 <translation id="3267911153934785912">Skriv inn gjenopprettingsnøkkelen eller</translation>
 <translation id="3494964159182650590">Sammendrag av belønninger</translation>
-<translation id="63956545637156715">Hvorfor Brave-belønninger?</translation>
+<translation id="63956545637156715">Hvorfor Dissenter-belønninger?</translation>
 <translation id="1738658589626889850">Lagre som en fil</translation>
 <translation id="259138486959961679">Se alle {{numItems}} gjenstander</translation>
 <translation id="7857284676033058221">Se alle {{numSites}} nettsteder</translation>
@@ -331,7 +326,7 @@ dag i hver måned.</translation>
 <translation id="5636843789453098076">Tips @{{ user }} for tweeten deres:</translation>
 <translation id="4242384385082203046">Tips @{{ user }} for tweeten deres!</translation>
 <translation id="2448312741937722512">Type</translation>
-<translation id="8772672608371898774">Brave-verifisert utgiver</translation>
+<translation id="8772672608371898774">Dissenter-verifisert utgiver</translation>
 <translation id="5050370287908180130">Se månedlig kontoutskrift for detaljer</translation>
 <translation id="8615803647903750175">Lommebokaktivitet</translation>
 <translation id="2620624773940447728">Lommebokaddresse</translation>
@@ -351,7 +346,7 @@ dag i hver måned.</translation>
 <translation id="3780605330121608425">Lommeboken din</translation>
 <translation id="6727483290601442544">Se detaljer</translation>
 <translation id="1988679729106502285">MERK:</translation>
-<translation id="5815103311506128988">Denne skaperen har ikke registrert seg for å motta bidrag fra Brave-brukere ennå. Nettleseren din vil fortsette å prøve å bidra helt til de verifiserer bidraget eller til det har gått 90 dager.</translation>
+<translation id="5815103311506128988">Denne skaperen har ikke registrert seg for å motta bidrag fra Dissenter-brukere ennå. Nettleseren din vil fortsette å prøve å bidra helt til de verifiserer bidraget eller til det har gått 90 dager.</translation>
 <translation id="4292832015778676417">opptjent fra annonser</translation>
 <translation id="3197752845651180812">Ventende bidrag</translation>
 <translation id="3164105678355419142">Gjentatt tips</translation>
@@ -361,6 +356,8 @@ dag i hver måned.</translation>
 <translation id="7410549756000115387">Ingen ventende bidrag…</translation>
 <translation id="1963227389609234879">Fjern alle</translation>
 <translation id="923467487918828349">Vis alle</translation>
+<translation id="2151535059686617995">Det er din lykkedag!</translation>
+<translation id="6255773350565723852">Tokenstipendet ditt er på vei.</translation>
 <translation id="1181037720776840403">Fjern</translation>
 <translation id="7885157704277298658">Kopiert!</translation>
 <translation id="5379640681913450928">Antall ord:</translation>
@@ -396,7 +393,7 @@ dag i hver måned.</translation>
 <translation id="6647265259633328698">Advarsel!</translation>
 <translation id="7226983081288498250">Fjerning av</translation>
 <translation id="1810742624536999850">sletter denne synkroniseringskjeden.</translation>
-<translation id="3263262632668102801">De lokale dataene på denne enheten beholdes, men all data i Braves synkroniseringsbuffer vil bli slettet.</translation>
+<translation id="3263262632668102801">De lokale dataene på denne enheten beholdes, men all data i Dissenters synkroniseringsbuffer vil bli slettet.</translation>
 <translation id="9209629396585743369">Du kan starte en ny synkroniseringskjede med en ny enhet ved å taste inn synkroniseringskjede-koden dens.</translation>
 <translation id="8258002508340330928">Er du sikker?</translation>
 <translation id="3407602902101449803">QR-kode for synkroniseringskjede</translation>

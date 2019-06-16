@@ -40,13 +40,13 @@
 <translation id="805807983419360524">sa Tor-om</translation>
 <translation id="8958799246752641148">Tor krije vašu IP adresu od veb lokacija koje posećujete, tako što provlači vaše surfovanje kroz nekoliko Tor servera pre nego što dostigne vašu destinaciju. Ove konekcije su šifrovane, tako da vaš provajder i vaš poslodavac ne mogu’ da vide koje veb lokacije vi’ posećujete. Tor može da uspori pregledanje i neke veb lokacije mogu uopšte da ne rade.</translation>
 <translation id="520608572871993342">Korišćenje privatnih prozora samo menja šta Dissenter radi na vašem uređaju— ne menja ponašanje bilo koga drugog. Tor krije vašu IP adresu od veb lokacija koje ste posetili, i krije veb lokacije koje ste posetili od vašeg provajdera ili vašeg poslodavca. Otvorite privatni prozor sa Torom iz menija, ili sa {{ key }}.</translation>
-<translation id="6975708438781948564">Saznajte više o Tor-u u Brave-u</translation>
+<translation id="6975708438781948564">Saznajte više o Tor-u u Dissenter-u</translation>
 <translation id="4272382368346338917">Dodatni filteri</translation>
 <translation id="8949292968394988358">Upozorenje: Previše uključenih filtera umanjiće performanse</translation>
 <translation id="1869685517625607604">Ukupan broj blokiranih oglasa:</translation>
 <translation id="4673764878177947707">Prilagođeni filteri</translation>
 <translation id="8803682034537762884">Jedan po liniji, filter je opisan u Adblock Plus filter sintaksi</translation>
-<translation id="2974339193389078578">Dobro došli u pregledač Brave</translation>
+<translation id="2974339193389078578">Dobro došli u pregledač Dissenter</translation>
 <translation id="7735138632831241257">Spremite se za još brže i bezbednije korišćenje interneta uz pregledač koji je osmišljen da štiti vašu privatnost.</translation>
 <translation id="6001839398155993679">Hajdemo</translation>
 <translation id="8050847734948770789">Omogućite Dissenter Rewards</translation>
@@ -66,12 +66,9 @@
 <translation id="3829010735958850433">Preskočite obilazak dobrodošlice</translation>
 <translation id="1201402288615127009">Даље</translation>
 <translation id="1919345977826869612">Oglasi</translation>
-<translation id="5946611334574299206">Zaradite tokene tako što ćete gledati oglase u Brave-u. Oglasi su prikazani na osnovu vaših interesa, kako je zaključeno iz vašeg ponašanja na pregledaču. Nijedna privatna informacija ili istorija pregledanja nikad ne napušta vaš pregledač.</translation>
+<translation id="5946611334574299206">Zaradite tokene tako što ćete gledati oglase u Dissenter-u. Oglasi su prikazani na osnovu vaših interesa, kako je zaključeno iz vašeg ponašanja na pregledaču. Nijedna privatna informacija ili istorija pregledanja nikad ne napušta vaš pregledač.</translation>
 <translation id="6112368337882254910">Automatski doprinosi</translation>
 <translation id="1527222983464337010">Automatski način da podržite objavljivače i stvaralace sadržaja. Postavite mesečno plaćanje i surfujte normalno. Veb lokacija koju posetite dobija automatski vašu donaciju, u odnosu na vašu pažnju prema lokaciji, što Dissenter meri.</translation>
-<translation id="7178655681744815321">Procenjena zarada u ovom ciklusu</translation>
-<translation id="8157096848242649588">Datum uplate</translation>
-<translation id="5208388044986603165">Broj primljenih reklamnih obaveštenja</translation>
 <translation id="4229016885653790965">Žao nam je! Reklame još uvek nisu dostupne u vašem regionu.</translation>
 <translation id="654711254769318398">Broj pregledanih reklamnih stranica</translation>
 <translation id="2532127066761785857">Maksimalni broj prikazanih reklama</translation>
@@ -130,7 +127,7 @@
 <translation id="7797604753681168055">Osposobi novčanik odmah!</translation>
 <translation id="1184075897575325927">Izvinite, izgleda da je ovo odobrenje već zatraženo.</translation>
 <translation id="282693359045252357">Datum sledeće mesečne napojnice</translation>
-<translation id="6231182869178328516">Upravo sam dao napojnicu <ph name="NAME">$1<ex>user</ex></ph> koji koristi pregledač Brave. Pogledajte na https://brave.com/tips.</translation>
+<translation id="6231182869178328516">Upravo sam dao napojnicu <ph name="NAME">$1<ex>user</ex></ph> koji koristi pregledač Dissenter. Pogledajte na https://brave.com/tips.</translation>
 <translation id="7422678632904904341">Iznos:</translation>
 <translation id="5923611424721173182">Trenutno izmirenje</translation>
 <translation id="5457113250005438886">Nevažeće</translation>
@@ -159,7 +156,7 @@
 <translation id="5094577350232361255">o</translation>
 <translation id="4918086044614829423">Прихвати</translation>
 <translation id="6832986780040139899">©2016–2018 Brejv softver. Brejv je registrovani zaštitni znak Brejv softvera. Nazivi lokacija mogu biti zaštićeni znakovi ili registrovani zaštićeni znakovi vlasnika sajta.</translation>
-<translation id="9026369588205476247">Radi zaštite vaše privatnosti ovaj Dissenter Rewards izveštaj nije sačuvan, snimljen ili prijavljen nigde drugde izuzev na vašem uređaju (ovom računaru). Ne može se preuzeti sa Brave-a u slučaju da dođe do gubitka podataka na vašem uređaju.</translation>
+<translation id="9026369588205476247">Radi zaštite vaše privatnosti ovaj Dissenter Rewards izveštaj nije sačuvan, snimljen ili prijavljen nigde drugde izuzev na vašem uređaju (ovom računaru). Ne može se preuzeti sa Dissenter-a u slučaju da dođe do gubitka podataka na vašem uređaju.</translation>
 <translation id="1036277985068412734">dodaj sredstva</translation>
 <translation id="5441565662498481293">Ne šaljete automatski napojnicu ka:</translation>
 <translation id="4496990471549986619">Najčešća pitanja</translation>
@@ -189,8 +186,6 @@
 <translation id="3825698830825612308">Dissenter verifikovani objavljivači</translation>
 <translation id="7658239707568436148">Otkaži</translation>
 <translation id="7262285991915892790">Prevucite BAT ikonu na</translation>
-<translation id="2151535059686617995">Ovo’ je Vaš srećan dan!</translation>
-<translation id="6255773350565723852">Vaš token odobrenja je na putu.</translation>
 <translation id="7656781188259414093">meta.</translation>
 <translation id="1555514580945108302">Hm… Ne baš. Pokušajte ponovo.</translation>
 <translation id="13853865024308201">Zahtevaj</translation>
@@ -294,7 +289,7 @@
 <translation id="7359258898775969374">3 načina za popunjavanje Vašeg novčanika:</translation>
 <translation id="8087614920008846901">Možete dodati sredstva.</translation>
 <translation id="996024295464837691">Možete da zaradite žetone od gledanja oglasa.</translation>
-<translation id="8014425282125849700">Povremeno, biće vam ponuđen besplatan žeton odobrenja od Brave-a. Vodite računa o ovom upozorenju!</translation>
+<translation id="8014425282125849700">Povremeno, biće vam ponuđen besplatan žeton odobrenja od Dissenter-a. Vodite računa o ovom upozorenju!</translation>
 <translation id="1370034647041840967">Zaradi tokene na osnovu svoje pažnje prema oglasima i plati unapred da bi podržali stvaraoce koje cenite!</translation>
 <translation id="3905359437915971466">Dodajte, podignite i upravljajte sredstvima na</translation>
 <translation id="5866139915213160210">Vašim Dissenter novčanikom upravlja</translation>
@@ -330,7 +325,7 @@
 <translation id="5636843789453098076">Dajte napojnicu @{{ user }} za tvit:</translation>
 <translation id="4242384385082203046">Dajte napojnicu @{{ user }} za tvit!</translation>
 <translation id="2448312741937722512">Тип</translation>
-<translation id="8772672608371898774">Objavljivač verifikovan od strane Brave-a</translation>
+<translation id="8772672608371898774">Objavljivač verifikovan od strane Dissenter-a</translation>
 <translation id="5050370287908180130">Pogledajte mesečni izveštaj za više informacija</translation>
 <translation id="8615803647903750175">Aktivnost u novčaniku</translation>
 <translation id="2620624773940447728">Adresa novčanika</translation>
@@ -360,6 +355,8 @@
 <translation id="7410549756000115387">Nema doprinosa na čekanju…</translation>
 <translation id="1963227389609234879">Уклони све</translation>
 <translation id="923467487918828349">Прикажи све</translation>
+<translation id="2151535059686617995">Ovo’ je Vaš srećan dan!</translation>
+<translation id="6255773350565723852">Vaš token odobrenja je na putu.</translation>
 <translation id="1181037720776840403">Ukloni</translation>
 <translation id="7885157704277298658">Kopirano!</translation>
 <translation id="5379640681913450928">Broj reči:</translation>

@@ -40,7 +40,7 @@
 <translation id="805807983419360524">cùng Tor</translation>
 <translation id="8958799246752641148">Tor ẩn địa chỉ IP của bạn khỏi các trang web bạn truy cập, bằng cách định tuyến việc duyệt web của bạn thông qua một số máy chủ Tor trước khi truy cập trang đích của bạn. Các kết nối này được mã hóa, do đó, ISP hoặc chủ của bạn không thể xem trang web nào bạn đang truy cập. Tor có thể làm chậm việc duyệt web và một số trang web có thể không hoạt động được.</translation>
 <translation id="520608572871993342">Sử dụng Cửa số Riêng tư chỉ thay đổi những gì Dissenter thực hiện trên thiết bị của bạn mà không thay đổi hành vi của bất kỳ điều gì khác. Tor ẩn địa chỉ IP của bạn khỏi những trang web mà bạn truy cập, và ẩn những trang web bạn truy cập khỏi ISP hoặc chủ của bạn. Mở Cửa sổ Riêng tư với Tor từ menu, hoặc với {{ key }}.</translation>
-<translation id="6975708438781948564">Tìm hiểu thêm về Tor trong Brave</translation>
+<translation id="6975708438781948564">Tìm hiểu thêm về Tor trong Dissenter</translation>
 <translation id="4272382368346338917">Bộ lọc thêm</translation>
 <translation id="8949292968394988358">Lưu ý: Bật quá nhiều bộ lọc sẽ làm giảm hiệu năng</translation>
 <translation id="1869685517625607604">Tổng số quảng cáo đã chặn:</translation>
@@ -49,7 +49,7 @@
 <translation id="2974339193389078578">Dissenter - một trải nghiệm Internet mới</translation>
 <translation id="7735138632831241257">Sẵn sàng tận hưởng một trải nghiệm duyệt web nhanh hơn và an toàn hơn với một trình duyệt được thiết kế để bảo vệ quyền riêng tư của bạn.</translation>
 <translation id="6001839398155993679">Đi nào</translation>
-<translation id="8050847734948770789">Kích hoạt Phần thưởng của Brave</translation>
+<translation id="8050847734948770789">Kích hoạt Phần thưởng của Dissenter</translation>
 <translation id="2862598513212603756">Sự chú ý của bạn rất đáng giá. Kiếm tiền bằng cách xem các quảng cáo tôn trọng quyền riêng tư khi bạn duyệt web và sau đó trả tiền đi để hỗ trợ các nhà sáng tạo nội dung mà bạn yêu thích.</translation>
 <translation id="4942016616604700968">Kích hoạt Phần thưởng</translation>
 <translation id="3958088479270651626">Nhập dấu trang và các mục cài đặt</translation>
@@ -66,12 +66,9 @@
 <translation id="3829010735958850433">Bỏ qua tour chào mừng</translation>
 <translation id="1201402288615127009">Tiếp theo</translation>
 <translation id="1919345977826869612">Quảng cáo</translation>
-<translation id="5946611334574299206">Kiếm token khi xem quảng cáo trên Brave. Quảng cáo trình bày dựa trên sở thích của bạn, theo như suy ra từ hành vi duyệt web của bạn. Không có bất kỳ dữ liệu cá nhân hay lịch sử duyệt nào rời khỏi trình duyệt của bạn.</translation>
+<translation id="5946611334574299206">Kiếm token khi xem quảng cáo trên Dissenter. Quảng cáo trình bày dựa trên sở thích của bạn, theo như suy ra từ hành vi duyệt web của bạn. Không có bất kỳ dữ liệu cá nhân hay lịch sử duyệt nào rời khỏi trình duyệt của bạn.</translation>
 <translation id="6112368337882254910">Tự động Đóng góp</translation>
 <translation id="1527222983464337010">Một cách tự động để hỗ trợ nhà xuất bản và nhà sáng tạo nội dung. Thiết lập thanh toán hàng tháng và duyệt web bình thường. Các trang web bạn truy cập nhận được khoản đóng góp của bạn tự động, dựa trên sự chú ý của bạn do Dissenter đo lường.</translation>
-<translation id="7178655681744815321">Thu nhập ước tính chu kỳ này</translation>
-<translation id="8157096848242649588">Ngày thanh toán</translation>
-<translation id="5208388044986603165">Thông báo quảng cáo đã nhận được</translation>
 <translation id="4229016885653790965">Rất tiếc! Quảng cáo chưa có sẵn trong khu vực của bạn.</translation>
 <translation id="654711254769318398">Trang quảng cáo đã xem</translation>
 <translation id="2532127066761785857">Số lượng quảng cáo tối đa được hiển thị</translation>
@@ -130,7 +127,7 @@
 <translation id="7797604753681168055">Khôi phục ngay!</translation>
 <translation id="1184075897575325927">Rất tiếc, có vẻ như khoản thưởng này đã được nhận.</translation>
 <translation id="282693359045252357">Ngày gửi tiền tip hàng tháng tiếp theo</translation>
-<translation id="6231182869178328516">Tôi vừa thưởng <ph name="NAME">$1<ex>user</ex></ph> thông qua Trình duyệt Brave. Xem thêm tại https://brave.com/tips.</translation>
+<translation id="6231182869178328516">Tôi vừa thưởng <ph name="NAME">$1<ex>user</ex></ph> thông qua Trình duyệt Dissenter. Xem thêm tại https://brave.com/tips.</translation>
 <translation id="7422678632904904341">Số lượng:</translation>
 <translation id="5923611424721173182">Đối chiếu Hiện tại</translation>
 <translation id="5457113250005438886">Không hợp lệ</translation>
@@ -163,7 +160,7 @@
 <translation id="1036277985068412734">thêm tiền</translation>
 <translation id="5441565662498481293">Bạn đang tự động gửi tiền tip đến:</translation>
 <translation id="4496990471549986619">Câu hỏi Thường gặp</translation>
-<translation id="1688876543043079268">Nhắc nhở: Ví Dissenter chỉ có một chiều và BAT chảy vào các trang web nhà xuất bản. Để biết thêm thông tin về Phần Thưởng Brave, vui lòng truy cập</translation>
+<translation id="1688876543043079268">Nhắc nhở: Ví Dissenter chỉ có một chiều và BAT chảy vào các trang web nhà xuất bản. Để biết thêm thông tin về Phần Thưởng Dissenter, vui lòng truy cập</translation>
 <translation id="2790014973538267577">Hiển thị mã QR</translation>
 <translation id="5690154556705187369">Hãy chắc chắn sử dụng địa chỉ dưới đây phù hợp với loại tiền ảo mà bạn sở hữu. Nó sẽ được Uphold tự động chuyển đổi sang BAT và xuất hiện dưới dạng số dư đã tăng lên trong ví Phần thưởng Dissenter của bạn. Vui lòng chờ lên đến một giờ để số dư trong ví của bạn được cập nhật.</translation>
 <translation id="8874657527115501951">Gửi tiền mã hóa từ tài khoản bên ngoài của bạn đến Ví Tiền thưởng Dissenter của bạn.</translation>
@@ -174,7 +171,7 @@
 <translation id="7655723274266132226">Giờ đây bạn có thể kiếm tiền bằng cách xem quảng cáo.</translation>
 <translation id="2975780980638932742">Dissenter Ads đã xuất hiện!</translation>
 <translation id="3361548743396744457">Hỗ trợ những trang mà bạn yêu thích chỉ bằng cách duyệt web – hoặc gửi tiền tip cho trang web vào bất kỳ lúc nào bạn muốn.</translation>
-<translation id="3333887201479867589">Phần thưởng của Brave</translation>
+<translation id="3333887201479867589">Phần thưởng của Dissenter</translation>
 <translation id="4493850495402472953">và</translation>
 <translation id="8804164990146287819">Chính sách Quyền riêng tư</translation>
 <translation id="4281844954008187215">Điều khoản Dịch vụ</translation>
@@ -189,8 +186,6 @@
 <translation id="3825698830825612308">Nhà xuất bản đã được Dissenter xác nhận</translation>
 <translation id="7658239707568436148">Hủy</translation>
 <translation id="7262285991915892790">Kéo Biểu tượng BAT vào</translation>
-<translation id="2151535059686617995">Đây là ngày may mắn của bạn!</translation>
-<translation id="6255773350565723852">Khoản thưởng token của bạn đang đến.</translation>
 <translation id="7656781188259414093">mục tiêu.</translation>
 <translation id="1555514580945108302">Hmm… Không hẳn. Thử lại.</translation>
 <translation id="13853865024308201">Nhận</translation>
@@ -305,7 +300,7 @@
 <translation id="4600052736217630789">Khôi phục bằng khóa khôi phục sẽ thay thế ví hiện tại của bạn. Vì vậy hãy bảo đảm bạn đã làm trống hoặc sao lưu ví hiện tại của mình trước khi khôi phục.</translation>
 <translation id="3267911153934785912">Nhập khoá khôi phục của bạn hoặc</translation>
 <translation id="3494964159182650590">Tóm tắt Tiền thưởng</translation>
-<translation id="63956545637156715">Tại sao lại là Phần thưởng của Brave?</translation>
+<translation id="63956545637156715">Tại sao lại là Phần thưởng của Dissenter?</translation>
 <translation id="1738658589626889850">Lưu thành Tập tin</translation>
 <translation id="259138486959961679">Xem tất cả {{numItems}} mục</translation>
 <translation id="7857284676033058221">Xem tất cả {{numSites}} trang</translation>
@@ -330,7 +325,7 @@
 <translation id="5636843789453098076">Thưởng cho @{{ user }} vì tweet của họ:</translation>
 <translation id="4242384385082203046">Thưởng cho @{{ user }} vì tweet của họ!</translation>
 <translation id="2448312741937722512">Loại</translation>
-<translation id="8772672608371898774">Nhà sản xuất Chứng thực bởi Brave</translation>
+<translation id="8772672608371898774">Nhà sản xuất Chứng thực bởi Dissenter</translation>
 <translation id="5050370287908180130">Xem Sao kê Hàng tháng để biết Chi tiết</translation>
 <translation id="8615803647903750175">Hoạt động của Ví</translation>
 <translation id="2620624773940447728">Địa chỉ ví</translation>
@@ -344,13 +339,13 @@
 <translation id="3315406658665721926">Bạn hiện có thể kiếm được token bằng việc xem các quảng cáo tôn trọng quyền riêng tư.</translation>
 <translation id="8787500234852052352">Kiếm tiền bằng việc xem quảng cáo và thanh toán để hỗ trợ những nhà sáng tạo nội dung mà bạn yêu thích.</translation>
 <translation id="318487899513214296">Xem có gì được cải thiện</translation>
-<translation id="4083384190339959182">Chúng tôi đã thực hiện nâng cấp lớn cho Thanh toán Brave.</translation>
+<translation id="4083384190339959182">Chúng tôi đã thực hiện nâng cấp lớn cho Thanh toán Dissenter.</translation>
 <translation id="5395851053710553429">Hãy sẵn sàng để trải nghiệm Internet tiếp theo.</translation>
 <translation id="2549982302631665116">Hôm nay, Dissenter chào đón bạn đến với Internet mới. Một nơi mà thời gian của bạn được coi trọng, dữ liệu cá nhân của bạn được giữ riêng tư và bạn thật sự được trả tiền cho sự chú ý của mình.</translation>
 <translation id="3780605330121608425">Ví của bạn</translation>
 <translation id="6727483290601442544">Xem Chi tiết</translation>
 <translation id="1988679729106502285">LƯU Ý:</translation>
-<translation id="5815103311506128988">Người sáng tạo này vẫn chưa đăng ký để nhận đóng góp từ người dùng Brave. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp cho đến khi họ xác minh hoặc cho đến khi đã qua 90 ngày.</translation>
+<translation id="5815103311506128988">Người sáng tạo này vẫn chưa đăng ký để nhận đóng góp từ người dùng Dissenter. Trình duyệt của bạn sẽ tiếp tục cố gắng đóng góp cho đến khi họ xác minh hoặc cho đến khi đã qua 90 ngày.</translation>
 <translation id="4292832015778676417">thu được từ quảng cáo</translation>
 <translation id="3197752845651180812">Đóng góp chờ xử lý</translation>
 <translation id="3164105678355419142">Tiền thưởng thường chọn</translation>
@@ -360,6 +355,8 @@
 <translation id="7410549756000115387">Không có đóng góp chờ xử lý…</translation>
 <translation id="1963227389609234879">Xóa Tất cả</translation>
 <translation id="923467487918828349">Hiển thị Tất cả</translation>
+<translation id="2151535059686617995">Đây là ngày may mắn của bạn!</translation>
+<translation id="6255773350565723852">Khoản thưởng token của bạn đang đến.</translation>
 <translation id="1181037720776840403">Xóa</translation>
 <translation id="7885157704277298658">Đã sao chép!</translation>
 <translation id="5379640681913450928">Số lượng chữ:</translation>

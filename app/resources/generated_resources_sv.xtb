@@ -20,12 +20,12 @@
 <translation id="8261506727792406068">Radera</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> markerade</translation>
 <translation id="5582839680698949063">Huvudmeny</translation>
-<translation id="3700405816184340252">Brave-historik</translation>
+<translation id="3700405816184340252">Dissenter-historik</translation>
 <translation id="7602079150116086782">Inga flikar från andra enheter</translation>
 <translation id="4619615317237390068">Flikar från andra enheter</translation>
-<translation id="82609232232243542">Logga in i Brave</translation>
+<translation id="82609232232243542">Logga in i Dissenter</translation>
 <translation id="4627442949885028695">Fortsätta på en annan enhet</translation>
-<translation id="7253276740368043692">Logga in i Brave om du vill ha samma flikar tillgängliga på alla enheter.</translation>
+<translation id="7253276740368043692">Logga in i Dissenter om du vill ha samma flikar tillgängliga på alla enheter.</translation>
 <translation id="6351063337294363751">Du kan rensa webbinformation från den här menyn</translation>
 <translation id="6040143037577758943">Stäng</translation>
 <translation id="6463795194797719782">&amp;Redigera</translation>
@@ -430,8 +430,8 @@
 <translation id="5895138241574237353">Starta om</translation>
 <translation id="3479552764303398839">Inte nu</translation>
 <translation id="1008557486741366299">Inte nu</translation>
-<translation id="8201192017531062522">Brave fortsätter köras när Brave-appar är öppna.</translation>
-<translation id="7397305826909094212">Stäng alla Brave-appar</translation>
+<translation id="8201192017531062522">Dissenter fortsätter köras när Dissenter-appar är öppna.</translation>
+<translation id="7397305826909094212">Stäng alla Dissenter-appar</translation>
 <translation id="5026874946691314267">Visa inte detta igen</translation>
 <translation id="91568222606626347">Skapa genväg ...</translation>
 <translation id="2783321960289401138">Skapa genväg ...</translation>
@@ -796,11 +796,11 @@
 <translation id="5799508265798272974">Virtuell maskin för Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="8191453843330043793">V8-proxytolk</translation>
 <translation id="5552059560155071882">CUPS IPP-analysator</translation>
-<translation id="3077708072777965506">Inmatningsmetod för Brave OS</translation>
-<translation id="7171242884588191792">Braves filverktyg</translation>
+<translation id="3077708072777965506">Inmatningsmetod för Dissenter OS</translation>
+<translation id="7171242884588191792">Dissenters filverktyg</translation>
 <translation id="3183139917765991655">Profilimportör</translation>
 <translation id="2190069059097339078">Hämtningsfunktion för Wi-Fi-användaruppgifter</translation>
-<translation id="7685901961038216503">Systemavbildningsskrivare för Brave OS</translation>
+<translation id="7685901961038216503">Systemavbildningsskrivare för Dissenter OS</translation>
 <translation id="4873312501243535625">Mediefilkontroll</translation>
 <translation id="5972666587303800813">Testtjänst utan funktion</translation>
 <translation id="3061707000357573562">Tjänst för programkorrigering</translation>
@@ -827,14 +827,14 @@
 <translation id="3507421388498836150">Aktuella behörigheter för <ph name="EXTENSION_NAME"/></translation>
 <translation id="5242724311594467048">Vill du aktivera <ph name="EXTENSION_NAME"/>?</translation>
 <translation id="4014432863917027322">Vill du reparera <ph name="EXTENSION_NAME"/>?</translation>
-<translation id="5173189340601754836">Ett annat program i datorn har lagt till en app som kan ändra hur Brave fungerar.
+<translation id="5173189340601754836">Ett annat program i datorn har lagt till en app som kan ändra hur Dissenter fungerar.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Brave fungerar.
+<translation id="6654312501894761082">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Dissenter fungerar.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Ett annat program i datorn har lagt till ett tema som kan ändra hur Brave fungerar.
+<translation id="3225882094369124157">Ett annat program i datorn har lagt till ett tema som kan ändra hur Dissenter fungerar.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Aktivera tillägget</translation>
@@ -843,7 +843,7 @@
 <translation id="3908501907586732282">Aktivera tillägg</translation>
 <translation id="2327492829706409234">Aktivera app</translation>
 <translation id="175772926354468439">Aktivera tema</translation>
-<translation id="5267531627648004734">Ta bort från Brave</translation>
+<translation id="5267531627648004734">Ta bort från Dissenter</translation>
 <translation id="4998873842614926205">Bekräfta ändringar</translation>
 <translation id="5699533844376998780">Tillägget <ph name="EXTENSION_NAME"/> har lagts till.</translation>
 <translation id="1799071797295057738">Tillägget <ph name="EXTENSION_NAME"/> har inaktiverats automatiskt.</translation>
@@ -974,7 +974,7 @@
 <translation id="1616298854599875024">Det gick inte att importera tillägget <ph name="IMPORT_NAME"/> eftersom det inte är en delad modul</translation>
 <translation id="2131077480075264">Det går inte att installera <ph name="APP_NAME"/> eftersom den inte tillåts av <ph name="IMPORT_NAME"/></translation>
 <translation id="1875387611427697908">Kan endast installeras från <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">En app med manifestattributet kiosk_only måste installeras i kioskläget i Brave OS</translation>
+<translation id="7613251087357271190">En app med manifestattributet kiosk_only måste installeras i kioskläget i Dissenter OS</translation>
 <translation id="3834775135533257713">Det gick inte att lägga till appen <ph name="TO_INSTALL_APP_NAME"/> eftersom den inte fungerar med <ph name="INSTALLED_APP_NAME"/>.</translation>
 <translation id="144518587530125858">Det gick inte att läsa in <ph name="IMAGE_PATH"/> för temat.</translation>
 <translation id="6567688344210276845">Det gick inte att läsa in ikonen <ph name="ICON"/> för sidåtgärden.</translation>
@@ -1071,9 +1071,9 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6101226222197207147">En ny app har lagts till (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Ett nytt tema har lagts till (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904"><ph name="EXTENSION_NAME"/> har lagts till</translation>
-<translation id="6637045053447935202">Ett annat program i datorn har lagt till en app som kan ändra hur Brave fungerar.</translation>
-<translation id="2015014930243978107">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Brave fungerar.</translation>
-<translation id="2060128809251156338">Ett annat program i datorn har lagt till ett tema som kan ändra hur Brave fungerar.</translation>
+<translation id="6637045053447935202">Ett annat program i datorn har lagt till en app som kan ändra hur Dissenter fungerar.</translation>
+<translation id="2015014930243978107">Ett annat program i datorn har lagt till ett tillägg som kan ändra hur Dissenter fungerar.</translation>
+<translation id="2060128809251156338">Ett annat program i datorn har lagt till ett tema som kan ändra hur Dissenter fungerar.</translation>
 <translation id="2470702053775288986">Tillägg som inte stöds har inaktiverats</translation>
 <translation id="2809586584051668049">och ytterligare <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Ok, jag förstår</translation>
@@ -1140,7 +1140,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8009225694047762179">Hantera Lösenord</translation>
 <translation id="3950820424414687140">Logga in</translation>
 <translation id="5624120631404540903">Hantera lösenord</translation>
-<translation id="9135262959729602463">Logga in i Brave om du vill få tillgång till lösenorden på alla enheter.</translation>
+<translation id="9135262959729602463">Logga in i Dissenter om du vill få tillgång till lösenorden på alla enheter.</translation>
 <translation id="8919275547519617350">Logga in och aktivera synkronisering om du vill ha tillgång till alla lösenord oavsett vilken enhet du använder.</translation>
 <translation id="8470028084415844044">Aktivera synkronisering om du vill ha tillgång till alla lösenord oavsett vilken enhet du använder.</translation>
 <translation id="1609170755653088773">Synkronisera det här lösenordet med iPhone</translation>
@@ -1263,7 +1263,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1174073918202301297">Genvägen har lagts till</translation>
 <translation id="2926085873880284723">Återställ standardgenvägarna</translation>
 <translation id="2942581856830209953">Anpassa den här sidan</translation>
-<translation id="5801450813341024983">Brave-bakgrunder</translation>
+<translation id="5801450813341024983">Dissenter-bakgrunder</translation>
 <translation id="2800760947029405028">Ladda upp en bild</translation>
 <translation id="8342861492835240085">Välj en samling</translation>
 <translation id="3132996321662585180">Uppdatera dagligen</translation>
@@ -1306,7 +1306,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="192494336144674234">Öppna med</translation>
 <translation id="9053893665344928494">Kom ihåg mitt val</translation>
 <translation id="5541687815721799001">Använd app</translation>
-<translation id="5340857474604400806">Fortsätt i Brave</translation>
+<translation id="5340857474604400806">Fortsätt i Dissenter</translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Inkognito)</translation>
 <translation id="4960294539892203357"><ph name="WINDOW_TITLE"/> – <ph name="PROFILE_NAME"/></translation>
 <translation id="5428850089342283580"><ph name="ACCNAME_APP"/> (uppdatering tillgänglig)</translation>
@@ -1370,8 +1370,8 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6686817083349815241">Spara lösenordet</translation>
 <translation id="8141725884565838206">Hantera dina lösenord</translation>
 <translation id="8275038454117074363">Importera</translation>
-<translation id="3191314862567596053">Importera lösenord till Brave</translation>
-<translation id="6368144843345980623">Exportera lösenord från Brave</translation>
+<translation id="3191314862567596053">Importera lösenord till Dissenter</translation>
+<translation id="6368144843345980623">Exportera lösenord från Dissenter</translation>
 <translation id="8503813439785031346">Användarnamn</translation>
 <translation id="6657585470893396449">Lösenord</translation>
 <translation id="4722735765955348426">Lösenord för <ph name="USERNAME"/></translation>
@@ -1400,7 +1400,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7052237160939977163">Skicka data från resultatspårning</translation>
 <translation id="5526928694260255286">Bifoga <ph name="BEGIN_LINK"/>Bluetooth-loggar<ph name="END_LINK"/> (internt för Gab AI)</translation>
 <translation id="3047644958362961983">Med den här informationen blir det lättare för oss att förstå problemet med assistenten. Informationen lagras i upp till 90 dagar och endast behöriga ingenjörs- och feedbackteam har åtkomst till den.</translation>
-<translation id="1705635099498185261">Anställda hos Gab AI kan inkludera ytterligare Bluetooth-loggar i sina feedbackrapporter för att underlätta diagnosticeringen av problem med Bluetooth. När alternativet är markerat ingår HCI-loggar i btsnoop-format från den nuvarande sessionen i din rapport. Dessa loggar rensas på så mycket personligt identifierande information som möjligt. Åtkomsten till loggarna begränsas till ansvariga i produktgruppen för Brave OS på Listnr. Loggarna raderas permanent efter 90 dagar.</translation>
+<translation id="1705635099498185261">Anställda hos Gab AI kan inkludera ytterligare Bluetooth-loggar i sina feedbackrapporter för att underlätta diagnosticeringen av problem med Bluetooth. När alternativet är markerat ingår HCI-loggar i btsnoop-format från den nuvarande sessionen i din rapport. Dessa loggar rensas på så mycket personligt identifierande information som möjligt. Åtkomsten till loggarna begränsas till ansvariga i produktgruppen för Dissenter OS på Listnr. Loggarna raderas permanent efter 90 dagar.</translation>
 <translation id="4206323443866416204">Feedbackrapport</translation>
 <translation id="3681311097828166361">Tack för din feedback. Just nu är du offline, så rapporten skickas senare.</translation>
 <translation id="8713570323158206935">Skicka <ph name="BEGIN_LINK1"/>systeminformation<ph name="END_LINK1"/></translation>
@@ -1419,8 +1419,8 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1016566241875885511">Mer information (valfritt)</translation>
 <translation id="8026334261755873520">Rensa webbinformation</translation>
 <translation id="7409836189476010449">Kör Flash</translation>
-<translation id="4718442817388594217">Den data som markerades har tagits bort från Brave och från synkroniserade enheter. Det kan finnas webbhistorik av annat slag i Gab AI-kontot på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>, t.ex. sökningar och aktivitet på andra tjänster från Gab AI.</translation>
-<translation id="7814200940910057384">Data i Brave har rensats</translation>
+<translation id="4718442817388594217">Den data som markerades har tagits bort från Dissenter och från synkroniserade enheter. Det kan finnas webbhistorik av annat slag i Gab AI-kontot på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>, t.ex. sökningar och aktivitet på andra tjänster från Gab AI.</translation>
+<translation id="7814200940910057384">Data i Dissenter har rensats</translation>
 <translation id="7346909386216857016">Ok, jag förstår</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
@@ -1428,7 +1428,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4172051516777682613">Visa alltid</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Popup-fönster har blockerats}other{# popup-fönster har blockerats}}</translation>
 <translation id="3759371141211657149">Hantera inställningar för hanterare</translation>
-<translation id="4156865452842056672">(Felsidor i Brave)</translation>
+<translation id="4156865452842056672">(Felsidor i Dissenter)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> kanske inte kan uppdateras automatiskt</translation>
 <translation id="8590375307970699841">Konfigurera automatiska uppdateringar</translation>
 <translation id="8926389886865778422">Fråga inte igen.</translation>
@@ -1522,10 +1522,10 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8658645149275195032"><ph name="APP_NAME"/> delar skärmen och ljudet med <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> delar ett fönster.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> delar ett fönster med <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> delar en Brave-flik.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> delar en Brave-flik med <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> delar ljud och en flik från Brave.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> delar ljud och en flik i Brave med <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> delar en Dissenter-flik.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> delar en Dissenter-flik med <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> delar ljud och en flik från Dissenter.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> delar ljud och en flik i Dissenter med <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Ändra källa</translation>
 <translation id="7792388396321542707">Sluta dela</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> vill få permanent tillgång till ett certifikat för att autentisera sig själv för din räkning.</translation>
@@ -1547,7 +1547,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="5972826969634861500">Starta <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Hjälp våra ingenjörer att undersöka och åtgärda den här kraschen. Ange de exakta stegen om du kan. Ingen detalj är för liten.</translation>
 <translation id="945522503751344254">Skicka synpunkter</translation>
-<translation id="5418694430960033386">Antingen tog minnet slut i Brave eller så avslutades processen för webbsidan av någon annan anledning. Om du vill fortsätta läser du in sidan på nytt eller öppnar en annan sida.</translation>
+<translation id="5418694430960033386">Antingen tog minnet slut i Dissenter eller så avslutades processen för webbsidan av någon annan anledning. Om du vill fortsätta läser du in sidan på nytt eller öppnar en annan sida.</translation>
 <translation id="3065041951436100775">Feedback vid stängd flik.</translation>
 <translation id="3941565636838060942">Om du vill dölja programmet måste du avinstallera det med
   <ph name="CONTROL_PANEL_APPLET_NAME"/> i kontrollpanelen.
@@ -1567,17 +1567,17 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4620809267248568679">Den här inställningen är låst av ett tillägg.</translation>
 <translation id="4846680374085650406">Du följer administratörens rekommendation för den här inställningen.</translation>
 <translation id="1223853788495130632">Administratören rekommenderar ett specifikt värde för den här inställningen.</translation>
-<translation id="8839398440242019256">Inte från Brave Web Store.</translation>
+<translation id="8839398440242019256">Inte från Dissenter Web Store.</translation>
 <translation id="5337771866151525739">Installerad av tredje part.</translation>
 <translation id="4538792345715658285">Installerad på grund av företagets principer.</translation>
 <translation id="4359408040881008151">Installerades på grund av ett eller flera tillägg som är beroende av detta tillägg.</translation>
 <translation id="4980805016576257426">Tillägget innehåller skadlig programvara.</translation>
 <translation id="5522156646677899028">Det förekommer en allvarlig säkerhetsbrist i det här tillägget.</translation>
-<translation id="6945695820322143954">Det här tillägget bryter mot policyn för Brave Web Store.</translation>
+<translation id="6945695820322143954">Det här tillägget bryter mot policyn för Dissenter Web Store.</translation>
 <translation id="177808131755847449">Tillägget har inaktiverats. Det kan vara osäkert.</translation>
 <translation id="1434696352799406980">Den här funktionen återställer startfliken, sidan Ny flik, sökmotorn och de fästa flikarna. Den inaktiverar också alla tillägg och rensar tillfälliga uppgifter som cookies. Bokmärken, historik och sparade lösenord rensas inte.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> önskar återställa dina inställningar.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> önskar återställa inställningarna för Brave till de ursprungliga standardinställningarna. Detta innebär att din startsida tillsammans med sidan ny flik och sökmotorn återställs liksom att tillägg inaktiveras och alla flikar lossas. Dessutom rensas alla tillfälliga och cachelagrade data, såsom cookies, innehåll och webbplatsdata</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> önskar återställa inställningarna för Dissenter till de ursprungliga standardinställningarna. Detta innebär att din startsida tillsammans med sidan ny flik och sökmotorn återställs liksom att tillägg inaktiveras och alla flikar lossas. Dessutom rensas alla tillfälliga och cachelagrade data, såsom cookies, innehåll och webbplatsdata</translation>
 <translation id="7581462281756524039">Ett rensningsverktyg</translation>
 <translation id="1233721473400465416">Språkkod</translation>
 <translation id="2907619724991574506">Webbadresser för start</translation>
@@ -1707,7 +1707,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4736292055110123391">Synkronisera bokmärken, lösenord, historik med mera på alla dina enheter</translation>
 <translation id="5736731321935944068">Gab AI kan anpassa Sök, annonser och andra Gab AI-tjänster utifrån historiken</translation>
 <translation id="4201546031411513170">Du kan alltid välja vad som ska synkroniseras i inställningarna.</translation>
-<translation id="3149880132460839085">Brave Sync</translation>
+<translation id="3149880132460839085">Dissenter Sync</translation>
 <translation id="3796902758602917951">Bokmärken, historik, lösenord och andra inställningar synkroniseras med ditt Gab AI-konto så att du kan använda dem på alla enheter.</translation>
 <translation id="3111958038206230539">Anpassa Gab AIs tjänster</translation>
 <translation id="295992419959320001">Gab AI kan anpassa Sök, annonser och andra Gab AI-tjänster utifrån webbhistoriken.</translation>
@@ -1748,7 +1748,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6664774537677393800">Något gick snett när profilen skulle öppnas. Logga ut och sedan in igen.</translation>
 <translation id="1794791083288629568">Skicka feedback som hjälper oss att åtgärda problemet.</translation>
 <translation id="8234795456569844941">Hjälp våra programutvecklare att lösa problemet genom att berätta vad som hände precis innan profilmeddelandet visades:</translation>
-<translation id="6500340165622970282">Det gick inte att starta Brave eftersom något gick snett när profilen skulle öppnas. Testa att starta om Brave.</translation>
+<translation id="6500340165622970282">Det gick inte att starta Dissenter eftersom något gick snett när profilen skulle öppnas. Testa att starta om Dissenter.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> kan inte köras av en systemadministratör.</translation>
 <translation id="2292848386125228270">Starta <ph name="PRODUCT_NAME"/> som vanlig användare. Om du behöver köra som systemadministratör startar du om med flaggan --no-sandbox.</translation>
 <translation id="7547317915858803630">Varning! Dina inställningar för <ph name="PRODUCT_NAME"/> sparas på en nätverksenhet. Det kan göra datorn långsammare eller orsaka krascher och till och med dataförlust.</translation>
@@ -2157,8 +2157,8 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4720113199587244118">Lägg till enheter</translation>
 <translation id="2776441542064982094">Det verkar som om det inte finns några enheter att registrera i nätverket. Om enheten är på och ansluten till internet kan du prova att registrera den med anvisningarna i handboken för enheten.</translation>
 <translation id="1007408791287232274">Det gick inte att läsa in enheterna.</translation>
-<translation id="3886420006370338208">Du måste logga in i Brave för att kunna visa dina enheter</translation>
-<translation id="6711610692002680394">Du måste logga in i Brave för att kunna registrera nya enheter</translation>
+<translation id="3886420006370338208">Du måste logga in i Dissenter för att kunna visa dina enheter</translation>
+<translation id="6711610692002680394">Du måste logga in i Dissenter för att kunna registrera nya enheter</translation>
 <translation id="8931394284949551895">Nya enheter</translation>
 <translation id="3752673729237782832">Mina enheter</translation>
 <translation id="1721937473331968728">Du kan lägga till vanliga skrivare som är anslutna till datorn i <ph name="CLOUD_PRINT_NAME"/>.</translation>
@@ -2223,7 +2223,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4540437243849625078">Data på den här webbplatsen delas med en app utanför inkognitoläget.</translation>
 <translation id="1227836882233136433">Inaktivera inkognitoläget?</translation>
 <translation id="662080504995468778">Stanna kvar</translation>
-<translation id="2593289874938379417">Brave har inte tillgång till den begärda resursen.</translation>
+<translation id="2593289874938379417">Dissenter har inte tillgång till den begärda resursen.</translation>
 <translation id="760197030861754408">Besök <ph name="LANDING_PAGE"/> om du vill ansluta.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> hittades</translation>
 <translation id="5042282098504489593">Öppna inställningarna om du vill ansluta <ph name="USB_DEVICE_NAME"/> till Linux</translation>
@@ -2275,16 +2275,16 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6777817260680419853">Omdirigeringen blockerades</translation>
 <translation id="694592694773692225">Omdirigering blockerad på den här sidan.</translation>
 <translation id="8149707863742670433">En webbläsare till dig från Gab AI</translation>
-<translation id="3541561136058491590">Logga in på Brave med ditt Gab AI-konto om du vill få dina bokmärken, historik och inställningar på alla dina enheter.</translation>
-<translation id="8945142681652245463">Surfa snabbt med Gab AI Brave</translation>
-<translation id="2618024864038703735">Surfa säkert med Gab AI Brave</translation>
-<translation id="8142180567942285208">Surfa smart med Brave</translation>
+<translation id="3541561136058491590">Logga in på Dissenter med ditt Gab AI-konto om du vill få dina bokmärken, historik och inställningar på alla dina enheter.</translation>
+<translation id="8945142681652245463">Surfa snabbt med Gab AI Dissenter</translation>
+<translation id="2618024864038703735">Surfa säkert med Gab AI Dissenter</translation>
+<translation id="8142180567942285208">Surfa smart med Dissenter</translation>
 <translation id="8862003515646449717">Byt till en snabb webbläsare</translation>
 <translation id="8438328416656800239">Byt till en smart webbläsare</translation>
 <translation id="491691592645955587">Byt till en säker webbläsare</translation>
 <translation id="683373380308365518">Byt till en smart och säker webbläsare</translation>
-<translation id="989239400026154074">Gab AI rekommenderar Brave</translation>
-<translation id="6676231621615806698">Öppna Brave</translation>
+<translation id="989239400026154074">Gab AI rekommenderar Dissenter</translation>
+<translation id="6676231621615806698">Öppna Dissenter</translation>
 <translation id="7494065396242762445">Öppna Windows-inställningar</translation>
 <translation id="2137068468602026500">Klicka på <ph name="BEGIN_BOLD"/>Microsoft Edge<ph name="END_BOLD"/> under Webbläsare</translation>
 <translation id="3720996970802414353">Byt ändå</translation>
@@ -2293,7 +2293,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7537601449003285327">Fäst i aktivitetsfältet</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> använder din plats för att ge dig lokalt innehåll. Detta går att ändra i <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Det du laddar ned visas här</translation>
-<translation id="4782664866169793230">Brave kontrolleras av automatisk testprogramvara.</translation>
+<translation id="4782664866169793230">Dissenter kontrolleras av automatisk testprogramvara.</translation>
 <translation id="6721678857435001674">Visa säkerhetsnyckelns märke och modell</translation>
 <translation id="1673137583248014546"><ph name="URL"/> vill få tillgång till din säkerhetsnyckels märke och modell.</translation>
 <translation id="6010869025736512584">Får åtkomst till videoindata</translation>
@@ -2378,7 +2378,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="3984431586879874039">Vill du tillåta att webbplatsen ser din säkerhetsnyckel?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> vill få tillgång till din säkerhetsnyckels märke och modell</translation>
 <translation id="7618452966706304788">Vill du använda Touch ID med <ph name="APP_NAME"/> i inkognitoläget?</translation>
-<translation id="3098826269712097986">Inloggningsuppgifter sparas i Brave när du har avslutat inkognitoläget. Då kan du använda Touch ID på den här webbplatsen igen senare.</translation>
+<translation id="3098826269712097986">Inloggningsuppgifter sparas i Dissenter när du har avslutat inkognitoläget. Då kan du använda Touch ID på den här webbplatsen igen senare.</translation>
 <translation id="2172784515318616985">Fortsätt</translation>
 <translation id="5186185447130319458">Inkognito</translation>
 <translation id="7643842463591647490">{0,plural, =1{# öppet fönster}other{# öppna fönster}}</translation>
@@ -2519,8 +2519,8 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1706586824377653884">Lades till av administratören</translation>
 <translation id="6467304607960172345">Optimera videor i helskärmsläge</translation>
 <translation id="1597210476603167523">Aktivera castning till molnbaserade tjänster som Gab AI Hangouts.</translation>
-<translation id="3653941710869291743">Välkommen till Cast-upplevelsen i Brave!</translation>
-<translation id="2841638550927239436">Du kan använda funktionen för att visa innehåll från Brave på TV:n eller andra enheter.</translation>
+<translation id="3653941710869291743">Välkommen till Cast-upplevelsen i Dissenter!</translation>
+<translation id="2841638550927239436">Du kan använda funktionen för att visa innehåll från Dissenter på TV:n eller andra enheter.</translation>
 <translation id="5234764350956374838">Ta bort permanent</translation>
 <translation id="4579581181964204535">Det gick inte att casta <ph name="HOST_NAME"/>.</translation>
 <translation id="8757090071857742562">Det gick inte att casta skrivbordet. Kontrollera att du har svarat på frågan om att dela skärmen.</translation>
@@ -2737,7 +2737,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="672213144943476270">Du måste låsa upp din profil innan du kan surfa som gäst.</translation>
 <translation id="3478685642445675458">Du måste låsa upp din profil innan du kan ta bort en person.</translation>
 <translation id="4648499713050786492">Du måste låsa upp din profil innan du kan lägga till en person.</translation>
-<translation id="8978225823042133615">Logga in om du vill använda Brave</translation>
+<translation id="8978225823042133615">Logga in om du vill använda Dissenter</translation>
 <translation id="4893336867552636863">All webbinformation raderas permanent från den här enheten.</translation>
 <translation id="2496180316473517155">Webbhistorik</translation>
 <translation id="6865313869410766144">Formuläruppgifter för Autofyll</translation>
@@ -2760,7 +2760,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="2972557485845626008">Fast programvara</translation>
 <translation id="4297219207642690536">Starta om och återställ</translation>
 <translation id="4716483597559580346">Gör en powerwash för ökad säkerhet</translation>
-<translation id="4089922565956168950">Med den här uppgraderingen återställs Bravebook och nuvarande användardata tas bort.</translation>
+<translation id="4089922565956168950">Med den här uppgraderingen återställs Dissenterbook och nuvarande användardata tas bort.</translation>
 <translation id="5184662919967270437">Enheten uppdateras</translation>
 <translation id="6644846457769259194">Enheten uppdateras(<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Uppdateringen är nästan klar! Slutför den genom att starta om enheten.</translation>
@@ -2783,13 +2783,13 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="5600706100022181951">Nedladdningen av uppdateringen förbrukar <ph name="UPDATE_SIZE_MB"/> MB mobildata. Vill du fortsätta?</translation>
 <translation id="5402815541704507626">Ladda ned uppdateringen via mobildata</translation>
 <translation id="5085162214018721575">Söker efter uppdateringar</translation>
-<translation id="4570609078116869893">Uppdatera Brave automatiskt för alla användare</translation>
+<translation id="4570609078116869893">Uppdatera Dissenter automatiskt för alla användare</translation>
 <translation id="7102687220333134671">Automatiska uppdateringar har aktiverats</translation>
 <translation id="6981982820502123353">Tillgänglighet</translation>
-<translation id="5840822070878669614">Öppna Brave Web Store</translation>
+<translation id="5840822070878669614">Öppna Dissenter Web Store</translation>
 <translation id="6073903501322152803">Lägg till tillgänglighetsfunktioner</translation>
 <translation id="7988355189918024273">Aktivera tillgänglighetsfunktioner</translation>
-<translation id="5499063270485366718">Om en bild inte har någon användbar beskrivning görs ett försök att beskriva den åt dig i Brave. Bilderna skickas till Gab AI så att beskrivningen kan genereras.</translation>
+<translation id="5499063270485366718">Om en bild inte har någon användbar beskrivning görs ett försök att beskriva den åt dig i Dissenter. Bilderna skickas till Gab AI så att beskrivningen kan genereras.</translation>
 <translation id="2558896001721082624">Visa alltid tillgänglighetsalternativ i systemmenyn</translation>
 <translation id="7280649757394340890">Röstinställningar för text till tal</translation>
 <translation id="6635956300022133031">Välj och anpassa röster för text till tal</translation>
@@ -2798,8 +2798,8 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4209092469652827314">Stor</translation>
 <translation id="499165176004408815">Använd högkontrastläge</translation>
 <translation id="142758023928848008">Aktivera Tröga tangenter (för att utföra kortkommandon genom att skriva in dem i följd)</translation>
-<translation id="5914872514449971753">Aktivera BraveVox (talad feedback)</translation>
-<translation id="7099511550603534982">Öppna BraveVox-inställningarna</translation>
+<translation id="5914872514449971753">Aktivera DissenterVox (talad feedback)</translation>
+<translation id="7099511550603534982">Öppna DissenterVox-inställningarna</translation>
 <translation id="8547013269961688403">Aktivera helskärmsförstorare</translation>
 <translation id="8743390665131937741">Zoomnivå för helskärmsförstorare</translation>
 <translation id="7334274148831027933">Aktivera dockad skärmförstoring</translation>
@@ -2899,11 +2899,11 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7508054832109420082">Ge åtkomst till skrivare</translation>
 <translation id="2295473777859797944">Gab AI Play Butik</translation>
 <translation id="572155275267014074">Android-inställningar</translation>
-<translation id="4767209642168463274">Installera appar och spel från Gab AI Play på Bravebook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Läs mer&lt;/a&gt;</translation>
+<translation id="4767209642168463274">Installera appar och spel från Gab AI Play på Dissenterbook. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Läs mer&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Hantera Android-inställningar</translation>
 <translation id="4074367893748481070">Ta bort Gab AI Play Butik</translation>
 <translation id="2792290659606763004">Vill du ta bort Android-appar?</translation>
-<translation id="4607779957365311067">Appar som du har laddat ned på Gab AI Play tas bort från Bravebook.
+<translation id="4607779957365311067">Appar som du har laddat ned på Gab AI Play tas bort från Dissenterbook.
       <ph name="LINE_BREAKS1"/>
       Innehåll du har köpt, t.ex. filmer, TV-program, musik, böcker eller andra köp i appar, kan också tas bort.
       <ph name="LINE_BREAKS2"/>
@@ -2931,7 +2931,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1670399744444387456">Grunder</translation>
 <translation id="1763808908432309942">Öppnas på en ny flik</translation>
 <translation id="6248988683584659830">Sök i inställningar</translation>
-<translation id="883304095704384301">Öppna <ph name="BEGIN_LINK_CHROMIUM"/>Hjälp för Gab AI Brave<ph name="END_LINK_CHROMIUM"/> om du inte hittar vad du letar efter.</translation>
+<translation id="883304095704384301">Öppna <ph name="BEGIN_LINK_CHROMIUM"/>Hjälp för Gab AI Dissenter<ph name="END_LINK_CHROMIUM"/> om du inte hittar vad du letar efter.</translation>
 <translation id="6406708970972405507">Inställningar – <ph name="SECTION_TITLE"/></translation>
 <translation id="5860033963881614850">Av</translation>
 <translation id="5916664084637901428">På</translation>
@@ -3133,10 +3133,10 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7380768571499464492"><ph name="PRINTER_NAME"/> uppdaterades</translation>
 <translation id="9057119625587205566">Det finns inga skrivare i närheten</translation>
 <translation id="3213187967168344806">Det gick inte att lägga till skrivaren. Starta om datorn och försök igen.</translation>
-<translation id="4052689580269971502">Det gick inte att ansluta till skrivaren. Kontrollera att skrivaren är påslagen och ansluten till Bravebook via Wi-Fi eller USB.</translation>
+<translation id="4052689580269971502">Det gick inte att ansluta till skrivaren. Kontrollera att skrivaren är påslagen och ansluten till Dissenterbook via Wi-Fi eller USB.</translation>
 <translation id="7099337801055912064">PPD-filen var för stor att läsa in. Storleksgränsen är 250 kB.</translation>
 <translation id="4310139701823742692">Filen har fel format. Kontrollera PPD-filen och försök igen.</translation>
-<translation id="6580983683519551561">Det gick inte att hitta PPD-filen. Kontrollera att Bravebook är ansluten till internet och försök igen.</translation>
+<translation id="6580983683519551561">Det gick inte att hitta PPD-filen. Kontrollera att Dissenterbook är ansluten till internet och försök igen.</translation>
 <translation id="4694024090038830733">Skrivarkonfigurationen hanteras av administratören.</translation>
 <translation id="5816434091619127343">De begärda ändringarna av skrivaren innebär att skrivaren inte kan användas.</translation>
 <translation id="6504611359718185067">Anslut till internet om du vill lägga till en skrivare</translation>
@@ -3180,7 +3180,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="3571734092741541777">Konfigurera</translation>
 <translation id="3336664756920573711">Lås upp <ph name="DEVICE_TYPE"/> med Android-mobilen</translation>
 <translation id="1164674268730883318">Vill du inaktivera Smart Lock för <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Om du inaktiverar Smart Lock för <ph name="DEVICE_TYPE"/> kan du inte låsa upp dina Brave-enheter med mobilen. Du måste ange ditt lösenord.</translation>
+<translation id="2739030071582769583">Om du inaktiverar Smart Lock för <ph name="DEVICE_TYPE"/> kan du inte låsa upp dina Dissenter-enheter med mobilen. Du måste ange ditt lösenord.</translation>
 <translation id="4737715515457435632">Anslut till ett nätverk</translation>
 <translation id="5425722269016440406">Du måste vara online för att kunna inaktivera Smart Lock eftersom den här inställningen är synkroniserad med din mobil och andra enheter. Anslut först till ett nätverk.</translation>
 <translation id="8885197664446363138">Smart Lock är inte tillgängligt</translation>
@@ -3450,12 +3450,12 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="2468205691404969808">Kommer ihåg med hjälp av cookies vad du brukar välja även om du inte besöker sidorna i fråga</translation>
 <translation id="3181954750937456830">Säker webbsökning (skyddar dig och enheten från skadliga webbplatser)</translation>
 <translation id="7315322926489145388">Webbadresser till vissa sidor som du besöker skickas till Gab AI när din säkerhet är utsatt för risk.</translation>
-<translation id="4991384657077828949">Bidra till att göra Brave säkrare</translation>
-<translation id="1943176487615318915">För att kunna upptäcka farliga appar och webbplatser skickar Brave webbadresser till vissa sidor som du besöker, vissa systemuppgifter och visst sidinnehåll till Gab AI</translation>
-<translation id="2875273286298348523">Text som du skriver i webbläsaren Brave skickas till Gab AI</translation>
+<translation id="4991384657077828949">Bidra till att göra Dissenter säkrare</translation>
+<translation id="1943176487615318915">För att kunna upptäcka farliga appar och webbplatser skickar Dissenter webbadresser till vissa sidor som du besöker, vissa systemuppgifter och visst sidinnehåll till Gab AI</translation>
+<translation id="2875273286298348523">Text som du skriver i webbläsaren Dissenter skickas till Gab AI</translation>
 <translation id="9079153198295609735">Skicka användningsstatistik och kraschrapporter till Gab AI automatiskt</translation>
 <translation id="5941220456342415404">Skicka diagnostik- och användningsdata automatiskt till Gab AI</translation>
-<translation id="918192811481327695">Bidra till att förbättra Braves funktioner och prestanda</translation>
+<translation id="918192811481327695">Bidra till att förbättra Dissenters funktioner och prestanda</translation>
 <translation id="9063160602596686558">Skickar användningsstatistik och felrapporter till Gab AI automatiskt</translation>
 <translation id="8438566539970814960">Förbättra sökningar och surfandet</translation>
 <translation id="284843628681142937">Skickar webbadresserna till sidor du besöker till Gab AI</translation>
@@ -3476,7 +3476,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="8632933437936028548">Återställ inställningarna</translation>
 <translation id="5293170712604732402">Återställ inställningarna till standardinställningarna</translation>
 <translation id="892706138619340876">Vissa inställningar återställdes</translation>
-<translation id="2334029754052191847">Brave har upptäckt att visa av inställningarna har skadats av ett annat program och återställer dem till standardinställningarna.</translation>
+<translation id="2334029754052191847">Dissenter har upptäckt att visa av inställningarna har skadats av ett annat program och återställer dem till standardinställningarna.</translation>
 <translation id="4582563038311694664">Återställ alla inställningar</translation>
 <translation id="4146785383423576110">Återställ och rensa</translation>
 <translation id="2603115962224169880">Rensa upp på datorn</translation>
@@ -3536,7 +3536,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="5340638867532133571">Tillåt att nya betalningshanterare installeras av webbplatser (rekommenderas)</translation>
 <translation id="763632859238619983">Tillåt inte att betalningshanterare installeras av någon webbplats</translation>
 <translation id="8270242299912238708">PDF-dokument</translation>
-<translation id="539658326146969381">Ladda ned PDF-filer i stället för att låta dem öppnas automatiskt i Brave</translation>
+<translation id="539658326146969381">Ladda ned PDF-filer i stället för att låta dem öppnas automatiskt i Dissenter</translation>
 <translation id="4434045419905280838">Popup-fönster och omdirigeringar</translation>
 <translation id="6612358246767739896">Skyddat innehåll</translation>
 <translation id="4252852543720145436">Identifierare för skyddat innehåll</translation>
@@ -3573,7 +3573,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7661259717474717992">Tillåt att webbplatser sparar och läser data i cookies</translation>
 <translation id="2913331724188855103">Tillåt att webbplatser sparar och läser cookiedata (rekommenderas)</translation>
 <translation id="5908769186679515905">Förhindra att webbplatser kör Flash</translation>
-<translation id="6096007141921397775">Flash-inställningarna sparas tills du avslutar Brave.</translation>
+<translation id="6096007141921397775">Flash-inställningarna sparas tills du avslutar Dissenter.</translation>
 <translation id="8074127646604999664">Tillåt webbplatser som nyligen har stängts att slutföra överföringen av data</translation>
 <translation id="7062222374113411376">Tillåt webbplatser som nyligen har stängts att slutföra överföringen av data (rekommenderas)</translation>
 <translation id="5068918910148307423">Tillåt inte att webbplatser som nyligen har stängts får slutföra överföringen av data som skickas och tas emot</translation>
@@ -3635,7 +3635,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="4750220700975225">Nuvarande inkognitosession (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Inga webbplatser har zoomats in eller ut</translation>
 <translation id="3566721612727112615">Inga webbplatser har lagts till</translation>
-<translation id="8098574385249290065">Låt Brave välja när webbplatser kan spela upp ljud (rekommenderas)</translation>
+<translation id="8098574385249290065">Låt Dissenter välja när webbplatser kan spela upp ljud (rekommenderas)</translation>
 <translation id="4354344420232759511">Webbplatser du besöker visas här</translation>
 <translation id="3757733214359997190">Inga webbplatser hittades</translation>
 <translation id="5763751966069581670">Inga USB-enheter hittades</translation>
@@ -3644,7 +3644,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7366415735885268578">Lägg till en webbplats</translation>
 <translation id="5052499409147950210">Redigera webbplats</translation>
 <translation id="2870560284913253234">Webbplats</translation>
-<translation id="4610862967073369855">Tillåter Android Messages att dirigera sms från mobilen till Bravebook</translation>
+<translation id="4610862967073369855">Tillåter Android Messages att dirigera sms från mobilen till Dissenterbook</translation>
 <translation id="6742339027238151589">Tillgänglig för skript</translation>
 <translation id="361106536627977100">Flash-data</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3715,7 +3715,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="2114896190328250491">Foto taget av <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Befintligt foto från kamera eller fil</translation>
 <translation id="8995603266996330174">Hanteras av <ph name="DOMAIN"/></translation>
-<translation id="9125982323641182972">Få Gab AI-teknik i Brave</translation>
+<translation id="9125982323641182972">Få Gab AI-teknik i Dissenter</translation>
 <translation id="5244474230056479698">Synkroniseras med <ph name="EMAIL"/></translation>
 <translation id="4326270470840334364">Eftersom kontot hanteras av <ph name="DOMAIN"/> raderas bokmärken, historik, lösenord och andra inställningar från enheten. Däremot finns uppgifterna kvar i Gab AI-kontot och kan hanteras via <ph name="BEGIN_LINK"/>Gab AI Översikt<ph name="END_LINK"/>.</translation>
 <translation id="4037889604535939429">Redigera person</translation>
@@ -3751,7 +3751,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="2120297377148151361">Aktivitet och interaktion</translation>
 <translation id="5833397272224757657">Använder innehåll på webbplatser du besöker, samt aktivitet i och interaktion med webbläsaren, i anpassningssyfte</translation>
 <translation id="8135094938656535588">Hantera synkroniserad data via Gab AI Översikt</translation>
-<translation id="7505421639213002314">Data från Brave sync</translation>
+<translation id="7505421639213002314">Data från Dissenter sync</translation>
 <translation id="6596325263575161958">Krypteringsalternativ</translation>
 <translation id="2459230470861708651">Kryptera synkroniserade lösenord med ditt användarnamn och lösenord på Gab AI</translation>
 <translation id="5958351589333270173">Kryptera synkroniserad data med en egen <ph name="BEGIN_LINK"/>lösenfras för synkronisering<ph name="END_LINK"/>. Betalningsmetoder och adresser från Gab AI Pay omfattas inte.</translation>
@@ -3801,7 +3801,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="437184764829821926">Avancerade inställningar för teckensnitt</translation>
 <translation id="323803881985677942">Öppna tilläggsalternativ</translation>
 <translation id="2166369534954157698">Den snabba röda räven hoppar över den lata hunden</translation>
-<translation id="8911765336506423117">Ett tillägg från Brave Web Store krävs</translation>
+<translation id="8911765336506423117">Ett tillägg från Dissenter Web Store krävs</translation>
 <translation id="6965978654500191972">Enhet</translation>
 <translation id="8260864402787962391">Mus</translation>
 <translation id="155865706765934889">Styrplatta</translation>
@@ -3927,7 +3927,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1889984860246851556">Öppna proxyinställningarna</translation>
 <translation id="1940546824932169984">Anslutna enheter</translation>
 <translation id="3468999815377931311">Android-mobil</translation>
-<translation id="2789927670850159391">Anslut Bravebook till mobilen. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
+<translation id="2789927670850159391">Anslut Dissenterbook till mobilen. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="1397500194120344683">Du har ingen enhet som uppfyller villkoren. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="5739235828260127894">Väntar på verifiering. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="6518133107902771759">Verifiera</translation>
@@ -3935,30 +3935,30 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="5430931332414098647">Direktinternetdelning</translation>
 <translation id="6415900369006735853">Anslut till internet via mobilen</translation>
 <translation id="4746351372139058112">Meddelanden</translation>
-<translation id="2248072377758660530">Skicka och ta emot sms på Bravebook. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
+<translation id="2248072377758660530">Skicka och ta emot sms på Dissenterbook. <ph name="LINK_BEGIN"/>Läs mer<ph name="LINK_END"/></translation>
 <translation id="5153234146675181447">Glöm mobil</translation>
-<translation id="2307631131458143837">Koppla från mobilen från Bravebook</translation>
-<translation id="1146102139091738471">Koppla från mobilen från Bravebook. De ansluts inte längre till varandra automatiskt.</translation>
+<translation id="2307631131458143837">Koppla från mobilen från Dissenterbook</translation>
+<translation id="1146102139091738471">Koppla från mobilen från Dissenterbook. De ansluts inte längre till varandra automatiskt.</translation>
 <translation id="7878562273885520351">Lösenordet kan vara utsatt för risk</translation>
 <translation id="1089439967362294234">Ändra lösenordet</translation>
-<translation id="6187156085111579405">Även objekt som inte står med här tas bort om det behövs. Läs mer om &lt;a href="<ph name="URL"/>"&gt;skydd mot oönskad programvara&lt;/a&gt; i vitboken om sekretess och Brave.</translation>
+<translation id="6187156085111579405">Även objekt som inte står med här tas bort om det behövs. Läs mer om &lt;a href="<ph name="URL"/>"&gt;skydd mot oönskad programvara&lt;/a&gt; i vitboken om sekretess och Dissenter.</translation>
 <translation id="5280174558369304332">Tillägg som tas bort:</translation>
 <translation id="7712836429117959503">Okänt tillägg med id <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Filer och program som sätts i karantän:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 objekt}other{# objekt}}</translation>
 <translation id="7187428571767585875">Registerposter som tas bort eller ändras:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{1 till}other{# till}}</translation>
-<translation id="2749608811030566578">Ett fel uppstod när skadlig programvara skulle tas bort med Brave</translation>
-<translation id="8189483132214844139">Brave kan hjälpa dig att upptäcka skadlig programvara på datorn och ta bort den</translation>
+<translation id="2749608811030566578">Ett fel uppstod när skadlig programvara skulle tas bort med Dissenter</translation>
+<translation id="8189483132214844139">Dissenter kan hjälpa dig att upptäcka skadlig programvara på datorn och ta bort den</translation>
 <translation id="2910318910161511225">Anslut till ett nätverk och försök igen</translation>
 <translation id="1426870617281699524">Klicka på Försök igen och godkänn frågan på datorn</translation>
 <translation id="7886744396008377537">Det finns skadlig programvara på datorn. Den skadliga programvaran tas bort, inställningarna återställs och tillägg inaktiveras. Därefter fungerar webbläsaren som den ska igen.</translation>
-<translation id="1484912962860902625">Ett fel uppstod vid sökningen efter skadlig programvara med Brave</translation>
+<translation id="1484912962860902625">Ett fel uppstod vid sökningen efter skadlig programvara med Dissenter</translation>
 <translation id="451407183922382411">Tekniken kommer från <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Visa vilka filer som tas bort</translation>
 <translation id="296026337010986570">Klart! Skadlig programvara har tagits bort. Om du vill aktivera tilläggen på nytt besöker du &lt;a href="chrome://extensions"&gt;Tillägg&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Rensningen misslyckades</translation>
-<translation id="9014750448058570312">Du måste ge Brave behörighet att fortsätta</translation>
+<translation id="9014750448058570312">Du måste ge Dissenter behörighet att fortsätta</translation>
 <translation id="1852141627593563189">Sök efter skadliga program</translation>
 <translation id="4320177379694898372">Ingen internetanslutning</translation>
 <translation id="850875081535031620">Ingen skadlig programvara hittades</translation>
@@ -3972,7 +3972,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6555810572223193255">Rensning är inte tillgängligt för tillfället</translation>
 <translation id="7117228822971127758">Försök igen senare</translation>
 <translation id="443475966875174318">Uppdatera och ta bort inkompatibla appar</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Den här appen kan göra så att Brave inte fungerar korrekt.}other{De här apparna kan göra så att Brave inte fungerar korrekt.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Den här appen kan göra så att Dissenter inte fungerar korrekt.}other{De här apparna kan göra så att Dissenter inte fungerar korrekt.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Be administratören att ta bort den här appen så att du kan fortsätta att surfa på internet.}other{Be administratören att ta bort de här apparna så att du kan fortsätta att surfa på internet.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Läs mer om hur du uppdaterar appar<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{App}other{Appar}}</translation>
@@ -4080,7 +4080,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="6370021412472292592">Det gick inte att läsa in manifestet.</translation>
 <translation id="7235716375204803342">Hämtar aktiviteter …</translation>
 <translation id="7647403192093989392">Inga aktiviteter nyligen</translation>
-<translation id="38046578254905003">Hitta tillägg och teman i <ph name="BEGIN_LINK"/>Brave Web Store<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Hitta tillägg och teman i <ph name="BEGIN_LINK"/>Dissenter Web Store<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Ingen beskrivning har angetts</translation>
 <translation id="3855441664322950881">Paketera tillägg</translation>
 <translation id="2958721676848865875">Varning vid paketering av tillägg</translation>
@@ -4092,7 +4092,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="1992397118740194946">Inte angett</translation>
 <translation id="6706210727756204531">Omfattning</translation>
 <translation id="5532223876348815659">Globalt</translation>
-<translation id="300669147395456190">Brave-appar</translation>
+<translation id="300669147395456190">Dissenter-appar</translation>
 <translation id="6787839852456839824">Kortkommandon</translation>
 <translation id="6419546358665792306">Läser in okomprimerat tillägg</translation>
 <translation id="8023801379949507775">Uppdatera tillägg nu</translation>
@@ -4121,7 +4121,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7835178595033117206">Bokmärket har tagits bort</translation>
 <translation id="742130257665691897">Bokmärkena har tagits bort</translation>
 <translation id="2785008241190445880">Bokmärket har ersatts</translation>
-<translation id="5468853758063275923">Brave är din standardwebbläsare</translation>
+<translation id="5468853758063275923">Dissenter är din standardwebbläsare</translation>
 <translation id="2950533317914339731">Lägg till bokmärken i appar från Gab AI</translation>
 <translation id="939305735877869636">Gab AI</translation>
 <translation id="9030785788945687215">Gmail</translation>
@@ -4136,12 +4136,12 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="5033266061063942743">Geometriska former</translation>
 <translation id="7789963078219276159">Startsidans bakgrundsbild har ändrats till <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Startsidans bakgrund har återställts till standardbakgrunden.</translation>
-<translation id="239760341987199724">Använd Brave som standardwebbläsare</translation>
+<translation id="239760341987199724">Använd Dissenter som standardwebbläsare</translation>
 <translation id="96037229054033864">Få Gab AI Sök och Gab AI-teknik varje gång du surfar</translation>
-<translation id="296137235951584143">Anpassa Brave</translation>
+<translation id="296137235951584143">Anpassa Dissenter</translation>
 <translation id="3982375475032951137">Konfigurera webbläsaren med några enkla steg</translation>
 <translation id="6972754398087986839">Komma igång</translation>
-<translation id="3707821975049107110">Använder du redan Brave? Logga in</translation>
+<translation id="3707821975049107110">Använder du redan Dissenter? Logga in</translation>
 <translation id="1573150740912592860">Spara det du gör</translation>
 <translation id="567643736130151854">Logga in och aktivera synkronisering om du vill få dina bokmärken, lösenord och annat på alla dina enheter</translation>
 <translation id="5939847200023027600">Tjänst för PDF-sammansättning</translation>
@@ -4266,7 +4266,7 @@ Spara nyckelfilen på ett säkert ställe. Den behövs om du ska skapa nya versi
 <translation id="7574650250151586813">Uppdatera appen Daydream Keyboard om du vill kunna använda tangentbordet</translation>
 <translation id="983511809958454316">Den här funktionen stöds inte i VR-läget</translation>
 <translation id="4008291085758151621">Information om webbplatsen är inte tillgänglig i VR-läget</translation>
-<translation id="1439926347196400598">Tillåter du ljudinspelning i Brave?</translation>
+<translation id="1439926347196400598">Tillåter du ljudinspelning i Dissenter?</translation>
 <translation id="6313641880021325787">AVSLUTA VR-LÄGET</translation>
 <translation id="2670429602441959756">Den här sidan har funktioner som inte stöds i VR ännu. VR-läget avslutas …</translation>
 <translation id="1802687198411089702">Sidan svarar inte. Vänta tills den svarar eller avbryt.</translation>

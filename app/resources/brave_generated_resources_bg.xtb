@@ -4,7 +4,7 @@
 <translation id="3333887201479867589">Dissenter награди</translation>
 <translation id="7942180974165298215">Dissenter Блокер на реклами</translation>
 <translation id="6406506848690869874">Синхр</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID на разширението "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") не е разрешено в Brave.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID на разширението "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") не е разрешено в Dissenter.</translation>
 <translation id="7450557937477381864">Затваряне на Chrome</translation>
 <translation id="7008934821596358692">За да завършите импортирането, затворете всички прозорци на Chrome.</translation>
 <translation id="5735465527556462863">Затваряне на Dissenter (стара версия)</translation>
@@ -16,11 +16,11 @@
 <translation id="3699882589215410581">Инсталирайте и стартирайте Widevine</translation>
 <translation id="8053096063396012732">Инсталирай Widevine</translation>
 <translation id="4840334696217618631">Рестартирайте браузъра, за да разрешите Widevine</translation>
-<translation id="8410111618231938546">Google Widevine е част от кода за управление на цифровите права (DRM), който ние в Gab AI не притежаваме и не можем да проверим. Кодът на Google Widevine се зарежда от сървърите на Google, а не от нашите сървъри. Той се зарежда само когато активирате тази опция. Ние не подкрепяме употребата на DRM, но уважаваме избора на потребителя и признаваме, че някои потребители на Dissenter биха искали да използват услуги, които го изискват.
+<translation id="8410111618231938546">Google Widevine е част от кода за управление на цифровите права (DRM), който ние в Dissenter Software не притежаваме и не можем да проверим. Кодът на Google Widevine се зарежда от сървърите на Google, а не от нашите сървъри. Той се зарежда само когато активирате тази опция. Ние не подкрепяме употребата на DRM, но уважаваме избора на потребителя и признаваме, че някои потребители на Dissenter биха искали да използват услуги, които го изискват.
 
 Чрез инсталирането на това разширение приемате Общите условия на Google Widevine. Вие се съгласявате, че Dissenter не носи отговорност за щети или загуби във връзка с използването на Google Widevine.</translation>
 <translation id="6499845530162974140">Dissenter (стара версия)</translation>
-<translation id="3198814717959506569">Импортирано от Brave</translation>
+<translation id="3198814717959506569">Импортирано от Dissenter</translation>
 <translation id="453977518730680921">Автоматично възпр. на медия</translation>
 <translation id="410351446219883937">Автоматично изпълнение</translation>
 <translation id="2240268017737062801">Попитайте, когато даден сайт иска автоматично да възпроизвежда медия</translation>
@@ -28,8 +28,7 @@
 <translation id="3218385319396786393">Autoplay беше блокиран на тази страница</translation>
 <translation id="4988333904713528597">Винаги разрешавайте автоматичното възпроизвеждане на <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Продължаване на блокирането на автоматичното възпроизвеждане</translation>
-<translation id="7543906827780734027">Dissenter все още не е прегледал това разширение - то може да бъде опасно. Да се добави ли все пак"<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>"?</translation>
-<translation id="2044383478723007273">Цветове на Brave</translation>
+<translation id="2044383478723007273">Цветове на Dissenter</translation>
 <translation id="6123134130710658846">Скрий бутона на Dissenter награди</translation>
 <translation id="7635711399568194460">Скрий бутона за Dissenter наградите в лентата, ако Dissenter наградите не са активирани</translation>
 <translation id="7965178729203412357">Нова идентичност на Tor</translation>
@@ -48,26 +47,13 @@
 <translation id="4472575034687746823">Първи стъпки</translation>
 <translation id="3400357268283240774">Допълнителни настройки</translation>
 <translation id="6303294677342628402">Защити</translation>
-<translation id="768979911142179781">По подразбиране</translation>
-<translation id="5989930075012659993">Вашите текущи настройки за всеки сайт ще бъдат запазени.</translation>
 <translation id="9185018653595759199">Блокиране на социални медии</translation>
-<translation id="6894114137169961038">Управление на реклами</translation>
-<translation id="1096802265930928584">Управление на бисквитките</translation>
-<translation id="8919235146866304148">Защита с пръстов отпечатък</translation>
-<translation id="520895744850022668">HTTPS навсякъде</translation>
-<translation id="5259716416204774556">Блокиране на скриптове</translation>
 <translation id="7498695072878479744">Разрешете бутони на Google вход на страници на трети страни</translation>
 <translation id="863171915776379000">Разреши влизане с Фейсбук и вградени публикации</translation>
 <translation id="5165042248369837294">Разреши вградени туитове на Twitter</translation>
 <translation id="958971637207126733">Разреши вградени публикации на LinkedIn</translation>
-<translation id="6067014455220527258">Блокиране на реклами</translation>
-<translation id="6985711843506827936">Разреши реклами и проследяване</translation>
-<translation id="6132506775968708399">Блокиране на „бисквитките“ на трети страни</translation>
 <translation id="5657156137487675418">Разрешаване на всички „бисквитки“</translation>
 <translation id="6883611015375728278">Блокиране на всички „бисквитки“</translation>
-<translation id="1442559343076146186">Блокирайте отпечатъците на трети страни</translation>
-<translation id="8034285923190068220">Позволяване на пръстови отпечатъци</translation>
-<translation id="4540198958192073185">Блокиране на цялото вземане на пръстови отпечатъци</translation>
 <translation id="8942080017911802454">WebRTC IP политика за боравене</translation>
 <translation id="6165508094623778733">Научете повече</translation>
 <translation id="8798099450830957504">По подразбиране</translation>
