@@ -9,6 +9,11 @@ announcements.
 
 # Changes
 
+## v65.120 (June 16th 2019)
+
+* Fixed problem installing extensions from the Chrome Web Store. (did you know Brave was hijacking these requests?)
+* Some more search/replace text changes.
+
 ## v65.118 (June 9th 2019)
 
 * Rebased on to the Brave release channel, 0.65.x (much better!)
