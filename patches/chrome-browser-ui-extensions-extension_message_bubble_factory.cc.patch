@@ -1,0 +1,22 @@
+diff --git a/chrome/browser/ui/extensions/extension_message_bubble_factory.cc b/chrome/browser/ui/extensions/extension_message_bubble_factory.cc
+index f41665a811ce34305f8f10200b649a6a425fc324..1dd218b442d9aecfc237213f6eb2cc832ebf8c87 100644
+--- a/chrome/browser/ui/extensions/extension_message_bubble_factory.cc
++++ b/chrome/browser/ui/extensions/extension_message_bubble_factory.cc
+@@ -64,6 +64,8 @@ bool EnableProxyOverrideBubble() {
+ }
+ 
+ bool EnableDevModeBubble() {
++  // Dissenter: Disable this every-launch nag for unpacked extensions.
++  return false;
+   if (extensions::FeatureSwitch::force_dev_mode_highlighting()->IsEnabled())
+     return true;
+ 
+@@ -154,7 +156,7 @@ ExtensionMessageBubbleFactory::GetController() {
+     if (controller->ShouldShow())
+       return controller;
+   }
+-
++ 
+   controller.reset();
+   return controller;
+ }

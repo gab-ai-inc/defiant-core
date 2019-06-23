@@ -9,6 +9,11 @@ announcements.
 
 # Changes
 
+## v65.121 (June 23rd 2019)
+
+* Code-signed the Windows build.
+* Disabled the every-launch nag for extensions in Developer mode.
+
 ## v65.120 (June 16th 2019)
 
 * Fixed problem installing extensions from the Chrome Web Store. (did you know Brave was hijacking these requests?)
