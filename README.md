@@ -11,7 +11,9 @@ announcements.
 
 ## v65.121 (June 23rd 2019)
 
-* Code-signed the Windows build.
+* The Windows build is now digitally signed!
+* Changed the app tooltip name for Linux.
+* Updated an npm dependency `@ctrl/tinycolor` for Linux build issue.
 * Disabled the every-launch nag for extensions in Developer mode.
 
 ## v65.120 (June 16th 2019)

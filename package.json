@@ -319,6 +319,7 @@
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
+    "@ctrl/tinycolor": "^2.5.2",
     "@types/parse-torrent": "^5.8.2",
     "@types/webtorrent": "^0.98.4",
     "bignumber.js": "^7.2.1",
