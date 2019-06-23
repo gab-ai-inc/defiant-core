@@ -23,7 +23,7 @@ def parse_args():
 
 
 def create_signed_installer(root_out_dir, brave_installer_exe, skip_signing, env=None):
-    installer_file = os.path.join(root_out_dir, 'brave_installer.exe')
+    installer_file = os.path.join(root_out_dir, 'dissenter_installer.exe')
     shutil.copyfile(os.path.join(root_out_dir, 'mini_installer.exe'),
                     installer_file)
     if not skip_signing:

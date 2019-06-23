@@ -50,9 +50,7 @@ action("create_signed_installer") {
     "--brave_installer_exe=$brave_installer_exe",
   ]
 
-  # Dissenter: disable signing until we get the cert.
-  args += [ "--skip_signing" ]
-  # if (skip_signing) { args += [ "--skip_signing" ] }
+  if (skip_signing) { args += [ "--skip_signing" ] }
 
   deps = [
     "//chrome/installer/mini_installer"
