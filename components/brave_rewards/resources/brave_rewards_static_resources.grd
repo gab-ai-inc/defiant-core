@@ -8,7 +8,7 @@
   </outputs>
   <release seq="1">
     <includes>
-      <!-- WebUI Brave Rewards resources -->
+      <!-- WebUI Dissenter Rewards resources -->
       <include name="IDR_BRAVE_REWARDS_HTML" file="ui/brave_rewards.html" type="BINDATA" />
       <include name="IDR_BRAVE_REWARDS_IMG_WALLET_BG" file="img/wallet_bg.svg" type="BINDATA" />
       <include name="IDR_BRAVE_REWARDS_IMG_CAPTCHA_BAT" file="img/captcha_bat.png" type="BINDATA" />
@@ -21,7 +21,7 @@
       <include name="IDR_BRAVE_REWARDS_NICEWARE_LIST" file="../../../vendor/bat-native-ledger/niceware/wordlist" type="BINDATA" />
       <include name="IDR_BRAVE_REWARDS_FAVICON" file="img/favicon.ico" type="BINDATA" />
 
-      <!-- WebUI Brave Rewards Internals resources -->
+      <!-- WebUI Dissenter Rewards Internals resources -->
       <include name="IDR_BRAVE_REWARDS_INTERNALS_HTML" file="ui/internals/brave_rewards_internals.html" type="BINDATA" />
 
       <!-- WebUI tip resources -->

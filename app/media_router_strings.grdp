@@ -12,7 +12,7 @@
   <message name="IDS_MEDIA_ROUTER_MENU_ITEM_TITLE" desc="Title of menu item for Media Router, which appears in the overflow menu and page contextual menus.">
     &amp;Cast...
   </message>
-  <message name="IDS_MEDIA_ROUTER_CAST_DIALOG_TITLE" desc="Title of the dialog with which users can cast media contents to Bravecast and other devices. This text is shown at the top of the dialog on its own line, and should be considered a verb.">
+  <message name="IDS_MEDIA_ROUTER_CAST_DIALOG_TITLE" desc="Title of the dialog with which users can cast media contents to Dissentercast and other devices. This text is shown at the top of the dialog on its own line, and should be considered a verb.">
     Cast
   </message>
 
@@ -71,46 +71,46 @@
   </message>
 
   <!-- Contextual Menu -->
-  <message name="IDS_MEDIA_ROUTER_ABOUT" desc="Title of a menu item which, on click, opens a page with product information about Bravecast.">
+  <message name="IDS_MEDIA_ROUTER_ABOUT" desc="Title of a menu item which, on click, opens a page with product information about Dissentercast.">
     About
   </message>
   <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_TOGGLE" desc="Title of a menu item which, on click, toggles the preference to opt in or out of cloud services.">
     Enable cloud services
   </message>
-  <message name="IDS_MEDIA_ROUTER_HELP" desc="Title of a menu item which, on click, opens a page to the Bravecast help center.">
+  <message name="IDS_MEDIA_ROUTER_HELP" desc="Title of a menu item which, on click, opens a page to the Dissentercast help center.">
     Help
   </message>
   <message name="IDS_MEDIA_ROUTER_ALWAYS_SHOW_TOOLBAR_ACTION" desc="Title of a menu item which, on click, toggles whether or not the Media Router action icon is always shown. When toggled off, the icon is shown only when the Media Router dialog is open or if there is an active local Media Route or an issue.">
     Always show icon
   </message>
-  <message name="IDS_MEDIA_ROUTER_REPORT_ISSUE" desc="Title of a menu item which, on click, opens a page to give feedback or report an issue with Bravecast integration.">
+  <message name="IDS_MEDIA_ROUTER_REPORT_ISSUE" desc="Title of a menu item which, on click, opens a page to give feedback or report an issue with Dissentercast integration.">
     Report an issue
   </message>
   <message name="IDS_MEDIA_ROUTER_SHOWN_BY_POLICY" desc="Title of a menu item, which indicates that the Media Router action icon was added to the toolbar by the policy enabled by the user's administrator.">
     Added by your administrator
   </message>
-  <message name="IDS_MEDIA_ROUTER_TOGGLE_MEDIA_REMOTING" desc="Title of a menu item which, on click, toggles (enables or disables) the feature to optimize casting fullscreen videos to a Bravecast device. This menu item has a checkmark when the feature is enabled.">
+  <message name="IDS_MEDIA_ROUTER_TOGGLE_MEDIA_REMOTING" desc="Title of a menu item which, on click, toggles (enables or disables) the feature to optimize casting fullscreen videos to a Dissentercast device. This menu item has a checkmark when the feature is enabled.">
     Optimize fullscreen videos
   </message>
 
   <!-- First Run Flow -->
   <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_CLOUD_PREF_TEXT" desc="Text of the cloud services preferences text in the first run flow, which is shown to the user if they are currently signed in and have enabled sync.">
-    Enable casting to cloud-based services like Brave Hangouts.
+    Enable casting to cloud-based services like Dissenter Hangouts.
   </message>
   <if expr="_google_chrome">
     <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_TITLE" desc="Title of the first run flow, which is shown to the user the first time they use Media Router, until they acknowledge the message. This is a welcome message that introduces Media Router to the user.">
-      Welcome to the Cast experience in Brave!
+      Welcome to the Cast experience in Dissenter!
     </message>
     <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_TEXT" desc="Text of the first run flow, which is shown to the user the first time they use Media Router. This is an introductory description of what Media Router does.">
-      You can use this feature to display content from Brave on your TV or other devices.
+      You can use this feature to display content from Dissenter on your TV or other devices.
     </message>
   </if>
   <if expr="not _google_chrome">
     <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_TITLE" desc="Title of the first run flow, which is shown to the user the first time they use Media Router, until they acknowledge the message. This is a welcome message that introduces Media Router to the user.">
-      Welcome to the Cast experience in Brave!
+      Welcome to the Cast experience in Dissenter!
     </message>
     <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_TEXT" desc="Text of the first run flow, which is shown to the user the first time they use Media Router. This is an introductory description of what Media Router does.">
-      You can use this feature to display content from Brave on your TV or other devices.
+      You can use this feature to display content from Dissenter on your TV or other devices.
     </message>
   </if>
   <message name="IDS_MEDIA_ROUTER_FIRST_RUN_FLOW_BUTTON" desc="Acknowledge button for the first run flow, which, on click, will dismiss the first run flow and set the current profile's preference that the user has acknowledged the first run flow.">
@@ -211,7 +211,7 @@
   <message name="IDS_MEDIA_ROUTER_NO_DEVICES_FOUND_BUTTON" desc="The accessibility label that gets read by screen readers for a button shown when no Cast device was found. Clicking on the button opens a new tab.">
     No devices found. Open a help center article in a new tab.
   </message>
-  <message name="IDS_MEDIA_ROUTER_DESTINATION_MISSING" desc="Link to display when no Cast destinations are found which, on click, opens a page to the Bravecast help center explaining possible reasons why none are detected.">
+  <message name="IDS_MEDIA_ROUTER_DESTINATION_MISSING" desc="Link to display when no Cast destinations are found which, on click, opens a page to the Dissentercast help center explaining possible reasons why none are detected.">
     No Cast destinations found. Need help?
   </message>
   <message name="IDS_MEDIA_ROUTER_SINK_AVAILABLE" desc="Text shown as the status of a Cast destination that the user can Cast to." meaning="Device status shown in Cast dialog">
@@ -264,11 +264,11 @@
   </message>
 
   <!-- Cloud Services Dialog -->
-  <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_DIALOG_TITLE" desc="Title of the dialog asking whether the user wants to enable the feature allowing them to Cast to cloud services (Brave Hangouts, Brave Meet, Cast for Education extension).">
+  <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_DIALOG_TITLE" desc="Title of the dialog asking whether the user wants to enable the feature allowing them to Cast to cloud services (Dissenter Hangouts, Dissenter Meet, Cast for Education extension).">
     Enable cloud services for Cast?
   </message>
-  <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_DIALOG_BODY" desc="Body text of the dialog asking whether the user wants to enable the feature allowing them to Cast to cloud services (Brave Hangouts, Brave Meet, Cast for Education extension).">
-    Use of Hangouts and Cast for Education is governed by the Brave Privacy Policy.
+  <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_DIALOG_BODY" desc="Body text of the dialog asking whether the user wants to enable the feature allowing them to Cast to cloud services (Dissenter Hangouts, Dissenter Meet, Cast for Education extension).">
+    Use of Hangouts and Cast for Education is governed by the Dissenter Privacy Policy.
   </message>
   <message name="IDS_MEDIA_ROUTER_CLOUD_SERVICES_DIALOG_ENABLE" desc="Label for a button in the dialog asking whether the user wants to enable the feature allowing them to Cast to cloud services. When this button is clicked, the preference to enable the feature gets saved.">
     Enable

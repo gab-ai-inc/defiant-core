@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="pt-BR">
-<translation id="3333887201479867589">Recompensas Brave</translation>
-<translation id="7942180974165298215">Bloqueador de Anúncios Brave</translation>
+<translation id="3333887201479867589">Recompensas Dissenter</translation>
+<translation id="7942180974165298215">Bloqueador de Anúncios Dissenter</translation>
 <translation id="6406506848690869874">Sync</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (a extenção ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") não é permitida na Brave.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (a extenção ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") não é permitida na Dissenter.</translation>
 <translation id="7450557937477381864">Fechar o Chrome</translation>
 <translation id="7008934821596358692">Para concluir a importação, feche todas as janelas do Chrome.</translation>
-<translation id="5735465527556462863">Fechar Brave (antigo)</translation>
-<translation id="7737066986958447692">Para finalizar a importação, feche todas as janelas do Brave (antigo).</translation>
+<translation id="5735465527556462863">Fechar Dissenter (antigo)</translation>
+<translation id="7737066986958447692">Para finalizar a importação, feche todas as janelas do Dissenter (antigo).</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Estatísticas</translation>
-<translation id="6165477144235978006">Brave Payments</translation>
+<translation id="6165477144235978006">Dissenter Payments</translation>
 <translation id="3489524616427966890">Janelas e guias abertas</translation>
 <translation id="3699882589215410581">Instalar e iniciar Widevine</translation>
 <translation id="8053096063396012732">Instalar Widevine</translation>
 <translation id="4840334696217618631">Reinicie o navegador para habilitar o Widevine</translation>
-<translation id="8410111618231938546">O Google Widevine é um código de Gerenciamento de Direitos Digitais (DRM) que nós da Brave Software não possuímos e não podemos inspecionar. O código do Google Widevine é carregado dos servidores do Google, não dos nossos servidores. Ele é carregado apenas quando você ativa essa opção. Desencorajamos o uso de DRM, mas respeitamos a escolha do usuário e reconhecemos que alguns usuários do Brave gostariam de usar serviços que o exigem.
+<translation id="8410111618231938546">O Google Widevine é um código de Gerenciamento de Direitos Digitais (DRM) que nós da Gab AI não possuímos e não podemos inspecionar. O código do Google Widevine é carregado dos servidores do Google, não dos nossos servidores. Ele é carregado apenas quando você ativa essa opção. Desencorajamos o uso de DRM, mas respeitamos a escolha do usuário e reconhecemos que alguns usuários do Dissenter gostariam de usar serviços que o exigem.
 
-Ao instalar esta extensão, você concorda com os Termos de Uso do Google Widevine. Você concorda que o Brave não é responsável por quaisquer danos ou perdas relacionadas ao seu uso do Google Widevine.</translation>
-<translation id="6499845530162974140">Brave (antigo)</translation>
-<translation id="3198814717959506569">Importar do Brave</translation>
+Ao instalar esta extensão, você concorda com os Termos de Uso do Google Widevine. Você concorda que o Dissenter não é responsável por quaisquer danos ou perdas relacionadas ao seu uso do Google Widevine.</translation>
+<translation id="6499845530162974140">Dissenter (antigo)</translation>
+<translation id="3198814717959506569">Importar do Dissenter</translation>
 <translation id="453977518730680921">Mídia de reprodução automática</translation>
 <translation id="410351446219883937">Reprodução automática</translation>
 <translation id="2240268017737062801">Perguntar quando um site desejar reproduzir mídia automaticamente</translation>
@@ -28,21 +28,21 @@ Ao instalar esta extensão, você concorda com os Termos de Uso do Google Widevi
 <translation id="3218385319396786393">A reprodução automática foi bloqueada nesta página</translation>
 <translation id="4988333904713528597">Sempre permitir a reprodução automática em <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Continuar bloqueando a reprodução automática</translation>
-<translation id="7543906827780734027">Brave ainda não avaliou esta extensão - ela pode ser maliciosa. Adicionar "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" mesmo assim?</translation>
+<translation id="7543906827780734027">Dissenter ainda não avaliou esta extensão - ela pode ser maliciosa. Adicionar "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" mesmo assim?</translation>
 <translation id="2044383478723007273">Cores brave</translation>
 <translation id="5341901626640816374">Use barra de localização ampla</translation>
-<translation id="6123134130710658846">Ocultar botão Recompensas do Brave</translation>
-<translation id="7635711399568194460">Oculta o botão Recompensas do Brave na barra de localização quando as Recompensas do Brave não estiverem habilitadas</translation>
+<translation id="6123134130710658846">Ocultar botão Recompensas do Dissenter</translation>
+<translation id="7635711399568194460">Oculta o botão Recompensas do Dissenter na barra de localização quando as Recompensas do Dissenter não estiverem habilitadas</translation>
 <translation id="7965178729203412357">Nova Identidade Tor</translation>
 <translation id="8784924142044142231">Sair do Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Abrir Janela Tor</translation>
 <translation id="1434416574322382019">Nova Janela Privada com Tor</translation>
 <translation id="4703780849509456860">Abrir Link em Janela Privada com Tor</translation>
-<translation id="3488584642074079080">Abrir o Link em Janela Privada da Brave com Tor</translation>
+<translation id="3488584642074079080">Abrir o Link em Janela Privada da Dissenter com Tor</translation>
 <translation id="6313675821927505581">Nova janela privada com o Tor</translation>
 <translation id="2638041073279639246">Abrir link em janela privada com o Tor</translation>
-<translation id="3425600262621021599">Abrir link em janela privada do Brave com o Tor</translation>
+<translation id="3425600262621021599">Abrir link em janela privada do Dissenter com o Tor</translation>
 <translation id="3155170474926428993">Inicializador Tor</translation>
 <translation id="2515126961943087659">Serviço de Anúncios Bat</translation>
 <translation id="7924918279836988121">Serviço Ledger do BAT</translation>

@@ -10,10 +10,10 @@ index 16edd99ae8432c130876beec52834c2211513282..47f495214d1ef5848bf52a759ba71360
 -identifier \"com.google.Chrome.beta\" or \
 -identifier \"com.google.Chrome.dev\" or \
 -identifier \"com.google.Chrome.canary\") \
-+(identifier \"com.brave.Browser\" or \
-+identifier \"com.brave.Browser.beta\" or \
-+identifier \"com.brave.Browser.dev\" or \
-+identifier \"com.brave.Browser.nightly\") \
++(identifier \"com.dissenter.Browser\" or \
++identifier \"com.dissenter.Browser.beta\" or \
++identifier \"com.dissenter.Browser.dev\" or \
++identifier \"com.dissenter.Browser.nightly\") \
  ${requirement_suffix} \
  "
  

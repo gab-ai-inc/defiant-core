@@ -545,11 +545,11 @@
       </message>
     </if>
     <if expr="chromeos">
-      <message name="IDS_LAUNCH_APP_BUTTON" desc="Text shown on the button that launches kiosk app from Brave OS login UI">
+      <message name="IDS_LAUNCH_APP_BUTTON" desc="Text shown on the button that launches kiosk app from Dissenter OS login UI">
         Launch app
       </message>
     </if>
-    <message name="IDS_BROWSE_AS_GUEST_BUTTON" desc="Text shown on Brave OS sign-in screen button that launches guest session. Should be short.">
+    <message name="IDS_BROWSE_AS_GUEST_BUTTON" desc="Text shown on Dissenter OS sign-in screen button that launches guest session. Should be short.">
       Browse as Guest
     </message>
     <message name="IDS_MORE_OPTIONS_BUTTON" desc="Text read but not shown on the [...] button on login screen">
@@ -625,7 +625,7 @@
         Please unlock your profile before adding a person.
       </message>
       <message name="IDS_USER_MANAGER_PROMPT_MESSAGE" desc="Prompt message displayed on UserManager when force-sign-in policy is enabled.">
-        To use Brave, please sign in
+        To use Dissenter, please sign in
       </message>
       <message name="IDS_LOGIN_POD_USER_REMOVE_WARNING_NONSYNC" desc="Main text shown as a warning when attempting to remove an user.">
         This will permanently delete your browsing data from this device.

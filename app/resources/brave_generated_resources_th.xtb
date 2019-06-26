@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="th">
-<translation id="3333887201479867589">Brave Rewards</translation>
-<translation id="7942180974165298215">Brave Ad Block</translation>
+<translation id="3333887201479867589">Dissenter Rewards</translation>
+<translation id="7942180974165298215">Dissenter Ad Block</translation>
 <translation id="6406506848690869874">ซิงค์</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (การระบุชื่อสกุลแฟ้ม "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ไม่ได้รับอนุญาตในโปรแกรมของเบรฟ (Brave)</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (การระบุชื่อสกุลแฟ้ม "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") ไม่ได้รับอนุญาตในโปรแกรมของเบรฟ (Dissenter)</translation>
 <translation id="7450557937477381864">ปิด Chrome</translation>
 <translation id="7008934821596358692">เพื่อเสร็จสิ้นการนำเข้า ปิดหน้าต่าง Chrome ทั้งหมด</translation>
-<translation id="5735465527556462863">ปิด Brave (เก่า)</translation>
-<translation id="7737066986958447692">เพื่อให้การนำเข้าเสร็จสิ้น โปรดปิดหน้าต่าง Brave (เก่า) ทั้งหมด</translation>
+<translation id="5735465527556462863">ปิด Dissenter (เก่า)</translation>
+<translation id="7737066986958447692">เพื่อให้การนำเข้าเสร็จสิ้น โปรดปิดหน้าต่าง Dissenter (เก่า) ทั้งหมด</translation>
 <translation id="6447842834002726250">คุกกี้</translation>
 <translation id="4983925687993168579">สถิติ</translation>
-<translation id="6165477144235978006">การชำระเงิน Brave</translation>
+<translation id="6165477144235978006">การชำระเงิน Dissenter</translation>
 <translation id="3489524616427966890">เปิดหน้าต่างและแท็บ</translation>
 <translation id="3699882589215410581">ติดตั้งและเปิดใช้งาน Widevine</translation>
 <translation id="8053096063396012732">ติดตั้ง Widevine</translation>
 <translation id="4840334696217618631">รีสตาร์ทเบราว์เซอร์เพื่อเปิดใช้ Widevine</translation>
-<translation id="8410111618231938546">Google Widevine คือชิ้นส่วนรหัส Digital Rights Management (DRM) ที่พวกเราที่ Brave Software ไม่ได้เป็นเจ้าของและไม่สามารถทำการตรวจได้ รหัส Google Widevine ได้ถูกโหลดจากเซิร์ฟเวอร์ Google ไม่ได้โหลดจากเซิร์ฟเวอร์ของเรา DRM จะถูกโหลดเมื่อคุณเปิดตัวเลือกนี้  เราไม่สนับสนุนการใช้ DRM แต่เราเคารพการตัดสินใจของผู้ใช้และเข้าใจว่าผู้ใช้ Brave บางท่านอาจต้องการใช้บริการที่ต้องการมัน
+<translation id="8410111618231938546">Google Widevine คือชิ้นส่วนรหัส Digital Rights Management (DRM) ที่พวกเราที่ Gab AI ไม่ได้เป็นเจ้าของและไม่สามารถทำการตรวจได้ รหัส Google Widevine ได้ถูกโหลดจากเซิร์ฟเวอร์ Google ไม่ได้โหลดจากเซิร์ฟเวอร์ของเรา DRM จะถูกโหลดเมื่อคุณเปิดตัวเลือกนี้  เราไม่สนับสนุนการใช้ DRM แต่เราเคารพการตัดสินใจของผู้ใช้และเข้าใจว่าผู้ใช้ Dissenter บางท่านอาจต้องการใช้บริการที่ต้องการมัน
 
-โดยการติดตั้งส่วนขยายนี้ คุณได้ยอมรับข้อตกลงการใช้งาน Google Widevine คุณได้ตกลงว่า Brave จะไม่รับผิดชอบต่อความเสียหายหรือสูญหายในการเชื่อมต่อการใช้ Google Widevine ของคุณ</translation>
-<translation id="6499845530162974140">Brave (เก่า)</translation>
-<translation id="3198814717959506569">นำเข้าจาก Brave</translation>
+โดยการติดตั้งส่วนขยายนี้ คุณได้ยอมรับข้อตกลงการใช้งาน Google Widevine คุณได้ตกลงว่า Dissenter จะไม่รับผิดชอบต่อความเสียหายหรือสูญหายในการเชื่อมต่อการใช้ Google Widevine ของคุณ</translation>
+<translation id="6499845530162974140">Dissenter (เก่า)</translation>
+<translation id="3198814717959506569">นำเข้าจาก Dissenter</translation>
 <translation id="453977518730680921">เล่นสื่ออัตโนมัติ</translation>
 <translation id="410351446219883937">เล่นอัตโนมัติ</translation>
 <translation id="2240268017737062801">ถามเมื่อเว็บต้องการเล่นสื่ออัตโนมัติ</translation>
@@ -28,21 +28,21 @@
 <translation id="3218385319396786393">การเล่นอัตโนมัติถูกบล็อกในหน้านี้</translation>
 <translation id="4988333904713528597">ยินยอมให้ทำการเล่นแบบอัตโนมัติบน <ph name="HOST">$1<ex>mail.google.com</ex></ph> เสมอ</translation>
 <translation id="4150684676757176434">ทำการบล็อกการเล่นอัตโนมัติต่อ</translation>
-<translation id="7543906827780734027">Brave ยังไม่ได้ตรวจสอบส่วนขยายนี้เลย - มันอาจมีความประสงค์ร้าย เพิ่ม "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" อยู่ดี?</translation>
-<translation id="2044383478723007273">สี Brave</translation>
+<translation id="7543906827780734027">Dissenter ยังไม่ได้ตรวจสอบส่วนขยายนี้เลย - มันอาจมีความประสงค์ร้าย เพิ่ม "<ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph>" อยู่ดี?</translation>
+<translation id="2044383478723007273">สี Dissenter</translation>
 <translation id="5341901626640816374">ใช้แถบที่ตั้งยาว</translation>
-<translation id="6123134130710658846">ซ่อนปุ่ม Brave Rewards</translation>
-<translation id="7635711399568194460">ซ่อนปุ่ม Brave Rewards ในแถบสถานที่ตั้งเมื่อไม่ได้เปิดใช้ Brave Rewards</translation>
+<translation id="6123134130710658846">ซ่อนปุ่ม Dissenter Rewards</translation>
+<translation id="7635711399568194460">ซ่อนปุ่ม Dissenter Rewards ในแถบสถานที่ตั้งเมื่อไม่ได้เปิดใช้ Dissenter Rewards</translation>
 <translation id="7965178729203412357">ตัวตน Tor ใหม่</translation>
 <translation id="8784924142044142231">ออกจาก Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">เปิดหน้าต่าง Tor</translation>
 <translation id="1434416574322382019">การสร้างวินโดว์ส่วนบุคคลกับทอร์</translation>
 <translation id="4703780849509456860">เปิดลิงก์ในหน้าต่างส่วนตัวพร้อม Tor</translation>
-<translation id="3488584642074079080">เปิดลิงก์ในหน้าต่างส่วนตัวของ Brave พร้อม Tor</translation>
+<translation id="3488584642074079080">เปิดลิงก์ในหน้าต่างส่วนตัวของ Dissenter พร้อม Tor</translation>
 <translation id="6313675821927505581">หน้าต่างส่วนตัวใหม่ด้วย Tor</translation>
 <translation id="2638041073279639246">เปิดลิงก์ในหน้าต่างส่วนตัวด้วย Tor</translation>
-<translation id="3425600262621021599">เปิดลิงก์ในหน้าต่างส่วนตัวของ Brave ด้วย Tor</translation>
+<translation id="3425600262621021599">เปิดลิงก์ในหน้าต่างส่วนตัวของ Dissenter ด้วย Tor</translation>
 <translation id="3155170474926428993">Tor Launcher</translation>
 <translation id="2515126961943087659">บริการโฆษณา BAT</translation>
 <translation id="7924918279836988121">บริการรายการเดินบัญชี Bat</translation>

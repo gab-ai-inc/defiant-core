@@ -24,7 +24,7 @@ SHORTDESC="The web browser from Brave"
 FULLDESC="Browse faster by blocking ads and trackers that violate your privacy and cost you time and money."
 
 # Package maintainer information.
-MAINTNAME="Brave Software"
+MAINTNAME="Gab AI"
 MAINTMAIL="support+laptop@brave.com"
 PRODUCTURL="https://brave.com/"
 VERSION=$(cat $BUILDDIR/version | tr -d 'v,')

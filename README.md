@@ -18,5 +18,5 @@ announcements.
 You can ask questions and interact with the community in the following
 locations:
 - [The Brave Community](https://community.brave.com/)
-- [`community`](https://bravesoftware.slack.com) channel on Brave Software's Slack
+- [`community`](https://bravesoftware.slack.com) channel on Gab AI's Slack
 - [`developers-brave`](https://discord.gg/k57tYrS) channel in our Brave Discord server
