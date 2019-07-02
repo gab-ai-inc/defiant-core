@@ -6,6 +6,8 @@
 #ifndef BRAVE_COMPONENTS_SERVICES_BAT_LEDGER_BAT_LEDGER_IMPL_H_
 #define BRAVE_COMPONENTS_SERVICES_BAT_LEDGER_BAT_LEDGER_IMPL_H_
 
+#include <stdint.h>
+
 #include <map>
 #include <memory>
 #include <string>
@@ -84,7 +86,9 @@ class BatLedgerImpl : public mojom::BatLedger,
       const std::string& solution,
       const std::string& promotionId) override;
 
-  void GetAddresses(GetAddressesCallback callback) override;
+  void GetAddresses(
+      int32_t current_country_code,
+      GetAddressesCallback callback) override;
   void GetBATAddress(GetBATAddressCallback callback) override;
   void GetBTCAddress(GetBTCAddressCallback callback) override;
   void GetETHAddress(GetETHAddressCallback callback) override;
@@ -98,6 +102,7 @@ class BatLedgerImpl : public mojom::BatLedger,
   void SetUserChangedContribution() override;
   void SetContributionAmount(double amount) override;
   void SetAutoContribute(bool enabled) override;
+  void UpdateAdsRewards() override;
 
   void OnTimer(uint32_t timer_id) override;
 
@@ -129,8 +134,8 @@ class BatLedgerImpl : public mojom::BatLedger,
 
   void GetAddressesForPaymentId(
       GetAddressesForPaymentIdCallback callback) override;
-  void GetTransactionHistoryForThisCycle(
-      GetTransactionHistoryForThisCycleCallback callback) override;
+  void GetTransactionHistory(
+      GetTransactionHistoryCallback callback) override;
   void GetRewardsInternalsInfo(
       GetRewardsInternalsInfoCallback callback) override;
   void RefreshPublisher(
@@ -186,8 +191,8 @@ class BatLedgerImpl : public mojom::BatLedger,
       CallbackHolder<GetAddressesForPaymentIdCallback>* holder,
       std::map<std::string, std::string> addresses);
 
-  static void OnGetTransactionHistoryForThisCycle(
-      CallbackHolder<GetTransactionHistoryForThisCycleCallback>* holder,
+  static void OnGetTransactionHistory(
+      CallbackHolder<GetTransactionHistoryCallback>* holder,
       std::unique_ptr<ledger::TransactionsInfo> history);
 
   static void OnGetExcludedPublishersNumber(
@@ -216,6 +221,10 @@ class BatLedgerImpl : public mojom::BatLedger,
     CallbackHolder<LoadPublisherInfoCallback>* holder,
     ledger::Result result,
     std::unique_ptr<ledger::PublisherInfo> info);
+
+  static void OnGetAddresses(
+    CallbackHolder<GetAddressesCallback>* holder,
+    std::map<std::string, std::string> addresses);
 
   std::unique_ptr<BatLedgerClientMojoProxy> bat_ledger_client_mojo_proxy_;
   std::unique_ptr<ledger::Ledger> ledger_;

@@ -5,6 +5,8 @@
 
 #include "brave/components/services/bat_ledger/bat_ledger_impl.h"
 
+#include <stdint.h>
+
 #include <map>
 #include <string>
 #include <utility>
@@ -233,8 +235,22 @@ void BatLedgerImpl::SolveGrantCaptcha(const std::string& solution,
   ledger_->SolveGrantCaptcha(solution, promotion_id);
 }
 
-void BatLedgerImpl::GetAddresses(GetAddressesCallback callback) {
-  std::move(callback).Run(mojo::MapToFlatMap(ledger_->GetAddresses()));
+void BatLedgerImpl::OnGetAddresses(
+    CallbackHolder<GetAddressesCallback>* holder,
+    std::map<std::string, std::string> addresses) {
+  if (holder->is_valid()) {
+    std::move(holder->get()).Run(mojo::MapToFlatMap(addresses));
+  }
+  delete holder;
+}
+
+void BatLedgerImpl::GetAddresses(
+    int32_t current_country_code,
+    GetAddressesCallback callback) {
+  auto* holder = new CallbackHolder<GetAddressesCallback>(
+      AsWeakPtr(), std::move(callback));
+  ledger_->GetAddresses(current_country_code,
+      std::bind(BatLedgerImpl::OnGetAddresses, holder, _1));
 }
 
 void BatLedgerImpl::GetBATAddress(GetBATAddressCallback callback) {
@@ -283,6 +299,10 @@ void BatLedgerImpl::SetContributionAmount(double amount) {
 
 void BatLedgerImpl::SetAutoContribute(bool enabled) {
   ledger_->SetAutoContribute(enabled);
+}
+
+void BatLedgerImpl::UpdateAdsRewards() {
+  ledger_->UpdateAdsRewards();
 }
 
 void BatLedgerImpl::OnTimer(uint32_t timer_id) {
@@ -398,8 +418,8 @@ void BatLedgerImpl::ConfirmAd(const std::string& info) {
 }
 
 // static
-void BatLedgerImpl::OnGetTransactionHistoryForThisCycle(
-    CallbackHolder<GetTransactionHistoryForThisCycleCallback>* holder,
+void BatLedgerImpl::OnGetTransactionHistory(
+    CallbackHolder<GetTransactionHistoryCallback>* holder,
     std::unique_ptr<ledger::TransactionsInfo> history) {
   std::string json_transactions = history.get() ? history->ToJson() : "";
   if (holder->is_valid())
@@ -407,13 +427,13 @@ void BatLedgerImpl::OnGetTransactionHistoryForThisCycle(
   delete holder;
 }
 
-void BatLedgerImpl::GetTransactionHistoryForThisCycle(
-    GetTransactionHistoryForThisCycleCallback callback) {
-  auto* holder = new CallbackHolder<GetTransactionHistoryForThisCycleCallback>(
+void BatLedgerImpl::GetTransactionHistory(
+    GetTransactionHistoryCallback callback) {
+  auto* holder = new CallbackHolder<GetTransactionHistoryCallback>(
       AsWeakPtr(), std::move(callback));
 
-  ledger_->GetTransactionHistoryForThisCycle(
-      std::bind(BatLedgerImpl::OnGetTransactionHistoryForThisCycle,
+  ledger_->GetTransactionHistory(
+      std::bind(BatLedgerImpl::OnGetTransactionHistory,
           holder, _1));
 }
 

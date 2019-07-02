@@ -189,6 +189,7 @@ class RewardsServiceImpl : public RewardsService,
   void GetReconcileTime(const GetReconcileTimeCallback& callback);
   void SetShortRetries(bool short_retries);
   void GetShortRetries(const GetShortRetriesCallback& callback);
+  void SetCurrentCountry(const std::string& current_country);
 
   void GetAutoContributeProps(
       const GetAutoContributePropsCallback& callback) override;
@@ -246,7 +247,7 @@ class RewardsServiceImpl : public RewardsService,
                             bool success);
   void OnActivityInfoLoaded(ledger::PublisherInfoCallback callback,
                             const std::string& publisher_key,
-                            const ledger::PublisherInfoList list);
+                            const ledger::PublisherInfoList& list);
   void OnMediaPublisherInfoSaved(bool success);
   void OnPublisherInfoLoaded(ledger::PublisherInfoCallback callback,
                              std::unique_ptr<ledger::PublisherInfo> info);
@@ -277,9 +278,9 @@ class RewardsServiceImpl : public RewardsService,
   void OnRecurringTipSaved(bool success);
   void OnGetRecurringTips(
       const ledger::PublisherInfoListCallback callback,
-      const ledger::PublisherInfoList list);
+      const ledger::PublisherInfoList& list);
   void OnGetOneTimeTips(ledger::PublisherInfoListCallback callback,
-                        const ledger::PublisherInfoList list);
+                        const ledger::PublisherInfoList& list);
   void OnRemovedRecurringTip(ledger::RecurringRemoveCallback callback,
                           bool success);
   void OnRemoveRecurring(const std::string& publisher_key,
@@ -363,11 +364,12 @@ class RewardsServiceImpl : public RewardsService,
   void SetContributionAmount(double amount) const override;
   void SetUserChangedContribution() const override;
   void SetAutoContribute(bool enabled) const override;
+  void UpdateAdsRewards() const override;
   void SetCatalogIssuers(const std::string& json) override;
   void ConfirmAd(const std::string& json) override;
   void SetConfirmationsIsReady(const bool is_ready) override;
-  void GetTransactionHistoryForThisCycle(
-      GetTransactionHistoryForThisCycleCallback callback) override;
+  void GetTransactionHistory(
+      GetTransactionHistoryCallback callback) override;
   void ConfirmationsTransactionHistoryDidChange() override;
 
   void OnExcludedSitesChanged(const std::string& publisher_id,
@@ -450,8 +452,8 @@ class RewardsServiceImpl : public RewardsService,
   void ShowNotificationTipsPaid(bool ac_enabled);
 
   // Mojo Proxy methods
-  void OnGetTransactionHistoryForThisCycle(
-      GetTransactionHistoryForThisCycleCallback callback,
+  void OnGetTransactionHistory(
+      GetTransactionHistoryCallback callback,
       const std::string& transactions);
   void OnGetAllBalanceReports(
       const GetAllBalanceReportsCallback& callback,
@@ -472,6 +474,9 @@ class RewardsServiceImpl : public RewardsService,
       RefreshPublisherCallback callback,
       const std::string& publisher_key,
       bool verified);
+  void GetCountryCodes(
+      const std::vector<std::string>& countries,
+      ledger::GetCountryCodesCallback callback) override;
 
   bool Connected() const;
   void ConnectionClosed();
@@ -508,6 +513,8 @@ class RewardsServiceImpl : public RewardsService,
   std::unique_ptr<base::RepeatingTimer> notification_periodic_timer_;
 
   uint32_t next_timer_id_;
+
+  std::string current_country_for_test_;
 
   DISALLOW_COPY_AND_ASSIGN(RewardsServiceImpl);
 };

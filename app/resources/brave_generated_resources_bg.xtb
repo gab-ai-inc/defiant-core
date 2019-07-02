@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="bg">
-<translation id="3333887201479867589">Dissenter награди</translation>
-<translation id="7942180974165298215">Dissenter Блокер на реклами</translation>
+<translation id="3333887201479867589">Brave награди</translation>
+<translation id="7942180974165298215">Brave Блокер на реклами</translation>
 <translation id="6406506848690869874">Синхр</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID на разширението "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") не е разрешено в Dissenter.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (ID на разширението "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") не е разрешено в Brave.</translation>
 <translation id="7450557937477381864">Затваряне на Chrome</translation>
 <translation id="7008934821596358692">За да завършите импортирането, затворете всички прозорци на Chrome.</translation>
-<translation id="5735465527556462863">Затваряне на Dissenter (стара версия)</translation>
-<translation id="7737066986958447692">За да завършите импортирането, затворете всички прозорци на Dissenter (стара версия).</translation>
+<translation id="5735465527556462863">Затваряне на Brave (стара версия)</translation>
+<translation id="7737066986958447692">За да завършите импортирането, затворете всички прозорци на Brave (стара версия).</translation>
 <translation id="6447842834002726250">„Бисквитки“</translation>
 <translation id="4983925687993168579">Статистика</translation>
-<translation id="6165477144235978006">Dissenter Payments</translation>
+<translation id="6165477144235978006">Brave Payments</translation>
 <translation id="3489524616427966890">Отваряне на прозорци и раздели</translation>
 <translation id="3699882589215410581">Инсталирайте и стартирайте Widevine</translation>
 <translation id="8053096063396012732">Инсталирай Widevine</translation>
 <translation id="4840334696217618631">Рестартирайте браузъра, за да разрешите Widevine</translation>
-<translation id="8410111618231938546">Google Widevine е част от кода за управление на цифровите права (DRM), който ние в Dissenter Software не притежаваме и не можем да проверим. Кодът на Google Widevine се зарежда от сървърите на Google, а не от нашите сървъри. Той се зарежда само когато активирате тази опция. Ние не подкрепяме употребата на DRM, но уважаваме избора на потребителя и признаваме, че някои потребители на Dissenter биха искали да използват услуги, които го изискват.
+<translation id="8410111618231938546">Google Widevine е част от кода за управление на цифровите права (DRM), който ние в Brave Software не притежаваме и не можем да проверим. Кодът на Google Widevine се зарежда от сървърите на Google, а не от нашите сървъри. Той се зарежда само когато активирате тази опция. Ние не подкрепяме употребата на DRM, но уважаваме избора на потребителя и признаваме, че някои потребители на Brave биха искали да използват услуги, които го изискват.
 
-Чрез инсталирането на това разширение приемате Общите условия на Google Widevine. Вие се съгласявате, че Dissenter не носи отговорност за щети или загуби във връзка с използването на Google Widevine.</translation>
-<translation id="6499845530162974140">Dissenter (стара версия)</translation>
-<translation id="3198814717959506569">Импортирано от Dissenter</translation>
+Чрез инсталирането на това разширение приемате Общите условия на Google Widevine. Вие се съгласявате, че Brave не носи отговорност за щети или загуби във връзка с използването на Google Widevine.</translation>
+<translation id="6499845530162974140">Brave (стара версия)</translation>
+<translation id="3198814717959506569">Импортирано от Brave</translation>
 <translation id="453977518730680921">Автоматично възпр. на медия</translation>
 <translation id="410351446219883937">Автоматично изпълнение</translation>
 <translation id="2240268017737062801">Попитайте, когато даден сайт иска автоматично да възпроизвежда медия</translation>
@@ -28,19 +28,19 @@
 <translation id="3218385319396786393">Autoplay беше блокиран на тази страница</translation>
 <translation id="4988333904713528597">Винаги разрешавайте автоматичното възпроизвеждане на <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Продължаване на блокирането на автоматичното възпроизвеждане</translation>
-<translation id="2044383478723007273">Цветове на Dissenter</translation>
-<translation id="6123134130710658846">Скрий бутона на Dissenter награди</translation>
-<translation id="7635711399568194460">Скрий бутона за Dissenter наградите в лентата, ако Dissenter наградите не са активирани</translation>
+<translation id="2044383478723007273">Цветове на Brave</translation>
+<translation id="6123134130710658846">Скрий бутона на Brave награди</translation>
+<translation id="7635711399568194460">Скрий бутона за Brave наградите в лентата, ако Brave наградите не са активирани</translation>
 <translation id="7965178729203412357">Нова идентичност на Tor</translation>
 <translation id="8784924142044142231">Изход от Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Отвори Tor прозорец</translation>
 <translation id="1434416574322382019">Нов поверителен прозорец с Tor</translation>
 <translation id="4703780849509456860">Отвори връзката в поверителен прозорец с Tor</translation>
-<translation id="3488584642074079080">Отваряне на връзката в Поверителен прозорец на Dissenter чрез Tor</translation>
+<translation id="3488584642074079080">Отваряне на връзката в Поверителен прозорец на Brave чрез Tor</translation>
 <translation id="6313675821927505581">Нов поверителен прозорец с Tor</translation>
 <translation id="2638041073279639246">Отворете линка в поверителен прозорец с Tor</translation>
-<translation id="3425600262621021599">Отворете линка в Dissenter поверителен прозорец с Tor</translation>
+<translation id="3425600262621021599">Отворете линка в Brave поверителен прозорец с Tor</translation>
 <translation id="3155170474926428993">Програма за стартиране на Tor</translation>
 <translation id="2515126961943087659">Услуга за BAT реклами</translation>
 <translation id="7924918279836988121">Услуга "Bat Ledger"</translation>

@@ -38,7 +38,7 @@ class SettingsPage extends React.Component<Props, {}> {
     this.actions.getContributeList()
     this.actions.getPendingContributionsTotal()
     this.actions.getReconcileStamp()
-    this.actions.getTransactionHistoryForThisCycle()
+    this.actions.getTransactionHistory()
     this.actions.getExcludedPublishersNumber()
     this.actions.getAdsData()
   }
@@ -67,6 +67,7 @@ class SettingsPage extends React.Component<Props, {}> {
     this.actions.checkImported()
     this.actions.getGrants()
     this.actions.getRewardsMainEnabled()
+    this.actions.updateAdsRewards()
 
     // one time check (legacy fix)
     // more info here https://github.com/brave/brave-browser/issues/2172
@@ -117,7 +118,7 @@ class SettingsPage extends React.Component<Props, {}> {
     }
 
     return (
-      <>
+      <div style={{ width: '100%' }}>
         {grants.map((grant?: Rewards.Grant, index?: number) => {
           if (!grant || !grant.promotionId) {
             return null
@@ -129,7 +130,7 @@ class SettingsPage extends React.Component<Props, {}> {
             </div>
           )
         })}
-      </>
+      </div>
     )
   }
 

@@ -88,7 +88,7 @@ export class RewardsPanel extends React.Component<Props, State> {
             if (result[0].includes(markupMatch)) {
               clearInterval(interval)
               const rewardsPanelActions = require('../background/actions/rewardsPanelActions').default
-              rewardsPanelActions.onTabRetrieved(tab, result[0])
+              rewardsPanelActions.onTabRetrieved(tab, false, result[0])
             } else {
               chrome.storage.local.get(['rewards_panel_open'], function (result) {
                 if (result['rewards_panel_open'] === 'false') {

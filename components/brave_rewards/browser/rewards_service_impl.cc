@@ -5,6 +5,8 @@
 
 #include "brave/components/brave_rewards/browser/rewards_service_impl.h"
 
+#include <stdint.h>
+
 #include <algorithm>
 #include <functional>
 #include <limits>
@@ -55,6 +57,7 @@
 #include "chrome/browser/browser_process_impl.h"
 #include "chrome/browser/favicon/favicon_service_factory.h"
 #include "chrome/browser/profiles/profile.h"
+#include "components/country_codes/country_codes.h"
 #include "components/favicon/core/favicon_service.h"
 #include "components/favicon_base/favicon_types.h"
 #include "components/prefs/pref_service.h"
@@ -89,6 +92,8 @@ using std::placeholders::_1;
 using std::placeholders::_2;
 
 namespace brave_rewards {
+
+static const unsigned int kRetriesCountOnNetworkChange = 1;
 
 class LogStreamImpl : public ledger::LogStream {
  public:
@@ -1136,7 +1141,7 @@ void RewardsServiceImpl::OnPublisherActivityInfoLoaded(
 void RewardsServiceImpl::OnActivityInfoLoaded(
     ledger::PublisherInfoCallback callback,
     const std::string& publisher_key,
-    const ledger::PublisherInfoList list) {
+    const ledger::PublisherInfoList& list) {
   if (!Connected()) {
     return;
   }
@@ -1241,6 +1246,7 @@ void RewardsServiceImpl::LoadURL(
   net::URLFetcher* fetcher = net::URLFetcher::Create(
       parsed_url, request_type, this).release();
   fetcher->SetRequestContext(g_browser_process->system_request_context());
+  fetcher->SetAutomaticallyRetryOnNetworkChanges(kRetriesCountOnNetworkChange);
 
   for (size_t i = 0; i < headers.size(); i++)
     fetcher->AddExtraRequestHeader(headers[i]);
@@ -1480,9 +1486,17 @@ void RewardsServiceImpl::GetAddresses(const GetAddressesCallback& callback) {
   if (!Connected()) {
     return;
   }
+  int32_t current_country =
+      country_codes::GetCountryIDFromPrefs(profile_->GetPrefs());
+  if (!current_country_for_test_.empty() &&
+      current_country_for_test_.size() > 1) {
+    current_country = country_codes::CountryCharsToCountryID(
+        current_country_for_test_.at(0), current_country_for_test_.at(1));
+  }
 
-  bat_ledger_->GetAddresses(base::BindOnce(&RewardsServiceImpl::OnGetAddresses,
-        AsWeakPtr(), callback));
+  bat_ledger_->GetAddresses(current_country,
+      base::BindOnce(&RewardsServiceImpl::OnGetAddresses,
+              AsWeakPtr(), callback));
 }
 
 void RewardsServiceImpl::SetRewardsMainEnabled(bool enabled) {
@@ -1538,44 +1552,29 @@ void RewardsServiceImpl::SetConfirmationsIsReady(const bool is_ready) {
 
 void RewardsServiceImpl::ConfirmationsTransactionHistoryDidChange() {
     for (auto& observer : observers_)
-    observer.OnTransactionHistoryForThisCycleChanged(this);
+    observer.OnTransactionHistoryChanged(this);
 }
 
-void RewardsServiceImpl::GetTransactionHistoryForThisCycle(
-    GetTransactionHistoryForThisCycleCallback callback) {
+void RewardsServiceImpl::GetTransactionHistory(
+    GetTransactionHistoryCallback callback) {
   if (!Connected()) {
     return;
   }
 
-  bat_ledger_->GetTransactionHistoryForThisCycle(
-      base::BindOnce(&RewardsServiceImpl::OnGetTransactionHistoryForThisCycle,
+  bat_ledger_->GetTransactionHistory(
+      base::BindOnce(&RewardsServiceImpl::OnGetTransactionHistory,
           AsWeakPtr(), std::move(callback)));
 }
 
-void RewardsServiceImpl::OnGetTransactionHistoryForThisCycle(
-    GetTransactionHistoryForThisCycleCallback callback,
+void RewardsServiceImpl::OnGetTransactionHistory(
+    GetTransactionHistoryCallback callback,
     const std::string& transactions) {
-  if (transactions.empty()) {
-    callback.Run(0, 0.0);
-    return;
-  }
-
   ledger::TransactionsInfo info;
   info.FromJson(transactions);
 
-  int ads_notifications_received = 0;
-  double estimated_earnings = 0.0;
-
-  for (const auto& transaction : info.transactions) {
-    if (transaction.estimated_redemption_value == 0.0) {
-      continue;
-    }
-
-    ads_notifications_received++;
-    estimated_earnings += transaction.estimated_redemption_value;
-  }
-
-  callback.Run(ads_notifications_received, estimated_earnings);
+  std::move(callback).Run(info.estimated_pending_rewards,
+      info.next_payment_date_in_seconds,
+      info.ad_notifications_received_this_month);
 }
 
 void RewardsServiceImpl::SaveState(const std::string& name,
@@ -2254,7 +2253,7 @@ void RewardsServiceImpl::GetRecurringTipsUI(
 
 void RewardsServiceImpl::OnGetRecurringTips(
     const ledger::PublisherInfoListCallback callback,
-    const ledger::PublisherInfoList list) {
+    const ledger::PublisherInfoList& list) {
   if (!Connected()) {
     return;
   }
@@ -2321,7 +2320,7 @@ void RewardsServiceImpl::GetOneTimeTips(
 
 void RewardsServiceImpl::OnGetOneTimeTips(
     ledger::PublisherInfoListCallback callback,
-    const ledger::PublisherInfoList list) {
+    const ledger::PublisherInfoList& list) {
   if (!Connected()) {
     return;
   }
@@ -2380,6 +2379,14 @@ void RewardsServiceImpl::TriggerOnGetCurrentBalanceReport(
     balance_report.one_time_donation = report.one_time_donation_;
     observer.OnGetCurrentBalanceReport(this, balance_report);
   }
+}
+
+void RewardsServiceImpl::UpdateAdsRewards() const {
+  if (!Connected()) {
+    return;
+  }
+
+  bat_ledger_->UpdateAdsRewards();
 }
 
 void RewardsServiceImpl::SetContributionAutoInclude(
@@ -2570,6 +2577,13 @@ void RewardsServiceImpl::HandleFlags(const std::string& options) {
 
       SetShortRetries(short_retries);
     }
+
+    if (name == "current-country") {
+      const std::string& current_country_(base::ToUpperASCII(value));
+      if (!current_country_.empty() && current_country_.size() == 2) {
+        SetCurrentCountry(current_country_);
+      }
+    }
   }
 }
 
@@ -2669,6 +2683,11 @@ void RewardsServiceImpl::SetReconcileTime(int32_t time) {
 
 void RewardsServiceImpl::SetShortRetries(bool short_retries) {
   bat_ledger_service_->SetShortRetries(short_retries);
+}
+
+void RewardsServiceImpl::SetCurrentCountry(
+    const std::string& current_country) {
+  current_country_for_test_ = current_country;
 }
 
 ledger::Result SavePendingContributionOnFileTaskRunner(
@@ -2916,6 +2935,17 @@ void RewardsServiceImpl::OnRefreshPublisher(
 const RewardsNotificationService::RewardsNotificationsMap&
 RewardsServiceImpl::GetAllNotifications() {
   return notification_service_->GetAllNotifications();
+}
+
+void RewardsServiceImpl::GetCountryCodes(
+    const std::vector<std::string>& countries,
+    ledger::GetCountryCodesCallback callback) {
+  std::vector<std::int32_t> country_codes;
+  for (const auto& country : countries) {
+    country_codes.push_back(country_codes::CountryCharsToCountryID(
+        country.at(0), country.at(1)));
+  }
+  callback(country_codes);
 }
 
 }  // namespace brave_rewards

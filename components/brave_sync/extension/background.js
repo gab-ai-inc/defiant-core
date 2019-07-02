@@ -51,16 +51,13 @@ chrome.braveSync.onResolveSyncRecords.addListener(function(category_name, record
 chrome.braveSync.onSendSyncRecords.addListener(function(category_name, records) {
   // Fixup ids
   for (var i = 0; i < records.length; ++i) {
-    fixupSyncRecordBrowserToExt(records[i]);
+    // getOrder requires objectIdStr to send back order
     getOrder(records[i]);
+    fixupSyncRecordBrowserToExt(records[i]);
     removeLocalMeta(records[i]);
   }
   console.log(`"send-sync-records" category_name=${JSON.stringify(category_name)} records=${JSON.stringify(records)}`);
   callbackList["send-sync-records"](null, category_name, records);
-  if (category_name == 'BOOKMARKS') {
-    fixupSyncRecordsArrayExtensionToBrowser(records);
-    chrome.braveSync.resolvedSyncRecords(category_name, records);
-  }
 });
 
 chrome.braveSync.onSendGetBookmarksBaseOrder.addListener(function(deviceId, platform) {
@@ -97,6 +94,8 @@ function getOrder(record) {
         record.bookmark.order = order;
         if (record.objectId)
           orderMap[record.objectId] = order;
+        if (record.objectIdStr)
+          chrome.braveSync.saveBookmarkOrder(record.objectIdStr, order);
         getBookmarkOrderCallback = null;
       }
 
@@ -132,7 +131,7 @@ function removeLocalMeta(record) {
   }
 }
 
-function fixupBookmarkParentFolderObjectId(category_name, records) {
+function fixupBookmarkFields(category_name, records) {
   // records[0].bookmark.parentFolderObjectId can be either Uint8Array or Array[]
   // Uint8Array is expanded to "binary",
   // Array[] is expanded to "array" of "integer" in schema
@@ -140,6 +139,9 @@ function fixupBookmarkParentFolderObjectId(category_name, records) {
   if (category_name == "BOOKMARKS") {
     for(var i = 0; i < records.length; ++i) {
       fixupSyncRecordExtToBrowser(records[i]);
+      // Until brave-sync cannot deal with metaInfo field, this field causes
+      // "Error at property 'bookmark': Unexpected property: 'metaInfo'"
+      delete records[i].bookmark.metaInfo;
     }
   }
 }
@@ -259,7 +261,7 @@ class InjectedObject {
         chrome.braveSync.syncReady();
         break;
       case "get-existing-objects":
-        fixupBookmarkParentFolderObjectId(arg1, arg2);
+        fixupBookmarkFields(arg1, arg2);
         console.log(`"get-existing-objects" category_name=${JSON.stringify(arg1)} records=${JSON.stringify(arg2)} lastRecordTimeStamp=${arg3 ? arg3 : 0} isTruncated=${arg4 != undefined ? arg4 : false} `);
         chrome.braveSync.getExistingObjects(arg1/*category_name*/,
           arg2/*records*/, arg3 ? arg3 : 0/*lastRecordTimeStamp*/, arg4 != undefined ? arg4 : false/*isTruncated*/);

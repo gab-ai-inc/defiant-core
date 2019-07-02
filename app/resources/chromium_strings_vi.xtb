@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="vi">
-<translation id="5194812628624740897">Ngắt kết nối <ph name="USERNAME"/> sẽ xóa lịch sử, dấu trang, cài đặt và các dữ liệu Brave khác của bạn trên thiết bị này. Dữ liệu được lưu trữ trong tài khoản Gab AI của bạn sẽ không bị xóa và có thể được quản lý trên <ph name="GOOGLE_DASHBOARD_LINK"/>Trang tổng quan của Gab AI<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
+<translation id="5194812628624740897">Ngắt kết nối <ph name="USERNAME"/> sẽ xóa lịch sử, dấu trang, cài đặt và các dữ liệu Brave khác của bạn trên thiết bị này. Dữ liệu được lưu trữ trong tài khoản Brave Software của bạn sẽ không bị xóa và có thể được quản lý trên <ph name="GOOGLE_DASHBOARD_LINK"/>Trang tổng quan của Brave Software<ph name="END_GOOGLE_DASHBOARD_LINK"/>.</translation>
 <translation id="939305735877869636">Brave</translation>
 <translation id="6373767849825830651">Brave là trình duyệt web chạy các trang web và ứng dụng với tốc độ cực nhanh. Đây là một trình duyệt web nhanh, ổn định và dễ sử dụng. Duyệt web trở nên an toàn hơn với tính năng bảo vệ chống lại phần mềm độc hại và lừa đảo được tích hợp sẵn vào Brave.</translation>
 <translation id="680297041157509674">Hệ điều hành Brave</translation>
@@ -9,7 +9,7 @@
 <translation id="7339898014177206373">Cửa sổ mới</translation>
 <translation id="5935964611177478118">đăng nhập vào Brave</translation>
 <translation id="5516268345616100622">Trình quản lý tác vụ - Brave</translation>
-<translation id="7918740962659365265">Giúp cải thiện Brave bằng cách gửi báo cáo sự cố và <ph name="UMA_LINK"/> tới Gab AI</translation>
+<translation id="7918740962659365265">Giúp cải thiện Brave bằng cách gửi báo cáo sự cố và <ph name="UMA_LINK"/> tới Brave Software</translation>
 <translation id="5381622442243174305"><ph name="PAGE_TITLE"/> - Brave</translation>
 <translation id="7830723774663008396">Brave - <ph name="PAGE_TITLE"/></translation>
 <translation id="1403270718080126244"><ph name="PAGE_TITLE"/> - Brave phiên bản beta</translation>
@@ -34,7 +34,7 @@
 <translation id="2585240446624043880">Brave không thể đọc và ghi vào thư mục dữ liệu:
 
 <ph name="USER_DATA_DIRECTORY"/></translation>
-<translation id="8417700129970341035">Tùy chọn: giúp cải thiện Brave bằng cách tự động gửi thống kê sử dụng và báo cáo sự cố cho Gab AI.</translation>
+<translation id="8417700129970341035">Tùy chọn: giúp cải thiện Brave bằng cách tự động gửi thống kê sử dụng và báo cáo sự cố cho Brave Software.</translation>
 <translation id="1489465648257900784">Không thể sử dụng cấu hình của bạn do cấu hình này đến từ một phiên bản Brave mới hơn.
 
 Một số tính năng có thể không khả dụng. Hãy chỉ định thư mục cấu hình khác hoặc sử dụng phiên bản Brave mới hơn.</translation>
@@ -43,7 +43,7 @@ Một số tính năng có thể không khả dụng. Hãy chỉ định thư m�
 
 Brave không thể khôi phục cài đặt của bạn.</translation>
 <translation id="1477146545787277177">Rất tiếc! Brave đã gặp sự cố. Chạy lại ngay bây giờ?</translation>
-<translation id="5785919770853225148">Brave sẽ lưu mật khẩu này trong Tài khoản Gab AI của bạn. Bạn sẽ không phải nhớ mật khẩu này.</translation>
+<translation id="5785919770853225148">Brave sẽ lưu mật khẩu này trong Tài khoản Brave Software của bạn. Bạn sẽ không phải nhớ mật khẩu này.</translation>
 <translation id="113959764510199339">Brave đang cố gắng hiển thị mật khẩu.</translation>
 <translation id="7503098128120083822">Brave muốn xuất các mật khẩu của bạn.</translation>
 <translation id="8285294305439559616">Brave đang cố gắng hiển thị mật khẩu. Nhập mật khẩu Windows của bạn để cho phép thực hiện việc này.</translation>
@@ -84,7 +84,7 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
 <translation id="9183662282810237335">Bạn vẫn muốn thoát khỏi Brave?</translation>
 <translation id="3834935463915107022">Bạn vẫn muốn thoát khỏi Brave?</translation>
 <translation id="8797356639448065696">Brave đang chạy trong nền.</translation>
-<translation id="2339258256897053758">Khóa API của Gab AI bị thiếu. Một số chức năng của Brave sẽ bị tắt.</translation>
+<translation id="2339258256897053758">Khóa API của Brave Software bị thiếu. Một số chức năng của Brave sẽ bị tắt.</translation>
 <translation id="2182657378556811785">Gần được cập nhật! Hãy khởi chạy lại Brave để hoàn tất cập nhật.</translation>
 <translation id="5906655207909574370">Gần được cập nhật! Hãy khởi động lại thiết bị của bạn để hoàn tất cập nhật.</translation>
 <translation id="5877064549588274448">Kênh đã thay đổi. Hãy khởi động lại thiết bị để áp dụng thay đổi.</translation>
@@ -118,7 +118,7 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
 <translation id="4100716194836114130">Đây là Brave của bạn</translation>
 <translation id="8296145982386097283">Bạn muốn chia sẻ máy tính? Giờ đây, bạn có thể thiết lập Brave theo cách mình muốn.</translation>
 <translation id="1672124279374861424">Sau khi xóa tài khoản khỏi Brave, bạn có thể cần tải lại các tab đang mở của mình để tác vụ có hiệu lực.</translation>
-<translation id="9197493712748167998">Bạn đang sử dụng <ph name="PROFILE_EMAIL"/> để đồng bộ hóa nội dung Brave của mình. Để cập nhật tùy chọn đồng bộ hóa hoặc sử dụng Brave mà không cần tài khoản Gab AI, hãy truy cập <ph name="SETTINGS_LINK"/>.</translation>
+<translation id="9197493712748167998">Bạn đang sử dụng <ph name="PROFILE_EMAIL"/> để đồng bộ hóa nội dung Brave của mình. Để cập nhật tùy chọn đồng bộ hóa hoặc sử dụng Brave mà không cần tài khoản Brave Software, hãy truy cập <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="8132634101975074716">Bạn đã đăng nhập vào Brave!</translation>
 <translation id="4567424176335768812">Bạn đã đăng nhập với tên <ph name="USER_EMAIL_ADDRESS"/>. Bây giờ, bạn có thể truy cập dấu trang, lịch sử và các cài đặt khác trên tất cả những thiết bị đã đăng nhập của bạn.</translation>
 <translation id="6888049487162027489">Bạn hiện đã đăng nhập vào Brave! Quản trị viên của bạn đã tắt tính năng Đồng bộ hóa.</translation>
@@ -128,8 +128,8 @@ Brave không thể khôi phục cài đặt của bạn.</translation>
 Đăng nhập bằng mọi cách sẽ kết hợp thông tin Brave như dấu trang, lịch sử và các cài đặt khác vào <ph name="ACCOUNT_EMAIL_NEW"/>.</translation>
 <translation id="847561904663814268">Ai đó trước đây đã đăng nhập vào Brave trên máy tính này bằng <ph name="ACCOUNT_EMAIL_LAST"/>. Vui lòng tạo người dùng Brave mới để giữ riêng biệt thông tin của bạn.</translation>
 <translation id="1853997773668795891">Bạn muốn liên kết dữ liệu Brave của bạn với tài khoản này?</translation>
-<translation id="1326766910007115955">Bạn đang đăng nhập bằng tài khoản được quản lý và cấp cho quản trị viên của tài khoản quyền kiểm soát cấu hình Brave của bạn. Dữ liệu Brave của bạn, chẳng hạn như ứng dụng, dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ vĩnh viễn được liên kết với <ph name="USER_NAME"/>. Bạn có thể xóa dữ liệu này thông qua Trang tổng quan của tài khoản Gab AI nhưng không thể liên kết dữ liệu này với tài khoản khác. <ph name="LEARN_MORE"/></translation>
-<translation id="650055380213106997">Bạn đang đăng nhập bằng tài khoản được quản lý và cấp cho quản trị viên của tài khoản quyền kiểm soát cấu hình Brave của bạn. Dữ liệu Brave của bạn, chẳng hạn như ứng dụng, dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ vĩnh viễn được liên kết với <ph name="USER_NAME"/>. Bạn có thể xóa dữ liệu này thông qua Trang tổng quan của tài khoản Gab AI nhưng không thể liên kết dữ liệu này với tài khoản khác. Bạn có thể tùy chọn tạo cấu hình mới để giữ cho dữ liệu Brave hiện có của bạn riêng biệt. <ph name="LEARN_MORE"/></translation>
+<translation id="1326766910007115955">Bạn đang đăng nhập bằng tài khoản được quản lý và cấp cho quản trị viên của tài khoản quyền kiểm soát cấu hình Brave của bạn. Dữ liệu Brave của bạn, chẳng hạn như ứng dụng, dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ vĩnh viễn được liên kết với <ph name="USER_NAME"/>. Bạn có thể xóa dữ liệu này thông qua Trang tổng quan của tài khoản Brave Software nhưng không thể liên kết dữ liệu này với tài khoản khác. <ph name="LEARN_MORE"/></translation>
+<translation id="650055380213106997">Bạn đang đăng nhập bằng tài khoản được quản lý và cấp cho quản trị viên của tài khoản quyền kiểm soát cấu hình Brave của bạn. Dữ liệu Brave của bạn, chẳng hạn như ứng dụng, dấu trang, lịch sử, mật khẩu và các cài đặt khác sẽ vĩnh viễn được liên kết với <ph name="USER_NAME"/>. Bạn có thể xóa dữ liệu này thông qua Trang tổng quan của tài khoản Brave Software nhưng không thể liên kết dữ liệu này với tài khoản khác. Bạn có thể tùy chọn tạo cấu hình mới để giữ cho dữ liệu Brave hiện có của bạn riêng biệt. <ph name="LEARN_MORE"/></translation>
 <translation id="2444257125841652328">Quản trị viên hệ thống của bạn đã định cấu hình Brave để mở một trình duyệt thay thế khi truy cập vào <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="5380963249588143069">Quản trị viên hệ thống đã định cấu hình Brave để mở <ph name="ALTERNATIVE_BROWSER_NAME"/> khi truy cập vào <ph name="TARGET_URL_HOSTNAME"/>.</translation>
 <translation id="2591326305549412656"><ph name="USER_EMAIL_ADDRESS"/> trước đó đã sử dụng Brave</translation>
@@ -166,7 +166,7 @@ Vui lòng xem email của bạn tại <ph name="ACCOUNT_EMAIL"/> để được 
 <translation id="1820843143331379651">Kể từ Brave 70, tính năng hồ sơ người dùng được giám sát sẽ không còn được cung cấp nữa.</translation>
 <translation id="3066805437003400520">Dữ liệu duyệt web của người này sẽ bị xóa khỏi thiết bị này. Để khôi phục dữ liệu, hãy đăng nhập vào Brave bằng <ph name="USER_EMAIL"/>.</translation>
 <translation id="2827121003398607864">Brave được cải tiến hơn</translation>
-<translation id="7192666605334070839">Giờ đây, việc sử dụng Brave bằng tài khoản Gab AI của bạn và trên máy tính dùng chung trở nên dễ dàng hơn.</translation>
+<translation id="7192666605334070839">Giờ đây, việc sử dụng Brave bằng tài khoản Brave Software của bạn và trên máy tính dùng chung trở nên dễ dàng hơn.</translation>
 <translation id="3511996232906761537">Web, dấu trang và các nội dung khác của bạn trên Brave đều có ở đây.</translation>
 <translation id="7406627712452599344">Khách có thể sử dụng Brave mà không phải thoát khỏi bất cứ nội dung nào.</translation>
 <translation id="5659384504794665581">Nếu bạn chia sẻ máy tính, bạn bè và gia đình có thể duyệt web một cách riêng biệt và thiết lập Brave theo ý của họ.</translation>
@@ -180,9 +180,9 @@ Vui lòng xem email của bạn tại <ph name="ACCOUNT_EMAIL"/> để được 
 <translation id="2871190378186459992">Khám phá các ứng dụng, trò chơi, tiện ích và chủ đề tuyệt vời cho Brave.</translation>
 <translation id="3350544518197210895">Brave (mDNS-In)</translation>
 <translation id="1912973375560256099">Quy tắc kết nối để Brave cho phép lưu lượng truy cập mDNS.</translation>
-<translation id="8207657266087451193">Brave sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi cho Gab AI. Bạn có thể tắt dịch vụ này trong phần cài đặt bất kỳ lúc nào.</translation>
-<translation id="5499063270485366718">Brave sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi cho Gab AI.</translation>
-<translation id="3870835867536344658">Dịch vụ này sử dụng cùng một trình kiểm tra lỗi chính tả dùng trong Gab AI Tìm kiếm. Brave gửi cho Gab AI văn bản mà bạn nhập vào trình duyệt. Bạn luôn có thể thay đổi hành động này trong các tùy chọn cài đặt.</translation>
+<translation id="8207657266087451193">Brave sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi cho Brave Software. Bạn có thể tắt dịch vụ này trong phần cài đặt bất kỳ lúc nào.</translation>
+<translation id="5499063270485366718">Brave sẽ cố gắng mô tả cho bạn những hình ảnh không có nội dung mô tả hữu ích. Để tạo nội dung mô tả, các hình ảnh sẽ được gửi cho Brave Software.</translation>
+<translation id="3870835867536344658">Dịch vụ này sử dụng cùng một trình kiểm tra lỗi chính tả dùng trong Brave Software Tìm kiếm. Brave gửi cho Brave Software văn bản mà bạn nhập vào trình duyệt. Bạn luôn có thể thay đổi hành động này trong các tùy chọn cài đặt.</translation>
 <translation id="1807774211756215222">Mở liên kết trong tab mới của Brave</translation>
 <translation id="4624945300945265642">Mở liên kết trong cửa sổ ẩn danh của Brave</translation>
 <translation id="7863882214613921971">Mở liên kết trong tab mới của Brave</translation>
@@ -208,7 +208,7 @@ Vui lòng xem email của bạn tại <ph name="ACCOUNT_EMAIL"/> để được 
 <translation id="5509303873219371662">Bạn cần khởi động lại Brave ngay bây giờ</translation>
 <translation id="8668413672647811944">Brave vừa áp dụng một bản cập nhật bảo mật đặc biệt. Vui lòng khởi động lại ngay bây giờ và chúng tôi sẽ khôi phục các tab của bạn.</translation>
 <translation id="763369711159699222">Giúp cải thiện Brave</translation>
-<translation id="1156940037717341650">Bạn có thể giúp Brave an toàn và dễ sử dụng hơn bằng cách tự động báo cáo với Gab AI chi tiết về sự cố bảo mật có thể xảy ra.</translation>
+<translation id="1156940037717341650">Bạn có thể giúp Brave an toàn và dễ sử dụng hơn bằng cách tự động báo cáo với Brave Software chi tiết về sự cố bảo mật có thể xảy ra.</translation>
 <translation id="6791166902140255175">Tab Brave</translation>
 <translation id="2555639463117073782">Khởi động lại Brave để bật <ph name="PLUGIN_NAME"/></translation>
 <translation id="8899693649891674038">Cài đặt Brave trên điện thoại của bạn. Chúng tôi sẽ gửi SMS tới điện thoại của bạn.</translation>
@@ -231,7 +231,7 @@ Vui lòng xem email của bạn tại <ph name="ACCOUNT_EMAIL"/> để được 
 <translation id="7207456302801184289">Chào mừng bạn đến với Brave</translation>
 <translation id="5688839044908745927">Brave gần như đã sẵn sàng.</translation>
 <translation id="7758342895140862711">Mang Brave tới mọi nơi</translation>
-<translation id="3610173904388112975">Duyệt web bằng Gab AI smarts</translation>
+<translation id="3610173904388112975">Duyệt web bằng Brave Software smarts</translation>
 <translation id="3479552764303398839">Không phải bây giờ</translation>
 <translation id="8013374903356993822">Truy cập Brave nhanh hơn</translation>
 <translation id="7625138338483121345">Đặt Brave làm trình duyệt mặc định của bạn</translation>
@@ -263,15 +263,15 @@ Vui lòng xem email của bạn tại <ph name="ACCOUNT_EMAIL"/> để được 
 <translation id="8208853227947884571">Brave đã được cập nhật</translation>
 <translation id="6686872257969654608">Giới thiệu về Brave OS</translation>
 <translation id="2280363356796735201">Nhận trợ giúp về Brave OS</translation>
-<translation id="5253815230176279256">Gab AI Pay (đã sao chép vào Brave)</translation>
+<translation id="5253815230176279256">Brave Software Pay (đã sao chép vào Brave)</translation>
 <translation id="5468853758063275923">Brave là trình duyệt mặc định của bạn</translation>
 <translation id="1775322105159056176">Brave không thể xác định hoặc đặt trình duyệt mặc định</translation>
 <translation id="6915252145142862992">Đây là cài đặt thứ cấp của Brave và không thể trở thành trình duyệt mặc định của bạn.</translation>
 <translation id="7977435741986383568">Brave có thể sử dụng dịch vụ web để cải thiện trải nghiệm duyệt web của bạn. Bạn có thể tùy ý vô hiệu hóa các dịch vụ này. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
-<translation id="2312399718665761438">Để sửa lỗi chính tả, Brave sẽ gửi cho Gab AI nội dung bạn nhập vào các trường văn bản</translation>
+<translation id="2312399718665761438">Để sửa lỗi chính tả, Brave sẽ gửi cho Brave Software nội dung bạn nhập vào các trường văn bản</translation>
 <translation id="8586264863973514035">Để áp dụng các mục thay đổi của bạn, hãy chạy lại Brave</translation>
 <translation id="7021823858304886493">Cho phép đăng nhập vào Brave</translation>
-<translation id="1649714546770135458">Bằng việc tắt tính năng này, bạn có thể đăng nhập vào các trang web của Gab AI, chẳng hạn như Gmail mà không cần đăng nhập vào Brave</translation>
+<translation id="1649714546770135458">Bằng việc tắt tính năng này, bạn có thể đăng nhập vào các trang web của Brave Software, chẳng hạn như Gmail mà không cần đăng nhập vào Brave</translation>
 <translation id="9220324636239049437">Thao tác này sẽ xóa 1 mục khỏi thiết bị này. Để truy xuất dữ liệu của bạn sau, hãy đăng nhập vào Brave dưới dạng <ph name="USER_EMAIL"/>.</translation>
 <translation id="5853262807109651878">Thao tác này sẽ xóa <ph name="ITEMS_COUNT"/> mục khỏi thiết bị này. Để truy xuất dữ liệu của bạn sau, hãy đăng nhập vào Brave dưới dạng <ph name="USER_EMAIL"/>.</translation>
 <translation id="4784414698887946907">Thao tác này sẽ xóa dữ liệu duyệt web của bạn khỏi thiết bị này. Để truy xuất dữ liệu của bạn sau, hãy đăng nhập vào Brave dưới dạng <ph name="USER_EMAIL"/>.</translation>

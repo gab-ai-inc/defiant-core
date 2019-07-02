@@ -109,6 +109,9 @@ void AdsServiceFactory::RegisterProfilePrefs(
   registry->RegisterIntegerPref(prefs::kBraveAdsIdleThreshold, 15);
   registry->RegisterBooleanPref(
       prefs::kBraveAdShouldShowFirstLaunchNotification,
+      false);
+  registry->RegisterBooleanPref(
+      prefs::kBraveAdsHasRemovedFirstLaunchNotification,
       true);
 
   auto now = static_cast<uint64_t>(

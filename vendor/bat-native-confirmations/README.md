@@ -25,7 +25,7 @@ void SetCatalogIssuers(
 `GetTransactionHistoryForThisCycle` should be called to get transaction history for this cycle
 ```
 void GetTransactionHistory(
-    OnGetTransactionHistoryForThisCycle callback)
+    OnGetTransactionHistory callback)
 ```
 
 `ConfirmAd` should be called by Ads when clicking, viewing, dismissing or landing an Ad

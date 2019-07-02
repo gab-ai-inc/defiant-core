@@ -71,6 +71,7 @@ const char kRewardsNotificationAdsLaunch[] =
     "rewards_notification_ads_launch";
 
 }
+static const unsigned int kRetriesCountOnNetworkChange = 1;
 
 class LogStreamImpl : public ads::LogStream {
  public:
@@ -427,12 +428,8 @@ void AdsServiceImpl::Start() {
 }
 
 void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
-  #if defined(OS_LINUX)
-    auto ads_enabled = true;
-  #else
-    auto ads_enabled =
-        profile_->GetPrefs()->GetBoolean(prefs::kBraveAdsEnabled);
-  #endif
+  // Dissenter: no.
+  return;
 
   auto prefs_migrated_from_62 = profile_->GetPrefs()->GetBoolean(
       prefs::kBraveAdsPrefsMigratedFrom62);
@@ -442,7 +439,7 @@ void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
       !ShouldShowFirstLaunchNotification() ||
       !profile_->GetPrefs()->GetBoolean(
           brave_rewards::prefs::kBraveRewardsEnabled)) {
-    StartFirstLaunchNotificationTimer();
+    MaybeStartFirstLaunchNotificationTimer();
     return;
   }
 
@@ -470,6 +467,9 @@ void AdsServiceImpl::RemoveFirstLaunchNotification() {
       rewards_service->GetNotificationService();
   rewards_notification_service->DeleteNotification(
       kRewardsNotificationAdsLaunch);
+
+  profile_->GetPrefs()->SetBoolean(
+    prefs::kBraveAdsHasRemovedFirstLaunchNotification, true);
 }
 
 void AdsServiceImpl::ShowFirstLaunchNotification() {
@@ -486,6 +486,18 @@ void AdsServiceImpl::ShowFirstLaunchNotification() {
 
   profile_->GetPrefs()->SetBoolean(
     prefs::kBraveAdShouldShowFirstLaunchNotification, false);
+}
+
+void AdsServiceImpl::MaybeStartFirstLaunchNotificationTimer() {
+  bool has_removed_notification =
+      profile_->GetPrefs()->GetBoolean(
+          prefs::kBraveAdsHasRemovedFirstLaunchNotification);
+
+  if (has_removed_notification) {
+    return;
+  }
+
+  StartFirstLaunchNotificationTimer();
 }
 
 void AdsServiceImpl::StartFirstLaunchNotificationTimer() {
@@ -1169,6 +1181,7 @@ void AdsServiceImpl::URLRequest(
   net::URLFetcher* fetcher = net::URLFetcher::Create(
       GURL(url), request_type, this).release();
   fetcher->SetRequestContext(g_browser_process->system_request_context());
+  fetcher->SetAutomaticallyRetryOnNetworkChanges(kRetriesCountOnNetworkChange);
 
   for (size_t i = 0; i < headers.size(); i++)
     fetcher->AddExtraRequestHeader(headers[i]);

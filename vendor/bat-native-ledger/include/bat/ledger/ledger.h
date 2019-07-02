@@ -6,6 +6,8 @@
 #ifndef BAT_LEDGER_LEDGER_H_
 #define BAT_LEDGER_LEDGER_H_
 
+#include <stdint.h>
+
 #include <map>
 #include <memory>
 #include <string>
@@ -57,13 +59,15 @@ using PublisherBannerCallback =
     std::function<void(std::unique_ptr<ledger::PublisherBanner> banner)>;
 using WalletAddressesCallback =
     std::function<void(std::map<std::string, std::string> addresses)>;
-using GetTransactionHistoryForThisCycleCallback =
+using GetTransactionHistoryCallback =
     std::function<void(std::unique_ptr<ledger::TransactionsInfo> info)>;
 using GetExcludedPublishersNumberDBCallback = std::function<void(uint32_t)>;
 using OnWalletPropertiesCallback = std::function<void(const ledger::Result,
                                   std::unique_ptr<ledger::WalletInfo>)>;
 using OnRefreshPublisherCallback =
     std::function<void(bool)>;
+using GetAddressesCallback =
+    std::function<void(std::map<std::string, std::string>)>;
 
 class LEDGER_EXPORT Ledger {
  public:
@@ -169,11 +173,15 @@ class LEDGER_EXPORT Ledger {
 
   virtual void SetAutoContribute(bool enabled) = 0;
 
+  virtual void UpdateAdsRewards() = 0;
+
   virtual void SetBalanceReport(ACTIVITY_MONTH month,
                               int year,
                               const ledger::BalanceReportInfo& report_info) = 0;
 
-  virtual std::map<std::string, std::string> GetAddresses() = 0;
+  virtual void GetAddresses(
+      int32_t current_country_code,
+      ledger::GetAddressesCallback callback) = 0;
 
   virtual const std::string& GetBATAddress() const = 0;
 
@@ -279,8 +287,8 @@ class LEDGER_EXPORT Ledger {
   virtual void SetCatalogIssuers(const std::string& info) = 0;
 
   virtual void ConfirmAd(const std::string& info) = 0;
-  virtual void GetTransactionHistoryForThisCycle(
-      GetTransactionHistoryForThisCycleCallback callback) = 0;
+  virtual void GetTransactionHistory(
+      GetTransactionHistoryCallback callback) = 0;
   virtual void GetRewardsInternalsInfo(ledger::RewardsInternalsInfo* info) = 0;
 
   virtual void GetRecurringTips(ledger::PublisherInfoListCallback callback) = 0;

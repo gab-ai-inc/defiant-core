@@ -17,8 +17,9 @@ export const onTabId = (tabId: number | undefined) => action(types.ON_TAB_ID, {
   tabId
 })
 
-export const onTabRetrieved = (tab: chrome.tabs.Tab, publisherBlob: string = 'ignore') => action(types.ON_TAB_RETRIEVED, {
+export const onTabRetrieved = (tab: chrome.tabs.Tab, activeTabIsLoadingTriggered: boolean, publisherBlob: string = 'ignore') => action(types.ON_TAB_RETRIEVED, {
   tab,
+  activeTabIsLoadingTriggered,
   publisherBlob
 })
 
@@ -137,6 +138,11 @@ export const refreshPublisher = (verified: boolean, publisherKey: string) => act
   verified,
   publisherKey
 })
+
 export const onAllNotifications = (list: RewardsExtension.Notification[]) => action(types.ON_ALL_NOTIFICATIONS, {
   list
+})
+
+export const init = (tabs: chrome.tabs.Tab[]) => action(types.ON_INIT, {
+  tabs
 })

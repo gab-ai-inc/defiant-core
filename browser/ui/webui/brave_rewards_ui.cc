@@ -13,6 +13,8 @@
 
 #include "base/base64.h"
 #include "base/memory/weak_ptr.h"
+#include "base/time/time.h"
+#include "base/i18n/time_formatting.h"
 #include "brave/components/brave_ads/browser/ads_service.h"
 #include "brave/components/brave_ads/browser/ads_service_factory.h"
 #include "brave/components/brave_ads/browser/buildflags/buildflags.h"
@@ -69,6 +71,7 @@ class RewardsDOMHandler : public WebUIMessageHandler,
   void GetReconcileStamp(const base::ListValue* args);
   void GetAddresses(const base::ListValue* args);
   void SaveSetting(const base::ListValue* args);
+  void UpdateAdsRewards(const base::ListValue* args);
   void OnContentSiteList(
       std::unique_ptr<brave_rewards::ContentSiteList>,
       uint32_t record);
@@ -105,15 +108,16 @@ class RewardsDOMHandler : public WebUIMessageHandler,
   void OnContentSiteUpdated(
       brave_rewards::RewardsService* rewards_service) override;
   void GetAddressesForPaymentId(const base::ListValue* args);
-  void GetTransactionHistoryForThisCycle(const base::ListValue* args);
+  void GetTransactionHistory(const base::ListValue* args);
   void GetRewardsMainEnabled(const base::ListValue* args);
   void OnGetRewardsMainEnabled(bool enabled);
 
   void GetExcludedPublishersNumber(const base::ListValue* args);
 
-  void OnTransactionHistoryForThisCycle(
-      int ads_notifications_received,
-      double estimated_earnings);
+  void OnTransactionHistory(
+      double estimated_pending_rewards,
+      uint64_t next_payment_date_in_seconds,
+      uint64_t ad_notifications_received_this_month);
 
   void OnGetRecurringTips(
     std::unique_ptr<brave_rewards::ContentSiteList> list);
@@ -160,9 +164,9 @@ class RewardsDOMHandler : public WebUIMessageHandler,
 
   void OnPublisherListNormalized(
       brave_rewards::RewardsService* rewards_service,
-      brave_rewards::ContentSiteList list) override;
+      const brave_rewards::ContentSiteList& list) override;
 
-  void OnTransactionHistoryForThisCycleChanged(
+  void OnTransactionHistoryChanged(
       brave_rewards::RewardsService* rewards_service) override;
 
   void OnRecurringTipSaved(brave_rewards::RewardsService* rewards_service,
@@ -241,6 +245,9 @@ void RewardsDOMHandler::RegisterMessages() {
   web_ui()->RegisterMessageCallback("brave_rewards.saveSetting",
       base::BindRepeating(&RewardsDOMHandler::SaveSetting,
       base::Unretained(this)));
+  web_ui()->RegisterMessageCallback("brave_rewards.updateAdsRewards",
+      base::BindRepeating(&RewardsDOMHandler::UpdateAdsRewards,
+      base::Unretained(this)));
   web_ui()->RegisterMessageCallback("brave_rewards.getBalanceReports",
       base::BindRepeating(&RewardsDOMHandler::GetBalanceReports,
       base::Unretained(this)));
@@ -289,8 +296,8 @@ void RewardsDOMHandler::RegisterMessages() {
       base::BindRepeating(&RewardsDOMHandler::GetAddressesForPaymentId,
       base::Unretained(this)));
   web_ui()->RegisterMessageCallback(
-      "brave_rewards.getTransactionHistoryForThisCycle",
-      base::BindRepeating(&RewardsDOMHandler::GetTransactionHistoryForThisCycle,
+      "brave_rewards.getTransactionHistory",
+      base::BindRepeating(&RewardsDOMHandler::GetTransactionHistory,
       base::Unretained(this)));
   web_ui()->RegisterMessageCallback("brave_rewards.getRewardsMainEnabled",
       base::BindRepeating(&RewardsDOMHandler::GetRewardsMainEnabled,
@@ -602,12 +609,10 @@ void RewardsDOMHandler::OnGetAddresses(
     const std::map<std::string, std::string>& addresses) {
   if (web_ui()->CanCallJavascript() && (
       func_name == "addresses" || func_name == "addressesForPaymentId")) {
-    base::DictionaryValue data;
-    data.SetString("BAT", addresses.at("BAT"));
-    data.SetString("BTC", addresses.at("BTC"));
-    data.SetString("ETH", addresses.at("ETH"));
-    data.SetString("LTC", addresses.at("LTC"));
-
+    base::Value data(base::Value::Type::DICTIONARY);
+    for (auto& address : addresses) {
+      data.SetKey(address.first, base::Value(address.second));
+    }
     web_ui()->CallJavascriptFunctionUnsafe("brave_rewards." + func_name, data);
   }
 }
@@ -716,6 +721,14 @@ void RewardsDOMHandler::SaveSetting(const base::ListValue* args) {
       rewards_service_->SetAutoContribute(value == "true");
     }
   }
+}
+
+void RewardsDOMHandler::UpdateAdsRewards(const base::ListValue* args) {
+  if (!rewards_service_) {
+    return;
+  }
+
+  rewards_service_->UpdateAdsRewards();
 }
 
 void RewardsDOMHandler::ExcludePublisher(const base::ListValue *args) {
@@ -984,14 +997,8 @@ void RewardsDOMHandler::OnRewardsMainEnabled(
 
 void RewardsDOMHandler::OnPublisherListNormalized(
     brave_rewards::RewardsService* rewards_service,
-    brave_rewards::ContentSiteList list) {
-  std::unique_ptr<brave_rewards::ContentSiteList> site_list(
-      new brave_rewards::ContentSiteList);
-  for (auto& publisher : list) {
-    site_list->push_back(publisher);
-  }
-
-  OnContentSiteList(std::move(site_list), 0);
+    const brave_rewards::ContentSiteList& list) {
+  OnContentSiteList(std::make_unique<brave_rewards::ContentSiteList>(list), 0);
 }
 
 void RewardsDOMHandler::GetAddressesForPaymentId(
@@ -1004,32 +1011,45 @@ void RewardsDOMHandler::GetAddressesForPaymentId(
   }
 }
 
-void RewardsDOMHandler::GetTransactionHistoryForThisCycle(
+void RewardsDOMHandler::GetTransactionHistory(
     const base::ListValue* args) {
-  rewards_service_->GetTransactionHistoryForThisCycle(base::Bind(
-      &RewardsDOMHandler::OnTransactionHistoryForThisCycle,
+  rewards_service_->GetTransactionHistory(base::Bind(
+      &RewardsDOMHandler::OnTransactionHistory,
       weak_factory_.GetWeakPtr()));
 }
 
-void RewardsDOMHandler::OnTransactionHistoryForThisCycle(
-    int ads_notifications_received,
-    double estimated_earnings) {
+void RewardsDOMHandler::OnTransactionHistory(
+    double estimated_pending_rewards,
+    uint64_t next_payment_date_in_seconds,
+    uint64_t ad_notifications_received_this_month) {
   if (web_ui()->CanCallJavascript()) {
     base::DictionaryValue history;
 
-    history.SetInteger("adsNotificationsReceived", ads_notifications_received);
-    history.SetDouble("adsEstimatedEarnings", estimated_earnings);
+    history.SetDouble("adsEstimatedPendingRewards",
+        estimated_pending_rewards);
+
+    if (next_payment_date_in_seconds == 0) {
+      history.SetString("adsNextPaymentDate", "");
+    } else {
+      base::Time next_payment_date =
+          base::Time::FromDoubleT(next_payment_date_in_seconds);
+      history.SetString("adsNextPaymentDate",
+          base::TimeFormatWithPattern(next_payment_date, "MMMd"));
+    }
+
+    history.SetInteger("adsAdNotificationsReceivedThisMonth",
+        ad_notifications_received_this_month);
 
     web_ui()->CallJavascriptFunctionUnsafe(
-        "brave_rewards.transactionHistoryForThisCycle", history);
+        "brave_rewards.transactionHistory", history);
   }
 }
 
-void RewardsDOMHandler::OnTransactionHistoryForThisCycleChanged(
+void RewardsDOMHandler::OnTransactionHistoryChanged(
     brave_rewards::RewardsService* rewards_service) {
   if (web_ui()->CanCallJavascript()) {
     web_ui()->CallJavascriptFunctionUnsafe(
-        "brave_rewards.transactionHistoryForThisCycleChanged");
+        "brave_rewards.transactionHistoryChanged");
   }
 }
 
