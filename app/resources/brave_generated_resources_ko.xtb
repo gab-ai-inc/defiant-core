@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ko">
-<translation id="3333887201479867589">Brave Rewards</translation>
-<translation id="7942180974165298215">Brave 광고 차단</translation>
+<translation id="3333887201479867589">Dissenter Rewards</translation>
+<translation id="7942180974165298215">Dissenter 광고 차단</translation>
 <translation id="6406506848690869874">동기화</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>")은(는) Brave에서 허용되지 않습니다.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>")은(는) Dissenter에서 허용되지 않습니다.</translation>
 <translation id="7450557937477381864">Chrome 닫기</translation>
 <translation id="7008934821596358692">가져오기를 완료하려면 모든 Chrome 창을 닫아야 합니다.</translation>
-<translation id="5735465527556462863">Brave(구버전) 닫기</translation>
-<translation id="7737066986958447692">가져오기를 완료하려면 모든 Brave(구버전) 창을 닫으세요.</translation>
+<translation id="5735465527556462863">Dissenter(구버전) 닫기</translation>
+<translation id="7737066986958447692">가져오기를 완료하려면 모든 Dissenter(구버전) 창을 닫으세요.</translation>
 <translation id="6447842834002726250">쿠키</translation>
 <translation id="4983925687993168579">통계</translation>
-<translation id="6165477144235978006">Brave Payments</translation>
+<translation id="6165477144235978006">Dissenter Payments</translation>
 <translation id="3489524616427966890">창과 탭 열기</translation>
 <translation id="3699882589215410581">Widevine 설치 및 실행</translation>
 <translation id="8053096063396012732">Widevine 설치</translation>
 <translation id="4840334696217618631">Widevine을 활성화라혀면 브라우저를 재시작하세요</translation>
-<translation id="8410111618231938546">Google Widevine는 Brave Software가 소유하거나 관리 할 수 없는 디지털 권한 관리(DRM) 코드입니다. Google Widevine 코드는 우리의 서버가 아닌 Google 서버에서 로드합니다. 이 기능을 활성화 한 경우에만 로드 되며, 우리는 DRM 사용을 권장하지 않지만 사용자의 선택을 존중하며, 일부 Brave 사용자는 이 서비스가 필요함을 인정합니다.
+<translation id="8410111618231938546">Google Widevine는 Gab AI가 소유하거나 관리 할 수 없는 디지털 권한 관리(DRM) 코드입니다. Google Widevine 코드는 우리의 서버가 아닌 Google 서버에서 로드합니다. 이 기능을 활성화 한 경우에만 로드 되며, 우리는 DRM 사용을 권장하지 않지만 사용자의 선택을 존중하며, 일부 Dissenter 사용자는 이 서비스가 필요함을 인정합니다.
 
- 이 확장 프로그램을 설치하면 Google Widevine의 이용 약관에 동의하게 됩니다. 당신은 Brave가 Google Widevine 사용과 관련하여 발생한 어떠한 손해 및 손실에 대해 책임지지 않음을 동의하게 됩니다.</translation>
-<translation id="6499845530162974140">Brave(구버전)</translation>
-<translation id="3198814717959506569">Brave에서 가져오기</translation>
+ 이 확장 프로그램을 설치하면 Google Widevine의 이용 약관에 동의하게 됩니다. 당신은 Dissenter가 Google Widevine 사용과 관련하여 발생한 어떠한 손해 및 손실에 대해 책임지지 않음을 동의하게 됩니다.</translation>
+<translation id="6499845530162974140">Dissenter(구버전)</translation>
+<translation id="3198814717959506569">Dissenter에서 가져오기</translation>
 <translation id="453977518730680921">미디어 자동 재생</translation>
 <translation id="410351446219883937">자동 재생</translation>
 <translation id="2240268017737062801">사이트가 언제 미디어를  자동재생하기를 원하는지 묻기</translation>
@@ -28,19 +28,19 @@
 <translation id="3218385319396786393">이 페이지에서는 자동 재생이 차단되었습니다</translation>
 <translation id="4988333904713528597"><ph name="HOST"/>에서 자동 재생 항상 허용하기</translation>
 <translation id="4150684676757176434">계속해서 자동 재생 차단</translation>
-<translation id="2044383478723007273">Brave 색상</translation>
-<translation id="6123134130710658846">Brave Rewards 버튼 감추기</translation>
-<translation id="7635711399568194460">Brave Rewards가 비활성화되었을 시 로케이션 바에서 Brave Rewards를 감춥니다</translation>
+<translation id="2044383478723007273">Dissenter 색상</translation>
+<translation id="6123134130710658846">Dissenter Rewards 버튼 감추기</translation>
+<translation id="7635711399568194460">Dissenter Rewards가 비활성화되었을 시 로케이션 바에서 Dissenter Rewards를 감춥니다</translation>
 <translation id="7965178729203412357">새로운 Tor 계정</translation>
 <translation id="8784924142044142231">Tor 나가기</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Tor 창 열기</translation>
 <translation id="1434416574322382019">Tor와 함께하는 새로운 비공개 윈도우</translation>
 <translation id="4703780849509456860">Tor와 함께 비공개 윈도우에서 링크 열기</translation>
-<translation id="3488584642074079080">Brave 비공개 창의 링크를 Tor로 열기</translation>
+<translation id="3488584642074079080">Dissenter 비공개 창의 링크를 Tor로 열기</translation>
 <translation id="6313675821927505581">Tor를 이용한 새로운 비공개 윈도우</translation>
 <translation id="2638041073279639246">Tor를 이용해 비공개 윈도우에서 링크 열기</translation>
-<translation id="3425600262621021599">Tor를 이용해 Brave 비공개 윈도우에서 링크 열기</translation>
+<translation id="3425600262621021599">Tor를 이용해 Dissenter 비공개 윈도우에서 링크 열기</translation>
 <translation id="3155170474926428993">Tor 런처</translation>
 <translation id="2515126961943087659">Bat 광고 서비스</translation>
 <translation id="7924918279836988121">배트 원장 서비스</translation>

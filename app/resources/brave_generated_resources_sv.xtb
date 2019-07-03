@@ -1,26 +1,26 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sv">
-<translation id="3333887201479867589">Bravebelöningar</translation>
-<translation id="7942180974165298215">Brave annonsblockerare</translation>
+<translation id="3333887201479867589">Dissenterbelöningar</translation>
+<translation id="7942180974165298215">Dissenter annonsblockerare</translation>
 <translation id="6406506848690869874">Synka</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") är inte tillåtet i Brave.</translation>
-<translation id="7450557937477381864">Stäng Brave</translation>
-<translation id="7008934821596358692">Stäng alla Brave fönster för att göra klart importen.</translation>
-<translation id="5735465527556462863">Stäng Brave (gammal)</translation>
-<translation id="7737066986958447692">Stäng alla fönster i Brave (gammal) så att importen kan slutföras.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") är inte tillåtet i Dissenter.</translation>
+<translation id="7450557937477381864">Stäng Dissenter</translation>
+<translation id="7008934821596358692">Stäng alla Dissenter fönster för att göra klart importen.</translation>
+<translation id="5735465527556462863">Stäng Dissenter (gammal)</translation>
+<translation id="7737066986958447692">Stäng alla fönster i Dissenter (gammal) så att importen kan slutföras.</translation>
 <translation id="6447842834002726250">Cookies</translation>
 <translation id="4983925687993168579">Statistik</translation>
-<translation id="6165477144235978006">Brave-betalningar</translation>
+<translation id="6165477144235978006">Dissenter-betalningar</translation>
 <translation id="3489524616427966890">Öppna fönster och flikar</translation>
 <translation id="3699882589215410581">Installera och kör Wildwine</translation>
 <translation id="8053096063396012732">Installera Widevine</translation>
 <translation id="4840334696217618631">Starta om webbläsaren för att aktivera Widevine</translation>
-<translation id="8410111618231938546">Google Widevine är ett stycke kod för Digital Rights Management (DRM) som vi på Brave Software varken äger eller kan inspektera. Koden för Google Wideline laddas från Googles servrar, inte från våra servrar. Den laddas endast när du aktiverar det här valet. Vi avråder från användning av DRM, men vi respekterar användarens val och tillstår att vissa Brave-användare vill använda tjänster som kräver detta.
+<translation id="8410111618231938546">Google Widevine är ett stycke kod för Digital Rights Management (DRM) som vi på Gab AI varken äger eller kan inspektera. Koden för Google Wideline laddas från Googles servrar, inte från våra servrar. Den laddas endast när du aktiverar det här valet. Vi avråder från användning av DRM, men vi respekterar användarens val och tillstår att vissa Dissenter-användare vill använda tjänster som kräver detta.
 
-Genom att installera tilläggsprogrammet, godkänner du användarvillkoren för Google Widevine. Du accepterar att Brave inte kan hållas ansvarig för skada eller förlust till följd av din användning av Google Widevine.</translation>
-<translation id="6499845530162974140">Brave (gammal)</translation>
-<translation id="3198814717959506569">Importerad från Brave</translation>
+Genom att installera tilläggsprogrammet, godkänner du användarvillkoren för Google Widevine. Du accepterar att Dissenter inte kan hållas ansvarig för skada eller förlust till följd av din användning av Google Widevine.</translation>
+<translation id="6499845530162974140">Dissenter (gammal)</translation>
+<translation id="3198814717959506569">Importerad från Dissenter</translation>
 <translation id="453977518730680921">Spela upp media automatiskt</translation>
 <translation id="410351446219883937">Autospela</translation>
 <translation id="2240268017737062801">Fråga när en sida vill autospela media</translation>
@@ -28,19 +28,19 @@ Genom att installera tilläggsprogrammet, godkänner du användarvillkoren för 
 <translation id="3218385319396786393">Autouppspelning blockerades på denna sida</translation>
 <translation id="4988333904713528597">Autospela alltid på <ph name="HOST">$1<ex>mail.google.com</ex></ph></translation>
 <translation id="4150684676757176434">Fortsätt blockera automatisk uppspelning</translation>
-<translation id="2044383478723007273">Bravefärger</translation>
-<translation id="6123134130710658846">Dölj Brave Rewards-knappen</translation>
-<translation id="7635711399568194460">Döljer Brave Rewards-knappen i adressfältet när Brave Rewards inte är aktivt</translation>
+<translation id="2044383478723007273">Dissenterfärger</translation>
+<translation id="6123134130710658846">Dölj Dissenter Rewards-knappen</translation>
+<translation id="7635711399568194460">Döljer Dissenter Rewards-knappen i adressfältet när Dissenter Rewards inte är aktivt</translation>
 <translation id="7965178729203412357">Ny Tor-identitet</translation>
 <translation id="8784924142044142231">Lämna Tor</translation>
 <translation id="5410152065859052603">Tor</translation>
 <translation id="3696187925156352769">Öppna Tor-fönster</translation>
 <translation id="1434416574322382019">Nytt privat fönster med Tor</translation>
 <translation id="4703780849509456860">Öppna länk i privat fönster med Tor</translation>
-<translation id="3488584642074079080">Öppna länken med Tor i ett privat Bravefönster</translation>
+<translation id="3488584642074079080">Öppna länken med Tor i ett privat Dissenterfönster</translation>
 <translation id="6313675821927505581">Nytt privat fönster med Tor</translation>
 <translation id="2638041073279639246">Öppna länk i nytt privat fönster med Tor</translation>
-<translation id="3425600262621021599">Öppna länk i Brave i ett privat fönster med Tor</translation>
+<translation id="3425600262621021599">Öppna länk i Dissenter i ett privat fönster med Tor</translation>
 <translation id="3155170474926428993">Tor launcher</translation>
 <translation id="2515126961943087659">BAT-annonstjänst</translation>
 <translation id="7924918279836988121">Bat huvudbokstjänst</translation>

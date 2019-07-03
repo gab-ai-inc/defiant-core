@@ -430,27 +430,6 @@ void AdsServiceImpl::Start() {
 void AdsServiceImpl::MaybeShowFirstLaunchNotification() {
   // Dissenter: no.
   return;
-
-  auto prefs_migrated_from_62 = profile_->GetPrefs()->GetBoolean(
-      prefs::kBraveAdsPrefsMigratedFrom62);
-
-  if (!ads_enabled ||
-      !prefs_migrated_from_62 ||
-      !ShouldShowFirstLaunchNotification() ||
-      !profile_->GetPrefs()->GetBoolean(
-          brave_rewards::prefs::kBraveRewardsEnabled)) {
-    MaybeStartFirstLaunchNotificationTimer();
-    return;
-  }
-
-  auto now = static_cast<uint64_t>(
-      (base::Time::Now() - base::Time()).InSeconds());
-  profile_->GetPrefs()->SetUint64(
-      prefs::kBraveAdsLaunchNotificationTimestamp, now);
-
-  ShowFirstLaunchNotification();
-
-  StartFirstLaunchNotificationTimer();
 }
 
 bool AdsServiceImpl::ShouldShowFirstLaunchNotification() {
