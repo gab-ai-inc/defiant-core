@@ -9,6 +9,11 @@ announcements.
 
 # Changes
 
+## v66.99 (July 3rd 2019)
+
+* Updated to latest upstream, which includes dark mode (available in Settings -> Appearance.
+* Another attempt at fixing linux naming issues.
+
 ## v65.121 (June 23rd 2019)
 
 * The Windows build is now digitally signed!
