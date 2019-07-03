@@ -48,10 +48,12 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
       GetIndexOfCommandId(IDC_OPTIONS),
       IDC_SHOW_DISSENTER_EXTENSION_SETTINGS,
       IDS_SHOW_DISSENTER_EXTENSION_SETTINGS);
+      /*
   InsertItemWithStringIdAt(
       GetIndexOfCommandId(IDC_OPTIONS),
       IDC_SHOW_BRAVE_ADBLOCK,
       IDS_SHOW_BRAVE_ADBLOCK);
+      */
   if (browser_->profile()->IsTorProfile()) {
     InsertItemWithStringIdAt(
         GetIndexOfCommandId(IDC_NEW_WINDOW),
