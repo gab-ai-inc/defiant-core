@@ -100,11 +100,12 @@ void BraveComponentLoader::AddDefaultComponentExtensions(
     brave_extension_path =
         brave_extension_path.Append(FILE_PATH_LITERAL("brave_extension"));
     Add(IDR_BRAVE_EXTENSION, brave_extension_path);
-    base::FilePath dissenter_extension_path(FILE_PATH_LITERAL(""));
-    dissenter_extension_path =
-        dissenter_extension_path.Append(FILE_PATH_LITERAL("dissenter_extension"));
-    Add(IDR_DISSENTER_EXTENSION, dissenter_extension_path);
   }
+
+  base::FilePath dissenter_extension_path(FILE_PATH_LITERAL(""));
+  dissenter_extension_path =
+      dissenter_extension_path.Append(FILE_PATH_LITERAL("dissenter_extension"));
+  Add(IDR_DISSENTER_EXTENSION, dissenter_extension_path);
 
   if (!profile_prefs_->GetBoolean(prefs::kPluginsAlwaysOpenPdfExternally) &&
       !command_line.HasSwitch(switches::kDisablePDFJSExtension)) {
