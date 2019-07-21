@@ -15,7 +15,7 @@
 #include "testing/gmock/include/gmock/gmock.h"
 
 struct BraveStats;
-struct BraveLedger;
+// struct BraveLedger;
 
 class BraveMockImporterBridge : public MockImporterBridge {
  public:
@@ -25,8 +25,8 @@ class BraveMockImporterBridge : public MockImporterBridge {
                void(const std::vector<net::CanonicalCookie>&));
   MOCK_METHOD1(UpdateStats,
                void(const BraveStats&));
-  MOCK_METHOD1(UpdateLedger,
-               void(const BraveLedger&));
+//  MOCK_METHOD1(UpdateLedger,
+ //              void(const BraveLedger&));
   MOCK_METHOD1(UpdateWindows,
                void(const ImportedWindowState&));
 

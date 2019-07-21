@@ -10,9 +10,9 @@
 #include <string>
 
 #include "extensions/browser/extension_function.h"
-#include "brave/components/brave_rewards/browser/content_site.h"
-#include "brave/components/brave_rewards/browser/publisher_banner.h"
-
+// #include "brave/components/brave_rewards/browser/content_site.h"
+//#include "brave/components/brave_rewards/browser/publisher_banner.h"
+/*
 namespace extensions {
 namespace api {
 
@@ -249,5 +249,5 @@ class BraveRewardsGetAllNotificationsFunction :
 
 }  // namespace api
 }  // namespace extensions
-
+*/
 #endif  // BRAVE_BROWSER_EXTENSIONS_API_BRAVE_REWARDS_API_H_

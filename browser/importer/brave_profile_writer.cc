@@ -15,10 +15,12 @@
 #include "brave/common/importer/brave_referral.h"
 #include "brave/common/importer/imported_browser_window.h"
 #include "brave/common/pref_names.h"
+/*
 #include "brave/components/brave_rewards/browser/content_site.h"
 #include "brave/components/brave_rewards/browser/rewards_service.h"
 #include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "brave/components/brave_rewards/browser/wallet_properties.h"
+*/
 #include "brave/components/search_engines/brave_prepopulated_engines.h"
 #include "brave/utility/importer/brave_importer.h"
 #include "brave/browser/importer/brave_in_process_importer_bridge.h"
@@ -61,7 +63,7 @@ BraveProfileWriter::BraveProfileWriter(Profile* profile)
 }
 
 BraveProfileWriter::~BraveProfileWriter() {
-  DCHECK(!IsInObserverList());
+  // DCHECK(!IsInObserverList());
 }
 
 void BraveProfileWriter::AddCookies(
@@ -108,7 +110,7 @@ void BraveProfileWriter::UpdateStats(const BraveStats& stats) {
 void BraveProfileWriter::SetBridge(BraveInProcessImporterBridge* bridge) {
   bridge_ptr_ = bridge;
 }
-
+/*
 void BraveProfileWriter::OnWalletInitialized(
     brave_rewards::RewardsService* rewards_service, uint32_t result) {
   if (result != 0 && result != 12) {  // 12: ledger::Result::WALLET_CREATED
@@ -331,7 +333,7 @@ void BraveProfileWriter::OnIsWalletCreated(bool created) {
   rewards_service_->AddObserver(this);
   rewards_service_->FetchWalletProperties();
 }
-
+*/
 void BraveProfileWriter::UpdateReferral(const BraveReferral& referral) {
   PrefService* local_state = g_browser_process->local_state();
   if (!local_state) {

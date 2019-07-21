@@ -10,7 +10,7 @@ IPC_STRUCT_TRAITS_BEGIN(BraveStats)
   IPC_STRUCT_TRAITS_MEMBER(trackingProtection_count)
   IPC_STRUCT_TRAITS_MEMBER(httpsEverywhere_count)
 IPC_STRUCT_TRAITS_END()
-
+/*
 IPC_STRUCT_TRAITS_BEGIN(BravePublisher)
   IPC_STRUCT_TRAITS_MEMBER(key)
   IPC_STRUCT_TRAITS_MEMBER(verified)
@@ -20,6 +20,13 @@ IPC_STRUCT_TRAITS_BEGIN(BravePublisher)
   IPC_STRUCT_TRAITS_MEMBER(pin_percentage)
 IPC_STRUCT_TRAITS_END()
 
+IPC_STRUCT_TRAITS_BEGIN(BraveLedger)
+  IPC_STRUCT_TRAITS_MEMBER(passphrase)
+  IPC_STRUCT_TRAITS_MEMBER(excluded_publishers)
+  IPC_STRUCT_TRAITS_MEMBER(pinned_publishers)
+  IPC_STRUCT_TRAITS_MEMBER(settings)
+IPC_STRUCT_TRAITS_END()
+*/
 IPC_STRUCT_TRAITS_BEGIN(SessionStoreSettings::PaymentSettings)
   IPC_STRUCT_TRAITS_MEMBER(allow_media_publishers)
   IPC_STRUCT_TRAITS_MEMBER(allow_non_verified)
@@ -29,18 +36,12 @@ IPC_STRUCT_TRAITS_BEGIN(SessionStoreSettings::PaymentSettings)
   IPC_STRUCT_TRAITS_MEMBER(min_visits)
 IPC_STRUCT_TRAITS_END()
 
+
 IPC_STRUCT_TRAITS_BEGIN(SessionStoreSettings)
   IPC_STRUCT_TRAITS_MEMBER(payments)
   IPC_STRUCT_TRAITS_MEMBER(default_search_engine)
   IPC_STRUCT_TRAITS_MEMBER(use_alternate_private_search_engine)
   IPC_STRUCT_TRAITS_MEMBER(use_alternate_private_search_engine_tor)
-IPC_STRUCT_TRAITS_END()
-
-IPC_STRUCT_TRAITS_BEGIN(BraveLedger)
-  IPC_STRUCT_TRAITS_MEMBER(passphrase)
-  IPC_STRUCT_TRAITS_MEMBER(excluded_publishers)
-  IPC_STRUCT_TRAITS_MEMBER(pinned_publishers)
-  IPC_STRUCT_TRAITS_MEMBER(settings)
 IPC_STRUCT_TRAITS_END()
 
 IPC_STRUCT_TRAITS_BEGIN(BraveReferral)

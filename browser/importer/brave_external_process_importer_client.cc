@@ -53,14 +53,6 @@ void BraveExternalProcessImporterClient::OnStatsImportReady(
   bridge_->UpdateStats(stats);
 }
 
-void BraveExternalProcessImporterClient::OnLedgerImportReady(
-    const BraveLedger& ledger) {
-  if (cancelled_)
-    return;
-
-  bridge_->UpdateLedger(ledger);
-}
-
 void BraveExternalProcessImporterClient::OnReferralImportReady(
     const BraveReferral& referral) {
   if (cancelled_)

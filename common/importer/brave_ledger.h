@@ -7,7 +7,7 @@
 
 #include <string>
 #include <vector>
-
+/*
 struct BravePublisher {
   std::string key;
   bool verified;
@@ -20,9 +20,11 @@ struct BravePublisher {
   BravePublisher(const BravePublisher& other);
   ~BravePublisher();
 };
-
+*/
 // NOTE: if we need to read more data from session-store-1,
 // we may consider moving this to brave_importer.h (or similar)
+
+
 struct SessionStoreSettings {
   struct PaymentSettings {
     bool allow_media_publishers;
@@ -36,7 +38,7 @@ struct SessionStoreSettings {
   bool use_alternate_private_search_engine;
   bool use_alternate_private_search_engine_tor;
 };
-
+/*
 struct BraveLedger {
   BraveLedger();
   BraveLedger(const BraveLedger& other);
@@ -47,5 +49,5 @@ struct BraveLedger {
   std::vector<BravePublisher> pinned_publishers;
   SessionStoreSettings settings;
 };
-
+*/
 #endif  // BRAVE_COMMON_IMPORTER_BRAVE_LEDGER_H_

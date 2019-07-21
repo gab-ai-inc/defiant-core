@@ -15,8 +15,8 @@
 #include "brave/browser/tor/tor_profile_service_factory.h"
 #include "brave/common/tor/pref_names.h"
 #include "brave/common/tor/tor_constants.h"
-#include "brave/components/brave_ads/browser/ads_service_factory.h"
-#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
+//#include "brave/components/brave_ads/browser/ads_service_factory.h"
+//#include "brave/components/brave_rewards/browser/rewards_service_factory.h"
 #include "brave/components/brave_shields/browser/ad_block_regional_service.h"
 #include "brave/components/brave_shields/browser/ad_block_service.h"
 #include "brave/components/brave_sync/brave_sync_service_factory.h"
@@ -107,9 +107,9 @@ void BraveProfileManager::DoFinalInitForServices(Profile* profile,
   ProfileManager::DoFinalInitForServices(profile, go_off_the_record);
   // BraveSyncService need to be created when profile initialized, otherwise
   // it will only be constructed only when we open chrome:/sync/
-  brave_sync::BraveSyncServiceFactory::GetForProfile(profile);
-  brave_ads::AdsServiceFactory::GetForProfile(profile);
-  brave_rewards::RewardsServiceFactory::GetForProfile(profile);
+  // brave_sync::BraveSyncServiceFactory::GetForProfile(profile);
+  //brave_ads::AdsServiceFactory::GetForProfile(profile);
+//  brave_rewards::RewardsServiceFactory::GetForProfile(profile);
   content::URLDataSource::Add(profile,
       std::make_unique<brave_content::BraveSharedResourcesDataSource>());
 }

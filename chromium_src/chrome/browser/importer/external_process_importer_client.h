@@ -4,7 +4,7 @@
 
 #include "net/cookies/canonical_cookie.h"
 
-struct BraveLedger;
+//struct BraveLedger;
 struct BraveStats;
 struct ImportedWindowState;
 

@@ -12,9 +12,9 @@ source_set("profiles") {
     "//brave/browser/tor",
     "//brave/content:browser",
     "//brave/common/tor",
-    "//brave/components/brave_ads/browser",
+    # "//brave/components/brave_ads/browser",
     "//brave/components/brave_sync",
-    "//brave/components/brave_rewards/browser",
+    # "//brave/components/brave_rewards/browser",
     "//ui/base",
   ]
 }

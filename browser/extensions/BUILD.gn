@@ -2,10 +2,10 @@ import("//build/config/features.gni")
 
 source_set("extensions") {
   sources = [
-    "api/rewards_notifications_api.cc",
-    "api/rewards_notifications_api.h",
-    "api/brave_rewards_api.cc",
-    "api/brave_rewards_api.h",
+    # "api/rewards_notifications_api.cc",
+    # "api/rewards_notifications_api.h",
+    # "api/brave_rewards_api.cc",
+    # "api/brave_rewards_api.h",
     "api/brave_shields_api.cc",
     "api/brave_shields_api.h",
     "api/brave_sync_api.cc",
@@ -49,8 +49,8 @@ source_set("extensions") {
     "//brave/components/brave_extension:generated_resources",
     "//brave/components/dissenter_extension:static_resources",
     "//brave/components/dissenter_extension:generated_resources",
-    "//brave/components/brave_rewards/resources/extension:extension_generated_resources",
-    "//brave/components/brave_rewards/resources/extension:static_resources",
+    # "//brave/components/brave_rewards/resources/extension:extension_generated_resources",
+    # "//brave/components/brave_rewards/resources/extension:static_resources",
     "//brave/components/brave_sync",
     "//brave/components/brave_sync:generated_resources",
     "//brave/components/brave_sync:static_resources",

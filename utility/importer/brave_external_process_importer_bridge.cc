@@ -44,11 +44,6 @@ void BraveExternalProcessImporterBridge::UpdateStats(
   (*observer_)->OnStatsImportReady(stats);
 }
 
-void BraveExternalProcessImporterBridge::UpdateLedger(
-    const BraveLedger& ledger) {
-  (*observer_)->OnLedgerImportReady(ledger);
-}
-
 void BraveExternalProcessImporterBridge::UpdateReferral(
     const BraveReferral& referral) {
   (*observer_)->OnReferralImportReady(referral);

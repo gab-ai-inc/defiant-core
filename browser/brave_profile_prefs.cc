@@ -8,7 +8,7 @@
 #include "brave/browser/themes/brave_theme_service.h"
 #include "brave/browser/tor/tor_profile_service.h"
 #include "brave/common/pref_names.h"
-#include "brave/components/brave_rewards/browser/rewards_service.h"
+// #include "brave/components/brave_rewards/browser/rewards_service.h"
 #include "brave/components/brave_shields/browser/brave_shields_web_contents_observer.h"
 #include "chrome/browser/net/prediction_options.h"
 #include "chrome/browser/prefs/session_startup_pref.h"
@@ -28,7 +28,7 @@
 namespace brave {
 
 void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
-  brave_rewards::RewardsService::RegisterProfilePrefs(registry);
+  // brave_rewards::RewardsService::RegisterProfilePrefs(registry);
   brave_shields::BraveShieldsWebContentsObserver::RegisterProfilePrefs(
       registry);
 
@@ -116,7 +116,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(prefs::kImportDialogLedger, true);
   registry->RegisterBooleanPref(prefs::kImportDialogWindows, true);
   // Importer: ledger (used for Brave Rewards pinned => tips)
-  registry->RegisterIntegerPref(kBravePaymentsPinnedItemCount, 0);
+  // registry->RegisterIntegerPref(kBravePaymentsPinnedItemCount, 0);
 
   // IPFS companion extension
   registry->RegisterBooleanPref(kIPFSCompanionEnabled, false);

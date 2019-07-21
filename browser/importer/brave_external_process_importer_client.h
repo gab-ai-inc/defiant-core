@@ -11,9 +11,10 @@
 #include "chrome/browser/importer/external_process_importer_client.h"
 #include "net/cookies/canonical_cookie.h"
 
-struct BraveStats;
-struct BraveLedger;
+//struct BraveStats;
+//struct BraveLedger;
 struct ImportedWindowState;
+
 
 class BraveExternalProcessImporterClient : public ExternalProcessImporterClient {
  public:
@@ -32,8 +33,6 @@ class BraveExternalProcessImporterClient : public ExternalProcessImporterClient 
       const std::vector<net::CanonicalCookie>& cookies_group) override;
   void OnStatsImportReady(
        const BraveStats& stats) override;
-  void OnLedgerImportReady(
-       const BraveLedger& ledger) override;
   void OnReferralImportReady(
        const BraveReferral& referral) override;
   void OnWindowsImportReady(

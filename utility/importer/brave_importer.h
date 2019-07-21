@@ -29,6 +29,7 @@ class BraveImporter : public ChromeImporter {
                    uint16_t items,
                    ImporterBridge* bridge) override;
 
+
  private:
   ~BraveImporter() override;
 
