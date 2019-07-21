@@ -9,6 +9,12 @@ announcements.
 
 # Changes
 
+## v66.100 (July 21, 2019)
+
+* More work on Linux (remove a keyring dependency, workaround WM_CLASS issue)
+* Huge effort to more-completely disable the BAT / Brave Rewards service
+* Minor upstream update, newer Chromium build 75.0.3770.142
+
 ## v66.99 (July 3rd 2019)
 
 * Updated to latest upstream, which includes dark mode (available in Settings -> Appearance.
