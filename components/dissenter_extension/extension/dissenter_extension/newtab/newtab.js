@@ -272,7 +272,7 @@ var Background = function() {
 
     clearUploadedBackgroundBtn.addEventListener("click", function() {
         newTab.settings.updateSettingsItem(NT_BACKGROUND_IMAGE, null, true);
-        resetBackgroundImage();
+        scope.resetBackgroundImage();
     });
 
     var tipsCloser = document.getElementById("dissenter-tab-foot-closer");
@@ -281,14 +281,19 @@ var Background = function() {
         scope.setHideTips();
     });
 
-    function resetBackgroundImage() {
+    scope.resetBackgroundImage = function() {
         metaBackgroundImageBox.src = newTab.userDefaults[NT_BACKGROUND_IMAGE_URL];
-
-        if (!solidColorOption.value && !randomGradientOption.enabled) {
-            mainImage.classList.remove("hidden");
-        } else {
+        if (!solidColorOption.value && !randomGradientOption.checked) {
+            scope.setBackgroundImage({a:false}, true);
+        } else if (solidColorOption.value) {
             mainImage.style.removeProperty("background-image");
             mainImage.classList.add("hidden");
+            content.style.removeProperty("background");
+            content.style.setProperty("background-color", solidColorOption.value, "important");
+        } else {
+            var gradient = getRandomLinearGradient();
+            mainImage.classList.add("hidden");
+            content.style.setProperty("background", gradient, "important");
         }
     };
 
@@ -320,7 +325,7 @@ var Background = function() {
         var color = event.detail;
 
         if (!color) {
-            resetBackgroundImage();
+            scope.resetBackgroundImage();
         }
         else {
             mainImage.classList.add("hidden");
@@ -340,17 +345,17 @@ var Background = function() {
             content.style.setProperty("background", gradient, "important");
         }
         else {
-            resetBackgroundImage();
+            scope.resetBackgroundImage();
         }
     };
 
-    scope.setBackgroundImage = function(event) {
+    scope.setBackgroundImage = function(event, force) {
         if (!isObject(event)) return false;
 
         var imageData = event.detail;
 
-        if (!imageData && !newTab.userDefaults[NT_BACKGROUND_IMAGE_URL]) {
-            resetBackgroundImage();
+        if (!imageData && !force) {
+            scope.resetBackgroundImage();
         }
         else {
             var bgImg = '';
@@ -363,6 +368,7 @@ var Background = function() {
                 mainImage.style.setProperty("background-image", bgImg, "important");
                 metaBackgroundImageBox.src = newTab.userDefaults[NT_BACKGROUND_IMAGE_URL];
             }
+            mainImage.classList.remove("hidden");
 
             //Reset background solid color
             var event2 = new CustomEvent("WELM_update_settings_item", {
@@ -375,9 +381,6 @@ var Background = function() {
             });
             window.dispatchEvent(event2);
         }
-
-        //Show
-        mainImage.classList.remove("hidden");
     };
 
     scope.setPageColorScheme = function(event) {

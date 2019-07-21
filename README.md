@@ -14,6 +14,7 @@ announcements.
 * Huge effort to more-completely disable the BAT / Brave Rewards service, the brave extension / sync / update services
 * Remove "brave" parameter that was passed to search engines DDG & Qwant
 * More work on Linux (remove a keyring dependency, workaround WM_CLASS issue)
+* Fix issue with newTab settings (color/image) not stacking properly
 * Minor upstream update, newer Chromium build 75.0.3770.142
 
 ## v66.99 (July 3rd 2019)
