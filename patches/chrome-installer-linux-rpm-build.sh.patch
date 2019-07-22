@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/linux/rpm/build.sh b/chrome/installer/linux/rpm/build.sh
-index 0bcd8689d45850ad539f99423fa211785db4f343..c0c1666883b2561dae31a0f3c722df3dc6bef8f3 100755
+index 0bcd8689d45850ad539f99423fa211785db4f343..d6f6de64c5452cf84adab1c7e83662af12e10c9a 100755
 --- a/chrome/installer/linux/rpm/build.sh
 +++ b/chrome/installer/linux/rpm/build.sh
 @@ -15,8 +15,9 @@ gen_spec() {
@@ -19,10 +19,10 @@ index 0bcd8689d45850ad539f99423fa211785db4f343..c0c1666883b2561dae31a0f3c722df3d
    DEPENDS=$(cat "${RPM_COMMON_DEPS}" | tr '\n' ',')
 +
 +  # Ensure that our signing key is up-to-date (brave/brave-browser#4205).
-+  if [ "$CHANNEL" = "stable" ]; then
++  # if [ "$CHANNEL" = "stable" ]; then
 +    # Dissenter: Remove brave-keyring, hopefully that works out ok.
 +    # DEPENDS="brave-keyring, ${DEPENDS}"
-+  fi
++  # fi
 +
    gen_spec
  
