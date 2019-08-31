@@ -54,7 +54,7 @@ void BraveSettingsUI::AddResources(content::WebUIDataSource* html_source,
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
   html_source->AddBoolean("isSyncDisabled",
-                          command_line.HasSwitch(switches::kDisableBraveSync));
+                          true || command_line.HasSwitch(switches::kDisableBraveSync));
   html_source->AddString("braveProductVersion",
     version_info::GetBraveVersionWithoutChromiumMajorVersion());
   NavigationBarDataProvider::Initialize(html_source);
