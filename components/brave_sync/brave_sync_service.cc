@@ -13,11 +13,11 @@ BraveSyncService::BraveSyncService() {}
 BraveSyncService::~BraveSyncService() {}
 
 void BraveSyncService::AddObserver(BraveSyncServiceObserver* observer) {
-  observers_.AddObserver(observer);
+  //observers_.AddObserver(observer);
 }
 
 void BraveSyncService::RemoveObserver(BraveSyncServiceObserver* observer) {
-  observers_.RemoveObserver(observer);
+  //observers_.RemoveObserver(observer);
 }
 
 }  // namespace brave_sync
