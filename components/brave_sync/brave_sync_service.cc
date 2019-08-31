@@ -13,18 +13,18 @@ BraveSyncService::BraveSyncService() {}
 BraveSyncService::~BraveSyncService() {}
 
 void BraveSyncService::AddObserver(BraveSyncServiceObserver* observer) {
-  observers_.AddObserver(observer);
+  //observers_.AddObserver(observer);
 }
 
 void BraveSyncService::RemoveObserver(BraveSyncServiceObserver* observer) {
-  observers_.RemoveObserver(observer);
+  //observers_.RemoveObserver(observer);
 }
 
 // static
 bool BraveSyncService::is_enabled() {
   const base::CommandLine& command_line =
       *base::CommandLine::ForCurrentProcess();
-  return !command_line.HasSwitch(switches::kDisableBraveSync);
+  return true || command_line.HasSwitch(switches::kDisableBraveSync);
 }
 
 }  // namespace brave_sync
