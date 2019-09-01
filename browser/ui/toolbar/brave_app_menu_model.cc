@@ -55,6 +55,10 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
           IDS_SHOW_BRAVE_SYNC);
     }
   }
+  InsertItemWithStringIdAt(
+      GetIndexOfCommandId(IDC_OPTIONS),
+      IDC_SHOW_DISSENTER_EXTENSION_SETTINGS,
+      IDS_SHOW_DISSENTER_EXTENSION_SETTINGS);
   /*
   InsertItemWithStringIdAt(
       GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
