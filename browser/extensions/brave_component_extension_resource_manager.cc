@@ -7,6 +7,8 @@
 
 #include "brave/components/brave_extension/grit/brave_extension_generated_map.h"
 #include "brave/components/brave_extension/grit/brave_extension_resources_map.h"
+#include "brave/components/dissenter_extension/grit/dissenter_extension_generated_map.h"
+#include "brave/components/dissenter_extension/grit/dissenter_extension_resources_map.h"
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
 #include "brave/components/brave_sync/grit/brave_sync_generated_map.h"
 #include "brave/components/brave_sync/grit/brave_sync_resources_map.h"
@@ -29,6 +31,14 @@ BraveComponentExtensionResourceManager() {
   AddComponentResourceEntries(
       kBraveExtensionGenerated,
       kBraveExtensionGeneratedSize);
+
+  AddComponentResourceEntries(
+      kDissenterExtension,
+      kDissenterExtensionSize);
+
+  AddComponentResourceEntries(
+      kDissenterExtensionGenerated,
+      kDissenterExtensionGeneratedSize);      
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
   AddComponentResourceEntries(
       kBraveRewardsExtensionResources,

@@ -90,10 +90,11 @@ void BraveActionsContainer::Init() {
   // make sure separator is at index 0
   AddChildViewAt(brave_button_separator_, 0);
   // Populate actions
-  actions_[brave_extension_id].position_ = 1;
-  actions_[brave_rewards_extension_id].position_ = ACTION_ANY_POSITION;
+  actions_[dissenter_extension_id].position_ = 1;
+  actions_[brave_extension_id].position_ = ACTION_ANY_POSITION;
 
   // React to Brave Rewards preferences changes.
+  /*
   brave_rewards_enabled_.Init(
       brave_rewards::prefs::kBraveRewardsEnabled,
       browser_->profile()->GetPrefs(),
@@ -103,6 +104,7 @@ void BraveActionsContainer::Init() {
       kHideBraveRewardsButton, browser_->profile()->GetPrefs(),
       base::Bind(&BraveActionsContainer::OnBraveRewardsPreferencesChanged,
                  base::Unretained(this)));
+  */
 }
 
 bool BraveActionsContainer::IsContainerAction(const std::string& id) const {
@@ -273,6 +275,10 @@ void BraveActionsContainer::OnExtensionSystemReady() {
           extension_registry_->enabled_extensions().GetByID(brave_extension_id);
   if (extension)
     AddAction(extension);
+  const extensions::Extension* dextension =
+          extension_registry_->enabled_extensions().GetByID(dissenter_extension_id);
+  if (dextension)
+    AddAction(dextension);    
   // Check if brave rewards extension already loaded
   extension = extension_registry_->enabled_extensions().GetByID(
       brave_rewards_extension_id);
