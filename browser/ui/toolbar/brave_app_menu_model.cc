@@ -67,6 +67,10 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
   InsertSeparatorAt(
     GetIndexOfCommandId(IDC_ADD_NEW_PROFILE), ui::NORMAL_SEPARATOR);
 
+  InsertItemWithStringIdAt(
+      GetIndexOfCommandId(IDC_OPTIONS),
+      IDC_SHOW_DISSENTER_EXTENSION_SETTINGS,
+      IDS_SHOW_DISSENTER_EXTENSION_SETTINGS);
   /*
   InsertItemWithStringIdAt(
       GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
