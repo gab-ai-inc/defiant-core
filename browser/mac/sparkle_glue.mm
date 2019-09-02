@@ -165,7 +165,7 @@ class PerformBridge : public base::RefCountedThreadSafe<PerformBridge> {
   // again when browser is relaunched.
   if (registered_)
     return;
-
+  return;
   DCHECK(brave::UpdateEnabled());
   DCHECK(su_updater_);
 
@@ -208,6 +208,7 @@ class PerformBridge : public base::RefCountedThreadSafe<PerformBridge> {
 }
 
 - (void)checkForUpdates {
+  return;
   DCHECK(registered_);
 
   if ([self asyncOperationPending]) {
@@ -226,6 +227,7 @@ class PerformBridge : public base::RefCountedThreadSafe<PerformBridge> {
 }
 
 - (void)checkForUpdatesInBackground {
+  return;
   DCHECK(registered_);
   [su_updater_ checkForUpdatesInBackground];
 }
