@@ -12,9 +12,7 @@ import { Page, Panel, SlideContent } from 'brave-ui/features/welcome'
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
 import ImportBox from './screens/importBox'
-import RewardsBox from './screens/rewardsBox'
 import SearchBox from './screens/searchBox'
-import ShieldsBox from './screens/shieldsBox'
 import ThemeBox from './screens/themeBox'
 import FooterBox from './screens/footerBox'
 
@@ -38,7 +36,7 @@ export interface State {
   currentScreen: number
 }
 
-const totalScreensSize = 6
+const totalScreensSize = 4
 
 export class WelcomePage extends React.Component<Props, State> {
   constructor (props: Props) {
@@ -64,10 +62,6 @@ export class WelcomePage extends React.Component<Props, State> {
 
   onClickChooseYourTheme = () => {
     this.props.actions.goToTabRequested('chrome://settings/appearance', '_blank')
-  }
-
-  onClickRewardsGetStarted = () => {
-    this.props.actions.goToTabRequested('chrome://rewards', '_blank')
   }
 
   onClickSlideBullet = (nextScreen: number) => {
@@ -107,8 +101,6 @@ export class WelcomePage extends React.Component<Props, State> {
                 searchProviders={welcomeData.searchProviders}
               />
               <ThemeBox index={4} currentScreen={this.currentScreen} onClick={this.onClickChooseYourTheme} />
-              <ShieldsBox index={5} currentScreen={this.currentScreen} />
-              <RewardsBox index={6} currentScreen={this.currentScreen} onClick={this.onClickRewardsGetStarted} />
             </SlideContent>
             <FooterBox
               totalScreensSize={totalScreensSize}
