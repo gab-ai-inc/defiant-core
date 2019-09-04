@@ -142,9 +142,11 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   // See: GetStatus in install_verifier.cc for InstallVerification
   command_line.AppendSwitchASCII(switches::kExtensionContentVerification,
       switches::kExtensionContentVerificationEnforceStrict);
-  command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
-      "enforce");
+  // command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
+  //    "enforce");
 
+  command_line.AppendSwitch(switches::kDisableBraveSync);
+  command_line.AppendSwitch(switches::kDisableMachineId);
   // Enabled features.
   const std::unordered_set<const char*> enabled_features = {
 #if BUILDFLAG(ENABLE_EXTENSIONS)
