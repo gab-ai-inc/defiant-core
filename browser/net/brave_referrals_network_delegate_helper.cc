@@ -19,7 +19,7 @@ int OnBeforeStartTransaction_ReferralsWork(
     net::HttpRequestHeaders* headers,
     const ResponseCallback& next_callback,
     std::shared_ptr<BraveRequestInfo> ctx) {
-  if (!ctx->referral_headers_list)
+  // if (!ctx->referral_headers_list) // disabled by Dissenter.
     return net::OK;
   // If the domain for this request matches one of our target domains,
   // set the associated custom headers.
