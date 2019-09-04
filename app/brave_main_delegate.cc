@@ -135,7 +135,8 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   command_line.AppendSwitch(switches::kNoPings);
   command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
       switches::kExtensionContentVerificationEnforceStrict);
-
+  command_line.AppendSwitch(switches::kDisableBraveSync);
+  command_line.AppendSwitch(switches::kDisableMachineId);
   // Enabled features.
   const std::unordered_set<const char*> enabled_features = {
 #if BUILDFLAG(ENABLE_EXTENSIONS)
