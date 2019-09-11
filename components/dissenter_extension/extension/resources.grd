@@ -55,7 +55,7 @@
       <include name="IDR_DISSENTER_EXTENSION_NEWJS" file="dissenter_extension/newtab/newtab.js" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_NEWCSS" file="dissenter_extension/newtab/newtab.css" type="BINDATA" />
 
-      <include name="IDR_DEFIANT_BACKGROUND_1" file="dissenter_extension/assets/images/defiant-bg1.jpg" type="BINDATA" />
+      <include name="IDR_DISSENTER_BG" file="dissenter_extension/assets/images/defiant-bg1.jpg" type="BINDATA" />
     </includes>
   </release>
 </grit>
