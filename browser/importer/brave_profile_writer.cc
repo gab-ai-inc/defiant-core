@@ -218,9 +218,9 @@ void BraveProfileWriter::SetWalletProperties(brave_rewards::RewardsService*
   rewards_service->SetPublisherMinVisits(payments->min_visits);
 
   // Set the excluded sites
-  for (const auto& publisher_key : ledger_.excluded_publishers) {
-    rewards_service->SetPublisherExclude(publisher_key, true);
-  }
+  //for (const auto& publisher_key : ledger_.excluded_publishers) {
+  //  rewards_service->SetPublisherExclude(publisher_key, true);
+  //}
 
   // Set the recurring tips (formerly known as pinned sites)
   int sum_of_monthly_tips = 0;
@@ -475,7 +475,7 @@ const std::map<std::string,
 
 void BraveProfileWriter::UpdateSettings(const SessionStoreSettings& settings) {
   int default_search_engine_id =
-      TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_INVALID;
+      TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
   // Set the default search engine
   TemplateURLService* url_service =
@@ -483,10 +483,10 @@ void BraveProfileWriter::UpdateSettings(const SessionStoreSettings& settings) {
   if (url_service) {
     auto it = importable_engines.find(settings.default_search_engine);
     if (it != importable_engines.end()) {
-      const TemplateURLPrepopulateData::PrepopulatedEngine engine = it->second;
+      // const TemplateURLPrepopulateData::PrepopulatedEngine engine = it->second;
       const std::unique_ptr<TemplateURLData> template_data =
-          TemplateURLDataFromPrepopulatedEngine(engine);
-      default_search_engine_id = engine.id;
+          TemplateURLDataFromPrepopulatedEngine(TemplateURLPrepopulateData::duckduckgo);
+      default_search_engine_id = TemplateURLPrepopulateData::PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
       LOG(INFO) << "Setting default search engine to "
           << settings.default_search_engine;
       TemplateURL provider_url(*template_data);
