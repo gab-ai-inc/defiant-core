@@ -55,6 +55,9 @@
   "brave/components/brave_rewards/resources/brave_rewards_static_resources.grd": {
     "includes": [38320]
   },
+  "brave/components/dissenter_extension/extension/resources.grd": {
+    "includes": [38620],
+  },
   # This file is generated during the build.
   "<(ROOT_GEN_DIR)/brave/web-ui-brave_rewards_page/brave_rewards_page.grd": {
     "includes": [38480],
@@ -62,6 +65,13 @@
   # This file is generated during the build.
   "<(ROOT_GEN_DIR)/brave/web-ui-brave_rewards_internals/brave_rewards_internals.grd": {
     "includes": [38640],
+  },
+  "<(ROOT_GEN_DIR)/brave/web-ui-dissenter_extension/dissenter_extension.grd": {
+    "includes": [38680],
+  },
+  # This file is generated during the build.
+  "<(ROOT_GEN_DIR)/brave/web-ui-brave_rewards/brave_rewards.grd": {
+    "includes": [38700],
   },
   # This file is generated during the build.
   "<(ROOT_GEN_DIR)/brave/web-ui-brave_rewards_tip/brave_rewards_tip.grd": {
