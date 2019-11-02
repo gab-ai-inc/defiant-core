@@ -56,7 +56,7 @@ void BraveSettingsUI::AddResources(content::WebUIDataSource* html_source,
 
 #if BUILDFLAG(ENABLE_BRAVE_SYNC)
   html_source->AddBoolean("isSyncDisabled",
-                          !brave_sync::switches::IsBraveSyncAllowedByFlag());
+                          true); //!brave_sync::switches::IsBraveSyncAllowedByFlag());
 #else
   html_source->AddBoolean("isSyncDisabled", true);
 #endif
