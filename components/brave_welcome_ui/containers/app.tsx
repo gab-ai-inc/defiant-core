@@ -118,7 +118,7 @@ export class WelcomePage extends React.Component<Props, State> {
                 changeDefaultSearchProvider={actions.changeDefaultSearchProvider}
                 searchProviders={welcomeData.searchProviders}
               />
-              <ThemeBox index={4} currentScreen={this.currentScreen} onClick={this.onClickChooseYourTheme} />
+              <ThemeBox index={4} currentScreen={this.currentScreen} onChangeTheme={actions.setTheme} browserThemes={welcomeData.browserThemes} />
             </SlideContent>
             <FooterBox
               totalScreensSize={totalScreensSize}
