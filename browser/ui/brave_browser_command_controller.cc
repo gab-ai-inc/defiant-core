@@ -14,6 +14,7 @@
 #include "brave/components/brave_wallet/browser/buildflags/buildflags.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
+#include "chrome/browser/ui/browser_tabstrip.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
 
 #if BUILDFLAG(ENABLE_BRAVE_SYNC)
@@ -101,6 +102,7 @@ void BraveBrowserCommandController::InitBraveCommandState() {
 #endif
   }
   UpdateCommandForBraveAdblock();
+  UpdateCommandForDissenterExtension();
 #if BUILDFLAG(ENABLE_TOR)
   UpdateCommandForTor();
 #endif
@@ -127,6 +129,10 @@ void BraveBrowserCommandController::UpdateCommandForBraveSync() {
 
 void BraveBrowserCommandController::UpdateCommandForBraveWallet() {
   UpdateCommandEnabled(IDC_SHOW_BRAVE_WALLET, true);
+}
+
+void BraveBrowserCommandController::UpdateCommandForDissenterExtension() {
+  UpdateCommandEnabled(IDC_SHOW_DISSENTER_EXTENSION_SETTINGS, true);
 }
 
 bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
@@ -165,6 +171,12 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
     case IDC_OPEN_GUEST_PROFILE:
       brave::OpenGuestProfile();
       break;
+    case IDC_SHOW_DISSENTER_EXTENSION_SETTINGS:
+      chrome::AddSelectedTabWithURL(browser_, 
+        GURL("chrome-extension://komainihbiaopejdcakhjbjmglkcfhgb/options/options.html"),
+        ui::PAGE_TRANSITION_LINK);
+      break;
+
     default:
       LOG(WARNING) << "Received Unimplemented Command: " << id;
       break;
