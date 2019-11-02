@@ -21,6 +21,7 @@ grit("static_resources") {
   if (enable_extensions) {
     deps += [
       "//brave/components/brave_extension/extension/brave_extension",
+      "//brave/components/dissenter_extension/extension/dissenter_extension",
     ]
   }
   if (brave_rewards_enabled) {

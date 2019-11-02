@@ -62,6 +62,8 @@ source_set("extensions") {
     "//brave/components/brave_component_updater/browser",
     "//brave/components/brave_extension:generated_resources",
     "//brave/components/brave_extension:static_resources",
+    "//brave/components/dissenter_extension:static_resources",
+    "//brave/components/dissenter_extension:generated_resources",
     "//components/prefs",
     "//components/services/patch/content",
     "//components/services/unzip/content",
