@@ -77,6 +77,8 @@ source_set("extensions") {
     "//chrome/common",
     "//components/gcm_driver:gcm_driver",
     "//components/gcm_driver:gcm_buildflags",
+    "//brave/components/dissenter_extension:static_resources",
+    "//brave/components/dissenter_extension:generated_resources",
     "//components/prefs",
     "//components/services/patch/content",
     "//components/services/unzip/content",
