@@ -154,7 +154,7 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   command_line.AppendSwitchASCII(switches::kSyncServiceURL,
                                  "https://no-thanks.invalid");
 
-  command_line.AppendSwitch(switches::kDisableBraveSync);
+  command_line.AppendSwitch(switches::kDisableSync);
   command_line.AppendSwitch(switches::kDisableMachineId);
   // Enabled features.
   const std::unordered_set<const char*> enabled_features = {
