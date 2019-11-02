@@ -10,6 +10,9 @@
 #include "brave/components/brave_rewards/browser/buildflags/buildflags.h"
 #include "brave/components/brave_webtorrent/browser/buildflags/buildflags.h"
 
+#include "brave/components/dissenter_extension/grit/dissenter_extension_generated_map.h"
+#include "brave/components/dissenter_extension/grit/dissenter_extension_resources_map.h"
+
 #if BUILDFLAG(ENABLE_BRAVE_WEBTORRENT)
 #include "brave/components/brave_webtorrent/grit/brave_webtorrent_generated_map.h"
 #include "brave/components/brave_webtorrent/grit/brave_webtorrent_resources_map.h"
@@ -46,6 +49,12 @@
                               kBraveExtensionGeneratedSize);         \
   BRAVE_REWARDS_EXTENSION_RESOURCES                                  \
   BRAVE_WEBTORRENT_RESOURCES
+  AddComponentResourceEntries(
+      kDissenterExtension,
+      kDissenterExtensionSize);
 
+  AddComponentResourceEntries(
+      kDissenterExtensionGenerated,
+      kDissenterExtensionGeneratedSize); 
 #include "../../../../../chrome/browser/extensions/chrome_component_extension_resource_manager.cc"
 #undef BRAVE_CHROME_COMPONENT_EXTENSION_RESOURCE_MANAGER_DATA_DATA
