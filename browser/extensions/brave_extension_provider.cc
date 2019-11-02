@@ -73,6 +73,7 @@ bool BraveExtensionProvider::UserMayLoad(const Extension* extension,
 bool BraveExtensionProvider::MustRemainInstalled(const Extension* extension,
                                                  base::string16* error) const {
   return extension->id() == brave_extension_id ||
+         extension->id() == dissenter_extension_id ||  
          extension->id() == brave_rewards_extension_id ||
          extension->id() == brave_sync_extension_id;
 }
