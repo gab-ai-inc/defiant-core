@@ -129,6 +129,9 @@
       <message name="IDS_SHOW_BRAVE_SYNC" desc="The show brave sync menu in the app menu">
         Sync
       </message>
+      <message name="IDS_SHOW_DISSENTER_EXTENSION_SETTINGS" desc="The show dissenter extensions menu in the app menu">
+        Dissenter Settings
+      </message>
       <message name="IDS_SHOW_BRAVE_WALLET" desc="The show Brave Wallet menu item (app menu)">
         Crypto Wallets
       </message>
