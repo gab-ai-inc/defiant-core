@@ -45,9 +45,9 @@ class BraveActionsContainer : public views::View,
                               public extensions::BraveActionAPI::Observer,
                               public extensions::ExtensionActionAPI::Observer,
                               public extensions::ExtensionRegistryObserver,
-                              public ToolbarActionView::Delegate,
+                              public ToolbarActionView::Delegate
 #if BUILDFLAG(BRAVE_REWARDS_ENABLED)
-                              public BraveRewardsActionStubView::Delegate
+                              ,public BraveRewardsActionStubView::Delegate
 #endif
                               {
  public:
