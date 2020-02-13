@@ -1,0 +1,33 @@
+import("//brave/components/common/typescript.gni")
+import("//build/config/locales.gni")
+
+transpile_web_ui("dissenter_extension") {
+  # Need this to fire re-pack if changed, nevertheless extension is repacked on each 2nd build
+  # what is the output bundle called and what is the entry point file
+
+  inputs = [
+    "assets/images/logo/icon-16.png",
+    "assets/images/logo/icon-48.png",
+    "assets/images/logo/icon-128.png",
+    "assets/images/newtabbg1.jpg",
+    "background/background.js",
+    "background/background.html",
+    "popup/popup.html",
+  ]
+
+  entry_points = [
+    ["dissenter_extension", rebase_path("popup/popup.js")],
+    ["dissenter_extension_background", rebase_path("background/background.js")],
+    ["content", rebase_path("content/all/script/script.js")],
+  ]
+
+  # what is the directory / pack name
+  resource_name = "dissenter_extension"
+
+
+  # Must match the relative path from the static GRD to the manifest.json
+  # plus any other relative path we want these files to live in the extension
+  extra_relative_path = "/dissenter_extension/out"
+
+  public_asset_path = "/out/"
+}
