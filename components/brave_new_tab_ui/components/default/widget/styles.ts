@@ -33,13 +33,13 @@ export const StyledWidget = styled<WidgetVisibilityProps, 'div'>('div')`
 
   ${StyledWidgetContainer}:hover & {
     border-radius: 16px;
-    background: rgba(33, 37, 41, 0.48);
+    background: rgba(33, 37, 41, 0.0);
   }
 
   // Also hover when menu button has been clicked
   ${ p => p.widgetMenuPersist && `
     border-radius: 16px;
-    background: rgba(33, 37, 41, 0.48);
+    background: rgba(33, 37, 41, 0.0);
   `}
 
 `
@@ -112,7 +112,7 @@ export const StyledWidgetButton = styled<WidgetButtonProps, 'button'>('button')`
   outline-width: 2px;
   outline-offset: -3px;
   &:hover {
-    background: rgb(217, 221, 254);
+    background: rgb(217, 221, 254, 0.0);
   }
 `
 

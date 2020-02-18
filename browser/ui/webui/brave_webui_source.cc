@@ -63,6 +63,13 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "314e7529efec41c8867019815f4d8dad.svg", IDR_BRAVE_NEW_TAB_IMG4 },
         { "6c337c63662ee0ba4e57f6f8156d69ce.svg", IDR_BRAVE_NEW_TAB_IMG2 },
         // New tab Backgrounds
+        { "gabntp-1.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND1 },
+        { "gabntp-2.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND2 },
+        { "gabntp-3.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND3 },
+        { "gabntp-4.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND4 },
+        { "gabntp-5.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND5 },
+        { "gabntp-6.jpg", IDR_BRAVE_NEW_TAB_BACKGROUND6 },
+        /*
         { "ntp-1.webp", IDR_BRAVE_NEW_TAB_BACKGROUND1 },
         { "ntp-2.webp", IDR_BRAVE_NEW_TAB_BACKGROUND2 },
         { "ntp-3.webp", IDR_BRAVE_NEW_TAB_BACKGROUND3 },
@@ -79,7 +86,7 @@ void CustomizeWebUIHTMLSource(const std::string &name,
         { "ntp-14.webp", IDR_BRAVE_NEW_TAB_BACKGROUND14 },
         { "ntp-15.webp", IDR_BRAVE_NEW_TAB_BACKGROUND15 },
         { "ntp-16.webp", IDR_BRAVE_NEW_TAB_BACKGROUND16 },
-
+        */
         // private tab
         { "c168145d6bf1abf2c0322636366f7dbe.svg", IDR_BRAVE_PRIVATE_TAB_TOR_IMG },               // NOLINT
         { "dbdc336ccc651b8a7c925b3482d6e65a.svg", IDR_BRAVE_PRIVATE_TAB_IMG }

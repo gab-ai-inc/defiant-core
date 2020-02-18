@@ -16,6 +16,9 @@ import {
   Gradient,
   RewardsWidget as Rewards
 } from '../../components/default'
+import GabSites from '../../components/default/gabsites'
+//import GabImage from '../../components/default/gabimage'
+import GabAds from '../../components/default/gabads'
 
 // Components
 import Stats from './stats'
@@ -207,11 +210,12 @@ class NewTabPage extends React.Component<Props, State> {
               onEnableAds={this.enableAds}
               onEnableRewards={this.enableRewards}
               textDirection={newTabData.textDirection}
-              showWidget={newTabData.showRewards}
+              showWidget={false}
               hideWidget={this.toggleShowRewards}
               onDismissNotification={this.dismissNotification}
               menuPosition={'left'}
             />
+            <GabSites></GabSites>
             {this.props.newTabData.gridSites.length ? <List
               blockNumber={this.props.newTabData.gridSites.length}
               textDirection={newTabData.textDirection}
@@ -244,6 +248,7 @@ class NewTabPage extends React.Component<Props, State> {
               ? <SiteRemovalNotification actions={actions} />
               : null
             }
+            <GabAds></GabAds>
           </Header>
           <Footer>
             <FooterInfo
@@ -252,7 +257,7 @@ class NewTabPage extends React.Component<Props, State> {
               backgroundImageInfo={newTabData.backgroundImage}
               onClickSettings={this.toggleSettings}
               showSettingsMenu={showSettingsMenu}
-              showPhotoInfo={newTabData.showBackgroundImage}
+              showPhotoInfo={false}
               toggleShowBackgroundImage={this.toggleShowBackgroundImage}
               toggleShowClock={this.toggleShowClock}
               toggleShowStats={this.toggleShowStats}

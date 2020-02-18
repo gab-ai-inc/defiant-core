@@ -63,12 +63,12 @@ export default class Settings extends React.PureComponent<Props, {}> {
       toggleShowClock,
       toggleShowStats,
       toggleShowTopSites,
-      toggleShowRewards,
+      //toggleShowRewards,
       showBackgroundImage,
       showStats,
       showClock,
       showTopSites,
-      showRewards,
+      //showRewards,
       onClick
     } = this.props
     return (
@@ -85,6 +85,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
+            {/*
             <SettingsRow>
               <SettingsText>{getLocale('showRewards')}</SettingsText>
               <Toggle
@@ -93,6 +94,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
+            */}
             <SettingsRow>
               <SettingsText>{getLocale('showBraveStats')}</SettingsText>
               <Toggle
