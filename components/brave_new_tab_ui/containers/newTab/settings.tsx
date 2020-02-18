@@ -73,15 +73,15 @@ export default class Settings extends React.PureComponent<Props, {}> {
       toggleShowClock,
       toggleShowStats,
       toggleShowTopSites,
-      toggleShowRewards,
-      toggleBrandedWallpaperOptIn,
+      //toggleBrandedWallpaperOptIn,
+      //toggleShowRewards,
       showBackgroundImage,
       showStats,
       showClock,
       showTopSites,
-      showRewards,
-      brandedWallpaperOptIn,
-      allowBrandedWallpaperUI,
+      //showRewards,
+      //brandedWallpaperOptIn,
+      //allowBrandedWallpaperUI,
       onClick
     } = this.props
     return (
@@ -98,6 +98,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
+            {/*
             {allowBrandedWallpaperUI &&
             <SettingsRow isChildSetting={true}>
               <SettingsText>{getLocale('brandedWallpaperOptIn')}</SettingsText>
@@ -117,6 +118,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
+            */}
             <SettingsRow>
               <SettingsText>{getLocale('showBraveStats')}</SettingsText>
               <Toggle
