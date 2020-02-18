@@ -40,6 +40,13 @@
 
       <!-- Imagery links -->
       <if expr="not is_android">
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND1" file="../img/newtab/gabntp-1.jpg" type="BINDATA" />
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND2" file="../img/newtab/gabntp-2.jpg" type="BINDATA" />
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND3" file="../img/newtab/gabntp-3.jpg" type="BINDATA" />
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND4" file="../img/newtab/gabntp-4.jpg" type="BINDATA" />
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND5" file="../img/newtab/gabntp-5.jpg" type="BINDATA" />
+        <include name="IDR_BRAVE_NEW_TAB_BACKGROUND6" file="../img/newtab/gabntp-6.jpg" type="BINDATA" />
+<!--
         <include name="IDR_BRAVE_NEW_TAB_BACKGROUND1" file="../img/newtab/ntp-1.webp" type="BINDATA" />
         <include name="IDR_BRAVE_NEW_TAB_BACKGROUND2" file="../img/newtab/ntp-2.webp" type="BINDATA" />
         <include name="IDR_BRAVE_NEW_TAB_BACKGROUND3" file="../img/newtab/ntp-3.webp" type="BINDATA" />
@@ -60,6 +67,7 @@
         <include name="IDR_BRAVE_NEW_TAB_DUMMY_BRANDED_WALLPAPER_BG_2" file="../img/newtab/dummy-branded-wallpaper/background-2.jpg" type="BINDATA" />
         <include name="IDR_BRAVE_NEW_TAB_DUMMY_BRANDED_WALLPAPER_BG_3" file="../img/newtab/dummy-branded-wallpaper/background-3.jpg" type="BINDATA" />
         <include name="IDR_BRAVE_NEW_TAB_DUMMY_BRANDED_WALLPAPER_LOGO" file="../img/newtab/dummy-branded-wallpaper/logo.png" type="BINDATA" />
+        -->
       </if>
 
       <!-- WebUI private new tab resources -->
