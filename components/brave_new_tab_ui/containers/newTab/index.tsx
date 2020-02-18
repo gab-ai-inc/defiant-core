@@ -5,6 +5,9 @@
 import * as React from 'react'
 import { DragDropContext } from 'react-dnd'
 import HTML5Backend from 'react-dnd-html5-backend'
+import GabSites from '../../components/default/gabsites'
+//import GabImage from '../../components/default/gabimage'
+import GabAds from '../../components/default/gabads'
 
 // Components
 import Stats from './stats'
@@ -273,7 +276,7 @@ class NewTabPage extends React.Component<Props, State> {
     const hasImage = this.imageSource !== undefined
     const isShowingBrandedWallpaper = newTabData.brandedWallpaperData ? true : false
     const showTopSites = !!this.props.newTabData.gridSites.length && newTabData.showTopSites
-    const rewardsContent = this.renderRewardsContent()
+    //const rewardsContent = this.renderRewardsContent()
 
     return (
       <Page.App dataIsReady={newTabData.initialDataLoaded}>
@@ -293,9 +296,9 @@ class NewTabPage extends React.Component<Props, State> {
         <Page.Page
             showClock={newTabData.showClock}
             showStats={newTabData.showStats}
-            showRewards={!!rewardsContent}
+            showRewards={false}
             showTopSites={showTopSites}
-            showBrandedWallpaper={isShowingBrandedWallpaper}
+            showBrandedWallpaper={false}
         >
           {newTabData.showStats &&
           <Page.GridItemStats>
@@ -316,6 +319,8 @@ class NewTabPage extends React.Component<Props, State> {
             />
           </Page.GridItemClock>
           }
+          <GabSites/>
+          <GabAds/>
           {showTopSites &&
           <Page.GridItemTopSites><List
             blockNumber={this.props.newTabData.gridSites.length}
@@ -341,7 +346,7 @@ class NewTabPage extends React.Component<Props, State> {
                   isBookmarked={site.bookmarked !== undefined}
                 />
               )
-            }
+            }          
           </List></Page.GridItemTopSites>
           }
           {
@@ -350,8 +355,7 @@ class NewTabPage extends React.Component<Props, State> {
                 <SiteRemovalNotification actions={actions} />
               </Page.GridItemNotification>
             : null
-          }
-            {rewardsContent}
+          }          
           <Page.Footer>
             <Page.FooterContent>
             {isShowingBrandedWallpaper && newTabData.brandedWallpaperData &&
@@ -369,7 +373,7 @@ class NewTabPage extends React.Component<Props, State> {
               backgroundImageInfo={newTabData.backgroundImage}
               onClickSettings={this.toggleSettings}
               showSettingsMenu={showSettingsMenu}
-              showPhotoInfo={!isShowingBrandedWallpaper && newTabData.showBackgroundImage}
+              showPhotoInfo={false}
               toggleShowBackgroundImage={this.toggleShowBackgroundImage}
               toggleShowClock={this.toggleShowClock}
               toggleShowStats={this.toggleShowStats}
