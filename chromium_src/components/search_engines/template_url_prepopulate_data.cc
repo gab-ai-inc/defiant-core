@@ -49,8 +49,8 @@ const std::map<BravePrepopulatedEngineID, const PrepopulatedEngine*>
 
 // Default order in which engines will appear in the UI.
 std::vector<BravePrepopulatedEngineID> brave_engines_default = {
-    PREPOPULATED_ENGINE_ID_GOOGLE,
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO,
+    PREPOPULATED_ENGINE_ID_GOOGLE,
 #if defined(OS_ANDROID)
     PREPOPULATED_ENGINE_ID_DUCKDUCKGO_LITE,
 #endif

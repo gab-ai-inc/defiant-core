@@ -32,7 +32,7 @@ export default class SearchEngineBox extends React.PureComponent<Props, State> {
     super(props)
     this.state = {
       searchEngineSelected: false,
-      isDefaultSearchGoogle: true
+      isDefaultSearchGoogle: false
     }
   }
 
