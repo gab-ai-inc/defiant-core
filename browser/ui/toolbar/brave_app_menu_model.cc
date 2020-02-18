@@ -62,7 +62,7 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
                              IDC_MANAGE_EXTENSIONS,
                              IDS_SHOW_EXTENSIONS);
   }
-
+/*
   if (IsCommandIdEnabled(IDC_SHOW_BRAVE_REWARDS)) {
     InsertItemWithStringIdAt(GetIndexOfBraveRewardsItem(),
                              IDC_SHOW_BRAVE_REWARDS,
@@ -82,6 +82,16 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
                              IDC_SHOW_BRAVE_SYNC,
                              IDS_SHOW_BRAVE_SYNC);
   }
+*/
+
+  //InsertItemWithStringIdAt(
+  //    GetIndexOfCommandId(IDC_SHOW_DOWNLOADS),
+  //    IDC_SHOW_BRAVE_ADBLOCK,
+  //    IDS_SHOW_BRAVE_ADBLOCK);
+  InsertItemWithStringIdAt(
+    GetIndexOfCommandId(IDC_OPTIONS),
+    IDC_SHOW_DISSENTER_EXTENSION_SETTINGS,
+    IDS_SHOW_DISSENTER_EXTENSION_SETTINGS);
 
   // Insert adblock menu at last. Assumed this is always enabled.
   DCHECK(IsCommandIdEnabled(IDC_SHOW_BRAVE_ADBLOCK));
