@@ -4,6 +4,8 @@
 // you can obtain one at http://mozilla.org/MPL/2.0/.
 
 import * as React from 'react'
+import GabSites from '../../components/default/gabsites'
+import GabAds from '../../components/default/gabads'
 
 // Components
 import Stats from './stats'
@@ -124,6 +126,7 @@ class NewTabPage extends React.Component<Props, State> {
     }
 
     // Handles updates from brave://settings/newTab
+    /*
     const oldShowRewards = prevProps.newTabData.showRewards
     const oldShowBinance = prevProps.newTabData.showBinance
     const { showRewards, showBinance } = this.props.newTabData
@@ -137,6 +140,7 @@ class NewTabPage extends React.Component<Props, State> {
     } else if (oldShowBinance && !showBinance) {
       this.props.actions.removeStackWidget('binance')
     }
+    */
   }
 
   trackCachedImage () {
@@ -572,7 +576,7 @@ class NewTabPage extends React.Component<Props, State> {
     const hasImage = this.imageSource !== undefined
     const isShowingBrandedWallpaper = newTabData.brandedWallpaperData ? true : false
     const showTopSites = !!this.props.gridSitesData.gridSites.length && newTabData.showTopSites
-    const cryptoContent = this.renderCryptoContent()
+    //const cryptoContent = this.renderCryptoContent()
 
     return (
       <Page.App dataIsReady={newTabData.initialDataLoaded}>
@@ -592,10 +596,10 @@ class NewTabPage extends React.Component<Props, State> {
         <Page.Page
             showClock={newTabData.showClock}
             showStats={newTabData.showStats}
-            showRewards={!!cryptoContent}
-            showBinance={newTabData.showBinance}
+            showRewards={false} 
+            showBinance={false}
             showTopSites={showTopSites}
-            showBrandedWallpaper={isShowingBrandedWallpaper}
+            showBrandedWallpaper={false}
         >
           {newTabData.showStats &&
           <Page.GridItemStats>
@@ -633,6 +637,8 @@ class NewTabPage extends React.Component<Props, State> {
               </Page.GridItemTopSites>
               ) : null
           }
+          <GabSites/>
+          <GabAds/>
           {
             gridSitesData.shouldShowSiteRemovedNotification
             ? (
@@ -641,10 +647,10 @@ class NewTabPage extends React.Component<Props, State> {
             </Page.GridItemNotification>
             ) : null
           }
-            {cryptoContent}
+          
           <Page.Footer>
             <Page.FooterContent>
-            {isShowingBrandedWallpaper && newTabData.brandedWallpaperData &&
+            {false && isShowingBrandedWallpaper && newTabData.brandedWallpaperData &&
             newTabData.brandedWallpaperData.logo &&
             <Page.GridItemBrandedLogo>
               <BrandedWallpaperLogo
@@ -659,7 +665,7 @@ class NewTabPage extends React.Component<Props, State> {
               backgroundImageInfo={newTabData.backgroundImage}
               onClickSettings={this.toggleSettings}
               showSettingsMenu={showSettingsMenu}
-              showPhotoInfo={!isShowingBrandedWallpaper && newTabData.showBackgroundImage}
+              showPhotoInfo={false}
               toggleShowBackgroundImage={this.toggleShowBackgroundImage}
               toggleShowClock={this.toggleShowClock}
               toggleShowStats={this.toggleShowStats}
