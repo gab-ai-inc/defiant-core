@@ -48,7 +48,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
 
   // appearance
   registry->RegisterBooleanPref(kLocationBarIsWide, false);
-  registry->RegisterBooleanPref(kHideBraveRewardsButton, false);
+  registry->RegisterBooleanPref(kHideBraveRewardsButton, true);
 
   brave_sync::prefs::Prefs::RegisterProfilePrefs(registry);
 
@@ -94,7 +94,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
 #endif
 
   // Hangouts
-  registry->RegisterBooleanPref(kHangoutsEnabled, true);
+  registry->RegisterBooleanPref(kHangoutsEnabled, false);
 
   // Media Router
   registry->SetDefaultPrefValue(prefs::kEnableMediaRouter, base::Value(false));
@@ -147,7 +147,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   // Importer: selected data types
   registry->RegisterBooleanPref(prefs::kImportDialogCookies, true);
   registry->RegisterBooleanPref(prefs::kImportDialogStats, true);
-  registry->RegisterBooleanPref(prefs::kImportDialogLedger, true);
+  registry->RegisterBooleanPref(prefs::kImportDialogLedger, false);
   registry->RegisterBooleanPref(prefs::kImportDialogWindows, true);
   // Importer: ledger (used for Brave Rewards pinned => tips)
   registry->RegisterIntegerPref(kBravePaymentsPinnedItemCount, 0);
@@ -160,12 +160,12 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
   registry->RegisterBooleanPref(kNewTabPageShowClock, true);
   registry->RegisterBooleanPref(kNewTabPageShowTopSites, true);
   registry->RegisterBooleanPref(kNewTabPageShowStats, true);
-  registry->RegisterBooleanPref(kNewTabPageShowRewards, true);
+  registry->RegisterBooleanPref(kNewTabPageShowRewards, false);
 
   // Brave Wallet
   registry->RegisterStringPref(kBraveWalletAES256GCMSivNonce, "");
   registry->RegisterStringPref(kBraveWalletEncryptedSeed, "");
-  registry->RegisterBooleanPref(kBraveWalletEnabled, true);
+  registry->RegisterBooleanPref(kBraveWalletEnabled, false);
 }
 
 }  // namespace brave
