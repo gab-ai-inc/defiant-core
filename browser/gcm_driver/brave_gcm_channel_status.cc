@@ -34,7 +34,7 @@ BraveGCMChannelStatus* BraveGCMChannelStatus::GetForProfile(
 }
 
 bool BraveGCMChannelStatus::IsGCMEnabled() {
-  return gcm_enabled_;
+  return false && gcm_enabled_;
 }
 
 }  // namespace gcm

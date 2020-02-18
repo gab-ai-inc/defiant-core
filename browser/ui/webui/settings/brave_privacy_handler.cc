@@ -82,14 +82,14 @@ void BravePrivacyHandler::AddLoadTimeData(content::WebUIDataSource* data_source,
                                           Profile* profile) {
 #if BUILDFLAG(USE_GCM_FROM_PLATFORM)
   data_source->AddBoolean("pushMessagingEnabledAtStartup",
-                          true);
+                          false);
 #else
-  gcm::BraveGCMChannelStatus* gcm_channel_status =
-      gcm::BraveGCMChannelStatus::GetForProfile(profile);
+  //gcm::BraveGCMChannelStatus* gcm_channel_status =
+  //    gcm::BraveGCMChannelStatus::GetForProfile(profile);
 
-  DCHECK(gcm_channel_status);
+  //DCHECK(gcm_channel_status);
   data_source->AddBoolean("pushMessagingEnabledAtStartup",
-                          gcm_channel_status->IsGCMEnabled());
+                          false); //gcm_channel_status->IsGCMEnabled());
 #endif
 }
 
@@ -121,14 +121,14 @@ void BravePrivacyHandler::SetP3AEnabled(const base::ListValue* args) {
   args->GetBoolean(0, &enabled);
 
   PrefService* local_state = g_browser_process->local_state();
-  local_state->SetBoolean(brave::kP3AEnabled, enabled);
+  local_state->SetBoolean(brave::kP3AEnabled, false);
 }
 
 void BravePrivacyHandler::GetP3AEnabled(const base::ListValue* args) {
   CHECK_EQ(args->GetSize(), 1U);
 
-  PrefService* local_state = g_browser_process->local_state();
-  bool enabled = local_state->GetBoolean(brave::kP3AEnabled);
+  // PrefService* local_state = g_browser_process->local_state();
+  bool enabled = false; // local_state->GetBoolean(brave::kP3AEnabled);
 
   AllowJavascript();
   ResolveJavascriptCallback(args->GetList()[0].Clone(), base::Value(enabled));

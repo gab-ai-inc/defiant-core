@@ -142,10 +142,19 @@ bool BraveMainDelegate::BasicStartupComplete(int* exit_code) {
   // Setting these to default values in Chromium to maintain parity
   // See: ChromeContentVerifierDelegate::GetDefaultMode for ContentVerification
   // See: GetStatus in install_verifier.cc for InstallVerification
-  command_line.AppendSwitchASCII(switches::kExtensionContentVerification,
-      switches::kExtensionContentVerificationEnforceStrict);
-  command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
-      "enforce");
+  //command_line.AppendSwitchASCII(switches::kExtensionContentVerification,
+  //    switches::kExtensionContentVerificationEnforceStrict);
+  //command_line.AppendSwitchASCII(switches::kExtensionsInstallVerification,
+  //    "enforce");
+  command_line.AppendSwitch(switches::kDisableSync);
+  command_line.AppendSwitch(switches::kDisableMachineId);
+  command_line.AppendSwitch(switches::kDisableBreakpad);
+  
+  
+  // Otherwise BaseMark Web 3.0 suffers and it seems to be highly enabled
+  // by field trials in Chrome.
+  command_line.AppendSwitchASCII(switches::kEnableOopRasterization,
+      "Enabled");
 
   // Brave's sync protocol does not use the sync service url
   command_line.AppendSwitchASCII(switches::kSyncServiceURL,

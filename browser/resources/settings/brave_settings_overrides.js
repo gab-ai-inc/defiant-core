@@ -312,7 +312,7 @@ BravePatching.RegisterPolymerTemplateModifications({
       // Insert sync
       //</div>sectionAppearance.insertAdjacentElement('afterend', sectionSync)
       // Insert shields
-      sectionSync.insertAdjacentElement('afterend', sectionShields)
+      sectionAppearance.insertAdjacentElement('afterend', sectionShields)
       // Insert Social Blocking
       sectionShields.insertAdjacentElement('afterend', sectionSocialBlocking)
       // Move search
