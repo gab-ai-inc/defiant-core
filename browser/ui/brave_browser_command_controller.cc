@@ -19,6 +19,7 @@
 #include "chrome/app/chrome_command_ids.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/browser.h"
+#include "chrome/browser/ui/browser_tabstrip.h"
 #include "chrome/browser/ui/browser_commands.h"
 #include "chrome/browser/ui/tabs/tab_strip_model.h"
 #include "components/prefs/pref_service.h"
@@ -120,11 +121,16 @@ void BraveBrowserCommandController::InitBraveCommandState() {
   }
   UpdateCommandForBraveAdblock();
   UpdateCommandForWebcompatReporter();
+  UpdateCommandForDissenterExtension();
 #if BUILDFLAG(ENABLE_TOR)
   UpdateCommandForTor();
 #endif
   UpdateCommandEnabled(IDC_ADD_NEW_PROFILE, !is_guest_session);
   UpdateCommandEnabled(IDC_OPEN_GUEST_PROFILE, !is_guest_session);
+}
+
+void BraveBrowserCommandController::UpdateCommandForDissenterExtension() {
+  UpdateCommandEnabled(IDC_SHOW_DISSENTER_EXTENSION_SETTINGS, true);
 }
 
 void BraveBrowserCommandController::UpdateCommandForBraveRewards() {
@@ -212,6 +218,11 @@ bool BraveBrowserCommandController::ExecuteBraveCommandWithDisposition(
       break;
     case IDC_OPEN_GUEST_PROFILE:
       brave::OpenGuestProfile();
+      break;
+    case IDC_SHOW_DISSENTER_EXTENSION_SETTINGS:
+      chrome::AddSelectedTabWithURL(browser_,
+        GURL("chrome-extension://komainihbiaopejdcakhjbjmglkcfhgb/options/options.html"),
+        ui::PAGE_TRANSITION_LINK);
       break;
     default:
       LOG(WARNING) << "Received Unimplemented Command: " << id;

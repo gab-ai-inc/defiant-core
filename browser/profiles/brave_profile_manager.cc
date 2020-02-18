@@ -136,10 +136,10 @@ std::string BraveProfileManager::GetLastUsedProfileName() {
 void BraveProfileManager::DoFinalInitForServices(Profile* profile,
                                                  bool go_off_the_record) {
   ProfileManager::DoFinalInitForServices(profile, go_off_the_record);
-  brave_ads::AdsServiceFactory::GetForProfile(profile);
-  brave_rewards::RewardsServiceFactory::GetForProfile(profile);
+  //brave_ads::AdsServiceFactory::GetForProfile(profile);
+  //brave_rewards::RewardsServiceFactory::GetForProfile(profile);
 #if !BUILDFLAG(USE_GCM_FROM_PLATFORM)
-  gcm::BraveGCMChannelStatus::GetForProfile(profile);
+  //gcm::BraveGCMChannelStatus::GetForProfile(profile);
 #endif
 }
 
