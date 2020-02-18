@@ -80,19 +80,19 @@ export default class Settings extends React.PureComponent<Props, {}> {
       toggleShowClock,
       toggleShowStats,
       toggleShowTopSites,
-      toggleShowRewards,
-      toggleBrandedWallpaperOptIn,
+      //toggleBrandedWallpaperOptIn,
+      //toggleShowRewards,
       showBackgroundImage,
       showStats,
       showClock,
       showTopSites,
-      showRewards,
-      brandedWallpaperOptIn,
-      allowSponsoredWallpaperUI,
+      //showRewards,
+      //brandedWallpaperOptIn,
+      //allowSponsoredWallpaperUI,
       onClick,
-      toggleShowBinance,
-      showBinance,
-      binanceSupported
+      //toggleShowBinance,
+      //showBinance,
+      //binanceSupported
     } = this.props
     return (
       <SettingsWrapper
@@ -117,7 +117,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
               />
             </SettingsRow>
             }
-            {allowSponsoredWallpaperUI &&
+            {false && allowSponsoredWallpaperUI &&
             <SettingsRow isChildSetting={true}>
               <SettingsText>{getLocale('brandedWallpaperOptIn')}</SettingsText>
               <Toggle
@@ -127,7 +127,6 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
-            }
             <SettingsRow>
               <SettingsText>{getLocale('showRewards')}</SettingsText>
               <Toggle
@@ -136,8 +135,9 @@ export default class Settings extends React.PureComponent<Props, {}> {
                 size='small'
               />
             </SettingsRow>
+            }
             {
-              binanceSupported
+              false && binanceSupported
               ? <SettingsRow>
                   <SettingsText>{getLocale('showBinance')}</SettingsText>
                   <Toggle

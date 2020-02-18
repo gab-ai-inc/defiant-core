@@ -4,12 +4,48 @@
 
 export const images: NewTab.Image[] = [
   {
-    'name': 'ntp-fall-2019-1',
-    'source': 'anders-jilden.webp',
-    'author': 'Anders Jildén',
-    'link': 'https://unsplash.com/@andersjilden?utm_source=unsplash&utm_medium=referral&utm_content=credit',
-    'originalUrl': 'https://unsplash.com/photos/uwbajDCODj4',
-    'license': 'https://unsplash.com/license'
+    'name':'1',
+    'source': 'gabntp-1.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  },
+  {
+    'name':'2',
+    'source': 'gabntp-2.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  },
+  {
+    'name':'3',
+    'source': 'gabntp-3.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  },
+  {
+    'name':'4',
+    'source': 'gabntp-4.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  },
+  {
+    'name':'5',
+    'source': 'gabntp-5.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  },
+  {
+    'name':'6',
+    'source': 'gabntp-6.jpg',
+    'author': 'Rob Colbert',
+    'link': 'https://shop.dissenter.com/categories/donate'
+  }
+]
+/*
+  {
+    'name': '1',
+    'source': 'ntp-1.webp',
+    'author': 'Pok Rie',
+    'link': 'https://www.pexels.com/@pok-rie-33563'
   },
   {
     'name': 'ntp-fall-2019-2',
@@ -84,3 +120,4 @@ export const images: NewTab.Image[] = [
     'license': 'used with permission'
   }
 ]
+*/
