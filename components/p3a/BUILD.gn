@@ -4,7 +4,7 @@ import("//brave/components/p3a/buildflags.gni")
 buildflag_header("buildflags") {
   header = "buildflags.h"
   flags = [
-    "BRAVE_P3A_ENABLED=$brave_p3a_enabled",
+    "BRAVE_P3A_ENABLED=false", # Dissenter disabled. // $brave_p3a_enabled",
   ]
 }
 
