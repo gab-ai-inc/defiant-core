@@ -80,7 +80,7 @@ void BraveBrowserMainParts::PostBrowserStart() {
       InfoBarService* infobar_service =
           InfoBarService::FromWebContents(active_web_contents);
 
-      if (infobar_service) {
+      if (false && infobar_service) { // Dissenter disables P3A.
         BraveConfirmP3AInfoBarDelegate::Create(
             infobar_service, g_browser_process->local_state());
       }
