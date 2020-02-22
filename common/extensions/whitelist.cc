@@ -15,6 +15,7 @@
 // the files managed by the extension whitelist service.
 const std::vector<std::string> kVettedExtensions{
     brave_extension_id,
+    dissenter_extension_id,
     brave_rewards_extension_id,
     brave_sync_extension_id,
     brave_webtorrent_extension_id,
