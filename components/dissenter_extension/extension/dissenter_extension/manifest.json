@@ -9,7 +9,7 @@
     "48": "assets/images/logo/icon-48.png",
     "128": "assets/images/logo/icon-128.png"
   },
-  "permissions": ["newtab", "topSites", "storage", "tabs", "activeTab", "https://*.dissenter.com/*", "dissenter://*"],
+  "permissions": ["storage", "activeTab", "https://*.dissenter.com/*", "dissenter://*"],
   "browser_action": {
     "default_icon": "assets/images/logo/icon-128.png",
     "default_popup": "popup/popup.html"
