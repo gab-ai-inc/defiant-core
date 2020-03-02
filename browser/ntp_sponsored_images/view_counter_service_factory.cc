@@ -49,19 +49,16 @@ ViewCounterServiceFactory::~ViewCounterServiceFactory() {}
 KeyedService* ViewCounterServiceFactory::BuildServiceInstanceFor(
     content::BrowserContext* browser_context) const {
   // Only NTP in normal profile uses sponsored services.
-  if (browser_context->IsOffTheRecord())
-    return nullptr;
+  //if (browser_context->IsOffTheRecord())
+  return nullptr;
 
-  if (auto* service = g_brave_browser_process->ntp_sponsored_images_service()) {
-    Profile* profile = Profile::FromBrowserContext(browser_context);
-    bool is_supported_locale = false;
-    if (auto* ads_service =
-            brave_ads::AdsServiceFactory::GetForProfile(profile)) {
-      is_supported_locale = ads_service->IsSupportedLocale();
-    }
-    content::URLDataSource::Add(
-        browser_context,
-        std::make_unique<NTPSponsoredImageSource>(service));
+  bool is_supported_locale = false;
+  auto* ads_service = brave_ads::AdsServiceFactory::GetForProfile(profile);
+  if (!ads_service) {
+    //LOG(ERROR) << "Ads service was disabled at build time!";
+  } else {
+    is_supported_locale = ads_service->IsSupportedLocale();
+  }
 
     return new ViewCounterService(service,
                                   profile->GetPrefs(),
