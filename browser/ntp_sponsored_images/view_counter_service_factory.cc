@@ -53,7 +53,7 @@ KeyedService* ViewCounterServiceFactory::BuildServiceInstanceFor(
   bool is_supported_locale = false;
   auto* ads_service = brave_ads::AdsServiceFactory::GetForProfile(profile);
   if (!ads_service) {
-    LOG(ERROR) << "Ads service was disabled at build time!";
+    //LOG(ERROR) << "Ads service was disabled at build time!";
   } else {
     is_supported_locale = ads_service->IsSupportedLocale();
   }

@@ -50,12 +50,6 @@
       <include name="IDR_DISSENTER_EXTENSION_CONTENT_D" file="dissenter_extension/content/wikipedia/script/script.js" type="BINDATA" />
       <include name="IDR_DISSENTER_EXTENSION_CONTENT_E" file="dissenter_extension/content/youtube/script/script.js" type="BINDATA" />
 
-
-      <include name="IDR_DISSENTER_EXTENSION_NEWHTML" file="dissenter_extension/newtab/newtab.html" type="BINDATA" />
-      <include name="IDR_DISSENTER_EXTENSION_NEWJS" file="dissenter_extension/newtab/newtab.js" type="BINDATA" />
-      <include name="IDR_DISSENTER_EXTENSION_NEWCSS" file="dissenter_extension/newtab/newtab.css" type="BINDATA" />
-      <include name="IDR_DISSENTER_NEWTAB_IMG" file="dissenter_extension/assets/images/newtabbg1.jpg" type="BINDATA" />
-
     </includes>
   </release>
 </grit>

@@ -110,9 +110,9 @@ void BraveAppMenuModel::InsertBraveMenuItems() {
   }
 
   // Insert webcompat reporter item.
-  InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_ABOUT),
-                           IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER,
-                           IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER);
+  //InsertItemWithStringIdAt(GetIndexOfCommandId(IDC_ABOUT),
+                           //IDC_SHOW_BRAVE_WEBCOMPAT_REPORTER,
+                           //IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER);
 }
 
 int BraveAppMenuModel::GetIndexOfBraveAdBlockItem() const {
