@@ -44,7 +44,7 @@
 #include "brave/components/brave_ads/browser/ads_service_factory.h"
 #include "brave/components/brave_ads/browser/buildflags/buildflags.h"
 #include "brave/components/brave_ads/common/pref_names.h"
-#include "brave/components/brave_rewards/browser/android_util.h"
+//#include "brave/components/brave_rewards/browser/android_util.h"
 #include "brave/components/brave_rewards/browser/auto_contribution_props.h"
 #include "brave/components/brave_rewards/browser/balance_report.h"
 #include "brave/components/brave_rewards/browser/content_site.h"
@@ -1587,7 +1587,7 @@ void RewardsServiceImpl::AttestationAndroid(
     std::move(callback).Run(static_cast<int32_t>(result), nullptr);
     return;
   }
-
+  /*
   const std::string nonce = android_util::ParseClaimPromotionResponse(response);
   if (nonce.empty()) {
     std::move(callback).Run(
@@ -1607,6 +1607,7 @@ void RewardsServiceImpl::AttestationAndroid(
         nonce,
         std::move(attest_callback));
   #endif
+  */
 }
 
 void RewardsServiceImpl::OnAttestationAndroid(
@@ -4386,11 +4387,11 @@ ledger::ClientInfoPtr GetDesktopClientInfo() {
 }
 
 ledger::ClientInfoPtr RewardsServiceImpl::GetClientInfo() {
-  #if defined(OS_ANDROID)
-    return android_util::GetAndroidClientInfo();
-  #else
-    return GetDesktopClientInfo();
-  #endif
+  //#if defined(OS_ANDROID)
+  //  return android_util::GetAndroidClientInfo();
+  //#else
+  return GetDesktopClientInfo();
+  //#endif
 }
 
 void RewardsServiceImpl::UnblindedTokensReady() {

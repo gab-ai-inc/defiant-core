@@ -27,6 +27,7 @@ WebcompatReportUploader::WebcompatReportUploader(
 WebcompatReportUploader::~WebcompatReportUploader() {}
 
 void WebcompatReportUploader::SubmitReport(std::string report_domain) {
+  /*
   std::string api_key = brave::GetAPIKey();
 
   GURL upload_url(WEBCOMPAT_REPORT_ENDPOINT);
@@ -39,6 +40,7 @@ void WebcompatReportUploader::SubmitReport(std::string report_domain) {
   base::JSONWriter::Write(post_data_obj, &post_data);
 
   WebcompatReportUploader::CreateAndStartURLLoader(upload_url, post_data);
+  */
 }
 
 void WebcompatReportUploader::CreateAndStartURLLoader(
