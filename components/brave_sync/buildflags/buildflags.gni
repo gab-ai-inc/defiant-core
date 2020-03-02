@@ -2,5 +2,5 @@ import("//build/config/features.gni")
 import("//extensions/buildflags/buildflags.gni")
 
 declare_args() {
-  enable_brave_sync = enable_extensions
+  enable_brave_sync = false # enable_extensions
 }

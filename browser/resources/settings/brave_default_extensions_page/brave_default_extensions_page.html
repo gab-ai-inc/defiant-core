@@ -66,6 +66,7 @@
       }
     </style>
 
+    <!--
     <div class="settings-box first">
       <div class="start">$i18n{braveWeb3ProviderDesc}</div>
       <settings-dropdown-menu id="braveWeb3ProvidersType"
@@ -73,6 +74,14 @@
                               menu-options="[[braveWeb3Providers_]]">
       </settings-dropdown-menu>
     </div>
+    <settings-toggle-button id="braveWalletEnabled"
+        class="first"
+        pref="{{prefs.brave.wallet.enabled}}"
+        label="Crypto Wallets"
+        sub-label="$i18n{braveWalletEnabledDesc}"
+        on-settings-boolean-control-change="onBraveWalletEnabledChange_">
+    </settings-toggle-button>
+    -->
     <settings-toggle-button id="hangoutsEnabled"
         pref="{{prefs.brave.hangouts_enabled}}"
         label="Hangouts"

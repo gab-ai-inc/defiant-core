@@ -68,9 +68,9 @@ NTPSponsoredImagesService::NTPSponsoredImagesService(
   }
 
   // Early return for test.
-  if (!cus)
-    return;
-
+  //if (!cus)
+  return;
+  /*
   const std::string locale =
       brave_ads::LocaleHelper::GetInstance()->GetLocale();
   if (const auto& data = GetRegionalComponentData(
@@ -79,6 +79,7 @@ NTPSponsoredImagesService::NTPSponsoredImagesService(
         base::BindRepeating(&NTPSponsoredImagesService::OnComponentReady,
                             weak_factory_.GetWeakPtr()));
   }
+  */
 }
 
 NTPSponsoredImagesService::~NTPSponsoredImagesService() {}
