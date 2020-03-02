@@ -104,7 +104,7 @@ BraveNewTabMessageHandler* BraveNewTabMessageHandler::Create(
   // in which case we would not show "opt out" toggle.
   bool is_ads_supported_locale_ = true;
   if (!ads_service_) {
-    LOG(ERROR) << "Ads service is not initialized!";
+    //LOG(ERROR) << "Ads service is not initialized!";
   } else {
     is_ads_supported_locale_ = ads_service_->IsSupportedLocale();
   }
