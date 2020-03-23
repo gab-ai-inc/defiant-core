@@ -35,7 +35,7 @@ declare_args() {
 }
 
 if (base_sparkle_update_url == "") {
-  base_sparkle_update_url = "https://updates.bravesoftware.com/sparkle/Brave-Browser"
+  base_sparkle_update_url = "https://updates.bravesoftware.com/sparkle/Dissenter-Browser"
 }
 _update_channel = brave_channel
 if (_update_channel == "") {
@@ -46,7 +46,7 @@ brave_feed_url = "$base_sparkle_update_url/$_update_channel/appcast.xml"
 brave_version = "$brave_version_major.$brave_version_minor.$brave_version_build"
 
 if (brave_exe == "") {
-  brave_exe = brave_project_name
+  brave_exe = "dissenter"
 }
 
 brave_dist_dir = "$root_out_dir/dist"
@@ -54,17 +54,17 @@ if (is_win) {
   brave_exe = "$brave_exe.exe"
   brave_underline_full_version = "_$chrome_version_major" + "_$brave_version_major" + "_$brave_version_minor" + "_$brave_version_build"
   _channel = ""
-  brave_app_guid = "{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}"
+  brave_app_guid = "{0C12B489-0B55-4F8B-8EB7-640256ADBE54}"
   if (is_official_build) {
     if (brave_channel == "beta") {
       _channel = "Beta"
-      brave_app_guid = "{103BD053-949B-43A8-9120-2E424887DE11}"
+      brave_app_guid = "{911586F3-317E-4498-868B-26BFCBD4F5FB}"
     } else if (brave_channel == "dev") {
       _channel = "Dev"
-      brave_app_guid = "{CB2150F2-595F-4633-891A-E39720CE0531}"
+      brave_app_guid = "{2F0CC5B2-B924-40EA-A441-175E25CD51AA}"
     } else if (brave_channel == "nightly") {
       _channel = "Nightly"
-      brave_app_guid = "{C6CB981E-DB30-4876-8639-109F8933582C}"
+      brave_app_guid = "{7D06B97B-CBC7-49E6-8440-4A6750F016A6}"
     } else {
       assert(brave_channel == "", "Unknown channel name")
     }
@@ -75,13 +75,13 @@ if (is_win) {
   if (target_cpu == "x86") {
     _arch = "32"
   }
-  brave_installer_exe = "brave_installer$brave_underline_full_version.exe"
-  brave_stub_installer_exe = "BraveBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_stub_installer_exe = "BraveBrowserSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_stub_installer_exe = "BraveBrowserUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_standalone_installer_exe = "BraveBrowserStandalone$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_silent_installer_exe = "BraveBrowserStandaloneSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
-  brave_untagged_installer_exe = "BraveBrowserStandaloneUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  dissenter_installer_exe = "dissenter_installer$brave_underline_full_version.exe"
+  brave_stub_installer_exe = "DissenterBrowser$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_silent_stub_installer_exe = "DissenterBrowserSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_untagged_stub_installer_exe = "DissenterBrowserUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_standalone_installer_exe = "DissenterBrowserStandalone$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_silent_installer_exe = "DissenterBrowserStandaloneSilent$_channel" + "Setup$_arch$brave_underline_full_version.exe"
+  brave_untagged_installer_exe = "DissenterBrowserStandaloneUntagged$_channel" + "Setup$_arch$brave_underline_full_version.exe"
 } else if (is_mac) {
   brave_exe = "$chrome_product_full_name.app"
   brave_dmg = "$chrome_product_full_name.dmg"
@@ -101,7 +101,7 @@ if (is_win) {
   } else {
     brave_product_dir_name_suffix = "-Development"
   }
-  brave_product_dir_name = "BraveSoftware/Brave-Browser$brave_product_dir_name_suffix"
+  brave_product_dir_name = "DissenterSoftware/Dissenter-Browser$brave_product_dir_name_suffix"
 }
 
 brave_platform = "darwin"
@@ -115,7 +115,7 @@ is_release_channel = brave_channel == ""
 
 brave_apk_output = ""
 if (is_android) {
-  brave_apk_output += "$root_out_dir/apks/Brave"
+  brave_apk_output += "$root_out_dir/apks/Dissenter"
   if (target_apk_base == "modern") {
     assert(target_cpu != "arm64" && target_cpu != "x64")
     brave_apk_output += "Modern"

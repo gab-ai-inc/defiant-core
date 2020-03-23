@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Tillatelsesforespørsler</translation>
 <translation id="3749259744154402564">Støttes ikke</translation>
 <translation id="629730747756840877">Konto</translation>
-<translation id="82609232232243542">Logg på Brave</translation>
-<translation id="7956662517480676674">Synkronisering/Brave Software-tjenester</translation>
-<translation id="5294439808117722387">Du holder på å tilpasse innstillingene for Synkronisering og Brave Software-tjenester. For å gjøre deg ferdig med å slå på synkronisering, trykk på Bekreft-knappen nederst på skjermen. Gå opp</translation>
+<translation id="82609232232243542">Logg på Dissenter</translation>
+<translation id="7956662517480676674">Synkronisering/Gab AI Inc-tjenester</translation>
+<translation id="5294439808117722387">Du holder på å tilpasse innstillingene for Synkronisering og Gab AI Inc-tjenester. For å gjøre deg ferdig med å slå på synkronisering, trykk på Bekreft-knappen nederst på skjermen. Gå opp</translation>
 <translation id="2096012225669085171">Synkronisering og personlig tilpasning på alle enheter</translation>
 <translation id="1692118695553449118">Synkronisering er slått på.</translation>
 <translation id="5514904542973294328">Deaktivert av administratoren for denne enheten</translation>
-<translation id="6447211988989208781">Brave Software Aktivitetslagring</translation>
+<translation id="6447211988989208781">Gab AI Inc Aktivitetslagring</translation>
 <translation id="4882831918239250449">Kontrollér hvordan nettleserloggen din brukes til personlig tilpasning av søk, annonser med mer</translation>
 <translation id="7431991332293347422">Kontrollér hvordan nettleserloggen din brukes til blant annet personlig tilpasning av søk</translation>
 <translation id="6303969859164067831">Logg av og slå av synkronisering</translation>
-<translation id="1125261911132334651">Administrer Brave Software-kontoen din</translation>
+<translation id="1125261911132334651">Administrer Gab AI Inc-kontoen din</translation>
 <translation id="6406506848690869874">Synkroniser</translation>
-<translation id="714362445477979774">Synkroniser Brave-dataene dine</translation>
+<translation id="714362445477979774">Synkroniser Dissenter-dataene dine</translation>
 <translation id="4314815835985389558">Administrer synkronisering</translation>
-<translation id="5428209950370661546">Andre Brave Software-tjenester</translation>
+<translation id="5428209950370661546">Andre Gab AI Inc-tjenester</translation>
 <translation id="7704317875155739195">Autofullfør søk og nettadresser</translation>
 <translation id="2000419248597011803">Sender noen informasjonskapsler og søk fra adressefeltet og søkefeltet samt noen informasjonskapsler til standardsøkemotoren din</translation>
 <translation id="7981313251711023384">Last inn sider på forhånd for raskere nettlesing og søk</translation>
 <translation id="1821253160463689938">Bruker informasjonskapsler til å huske preferansene dine, selv om du ikke går til de sidene</translation>
 <translation id="6697492270171225480">Viser forslag for lignende sider når en side ikke kan finnes</translation>
-<translation id="8109318360573330108">Sender Brave Software nettadressen til siden du prøver å åpne</translation>
+<translation id="8109318360573330108">Sender Gab AI Inc nettadressen til siden du prøver å åpne</translation>
 <translation id="8438566539970814960">Gjør søking og surfing bedre</translation>
-<translation id="284843628681142937">Sender Brave Software nettadressene til sider du besøker</translation>
-<translation id="7222718784508482526">Se <ph name="BEGIN_LINK"/>Synkronisering og Brave Software tjenester<ph name="END_LINK"/> for flere innstillinger knyttet til personvern, sikkerhet og datainnsamling.</translation>
-<translation id="918192811481327695">Hjelp til med å forbedre funksjonene og ytelsen til Brave</translation>
-<translation id="9063160602596686558">Sender automatisk brukerstatistikk og programstopprapporter til Brave Software</translation>
+<translation id="284843628681142937">Sender Gab AI Inc nettadressene til sider du besøker</translation>
+<translation id="7222718784508482526">Se <ph name="BEGIN_LINK"/>Synkronisering og Gab AI Inc tjenester<ph name="END_LINK"/> for flere innstillinger knyttet til personvern, sikkerhet og datainnsamling.</translation>
+<translation id="918192811481327695">Hjelp til med å forbedre funksjonene og ytelsen til Dissenter</translation>
+<translation id="9063160602596686558">Sender automatisk brukerstatistikk og programstopprapporter til Gab AI Inc</translation>
 <translation id="4824958205181053313">Vil du avbryte synkroniseringen?</translation>
 <translation id="3058498974290601450">Du kan når som helst slå på synkronisering i innstillingene</translation>
 <translation id="3143515551205905069">Avbryt synkronisering</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Kortnummer</translation>
 <translation id="869891660844655955">Utløpsdato</translation>
 <translation id="2286841657746966508">Faktureringsadresse</translation>
-<translation id="663059986967017181">Kopiert til Brave</translation>
+<translation id="663059986967017181">Kopiert til Dissenter</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/> til}other{<ph name="PAYMENT_METHOD_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/> til}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/> til}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/> til}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> til}other{<ph name="SHIPPING_OPTION_PREVIEW"/> og <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> til}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Automatisk pålogging</translation>
 <translation id="363596933471559332">Du logges på nettsteder automatisk ved hjelp av lagret legitimasjon. Når funksjonen er slått av, blir du bedt om å oppgi legitimasjonen din hver gang du logger på et nettsted.</translation>
 <translation id="6995899638241819463">Få en advarsel hvis passord blir avdekket i databrudd</translation>
-<translation id="1534287762301776620">Når du logger på Brave Software-kontoen din, blir denne funksjonen slått på</translation>
+<translation id="1534287762301776620">Når du logger på Gab AI Inc-kontoen din, blir denne funksjonen slått på</translation>
 <translation id="10614374240317010">Aldri lagret</translation>
-<translation id="3098842761938485917">Se og administrer lagrede passord i <ph name="BEGIN_LINK"/>Brave Software-kontoen<ph name="END_LINK"/> din</translation>
+<translation id="3098842761938485917">Se og administrer lagrede passord i <ph name="BEGIN_LINK"/>Gab AI Inc-kontoen<ph name="END_LINK"/> din</translation>
 <translation id="8562452229998620586">Lagrede passord listes opp her.</translation>
 <translation id="8084114998886531721">Lagret passord</translation>
 <translation id="2870560284913253234">Nettsted</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Slå på skjermlåsen i Innstillinger for å eksportere passordene dine fra denne enheten</translation>
 <translation id="4842092870884894799">Viser forgrunnsvinduet for passordgenerering</translation>
 <translation id="2259659629660284697">Eksportér passord</translation>
-<translation id="133012818630824069">Eksportér passord som er lagret med Brave</translation>
+<translation id="133012818630824069">Eksportér passord som er lagret med Dissenter</translation>
 <translation id="6914783257214138813">Passordene dine blir synlige for alle som kan se den eksporterte filen.</translation>
 <translation id="2321086116217818302">Klargjør passordene …</translation>
 <translation id="8445448999790540984">Kan ikke eksportere passordene</translation>
-<translation id="3066461326500799725">Finn ut hvordan du bruker Brave Software Disk</translation>
+<translation id="3066461326500799725">Finn ut hvordan du bruker Gab AI Inc Disk</translation>
 <translation id="729975465115245577">Enheten din har ingen app som kan lagre passordfilen.</translation>
 <translation id="7682724950699840886">Prøv dette: Sørg for at det er nok plass på enheten, og prøv å eksportere på nytt.</translation>
 <translation id="1129510026454351943">Detaljer: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Lås opp for å kopiere passordet ditt</translation>
 <translation id="5515439363601853141">Lås opp for å se passordet ditt</translation>
 <translation id="6221633008163990886">Lås opp for å eksportere passordene dine</translation>
-<translation id="230699814587342492">Brave-passord</translation>
+<translation id="230699814587342492">Dissenter-passord</translation>
 <translation id="6075798973483050474">Endre startsiden</translation>
 <translation id="854522910157234410">Åpne denne siden</translation>
 <translation id="2482878487686419369">Varsler</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Slå på mørkt tema når batterisparing eller enhetsinnstillingen for mørkt tema er på</translation>
 <translation id="6381421346744604172">Formørk nettsteder</translation>
 <translation id="5040262127954254034">Personvern</translation>
-<translation id="4991384657077828949">Bidra til å gjøre Brave sikrere</translation>
-<translation id="1943176487615318915">For å oppdage farlige apper og nettsteder sender Brave nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Brave Software.</translation>
+<translation id="4991384657077828949">Bidra til å gjøre Dissenter sikrere</translation>
+<translation id="1943176487615318915">For å oppdage farlige apper og nettsteder sender Dissenter nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold til Gab AI Inc.</translation>
 <translation id="3181954750937456830">Safe Browsing (beskytter deg og enheten din mot farlige nettsteder)</translation>
-<translation id="7315322926489145388">Sender Brave Software nettadressene til noen av sidene du besøker, når sikkerheten din står i fare</translation>
+<translation id="7315322926489145388">Sender Gab AI Inc nettadressene til noen av sidene du besøker, når sikkerheten din står i fare</translation>
 <translation id="2063713494490388661">Trykk for å søke</translation>
-<translation id="2369463299479365221">Finn ut om emner på nettsteder uten å forlate siden. «Trykk for å søke» sender et ord og omkringliggende kontekst til Brave Software Søk, slik at definisjoner, bilder, søkeresultater og annen informasjon returneres.
+<translation id="2369463299479365221">Finn ut om emner på nettsteder uten å forlate siden. «Trykk for å søke» sender et ord og omkringliggende kontekst til Gab AI Inc Søk, slik at definisjoner, bilder, søkeresultater og annen informasjon returneres.
 
 Hvis du vil endre søkeordet, kan du trykke og holde inne for å merke. Hvis du vil avgrense søket, drar du panelet hele veien opp og trykker på søkeboksen.</translation>
-<translation id="2930742481329940825">«Trykk for å søke» sender det valgte ordet og den aktive siden som kontekst til Brave Software Søk. Du kan slå av dette i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
+<translation id="2930742481329940825">«Trykk for å søke» sender det valgte ordet og den aktive siden som kontekst til Gab AI Inc Søk. Du kan slå av dette i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
 <translation id="5039804452771397117">Tillat</translation>
 <translation id="1406000523432664303">«Ingen sporing»</translation>
 <translation id="6232535412751077445">Hvis du slår på «Deaktivering av sporing», blir det sendt en forespørsel sammen med nettrafikken din. Hvilke virkninger dette eventuelt får, avhenger av om det aktuelle nettstedet svarer på forespørselen eller ikke, samt hvordan forespørselen tolkes.
@@ -197,18 +197,18 @@ Noen nettsteder kan for eksempel svare på denne forespørselen ved å vise deg 
 <translation id="7359002509206457351">Gå til betalingsmåter</translation>
 <translation id="8026334261755873520">Slett nettleserdata</translation>
 <translation id="1291207594882862231">Slett loggoppføringer, informasjonskapsler, nettstedsdata, bufferen …</translation>
-<translation id="7814200940910057384">Brave-dataene er slettet</translation>
-<translation id="1664855196866195614">De valgte dataene er er fjernet fra Brave og de synkroniserte enhetene dine.
+<translation id="7814200940910057384">Dissenter-dataene er slettet</translation>
+<translation id="1664855196866195614">De valgte dataene er er fjernet fra Dissenter og de synkroniserte enhetene dine.
 
-Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel søk og aktivitet fra andre Brave Software-tjenester, på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+Gab AI Inc-kontoen din kan ha andre former for nettleserlogger, for eksempel søk og aktivitet fra andre Gab AI Inc-tjenester, på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="4699172675775169585">Bufrede bilder og filer</translation>
 <translation id="2496180316473517155">Nettleserlogg</translation>
 <translation id="2546283357679194313">Informasjonskapsler og data fra nettsteder</translation>
 <translation id="8662811608048051533">Logger deg av de fleste nettsteder.</translation>
-<translation id="8218628800671693884">Logger deg av de fleste nettsteder. Du blir ikke logget av Brave Software-kontoen din.</translation>
+<translation id="8218628800671693884">Logger deg av de fleste nettsteder. Du blir ikke logget av Gab AI Inc-kontoen din.</translation>
 <translation id="2017836877785168846">Tømmer loggen og fjerner automatiske fullføringer fra adressefeltet.</translation>
-<translation id="8096327394278038498">Tømmer loggen og fjerner autofullføringer i adressefeltet. Det kan hende Brave Software-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Tømmer loggen på alle påloggede enheter. Det kan hende Brave Software-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Tømmer loggen og fjerner autofullføringer i adressefeltet. Det kan hende Gab AI Inc-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Tømmer loggen på alle påloggede enheter. Det kan hende Gab AI Inc-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="5869522115854928033">Lagrede passord</translation>
 <translation id="6865313869410766144">Skjemadata lagret med autofyll</translation>
 <translation id="7562080006725997899">Sletter nettlesingsdata</translation>
@@ -225,7 +225,7 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="6643016212128521049">Tøm</translation>
 <translation id="7641339528570811325">Slett nettleserdata</translation>
 <translation id="1670399744444387456">Enkle</translation>
-<translation id="3245261285041759672">Det kan hende Brave Software-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3245261285041759672">Det kan hende Gab AI Inc-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7274013316676448362">Blokkert nettsted</translation>
 <translation id="2534155362429831547">Slettet <ph name="NUMBER_OF_ITEMS"/> elementer</translation>
 <translation id="6981982820502123353">Tilgjengelighet</translation>
@@ -335,12 +335,12 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="8156139159503939589">Hvilke språk kan du lese?</translation>
 <translation id="5689516760719285838">Sted</translation>
 <translation id="2440823041667407902">Posisjonstilgang</translation>
-<translation id="2023546461831060654">Slå på tillatelsene for Brave i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">Slå på tillatelsen for Brave i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
-<translation id="2928908108430545745">For å gi Brave tilgang til posisjonen din må du også slå på posisjon i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
-<translation id="1028853271388022585">For å gi Brave tilgang til kameraet må du også slå på kameraet i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
-<translation id="2913721282607281710">For at Brave skal kunne sende deg varsler, må du også slå på varsler i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
-<translation id="8753483718490035722">For å gi Brave tilgang til mikrofonen må du også slå på mikrofonen i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="2023546461831060654">Slå på tillatelsene for Dissenter i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">Slå på tillatelsen for Dissenter i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="2928908108430545745">For å gi Dissenter tilgang til posisjonen din må du også slå på posisjon i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="1028853271388022585">For å gi Dissenter tilgang til kameraet må du også slå på kameraet i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="2913721282607281710">For at Dissenter skal kunne sende deg varsler, må du også slå på varsler i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
+<translation id="8753483718490035722">For å gi Dissenter tilgang til mikrofonen må du også slå på mikrofonen i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
 <translation id="1887786770086287077">Posisjonstilgang er slått av for denne enheten. Slå den på i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
 <translation id="2570922361219980984">Posisjonstilgang er også slått av for denne enheten. Slå den på i <ph name="BEGIN_LINK"/>Android-innstillingene<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Kamera</translation>
@@ -358,8 +358,8 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="7821588508402923572">Datasparingen din vises her</translation>
 <translation id="2131665479022868825"><ph name="DATA"/> spart</translation>
 <translation id="8569404424186215731">siden <ph name="DATE"/></translation>
-<translation id="3252158532344029638">I forenklet modus laster Brave inn sider raskere og bruker opptil 60 prosent mindre data.</translation>
-<translation id="1438581767753657407">Når forenklet modus er på, brukes Brave-tjenerne til å laste inn sider raskere. Forenklet modus omskriver svært trege sider, slik at kun essensielt innhold lastes inn. Forenklet modus brukes ikke på private faner.</translation>
+<translation id="3252158532344029638">I forenklet modus laster Dissenter inn sider raskere og bruker opptil 60 prosent mindre data.</translation>
+<translation id="1438581767753657407">Når forenklet modus er på, brukes Dissenter-tjenerne til å laste inn sider raskere. Forenklet modus omskriver svært trege sider, slik at kun essensielt innhold lastes inn. Forenklet modus brukes ikke på private faner.</translation>
 <translation id="6159335304067198720"><ph name="PERCENT"/> datasparing</translation>
 <translation id="7494974237137038751">data spart</translation>
 <translation id="6111020039983847643">data brukt</translation>
@@ -381,15 +381,15 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="1856325424225101786">Vil du tilbakestille forenklet modus?</translation>
 <translation id="3658159451045945436">Tilbakestilling fjerner historikken for datasparing, inkludert listen over besøkte nettsteder.</translation>
 <translation id="3295530008794733555">Surf raskere. Bruk mindre data.</translation>
-<translation id="7340390500800578919">I forenklet modus laster Brave inn sider raskere og bruker opptil 60 prosent mindre data. For å optimalisere sidene du besøker, sender Brave nettrafikken din til Brave Software. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">I forenklet modus laster Dissenter inn sider raskere og bruker opptil 60 prosent mindre data. For å optimalisere sidene du besøker, sender Dissenter nettrafikken din til Gab AI Inc. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">Slå på forenklet modus</translation>
 <translation id="4493497663118223949">Forenklet modus er på</translation>
 <translation id="7559975015014302720">Forenklet modus er av</translation>
 <translation id="7606077192958116810">Forenklet modus er på. Du kan endre dette i Innstillinger.</translation>
 <translation id="4714588616299687897">Reduser databruken med opptil 60 %</translation>
-<translation id="1006927014032731288">Brave Software-tjenere optimaliserer sidene du besøker.</translation>
-<translation id="3257320067425202300">Brave har spart deg for <ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">Brave har spart deg for <ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">Gab AI Inc-tjenere optimaliserer sidene du besøker.</translation>
+<translation id="3257320067425202300">Dissenter har spart deg for <ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">Dissenter har spart deg for <ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">Nedlastingssted</translation>
 <translation id="7077143737582773186">SD-kort</translation>
 <translation id="7762668264895820836">SD-kort <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="7290209999329137901">Du kan ikke endre navn</translation>
 <translation id="3334729583274622784">Vil du endre filetternavnet?</translation>
 <translation id="107147699690128016">Hvis du endrer filetternavnet, kan filen bli åpnet i et annet program og muligens utgjøre en fare for enheten.</translation>
-<translation id="8541922081612557424">Om Brave</translation>
-<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Brave Software LLC. Med enerett.</translation>
+<translation id="8541922081612557424">Om Dissenter</translation>
+<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Gab AI Inc LLC. Med enerett.</translation>
 <translation id="1416550906796893042">Programversjon</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (oppdatert <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Operativsystem</translation>
-<translation id="3968054912784331254">Denne Android-versjonen støtter ikke lenger Brave-oppdateringer</translation>
+<translation id="3968054912784331254">Denne Android-versjonen støtter ikke lenger Dissenter-oppdateringer</translation>
 <translation id="7665369617277396874">Legg til konto</translation>
-<translation id="649070405679044769">Logget på Brave Software som</translation>
-<translation id="6234515504547364178">Logg av Brave</translation>
+<translation id="649070405679044769">Logget på Gab AI Inc som</translation>
+<translation id="6234515504547364178">Logg av Dissenter</translation>
 <translation id="5324858694974489420">Foreldreinnstillinger</translation>
 <translation id="8920114477895755567">Venter på informasjon om foreldre.</translation>
 <translation id="5512137114520586844">Denne kontoen er administrert av <ph name="PARENT_NAME"/>.</translation>
@@ -432,7 +432,7 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="5403644198645076998">Tillat bare visse nettsteder</translation>
 <translation id="8641930654639604085">Prøv å blokkere nettsteder med voksent innhold</translation>
 <translation id="5639724618331995626">Tillat alle nettsteder</translation>
-<translation id="796823723482603597">Drevet av Brave</translation>
+<translation id="796823723482603597">Drevet av Dissenter</translation>
 <translation id="6324034347079777476">Synkronisering for Android-systemet er slått av</translation>
 <translation id="5127805178023152808">Synkronisering er slått av</translation>
 <translation id="7015203776128479407">Innledende synkroniseringsoppsett ble ikke fullført. Synkronisering er slått av.</translation>
@@ -441,48 +441,48 @@ Brave Software-kontoen din kan ha andre former for nettleserlogger, for eksempel
 <translation id="6108923351542677676">Konfigurasjon pågår …</translation>
 <translation id="4062305924942672200">Juridisk informasjon</translation>
 <translation id="4256782883801055595">Lisenser for åpen kildekode</translation>
-<translation id="1138681184697033370">Vilkår for bruk av Brave</translation>
-<translation id="7392539049993970338">Merknad om personvern for Brave</translation>
+<translation id="1138681184697033370">Vilkår for bruk av Dissenter</translation>
+<translation id="7392539049993970338">Merknad om personvern for Dissenter</translation>
 <translation id="2677748264148917807">Gå ut</translation>
 <translation id="5556459405103347317">Last inn på nytt</translation>
 <translation id="1623104350909869708">Hindre denne siden i å opprette flere dialogruter</translation>
 <translation id="2968755619301702150">Visningsprogram for sertifikater</translation>
 <translation id="1360432990279830238">Vil du logge av og slå av synkronisering?</translation>
-<translation id="8581481290581777242">Vil du fjerne Brave-dataene dine fra denne enheten?</translation>
-<translation id="1318865768845061710">Bokmerker, logg, passord og andre Brave-data synkroniseres ikke lenger med Brave Software-kontoen din.</translation>
-<translation id="3325020657155065477">Fjern også Brave-dataene dine fra denne enheten</translation>
-<translation id="6136448902816743006">Fordi du logger av en konto som administreres av <ph name="DOMAIN_NAME"/>, slettes Brave-dataene dine fra denne enheten. De blir værende i Brave Software-kontoen din.</translation>
-<translation id="1853026300647876496">Kontakter Brave Software. Dette kan ta en liten stund.</translation>
+<translation id="8581481290581777242">Vil du fjerne Dissenter-dataene dine fra denne enheten?</translation>
+<translation id="1318865768845061710">Bokmerker, logg, passord og andre Dissenter-data synkroniseres ikke lenger med Gab AI Inc-kontoen din.</translation>
+<translation id="3325020657155065477">Fjern også Dissenter-dataene dine fra denne enheten</translation>
+<translation id="6136448902816743006">Fordi du logger av en konto som administreres av <ph name="DOMAIN_NAME"/>, slettes Dissenter-dataene dine fra denne enheten. De blir værende i Gab AI Inc-kontoen din.</translation>
+<translation id="1853026300647876496">Kontakter Gab AI Inc. Dette kan ta en liten stund.</translation>
 <translation id="2328985652426384049">Kan ikke logge på</translation>
-<translation id="7723158744459952869">Brave Software brukte for lang tid på å svare</translation>
+<translation id="7723158744459952869">Gab AI Inc brukte for lang tid på å svare</translation>
 <translation id="4572422548854449519">Logg på en administrert konto</translation>
-<translation id="2689656545739939160">Du logger på med en konto som administreres av <ph name="MANAGED_DOMAIN"/>, og du gir administratoren for dette domenet kontroll over Brave-dataene dine. Dataene dine blir permanent knyttet til denne kontoen. Når du logger av Brave, slettes dataene dine fra denne enheten, men de fortsetter å være lagret i Brave Software-kontoen din.</translation>
+<translation id="2689656545739939160">Du logger på med en konto som administreres av <ph name="MANAGED_DOMAIN"/>, og du gir administratoren for dette domenet kontroll over Dissenter-dataene dine. Dataene dine blir permanent knyttet til denne kontoen. Når du logger av Dissenter, slettes dataene dine fra denne enheten, men de fortsetter å være lagret i Gab AI Inc-kontoen din.</translation>
 <translation id="1749561566933687563">Synkroniser bokmerkene dine</translation>
 <translation id="4242533952199664413">Åpne innstillingene</translation>
 <translation id="1111673857033749125">Bokmerker som er lagret på de andre enhetene dine, vises her.</translation>
 <translation id="8636825310635137004">For å få fanene dine fra de andre enhetene du bruker, slå på synkronisering.</translation>
 <translation id="3269956123044984603">For å få fanene dine fra de andre enhetene du bruker, slå på «Synkroniser data automatisk» i kontoinnstillingene for Android.</translation>
-<translation id="5157964048453367290">Faner du har åpnet i Brave på de andre enhetene dine, vises her.</translation>
+<translation id="5157964048453367290">Faner du har åpnet i Dissenter på de andre enhetene dine, vises her.</translation>
 <translation id="4684427112815847243">Synkroniser alt</translation>
 <translation id="2709516037105925701">Autofyll</translation>
 <translation id="8820817407110198400">Bokmerker</translation>
 <translation id="1644574205037202324">Logg</translation>
 <translation id="17513872634828108">Åpne faner</translation>
-<translation id="1320169905922104972">Kredittkort og adresser ved bruk av Brave Software Pay</translation>
+<translation id="1320169905922104972">Kredittkort og adresser ved bruk av Gab AI Inc Pay</translation>
 <translation id="6337234675334993532">Kryptering</translation>
 <translation id="6698801883190606802">Administrer synkroniserte data</translation>
-<translation id="3598578758776312506">Kryptér passord med Brave Software-legitimasjonen din</translation>
-<translation id="7810580217418711046">Kryptér synkroniserte data med Brave Software-passord fra og med <ph name="TIME"/></translation>
+<translation id="3598578758776312506">Kryptér passord med Gab AI Inc-legitimasjonen din</translation>
+<translation id="7810580217418711046">Kryptér synkroniserte data med Gab AI Inc-passord fra og med <ph name="TIME"/></translation>
 <translation id="8461694314515752532">Kryptér synkroniserte data med din egen passordfrase for synkronisering</translation>
 <translation id="2996291259634659425">Opprett en passordfrase</translation>
-<translation id="5713644099811900409">Brave Software-konto</translation>
-<translation id="8997474919031554666">Kryptering av passordfraser inkluderer ikke betalingsmåter og adresser fra Brave Software Pay. Bare personer som har passordfrasen din, kan lese de krypterte dataene dine. Passordfrasen blir verken sendt til Brave Software eller lagret. Hvis du glemmer den, må du tilbakestille synkroniseringen. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Gab AI Inc-konto</translation>
+<translation id="8997474919031554666">Kryptering av passordfraser inkluderer ikke betalingsmåter og adresser fra Gab AI Inc Pay. Bare personer som har passordfrasen din, kan lese de krypterte dataene dine. Passordfrasen blir verken sendt til Gab AI Inc eller lagret. Hvis du glemmer den, må du tilbakestille synkroniseringen. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">Passordfrase</translation>
 <translation id="7772032839648071052">Bekreft passord</translation>
 <translation id="5304593522240415983">Dette feltet må fylles ut</translation>
 <translation id="321773570071367578">Hvis du har glemt passordfrasen din eller vil endre denne innstillingen, må du <ph name="BEGIN_LINK"/>tilbakestille synkroniseringen<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">Passordfrasene stemmer ikke overens</translation>
-<translation id="5149495116300586333">Kryptering av passordfraser inkluderer ikke betalingsmåter og adresser fra Brave Software Pay.
+<translation id="5149495116300586333">Kryptering av passordfraser inkluderer ikke betalingsmåter og adresser fra Gab AI Inc Pay.
 
 For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkroniseringen<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Feil passordfrase</translation>
@@ -499,11 +499,11 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Få hjelp<ph name="END_LINK1"/> eller <ph name="BEGIN_LINK2"/>skann på nytt<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">Fant ingen kompatible enheter</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Slå på Bluetooth<ph name="END_LINK"/> for å tillate tilkobling</translation>
-<translation id="998321811308652668">Brave kan ikke slå på Bluetooth-adapteren</translation>
+<translation id="998321811308652668">Dissenter kan ikke slå på Bluetooth-adapteren</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Få hjelp<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">Brave trenger posisjonstilgang for å søke etter enheter. <ph name="BEGIN_LINK"/>Oppdater tillatelsene<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">Brave trenger posisjonstilgang for å søke etter enheter. Posisjonstilgang er <ph name="BEGIN_LINK"/>slått av for denne enheten<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">Brave trenger posisjonstilgang for å søke etter enheter. <ph name="BEGIN_LINK1"/>Oppdater tillatelsene<ph name="END_LINK1"/>. Posisjonstilgang er også <ph name="BEGIN_LINK2"/>slått av for denne enheten<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">Dissenter trenger posisjonstilgang for å søke etter enheter. <ph name="BEGIN_LINK"/>Oppdater tillatelsene<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">Dissenter trenger posisjonstilgang for å søke etter enheter. Posisjonstilgang er <ph name="BEGIN_LINK"/>slått av for denne enheten<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">Dissenter trenger posisjonstilgang for å søke etter enheter. <ph name="BEGIN_LINK1"/>Oppdater tillatelsene<ph name="END_LINK1"/>. Posisjonstilgang er også <ph name="BEGIN_LINK2"/>slått av for denne enheten<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Tilkoblet enhet</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Signalstyrkenivå: # stolpe}other{Signalstyrkenivå: # stolper}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/> vil søke etter Bluetooth-enheter i nærheten. Fant disse enhetene:</translation>
@@ -511,11 +511,11 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="7605594153474022051">Synkronisering fungerer ikke</translation>
 <translation id="2537178555904266562">Feil under synkronisering av passord</translation>
 <translation id="1810845389119482123">Det innledende synkroniseringsoppsettet er ikke fullført</translation>
-<translation id="3235722914093408050">Start Brave-synkronisering ved å slå på synkronisering i Android-innstillingene</translation>
+<translation id="3235722914093408050">Start Dissenter-synkronisering ved å slå på synkronisering i Android-innstillingene</translation>
 <translation id="3367813778245106622">Logg på igjen for å starte synkroniseringen</translation>
 <translation id="3701167022068948696">Løs dette nå</translation>
 <translation id="974555521953189084">Skriv inn passordfrasen din for å starte synkroniseringen</translation>
-<translation id="2997266899014181325">For å starte synkronisering, slå på «Synkroniser Brave-dataene dine».</translation>
+<translation id="2997266899014181325">For å starte synkronisering, slå på «Synkroniser Dissenter-dataene dine».</translation>
 <translation id="8260126382462817229">Prøv å logge på igjen</translation>
 <translation id="5919204609460789179">Oppdater <ph name="PRODUCT_NAME"/> for å starte synkroniseringen</translation>
 <translation id="397583555483684758">Synkroniseringen har sluttet å fungere</translation>
@@ -548,14 +548,14 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> <ph name="LINK_NAME"/>-knapp</translation>
 <translation id="3205824638308738187">Nesten ferdig!</translation>
-<translation id="3960299545138990065">Start Brave på nytt</translation>
+<translation id="3960299545138990065">Start Dissenter på nytt</translation>
 <translation id="3771001275138982843">Kunne ikke laste ned oppdateringen</translation>
-<translation id="3888648114124182147">Laster ned en Brave-oppdatering …</translation>
-<translation id="1705567146636171298">Oppdater Brave</translation>
-<translation id="6195417478702700398">For å få den beste surfeopplevelsen, åpne for å oppdatere Brave</translation>
-<translation id="3512968675351418494">For å se nettet på ditt eget språk, skaff den nyeste versjonen av Brave</translation>
+<translation id="3888648114124182147">Laster ned en Dissenter-oppdatering …</translation>
+<translation id="1705567146636171298">Oppdater Dissenter</translation>
+<translation id="6195417478702700398">For å få den beste surfeopplevelsen, åpne for å oppdatere Dissenter</translation>
+<translation id="3512968675351418494">For å se nettet på ditt eget språk, skaff den nyeste versjonen av Dissenter</translation>
 <translation id="6427112570124116297">Oversett nettet</translation>
-<translation id="1379423114029199501">Oppdater for å få språket ditt i den nyeste versjonen av Brave</translation>
+<translation id="1379423114029199501">Oppdater for å få språket ditt i den nyeste versjonen av Dissenter</translation>
 <translation id="5684874026226664614">Beklager. Denne siden kunne ikke oversettes.</translation>
 <translation id="6831043979455480757">Oversett</translation>
 <translation id="1285320974508926690">Oversett aldri dette nettstedet</translation>
@@ -578,11 +578,11 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="2532336938189706096">Nettvisning</translation>
 <translation id="6005538289190791541">Foreslått passord</translation>
 <translation id="4634124774493850572">Bruk passord</translation>
-<translation id="8285489906452138776">Brave trenger tilgang til kameraet ditt for dette nettstedet.</translation>
-<translation id="320189792589364011">Brave trenger tilgang til mikrofonen din for dette nettstedet.</translation>
-<translation id="7988136689212463100">Brave trenger tilgang til kameraet ditt og mikrofonen din for dette nettstedet.</translation>
-<translation id="4931190655840828017">Brave trenger tilgang til posisjonen din for å kunne dele den med dette nettstedet.</translation>
-<translation id="3088191967551450609">Brave må ha lagringstilgang for å laste ned filer.</translation>
+<translation id="8285489906452138776">Dissenter trenger tilgang til kameraet ditt for dette nettstedet.</translation>
+<translation id="320189792589364011">Dissenter trenger tilgang til mikrofonen din for dette nettstedet.</translation>
+<translation id="7988136689212463100">Dissenter trenger tilgang til kameraet ditt og mikrofonen din for dette nettstedet.</translation>
+<translation id="4931190655840828017">Dissenter trenger tilgang til posisjonen din for å kunne dele den med dette nettstedet.</translation>
+<translation id="3088191967551450609">Dissenter må ha lagringstilgang for å laste ned filer.</translation>
 <translation id="8942627711005830162">Åpne i et annet vindu</translation>
 <translation id="4195643157523330669">Åpne i ny fane</translation>
 <translation id="1100066534610197918">Åpne i en ny fane i en gruppe</translation>
@@ -599,15 +599,15 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="8073388330009372546">Åpne bildet i en ny fane</translation>
 <translation id="6649642165559792194">Forhåndsvis bildet <ph name="BEGIN_NEW"/>Nyhet<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Last inn bildet</translation>
-<translation id="3845332215609790146">Søk med Brave Software Lens <ph name="BEGIN_NEW"/>Nyhet<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Søk med Gab AI Inc Lens <ph name="BEGIN_NEW"/>Nyhet<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">Søk etter dette bildet i <ph name="SEARCH_ENGINE"/></translation>
 <translation id="3384347053049321195">Del bildet</translation>
 <translation id="5833984609253377421">Del en link</translation>
 <translation id="6475951671322991020">Last ned videoen</translation>
-<translation id="2317945146070194624">Åpne i en ny Brave-fane</translation>
+<translation id="2317945146070194624">Åpne i en ny Dissenter-fane</translation>
 <translation id="7975379999046275268">Forhåndsvis siden <ph name="BEGIN_NEW"/>Nyhet<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Oppdaterer siden.</translation>
-<translation id="6990079615885386641">Last ned appen fra Brave Software Play Butikk: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Last ned appen fra Gab AI Inc Play Butikk: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Mørk</translation>
 <translation id="1807246157184219062">Lys</translation>
 <translation id="4056223980640387499">Sepia</translation>
@@ -634,9 +634,9 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="164269334534774161">Du ser en lokal kopi av denne siden fra <ph name="CREATION_TIME"/></translation>
 <translation id="4594952190837476234">Denne siden uten nett er fra <ph name="CREATION_TIME"/> og kan avvike fra nettversjonen.</translation>
 <translation id="8840953339110955557">Denne siden kan avvike fra nettversjonen.</translation>
-<translation id="6405300764336705484">Dette innholdet er fra <ph name="DOMAIN_NAME"/> og er levert av Brave Software.</translation>
+<translation id="6405300764336705484">Dette innholdet er fra <ph name="DOMAIN_NAME"/> og er levert av Gab AI Inc.</translation>
 <translation id="1006017844123154345">Åpne på nettet</translation>
-<translation id="3326636747541519688">Forenklet versjon av siden levert av Brave Software</translation>
+<translation id="3326636747541519688">Forenklet versjon av siden levert av Gab AI Inc</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Last inn original side<ph name="END_LINK"/> fra <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Hvis du ser dette ofte, kan du prøve disse <ph name="BEGIN_LINK"/>forslagene<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Innholdet er skjult</translation>
@@ -733,19 +733,19 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">MM</translation>
 <translation id="605721222689873409">ÅÅ</translation>
-<translation id="724102042129299115">Førsteinntrykk ved bruk av Brave</translation>
-<translation id="2700285883409956633">Ved å bruke dette programmet samtykker du i Braves <ph name="BEGIN_LINK1"/>vilkår for bruk<ph name="END_LINK1"/> og <ph name="BEGIN_LINK2"/>merknad om personvern<ph name="END_LINK2"/>.</translation>
-<translation id="1640714894372474981">Når du bruker denne appen, godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Brave, <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/> og <ph name="BEGIN_LINK3"/>merknaden om personvern for Brave Software-kontoer som administreres med Family Link<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727"><ph name="APP_NAME"/> åpnes i Brave. Ved å fortsette godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Brave og <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/>.</translation>
-<translation id="5071615083211946659"><ph name="APP_NAME"/> åpnes i Brave. Ved å fortsette godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Brave og <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/> samt <ph name="BEGIN_LINK3"/>merknaden om personvern for Brave Software-kontoer som administreres med Family Link<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Gjør Brave bedre ved å sende bruksstatistikk og programstopprapporter til Brave Software.</translation>
+<translation id="724102042129299115">Førsteinntrykk ved bruk av Dissenter</translation>
+<translation id="2700285883409956633">Ved å bruke dette programmet samtykker du i Dissenters <ph name="BEGIN_LINK1"/>vilkår for bruk<ph name="END_LINK1"/> og <ph name="BEGIN_LINK2"/>merknad om personvern<ph name="END_LINK2"/>.</translation>
+<translation id="1640714894372474981">Når du bruker denne appen, godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Dissenter, <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/> og <ph name="BEGIN_LINK3"/>merknaden om personvern for Gab AI Inc-kontoer som administreres med Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME"/> åpnes i Dissenter. Ved å fortsette godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Dissenter og <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/>.</translation>
+<translation id="5071615083211946659"><ph name="APP_NAME"/> åpnes i Dissenter. Ved å fortsette godtar du <ph name="BEGIN_LINK1"/>vilkårene for bruk<ph name="END_LINK1"/> av Dissenter og <ph name="BEGIN_LINK2"/>merknaden om personvern<ph name="END_LINK2"/> samt <ph name="BEGIN_LINK3"/>merknaden om personvern for Gab AI Inc-kontoer som administreres med Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Gjør Dissenter bedre ved å sende bruksstatistikk og programstopprapporter til Gab AI Inc.</translation>
 <translation id="3518985090088779359">Godta og fortsett</translation>
-<translation id="7207456302801184289">Velkommen til Brave</translation>
-<translation id="7189372733857464326">Venter på at Brave Software Play Tjenester fullfører oppdateringen</translation>
+<translation id="7207456302801184289">Velkommen til Dissenter</translation>
+<translation id="7189372733857464326">Venter på at Gab AI Inc Play Tjenester fullfører oppdateringen</translation>
 <translation id="1231733316453485619">Vil du slå på synkronisering?</translation>
 <translation id="5132942445612118989">Synkroniser passordene dine, loggen din med mer på alle enheter</translation>
-<translation id="5736731321935944068">Brave Software kan bruke loggen din for å gi Søk, annonser og andre Brave Software-tjenester et personlig preg</translation>
-<translation id="4013614219085422040">Brave Software kan bruke loggen din for å gi Søk og andre Brave Software-tjenester et personlig preg</translation>
+<translation id="5736731321935944068">Gab AI Inc kan bruke loggen din for å gi Søk, annonser og andre Gab AI Inc-tjenester et personlig preg</translation>
+<translation id="4013614219085422040">Gab AI Inc kan bruke loggen din for å gi Søk og andre Gab AI Inc-tjenester et personlig preg</translation>
 <translation id="5581519193887989363">Du kan når som helst velge hva du vil synkronisere, i <ph name="BEGIN_LINK1"/>innstillingene<ph name="END_LINK1"/>.</translation>
 <translation id="741204030948306876">Ja, jeg er med</translation>
 <translation id="2410754283952462441">Velg en konto</translation>
@@ -753,8 +753,8 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="6210748933810148297">Ikke <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">For å få bokmerkene dine på alle enhetene dine, slå på synkronisering</translation>
 <translation id="2818669890320396765">For å få bokmerkene dine på alle enhetene dine, logg på og slå på synkronisering</translation>
-<translation id="6003646045106347985">For å få forslag om personlig tilpasset innhold fra Brave Software, slå på synkronisering</translation>
-<translation id="8494430740943879273">For å få forslag om personlig tilpasset innhold fra Brave Software, slå på synkronisering</translation>
+<translation id="6003646045106347985">For å få forslag om personlig tilpasset innhold fra Gab AI Inc, slå på synkronisering</translation>
+<translation id="8494430740943879273">For å få forslag om personlig tilpasset innhold fra Gab AI Inc, slå på synkronisering</translation>
 <translation id="5862731021271217234">For å få fanene dine fra de andre enhetene du bruker, slå på synkronisering</translation>
 <translation id="3568688522516854065">For å få fanene dine fra de andre enhetene du bruker, logg på og slå på synkronisering.</translation>
 <translation id="1208340532756947324">For å synkronisere og gi et personlig preg på alle enhetene, slå på synkronisering</translation>
@@ -774,7 +774,7 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="5423934151118863508">Sidene du besøker mest, vises her</translation>
 <translation id="6127379762771434464">Elementet er fjernet</translation>
 <translation id="4605958867780575332">Elementet er fjernet: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Brave Software-doodle: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Gab AI Inc-doodle: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Andre enheter</translation>
 <translation id="4738836084190194332">Sist synkronisert: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{for # minutt siden}other{for # minutter siden}}</translation>
@@ -805,9 +805,9 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="1171770572613082465">Se populære nettsteder ved å trykke på «Populært»-knappen</translation>
 <translation id="5233638681132016545">Ny fane</translation>
 <translation id="6336451774241870485">Ny privat fane</translation>
-<translation id="4521874409998847950">Fra <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>levert av Brave Software<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">Fra <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>levert av Gab AI Inc<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">En nyere versjon er tilgjengelig</translation>
-<translation id="4058091506841967397">Kan ikke oppdatere Brave</translation>
+<translation id="4058091506841967397">Kan ikke oppdatere Dissenter</translation>
 <translation id="6316139424528454185">Android-versjonen støttes ikke</translation>
 <translation id="6989267951144302301">Kunne ikke laste ned</translation>
 <translation id="624789221780392884">Oppdateringen er klar</translation>
@@ -855,7 +855,7 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="2536728043171574184">Ser på en lokalt lagret versjon av denne siden</translation>
 <translation id="4698034686595694889">Se uten nett i <ph name="APP_NAME"/></translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> og flere nettsteder</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave laster inn siden når den er klar}other{Brave laster inn sidene når de er klare}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Dissenter laster inn siden når den er klar}other{Dissenter laster inn sidene når de er klare}}</translation>
 <translation id="6811034713472274749">Siden er klar til å vises</translation>
 <translation id="4561979708150884304">Ingen tilkobling</translation>
 <translation id="8274165955039650276">Se nedlastinger</translation>
@@ -865,16 +865,16 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="3298243779924642547">Forenklet</translation>
 <translation id="393697183122708255">Ingen aktiverte talesøk er tilgjengelige</translation>
 <translation id="7191430249889272776">En fane ble åpnet i bakgrunnen.</translation>
-<translation id="8445059357334030806">Åpne i Brave</translation>
+<translation id="8445059357334030806">Åpne i Dissenter</translation>
 <translation id="4720023427747327413">Åpne i <ph name="PRODUCT_NAME"/></translation>
 <translation id="7022756207310403729">Åpne i nettleseren</translation>
 <translation id="1113597929977215864">Vis forenklet visning</translation>
 <translation id="1513352483775369820">Bokmerker og nettlogg</translation>
-<translation id="4939482511480190003">Hjelp til med å forbedre Brave. <ph name="BEGIN_LINK"/>Delta i undersøkelsen<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Hjelp til med å forbedre Dissenter. <ph name="BEGIN_LINK"/>Delta i undersøkelsen<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Gå tilbake</translation>
 <translation id="5596627076506792578">Flere alternativer</translation>
 <translation id="3522247891732774234">En oppdatering er tilgjengelig. Flere alternativer</translation>
-<translation id="6773423637732432200">Kan ikke oppdatere Brave. Flere alternativer</translation>
+<translation id="6773423637732432200">Kan ikke oppdatere Dissenter. Flere alternativer</translation>
 <translation id="3328801116991980348">Informasjon om nettstedet</translation>
 <translation id="5391532827096253100">Tilkoblingen din til dette nettstedet er ikke sikker. Informasjon om nettstedet</translation>
 <translation id="6206551242102657620">Tilkoblingen er sikker. Informasjon om nettstedet</translation>
@@ -934,7 +934,7 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="3211426585530211793">Slettet <ph name="ITEM_TITLE"/></translation>
 <translation id="4663756553811254707"><ph name="NUMBER_OF_BOOKMARKS"/> bokmerker ble slettet</translation>
 <translation id="3819178904835489326"><ph name="NUMBER_OF_DOWNLOADS"/> nedlastinger er slettet</translation>
-<translation id="1248710015876067820">For mange Brave-forekomster.</translation>
+<translation id="1248710015876067820">For mange Dissenter-forekomster.</translation>
 <translation id="4259722352634471385">Nettadressen er blokkert: <ph name="URL"/></translation>
 <translation id="8959122750345127698">Nettadressen er utilgjengelig: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Lukk fanen</translation>
@@ -947,20 +947,20 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="8427875596167638501">Fanen for forhåndsvisning er halvveis åpnet</translation>
 <translation id="9102803872260866941">Fanen for forhåndsvisning er åpnet</translation>
 <translation id="2942036813789421260">Fanen for forhåndsvisning er lukket</translation>
-<translation id="6355102470683871794">Brave Software <ph name="APP_NAME"/>-lagring</translation>
+<translation id="6355102470683871794">Gab AI Inc <ph name="APP_NAME"/>-lagring</translation>
 <translation id="3822502789641063741">Slette nettstedslagring?</translation>
-<translation id="9205995714227143200">Nettstedslagring Brave ikke tror er viktig (for eksempel områder uten lagrede innstillinger eller som du ikke besøker ofte)</translation>
+<translation id="9205995714227143200">Nettstedslagring Dissenter ikke tror er viktig (for eksempel områder uten lagrede innstillinger eller som du ikke besøker ofte)</translation>
 <translation id="3997476611815694295">Uviktig lagring</translation>
 <translation id="8493948351860045254">Frigjør plass</translation>
-<translation id="2324920234469020158">Dette sletter informasjonskapsler, buffere og annen data fra nettsteder Brave ikke tror er viktige.</translation>
+<translation id="2324920234469020158">Dette sletter informasjonskapsler, buffere og annen data fra nettsteder Dissenter ikke tror er viktige.</translation>
 <translation id="5447201525962359567">All nettstedslagring, inkludert informasjonskapsler og andre lokalt lagrede data</translation>
 <translation id="1376578503827013741">Beregner …</translation>
 <translation id="583281660410589416">Ukjent</translation>
 <translation id="2323763861024343754">Nettstedslagring</translation>
-<translation id="3587672679800759167">Total datamengde som brukes av Brave, deriblant kontoer, bokmerker og lagrede innstillinger</translation>
+<translation id="3587672679800759167">Total datamengde som brukes av Dissenter, deriblant kontoer, bokmerker og lagrede innstillinger</translation>
 <translation id="6545017243486555795">Slett alle data</translation>
 <translation id="4095146165863963773">Slette appdataene?</translation>
-<translation id="53119194224775367">Alle appdataene for Brave slettes permanent. Dette omfatter alle filer, innstillinger, kontoer, databaser osv.</translation>
+<translation id="53119194224775367">Alle appdataene for Dissenter slettes permanent. Dette omfatter alle filer, innstillinger, kontoer, databaser osv.</translation>
 <translation id="5307446750509046227">Slett nettstedslagring</translation>
 <translation id="300526633675317032">Dette sletter alle dataene (<ph name="SIZE_IN_KB"/>) fra nettstedslagringen.</translation>
 <translation id="8068648041423924542">Kan ikke velge sertifikat.</translation>
@@ -982,15 +982,15 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="1779089405699405702">Bildedekoder</translation>
 <translation id="8067883171444229417">Spill av videoen</translation>
 <translation id="6560414384669816528">Søk med Sogou</translation>
-<translation id="5406914950576900927">Brave kan bruke <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> for søk i Kina. Du kan endre dette i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
-<translation id="6456271171669383967">Behold Brave Software</translation>
+<translation id="5406914950576900927">Dissenter kan bruke <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> for søk i Kina. Du kan endre dette i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
+<translation id="6456271171669383967">Behold Gab AI Inc</translation>
 <translation id="4384468725000734951">Bruker Sogou til å søke</translation>
-<translation id="6103327872225198548">Bruker Brave Software til å søke</translation>
+<translation id="6103327872225198548">Bruker Gab AI Inc til å søke</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Denne appen kjører i Brave</translation>
-<translation id="6143689084714664628">Kjører i Brave</translation>
-<translation id="7675869148432102528"><ph name="APP_NAME"/> har også data i Brave</translation>
-<translation id="2734140769649165081">Du kan slette dataene i Brave-innstillingene</translation>
+<translation id="919933208285147476">Denne appen kjører i Dissenter</translation>
+<translation id="6143689084714664628">Kjører i Dissenter</translation>
+<translation id="7675869148432102528"><ph name="APP_NAME"/> har også data i Dissenter</translation>
+<translation id="2734140769649165081">Du kan slette dataene i Dissenter-innstillingene</translation>
 <translation id="8232956427053453090">Behold dataene</translation>
 <translation id="4298388696830689168">Tilknyttede nettsteder</translation>
 <translation id="5763514718066511291">Trykk for å kopiere nettadressen for denne appen</translation>
@@ -1015,13 +1015,13 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 <translation id="8015452622527143194">Tilbakestill alt på siden til standardstørrelsen</translation>
 <translation id="3443221991560634068">Last inn den aktive siden på nytt</translation>
 <translation id="123724288017357924">Last inn siden på nytt, men ignorer bufret innhold</translation>
-<translation id="305870044889644984">Åpne brukerstøtten for Brave i en ny fane</translation>
+<translation id="305870044889644984">Åpne brukerstøtten for Dissenter i en ny fane</translation>
 <translation id="3166827708714933426">Hurtigtaster for vinduer og faner</translation>
-<translation id="3169981355900570544">Hurtigtaster for funksjoner i Brave Software Brave.</translation>
+<translation id="3169981355900570544">Hurtigtaster for funksjoner i Gab AI Inc Dissenter.</translation>
 <translation id="4558311620361989323">Hurtigtaster for nettsider</translation>
-<translation id="1908301351964700579">Brave klargjør fremdeles for VR. Start Brave på nytt senere.</translation>
+<translation id="1908301351964700579">Dissenter klargjør fremdeles for VR. Start Dissenter på nytt senere.</translation>
 <translation id="8970887620466824814">Noe gikk galt.</translation>
-<translation id="1875543012935658554">Åpne Brave på nytt.</translation>
+<translation id="1875543012935658554">Åpne Dissenter på nytt.</translation>
 <translation id="79859296434321399">Du må installere ARCore for å se innhold med utvidet virkelighet</translation>
 <translation id="8558485628462305855">Du må oppdatere ARCore for å se innhold med utvidet virkelighet</translation>
 <translation id="3513704683820682405">Utvidet virkelighet</translation>
@@ -1033,9 +1033,9 @@ For å endre denne innstillingen, <ph name="BEGIN_LINK"/>tilbakestill synkronise
 Nettstedet får IKKE tilgang til kameraet. Kamerabildene er kun synlige for deg.</translation>
 <translation id="1188239144602654184">Start utvidet virkelighet</translation>
 <translation id="473775607612524610">Oppdater</translation>
-<translation id="3133489217401741157">Installerer <ph name="MODULE"/> for Brave …</translation>
+<translation id="3133489217401741157">Installerer <ph name="MODULE"/> for Dissenter …</translation>
 <translation id="1791662854739702043">Installert</translation>
-<translation id="5131234170665854056">Kan ikke installere <ph name="MODULE"/> for Brave</translation>
+<translation id="5131234170665854056">Kan ikke installere <ph name="MODULE"/> for Dissenter</translation>
 <translation id="2567385386134582609">BILDE</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="7352939065658542140">VIDEO</translation>
@@ -1046,16 +1046,16 @@ Nettstedet får IKKE tilgang til kameraet. Kamerabildene er kun synlige for deg.
 <translation id="3341058695485821946">Se hvor mye data du har spart</translation>
 <translation id="3157842584138209013">Se hvor mye data du har spart, via Flere alternativer-knappen</translation>
 <translation id="8218622182176210845">Administrer kontoen din</translation>
-<translation id="8090895580117672212">For å administrere Brave Software-kontoen din, trykk på «Administrer kontoen»-knappen</translation>
-<translation id="8856898588039823173">Forenklet versjon av siden levert av Brave Software. Trykk for å laste inn den opprinnelige siden.</translation>
-<translation id="8134317863207426198">Forenklet versjon av siden levert av Brave Software. Trykk på knappen for å laste inn den opprinnelige siden.</translation>
+<translation id="8090895580117672212">For å administrere Gab AI Inc-kontoen din, trykk på «Administrer kontoen»-knappen</translation>
+<translation id="8856898588039823173">Forenklet versjon av siden levert av Gab AI Inc. Trykk for å laste inn den opprinnelige siden.</translation>
+<translation id="8134317863207426198">Forenklet versjon av siden levert av Gab AI Inc. Trykk på knappen for å laste inn den opprinnelige siden.</translation>
 <translation id="4961107849584082341">Oversett denne siden til hvilket som helst språk</translation>
 <translation id="569536719314091526">Oversett denne siden til hvilket som helst språk via Flere alternativer-knappen</translation>
 <translation id="1397811292916898096">Søk med <ph name="PRODUCT_NAME"/></translation>
 <translation id="1792959175193046959">Endre standard nedlastingssted når som helst</translation>
 <translation id="6942665639005891494">Endre standard nedlastingssted når som helst via menyalternativet Innstillinger</translation>
 <translation id="6850409657436465440">Nedlastingen din pågår fremdeles</translation>
-<translation id="5817715962196959877">Brave laster ned filer raskere nå</translation>
+<translation id="5817715962196959877">Dissenter laster ned filer raskere nå</translation>
 <translation id="3976396876660209797">Fjern denne snarveien, og opprett den på nytt</translation>
 <translation id="6766622839693428701">Sveip ned for å lukke.</translation>
 <translation id="1028699632127661925">Sender til <ph name="DEVICE_NAME"/> …</translation>
@@ -1071,15 +1071,15 @@ Nettstedet får IKKE tilgang til kameraet. Kamerabildene er kun synlige for deg.
 <translation id="1521774566618522728">Aktiv i dag</translation>
 <translation id="3631987586758005671">Deler med <ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">Slå på synkronisering for å dele på tvers av enheter</translation>
-<translation id="6162454065885854378">For å dele noe på telefonen med en annen enhet, slå på synkronisering i Brave-innstillingene på begge enhetene</translation>
-<translation id="6084271560289605378">Gå til Brave-innstillingene</translation>
+<translation id="6162454065885854378">For å dele noe på telefonen med en annen enhet, slå på synkronisering i Dissenter-innstillingene på begge enhetene</translation>
+<translation id="6084271560289605378">Gå til Dissenter-innstillingene</translation>
 <translation id="2318045970523081853">Trykk for å ringe</translation>
 <translation id="9209888181064652401">Kan ikke ringe</translation>
 <translation id="2860954141821109167">Kontrollér at en telefon-app er påslått på denne enheten</translation>
 <translation id="2067805253194386918">tekst</translation>
 <translation id="1450753235335490080">Kan ikke dele <ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">Kunne ikke dele <ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">Kontrollér at <ph name="TARGET_DEVICE_NAME"/> har synkronisering påslått i Brave</translation>
+<translation id="8287068819750208230">Kontrollér at <ph name="TARGET_DEVICE_NAME"/> har synkronisering påslått i Dissenter</translation>
 <translation id="3016635187733453316">Kontrollér at enheten er koblet til internett</translation>
 <translation id="8466613982764129868">Kontrollér at <ph name="TARGET_DEVICE_NAME"/> er koblet til internett</translation>
 <translation id="6539092367496845964">Noe gikk galt. Prøv på nytt senere.</translation>
@@ -1101,16 +1101,16 @@ Nettstedet får IKKE tilgang til kameraet. Kamerabildene er kun synlige for deg.
 <translation id="7055152154916055070">Viderekoblingen er blokkert:</translation>
 <translation id="5524843473235508879">Viderekobling blokkert.</translation>
 <translation id="6573096386450695060">Tillat alltid</translation>
-<translation id="5805364706385912897">Denne siden bruker for mye minne, så Brave har satt den på pause.</translation>
-<translation id="5138664332909611586">Denne siden bruker for mye minne, så Brave har fjernet noe av innholdet.</translation>
+<translation id="5805364706385912897">Denne siden bruker for mye minne, så Dissenter har satt den på pause.</translation>
+<translation id="5138664332909611586">Denne siden bruker for mye minne, så Dissenter har fjernet noe av innholdet.</translation>
 <translation id="9137013805542155359">Vis original</translation>
-<translation id="6361779936989026201">Brave Software-assistenten i Brave</translation>
+<translation id="6361779936989026201">Gab AI Inc-assistenten i Dissenter</translation>
 <translation id="7291387454912369099">Assistent-aktivert betaling</translation>
-<translation id="4565206163201411670">Vil du vise Brave-aktiviteten din i Digital balanse?</translation>
-<translation id="9055113864158719823">Du kan se nettstedene du besøker i Brave, og angi tidtakere for dem.\n\nBrave Software får informasjon om nettstedene du angir tidtakere for, og hvor lenge du besøker dem. Denne informasjonen brukes til å gjøre Digital balanse bedre.</translation>
-<translation id="4596514158372210596">Fjerne Brave-aktiviteten din fra Digital balanse</translation>
-<translation id="1174893863889683998">Vil du fjerne Brave-aktiviteten din fra Digital balanse?</translation>
-<translation id="708829030563435351">Nettsteder du besøker i Brave, vises ikke. Alle tidtakere for nettsteder blir slettet.</translation>
+<translation id="4565206163201411670">Vil du vise Dissenter-aktiviteten din i Digital balanse?</translation>
+<translation id="9055113864158719823">Du kan se nettstedene du besøker i Dissenter, og angi tidtakere for dem.\n\nGab AI Inc får informasjon om nettstedene du angir tidtakere for, og hvor lenge du besøker dem. Denne informasjonen brukes til å gjøre Digital balanse bedre.</translation>
+<translation id="4596514158372210596">Fjerne Dissenter-aktiviteten din fra Digital balanse</translation>
+<translation id="1174893863889683998">Vil du fjerne Dissenter-aktiviteten din fra Digital balanse?</translation>
+<translation id="708829030563435351">Nettsteder du besøker i Dissenter, vises ikke. Alle tidtakere for nettsteder blir slettet.</translation>
 <translation id="2056878612599315956">Nettstedet er satt på pause</translation>
 <translation id="671481426037969117">Tidtakeren for <ph name="FQDN"/> gikk ut. Den starter igjen i morgen.</translation>
 <translation id="7479104141328977413">Faneadministrering</translation>
@@ -1121,7 +1121,7 @@ Nettstedet får IKKE tilgang til kameraet. Kamerabildene er kun synlige for deg.
 <translation id="246532703174860178">Del</translation>
 <translation id="2517472476991765520">Skann</translation>
 <translation id="8628973420740315031">For å dele med personer i nærheten, la dem skanne denne QR-koden</translation>
-<translation id="7339921667754113786">Brave Software Notifications Platform</translation>
+<translation id="7339921667754113786">Gab AI Inc Notifications Platform</translation>
 <translation id="8516012719330875537">Bilderedigeringsprogram</translation>
 <translation id="4808319664292298116">Vil du at <ph name="DOMAIN"/> skal slå på VR-modus?</translation>
 <translation id="4353114845960720315">Når du er i VR, kan dette nettstedet finne ut mer om følgende:</translation>

@@ -43,11 +43,11 @@
       Load page later
     </message>
     <message name="IDS_ERRORPAGES_CANCEL_SAVE_PAGE_BUTTON" desc="Label for the button that will cancel the request to save the page for later. 'Cancel' is colored blue with the 'a' tag.">
-      Brave will let you know when this page is ready. &lt;a&gt;Cancel&lt;/a&gt;
+      Dissenter will let you know when this page is ready. &lt;a&gt;Cancel&lt;/a&gt;
     </message>
   </if>
 
-  <message name="IDS_ERRORPAGES_SUGGESTION_VISIT_GOOGLE_CACHE" desc="When a page fails to load, sometimes we viewing a version of the page cached on Brave's servers.">
+  <message name="IDS_ERRORPAGES_SUGGESTION_VISIT_GOOGLE_CACHE" desc="When a page fails to load, sometimes we viewing a version of the page cached on Dissenter's servers.">
     Access a <ph name="BEGIN_LINK">&lt;a jsvalues="href:urlCorrection;.jstdata:$this" onmousedown="linkClicked(this.jstdata)"&gt;</ph>cached copy<ph name="END_LINK">&lt;/a&gt;</ph> of <ph name="URL">&lt;span jscontent="originalUrlForDisplay"&gt;&lt;/span&gt;<ex>www.hats-for-goats.com/shiny</ex></ph>
   </message>
   <message name="IDS_ERRORPAGES_SUGGESTION_CORRECTED_URL" desc="When a page fails to load, sometimes we suggest different URL because we think the one the user entered had a typo.">
@@ -321,8 +321,8 @@
   <message name="IDS_ERRORPAGES_SUGGESTION_DISABLE_EXTENSION_SUMMARY" desc="When a page fails to load, we provide a suggestion that the user try disabling the extension that's blocking it.">
     Try disabling your extensions.
   </message>
-  <message name="IDS_ERRORPAGES_SUGGESTION_GOOGLE_SEARCH_SUMMARY" desc="When a page fails to load, sometimes we suggest a specific Brave search.">
-    Search Brave for <ph name="LINK">&lt;a jsvalues="href:searchUrl;.jstdata:$this" onclick="linkClicked(this.jstdata)" jscontent="searchTerms" id="search-link"&gt;<ex>Example search terms</ex>&lt;/a&gt;</ph>
+  <message name="IDS_ERRORPAGES_SUGGESTION_GOOGLE_SEARCH_SUMMARY" desc="When a page fails to load, sometimes we suggest a specific Dissenter search.">
+    Search Dissenter for <ph name="LINK">&lt;a jsvalues="href:searchUrl;.jstdata:$this" onclick="linkClicked(this.jstdata)" jscontent="searchTerms" id="search-link"&gt;<ex>Example search terms</ex>&lt;/a&gt;</ph>
   </message>
   <if expr="is_macosx">
     <message name="IDS_ERRORPAGES_SUGGESTION_DIAGNOSE" desc="Label for the link that invokes the connection diagnostic tool on the error page displayed in a list of suggestions. The suggestions list is prefixed with 'Try:'.">

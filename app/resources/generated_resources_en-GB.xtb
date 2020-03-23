@@ -23,12 +23,12 @@
 <translation id="8261506727792406068">Delete</translation>
 <translation id="144283815522798837"><ph name="NUMBER_OF_ITEMS_SELECTED"/> selected</translation>
 <translation id="5582839680698949063">Main menu</translation>
-<translation id="3700405816184340252">Brave history</translation>
+<translation id="3700405816184340252">Dissenter history</translation>
 <translation id="7602079150116086782">No tabs from other devices</translation>
 <translation id="4619615317237390068">Tabs from other devices</translation>
-<translation id="82609232232243542">Sign in to Brave</translation>
+<translation id="82609232232243542">Sign in to Dissenter</translation>
 <translation id="4627442949885028695">Continue from another device</translation>
-<translation id="7253276740368043692">To get your tabs from your other devices, sign in to Brave.</translation>
+<translation id="7253276740368043692">To get your tabs from your other devices, sign in to Dissenter.</translation>
 <translation id="6351063337294363751">You can clear your browsing data from this menu</translation>
 <translation id="6040143037577758943">Close</translation>
 <translation id="6463795194797719782">&amp;Edit</translation>
@@ -41,7 +41,7 @@
 <translation id="3303855915957856445">No search results found</translation>
 <translation id="8967866634928501045">Press Alt Shift A to show</translation>
 <translation id="998747458861718449">I&amp;nspect</translation>
-<translation id="4428301600092811022">Get image descriptions from Brave Software?</translation>
+<translation id="4428301600092811022">Get image descriptions from Gab AI Inc?</translation>
 <translation id="741204030948306876">Yes, I'm in</translation>
 <translation id="780301667611848630">No, thank you</translation>
 <translation id="3943582379552582368">&amp;Back</translation>
@@ -95,7 +95,7 @@
 <translation id="5233736638227740678">&amp;Paste</translation>
 <translation id="2218515861914035131">Paste as plain text</translation>
 <translation id="1017280919048282932">&amp;Add to dictionary</translation>
-<translation id="1732768497619250086">Get image descriptions from Brave Software</translation>
+<translation id="1732768497619250086">Get image descriptions from Gab AI Inc</translation>
 <translation id="7561196759112975576">Always</translation>
 <translation id="2241634353105152135">Just once</translation>
 <translation id="3387614642886316601">Use enhanced spell check</translation>
@@ -103,7 +103,7 @@
 <translation id="5860491529813859533">Turn on</translation>
 <translation id="7658239707568436148">Cancel</translation>
 <translation id="8915370057835397490">Loading suggestion</translation>
-<translation id="6191804255817539692">No more suggestions from Brave Software</translation>
+<translation id="6191804255817539692">No more suggestions from Gab AI Inc</translation>
 <translation id="1901303067676059328">Select &amp;all</translation>
 <translation id="3797900183766075808">&amp;Search <ph name="SEARCH_ENGINE"/> for “<ph name="SEARCH_TERMS"/>”</translation>
 <translation id="2721037002783622288">&amp;Search <ph name="SEARCH_ENGINE"/> for image</translation>
@@ -151,7 +151,7 @@
 <translation id="9033857511263905942">&amp;Paste</translation>
 <translation id="1815083418640426271">Paste as Plain Text</translation>
 <translation id="4022426551683927403">&amp;Add to Dictionary</translation>
-<translation id="6849870115130610913">Get Image Descriptions from Brave Software</translation>
+<translation id="6849870115130610913">Get Image Descriptions from Gab AI Inc</translation>
 <translation id="372722114124766626">Just Once</translation>
 <translation id="4079140982534148664">Use Enhanced Spell Check</translation>
 <translation id="7487141338393529395">Turn on Enhanced Spell Check</translation>
@@ -223,7 +223,7 @@
 <translation id="7422192691352527311">Preferences...</translation>
 <translation id="5801568494490449797">Preferences</translation>
 <translation id="3677911431265050325">Request mobile site</translation>
-<translation id="236470849334943016">Brave’s Terms of Service are changing on 31 March</translation>
+<translation id="236470849334943016">Dissenter’s Terms of Service are changing on 31 March</translation>
 <translation id="1032605640136438169">Please review the new terms</translation>
 <translation id="8712637175834984815">Got it</translation>
 <translation id="5007392906805964215">Review</translation>
@@ -435,7 +435,7 @@
 <translation id="9148058034647219655">Exit</translation>
 <translation id="7376221878517288144">Quit private mode anyway?</translation>
 <translation id="973473557718930265">Quit</translation>
-<translation id="7707599169365957976">You can help improve Safe Browsing by sending some system information and page content to Brave Software.</translation>
+<translation id="7707599169365957976">You can help improve Safe Browsing by sending some system information and page content to Gab AI Inc.</translation>
 <translation id="4923279099980110923">Yes, I want to help</translation>
 <translation id="2316129865977710310">No, thank you</translation>
 <translation id="9169931577761441333">Add <ph name="APP_NAME"/> to Home screen</translation>
@@ -452,8 +452,8 @@
 <translation id="5895138241574237353">Restart</translation>
 <translation id="3479552764303398839">Not now</translation>
 <translation id="1008557486741366299">Not Now</translation>
-<translation id="8201192017531062522">Brave will keep running while Brave Apps are open.</translation>
-<translation id="7397305826909094212">Quit all Brave Apps</translation>
+<translation id="8201192017531062522">Dissenter will keep running while Dissenter Apps are open.</translation>
+<translation id="7397305826909094212">Quit all Dissenter Apps</translation>
 <translation id="5026874946691314267">Don't show this again</translation>
 <translation id="91568222606626347">Create Shortcut...</translation>
 <translation id="2783321960289401138">Create shortcut...</translation>
@@ -820,16 +820,16 @@
 <translation id="5799508265798272974">Linux Virtual Machine: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="6058567592298841668">Plugin Virtual Machine: <ph name="PLUGIN_VM_NAME"/></translation>
 <translation id="7851720427268294554">IPP Parser</translation>
-<translation id="7171242884588191792">Brave File Utilities</translation>
+<translation id="7171242884588191792">Dissenter File Utilities</translation>
 <translation id="3183139917765991655">Profile Importer</translation>
 <translation id="2190069059097339078">Wi-Fi Credentials Getter</translation>
-<translation id="7685901961038216503">Brave OS System Image Writer</translation>
+<translation id="7685901961038216503">Dissenter OS System Image Writer</translation>
 <translation id="4873312501243535625">Media File Checker</translation>
 <translation id="5972666587303800813">No-op Service</translation>
 <translation id="1545775234664667895">Installed theme "<ph name="THEME_NAME"/>"</translation>
 <translation id="2256115617011615191">Restart now</translation>
 <translation id="4545028762441890696">To re-enable it, accept the new permissions:</translation>
-<translation id="3009487527589249344">Brave Software has flagged '<ph name="EXTENSION_NAME"/>' as malicious, and installation has been prevented</translation>
+<translation id="3009487527589249344">Gab AI Inc has flagged '<ph name="EXTENSION_NAME"/>' as malicious, and installation has been prevented</translation>
 <translation id="6790497603648687708"><ph name="EXTENSION_NAME"/> was added remotely</translation>
 <translation id="1841705068325380214"><ph name="EXTENSION_NAME"/> is disabled</translation>
 <translation id="595959584676692139">Reload page to use this extension</translation>
@@ -848,14 +848,14 @@
 <translation id="3507421388498836150">Current Permissions for "<ph name="EXTENSION_NAME"/>"</translation>
 <translation id="5242724311594467048">Enable "<ph name="EXTENSION_NAME"/>"?</translation>
 <translation id="4014432863917027322">Repair "<ph name="EXTENSION_NAME"/>"?</translation>
-<translation id="5173189340601754836">Another program on your computer added an app that may change the way Brave works.
+<translation id="5173189340601754836">Another program on your computer added an app that may change the way Dissenter works.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Another program on your computer added an extension that may change the way Brave works.
+<translation id="6654312501894761082">Another program on your computer added an extension that may change the way Dissenter works.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Another program on your computer added a theme that may change the way Brave works.
+<translation id="3225882094369124157">Another program on your computer added a theme that may change the way Dissenter works.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Enable Extension</translation>
@@ -864,7 +864,7 @@
 <translation id="3908501907586732282">Enable extension</translation>
 <translation id="2327492829706409234">Enable app</translation>
 <translation id="175772926354468439">Enable theme</translation>
-<translation id="5267531627648004734">Remove from Brave</translation>
+<translation id="5267531627648004734">Remove from Dissenter</translation>
 <translation id="4998873842614926205">Confirm Changes</translation>
 <translation id="5699533844376998780">The extension "<ph name="EXTENSION_NAME"/>" has been installed.</translation>
 <translation id="1799071797295057738">The extension "<ph name="EXTENSION_NAME"/>" was automatically disabled.</translation>
@@ -967,7 +967,7 @@
 <translation id="3584169441612580296">Read and change photos, music and other media from your computer</translation>
 <translation id="5457459357461771897">Read and delete photos, music and other media from your computer</translation>
 <translation id="3270965368676314374">Read, change and delete photos, music and other media from your computer</translation>
-<translation id="3919562953666287643">Store data in your Brave Software Drive account</translation>
+<translation id="3919562953666287643">Store data in your Gab AI Inc Drive account</translation>
 <translation id="378312418865624974">Read a unique identifier for this computer</translation>
 <translation id="5094721898978802975">Communicate with cooperating native applications</translation>
 <translation id="4876895919560854374">Lock and unlock the screen</translation>
@@ -1001,7 +1001,7 @@
 <translation id="1616298854599875024">Unable to import extension '<ph name="IMPORT_NAME"/>' because it is not a shared module</translation>
 <translation id="2131077480075264">Unable to install "<ph name="APP_NAME"/>" because it is not allowed by "<ph name="IMPORT_NAME"/>"</translation>
 <translation id="1875387611427697908">This can only be added from the <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">App with 'kiosk_only' manifest attribute must be installed in Brave OS kiosk mode</translation>
+<translation id="7613251087357271190">App with 'kiosk_only' manifest attribute must be installed in Dissenter OS kiosk mode</translation>
 <translation id="3834775135533257713">Could not add application "<ph name="TO_INSTALL_APP_NAME"/>" because it conflicts with "<ph name="INSTALLED_APP_NAME"/>".</translation>
 <translation id="144518587530125858">Could not load '<ph name="IMAGE_PATH"/>' for theme.</translation>
 <translation id="6567688344210276845">Could not load icon '<ph name="ICON"/>' for page action.</translation>
@@ -1095,9 +1095,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6101226222197207147">New app added (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">New theme added (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">"<ph name="EXTENSION_NAME"/>" added</translation>
-<translation id="6637045053447935202">Another programme on your computer added an app that may change the way Brave works.</translation>
-<translation id="2015014930243978107">Another programme on your computer added an extension that may change the way Brave works.</translation>
-<translation id="2060128809251156338">Another programme on your computer added a theme that may change the way Brave works.</translation>
+<translation id="6637045053447935202">Another programme on your computer added an app that may change the way Dissenter works.</translation>
+<translation id="2015014930243978107">Another programme on your computer added an extension that may change the way Dissenter works.</translation>
+<translation id="2060128809251156338">Another programme on your computer added a theme that may change the way Dissenter works.</translation>
 <translation id="2470702053775288986">Unsupported extensions disabled</translation>
 <translation id="2809586584051668049">and <ph name="NUMBER_ADDITIONAL_DISABLED"/> more</translation>
 <translation id="5301954838959518834">OK, got it</translation>
@@ -1165,7 +1165,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8756969031206844760">Update password?</translation>
 <translation id="8230134520748321204">Save password for <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Update password for <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Passwords are saved in your Brave Software account so that you can use them on any device</translation>
+<translation id="8284000761603848448">Passwords are saved in your Gab AI Inc account so that you can use them on any device</translation>
 <translation id="8286036467436129157">Sign In</translation>
 <translation id="8009225694047762179">Manage Passwords</translation>
 <translation id="3950820424414687140">Sign in</translation>
@@ -1173,10 +1173,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="328571385944182268">Save your passwords?</translation>
 <translation id="3753033997400164841">Store once. Use everywhere</translation>
 <translation id="1703331064825191675">Never worry about your passwords</translation>
-<translation id="2341030170677284705">Save passwords securely in your Brave Software account and you'll never have to type them again</translation>
-<translation id="3913985461352963178">Access your passwords whenever you're signed in to your Brave Software account</translation>
-<translation id="4851124464356820177">To save passwords to your Brave Software account, sign in and turn on sync.</translation>
-<translation id="3229869963989850535">To save passwords to your Brave Software account, turn on sync.</translation>
+<translation id="2341030170677284705">Save passwords securely in your Gab AI Inc account and you'll never have to type them again</translation>
+<translation id="3913985461352963178">Access your passwords whenever you're signed in to your Gab AI Inc account</translation>
+<translation id="4851124464356820177">To save passwords to your Gab AI Inc account, sign in and turn on sync.</translation>
+<translation id="3229869963989850535">To save passwords to your Gab AI Inc account, turn on sync.</translation>
 <translation id="1609170755653088773">Sync this password to your iPhone</translation>
 <translation id="1712349894969001173">Get this password on your iPhone</translation>
 <translation id="8111155949205007504">Share this password with your iPhone</translation>
@@ -1279,9 +1279,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="9143298529634201539">Remove suggestion?</translation>
 <translation id="5336688142483283574">This page will also be removed from your history and <ph name="SEARCH_ENGINE"/> activity.</translation>
 <translation id="1246905108078336582">Remove suggestion from clipboard?</translation>
-<translation id="2129873093718581193">Search Brave Software or type URL</translation>
-<translation id="6363797201514053536">Search Brave Software or type a URL</translation>
-<translation id="4888839742663123585">Search Brave Software</translation>
+<translation id="2129873093718581193">Search Gab AI Inc or type URL</translation>
+<translation id="6363797201514053536">Search Gab AI Inc or type a URL</translation>
+<translation id="4888839742663123585">Search Gab AI Inc</translation>
 <translation id="6078323886959318429">Add shortcut</translation>
 <translation id="6324916366299863871">Edit shortcut</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1296,7 +1296,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8017679124341497925">Shortcut edited</translation>
 <translation id="1174073918202301297">Shortcut added</translation>
 <translation id="2926085873880284723">Restore default shortcuts</translation>
-<translation id="5801450813341024983">Brave backgrounds</translation>
+<translation id="5801450813341024983">Dissenter backgrounds</translation>
 <translation id="2800760947029405028">Upload an image</translation>
 <translation id="8342861492835240085">Select a collection</translation>
 <translation id="3132996321662585180">Refresh daily</translation>
@@ -1383,7 +1383,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="833986336429795709">To open this link, choose an app</translation>
 <translation id="192494336144674234">Open with</translation>
 <translation id="9053893665344928494">Remember my choice</translation>
-<translation id="5340857474604400806">Stay in Brave</translation>
+<translation id="5340857474604400806">Stay in Dissenter</translation>
 <translation id="3043581297103810752">From <ph name="ORIGIN"/></translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Private)</translation>
 <translation id="1572139610531470719"><ph name="WINDOW_TITLE"/> (Guest)</translation>
@@ -1451,8 +1451,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6686817083349815241">Save your password</translation>
 <translation id="8141725884565838206">Manage your passwords</translation>
 <translation id="8275038454117074363">Import</translation>
-<translation id="3191314862567596053">Import Passwords To Brave</translation>
-<translation id="6368144843345980623">Export Passwords From Brave</translation>
+<translation id="3191314862567596053">Import Passwords To Dissenter</translation>
+<translation id="6368144843345980623">Export Passwords From Dissenter</translation>
 <translation id="8503813439785031346">Username</translation>
 <translation id="6657585470893396449">Password</translation>
 <translation id="4722735765955348426">Password for <ph name="USERNAME"/></translation>
@@ -1471,38 +1471,38 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6798578729981748444">To finish importing, close all Firefox windows.</translation>
 <translation id="6374469231428023295">Try Again</translation>
 <translation id="8725066075913043281">Try again</translation>
-<translation id="4196805003686694274">Send Feedback to Brave Software</translation>
+<translation id="4196805003686694274">Send Feedback to Gab AI Inc</translation>
 <translation id="3424969259347320884">Describe What you Were Doing When the Tab Crashed</translation>
-<translation id="1892630320532151038">Send feedback to Brave Software</translation>
+<translation id="1892630320532151038">Send feedback to Gab AI Inc</translation>
 <translation id="2428510569851653187">Describe what you were doing when the tab crashed</translation>
 <translation id="5659593005791499971">Email</translation>
 <translation id="2982970937345031">Report anonymously</translation>
 <translation id="6076448957780543068">Include this screenshot</translation>
 <translation id="2865919525181940183">Screenshot of programs that are currently on the screen</translation>
 <translation id="7052237160939977163">Send performance trace data</translation>
-<translation id="5526928694260255286">Attach <ph name="BEGIN_LINK"/>Bluetooth Logs<ph name="END_LINK"/> (Brave Software internal)</translation>
+<translation id="5526928694260255286">Attach <ph name="BEGIN_LINK"/>Bluetooth Logs<ph name="END_LINK"/> (Gab AI Inc internal)</translation>
 <translation id="3047644958362961983">This information helps us better understand your Assistant issue. It’s stored for up to 90 days and access is restricted to appropriate engineering and feedback teams.</translation>
-<translation id="1705635099498185261">To better diagnose Bluetooth issues, Brave Softwarers can include additional Bluetooth logs with their feedback reports. When this option is ticked, your report will include btsnoop and HCI logs from your current session, sanitised to remove as much PII as possible. Access to these logs will be restricted to managers of the Brave OS product group in Listnr. Logs will be purged after 90 days.</translation>
+<translation id="1705635099498185261">To better diagnose Bluetooth issues, Gab AI Incrs can include additional Bluetooth logs with their feedback reports. When this option is ticked, your report will include btsnoop and HCI logs from your current session, sanitised to remove as much PII as possible. Access to these logs will be restricted to managers of the Dissenter OS product group in Listnr. Logs will be purged after 90 days.</translation>
 <translation id="4206323443866416204">Feedback Report</translation>
 <translation id="3681311097828166361">Thank you for your feedback. You are offline now, and your report will be sent later.</translation>
 <translation id="8713570323158206935">Send <ph name="BEGIN_LINK1"/>system information<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Send <ph name="BEGIN_LINK1"/>system information<ph name="END_LINK1"/> and <ph name="BEGIN_LINK2"/>metrics<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Send <ph name="BEGIN_LINK1"/>system and app information<ph name="END_LINK1"/>, and <ph name="BEGIN_LINK2"/>metrics<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">Include recent Assistant history via Sherlog. This may include your identity, location and debug info. <ph name="BEGIN_LINK"/>Learn more<ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">File will be sent to Brave Software for debugging</translation>
+<translation id="8329196515830093443">File will be sent to Gab AI Inc for debugging</translation>
 <translation id="8227119283605456246">Attach file</translation>
 <translation id="5367091008316207019">Reading file..</translation>
 <translation id="2554553592469060349">Selected file is too big (max size: 3mb).</translation>
 <translation id="4690091457710545971">&lt;Four files generated by Intel Wi-Fi firmware: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon. The first three are binary files containing register dumps, and are asserted by Intel to contain no personal or device-identifying information. The last file is an execution trace from the Intel firmware; it has been scrubbed of any personal or device-identifying information, but is too large to display here. These files were generated in response to recent Wi-Fi problems with your device, and will be shared with Intel to help troubleshoot these problems.&gt;</translation>
-<translation id="6972420083546794501">Go to the <ph name="BEGIN_LINK1"/>Legal Help page<ph name="END_LINK1"/> to request content changes for legal reasons. Some account and system information may be sent to Brave Software. We will use the information that you give us to help address technical issues and to improve our services, subject to our <ph name="BEGIN_LINK2"/>Privacy Policy<ph name="END_LINK2"/> and <ph name="BEGIN_LINK3"/>Terms of Service<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Go to the <ph name="BEGIN_LINK1"/>Legal Help page<ph name="END_LINK1"/> to request content changes for legal reasons. Some account and system information may be sent to Gab AI Inc. We will use the information that you give us to help address technical issues and to improve our services, subject to our <ph name="BEGIN_LINK2"/>Privacy Policy<ph name="END_LINK2"/> and <ph name="BEGIN_LINK3"/>Terms of Service<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Please tell us what is happening before sending the feedback.</translation>
 <translation id="1483493594462132177">Send</translation>
 <translation id="6885771755599377173">System information preview</translation>
 <translation id="1016566241875885511">Additional info (optional)</translation>
 <translation id="8026334261755873520">Clear browsing data</translation>
 <translation id="7409836189476010449">Run Flash</translation>
-<translation id="4718442817388594217">The selected data has been removed from Brave and synced devices. Your Brave Software Account may have other forms of browsing history such as searches and activity from other Brave Software services at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="7814200940910057384">Cleared Brave data</translation>
+<translation id="4718442817388594217">The selected data has been removed from Dissenter and synced devices. Your Gab AI Inc Account may have other forms of browsing history such as searches and activity from other Gab AI Inc services at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="7814200940910057384">Cleared Dissenter data</translation>
 <translation id="7346909386216857016">OK, got it</translation>
 <translation id="8493236660459102203">Microphone:</translation>
 <translation id="3925573269917483990">Camera:</translation>
@@ -1510,7 +1510,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4172051516777682613">Always show</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Pop-up blocked}other{# pop-ups blocked}}</translation>
 <translation id="3759371141211657149">Manage handler settings...</translation>
-<translation id="4156865452842056672">(Brave error pages)</translation>
+<translation id="4156865452842056672">(Dissenter error pages)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> may not be able to keep itself updated</translation>
 <translation id="8590375307970699841">Set up automatic updates</translation>
 <translation id="8926389886865778422">Don't ask again</translation>
@@ -1525,7 +1525,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="284805635805850872">Remove harmful software?</translation>
 <translation id="489985760463306091">To finish removing harmful software, restart your computer</translation>
 <translation id="7598466960084663009">Restart computer</translation>
-<translation id="2819091349626575960">Report details to Brave Software</translation>
+<translation id="2819091349626575960">Report details to Gab AI Inc</translation>
 <translation id="4099060993766194518">Restore default search engine?</translation>
 <translation id="138784436342154190">Restore default start-up page?</translation>
 <translation id="5086874064903147617">Restore default homepage?</translation>
@@ -1603,10 +1603,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8658645149275195032"><ph name="APP_NAME"/> is sharing your screen and audio with <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> is sharing a window.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> is sharing a window with <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> is sharing a Brave tab.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> is sharing a Brave tab with <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> is sharing a Brave tab and audio.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> is sharing a Brave tab and audio with <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> is sharing a Dissenter tab.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> is sharing a Dissenter tab with <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> is sharing a Dissenter tab and audio.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> is sharing a Dissenter tab and audio with <ph name="TAB_NAME"/>.</translation>
 <translation id="890616557918890486">Change source</translation>
 <translation id="7792388396321542707">Stop sharing</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> wants permanent access to a certificate to authenticate itself on your behalf.</translation>
@@ -1622,13 +1622,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3693415264595406141">Password:</translation>
 <translation id="9111102763498581341">Unlock</translation>
 <translation id="2190355936436201913">(empty)</translation>
-<translation id="9079153198295609735">Automatically send usage statistics and crash reports to Brave Software</translation>
+<translation id="9079153198295609735">Automatically send usage statistics and crash reports to Gab AI Inc</translation>
 <translation id="7136984461011502314">Welcome to <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> is ready to complete your installation</translation>
-<translation id="4711067597921221305">Help make <ph name="PRODUCT_NAME"/> better by automatically sending usage statistics and crash reports to Brave Software.</translation>
+<translation id="4711067597921221305">Help make <ph name="PRODUCT_NAME"/> better by automatically sending usage statistics and crash reports to Gab AI Inc.</translation>
 <translation id="5972826969634861500">Start <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Help our engineers investigate and fix this crash. List exact steps if you can. No detail is too small!</translation>
-<translation id="5418694430960033386">Either Brave ran out of memory or the process for the web page was terminated for some other reason. To continue, reload or go to another page.</translation>
+<translation id="5418694430960033386">Either Dissenter ran out of memory or the process for the web page was terminated for some other reason. To continue, reload or go to another page.</translation>
 <translation id="3065041951436100775">Tab killed feedback.</translation>
 <translation id="3941565636838060942">To hide access to this programme, you need to uninstall it by using
   <ph name="CONTROL_PANEL_APPLET_NAME"/> in Control Panel.
@@ -1638,7 +1638,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platform</translation>
 <translation id="7022562585984256452">Your home page has been set.</translation>
-<translation id="7274626204661209194">Brave Software Cloud Print</translation>
+<translation id="7274626204661209194">Gab AI Inc Cloud Print</translation>
 <translation id="4973307593867026061">Add printers</translation>
 <translation id="9052208328806230490">You have registered your printers with <ph name="CLOUD_PRINT_NAME"/>, using the account <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Disconnect printers</translation>
@@ -1656,10 +1656,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4980805016576257426">This extension contains malware.</translation>
 <translation id="5522156646677899028">This extension contains a serious security vulnerability.</translation>
 <translation id="6945695820322143954">This extension violates the web store policy.</translation>
-<translation id="177808131755847449">Disabled by Brave. This extension may be unsafe.</translation>
+<translation id="177808131755847449">Disabled by Dissenter. This extension may be unsafe.</translation>
 <translation id="1434696352799406980">This will reset your startup page, new tab page, search engine and pinned tabs. It will also disable all extensions and clear temporary data like cookies. Your bookmarks, history and saved passwords will not be cleared.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> wants to reset your settings.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> wants to restore your Brave settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> wants to restore your Dissenter settings to their original defaults. This will reset your homepage, new tab page and search engine, disable your extensions and unpin all tabs. It will also clear other temporary and cached data, such as cookies, content and site data.</translation>
 <translation id="7581462281756524039">A cleanup tool</translation>
 <translation id="1233721473400465416">Locale</translation>
 <translation id="2907619724991574506">Startup URLs</translation>
@@ -1673,7 +1673,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8870318296973696995">Homepage</translation>
 <translation id="8987927404178983737">Month</translation>
 <translation id="6015796118275082299">Year</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Inc Pay</translation>
 <translation id="7671130400130574146">Use system title bar and borders</translation>
 <translation id="3293644607209440645">Send this page</translation>
 <translation id="1521774566618522728">Active today</translation>
@@ -1724,7 +1724,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8930351635855238750">New cookie settings will take effect after reloading the page</translation>
 <translation id="2568774940984945469">Infobar Container</translation>
 <translation id="7282992757463864530">Infobar</translation>
-<translation id="1805077115206898822">Your bookmarks, history and other settings will be synced to your Brave Software Account.</translation>
+<translation id="1805077115206898822">Your bookmarks, history and other settings will be synced to your Gab AI Inc Account.</translation>
 <translation id="1974060860693918893">Advanced</translation>
 <translation id="2445484935443597917">Create a New Profile</translation>
 <translation id="2606246518223360146">Link Data</translation>
@@ -1817,7 +1817,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6387674443318562538">Split vertical</translation>
 <translation id="1231733316453485619">Turn on sync?</translation>
 <translation id="4736292055110123391">Sync your bookmarks, passwords, history and more on all your devices</translation>
-<translation id="5736731321935944068">Brave Software may use your history to personalise Search, ads and other Brave Software services</translation>
+<translation id="5736731321935944068">Gab AI Inc may use your history to personalise Search, ads and other Gab AI Inc services</translation>
 <translation id="4201546031411513170">You can always choose what to sync in settings.</translation>
 <translation id="2497852260688568942">Sync is disabled by your administrator</translation>
 <translation id="562935524653278697">Your administrator has disabled syncing of your bookmarks, history, passwords and other settings.</translation>
@@ -1856,7 +1856,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6664774537677393800">Something went wrong when opening your profile. Please sign out then sign in again.</translation>
 <translation id="1794791083288629568">Send feedback to help us fix this issue.</translation>
 <translation id="8234795456569844941">Please help our engineers fix this problem. Tell us what happened right before you got the profile error message:</translation>
-<translation id="6500340165622970282">Cannot start Brave because something went wrong when opening your profile. Try to restart Brave.</translation>
+<translation id="6500340165622970282">Cannot start Dissenter because something went wrong when opening your profile. Try to restart Dissenter.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> cannot be run as root.</translation>
 <translation id="2292848386125228270">Please start <ph name="PRODUCT_NAME"/> as a normal user. If you need to run as root for development, re-run with the – no-sandbox flag.</translation>
 <translation id="7547317915858803630">Warning: your <ph name="PRODUCT_NAME"/> settings are stored on a network drive. This may result in slowdowns, crashes or even loss of data.</translation>
@@ -1894,10 +1894,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6198102561359457428">Sign out then sign in again...</translation>
 <translation id="4634771451598206121">Sign in again...</translation>
 <translation id="7117247127439884114">Sign in Again...</translation>
-<translation id="4251909665067750757">Sign in to get your bookmarks, history, passwords and other settings on all your devices. You'll also automatically be signed in to your Brave Software services.</translation>
+<translation id="4251909665067750757">Sign in to get your bookmarks, history, passwords and other settings on all your devices. You'll also automatically be signed in to your Gab AI Inc services.</translation>
 <translation id="2749756011735116528">Sign in to <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Sync is disabled by your administrator.</translation>
-<translation id="5462539695964427820">Sync has been stopped via the Brave Software Dashboard.</translation>
+<translation id="5462539695964427820">Sync has been stopped via the Gab AI Inc Dashboard.</translation>
 <translation id="8805140816472474147">Confirm sync settings to start sync.</translation>
 <translation id="5771816112378578655">Setup in progress...</translation>
 <translation id="3492788708641132712">Sync isn’t working. Try signing in again.</translation>
@@ -1911,16 +1911,16 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1877520246462554164">Failed to get authentication token. Please sign out then sign in again to try again.</translation>
 <translation id="9100765901046053179">Advanced settings</translation>
 <translation id="2731700343119398978">Please wait…</translation>
-<translation id="7218743184834293955">Data is encrypted with your sync passphrase. This doesn't include payment methods and addresses from Brave Software Pay.</translation>
+<translation id="7218743184834293955">Data is encrypted with your sync passphrase. This doesn't include payment methods and addresses from Gab AI Inc Pay.</translation>
 <translation id="7158251077901880179">Data was encrypted with your sync passphrase on
-          <ph name="TIME"/>. This doesn't include payment methods and addresses from Brave Software Pay.</translation>
-<translation id="1171389789873508468">Data was encrypted with your Brave Software password as of
-          <ph name="TIME"/>. This doesn't include payment methods and addresses from Brave Software Pay.</translation>
+          <ph name="TIME"/>. This doesn't include payment methods and addresses from Gab AI Inc Pay.</translation>
+<translation id="1171389789873508468">Data was encrypted with your Gab AI Inc password as of
+          <ph name="TIME"/>. This doesn't include payment methods and addresses from Gab AI Inc Pay.</translation>
 <translation id="2562743677925229011">Not signed in to <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(You're missing out—<ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">sign in</translation>
 <translation id="237828693408258535">Translate this page?</translation>
-<translation id="4613765529964435709">Do you want Brave Software to translate this page from <ph name="SOURCE_LANGUAGE"/> to <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Do you want Gab AI Inc to translate this page from <ph name="SOURCE_LANGUAGE"/> to <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Translated</translation>
 <translation id="5659833766619490117">This page could not be translated</translation>
 <translation id="969096075394517431">Change languages</translation>
@@ -2111,12 +2111,12 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2804680522274557040">Camera turned off</translation>
 <translation id="6309510305002439352">Microphone turned off</translation>
 <translation id="8282947398454257691">Know your unique device identifier</translation>
-<translation id="8329449853370113380"><ph name="URL"/> wants to play protected content. Your device’s identity will be verified by Brave Software.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> wants to play protected content. Your device's identity will be verified by Brave Software and may be accessed by this site.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> wants to play protected content. Your device’s identity will be verified by Gab AI Inc.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> wants to play protected content. Your device's identity will be verified by Gab AI Inc and may be accessed by this site.</translation>
 <translation id="1746402432151920942">Protected media identifier</translation>
 <translation id="1322046419516468189">View and manage saved passwords in your <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">Password saved. View and manage saved passwords in your <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">Brave Software Account</translation>
+<translation id="5713644099811900409">Gab AI Inc Account</translation>
 <translation id="3785727820640310185">Saved passwords for this site</translation>
 <translation id="3404065873681873169">No passwords saved for this site</translation>
 <translation id="8470513973197838199">Saved passwords for <ph name="ORIGIN"/></translation>
@@ -2239,7 +2239,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Screen #}other{Screen #}}</translation>
 <translation id="839736845446313156">Register</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{New printer on your network}other{New printers on your network}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Add the printer to Brave Software Cloud Print so that you can print from anywhere.}other{Add # printers to Brave Software Cloud Print so that you can print from anywhere.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Add the printer to Gab AI Inc Cloud Print so that you can print from anywhere.}other{Add # printers to Gab AI Inc Cloud Print so that you can print from anywhere.}}</translation>
 <translation id="409579654357498729">Add to Cloud Print</translation>
 <translation id="4628757576491864469">Devices</translation>
 <translation id="6915804003454593391">User:</translation>
@@ -2249,8 +2249,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1895934970388272448">You must confirm registration on your printer to finish this process - check it now.</translation>
 <translation id="551752069230578406">Adding the printer to your account - this may take a moment...</translation>
 <translation id="2384436799579181135">An error has occurred. Please check your printer and try again.</translation>
-<translation id="2569908351567260524">Printer on Brave Software Cloud Print</translation>
-<translation id="6782994146626179935">Device on Brave Software Cloud Devices</translation>
+<translation id="2569908351567260524">Printer on Gab AI Inc Cloud Print</translation>
+<translation id="6782994146626179935">Device on Gab AI Inc Cloud Devices</translation>
 <translation id="7140928199327930795">No other available devices.</translation>
 <translation id="8213577208796878755">One other available device.</translation>
 <translation id="1495486559005647033"><ph name="NUM_PRINTERS"/> other available devices.</translation>
@@ -2258,15 +2258,15 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4720113199587244118">Add Devices</translation>
 <translation id="2776441542064982094">Looks like there are no devices available to register on the network. If your device is on and connected to the internet, try registering it using instructions in its instruction manual.</translation>
 <translation id="1007408791287232274">Could not load devices.</translation>
-<translation id="3886420006370338208">You need to sign in to Brave to see your devices</translation>
-<translation id="6711610692002680394">You need to sign in to Brave to register new devices</translation>
+<translation id="3886420006370338208">You need to sign in to Dissenter to see your devices</translation>
+<translation id="6711610692002680394">You need to sign in to Dissenter to register new devices</translation>
 <translation id="8931394284949551895">New devices</translation>
 <translation id="3752673729237782832">My devices</translation>
 <translation id="1721937473331968728">You can add classic printers connected to your computer to <ph name="CLOUD_PRINT_NAME"/>.</translation>
 <translation id="715118844758971915">Classic printers</translation>
 <translation id="4263757076580287579">Printer registration has been cancelled.</translation>
 <translation id="8152091997436726702">Printer registration has timed out. In order to register a printer, you must confirm registration on the printer.</translation>
-<translation id="2057904164277279211">Documents are <ph name="BEGIN_LINK_HELP"/>sent to Brave Software<ph name="END_LINK_HELP"/> to prepare them for printing. View, edit and manage your printers and printer history on the <ph name="BEGIN_LINK_DASHBOARD"/>Brave Software Cloud Print dashboard<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Documents are <ph name="BEGIN_LINK_HELP"/>sent to Gab AI Inc<ph name="END_LINK_HELP"/> to prepare them for printing. View, edit and manage your printers and printer history on the <ph name="BEGIN_LINK_DASHBOARD"/>Gab AI Inc Cloud Print dashboard<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">This tab is using your camera or microphone.</translation>
 <translation id="3578594933904494462">This tab's content is being shared.</translation>
 <translation id="4449996769074858870">This tab is playing audio.</translation>
@@ -2327,7 +2327,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4540437243849625078">This site is about to share information with an app outside of private mode.</translation>
 <translation id="1227836882233136433">Leave private mode?</translation>
 <translation id="662080504995468778">Stay</translation>
-<translation id="2593289874938379417">Brave does not have access to the requested resource.</translation>
+<translation id="2593289874938379417">Dissenter does not have access to the requested resource.</translation>
 <translation id="760197030861754408">Go to <ph name="LANDING_PAGE"/> to connect.</translation>
 <translation id="3648348069317717750"><ph name="USB_DEVICE_NAME"/> detected</translation>
 <translation id="5042282098504489593">Open Settings to connect <ph name="USB_DEVICE_NAME"/> to Linux</translation>
@@ -2381,24 +2381,24 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2859806420264540918">This site shows intrusive or misleading ads.</translation>
 <translation id="4077917118009885966">Ads blocked on this site</translation>
 <translation id="6456955391422100996">Ad removed.</translation>
-<translation id="7533556202636568669">This ad uses too many resources for your device, so Brave removed it.</translation>
+<translation id="7533556202636568669">This ad uses too many resources for your device, so Dissenter removed it.</translation>
 <translation id="8497219075884839166">Windows Utilities</translation>
 <translation id="897525204902889653">Quarantine Service</translation>
 <translation id="7055152154916055070">Redirect blocked:</translation>
 <translation id="6777817260680419853">Redirect blocked</translation>
 <translation id="694592694773692225">Redirect blocked on this page.</translation>
-<translation id="8945142681652245463">Browse fast with Brave Software Brave</translation>
-<translation id="2618024864038703735">Browse safely with Brave Software Brave</translation>
-<translation id="8142180567942285208">Browse smart with Brave</translation>
+<translation id="8945142681652245463">Browse fast with Gab AI Inc Dissenter</translation>
+<translation id="2618024864038703735">Browse safely with Gab AI Inc Dissenter</translation>
+<translation id="8142180567942285208">Browse smart with Dissenter</translation>
 <translation id="8862003515646449717">Switch to a fast browser</translation>
 <translation id="8438328416656800239">Switch to a smart browser</translation>
 <translation id="491691592645955587">Switch to a secure browser</translation>
 <translation id="683373380308365518">Switch to a smart and secure browser</translation>
-<translation id="989239400026154074">Brave Software recommends Brave</translation>
-<translation id="6676231621615806698">Open Brave</translation>
+<translation id="989239400026154074">Gab AI Inc recommends Dissenter</translation>
+<translation id="6676231621615806698">Open Dissenter</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> uses your location to give you local content. You can change this in <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Your downloads appear here</translation>
-<translation id="4782664866169793230">Brave is being controlled by automated test software.</translation>
+<translation id="4782664866169793230">Dissenter is being controlled by automated test software.</translation>
 <translation id="6721678857435001674">See the make and model of your Security Key</translation>
 <translation id="1673137583248014546"><ph name="URL"/> wants to see the make and model of your Security Key</translation>
 <translation id="6010869025736512584">Accessing video input</translation>
@@ -2512,7 +2512,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3984431586879874039">Allow this site to see your security key?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> wants to see the make and model of your security key</translation>
 <translation id="7618452966706304788">Do you want to use Touch ID with <ph name="APP_NAME"/> in Private mode?</translation>
-<translation id="3098826269712097986">Sign-in data will be stored in Brave after you exit Private mode. This will let you use Touch ID with this website again later.</translation>
+<translation id="3098826269712097986">Sign-in data will be stored in Dissenter after you exit Private mode. This will let you use Touch ID with this website again later.</translation>
 <translation id="2172784515318616985">Continue</translation>
 <translation id="5186185447130319458">Private</translation>
 <translation id="7643842463591647490">{0,plural, =1{# open window}other{# open windows}}</translation>
@@ -2677,7 +2677,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4144218403971135344">Get better quality video and save battery life. Video will play only on your Cast-enabled screen.</translation>
 <translation id="236117173274098341">Optimise</translation>
 <translation id="8538358978858059843">Enable cloud services for Cast?</translation>
-<translation id="3856595552313160385">Use of Hangouts and Cast for Education is governed by the Brave Software Privacy Policy.</translation>
+<translation id="3856595552313160385">Use of Hangouts and Cast for Education is governed by the Gab AI Inc Privacy Policy.</translation>
 <translation id="3435896845095436175">Enable</translation>
 <translation id="3700888195348409686">Presenting (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Display <ph name="DISPLAY_ID"/></translation>
@@ -2869,7 +2869,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="672213144943476270">Please unlock your profile before browsing as a guest.</translation>
 <translation id="8086119151297127544">Please unlock your profile before removing a profile.</translation>
 <translation id="7805701378418968629">Please unlock your profile before adding a profile.</translation>
-<translation id="8978225823042133615">To use Brave, please sign in</translation>
+<translation id="8978225823042133615">To use Dissenter, please sign in</translation>
 <translation id="4893336867552636863">This will permanently delete your browsing data from this device.</translation>
 <translation id="2496180316473517155">Browsing history</translation>
 <translation id="6865313869410766144">Autofill form data</translation>
@@ -2889,7 +2889,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7289225569524511578">Open the wallpaper app</translation>
 <translation id="8336739000755212683">Change device account image</translation>
 <translation id="9137157311132182254">Preferred search engine</translation>
-<translation id="7423118389528876103">Used by Brave browser and <ph name="DEVICE_TYPE"/> Launcher</translation>
+<translation id="7423118389528876103">Used by Dissenter browser and <ph name="DEVICE_TYPE"/> Launcher</translation>
 <translation id="1293556467332435079">Files</translation>
 <translation id="4168015872538332605">Some settings belonging to <ph name="PRIMARY_EMAIL"/> are being shared with you. These settings only affect your account when using multiple sign-in.</translation>
 <translation id="1485141095922496924">Version <ph name="PRODUCT_VERSION"/> (<ph name="PRODUCT_CHANNEL"/>) <ph name="PRODUCT_MODIFIER"/> <ph name="PRODUCT_VERSION_BITS"/></translation>
@@ -2905,7 +2905,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7737456446569756884">This device will get automatic software and security updates until <ph name="MONTH_AND_YEAR"/>.</translation>
 <translation id="4297219207642690536">Restart and reset</translation>
 <translation id="4716483597559580346">Powerwash for added security</translation>
-<translation id="4089922565956168950">This upgrade resets your Bravebook and removes current user data.</translation>
+<translation id="4089922565956168950">This upgrade resets your Dissenterbook and removes current user data.</translation>
 <translation id="5184662919967270437">Updating your device</translation>
 <translation id="6644846457769259194">Updating your device (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Nearly up to date! Restart your device to finish updating.</translation>
@@ -2930,7 +2930,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3493486281776271508">Internet connection required</translation>
 <translation id="672609503628871915">See what's new</translation>
 <translation id="5085162214018721575">Checking for updates</translation>
-<translation id="4570609078116869893">Automatically update Brave for all users</translation>
+<translation id="4570609078116869893">Automatically update Dissenter for all users</translation>
 <translation id="7102687220333134671">Automatic updates are turned on</translation>
 <translation id="8284326494547611709">Captions</translation>
 <translation id="3602290021589620013">Preview</translation>
@@ -2959,7 +2959,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5840822070878669614">Open web store</translation>
 <translation id="6073903501322152803">Add accessibility features</translation>
 <translation id="7988355189918024273">Enable accessibility features</translation>
-<translation id="5499063270485366718">If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave Software.</translation>
+<translation id="5499063270485366718">If an image doesn’t have a useful description, Dissenter will try to provide one for you. To create descriptions, images are sent to Gab AI Inc.</translation>
 <translation id="2558896001721082624">Always show accessibility options in the system menu</translation>
 <translation id="7280649757394340890">Text-to-Speech voice settings</translation>
 <translation id="6635956300022133031">Select and customise text-to-speech voices</translation>
@@ -2978,8 +2978,8 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4209092469652827314">Large</translation>
 <translation id="499165176004408815">Use high contrast mode</translation>
 <translation id="142758023928848008">Enable sticky keys (to perform keyboard shortcuts by typing them sequentially)</translation>
-<translation id="5914872514449971753">Enable BraveVox (spoken feedback)</translation>
-<translation id="7099511550603534982">Open BraveVox settings</translation>
+<translation id="5914872514449971753">Enable DissenterVox (spoken feedback)</translation>
+<translation id="7099511550603534982">Open DissenterVox settings</translation>
 <translation id="8547013269961688403">Enable full-screen magnifier</translation>
 <translation id="8743390665131937741">Full-screen zoom level:</translation>
 <translation id="7334274148831027933">Enable docked magnifier</translation>
@@ -3009,7 +3009,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2765217105034171413">Small</translation>
 <translation id="7409549334477097887">Extra large</translation>
 <translation id="1330145147221172764">Enable on-screen keyboard</translation>
-<translation id="1800308196794859773">Send your voice to Brave Software to allow dictation into any text field.</translation>
+<translation id="1800308196794859773">Send your voice to Gab AI Inc to allow dictation into any text field.</translation>
 <translation id="8758418656925882523">Enable dictation (speak to type)</translation>
 <translation id="7580671184200851182">Play the same audio through all speakers (mono audio)</translation>
 <translation id="1361872463926621533">Play sound on startup</translation>
@@ -3079,9 +3079,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1343865611738742294">Give Linux apps permission to access USB devices. Linux won't remember a USB device after it's removed.</translation>
 <translation id="3661172646479098821">Only Android devices are currently supported.</translation>
 <translation id="2629227353894235473">Develop Android apps</translation>
-<translation id="1669729672557072907">To create and test your apps, enable the Android Debug Bridge (ADB). Note that this action allows installation of Android apps that haven't been verified by Brave Software, and requires a factory reset to disable.</translation>
+<translation id="1669729672557072907">To create and test your apps, enable the Android Debug Bridge (ADB). Note that this action allows installation of Android apps that haven't been verified by Gab AI Inc, and requires a factory reset to disable.</translation>
 <translation id="4638930039313743000">Enable ADB debugging</translation>
-<translation id="2756917833575664962">A factory reset of this Bravebook is required to enable ADB debugging. <ph name="BEGIN_LINK_LEARN_MORE"/>Learn more<ph name="END_LINK_LEARN_MORE"/></translation>
+<translation id="2756917833575664962">A factory reset of this Dissenterbook is required to enable ADB debugging. <ph name="BEGIN_LINK_LEARN_MORE"/>Learn more<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="1005333234656240382">Enable ADB debugging?</translation>
 <translation id="8081989000209387414">Disable ADB debugging?</translation>
 <translation id="1327495825214193325">To enable ADB debugging, a restart of this <ph name="DEVICE_TYPE"/> is required. Disabling it requires a reset to factory settings.</translation>
@@ -3091,13 +3091,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1878541307036593717">Set up permissions</translation>
 <translation id="7508054832109420082">Give access to printers</translation>
 <translation id="2258855745387252834">To share, right-click on a folder in Files app, then select 'Share with Plugin VM'.</translation>
-<translation id="2714393097308983682">Brave Software Play Store</translation>
+<translation id="2714393097308983682">Gab AI Inc Play Store</translation>
 <translation id="572155275267014074">Android settings</translation>
-<translation id="7201042526153088083">Install apps and games from Brave Software Play on your <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Learn more&lt;/a&gt;</translation>
+<translation id="7201042526153088083">Install apps and games from Gab AI Inc Play on your <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Learn more&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Manage Android preferences</translation>
-<translation id="6398715114293939307">Remove Brave Software Play Store</translation>
+<translation id="6398715114293939307">Remove Gab AI Inc Play Store</translation>
 <translation id="2792290659606763004">Remove Android apps?</translation>
-<translation id="8039595758121742506">Apps that you’ve downloaded from Brave Software Play will be deleted from this Bravebook.
+<translation id="8039595758121742506">Apps that you’ve downloaded from Gab AI Inc Play will be deleted from this Dissenterbook.
       <ph name="LINE_BREAKS1"/>
       Content that you’ve purchased such as movies, TV shows, music, books or other in-app purchases may also be deleted.
       <ph name="LINE_BREAKS2"/>
@@ -3115,7 +3115,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6006484371116297560">Classic</translation>
 <translation id="1795214765651529549">Use Classic</translation>
 <translation id="2332742915001411729">Reset to default</translation>
-<translation id="8338457030135232378">Brave colours</translation>
+<translation id="8338457030135232378">Dissenter colours</translation>
 <translation id="827097179112817503">Show Home button</translation>
 <translation id="383007806262310953">Show bookmarks bar</translation>
 <translation id="3911824782900911339">New Tab page</translation>
@@ -3125,7 +3125,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1670399744444387456">Basic</translation>
 <translation id="1763808908432309942">Opens in a new tab</translation>
 <translation id="6248988683584659830">Search settings</translation>
-<translation id="883304095704384301">Go to <ph name="BEGIN_LINK_CHROMIUM"/>Brave Software Brave help<ph name="END_LINK_CHROMIUM"/> if you can't find what you're looking for</translation>
+<translation id="883304095704384301">Go to <ph name="BEGIN_LINK_CHROMIUM"/>Gab AI Inc Dissenter help<ph name="END_LINK_CHROMIUM"/> if you can't find what you're looking for</translation>
 <translation id="6406708970972405507">Settings – <ph name="SECTION_TITLE"/></translation>
 <translation id="3019285239893817657">Subpage button</translation>
 <translation id="5860033963881614850">Off</translation>
@@ -3146,10 +3146,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="451515744433878153">Remove</translation>
 <translation id="5029568752722684782">Clear copy</translation>
 <translation id="2154484045852737596">Edit card</translation>
-<translation id="3032188998195902534">To add or manage Brave Software Pay payment methods, visit your <ph name="BEGIN_LINK"/>Brave Software account<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">To add or manage Gab AI Inc Pay payment methods, visit your <ph name="BEGIN_LINK"/>Gab AI Inc account<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">This card will be saved to this device only</translation>
 <translation id="5087580092889165836">Add card</translation>
-<translation id="4835914736509775287">Save cards in your Brave Software account</translation>
+<translation id="4835914736509775287">Save cards in your Gab AI Inc account</translation>
 <translation id="7255002516883565667">At the moment, you have one card that can only be used on this device</translation>
 <translation id="6848388270925200958">At the moment, you have some cards that can only be used on this device</translation>
 <translation id="4807098396393229769">Name on card</translation>
@@ -3162,7 +3162,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2100273922101894616">Auto Sign-in</translation>
 <translation id="7513029293694390567">Automatically sign in to websites using stored credentials. If disabled, you will be asked for confirmation every time before signing in to a website.</translation>
 <translation id="6995899638241819463">Warn you if passwords are exposed in a data breach</translation>
-<translation id="1534287762301776620">When you sign in to your Brave Software account, this feature is turned on</translation>
+<translation id="1534287762301776620">When you sign in to your Gab AI Inc account, this feature is turned on</translation>
 <translation id="1375321115329958930">Saved Passwords</translation>
 <translation id="152234381334907219">Never Saved</translation>
 <translation id="5137501176474113045">Delete this item</translation>
@@ -3174,7 +3174,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7930294771522048157">Saved payment methods will appear here</translation>
 <translation id="9124003689441359348">Saved passwords will appear here</translation>
 <translation id="4400367121200150367">Sites which never save passwords will appear here</translation>
-<translation id="3098842761938485917">View and manage saved passwords in your <ph name="BEGIN_LINK"/>Brave Software account<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">View and manage saved passwords in your <ph name="BEGIN_LINK"/>Gab AI Inc account<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Export passwords…</translation>
 <translation id="3900966090527141178">Export passwords</translation>
 <translation id="6914783257214138813">Your passwords will be visible to anyone who can see the exported file.</translation>
@@ -3276,15 +3276,15 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3380365263193509176">Unknown error</translation>
 <translation id="368789413795732264">There was an error while trying to write the file: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Time range</translation>
-<translation id="3958004920128806270">To clear browsing data from this device only, while keeping it in your Brave Software Account, <ph name="BEGIN_LINK"/>sign out<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">To clear browsing data from all of your synced devices and your Brave Software Account, <ph name="BEGIN_LINK"/>visit sync settings<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">To clear browsing data from all of your synced devices and your Brave Software Account, <ph name="BEGIN_LINK"/>enter your passphrase<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">To clear browsing data from all of your synced devices and your Brave Software Account, <ph name="BEGIN_LINK"/>sign in<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">To clear browsing data from this device only, while keeping it in your Gab AI Inc Account, <ph name="BEGIN_LINK"/>sign out<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">To clear browsing data from all of your synced devices and your Gab AI Inc Account, <ph name="BEGIN_LINK"/>visit sync settings<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">To clear browsing data from all of your synced devices and your Gab AI Inc Account, <ph name="BEGIN_LINK"/>enter your passphrase<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">To clear browsing data from all of your synced devices and your Gab AI Inc Account, <ph name="BEGIN_LINK"/>sign in<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Signs you out of most sites.</translation>
-<translation id="4650925988509114690">Signs you out of most sites. You'll stay signed in to your Brave Software Account so that your synced data can be cleared.</translation>
+<translation id="4650925988509114690">Signs you out of most sites. You'll stay signed in to your Gab AI Inc Account so that your synced data can be cleared.</translation>
 <translation id="2017836877785168846">Clears history and autocompletions in the address bar.</translation>
-<translation id="8096327394278038498">Clears history and autocompletions in the address bar. Your Brave Software account may have other forms of browsing history at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Clears history from all signed-in devices. Your Brave Software account may have other forms of browsing history at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Clears history and autocompletions in the address bar. Your Gab AI Inc account may have other forms of browsing history at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Clears history from all signed-in devices. Your Gab AI Inc account may have other forms of browsing history at <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Download history</translation>
 <translation id="4699172675775169585">Cached images and files</translation>
 <translation id="1274997165432133392">Cookies and other site data</translation>
@@ -3298,7 +3298,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6979737339423435258">All time</translation>
 <translation id="3399432415385675819">Notifications will be disabled</translation>
 <translation id="3459509316159669723">Printing</translation>
-<translation id="1563008449513980623">Set up or manage printers in Brave Software Cloud Print.</translation>
+<translation id="1563008449513980623">Set up or manage printers in Gab AI Inc Cloud Print.</translation>
 <translation id="8185331656081929126">Show notifications when new printers are detected on the network</translation>
 <translation id="6451180435462401570">Manage Cloud Print devices</translation>
 <translation id="1815579292149538864">Set up or manage CUPS printers.</translation>
@@ -3346,10 +3346,10 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8002670234429879764"><ph name="PRINTER_NAME"/> is no longer available</translation>
 <translation id="3976108569178263973">There are no available printers.</translation>
 <translation id="217576141146192373">Unable to add printer. Please check your printer's configuration and try again.</translation>
-<translation id="4052689580269971502">Can’t connect to printer. Check that the printer is turned on and is connected to your Bravebook by Wi-Fi or USB.</translation>
+<translation id="4052689580269971502">Can’t connect to printer. Check that the printer is turned on and is connected to your Dissenterbook by Wi-Fi or USB.</translation>
 <translation id="7099337801055912064">Can’t load large PPD. Maximum size is 250 KB.</translation>
 <translation id="4310139701823742692">File is in the wrong format. Check the PPD file and try again.</translation>
-<translation id="6580983683519551561">Can’t find PPD. Make sure that your Bravebook is online and try again.</translation>
+<translation id="6580983683519551561">Can’t find PPD. Make sure that your Dissenterbook is online and try again.</translation>
 <translation id="4694024090038830733">Printer configuration is handled by the administrator.</translation>
 <translation id="5816434091619127343">Requested printer changes would make the printer unusable.</translation>
 <translation id="6504611359718185067">Connect to the Internet to add a printer</translation>
@@ -3364,7 +3364,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2434449159125086437">Unable to set up printer. Please check configuration and try again.</translation>
 <translation id="4733793249294335256">Location</translation>
 <translation id="7754704193130578113">Ask where to save each file before downloading</translation>
-<translation id="5713072761819014678">Disconnect Brave Software Drive account</translation>
+<translation id="5713072761819014678">Disconnect Gab AI Inc Drive account</translation>
 <translation id="486635084936119914">Open certain file types automatically after downloading</translation>
 <translation id="3653160965917900914">Network file shares</translation>
 <translation id="5763315388120433852">Set up or manage network file shares.</translation>
@@ -3439,12 +3439,12 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3336664756920573711">Unlock your <ph name="DEVICE_TYPE"/> with your Android phone</translation>
 <translation id="1036348656032585052">Turn off</translation>
 <translation id="1164674268730883318">Turn off Smart Lock for <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">If you turn off Smart Lock for <ph name="DEVICE_TYPE"/>, you won’t be able to unlock your Brave devices using your phone. You'll need to type your password.</translation>
+<translation id="2739030071582769583">If you turn off Smart Lock for <ph name="DEVICE_TYPE"/>, you won’t be able to unlock your Dissenter devices using your phone. You'll need to type your password.</translation>
 <translation id="4737715515457435632">Please connect to a network</translation>
 <translation id="5425722269016440406">You must be online to turn off Smart Lock because this setting is synced to your phone and other devices. Please connect to a network first.</translation>
 <translation id="8885197664446363138">Smart Lock is unavailable</translation>
 <translation id="7334190995941642545">Smart Lock is currently unavailable. Please try again later.</translation>
-<translation id="8112427115751454716">Use Smart Lock to sign in to your Brave Software account</translation>
+<translation id="8112427115751454716">Use Smart Lock to sign in to your Gab AI Inc account</translation>
 <translation id="2043818754674261542">Distance needed for phone to unlock this <ph name="DEVICE_TYPE"/></translation>
 <translation id="2522791476825452208">Very close</translation>
 <translation id="649454645705377674">Close</translation>
@@ -3452,7 +3452,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5595152862129936745">Very far</translation>
 <translation id="8748384418490037181">Smart Lock options</translation>
 <translation id="2433836460518180625">Unlock device only</translation>
-<translation id="3300552672525741457">Unlock device and sign in to Brave Software account</translation>
+<translation id="3300552672525741457">Unlock device and sign in to Gab AI Inc account</translation>
 <translation id="2307462900900812319">Configure network</translation>
 <translation id="7175037578838465313">Configure <ph name="NAME"/></translation>
 <translation id="8662671328352114214">Join <ph name="TYPE"/> network</translation>
@@ -3479,7 +3479,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1726100011689679555">Name servers</translation>
 <translation id="1209796539517632982">Automatic name servers</translation>
 <translation id="4462159676511157176">Custom name servers</translation>
-<translation id="1981884748698699991">Brave Software name servers</translation>
+<translation id="1981884748698699991">Gab AI Inc name servers</translation>
 <translation id="6317608858038767920">Custom nameserver <ph name="INPUT_INDEX"/></translation>
 <translation id="854655314928502177">Web Proxy Auto Discovery URL:</translation>
 <translation id="3817579325494460411">Not provided</translation>
@@ -3560,13 +3560,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4421167684395067330">Trouble connecting. Please contact <ph name="CARRIER_NAME"/> for assistance.</translation>
 <translation id="7780252971640011240">Trouble connecting. Please contact your operator for assistance.</translation>
 <translation id="161460670679785907">Unable to detect your phone</translation>
-<translation id="778480864305029524">To use Instant Tethering, turn on notifications for Brave Software Play Services.</translation>
+<translation id="778480864305029524">To use Instant Tethering, turn on notifications for Gab AI Inc Play Services.</translation>
 <translation id="7696063401938172191">On your '<ph name="PHONE_NAME"/>':</translation>
 <translation id="3423463006624419153">On your '<ph name="PHONE_NAME_1"/>' and '<ph name="PHONE_NAME_2"/>':</translation>
 <translation id="6997707937646349884">On your devices:</translation>
 <translation id="7531779363494549572">Go to Settings &gt; Apps &amp; notifications &gt; Notifications.</translation>
-<translation id="1819721979226826163">Tap App notifications &gt; Brave Software Play services.</translation>
-<translation id="968000525894980488">Turn on Brave Software Play services.</translation>
+<translation id="1819721979226826163">Tap App notifications &gt; Gab AI Inc Play services.</translation>
+<translation id="968000525894980488">Turn on Gab AI Inc Play services.</translation>
 <translation id="2705736684557713153">Scroll to the bottom of the screen and if it appears, turn on Instant Tethering. If it doesn't, you're ready to go.</translation>
 <translation id="8720200012906404956">Looking for a mobile network. <ph name="BEGIN_LINK"/>Find out more<ph name="END_LINK"/></translation>
 <translation id="5517412723934627386"><ph name="NETWORK_TYPE"/> – <ph name="NETWORK_DISPLAY_NAME"/></translation>
@@ -3580,7 +3580,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8944099748578356325">Use the battery more quickly (currently <ph name="BATTERY_PERCENTAGE"/>%)</translation>
 <translation id="3651488188562686558">Disconnect from Wi-Fi</translation>
 <translation id="7378812711085314936">Get data connection</translation>
-<translation id="3483333858382889684">Let this device find other devices with your Brave Software Account that have a mobile data connection</translation>
+<translation id="3483333858382889684">Let this device find other devices with your Gab AI Inc Account that have a mobile data connection</translation>
 <translation id="5637476008227280525">Mobile data enable</translation>
 <translation id="1572266655485775982">Wi-Fi enable</translation>
 <translation id="166439687370499867">Changing shared network configurations is not allowed</translation>
@@ -3700,7 +3700,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3182749001423093222">Spell check</translation>
 <translation id="5423829801105537712">Basic spell check</translation>
 <translation id="2564653188463346023">Enhanced spell check</translation>
-<translation id="8944680893327873975">Uses the same spell checker that’s used in Brave Software search. Text that you type in the browser is sent to Brave Software.</translation>
+<translation id="8944680893327873975">Uses the same spell checker that’s used in Gab AI Inc search. Text that you type in the browser is sent to Gab AI Inc.</translation>
 <translation id="5051836348807686060">Spellcheck isn’t supported for the languages that you have selected</translation>
 <translation id="7335974957018254119">Use spell check for</translation>
 <translation id="2469375675106140201">Customise spell check</translation>
@@ -3713,22 +3713,22 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4200689466366162458">Customised words</translation>
 <translation id="7833720883933317473">Saved custom words will appear here</translation>
 <translation id="8509646642152301857">Spell check dictionary download failed.</translation>
-<translation id="8842834450537919370">Please check with your network administrator to make sure that the firewall is not blocking downloads from Brave Software servers.</translation>
+<translation id="8842834450537919370">Please check with your network administrator to make sure that the firewall is not blocking downloads from Gab AI Inc servers.</translation>
 <translation id="9042893549633094279">Privacy and security</translation>
 <translation id="6697492270171225480">Show suggestions for similar pages when a page can't be found</translation>
-<translation id="4534361985432360439">Sends the web address of the page that you're trying to reach to Brave Software</translation>
+<translation id="4534361985432360439">Sends the web address of the page that you're trying to reach to Gab AI Inc</translation>
 <translation id="7704317875155739195">Auto-complete searches and URLs</translation>
 <translation id="2000419248597011803">Sends some cookies and searches from the address bar and search box to your default search engine</translation>
 <translation id="7981313251711023384">Preload pages for faster browsing and searching</translation>
 <translation id="2468205691404969808">Uses cookies to remember your preferences, even if you don’t visit those pages</translation>
 <translation id="3181954750937456830">Safe Browsing (protects you and your device from dangerous sites)</translation>
-<translation id="7315322926489145388">Sends URLs of some pages that you visit to Brave Software, when your security is at risk</translation>
-<translation id="4991384657077828949">Help improve Brave security</translation>
-<translation id="1943176487615318915">To detect dangerous apps and sites, Brave sends URLs of some pages that you visit, limited system information and some page content to Brave Software</translation>
-<translation id="918192811481327695">Help improve Brave's features and performance</translation>
-<translation id="9063160602596686558">Automatically sends usage statistics and crash reports to Brave Software</translation>
+<translation id="7315322926489145388">Sends URLs of some pages that you visit to Gab AI Inc, when your security is at risk</translation>
+<translation id="4991384657077828949">Help improve Dissenter security</translation>
+<translation id="1943176487615318915">To detect dangerous apps and sites, Dissenter sends URLs of some pages that you visit, limited system information and some page content to Gab AI Inc</translation>
+<translation id="918192811481327695">Help improve Dissenter's features and performance</translation>
+<translation id="9063160602596686558">Automatically sends usage statistics and crash reports to Gab AI Inc</translation>
 <translation id="8438566539970814960">Make searches and browsing better</translation>
-<translation id="284843628681142937">Sends URLs of pages that you visit to Brave Software</translation>
+<translation id="284843628681142937">Sends URLs of pages that you visit to Gab AI Inc</translation>
 <translation id="8791534160414513928">Send a "Do Not Track" request with your browsing traffic</translation>
 <translation id="5299109548848736476">Do Not Track</translation>
 <translation id="5282733140964383898">Enabling 'Do Not Track' means that a request will be included with your browsing traffic. Any effect depends on whether a website responds to the request, and how the request is interpreted. For example, some websites may respond to this request by showing you ads that aren't based on other websites you've visited. Many websites will still collect and use your browsing data – for example, to improve security, to provide content, services, ads and recommendations on their websites, and to generate reporting statistics. <ph name="BEGIN_LINK"/>Find out more<ph name="END_LINK"/></translation>
@@ -3746,7 +3746,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8632933437936028548">Reset settings</translation>
 <translation id="5293170712604732402">Restore settings to their original defaults</translation>
 <translation id="892706138619340876">Some settings were reset</translation>
-<translation id="2334029754052191847">Brave detected that some of your settings were corrupted by another program and reset them to their original defaults.</translation>
+<translation id="2334029754052191847">Dissenter detected that some of your settings were corrupted by another program and reset them to their original defaults.</translation>
 <translation id="4582563038311694664">Reset all settings</translation>
 <translation id="4146785383423576110">Reset and clean up</translation>
 <translation id="2603115962224169880">Clean up computer</translation>
@@ -3759,7 +3759,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7807067443225230855">Search and Assistant</translation>
 <translation id="2203682048752833055">Search engine used in the <ph name="BEGIN_LINK"/>address bar<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Manage search engines</translation>
-<translation id="2862205630718215619">Brave Software Assistant</translation>
+<translation id="2862205630718215619">Gab AI Inc Assistant</translation>
 <translation id="6978121630131642226">Search Engines</translation>
 <translation id="1383876407941801731">Search</translation>
 <translation id="6410668567036790476">Add search engine</translation>
@@ -3770,9 +3770,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1459967076783105826">Search engines added by extensions</translation>
 <translation id="6678717876183468697">Query URL</translation>
 <translation id="7063311912041006059">URL with <ph name="SPECIAL_SYMBOL"/> in place of query</translation>
-<translation id="472896694312062378">Ok Brave Software</translation>
-<translation id="2339135612812615870">Access your Assistant when you say "Ok Brave Software".</translation>
-<translation id="3735919318855093557">Access your Assistant when you say "Ok Brave Software". To save battery, choose 'On (Recommended)'. Your Assistant will respond only when your device is plugged in or charging.</translation>
+<translation id="472896694312062378">Ok Gab AI Inc</translation>
+<translation id="2339135612812615870">Access your Assistant when you say "Ok Gab AI Inc".</translation>
+<translation id="3735919318855093557">Access your Assistant when you say "Ok Gab AI Inc". To save battery, choose 'On (Recommended)'. Your Assistant will respond only when your device is plugged in or charging.</translation>
 <translation id="5825412242012995131">On (recommended)</translation>
 <translation id="5067399438976153555">Always on</translation>
 <translation id="5419405654816502573">Voice match</translation>
@@ -3780,7 +3780,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5355099869024327351">Allow the Assistant to show you notifications</translation>
 <translation id="133535873114485416">Preferred input</translation>
 <translation id="6233154960150021497">Default to using voice instead of keyboard</translation>
-<translation id="3908743412684152579">Brave Software Assistant settings</translation>
+<translation id="3908743412684152579">Gab AI Inc Assistant settings</translation>
 <translation id="4933484234309072027">embedded on <ph name="URL"/></translation>
 <translation id="8427292751741042100">embedded on any host</translation>
 <translation id="4907306957610201395">Permission Category</translation>
@@ -3808,7 +3808,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5340638867532133571">Allow sites to install payment handlers (recommended)</translation>
 <translation id="763632859238619983">Do not allow any site to install payment handlers</translation>
 <translation id="8270242299912238708">PDF documents</translation>
-<translation id="539658326146969381">Download PDF files instead of automatically opening them in Brave</translation>
+<translation id="539658326146969381">Download PDF files instead of automatically opening them in Dissenter</translation>
 <translation id="4434045419905280838">Pop-ups and redirects</translation>
 <translation id="6612358246767739896">Protected content</translation>
 <translation id="4252852543720145436">Protected content identifiers</translation>
@@ -3856,7 +3856,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2913331724188855103">Allow sites to save and read cookie data (recommended)</translation>
 <translation id="5908769186679515905">Block sites from running Flash</translation>
 <translation id="783214144752121388">Block sites from running Flash (recommended)</translation>
-<translation id="6096007141921397775">Your Flash settings will be kept until you quit Brave.</translation>
+<translation id="6096007141921397775">Your Flash settings will be kept until you quit Dissenter.</translation>
 <translation id="8074127646604999664">Allow recently closed sites to finish sending and receiving data</translation>
 <translation id="7062222374113411376">Allow recently closed sites to finish sending and receiving data (recommended)</translation>
 <translation id="5068918910148307423">Do not allow recently closed sites to finish sending and receiving data</translation>
@@ -3928,7 +3928,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4750220700975225">Current private session (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">No sites have been zoomed in or out</translation>
 <translation id="3566721612727112615">No sites added</translation>
-<translation id="8098574385249290065">Let Brave choose when sites can play sound (recommended)</translation>
+<translation id="8098574385249290065">Let Dissenter choose when sites can play sound (recommended)</translation>
 <translation id="4354344420232759511">Sites that you visit will appear here</translation>
 <translation id="3757733214359997190">No sites found</translation>
 <translation id="6545864417968258051">Bluetooth scanning</translation>
@@ -3941,7 +3941,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7366415735885268578">Add a site</translation>
 <translation id="5052499409147950210">Edit site</translation>
 <translation id="2870560284913253234">Site</translation>
-<translation id="4610862967073369855">Allows Android Messages to relay texts from your phone to your Bravebook</translation>
+<translation id="4610862967073369855">Allows Android Messages to relay texts from your phone to your Dissenterbook</translation>
 <translation id="6742339027238151589">Accessible to script</translation>
 <translation id="361106536627977100">Flash data</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -3952,9 +3952,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4590324241397107707">Database Storage</translation>
 <translation id="8016266267177410919">Temporary storage</translation>
 <translation id="4175737294868205930">Persistent storage</translation>
-<translation id="8397843425685839889">You and Brave Software</translation>
+<translation id="8397843425685839889">You and Gab AI Inc</translation>
 <translation id="3707212204259470604">Manage other profiles</translation>
-<translation id="8907706281008466056">Brave profile photo</translation>
+<translation id="8907706281008466056">Dissenter profile photo</translation>
 <translation id="2408955596600435184">Enter your PIN</translation>
 <translation id="6619990499523117484">Confirm your PIN</translation>
 <translation id="2023167225947895179">PIN may be easy to guess</translation>
@@ -3979,13 +3979,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1582955169539260415">delete [<ph name="FINGERPRINT_NAME"/>]</translation>
 <translation id="1927632033341042996">Finger <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Add account</translation>
-<translation id="3751920775577969594">Manage your signed-in accounts. Websites, apps and extensions in Brave and Brave Software Play may use these accounts to customise your experience, depending on permissions.</translation>
+<translation id="3751920775577969594">Manage your signed-in accounts. Websites, apps and extensions in Dissenter and Gab AI Inc Play may use these accounts to customise your experience, depending on permissions.</translation>
 <translation id="1987317783729300807">Accounts</translation>
 <translation id="3953834000574892725">My accounts</translation>
-<translation id="8418661265246754237">Brave Software Accounts</translation>
+<translation id="8418661265246754237">Gab AI Inc Accounts</translation>
 <translation id="6597148444736186483">To sign out of the primary account on this device, click the time on your screen. In the menu that appears, click 'Sign out'.</translation>
-<translation id="4920274951865016604">Your administrator has disabled the addition of more Brave Software accounts</translation>
-<translation id="8845742957886589229">Addition of more Brave Software accounts is disabled</translation>
+<translation id="4920274951865016604">Your administrator has disabled the addition of more Gab AI Inc accounts</translation>
+<translation id="8845742957886589229">Addition of more Gab AI Inc accounts is disabled</translation>
 <translation id="5021750053540820849">Not updated yet</translation>
 <translation id="4637083375689622795">More actions, <ph name="EMAIL"/></translation>
 <translation id="3448492834076427715">Update account</translation>
@@ -4026,26 +4026,26 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2114896190328250491">Photo by <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Existing photo from camera or file</translation>
 <translation id="3882165008614329320">Existing video from camera or file</translation>
-<translation id="9125982323641182972">Get Brave Software smarts in Brave</translation>
+<translation id="9125982323641182972">Get Gab AI Inc smarts in Dissenter</translation>
 <translation id="1692115862433274081">Use another account</translation>
 <translation id="5244474230056479698">Syncing to <ph name="EMAIL"/></translation>
 <translation id="2537178555904266562">Error syncing passwords</translation>
-<translation id="4326270470840334364">Because this account is managed by <ph name="DOMAIN"/>, your bookmarks, history, passwords and other settings will be cleared from this device. However, your data will remain stored in your Brave Software account and can be managed on <ph name="BEGIN_LINK"/>Brave Software Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Because this account is managed by <ph name="DOMAIN"/>, your bookmarks, history, passwords and other settings will be cleared from this device. However, your data will remain stored in your Gab AI Inc account and can be managed on <ph name="BEGIN_LINK"/>Gab AI Inc Dashboard<ph name="END_LINK"/>.</translation>
 <translation id="6906406176003824042">Edit profile</translation>
 <translation id="6739923123728562974">Show desktop shortcut</translation>
 <translation id="3699920817649120894">Turn off sync and personalisation?</translation>
 <translation id="5643620609347735571">Clear and continue</translation>
 <translation id="5602765853043467355">Clear bookmarks, history, passwords and more from this device</translation>
 <translation id="4089235344645910861">Settings saved. Sync started.</translation>
-<translation id="7548737591211512046">Sign in to get your bookmarks, history, passwords and other settings on all your devices. You'll also automatically be signed in to your Brave Software services.</translation>
-<translation id="2951604498031550705">Changes to your bookmarks, history, passwords and other settings will no longer be synced to your Brave Software account. However, your existing data will remain stored in your Brave Software account and can be managed on <ph name="BEGIN_LINK"/>Brave Software Dashboard<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">This will sign you out of your Brave Software accounts. Your bookmarks, history, passwords and more will no longer be synced.</translation>
+<translation id="7548737591211512046">Sign in to get your bookmarks, history, passwords and other settings on all your devices. You'll also automatically be signed in to your Gab AI Inc services.</translation>
+<translation id="2951604498031550705">Changes to your bookmarks, history, passwords and other settings will no longer be synced to your Gab AI Inc account. However, your existing data will remain stored in your Gab AI Inc account and can be managed on <ph name="BEGIN_LINK"/>Gab AI Inc Dashboard<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">This will sign you out of your Gab AI Inc accounts. Your bookmarks, history, passwords and more will no longer be synced.</translation>
 <translation id="8588866096426746242">Show profile stats</translation>
 <translation id="5535941515421698170">Also remove your existing data from this device</translation>
 <translation id="7243632151880336635">Clear and Sign Out</translation>
 <translation id="6406506848690869874">Sync</translation>
-<translation id="5428209950370661546">Other Brave Software services</translation>
-<translation id="7956662517480676674">Sync and Brave Software services</translation>
+<translation id="5428209950370661546">Other Gab AI Inc services</translation>
+<translation id="7956662517480676674">Sync and Gab AI Inc services</translation>
 <translation id="4314815835985389558">Manage sync</translation>
 <translation id="2162155940152307086">Sync will start once you leave sync settings</translation>
 <translation id="3143515551205905069">Cancel sync</translation>
@@ -4053,20 +4053,20 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3058498974290601450">You can turn on sync at any time in settings</translation>
 <translation id="7529411698175791732">Check your Internet connection. If the problem continues, try signing out and signing in again.</translation>
 <translation id="4684427112815847243">Sync everything</translation>
-<translation id="1125261911132334651">Manage your Brave Software account</translation>
+<translation id="1125261911132334651">Manage your Gab AI Inc account</translation>
 <translation id="4570387585180509432">Addresses, phone numbers and more</translation>
 <translation id="5117427536932535467">Themes &amp; Wallpapers</translation>
 <translation id="7257173066616499747">Wi-Fi networks</translation>
 <translation id="3268451620468152448">Open Tabs</translation>
-<translation id="5241892180459725878">Brave Software Drive search suggestions</translation>
+<translation id="5241892180459725878">Gab AI Inc Drive search suggestions</translation>
 <translation id="2120297377148151361">Activity and interactions</translation>
 <translation id="5833397272224757657">Uses content on sites that you visit, plus browser activity and interactions, for personalisation</translation>
-<translation id="8135094938656535588">Manage synced data on Brave Software Dashboard</translation>
-<translation id="7505421639213002314">Data from Brave sync</translation>
+<translation id="8135094938656535588">Manage synced data on Gab AI Inc Dashboard</translation>
+<translation id="7505421639213002314">Data from Dissenter sync</translation>
 <translation id="6596325263575161958">Encryption options</translation>
-<translation id="2459230470861708651">Encrypt synced passwords with your Brave Software username and password</translation>
-<translation id="5958351589333270173">Encrypt synced data with your own <ph name="BEGIN_LINK"/>sync passphrase<ph name="END_LINK"/>. This doesn't include payment methods and addresses from Brave Software Pay.</translation>
-<translation id="4817583816512767754">Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Brave Software. If you forget your passphrase or want to change this setting, you'll need to <ph name="BEGIN_LINK"/>reset sync<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Encrypt synced passwords with your Gab AI Inc username and password</translation>
+<translation id="5958351589333270173">Encrypt synced data with your own <ph name="BEGIN_LINK"/>sync passphrase<ph name="END_LINK"/>. This doesn't include payment methods and addresses from Gab AI Inc Pay.</translation>
+<translation id="4817583816512767754">Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Gab AI Inc. If you forget your passphrase or want to change this setting, you'll need to <ph name="BEGIN_LINK"/>reset sync<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">To change this setting, <ph name="BEGIN_LINK"/>reset sync<ph name="END_LINK"/> to remove your sync passphrase</translation>
 <translation id="3873315167136380065">To turn this on, <ph name="BEGIN_LINK"/>reset sync<ph name="END_LINK"/> to remove your sync passphrase</translation>
 <translation id="988978206646512040">Empty passphrase is not allowed</translation>
@@ -4164,7 +4164,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="4673442866648850031">Open stylus tools when the stylus is removed</translation>
 <translation id="5862109781435984885">Show stylus tools in the shelf</translation>
 <translation id="4244238649050961491">Find more stylus apps</translation>
-<translation id="668599234725812620">Open Brave Software Play</translation>
+<translation id="668599234725812620">Open Gab AI Inc Play</translation>
 <translation id="9116799625073598554">Note-taking app</translation>
 <translation id="5458998536542739734">Lock screen notes</translation>
 <translation id="203574396658008164">Enable note taking from lock screen</translation>
@@ -4230,7 +4230,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6547354035488017500">Free up at least 512 MB of space or your device will become unresponsive. To free up space, delete files from device storage.</translation>
 <translation id="6097480669505687979">If you don’t free up space, users and data may be automatically removed.</translation>
 <translation id="4470957202018033307">External storage preferences</translation>
-<translation id="1900305421498694955">Apps from Brave Software Play may require full file system access to read and write files on external storage devices. Files and folders created on the device are visible to anyone who uses the external drive. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
+<translation id="1900305421498694955">Apps from Gab AI Inc Play may require full file system access to read and write files on external storage devices. Files and folders created on the device are visible to anyone who uses the external drive. <ph name="LINK_BEGIN"/>Learn more<ph name="LINK_END"/></translation>
 <translation id="6775163072363532304">Available devices will appear here.</translation>
 <translation id="1041263367839475438">Available devices</translation>
 <translation id="7479221278376295180">Storage Usage Overview</translation>
@@ -4268,23 +4268,23 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5117139026559873716">Disconnect your phone from your <ph name="DEVICE_TYPE"/>. They will no longer connect automatically.</translation>
 <translation id="7878562273885520351">Your password may be compromised</translation>
 <translation id="1089439967362294234">Change Password</translation>
-<translation id="6187156085111579405">Items not listed here will also be removed, if needed. Learn more about &lt;a href="<ph name="URL"/>"&gt;unwanted software protection&lt;/a&gt; in the Brave privacy white paper.</translation>
+<translation id="6187156085111579405">Items not listed here will also be removed, if needed. Learn more about &lt;a href="<ph name="URL"/>"&gt;unwanted software protection&lt;/a&gt; in the Dissenter privacy white paper.</translation>
 <translation id="5280174558369304332">Extensions to be removed:</translation>
 <translation id="7712836429117959503">Unknown extension with ID <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Files and programs to be quarantined:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 item}other{# items}}</translation>
 <translation id="7187428571767585875">Registry entries to be removed or changed:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{One more}other{# more}}</translation>
-<translation id="2749608811030566578">An error occurred while Brave was removing harmful software</translation>
-<translation id="8189483132214844139">Brave can find harmful software on your computer and remove it</translation>
+<translation id="2749608811030566578">An error occurred while Dissenter was removing harmful software</translation>
+<translation id="8189483132214844139">Dissenter can find harmful software on your computer and remove it</translation>
 <translation id="1426870617281699524">Click Try Again, and accept the prompt on your computer</translation>
-<translation id="7886744396008377537">There's harmful software on your computer. Brave is removing it, restoring your settings and disabling extensions. This will make your browser work normally again.</translation>
-<translation id="1484912962860902625">An error occurred while Brave was searching for harmful software</translation>
+<translation id="7886744396008377537">There's harmful software on your computer. Dissenter is removing it, restoring your settings and disabling extensions. This will make your browser work normally again.</translation>
+<translation id="1484912962860902625">An error occurred while Dissenter was searching for harmful software</translation>
 <translation id="451407183922382411">Powered by <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Show files to be removed</translation>
 <translation id="296026337010986570">Finished! Harmful software removed. To turn extensions back on, visit &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Cleanup failed</translation>
-<translation id="9014750448058570312">Brave needs permission to continue</translation>
+<translation id="9014750448058570312">Dissenter needs permission to continue</translation>
 <translation id="1852141627593563189">Find harmful software</translation>
 <translation id="850875081535031620">No harmful software found</translation>
 <translation id="1186771945450942097">Remove harmful software</translation>
@@ -4293,11 +4293,11 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="8639047128869322042">Checking for harmful software…</translation>
 <translation id="2653033005692233957">Search failed</translation>
 <translation id="655483977608336153">Try again</translation>
-<translation id="8282772389915299166">Report details to Brave Software about harmful software, system settings and processes that were found on your computer during this clean up</translation>
+<translation id="8282772389915299166">Report details to Gab AI Inc about harmful software, system settings and processes that were found on your computer during this clean up</translation>
 <translation id="6555810572223193255">Cleanup is currently unavailable</translation>
 <translation id="7117228822971127758">Please try again later</translation>
 <translation id="443475966875174318">Update or remove incompatible applications</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{This application could prevent Brave from working properly.}other{These applications could prevent Brave from working properly.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{This application could prevent Dissenter from working properly.}other{These applications could prevent Dissenter from working properly.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{To ensure that you can keep browsing the web, ask your administrator to remove this application.}other{To ensure that you can keep browsing the web, ask your administrator to remove these applications.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Find out how to update applications<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Application}other{Applications}}</translation>
@@ -4446,7 +4446,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1992397118740194946">Not set</translation>
 <translation id="6706210727756204531">Scope</translation>
 <translation id="5532223876348815659">Global</translation>
-<translation id="300669147395456190">Brave Apps</translation>
+<translation id="300669147395456190">Dissenter Apps</translation>
 <translation id="6787839852456839824">Keyboard shortcuts</translation>
 <translation id="6419546358665792306">Load unpacked</translation>
 <translation id="8023801379949507775">Update extensions now</translation>
@@ -4473,9 +4473,9 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="2342740338116612727">Bookmarks added</translation>
 <translation id="7835178595033117206">Bookmark removed</translation>
 <translation id="742130257665691897">Bookmarks removed</translation>
-<translation id="5468853758063275923">Brave is your default browser</translation>
-<translation id="2950533317914339731">Add bookmarks to your favourite Brave Software apps</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="5468853758063275923">Dissenter is your default browser</translation>
+<translation id="2950533317914339731">Add bookmarks to your favourite Gab AI Inc apps</translation>
+<translation id="939305735877869636">Gab AI Inc</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Maps</translation>
 <translation id="6709133671862442373">News</translation>
@@ -4488,13 +4488,13 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="5033266061063942743">Geometric shapes</translation>
 <translation id="7789963078219276159">Start page background has been changed to <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Start page background has been reset to the default background.</translation>
-<translation id="239760341987199724">Set Brave as your default browser</translation>
-<translation id="96037229054033864">Get Brave Software Search and Brave Software smarts every time that you browse</translation>
-<translation id="296137235951584143">Make Brave your own</translation>
+<translation id="239760341987199724">Set Dissenter as your default browser</translation>
+<translation id="96037229054033864">Get Gab AI Inc Search and Gab AI Inc smarts every time that you browse</translation>
+<translation id="296137235951584143">Make Dissenter your own</translation>
 <translation id="3982375475032951137">Set up your browser in a few simple steps</translation>
 <translation id="6972754398087986839">Get Started</translation>
-<translation id="3707821975049107110">Already a Brave user? Sign in</translation>
-<translation id="7113572760575285642">Your Brave, Everywhere</translation>
+<translation id="3707821975049107110">Already a Dissenter user? Sign in</translation>
+<translation id="7113572760575285642">Your Dissenter, Everywhere</translation>
 <translation id="567643736130151854">Sign in and turn on sync to get your bookmarks, passwords and more on all devices</translation>
 <translation id="725758059478686223">Printing Service</translation>
 <translation id="15662109988763471">The selected printer is not available or not installed correctly. Check your printer or try selecting another printer.</translation>
@@ -4502,7 +4502,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1031362278801463162">Loading preview</translation>
 <translation id="6147020289383635445">Print preview failed.</translation>
 <translation id="5877584842898320529">The selected printer is not available or not installed correctly. <ph name="BR"/> Check your printer or try selecting another printer.</translation>
-<translation id="7413400642818115607">The selected Brave Software Cloud Print device is no longer supported. <ph name="BR"/> Try setting up the printer in your computer's system settings.</translation>
+<translation id="7413400642818115607">The selected Gab AI Inc Cloud Print device is no longer supported. <ph name="BR"/> Try setting up the printer in your computer's system settings.</translation>
 <translation id="5828633471261496623">Printing...</translation>
 <translation id="6295855836753816081">Saving...</translation>
 <translation id="3587482841069643663">All</translation>
@@ -4522,7 +4522,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="3706463572498736864">Pages per sheet</translation>
 <translation id="2249605167705922988">e.g. 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Save as PDF</translation>
-<translation id="1955272076204612657">Save to Brave Software Drive</translation>
+<translation id="1955272076204612657">Save to Gab AI Inc Drive</translation>
 <translation id="2580924999637585241">Total: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">sheets of paper</translation>
@@ -4553,7 +4553,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="6991665348624301627">Select a destination</translation>
 <translation id="8800004011501252845">Showing destinations for</translation>
 <translation id="8996526648899750015">Add account...</translation>
-<translation id="5002959368039764681">Print to Brave Software Docs and other cloud destinations. <ph name="BEGIN_LINK"/>Sign in<ph name="END_LINK"/> to print to Brave Software Cloud Print.</translation>
+<translation id="5002959368039764681">Print to Gab AI Inc Docs and other cloud destinations. <ph name="BEGIN_LINK"/>Sign in<ph name="END_LINK"/> to print to Gab AI Inc Cloud Print.</translation>
 <translation id="2150139952286079145">Search destinations</translation>
 <translation id="8569682776816196752">No destinations found</translation>
 <translation id="7885253890047913815">Recent destinations</translation>
@@ -4618,7 +4618,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7574650250151586813">To type text, update the Daydream Keyboard app</translation>
 <translation id="983511809958454316">This feature is not supported in VR</translation>
 <translation id="4008291085758151621">Site information is not available in VR</translation>
-<translation id="1439926347196400598">Allow Brave to record audio?</translation>
+<translation id="1439926347196400598">Allow Dissenter to record audio?</translation>
 <translation id="6313641880021325787">EXIT VR</translation>
 <translation id="2670429602441959756">This page contains features not yet supported in VR. Exiting...</translation>
 <translation id="1802687198411089702">The page isn't responding. You can wait for it or exit.</translation>
@@ -4640,7 +4640,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="1721312023322545264">You need permission from <ph name="NAME"/> to visit this site</translation>
 <translation id="7543525346216957623">Ask your parent</translation>
 <translation id="471880041731876836">You don't have permission to visit this site</translation>
-<translation id="3480834636742786788">Please start and sign in to Brave before using this app.</translation>
+<translation id="3480834636742786788">Please start and sign in to Dissenter before using this app.</translation>
 <translation id="2851634818064021665">You need permission to visit this site</translation>
 <translation id="4933782374919065856">Questions? Contact the person who supervises your profile.</translation>
 <translation id="2712173769900027643">Ask permission</translation>
@@ -4660,7 +4660,7 @@ Keep your key file in a safe place. You will need it to create new versions of y
 <translation id="7755287808199759310">Your parent can unblock it for you</translation>
 <translation id="5732392974455271431">Your parents can unblock it for you</translation>
 <translation id="3556433843310711081">Your manager can unblock it for you</translation>
-<translation id="1254756632288991504">Please start and sign in to Brave so that Brave can check whether you are allowed to access this site.</translation>
+<translation id="1254756632288991504">Please start and sign in to Dissenter so that Dissenter can check whether you are allowed to access this site.</translation>
 <translation id="2507397597949272797"><ph name="NAME"/> is paused</translation>
 <translation id="8015163965024115122">The limit on <ph name="IDS_SHORT_PRODUCT_NAME"/> or <ph name="IDS_SHORT_PRODUCT_NAME"/> apps that your parent set ran out.</translation>
 <translation id="9122176249172999202"><ph name="IDS_SHORT_PRODUCT_NAME"/> is paused</translation>

@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">권한 요청</translation>
 <translation id="3749259744154402564">지원되지 않음</translation>
 <translation id="629730747756840877">계정</translation>
-<translation id="82609232232243542">Brave에 로그인</translation>
-<translation id="7956662517480676674">동기화 및 Brave Software 서비스</translation>
-<translation id="5294439808117722387">현재 동기화 및 Brave Software 서비스 설정을 맞춤설정 중입니다. 동기화 켜기를 마무리하려면 화면 하단 근처에 있는 확인 버튼을 탭하세요. 위로 이동</translation>
+<translation id="82609232232243542">Dissenter에 로그인</translation>
+<translation id="7956662517480676674">동기화 및 Gab AI Inc 서비스</translation>
+<translation id="5294439808117722387">현재 동기화 및 Gab AI Inc 서비스 설정을 맞춤설정 중입니다. 동기화 켜기를 마무리하려면 화면 하단 근처에 있는 확인 버튼을 탭하세요. 위로 이동</translation>
 <translation id="2096012225669085171">모든 기기 동기화 및 맞춤설정</translation>
 <translation id="1692118695553449118">동기화 사용 중</translation>
 <translation id="5514904542973294328">기기 관리자가 사용 중지함</translation>
-<translation id="6447211988989208781">Brave Software 활동 제어</translation>
+<translation id="6447211988989208781">Gab AI Inc 활동 제어</translation>
 <translation id="4882831918239250449">검색, 광고 등을 맞춤설정하는 데 인터넷 방문 기록이 사용되는 방식 관리</translation>
 <translation id="7431991332293347422">검색 등을 맞춤설정하는 데 인터넷 방문 기록이 사용되는 방식 관리</translation>
 <translation id="6303969859164067831">로그아웃하고 동기화 사용 중지</translation>
-<translation id="1125261911132334651">Brave Software 계정 관리</translation>
+<translation id="1125261911132334651">Gab AI Inc 계정 관리</translation>
 <translation id="6406506848690869874">동기화</translation>
-<translation id="714362445477979774">Brave 데이터 동기화</translation>
+<translation id="714362445477979774">Dissenter 데이터 동기화</translation>
 <translation id="4314815835985389558">동기화 관리</translation>
-<translation id="5428209950370661546">다른 Brave Software 서비스</translation>
+<translation id="5428209950370661546">다른 Gab AI Inc 서비스</translation>
 <translation id="7704317875155739195">검색어 및 URL 자동 완성</translation>
 <translation id="2000419248597011803">검색주소창 및 검색창의 검색어 및 일부 쿠키를 기본 검색엔진에 전송</translation>
 <translation id="7981313251711023384">더 빠른 인터넷 사용과 검색을 위해 페이지 미리 로드</translation>
 <translation id="1821253160463689938">페이지를 방문하지 않더라도 쿠키를 사용하여 환경설정 저장</translation>
 <translation id="6697492270171225480">페이지를 찾을 수 없을 때 비슷한 페이지 제안 표시</translation>
-<translation id="8109318360573330108">접속하려는 페이지의 URL을 Brave Software에 전송</translation>
+<translation id="8109318360573330108">접속하려는 페이지의 URL을 Gab AI Inc에 전송</translation>
 <translation id="8438566539970814960">검색 및 탐색 기능 개선</translation>
-<translation id="284843628681142937">방문한 페이지의 URL을 Brave Software에 전송</translation>
-<translation id="7222718784508482526">개인정보 보호, 보안, 데이터 수집에 관한 설정을 더 보려면 <ph name="BEGIN_LINK"/>동기화 및 Brave Software 서비스<ph name="END_LINK"/>를 참조하세요.</translation>
-<translation id="918192811481327695">Brave의 기능 및 성능 개선에 참여</translation>
-<translation id="9063160602596686558">사용 통계 및 비정상 종료 보고서를 Brave Software로 자동 전송</translation>
+<translation id="284843628681142937">방문한 페이지의 URL을 Gab AI Inc에 전송</translation>
+<translation id="7222718784508482526">개인정보 보호, 보안, 데이터 수집에 관한 설정을 더 보려면 <ph name="BEGIN_LINK"/>동기화 및 Gab AI Inc 서비스<ph name="END_LINK"/>를 참조하세요.</translation>
+<translation id="918192811481327695">Dissenter의 기능 및 성능 개선에 참여</translation>
+<translation id="9063160602596686558">사용 통계 및 비정상 종료 보고서를 Gab AI Inc로 자동 전송</translation>
 <translation id="4824958205181053313">동기화를 취소하시겠습니까?</translation>
 <translation id="3058498974290601450">언제든지 설정에서 동기화를 사용 설정할 수 있습니다.</translation>
 <translation id="3143515551205905069">동기화 취소</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">카드번호</translation>
 <translation id="869891660844655955">유효기간</translation>
 <translation id="2286841657746966508">결제주소</translation>
-<translation id="663059986967017181">Brave에 복사됨</translation>
+<translation id="663059986967017181">Dissenter에 복사됨</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>개}other{<ph name="PAYMENT_METHOD_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>개}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>개}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>개}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>개}other{<ph name="SHIPPING_OPTION_PREVIEW"/> 외 <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>개}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">자동 로그인</translation>
 <translation id="363596933471559332">저장된 사용자 인증 정보를 사용하여 자동으로 웹사이트에 로그인합니다. 이 기능이 꺼져 있는 경우에는 웹사이트에 로그인할 때마다 인증 요청 메시지가 표시됩니다.</translation>
 <translation id="6995899638241819463">데이터 유출로 인해 비밀번호가 노출된 경우 알림</translation>
-<translation id="1534287762301776620">Brave Software 계정에 로그인하면 이 기능이 사용 설정됩니다.</translation>
+<translation id="1534287762301776620">Gab AI Inc 계정에 로그인하면 이 기능이 사용 설정됩니다.</translation>
 <translation id="10614374240317010">저장되지 않음</translation>
-<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>Brave Software 계정<ph name="END_LINK"/>에서 저장된 비밀번호 보기 및 관리</translation>
+<translation id="3098842761938485917"><ph name="BEGIN_LINK"/>Gab AI Inc 계정<ph name="END_LINK"/>에서 저장된 비밀번호 보기 및 관리</translation>
 <translation id="8562452229998620586">저장한 비밀번호가 여기에 표시됩니다.</translation>
 <translation id="8084114998886531721">저장된 비밀번호</translation>
 <translation id="2870560284913253234">사이트</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">이 기기에서 비밀번호를 내보내려면 설정에서 화면 잠금을 사용 설정하세요</translation>
 <translation id="4842092870884894799">비밀번호 생성 팝업 표시</translation>
 <translation id="2259659629660284697">비밀번호 내보내기...</translation>
-<translation id="133012818630824069">Brave으로 저장한 비밀번호 내보내기</translation>
+<translation id="133012818630824069">Dissenter으로 저장한 비밀번호 내보내기</translation>
 <translation id="6914783257214138813">내보낸 파일을 볼 수 있는 모든 사용자에게 비밀번호가 표시됩니다.</translation>
 <translation id="2321086116217818302">비밀번호 준비 중…</translation>
 <translation id="8445448999790540984">비밀번호를 내보낼 수 없음</translation>
-<translation id="3066461326500799725">Brave Software 드라이브 사용 방법 알아보기</translation>
+<translation id="3066461326500799725">Gab AI Inc 드라이브 사용 방법 알아보기</translation>
 <translation id="729975465115245577">기기에 비밀번호 파일을 저장할 수 있는 앱이 없습니다.</translation>
 <translation id="7682724950699840886">다음 방법을 시도해 보세요. 기기 저장용량이 충분한지 확인하고 다시 내보내 봅니다.</translation>
 <translation id="1129510026454351943">세부정보: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">비밀번호를 복사하려면 잠금 해제하세요</translation>
 <translation id="5515439363601853141">비밀번호를 보려면 잠금 해제하세요</translation>
 <translation id="6221633008163990886">비밀번호를 내보내려면 잠금 해제하세요</translation>
-<translation id="230699814587342492">Brave 비밀번호</translation>
+<translation id="230699814587342492">Dissenter 비밀번호</translation>
 <translation id="6075798973483050474">홈 페이지 수정</translation>
 <translation id="854522910157234410">페이지 열기</translation>
 <translation id="2482878487686419369">알림</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">기기의 어두운 테마 또는 절전 모드가 켜지면 어두운 테마를 사용 설정합니다.</translation>
 <translation id="6381421346744604172">웹사이트 어둡게 보기</translation>
 <translation id="5040262127954254034">개인정보 보호</translation>
-<translation id="4991384657077828949">Brave 보안 강화 개선에 참여하기</translation>
-<translation id="1943176487615318915">Brave은 위험한 앱 및 사이트를 감지하기 위해 일부 방문 페이지의 URL, 제한적인 시스템 정보, 페이지 콘텐츠 일부를 Brave Software로 전송합니다.</translation>
+<translation id="4991384657077828949">Dissenter 보안 강화 개선에 참여하기</translation>
+<translation id="1943176487615318915">Dissenter은 위험한 앱 및 사이트를 감지하기 위해 일부 방문 페이지의 URL, 제한적인 시스템 정보, 페이지 콘텐츠 일부를 Gab AI Inc로 전송합니다.</translation>
 <translation id="3181954750937456830">세이프 브라우징(사용자와 사용자의 기기를 위험한 사이트로부터 보호)</translation>
-<translation id="7315322926489145388">보안상의 위험이 있을 때 일부 방문 페이지의 URL을 Brave Software로 전송함</translation>
+<translation id="7315322926489145388">보안상의 위험이 있을 때 일부 방문 페이지의 URL을 Gab AI Inc로 전송함</translation>
 <translation id="2063713494490388661">탭하여 검색</translation>
-<translation id="2369463299479365221">페이지에서 나가지 않고도 웹사이트에 언급된 주제에 관해 자세히 알아보세요. 탭하여 검색 기능은 단어와 관련 맥락을 Brave Software 검색으로 전송하여 정의, 사진, 검색결과 및 기타 세부정보를 제공합니다.
+<translation id="2369463299479365221">페이지에서 나가지 않고도 웹사이트에 언급된 주제에 관해 자세히 알아보세요. 탭하여 검색 기능은 단어와 관련 맥락을 Gab AI Inc 검색으로 전송하여 정의, 사진, 검색결과 및 기타 세부정보를 제공합니다.
 
 검색어를 조정하려면 길게 눌러 선택하세요. 더욱 상세히 검색하려면 패널을 위로 끝까지 슬라이드한 다음 검색창을 탭하세요.</translation>
-<translation id="2930742481329940825">탭하여 검색을 사용하면 선택한 단어와 현재 페이지가 Brave Software 검색에 전송되어 맥락으로 사용됩니다. <ph name="BEGIN_LINK"/>설정<ph name="END_LINK"/>에서 이 기능을 사용 중지할 수 있습니다.</translation>
+<translation id="2930742481329940825">탭하여 검색을 사용하면 선택한 단어와 현재 페이지가 Gab AI Inc 검색에 전송되어 맥락으로 사용됩니다. <ph name="BEGIN_LINK"/>설정<ph name="END_LINK"/>에서 이 기능을 사용 중지할 수 있습니다.</translation>
 <translation id="5039804452771397117">허용</translation>
 <translation id="1406000523432664303">'추적 안함'</translation>
 <translation id="6232535412751077445">‘추적 안함’을 사용하도록 설정하면 요청이 사용자의 인터넷 사용 트래픽에 포함됩니다. 웹사이트가 요청에 응답하는지 여부와 요청이 해석되는 방법에 따라 결과가 결정됩니다.
@@ -197,18 +197,18 @@
 <translation id="7359002509206457351">결제 수단 액세스</translation>
 <translation id="8026334261755873520">인터넷 사용 기록 삭제</translation>
 <translation id="1291207594882862231">방문 기록, 쿠키, 사이트 데이터, 캐시 삭제…</translation>
-<translation id="7814200940910057384">Brave 데이터 삭제됨</translation>
-<translation id="1664855196866195614">선택한 데이터가 Brave 및 동기화된 기기에서 삭제되었습니다.
+<translation id="7814200940910057384">Dissenter 데이터 삭제됨</translation>
+<translation id="1664855196866195614">선택한 데이터가 Dissenter 및 동기화된 기기에서 삭제되었습니다.
 
-<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>에서 검색이나 기타 Brave Software 서비스에서의 활동 등 내 Brave Software 계정에 있는 다른 형식의 탐색 기록을 확인할 수 있습니다.</translation>
+<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>에서 검색이나 기타 Gab AI Inc 서비스에서의 활동 등 내 Gab AI Inc 계정에 있는 다른 형식의 탐색 기록을 확인할 수 있습니다.</translation>
 <translation id="4699172675775169585">캐시된 이미지 또는 파일</translation>
 <translation id="2496180316473517155">인터넷 사용 기록</translation>
 <translation id="2546283357679194313">쿠키 및 사이트 데이터</translation>
 <translation id="8662811608048051533">대부분의 사이트에서 로그아웃됩니다.</translation>
-<translation id="8218628800671693884">대부분의 사이트에서 로그아웃됩니다. Brave Software 계정에서는 로그아웃되지 않습니다.</translation>
+<translation id="8218628800671693884">대부분의 사이트에서 로그아웃됩니다. Gab AI Inc 계정에서는 로그아웃되지 않습니다.</translation>
 <translation id="2017836877785168846">검색주소창의 검색 기록 및 자동 완성 항목을 삭제합니다.</translation>
-<translation id="8096327394278038498">검색주소창에 저장된 방문 기록과 자동 완성 내역을 지웁니다. Brave Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
-<translation id="8122693181154564064">로그인된 모든 기기에서 방문 기록을 지웁니다. Brave Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
+<translation id="8096327394278038498">검색주소창에 저장된 방문 기록과 자동 완성 내역을 지웁니다. Gab AI Inc 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
+<translation id="8122693181154564064">로그인된 모든 기기에서 방문 기록을 지웁니다. Gab AI Inc 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
 <translation id="5869522115854928033">저장된 비밀번호</translation>
 <translation id="6865313869410766144">양식 데이터 자동 완성</translation>
 <translation id="7562080006725997899">인터넷 사용 기록 삭제</translation>
@@ -225,7 +225,7 @@
 <translation id="6643016212128521049">삭제</translation>
 <translation id="7641339528570811325">인터넷 사용 기록 삭제...</translation>
 <translation id="1670399744444387456">기본</translation>
-<translation id="3245261285041759672">Brave Software 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
+<translation id="3245261285041759672">Gab AI Inc 계정의 내 활동(<ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>)에는 인터넷 사용 기록이 다른 형식으로 남아 있을 수도 있습니다.</translation>
 <translation id="7274013316676448362">차단된 사이트</translation>
 <translation id="2534155362429831547"><ph name="NUMBER_OF_ITEMS"/>개 항목 삭제함</translation>
 <translation id="6981982820502123353">접근성</translation>
@@ -335,12 +335,12 @@
 <translation id="8156139159503939589">어떤 언어로 읽을 수 있으신가요?</translation>
 <translation id="5689516760719285838">위치</translation>
 <translation id="2440823041667407902">위치 정보 액세스</translation>
-<translation id="2023546461831060654"><ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 Brave 관련 권한을 설정합니다.</translation>
-<translation id="6665548517310046133"><ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 Brave 관련 권한을 설정합니다.</translation>
-<translation id="2928908108430545745">Brave에서 위치 정보에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 위치를 사용 설정하세요.</translation>
-<translation id="1028853271388022585">Brave에서 카메라에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 카메라를 사용 설정하세요.</translation>
-<translation id="2913721282607281710">Brave에서 알림을 전송하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 알림을 사용 설정하세요.</translation>
-<translation id="8753483718490035722">Brave에서 마이크에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 마이크를 사용 설정하세요.</translation>
+<translation id="2023546461831060654"><ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 Dissenter 관련 권한을 설정합니다.</translation>
+<translation id="6665548517310046133"><ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 Dissenter 관련 권한을 설정합니다.</translation>
+<translation id="2928908108430545745">Dissenter에서 위치 정보에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 위치를 사용 설정하세요.</translation>
+<translation id="1028853271388022585">Dissenter에서 카메라에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 카메라를 사용 설정하세요.</translation>
+<translation id="2913721282607281710">Dissenter에서 알림을 전송하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 알림을 사용 설정하세요.</translation>
+<translation id="8753483718490035722">Dissenter에서 마이크에 액세스하도록 허용하려면 <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서도 마이크를 사용 설정하세요.</translation>
 <translation id="1887786770086287077">이 기기의 위치 액세스가 사용 중지되었습니다. <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 사용 설정하세요.</translation>
 <translation id="2570922361219980984">이 기기의 위치 정보 액세스도 사용 중지되었습니다. <ph name="BEGIN_LINK"/>Android 설정<ph name="END_LINK"/>에서 사용 설정하세요.</translation>
 <translation id="1620510694547887537">카메라</translation>
@@ -358,8 +358,8 @@
 <translation id="7821588508402923572">절약한 데이터 양이 여기에 표시됩니다</translation>
 <translation id="2131665479022868825"><ph name="DATA"/> 절약됨</translation>
 <translation id="8569404424186215731"><ph name="DATE"/>부터</translation>
-<translation id="3252158532344029638">Brave의 라이트 모드를 사용하면 페이지가 더 빠르게 로드되고 데이터가 최대 60퍼센트 절약됩니다.</translation>
-<translation id="1438581767753657407">Lite 모드가 켜지면 Brave는 Brave 서버를 이용해 페이지를 더욱 빠르게 로드합니다. Lite 모드는 느린 페이지를 다시 작성해 필수적인 콘텐츠만을 로드합니다. Lite 모드는 비공개 탭에 적용되지 않습니다.</translation>
+<translation id="3252158532344029638">Dissenter의 라이트 모드를 사용하면 페이지가 더 빠르게 로드되고 데이터가 최대 60퍼센트 절약됩니다.</translation>
+<translation id="1438581767753657407">Lite 모드가 켜지면 Dissenter는 Dissenter 서버를 이용해 페이지를 더욱 빠르게 로드합니다. Lite 모드는 느린 페이지를 다시 작성해 필수적인 콘텐츠만을 로드합니다. Lite 모드는 비공개 탭에 적용되지 않습니다.</translation>
 <translation id="6159335304067198720"><ph name="PERCENT"/> 데이터 절약</translation>
 <translation id="7494974237137038751">데이터 절약됨</translation>
 <translation id="6111020039983847643">데이터 사용됨</translation>
@@ -381,15 +381,15 @@
 <translation id="1856325424225101786">라이트 모드를 재설정하시겠습니까?</translation>
 <translation id="3658159451045945436">재설정하면 방문한 사이트 목록을 비롯한 데이터 절약 기록이 삭제됩니다.</translation>
 <translation id="3295530008794733555">데이터를 절약하면서 웹을 더 빠르게 탐색하세요</translation>
-<translation id="7340390500800578919">Brave의 라이트 모드를 사용하면 페이지가 더 빠르게 로드되고 데이터가 최대 60퍼센트 절약됩니다. Brave에서는 사용자가 방문하는 페이지를 최적화하기 위해 웹 트래픽을 Brave Software에 전송합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">Dissenter의 라이트 모드를 사용하면 페이지가 더 빠르게 로드되고 데이터가 최대 60퍼센트 절약됩니다. Dissenter에서는 사용자가 방문하는 페이지를 최적화하기 위해 웹 트래픽을 Gab AI Inc에 전송합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">라이트 모드 켜기</translation>
 <translation id="4493497663118223949">라이트 모드 사용 설정됨</translation>
 <translation id="7559975015014302720">라이트 모드 사용 중지됨</translation>
 <translation id="7606077192958116810">라이트 모드가 켜져 있습니다. 설정에서 기능을 관리하세요.</translation>
 <translation id="4714588616299687897">데이터 최대 60% 절약</translation>
-<translation id="1006927014032731288">Brave Software 서버에서 내가 방문하는 페이지를 최적화합니다.</translation>
-<translation id="3257320067425202300">Brave을 통해 <ph name="MEGABYTES"/>MB를 절약했습니다.</translation>
-<translation id="5813223329348543512">Brave을 통해 <ph name="GIGABYTES"/>GB를 절약했습니다.</translation>
+<translation id="1006927014032731288">Gab AI Inc 서버에서 내가 방문하는 페이지를 최적화합니다.</translation>
+<translation id="3257320067425202300">Dissenter을 통해 <ph name="MEGABYTES"/>MB를 절약했습니다.</translation>
+<translation id="5813223329348543512">Dissenter을 통해 <ph name="GIGABYTES"/>GB를 절약했습니다.</translation>
 <translation id="8266862848225348053">다운로드 위치</translation>
 <translation id="7077143737582773186">SD 카드</translation>
 <translation id="7762668264895820836">SD 카드 <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@
 <translation id="7290209999329137901">이름 변경 불가</translation>
 <translation id="3334729583274622784">파일 확장자를 변경하시겠습니까?</translation>
 <translation id="107147699690128016">파일 확장자를 변경하면 파일이 다른 애플리케이션에서 열리고 기기가 위험에 노출될 수도 있습니다.</translation>
-<translation id="8541922081612557424">Brave 정보</translation>
-<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Brave Software LLC. All rights reserved.</translation>
+<translation id="8541922081612557424">Dissenter 정보</translation>
+<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Gab AI Inc LLC. All rights reserved.</translation>
 <translation id="1416550906796893042">애플리케이션 버전</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/>(<ph name="TIME_SINCE_UPDATE"/>에 업데이트됨)</translation>
 <translation id="7596558890252710462">운영체제</translation>
-<translation id="3968054912784331254">이 버전의 Android에서는 더 이상 Brave 업데이트가 지원되지 않습니다.</translation>
+<translation id="3968054912784331254">이 버전의 Android에서는 더 이상 Dissenter 업데이트가 지원되지 않습니다.</translation>
 <translation id="7665369617277396874">계정 추가</translation>
-<translation id="649070405679044769">다음 계정으로 Brave Software에 로그인함:</translation>
-<translation id="6234515504547364178">Brave에서 로그아웃</translation>
+<translation id="649070405679044769">다음 계정으로 Gab AI Inc에 로그인함:</translation>
+<translation id="6234515504547364178">Dissenter에서 로그아웃</translation>
 <translation id="5324858694974489420">자녀 보호 설정</translation>
 <translation id="8920114477895755567">부모님의 세부정보를 기다리는 중</translation>
 <translation id="5512137114520586844"><ph name="PARENT_NAME"/>님이 관리하는 계정입니다.</translation>
@@ -432,7 +432,7 @@
 <translation id="5403644198645076998">특정 사이트만 허용</translation>
 <translation id="8641930654639604085">성인용 사이트 차단 시도</translation>
 <translation id="5639724618331995626">모든 사이트 허용</translation>
-<translation id="796823723482603597">Brave에서 실행 중</translation>
+<translation id="796823723482603597">Dissenter에서 실행 중</translation>
 <translation id="6324034347079777476">Android 시스템 동기화 사용 안함</translation>
 <translation id="5127805178023152808">동기화 사용 안함</translation>
 <translation id="7015203776128479407">초기 동기화 설정이 완료되지 않았습니다. 동기화가 사용 중지되었습니다.</translation>
@@ -441,48 +441,48 @@
 <translation id="6108923351542677676">설정 진행 중...</translation>
 <translation id="4062305924942672200">법적 정보</translation>
 <translation id="4256782883801055595">오픈소스 라이선스</translation>
-<translation id="1138681184697033370">Brave 서비스 약관</translation>
-<translation id="7392539049993970338">Brave 개인정보처리방침</translation>
+<translation id="1138681184697033370">Dissenter 서비스 약관</translation>
+<translation id="7392539049993970338">Dissenter 개인정보처리방침</translation>
 <translation id="2677748264148917807">나가기</translation>
 <translation id="5556459405103347317">새로고침</translation>
 <translation id="1623104350909869708">이 페이지가 추가적인 대화를 생성하지 않도록 차단</translation>
 <translation id="2968755619301702150">인증서 뷰어</translation>
 <translation id="1360432990279830238">로그아웃하고 동기화를 사용 중지하시겠습니까?</translation>
-<translation id="8581481290581777242">기기에서 Brave 데이터를 삭제하시겠습니까?</translation>
-<translation id="1318865768845061710">북마크, 방문 기록, 비밀번호 등의 Brave 데이터가 더 이상 Brave Software 계정과 동기화되지 않습니다.</translation>
-<translation id="3325020657155065477">이 기기에서 내 Brave 데이터 삭제</translation>
-<translation id="6136448902816743006"><ph name="DOMAIN_NAME"/>이(가) 관리하는 계정에서 로그아웃하면 Brave 데이터가 이 기기에서 삭제됩니다. Brave Software 계정에서는 데이터가 삭제되지 않습니다.</translation>
-<translation id="1853026300647876496">Brave Software에 연결하는 중입니다. 잠시만 기다려 주세요...</translation>
+<translation id="8581481290581777242">기기에서 Dissenter 데이터를 삭제하시겠습니까?</translation>
+<translation id="1318865768845061710">북마크, 방문 기록, 비밀번호 등의 Dissenter 데이터가 더 이상 Gab AI Inc 계정과 동기화되지 않습니다.</translation>
+<translation id="3325020657155065477">이 기기에서 내 Dissenter 데이터 삭제</translation>
+<translation id="6136448902816743006"><ph name="DOMAIN_NAME"/>이(가) 관리하는 계정에서 로그아웃하면 Dissenter 데이터가 이 기기에서 삭제됩니다. Gab AI Inc 계정에서는 데이터가 삭제되지 않습니다.</translation>
+<translation id="1853026300647876496">Gab AI Inc에 연결하는 중입니다. 잠시만 기다려 주세요...</translation>
 <translation id="2328985652426384049">로그인할 수 없음</translation>
-<translation id="7723158744459952869">Brave Software에서 응답하는 데 시간이 너무 오래 걸립니다.</translation>
+<translation id="7723158744459952869">Gab AI Inc에서 응답하는 데 시간이 너무 오래 걸립니다.</translation>
 <translation id="4572422548854449519">관리 계정에 로그인</translation>
-<translation id="2689656545739939160"><ph name="MANAGED_DOMAIN"/>에서 관리하는 계정으로 로그인합니다. 계정 관리자가 내 Brave 데이터를 관리하게 되며 데이터는 이 계정에 영구적으로 연결됩니다. Brave에서 로그아웃하면 데이터가 이 기기에서 삭제되지만 Brave Software 계정에는 그대로 유지됩니다.</translation>
+<translation id="2689656545739939160"><ph name="MANAGED_DOMAIN"/>에서 관리하는 계정으로 로그인합니다. 계정 관리자가 내 Dissenter 데이터를 관리하게 되며 데이터는 이 계정에 영구적으로 연결됩니다. Dissenter에서 로그아웃하면 데이터가 이 기기에서 삭제되지만 Gab AI Inc 계정에는 그대로 유지됩니다.</translation>
 <translation id="1749561566933687563">북마크 동기화</translation>
 <translation id="4242533952199664413">설정 열기</translation>
 <translation id="1111673857033749125">다른 기기에서 저장한 북마크가 여기에 표시됩니다.</translation>
 <translation id="8636825310635137004">다른 기기에서 탭을 가져오려면 동기화를 사용 설정하세요.</translation>
 <translation id="3269956123044984603">다른 기기에서 탭을 가져오려면 Android 계정 설정에서 '데이터 자동 동기화'를 사용 설정하세요.</translation>
-<translation id="5157964048453367290">다른 기기의 Brave에서 연 탭이 여기에 표시됩니다.</translation>
+<translation id="5157964048453367290">다른 기기의 Dissenter에서 연 탭이 여기에 표시됩니다.</translation>
 <translation id="4684427112815847243">모두 동기화</translation>
 <translation id="2709516037105925701">자동 완성</translation>
 <translation id="8820817407110198400">북마크</translation>
 <translation id="1644574205037202324">방문 기록</translation>
 <translation id="17513872634828108">열린 탭</translation>
-<translation id="1320169905922104972">Brave Software Pay에 저장된 신용카드 및 주소</translation>
+<translation id="1320169905922104972">Gab AI Inc Pay에 저장된 신용카드 및 주소</translation>
 <translation id="6337234675334993532">암호화</translation>
 <translation id="6698801883190606802">동기화된 데이터 관리</translation>
-<translation id="3598578758776312506">비밀번호를 Brave Software 사용자 인증 정보로 암호화</translation>
-<translation id="7810580217418711046"><ph name="TIME"/>에 Brave Software 비밀번호를 사용하여 동기화된 데이터 암호화</translation>
+<translation id="3598578758776312506">비밀번호를 Gab AI Inc 사용자 인증 정보로 암호화</translation>
+<translation id="7810580217418711046"><ph name="TIME"/>에 Gab AI Inc 비밀번호를 사용하여 동기화된 데이터 암호화</translation>
 <translation id="8461694314515752532">나만의 동기화 암호로 동기화된 데이터 암호화</translation>
 <translation id="2996291259634659425">암호 만들기</translation>
-<translation id="5713644099811900409">Brave Software 계정</translation>
-<translation id="8997474919031554666">Brave Software Pay 결제 수단 및 주소는 암호로 암호화되지 않습니다. 암호를 아는 사람만 암호화된 데이터를 읽을 수 있습니다. 암호는 Brave Software로 전송되거나 Brave Software에 저장되지 않습니다. 암호가 기억나지 않거나 이 설정을 변경하려면 동기화를 재설정해야 합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Gab AI Inc 계정</translation>
+<translation id="8997474919031554666">Gab AI Inc Pay 결제 수단 및 주소는 암호로 암호화되지 않습니다. 암호를 아는 사람만 암호화된 데이터를 읽을 수 있습니다. 암호는 Gab AI Inc로 전송되거나 Gab AI Inc에 저장되지 않습니다. 암호가 기억나지 않거나 이 설정을 변경하려면 동기화를 재설정해야 합니다. <ph name="BEGIN_LINK"/>자세히 알아보기<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">암호</translation>
 <translation id="7772032839648071052">암호 확인</translation>
 <translation id="5304593522240415983">필수 입력란입니다.</translation>
 <translation id="321773570071367578">암호를 잊어버렸거나 이 설정을 변경하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>합니다.</translation>
 <translation id="3029704984691124060">암호가 일치하지 않습니다.</translation>
-<translation id="5149495116300586333">Brave Software Pay 결제 수단 및 주소는 암호로 암호화되지 않습니다.
+<translation id="5149495116300586333">Gab AI Inc Pay 결제 수단 및 주소는 암호로 암호화되지 않습니다.
 
 이 설정을 변경하려면 <ph name="BEGIN_LINK"/>동기화를 재설정<ph name="END_LINK"/>하세요.</translation>
 <translation id="7638584964844754484">암호가 잘못되었습니다.</translation>
@@ -499,11 +499,11 @@
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>도움말 보기<ph name="END_LINK1"/> 또는 <ph name="BEGIN_LINK2"/>다시 검색하기<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">호환되는 기기 없음</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>블루투스를 사용 설정<ph name="END_LINK"/>하여 페어링을 허용하세요.</translation>
-<translation id="998321811308652668">Brave에서 블루투스 어댑터를 사용 설정할 수 없습니다.</translation>
+<translation id="998321811308652668">Dissenter에서 블루투스 어댑터를 사용 설정할 수 없습니다.</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>도움 받기<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">기기를 스캔하려면 Brave에서 위치 정보에 액세스해야 합니다. <ph name="BEGIN_LINK"/>권한 업데이트<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">기기를 스캔하려면 Brave에서 위치 정보에 액세스해야 합니다. 위치 정보 액세스 권한이 <ph name="BEGIN_LINK"/>이 기기에서 사용 중지<ph name="END_LINK"/>되어 있습니다.</translation>
-<translation id="2367014990350929709">기기를 스캔하려면 Brave에서 위치 정보에 액세스해야 합니다. <ph name="BEGIN_LINK1"/>권한을 업데이트<ph name="END_LINK1"/>하세요. 또한 <ph name="BEGIN_LINK2"/>이 기기에서도 위치 정보 액세스 권한이 사용 중지<ph name="END_LINK2"/>되어 있습니다.</translation>
+<translation id="8428644385678426438">기기를 스캔하려면 Dissenter에서 위치 정보에 액세스해야 합니다. <ph name="BEGIN_LINK"/>권한 업데이트<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">기기를 스캔하려면 Dissenter에서 위치 정보에 액세스해야 합니다. 위치 정보 액세스 권한이 <ph name="BEGIN_LINK"/>이 기기에서 사용 중지<ph name="END_LINK"/>되어 있습니다.</translation>
+<translation id="2367014990350929709">기기를 스캔하려면 Dissenter에서 위치 정보에 액세스해야 합니다. <ph name="BEGIN_LINK1"/>권한을 업데이트<ph name="END_LINK1"/>하세요. 또한 <ph name="BEGIN_LINK2"/>이 기기에서도 위치 정보 액세스 권한이 사용 중지<ph name="END_LINK2"/>되어 있습니다.</translation>
 <translation id="1569387923882100876">연결된 기기</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{신호 강도: 막대 #개}other{신호 강도: 막대 #개}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/>에서 주변 블루투스 기기를 검색하려고 합니다. 다음 기기가 발견되었습니다.</translation>
@@ -511,11 +511,11 @@
 <translation id="7605594153474022051">동기화가 작동하지 않음</translation>
 <translation id="2537178555904266562">비밀번호 동기화 중 오류 발생</translation>
 <translation id="1810845389119482123">초기 동기화 설정이 완료되지 않음</translation>
-<translation id="3235722914093408050">Android 설정을 열고 Android 시스템 동기화를 다시 사용 설정하여 Brave 동기화를 시작합니다.</translation>
+<translation id="3235722914093408050">Android 설정을 열고 Android 시스템 동기화를 다시 사용 설정하여 Dissenter 동기화를 시작합니다.</translation>
 <translation id="3367813778245106622">다시 로그인하여 동기화 시작</translation>
 <translation id="3701167022068948696">지금 해결하기</translation>
 <translation id="974555521953189084">암호를 입력하여 동기화를 시작합니다.</translation>
-<translation id="2997266899014181325">동기화를 시작하려면 'Brave 데이터 동기화'를 사용 설정하세요.</translation>
+<translation id="2997266899014181325">동기화를 시작하려면 'Dissenter 데이터 동기화'를 사용 설정하세요.</translation>
 <translation id="8260126382462817229">다시 로그인해 주세요.</translation>
 <translation id="5919204609460789179"><ph name="PRODUCT_NAME"/>을(를) 업데이트하여 동기화를 시작합니다.</translation>
 <translation id="397583555483684758">동기화가 중지되었습니다.</translation>
@@ -548,14 +548,14 @@
 <translation id="7396940094317457632">파일(<ph name="FILE_NAME"/>)이 다운로드되었습니다.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> <ph name="LINK_NAME"/> 버튼</translation>
 <translation id="3205824638308738187">거의 완료되었습니다.</translation>
-<translation id="3960299545138990065">Brave 다시 시작하기</translation>
+<translation id="3960299545138990065">Dissenter 다시 시작하기</translation>
 <translation id="3771001275138982843">업데이트를 다운로드할 수 없음</translation>
-<translation id="3888648114124182147">Brave 업데이트 다운로드 중…</translation>
-<translation id="1705567146636171298">Brave 업데이트</translation>
-<translation id="6195417478702700398">최고의 탐색 환경을 사용하려면 Brave을 열고 업데이트하세요.</translation>
-<translation id="3512968675351418494">내가 사용하는 언어로 웹을 보려면 최신 버전의 Brave을 사용하세요.</translation>
+<translation id="3888648114124182147">Dissenter 업데이트 다운로드 중…</translation>
+<translation id="1705567146636171298">Dissenter 업데이트</translation>
+<translation id="6195417478702700398">최고의 탐색 환경을 사용하려면 Dissenter을 열고 업데이트하세요.</translation>
+<translation id="3512968675351418494">내가 사용하는 언어로 웹을 보려면 최신 버전의 Dissenter을 사용하세요.</translation>
 <translation id="6427112570124116297">웹 번역</translation>
-<translation id="1379423114029199501">최신 버전의 Brave에서 내가 사용하는 언어를 사용하려면 업데이트하세요.</translation>
+<translation id="1379423114029199501">최신 버전의 Dissenter에서 내가 사용하는 언어를 사용하려면 업데이트하세요.</translation>
 <translation id="5684874026226664614">죄송합니다. 이 페이지를 번역할 수 없습니다.</translation>
 <translation id="6831043979455480757">번역</translation>
 <translation id="1285320974508926690">이 사이트 번역 안함</translation>
@@ -578,11 +578,11 @@
 <translation id="2532336938189706096">웹 보기</translation>
 <translation id="6005538289190791541">추천 비밀번호</translation>
 <translation id="4634124774493850572">비밀번호 사용</translation>
-<translation id="8285489906452138776">Brave이 이 사이트에서 카메라에 액세스하려면 권한이 필요합니다.</translation>
-<translation id="320189792589364011">Brave이 이 사이트에서 마이크에 액세스하려면 권한이 필요합니다.</translation>
-<translation id="7988136689212463100">Brave이 이 사이트에서 카메라와 마이크에 액세스하려면 권한이 필요합니다.</translation>
-<translation id="4931190655840828017">Brave이 이 사이트와 위치를 공유하려면 내 위치에 액세스하도록 허용해야 합니다.</translation>
-<translation id="3088191967551450609">Brave에서 파일을 다운로드하려면 저장소 액세스 권한이 있어야 합니다.</translation>
+<translation id="8285489906452138776">Dissenter이 이 사이트에서 카메라에 액세스하려면 권한이 필요합니다.</translation>
+<translation id="320189792589364011">Dissenter이 이 사이트에서 마이크에 액세스하려면 권한이 필요합니다.</translation>
+<translation id="7988136689212463100">Dissenter이 이 사이트에서 카메라와 마이크에 액세스하려면 권한이 필요합니다.</translation>
+<translation id="4931190655840828017">Dissenter이 이 사이트와 위치를 공유하려면 내 위치에 액세스하도록 허용해야 합니다.</translation>
+<translation id="3088191967551450609">Dissenter에서 파일을 다운로드하려면 저장소 액세스 권한이 있어야 합니다.</translation>
 <translation id="8942627711005830162">다른 창에서 열기</translation>
 <translation id="4195643157523330669">새 탭에서 열기</translation>
 <translation id="1100066534610197918">새 탭을 그룹에서 열기</translation>
@@ -599,15 +599,15 @@
 <translation id="8073388330009372546">새 탭에서 이미지 열기</translation>
 <translation id="6649642165559792194">이미지 미리보기 표시 <ph name="BEGIN_NEW"/>새로운 기능<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">이미지 로드</translation>
-<translation id="3845332215609790146">Brave Software 렌즈로 검색 <ph name="BEGIN_NEW"/>New<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Gab AI Inc 렌즈로 검색 <ph name="BEGIN_NEW"/>New<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820"><ph name="SEARCH_ENGINE"/>에서 이 이미지 검색</translation>
 <translation id="3384347053049321195">이미지 공유</translation>
 <translation id="5833984609253377421">링크 공유</translation>
 <translation id="6475951671322991020">동영상 다운로드</translation>
-<translation id="2317945146070194624">새 Brave 탭에서 열기</translation>
+<translation id="2317945146070194624">새 Dissenter 탭에서 열기</translation>
 <translation id="7975379999046275268">페이지 미리보기 표시 <ph name="BEGIN_NEW"/>새로운 기능<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">페이지 새로고침</translation>
-<translation id="6990079615885386641">Brave Software Play 스토어에서 앱 다운로드: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Gab AI Inc Play 스토어에서 앱 다운로드: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">어둡게</translation>
 <translation id="1807246157184219062">밝게</translation>
 <translation id="4056223980640387499">세피아</translation>
@@ -634,9 +634,9 @@
 <translation id="164269334534774161"><ph name="CREATION_TIME"/>에 작성된 이 페이지의 오프라인 사본을 보는 중입니다.</translation>
 <translation id="4594952190837476234">이 오프라인 페이지는 <ph name="CREATION_TIME"/>에 생성되었으며 온라인 버전과 다를 수 있습니다.</translation>
 <translation id="8840953339110955557">이 페이지는 온라인 버전과 다를 수 있습니다.</translation>
-<translation id="6405300764336705484">이 콘텐츠의 출처는 Brave Software에서 제공하는 <ph name="DOMAIN_NAME"/>입니다.</translation>
+<translation id="6405300764336705484">이 콘텐츠의 출처는 Gab AI Inc에서 제공하는 <ph name="DOMAIN_NAME"/>입니다.</translation>
 <translation id="1006017844123154345">온라인 열기</translation>
-<translation id="3326636747541519688">Brave Software에서 제공하는 라이트 페이지</translation>
+<translation id="3326636747541519688">Gab AI Inc에서 제공하는 라이트 페이지</translation>
 <translation id="7149158118503947153"><ph name="DOMAIN_NAME"/>에서 <ph name="BEGIN_LINK"/>원본 페이지 로드<ph name="END_LINK"/>하기</translation>
 <translation id="7475192538862203634">이 메시지가 자주 표시된다면 다음 <ph name="BEGIN_LINK"/>권장사항<ph name="END_LINK"/>을 시도해 보세요.</translation>
 <translation id="8748850008226585750">숨겨진 콘텐츠</translation>
@@ -733,19 +733,19 @@
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">MM</translation>
 <translation id="605721222689873409">YY</translation>
-<translation id="724102042129299115">Brave 첫 실행</translation>
-<translation id="2700285883409956633">이 애플리케이션을 사용하면 Brave의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>과 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>에 동의하게 됩니다.</translation>
-<translation id="1640714894372474981">이 애플리케이션을 사용하면 Brave의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>, <ph name="BEGIN_LINK3"/>Family Link로 관리되는 Brave Software 계정용 개인정보처리방침<ph name="END_LINK3"/>에 동의하게 됩니다.</translation>
-<translation id="4218324479468769727"><ph name="APP_NAME"/>이(가) Brave에서 열립니다. 계속하면 Brave의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/> 및 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>에 동의하는 것으로 간주됩니다.</translation>
-<translation id="5071615083211946659"><ph name="APP_NAME"/>이(가) Brave에서 열립니다. 계속하면 Brave의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/> 및 <ph name="BEGIN_LINK3"/>Family Link로 관리되는 Brave Software 계정용 개인정보처리방침<ph name="END_LINK3"/>에 동의하는 것으로 간주됩니다.</translation>
-<translation id="673197144963363525">사용 통계와 비정상 종료 보고서를 Brave Software로 전송하여 Brave을 개선하는 데 동참하세요.</translation>
+<translation id="724102042129299115">Dissenter 첫 실행</translation>
+<translation id="2700285883409956633">이 애플리케이션을 사용하면 Dissenter의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>과 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>에 동의하게 됩니다.</translation>
+<translation id="1640714894372474981">이 애플리케이션을 사용하면 Dissenter의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>, <ph name="BEGIN_LINK3"/>Family Link로 관리되는 Gab AI Inc 계정용 개인정보처리방침<ph name="END_LINK3"/>에 동의하게 됩니다.</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME"/>이(가) Dissenter에서 열립니다. 계속하면 Dissenter의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/> 및 <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/>에 동의하는 것으로 간주됩니다.</translation>
+<translation id="5071615083211946659"><ph name="APP_NAME"/>이(가) Dissenter에서 열립니다. 계속하면 Dissenter의 <ph name="BEGIN_LINK1"/>서비스 약관<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>개인정보처리방침<ph name="END_LINK2"/> 및 <ph name="BEGIN_LINK3"/>Family Link로 관리되는 Gab AI Inc 계정용 개인정보처리방침<ph name="END_LINK3"/>에 동의하는 것으로 간주됩니다.</translation>
+<translation id="673197144963363525">사용 통계와 비정상 종료 보고서를 Gab AI Inc로 전송하여 Dissenter을 개선하는 데 동참하세요.</translation>
 <translation id="3518985090088779359">동의하고 계속</translation>
-<translation id="7207456302801184289">Brave에 오신 것을 환영합니다</translation>
-<translation id="7189372733857464326">Brave Software Play 서비스 업데이트 완료 대기 중</translation>
+<translation id="7207456302801184289">Dissenter에 오신 것을 환영합니다</translation>
+<translation id="7189372733857464326">Gab AI Inc Play 서비스 업데이트 완료 대기 중</translation>
 <translation id="1231733316453485619">동기화를 사용하시겠습니까?</translation>
 <translation id="5132942445612118989">모든 기기의 비밀번호, 방문 기록 등 동기화</translation>
-<translation id="5736731321935944068">Brave Software에서 내 방문 기록을 사용하여 Brave Software 검색, 광고 및 다른 Brave Software 서비스를 맞춤설정할 수 있습니다.</translation>
-<translation id="4013614219085422040">Brave Software에서 내 방문 기록을 사용하여 Brave Software 검색 및 다른 Brave Software 서비스를 맞춤설정할 수 있습니다.</translation>
+<translation id="5736731321935944068">Gab AI Inc에서 내 방문 기록을 사용하여 Gab AI Inc 검색, 광고 및 다른 Gab AI Inc 서비스를 맞춤설정할 수 있습니다.</translation>
+<translation id="4013614219085422040">Gab AI Inc에서 내 방문 기록을 사용하여 Gab AI Inc 검색 및 다른 Gab AI Inc 서비스를 맞춤설정할 수 있습니다.</translation>
 <translation id="5581519193887989363">언제든지 <ph name="BEGIN_LINK1"/>설정<ph name="END_LINK1"/>에서 동기화할 항목을 선택할 수 있습니다.</translation>
 <translation id="741204030948306876">사용</translation>
 <translation id="2410754283952462441">계정 선택</translation>
@@ -753,8 +753,8 @@
 <translation id="6210748933810148297"><ph name="EMAIL"/>이(가) 아닌가요?</translation>
 <translation id="8109613176066109935">어느 기기에서나 내 북마크를 사용하려면 동기화를 사용 설정하세요.</translation>
 <translation id="2818669890320396765">어느 기기에서나 내 북마크를 사용하려면 로그인하고 동기화를 사용 설정하세요.</translation>
-<translation id="6003646045106347985">Brave Software에서 추천하는 맞춤 콘텐츠를 보려면 동기화를 사용 설정하세요.</translation>
-<translation id="8494430740943879273">Brave Software에서 추천하는 맞춤 콘텐츠를 보려면 로그인하고 동기화를 사용 설정하세요.</translation>
+<translation id="6003646045106347985">Gab AI Inc에서 추천하는 맞춤 콘텐츠를 보려면 동기화를 사용 설정하세요.</translation>
+<translation id="8494430740943879273">Gab AI Inc에서 추천하는 맞춤 콘텐츠를 보려면 로그인하고 동기화를 사용 설정하세요.</translation>
 <translation id="5862731021271217234">다른 기기에서 탭을 가져오려면 동기화를 사용 설정하세요.</translation>
 <translation id="3568688522516854065">다른 기기에서 탭을 가져오려면 로그인하고 동기화를 사용 설정하세요.</translation>
 <translation id="1208340532756947324">모든 기기에서 동기화 및 맞춤설정하려면 동기화를 사용 설정하세요.</translation>
@@ -774,7 +774,7 @@
 <translation id="5423934151118863508">자주 방문한 페이지가 여기에 표시됩니다.</translation>
 <translation id="6127379762771434464">항목 삭제됨</translation>
 <translation id="4605958867780575332"><ph name="ITEM_TITLE"/> 삭제됨</translation>
-<translation id="1996480094660735607">Brave Software 기념일 로고: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Gab AI Inc 기념일 로고: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">다른 기기</translation>
 <translation id="4738836084190194332">마지막 동기화 시간: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{#분 전}other{#분 전}}</translation>
@@ -805,9 +805,9 @@
 <translation id="1171770572613082465">'인기 사이트' 버튼을 탭하여 인기 웹사이트를 확인하세요.</translation>
 <translation id="5233638681132016545">새 탭</translation>
 <translation id="6336451774241870485">새 비공개 탭</translation>
-<translation id="4521874409998847950">발신자: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>Brave Software 제공<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">발신자: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>Gab AI Inc 제공<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">최신 버전 사용 가능</translation>
-<translation id="4058091506841967397">Brave을 업데이트할 수 없습니다.</translation>
+<translation id="4058091506841967397">Dissenter을 업데이트할 수 없습니다.</translation>
 <translation id="6316139424528454185">지원되지 않는 Android 버전입니다.</translation>
 <translation id="6989267951144302301">다운로드할 수 없음</translation>
 <translation id="624789221780392884">업데이트 준비 완료</translation>
@@ -855,7 +855,7 @@
 <translation id="2536728043171574184">이 페이지의 오프라인 사본 보는 중</translation>
 <translation id="4698034686595694889"><ph name="APP_NAME"/>에서 오프라인으로 보기</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> 및 그 외 사이트</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{준비가 완료되면 Brave에서 페이지를 로드합니다.}other{준비가 완료되면 Brave에서 페이지를 로드합니다.}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{준비가 완료되면 Dissenter에서 페이지를 로드합니다.}other{준비가 완료되면 Dissenter에서 페이지를 로드합니다.}}</translation>
 <translation id="6811034713472274749">페이지를 볼 수 있음</translation>
 <translation id="4561979708150884304">연결되지 않음</translation>
 <translation id="8274165955039650276">다운로드 항목 보기</translation>
@@ -865,16 +865,16 @@
 <translation id="3298243779924642547">라이트</translation>
 <translation id="393697183122708255">사용 가능한 음성 검색이 없습니다.</translation>
 <translation id="7191430249889272776">탭이 백그라운드에 열림</translation>
-<translation id="8445059357334030806">Brave에서 열기</translation>
+<translation id="8445059357334030806">Dissenter에서 열기</translation>
 <translation id="4720023427747327413"><ph name="PRODUCT_NAME"/>에서 열기</translation>
 <translation id="7022756207310403729">브라우저에서 열기</translation>
 <translation id="1113597929977215864">간단히 보기 표시</translation>
 <translation id="1513352483775369820">북마크 및 방문 기록</translation>
-<translation id="4939482511480190003">Brave을 개선하는 데 도움을 주세요. <ph name="BEGIN_LINK"/>설문조사 참여하기<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Dissenter을 개선하는 데 도움을 주세요. <ph name="BEGIN_LINK"/>설문조사 참여하기<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">뒤로 이동</translation>
 <translation id="5596627076506792578">옵션 더보기</translation>
 <translation id="3522247891732774234">업데이트할 수 있습니다. 옵션 더보기</translation>
-<translation id="6773423637732432200">Brave을 업데이트할 수 없습니다. 옵션 더보기</translation>
+<translation id="6773423637732432200">Dissenter을 업데이트할 수 없습니다. 옵션 더보기</translation>
 <translation id="3328801116991980348">사이트 정보</translation>
 <translation id="5391532827096253100">이 사이트와의 연결은 안전하지 않습니다. 사이트 정보</translation>
 <translation id="6206551242102657620">이 사이트와의 연결은 안전합니다. 사이트 정보</translation>
@@ -934,7 +934,7 @@
 <translation id="3211426585530211793"><ph name="ITEM_TITLE"/> 삭제됨</translation>
 <translation id="4663756553811254707">북마크 <ph name="NUMBER_OF_BOOKMARKS"/>개 삭제됨</translation>
 <translation id="3819178904835489326">다운로드 <ph name="NUMBER_OF_DOWNLOADS"/>개 삭제됨</translation>
-<translation id="1248710015876067820">지원되지 않는 Brave 인스턴스 수입니다.</translation>
+<translation id="1248710015876067820">지원되지 않는 Dissenter 인스턴스 수입니다.</translation>
 <translation id="4259722352634471385">탐색이 차단됨: <ph name="URL"/></translation>
 <translation id="8959122750345127698">탐색할 수 없음: <ph name="URL"/></translation>
 <translation id="5210365745912300556">탭 닫기</translation>
@@ -947,20 +947,20 @@
 <translation id="8427875596167638501">미리보기 탭이 절반 높이로 열림</translation>
 <translation id="9102803872260866941">미리보기 탭 열림</translation>
 <translation id="2942036813789421260">미리보기 탭 닫힘</translation>
-<translation id="6355102470683871794">Brave Software <ph name="APP_NAME"/> 저장공간</translation>
+<translation id="6355102470683871794">Gab AI Inc <ph name="APP_NAME"/> 저장공간</translation>
 <translation id="3822502789641063741">사이트 저장공간을 삭제하시겠습니까?</translation>
-<translation id="9205995714227143200">Brave에서 중요하다고 간주하지 않는 사이트 저장공간(예: 저장된 설정이 없거나 사용자가 자주 방문하지 않는 사이트)</translation>
+<translation id="9205995714227143200">Dissenter에서 중요하다고 간주하지 않는 사이트 저장공간(예: 저장된 설정이 없거나 사용자가 자주 방문하지 않는 사이트)</translation>
 <translation id="3997476611815694295">중요하지 않은 저장공간</translation>
 <translation id="8493948351860045254">저장 공간 확보하기</translation>
-<translation id="2324920234469020158">이를 통해 쿠키, 캐시 및 Brave에서 중요하다고 간주하지 않는 사이트의 기타 데이터가 삭제됩니다.</translation>
+<translation id="2324920234469020158">이를 통해 쿠키, 캐시 및 Dissenter에서 중요하다고 간주하지 않는 사이트의 기타 데이터가 삭제됩니다.</translation>
 <translation id="5447201525962359567">쿠키 및 기타 로컬에 저장된 데이터 등 모든 사이트 저장공간</translation>
 <translation id="1376578503827013741">계산 중...</translation>
 <translation id="583281660410589416">알 수 없음</translation>
 <translation id="2323763861024343754">사이트 저장공간</translation>
-<translation id="3587672679800759167">계정, 북마크, 저장된 설정 등 Brave에서 사용한 전체 데이터</translation>
+<translation id="3587672679800759167">계정, 북마크, 저장된 설정 등 Dissenter에서 사용한 전체 데이터</translation>
 <translation id="6545017243486555795">모든 데이터 삭제</translation>
 <translation id="4095146165863963773">앱 데이터를 삭제하시겠습니까?</translation>
-<translation id="53119194224775367">모든 파일, 설정, 계정, 데이터베이스 등을 포함한 Brave의 모든 앱 데이터가 완전히 삭제됩니다.</translation>
+<translation id="53119194224775367">모든 파일, 설정, 계정, 데이터베이스 등을 포함한 Dissenter의 모든 앱 데이터가 완전히 삭제됩니다.</translation>
 <translation id="5307446750509046227">사이트 저장용량 삭제</translation>
 <translation id="300526633675317032">웹사이트 저장공간 <ph name="SIZE_IN_KB"/>가 모두 삭제됩니다.</translation>
 <translation id="8068648041423924542">인증서를 선택할 수 없습니다.</translation>
@@ -982,15 +982,15 @@
 <translation id="1779089405699405702">이미지 디코더</translation>
 <translation id="8067883171444229417">동영상 재생</translation>
 <translation id="6560414384669816528">Sogou로 검색</translation>
-<translation id="5406914950576900927">중국에서 검색할 때 Brave에서 <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>를 사용할 수 있습니다. <ph name="BEGIN_LINK"/>설정<ph name="END_LINK"/>에서 변경할 수 있습니다.</translation>
-<translation id="6456271171669383967">계속 Brave Software 사용</translation>
+<translation id="5406914950576900927">중국에서 검색할 때 Dissenter에서 <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>를 사용할 수 있습니다. <ph name="BEGIN_LINK"/>설정<ph name="END_LINK"/>에서 변경할 수 있습니다.</translation>
+<translation id="6456271171669383967">계속 Gab AI Inc 사용</translation>
 <translation id="4384468725000734951">검색할 때 Sogou 사용</translation>
-<translation id="6103327872225198548">검색할 때 Brave Software 사용</translation>
+<translation id="6103327872225198548">검색할 때 Gab AI Inc 사용</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/>(<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">이 앱은 Brave에서 실행 중입니다.</translation>
-<translation id="6143689084714664628">Brave에서 실행 중</translation>
-<translation id="7675869148432102528"><ph name="APP_NAME"/>도 Brave에서 데이터를 보유하고 있습니다</translation>
-<translation id="2734140769649165081">Brave 설정에서 데이터를 삭제할 수 있습니다.</translation>
+<translation id="919933208285147476">이 앱은 Dissenter에서 실행 중입니다.</translation>
+<translation id="6143689084714664628">Dissenter에서 실행 중</translation>
+<translation id="7675869148432102528"><ph name="APP_NAME"/>도 Dissenter에서 데이터를 보유하고 있습니다</translation>
+<translation id="2734140769649165081">Dissenter 설정에서 데이터를 삭제할 수 있습니다.</translation>
 <translation id="8232956427053453090">데이터 보관</translation>
 <translation id="4298388696830689168">연결된 사이트</translation>
 <translation id="5763514718066511291">탭하여 이 앱의 URL 복사하기</translation>
@@ -1015,13 +1015,13 @@
 <translation id="8015452622527143194">페이지의 모든 항목을 기본 크기로 되돌리기</translation>
 <translation id="3443221991560634068">현재 페이지 새로고침</translation>
 <translation id="123724288017357924">캐시된 콘텐츠를 무시하고 현재 페이지 새로고침</translation>
-<translation id="305870044889644984">새 탭에서 Brave 고객센터 열기</translation>
+<translation id="305870044889644984">새 탭에서 Dissenter 고객센터 열기</translation>
 <translation id="3166827708714933426">탭 및 창 단축키</translation>
-<translation id="3169981355900570544">Brave 기능 단축키</translation>
+<translation id="3169981355900570544">Dissenter 기능 단축키</translation>
 <translation id="4558311620361989323">웹페이지 단축키</translation>
-<translation id="1908301351964700579">Brave에서 아직 VR을 준비하고 있습니다. 나중에 Brave을 다시 시작하세요.</translation>
+<translation id="1908301351964700579">Dissenter에서 아직 VR을 준비하고 있습니다. 나중에 Dissenter을 다시 시작하세요.</translation>
 <translation id="8970887620466824814">문제 발생</translation>
-<translation id="1875543012935658554">Brave을 다시 여세요.</translation>
+<translation id="1875543012935658554">Dissenter을 다시 여세요.</translation>
 <translation id="79859296434321399">증강 현실 콘텐츠를 보려면 ARCore를 설치하세요.</translation>
 <translation id="8558485628462305855">증강 현실 콘텐츠를 보려면 ARCore를 업데이트하세요.</translation>
 <translation id="3513704683820682405">증강 현실</translation>
@@ -1033,9 +1033,9 @@
 사이트에서 카메라 액세스 권한을 요구하지 않습니다. 카메라 이미지는 나에게만 표시됩니다.</translation>
 <translation id="1188239144602654184">AR 입력</translation>
 <translation id="473775607612524610">업데이트</translation>
-<translation id="3133489217401741157">Brave에 <ph name="MODULE"/>을(를) 설치하고 있습니다…</translation>
+<translation id="3133489217401741157">Dissenter에 <ph name="MODULE"/>을(를) 설치하고 있습니다…</translation>
 <translation id="1791662854739702043">설치됨</translation>
-<translation id="5131234170665854056">Brave에 <ph name="MODULE"/>을(를) 설치할 수 없습니다.</translation>
+<translation id="5131234170665854056">Dissenter에 <ph name="MODULE"/>을(를) 설치할 수 없습니다.</translation>
 <translation id="2567385386134582609">이미지</translation>
 <translation id="6395288395575013217">링크</translation>
 <translation id="7352939065658542140">동영상</translation>
@@ -1046,16 +1046,16 @@
 <translation id="3341058695485821946">저장한 데이터의 양을 확인해보세요.</translation>
 <translation id="3157842584138209013">추가 옵션 버튼에서 저장한 데이터의 양을 확인해보세요.</translation>
 <translation id="8218622182176210845">계정 관리</translation>
-<translation id="8090895580117672212">Brave Software 계정을 관리하려면 '계정 관리' 버튼을 탭하세요.</translation>
-<translation id="8856898588039823173">Brave Software에서 제공하는 라이트 페이지입니다. 원본 페이지를 로드하려면 탭하세요.</translation>
-<translation id="8134317863207426198">Brave Software에서 제공하는 라이트 페이지입니다. 원본 페이지를 로드하려면 원본 로드 버튼을 탭하세요.</translation>
+<translation id="8090895580117672212">Gab AI Inc 계정을 관리하려면 '계정 관리' 버튼을 탭하세요.</translation>
+<translation id="8856898588039823173">Gab AI Inc에서 제공하는 라이트 페이지입니다. 원본 페이지를 로드하려면 탭하세요.</translation>
+<translation id="8134317863207426198">Gab AI Inc에서 제공하는 라이트 페이지입니다. 원본 페이지를 로드하려면 원본 로드 버튼을 탭하세요.</translation>
 <translation id="4961107849584082341">이 페이지를 원하는 언어로 번역하세요.</translation>
 <translation id="569536719314091526">옵션 더보기 버튼을 눌러 이 페이지를 원하는 언어로 번역하세요</translation>
 <translation id="1397811292916898096"><ph name="PRODUCT_NAME"/>에서 검색</translation>
 <translation id="1792959175193046959">언제든지 기본 다운로드 위치 변경 가능</translation>
 <translation id="6942665639005891494">언제든지 설정 메뉴 옵션으로 기본 다운로드 위치 변경 가능</translation>
 <translation id="6850409657436465440">아직 다운로드 중</translation>
-<translation id="5817715962196959877">이제 Brave에서 파일을 더 빠르게 다운로드합니다.</translation>
+<translation id="5817715962196959877">이제 Dissenter에서 파일을 더 빠르게 다운로드합니다.</translation>
 <translation id="3976396876660209797">이 바로가기 삭제하고 다시 만들기</translation>
 <translation id="6766622839693428701">닫으려면 아래로 스와이프하세요.</translation>
 <translation id="1028699632127661925"><ph name="DEVICE_NAME"/>에 보내는 중...</translation>
@@ -1071,15 +1071,15 @@
 <translation id="1521774566618522728">오늘 사용</translation>
 <translation id="3631987586758005671"><ph name="DEVICE_NAME"/>에 공유하는 중</translation>
 <translation id="9028914725102941583">동기화를 사용 설정하여 기기간 공유하기</translation>
-<translation id="6162454065885854378">스마트폰에서 다른 기기로 콘텐츠를 공유하려면 두 기기의 Brave 설정에서 동기화를 사용 설정하세요.</translation>
-<translation id="6084271560289605378">Brave 설정으로 이동</translation>
+<translation id="6162454065885854378">스마트폰에서 다른 기기로 콘텐츠를 공유하려면 두 기기의 Dissenter 설정에서 동기화를 사용 설정하세요.</translation>
+<translation id="6084271560289605378">Dissenter 설정으로 이동</translation>
 <translation id="2318045970523081853">탭하여 전화 걸기</translation>
 <translation id="9209888181064652401">전화를 걸 수 없음</translation>
 <translation id="2860954141821109167">이 기기에서 전화 앱이 사용 설정되어 있는지 확인하세요.</translation>
 <translation id="2067805253194386918">텍스트</translation>
 <translation id="1450753235335490080"><ph name="CONTENT_TYPE"/> 공유할 수 없음</translation>
 <translation id="1266864766717917324"><ph name="CONTENT_TYPE"/> 공유할 수 없음</translation>
-<translation id="8287068819750208230"><ph name="TARGET_DEVICE_NAME"/>에서 Brave 동기화가 사용 설정되어 있는지 확인하세요.</translation>
+<translation id="8287068819750208230"><ph name="TARGET_DEVICE_NAME"/>에서 Dissenter 동기화가 사용 설정되어 있는지 확인하세요.</translation>
 <translation id="3016635187733453316">이 기기가 인터넷에 연결되어 있는지 확인하세요.</translation>
 <translation id="8466613982764129868"><ph name="TARGET_DEVICE_NAME"/>이(가) 인터넷에 연결되어 있는지 확인하세요.</translation>
 <translation id="6539092367496845964">문제가 발생했습니다. 나중에 다시 시도해 보세요.</translation>
@@ -1101,16 +1101,16 @@
 <translation id="7055152154916055070">다음 주소로의 리디렉션이 차단됨:</translation>
 <translation id="5524843473235508879">리디렉션이 차단되었습니다.</translation>
 <translation id="6573096386450695060">항상 허용</translation>
-<translation id="5805364706385912897">페이지에서 너무 많은 메모리를 사용하므로 Brave에서 페이지를 일시중지했습니다.</translation>
-<translation id="5138664332909611586">페이지에서 너무 많은 메모리를 사용하므로 Brave에서 일부 콘텐츠를 삭제했습니다.</translation>
+<translation id="5805364706385912897">페이지에서 너무 많은 메모리를 사용하므로 Dissenter에서 페이지를 일시중지했습니다.</translation>
+<translation id="5138664332909611586">페이지에서 너무 많은 메모리를 사용하므로 Dissenter에서 일부 콘텐츠를 삭제했습니다.</translation>
 <translation id="9137013805542155359">원본 보기</translation>
-<translation id="6361779936989026201">Brave의 Brave Software 어시스턴트</translation>
+<translation id="6361779936989026201">Dissenter의 Gab AI Inc 어시스턴트</translation>
 <translation id="7291387454912369099">어시스턴트 트리거 확인</translation>
-<translation id="4565206163201411670">디지털 웰빙에서 Brave 활동을 표시할까요?</translation>
-<translation id="9055113864158719823">Brave에서 내가 방문한 사이트를 보고 사이트에 타이머를 설정할 수 있습니다.\n\nBrave Software에서는 타이머가 설정된 사이트와 사이트 방문 시간 정보를 수집합니다. 이 정보는 디지털 웰빙을 개선하는 데 사용됩니다.</translation>
-<translation id="4596514158372210596">디지털 웰빙에서 Brave 활동 삭제</translation>
-<translation id="1174893863889683998">디지털 웰빙에서 Brave 활동을 삭제할까요?</translation>
-<translation id="708829030563435351">Brave에서 방문한 사이트가 표시되지 않습니다. 모든 사이트 타이머가 삭제됩니다.</translation>
+<translation id="4565206163201411670">디지털 웰빙에서 Dissenter 활동을 표시할까요?</translation>
+<translation id="9055113864158719823">Dissenter에서 내가 방문한 사이트를 보고 사이트에 타이머를 설정할 수 있습니다.\n\nGab AI Inc에서는 타이머가 설정된 사이트와 사이트 방문 시간 정보를 수집합니다. 이 정보는 디지털 웰빙을 개선하는 데 사용됩니다.</translation>
+<translation id="4596514158372210596">디지털 웰빙에서 Dissenter 활동 삭제</translation>
+<translation id="1174893863889683998">디지털 웰빙에서 Dissenter 활동을 삭제할까요?</translation>
+<translation id="708829030563435351">Dissenter에서 방문한 사이트가 표시되지 않습니다. 모든 사이트 타이머가 삭제됩니다.</translation>
 <translation id="2056878612599315956">사이트 일시중지됨</translation>
 <translation id="671481426037969117"><ph name="FQDN"/> 타이머가 종료되었습니다. 타이머는 내일 다시 시작됩니다.</translation>
 <translation id="7479104141328977413">탭 관리</translation>
@@ -1121,7 +1121,7 @@
 <translation id="246532703174860178">공유</translation>
 <translation id="2517472476991765520">검색</translation>
 <translation id="8628973420740315031">근처에 있는 사람과 공유하려면 상대방이 QR 코드를 스캔하도록 하세요.</translation>
-<translation id="7339921667754113786">Brave Software 알림 플랫폼</translation>
+<translation id="7339921667754113786">Gab AI Inc 알림 플랫폼</translation>
 <translation id="8516012719330875537">이미지 편집기</translation>
 <translation id="4808319664292298116"><ph name="DOMAIN"/>에서 VR을 시작하시겠습니까?</translation>
 <translation id="4353114845960720315">VR 사용 중 이 사이트가 다음 정보를 학습할 수 있습니다.</translation>

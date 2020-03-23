@@ -27,7 +27,7 @@
     Version <ph name="PRODUCT_VERSION">$1<ex>15.0.865.0</ex></ph> (<ph name="PRODUCT_CHANNEL">$2<ex>Developer Build</ex></ph>) <ph name="PRODUCT_MODIFIER">$3</ph> <ph name="PRODUCT_VERSION_BITS">$4</ph>
   </message>
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_ABOUT_PAGE_DETAILED_BUILD_INFO" desc="Label describing the section that shows detailed information about the current Brave build.">
+    <message name="IDS_SETTINGS_ABOUT_PAGE_DETAILED_BUILD_INFO" desc="Label describing the section that shows detailed information about the current Dissenter build.">
       Additional details
     </message>
     <message name="IDS_SETTINGS_ABOUT_PAGE_CHANNEL" desc="The channel label under Detailed build info.">
@@ -67,31 +67,31 @@
       Powerwash for added security
     </message>
     <message name="IDS_SETTINGS_ABOUT_TPM_FIRMWARE_UPDATE_DESCRIPTION" desc="Descriptive text shown alongside the line item on the about page that allows the user to trigger a device hardware reset and request installation of a TPM firmware update.">
-      This upgrade resets your Bravebook and removes current user data.
+      This upgrade resets your Dissenterbook and removes current user data.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating BraveOS or BraveOS">
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING" desc="Status label: Updating DissenterOS or DissenterOS">
       Updating your device
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating BraveOS or BraveOS (90%)">
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING_PERCENT" desc="Status label: Updating DissenterOS or DissenterOS (90%)">
       Updating your device (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated BraveOS/BraveOS">
+    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated DissenterOS/DissenterOS">
       Nearly up to date! Restart your device to finish updating.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UPDATING_CHANNEL_SWITCH" desc="Status label: Updating BraveOS/BraveOS to a specified channel">
+    <message name="IDS_SETTINGS_UPGRADE_UPDATING_CHANNEL_SWITCH" desc="Status label: Updating DissenterOS/DissenterOS to a specified channel">
       Updating your device to <ph name="CHANNEL_NAME">$1<ex>stable</ex></ph> channel (<ph name="PROGRESS_PERCENT">$2<ex>90%</ex></ph>)
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_CHANNEL_SWITCH" desc="Status label: Channel was successfully switched on BraveOS/BraveOS">
+    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_CHANNEL_SWITCH" desc="Status label: Channel was successfully switched on DissenterOS/DissenterOS">
       Channel changed. Restart your device to apply changes.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_ROLLBACK_IN_PROGRESS" desc="Status label: Rolling back BraveOS or Chrome OS.">
+    <message name="IDS_SETTINGS_UPGRADE_ROLLBACK_IN_PROGRESS" desc="Status label: Rolling back DissenterOS or Chrome OS.">
       Your administrator is rolling back this device (<ph name="PROGRESS_PERCENT">$1<ex>90%</ex></ph>)
     </message>
     <message name="IDS_SETTINGS_UPGRADE_ROLLBACK_SUCCESS" desc="Status label: Successfully rolled back Chrome OS. All data on the device will be deleted during the next reboot.">
       Your administrator rolled back this device. Please save important files, then restart. All data on the device will be deleted.
     </message>
-    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (BraveOS/BraveOS)">
-      Your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> is up to date
+    <message name="IDS_SETTINGS_UPGRADE_UP_TO_DATE" desc="Status label: Already up to date (DissenterOS/DissenterOS)">
+      Your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> is up to date
     </message>
 
     <!-- About Page: Channel switcher dialog -->
@@ -143,7 +143,7 @@
     </message>
   </if>
   <if expr="_google_chrome">
-    <message name="IDS_SETTINGS_ABOUT_PAGE_REPORT_AN_ISSUE" desc="Text of the button which allows the user to report an issue with Brave.">
+    <message name="IDS_SETTINGS_ABOUT_PAGE_REPORT_AN_ISSUE" desc="Text of the button which allows the user to report an issue with Dissenter.">
       Report an issue
     </message>
   </if>
@@ -157,8 +157,8 @@
     Checking for updates
   </message>
   <if expr="is_macosx">
-    <message name="IDS_ABOUT_CHROME_AUTOUPDATE_ALL" desc="The 'Automatically update Brave for all users.' button in the About window.  Mac-only.">
-      Automatically update Brave for all users
+    <message name="IDS_ABOUT_CHROME_AUTOUPDATE_ALL" desc="The 'Automatically update Dissenter for all users.' button in the About window.  Mac-only.">
+      Automatically update Dissenter for all users
     </message>
     <message name="IDS_ABOUT_CHROME_AUTOUPDATE_ALL_IS_ON" desc="The text in About Page to indicate automatic update is turned on.  Mac-only.">
       Automatic updates are turned on
@@ -260,10 +260,10 @@
     Enable accessibility features
   </message>
   <message name="IDS_SETTINGS_ACCESSIBLE_IMAGE_LABELS_TITLE" desc="Description for screen reader image labels feature.">
-    Get image descriptions from Brave
+    Get image descriptions from Dissenter
   </message>
   <message name="IDS_SETTINGS_ACCESSIBLE_IMAGE_LABELS_SUBTITLE" desc="Subtitle for screen reader image labels feature.">
-    If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave.
+    If an image doesn’t have a useful description, Dissenter will try to provide one for you. To create descriptions, images are sent to Dissenter.
   </message>
   <if expr="chromeos">
     <message name="IDS_SETTINGS_OPTIONS_IN_MENU_LABEL" desc="Label for checkbox which enables showing accessibility options in the system menu.">
@@ -332,11 +332,11 @@
     <message name="IDS_SETTINGS_STICKY_KEYS_LABEL" desc="Label for checkbox which enables sticky keys, with an explanation of the term 'sticky keys'.">
       Enable sticky keys (to perform keyboard shortcuts by typing them sequentially)
     </message>
-    <message name="IDS_SETTINGS_CHROMEVOX_LABEL" desc="Label for checkbox which enables BraveVox, with a description of what BraveVox is.">
-      Enable BraveVox (spoken feedback)
+    <message name="IDS_SETTINGS_CHROMEVOX_LABEL" desc="Label for checkbox which enables DissenterVox, with a description of what DissenterVox is.">
+      Enable DissenterVox (spoken feedback)
     </message>
-    <message name="IDS_SETTINGS_CHROMEVOX_OPTIONS_LABEL" desc="Label for button to open BraveVox options.">
-      Open BraveVox settings
+    <message name="IDS_SETTINGS_CHROMEVOX_OPTIONS_LABEL" desc="Label for button to open DissenterVox options.">
+      Open DissenterVox settings
     </message>
     <message name="IDS_SETTINGS_SCREEN_MAGNIFIER_LABEL" desc="Label for checkbox which enables the fullscreen magnifier">
       Enable fullscreen magnifier
@@ -431,8 +431,8 @@
     <message name="IDS_SETTINGS_ON_SCREEN_KEYBOARD_LABEL" desc="Label for checkbox which enables an on-screen keyboard.">
       Enable on-screen keyboard
     </message>
-    <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_DESCRIPTION" desc="Description explaining that Dictation sends audio data to Brave for transcription">
-      Send your voice to Brave to allow dictation into any text field.
+    <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_DESCRIPTION" desc="Description explaining that Dictation sends audio data to Dissenter for transcription">
+      Send your voice to Dissenter to allow dictation into any text field.
     </message>
     <message name="IDS_SETTINGS_ACCESSIBILITY_DICTATION_LABEL" desc="Label for checkbox which enables the ability to speak into text fields">
       Enable dictation (speak to type)
@@ -595,10 +595,10 @@
       Linux
     </message>
     <message name="IDS_SETTINGS_CROSTINI_SUBTEXT" desc="Description for the section for enabling and managing Crostini.">
-      Run Linux tools, editors, and IDEs on your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>. &lt;a target="_blank" href="<ph name="URL">$2<ex>https://google.com/</ex></ph>"&gt;Learn more&lt;/a&gt;
+      Run Linux tools, editors, and IDEs on your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>. &lt;a target="_blank" href="<ph name="URL">$2<ex>https://google.com/</ex></ph>"&gt;Learn more&lt;/a&gt;
     </message>
     <message name="IDS_SETTINGS_CROSTINI_REMOVE" desc="Label for the row to open a dialog confirming removal of Crostini.">
-      Remove Linux for <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>
+      Remove Linux for <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>
     </message>
     <message name="IDS_SETTINGS_CROSTINI_REMOVE_BUTTON" desc="Label for the button to open a dialog confirming removal of Crostini.">
       Remove
@@ -658,13 +658,13 @@
       Develop Android apps
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_DESCRIPTION" desc="Description of ARC ADB sideloading in Settings.">
-      To create and test your apps, enable the Android Debug Bridge (ADB). Note that this action allows installation of Android apps that haven't been verified by Brave, and requires a factory reset to disable.
+      To create and test your apps, enable the Android Debug Bridge (ADB). Note that this action allows installation of Android apps that haven't been verified by Dissenter, and requires a factory reset to disable.
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_LABEL" desc="Label for enabling ADB in ARC.">
       Enable ADB debugging
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_POWERWASH_REQUIRED_SUBLABEL" desc="Sublabel notifying user of powerwash requirement before enabling ARC ADB sideloading.">
-            A factory reset of this Bravebook is required to enable ADB debugging. <ph name="BEGIN_LINK_LEARN_MORE">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK_LEARN_MORE">&lt;/a&gt;</ph>
+            A factory reset of this Dissenterbook is required to enable ADB debugging. <ph name="BEGIN_LINK_LEARN_MORE">&lt;a target="_blank" href="$1"&gt;</ph>Learn more<ph name="END_LINK_LEARN_MORE">&lt;/a&gt;</ph>
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_CONFIRMATION_TITLE_ENABLE" desc="Confirmation dialog title to restart for enabling ADB.">
       Enable ADB debugging?
@@ -673,10 +673,10 @@
       Disable ADB debugging?
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_CONFIRMATION_MESSAGE_ENABLE" desc="Describes what will happen if the user enables ADB Sideloading.">
-      To enable ADB debugging, a restart of this <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> is required. Disabling it requires a reset to factory settings.
+      To enable ADB debugging, a restart of this <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> is required. Disabling it requires a reset to factory settings.
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_CONFIRMATION_MESSAGE_DISABLE" desc="Describes what will happen if the user disables ADB Sideloading.">
-      Disabling ADB debugging will reset this <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> to factory settings. All user accounts and local data will be erased.
+      Disabling ADB debugging will reset this <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> to factory settings. All user accounts and local data will be erased.
     </message>
     <message name="IDS_SETTINGS_CROSTINI_ARC_ADB_RESTART_BUTTON" desc="Label for the button that initiates the ADB enabling flow by restarting the device.">
       Restart and continue
@@ -722,7 +722,7 @@
       Google Play Store
     </message>
     <message name="IDS_SETTINGS_ANDROID_APPS_SUBTEXT" desc="Description for the section for enabling and managing Google Play Store (Android) apps.">
-      Install apps and games from Google Play on your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>. &lt;a target="_blank" href="<ph name="URL">$2<ex>https://google.com/</ex></ph>"&gt;Learn more&lt;/a&gt;
+      Install apps and games from Google Play on your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>. &lt;a target="_blank" href="<ph name="URL">$2<ex>https://google.com/</ex></ph>"&gt;Learn more&lt;/a&gt;
     </message>
     <message name="IDS_SETTINGS_ANDROID_APPS_MANAGE_APPS" desc="Label for launching Android apps settings.">
       Manage Android preferences
@@ -737,10 +737,10 @@
     <message name="IDS_SETTINGS_ANDROID_APPS_DISABLE_DIALOG_TITLE" desc="Title of the confirmation dialog for disabling android apps.">
       Remove Android apps?
     </message>
-    <!-- TODO(jamescook): Use device type instead of "Bravebook", which may
+    <!-- TODO(jamescook): Use device type instead of "Dissenterbook", which may
          require changing ArcPlayTermsOfServiceConsent resource id handling. -->
     <message name="IDS_SETTINGS_ANDROID_APPS_DISABLE_DIALOG_MESSAGE" desc="Describes what will happen if the user opts out of android apps.">
-      Apps you’ve downloaded from Google Play will be deleted from this Bravebook.
+      Apps you’ve downloaded from Google Play will be deleted from this Dissenterbook.
       <ph name="LINE_BREAKS1">&lt;br&gt;&lt;br&gt;</ph>
       Content you’ve purchased such as movies, TV shows, music, books, or other in-app purchases may also be deleted.
       <ph name="LINE_BREAKS2">&lt;br&gt;&lt;br&gt;</ph>
@@ -804,8 +804,8 @@
       Reset to default
     </message>
   </if>
-  <message name="IDS_SETTINGS_CHROME_COLORS" desc="Text of the label describing 'Brave Colors' theme.">
-    Brave Colors
+  <message name="IDS_SETTINGS_CHROME_COLORS" desc="Text of the label describing 'Dissenter Colors' theme.">
+    Dissenter Colors
   </message>
   <message name="IDS_SETTINGS_SHOW_HOME_BUTTON" desc="Label for the checkbox which enables or disables showing the home button in the toolbar.">
     Show home button
@@ -826,7 +826,7 @@
     <message name="IDS_SETTINGS_TABS_TO_LINKS_PREF" desc="The documentation string of the 'Tabs to Links' preference">
       Pressing Tab on a webpage highlights links, as well as form fields
     </message>
-    <message name="IDS_SETTINGS_WARN_BEFORE_QUITTING_PREF" desc="The documentation string of the 'Warn Before Quitting' preference which is also available in the Brave app menu.">
+    <message name="IDS_SETTINGS_WARN_BEFORE_QUITTING_PREF" desc="The documentation string of the 'Warn Before Quitting' preference which is also available in the Dissenter app menu.">
       Show warning before quitting with ⌘Q
     </message>
   </if>
@@ -848,19 +848,19 @@
     Search settings
   </message>
   <message name="IDS_SETTINGS_SEARCH_NO_RESULTS_HELP" desc="Help text for a search that has no results.">
-    Go to <ph name="BEGIN_LINK_CHROMIUM">&lt;a target="_blank" href="$1"&gt;</ph>Brave help<ph name="END_LINK_CHROMIUM">&lt;/a&gt;</ph> if you can't find what you're looking for
+    Go to <ph name="BEGIN_LINK_CHROMIUM">&lt;a target="_blank" href="$1"&gt;</ph>Dissenter help<ph name="END_LINK_CHROMIUM">&lt;/a&gt;</ph> if you can't find what you're looking for
   </message>
   <message name="IDS_SETTINGS_SETTINGS" desc="The settings page title.">
     Settings
   </message>
   <message name="IDS_SETTINGS_ALT_PAGE_TITLE" desc="The settings page title for the about page.">
-    Settings - <ph name="SECTION_TITLE">$1<ex>About Brave</ex></ph>
+    Settings - <ph name="SECTION_TITLE">$1<ex>About Dissenter</ex></ph>
   </message>
   <message name="IDS_SETTINGS_SUBPAGE_BUTTON" desc="Accessibility description for a button navigating the user from a settings page to one of the settings subpages.">
     Subpage button
   </message>
   <if expr="not chromeos">
-    <message name="IDS_SETTINGS_RESTART" desc="Text for a button that will restart Brave.">
+    <message name="IDS_SETTINGS_RESTART" desc="Text for a button that will restart Dissenter.">
       Relaunch
     </message>
   </if>
@@ -871,7 +871,7 @@
     <message name="IDS_SETTINGS_DEVICE_ON" desc="In Settings pages, the label when a bluetooth, wifi, or mobile device is on (enabled).">
       On
     </message>
-    <message name="IDS_SETTINGS_RESTART" desc="Text for a button that will restart BraveOS.">
+    <message name="IDS_SETTINGS_RESTART" desc="Text for a button that will restart DissenterOS.">
       Restart
     </message>
   </if>
@@ -913,8 +913,8 @@
   <message name="IDS_SETTINGS_AUTOFILL" desc="Name of the settings page which allows managing passwords, payment methods and addresses settings.">
     Autofill
   </message>
-  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS" desc="Label used to differentiate when an address or credit card entry comes from Brave Pay. This should follow the casing of the 'Brave Pay' brand. 'Brave Pay' should not be translated as it is the product name.">
-    Brave Pay
+  <message name="IDS_SETTINGS_GOOGLE_PAYMENTS" desc="Label used to differentiate when an address or credit card entry comes from Dissenter Pay. This should follow the casing of the 'Dissenter Pay' brand. 'Dissenter Pay' should not be translated as it is the product name.">
+    Dissenter Pay
   </message>
   <message name="IDS_SETTINGS_AUTOFILL_ADDRESSES_ADD_TITLE" desc="This is the title for the 'Add address' dialog. This dialog allows a user to create a new address.">
     Add address
@@ -943,14 +943,14 @@
   <message name="IDS_SETTINGS_CREDIT_CARD_REMOVE" desc="Label for a context menu item that removes the selected credit card." meaning="Remove selected credit card.">
     Remove
   </message>
-  <message name="IDS_SETTINGS_CREDIT_CARD_CLEAR" desc="Label for a context menu item clears the locally cached credit card that is also saved on Brave Payments. Clicking this will NOT remove the credit card from Brave Payments.">
+  <message name="IDS_SETTINGS_CREDIT_CARD_CLEAR" desc="Label for a context menu item clears the locally cached credit card that is also saved on Dissenter Payments. Clicking this will NOT remove the credit card from Dissenter Payments.">
     Clear copy
   </message>
   <message name="IDS_SETTINGS_EDIT_CREDIT_CARD_TITLE" desc="The title for the dialog that's shown when editing a card. This can be either credit, debit, or prepaid card..">
     Edit card
   </message>
   <message name="IDS_SETTINGS_PAYMENTS_MANAGE_CREDIT_CARDS" desc="Shown in the payments section of settings. Descriptive text to inform the user that credit cards can be accessed online. Has a link.">
-   To add or manage Brave Pay payment methods, visit your <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>Brave Account<ph name="END_LINK">&lt;/a&gt;</ph>
+   To add or manage Dissenter Pay payment methods, visit your <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;</ph>Dissenter Account<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
     <message name="IDS_SETTINGS_PAYMENTS_SAVED_TO_THIS_DEVICE_ONLY" desc="Shown in the payments section of settings. Descriptive text to inform the user that this credit card will be saved to local device only.">
    This card will be saved to this device only
@@ -958,13 +958,13 @@
   <message name="IDS_SETTINGS_ADD_CREDIT_CARD_TITLE" desc="The title for the dialog that's shown when entering the information for a new card. This can be either credit, debit, or prepaid card.">
     Add card
   </message>
-  <message name="IDS_SETTINGS_MIGRATABLE_CARDS_LABEL" desc="Label for the field to migrate the locally cached credit card to Brave Payments. Clicking this will upload migratable credit cards to Brave Payments.">
-    Save cards in your Brave Account
+  <message name="IDS_SETTINGS_MIGRATABLE_CARDS_LABEL" desc="Label for the field to migrate the locally cached credit card to Dissenter Payments. Clicking this will upload migratable credit cards to Dissenter Payments.">
+    Save cards in your Dissenter Account
   </message>
-  <message name="IDS_SETTINGS_SINGLE_MIGRATABLE_CARD_INFO" desc="Display text under the save cards to Brave Pay label. This text indicates one of local cards can only be used on this device.">
+  <message name="IDS_SETTINGS_SINGLE_MIGRATABLE_CARD_INFO" desc="Display text under the save cards to Dissenter Pay label. This text indicates one of local cards can only be used on this device.">
     Right now, you have one card that can only be used on this device
   </message>
-  <message name="IDS_SETTINGS_MULTIPLE_MIGRATABLE_CARDS_INFO" desc="Display text under the save cards to Brave Pay label. This text indicates user has multiple migratable cards on this device.">
+  <message name="IDS_SETTINGS_MULTIPLE_MIGRATABLE_CARDS_INFO" desc="Display text under the save cards to Dissenter Pay label. This text indicates user has multiple migratable cards on this device.">
     Right now, you have some cards that can only be used on this device
   </message>
   <message name="IDS_SETTINGS_NAME_ON_CREDIT_CARD" desc="The title for the input that lets users modify the name on the credit card.">
@@ -1001,7 +1001,7 @@
     Warn you if passwords are exposed in a data breach
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_LEAK_DETECTION_SIGNED_OUT_ENABLED_DESC" desc="Text that describes the 'Password Leak Detection' functionality to signed-out users who have not disabled the feature.">
-    When you sign in to your Brave Account, this feature is turned on
+    When you sign in to your Dissenter Account, this feature is turned on
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_SAVED_HEADING" desc="The title for a list of username/site/password items. These items are already saved by the browser and can be deleted/edited.">
     Saved Passwords
@@ -1058,24 +1058,24 @@
     Password deleted
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_MANAGE_PASSWORDS" desc="Shown in the passwords section of settings. Descriptive text to inform that passwords can be accessed online. Has a link.">
-    View and manage saved passwords in your <ph name="BEGIN_LINK">&lt;a is="action-link" href="$1" target="_blank"&gt;</ph>Brave Account<ph name="END_LINK">&lt;/a&gt;</ph>
+    View and manage saved passwords in your <ph name="BEGIN_LINK">&lt;a is="action-link" href="$1" target="_blank"&gt;</ph>Dissenter Account<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_MENU_ITEM" desc="A menu item in the More Actions menu above the password list in Brave's settings. Selecting this action will open a dialog, through which the user can export their passwords outside of Brave.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_MENU_ITEM" desc="A menu item in the More Actions menu above the password list in Dissenter's settings. Selecting this action will open a dialog, through which the user can export their passwords outside of Dissenter.">
     Export passwords...
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_TITLE" desc="The title of a dialog, which offers to the user the ability to export passwords they've saved with Brave.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_TITLE" desc="The title of a dialog, which offers to the user the ability to export passwords they've saved with Dissenter.">
     Export passwords
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_EXPORT_DESCRIPTION" desc="Text shown to the user on the dialog for exporting passwords, before any passwords have been exported.">
     Your passwords will be visible to anyone who can see the exported file.
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORT" desc="A button in the dialog for exporting passwords from Brave. A password list will be written to a destination, which the user will be asked to choose after initiating this action.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORT" desc="A button in the dialog for exporting passwords from Dissenter. A password list will be written to a destination, which the user will be asked to choose after initiating this action.">
     Export passwords...
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_TRY_AGAIN" desc="A button in the dialog for exporting passwords from Brave. The action is to attempt to export the passwords again. A password list will be written to a destination, which the user will be asked to choose after initiating this action.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORT_TRY_AGAIN" desc="A button in the dialog for exporting passwords from Dissenter. The action is to attempt to export the passwords again. A password list will be written to a destination, which the user will be asked to choose after initiating this action.">
     Try again
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_TITLE" desc="The title of a dialog for exporting passwords. This title is shown while Brave is performing the export and the user should wait.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_TITLE" desc="The title of a dialog for exporting passwords. This title is shown while Dissenter is performing the export and the user should wait.">
     Exporting passwords...
   </message>
   <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_FAILURE_TITLE" desc="The title to a dialog, which is shown if exporting passwords to a folder has failed.">
@@ -1087,7 +1087,7 @@
   <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_FAILURE_TIP_ENOUGH_SPACE" desc="Message that is shown when exporting passwords has failed. This is part of a list of things the user can try to resolve the problem. This advice implies that there isn't enough space on the disk for the new file to be written.">
     Make sure there is enough space on your device
   </message>
-  <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_FAILURE_TIP_ANOTHER_FOLDER" desc="Message that is shown when exporting passwords has failed. This is part of a list of things the user can try to resolve the problem. This advice implies that Brave couldn't write into the specified folder.">
+  <message name="IDS_SETTINGS_PASSWORDS_EXPORTING_FAILURE_TIP_ANOTHER_FOLDER" desc="Message that is shown when exporting passwords has failed. This is part of a list of things the user can try to resolve the problem. This advice implies that Dissenter couldn't write into the specified folder.">
     Export your passwords to another folder
   </message>
   <message name="IDS_SETTINGS_PASSWORD_ROW_MORE_ACTIONS" desc="The ARIA (accessibility) message for the More Actions button, which sits in every row of the password list. It opens a menu with a list of actions, which apply to the username-password pair on this row.">
@@ -1103,7 +1103,7 @@
     <message name="IDS_SETTINGS_DEFAULT_BROWSER" desc="Name of the Default Browser page, which allows users to set which browser will open .html files within the OS.">
       Default browser
     </message>
-    <message name="IDS_SETTINGS_DEFAULT_BROWSER_MAKE_DEFAULT_BUTTON" desc="Text of the button used to make Brave the default browser on the user's system.">
+    <message name="IDS_SETTINGS_DEFAULT_BROWSER_MAKE_DEFAULT_BUTTON" desc="Text of the button used to make Dissenter the default browser on the user's system.">
       Make default
     </message>
   </if>
@@ -1420,16 +1420,16 @@
     Time range
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_DATA_WITH_SYNC" desc="Description in the footer of the Clear Browsing Data dialog when the user is syncing.">
-    To clear browsing data from this device only, while keeping it in your Brave Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>sign out<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To clear browsing data from this device only, while keeping it in your Dissenter Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>sign out<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_DATA_WITH_SYNC_ERROR" desc="Description in the footer of the Clear Browsing Data dialog when there is a sync error.">
-    To clear browsing data from all of your synced devices and your Brave Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>visit sync settings<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To clear browsing data from all of your synced devices and your Dissenter Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>visit sync settings<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_DATA_WITH_SYNC_PASSPHRASE_ERROR" desc="Description in the footer of the Clear Browsing Data dialog when there is a sync passphrase error.">
-    To clear browsing data from all of your synced devices and your Brave Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>enter your passphrase<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To clear browsing data from all of your synced devices and your Dissenter Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>enter your passphrase<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_DATA_WITH_SYNC_PAUSED" desc="Description in the footer of the Clear Browsing Data dialog when sync is paused.">
-    To clear browsing data from all of your synced devices and your Brave Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>sign in<ph name="END_LINK">&lt;/a&gt;</ph>.
+    To clear browsing data from all of your synced devices and your Dissenter Account, <ph name="BEGIN_LINK">&lt;a href="#" target="_blank"&gt;</ph>sign in<ph name="END_LINK">&lt;/a&gt;</ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_HISTORY" desc="Checkbox for deleting Browsing History">
     Browsing history
@@ -1437,17 +1437,17 @@
   <message name="IDS_SETTINGS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites.">
     Signs you out of most sites.
   </message>
-  <message name="IDS_SETTINGS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC_WITH_EXCEPTION" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites but your Brave sign in will stay.">
-    Signs you out of most sites. You'll stay signed in to your Brave Account so your synced data can be cleared.
+  <message name="IDS_SETTINGS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC_WITH_EXCEPTION" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites but your Dissenter sign in will stay.">
+    Signs you out of most sites. You'll stay signed in to your Dissenter Account so your synced data can be cleared.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_HISTORY_SUMMARY" desc="A subtext for the basic tab explaining browsing history.">
     Clears history and autocompletions in the address bar.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_HISTORY_SUMMARY_SIGNED_IN" desc="A description explaining other forms of activity for signed in users.">
-    Clears history and autocompletions in the address bar. Your Brave Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    Clears history and autocompletions in the address bar. Your Dissenter Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_BROWSING_HISTORY_SUMMARY_SYNCED" desc="A description for the basic tab explaining browsing history for users with history sync.">
-    Clears history from all signed-in devices. Your Brave Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    Clears history from all signed-in devices. Your Dissenter Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;a target='_blank' href='$1'&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_CLEAR_DOWNLOAD_HISTORY" desc="Checkbox for deleting Download History">
     Download history
@@ -1672,7 +1672,7 @@
       Unable to add printer. Please check your printer's configuration and try again.
     </message>
     <message name="IDS_SETTINGS_PRINTING_CUPS_PRINTER_ADDED_PRINTER_PRINTER_UNREACHABLE_MESSAGE" desc="The message shown when the printer that is to be added is unreachable for configuration.">
-      Can’t connect to printer. Check that the printer is turned on and is connected to your Bravebook by Wi-Fi or USB.
+      Can’t connect to printer. Check that the printer is turned on and is connected to your Dissenterbook by Wi-Fi or USB.
     </message>
     <message name="IDS_SETTINGS_PRINTING_CUPS_PRINTER_ADDED_PRINTER_PPD_TOO_LARGE_MESSAGE" desc="The message shown when the PPD provided while trying to add new printer is too large.">
       Can’t load large PPD. Maximum size is 250 kB.
@@ -1681,10 +1681,10 @@
       File is the wrong format. Check the PPD file and try again.
     </message>
     <message name="IDS_SETTINGS_PRINTING_CUPS_PRINTER_ADDED_PRINTER_PPD_NOT_FOUND" desc="The message shown when the PPD provided while trying to add a new printer cannot be found.">
-      Can’t find PPD. Make sure your Bravebook is online and try again.
+      Can’t find PPD. Make sure your Dissenterbook is online and try again.
     </message>
     <message name="IDS_SETTINGS_PRINTING_CUPS_PRINTER_ADDED_PRINTER_PPD_UNRETRIEVABLE" desc="The message shown when the PPD provided while trying to add a new printer is unretrievable.">
-      Can’t find PPD. Make sure your Bravebook is online and try again.
+      Can’t find PPD. Make sure your Dissenterbook is online and try again.
     </message>
     <message name="IDS_SETTINGS_PRINTING_CUPS_PRINTER_ADDED_NATIVE_PRINTERS_NOT_ALLOWED_MESSAGE" desc="The message shown when the user is prevented from configuring printers due to an enterprise policy.">
       Printer configuration is handled by the administrator.
@@ -1968,13 +1968,13 @@
     <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_DISABLED" desc="Display name for the automatic time zone detection mode which disables automatic detection.">
       Automatic time zone detection is disabled
     </message>
-    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_IP_ONLY_DEFAULT" desc="Display name for the automatic time zone detection mode which enables time zone detection sending unprecise location to Brave servers. Default means that this is the default time zone detection mode.">
+    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_IP_ONLY_DEFAULT" desc="Display name for the automatic time zone detection mode which enables time zone detection sending unprecise location to Dissenter servers. Default means that this is the default time zone detection mode.">
       Use your IP address to determine location (default)
     </message>
-    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_SEND_WIFI_AP" desc="Display name for the automatic time zone detection mode which enables time zone detection sending list of visible WiFi Access Point names to Brave servers.">
+    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_SEND_WIFI_AP" desc="Display name for the automatic time zone detection mode which enables time zone detection sending list of visible WiFi Access Point names to Dissenter servers.">
       Use only Wi-Fi to determine location
     </message>
-    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_SEND_ALL_INFO" desc="Display name for the automatic time zone detection mode which enables time zone detection sending list of visible WiFi and Cellular Access Point names to Brave servers.">
+    <message name="IDS_SETTINGS_TIME_ZONE_DETECTION_MODE_SEND_ALL_INFO" desc="Display name for the automatic time zone detection mode which enables time zone detection sending list of visible WiFi and Cellular Access Point names to Dissenter servers.">
       Use Wi-Fi or mobile networks to determine location
     </message>
     <message name="IDS_SETTINGS_TIME_ZONE" desc="Label for the picker which allows users to choose their time zone.">
@@ -2000,22 +2000,22 @@
       Smart Lock
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_SETUP_INTRO" desc="The text to show in Easy Unlock section to introduce the feature.">
-      Unlock your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> with your Android phone.
+      Unlock your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> with your Android phone.
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_SETUP" desc="The label of the button to set up Easy Unlock section on the settings page.">
       Set up
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_DESCRIPTION" desc="The text that describes what Easy Unlock does.">
-      Unlock your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> with your Android phone
+      Unlock your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> with your Android phone
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_TURN_OFF" desc="The label of the button to disable Easy unlock on the settings page and the turn off Easy unlock dialog.">
       Turn off
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_TURN_OFF_TITLE" desc="The title of the Easy unlock turn off dialog.">
-      Turn off Smart Lock for <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>?
+      Turn off Smart Lock for <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>?
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_TURN_OFF_DESCRIPTION" desc="The description text of the Easy unlock turn off dialog.">
-      If you turn off Smart Lock for <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>, you won’t be able to unlock your Brave devices using your phone. You'll need to type your password.
+      If you turn off Smart Lock for <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>, you won’t be able to unlock your Dissenter devices using your phone. You'll need to type your password.
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_TURN_OFF_OFFLINE_TITLE" desc="The title text on the Easy unlock turn off dialog when Easy unlock could not be turned off because the device is offline.">
       Please connect to a network
@@ -2030,10 +2030,10 @@
       Smart Lock is currently unavailable. Please try again later.
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_ALLOW_SIGN_IN_LABEL" desc="The label text on the Easy unlock settings page for the radio box to allow the EasyUnlock on the sign-in screen (in addition to the lock screen).">
-      Use Smart Lock to sign in to your Brave Account
+      Use Smart Lock to sign in to your Dissenter Account
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_PROXIMITY_THRESHOLD_LABEL" desc="The text on the Easy unlock settings page indicating how close the phone should be for unlock to work.">
-      Distance needed for phone to unlock this <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>
+      Distance needed for phone to unlock this <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>
     </message>
     <message name="IDS_SETTINGS_EASY_UNLOCK_PROXIMITY_THRESHOLD_VERY_CLOSE" desc="The text on the Easy unlock settings page indicating the phone should be very close for the unlock to work.">
       Very close
@@ -2050,11 +2050,11 @@
     <message name="IDS_SETTINGS_EASY_UNLOCK_OPTIONS" desc="Heading for options for the Smart Lock feature.">
       Smart Lock options
     </message>
-    <message name="IDS_SETTINGS_EASY_UNLOCK_UNLOCK_DEVICE_ONLY" desc="This option lets the user unlock their Bravebook from their phone if they're logged in. It will unlock their Bravebook but will not sign them in.">
+    <message name="IDS_SETTINGS_EASY_UNLOCK_UNLOCK_DEVICE_ONLY" desc="This option lets the user unlock their Dissenterbook from their phone if they're logged in. It will unlock their Dissenterbook but will not sign them in.">
       Unlock device only
     </message>
-    <message name="IDS_SETTINGS_EASY_UNLOCK_UNLOCK_DEVICE_AND_ALLOW_SIGNIN" desc="This option lets the user unlock their Bravebook from their phone as well as log into their Bravebook without a password if their phone is nearby and unlocked.">
-      Unlock device and sign in to Brave Account
+    <message name="IDS_SETTINGS_EASY_UNLOCK_UNLOCK_DEVICE_AND_ALLOW_SIGNIN" desc="This option lets the user unlock their Dissenterbook from their phone as well as log into their Dissenterbook without a password if their phone is nearby and unlocked.">
+      Unlock device and sign in to Dissenter Account
     </message>
   </if>
 
@@ -2121,10 +2121,10 @@
       No user certificate
     </message>
     <message name="IDS_SETTINGS_INTERNET_NETWORK_CERTIFICATE_NAME" desc="Settings &gt; Internet &gt; Network config: Formatting string for network certificate names.">
-      <ph name="ISSUED_BY">$1<ex>Brave Inc</ex></ph> [<ph name="ISSUED_TO">$2<ex>John Doe</ex></ph>]
+      <ph name="ISSUED_BY">$1<ex>Dissenter Inc</ex></ph> [<ph name="ISSUED_TO">$2<ex>John Doe</ex></ph>]
     </message>
     <message name="IDS_SETTINGS_INTERNET_NETWORK_CERTIFICATE_NAME_HARDWARE_BACKED" desc="Settings &gt; Internet &gt; Network configuration: Formatting string for network certificate names that are hardware backed.">
-      <ph name="ISSUED_BY">$1<ex>Brave Inc</ex></ph> [<ph name="ISSUED_TO">$2<ex>John Doe</ex></ph>] (hardware-backed)
+      <ph name="ISSUED_BY">$1<ex>Dissenter Inc</ex></ph> [<ph name="ISSUED_TO">$2<ex>John Doe</ex></ph>] (hardware-backed)
     </message>
     <message name="IDS_SETTINGS_INTERNET_NETWORK_CERTIFICATE_NONE_INSTALLED" desc="Settings &gt; Internet &gt; Network configuration: Label when no certificates are installed.">
       None installed
@@ -2144,8 +2144,8 @@
     <message name="IDS_SETTINGS_INTERNET_NETWORK_NAMESERVERS_CUSTOM" desc="Settings &gt; Internet &gt; Network details: Label for setting custom name servers.">
       Custom name servers
     </message>
-    <message name="IDS_SETTINGS_INTERNET_NETWORK_NAMESERVERS_GOOGLE" desc="Settings &gt; Internet &gt; Network details: Label for setting Brave name servers.">
-      Brave name servers
+    <message name="IDS_SETTINGS_INTERNET_NETWORK_NAMESERVERS_GOOGLE" desc="Settings &gt; Internet &gt; Network details: Label for setting Dissenter name servers.">
+      Dissenter name servers
     </message>
     <message name="IDS_SETTINGS_INTERNET_NETWORK_NAMESERVERS_INPUT_ACCESSIBILITY_LABEL" desc="Settings &gt; Internet &gt; Network details: Accessibility only label for custom nameserver input box.">
       Custom nameserver <ph name="INPUT_INDEX">$1<ex>1</ex></ph>
@@ -2420,10 +2420,10 @@
     <message name="IDS_SETTINGS_INTERNET_WIFI_NETWORK_OUT_OF_RANGE" desc="Text shown when viewing the Wi-Fi network detail page when the currently-viewed Wi-Fi network has been lost (e.g., has gone out of range).">
       Network out of range
     </message>
-    <message name="IDS_SETTINGS_INTERNET_CELLULAR_CONTACT_SPECIFIC_CARRIER" desc="Text shown when the Bravebook cannot connect to a cellular network, which alerts the user to contact a specific carrier.">
-      Trouble connecting. Please contact <ph name="CARRIER_NAME">$1<ex>Brave Fi</ex></ph> for assistance.
+    <message name="IDS_SETTINGS_INTERNET_CELLULAR_CONTACT_SPECIFIC_CARRIER" desc="Text shown when the Dissenterbook cannot connect to a cellular network, which alerts the user to contact a specific carrier.">
+      Trouble connecting. Please contact <ph name="CARRIER_NAME">$1<ex>Dissenter Fi</ex></ph> for assistance.
     </message>
-    <message name="IDS_SETTINGS_INTERNET_CELLULAR_CONTACT_DEFAULT_CARRIER" desc="Text shown when the Bravebook cannot connect to a cellular network, which alerts the user to contact their carrier.">
+    <message name="IDS_SETTINGS_INTERNET_CELLULAR_CONTACT_DEFAULT_CARRIER" desc="Text shown when the Dissenterbook cannot connect to a cellular network, which alerts the user to contact their carrier.">
       Trouble connecting. Please contact your carrier for assistance.
     </message>
     <message name="IDS_SETTINGS_INTERNET_TETHER_PHONE_OUT_OF_RANGE" desc="Text shown when viewing the Tether network detail page when the currently-viewed Tether network has been lost (e.g., has gone out of range). Because Tether networks are provided by Android phones, we use the word 'phone' here instead of 'network'.">
@@ -2433,10 +2433,10 @@
       To use Instant Tethering, turn on notifications for Google Play Services.
     </message>
     <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_ONE_DEVICE_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when only one phone needs to have its notifications enabled.">
-      On your '<ph name="PHONE_NAME">$1<ex>Brave Pixel</ex></ph>':
+      On your '<ph name="PHONE_NAME">$1<ex>Dissenter Pixel</ex></ph>':
     </message>
     <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_TWO_DEVICES_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when two phones need to have their notifications enabled.">
-      On your '<ph name="PHONE_NAME_1">$1<ex>Brave Pixel</ex></ph>' and '<ph name="PHONE_NAME_2">$2<ex>Brave Pixel 2</ex></ph>':
+      On your '<ph name="PHONE_NAME_1">$1<ex>Dissenter Pixel</ex></ph>' and '<ph name="PHONE_NAME_2">$2<ex>Dissenter Pixel 2</ex></ph>':
     </message>
     <message name="IDS_SETTINGS_INTERNET_GMSCORE_NOTIFICATIONS_MANY_DEVICES_SUBTITLE" desc="Subtitle of the section which explains how to enable Google Play Services notifications. This subtitle is used when three or more phones need to have their notifications enabled.">
       On your devices:
@@ -2469,13 +2469,13 @@
       <ph name="BATTERY_PERCENTAGE">$1<ex>100</ex></ph>% Battery
     </message>
     <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_EXPLANATION" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Explanation of what will happen if the user connects to a tether hotspot.">
-      Your <ph name="PHONE_NAME">$1<ex>Brave Pixel XL</ex></ph> will create a private Wi-Fi connection.
+      Your <ph name="PHONE_NAME">$1<ex>Dissenter Pixel XL</ex></ph> will create a private Wi-Fi connection.
     </message>
     <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_CARRIER_WARNING" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Warning to users that cellular providers may block the use of tethering.">
       Some carriers might block this feature.
     </message>
     <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_DESCRIPTION_TITLE" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Title of the section describing what will happen when tethering is enabled.">
-      While the hotspot is on, your <ph name="PHONE_NAME">$1<ex>Brave Pixel XL</ex></ph> will:
+      While the hotspot is on, your <ph name="PHONE_NAME">$1<ex>Dissenter Pixel XL</ex></ph> will:
     </message>
     <message name="IDS_SETTINGS_INTERNET_TETHER_CONNECTION_DESCRIPTION_MOBILE_DATA" desc="Settings &gt; Internet &gt; Tether Connection Dialog &gt; Bulletpoint alerting the user that tethering will use mobile data.">
       Use mobile data
@@ -2496,7 +2496,7 @@
       Get data connection
     </message>
     <message name="IDS_SETTINGS_INTERNET_TOGGLE_TETHER_SUBTEXT" desc="Settings &gt; Internet: Description for Tether enable/disable toggle .">
-      Let this device find other devices with your Brave Account that have a mobile data connection
+      Let this device find other devices with your Dissenter Account that have a mobile data connection
     </message>
     <message name="IDS_SETTINGS_INTERNET_TOGGLE_MOBILE_ACCESSIBILITY_LABEL" desc="Accessibility only label for mobile data enable/disable toggle .">
       Mobile data enable
@@ -2817,7 +2817,7 @@
     Remove
   </message>
   <message name="IDS_SETTINGS_ON_STARTUP_PAGE_TOOLTIP" desc="A tooltip to display for a page in the list of pages to open on startup">
-    <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
+    <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - <ph name="PAGE_URL">$2<ex>http://www.google.com/</ex></ph>
   </message>
   <message name="IDS_SETTINGS_INVALID_URL" desc="Error message explaining that the URL being entered is invalid.">
     Invalid URL
@@ -2916,17 +2916,17 @@
   <message name="IDS_SETTINGS_LANGUAGES_ENABLED_LANGUAGES" desc="Header for the list of enabled languages, which the user can use to disable languages, on the Manage Languages page.">
     Enabled languages
   </message>
-  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_TITLE" desc="Title for the section containing all the options for spell check settings. The options include picking between using the system's spell check or using Brave's web service and a list of the enabled languages which support spell checking.">
+  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_TITLE" desc="Title for the section containing all the options for spell check settings. The options include picking between using the system's spell check or using Dissenter's web service and a list of the enabled languages which support spell checking.">
     Spell check
   </message>
-  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_BASIC_LABEL" desc="Label for a type of spell check that only relies on the local built-in spell check and does not rely on sending data to Brave for suggestions.">
+  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_BASIC_LABEL" desc="Label for a type of spell check that only relies on the local built-in spell check and does not rely on sending data to Dissenter for suggestions.">
     Basic spell check
   </message>
-  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_ENHANCED_LABEL" desc="Label for a type of spell check that sends the text the user types to Brave for spelling suggestions.">
+  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_ENHANCED_LABEL" desc="Label for a type of spell check that sends the text the user types to Dissenter for spelling suggestions.">
     Enhanced spell check
   </message>
-  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_ENHANCED_DESCRIPTION" desc="Description for the type of spell check that sends the text the user types to Brave for spelling suggestions. It is important that it is communicated that the text the user types in the browser will be sent to Brave.">
-    Uses the same spell checker that’s used in Brave search. Text you type in the browser is sent to Brave.
+  <message name="IDS_SETTINGS_LANGUAGES_SPELL_CHECK_ENHANCED_DESCRIPTION" desc="Description for the type of spell check that sends the text the user types to Dissenter for spelling suggestions. It is important that it is communicated that the text the user types in the browser will be sent to Dissenter.">
+    Uses the same spell checker that’s used in Dissenter search. Text you type in the browser is sent to Dissenter.
   </message>
   <if expr="not is_macosx">
     <message name="IDS_SETTING_LANGUAGES_SPELL_CHECK_DISABLED_REASON" desc="Text that indicates to the user that spell check options are disabled because none of the languages they have added have spell check support.">
@@ -2966,7 +2966,7 @@
       Spell check dictionary download failed.
     </message>
     <message name="IDS_SETTINGS_LANGUAGES_DICTIONARY_DOWNLOAD_FAILED_HELP" desc="Error message when spell dictionary download fails more than once possibly due to a network policy or configuration.">
-      Please check with your network administrator to make sure that the firewall is not blocking downloads from Brave servers.
+      Please check with your network administrator to make sure that the firewall is not blocking downloads from Dissenter servers.
     </message>
   </if>
 
@@ -2981,7 +2981,7 @@
     Show suggestions for similar pages when a page can't be found
   </message>
   <message name="IDS_SETTINGS_LINKDOCTOR_PREF_DESC" desc="The description of the 'Use Link Doctor' preference to help with navigation errors.">
-    Sends the web address of the page you're trying to reach to Brave
+    Sends the web address of the page you're trying to reach to Dissenter
   </message>
   <message name="IDS_SETTINGS_SUGGEST_PREF" desc="The documentation string of the 'Use Suggest' preference">
     Autocomplete searches and URLs
@@ -2998,29 +2998,29 @@
   <message name="IDS_SETTINGS_SAFEBROWSING_ENABLEPROTECTION" desc="The section title of 'Protects you and your device from dangerous sites'">
     Safe Browsing (protects you and your device from dangerous sites)
   </message>
-  <message name="IDS_SETTINGS_SAFEBROWSING_ENABLEPROTECTION_DESC" desc="Checkbox label: should Brave protect user and user's device from dangerous sites">
-    Sends URLs of some pages you visit to Brave, when your security is at risk
+  <message name="IDS_SETTINGS_SAFEBROWSING_ENABLEPROTECTION_DESC" desc="Checkbox label: should Dissenter protect user and user's device from dangerous sites">
+    Sends URLs of some pages you visit to Dissenter, when your security is at risk
   </message>
   <message name="IDS_SETTINGS_SAFEBROWSING_ENABLE_REPORTING" desc="The section title of the extended safe browsing checkbox to help improve safe browsing">
-    Help improve Brave security
+    Help improve Dissenter security
   </message>
   <message name="IDS_SETTINGS_SAFEBROWSING_ENABLE_REPORTING_DESC" desc="Description for extended safe browsing">
-    To detect dangerous apps and sites, Brave sends URLs of some pages you visit, limited system information, and some page content to Brave
+    To detect dangerous apps and sites, Dissenter sends URLs of some pages you visit, limited system information, and some page content to Dissenter
   </message>
   <message name="IDS_SETTINGS_SPELLING_PREF" desc="The documentation string of the 'Use Spelling' preference">
     Enhanced spell check
   </message>
-  <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF" desc="The label of the checkbox to enable/disable crash and user metrics logging. This string does not need a Brave counter-part because it will only be visible if Brave-branded.">
-    Help improve Brave's features and performance
+  <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF" desc="The label of the checkbox to enable/disable crash and user metrics logging. This string does not need a Dissenter counter-part because it will only be visible if Dissenter-branded.">
+    Help improve Dissenter's features and performance
   </message>
   <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF_DESC" desc="The description of the checkbox to enable/disable crash and user metrics logging">
-    Automatically sends crash reports to Brave
+    Automatically sends crash reports to Dissenter
   </message>
   <message name="IDS_SETTINGS_ENABLE_URL_KEYED_ANONYMIZED_DATA_COLLECTION" desc="The label of the checkbox to enable/disable url keyed anonymized data collection.">
     Make searches and browsing better
   </message>
   <message name="IDS_SETTINGS_ENABLE_URL_KEYED_ANONYMIZED_DATA_COLLECTION_DESC" desc="The description of the checkbox to enable/disable url keyed anonymized data collection.">
-    Sends URLs of pages you visit to Brave
+    Sends URLs of pages you visit to Dissenter
   </message>
   <message name="IDS_SETTINGS_ENABLE_DO_NOT_TRACK" desc="The label of the checkbox to enable/disable sending the 'Do Not track' header">
     Send a "Do Not Track" request with your browsing traffic
@@ -3049,7 +3049,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS" desc="Text of the button that takes a user to the enhanced settings page thats allows users to modify site settings. Also the title of that settings page.">
     Site Settings
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_DESCRIPTION" desc="Secondary, continued explanation of what content settings in Brave do">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_DESCRIPTION" desc="Secondary, continued explanation of what content settings in Dissenter do">
     Control what information websites can use and what content they can show you
   </message>
   <message name="IDS_SETTINGS_CLEAR_DATA" desc="Text for clear browsing data button in Privacy options in the tabbed UI">
@@ -3064,12 +3064,12 @@
   <message name="IDS_SETTINGS_TITLE_AND_COUNT" desc="The title of a section in the settings page with a count of the total number of items in the section">
     <ph name="TITLE">$1<ex>Block</ex></ph> - <ph name="COUNT">$2<ex>42</ex></ph>
   </message>
-  <message name="IDS_SETTINGS_SYNC_AND_GOOGLE_SERVICES_PRIVACY_DESC_UNIFIED_CONSENT" desc="The description of the 'Sync and Brave services' row in the privacy section">
+  <message name="IDS_SETTINGS_SYNC_AND_GOOGLE_SERVICES_PRIVACY_DESC_UNIFIED_CONSENT" desc="The description of the 'Sync and Dissenter services' row in the privacy section">
     More settings that relate to privacy, security, and data collection
   </message>
 
   <!-- Reset Settings Page -->
-  <message name="IDS_SETTINGS_RESET" desc="Title for an item in the 'Reset and clean up' section of Brave Settings. If the user clicks this option, browser settings will be returned to their default values, after a confirmation by the user." meaning="Brave Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
+  <message name="IDS_SETTINGS_RESET" desc="Title for an item in the 'Reset and clean up' section of Dissenter Settings. If the user clicks this option, browser settings will be returned to their default values, after a confirmation by the user." meaning="Dissenter Cleanup feature. Try to use the same translation for 'Reset' in 'Reset and cleanup' string.">
     Reset settings
   </message>
   <message name="IDS_SETTINGS_RESET_SETTINGS_TRIGGER" desc="The label describing the 'reset profile setting' feature">
@@ -3078,33 +3078,33 @@
   <message name="IDS_SETTINGS_RESET_AUTOMATED_DIALOG_TITLE" desc="The title of the dialog informing the user that automated resetting of some settings occurred.">
     Some settings were reset
   </message>
-  <message name="IDS_SETTINGS_RESET_BANNER_TEXT" desc="The text to show in a banner at the top of the chrome://settings page. The banner is displayed when Brave detects that some settings have been tampered with and were reset to factory defaults.">
-    Brave detected that some of your settings were corrupted by another program and reset them to their original defaults.
+  <message name="IDS_SETTINGS_RESET_BANNER_TEXT" desc="The text to show in a banner at the top of the chrome://settings page. The banner is displayed when Dissenter detects that some settings have been tampered with and were reset to factory defaults.">
+    Dissenter detected that some of your settings were corrupted by another program and reset them to their original defaults.
   </message>
   <message name="IDS_SETTINGS_RESET_BANNER_RESET_BUTTON_TEXT" desc="The text on the reset button in the Automatic Settings Reset Banner suggesting to reset ALL settings after an automatic reset of SOME settings.">
     Reset all settings
   </message>
 
-  <!-- Reset card title and Brave Cleanup item on Windows -->
+  <!-- Reset card title and Dissenter Cleanup item on Windows -->
   <if expr="is_win and _google_chrome">
-    <message name="IDS_SETTINGS_RESET_AND_CLEANUP" desc="Title of a section in Brave Settings. Imperative. 'Reset' refers to resetting settings to defaults. 'Clean up' refers to cleaning up harmful software on the user's computer.">
+    <message name="IDS_SETTINGS_RESET_AND_CLEANUP" desc="Title of a section in Dissenter Settings. Imperative. 'Reset' refers to resetting settings to defaults. 'Clean up' refers to cleaning up harmful software on the user's computer.">
       Reset and clean up
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEAN_UP_COMPUTER_TRIGGER" desc="Title for an item in the 'Reset and clean up' section of Brave Settings. 'Clean up' refers to cleaning up harmful software on the user's computer. Imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEAN_UP_COMPUTER_TRIGGER" desc="Title for an item in the 'Reset and clean up' section of Dissenter Settings. 'Clean up' refers to cleaning up harmful software on the user's computer. Imperative.">
       Clean up computer
     </message>
   </if>
 
   <!-- Factory Reset / Powerwash -->
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_FACTORY_RESET" desc="Name of the factory reset option on the Brave settings page">
+    <message name="IDS_SETTINGS_FACTORY_RESET" desc="Name of the factory reset option on the Dissenter settings page">
       Powerwash
     </message>
     <message name="IDS_SETTINGS_FACTORY_RESET_HEADING" desc="Name of the 'Factory reset' window">
       Restart your device
     </message>
-    <message name="IDS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the Brave settings page">
-      Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> device to be just like new.
+    <message name="IDS_SETTINGS_FACTORY_RESET_DESCRIPTION" desc="Description of the factory reset option on the Dissenter settings page">
+      Remove all user accounts and reset your <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Dissenter</ex></ph> device to be just like new.
     </message>
     <message name="IDS_SETTINGS_FACTORY_RESET_WARNING" desc="Warning text in the 'Factory Reset' window">
       A restart is required before your device can be reset with Powerwash.
@@ -3133,13 +3133,13 @@
     Manage search engines
   </message>
 <if expr="chromeos">
-  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT" desc="Label for the Brave Assistant button.">
-    Brave Assistant
+  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT" desc="Label for the Dissenter Assistant button.">
+    Dissenter Assistant
   </message>
-  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT_ENABLED" desc="Sub label for the Brave Assistant button when Assistant is enabled.">
+  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT_ENABLED" desc="Sub label for the Dissenter Assistant button when Assistant is enabled.">
     Enabled
   </message>
-  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT_DISABLED" desc="Sub label for the Brave Assistant button when Assistant is disabled.">
+  <message name="IDS_SETTINGS_SEARCH_GOOGLE_ASSISTANT_DISABLED" desc="Sub label for the Dissenter Assistant button when Assistant is disabled.">
     Disabled
   </message>
 </if>
@@ -3187,23 +3187,23 @@
   <message name="IDS_SETTINGS_SEARCH_ENGINES_REMOVE_FROM_LIST" desc="Label for a button that removes a search engine from the list of search engines">
     Remove from list
   </message>
-  <message name="IDS_SETTINGS_SEARCH_ENGINES_MANAGE_EXTENSION" desc="Text displayed for a button that allows the user to manage a Brave extension">
+  <message name="IDS_SETTINGS_SEARCH_ENGINES_MANAGE_EXTENSION" desc="Text displayed for a button that allows the user to manage a Dissenter extension">
     Manage
   </message>
 
-  <!-- Brave Assistant Page -->
+  <!-- Dissenter Assistant Page -->
 <if expr="chromeos">
-  <message name="IDS_SETTINGS_GOOGLE_ASSISTANT" desc="Name of the settings page for Brave Assistant.">
-    Brave Assistant
+  <message name="IDS_SETTINGS_GOOGLE_ASSISTANT" desc="Name of the settings page for Dissenter Assistant.">
+    Dissenter Assistant
   </message>
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_ENABLE_HOTWORD" desc="Title for a toggle that lets the assistant detect hotword.">
-    "Ok Brave"
+    "Ok Dissenter"
   </message>
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_ENABLE_HOTWORD_DESCRIPTION" desc="Sub label for hotword-enable toggle.">
-    Access your Assistant when you say "Ok Brave."
+    Access your Assistant when you say "Ok Dissenter."
   </message>
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_ENABLE_HOTWORD_WITHOUT_DSP_DESCRIPTION" desc="Sub label for hotword-enable dropdown without DSP support.">
-    Access your Assistant when you say "Ok Brave." To save battery, choose “On (Recommended.)” Your Assistant will respond only when your device is plugged in or charging.
+    Access your Assistant when you say "Ok Dissenter." To save battery, choose “On (Recommended.)” Your Assistant will respond only when your device is plugged in or charging.
   </message>
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_ENABLE_HOTWORD_WITHOUT_DSP_RECOMMENDED" desc="Default label for hotword-enable dropdown without DSP support.">
     On (Recommended)
@@ -3232,8 +3232,8 @@
   <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_LAUNCH_WITH_MIC_OPEN_DESCRIPTION" desc="Sub label for launch-with-microphone-open toggle.">
     Default to using voice instead of keyboard
   </message>
-  <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_SETTINGS" desc="Title for a button that opens the Brave Assistant app settings.">
-    Brave Assistant settings
+  <message name="IDS_SETTINGS_GOOGLE_ASSISTANT_SETTINGS" desc="Title for a button that opens the Dissenter Assistant app settings.">
+    Dissenter Assistant settings
   </message>
 </if>
 
@@ -3346,8 +3346,8 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_PDF_DOCUMENTS" desc="Label for the PDF documents site settings.">
     PDF documents
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_PDF_DOWNLOAD_PDFS" desc="Label for downloading PDF documents instead of automatically opening them in Brave.">
-    Download PDF files instead of automatically opening them in Brave
+  <message name="IDS_SETTINGS_SITE_SETTINGS_PDF_DOWNLOAD_PDFS" desc="Label for downloading PDF documents instead of automatically opening them in Dissenter.">
+    Download PDF files instead of automatically opening them in Dissenter
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_POPUPS" desc="Label for the pop-ups and redirects site settings.">
     Pop-ups and redirects
@@ -3459,10 +3459,10 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_AUTOMATICALLY_BLOCKED_NOTIFICATIONS" desc="The label in notifications site settings -- a setting that is automatically set when the user declines notification permission prompts a few times.">
     Automatically blocked because you declined notifications a few times
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_SHOW_BLOCKED_NOTIFICATIONS_INDICATOR" desc="The label in notifications site settings -- a setting that enables showing a blocked indicator in the address bar when notifications are blocked for all sites. It can be set by the user or automatically set by Brave when a user has denied notifications several times.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_SHOW_BLOCKED_NOTIFICATIONS_INDICATOR" desc="The label in notifications site settings -- a setting that enables showing a blocked indicator in the address bar when notifications are blocked for all sites. It can be set by the user or automatically set by Dissenter when a user has denied notifications several times.">
     Show an indicator in the address bar when notification are blocked
   </message>
-    <message name="IDS_SETTINGS_SITE_SETTINGS_ENABLE_QUIET_NOTIFICATION_PROMPTS" desc="The label of a checkbox in the Settings page for Web Notifications, controlling how prominent UI should be used to inform the user when a site asks whether it can send notifications to the user. When the checkbox is checked, the user will see a `quieter message` (a blocked indicator in the address bar) instead of the pop-up bubble. The setting can be set by the user or automatically set by Brave when a user has denied notifications several times.">
+    <message name="IDS_SETTINGS_SITE_SETTINGS_ENABLE_QUIET_NOTIFICATION_PROMPTS" desc="The label of a checkbox in the Settings page for Web Notifications, controlling how prominent UI should be used to inform the user when a site asks whether it can send notifications to the user. When the checkbox is checked, the user will see a `quieter message` (a blocked indicator in the address bar) instead of the pop-up bubble. The setting can be set by the user or automatically set by Dissenter when a user has denied notifications several times.">
     Use quieter messaging (blocks notification prompts from interrupting you)
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_ENABLE_QUIET_NOTIFICATION_PROMPTS_DESCRIPTION" desc="The label description for 'quiet notifications' option in notifications site settings -- if a site requests to send notifications, the request will be blocked and a blocked indicator icon will appear in the address bar.">
@@ -3496,7 +3496,7 @@
     Block sites from running Flash (recommended)
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_FLASH_PERMISSIONS_ARE_EPHEMERAL" desc="The notice that Flash permissions are ephemeral, at the top of the Flash settings page.">
-    Your Flash settings will be kept until you quit Brave.
+    Your Flash settings will be kept until you quit Dissenter.
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_ALLOW_RECENTLY_CLOSED_SITES" desc="The allow label for background sync in site settings.">
     Allow recently closed sites to finish sending and receiving data
@@ -3634,7 +3634,7 @@
   <message name="IDS_SETTINGS_SITE_SETTINGS_SOURCE_DRM_DISABLED" desc="A label shown when the protected content / protected media identifier permission on the Site Details page is disabled because the user has turned off using unique identifiers to access protected content.">
     To change this setting, first <ph name="BEGIN_LINK">&lt;a target="_blank" href="$1"&gt;</ph>turn on identifiers<ph name="END_LINK">&lt;/a&gt;</ph>
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_ADS_BLOCK_BLACKLISTED_SINGULAR" desc="A subtitle for the ‘Ads’ setting, shown if a website is known to show ads that have a poor user experience (intrusive, misleading) and is blocked from showing ads by Brave.">
+  <message name="IDS_SETTINGS_SITE_SETTINGS_ADS_BLOCK_BLACKLISTED_SINGULAR" desc="A subtitle for the ‘Ads’ setting, shown if a website is known to show ads that have a poor user experience (intrusive, misleading) and is blocked from showing ads by Dissenter.">
     Site shows intrusive or misleading ads
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_ADS_BLOCK_NOT_BLACKLISTED_SINGULAR" desc="A subtitle for the ‘Ads’ setting, shown if user chooses to Block ads. ‘Block’ refers to the blocking of ads.">
@@ -3790,8 +3790,8 @@
   <message name="IDS_SETTINGS_SITE_NO_SITES_ADDED" desc="Explanation for not showing a list of site exceptions">
     No sites added
   </message>
-  <message name="IDS_SETTINGS_SITE_SETTINGS_BLOCK_AUTOPLAY" desc="A label for a toggle in site settings to block autoplay. If the toggle is on then Brave will block autoplay by default and use an algorithm to determine which sites should still be able to autoplay. If the toggle is off then autoplay will be enabled for all sites.">
-    Let Brave choose when sites can play sound (recommended)
+  <message name="IDS_SETTINGS_SITE_SETTINGS_BLOCK_AUTOPLAY" desc="A label for a toggle in site settings to block autoplay. If the toggle is on then Dissenter will block autoplay by default and use an algorithm to determine which sites should still be able to autoplay. If the toggle is off then autoplay will be enabled for all sites.">
+    Let Dissenter choose when sites can play sound (recommended)
   </message>
   <message name="IDS_SETTINGS_SITE_SETTINGS_EMPTY_ALL_SITES_PAGE" desc="Explanation shown when there are no sites that have appeared yet on the All Sites page.">
     Sites you visit will appear here
@@ -3831,8 +3831,8 @@
     Site
   </message>
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_ANDROID_SMS_NOTE" desc="Special note shown below Messages for Android entry in notification permissions to indicate use in BraveOS Multidevice features.">
-      Allows Android Messages to relay texts from your phone to your Bravebook
+    <message name="IDS_SETTINGS_ANDROID_SMS_NOTE" desc="Special note shown below Messages for Android entry in notification permissions to indicate use in DissenterOS Multidevice features.">
+      Allows Android Messages to relay texts from your phone to your Dissenterbook
     </message>
   </if>
 
@@ -3917,16 +3917,16 @@
   </message>
 
   <!-- Sync / Profiles Page -->
-  <message name="IDS_SETTINGS_PEOPLE" desc="Name of the settings page which manages the user's relationship to Brave.">
-    You and Brave
+  <message name="IDS_SETTINGS_PEOPLE" desc="Name of the settings page which manages the user's relationship to Dissenter.">
+    You and Dissenter
   </message>
   <message name="IDS_SETTINGS_PEOPLE_MANAGE_OTHER_PEOPLE" desc="Label for the button that opens the multi-profile user manager.">
     Manage other profiles
   </message>
-  <message name="IDS_SETTINGS_CHANGE_PICTURE_PROFILE_PHOTO" desc="The text on the Brave profile photo of the user.">
-    Brave Profile photo
+  <message name="IDS_SETTINGS_CHANGE_PICTURE_PROFILE_PHOTO" desc="The text on the Dissenter profile photo of the user.">
+    Dissenter Profile photo
   </message>
-  <message name="IDS_SETTINGS_PEOPLE_SIGN_OUT" desc="The label of the button that lets user sign-out of Brave.">
+  <message name="IDS_SETTINGS_PEOPLE_SIGN_OUT" desc="The label of the button that lets user sign-out of Dissenter.">
     Sign out
   </message>
 
@@ -4013,7 +4013,7 @@
       Add account
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_DESCRIPTION" desc="Description of the Account Manager Settings page. Shown just below the title of the page.">
-      Manage your signed-in accounts. Websites, apps, and extensions in Brave and Google Play may use these accounts to customize your experience, depending on permissions.
+      Manage your signed-in accounts. Websites, apps, and extensions in Dissenter and Google Play may use these accounts to customize your experience, depending on permissions.
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_LIST_HEADER" desc="List header for Account List in Account Manager Settings page.">
       Accounts
@@ -4022,16 +4022,16 @@
       My accounts
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_SUBMENU_LABEL" desc="Label of Account Manager submenu in Settings page.">
-      Brave Accounts
+      Dissenter Accounts
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_PRIMARY_ACCOUNT_TOOLTIP" desc="Tooltip for the primary account in accounts list in Settings describing how to sign out.">
       To sign out of the primary account on this device, click the time on your screen. In the menu that appears, click "Sign out".
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_SECONDARY_ACCOUNTS_DISABLED_TEXT" desc="Text for 'secondary accounts disabled' message in Settings page.">
-      Your administrator has disabled the addition of more Brave Accounts
+      Your administrator has disabled the addition of more Dissenter Accounts
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_SECONDARY_ACCOUNTS_DISABLED_CHILD_TEXT" desc="Text for 'secondary accounts disabled' message for child accounts in Settings page.">
-      Addition of more Brave Accounts is disabled
+      Addition of more Dissenter Accounts is disabled
     </message>
     <message name="IDS_SETTINGS_ACCOUNT_MANAGER_SIGNED_OUT_ACCOUNT_PLACEHOLDER" desc="Placeholder text for the full name of a signed out account in Account Manager.">
       Sign in again
@@ -4175,7 +4175,7 @@
       Sign in
     </message>
     <message name="IDS_SETTINGS_PEOPLE_SIGN_IN_PROMPT" desc="The text displayed to prompt users to sign in to chrome.">
-      Get Brave smarts in Brave
+      Get Dissenter smarts in Dissenter
     </message>
     <message name="IDS_SETTINGS_PEOPLE_SYNC_ANOTHER_ACCOUNT" desc="The label for the button that lets the user choose another account to sync with.">
       Use another account
@@ -4195,10 +4195,10 @@
     <message name="IDS_SETTINGS_PEOPLE_SYNC_PAUSED" desc="The label informing the user that sync is currently paused.">
       Sync is paused
     </message>
-    <message name="IDS_SETTINGS_SYNC_DISCONNECT_MANAGED_PROFILE_EXPLANATION" desc="The text to display in the 'Sign out of Brave' dialog to stop syncing for managed profiles.">
-      Because this account is managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph>, your bookmarks, history, passwords, and other settings will be cleared from this device. However, your data will remain stored in your Brave Account and can be managed on <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;<ex>&lt;a href="$2" target="_blank"&gt;</ex></ph>Brave Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    <message name="IDS_SETTINGS_SYNC_DISCONNECT_MANAGED_PROFILE_EXPLANATION" desc="The text to display in the 'Sign out of Dissenter' dialog to stop syncing for managed profiles.">
+      Because this account is managed by <ph name="DOMAIN">$1<ex>example.com</ex></ph>, your bookmarks, history, passwords, and other settings will be cleared from this device. However, your data will remain stored in your Dissenter Account and can be managed on <ph name="BEGIN_LINK">&lt;a href="$2" target="_blank"&gt;<ex>&lt;a href="$2" target="_blank"&gt;</ex></ph>Dissenter Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
     </message>
-    <message name="IDS_SETTINGS_EDIT_PERSON" desc="Title of the edit profile subpage. This is a subpage to edit the name and icon of a Brave Profile.">
+    <message name="IDS_SETTINGS_EDIT_PERSON" desc="Title of the edit profile subpage. This is a subpage to edit the name and icon of a Dissenter Profile.">
       Edit profile
     </message>
     <message name="IDS_SETTINGS_PROFILE_SHORTCUT_TOGGLE_LABEL" desc="Label of the toggle that creates or removes a desktop shortcut for the profile.">
@@ -4219,15 +4219,15 @@
   </if>
 
   <message name="IDS_SETTINGS_SYNC_OVERVIEW" desc="The message that appears in the options dialog when sync has not been set up by the user.">
-    Sign in to get your bookmarks, history, passwords, and other settings on all your devices. You'll also automatically be signed in to your Brave services.
+    Sign in to get your bookmarks, history, passwords, and other settings on all your devices. You'll also automatically be signed in to your Dissenter services.
   </message>
-  <message name="IDS_SETTINGS_SYNC_DISCONNECT_EXPLANATION" desc="The text to display in the Sign out of Brave dialog to stop syncing for non-managed profiles.">
-    Changes to your bookmarks, history, passwords, and other settings will no longer be synced to your Brave Account. However, your existing data will remain stored in your Brave Account and can be managed on <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>Brave Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+  <message name="IDS_SETTINGS_SYNC_DISCONNECT_EXPLANATION" desc="The text to display in the Sign out of Dissenter dialog to stop syncing for non-managed profiles.">
+    Changes to your bookmarks, history, passwords, and other settings will no longer be synced to your Dissenter Account. However, your existing data will remain stored in your Dissenter Account and can be managed on <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>Dissenter Dashboard<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
-  <message name="IDS_SETTINGS_SYNC_DISCONNECT_AND_SIGN_OUT_EXPLANATION" desc="The text to display in the Sign out of Brave dialog to stop syncing and sign-out for non-managed profiles.">
-    This will sign you out of your Brave Accounts. Your bookmarks, history, passwords, and more will no longer be synced.
+  <message name="IDS_SETTINGS_SYNC_DISCONNECT_AND_SIGN_OUT_EXPLANATION" desc="The text to display in the Sign out of Dissenter dialog to stop syncing and sign-out for non-managed profiles.">
+    This will sign you out of your Dissenter Accounts. Your bookmarks, history, passwords, and more will no longer be synced.
   </message>
-  <message name="IDS_SETTINGS_SYNC_DISCONNECT_EXPAND_ACCESSIBILITY_LABEL" desc="Label for the button in the Sign out of Brave dialog that toggles showing the profile stats. Only visible by screen reader software.">
+  <message name="IDS_SETTINGS_SYNC_DISCONNECT_EXPAND_ACCESSIBILITY_LABEL" desc="Label for the button in the Sign out of Dissenter dialog that toggles showing the profile stats. Only visible by screen reader software.">
     Show profile stats
   </message>
   <message name="IDS_SETTINGS_SYNC_DISCONNECT_DELETE_PROFILE" desc="The text to display by the checkbox asking user whether to also delete profile when stopping sync.">
@@ -4240,11 +4240,11 @@
   <message name="IDS_SETTINGS_SYNC" desc="Name of the sync service.">
     Sync
   </message>
-  <message name="IDS_SETTINGS_NON_PERSONALIZED_SERVICES_SECTION_LABEL" desc="Title for a section that shows options for various Brave services">
-    Other Brave services
+  <message name="IDS_SETTINGS_NON_PERSONALIZED_SERVICES_SECTION_LABEL" desc="Title for a section that shows options for various Dissenter services">
+    Other Dissenter services
   </message>
   <message name="IDS_SETTINGS_SYNC_SYNC_AND_NON_PERSONALIZED_SERVICES" desc="The name of the settings page and the label of the button that takes the user to manage their sync and non-personalized services settings.">
-    Sync and Brave services
+    Sync and Dissenter services
   </message>
   <message name="IDS_SETTINGS_SYNC_ADVANCED_PAGE_TITLE" desc="Name of the settings page which manages data used by sync.">
     Manage sync
@@ -4272,8 +4272,8 @@
   <message name="IDS_SETTINGS_SYNC_EVERYTHING_CHECKBOX_LABEL" desc="Label for the checkbox which causes all properties to be synced.">
     Sync everything
   </message>
-  <message name="IDS_SETTINGS_MANAGE_GOOGLE_ACCOUNT" desc="Label for the button that takes the user to the Brave Account website.">
-    Manage your Brave Account
+  <message name="IDS_SETTINGS_MANAGE_GOOGLE_ACCOUNT" desc="Label for the button that takes the user to the Dissenter Account website.">
+    Manage your Dissenter Account
   </message>
   <message name="IDS_SETTINGS_APPS_CHECKBOX_LABEL" desc="Label for the checkbox which enables or disables syncing apps between multiple browser instances.">
     Apps
@@ -4321,11 +4321,11 @@
   <message name="IDS_SETTINGS_USER_EVENTS_CHECKBOX_TEXT" desc="Description text for the checkbox which enables or disables recording user events.">
     Uses content on sites you visit, plus browser activity and interactions, for personalization
   </message>
-  <message name="IDS_SETTINGS_MANAGE_SYNCED_DATA_TITLE" desc="Title for the link to manage Brave Sync data via Brave Dashboard.">
-    Manage synced data on Brave Dashboard
+  <message name="IDS_SETTINGS_MANAGE_SYNCED_DATA_TITLE" desc="Title for the link to manage Dissenter Sync data via Dissenter Dashboard.">
+    Manage synced data on Dissenter Dashboard
   </message>
-   <message name="IDS_SETTINGS_MANAGE_SYNCED_DATA_TITLE_UNIFIED_CONSENT" desc="Title for the link to manage Brave Sync data via Brave Dashboard when unified consent is enabled.">
-    Data from Brave sync
+   <message name="IDS_SETTINGS_MANAGE_SYNCED_DATA_TITLE_UNIFIED_CONSENT" desc="Title for the link to manage Dissenter Sync data via Dissenter Dashboard when unified consent is enabled.">
+    Data from Dissenter sync
   </message>
   <message name="IDS_SETTINGS_EXISTING_PASSPHRASE_TITLE" desc="Title for the section where the user enters the passphrase.">
     Encryption options
@@ -4333,14 +4333,14 @@
   <message name="IDS_SETTINGS_ENCRYPTION_OPTIONS" desc="Title for the section which includes options for encrypting sync settings.">
     Encryption options
   </message>
-  <message name="IDS_SETTINGS_ENCRYPT_WITH_GOOGLE_CREDENTIALS_LABEL" desc="Label for the radio button which, when selected, causes synced settings to be encrypted with the Brave login for the current browser profile.">
-    Encrypt synced passwords with your Brave username and password
+  <message name="IDS_SETTINGS_ENCRYPT_WITH_GOOGLE_CREDENTIALS_LABEL" desc="Label for the radio button which, when selected, causes synced settings to be encrypted with the Dissenter login for the current browser profile.">
+    Encrypt synced passwords with your Dissenter username and password
   </message>
   <message name="IDS_SETTINGS_ENCRYPT_WITH_SYNC_PASSPHRASE_LABEL" desc="Label for the radio button which, when selected, causes synced settings to be encrypted with a user-provided password.">
-    Encrypt synced data with your own <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>sync passphrase<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>. This doesn't include payment methods and addresses from Brave Pay.
+    Encrypt synced data with your own <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>sync passphrase<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>. This doesn't include payment methods and addresses from Dissenter Pay.
   </message>
   <message name="IDS_SETTINGS_PASSPHRASE_EXPLANATION_TEXT" desc="Message shown when explicit passphrase is selected.">
-    Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Brave. If you forget your passphrase or want to change this setting, you'll need to <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>reset sync<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
+    Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Dissenter. If you forget your passphrase or want to change this setting, you'll need to <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>reset sync<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph>.
   </message>
   <message name="IDS_SETTINGS_PASSPHRASE_RESET_HINT_ENCRYPTION" desc="Informs user how to change their encryption setting.">
     To change this setting, <ph name="BEGIN_LINK">&lt;a href="$1" target="_blank"&gt;<ex>&lt;a href="$1" target="_blank"&gt;</ex></ph>reset sync<ph name="END_LINK">&lt;/a&gt;<ex>&lt;/a&gt;</ex></ph> to remove your sync passphrase
@@ -4372,7 +4372,7 @@
   <message name="IDS_SETTINGS_USE_DEFAULT_SETTINGS" desc="Text for button which, when clicked, activates the default sync settings.">
     Use default settings
   </message>
-  <message name="IDS_SETTINGS_PERSONALIZE_GOOGLE_SERVICES_TITLE" desc="Title of the personalize Brave services section. When clicked, takes the user to the Brave Activity Controls.">
+  <message name="IDS_SETTINGS_PERSONALIZE_GOOGLE_SERVICES_TITLE" desc="Title of the personalize Dissenter services section. When clicked, takes the user to the Dissenter Activity Controls.">
     Control how your browsing history is used to personalize Search, ads, and more
   </message>
 
@@ -4457,22 +4457,22 @@
 
   <!-- Parental Controls -->
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_TITLE" desc="Name of the settings page which manages BraveOS's parental controls.">
+    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_TITLE" desc="Name of the settings page which manages DissenterOS's parental controls.">
       Parental controls
     </message>
-    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_SET_UP_LABEL" desc="Label/description of the settings page which manages BraveOS's parental controls.">
+    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_SET_UP_LABEL" desc="Label/description of the settings page which manages DissenterOS's parental controls.">
       Set website restrictions &amp; screen time limits with Family Link
     </message>
     <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_CONNECT_TO_INTERNET_LABEL" desc="Label/description shown when the Parental control setup can't be launched because there is no Internet Connection.">
       Connect to the internet to set up parental controls
     </message>
-    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_VIEW_SETTINGS_LABEL" desc="Label/description of the settings page which manages BraveOS's parental controls.">
+    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_PAGE_VIEW_SETTINGS_LABEL" desc="Label/description of the settings page which manages DissenterOS's parental controls.">
       Open the Family Link app to see your supervision settings
     </message>
-    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_SET_UP_BUTTON_LABEL" desc="Label/description of the button which launches page which enables BraveOS's parental controls.">
+    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_SET_UP_BUTTON_LABEL" desc="Label/description of the button which launches page which enables DissenterOS's parental controls.">
       Set up
     </message>
-    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_SET_UP_BUTTON_ROLE" desc="Role description of the button which launches page which enables BraveOS's parental controls. Spoken aloud by screen readers when the Set Up button is focused">
+    <message name="IDS_SETTINGS_PARENTAL_CONTROLS_SET_UP_BUTTON_ROLE" desc="Role description of the button which launches page which enables DissenterOS's parental controls. Spoken aloud by screen readers when the Set Up button is focused">
       Set up button
     </message>
   </if>
@@ -4623,7 +4623,7 @@
     <message name="IDS_SETTINGS_KEYBOARD_KEY_SEARCH" desc="In Device Settings, the label and dropdown list item for the Search key.">
       Search
     </message>
-    <message name="IDS_SETTINGS_KEYBOARD_KEY_LAUNCHER" desc="In Device Settings, the label and dropdown list item for the Search key on keyboard layouts of newer Bravebooks.">
+    <message name="IDS_SETTINGS_KEYBOARD_KEY_LAUNCHER" desc="In Device Settings, the label and dropdown list item for the Search key on keyboard layouts of newer Dissenterbooks.">
       Launcher
     </message>
     <message name="IDS_SETTINGS_KEYBOARD_KEY_LEFT_CTRL" desc="In Device Settings, the label and dropdown list item for the Ctrl key.">
@@ -4656,10 +4656,10 @@
     <message name="IDS_SETTINGS_KEYBOARD_KEY_COMMAND" desc="In Device Settings, the dropdown list item for the external Command key on Apple keyboards when there's no internal keyboard on the device.">
       Command
     </message>
-    <message name="IDS_SETTINGS_KEYBOARD_KEY_EXTERNAL_META" desc="In Device Settings, the dropdown list item for the external Meta key (Search key on BraveOS keyboards, and Windows key on Windows keyboards).">
+    <message name="IDS_SETTINGS_KEYBOARD_KEY_EXTERNAL_META" desc="In Device Settings, the dropdown list item for the external Meta key (Search key on DissenterOS keyboards, and Windows key on Windows keyboards).">
       External Meta
     </message>
-    <message name="IDS_SETTINGS_KEYBOARD_KEY_META" desc="In Device Settings, the dropdown list item for the external Meta key (Search key on BraveOS keyboards, and Windows key on Windows keyboards) when there's no internal keyboard on the device.">
+    <message name="IDS_SETTINGS_KEYBOARD_KEY_META" desc="In Device Settings, the dropdown list item for the external Meta key (Search key on DissenterOS keyboards, and Windows key on Windows keyboards) when there's no internal keyboard on the device.">
       Meta
     </message>
     <message name="IDS_SETTINGS_KEYBOARD_SEND_FUNCTION_KEYS" desc="In Device Settings, the checkbox label for interpreting the top-row keys as function keys instead.">
@@ -4950,7 +4950,7 @@
     <message name="IDS_SETTINGS_STORAGE_EXTERNAL_STORAGE_LIST_HEADER" desc="Header of the list of external storage devices for the subpage for setting preferences for external storage. This is shown when the list is not empty.">
       Available devices
     </message>
-    <message name="IDS_SETTINGS_STORAGE_OVERVIEW_ARIA_LABEL" desc="The label to be read aloud by BraveVox to describe the storage usage progress bar on the Storage page">
+    <message name="IDS_SETTINGS_STORAGE_OVERVIEW_ARIA_LABEL" desc="The label to be read aloud by DissenterVox to describe the storage usage progress bar on the Storage page">
       Storage Usage Overview
     </message>
 
@@ -5013,41 +5013,41 @@
     <message name="IDS_SETTINGS_SYSTEM" desc="Title of the system settings.">
       System
     </message>
-    <message name="IDS_SETTINGS_SYSTEM_HARDWARE_ACCELERATION_LABEL" desc="Label for the checkbox that forces Brave to render via hardware acceleration (GPU) when available.">
+    <message name="IDS_SETTINGS_SYSTEM_HARDWARE_ACCELERATION_LABEL" desc="Label for the checkbox that forces Dissenter to render via hardware acceleration (GPU) when available.">
       Use hardware acceleration when available
     </message>
     <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL" desc="Label for the control that opens the system network proxy settings. These settings apply to the entire computer.">
       Open your computer's proxy settings
     </message>
-    <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_EXTENSION_LABEL" desc="Non-interactive label that describes when Brave's proxy settings are overwritten by an extension. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from an extension
+    <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_EXTENSION_LABEL" desc="Non-interactive label that describes when Dissenter's proxy settings are overwritten by an extension. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Dissenter</ex></ph> is using proxy settings from an extension
     </message>
-    <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_POLICY_LABEL" desc="Non-interactive label that describes when Brave's proxy settings are overwritten by policy. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
-      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Brave</ex></ph> is using proxy settings from your administrator
+    <message name="IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_POLICY_LABEL" desc="Non-interactive label that describes when Dissenter's proxy settings are overwritten by policy. This is used in place of IDS_SETTINGS_SYSTEM_PROXY_SETTINGS_LABEL above.">
+      <ph name="IDS_SHORT_PRODUCT_NAME">$1<ex>Dissenter</ex></ph> is using proxy settings from your administrator
     </message>
   </if>
 
   <!-- Multidevice Page -->
   <if expr="chromeos">
-    <message name="IDS_SETTINGS_MULTIDEVICE" desc="Title of a section of settings. This section describes settings for devices that are connected to the Bravebook, like phones.">
+    <message name="IDS_SETTINGS_MULTIDEVICE" desc="Title of a section of settings. This section describes settings for devices that are connected to the Dissenterbook, like phones.">
       Connected devices
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_ITEM_HEADING" desc="Heading for settings item that allows the user to connect their phone to their Bravebook.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_ITEM_HEADING" desc="Heading for settings item that allows the user to connect their phone to their Dissenterbook.">
       Android phone
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_SUMMARY" desc="Tells the user to connect their Bravebook to their phone.">
-      Connect your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> with your phone. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
+    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_SUMMARY" desc="Tells the user to connect their Dissenterbook to their phone.">
+      Connect your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> with your phone. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_NO_ELIGIBLE_HOSTS" desc="Tells the user that there is no phone with their account on it that can connect to their Bravebook.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_NO_ELIGIBLE_HOSTS" desc="Tells the user that there is no phone with their account on it that can connect to their Dissenterbook.">
       No eligible devices. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_VERIFICATION_TEXT" desc="Text to tell user that their Bravebook needs to verify that it can connect with their phone.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_VERIFICATION_TEXT" desc="Text to tell user that their Dissenterbook needs to verify that it can connect with their phone.">
       Waiting for verification. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$1<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_BUTTON" desc="Label of the button that opens a menu to the user that allows them to set up a connection between the user's phone and their Bravebook to give them access to special features.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_SETUP_BUTTON" desc="Label of the button that opens a menu to the user that allows them to set up a connection between the user's phone and their Dissenterbook to give them access to special features.">
       Set up
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_VERIFY_BUTTON" desc="Label for the button to get the Bravebook to verify that it can connect with their phone.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_VERIFY_BUTTON" desc="Label for the button to get the Dissenterbook to verify that it can connect with their phone.">
       Verify
     </message>
     <message name="IDS_SETTINGS_MULTIDEVICE_ENABLED" desc="Text to tell user multidevice features are turned on">
@@ -5056,31 +5056,31 @@
     <message name="IDS_SETTINGS_MULTIDEVICE_DISABLED" desc="Text to tell user multidevice features are turned off">
       Disabled
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_SMART_LOCK_SUMMARY" desc="Description of for the 'Smart Lock' setting. This feature automatically unlocks the user's Bravebook if their phone is nearby and unlocked.">
-      Unlock your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph> with your phone. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
+    <message name="IDS_SETTINGS_MULTIDEVICE_SMART_LOCK_SUMMARY" desc="Description of for the 'Smart Lock' setting. This feature automatically unlocks the user's Dissenterbook if their phone is nearby and unlocked.">
+      Unlock your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph> with your phone. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_INSTANT_TETHERING" desc="Name of a feature. This feature automatically offers the user to tether to their phone if their Bravebook is offline and their phone supports tethering.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_INSTANT_TETHERING" desc="Name of a feature. This feature automatically offers the user to tether to their phone if their Dissenterbook is offline and their phone supports tethering.">
       Instant Tethering
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_INSTANT_TETHERING_SUMMARY" desc="Description of for the 'Instant Tethering' setting. This feature automatically offers the user to tether to their phone if their Bravebook is offline and their phone supports tethering.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_INSTANT_TETHERING_SUMMARY" desc="Description of for the 'Instant Tethering' setting. This feature automatically offers the user to tether to their phone if their Dissenterbook is offline and their phone supports tethering.">
       Connect to the internet through your phone
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_ANDROID_MESSAGES" desc="Name of a feature. This feature lets the user read and reply to text messages from their Bravebook. New text messages will appear as notifications.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_ANDROID_MESSAGES" desc="Name of a feature. This feature lets the user read and reply to text messages from their Dissenterbook. New text messages will appear as notifications.">
       Messages
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_ANDROID_MESSAGES_SUMMARY" desc="Description of for the 'Android Messages' setting. This feature lets the user read and reply to text messages from their Bravebook. New text messages will appear as notifications.">
-      Send and receive text messages from your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
+    <message name="IDS_SETTINGS_MULTIDEVICE_ANDROID_MESSAGES_SUMMARY" desc="Description of for the 'Android Messages' setting. This feature lets the user read and reply to text messages from their Dissenterbook. New text messages will appear as notifications.">
+      Send and receive text messages from your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>. <ph name="LINK_BEGIN">&lt;a target="_blank" href="$2<ex>https://google.com/</ex>"&gt;</ph>Learn more<ph name="LINK_END">&lt;/a&gt;</ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE" desc="Header to tell the user an action will make their Bravebook forget their phone. This means they will no longer have access to multidevice features.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE" desc="Header to tell the user an action will make their Dissenterbook forget their phone. This means they will no longer have access to multidevice features.">
       Forget phone
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE_EXPLANATION" desc="Explanation on a clickable menu item that makes the Bravebook forget the user's phone. It tells the user that the menu item will cause their phone to stop acting as a partner for their Bravebook for multidevice features.">
-      Disconnect your phone from your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>
+    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE_EXPLANATION" desc="Explanation on a clickable menu item that makes the Dissenterbook forget the user's phone. It tells the user that the menu item will cause their phone to stop acting as a partner for their Dissenterbook for multidevice features.">
+      Disconnect your phone from your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_DEVICE_DIALOG_MESSAGE" desc="Text of a dialog that lets the user choose if their Bravebook should forget their phone. This means they will no longer have access to multidevice features.">
-      Disconnect your phone from your <ph name="DEVICE_TYPE">$1<ex>Bravebook</ex></ph>. They will no longer connect automatically.
+    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_DEVICE_DIALOG_MESSAGE" desc="Text of a dialog that lets the user choose if their Dissenterbook should forget their phone. This means they will no longer have access to multidevice features.">
+      Disconnect your phone from your <ph name="DEVICE_TYPE">$1<ex>Dissenterbook</ex></ph>. They will no longer connect automatically.
     </message>
-    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE_DISCONNECT" desc="Text for the button that lets the user choose if their Bravebook should forget their phone. This means they will no longer have access to multidevice features.">
+    <message name="IDS_SETTINGS_MULTIDEVICE_FORGET_THIS_DEVICE_DISCONNECT" desc="Text for the button that lets the user choose if their Dissenterbook should forget their phone. This means they will no longer have access to multidevice features.">
       Disconnect
     </message>
   </if>
@@ -5093,41 +5093,41 @@
     Change Password
   </message>
 
-  <!-- Brave Cleanup Page -->
+  <!-- Dissenter Cleanup Page -->
   <if expr="is_win and _google_chrome">
-    <message name="IDS_SETTINGS_RESET_CLEAN_UP_COMPUTER_PAGE_TITLE" desc="Title for an item in the 'Reset and clean up' section of Brave Settings. 'Clean up' refers to cleaning up harmful software on the user's computer. Imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEAN_UP_COMPUTER_PAGE_TITLE" desc="Title for an item in the 'Reset and clean up' section of Dissenter Settings. 'Clean up' refers to cleaning up harmful software on the user's computer. Imperative.">
       Clean up computer
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_EXPLANATION" desc="Text that appears below the list of files, programs, and registry entries to be removed by Brave as part of a cleanup process. 'privacy white paper' is a guide to Brave's privacy policy and practices. In 'unwanted software protection,' the word 'unwanted' modifies 'software,' i.e. 'protection from unwanted software'.">
-      Items not listed here will also be removed, if needed. Learn more about &lt;a href="<ph name="URL">$1<ex>https://www.google.com/chrome/browser/privacy/whitepaper.html#unwantedsoftware</ex></ph>"&gt;unwanted software protection&lt;/a&gt; in the Brave privacy white paper.
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_EXPLANATION" desc="Text that appears below the list of files, programs, and registry entries to be removed by Dissenter as part of a cleanup process. 'privacy white paper' is a guide to Dissenter's privacy policy and practices. In 'unwanted software protection,' the word 'unwanted' modifies 'software,' i.e. 'protection from unwanted software'.">
+      Items not listed here will also be removed, if needed. Learn more about &lt;a href="<ph name="URL">$1<ex>https://www.google.com/chrome/browser/privacy/whitepaper.html#unwantedsoftware</ex></ph>"&gt;unwanted software protection&lt;/a&gt; in the Dissenter privacy white paper.
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_EXTENSIONS" desc="Introduces a bullet list containing the names of extensions to be removed by Brave.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_EXTENSIONS" desc="Introduces a bullet list containing the names of extensions to be removed by Dissenter.">
       Extensions to be removed:
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_EXTENSION_UNKNOWN" desc="Text for a list item among a list of extensions, where we could not determine the name of the extension being cleaned up.">
       Unknown extension with ID <ph name="EXTENSION_ID">$1<ex>exampleextensionababababcdcdcdcd</ex></ph>
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_FILES_AND_PROGRAMS" desc="Introduces a bullet list containing the names of files and programs to be quarantined by Brave (i.e. removed from the original location, moved and archived in the Quarantine folder).">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_FILES_AND_PROGRAMS" desc="Introduces a bullet list containing the names of files and programs to be quarantined by Dissenter (i.e. removed from the original location, moved and archived in the Quarantine folder).">
       Files and programs to be quarantined:
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_ITEMS_TO_BE_REMOVED" desc="Label for an expansion arrow. On expansion, the screen displays a list of files and programs that Brave will remove or quarantine. Placeholder can be 2 or more items.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_ITEMS_TO_BE_REMOVED" desc="Label for an expansion arrow. On expansion, the screen displays a list of files and programs that Dissenter will remove or quarantine. Placeholder can be 2 or more items.">
       {NUM_ITEMS, plural,
         =1 {1 item}
         other {# items}}
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_REGISTRY_ENTRIES" desc="Introduces a bullet list containing the names of registry entries to be removed/changed by Brave.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_REGISTRY_ENTRIES" desc="Introduces a bullet list containing the names of registry entries to be removed/changed by Dissenter.">
       Registry entries to be removed or changed:
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_MORE" desc="Link; on click, the screen shows items to be removed by Brave. Items could include files, programs, or registry entries. This link is for advanced users. Placeholder can be 2 or more items.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_DETAILS_MORE" desc="Link; on click, the screen shows items to be removed by Dissenter. Items could include files, programs, or registry entries. This link is for advanced users. Placeholder can be 2 or more items.">
       {NUM_DOWNLOAD, plural,
         =1 {1 more}
         other {# more}}
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CLEANUP_ERROR" desc="Body of a generic error message that could appear during the cleanup of harmful software. Multiple causes for the error are possible.">
-      An error occurred while Brave was removing harmful software
+      An error occurred while Dissenter was removing harmful software
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_FIND_AND_REMOVE" desc="Subtitle of the 'Find an remove harmful software' item. Imperative.">
-      Brave can find harmful software on your computer and remove it
+      Dissenter can find harmful software on your computer and remove it
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_NO_INTERNET_CONNECTION" desc="Body of error message that could appear during the cleanup of harmful software. Imperative instruction to user. This message will only appear on Windows desktop/laptop computers. Imperative.">
       Connect to a network and try again
@@ -5135,55 +5135,55 @@
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_PERMISSIONS_NEEDED" desc="Body of error message that could appear during the cleanup of harmful software. Imperative. ">
       Click Try Again, and accept the prompt on your computer
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING" desc="Description in the Brave Cleanup web page that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is being removed by Brave from the user's computer. Appears under the title 'Removing harmful software...' Actor is Brave; we are indicating that harmful software is currently being removed. 'it' is harmful software. Preferrably, the translation for this string should parallel IDS_CHROME_CLEANUP_PROMPT_EXPLANATION.">
-      There's harmful software on your computer. Brave is removing it, restoring your settings, and disabling extensions. This will make your browser work normally again.
+    <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING" desc="Description in the Dissenter Cleanup web page that Dissenter browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is being removed by Dissenter from the user's computer. Appears under the title 'Removing harmful software...' Actor is Dissenter; we are indicating that harmful software is currently being removed. 'it' is harmful software. Preferrably, the translation for this string should parallel IDS_CHROME_CLEANUP_PROMPT_EXPLANATION.">
+      There's harmful software on your computer. Dissenter is removing it, restoring your settings, and disabling extensions. This will make your browser work normally again.
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_SCAN_ERROR" desc="Body of error message that could appear during the cleanup of harmful software.">
-      An error occurred while Brave was searching for harmful software
+      An error occurred while Dissenter was searching for harmful software
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_FIND_BUTTON_LABEL" desc="Button for the 'Find harmful software' item in Brave Settings. Imperative. On click, Brave looks for harmful software on the user's computer. Imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_FIND_BUTTON_LABEL" desc="Button for the 'Find harmful software' item in Dissenter Settings. Imperative. On click, Dissenter looks for harmful software on the user's computer. Imperative.">
       Find
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_FOOTER_POWERED_BY" desc="Branding footer on the web page for Brave Cleanup. COMPANY_NAME is the name of a technology service that Brave uses to remove harmful software from the user's computer. It is not necessary to translate 'powered by' literally; use an appropriate word for your language to convey the meaning of 'uses'. A similar use in other Brave products is 'Powered by Brave Translate.'">
-      Powered by <ph name="COMPANY_NAME">$1<ex>Brave</ex></ph>
+    <message name="IDS_SETTINGS_RESET_CLEANUP_FOOTER_POWERED_BY" desc="Branding footer on the web page for Dissenter Cleanup. COMPANY_NAME is the name of a technology service that Dissenter uses to remove harmful software from the user's computer. It is not necessary to translate 'powered by' literally; use an appropriate word for your language to convey the meaning of 'uses'. A similar use in other Dissenter products is 'Powered by Dissenter Translate.'">
+      Powered by <ph name="COMPANY_NAME">$1<ex>Dissenter</ex></ph>
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_LINK_SHOW_FILES" desc="A link, appearing on the Brave Cleanup web page, that the user can click to show the files that will be removed. Imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_LINK_SHOW_FILES" desc="A link, appearing on the Dissenter Cleanup web page, that the user can click to show the files that will be removed. Imperative.">
       Show files to be removed
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_REMOVE_BUTTON_LABEL" desc="Button on the Brave Cleanup web page. Allows users to start a cleanup of unwanted software on their computer and restore browser settings to default values. 'Remove' is imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_REMOVE_BUTTON_LABEL" desc="Button on the Dissenter Cleanup web page. Allows users to start a cleanup of unwanted software on their computer and restore browser settings to default values. 'Remove' is imperative.">
       Remove
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_RESTART_BUTTON_LABEL" desc="Button on the web page for Brave Cleanup. Clicking this button causes the user's computer to turn off (shut down) and turn back on again. Imperative. ">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_RESTART_BUTTON_LABEL" desc="Button on the web page for Dissenter Cleanup. Clicking this button causes the user's computer to turn off (shut down) and turn back on again. Imperative. ">
       Restart computer
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_DONE" desc="Message confirming that Brave has removed harmful software. Exclamation point is nice in EN-US but is optional in your language; please use or omit as appropriate. The UI will also display a checkmark icon to indicate the operation is done. ">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_DONE" desc="Message confirming that Dissenter has removed harmful software. Exclamation point is nice in EN-US but is optional in your language; please use or omit as appropriate. The UI will also display a checkmark icon to indicate the operation is done. ">
       Done! Harmful software removed. To turn extensions back on, visit &lt;a href="chrome://extensions"&gt;Extensions&lt;/a&gt;.
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_ERROR_CANT_REMOVE" desc="An error message, appearing on the Brave Cleanup web page, that Brave tried to clean up unwanted software, as requested by the user, but was unsuccessful. Omits subject, i.e. Brave can't remove harmful software.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_ERROR_CANT_REMOVE" desc="An error message, appearing on the Dissenter Cleanup web page, that Dissenter tried to clean up unwanted software, as requested by the user, but was unsuccessful. Omits subject, i.e. Dissenter can't remove harmful software.">
       Cleanup failed
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_ERROR_PERMISSIONS_NEEDED" desc="Title of error message that could appear during the cleanup of harmful software. 'permission' refers to the user granting permission, e.g. from an operating system prompt, before the cleanup operation can continue.">
-      Brave needs permission to continue
+      Dissenter needs permission to continue
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_FIND_HARMFUL_SOFTWARE" desc="Title of an item in Brave Settings. Imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_FIND_HARMFUL_SOFTWARE" desc="Title of an item in Dissenter Settings. Imperative.">
       Find harmful software
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_NO_INTERNET_CONNECTION" desc="Title of error message that could appear during the cleanup of harmful software.">
       No internet connection
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_NOTHING_FOUND" desc="Message displayed after Brave looks for harmful software but doesn't find any. ">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_NOTHING_FOUND" desc="Message displayed after Dissenter looks for harmful software but doesn't find any. ">
       No harmful software found
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVE" desc="Title of the Brave Cleanup web page. Brave browser shows the webpage when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears above a description of what the cleanup does. 'Remove' is imperative.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVE" desc="Title of the Dissenter Cleanup web page. Dissenter browser shows the webpage when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears above a description of what the cleanup does. 'Remove' is imperative.">
       Remove harmful software
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVED" desc="A confirmation, appearing on the Brave Cleanup web page, that the cleanup of unwanted software is finished. Omits 'was', i.e. Harmful software was removed. Appears next to a Done button, which lets user dismiss the confirmation.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVED" desc="A confirmation, appearing on the Dissenter Cleanup web page, that the cleanup of unwanted software is finished. Omits 'was', i.e. Harmful software was removed. Appears next to a Done button, which lets user dismiss the confirmation.">
       Harmful software removed
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVING" desc="A status message, appearing on the Brave cleanup web page, that the cleanup of unwanted software initiated by the user is in progress. Omits subject, i.e. 'Brave is removing harmful software.' If appropriate for your language, include ellipsis to show that the operation is in progress.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_REMOVING" desc="A status message, appearing on the Dissenter cleanup web page, that the cleanup of unwanted software initiated by the user is in progress. Omits subject, i.e. 'Dissenter is removing harmful software.' If appropriate for your language, include ellipsis to show that the operation is in progress.">
       Removing harmful software...
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_RESTART" desc="A status message, appearing on the Brave Cleanup web page, that the cleanup of unwanted software initiated by the user was performed but isn't finished. User must take additional action to finish the cleanup. 'Restart' is imperative. Short for 'To finish removing harmful software...'">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_RESTART" desc="A status message, appearing on the Dissenter Cleanup web page, that the cleanup of unwanted software initiated by the user was performed but isn't finished. User must take additional action to finish the cleanup. 'Restart' is imperative. Short for 'To finish removing harmful software...'">
       To finish removing harmful software, restart your computer
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_SCANNING" desc="Message displayed after the user clicks the 'Find' button to find harmful software. Ellipses indicate that the operation is in process.">
@@ -5196,9 +5196,9 @@
       Try again
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_LOGS_PERMISSION_PREF" desc="A checkbox label for the 'Report harmful software removal details' preference.">
-      Report details to Brave about harmful software, system settings, and processes that were found on your computer during this cleanup
+      Report details to Dissenter about harmful software, system settings, and processes that were found on your computer during this cleanup
     </message>
-    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_CLEANUP_UNAVAILABLE" desc="Title of error message that could appear before the cleanup of harmful software because Brave failed to contact the server. This message will only appear on Windows desktop/laptop computers.">
+    <message name="IDS_SETTINGS_RESET_CLEANUP_TITLE_CLEANUP_UNAVAILABLE" desc="Title of error message that could appear before the cleanup of harmful software because Dissenter failed to contact the server. This message will only appear on Windows desktop/laptop computers.">
       Cleanup is currently unavailable
     </message>
     <message name="IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CLEANUP_UNAVAILABLE" desc="Body of error message that could appear during the cleanup of harmful software. Imperative instruction to user. This message will only appear on Windows desktop/laptop computers.">
@@ -5213,8 +5213,8 @@
     </message>
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_SUBPAGE_SUBTITLE" desc="The subtitle shown in the subpage for incompatible applications.">
       {NUM_APPLICATIONS, plural,
-        =1 {This application could prevent Brave from working properly.}
-        other {These applications could prevent Brave from working properly.}}
+        =1 {This application could prevent Dissenter from working properly.}
+        other {These applications could prevent Dissenter from working properly.}}
     </message>
     <message name="IDS_SETTINGS_INCOMPATIBLE_APPLICATIONS_SUBPAGE_SUBTITLE_NO_ADMIN_RIGHTS" desc="The subtitle shown in the subpage for incompatible applications, when the user does not have administrator rights. This means that these users are incapable of updating or removing incompatible applications by themselves.">
       {NUM_APPLICATIONS, plural,

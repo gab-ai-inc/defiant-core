@@ -3,7 +3,7 @@
 <grit-part>
 
   <message name="IDS_AUTOCOMPLETE_SEARCH_DESCRIPTION" desc="Description for the default search match.">
-    <ph name="ENGINE">$1<ex>Brave</ex></ph> Search
+    <ph name="ENGINE">$1<ex>Dissenter</ex></ph> Search
   </message>
   <message name="IDS_EMPTY_KEYWORD_VALUE" desc="Shown in the location bar drop down when the user enters a string that matches a chrome keyword, but they haven't entered any text following the chrome keyword">
     &lt;Type search term&gt;
@@ -85,13 +85,13 @@
     Google Docs
   </message>
   <message name="IDS_DRIVE_SUGGESTION_FORM" desc="Google Docs product name, for use in omnibox Form result descriptions.">
-    Brave Forms
+    Dissenter Forms
   </message>
-  <message name="IDS_DRIVE_SUGGESTION_SPREADSHEET" desc="Brave Sheets product name, for use in omnibox Sheets result descriptions.">
-    Brave Sheets
+  <message name="IDS_DRIVE_SUGGESTION_SPREADSHEET" desc="Dissenter Sheets product name, for use in omnibox Sheets result descriptions.">
+    Dissenter Sheets
   </message>
-    <message name="IDS_DRIVE_SUGGESTION_PRESENTATION" desc="Brave Slides product name, for use in omnibox Slides result descriptions.">
-    Brave Slides
+    <message name="IDS_DRIVE_SUGGESTION_PRESENTATION" desc="Dissenter Slides product name, for use in omnibox Slides result descriptions.">
+    Dissenter Slides
   </message>
   <message name="IDS_DRIVE_SUGGESTION_GENERAL" desc="Google Drive product name, for use in general omnibox Drive file result descriptions.">
     Google Drive
@@ -108,7 +108,7 @@
     Clear
   </message>
   <message name="IDS_OMNIBOX_PEDAL_CLEAR_BROWSING_DATA_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, clear browsing data.">
-    Clear Brave's browsing history data
+    Clear Dissenter's browsing history data
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_CHANGE_SEARCH_ENGINE_HINT" desc="The button text contents to suggest pedal action, change search engine.">
@@ -118,7 +118,7 @@
     Change
   </message>
   <message name="IDS_OMNIBOX_PEDAL_CHANGE_SEARCH_ENGINE_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, change search engine.">
-    Change Search Engine settings in Brave
+    Change Search Engine settings in Dissenter
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_MANAGE_PASSWORDS_HINT" desc="The button text contents to suggest pedal action, manage passwords.">
@@ -128,7 +128,7 @@
     Manage
   </message>
   <message name="IDS_OMNIBOX_PEDAL_MANAGE_PASSWORDS_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, change language.">
-    Manage passwords in Brave settings
+    Manage passwords in Dissenter settings
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_CHANGE_HOME_PAGE_HINT" desc="The button text contents to suggest pedal action, change home page.">
@@ -138,7 +138,7 @@
     Change
   </message>
   <message name="IDS_OMNIBOX_PEDAL_CHANGE_HOME_PAGE_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, change home page.">
-    Change home page in Brave settings
+    Change home page in Dissenter settings
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_HINT" desc="The button text contents to suggest pedal action, update credit card.">
@@ -148,7 +148,7 @@
     Update
   </message>
   <message name="IDS_OMNIBOX_PEDAL_UPDATE_CREDIT_CARD_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, update credit card.">
-    Update credit card autofill info in Brave settings
+    Update credit card autofill info in Dissenter settings
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_HINT" desc="The button text contents to suggest pedal action, launch private.">
@@ -158,7 +158,7 @@
     Open
   </message>
   <message name="IDS_OMNIBOX_PEDAL_LAUNCH_INCOGNITO_SUGGESTION_CONTENTS" desc="The suggestion content text to suggest pedal action, launch private.">
-    Open new Brave private window
+    Open new Dissenter private window
   </message>
 
   <message name="IDS_OMNIBOX_PEDAL_TRANSLATE_HINT" desc="The button text contents to suggest pedal action, translate.">
@@ -185,7 +185,7 @@
        These are parameterized on the text being completed into the omnibox.
   -->
   <message name="IDS_ACC_AUTOCOMPLETE_HISTORY" desc="Text for screenreaders describing a URL from history.">
-    <ph name="LOCATION_TITLE">$2<ex>The Brave Projects</ex></ph> <ph name="SHORT_URL">$1<ex>www.chromium.org</ex> location from history</ph>
+    <ph name="LOCATION_TITLE">$2<ex>The Dissenter Projects</ex></ph> <ph name="SHORT_URL">$1<ex>www.chromium.org</ex> location from history</ph>
   </message>
   <message name="IDS_ACC_AUTOCOMPLETE_SEARCH_HISTORY" desc="Text for screenreaders describing a search from history.">
     <ph name="TEXT">$1<ex>dogs</ex></ph> search from history
@@ -203,7 +203,7 @@
     <ph name="QUERY">$1<ex>weather in los angeles</ex></ph>, answer, <ph name="ANSWER">$2<ex>sunny and 84 degrees</ex></ph>
   </message>
   <message name="IDS_ACC_AUTOCOMPLETE_BOOKMARK" desc="Text for screenreaders describing a URL from a bookmark.">
-    <ph name="LOCATION_TITLE">$2<ex>The Brave Projects</ex></ph> <ph name="SHORT_URL">$1<ex>www.chromium.org</ex> bookmark</ph>
+    <ph name="LOCATION_TITLE">$2<ex>The Dissenter Projects</ex></ph> <ph name="SHORT_URL">$1<ex>www.chromium.org</ex> bookmark</ph>
   </message>
   <message name="IDS_ACC_AUTOCOMPLETE_CLIPBOARD_IMAGE" desc="Text for screenreaders describing an image from a clipboard.">
     Search for clipboard image
@@ -219,15 +219,15 @@
   </message>
   <!-- Supplement accessibility label with item position, e.g. "1 of 3" -->
   <message name="IDS_ACC_AUTOCOMPLETE_N_OF_M" desc="Text for screenreaders describing the current match's position in the list of suggestions.">
-    <ph name="FRIENDLY_MATCH_TEXT">$1<ex>The Brave Projects http://www.chromium.org bookmark</ex></ph>, <ph name="MATCH_POSITION">$2<ex>2</ex></ph> of <ph name="NUM_MATCHES">$3<ex>3</ex></ph>
+    <ph name="FRIENDLY_MATCH_TEXT">$1<ex>The Dissenter Projects http://www.chromium.org bookmark</ex></ph>, <ph name="MATCH_POSITION">$2<ex>2</ex></ph> of <ph name="NUM_MATCHES">$3<ex>3</ex></ph>
   </message>
   <!-- Accessibility suffix for suggestions with a tab switch match. Commas are important as they add pauses. -->
   <message name="IDS_ACC_TAB_SWITCH_SUFFIX" desc="Suffix for tab switch suggestions to explain keystroke used to switch.">
-    <ph name="TAB_SWITCH_SUFFIX">$1<ex>The Brave Projects http://www.chromium.org bookmark</ex></ph>, currently open, press Tab then Enter to switch to the open tab
+    <ph name="TAB_SWITCH_SUFFIX">$1<ex>The Dissenter Projects http://www.chromium.org bookmark</ex></ph>, currently open, press Tab then Enter to switch to the open tab
   </message>
   <!-- Accessibility prefix for suggestions where the tab switch button is focused. Commas are important as they add pauses. -->
   <message name="IDS_ACC_TAB_SWITCH_BUTTON_FOCUSED_PREFIX" desc="Announcement when tab switch button focused.">
-    Tab switch button, press Enter to switch to the open tab, <ph name="TAB_SWITCH_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Brave Projects http://www.chromium.org bookmark</ex></ph>
+    Tab switch button, press Enter to switch to the open tab, <ph name="TAB_SWITCH_FOCUSED_FRIENDLY_MATCH_TEXT">$1<ex>The Dissenter Projects http://www.chromium.org bookmark</ex></ph>
   </message>
   <message name="IDS_ACC_TAB_SWITCH_BUTTON" desc="Announcement when tab switch button focused.">
     Tab switch button, press Enter to switch to this tab

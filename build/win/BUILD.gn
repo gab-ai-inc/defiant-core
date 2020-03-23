@@ -13,7 +13,7 @@ copy("copy_exe") {
   ]
 
   outputs = [
-    "$root_out_dir/brave.exe",
+    "$root_out_dir/dissenter.exe",
   ]
 
   deps = [
@@ -27,7 +27,7 @@ copy("copy_pdb") {
   ]
 
   outputs = [
-    "$root_out_dir/brave.exe.pdb",
+    "$root_out_dir/dissenter.exe.pdb",
   ]
 
   deps = [
@@ -41,13 +41,13 @@ action("create_signed_installer") {
     "$root_out_dir/mini_installer.exe"
   ]
   outputs = [
-    "$root_out_dir/brave_installer.exe",
-    "$root_out_dir/$brave_installer_exe",
+    "$root_out_dir/dissenter_installer.exe",
+    "$root_out_dir/$dissenter_installer_exe",
   ]
   out_dir = rebase_path(root_out_dir, "//")
   args = [
     "--root_out_dir=$out_dir",
-    "--brave_installer_exe=$brave_installer_exe",
+    "--dissenter_installer_exe=$dissenter_installer_exe",
   ]
 
   if (skip_signing) { args += [ "--skip_signing" ] }

@@ -43,7 +43,7 @@ pkgbuild --analyze --root "$PKG_ROOT" "$COMPONENT_PLIST"
 plutil -replace BundleIsRelocatable -bool NO "$COMPONENT_PLIST"
 
 # Create the pkg
-pkgbuild --identifier com.brave.Brave \
+pkgbuild --identifier com.gab.Dissenter \
 	 --install-location /Applications \
 	 --root "$PKG_ROOT" \
 	 --scripts "$PKG_SCRIPTS" \

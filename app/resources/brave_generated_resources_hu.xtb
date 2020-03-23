@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="hu">
-<translation id="3333887201479867589">Brave jutalmak</translation>
-<translation id="7942180974165298215">Brave hirdetés blokkolása</translation>
+<translation id="3333887201479867589">Dissenter jutalmak</translation>
+<translation id="7942180974165298215">Dissenter hirdetés blokkolása</translation>
 <translation id="4615489450165434530">Nem működő oldal jelentése</translation>
 <translation id="6406506848690869874">Szinkronizálás</translation>
 <translation id="5655621391922317800">Kriptopénztárcák</translation>
 <translation id="2445484935443597917">Új profil létrehozása</translation>
 <translation id="2666990579225592931">Vendég módú ablak megnyitása</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (kiterjesztésazonosító "<ph name="EXTENSION_ID"/>") nem engedélyezett a Brave-ben.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (kiterjesztésazonosító "<ph name="EXTENSION_ID"/>") nem engedélyezett a Dissenter-ben.</translation>
 <translation id="7450557937477381864">Chrome bezárása</translation>
 <translation id="7008934821596358692">Az importálás befejezéséhez zárja be az összes Chrome ablakot.</translation>
-<translation id="5735465527556462863">Brave bezárása (régi)</translation>
-<translation id="7737066986958447692">Az importálás befejezésével zárja be az összes (régi) Brave ablakot.</translation>
+<translation id="5735465527556462863">Dissenter bezárása (régi)</translation>
+<translation id="7737066986958447692">Az importálás befejezésével zárja be az összes (régi) Dissenter ablakot.</translation>
 <translation id="6447842834002726250">Cookie-k</translation>
 <translation id="4983925687993168579">Statisztikák</translation>
-<translation id="6165477144235978006">Brave kifizetések</translation>
+<translation id="6165477144235978006">Dissenter kifizetések</translation>
 <translation id="3489524616427966890">Ablakok és lapok megnyitása</translation>
 <translation id="3699882589215410581">Widevine telepítése és futtatása</translation>
 <translation id="8926389886865778422">Többször ne figyelmeztessen</translation>
@@ -24,11 +24,11 @@
 <translation id="8762452230727230396">Ezzel elrejtheti a felkeresett oldalak elől az IP címét.</translation>
 <translation id="8053096063396012732">Widevine telepítése</translation>
 <translation id="4840334696217618631">Widevine engedélyezéséhez indítsa újra a böngészőt</translation>
-<translation id="8410111618231938546">A Google Widevine egy digitális jogkezelő (DRM - Digital Rights Management) kód, amelyet mi a Brave Software vállalatnál nem birtokolunk és nem vizsgálunk meg. A Google Widevine kódot Google szerverektől töltjük be, nem pedig saját szervereinkről. Csak akkor töltődik be, ha engedélyezi ezt az opciót. Javasoljuk a DRM használatát, de tiszteletben tartjuk a felhasználók döntését és elismerjük, hogy néhány Brave felhasználó olyan szolgáltatásokat szeretne használni, amelyekhez ez szükséges.
+<translation id="8410111618231938546">A Google Widevine egy digitális jogkezelő (DRM - Digital Rights Management) kód, amelyet mi a Gab AI Inc vállalatnál nem birtokolunk és nem vizsgálunk meg. A Google Widevine kódot Google szerverektől töltjük be, nem pedig saját szervereinkről. Csak akkor töltődik be, ha engedélyezi ezt az opciót. Javasoljuk a DRM használatát, de tiszteletben tartjuk a felhasználók döntését és elismerjük, hogy néhány Dissenter felhasználó olyan szolgáltatásokat szeretne használni, amelyekhez ez szükséges.
 
-Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhasználási feltételeit. Beleegyezik abba, hogy a Brave nem felelős semmilyen kárért vagy veszteségért, amely a Google Widevine használatával kapcsolatban keletkezik.</translation>
-<translation id="6499845530162974140">Brave (régi)</translation>
-<translation id="3198814717959506569">Importálva a Brave alól</translation>
+Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhasználási feltételeit. Beleegyezik abba, hogy a Dissenter nem felelős semmilyen kárért vagy veszteségért, amely a Google Widevine használatával kapcsolatban keletkezik.</translation>
+<translation id="6499845530162974140">Dissenter (régi)</translation>
+<translation id="3198814717959506569">Importálva a Dissenter alól</translation>
 <translation id="453977518730680921">Média automatikus lejátszása</translation>
 <translation id="410351446219883937">Automatikus lejátszás</translation>
 <translation id="2240268017737062801">Kérdezze meg, amikor egy honlap automatikusan le akar játszani egy médiát</translation>
@@ -36,12 +36,12 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="3218385319396786393">Ezen az oldalon blokkolták az automatikus lejátszást.</translation>
 <translation id="4988333904713528597">Automatikus lejátszás általános engedélyezése itt: <ph name="HOST"/></translation>
 <translation id="4150684676757176434">Automatikus lejátszás további blokkolása</translation>
-<translation id="5883458389055721080">A Brave még nem ellenőrizte ezt a kiterjesztést biztonság szempontjából. Csak akkor telepítsd ezt a kiterjesztést, ha megbízol a fejlesztőben.</translation>
+<translation id="5883458389055721080">A Dissenter még nem ellenőrizte ezt a kiterjesztést biztonság szempontjából. Csak akkor telepítsd ezt a kiterjesztést, ha megbízol a fejlesztőben.</translation>
 <translation id="8081858229109418493">Profilnév és ikon</translation>
-<translation id="2044383478723007273">Brave színek</translation>
+<translation id="2044383478723007273">Dissenter színek</translation>
 <translation id="2814998458708016836">Használj széles címsort</translation>
-<translation id="6123134130710658846">Brave jutalmak gomb elrejtése</translation>
-<translation id="7635711399568194460">Elrejti a Brave Jutalmak gombot a helysávban, amikor a Brave Jutalmak nincs engedélyezve.</translation>
+<translation id="6123134130710658846">Dissenter jutalmak gomb elrejtése</translation>
+<translation id="7635711399568194460">Elrejti a Dissenter Jutalmak gombot a helysávban, amikor a Dissenter Jutalmak nincs engedélyezve.</translation>
 <translation id="1520361618554057102">Mindig mutassa a könyvjelzőket az új fül oldalon</translation>
 <translation id="5802665280774361839">Mutassa az automatikus kiegészítést a címsorban</translation>
 <translation id="7965178729203412357">Új Tor azonosító</translation>
@@ -51,10 +51,10 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="3696187925156352769">Tor ablak megnyitása</translation>
 <translation id="1434416574322382019">Új</translation>
 <translation id="4703780849509456860">Link megnyitása Tor használatával privát ablakban</translation>
-<translation id="3488584642074079080">Hivatkozás megnyitása Brave Privát Ablakkal a Torban</translation>
+<translation id="3488584642074079080">Hivatkozás megnyitása Dissenter Privát Ablakkal a Torban</translation>
 <translation id="6313675821927505581">Új privát ablak a Tor böngészővel</translation>
 <translation id="2638041073279639246">Hivatkozás megnyitása privát ablakban a Tor böngészővel</translation>
-<translation id="3425600262621021599">Hivatkozás megnyitása Brave privát ablakban a Tor böngészővel</translation>
+<translation id="3425600262621021599">Hivatkozás megnyitása Dissenter privát ablakban a Tor böngészővel</translation>
 <translation id="3155170474926428993">Tor indítóprogram</translation>
 <translation id="2515126961943087659">BAT hirdetési szolgáltatás</translation>
 <translation id="7924918279836988121">Bat főkönyvi szolgáltatás</translation>
@@ -106,7 +106,7 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="1085027414516521238">MetaMask</translation>
 <translation id="6554397389149987360">Hangouts komponenseket használ, hogy lehetővé tegye a képernyőmegosztást és más funkciókat a böngészőben.</translation>
 <translation id="1765684547504191670">Média-útválasztó komponens használatával engedélyezi a Chromecastot a böngészőben.</translation>
-<translation id="9156965752763025780">Módosításai a Brave újraindítása után lépnek érvénybe.</translation>
+<translation id="9156965752763025780">Módosításai a Dissenter újraindítása után lépnek érvénybe.</translation>
 <translation id="7179921470347911571">Indítsd újra most</translation>
 <translation id="4154389611571860454">IPFS Companion bővítmény használata, hogy a böngésző támogathassa az IPFS-t.</translation>
 <translation id="8137559199583651773">Bővítmények kezelése</translation>
@@ -119,51 +119,51 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="3789841737615482174">Telepítés</translation>
 <translation id="7658239707568436148">Mégse</translation>
 <translation id="1307431692088049276">Ne kérdezze meg többször</translation>
-<translation id="3371343170427636147">Brave böngésző Nightly alkalmazások</translation>
-<translation id="4097979995947147464">Brave böngésző béta alkalmazások</translation>
-<translation id="8303432794159193481">Brave böngésző fejlesztői alkalmazások</translation>
-<translation id="8292967014767479012">Brave bőngésző alkalmazások</translation>
-<translation id="4743468424889072281">Brave böngésző fejlesztési alkalmazások</translation>
+<translation id="3371343170427636147">Dissenter böngésző Nightly alkalmazások</translation>
+<translation id="4097979995947147464">Dissenter böngésző béta alkalmazások</translation>
+<translation id="8303432794159193481">Dissenter böngésző fejlesztői alkalmazások</translation>
+<translation id="8292967014767479012">Dissenter bőngésző alkalmazások</translation>
+<translation id="4743468424889072281">Dissenter böngésző fejlesztési alkalmazások</translation>
 <translation id="6624718837376802990">Edgy Rewards avatár</translation>
-<translation id="6617313057407561765">Edgy Brave avatár</translation>
+<translation id="6617313057407561765">Edgy Dissenter avatár</translation>
 <translation id="6754445808455578019">Edgy Ocean avatár</translation>
 <translation id="1202230982786524987">Edgy Grass avatár</translation>
 <translation id="5795513892420634319">Edgy Corn avatár</translation>
 <translation id="3561521017993720050">Edgy Royal avatár</translation>
 <translation id="1235866128911626592">Edgy Ninja avatár</translation>
 <translation id="2090755120827623384">Paladin Rewards avatár</translation>
-<translation id="2018119859356143702">Paladin Brave avatár</translation>
+<translation id="2018119859356143702">Paladin Dissenter avatár</translation>
 <translation id="4740488466586929481">Paladin Ocean avatár</translation>
 <translation id="5006207620676644913">Paladin Grass avatár</translation>
 <translation id="3989232963815817109">Paladin Corn avatár</translation>
 <translation id="4594102608669574640">Paladin Royal avatár</translation>
 <translation id="2183738260538789532">Paladin Ninja avatár</translation>
 <translation id="1364533449989493534">Gleam Rewards avatár</translation>
-<translation id="7885078296101135895">Gleam Brave avatár</translation>
+<translation id="7885078296101135895">Gleam Dissenter avatár</translation>
 <translation id="5569105529336093187">Gleam Ocean avatár</translation>
 <translation id="8905105122495847950">Gleam Grass avatár</translation>
 <translation id="5118043134512650846">Gleam Corn avatár</translation>
 <translation id="7054896317531348319">Gleam Royal avatár</translation>
 <translation id="5493441852328628982">Gleam Ninja avatár</translation>
 <translation id="2752844432779340213">Oval Rewards avatár</translation>
-<translation id="3981340065784739675">Oval Brave avatár</translation>
+<translation id="3981340065784739675">Oval Dissenter avatár</translation>
 <translation id="8950124663623888116">Oval Ocean avatár</translation>
 <translation id="1029136880675307651">Oval Grass avatár</translation>
 <translation id="3285059582709531888">Oval Corn avatár</translation>
 <translation id="8540390244071055918">Oval Royal avatár</translation>
 <translation id="3435440003463944104">Oval Ninja avatár</translation>
 <translation id="4222150638283443362">Bonbon Rewards avatár</translation>
-<translation id="8888471219870198387">Bonbon Brave avatár</translation>
+<translation id="8888471219870198387">Bonbon Dissenter avatár</translation>
 <translation id="2883756935342108947">Bonbon Ocean avatár</translation>
 <translation id="6280956561199400472">Bonbon Grass avatár</translation>
 <translation id="5318548116565208315">Bonbon Corn avatár</translation>
 <translation id="1959966725083452288">Bonbon Royal avatár</translation>
 <translation id="2039034364578911089">Bonbon Ninja avatár</translation>
-<translation id="1872784258300710671">A Brave teljes mértékben anonimizált termékanalízis segítségével becsüli meg egyes funkciók összesített használatát.</translation>
+<translation id="1872784258300710671">A Dissenter teljes mértékben anonimizált termékanalízis segítségével becsüli meg egyes funkciók összesített használatát.</translation>
 <translation id="8712637175834984815">Sikerült</translation>
 <translation id="4394049700291259645">Kikapcsolás</translation>
-<translation id="6469509880167172749">Teljes mértékben anonim termékanalízis automatikus küldése a Brave-hez</translation>
-<translation id="7090566321964540749">Ez az anonimizált adat mindösszesen azt teszi lehetővé, hogy a Brave megbecsülhesse egyes funkciók összesített használatát.</translation>
+<translation id="6469509880167172749">Teljes mértékben anonim termékanalízis automatikus küldése a Dissenter-hez</translation>
+<translation id="7090566321964540749">Ez az anonimizált adat mindösszesen azt teszi lehetővé, hogy a Dissenter megbecsülhesse egyes funkciók összesített használatát.</translation>
 <translation id="7583735190612229830">Állítsa be, hogy a Crypto Wallets együttműködjön ezzel és más hasonló alkalmazásokkal.</translation>
 <translation id="8337117349965899723">Használja a Crypto Walletset</translation>
 <translation id="5756155765711979898">Használja a MetaMaskot</translation>
@@ -172,7 +172,7 @@ Ennek a bővítménynek a telepítésével elfogadja a Google Widevine felhaszn�
 <translation id="2609895996619941644">Meg szeretné tekinteni, hogy van-e mentett verziója a Wayback Machine-nek?</translation>
 <translation id="8053093028263274061">Elnézést, de nincs mentett verzió</translation>
 <translation id="8517321676372639828">Mentett verziók ellenőrzése</translation>
-<translation id="191143826155037518">A Brave-et a <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla nyilvános licenc 2.0 értelmében használhatja<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) és tartalmazza a <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>nyílt forráskódú szoftvert<ph name="END_LINK_OSS">&lt;/a&gt;</ph> különböző más licencek alatt.
+<translation id="191143826155037518">A Dissenter-et a <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla nyilvános licenc 2.0 értelmében használhatja<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) és tartalmazza a <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>nyílt forráskódú szoftvert<ph name="END_LINK_OSS">&lt;/a&gt;</ph> különböző más licencek alatt.
  Elolvashatja a <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>útmutatót a letöltéshez és a saját építéshez<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>ennek a példánynak a készítéséhez használt forráskód<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.</translation>
 <translation id="4474155171896946103">Összes lap hozzáadása a könyvjelzőkhöz...</translation>
 <translation id="2336228925368920074">Összes lap hozzáadása a könyvjelzőkhöz...</translation>

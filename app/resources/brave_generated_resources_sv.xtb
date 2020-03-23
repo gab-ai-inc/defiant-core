@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="sv">
-<translation id="3333887201479867589">Brave Rewards</translation>
-<translation id="7942180974165298215">Brave annonsblockerare</translation>
+<translation id="3333887201479867589">Dissenter Rewards</translation>
+<translation id="7942180974165298215">Dissenter annonsblockerare</translation>
 <translation id="4615489450165434530">Rapportera en trasig webbplats</translation>
 <translation id="6406506848690869874">Synka</translation>
 <translation id="5655621391922317800">Kryptoplånböcker</translation>
 <translation id="2445484935443597917">Skapa en ny profil</translation>
 <translation id="2666990579225592931">Öppna ett gästfönster</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") är inte tillåtet i Brave.</translation>
-<translation id="7450557937477381864">Stäng Brave</translation>
-<translation id="7008934821596358692">Stäng alla Brave fönster för att göra klart importen.</translation>
-<translation id="5735465527556462863">Stäng Brave (gammal)</translation>
-<translation id="7737066986958447692">Stäng alla fönster i Brave (gammal) så att importen kan slutföras.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") är inte tillåtet i Dissenter.</translation>
+<translation id="7450557937477381864">Stäng Dissenter</translation>
+<translation id="7008934821596358692">Stäng alla Dissenter fönster för att göra klart importen.</translation>
+<translation id="5735465527556462863">Stäng Dissenter (gammal)</translation>
+<translation id="7737066986958447692">Stäng alla fönster i Dissenter (gammal) så att importen kan slutföras.</translation>
 <translation id="6447842834002726250">Kakor</translation>
 <translation id="4983925687993168579">Statistik</translation>
-<translation id="6165477144235978006">Brave-betalningar</translation>
+<translation id="6165477144235978006">Dissenter-betalningar</translation>
 <translation id="3489524616427966890">Öppna fönster och flikar</translation>
 <translation id="3699882589215410581">Installera och kör Wildwine</translation>
 <translation id="8926389886865778422">Fråga inte igen.</translation>
@@ -24,11 +24,11 @@
 <translation id="8762452230727230396">Tor gömmer din IP-adress från sidorna du besöker.</translation>
 <translation id="8053096063396012732">Installera Widevine</translation>
 <translation id="4840334696217618631">Starta om webbläsaren för att aktivera Widevine</translation>
-<translation id="8410111618231938546">Google Widevine är ett stycke kod för Digital Rights Management (DRM) som vi på Brave Software varken äger eller kan inspektera. Koden för Google Wideline laddas från Googles servrar, inte från våra servrar. Den laddas endast när du aktiverar det här valet. Vi avråder från användning av DRM, men vi respekterar användarens val och tillstår att vissa Brave-användare vill använda tjänster som kräver detta.
+<translation id="8410111618231938546">Google Widevine är ett stycke kod för Digital Rights Management (DRM) som vi på Gab AI Inc varken äger eller kan inspektera. Koden för Google Wideline laddas från Googles servrar, inte från våra servrar. Den laddas endast när du aktiverar det här valet. Vi avråder från användning av DRM, men vi respekterar användarens val och tillstår att vissa Dissenter-användare vill använda tjänster som kräver detta.
 
-Genom att installera detta tillägg godkänner du användarvillkoren för Google Widevine. Du accepterar att Brave inte kan hållas ansvarig för skada eller förlust till följd av din användning av Google Widevine.</translation>
-<translation id="6499845530162974140">Brave (gammal)</translation>
-<translation id="3198814717959506569">Importerad från Brave</translation>
+Genom att installera detta tillägg godkänner du användarvillkoren för Google Widevine. Du accepterar att Dissenter inte kan hållas ansvarig för skada eller förlust till följd av din användning av Google Widevine.</translation>
+<translation id="6499845530162974140">Dissenter (gammal)</translation>
+<translation id="3198814717959506569">Importerad från Dissenter</translation>
 <translation id="453977518730680921">Spela upp media automatiskt</translation>
 <translation id="410351446219883937">Autospela</translation>
 <translation id="2240268017737062801">Fråga när en sida vill autospela media</translation>
@@ -36,12 +36,12 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="3218385319396786393">Autouppspelning blockerades på denna sida</translation>
 <translation id="4988333904713528597">Autospela alltid på <ph name="HOST"/></translation>
 <translation id="4150684676757176434">Fortsätt blockera automatisk uppspelning</translation>
-<translation id="5883458389055721080">Brave har inte granskat detta tillägg gällande säkerhet. Installera bara tillägget om du litar på utvecklaren.</translation>
+<translation id="5883458389055721080">Dissenter har inte granskat detta tillägg gällande säkerhet. Installera bara tillägget om du litar på utvecklaren.</translation>
 <translation id="8081858229109418493">Profilnamn och ikon</translation>
-<translation id="2044383478723007273">Bravefärger</translation>
+<translation id="2044383478723007273">Dissenterfärger</translation>
 <translation id="2814998458708016836">Använd brett adressfält</translation>
-<translation id="6123134130710658846">Dölj Brave Rewards-knappen</translation>
-<translation id="7635711399568194460">Döljer knappen Brave Rewards i adressfältet när Brave Rewards inte är aktiverat</translation>
+<translation id="6123134130710658846">Dölj Dissenter Rewards-knappen</translation>
+<translation id="7635711399568194460">Döljer knappen Dissenter Rewards i adressfältet när Dissenter Rewards inte är aktiverat</translation>
 <translation id="1520361618554057102">Visa alltid bokmärken i en Ny flik</translation>
 <translation id="5802665280774361839">Visa textförslag i adressfältet</translation>
 <translation id="7965178729203412357">Ny Tor-identitet</translation>
@@ -51,10 +51,10 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="3696187925156352769">Öppna Tor-fönster</translation>
 <translation id="1434416574322382019">Nytt privat fönster med Tor</translation>
 <translation id="4703780849509456860">Öppna länk i privat fönster med Tor</translation>
-<translation id="3488584642074079080">Öppna länken med Tor i ett privat Bravefönster</translation>
+<translation id="3488584642074079080">Öppna länken med Tor i ett privat Dissenterfönster</translation>
 <translation id="6313675821927505581">Nytt privat fönster med Tor</translation>
 <translation id="2638041073279639246">Öppna länk i nytt privat fönster med Tor</translation>
-<translation id="3425600262621021599">Öppna länk i Brave i ett privat fönster med Tor</translation>
+<translation id="3425600262621021599">Öppna länk i Dissenter i ett privat fönster med Tor</translation>
 <translation id="3155170474926428993">Tor launcher</translation>
 <translation id="2515126961943087659">BAT-annonstjänst</translation>
 <translation id="7924918279836988121">Bat huvudbokstjänst</translation>
@@ -63,7 +63,7 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="6303294677342628402">Sköldar</translation>
 <translation id="7133511168130368997">Blockera spårare och annonser som följer dig på nätet.</translation>
 <translation id="2761825942249694703">Detta är standardinställningarna för Shields. De gäller alla webbplatser om du inte ändrar något i Shields-panelen på en viss webbplats. Att ändra dessa påverkar inte dina befintliga inställningar per webbplats.</translation>
-<translation id="8754605759692119662">Detta blockerar de flesta annonser på webbplatser, inte Brave privata annonser — de styrs av</translation>
+<translation id="8754605759692119662">Detta blockerar de flesta annonser på webbplatser, inte Dissenter privata annonser — de styrs av</translation>
 <translation id="6388201778088078932">inställningar.</translation>
 <translation id="9185018653595759199">Blockering av sociala media</translation>
 <translation id="7390783310074170337">Standardvy</translation>
@@ -106,7 +106,7 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="1085027414516521238">MetaMask</translation>
 <translation id="6554397389149987360">Använder komponenten Hangouts för att aktivera skärmdelning och andra funktioner i webbläsaren.</translation>
 <translation id="1765684547504191670">Använder komponenten Media Router för att aktivera Chromecast i webbläsaren.</translation>
-<translation id="9156965752763025780">Ändringarna tillämpas nästa gång du startar om Brave.</translation>
+<translation id="9156965752763025780">Ändringarna tillämpas nästa gång du startar om Dissenter.</translation>
 <translation id="7179921470347911571">Starta om nu</translation>
 <translation id="4154389611571860454">Använder IPFS-tillägget för att stödja IPFS i webbläsaren.</translation>
 <translation id="8137559199583651773">Hantera tillägg</translation>
@@ -119,11 +119,11 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="3789841737615482174">Installera</translation>
 <translation id="7658239707568436148">Avbryt</translation>
 <translation id="1307431692088049276">Fråga mig inte igen</translation>
-<translation id="3371343170427636147">Brave Browser Nightly-appar</translation>
-<translation id="4097979995947147464">Brave Browser Beta-appar</translation>
-<translation id="8303432794159193481">Brave Browser Dev-appar</translation>
-<translation id="8292967014767479012">Brave Browser-appar</translation>
-<translation id="4743468424889072281">Brave Browser utvecklingsappar</translation>
+<translation id="3371343170427636147">Dissenter Browser Nightly-appar</translation>
+<translation id="4097979995947147464">Dissenter Browser Beta-appar</translation>
+<translation id="8303432794159193481">Dissenter Browser Dev-appar</translation>
+<translation id="8292967014767479012">Dissenter Browser-appar</translation>
+<translation id="4743468424889072281">Dissenter Browser utvecklingsappar</translation>
 <translation id="6624718837376802990">Avataren Vassa belöningar</translation>
 <translation id="6617313057407561765">Avataren Vasst modig</translation>
 <translation id="6754445808455578019">Avataren Vass ocean</translation>
@@ -159,11 +159,11 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="5318548116565208315">Avataren Godismajs</translation>
 <translation id="1959966725083452288">Avataren Kungligt godis</translation>
 <translation id="2039034364578911089">Avataren Godisninja</translation>
-<translation id="1872784258300710671">Brave använder helt privat produktanalys för att uppskatta den sammanlagda användningen av vissa funktioner.</translation>
+<translation id="1872784258300710671">Dissenter använder helt privat produktanalys för att uppskatta den sammanlagda användningen av vissa funktioner.</translation>
 <translation id="8712637175834984815">Uppfattat</translation>
 <translation id="4394049700291259645">Inaktivera</translation>
-<translation id="6469509880167172749">Skicka automatiskt helt privat produktanalys till Brave</translation>
-<translation id="7090566321964540749">Denna anonyma information används endast för att Brave ska kunna uppskatta generella användningen av vissa funktioner.</translation>
+<translation id="6469509880167172749">Skicka automatiskt helt privat produktanalys till Dissenter</translation>
+<translation id="7090566321964540749">Denna anonyma information används endast för att Dissenter ska kunna uppskatta generella användningen av vissa funktioner.</translation>
 <translation id="7583735190612229830">Ställ in Crypto Wallets för att interagera med denna app och andra som den.</translation>
 <translation id="8337117349965899723">Använd Crypto Wallets</translation>
 <translation id="5756155765711979898">Använd MetaMask</translation>
@@ -172,7 +172,7 @@ Genom att installera detta tillägg godkänner du användarvillkoren för Google
 <translation id="2609895996619941644">Vill du kolla om det finns en sparad version tillgänglig på Wayback Machine?</translation>
 <translation id="8053093028263274061">Tyvärr finns det ingen sparad version tillgänglig.</translation>
 <translation id="8517321676372639828">Kolla efter sparad version</translation>
-<translation id="191143826155037518">Brave görs tillgängligt för dig under <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) och inkluderar <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>öppen källkod<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under flera andra licenser.
+<translation id="191143826155037518">Dissenter görs tillgängligt för dig under <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) och inkluderar <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>öppen källkod<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under flera andra licenser.
         Du kan läsa <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instruktioner om hur du laddar ner och själv kan bygga<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> den specifika <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>källkod som använts för att skapa denna version<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.</translation>
 <translation id="4474155171896946103">Skapa bokmärken för alla flikar ...</translation>
 <translation id="2336228925368920074">Skapa bokmärken för alla flikar ...</translation>

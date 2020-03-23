@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="th">
-<translation id="3333887201479867589">Brave Rewards</translation>
-<translation id="7942180974165298215">Brave Ad Block</translation>
+<translation id="3333887201479867589">Dissenter Rewards</translation>
+<translation id="7942180974165298215">Dissenter Ad Block</translation>
 <translation id="4615489450165434530">รายงานเว็บไซต์เสียหาย</translation>
 <translation id="6406506848690869874">ซิงค์</translation>
 <translation id="5655621391922317800">คริปโตวอลเล็ท</translation>
 <translation id="2445484935443597917">สร้างโปรไฟล์ใหม่</translation>
 <translation id="2666990579225592931">เปิดหน้าต่างผู้มาเยือน</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (การระบุชื่อสกุลแฟ้ม "<ph name="EXTENSION_ID"/>") ไม่ได้รับอนุญาตในโปรแกรมของเบรฟ (Brave)</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (การระบุชื่อสกุลแฟ้ม "<ph name="EXTENSION_ID"/>") ไม่ได้รับอนุญาตในโปรแกรมของเบรฟ (Dissenter)</translation>
 <translation id="7450557937477381864">ปิด Chrome</translation>
 <translation id="7008934821596358692">เพื่อเสร็จสิ้นการนำเข้า ปิดหน้าต่าง Chrome ทั้งหมด</translation>
-<translation id="5735465527556462863">ปิด Brave (เก่า)</translation>
-<translation id="7737066986958447692">เพื่อให้การนำเข้าเสร็จสิ้น โปรดปิดหน้าต่าง Brave (เก่า) ทั้งหมด</translation>
+<translation id="5735465527556462863">ปิด Dissenter (เก่า)</translation>
+<translation id="7737066986958447692">เพื่อให้การนำเข้าเสร็จสิ้น โปรดปิดหน้าต่าง Dissenter (เก่า) ทั้งหมด</translation>
 <translation id="6447842834002726250">คุกกี้</translation>
 <translation id="4983925687993168579">สถิติ</translation>
-<translation id="6165477144235978006">การชำระเงิน Brave</translation>
+<translation id="6165477144235978006">การชำระเงิน Dissenter</translation>
 <translation id="3489524616427966890">เปิดหน้าต่างและแท็บ</translation>
 <translation id="3699882589215410581">ติดตั้งและเปิดใช้งาน Widevine</translation>
 <translation id="8926389886865778422">ไม่ต้องถามอีก</translation>
@@ -24,11 +24,11 @@
 <translation id="8762452230727230396">Tor จะซ่อนที่อยู่ IP ของคุณจากเว็บไซต์ที่คุณเยี่ยมชม</translation>
 <translation id="8053096063396012732">ติดตั้ง Widevine</translation>
 <translation id="4840334696217618631">รีสตาร์ทเบราว์เซอร์เพื่อเปิดใช้ Widevine</translation>
-<translation id="8410111618231938546">Google Widevine คือชิ้นส่วนรหัส Digital Rights Management (DRM) ที่พวกเราที่ Brave Software ไม่ได้เป็นเจ้าของและไม่สามารถทำการตรวจได้ รหัส Google Widevine ได้ถูกโหลดจากเซิร์ฟเวอร์ Google ไม่ได้โหลดจากเซิร์ฟเวอร์ของเรา DRM จะถูกโหลดเมื่อคุณเปิดตัวเลือกนี้  เราไม่สนับสนุนการใช้ DRM แต่เราเคารพการตัดสินใจของผู้ใช้และเข้าใจว่าผู้ใช้ Brave บางท่านอาจต้องการใช้บริการที่ต้องการมัน
+<translation id="8410111618231938546">Google Widevine คือชิ้นส่วนรหัส Digital Rights Management (DRM) ที่พวกเราที่ Gab AI Inc ไม่ได้เป็นเจ้าของและไม่สามารถทำการตรวจได้ รหัส Google Widevine ได้ถูกโหลดจากเซิร์ฟเวอร์ Google ไม่ได้โหลดจากเซิร์ฟเวอร์ของเรา DRM จะถูกโหลดเมื่อคุณเปิดตัวเลือกนี้  เราไม่สนับสนุนการใช้ DRM แต่เราเคารพการตัดสินใจของผู้ใช้และเข้าใจว่าผู้ใช้ Dissenter บางท่านอาจต้องการใช้บริการที่ต้องการมัน
 
-โดยการติดตั้งส่วนขยายนี้ คุณได้ยอมรับข้อตกลงการใช้งาน Google Widevine คุณได้ตกลงว่า Brave จะไม่รับผิดชอบต่อความเสียหายหรือสูญหายในการเชื่อมต่อการใช้ Google Widevine ของคุณ</translation>
-<translation id="6499845530162974140">Brave (เก่า)</translation>
-<translation id="3198814717959506569">นำเข้าจาก Brave</translation>
+โดยการติดตั้งส่วนขยายนี้ คุณได้ยอมรับข้อตกลงการใช้งาน Google Widevine คุณได้ตกลงว่า Dissenter จะไม่รับผิดชอบต่อความเสียหายหรือสูญหายในการเชื่อมต่อการใช้ Google Widevine ของคุณ</translation>
+<translation id="6499845530162974140">Dissenter (เก่า)</translation>
+<translation id="3198814717959506569">นำเข้าจาก Dissenter</translation>
 <translation id="453977518730680921">เล่นสื่ออัตโนมัติ</translation>
 <translation id="410351446219883937">เล่นอัตโนมัติ</translation>
 <translation id="2240268017737062801">ถามเมื่อเว็บต้องการเล่นสื่ออัตโนมัติ</translation>
@@ -36,12 +36,12 @@
 <translation id="3218385319396786393">การเล่นอัตโนมัติถูกบล็อกในหน้านี้</translation>
 <translation id="4988333904713528597">ยินยอมให้ทำการเล่นแบบอัตโนมัติบน <ph name="HOST"/> เสมอ</translation>
 <translation id="4150684676757176434">ทำการบล็อกการเล่นอัตโนมัติต่อ</translation>
-<translation id="5883458389055721080">Brave ยังไม่ได้ตรวจสอบความมั่นคงและความปลอดภัยของส่วนขยายนี้ ติดตั้งส่วนขยายนี้ถ้าคุณไว้ใจผู้พัฒนาได้เท่านั้น</translation>
+<translation id="5883458389055721080">Dissenter ยังไม่ได้ตรวจสอบความมั่นคงและความปลอดภัยของส่วนขยายนี้ ติดตั้งส่วนขยายนี้ถ้าคุณไว้ใจผู้พัฒนาได้เท่านั้น</translation>
 <translation id="8081858229109418493">ชื่อโปรไฟล์และไอคอน</translation>
-<translation id="2044383478723007273">สี Brave</translation>
+<translation id="2044383478723007273">สี Dissenter</translation>
 <translation id="2814998458708016836">ใช้แถบที่อยู่แบบกว้าง</translation>
-<translation id="6123134130710658846">ซ่อนปุ่ม Brave Rewards</translation>
-<translation id="7635711399568194460">ซ่อนปุ่ม Brave Rewards ในแถบสถานที่ตั้งเมื่อไม่ได้เปิดใช้ Brave Rewards</translation>
+<translation id="6123134130710658846">ซ่อนปุ่ม Dissenter Rewards</translation>
+<translation id="7635711399568194460">ซ่อนปุ่ม Dissenter Rewards ในแถบสถานที่ตั้งเมื่อไม่ได้เปิดใช้ Dissenter Rewards</translation>
 <translation id="1520361618554057102">แสดงบุ๊กมาร์กในหน้าแท็บใหม่เสมอ</translation>
 <translation id="5802665280774361839">แสดงรายการที่ดำเนินการอัตโนมัติในแถบแอดเดรส</translation>
 <translation id="7965178729203412357">ตัวตน Tor ใหม่</translation>
@@ -51,10 +51,10 @@
 <translation id="3696187925156352769">เปิดหน้าต่าง Tor</translation>
 <translation id="1434416574322382019">การสร้างวินโดว์ส่วนบุคคลกับทอร์</translation>
 <translation id="4703780849509456860">เปิดลิงก์ในหน้าต่างส่วนตัวพร้อม Tor</translation>
-<translation id="3488584642074079080">เปิดลิงก์ในหน้าต่างส่วนตัวของ Brave พร้อม Tor</translation>
+<translation id="3488584642074079080">เปิดลิงก์ในหน้าต่างส่วนตัวของ Dissenter พร้อม Tor</translation>
 <translation id="6313675821927505581">หน้าต่างส่วนตัวใหม่ด้วย Tor</translation>
 <translation id="2638041073279639246">เปิดลิงก์ในหน้าต่างส่วนตัวด้วย Tor</translation>
-<translation id="3425600262621021599">เปิดลิงก์ในหน้าต่างส่วนตัวของ Brave ด้วย Tor</translation>
+<translation id="3425600262621021599">เปิดลิงก์ในหน้าต่างส่วนตัวของ Dissenter ด้วย Tor</translation>
 <translation id="3155170474926428993">Tor Launcher</translation>
 <translation id="2515126961943087659">บริการโฆษณา BAT</translation>
 <translation id="7924918279836988121">บริการรายการเดินบัญชี Bat</translation>
@@ -63,7 +63,7 @@
 <translation id="6303294677342628402">ปกป้อง</translation>
 <translation id="7133511168130368997">บล็อกตัวติดตามและโฆษณาที่ติดตามคุณข้ามเว็บ</translation>
 <translation id="2761825942249694703">นี่คือการตั้งค่า Shields เริ่มต้น การตั้งค่าเหล่านี้จะมีผลกับเว็บไซต์ทั้งหมด เว้นแต่ว่าคุณจะเปลี่ยนแปลงอะไรบางอย่างในแผง Shields บนไซต์ใดไซต์หนึ่งโดยเฉพาะ การเปลี่ยนแปลงค่าเหล่านี้จะไม่มีผลกับการตั้งค่าต่อไซต์ที่มีอยู่แล้วของคุณ</translation>
-<translation id="8754605759692119662">คำสั่งนี้จะบล็อกโฆษณาเกือบทั้งหมดบนเว็บไซต์ ยกเว้นโฆษณาส่วนตัวของ Brave เพราะโฆษณาเหล่านั้นถูกควบคุมใน</translation>
+<translation id="8754605759692119662">คำสั่งนี้จะบล็อกโฆษณาเกือบทั้งหมดบนเว็บไซต์ ยกเว้นโฆษณาส่วนตัวของ Dissenter เพราะโฆษณาเหล่านั้นถูกควบคุมใน</translation>
 <translation id="6388201778088078932">การตั้งค่า</translation>
 <translation id="9185018653595759199">การบล็อกโซเชียลมีเดีย</translation>
 <translation id="7390783310074170337">มุมมองเริ่มต้น</translation>
@@ -106,7 +106,7 @@
 <translation id="1085027414516521238">MetaMask</translation>
 <translation id="6554397389149987360">ใช้ส่วนประกอบ Hangouts เพื่อเปิดใช้งานการแชร์หน้าจอและฟีเจอร์อื่น ๆ ในเบราว์เซอร์</translation>
 <translation id="1765684547504191670">ใช้คอมโพเนนต์ Media Router เพื่อเปิดใช้งาน Chromecast ในเบราว์เซอร์</translation>
-<translation id="9156965752763025780">การเปลี่ยนแปลงของคุณจะมีผลในครั้งถัดไปที่คุณเปิด Brave ขึ้นอีก</translation>
+<translation id="9156965752763025780">การเปลี่ยนแปลงของคุณจะมีผลในครั้งถัดไปที่คุณเปิด Dissenter ขึ้นอีก</translation>
 <translation id="7179921470347911571">เปิดใหม่อีกครั้ง</translation>
 <translation id="4154389611571860454">ใช้ส่วนขยาย IPFS Companion เพื่อรองรับ IPFS ในเบราว์เซอร์</translation>
 <translation id="8137559199583651773">จัดการส่วนขยาย</translation>
@@ -119,51 +119,51 @@
 <translation id="3789841737615482174">ติดตั้ง</translation>
 <translation id="7658239707568436148">ยกเลิก</translation>
 <translation id="1307431692088049276">อย่าถามฉันอีก</translation>
-<translation id="3371343170427636147">แอป Brave Browser Nightly</translation>
-<translation id="4097979995947147464">แอป Brave Browser Beta</translation>
-<translation id="8303432794159193481">แอป Brave Browser Dev</translation>
-<translation id="8292967014767479012">แอป Brave Browser</translation>
-<translation id="4743468424889072281">แอป Brave Browser Development</translation>
+<translation id="3371343170427636147">แอป Dissenter Browser Nightly</translation>
+<translation id="4097979995947147464">แอป Dissenter Browser Beta</translation>
+<translation id="8303432794159193481">แอป Dissenter Browser Dev</translation>
+<translation id="8292967014767479012">แอป Dissenter Browser</translation>
+<translation id="4743468424889072281">แอป Dissenter Browser Development</translation>
 <translation id="6624718837376802990">อวทาร์ Edgy Rewards</translation>
-<translation id="6617313057407561765">อวทาร์ Edgy Brave</translation>
+<translation id="6617313057407561765">อวทาร์ Edgy Dissenter</translation>
 <translation id="6754445808455578019">อวทาร์ Edgy Ocean</translation>
 <translation id="1202230982786524987">อวทาร์ Edgy Grass</translation>
 <translation id="5795513892420634319">อวทาร์ Edgy Corn</translation>
 <translation id="3561521017993720050">อวทาร์ Edgy Royal</translation>
 <translation id="1235866128911626592">อวทาร์ Edgy Ninja</translation>
 <translation id="2090755120827623384">อวทาร์ Paladin Rewards</translation>
-<translation id="2018119859356143702">อวทาร์ Paladin Brave</translation>
+<translation id="2018119859356143702">อวทาร์ Paladin Dissenter</translation>
 <translation id="4740488466586929481">อวทาร์ Paladin Ocean</translation>
 <translation id="5006207620676644913">อวทาร์ Paladin Grass</translation>
 <translation id="3989232963815817109">อวทาร์ Paladin Corn</translation>
 <translation id="4594102608669574640">อวทาร์ Paladin Royal</translation>
 <translation id="2183738260538789532">อวทาร์ Paladin Ninja</translation>
 <translation id="1364533449989493534">อวทาร์ Gleam Rewards</translation>
-<translation id="7885078296101135895">อวทาร์ Gleam Brave</translation>
+<translation id="7885078296101135895">อวทาร์ Gleam Dissenter</translation>
 <translation id="5569105529336093187">อวทาร์ Gleam Ocean</translation>
 <translation id="8905105122495847950">อวทาร์ Gleam Grass</translation>
 <translation id="5118043134512650846">อวทาร์ Gleam Corn</translation>
 <translation id="7054896317531348319">อวทาร์ Gleam Royal</translation>
 <translation id="5493441852328628982">อวทาร์ Gleam Ninja</translation>
 <translation id="2752844432779340213">อวทาร์ Oval Rewards</translation>
-<translation id="3981340065784739675">อวทาร์ Oval Brave</translation>
+<translation id="3981340065784739675">อวทาร์ Oval Dissenter</translation>
 <translation id="8950124663623888116">Avatar Oval Ocean</translation>
 <translation id="1029136880675307651">อวทาร์ Oval Grass</translation>
 <translation id="3285059582709531888">อวทาร์ Oval Corn</translation>
 <translation id="8540390244071055918">อวทาร์ Oval Royal</translation>
 <translation id="3435440003463944104">อวทาร์ Oval Ninja</translation>
 <translation id="4222150638283443362">อวทาร์ Bonbon Rewards</translation>
-<translation id="8888471219870198387">อวทาร์ Bonbon Brave</translation>
+<translation id="8888471219870198387">อวทาร์ Bonbon Dissenter</translation>
 <translation id="2883756935342108947">อวทาร์ Bonbon Ocean</translation>
 <translation id="6280956561199400472">อวทาร์ Bonbon Grass</translation>
 <translation id="5318548116565208315">อวทาร์ Bonbon Corn</translation>
 <translation id="1959966725083452288">อวทาร์ Bonbon Royal</translation>
 <translation id="2039034364578911089">อวทาร์ Bonbon Ninja</translation>
-<translation id="1872784258300710671">Brave ใช้เครื่องมือวิเคราะห์ผลิตภัณฑ์แบบส่วนตัวโดยสมบูรณ์ในการคาดคะเนการใช้งานโดยรวมของฟีเจอร์บางอย่าง</translation>
+<translation id="1872784258300710671">Dissenter ใช้เครื่องมือวิเคราะห์ผลิตภัณฑ์แบบส่วนตัวโดยสมบูรณ์ในการคาดคะเนการใช้งานโดยรวมของฟีเจอร์บางอย่าง</translation>
 <translation id="8712637175834984815">สำเร็จ</translation>
 <translation id="4394049700291259645">ปิดการใช้งาน</translation>
-<translation id="6469509880167172749">ส่งผลการวิเคราะห์ผลิตภัณฑ์แบบส่วนตัวโดยสมบูรณ์ให้ Brave โดยอัตโนมัติ</translation>
-<translation id="7090566321964540749">ข้อมูลแบบไม่ระบุตัวตนนี้จะช่วยให้ Brave คาดคะเนการใช้งานโดยรวมของฟีเจอร์บางอย่างได้เท่านั้น</translation>
+<translation id="6469509880167172749">ส่งผลการวิเคราะห์ผลิตภัณฑ์แบบส่วนตัวโดยสมบูรณ์ให้ Dissenter โดยอัตโนมัติ</translation>
+<translation id="7090566321964540749">ข้อมูลแบบไม่ระบุตัวตนนี้จะช่วยให้ Dissenter คาดคะเนการใช้งานโดยรวมของฟีเจอร์บางอย่างได้เท่านั้น</translation>
 <translation id="7583735190612229830">ตั้งค่ากระเป๋าสตางค์ดิจิตอลเพื่อโต้ตอบกับแอปนี้และแอปอื่นๆ ที่คล้ายกันนี้</translation>
 <translation id="8337117349965899723">ใช้กระเป๋าสตางค์ดิจิตอล</translation>
 <translation id="5756155765711979898">ใช้ MetaMask</translation>
@@ -172,7 +172,7 @@
 <translation id="2609895996619941644">คุณต้องการตรวจสอบไหมว่ามีเวอร์ชันที่บันทึกไว้ใน Wayback Machine หรือไม่</translation>
 <translation id="8053093028263274061">ขออภัย ไม่มีเวอร์ชันที่บันทึกไว้</translation>
 <translation id="8517321676372639828">ตรวจสอบเวอร์ชันที่บันทึกไว้</translation>
-<translation id="191143826155037518">การให้บริการ Brave อยู่ภายใต้ <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>ใบอนุญาต Mozilla Public License รุ่น 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) และมี <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>ซอฟต์แวร์โอเพ่นซอร์ส<ph name="END_LINK_OSS">&lt;/a&gt;</ph> ซึ่งอยู่ภายใต้ใบอนุญาตอื่นๆ อีกมากมาย
+<translation id="191143826155037518">การให้บริการ Dissenter อยู่ภายใต้ <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>ใบอนุญาต Mozilla Public License รุ่น 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) และมี <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>ซอฟต์แวร์โอเพ่นซอร์ส<ph name="END_LINK_OSS">&lt;/a&gt;</ph> ซึ่งอยู่ภายใต้ใบอนุญาตอื่นๆ อีกมากมาย
         คุณสามารถอ่าน <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>คำแนะนำวิธีดาวน์โหลดและสร้าง<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>ซอร์ซโค้ดที่ใช้สร้างสำเนานี้<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>ด้วยตัวเองได้</translation>
 <translation id="4474155171896946103">บุ๊กมาร์กแท็บทั้งหมด...</translation>
 <translation id="2336228925368920074">บุ๊กมาร์กแท็บทั้งหมด...</translation>

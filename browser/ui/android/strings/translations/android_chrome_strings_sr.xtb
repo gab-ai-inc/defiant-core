@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Захтеви за дозволу</translation>
 <translation id="3749259744154402564">Није подржано</translation>
 <translation id="629730747756840877">налог</translation>
-<translation id="82609232232243542">Пријављивање у Brave</translation>
-<translation id="7956662517480676674">Синхронизација и Brave Software услуге</translation>
-<translation id="5294439808117722387">Тренутно прилагођавате подешавања Синхронизације и Brave Software услуга. Да бисте довршили укључивање синхронизације, додирните дугме Потврди у дну екрана. Иди нагоре</translation>
+<translation id="82609232232243542">Пријављивање у Dissenter</translation>
+<translation id="7956662517480676674">Синхронизација и Gab AI Inc услуге</translation>
+<translation id="5294439808117722387">Тренутно прилагођавате подешавања Синхронизације и Gab AI Inc услуга. Да бисте довршили укључивање синхронизације, додирните дугме Потврди у дну екрана. Иди нагоре</translation>
 <translation id="2096012225669085171">Синхронизација и персонализација на свим уређајима</translation>
 <translation id="1692118695553449118">Синхронизација је укључена</translation>
 <translation id="5514904542973294328">Онемогућио је администратор овог уређаја</translation>
-<translation id="6447211988989208781">Brave Software контроле активности</translation>
+<translation id="6447211988989208781">Gab AI Inc контроле активности</translation>
 <translation id="4882831918239250449">Контролишите начин на који се историја прегледања користи за персонализацију Претраге, огласа и других услуга</translation>
 <translation id="7431991332293347422">Контролишите како се историја прегледања користи за персонализовање Претраге и других услуга</translation>
 <translation id="6303969859164067831">Одјави ме и искључи синхронизацију</translation>
-<translation id="1125261911132334651">Управљајте Brave Software налогом</translation>
+<translation id="1125261911132334651">Управљајте Gab AI Inc налогом</translation>
 <translation id="6406506848690869874">Синхронизација</translation>
-<translation id="714362445477979774">Синхронизујте Brave податке</translation>
+<translation id="714362445477979774">Синхронизујте Dissenter податке</translation>
 <translation id="4314815835985389558">Управљајте синхронизацијом</translation>
-<translation id="5428209950370661546">Друге Brave Software услуге</translation>
+<translation id="5428209950370661546">Друге Gab AI Inc услуге</translation>
 <translation id="7704317875155739195">Аутоматски довршавај претраге и URL-ове</translation>
 <translation id="2000419248597011803">Подразумеваном претраживачу шаље неке колачиће и претраге из траке за адресу и оквира за претрагу</translation>
 <translation id="7981313251711023384">Странице се учитавају унапред ради бржег прегледања и претраживања</translation>
 <translation id="1821253160463689938">Користи колачиће да би се запамтила подешавања, чак и када не посећујете те странице</translation>
 <translation id="6697492270171225480">Приказуј предлоге за сличне странице када нека страница не може да се пронађе</translation>
-<translation id="8109318360573330108">Шаље Brave Software-у URL странице којој покушавате да приступите</translation>
+<translation id="8109318360573330108">Шаље Gab AI Inc-у URL странице којој покушавате да приступите</translation>
 <translation id="8438566539970814960">Побољшај претраге и прегледање</translation>
-<translation id="284843628681142937">URL-ови страница које посећујете се шаљу Brave Software-у</translation>
-<translation id="7222718784508482526">Више подешавања у вези са приватношћу, безбедношћу и прикупљањем података потражите у одељку <ph name="BEGIN_LINK"/>Синхронизација и Brave Software услуге<ph name="END_LINK"/></translation>
-<translation id="918192811481327695">Помозите нам да побољшамо Brave-ове функције и учинак</translation>
-<translation id="9063160602596686558">Аутоматски шаље Brave Software-у статистику коришћења и извештаје о отказивању</translation>
+<translation id="284843628681142937">URL-ови страница које посећујете се шаљу Gab AI Inc-у</translation>
+<translation id="7222718784508482526">Више подешавања у вези са приватношћу, безбедношћу и прикупљањем података потражите у одељку <ph name="BEGIN_LINK"/>Синхронизација и Gab AI Inc услуге<ph name="END_LINK"/></translation>
+<translation id="918192811481327695">Помозите нам да побољшамо Dissenter-ове функције и учинак</translation>
+<translation id="9063160602596686558">Аутоматски шаље Gab AI Inc-у статистику коришћења и извештаје о отказивању</translation>
 <translation id="4824958205181053313">Желите ли да откажете синхронизацију?</translation>
 <translation id="3058498974290601450">Можете да укључите синхронизацију у подешавањима у било ком тренутку</translation>
 <translation id="3143515551205905069">Откажи синхронизацију</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Број картице</translation>
 <translation id="869891660844655955">Датум истека</translation>
 <translation id="2286841657746966508">Адреса за наплату</translation>
-<translation id="663059986967017181">Копирана у Brave</translation>
+<translation id="663059986967017181">Копирана у Dissenter</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}one{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}few{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}one{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}few{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}one{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}few{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 и још <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Аутоматско пријављивање</translation>
 <translation id="363596933471559332">Аутоматски се пријављујте на веб-сајтове помоћу сачуваних акредитива. Када је ова функција искључена, тражићемо вам да се верификујете пре сваког пријављивања на веб-сајт.</translation>
 <translation id="6995899638241819463">Упозори ме ако су лозинке откривене при упаду у податке</translation>
-<translation id="1534287762301776620">Ова функција се укључује када се пријавите на Brave Software налог</translation>
+<translation id="1534287762301776620">Ова функција се укључује када се пријавите на Gab AI Inc налог</translation>
 <translation id="10614374240317010">Никада се не чува</translation>
-<translation id="3098842761938485917">Прегледајте сачуване лозинке и управљајте њима на <ph name="BEGIN_LINK"/>Brave Software налогу<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Прегледајте сачуване лозинке и управљајте њима на <ph name="BEGIN_LINK"/>Gab AI Inc налогу<ph name="END_LINK"/></translation>
 <translation id="8562452229998620586">Сачуване лозинке ће се појавити овде.</translation>
 <translation id="8084114998886531721">Сачувана лозинка</translation>
 <translation id="2870560284913253234">Сајт</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Укључите закључавање екрана у Подешавањима да бисте извезли лозинке са уређаја</translation>
 <translation id="4842092870884894799">Приказивање искачућег прозора за генерисање лозинке</translation>
 <translation id="2259659629660284697">Извези лозинке…</translation>
-<translation id="133012818630824069">Извезите лозинке сачуване у Brave-у</translation>
+<translation id="133012818630824069">Извезите лозинке сачуване у Dissenter-у</translation>
 <translation id="6914783257214138813">Лозинке ће бити видљиве свима који могу да виде извезену датотеку.</translation>
 <translation id="2321086116217818302">Припремају се лозинке...</translation>
 <translation id="8445448999790540984">Извоз лозинки није успео</translation>
-<translation id="3066461326500799725">Сазнајте како да користите Brave Software диск</translation>
+<translation id="3066461326500799725">Сазнајте како да користите Gab AI Inc диск</translation>
 <translation id="729975465115245577">Уређај нема апликацију за чување датотеке са лозинкама.</translation>
 <translation id="7682724950699840886">Испробајте следеће савете: проверите да ли на уређају има довољно простора, па пробајте да поново извезете лозинке.</translation>
 <translation id="1129510026454351943">Детаљи: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Откључајте да бисте копирали лозинку</translation>
 <translation id="5515439363601853141">Откључајте да бисте прегледали лозинку</translation>
 <translation id="6221633008163990886">Откључајте да бисте извезли лозинке</translation>
-<translation id="230699814587342492">Лозинке за Brave</translation>
+<translation id="230699814587342492">Лозинке за Dissenter</translation>
 <translation id="6075798973483050474">Измените почетну страницу</translation>
 <translation id="854522910157234410">Отвори ову страницу</translation>
 <translation id="2482878487686419369">Обавештења</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Укључите тамну тему када је тамна тема или Уштеда батерије укључена на уређају</translation>
 <translation id="6381421346744604172">Затамни веб-сајтове</translation>
 <translation id="5040262127954254034">Приватност</translation>
-<translation id="4991384657077828949">Помозите нам да побољшамо Brave безбедност</translation>
-<translation id="1943176487615318915">Да би откривао опасне апликације и сајтове, Brave шаље Brave Software-у URL-ове неких страница које посећујете, ограничене информације о систему и одређени садржај страница</translation>
+<translation id="4991384657077828949">Помозите нам да побољшамо Dissenter безбедност</translation>
+<translation id="1943176487615318915">Да би откривао опасне апликације и сајтове, Dissenter шаље Gab AI Inc-у URL-ове неких страница које посећујете, ограничене информације о систему и одређени садржај страница</translation>
 <translation id="3181954750937456830">Безбедно прегледање (штити вас и уређај од опасних сајтова)</translation>
-<translation id="7315322926489145388">Шаље URL-ове неких страница које посећујете Brave Software-у када је безбедност угрожена</translation>
+<translation id="7315322926489145388">Шаље URL-ове неких страница које посећујете Gab AI Inc-у када је безбедност угрожена</translation>
 <translation id="2063713494490388661">Додирните за претрагу</translation>
-<translation id="2369463299479365221">Сазнајте више о темама на веб-сајтовима без напуштања странице. Функција „Додирните за претрагу“ шаље реч и њен контекст у Brave Software претрагу и приказује дефиниције, слике, резултате претраге и друге детаље.
+<translation id="2369463299479365221">Сазнајте више о темама на веб-сајтовима без напуштања странице. Функција „Додирните за претрагу“ шаље реч и њен контекст у Gab AI Inc претрагу и приказује дефиниције, слике, резултате претраге и друге детаље.
 
 Да бисте прилагодили термин за претрагу, притисните и задржите да бисте га изабрали. Да бисте претрагу учинили прецизнијом, превуците таблу нагоре до краја и додирните оквир за претрагу.</translation>
-<translation id="2930742481329940825">Функција „Додирните за претрагу“ шаље изабрану реч и актуелну страницу као контекст у Brave Software претрагу. Можете да је искључите у <ph name="BEGIN_LINK"/>Подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="2930742481329940825">Функција „Додирните за претрагу“ шаље изабрану реч и актуелну страницу као контекст у Gab AI Inc претрагу. Можете да је искључите у <ph name="BEGIN_LINK"/>Подешавањима<ph name="END_LINK"/>.</translation>
 <translation id="5039804452771397117">Дозволи</translation>
 <translation id="1406000523432664303">„Не прати“</translation>
 <translation id="6232535412751077445">Ако омогућите функцију „Не прати“, захтев ће бити обухваћен саобраћајем прегледања. Последица те радње зависи од тога да ли веб-сајт одговара на захтев и како се захтев тумачи.
@@ -197,18 +197,18 @@
 <translation id="7359002509206457351">Приступ начинима плаћања</translation>
 <translation id="8026334261755873520">Обришите податке прегледања</translation>
 <translation id="1291207594882862231">Обришите историју, колачиће, податке о сајтовима, кеш...</translation>
-<translation id="7814200940910057384">Brave подаци су обрисани</translation>
-<translation id="1664855196866195614">Изабрани подаци су уклоњени из Brave-а и са синхронизованих уређаја.
+<translation id="7814200940910057384">Dissenter подаци су обрисани</translation>
+<translation id="1664855196866195614">Изабрани подаци су уклоњени из Dissenter-а и са синхронизованих уређаја.
 
-Brave Software налог можда има друге облике историје прегледања, попут претрага и активности у другим Brave Software услугама на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+Gab AI Inc налог можда има друге облике историје прегледања, попут претрага и активности у другим Gab AI Inc услугама на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="4699172675775169585">Кеширане слике и датотеке</translation>
 <translation id="2496180316473517155">Историја прегледања</translation>
 <translation id="2546283357679194313">Колачићи и подаци о сајтовима</translation>
 <translation id="8662811608048051533">Одјавиће вас са већине сајтова.</translation>
-<translation id="8218628800671693884">Одјавиће вас са већине сајтова. Неће вас одјавити са Brave Software налога.</translation>
+<translation id="8218628800671693884">Одјавиће вас са већине сајтова. Неће вас одјавити са Gab AI Inc налога.</translation>
 <translation id="2017836877785168846">Брише историју и аутоматска довршавања у траци за адресу.</translation>
-<translation id="8096327394278038498">Брише историју и аутоматска довршавања у траци за адресу. Brave Software налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Брише историју са свих уређаја на којима сте пријављени. Brave Software налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Брише историју и аутоматска довршавања у траци за адресу. Gab AI Inc налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Брише историју са свих уређаја на којима сте пријављени. Gab AI Inc налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="5869522115854928033">Сачуване лозинке</translation>
 <translation id="6865313869410766144">Подаци Аутоматског попуњавања за обрасце</translation>
 <translation id="7562080006725997899">Брисање података прегледања</translation>
@@ -225,7 +225,7 @@ Brave Software налог можда има друге облике истори
 <translation id="6643016212128521049">Обриши</translation>
 <translation id="7641339528570811325">Обриши податке прегледања…</translation>
 <translation id="1670399744444387456">Основна</translation>
-<translation id="3245261285041759672">Brave Software налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3245261285041759672">Gab AI Inc налог може да има друге облике историје прегледања на <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7274013316676448362">Сајт је блокиран</translation>
 <translation id="2534155362429831547">Избрисаних ставки: <ph name="NUMBER_OF_ITEMS"/></translation>
 <translation id="6981982820502123353">Приступачност</translation>
@@ -335,12 +335,12 @@ Brave Software налог можда има друге облике истори
 <translation id="8156139159503939589">На којим језицима читате?</translation>
 <translation id="5689516760719285838">Локација</translation>
 <translation id="2440823041667407902">Приступ локацији</translation>
-<translation id="2023546461831060654">Укључите дозволе за Brave у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">Укључите дозволу за Brave у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="2928908108430545745">Да бисте дозволили да Brave приступа локацији, укључите локацију и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="1028853271388022585">Да бисте дозволили да Brave приступа камери, укључите камеру и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="2913721282607281710">Да бисте дозволили да вам Brave шаље обавештења, укључите обавештења и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="8753483718490035722">Да бисте дозволили да Brave приступа микрофону, укључите микрофон и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="2023546461831060654">Укључите дозволе за Dissenter у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">Укључите дозволу за Dissenter у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="2928908108430545745">Да бисте дозволили да Dissenter приступа локацији, укључите локацију и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="1028853271388022585">Да бисте дозволили да Dissenter приступа камери, укључите камеру и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="2913721282607281710">Да бисте дозволили да вам Dissenter шаље обавештења, укључите обавештења и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="8753483718490035722">Да бисте дозволили да Dissenter приступа микрофону, укључите микрофон и у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
 <translation id="1887786770086287077">Приступ локацији је искључен за овај уређај. Укључите га у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
 <translation id="2570922361219980984">Приступ локацији је искључен и за овај уређај. Укључите га у <ph name="BEGIN_LINK"/>Android подешавањима<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Камера</translation>
@@ -358,8 +358,8 @@ Brave Software налог можда има друге облике истори
 <translation id="7821588508402923572">Уштеда података се приказује овде</translation>
 <translation id="2131665479022868825">Сачувано: <ph name="DATA"/></translation>
 <translation id="8569404424186215731">од <ph name="DATE"/></translation>
-<translation id="3252158532344029638">У Lite режиму Brave учитава странице брже и користи и до 60 процената мање података.</translation>
-<translation id="1438581767753657407">Kada je Laki režim omogućen, Brave koristi Brave servere da bi učinio da se stranice brže učitavaju. Laki režim ponovo napiše svaku sporu stranicu da bi učitao osnovni sadržaj. Laki režim se ne odnosi na Privatne kartice.</translation>
+<translation id="3252158532344029638">У Lite режиму Dissenter учитава странице брже и користи и до 60 процената мање података.</translation>
+<translation id="1438581767753657407">Kada je Laki režim omogućen, Dissenter koristi Dissenter servere da bi učinio da se stranice brže učitavaju. Laki režim ponovo napiše svaku sporu stranicu da bi učitao osnovni sadržaj. Laki režim se ne odnosi na Privatne kartice.</translation>
 <translation id="6159335304067198720"><ph name="PERCENT"/> уштеде података</translation>
 <translation id="7494974237137038751">уштеђених података</translation>
 <translation id="6111020039983847643">искоришћених података</translation>
@@ -381,15 +381,15 @@ Brave Software налог можда има друге облике истори
 <translation id="1856325424225101786">Желите ли да ресетујете Lite режим?</translation>
 <translation id="3658159451045945436">Ресетовањем ћете обрисати историју Уштеде података, укључујући листу сајтова које сте посетили.</translation>
 <translation id="3295530008794733555">Прегледајте брже. Користите мање података.</translation>
-<translation id="7340390500800578919">У Lite режиму Brave учитава странице брже и користи и до 60 процената мање података. Да би оптимизовао странице које посећујете, Brave шаље Brave Software-у ваш саобраћај на вебу. <ph name="BEGIN_LINK"/>Сазнајте више<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">У Lite режиму Dissenter учитава странице брже и користи и до 60 процената мање података. Да би оптимизовао странице које посећујете, Dissenter шаље Gab AI Inc-у ваш саобраћај на вебу. <ph name="BEGIN_LINK"/>Сазнајте више<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">Укључи Lite режим</translation>
 <translation id="4493497663118223949">Lite режим је укључен</translation>
 <translation id="7559975015014302720">Lite режим је искључен</translation>
 <translation id="7606077192958116810">Lite режим је укључен. Управљајте њиме у Подешавањима.</translation>
 <translation id="4714588616299687897">Уштедите до 60% података</translation>
-<translation id="1006927014032731288">Brave Software сервери ће оптимизовати странице које посећујете.</translation>
-<translation id="3257320067425202300">Brave вам је уштедео <ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">Brave вам је уштедео <ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">Gab AI Inc сервери ће оптимизовати странице које посећујете.</translation>
+<translation id="3257320067425202300">Dissenter вам је уштедео <ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">Dissenter вам је уштедео <ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">Локација за преузимање</translation>
 <translation id="7077143737582773186">SD картица</translation>
 <translation id="7762668264895820836">SD картица <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@ Brave Software налог можда има друге облике истори
 <translation id="7290209999329137901">Промена назива није могућа</translation>
 <translation id="3334729583274622784">Желите да промените екстензију датотеке?</translation>
 <translation id="107147699690128016">Ако промените екстензију датотеке, она може да се отвори у другој апликацији и да буде опасна по уређај.</translation>
-<translation id="8541922081612557424">О Brave прегледачу</translation>
-<translation id="5311273890481188673">Ауторска права <ph name="YEAR"/>. Brave Software LLC. Сва права задржана.</translation>
+<translation id="8541922081612557424">О Dissenter прегледачу</translation>
+<translation id="5311273890481188673">Ауторска права <ph name="YEAR"/>. Gab AI Inc LLC. Сва права задржана.</translation>
 <translation id="1416550906796893042">Верзија апликације</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (ажурирано је <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Оперативни систем</translation>
-<translation id="3968054912784331254">Brave ажурирања више нису подржана за ову верзију Android-а</translation>
+<translation id="3968054912784331254">Dissenter ажурирања више нису подржана за ову верзију Android-а</translation>
 <translation id="7665369617277396874">Додајте налог</translation>
-<translation id="649070405679044769">Пријављени сте у Brave Software као</translation>
-<translation id="6234515504547364178">Одјављивање из Brave-а</translation>
+<translation id="649070405679044769">Пријављени сте у Gab AI Inc као</translation>
+<translation id="6234515504547364178">Одјављивање из Dissenter-а</translation>
 <translation id="5324858694974489420">Родитељска подешавања</translation>
 <translation id="8920114477895755567">Чекају се детаљи родитеља.</translation>
 <translation id="5512137114520586844">Овим налогом управља <ph name="PARENT_NAME"/>.</translation>
@@ -432,7 +432,7 @@ Brave Software налог можда има друге облике истори
 <translation id="5403644198645076998">Дозволи само одређене сајтове</translation>
 <translation id="8641930654639604085">Покушај да блокираш сајтове са садржајем за одрасле</translation>
 <translation id="5639724618331995626">Дозволи све сајтове</translation>
-<translation id="796823723482603597">Омогућава Brave</translation>
+<translation id="796823723482603597">Омогућава Dissenter</translation>
 <translation id="6324034347079777476">Синхронизација Android система је онемогућена</translation>
 <translation id="5127805178023152808">Синхронизација је искључена</translation>
 <translation id="7015203776128479407">Почетно подешавање синхронизације није завршено. Синхронизација је искључена.</translation>
@@ -441,48 +441,48 @@ Brave Software налог можда има друге облике истори
 <translation id="6108923351542677676">Подешавање је у току...</translation>
 <translation id="4062305924942672200">Правне информације</translation>
 <translation id="4256782883801055595">Лиценце отвореног кода</translation>
-<translation id="1138681184697033370">Brave услови коришћења услуге</translation>
-<translation id="7392539049993970338">Brave обавештење о приватности</translation>
+<translation id="1138681184697033370">Dissenter услови коришћења услуге</translation>
+<translation id="7392539049993970338">Dissenter обавештење о приватности</translation>
 <translation id="2677748264148917807">Затвори</translation>
 <translation id="5556459405103347317">Учитај поново</translation>
 <translation id="1623104350909869708">Спречи ову страницу да прави додатне дијалоге</translation>
 <translation id="2968755619301702150">Приказивач сертификата</translation>
 <translation id="1360432990279830238">Одјављујете се и искључујете синхрониз?</translation>
-<translation id="8581481290581777242">Желите ли да обришете Brave податке са овог уређаја?</translation>
-<translation id="1318865768845061710">Обележивачи, историја, лозинке и други Brave подаци више се неће синхронизовати са Brave Software налогом</translation>
-<translation id="3325020657155065477">Обриши Brave податке и са овог уређаја</translation>
-<translation id="6136448902816743006">Пошто се одјављујете са налога којим управља <ph name="DOMAIN_NAME"/>, Brave подаци биће избрисани са овог уређаја. Остаће на вашем Brave Software налогу.</translation>
-<translation id="1853026300647876496">Контактирамо Brave Software. То може мало да потраје...</translation>
+<translation id="8581481290581777242">Желите ли да обришете Dissenter податке са овог уређаја?</translation>
+<translation id="1318865768845061710">Обележивачи, историја, лозинке и други Dissenter подаци више се неће синхронизовати са Gab AI Inc налогом</translation>
+<translation id="3325020657155065477">Обриши Dissenter податке и са овог уређаја</translation>
+<translation id="6136448902816743006">Пошто се одјављујете са налога којим управља <ph name="DOMAIN_NAME"/>, Dissenter подаци биће избрисани са овог уређаја. Остаће на вашем Gab AI Inc налогу.</translation>
+<translation id="1853026300647876496">Контактирамо Gab AI Inc. То може мало да потраје...</translation>
 <translation id="2328985652426384049">Не могу да се пријавим</translation>
-<translation id="7723158744459952869">Brave Software-у је требало предуго да одговори</translation>
+<translation id="7723158744459952869">Gab AI Inc-у је требало предуго да одговори</translation>
 <translation id="4572422548854449519">Пријавите се на налог којим се управља</translation>
-<translation id="2689656545739939160">Пријављујете се помоћу налога којим управља <ph name="MANAGED_DOMAIN"/> и дајете његовом администратору контролу над својим Brave подацима. Подаци ће постати трајно повезани са тим налогом. Одјављивањем из Brave-а ћете избрисати податке са овог уређаја, али ће они остати сачувани на Brave Software налогу.</translation>
+<translation id="2689656545739939160">Пријављујете се помоћу налога којим управља <ph name="MANAGED_DOMAIN"/> и дајете његовом администратору контролу над својим Dissenter подацима. Подаци ће постати трајно повезани са тим налогом. Одјављивањем из Dissenter-а ћете избрисати податке са овог уређаја, али ће они остати сачувани на Gab AI Inc налогу.</translation>
 <translation id="1749561566933687563">Синхронизујте обележиваче</translation>
 <translation id="4242533952199664413">Отвори подешавања</translation>
 <translation id="1111673857033749125">Обележивачи сачувани на другим уређајима ће се приказати овде.</translation>
 <translation id="8636825310635137004">Да би вам картице биле доступне на другим уређајима, укључите синхронизацију.</translation>
 <translation id="3269956123044984603">Да би вам биле доступне картице са других уређаја, укључите опцију „Аутоматски синхронизуј податке“ у Android подешавањима на налогу.</translation>
-<translation id="5157964048453367290">Овде ће се приказати картице које отворите у Brave-у на другим уређајима.</translation>
+<translation id="5157964048453367290">Овде ће се приказати картице које отворите у Dissenter-у на другим уређајима.</translation>
 <translation id="4684427112815847243">Синхронизуј све</translation>
 <translation id="2709516037105925701">Аутоматско попуњавање</translation>
 <translation id="8820817407110198400">Обележивачи</translation>
 <translation id="1644574205037202324">Историја</translation>
 <translation id="17513872634828108">Отворене картице</translation>
-<translation id="1320169905922104972">Кредитне картице и адресе из Brave Software Pay-а</translation>
+<translation id="1320169905922104972">Кредитне картице и адресе из Gab AI Inc Pay-а</translation>
 <translation id="6337234675334993532">Шифровање</translation>
 <translation id="6698801883190606802">Управљајте синхронизованим подацима</translation>
-<translation id="3598578758776312506">Шифрујте лозинке помоћу Brave Software акредитива</translation>
-<translation id="7810580217418711046">Шифрујте синхронизоване податке помоћу Brave Software лозинке од <ph name="TIME"/></translation>
+<translation id="3598578758776312506">Шифрујте лозинке помоћу Gab AI Inc акредитива</translation>
+<translation id="7810580217418711046">Шифрујте синхронизоване податке помоћу Gab AI Inc лозинке од <ph name="TIME"/></translation>
 <translation id="8461694314515752532">Шифрујте синхронизоване податке помоћу сопствене приступне фразе за синхронизацију</translation>
 <translation id="2996291259634659425">Направите приступну фразу</translation>
-<translation id="5713644099811900409">Brave Software налога</translation>
-<translation id="8997474919031554666">Шифровање помоћу приступне фразе не обухвата начине плаћања и адресе из Brave Software Pay-а. Само неко ко има приступну фразу може да чита шифроване податке. Приступна фраза се не шаље Brave Software-у нити је он чува. Ако заборавите приступну фразу или пожелите да промените ово подешавање, треба да ресетујете синхронизацију. <ph name="BEGIN_LINK"/>Сазнајте више<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Gab AI Inc налога</translation>
+<translation id="8997474919031554666">Шифровање помоћу приступне фразе не обухвата начине плаћања и адресе из Gab AI Inc Pay-а. Само неко ко има приступну фразу може да чита шифроване податке. Приступна фраза се не шаље Gab AI Inc-у нити је он чува. Ако заборавите приступну фразу или пожелите да промените ово подешавање, треба да ресетујете синхронизацију. <ph name="BEGIN_LINK"/>Сазнајте више<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">Приступна фраза</translation>
 <translation id="7772032839648071052">Потврди приступну фразу</translation>
 <translation id="5304593522240415983">Ово поље не сме да буде празно</translation>
 <translation id="321773570071367578">Ако сте заборавили приступну фразу или желите да промените ово подешавање, <ph name="BEGIN_LINK"/>ресетујте синхронизацију<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">Приступне фразе се не подударају</translation>
-<translation id="5149495116300586333">Шифровање помоћу приступне фразе не обухвата начине плаћања и адресе из Brave Software Pay-а.
+<translation id="5149495116300586333">Шифровање помоћу приступне фразе не обухвата начине плаћања и адресе из Gab AI Inc Pay-а.
 
 Да бисте променили ово подешавање, <ph name="BEGIN_LINK"/>ресетујте синхронизацију<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Неисправна приступна фраза</translation>
@@ -499,11 +499,11 @@ Brave Software налог можда има друге облике истори
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Потражите помоћ<ph name="END_LINK1"/> или <ph name="BEGIN_LINK2"/>поново скенирајте<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">Није пронађен ниједан компатибилан уређај</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Укључите Bluetooth<ph name="END_LINK"/> да бисте омогућили упаривање</translation>
-<translation id="998321811308652668">Brave не може да укључи Bluetooth адаптер</translation>
+<translation id="998321811308652668">Dissenter не може да укључи Bluetooth адаптер</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Потражите помоћ<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">Brave-у је потребан приступ локацији за скенирање уређаја. <ph name="BEGIN_LINK"/>Ажурирајте дозволе<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">Brave-у је потребан приступ локацији да би тражио уређаје. Приступ локацији је <ph name="BEGIN_LINK"/>искључен за овај уређај<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">Brave-у је потребан приступ локацији да би тражио уређаје. <ph name="BEGIN_LINK1"/>Ажурирајте дозволе<ph name="END_LINK1"/>. Приступ локацији је такође <ph name="BEGIN_LINK2"/>искључен за овај уређај<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">Dissenter-у је потребан приступ локацији за скенирање уређаја. <ph name="BEGIN_LINK"/>Ажурирајте дозволе<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">Dissenter-у је потребан приступ локацији да би тражио уређаје. Приступ локацији је <ph name="BEGIN_LINK"/>искључен за овај уређај<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">Dissenter-у је потребан приступ локацији да би тражио уређаје. <ph name="BEGIN_LINK1"/>Ажурирајте дозволе<ph name="END_LINK1"/>. Приступ локацији је такође <ph name="BEGIN_LINK2"/>искључен за овај уређај<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Повезани уређај</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Ниво јачине сигнала: # црта}one{Ниво јачине сигнала: # црта}few{Ниво јачине сигнала: # црте}other{Ниво јачине сигнала: # црта}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/> жели да тражи Bluetooth уређаје у близини. Пронађени су следећи уређаји:</translation>
@@ -511,11 +511,11 @@ Brave Software налог можда има друге облике истори
 <translation id="7605594153474022051">Синхронизација не функционише</translation>
 <translation id="2537178555904266562">Дошло је до грешке при синхронизовању лозинки</translation>
 <translation id="1810845389119482123">Почетно подешавање синхронизације није завршено</translation>
-<translation id="3235722914093408050">Отворите Android подешавања и поново омогућите синхронизацију Android система да бисте започели Brave синхронизацију</translation>
+<translation id="3235722914093408050">Отворите Android подешавања и поново омогућите синхронизацију Android система да бисте започели Dissenter синхронизацију</translation>
 <translation id="3367813778245106622">Пријавите се поново да бисте започели синхронизацију</translation>
 <translation id="3701167022068948696">Реши проблем одмах</translation>
 <translation id="974555521953189084">Унесите приступну фразу да да бисте започели синхронизацију</translation>
-<translation id="2997266899014181325">Да бисте покренули синхронизацију, укључите опцију „Синхронизујте Brave податке“.</translation>
+<translation id="2997266899014181325">Да бисте покренули синхронизацију, укључите опцију „Синхронизујте Dissenter податке“.</translation>
 <translation id="8260126382462817229">Пробајте поново да се пријавите</translation>
 <translation id="5919204609460789179">Ажурирајте <ph name="PRODUCT_NAME"/> да бисте започели синхронизацију</translation>
 <translation id="397583555483684758">Синхронизација више не функционише</translation>
@@ -548,14 +548,14 @@ Brave Software налог можда има друге облике истори
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037">Дугме <ph name="MESSAGE"/> <ph name="LINK_NAME"/></translation>
 <translation id="3205824638308738187">Скоро завршено!</translation>
-<translation id="3960299545138990065">Поново покрените Brave</translation>
+<translation id="3960299545138990065">Поново покрените Dissenter</translation>
 <translation id="3771001275138982843">Преузимање ажурирања није успело</translation>
-<translation id="3888648114124182147">Преузима се ажурирање за Brave…</translation>
-<translation id="1705567146636171298">Ажурирај Brave</translation>
-<translation id="6195417478702700398">Ако желите најбољи доживљај прегледања, отворите Brave да бисте га ажурирали</translation>
-<translation id="3512968675351418494">Да бисте прегледали веб на свом језику, преузмите најновију верзију Brave-а</translation>
+<translation id="3888648114124182147">Преузима се ажурирање за Dissenter…</translation>
+<translation id="1705567146636171298">Ажурирај Dissenter</translation>
+<translation id="6195417478702700398">Ако желите најбољи доживљај прегледања, отворите Dissenter да бисте га ажурирали</translation>
+<translation id="3512968675351418494">Да бисте прегледали веб на свом језику, преузмите најновију верзију Dissenter-а</translation>
 <translation id="6427112570124116297">Преводите странице са веба</translation>
-<translation id="1379423114029199501">Ажурирајте на најновију верзију Brave-а да бисте имали свој језик у њој</translation>
+<translation id="1379423114029199501">Ажурирајте на најновију верзију Dissenter-а да бисте имали свој језик у њој</translation>
 <translation id="5684874026226664614">Упс, превођење ове странице није успело.</translation>
 <translation id="6831043979455480757">Преведи</translation>
 <translation id="1285320974508926690">Никад не преводи овај сајт</translation>
@@ -578,11 +578,11 @@ Brave Software налог можда има друге облике истори
 <translation id="2532336938189706096">Веб-приказ</translation>
 <translation id="6005538289190791541">Предложена лозинка</translation>
 <translation id="4634124774493850572">Користи лозинку</translation>
-<translation id="8285489906452138776">Brave тражи дозволу да приступи камери за овај сајт.</translation>
-<translation id="320189792589364011">Brave тражи дозволу да приступи микрофону за овај сајт.</translation>
-<translation id="7988136689212463100">Brave тражи дозволу да приступи камери и микрофону за овај сајт.</translation>
-<translation id="4931190655840828017">Brave тражи приступ вашој локацији да бисте је делили са овим сајтом.</translation>
-<translation id="3088191967551450609">Brave-у је потребан приступ меморијском простору да би преузимао датотеке.</translation>
+<translation id="8285489906452138776">Dissenter тражи дозволу да приступи камери за овај сајт.</translation>
+<translation id="320189792589364011">Dissenter тражи дозволу да приступи микрофону за овај сајт.</translation>
+<translation id="7988136689212463100">Dissenter тражи дозволу да приступи камери и микрофону за овај сајт.</translation>
+<translation id="4931190655840828017">Dissenter тражи приступ вашој локацији да бисте је делили са овим сајтом.</translation>
+<translation id="3088191967551450609">Dissenter-у је потребан приступ меморијском простору да би преузимао датотеке.</translation>
 <translation id="8942627711005830162">Отвори у другом прозору</translation>
 <translation id="4195643157523330669">Отвори на новој картици</translation>
 <translation id="1100066534610197918">Отвори у новој картици у групи</translation>
@@ -599,15 +599,15 @@ Brave Software налог можда има друге облике истори
 <translation id="8073388330009372546">Отвори слику на новој картици</translation>
 <translation id="6649642165559792194">Прикажи слику <ph name="BEGIN_NEW"/>Ново<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Учитај слику</translation>
-<translation id="3845332215609790146">Тражи уз Brave Software објектив <ph name="BEGIN_NEW"/>Ново<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Тражи уз Gab AI Inc објектив <ph name="BEGIN_NEW"/>Ново<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">Потражи ову слику на <ph name="SEARCH_ENGINE"/>-у</translation>
 <translation id="3384347053049321195">Дели слику</translation>
 <translation id="5833984609253377421">Дели линк</translation>
 <translation id="6475951671322991020">Преузми видео</translation>
-<translation id="2317945146070194624">Отвори на новој Brave картици</translation>
+<translation id="2317945146070194624">Отвори на новој Dissenter картици</translation>
 <translation id="7975379999046275268">Прикажи страницу <ph name="BEGIN_NEW"/>Ново<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Освежавање странице</translation>
-<translation id="6990079615885386641">Преузмите апликацију из Brave Software Play продавнице: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Преузмите апликацију из Gab AI Inc Play продавнице: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Тамнa</translation>
 <translation id="1807246157184219062">Светлa</translation>
 <translation id="4056223980640387499">Сепија</translation>
@@ -634,9 +634,9 @@ Brave Software налог можда има друге облике истори
 <translation id="164269334534774161">Приказује се офлајн копија ове странице од <ph name="CREATION_TIME"/></translation>
 <translation id="4594952190837476234">Ова офлајн страница је од <ph name="CREATION_TIME"/> и може да се разликује од онлајн верзије.</translation>
 <translation id="8840953339110955557">Ова страница може да се разликује од онлајн верзије.</translation>
-<translation id="6405300764336705484">Овај садржај је са <ph name="DOMAIN_NAME"/>, приказује Brave Software.</translation>
+<translation id="6405300764336705484">Овај садржај је са <ph name="DOMAIN_NAME"/>, приказује Gab AI Inc.</translation>
 <translation id="1006017844123154345">Отвори онлајн</translation>
-<translation id="3326636747541519688">Поједностављену страницу пружа Brave Software</translation>
+<translation id="3326636747541519688">Поједностављену страницу пружа Gab AI Inc</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Учитај оригиналну страницу<ph name="END_LINK"/> са <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Ако вам се ово често приказује, испробајте ове <ph name="BEGIN_LINK"/>предлоге<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Садржај је сакривен</translation>
@@ -733,19 +733,19 @@ Brave Software налог можда има друге облике истори
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">ММ</translation>
 <translation id="605721222689873409">ГГ</translation>
-<translation id="724102042129299115">Brave доживљај првог покретања</translation>
-<translation id="2700285883409956633">Коришћењем ове апликације прихватате <ph name="BEGIN_LINK1"/>Услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>Обавештење о приватности<ph name="END_LINK2"/> за Brave.</translation>
-<translation id="1640714894372474981">Ако користите ову апликацију, прихватате Brave <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>, као и <ph name="BEGIN_LINK3"/>обавештење о приватности за Brave Software налоге којима се управља помоћу Family Link-а<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727"><ph name="APP_NAME"/> ће се отворити у Brave-у. Ако наставите, прихватате Brave <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>.</translation>
-<translation id="5071615083211946659"><ph name="APP_NAME"/> ће се отворити у Brave-у. Ако наставите, прихватате Brave <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>, као и <ph name="BEGIN_LINK3"/>обавештење о приватности за Brave Software налоге којима се управља помоћу Family Link-а<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Побољшајте Brave слањем статистике коришћења и извештаја о отказивању Brave Software-у.</translation>
+<translation id="724102042129299115">Dissenter доживљај првог покретања</translation>
+<translation id="2700285883409956633">Коришћењем ове апликације прихватате <ph name="BEGIN_LINK1"/>Услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>Обавештење о приватности<ph name="END_LINK2"/> за Dissenter.</translation>
+<translation id="1640714894372474981">Ако користите ову апликацију, прихватате Dissenter <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>, као и <ph name="BEGIN_LINK3"/>обавештење о приватности за Gab AI Inc налоге којима се управља помоћу Family Link-а<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME"/> ће се отворити у Dissenter-у. Ако наставите, прихватате Dissenter <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>.</translation>
+<translation id="5071615083211946659"><ph name="APP_NAME"/> ће се отворити у Dissenter-у. Ако наставите, прихватате Dissenter <ph name="BEGIN_LINK1"/>услове коришћења услуге<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>обавештење о приватности<ph name="END_LINK2"/>, као и <ph name="BEGIN_LINK3"/>обавештење о приватности за Gab AI Inc налоге којима се управља помоћу Family Link-а<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Побољшајте Dissenter слањем статистике коришћења и извештаја о отказивању Gab AI Inc-у.</translation>
 <translation id="3518985090088779359">Прихвати и настави</translation>
-<translation id="7207456302801184289">Добро дошли у Brave</translation>
-<translation id="7189372733857464326">Чека се да Brave Software Play услуге заврше ажурирање</translation>
+<translation id="7207456302801184289">Добро дошли у Dissenter</translation>
+<translation id="7189372733857464326">Чека се да Gab AI Inc Play услуге заврше ажурирање</translation>
 <translation id="1231733316453485619">Желите ли да укључите синхронизацију?</translation>
 <translation id="5132942445612118989">Синхронизујте лозинке, историју и други садржај на свим уређајима</translation>
-<translation id="5736731321935944068">Brave Software може да користи историју за персонализацију Претраге, огласа и других Brave Software услуга</translation>
-<translation id="4013614219085422040">Brave Software може да користи историју за персонализацију Претраге и других Brave Software услуга</translation>
+<translation id="5736731321935944068">Gab AI Inc може да користи историју за персонализацију Претраге, огласа и других Gab AI Inc услуга</translation>
+<translation id="4013614219085422040">Gab AI Inc може да користи историју за персонализацију Претраге и других Gab AI Inc услуга</translation>
 <translation id="5581519193887989363">Увек можете да одаберете шта ћете синхронизовати у <ph name="BEGIN_LINK1"/>подешавањима<ph name="END_LINK1"/>.</translation>
 <translation id="741204030948306876">Да, омогући</translation>
 <translation id="2410754283952462441">Изаберите налог</translation>
@@ -753,8 +753,8 @@ Brave Software налог можда има друге облике истори
 <translation id="6210748933810148297">Нисте <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">Да би вам обележивачи били доступни на свим уређајима, укључите синхронизацију</translation>
 <translation id="2818669890320396765">Да би вам обележивачи били доступни на свим уређајима, пријавите се и укључите синхронизацију</translation>
-<translation id="6003646045106347985">Да бисте добијали персонализовани садржај који предлаже Brave Software, укључите синхронизацију</translation>
-<translation id="8494430740943879273">Да бисте добијали персонализовани садржај који предлаже Brave Software, пријавите се и укључите синхронизацију</translation>
+<translation id="6003646045106347985">Да бисте добијали персонализовани садржај који предлаже Gab AI Inc, укључите синхронизацију</translation>
+<translation id="8494430740943879273">Да бисте добијали персонализовани садржај који предлаже Gab AI Inc, пријавите се и укључите синхронизацију</translation>
 <translation id="5862731021271217234">Да би вам картице биле доступне на другим уређајима, укључите синхронизацију</translation>
 <translation id="3568688522516854065">Да би вам картице биле доступне на другим уређајима, пријавите се и укључите синхронизацију</translation>
 <translation id="1208340532756947324">Да бисте синхронизовали и персонализовали садржај на уређајима, укључите синхронизацију</translation>
@@ -774,7 +774,7 @@ Brave Software налог можда има друге облике истори
 <translation id="5423934151118863508">Најчешће посећиване странице ће се појавити овде</translation>
 <translation id="6127379762771434464">Уклонили сте ставку</translation>
 <translation id="4605958867780575332">Ставка је уклоњена: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Brave Software дудл логотип: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Gab AI Inc дудл логотип: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Други уређаји</translation>
 <translation id="4738836084190194332">Последња синхронизација: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{Пре # минута}one{Пре # минута}few{Пре # минута}other{Пре # минута}}</translation>
@@ -805,9 +805,9 @@ Brave Software налог можда има друге облике истори
 <translation id="1171770572613082465">Додирните дугме „Најпопуларнији веб-сајтови“ и видите те веб-сајтове</translation>
 <translation id="5233638681132016545">Нова картица</translation>
 <translation id="6336451774241870485">Nova privatna kartica</translation>
-<translation id="4521874409998847950">Од објављивача <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>приказује Brave Software<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">Од објављивача <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>приказује Gab AI Inc<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">Доступна је новија верзија</translation>
-<translation id="4058091506841967397">Brave се неће ажурирати</translation>
+<translation id="4058091506841967397">Dissenter се неће ажурирати</translation>
 <translation id="6316139424528454185">Неподржана верзија Android-а</translation>
 <translation id="6989267951144302301">Преузимање није успело</translation>
 <translation id="624789221780392884">Ажурирање је спремно</translation>
@@ -855,7 +855,7 @@ Brave Software налог можда има друге облике истори
 <translation id="2536728043171574184">Прегледате офлајн копију ове странице</translation>
 <translation id="4698034686595694889">Прегледајте офлајн у апликацији <ph name="APP_NAME"/></translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> и још сајтова</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave ће учитати страницу када буде спремна}one{Brave ће учитати странице када буду спремне}few{Brave ће учитати странице када буду спремне}other{Brave ће учитати странице када буду спремне}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Dissenter ће учитати страницу када буде спремна}one{Dissenter ће учитати странице када буду спремне}few{Dissenter ће учитати странице када буду спремне}other{Dissenter ће учитати странице када буду спремне}}</translation>
 <translation id="6811034713472274749">Страница је спремна за преглед</translation>
 <translation id="4561979708150884304">Веза није успостављена</translation>
 <translation id="8274165955039650276">Погледајте преузимања</translation>
@@ -865,16 +865,16 @@ Brave Software налог можда има друге облике истори
 <translation id="3298243779924642547">Лагано</translation>
 <translation id="393697183122708255">Није доступна нијед. омогућ. глас. прет.</translation>
 <translation id="7191430249889272776">Картица је отворена у позадини.</translation>
-<translation id="8445059357334030806">Отвори у Brave-у</translation>
+<translation id="8445059357334030806">Отвори у Dissenter-у</translation>
 <translation id="4720023427747327413">Отвори у <ph name="PRODUCT_NAME"/>-у</translation>
 <translation id="7022756207310403729">Отвори у прегледачу</translation>
 <translation id="1113597929977215864">Прикажи поједностављени приказ</translation>
 <translation id="1513352483775369820">Обележивачи и веб-историја</translation>
-<translation id="4939482511480190003">Помозите нам да побољшамо Brave. <ph name="BEGIN_LINK"/>Попуните анкету<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Помозите нам да побољшамо Dissenter. <ph name="BEGIN_LINK"/>Попуните анкету<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Назад</translation>
 <translation id="5596627076506792578">Још опција</translation>
 <translation id="3522247891732774234">Ажурирање је доступно. Још опција</translation>
-<translation id="6773423637732432200">Brave не може да се ажурира. Још опција</translation>
+<translation id="6773423637732432200">Dissenter не може да се ажурира. Још опција</translation>
 <translation id="3328801116991980348">Информације о сајту</translation>
 <translation id="5391532827096253100">Веза са овим сајтом није безбедна. Информације о сајту</translation>
 <translation id="6206551242102657620">Веза је безбедна. Информације о сајту</translation>
@@ -934,7 +934,7 @@ Brave Software налог можда има друге облике истори
 <translation id="3211426585530211793">Ставка <ph name="ITEM_TITLE"/> је избрисана</translation>
 <translation id="4663756553811254707">Избрисали сте <ph name="NUMBER_OF_BOOKMARKS"/> обележивача</translation>
 <translation id="3819178904835489326">Избрисана преузимања: <ph name="NUMBER_OF_DOWNLOADS"/></translation>
-<translation id="1248710015876067820">Неподржан број Brave инстанци.</translation>
+<translation id="1248710015876067820">Неподржан број Dissenter инстанци.</translation>
 <translation id="4259722352634471385">Навигација је блокирана: <ph name="URL"/></translation>
 <translation id="8959122750345127698">Навигација је недоступна: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Затвори картицу</translation>
@@ -947,20 +947,20 @@ Brave Software налог можда има друге облике истори
 <translation id="8427875596167638501">Картица за преглед је полуотворена</translation>
 <translation id="9102803872260866941">Картица за преглед је отворена</translation>
 <translation id="2942036813789421260">Картица за преглед је затворена</translation>
-<translation id="6355102470683871794">Меморијски простор за Brave Software <ph name="APP_NAME"/></translation>
+<translation id="6355102470683871794">Меморијски простор за Gab AI Inc <ph name="APP_NAME"/></translation>
 <translation id="3822502789641063741">Бришете меморију сајта?</translation>
-<translation id="9205995714227143200">Меморијски простор за сајтове који Brave не сматра важним (нпр. сајтови без сачуваних подешавања или сајтови које не посећујете често)</translation>
+<translation id="9205995714227143200">Меморијски простор за сајтове који Dissenter не сматра важним (нпр. сајтови без сачуваних подешавања или сајтови које не посећујете често)</translation>
 <translation id="3997476611815694295">Неважан меморијски простор</translation>
 <translation id="8493948351860045254">Ослободите простор</translation>
-<translation id="2324920234469020158">Овим ћете обрисати колачиће, кеш и друге податке сајтова које Brave не сматра важним.</translation>
+<translation id="2324920234469020158">Овим ћете обрисати колачиће, кеш и друге податке сајтова које Dissenter не сматра важним.</translation>
 <translation id="5447201525962359567">Целокупан меморијски простор за сајт, укључујући колачиће и друге локално сачуване податке</translation>
 <translation id="1376578503827013741">Рачуна се…</translation>
 <translation id="583281660410589416">Непознато</translation>
 <translation id="2323763861024343754">Меморијски простор за сајт</translation>
-<translation id="3587672679800759167">Сви подаци које користи Brave, укључујући налоге, обележиваче и сачувана подешавања</translation>
+<translation id="3587672679800759167">Сви подаци које користи Dissenter, укључујући налоге, обележиваче и сачувана подешавања</translation>
 <translation id="6545017243486555795">Обриши све податке</translation>
 <translation id="4095146165863963773">Желите ли да избришете податке апликације?</translation>
-<translation id="53119194224775367">Сви подаци Brave апликација ће бити трајно избрисани. То обухвата све датотеке, подешавања, налоге, базе података итд.</translation>
+<translation id="53119194224775367">Сви подаци Dissenter апликација ће бити трајно избрисани. То обухвата све датотеке, подешавања, налоге, базе података итд.</translation>
 <translation id="5307446750509046227">Обриши складиште сајта</translation>
 <translation id="300526633675317032">Овим ћете обрисати цео меморијски простор веб-сајта од <ph name="SIZE_IN_KB"/>.</translation>
 <translation id="8068648041423924542">Није могуће изабрати сертификат.</translation>
@@ -982,15 +982,15 @@ Brave Software налог можда има друге облике истори
 <translation id="1779089405699405702">Декодер слика</translation>
 <translation id="8067883171444229417">Пусти видео</translation>
 <translation id="6560414384669816528">Претрага помоћу Sogou-а</translation>
-<translation id="5406914950576900927">Brave може да користи <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> за претрагу у Кини. Ово можете да промените у <ph name="BEGIN_LINK"/>Подешавањима<ph name="END_LINK"/>.</translation>
-<translation id="6456271171669383967">Задржи Brave Software</translation>
+<translation id="5406914950576900927">Dissenter може да користи <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> за претрагу у Кини. Ово можете да промените у <ph name="BEGIN_LINK"/>Подешавањима<ph name="END_LINK"/>.</translation>
+<translation id="6456271171669383967">Задржи Gab AI Inc</translation>
 <translation id="4384468725000734951">Користите Sogou за претрагу</translation>
-<translation id="6103327872225198548">Користите Brave Software за претрагу</translation>
+<translation id="6103327872225198548">Користите Gab AI Inc за претрагу</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Ова апликација је активна у Brave-у</translation>
-<translation id="6143689084714664628">Покренуто је у Brave-у</translation>
-<translation id="7675869148432102528"><ph name="APP_NAME"/> такође има податке у Brave-у</translation>
-<translation id="2734140769649165081">Можете да обришете податке у Brave подешавањима</translation>
+<translation id="919933208285147476">Ова апликација је активна у Dissenter-у</translation>
+<translation id="6143689084714664628">Покренуто је у Dissenter-у</translation>
+<translation id="7675869148432102528"><ph name="APP_NAME"/> такође има податке у Dissenter-у</translation>
+<translation id="2734140769649165081">Можете да обришете податке у Dissenter подешавањима</translation>
 <translation id="8232956427053453090">Задржи податке</translation>
 <translation id="4298388696830689168">Повезани сајтови</translation>
 <translation id="5763514718066511291">Додирните да бисте копирали URL за ову апликацију</translation>
@@ -1015,13 +1015,13 @@ Brave Software налог можда има друге облике истори
 <translation id="8015452622527143194">Враћање целокупног приказа странице на подразумевану величину</translation>
 <translation id="3443221991560634068">Поновно учитавање актуелне странице</translation>
 <translation id="123724288017357924">Поновно учитавање актуелне странице, занемарујући кеширани садржај</translation>
-<translation id="305870044889644984">Отварање Brave центра за помоћ на новој картици</translation>
+<translation id="305870044889644984">Отварање Dissenter центра за помоћ на новој картици</translation>
 <translation id="3166827708714933426">Пречице за картице и прозоре</translation>
-<translation id="3169981355900570544">Пречице за Brave Software Brave функције</translation>
+<translation id="3169981355900570544">Пречице за Gab AI Inc Dissenter функције</translation>
 <translation id="4558311620361989323">Пречице за веб-странице</translation>
-<translation id="1908301351964700579">Brave се још припрема за ВР. Касније рестартујте Brave.</translation>
+<translation id="1908301351964700579">Dissenter се још припрема за ВР. Касније рестартујте Dissenter.</translation>
 <translation id="8970887620466824814">Дошло је до грешке.</translation>
-<translation id="1875543012935658554">Поново отворите Brave.</translation>
+<translation id="1875543012935658554">Поново отворите Dissenter.</translation>
 <translation id="79859296434321399">Да бисте видели садржај проширене реалности, инсталирајте ARCore</translation>
 <translation id="8558485628462305855">Да бисте видели садржај проширене реалности, ажурирајте ARCore</translation>
 <translation id="3513704683820682405">Проширена реалност</translation>
@@ -1033,9 +1033,9 @@ Brave Software налог можда има друге облике истори
 Сајт НЕМА приступ камери. Слике са камере су видљиве само вама.</translation>
 <translation id="1188239144602654184">Уђи у ПР</translation>
 <translation id="473775607612524610">Ажурирај</translation>
-<translation id="3133489217401741157">Инсталира се <ph name="MODULE"/> за Brave…</translation>
+<translation id="3133489217401741157">Инсталира се <ph name="MODULE"/> за Dissenter…</translation>
 <translation id="1791662854739702043">Инсталирано</translation>
-<translation id="5131234170665854056">Инсталирање модула <ph name="MODULE"/> за Brave није успело</translation>
+<translation id="5131234170665854056">Инсталирање модула <ph name="MODULE"/> за Dissenter није успело</translation>
 <translation id="2567385386134582609">СЛИКА</translation>
 <translation id="6395288395575013217">ЛИНК</translation>
 <translation id="7352939065658542140">ВИДЕО</translation>
@@ -1046,16 +1046,16 @@ Brave Software налог можда има друге облике истори
 <translation id="3341058695485821946">Погледајте колико сте података уштедели</translation>
 <translation id="3157842584138209013">Погледајте колико сте података уштедели помоћу дугмета Још опција</translation>
 <translation id="8218622182176210845">Управљајте налогом</translation>
-<translation id="8090895580117672212">Да бисте управљали Brave Software налогом, додирните дугме „Управљајте налогом“</translation>
-<translation id="8856898588039823173">Поједностављену страницу пружа Brave Software. Додирните да бисте учитали првобитну страницу.</translation>
-<translation id="8134317863207426198">Поједностављену страницу пружа Brave Software. Додирните дугме Учитај првобитну страницу да бисте учитали првобитну страницу.</translation>
+<translation id="8090895580117672212">Да бисте управљали Gab AI Inc налогом, додирните дугме „Управљајте налогом“</translation>
+<translation id="8856898588039823173">Поједностављену страницу пружа Gab AI Inc. Додирните да бисте учитали првобитну страницу.</translation>
+<translation id="8134317863207426198">Поједностављену страницу пружа Gab AI Inc. Додирните дугме Учитај првобитну страницу да бисте учитали првобитну страницу.</translation>
 <translation id="4961107849584082341">Преведите ову страницу на било који језик</translation>
 <translation id="569536719314091526">Преведите ову страницу на било који језик помоћу дугмета Још опција</translation>
 <translation id="1397811292916898096">Претражите помоћу: <ph name="PRODUCT_NAME"/></translation>
 <translation id="1792959175193046959">Промените подразумевану локацију за преузимање у било ком тренутку</translation>
 <translation id="6942665639005891494">Промените подразумевану локацију за преузимање у било ком тренутку помоћи опције у менију Подешавања</translation>
 <translation id="6850409657436465440">Преузимање је још увек у току</translation>
-<translation id="5817715962196959877">Brave сада брже преузима датотеке</translation>
+<translation id="5817715962196959877">Dissenter сада брже преузима датотеке</translation>
 <translation id="3976396876660209797">Уклоните и поново направите ову пречицу</translation>
 <translation id="6766622839693428701">Превуците надоле да бисте затворили.</translation>
 <translation id="1028699632127661925">Шаље се на уређај <ph name="DEVICE_NAME"/>...</translation>
@@ -1071,15 +1071,15 @@ Brave Software налог можда има друге облике истори
 <translation id="1521774566618522728">Активан је данас</translation>
 <translation id="3631987586758005671">Дели се са: <ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">Укључите синхронизацију да бисте делили садржај на више уређаја</translation>
-<translation id="6162454065885854378">Да бисте делили садржај телефона са другим уређајем, укључите синхронизацију у подешавањима Brave-а на оба уређаја</translation>
-<translation id="6084271560289605378">Идите у подешавања Brave-а</translation>
+<translation id="6162454065885854378">Да бисте делили садржај телефона са другим уређајем, укључите синхронизацију у подешавањима Dissenter-а на оба уређаја</translation>
+<translation id="6084271560289605378">Идите у подешавања Dissenter-а</translation>
 <translation id="2318045970523081853">Додирните да бисте упутили позив</translation>
 <translation id="9209888181064652401">Упућивање позива није успело</translation>
 <translation id="2860954141821109167">Уверите се да је нека апликација за телефон омогућена на овом уређају</translation>
 <translation id="2067805253194386918">текст</translation>
 <translation id="1450753235335490080">Није успело дељење: <ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">Није успело дељење: <ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">Уверите се да је синхронизација за <ph name="TARGET_DEVICE_NAME"/> укључена у Brave-у</translation>
+<translation id="8287068819750208230">Уверите се да је синхронизација за <ph name="TARGET_DEVICE_NAME"/> укључена у Dissenter-у</translation>
 <translation id="3016635187733453316">Уверите се да је уређај повезан на интернет</translation>
 <translation id="8466613982764129868">Уверите се да је <ph name="TARGET_DEVICE_NAME"/> повезан на интернет</translation>
 <translation id="6539092367496845964">Нешто није у реду. Пробајте поново касније.</translation>
@@ -1101,16 +1101,16 @@ Brave Software налог можда има друге облике истори
 <translation id="7055152154916055070">Блокирано је преусмеравање:</translation>
 <translation id="5524843473235508879">Преусмеравање је блокирано.</translation>
 <translation id="6573096386450695060">Увек дозволи</translation>
-<translation id="5805364706385912897">Ова страница користи превише меморије, па ју је Brave паузирао.</translation>
-<translation id="5138664332909611586">Ова страница користи превише меморије, па је Brave уклонио одређени садржај.</translation>
+<translation id="5805364706385912897">Ова страница користи превише меморије, па ју је Dissenter паузирао.</translation>
+<translation id="5138664332909611586">Ова страница користи превише меморије, па је Dissenter уклонио одређени садржај.</translation>
 <translation id="9137013805542155359">Прикажи оригинал</translation>
-<translation id="6361779936989026201">Brave Software помоћник у Brave-у</translation>
+<translation id="6361779936989026201">Gab AI Inc помоћник у Dissenter-у</translation>
 <translation id="7291387454912369099">Плаћање покреће Помоћник</translation>
-<translation id="4565206163201411670">Желите ли да се Brave активности приказују у Дигиталном благостању?</translation>
-<translation id="9055113864158719823">Можете да видите сајтове које посећујете у Brave-у и да подесите тајмере за њих.\n\nBrave Software добија информације о сајтовима за које подесите тајмере и о томе колико дуго их посећујете. Те информације се користе за побољшање Дигиталног благостања.</translation>
-<translation id="4596514158372210596">Уклоните Brave активности из Дигиталног благостања</translation>
-<translation id="1174893863889683998">Желите ли да уклоните Brave активности из Дигиталног благостања?</translation>
-<translation id="708829030563435351">Сајтови које посећујете у Brave-у се неће приказивати. Биће избрисани тајмери за све сајтове.</translation>
+<translation id="4565206163201411670">Желите ли да се Dissenter активности приказују у Дигиталном благостању?</translation>
+<translation id="9055113864158719823">Можете да видите сајтове које посећујете у Dissenter-у и да подесите тајмере за њих.\n\nGab AI Inc добија информације о сајтовима за које подесите тајмере и о томе колико дуго их посећујете. Те информације се користе за побољшање Дигиталног благостања.</translation>
+<translation id="4596514158372210596">Уклоните Dissenter активности из Дигиталног благостања</translation>
+<translation id="1174893863889683998">Желите ли да уклоните Dissenter активности из Дигиталног благостања?</translation>
+<translation id="708829030563435351">Сајтови које посећујете у Dissenter-у се неће приказивати. Биће избрисани тајмери за све сајтове.</translation>
 <translation id="2056878612599315956">Сајт је паузиран</translation>
 <translation id="671481426037969117">Тајмер апликације <ph name="FQDN"/> је истекао. Почеће поново сутра.</translation>
 <translation id="7479104141328977413">Управљање картицама</translation>
@@ -1121,7 +1121,7 @@ Brave Software налог можда има друге облике истори
 <translation id="246532703174860178">Дели</translation>
 <translation id="2517472476991765520">Скенирај</translation>
 <translation id="8628973420740315031">Да бисте делили са људима у близини, дајте им да скенирају овај QR кôд</translation>
-<translation id="7339921667754113786">Brave Software платформа за обавештења</translation>
+<translation id="7339921667754113786">Gab AI Inc платформа за обавештења</translation>
 <translation id="8516012719330875537">Уређивач слика</translation>
 <translation id="4808319664292298116">Желите да активирате ВР са <ph name="DOMAIN"/>?</translation>
 <translation id="4353114845960720315">Док сте у ВР режиму, овај сајт ће можда моћи да сазна нешто о вама:</translation>

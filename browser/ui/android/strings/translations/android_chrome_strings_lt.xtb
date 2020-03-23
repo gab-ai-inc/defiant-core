@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Leidimų užklausos</translation>
 <translation id="3749259744154402564">Nepalaikoma</translation>
 <translation id="629730747756840877">Paskyra</translation>
-<translation id="82609232232243542">Prisijungti prie „Brave“</translation>
-<translation id="7956662517480676674">Sinchron. ir „Brave Software“ paslaugos</translation>
-<translation id="5294439808117722387">Šiuo metu tinkinate savo sinchronizavimo ir „Brave Software“ paslaugų nustatymus. Jei norite užbaigti sinchronizavimo įjungimo procesą, palieskite mygtuką „Patvirtinti“ netoli ekrano apačios. Eiti į viršų</translation>
+<translation id="82609232232243542">Prisijungti prie „Dissenter“</translation>
+<translation id="7956662517480676674">Sinchron. ir „Gab AI Inc“ paslaugos</translation>
+<translation id="5294439808117722387">Šiuo metu tinkinate savo sinchronizavimo ir „Gab AI Inc“ paslaugų nustatymus. Jei norite užbaigti sinchronizavimo įjungimo procesą, palieskite mygtuką „Patvirtinti“ netoli ekrano apačios. Eiti į viršų</translation>
 <translation id="2096012225669085171">Sinchronizuoti ir suasmeninti įrenginiuose</translation>
 <translation id="1692118695553449118">Sinchronizavimas įjungtas</translation>
 <translation id="5514904542973294328">Išjungė šio įrenginio administratorius</translation>
-<translation id="6447211988989208781">„Brave Software“ veiklos valdikliai</translation>
+<translation id="6447211988989208781">„Gab AI Inc“ veiklos valdikliai</translation>
 <translation id="4882831918239250449">Naršymo istorijos naudojimo paieškai, skelbimams ir kitoms funkcijoms suasmeninti valdymas</translation>
 <translation id="7431991332293347422">Naršymo istorijos naudojimo paieškai ir kitoms funkcijoms suasmeninti valdymas</translation>
 <translation id="6303969859164067831">Atsijungti ir išjungti sinchronizavimą</translation>
-<translation id="1125261911132334651">„Brave Software“ paskyros tvarkymas</translation>
+<translation id="1125261911132334651">„Gab AI Inc“ paskyros tvarkymas</translation>
 <translation id="6406506848690869874">Sinchronizavimas</translation>
-<translation id="714362445477979774">„Brave“ duomenų sinchronizavimas</translation>
+<translation id="714362445477979774">„Dissenter“ duomenų sinchronizavimas</translation>
 <translation id="4314815835985389558">Sinchronizavimo tvarkymas</translation>
-<translation id="5428209950370661546">Kitos „Brave Software“ paslaugos</translation>
+<translation id="5428209950370661546">Kitos „Gab AI Inc“ paslaugos</translation>
 <translation id="7704317875155739195">Automatiškai užbaigti paieškas ir URL</translation>
 <translation id="2000419248597011803">Numatytajam paieškos varikliui siunčiami kai kurie slapukai ir į adreso juostą bei paieškos laukelį įvestos paieškos</translation>
 <translation id="7981313251711023384">Iš anksto įkelti puslapius, kad naršymo ir paieškos procesai vyktų greičiau</translation>
 <translation id="1821253160463689938">Naudojami slapukai, siekiant įsiminti jūsų nuostatas, net jei nesilankote tuose puslapiuose</translation>
 <translation id="6697492270171225480">Rodyti panašių puslapių pasiūlymus, kai nepavyksta rasti puslapio</translation>
-<translation id="8109318360573330108">Siunčiamas „Brave Software“ puslapio, kurį bandote pasiekti, URL</translation>
+<translation id="8109318360573330108">Siunčiamas „Gab AI Inc“ puslapio, kurį bandote pasiekti, URL</translation>
 <translation id="8438566539970814960">Tobulinti paieškas ir naršymą</translation>
-<translation id="284843628681142937">Siunčiami „Brave Software“ puslapių, kuriuose lankotės, URL</translation>
-<translation id="7222718784508482526">Daugiau nustatymų, susijusių su privatumu, sauga ir duomenų rinkimu, žr. skiltyje <ph name="BEGIN_LINK"/>„Sinchronizavimas ir „Brave Software“ paslaugos“<ph name="END_LINK"/></translation>
-<translation id="918192811481327695">Padėti tobulinti „Brave“ funkcijas ir našumą</translation>
-<translation id="9063160602596686558">Automatiškai siunčia naudojimo statistiką ir strigčių ataskaitas „Brave Software“</translation>
+<translation id="284843628681142937">Siunčiami „Gab AI Inc“ puslapių, kuriuose lankotės, URL</translation>
+<translation id="7222718784508482526">Daugiau nustatymų, susijusių su privatumu, sauga ir duomenų rinkimu, žr. skiltyje <ph name="BEGIN_LINK"/>„Sinchronizavimas ir „Gab AI Inc“ paslaugos“<ph name="END_LINK"/></translation>
+<translation id="918192811481327695">Padėti tobulinti „Dissenter“ funkcijas ir našumą</translation>
+<translation id="9063160602596686558">Automatiškai siunčia naudojimo statistiką ir strigčių ataskaitas „Gab AI Inc“</translation>
 <translation id="4824958205181053313">Atšaukti sinchronizavimą?</translation>
 <translation id="3058498974290601450">Galite bet kada įjungti sinchronizavimą „Nustatymų“ skiltyje</translation>
 <translation id="3143515551205905069">Atšaukti sinchronizavimą</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Kortelės numeris</translation>
 <translation id="869891660844655955">Galiojimo data</translation>
 <translation id="2286841657746966508">Atsiskaitymo adresas</translation>
-<translation id="663059986967017181">Nukopijuota į „Brave“</translation>
+<translation id="663059986967017181">Nukopijuota į „Dissenter“</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}one{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}few{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}many{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}one{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}few{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}many{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}one{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}few{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}many{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 ir dar <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Automatinis prisijungimas</translation>
 <translation id="363596933471559332">Automatiškai prisijungti prie svetainių naudojant išsaugotus prisijungimo duomenis. Kai funkcija išjungta, kaskart prisijungiant prie svetainės prašoma patvirtinti.</translation>
 <translation id="6995899638241819463">Įspėti, jei slaptažodžiai buvo atskleisti įvykus duomenų saugos pažeidimui</translation>
-<translation id="1534287762301776620">Prisijungus prie „Brave Software“ paskyros, ši funkcija yra įjungta</translation>
+<translation id="1534287762301776620">Prisijungus prie „Gab AI Inc“ paskyros, ši funkcija yra įjungta</translation>
 <translation id="10614374240317010">Niekada neišsaugota</translation>
-<translation id="3098842761938485917">Peržiūrėkite ir tvarkykite išsaugotus slaptažodžius <ph name="BEGIN_LINK"/>„Brave Software“ paskyroje<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Peržiūrėkite ir tvarkykite išsaugotus slaptažodžius <ph name="BEGIN_LINK"/>„Gab AI Inc“ paskyroje<ph name="END_LINK"/></translation>
 <translation id="8562452229998620586">Čia bus rodomi išsaugoti slaptažodžiai.</translation>
 <translation id="8084114998886531721">Išsaugotas slaptažodis</translation>
 <translation id="2870560284913253234">Svetainė</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Norėdami iš šio įrenginio eksportuoti slaptažodžius, nustatymuose įjunkite ekrano užraktą</translation>
 <translation id="4842092870884894799">Rodomas slaptažodžio generavimo iššokantysis langas</translation>
 <translation id="2259659629660284697">Eksportuoti slaptažodžius…</translation>
-<translation id="133012818630824069">Eksportuoti sistemoje „Brave“ saugomus slaptažodžius</translation>
+<translation id="133012818630824069">Eksportuoti sistemoje „Dissenter“ saugomus slaptažodžius</translation>
 <translation id="6914783257214138813">Jūsų slaptažodžiai bus matomi visiems, kurie gali peržiūrėti eksportuotą failą.</translation>
 <translation id="2321086116217818302">Ruošiami slaptažodžiai…</translation>
 <translation id="8445448999790540984">Nepavyksta eksportuoti slaptažodžių</translation>
-<translation id="3066461326500799725">Sužinokite, kaip naudoti „Brave Software Drive“</translation>
+<translation id="3066461326500799725">Sužinokite, kaip naudoti „Gab AI Inc Drive“</translation>
 <translation id="729975465115245577">Įrenginyje nėra slaptažodžių failo saugojimo programos.</translation>
 <translation id="7682724950699840886">Išbandykite nurodytus patarimus: įsitikinkite, kad įrenginyje yra pakankamai vietos, ir bandykite eksportuoti dar kartą.</translation>
 <translation id="1129510026454351943">Išsami informacija: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Atrakinkite, kad galėtumėte kopijuoti slaptažodį</translation>
 <translation id="5515439363601853141">Atrakinkite, kad galėtumėte peržiūrėti slaptažodį</translation>
 <translation id="6221633008163990886">Atrakinkite, kad galėtumėte eksportuoti slaptažodžius</translation>
-<translation id="230699814587342492">„Brave“ slaptažodžiai</translation>
+<translation id="230699814587342492">„Dissenter“ slaptažodžiai</translation>
 <translation id="6075798973483050474">Redaguoti pagrindinį puslapį</translation>
 <translation id="854522910157234410">Atidaryti šį puslapį</translation>
 <translation id="2482878487686419369">Pranešimai</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Įjungti tamsiąją temą, kai įjungta įrenginio tamsioji tema arba akumuliatoriaus tausojimo priemonė</translation>
 <translation id="6381421346744604172">Patamsinti svetaines</translation>
 <translation id="5040262127954254034">Privatumas</translation>
-<translation id="4991384657077828949">Padėkite tobulinti „Brave“ saugą</translation>
-<translation id="1943176487615318915">Tam, kad būtų aptiktos pavojingos programos ir svetainės, „Brave“ siunčia „Brave Software“ kai kurių puslapių, kuriuose lankotės, URL, ribotą sistemos informaciją ir kai kurių puslapių turinį</translation>
+<translation id="4991384657077828949">Padėkite tobulinti „Dissenter“ saugą</translation>
+<translation id="1943176487615318915">Tam, kad būtų aptiktos pavojingos programos ir svetainės, „Dissenter“ siunčia „Gab AI Inc“ kai kurių puslapių, kuriuose lankotės, URL, ribotą sistemos informaciją ir kai kurių puslapių turinį</translation>
 <translation id="3181954750937456830">Saugus naršymas (apsaugo jus ir jūsų įrenginį nuo pavojingų svetainių)</translation>
-<translation id="7315322926489145388">Siunčia „Brave Software“ kai kurių puslapių, kuriuose lankotės, URL, kai kyla pavojus jūsų saugai</translation>
+<translation id="7315322926489145388">Siunčia „Gab AI Inc“ kai kurių puslapių, kuriuose lankotės, URL, kai kyla pavojus jūsų saugai</translation>
 <translation id="2063713494490388661">Paliesti ir ieškoti</translation>
-<translation id="2369463299479365221">Sužinokite apie temas svetainėse neišėję iš puslapio. Naudojant Paiešką palietus siunčiamas žodis ir jo kontekstas „Brave Software“ paieškai, kuri pateikia apibrėžimų, nuotraukų, paieškos rezultatų ir kitos išsamios informacijos.
+<translation id="2369463299479365221">Sužinokite apie temas svetainėse neišėję iš puslapio. Naudojant Paiešką palietus siunčiamas žodis ir jo kontekstas „Gab AI Inc“ paieškai, kuri pateikia apibrėžimų, nuotraukų, paieškos rezultatų ir kitos išsamios informacijos.
 
 Jei norite koreguoti paieškos terminą, paspauskite ir laikykite, kad jį pasirinktumėte. Kad patikslintumėte paiešką, slinkite skydeliu į viršų ir palieskite paieškos laukelį.</translation>
-<translation id="2930742481329940825">Naudojant Paiešką palietus siunčiamas žodis ir jo kontekstas „Brave Software“ paieškai. Šią funkciją galite išjungti skiltyje <ph name="BEGIN_LINK"/>„Nustatymai“<ph name="END_LINK"/>.</translation>
+<translation id="2930742481329940825">Naudojant Paiešką palietus siunčiamas žodis ir jo kontekstas „Gab AI Inc“ paieškai. Šią funkciją galite išjungti skiltyje <ph name="BEGIN_LINK"/>„Nustatymai“<ph name="END_LINK"/>.</translation>
 <translation id="5039804452771397117">Leisti</translation>
 <translation id="1406000523432664303">Funkcija „Nestebėti“</translation>
 <translation id="6232535412751077445">Įgalinus funkciją „Nestebėti“, užklausa bus įtraukta į naršymo srautą. Poveikis priklauso nuo to, ar svetainė atsako į užklausą ir kaip užklausa interpretuojama.
@@ -197,18 +197,18 @@ Pavyzdžiui, kai kurios svetainės gali atsakyti į šią užklausą rodydamos j
 <translation id="7359002509206457351">Prieiga prie mokėjimo metodų</translation>
 <translation id="8026334261755873520">Išvalyti naršymo duomenis</translation>
 <translation id="1291207594882862231">Išvalykite istoriją, slapukus, svetainės duomenis, talpyklą…</translation>
-<translation id="7814200940910057384">Išvalyti „Brave“ duomenys</translation>
-<translation id="1664855196866195614">Pasirinkti duomenys pašalinti iš „Brave“ ir sinchronizuojamų įrenginių.
+<translation id="7814200940910057384">Išvalyti „Dissenter“ duomenys</translation>
+<translation id="1664855196866195614">Pasirinkti duomenys pašalinti iš „Dissenter“ ir sinchronizuojamų įrenginių.
 
-Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali būti pateikta kitų formų jūsų „Brave Software“ paskyros naršymo istorija, pvz., paieškos ir veikla kitose „Brave Software“ paslaugose.</translation>
+Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali būti pateikta kitų formų jūsų „Gab AI Inc“ paskyros naršymo istorija, pvz., paieškos ir veikla kitose „Gab AI Inc“ paslaugose.</translation>
 <translation id="4699172675775169585">Talpykloje esantys vaizdai ir failai</translation>
 <translation id="2496180316473517155">Naršymo istorija</translation>
 <translation id="2546283357679194313">Slapukai ir svetainės duomenys</translation>
 <translation id="8662811608048051533">Būsite atjungti nuo daugelio svetainių.</translation>
-<translation id="8218628800671693884">Būsite atjungti nuo daugelio svetainių. Nebūsite atjungti nuo „Brave Software“ paskyros.</translation>
+<translation id="8218628800671693884">Būsite atjungti nuo daugelio svetainių. Nebūsite atjungti nuo „Gab AI Inc“ paskyros.</translation>
 <translation id="2017836877785168846">Išvaloma istorija ir automatiniai užbaigimai adreso juostoje.</translation>
-<translation id="8096327394278038498">Išvaloma istorija ir automatiniai užbaigimai adreso juostoje. „Brave Software“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Išvaloma visų įrenginių, prie kurių prisijungta, istorija. „Brave Software“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Išvaloma istorija ir automatiniai užbaigimai adreso juostoje. „Gab AI Inc“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Išvaloma visų įrenginių, prie kurių prisijungta, istorija. „Gab AI Inc“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="5869522115854928033">Išsaugoti slaptažodžiai</translation>
 <translation id="6865313869410766144">Automatinio pildymo formos duomenys</translation>
 <translation id="7562080006725997899">Naršymo duomenų išvalymas</translation>
@@ -225,7 +225,7 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="6643016212128521049">Išvalyti</translation>
 <translation id="7641339528570811325">Valyti naršymo duomenis...</translation>
 <translation id="1670399744444387456">Bendrieji</translation>
-<translation id="3245261285041759672">„Brave Software“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3245261285041759672">„Gab AI Inc“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7274013316676448362">Užblokuota svetainė</translation>
 <translation id="2534155362429831547">Ištrinta elementų: <ph name="NUMBER_OF_ITEMS"/></translation>
 <translation id="6981982820502123353">Pritaikymas neįgaliesiems</translation>
@@ -335,12 +335,12 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="8156139159503939589">Kokiomis kalbomis skaitote?</translation>
 <translation id="5689516760719285838">Vieta</translation>
 <translation id="2440823041667407902">Prieiga prie vietovės</translation>
-<translation id="2023546461831060654">Įjunkite „Brave“ leidimus <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">Įjunkite „Brave“ leidimą <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
-<translation id="2928908108430545745">Norėdami leisti „Brave“ pasiekti jūsų vietovę, taip pat įjunkite ją <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
-<translation id="1028853271388022585">Norėdami leisti „Brave“ pasiekti jūsų kamerą, taip pat įjunkite ją <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
-<translation id="2913721282607281710">Norėdami leisti „Brave“ siųsti pranešimus, taip pat įjunkite juos <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
-<translation id="8753483718490035722">Norėdami leisti „Brave“ pasiekti jūsų mikrofoną, taip pat įjunkite jį <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="2023546461831060654">Įjunkite „Dissenter“ leidimus <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">Įjunkite „Dissenter“ leidimą <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="2928908108430545745">Norėdami leisti „Dissenter“ pasiekti jūsų vietovę, taip pat įjunkite ją <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="1028853271388022585">Norėdami leisti „Dissenter“ pasiekti jūsų kamerą, taip pat įjunkite ją <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="2913721282607281710">Norėdami leisti „Dissenter“ siųsti pranešimus, taip pat įjunkite juos <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
+<translation id="8753483718490035722">Norėdami leisti „Dissenter“ pasiekti jūsų mikrofoną, taip pat įjunkite jį <ph name="BEGIN_LINK"/>„Android“ nustatymuose<ph name="END_LINK"/>.</translation>
 <translation id="1887786770086287077">Vietos prieiga išjungta šiame įrenginyje. Įjunkite ją skiltyje <ph name="BEGIN_LINK"/>„Android“ nustatymai“<ph name="END_LINK"/>.</translation>
 <translation id="2570922361219980984">Vietos prieiga taip pat išjungta šiame įrenginyje. Įjunkite ją skiltyje <ph name="BEGIN_LINK"/>„Android“ nustatymai“<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Kamera</translation>
@@ -358,8 +358,8 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="7821588508402923572">Čia bus rodoma informacija apie sutaupytus duomenis</translation>
 <translation id="2131665479022868825">Išsaugota: <ph name="DATA"/></translation>
 <translation id="8569404424186215731">nuo <ph name="DATE"/></translation>
-<translation id="3252158532344029638">Kai įjungtas supaprastintasis režimas, sistemoje „Brave“ puslapiai įkeliami sparčiau ir naudojama iki 60 proc. mažiau duomenų.</translation>
-<translation id="1438581767753657407">Kai įjungtas supaprastintasis režimas, „Brave“ naudoja „Brave“ serverius, kad puslapiai būtų įkeliami greičiau. Supaprastintuoju režimu labai lėtai veikiantys puslapiai perrašomi, kad būtų įkeliamas tik svarbiausias turinys. Supaprastintasis režimas netaikomas inkognito skirtukams.</translation>
+<translation id="3252158532344029638">Kai įjungtas supaprastintasis režimas, sistemoje „Dissenter“ puslapiai įkeliami sparčiau ir naudojama iki 60 proc. mažiau duomenų.</translation>
+<translation id="1438581767753657407">Kai įjungtas supaprastintasis režimas, „Dissenter“ naudoja „Dissenter“ serverius, kad puslapiai būtų įkeliami greičiau. Supaprastintuoju režimu labai lėtai veikiantys puslapiai perrašomi, kad būtų įkeliamas tik svarbiausias turinys. Supaprastintasis režimas netaikomas inkognito skirtukams.</translation>
 <translation id="6159335304067198720">Sutaupyta duomenų: <ph name="PERCENT"/></translation>
 <translation id="7494974237137038751">sutaupyti duomenys</translation>
 <translation id="6111020039983847643">išnaudoti duomenys</translation>
@@ -381,15 +381,15 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="1856325424225101786">Nustatyti supaprastintąjį režimą iš naujo?</translation>
 <translation id="3658159451045945436">Nustačius iš naujo, bus ištrinta sutaupytų duomenų istorija, įskaitant aplankytų svetainių sąrašą.</translation>
 <translation id="3295530008794733555">Naršykite greičiau. Naudokite mažiau duomenų.</translation>
-<translation id="7340390500800578919">Kai įjungtas supaprastintasis režimas, „Brave“ sparčiau įkelia puslapius ir sunaudoja iki 60 proc. mažiau duomenų. „Brave“ siunčia žiniatinklio srauto duomenis sistemai „Brave Software“, kad optimizuotų puslapius, kuriuose lankotės. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">Kai įjungtas supaprastintasis režimas, „Dissenter“ sparčiau įkelia puslapius ir sunaudoja iki 60 proc. mažiau duomenų. „Dissenter“ siunčia žiniatinklio srauto duomenis sistemai „Gab AI Inc“, kad optimizuotų puslapius, kuriuose lankotės. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">Įjungti supaprastintąjį režimą</translation>
 <translation id="4493497663118223949">Supaprastintasis režimas įjungtas</translation>
 <translation id="7559975015014302720">Supaprastintasis režimas išjungtas</translation>
 <translation id="7606077192958116810">Supaprastintasis režimas nustatytas. Tvarkyti skiltyje „Nustatymai“.</translation>
 <translation id="4714588616299687897">Sutaupykite iki 60 proc. duomenų</translation>
-<translation id="1006927014032731288">„Brave Software“ serveriai optimizuos puslapius, kuriuose lankotės.</translation>
-<translation id="3257320067425202300">„Brave“ sutaupė jums <ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">„Brave“ sutaupė jums <ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">„Gab AI Inc“ serveriai optimizuos puslapius, kuriuose lankotės.</translation>
+<translation id="3257320067425202300">„Dissenter“ sutaupė jums <ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">„Dissenter“ sutaupė jums <ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">Atsisiuntimo vieta</translation>
 <translation id="7077143737582773186">SD kortelė</translation>
 <translation id="7762668264895820836">SD kortelė Nr. <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="7290209999329137901">Pavadinimo pakeisti nepavyko</translation>
 <translation id="3334729583274622784">Pakeisti failo plėtinį?</translation>
 <translation id="107147699690128016">Jei pakeisite failo plėtinį, failas gali būti atidaromas naudojant kitą programą ir galimai pakenkti įrenginiui.</translation>
-<translation id="8541922081612557424">Apie „Brave“</translation>
-<translation id="5311273890481188673">Autorių teisės „Brave Software LLC.“, <ph name="YEAR"/> m. Visos teisės saugomos.</translation>
+<translation id="8541922081612557424">Apie „Dissenter“</translation>
+<translation id="5311273890481188673">Autorių teisės „Gab AI Inc LLC.“, <ph name="YEAR"/> m. Visos teisės saugomos.</translation>
 <translation id="1416550906796893042">Programos versija</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (atnaujinta <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Operacinė sistema</translation>
-<translation id="3968054912784331254">„Brave“ naujiniai nebepalaikomi naudojant šios versijos „Android“.</translation>
+<translation id="3968054912784331254">„Dissenter“ naujiniai nebepalaikomi naudojant šios versijos „Android“.</translation>
 <translation id="7665369617277396874">Pridėti paskyrą</translation>
-<translation id="649070405679044769">Prisijungta prie „Brave Software“ kaip</translation>
-<translation id="6234515504547364178">Atsijungimas nuo „Brave“</translation>
+<translation id="649070405679044769">Prisijungta prie „Gab AI Inc“ kaip</translation>
+<translation id="6234515504547364178">Atsijungimas nuo „Dissenter“</translation>
 <translation id="5324858694974489420">Tėvų nustatymai</translation>
 <translation id="8920114477895755567">Laukiama išsamios tėvų informacijos.</translation>
 <translation id="5512137114520586844">Šią paskyrą tvarko <ph name="PARENT_NAME"/>.</translation>
@@ -432,7 +432,7 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="5403644198645076998">Leisti tik konkrečias svetaines</translation>
 <translation id="8641930654639604085">Bandyti užblokuoti suaugusiesiems skirtas svetaines</translation>
 <translation id="5639724618331995626">Leisti visas svetaines</translation>
-<translation id="796823723482603597">Teikia „Brave“</translation>
+<translation id="796823723482603597">Teikia „Dissenter“</translation>
 <translation id="6324034347079777476">„Android“ sistemos sinchronizavimas išjungtas</translation>
 <translation id="5127805178023152808">Sinchronizavimas išjungtas</translation>
 <translation id="7015203776128479407">Pradinis sinchronizavimo nustatymas nebaigtas. Sinchronizavimas išjungtas.</translation>
@@ -441,48 +441,48 @@ Adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> gali b�
 <translation id="6108923351542677676">Nustatoma…</translation>
 <translation id="4062305924942672200">Teisinė informacija</translation>
 <translation id="4256782883801055595">Atvirojo šaltinio licencijos</translation>
-<translation id="1138681184697033370">„Brave“ paslaugų teikimo sąlygos</translation>
-<translation id="7392539049993970338">„Brave“ privatumo pranešimas</translation>
+<translation id="1138681184697033370">„Dissenter“ paslaugų teikimo sąlygos</translation>
+<translation id="7392539049993970338">„Dissenter“ privatumo pranešimas</translation>
 <translation id="2677748264148917807">Išeiti</translation>
 <translation id="5556459405103347317">Įkelti iš naujo</translation>
 <translation id="1623104350909869708">Neleisti šiam puslapiui kurti papildomų dialogo langų</translation>
 <translation id="2968755619301702150">Sertifikato peržiūros priemonė</translation>
 <translation id="1360432990279830238">Atsijungti ir išjungti sinchronizavimą?</translation>
-<translation id="8581481290581777242">Išvalyti jūsų „Brave“ duomenis iš šio įrenginio?</translation>
-<translation id="1318865768845061710">Su jūsų „Brave Software“ paskyra nebebus sinchronizuojamos žymės, istorija, slaptažodžiai ir kiti „Brave“ duomenys</translation>
-<translation id="3325020657155065477">Taip pat išvalyti jūsų „Brave“ duomenis iš šio įrenginio</translation>
-<translation id="6136448902816743006">Atsijungiate nuo paskyros, kurią valdo <ph name="DOMAIN_NAME"/>, todėl jūsų „Brave“ duomenys bus ištrinti iš šio įrenginio. Duomenys liks „Brave Software“ paskyroje.</translation>
-<translation id="1853026300647876496">Susisiekiama su „Brave Software“. Tai gali šiek tiek užtrukti…</translation>
+<translation id="8581481290581777242">Išvalyti jūsų „Dissenter“ duomenis iš šio įrenginio?</translation>
+<translation id="1318865768845061710">Su jūsų „Gab AI Inc“ paskyra nebebus sinchronizuojamos žymės, istorija, slaptažodžiai ir kiti „Dissenter“ duomenys</translation>
+<translation id="3325020657155065477">Taip pat išvalyti jūsų „Dissenter“ duomenis iš šio įrenginio</translation>
+<translation id="6136448902816743006">Atsijungiate nuo paskyros, kurią valdo <ph name="DOMAIN_NAME"/>, todėl jūsų „Dissenter“ duomenys bus ištrinti iš šio įrenginio. Duomenys liks „Gab AI Inc“ paskyroje.</translation>
+<translation id="1853026300647876496">Susisiekiama su „Gab AI Inc“. Tai gali šiek tiek užtrukti…</translation>
 <translation id="2328985652426384049">Nepavyksta prisijungti</translation>
-<translation id="7723158744459952869">Per ilgai laukta „Brave Software“ atsako</translation>
+<translation id="7723158744459952869">Per ilgai laukta „Gab AI Inc“ atsako</translation>
 <translation id="4572422548854449519">Prisijungimas prie tvarkomos paskyros</translation>
-<translation id="2689656545739939160">Prisijungiate naudodami „<ph name="MANAGED_DOMAIN"/>“ tvarkomą paskyrą ir suteikiate jos administratoriui galimybę valdyti jūsų „Brave“ duomenis. Duomenys bus visam laikui susieti su šia paskyra. Atsijungę nuo „Brave“ ištrinsite duomenis iš šio įrenginio, bet jie ir toliau bus saugomi „Brave Software“ paskyroje.</translation>
+<translation id="2689656545739939160">Prisijungiate naudodami „<ph name="MANAGED_DOMAIN"/>“ tvarkomą paskyrą ir suteikiate jos administratoriui galimybę valdyti jūsų „Dissenter“ duomenis. Duomenys bus visam laikui susieti su šia paskyra. Atsijungę nuo „Dissenter“ ištrinsite duomenis iš šio įrenginio, bet jie ir toliau bus saugomi „Gab AI Inc“ paskyroje.</translation>
 <translation id="1749561566933687563">Sinchronizuokite žymes</translation>
 <translation id="4242533952199664413">Atidaryti nustatymus</translation>
 <translation id="1111673857033749125">Čia bus rodomos kituose įrenginiuose išsaugotos žymės.</translation>
 <translation id="8636825310635137004">Jei norite pasiekti skirtukus iš kitų įrenginių, įjunkite sinchronizavimą.</translation>
 <translation id="3269956123044984603">Jei norite pasiekti skirtukus iš kitų įrenginių, „Android“ paskyros nustatymuose įjunkite parinktį „Automatiškai sinchronizuoti duomenis“.</translation>
-<translation id="5157964048453367290">Čia bus rodomi kituose įrenginiuose atidaryti „Brave“ skirtukai.</translation>
+<translation id="5157964048453367290">Čia bus rodomi kituose įrenginiuose atidaryti „Dissenter“ skirtukai.</translation>
 <translation id="4684427112815847243">Viską sinchronizuoti</translation>
 <translation id="2709516037105925701">Automatinis pildymas</translation>
 <translation id="8820817407110198400">Žymės</translation>
 <translation id="1644574205037202324">Istorija</translation>
 <translation id="17513872634828108">Atidaryti skirtukai</translation>
-<translation id="1320169905922104972">„Brave Software Pay“ naudojamos kredito kortelės ir adresai</translation>
+<translation id="1320169905922104972">„Gab AI Inc Pay“ naudojamos kredito kortelės ir adresai</translation>
 <translation id="6337234675334993532">Šifruotė</translation>
 <translation id="6698801883190606802">Tvarkykite sinchronizuotus duomenis</translation>
-<translation id="3598578758776312506">Šifruoti slaptažodžius naudojant „Brave Software“ prisijungimo duomenis</translation>
-<translation id="7810580217418711046">Šifruoti sinchronizuotus duomenis nuo <ph name="TIME"/> taikant „Brave Software“ slaptažodį</translation>
+<translation id="3598578758776312506">Šifruoti slaptažodžius naudojant „Gab AI Inc“ prisijungimo duomenis</translation>
+<translation id="7810580217418711046">Šifruoti sinchronizuotus duomenis nuo <ph name="TIME"/> taikant „Gab AI Inc“ slaptažodį</translation>
 <translation id="8461694314515752532">Šifruokite sinchronizuojamus duomenis taikydami savo sinchronizavimo slaptafrazę</translation>
 <translation id="2996291259634659425">Kurkite slaptafrazę</translation>
-<translation id="5713644099811900409">„Brave Software“ paskyra</translation>
-<translation id="8997474919031554666">Slaptafrazės šifruotė neapima mokėjimo metodų ir adresų iš „Brave Software Pay“. Tik jūsų slaptafrazę žinantis asmuo gali skaityti šifruotus duomenis. Slaptafrazė nesiunčiama į sistemą „Brave Software“ ir joje nesaugoma. Pamiršę slaptafrazę arba norėdami pakeisti šį nustatymą turėsite iš naujo nustatyti sinchronizavimą. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">„Gab AI Inc“ paskyra</translation>
+<translation id="8997474919031554666">Slaptafrazės šifruotė neapima mokėjimo metodų ir adresų iš „Gab AI Inc Pay“. Tik jūsų slaptafrazę žinantis asmuo gali skaityti šifruotus duomenis. Slaptafrazė nesiunčiama į sistemą „Gab AI Inc“ ir joje nesaugoma. Pamiršę slaptafrazę arba norėdami pakeisti šį nustatymą turėsite iš naujo nustatyti sinchronizavimą. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">Slaptafrazė</translation>
 <translation id="7772032839648071052">Patvirtinti slaptafrazę</translation>
 <translation id="5304593522240415983">Šis laukas negali būti tuščias</translation>
 <translation id="321773570071367578">Jei pamiršote slaptafrazę arba norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykite sinchronizavimą<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">Slaptafrazės neatitinka</translation>
-<translation id="5149495116300586333">Slaptafrazės šifruotė neapima mokėjimo metodų ir adresų iš „Brave Software Pay“.
+<translation id="5149495116300586333">Slaptafrazės šifruotė neapima mokėjimo metodų ir adresų iš „Gab AI Inc Pay“.
 
 Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykite sinchronizavimą<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Neteisinga slaptafrazė</translation>
@@ -499,11 +499,11 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Gaukite pagalbos<ph name="END_LINK1"/> arba <ph name="BEGIN_LINK2"/>ieškokite iš naujo<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">Nerasta jokių suderinamų įrenginių</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Įjunkite „Bluetooth“<ph name="END_LINK"/>, kad būtų leidžiama susieti</translation>
-<translation id="998321811308652668">„Brave“ nepavyksta įjungti „Bluetooth“ adapterio</translation>
+<translation id="998321811308652668">„Dissenter“ nepavyksta įjungti „Bluetooth“ adapterio</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Gaukite pagalbos<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">„Brave“ reikalinga prieiga prie vietos, kad galėtų nuskaityti įrenginius. <ph name="BEGIN_LINK"/>Atnaujinkite leidimus<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">„Brave“ reikalinga prieiga prie informacijos apie vietovę, kad galėtų nuskaityti įrenginius. Galimybė pasiekti informaciją apie vietovę <ph name="BEGIN_LINK"/>išjungta šiame įrenginyje<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">„Brave“ reikalinga prieiga prie informacijos apie vietovę, kad galėtų nuskaityti įrenginius. <ph name="BEGIN_LINK1"/>Atnaujinkite leidimus<ph name="END_LINK1"/>. Be to, galimybė pasiekti informaciją apie vietovę <ph name="BEGIN_LINK2"/>išjungta šiame įrenginyje<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">„Dissenter“ reikalinga prieiga prie vietos, kad galėtų nuskaityti įrenginius. <ph name="BEGIN_LINK"/>Atnaujinkite leidimus<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">„Dissenter“ reikalinga prieiga prie informacijos apie vietovę, kad galėtų nuskaityti įrenginius. Galimybė pasiekti informaciją apie vietovę <ph name="BEGIN_LINK"/>išjungta šiame įrenginyje<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">„Dissenter“ reikalinga prieiga prie informacijos apie vietovę, kad galėtų nuskaityti įrenginius. <ph name="BEGIN_LINK1"/>Atnaujinkite leidimus<ph name="END_LINK1"/>. Be to, galimybė pasiekti informaciją apie vietovę <ph name="BEGIN_LINK2"/>išjungta šiame įrenginyje<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Prijungtas įrenginys</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Signalo stiprumo lygis: # juosta}one{Signalo stiprumo lygis: # juosta}few{Signalo stiprumo lygis: # juostos}many{Signalo stiprumo lygis: # juostos}other{Signalo stiprumo lygis: # juostų}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/> nori nuskaityti netoliese esančius „Bluetooth“ įrenginius. Rasti šie įrenginiai:</translation>
@@ -511,11 +511,11 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="7605594153474022051">Sinchronizavimas neveikia</translation>
 <translation id="2537178555904266562">Sinchronizuojant slaptažodžius įvyko klaida</translation>
 <translation id="1810845389119482123">Pradinė sinchronizavimo sąranka nebaigta</translation>
-<translation id="3235722914093408050">Atid. „Android“ nust. ir iš n. įgal. „Android“ sist., kad prad. „Brave“ sinchr.</translation>
+<translation id="3235722914093408050">Atid. „Android“ nust. ir iš n. įgal. „Android“ sist., kad prad. „Dissenter“ sinchr.</translation>
 <translation id="3367813778245106622">Prisijunkite dar kartą, kad pradėtumėte sinchronizavimą</translation>
 <translation id="3701167022068948696">Ištaisyti dabar</translation>
 <translation id="974555521953189084">Įveskite slaptafrazę, kad pradėtumėte sinchronizavimą</translation>
-<translation id="2997266899014181325">Norėdami pradėti sinchronizuoti, įjunkite parinktį „Brave“ duomenų sinchronizavimas“.</translation>
+<translation id="2997266899014181325">Norėdami pradėti sinchronizuoti, įjunkite parinktį „Dissenter“ duomenų sinchronizavimas“.</translation>
 <translation id="8260126382462817229">Bandykite prisijungti dar kartą</translation>
 <translation id="5919204609460789179">Atnaujinkite „<ph name="PRODUCT_NAME"/>“, kad galėtumėte pradėti sinchronizuoti</translation>
 <translation id="397583555483684758">Sinchronizavimas nebeveikia</translation>
@@ -548,14 +548,14 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> <ph name="LINK_NAME"/> mygtukas</translation>
 <translation id="3205824638308738187">Beveik baigta!</translation>
-<translation id="3960299545138990065">Iš naujo paleiskite „Brave“</translation>
+<translation id="3960299545138990065">Iš naujo paleiskite „Dissenter“</translation>
 <translation id="3771001275138982843">Nepavyko atsisiųsti naujinio</translation>
-<translation id="3888648114124182147">Atsisiunčiamas „Brave“ naujinys…</translation>
-<translation id="1705567146636171298">Atnaujinkite „Brave“</translation>
-<translation id="6195417478702700398">Kad būtų teikiamos geriausios naršymo funkcijos, atidarykite ir atnaujinkite „Brave“</translation>
-<translation id="3512968675351418494">Jei norite matyti žiniatinklį savo kalba, gaukite naujausią „Brave“ versiją</translation>
+<translation id="3888648114124182147">Atsisiunčiamas „Dissenter“ naujinys…</translation>
+<translation id="1705567146636171298">Atnaujinkite „Dissenter“</translation>
+<translation id="6195417478702700398">Kad būtų teikiamos geriausios naršymo funkcijos, atidarykite ir atnaujinkite „Dissenter“</translation>
+<translation id="3512968675351418494">Jei norite matyti žiniatinklį savo kalba, gaukite naujausią „Dissenter“ versiją</translation>
 <translation id="6427112570124116297">Žiniatinklio vertimas</translation>
-<translation id="1379423114029199501">Norėdami gauti naujausią versiją su įdiegta savo kalba, atnaujinkite „Brave“</translation>
+<translation id="1379423114029199501">Norėdami gauti naujausią versiją su įdiegta savo kalba, atnaujinkite „Dissenter“</translation>
 <translation id="5684874026226664614">Oi, nepavyko išversti šio puslapio.</translation>
 <translation id="6831043979455480757">Vertėjas</translation>
 <translation id="1285320974508926690">Niekada neversti šios svetainės</translation>
@@ -578,11 +578,11 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="2532336938189706096">Žiniatinklio rodinys</translation>
 <translation id="6005538289190791541">Siūlomas slaptažodis</translation>
 <translation id="4634124774493850572">Naudoti slaptažodį</translation>
-<translation id="8285489906452138776">„Brave“ reikia leidimo, kad galėtų naudoti jūsų fotoaparatą šioje svetainėje.</translation>
-<translation id="320189792589364011">„Brave“ reikia leidimo, kad galėtų naudoti jūsų mikrofoną šioje svetainėje.</translation>
-<translation id="7988136689212463100">„Brave“ reikia leidimo, kad galėtų naudoti jūsų fotoaparatą ir mikrofoną šioje svetainėje.</translation>
-<translation id="4931190655840828017">„Brave“ reikia leidimo, kad galėtų naudoti jūsų vietovės informaciją ir bendrinti ją su šia svetaine.</translation>
-<translation id="3088191967551450609">„Brave“ reikia prieigos prie saugyklos failams atsisiųsti.</translation>
+<translation id="8285489906452138776">„Dissenter“ reikia leidimo, kad galėtų naudoti jūsų fotoaparatą šioje svetainėje.</translation>
+<translation id="320189792589364011">„Dissenter“ reikia leidimo, kad galėtų naudoti jūsų mikrofoną šioje svetainėje.</translation>
+<translation id="7988136689212463100">„Dissenter“ reikia leidimo, kad galėtų naudoti jūsų fotoaparatą ir mikrofoną šioje svetainėje.</translation>
+<translation id="4931190655840828017">„Dissenter“ reikia leidimo, kad galėtų naudoti jūsų vietovės informaciją ir bendrinti ją su šia svetaine.</translation>
+<translation id="3088191967551450609">„Dissenter“ reikia prieigos prie saugyklos failams atsisiųsti.</translation>
 <translation id="8942627711005830162">Atidaryti kitame lange</translation>
 <translation id="4195643157523330669">Atidaryti naujame skirtuke</translation>
 <translation id="1100066534610197918">Atidar. naujame grup. skirtuke</translation>
@@ -599,15 +599,15 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="8073388330009372546">Atid. vaizdą nauj. skirt. lap.</translation>
 <translation id="6649642165559792194">Peržiūrėti vaizdą <ph name="BEGIN_NEW"/>Naujas<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Įkelti vaizdą</translation>
-<translation id="3845332215609790146">Ieškoti su „Brave Software Lens“ <ph name="BEGIN_NEW"/>Nauja<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Ieškoti su „Gab AI Inc Lens“ <ph name="BEGIN_NEW"/>Nauja<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">Ieškoti „<ph name="SEARCH_ENGINE"/>“ šio vaizdo</translation>
 <translation id="3384347053049321195">Bendrinti vaizdą</translation>
 <translation id="5833984609253377421">Bendrinti nuorodą</translation>
 <translation id="6475951671322991020">Atsisiųsti vaizdo įrašą</translation>
-<translation id="2317945146070194624">Atidaryti naujame „Brave“ skirtuke</translation>
+<translation id="2317945146070194624">Atidaryti naujame „Dissenter“ skirtuke</translation>
 <translation id="7975379999046275268">Peržiūrėti puslapį <ph name="BEGIN_NEW"/>Naujas<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Puslapio atnaujinimas</translation>
-<translation id="6990079615885386641">Gauti programą iš „Brave Software Play“ parduotuvės: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Gauti programą iš „Gab AI Inc Play“ parduotuvės: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Tamsi</translation>
 <translation id="1807246157184219062">Šviesi</translation>
 <translation id="4056223980640387499">Sepija</translation>
@@ -634,9 +634,9 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="164269334534774161">Peržiūrite neprisijungus pasiekiamą šio puslapio kopiją (<ph name="CREATION_TIME"/>)</translation>
 <translation id="4594952190837476234">Šis neprisijungus naudojamas puslapis sukurtas <ph name="CREATION_TIME"/>, todėl gali skirtis nuo prisijungus pateiktos versijos.</translation>
 <translation id="8840953339110955557">Šis puslapis gali skirtis nuo prisijungus pateiktos versijos.</translation>
-<translation id="6405300764336705484">Šis turinys yra iš domeno <ph name="DOMAIN_NAME"/>, kurį teikia „Brave Software“.</translation>
+<translation id="6405300764336705484">Šis turinys yra iš domeno <ph name="DOMAIN_NAME"/>, kurį teikia „Gab AI Inc“.</translation>
 <translation id="1006017844123154345">Atidaryti prisijungus</translation>
-<translation id="3326636747541519688">Supaprastintasis puslapis, kurį teikia „Brave Software“</translation>
+<translation id="3326636747541519688">Supaprastintasis puslapis, kurį teikia „Gab AI Inc“</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Įkelti pradinį puslapį<ph name="END_LINK"/> iš <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Jei tai rodoma dažnai, peržiūrėkite šiuos <ph name="BEGIN_LINK"/>pasiūlymus<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Turinys paslėptas</translation>
@@ -733,19 +733,19 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">MM</translation>
 <translation id="605721222689873409">MM</translation>
-<translation id="724102042129299115">„Brave“ pirmosios paleisties patirtis</translation>
-<translation id="2700285883409956633">Naudodami šią programą sutinkate su „Brave“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/> ir <ph name="BEGIN_LINK2"/>privatumo pranešimo<ph name="END_LINK2"/> sąlygomis.</translation>
-<translation id="1640714894372474981">Naudodami šią programą sutinkate su „Brave“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/> ir <ph name="BEGIN_LINK3"/>privatumo pranešimu, skirtu „Brave Software“ paskyroms, tvarkomoms naudojant „Family Link“<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727">Programa „<ph name="APP_NAME"/>“ bus atidaryta naršyklėje „Brave“. Tęsdami sutinkate su „Brave“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/> ir <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/>.</translation>
-<translation id="5071615083211946659">Programa „<ph name="APP_NAME"/>“ bus atidaryta naršyklėje „Brave“. Tęsdami sutinkate su „Brave“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/> ir <ph name="BEGIN_LINK3"/>privatumo pranešimu, skirtu „Brave Software“ paskyroms, tvarkomoms naudojant „Family Link“<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Padėkite tobulinti „Brave“ siųsdami „Brave Software“ naudojimo statistiką ir strigčių ataskaitas.</translation>
+<translation id="724102042129299115">„Dissenter“ pirmosios paleisties patirtis</translation>
+<translation id="2700285883409956633">Naudodami šią programą sutinkate su „Dissenter“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/> ir <ph name="BEGIN_LINK2"/>privatumo pranešimo<ph name="END_LINK2"/> sąlygomis.</translation>
+<translation id="1640714894372474981">Naudodami šią programą sutinkate su „Dissenter“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/> ir <ph name="BEGIN_LINK3"/>privatumo pranešimu, skirtu „Gab AI Inc“ paskyroms, tvarkomoms naudojant „Family Link“<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727">Programa „<ph name="APP_NAME"/>“ bus atidaryta naršyklėje „Dissenter“. Tęsdami sutinkate su „Dissenter“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/> ir <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/>.</translation>
+<translation id="5071615083211946659">Programa „<ph name="APP_NAME"/>“ bus atidaryta naršyklėje „Dissenter“. Tęsdami sutinkate su „Dissenter“ <ph name="BEGIN_LINK1"/>paslaugų teikimo sąlygomis<ph name="END_LINK1"/>, <ph name="BEGIN_LINK2"/>privatumo pranešimu<ph name="END_LINK2"/> ir <ph name="BEGIN_LINK3"/>privatumo pranešimu, skirtu „Gab AI Inc“ paskyroms, tvarkomoms naudojant „Family Link“<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Padėkite tobulinti „Dissenter“ siųsdami „Gab AI Inc“ naudojimo statistiką ir strigčių ataskaitas.</translation>
 <translation id="3518985090088779359">Sutikti ir tęsti</translation>
-<translation id="7207456302801184289">Sveiki, tai „Brave“</translation>
-<translation id="7189372733857464326">Laukiama, kol bus baigtas „Brave Software Play“ paslaugų atnaujinimas</translation>
+<translation id="7207456302801184289">Sveiki, tai „Dissenter“</translation>
+<translation id="7189372733857464326">Laukiama, kol bus baigtas „Gab AI Inc Play“ paslaugų atnaujinimas</translation>
 <translation id="1231733316453485619">Įjungti sinchronizavimą?</translation>
 <translation id="5132942445612118989">Sinchronizuokite slaptažodžius, istoriją ir daugiau visuose įrenginiuose</translation>
-<translation id="5736731321935944068">„Brave Software“ gali naudoti jūsų istoriją, kad suasmenintų Paiešką, skelbimus ir kitas „Brave Software“ paslaugas</translation>
-<translation id="4013614219085422040">„Brave Software“ gali naudoti jūsų istoriją, kad suasmenintų Paiešką ir kitas „Brave Software“ paslaugas</translation>
+<translation id="5736731321935944068">„Gab AI Inc“ gali naudoti jūsų istoriją, kad suasmenintų Paiešką, skelbimus ir kitas „Gab AI Inc“ paslaugas</translation>
+<translation id="4013614219085422040">„Gab AI Inc“ gali naudoti jūsų istoriją, kad suasmenintų Paiešką ir kitas „Gab AI Inc“ paslaugas</translation>
 <translation id="5581519193887989363">Bet kada galite pasirinkti, ką norite sinchronizuoti, skiltyje <ph name="BEGIN_LINK1"/>„Nustatymai“<ph name="END_LINK1"/>.</translation>
 <translation id="741204030948306876">Taip, sutinku</translation>
 <translation id="2410754283952462441">Pasirinkite paskyrą</translation>
@@ -753,8 +753,8 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="6210748933810148297">Ne <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">Jei norite pasiekti žymes visuose įrenginiuose, įjunkite sinchronizavimą</translation>
 <translation id="2818669890320396765">Jei norite pasiekti žymes visuose įrenginiuose, prisijunkite ir įjunkite sinchronizavimą</translation>
-<translation id="6003646045106347985">Jei norite gauti „Brave Software“ siūlomo suasmeninto turinio, įjunkite sinchronizavimą</translation>
-<translation id="8494430740943879273">Jei norite gauti „Brave Software“ siūlomo suasmeninto turinio, prisijunkite ir įjunkite sinchronizavimą</translation>
+<translation id="6003646045106347985">Jei norite gauti „Gab AI Inc“ siūlomo suasmeninto turinio, įjunkite sinchronizavimą</translation>
+<translation id="8494430740943879273">Jei norite gauti „Gab AI Inc“ siūlomo suasmeninto turinio, prisijunkite ir įjunkite sinchronizavimą</translation>
 <translation id="5862731021271217234">Jei norite pasiekti skirtukus iš kitų įrenginių, įjunkite sinchronizavimą</translation>
 <translation id="3568688522516854065">Jei norite pasiekti skirtukus iš kitų įrenginių, prisijunkite ir įjunkite sinchronizavimą</translation>
 <translation id="1208340532756947324">Kad turinys būtų sinchronizuojamas visuose įrenginiuose, įjunkite sinchronizavimą</translation>
@@ -774,7 +774,7 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="5423934151118863508">Puslapiai, kuriuose lankomasi dažniausiai, bus rodomi čia</translation>
 <translation id="6127379762771434464">Elementas pašalintas</translation>
 <translation id="4605958867780575332">Pašalintas elementas: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">„Brave Software“ papuoštas logotipas: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">„Gab AI Inc“ papuoštas logotipas: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Kiti įrenginiai</translation>
 <translation id="4738836084190194332">Paskutinį kartą sinchronizuota: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{Prieš 1 minutę}one{Prieš # minutę}few{Prieš # minutes}many{Prieš # minutės}other{Prieš # minučių}}</translation>
@@ -805,9 +805,9 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="1171770572613082465">Žr. populiarias svetaines palietę mygtuką „Populiariausios svetainės“</translation>
 <translation id="5233638681132016545">Naujas skirtukas</translation>
 <translation id="6336451774241870485">Naujas inkognito skirtukas</translation>
-<translation id="4521874409998847950">Nuo <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>pateikė „Brave Software“<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">Nuo <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>pateikė „Gab AI Inc“<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">Pasiekiama naujesnė versija</translation>
-<translation id="4058091506841967397">Nepav. atnauj. „Brave“</translation>
+<translation id="4058091506841967397">Nepav. atnauj. „Dissenter“</translation>
 <translation id="6316139424528454185">„Android“ versija nepalaikoma</translation>
 <translation id="6989267951144302301">Nepavyko atsisiųsti</translation>
 <translation id="624789221780392884">Naujinys paruoštas</translation>
@@ -855,7 +855,7 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="2536728043171574184">Žiūrima neprisijungus naudojama šio puslapio kopija</translation>
 <translation id="4698034686595694889">Žr. neprisijungus programoje „<ph name="APP_NAME"/>“</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> ir daugiau svetainių</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{„Brave“ įkels puslapį, kai bus paruošta}one{„Brave“ įkels puslapius, kai bus paruošta}few{„Brave“ įkels puslapius, kai bus paruošta}many{„Brave“ įkels puslapius, kai bus paruošta}other{„Brave“ įkels puslapius, kai bus paruošta}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{„Dissenter“ įkels puslapį, kai bus paruošta}one{„Dissenter“ įkels puslapius, kai bus paruošta}few{„Dissenter“ įkels puslapius, kai bus paruošta}many{„Dissenter“ įkels puslapius, kai bus paruošta}other{„Dissenter“ įkels puslapius, kai bus paruošta}}</translation>
 <translation id="6811034713472274749">Puslapis paruoštas peržiūrėti</translation>
 <translation id="4561979708150884304">Nėra ryšio</translation>
 <translation id="8274165955039650276">Peržiūrėti atsisiuntimus</translation>
@@ -865,16 +865,16 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="3298243779924642547">Supapr.</translation>
 <translation id="393697183122708255">Neįgalinta paieška balsu</translation>
 <translation id="7191430249889272776">Skirtuko lapas atidarytas fone.</translation>
-<translation id="8445059357334030806">Atidaryti naudojant „Brave“</translation>
+<translation id="8445059357334030806">Atidaryti naudojant „Dissenter“</translation>
 <translation id="4720023427747327413">Atidaryti naudojant „<ph name="PRODUCT_NAME"/>“</translation>
 <translation id="7022756207310403729">Atidaryti naršyklėje</translation>
 <translation id="1113597929977215864">Rodyti supaprastintą rodinį</translation>
 <translation id="1513352483775369820">Žymių ir žiniatinklio istorija</translation>
-<translation id="4939482511480190003">Padėkite tobulinti „Brave“. <ph name="BEGIN_LINK"/>Dalyvaukite apklausoje<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Padėkite tobulinti „Dissenter“. <ph name="BEGIN_LINK"/>Dalyvaukite apklausoje<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Grįžti</translation>
 <translation id="5596627076506792578">Daugiau parinkčių</translation>
 <translation id="3522247891732774234">Pasiekiamas naujinys. Daugiau parinkčių</translation>
-<translation id="6773423637732432200">Nepavyksta atnaujinti „Brave“. Daugiau parinkčių.</translation>
+<translation id="6773423637732432200">Nepavyksta atnaujinti „Dissenter“. Daugiau parinkčių.</translation>
 <translation id="3328801116991980348">Svetainės informacija</translation>
 <translation id="5391532827096253100">Ryšys su šia svetaine nėra saugus. Svetainės informacija</translation>
 <translation id="6206551242102657620">Ryšys yra saugus. Svetainės informacija</translation>
@@ -934,7 +934,7 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="3211426585530211793">Ištrinta „<ph name="ITEM_TITLE"/>“</translation>
 <translation id="4663756553811254707">Ištrinta žymių: <ph name="NUMBER_OF_BOOKMARKS"/></translation>
 <translation id="3819178904835489326">Ištrinta atsisiuntimų: <ph name="NUMBER_OF_DOWNLOADS"/></translation>
-<translation id="1248710015876067820">Nepalaikomas „Brave“ atvejų skaičius.</translation>
+<translation id="1248710015876067820">Nepalaikomas „Dissenter“ atvejų skaičius.</translation>
 <translation id="4259722352634471385">Naršymas užblokuotas: <ph name="URL"/></translation>
 <translation id="8959122750345127698">Naršymas nepasiekiamas: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Uždaryti skirtuką</translation>
@@ -947,20 +947,20 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="8427875596167638501">Peržiūros skirtukas atidarytas iki pusės ekrano</translation>
 <translation id="9102803872260866941">Peržiūros skirtukas atidarytas</translation>
 <translation id="2942036813789421260">Peržiūros skirtukas uždarytas</translation>
-<translation id="6355102470683871794">„Brave Software <ph name="APP_NAME"/>“ saugykla</translation>
+<translation id="6355102470683871794">„Gab AI Inc <ph name="APP_NAME"/>“ saugykla</translation>
 <translation id="3822502789641063741">Išvalyti svet. saugyklą?</translation>
-<translation id="9205995714227143200">Svetainės saugykla, kurios „Brave“ nelaiko svarbia (pvz., svetainės be išsaugotų nustatymų arba tos, kuriose retai lankotės)</translation>
+<translation id="9205995714227143200">Svetainės saugykla, kurios „Dissenter“ nelaiko svarbia (pvz., svetainės be išsaugotų nustatymų arba tos, kuriose retai lankotės)</translation>
 <translation id="3997476611815694295">Nesvarbi saugykla</translation>
 <translation id="8493948351860045254">Atlaisvinti vietos</translation>
-<translation id="2324920234469020158">Bus išvalyti slapukai, talpykla ir kiti svetainių duomenys, kurių „Brave“ nelaiko svarbiais.</translation>
+<translation id="2324920234469020158">Bus išvalyti slapukai, talpykla ir kiti svetainių duomenys, kurių „Dissenter“ nelaiko svarbiais.</translation>
 <translation id="5447201525962359567">Visa svetainės saugykla, įskaitant slapukus ir kitus vietoje saugomus duomenis</translation>
 <translation id="1376578503827013741">Apskaičiuojama...</translation>
 <translation id="583281660410589416">Nežinoma</translation>
 <translation id="2323763861024343754">Svetainės saugykla</translation>
-<translation id="3587672679800759167">Bendras „Brave“ naudojamų duomenų kiekis, įskaitant paskyras, žymes ir išsaugotus nustatymus</translation>
+<translation id="3587672679800759167">Bendras „Dissenter“ naudojamų duomenų kiekis, įskaitant paskyras, žymes ir išsaugotus nustatymus</translation>
 <translation id="6545017243486555795">Išvalyti visus duomenis</translation>
 <translation id="4095146165863963773">Ištrinti programos duomenis?</translation>
-<translation id="53119194224775367">Visi „Brave“ duomenys bus ištrinti visam laikui. Tai apima visus failus, nustatymus, paskyras, duomenų bazes ir kt.</translation>
+<translation id="53119194224775367">Visi „Dissenter“ duomenys bus ištrinti visam laikui. Tai apima visus failus, nustatymus, paskyras, duomenų bazes ir kt.</translation>
 <translation id="5307446750509046227">Išvalyti svetainės saug.</translation>
 <translation id="300526633675317032">Bus išvalyta visa <ph name="SIZE_IN_KB"/> svetainės saugykla.</translation>
 <translation id="8068648041423924542">Nepavyko pasirinkti sertifikato.</translation>
@@ -982,15 +982,15 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="1779089405699405702">Vaizdų dekoderis</translation>
 <translation id="8067883171444229417">Leisti vaizdo įrašą</translation>
 <translation id="6560414384669816528">Atlikti paiešką naudojant „Sogou“</translation>
-<translation id="5406914950576900927">„Brave“ gali naudoti <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>, kai paieškos atliekamos Kinijoje. Šį nustatymą galite pakeisti skiltyje <ph name="BEGIN_LINK"/>„Nustatymai“<ph name="END_LINK"/>.</translation>
-<translation id="6456271171669383967">Palikti „Brave Software“</translation>
+<translation id="5406914950576900927">„Dissenter“ gali naudoti <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>, kai paieškos atliekamos Kinijoje. Šį nustatymą galite pakeisti skiltyje <ph name="BEGIN_LINK"/>„Nustatymai“<ph name="END_LINK"/>.</translation>
+<translation id="6456271171669383967">Palikti „Gab AI Inc“</translation>
 <translation id="4384468725000734951">Atliekant paiešką naudojama „Sogou“</translation>
-<translation id="6103327872225198548">Atliekant paiešką naudojama „Brave Software“</translation>
+<translation id="6103327872225198548">Atliekant paiešką naudojama „Gab AI Inc“</translation>
 <translation id="9133703968756164531">„<ph name="ITEM_NAME"/>“ (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Ši programa veikia naršyklėje „Brave“</translation>
-<translation id="6143689084714664628">Paleista naršyklėje „Brave“</translation>
-<translation id="7675869148432102528">„<ph name="APP_NAME"/>“ duomenų taip pat yra naršyklėje „Brave“</translation>
-<translation id="2734140769649165081">Duomenis galite išvalyti „Brave“ nustatymų“ skiltyje</translation>
+<translation id="919933208285147476">Ši programa veikia naršyklėje „Dissenter“</translation>
+<translation id="6143689084714664628">Paleista naršyklėje „Dissenter“</translation>
+<translation id="7675869148432102528">„<ph name="APP_NAME"/>“ duomenų taip pat yra naršyklėje „Dissenter“</translation>
+<translation id="2734140769649165081">Duomenis galite išvalyti „Dissenter“ nustatymų“ skiltyje</translation>
 <translation id="8232956427053453090">Palikti duomenis</translation>
 <translation id="4298388696830689168">Susietos svetainės</translation>
 <translation id="5763514718066511291">Palieskite, jei norite nukopijuoti šios programos URL</translation>
@@ -1015,13 +1015,13 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 <translation id="8015452622527143194">Grąžinti numatytąjį puslapio turinio dydį</translation>
 <translation id="3443221991560634068">Iš naujo įkelti dabartinį puslapį</translation>
 <translation id="123724288017357924">Įk. šį puslapį iš naujo, nepais. talp. es. turinio</translation>
-<translation id="305870044889644984">Atidaryti „Brave“ pagalb. centrą naujame skirtuke</translation>
+<translation id="305870044889644984">Atidaryti „Dissenter“ pagalb. centrą naujame skirtuke</translation>
 <translation id="3166827708714933426">Skirtukų ir langų spartieji klavišai</translation>
-<translation id="3169981355900570544">„Brave Software Brave“ funkcijų spartieji klavišai</translation>
+<translation id="3169981355900570544">„Gab AI Inc Dissenter“ funkcijų spartieji klavišai</translation>
 <translation id="4558311620361989323">Tinklalapių spartieji klavišai</translation>
-<translation id="1908301351964700579">„Brave“ vis dar ruošiama naudoti įjungus VR. Vėliau iš naujo paleiskite „Brave“.</translation>
+<translation id="1908301351964700579">„Dissenter“ vis dar ruošiama naudoti įjungus VR. Vėliau iš naujo paleiskite „Dissenter“.</translation>
 <translation id="8970887620466824814">Kažkas ne taip.</translation>
-<translation id="1875543012935658554">Iš naujo atidarykite „Brave“.</translation>
+<translation id="1875543012935658554">Iš naujo atidarykite „Dissenter“.</translation>
 <translation id="79859296434321399">Norėdami peržiūrėti išplėstosios realybės turinį įdiekite „ARCore“</translation>
 <translation id="8558485628462305855">Norėdami peržiūrėti išplėstosios realybės turinį atnaujinkite „ARCore“</translation>
 <translation id="3513704683820682405">Išplėstoji realybė</translation>
@@ -1033,9 +1033,9 @@ Jei norite pakeisti šį nustatymą, <ph name="BEGIN_LINK"/>iš naujo nustatykit
 Svetainė NETURI prieigos prie fotoaparato. Fotoaparato vaizdai matomi tik jums.</translation>
 <translation id="1188239144602654184">Įveskite AR</translation>
 <translation id="473775607612524610">Atnaujinti</translation>
-<translation id="3133489217401741157">Įdiegiamas „Brave“ skirtas modulis „<ph name="MODULE"/>“…</translation>
+<translation id="3133489217401741157">Įdiegiamas „Dissenter“ skirtas modulis „<ph name="MODULE"/>“…</translation>
 <translation id="1791662854739702043">Įdiegta</translation>
-<translation id="5131234170665854056">Nepavyko įdiegti „Brave“ skirto modulio „<ph name="MODULE"/>“</translation>
+<translation id="5131234170665854056">Nepavyko įdiegti „Dissenter“ skirto modulio „<ph name="MODULE"/>“</translation>
 <translation id="2567385386134582609">VAIZDAS</translation>
 <translation id="6395288395575013217">NUORODA</translation>
 <translation id="7352939065658542140">VAIZDO ĮRAŠAS</translation>
@@ -1046,16 +1046,16 @@ Svetainė NETURI prieigos prie fotoaparato. Fotoaparato vaizdai matomi tik jums.
 <translation id="3341058695485821946">Žr., kiek duomenų sutaupėte</translation>
 <translation id="3157842584138209013">Žr., kiek duomenų sutaupėte, spustelėję mygtuką „Daugiau parinkčių“</translation>
 <translation id="8218622182176210845">Paskyros tvarkymas</translation>
-<translation id="8090895580117672212">Jei norite tvarkyti „Brave Software“ paskyrą, palieskite mygtuką „Tvarkyti“</translation>
-<translation id="8856898588039823173">Supaprastintasis puslapis, kurį teikia „Brave Software“. Palieskite, kad būtų įkeltas pradinis puslapis.</translation>
-<translation id="8134317863207426198">Supaprastintasis puslapis, kurį teikia „Brave Software“. Palieskite mygtuką „Įkelti pradinį“, kad būtų įkeltas pradinis puslapis.</translation>
+<translation id="8090895580117672212">Jei norite tvarkyti „Gab AI Inc“ paskyrą, palieskite mygtuką „Tvarkyti“</translation>
+<translation id="8856898588039823173">Supaprastintasis puslapis, kurį teikia „Gab AI Inc“. Palieskite, kad būtų įkeltas pradinis puslapis.</translation>
+<translation id="8134317863207426198">Supaprastintasis puslapis, kurį teikia „Gab AI Inc“. Palieskite mygtuką „Įkelti pradinį“, kad būtų įkeltas pradinis puslapis.</translation>
 <translation id="4961107849584082341">Išverskite šį puslapį į bet kokią kalbą</translation>
 <translation id="569536719314091526">Išverskite šį puslapį į bet kokią kalbą spustelėję mygtuką „Daugiau parinkčių“</translation>
 <translation id="1397811292916898096">Paieška su „<ph name="PRODUCT_NAME"/>“</translation>
 <translation id="1792959175193046959">Numatytąją atsisiuntimo vietą galite bet kada pakeisti</translation>
 <translation id="6942665639005891494">Numatytąją atsisiuntimo vietą galite bet kada pakeisti naudodami nustatymų meniu parinktį</translation>
 <translation id="6850409657436465440">Atsisiuntimas vis dar vykdomas</translation>
-<translation id="5817715962196959877">Dabar „Brave“ failus atsisiunčia greičiau</translation>
+<translation id="5817715962196959877">Dabar „Dissenter“ failus atsisiunčia greičiau</translation>
 <translation id="3976396876660209797">Pašalinkite šį spartųjį klavišą ir sukurkite jį iš naujo</translation>
 <translation id="6766622839693428701">Perbraukite žemyn, kad uždarytumėte.</translation>
 <translation id="1028699632127661925">Siunčiama į „<ph name="DEVICE_NAME"/>“...</translation>
@@ -1071,15 +1071,15 @@ Svetainė NETURI prieigos prie fotoaparato. Fotoaparato vaizdai matomi tik jums.
 <translation id="1521774566618522728">Aktyvus šiandien</translation>
 <translation id="3631987586758005671">Bendrinama su „<ph name="DEVICE_NAME"/>“</translation>
 <translation id="9028914725102941583">Įjunkite sinchronizavimą, kad galėtumėte bendrinti turinį įrenginiuose</translation>
-<translation id="6162454065885854378">Norėdami bendrinti turinį iš savo telefono į kitą įrenginį, įjunkite sinchronizavimą abiejų įrenginių „Brave“ nustatymuose</translation>
-<translation id="6084271560289605378">Eiti į „Brave“ nustatymus</translation>
+<translation id="6162454065885854378">Norėdami bendrinti turinį iš savo telefono į kitą įrenginį, įjunkite sinchronizavimą abiejų įrenginių „Dissenter“ nustatymuose</translation>
+<translation id="6084271560289605378">Eiti į „Dissenter“ nustatymus</translation>
 <translation id="2318045970523081853">Palieskite ir skambinkite</translation>
 <translation id="9209888181064652401">Nepavyksta skambinti</translation>
 <translation id="2860954141821109167">Įsitikinkite, kad šiame įrenginyje įgalinta telefono programa</translation>
 <translation id="2067805253194386918">teksto pranešimas</translation>
 <translation id="1450753235335490080">Nepavyko bendrinti turinio: <ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">Nepavyko bendrinti turinio: <ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">Įsitikinkite, kad įrenginyje „<ph name="TARGET_DEVICE_NAME"/>“ įjungtas sinchronizavimas sistemoje „Brave“</translation>
+<translation id="8287068819750208230">Įsitikinkite, kad įrenginyje „<ph name="TARGET_DEVICE_NAME"/>“ įjungtas sinchronizavimas sistemoje „Dissenter“</translation>
 <translation id="3016635187733453316">Įsitikinkite, kad šis įrenginys prijungtas prie interneto</translation>
 <translation id="8466613982764129868">Įsitikinkite, kad įrenginys „<ph name="TARGET_DEVICE_NAME"/>“ prijungtas prie interneto</translation>
 <translation id="6539092367496845964">Įvyko klaida. Vėliau bandykite dar kartą.</translation>
@@ -1101,16 +1101,16 @@ Svetainė NETURI prieigos prie fotoaparato. Fotoaparato vaizdai matomi tik jums.
 <translation id="7055152154916055070">Peradresavimas užblokuotas:</translation>
 <translation id="5524843473235508879">Peradresavimas užblokuotas.</translation>
 <translation id="6573096386450695060">Visada leisti</translation>
-<translation id="5805364706385912897">Šis puslapis naudoja per daug atminties, todėl „Brave“ jį pristabdė.</translation>
-<translation id="5138664332909611586">Šis puslapis naudoja per daug atminties, todėl „Brave“ pašalino šiek tiek turinio.</translation>
+<translation id="5805364706385912897">Šis puslapis naudoja per daug atminties, todėl „Dissenter“ jį pristabdė.</translation>
+<translation id="5138664332909611586">Šis puslapis naudoja per daug atminties, todėl „Dissenter“ pašalino šiek tiek turinio.</translation>
 <translation id="9137013805542155359">Rodyti originalą</translation>
-<translation id="6361779936989026201">„Brave Software Assistant“ sistemoje</translation>
+<translation id="6361779936989026201">„Gab AI Inc Assistant“ sistemoje</translation>
 <translation id="7291387454912369099">„Assistant“ suaktyvin. mokėjimas</translation>
-<translation id="4565206163201411670">Rodyti „Brave“ veiklą Skaitmeninės gerovės programoje?</translation>
-<translation id="9055113864158719823">Galite peržiūrėti svetaines, kuriose lankotės naudodami „Brave“, ir nustatyti jų laikmačius.\n\n„Brave Software“ gauna informaciją apie svetaines, kurių laikmačius nustatote, ir apie apsilankymų jose trukmę. Ši informacija naudojama norint patobulinti Skaitmeninės gerovės funkcijas.</translation>
-<translation id="4596514158372210596">„Brave“ veiklos pašalinimas iš Skaitmeninės gerovės</translation>
-<translation id="1174893863889683998">Pašalinti „Brave“ veiklą iš Skaitmeninės gerovės programos?</translation>
-<translation id="708829030563435351">Svetainės, kuriose lankotės naudodami „Brave“, nebus rodomos. Visi svetainių laikmačiai bus ištrinti.</translation>
+<translation id="4565206163201411670">Rodyti „Dissenter“ veiklą Skaitmeninės gerovės programoje?</translation>
+<translation id="9055113864158719823">Galite peržiūrėti svetaines, kuriose lankotės naudodami „Dissenter“, ir nustatyti jų laikmačius.\n\n„Gab AI Inc“ gauna informaciją apie svetaines, kurių laikmačius nustatote, ir apie apsilankymų jose trukmę. Ši informacija naudojama norint patobulinti Skaitmeninės gerovės funkcijas.</translation>
+<translation id="4596514158372210596">„Dissenter“ veiklos pašalinimas iš Skaitmeninės gerovės</translation>
+<translation id="1174893863889683998">Pašalinti „Dissenter“ veiklą iš Skaitmeninės gerovės programos?</translation>
+<translation id="708829030563435351">Svetainės, kuriose lankotės naudodami „Dissenter“, nebus rodomos. Visi svetainių laikmačiai bus ištrinti.</translation>
 <translation id="2056878612599315956">Svetainė pristabdyta</translation>
 <translation id="671481426037969117"><ph name="FQDN"/> laikmatis sustojo. Jis vėl bus paleistas rytoj.</translation>
 <translation id="7479104141328977413">Skirtuko valdymas</translation>
@@ -1121,7 +1121,7 @@ Svetainė NETURI prieigos prie fotoaparato. Fotoaparato vaizdai matomi tik jums.
 <translation id="246532703174860178">Bendrinti</translation>
 <translation id="2517472476991765520">Nuskaityti</translation>
 <translation id="8628973420740315031">Jei norite bendrinti su netoliese esančiais žmonėmis, leiskite jiems nuskaityti šį QR kodą</translation>
-<translation id="7339921667754113786">„Brave Software“ pranešimų platforma</translation>
+<translation id="7339921667754113786">„Gab AI Inc“ pranešimų platforma</translation>
 <translation id="8516012719330875537">Vaizdų redagavimo priemonė</translation>
 <translation id="4808319664292298116">Pradėti VR iš <ph name="DOMAIN"/>?</translation>
 <translation id="4353114845960720315">VR režimu ši svetainė gali sužinoti apie jus tam tikros informacijos:</translation>

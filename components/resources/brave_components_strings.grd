@@ -141,10 +141,10 @@
       <message name="IDS_BRAVE_NEW_TAB_HISTORY_PAGE_TITLE" desc="Title for history page">View your browsing history</message>
       <message name="IDS_BRAVE_NEW_TAB_DASHBOARD_SETTINGS_TITLE" desc="Title for dashboard settings">Dashboard Settings</message>
       <message name="IDS_BRAVE_NEW_TAB_SHOW_BACKGROUND_IMAGE" desc="Text for settings background option">Show Background Image</message>
-      <message name="IDS_BRAVE_NEW_TAB_SHOW_BRAVE_STATS" desc="Text for settings show stats option">Show Brave Stats</message>
+      <message name="IDS_BRAVE_NEW_TAB_SHOW_BRAVE_STATS" desc="Text for settings show stats option">Show Dissenter Stats</message>
       <message name="IDS_BRAVE_NEW_TAB_SHOW_CLOCK" desc="Text for settings show clock option">Show Clock</message>
       <message name="IDS_BRAVE_NEW_TAB_SHOW_TOP_SITES" desc="Text for settings show top sites option">Show Top Sites</message>
-      <message name="IDS_BRAVE_NEW_TAB_SHOW_REWARDS" desc="Text for settings show rewards option">Show Brave Rewards</message>
+      <message name="IDS_BRAVE_NEW_TAB_SHOW_REWARDS" desc="Text for settings show rewards option">Show Dissenter Rewards</message>
       <message name="IDS_BRAVE_NEW_TAB_BRANDED_WALLPAPER_OPT_IN" desc="Text for setting to opt-in to Branded Wallpapers on New Tab Page">Show Sponsored Images</message>
 
       <!-- WebUI private tab resources -->
@@ -153,22 +153,22 @@
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_SEARCH_SETTINGS" desc="">Search settings</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_THIS_IS_A" desc="">This is a</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW" desc="">Private Window</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC" desc="">Brave doesn’t remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you’re done. Private Windows don’t make you completely anonymous online, though.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_DESC" desc="">Dissenter doesn’t remember what you do in a Private Window. Sites you visit won't show up in your history, and cookies vanish when you’re done. Private Windows don’t make you completely anonymous online, though.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_BUTTON" desc="">Learn more</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR" desc="">Private Window with Tor</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_DESC" desc="">Brave never remembers what you do in a Private Window. With Tor, your browsing is also hidden from your ISP or employer, and your IP address is hidden from the sites you visit.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WINDOW_TOR_DESC" desc="">Dissenter never remembers what you do in a Private Window. With Tor, your browsing is also hidden from your ISP or employer, and your IP address is hidden from the sites you visit.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_PRIVATE_WIONDOW_TOR_BUTTON" desc="">Learn more about Private Windows with Tor</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_LABEL" desc="">Search Privately with</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TITLE" desc="">DuckDuckGo</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_1" desc="">With private search, Brave will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn’t track your search history, so you can search privately.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_1" desc="">With private search, Dissenter will use DuckDuckGo for searches in Private Windows. DuckDuckGo doesn’t track your search history, so you can search privately.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_TEXT_2" desc="">In Private Windows with Tor, DuckDuckGo is the default search engine. Some of the other popular search engines are harder to use with Tor. DuckDuckGo doesn’t track your search history; with Tor, they don’t even know your IP address.</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_DDG_BUTTON" desc="">Search with DuckDuckGo</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_LABEL" desc="">Make Private Windows much more private</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_LABEL_2" desc="">This Private Window is much more private</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TITLE" desc="">with Tor</message>
       <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_1" desc="">Tor hides your IP address from the sites you visit, by routing your browsing through several Tor servers before it reaches your destination. These connections are encrypted, so your ISP or employer can’t see which sites you’re visiting either. Tor can slow down browsing and some sites might not work at all.</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_2" desc="">Using Private Windows only changes what Brave does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit, and hides the sites you visit from your ISP or your employer. Open a Private Window with Tor from the menu, or with {{ key }}.</message>
-      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_BUTTON" desc="">Learn more about Tor in Brave</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_TEXT_2" desc="">Using Private Windows only changes what Dissenter does on your device — it doesn't change anyone else's behavior. Tor hides your IP address from the sites you visit, and hides the sites you visit from your ISP or your employer. Open a Private Window with Tor from the menu, or with {{ key }}.</message>
+      <message name="IDS_BRAVE_PRIVATE_NEW_TAB_BOX_TOR_BUTTON" desc="">Learn more about Tor in Dissenter</message>
 
       <!-- WebUI adblock resources -->
       <message name="IDS_ADBLOCK_ADDITIONAL_FILTERS_TITLE" desc="Title for additional filters section">Additional Filters</message>
@@ -179,31 +179,31 @@
 
       <!-- WebUI webcompat reporter resources -->
       <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_MODAL_TITLE" desc="Title for broken website report dialog window">Report a broken site</message>
-      <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_EXPLANATION" desc="Label for a website's URL indicating that it will be reported for compatibility issues">Let Brave's developers know that this site doesn't work properly with Shields:</message>
-      <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_DISCLAIMER" desc="Describes what information is sent to Brave's servers in a broken website report">Note: This site address will be submitted with your Brave version number and your IP address (which will not be stored).</message>
+      <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_EXPLANATION" desc="Label for a website's URL indicating that it will be reported for compatibility issues">Let Dissenter's developers know that this site doesn't work properly with Shields:</message>
+      <message name="IDS_BRAVE_WEBCOMPATREPORTER_REPORT_DISCLAIMER" desc="Describes what information is sent to Dissenter's servers in a broken website report">Note: This site address will be submitted with your Dissenter version number and your IP address (which will not be stored).</message>
       <message name="IDS_BRAVE_WEBCOMPATREPORTER_CANCEL" desc="Text for button to cancel sending a broken website report">Cancel</message>
       <message name="IDS_BRAVE_WEBCOMPATREPORTER_SUBMIT" desc="Text for button to submit a broken website report">Submit</message>
       <message name="IDS_BRAVE_WEBCOMPATREPORTER_THANK_YOU" desc="Thanks the user for submitting a report of a broken website">Thank you!</message>
-      <message name="IDS_BRAVE_WEBCOMPATREPORTER_CONFIRMATION_NOTICE" desc="Assures the user that a problem with a website reported as broken will be fixed soon">Thanks for letting Brave's developers know that there's something wrong with this site. We'll do our best to fix it!</message>
+      <message name="IDS_BRAVE_WEBCOMPATREPORTER_CONFIRMATION_NOTICE" desc="Assures the user that a problem with a website reported as broken will be fixed soon">Thanks for letting Dissenter's developers know that there's something wrong with this site. We'll do our best to fix it!</message>
 
       <!-- WebUI welcome page resources -->
-      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Brave the new Internet</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_TITLE" desc="Welcome message title">Dissenter the new Internet</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_DESC" desc="Welcome message description">Get ready to enjoy a faster and more secure browsing experience with a browser built to protect your privacy.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_MAIN_BUTTON" desc="Button that moves to the next welcome screen">Let's go</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_TITLE" desc="Welcome message title for Brave Rewards">Enable Brave Rewards</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_DESC" desc="Explainer text about Brave Rewards">Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_BUTTON" desc="Button to enable Brave Rewards from the welcome page">Enable Rewards</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_TITLE" desc="Welcome message title for Dissenter Rewards">Enable Dissenter Rewards</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_DESC" desc="Explainer text about Dissenter Rewards">Your attention is valuable. Earn by viewing privacy-respecting ads while you browse, and pay it forward to support content creators you love.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_REWARDS_BUTTON" desc="Button to enable Dissenter Rewards from the welcome page">Enable Rewards</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_TITLE" desc="Welcome message title for import from another browser">Import bookmarks and settings</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_DESC" desc="Explainer text about importing from another browser">Set up your usual browsing environment by importing bookmarks and settings from your old browser. Advanced import options can be found in Settings.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_BUTTON" desc="Button to import from another browser">Import</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_IMPORT_FROM_DESC" desc="Default option message for selecting import sources">Import from...</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_TITLE" desc="Welcome message title for shields">Manage your shields</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_DESC" desc="Explainer text about shields">Protect against privacy-invading ads and trackers while browsing with Brave Shields. Set Shields to "down" if a site doesn’t seem to be working properly.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_DESC" desc="Explainer text about shields">Protect against privacy-invading ads and trackers while browsing with Dissenter Shields. Set Shields to "down" if a site doesn’t seem to be working properly.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SHIELDS_BUTTON" desc="Button to open shield settings">Shield Settings</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_DEFAULT_TEXT" desc="Indicator text to show current default">default</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SET_DEFAULT_SEARCH_BUTTON" desc="Button to confirm default search engine">Set default</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_SELECT" desc="Default option message for selecting search engines">Select a search engine</message>
-      <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_DESC" desc="Explainer text about search engines in Brave">Choose the search engine you would like to use by default when searching the web from the address bar.</message>
+      <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_DESC" desc="Explainer text about search engines in Dissenter">Choose the search engine you would like to use by default when searching the web from the address bar.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SEARCH_TITLE" desc="Welcome message title for search engines">Set default search engine</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_PRIVATE_EXPERIENCE_DESC" desc="Explainer text about a more private search option">For a more private search experience, try DuckDuckGo.</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_SKIP_BUTTON" desc="Button to skip the welcome tour and go to the new tab page">Skip welcome tour</message>
@@ -211,18 +211,18 @@
       <message name="IDS_BRAVE_WELCOME_PAGE_DONE_BUTTON" desc="Button that ends the welcome tour and moves the user to the new tab page">Done</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_PRIVACY_TITLE" desc="Title for the P3A panel">Browse safe and sound</message>
       <message name="IDS_BRAVE_WELCOME_PAGE_PRIVACY_DESC" desc="Description for the P3A panel">
-        Brave Shields blocks the creepy stuff that tries to track you across the web — including most ads. Set Shields to &#8220;down&#8221; if a site doesn’t seem to be working. Brave uses <ph name="BEGIN_LINK_P3A">&lt;a target="_blank" href="$1"&gt;</ph>completely private product analytics<ph name="END_LINK_P3A">&lt;/a&gt;</ph> to estimate the overall usage of certain features. You can turn this off in <ph name="BEGIN_LINK_P3A_SETTINGS">&lt;a target="_blank" href="$2"&gt;</ph>Settings<ph name="END_LINK_P3A_SETTINGS">&lt;/a&gt;</ph>.
+        Dissenter Shields blocks the creepy stuff that tries to track you across the web — including most ads. Set Shields to &#8220;down&#8221; if a site doesn’t seem to be working. Dissenter uses <ph name="BEGIN_LINK_P3A">&lt;a target="_blank" href="$1"&gt;</ph>completely private product analytics<ph name="END_LINK_P3A">&lt;/a&gt;</ph> to estimate the overall usage of certain features. You can turn this off in <ph name="BEGIN_LINK_P3A_SETTINGS">&lt;a target="_blank" href="$2"&gt;</ph>Settings<ph name="END_LINK_P3A_SETTINGS">&lt;/a&gt;</ph>.
       </message>
       <!-- WebUI rewards resources -->
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_TITLE" desc="">Ads</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_DESC" desc="">Earn {{currency}} by viewing Brave ads. Ads presented are based on your interests, as inferred from your browsing behavior. No personal data or browsing history ever leaves your browser.</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_DESC" desc="">Earn {{currency}} by viewing Dissenter ads. Ads presented are based on your interests, as inferred from your browsing behavior. No personal data or browsing history ever leaves your browser.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_CONTR_TITLE" desc="">Auto-Contribute</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_CONTR_DESC" desc="">An automatic way to support publishers and content creators. Set a monthly payment and browse normally. The Brave Verified sites you visit will receive your contributions automatically, based on your attention as measured by Brave.</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_CONTR_DESC" desc="">An automatic way to support publishers and content creators. Set a monthly payment and browse normally. The Dissenter Verified sites you visit will receive your contributions automatically, based on your attention as measured by Dissenter.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_CURRENT_EARNINGS" desc="">Estimated pending rewards</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_PAYMENT_DATE" desc="">Next payment date</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_NOTIFICATIONS_RECEIVED" desc="">Ad notifications received this month</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_REGION" desc="">Sorry! Ads are not yet available in your region.</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_DEVICE" desc="">Brave Rewards and Ads are not available on your device at this time.</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_NOT_SUPPORTED_DEVICE" desc="">Dissenter Rewards and Ads are not available on your device at this time.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_OTHER_SETTINGS" desc="">Other settings</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_PAGES_VIEWED" desc="">Ad pages viewed</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_PER_HOUR" desc="">Maximum number of ads displayed</message>
@@ -234,7 +234,7 @@
       <message name="IDS_BRAVE_UI_BAT_REWARDS_TEXT" desc="">BAT</message>
       <message name="IDS_BRAVE_UI_BAP_REWARDS_TEXT" desc="">BAP</message>
       <message name="IDS_BRAVE_UI_BAT_POINTS_TEXT" desc="">BAT Points</message>
-      <message name="IDS_BRAVE_UI_POINTS_MESSAGE" desc="">can be used in Brave Rewards to contribute to your favorite content creators. BAT Points cannot be exchanged for BAT.</message>
+      <message name="IDS_BRAVE_UI_POINTS_MESSAGE" desc="">can be used in Dissenter Rewards to contribute to your favorite content creators. BAT Points cannot be exchanged for BAT.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_DEVICE_OFFLINE" desc="">The device is offline, please try again later.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_CONTR_MONTHLY" desc="">Monthly Payment</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_CONTR_NEXT_DATE" desc="">Next contribution date</message>
@@ -282,18 +282,18 @@
       <message name="IDS_BRAVE_REWARDS_LOCAL_ALMOST_THERE" desc="">Almost there…</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_PROVE_HUMAN" desc="">Prove that you are human!</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_NOT_QUITE" desc="">Hmmm, not quite...</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_SERVER_NOT_RESPONDING" desc="">The Brave Rewards server is not responding. We will fix this as soon as possible.</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_SERVER_NOT_RESPONDING" desc="">The Dissenter Rewards server is not responding. We will fix this as soon as possible.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_UH_OH" desc="">Uh oh!</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TITLE" desc="">Oops, something is wrong. Please try again later.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_BUTTON" desc="">OK</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TEXT" desc="">Brave Rewards is having an issue. Please try again later.</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_GENERAL_GRANT_ERROR_TEXT" desc="">Dissenter Rewards is having an issue. Please try again later.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_WALLET_CORRUPTED" desc="">We detected that something is wrong with your wallet. You must recover your backup wallet before any transactions can be processed.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_WALLET_CORRUPTED_NOW" desc="">Recover now!</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_DONAT_NEXT_DATE" desc="Description of the date in the donation box">Next monthly contribution date</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_COMPLIMENT_TWEET" desc="">
-        I just tipped <ph name="NAME">$1<ex>user</ex></ph> using the Brave Browser. Check it out at https://brave.com/tips.
+        I just tipped <ph name="NAME">$1<ex>user</ex></ph> using the Dissenter Browser. Check it out at https://brave.com/tips.
       </message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_COMPLIMENT_TWEET_HASHTAG" desc="">TipWithBrave</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_COMPLIMENT_TWEET_HASHTAG" desc="">TipWithDissenter</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_REDIRECT_MODAL_ERROR" desc="">Sorry there was problem processing your request, please try again.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_CONFIRMATION_TYPE_CLICK" desc="">Clicked</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_CONFIRMATION_TYPE_DISMISS" desc="">Dismissed</message>
@@ -301,7 +301,7 @@
       <message name="IDS_BRAVE_REWARDS_LOCAL_ADS_CONFIRMATION_TYPE_VIEW" desc="">Viewed</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_REDIRECT_MODAL_NOT_ALLOWED" desc="">BAT is not currently supported in your region. Please refer <ph name="BEGIN_LINK_REGION_TEXT">&lt;a target="_blank" href="$1"&gt;</ph>here<ph name="END_LINK_REGION_TEXT">&lt;/a&gt;</ph> for updates.</message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_REDIRECT_MODAL_CLOSE" desc="">Close</message>
-      <message name="IDS_BRAVE_REWARDS_LOCAL_REDIRECT_MODAL_ERROR_WALLET" desc="">Error creating Brave Browser BAT card</message>
+      <message name="IDS_BRAVE_REWARDS_LOCAL_REDIRECT_MODAL_ERROR_WALLET" desc="">Error creating Dissenter Browser BAT card</message>
 
       <!-- WebUI rewards internals resources -->
       <message name="IDS_BRAVE_REWARDS_INTERNALS_AMOUNT" desc="Amount">Amount:</message>
@@ -322,7 +322,7 @@
       <message name="IDS_BRAVE_REWARDS_INTERNALS_RETRY_STEP_VIEWING" desc="Retry step viewing">Viewing</message>
       <message name="IDS_BRAVE_REWARDS_INTERNALS_RETRY_STEP_VOTE" desc="Retry step vote">Vote</message>
       <message name="IDS_BRAVE_REWARDS_INTERNALS_RETRY_STEP_WINNERS" desc="Retry step winners">Winners</message>
-      <message name="IDS_BRAVE_REWARDS_INTERNALS_REWARDS_NOT_ENABLED" desc="Rewards not enabled">Brave Rewards is not enabled. Enable it by visiting</message>
+      <message name="IDS_BRAVE_REWARDS_INTERNALS_REWARDS_NOT_ENABLED" desc="Rewards not enabled">Dissenter Rewards is not enabled. Enable it by visiting</message>
       <message name="IDS_BRAVE_REWARDS_INTERNALS_VALID" desc="Valid indicator">Valid</message>
       <message name="IDS_BRAVE_REWARDS_INTERNALS_VIEWING_ID" desc="Viewing ID">Viewing ID:</message>
       <message name="IDS_BRAVE_REWARDS_INTERNALS_WALLET_PAYMENT_ID" desc="Wallet payment ID">Wallet Payment ID:</message>
@@ -333,8 +333,8 @@
       <!-- WebUI brave ui resources -->
       <message name="IDS_BRAVE_UI_ABOUT" desc="">about</message>
       <message name="IDS_BRAVE_UI_ACCEPT" desc="">Accept</message>
-      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc="">©2016–2018 Brave Software. Brave is a registered trademark of Brave Software. Site names may be trademarks or registered trademarks of the site owner.</message>
-      <message name="IDS_BRAVE_UI_ACTIVITY_NOTE" desc="">To protect your privacy, this Brave Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Brave in the event of data loss on your device.</message>
+      <message name="IDS_BRAVE_UI_ACTIVITY_COPY" desc="">©2016–2018 Gab AI Inc. Dissenter is a registered trademark of Gab AI Inc. Site names may be trademarks or registered trademarks of the site owner.</message>
+      <message name="IDS_BRAVE_UI_ACTIVITY_NOTE" desc="">To protect your privacy, this Dissenter Rewards statement is not saved, recorded or logged anywhere other than on your device (this computer). It cannot be retrieved from Dissenter in the event of data loss on your device.</message>
       <message name="IDS_BRAVE_UI_ADD_FUNDS" desc="">add funds</message>
       <message name="IDS_BRAVE_UI_ADS" desc="">Ads</message>
       <message name="IDS_BRAVE_UI_ADS_ALL">All</message>
@@ -346,7 +346,7 @@
       <message name="IDS_BRAVE_UI_ADS_HISTORY_TITLE" desc="">Ads History</message>
       <message name="IDS_BRAVE_UI_ADS_MARK_AS_INAPPROPRIATE" desc="">Mark As Inappropriate</message>
       <message name="IDS_BRAVE_UI_ADS_MARK_AS_INAPPROPRIATE_CHECKED" desc="">Mark As Inappropriate ✓</message>
-      <message name="IDS_BRAVE_UI_ADS_NO_ADS_HISTORY" desc="">There is currently no Brave Ads history</message>
+      <message name="IDS_BRAVE_UI_ADS_NO_ADS_HISTORY" desc="">There is currently no Dissenter Ads history</message>
       <message name="IDS_BRAVE_UI_ADS_OPT_OUT_TOOLTIP" desc="">You will no longer receive ads from this category</message>
       <message name="IDS_BRAVE_UI_ADS_SAVED">Saved</message>
       <message name="IDS_BRAVE_UI_ADS_SAVE_AD">Save</message>
@@ -358,15 +358,15 @@
       <message name="IDS_BRAVE_UI_BRAVE_ADS_DESC" desc="">Get paid to view relevant ads that respect your privacy.</message>
       <message name="IDS_BRAVE_UI_BRAVE_ADS_DESC_POINTS" desc="">Collect points when you view relevant ads that respect your privacy.</message>
       <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_MSG" desc="">Now you can earn by viewing ads.</message>
-      <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_TITLE" desc="">Brave Ads has arrived!</message>
+      <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_TITLE" desc="">Dissenter Ads has arrived!</message>
       <message name="IDS_BRAVE_UI_BRAVE_ADS_TITLE" desc="">Ads</message>
       <message name="IDS_BRAVE_UI_BRAVE_CONTRIBUTE_DESC" desc="">Support your favorite sites just by browsing – or tip a site any time you like.</message>
       <message name="IDS_BRAVE_UI_BRAVE_CONTRIBUTE_TITLE" desc="">Auto-Contribute</message>
-      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="">Brave Rewards</message>
+      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="">Dissenter Rewards</message>
       <message name="IDS_BRAVE_UI_AND" desc="">and</message>
       <message name="IDS_BRAVE_UI_PRIVACY_POLICY" desc="">Privacy Policy</message>
       <message name="IDS_BRAVE_UI_TERMS_OF_SERVICE" desc="">Terms of Service</message>
-      <message name="IDS_BRAVE_UI_SERVICE_TEXT_TOGGLE" desc="">By turning on Brave Rewards, you indicate that you have read and agree to the</message>
+      <message name="IDS_BRAVE_UI_SERVICE_TEXT_TOGGLE" desc="">By turning on Dissenter Rewards, you indicate that you have read and agree to the</message>
       <message name="IDS_BRAVE_UI_SERVICE_TEXT_WELCOME" desc="">By clicking ‘Yes, I'm in!’, you indicate that you have read and agree to the</message>
       <message name="IDS_BRAVE_UI_SERVICE_TEXT_READY" desc="">By clicking ‘Yes, I'm Ready!’, you indicate that you have read and agree to the</message>
       <message name="IDS_BRAVE_UI_SET_CONTRIBUTION" desc="">Set Contribution</message>
@@ -376,8 +376,8 @@
       <message name="IDS_BRAVE_UI_BRAVE_REWARDS_OPT_IN_TEXT" desc="">Yes, I'm In!</message>
       <message name="IDS_BRAVE_UI_BRAVE_REWARDS_SUB_TITLE" desc="">Get Rewarded for Browsing!</message>
       <message name="IDS_BRAVE_UI_BRAVE_REWARDS_TEASER" desc="">How it works...</message>
-      <message name="IDS_BRAVE_UI_BRAVE_REWARDS_TITLE" desc="">Brave Rewards</message>
-      <message name="IDS_BRAVE_UI_BRAVE_VERIFIED" desc="">Brave Verified Publishers</message>
+      <message name="IDS_BRAVE_UI_BRAVE_REWARDS_TITLE" desc="">Dissenter Rewards</message>
+      <message name="IDS_BRAVE_UI_BRAVE_VERIFIED" desc="">Dissenter Verified Publishers</message>
       <message name="IDS_BRAVE_UI_CANCEL" desc="">Cancel</message>
       <message name="IDS_BRAVE_UI_CAPTCHA_DRAG" desc="">Drag the BAT Icon on to the</message>
       <message name="IDS_BRAVE_UI_CAPTCHA_PROVE_HUMAN" desc="">Prove that you are human!</message>
@@ -397,7 +397,7 @@
       <message name="IDS_BRAVE_UI_DISABLED_PANEL_OFF" desc="">Off</message>
       <message name="IDS_BRAVE_UI_DISABLED_PANEL_SETTINGS" desc="">Settings.</message>
       <message name="IDS_BRAVE_UI_DISABLED_PANEL_TEXT" desc="">You are not currently accruing any Rewards benefits while browsing. Turn Rewards back on in</message>
-      <message name="IDS_BRAVE_UI_DISABLED_PANEL_TITLE" desc="">Brave Rewards is</message>
+      <message name="IDS_BRAVE_UI_DISABLED_PANEL_TITLE" desc="">Dissenter Rewards is</message>
       <message name="IDS_BRAVE_UI_DND_CAPTCHA_TEXT_1" desc="">Drag and drop this logo onto the</message>
       <message name="IDS_BRAVE_UI_DND_CAPTCHA_TEXT_2" desc="">target</message>
       <message name="IDS_BRAVE_UI_DONATION" desc="">Tip</message>
@@ -416,7 +416,7 @@
       <message name="IDS_BRAVE_UI_EXCLUDED_SITES" desc="">Total number of sites you excluded from Auto-Contribute:</message>
       <message name="IDS_BRAVE_UI_EXPIRES_ON" desc="">expires on</message>
       <message name="IDS_BRAVE_UI_FOR" desc="">for</message>
-      <message name="IDS_BRAVE_UI_GRANT_DISCLAIMER" desc="">{{currency}} not used by the expiration date will be automatically returned to the Brave User Growth Pool.</message>
+      <message name="IDS_BRAVE_UI_GRANT_DISCLAIMER" desc="">{{currency}} not used by the expiration date will be automatically returned to the Dissenter User Growth Pool.</message>
       <message name="IDS_BRAVE_UI_GRANT_EXPIRE" desc="">Grant Expiration Date</message>
       <message name="IDS_BRAVE_UI_GRANTS" desc="">Grants</message>
       <message name="IDS_BRAVE_UI_IMPORT" desc="">import</message>
@@ -498,13 +498,13 @@
       <message name="IDS_BRAVE_UI_REWARDS_BACKUP_TEXT2" desc="">Keep this recovery key safe.</message>
       <message name="IDS_BRAVE_UI_REWARDS_BACKUP_TEXT3" desc="">You can always use this key to get your wallet back if something happens to your browser or computer. But make sure to protect it — anyone who gets this key could steal your wallet. It’s probably safest to write it down on a piece of paper, or wherever else you keep important info.</message>
       <message name="IDS_BRAVE_UI_REWARDS_BANNER_TEXT1" desc="">You can support this content creator by sending a tip. It’s a way of thanking them for making great content. Verified creators get paid for their tips during the first week of each calendar month.</message>
-      <message name="IDS_BRAVE_UI_REWARDS_BANNER_TEXT2" desc="">You can also set a monthly recurring contribution from within the Brave Rewards panel.</message>
+      <message name="IDS_BRAVE_UI_REWARDS_BANNER_TEXT2" desc="">You can also set a monthly recurring contribution from within the Dissenter Rewards panel.</message>
       <message name="IDS_BRAVE_UI_REWARDS_BANNER_MONTHLY_TEXT1" desc="">You can support this content creator by setting a monthly contribution. It’s a way of thanking them for making great content on an ongoing basis. Verified creators get paid for their contributions during the first week of each calendar month.</message>
       <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE" desc="">Auto-Contribute</message>
       <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_ATTENTION" desc="">Attention</message>
       <message name="IDS_BRAVE_UI_REWARDS_CONTRIBUTE_ATTENTION_SCORE" desc="">Attention</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT2" desc="">without your consent.</message>
-      <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT3" desc="">Today, Brave welcomes you to the new internet.</message>
+      <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT3" desc="">Today, Dissenter welcomes you to the new internet.</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT4" desc="">One where your time is valued, your personal data is kept private, and you actually get paid for your attention.</message>
       <message name="IDS_BRAVE_UI_REWARDS_OFF_TEXT5" desc="">With your old browser, you paid to browse the web by viewing ads with your valuable attention. You spent your valuable time downloading invasive ad technology that transmitted your valuable private data to advertisers — without your consent.</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT_POINTS" desc="">Sadly, no points yet.</message>
@@ -512,13 +512,13 @@
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT2" desc="">3 ways to fill your wallet:</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT3" desc="">You can add funds.</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT4" desc="">You can earn tokens from viewing ads.</message>
-      <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT5" desc="">Occasionally, you'll be offered free token grants from Brave. Be sure to keep an eye out for the alert!</message>
-      <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT6" desc="">Look for ad notifications as you continue to use Brave. Your BAT Points balance will increase with each ad you view.</message>
+      <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT5" desc="">Occasionally, you'll be offered free token grants from Dissenter. Be sure to keep an eye out for the alert!</message>
+      <message name="IDS_BRAVE_UI_REWARDS_PANEL_EMPTY_TEXT6" desc="">Look for ad notifications as you continue to use Dissenter. Your BAT Points balance will increase with each ad you view.</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_OFF_TEXT1" desc="">Get Rewarded for Browsing!</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_OFF_TEXT2" desc="">Earn tokens for your attention to ads and pay it forward to support content creators you value!</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT1" desc="">Add, withdraw and manage funds at</message>
-      <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT2" desc="">Your Brave wallet is powered by</message>
-      <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT3" desc="">Brave Rewards is built on the Basic Attention Token. Learn more about BAT</message>
+      <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT2" desc="">Your Dissenter wallet is powered by</message>
+      <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT3" desc="">Dissenter Rewards is built on the Basic Attention Token. Learn more about BAT</message>
       <message name="IDS_BRAVE_UI_REWARDS_PANEL_TEXT4" desc="">here</message>
       <message name="IDS_BRAVE_UI_REWARDS_RESTORE_TEXT1" desc="">Restore your Wallet</message>
       <message name="IDS_BRAVE_UI_REWARDS_RESTORE_TEXT2" desc="">Use your recovery key to restore your wallet.</message>
@@ -526,7 +526,7 @@
       <message name="IDS_BRAVE_UI_REWARDS_RESTORE_TEXT4" desc="">Enter your recovery key or</message>
       <message name="IDS_BRAVE_UI_TOKEN_GRANT" desc="">Token Grants Claimed</message>
       <message name="IDS_BRAVE_UI_REWARDS_SUMMARY" desc="">Rewards Summary</message>
-      <message name="IDS_BRAVE_UI_REWARDS_WHY" desc="">Why Brave Rewards?</message>
+      <message name="IDS_BRAVE_UI_REWARDS_WHY" desc="">Why Dissenter Rewards?</message>
       <message name="IDS_BRAVE_UI_SAVE_AS_FILE" desc="">Save as File</message>
       <message name="IDS_BRAVE_UI_SAVE" desc="">Save</message>
       <message name="IDS_BRAVE_UI_SEE_ALL_ITEMS" desc="">See all {{numItems}} items</message>
@@ -556,14 +556,14 @@
       <message name="IDS_BRAVE_UI_TOKEN_GRANTS" desc="">Token Grants</message>
       <message name="IDS_BRAVE_UI_POINT_GRANTS" desc="">Point Grants</message>
       <message name="IDS_BRAVE_UI_TRANSACTIONS" desc="">Transactions</message>
-      <message name="IDS_BRAVE_UI_TURN_ON_ADS" desc="">Turn on Brave Ads</message>
+      <message name="IDS_BRAVE_UI_TURN_ON_ADS" desc="">Turn on Dissenter Ads</message>
       <message name="IDS_BRAVE_UI_TURN_ON_REWARDS_DESC" desc="">This enables both ads and automatic contributions. You can turn them on or off separately at any time.</message>
       <message name="IDS_BRAVE_UI_TURN_ON_REWARDS_TITLE" desc="">Activate Rewards</message>
       <message name="IDS_BRAVE_UI_TWEET_NOW" desc="">Tweet</message>
       <message name="IDS_BRAVE_UI_TWEET_TIP_TITLE" desc="">Tip @{{ user }} for their tweet:</message>
       <message name="IDS_BRAVE_UI_TWEET_TIP_TITLE_EMPTY" desc="We use this title when twitter text is empty">Tip @{{ user }} for their tweet!</message>
       <message name="IDS_BRAVE_UI_TYPE" desc="">Type</message>
-      <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER" desc="">Brave Verified Publisher</message>
+      <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER" desc="">Dissenter Verified Publisher</message>
       <message name="IDS_BRAVE_UI_VIEW_MONTHLY" desc="">View Monthly Statement for Details</message>
       <message name="IDS_BRAVE_UI_WALLET_ACTIVITY" desc="">Wallet Activity</message>
       <message name="IDS_BRAVE_UI_WALLET_ADDRESS" desc="">Wallet Address</message>
@@ -579,18 +579,18 @@
       <message name="IDS_BRAVE_UI_WELCOME_DESC_POINTS" desc="">You can now earn points for watching privacy-respecting ads.</message>
       <message name="IDS_BRAVE_UI_WELCOME_FOOTER_TEXT_ONE" desc="">Check out what’s improved</message>
       <message name="IDS_BRAVE_UI_WELCOME_FOOTER_TEXT_TWO" desc="">Learn More</message>
-      <message name="IDS_BRAVE_UI_WELCOME_HEADER_ONE" desc="">We’ve given Brave Payments a big upgrade.</message>
+      <message name="IDS_BRAVE_UI_WELCOME_HEADER_ONE" desc="">We’ve given Dissenter Payments a big upgrade.</message>
       <message name="IDS_BRAVE_UI_WELCOME_HEADER_TWO" desc="">Get ready to experience the next Internet.</message>
-      <message name="IDS_BRAVE_UI_WHY_BRAVE_REWARDS" desc="">Why Brave Rewards?</message>
+      <message name="IDS_BRAVE_UI_WHY_BRAVE_REWARDS" desc="">Why Dissenter Rewards?</message>
       <message name="IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_1" desc="">With your old browser, you paid to browse the web by viewing ads with your valuable attention. You spent your valuable time downloading invasive ad technology that transmitted your valuable private data to advertisers — without your consent.</message>
-      <message name="IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_2" desc="">Today, Brave welcomes you to the new Internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.</message>
+      <message name="IDS_BRAVE_UI_WHY_BRAVE_REWARDS_DESC_2" desc="">Today, Dissenter welcomes you to the new Internet. One where your time is valued, your personal data is kept private, and you actually get paid for your attention.</message>
       <message name="IDS_BRAVE_UI_YOUR_BALANCE" desc="">Your Balance</message>
       <message name="IDS_BRAVE_UI_YOUR_WALLET" desc="">Your wallet</message>
       <message name="IDS_BRAVE_UI_VIEW_DETAILS" desc="">View Details</message>
       <message name="IDS_BRAVE_UI_REWARDS_CREATING_TEXT" desc="">Creating wallet</message>
       <message name="IDS_BRAVE_UI_SITE_BANNER_NOTICE_NOTE" desc="">NOTE:</message>
-      <message name="IDS_BRAVE_UI_SITE_BANNER_NOTICE_TEXT" desc="">This creator has not yet signed up to receive contributions from Brave users. Your browser will keep trying to contribute until they verify, or until 90 days have passed.</message>
-      <message name="IDS_BRAVE_UI_SITE_BANNER_CONNECTED_TEXT" desc="Text shown for connected publishers that are not fully verified on site banner">This Brave Verified Creator has not yet configured their account to receive contributions from Brave users. Your browser will keep trying to contribute until they verify, or until 90 days have passed.</message>
+      <message name="IDS_BRAVE_UI_SITE_BANNER_NOTICE_TEXT" desc="">This creator has not yet signed up to receive contributions from Dissenter users. Your browser will keep trying to contribute until they verify, or until 90 days have passed.</message>
+      <message name="IDS_BRAVE_UI_SITE_BANNER_CONNECTED_TEXT" desc="Text shown for connected publishers that are not fully verified on site banner">This Dissenter Verified Creator has not yet configured their account to receive contributions from Dissenter users. Your browser will keep trying to contribute until they verify, or until 90 days have passed.</message>
       <message name="IDS_BRAVE_UI_SITE_UNVERIFIED_TEXT_MORE" desc="">Learn more.</message>
       <message name="IDS_BRAVE_UI_ADS_EARNINGS" desc="Description text for ad grants in grant details">earned from ads</message>
       <message name="IDS_BRAVE_UI_PENDING_CONTRIBUTIONS" desc="Title of pending contribution modal">Pending contributions</message>
@@ -610,7 +610,7 @@
       <message name="IDS_BRAVE_UI_VIEWED_SITES" desc="">Sites Viewed</message>
 
       <message name="IDS_BRAVE_UI_GRANT_FINISH_TITLE_ADS" desc="Title on final grant screen for Ads">You've earned an Ads Reward!</message>
-      <message name="IDS_BRAVE_UI_GRANT_FINISH_TEXT_ADS" desc="Text on final grant screen for UGP">Your Reward is on its way to your Brave Rewards wallet.</message>
+      <message name="IDS_BRAVE_UI_GRANT_FINISH_TEXT_ADS" desc="Text on final grant screen for UGP">Your Reward is on its way to your Dissenter Rewards wallet.</message>
       <message name="IDS_BRAVE_UI_GRANT_FINISH_TOKEN_ADS" desc="Token text on final grant screen for UGP">Your Reward Amount</message>
       <message name="IDS_BRAVE_UI_GRANT_FINISH_TITLE_UGP" desc="Title on final grant screen for UGP">It’s your lucky day!</message>
       <message name="IDS_BRAVE_UI_GRANT_FINISH_TEXT_UGP" desc="Text on final grant screen for UGP">Your {{currency}} grant is on its way.</message>
@@ -623,25 +623,25 @@
       <message name="IDS_BRAVE_UI_WALLET_BUTTON_VERIFIED" desc="">Wallet Verified</message>
       <message name="IDS_BRAVE_UI_WALLET_GO_TO_UPHOLD" desc="">Go to my Uphold account</message>
       <message name="IDS_BRAVE_UI_WALLET_GO_TO_VERIFY_PAGE" desc="CTA for completing wallet verification">Complete wallet verification</message>
-      <message name="IDS_BRAVE_UI_WALLET_DISCONNECT" desc="">Disconnect from Brave Rewards</message>
+      <message name="IDS_BRAVE_UI_WALLET_DISCONNECT" desc="">Disconnect from Dissenter Rewards</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_BUTTON" desc="">Verify wallet</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_FOOTER" desc="">Our wallet service is provided by</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_ID" desc="">Please have your government issued ID available.</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_LIST1" desc="">Withdraw BAT that you earn from viewing privacy-respecting ads</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_LIST2" desc="">Purchase additional BAT with credit cards and other sources</message>
-      <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_LIST3" desc="">Withdraw BAT that you may have previously added to your Brave Rewards wallet</message>
+      <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_LIST3" desc="">Withdraw BAT that you may have previously added to your Dissenter Rewards wallet</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_HEADER" desc="">But if you verify, you can...</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_TITLE1" desc="">Verifying your wallet is optional.</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFIED" desc="">Verified</message>
       <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_NOTE1" desc="">Uphold may require you to verify your identity based on services requested.</message>
-      <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_NOTE2" desc="">Brave Software Inc. does not process, store, or access any of the personal information that you provide to Uphold when you establish an account with them.</message>
+      <message name="IDS_BRAVE_UI_WALLET_VERIFICATION_NOTE2" desc="">Gab AI Inc. does not process, store, or access any of the personal information that you provide to Uphold when you establish an account with them.</message>
 
       <!-- Rewards New Tab Widget resources -->
       <message name="IDS_REWARDS_WIDGET_ABOUT_REWARDS" desc="">
-        <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph> about Brave Rewards
+        <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph> about Dissenter Rewards
       </message>
       <message name="IDS_REWARDS_WIDGET_SERVICE_TEXT"
-        desc="Small-print for enabling Brave Rewards on the New Tab Page"
+        desc="Small-print for enabling Dissenter Rewards on the New Tab Page"
       >
         By turning on Rewards, you agree to the <ph name="LINK_BEGIN">$1</ph>Terms of Service<ph name="LINK_END">$2</ph>.
       </message>
@@ -657,26 +657,26 @@
       <message name="IDS_REWARDS_WIDGET_TURN_ON_REWARDS" desc="">Turn on Rewards</message>
       <message name="IDS_REWARDS_WIDGET_REENABLE_TITLE" desc="">Feeling Generous?</message>
       <message name="IDS_REWARDS_WIDGET_TURN_ON_LEARN_MORE"
-        desc="Button text to learn more about Brave Rewards"
+        desc="Button text to learn more about Dissenter Rewards"
       >
         Learn more
       </message>
       <message name="IDS_REWARDS_WIDGET_ENABLE_TITLE" desc="">Ready to start earning?</message>
       <message name="IDS_REWARDS_WIDGET_ENABLE_BRANDED_WALLPAPER_TITLE"
-        desc="Title for prompt to enable Brave Rewards when a Branded Wallpaper is currently being displayed"
+        desc="Title for prompt to enable Dissenter Rewards when a Branded Wallpaper is currently being displayed"
       >
         Get paid to view this sponsored background image.
       </message>
-      <message name="IDS_REWARDS_WIDGET_REENABLE_SUBTITLE" desc="">Try Brave Rewards again and pay it forward as you earn!</message>
-      <message name="IDS_REWARDS_WIDGET_ENABLE_SUBTITLE" desc="">Turn on Brave Rewards and get paid to view privacy-respecting ads.</message>
+      <message name="IDS_REWARDS_WIDGET_REENABLE_SUBTITLE" desc="">Try Dissenter Rewards again and pay it forward as you earn!</message>
+      <message name="IDS_REWARDS_WIDGET_ENABLE_SUBTITLE" desc="">Turn on Dissenter Rewards and get paid to view privacy-respecting ads.</message>
       <message name="IDS_REWARDS_WIDGET_ENABLE_BRANDED_WALLPAPER_SUBTITLE"
-        desc="Description for prompt to enable Brave Rewards when a Branded Wallpaper is currently being displayed"
+        desc="Description for prompt to enable Dissenter Rewards when a Branded Wallpaper is currently being displayed"
       >
-        Turn on <ph name="PRODUCT_NAME">$3<ex>Brave Rewards</ex></ph> to claim your share. You can also choose to <ph name="LINK_BEGIN">$1</ph>hide sponsored images<ph name="LINK_END">$2</ph>.
+        Turn on <ph name="PRODUCT_NAME">$3<ex>Dissenter Rewards</ex></ph> to claim your share. You can also choose to <ph name="LINK_BEGIN">$1</ph>hide sponsored images<ph name="LINK_END">$2</ph>.
       </message>
       <message name="IDS_REWARDS_WIDGET_NOTIFICATION_TITLE" desc="">Way to Go!</message>
       <message name="IDS_REWARDS_WIDGET_NOTIFICATION_TEXT_ADS" desc="">Your rewards from Ads are here</message>
-      <message name="IDS_REWARDS_WIDGET_NOTIFICATION_TEXT_UGP" desc="">You have a UGP grant from Brave.</message>
+      <message name="IDS_REWARDS_WIDGET_NOTIFICATION_TEXT_UGP" desc="">You have a UGP grant from Dissenter.</message>
       <message name="IDS_REWARDS_WIDGET_BRANDED_NOTIFICATION_TITLE"
         desc="Title for notification that the user is seeing a branded wallpaper and they are getting paid for it"
       >
@@ -685,7 +685,7 @@
       <message name="IDS_REWARDS_WIDGET_BRANDED_NOTIFICATION_DESCRIPTION"
         desc="Description for notification that the user is seeing a branded wallpaper and they are getting paid for it"
       >
-        <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph> about sponsored images in Brave Rewards.
+        <ph name="LINK_BEGIN">$1</ph>Learn more<ph name="LINK_END">$2</ph> about sponsored images in Dissenter Rewards.
       </message>
       <message name="IDS_REWARDS_WIDGET_BRANDED_NOTIFICATION_HIDE_ACTION"
         desc="Action for notification that the user is seeing a branded wallpaper and they are getting paid for it"
@@ -707,7 +707,7 @@
       <message name="IDS_BRAVE_SYNC_SHARED_VIEW_CODE_BUTTON" desc="The Sync button to enter code words instead of scanning the current code">View Code Words</message>
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_LOOKING_FOR_DEVICE_BUTTON" desc="The Sync temporary button that holds while a device is not found yet">Looking for device</message>
       <!-- WebUI brave sync resources: Enabled Content -->
-      <message name="IDS_BRAVE_SYNC_ENABLED_BRAVE_TITLE" desc="The Brave Sync title">Sync</message>
+      <message name="IDS_BRAVE_SYNC_ENABLED_BRAVE_TITLE" desc="The Dissenter Sync title">Sync</message>
       <message name="IDS_BRAVE_SYNC_ENABLED_DEVICES_CHAIN_TITLE" desc="The Sync title for the table of devices synced">The device list below includes all devices in your sync chain. Each device can be managed from any other device.</message>
       <message name="IDS_BRAVE_SYNC_ENABLED_TABLE_DEVICE_NAME_TITLE" desc="The Sync table title for the device column">device name</message>
       <message name="IDS_BRAVE_SYNC_ENABLED_TABLE_THIS_DEVICE_TEXT" desc="The Sync table title for the device column">(This Device)</message>
@@ -722,8 +722,8 @@
       <message name="IDS_BRAVE_SYNC_ENABLED_HISTORY_LABEL" desc="The Sync label for the `browsing history` toggle">Browsing History</message>
       <message name="IDS_BRAVE_SYNC_ENABLED_LEAVE_CHAIN_BUTTON" desc="The Sync button that opens a modal to leave the current sync chain">Leave Sync Chain</message>
       <!-- WebUI brave sync resources: Disabled Content -->
-      <message name="IDS_BRAVE_SYNC_DISABLED_DESCRIPTION" desc="The Brave Sync title.">Sync Setup</message>
-      <message name="IDS_BRAVE_SYNC_DISABLED_NEW_CHAIN_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">To start, you will need Brave installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.</message>
+      <message name="IDS_BRAVE_SYNC_DISABLED_DESCRIPTION" desc="The Dissenter Sync title.">Sync Setup</message>
+      <message name="IDS_BRAVE_SYNC_DISABLED_NEW_CHAIN_DESCRIPTION" desc="The Sync phrase explaining what happens when you start a new sync chain. Appears when sync is disabled.">To start, you will need Dissenter installed on all the devices you plan to sync. To chain them together, start a sync chain that you will use to securely link all of your devices together.</message>
       <message name="IDS_BRAVE_SYNC_DISABLED_START_NEW_CHAIN_BUTTON" desc="The Sync button that triggers a modal to start a new sync chian">Start a new Sync Chain</message>
       <message name="IDS_BRAVE_SYNC_DISABLED_ENTER_CODE_BUTTON" desc="The Sync button that triggers a modal asking for the sync chain code passphrase">I have a Sync Code</message>
       <message name="IDS_BRAVE_SYNC_DISABLED_CONFIRM_CODE_BUTTON" desc="The Sync button to confirm the Sync code that was inputed by the user">Confirm Sync Code</message>
@@ -740,17 +740,17 @@
       <message name="IDS_BRAVE_SYNC_RESET_WARNING_TITLE" desc="The Sync `warning` text used as a title in `reset sync` modal">Warning!</message>
       <message name="IDS_BRAVE_SYNC_RESET_REMOVING_PARTIAL" desc="The Sync partial phrase from `removing X will delete this sync chain` where X is the user's device name. Used in the `reset sync` modal">Removing</message>
       <message name="IDS_BRAVE_SYNC_RESET_DELETE_CHAIN_PARTIAL" desc="The Sync partial phrase from `removing X will delete this sync chain` where X is the user's device name. Used in the `reset sync` modal">will delete this sync chain.</message>
-      <message name="IDS_BRAVE_SYNC_RESET_REMOVAL_INSTRUCTIONS" desc="The Sync phrase explaining what happens if you reset your sync chain. Used in the `reset sync` modal">Your local data on this device will be retained but all data in Brave’s Sync cache will be deleted.</message>
+      <message name="IDS_BRAVE_SYNC_RESET_REMOVAL_INSTRUCTIONS" desc="The Sync phrase explaining what happens if you reset your sync chain. Used in the `reset sync` modal">Your local data on this device will be retained but all data in Dissenter’s Sync cache will be deleted.</message>
       <message name="IDS_BRAVE_SYNC_RESET_START_NEW_INSTRUCTIONS" desc="The Sync phrase explaining how you can start a new sync chain after reseting sync. Used in the `reset sync` modal">You can start a new sync chain or sync with a new device by entering its sync chain code.</message>
       <message name="IDS_BRAVE_SYNC_RESET_ARE_YOU_SURE_TITLE" desc="The Sync dialog title asking if user is sure about the action of reseting sync">Are you sure?</message>
       <!-- WebUI brave sync resources: [modal] Scan Code -->
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_TITLE" desc="The Sync title for the `scan sync code` modal">Sync Chain QR Code</message>
-      <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">On your mobile device, navigate to Brave Sync in the Settings panel and click the button</message>
+      <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `scan sync code` modal partial phrase (1)">On your mobile device, navigate to Dissenter Sync in the Settings panel and click the button</message>
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `scan sync code` modal partial phrase (2)">“Scan Sync Code”.</message>
       <message name="IDS_BRAVE_SYNC_SCAN_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `scan sync code` modal partial phrase (3)">Use your camera to scan the QR Code below.</message>
       <!-- WebUI brave sync resources: [modal] View Code -->
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_TITLE" desc="The Sync title for the `view sync code` modal">Sync Chain Code</message>
-      <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">On your target computer, navigate to Brave Sync in settings and click the button</message>
+      <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_1" desc="The Sync instructions for the `view sync code` modal partial phrase (1)">On your target computer, navigate to Dissenter Sync in settings and click the button</message>
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_2" desc="The Sync instructions for the `view sync code` modal partial phrase (2)">“I have a Sync Code”.</message>
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_DESCRIPTION_PARTIAL_3" desc="The Sync instructions for the `view sync code` modal partial phrase (3)">Enter the sync chain code words shown below. Treat this code like a password. If someone gets ahold of it, they can read and modify your synced data.</message>
       <message name="IDS_BRAVE_SYNC_VIEW_CODE_USE_CAMERA_BUTTON" desc="The Sync button to use your camera to sync the code instead of copying the sync code">Use my camera instead</message>
@@ -769,7 +769,7 @@
       <message name="IDS_BRAVE_SYNC_ERROR_INIT_FAILED_DESCRIPTION" desc="Error message in dialog for when a Sync error happens in the back-end">You might be having network trouble, or there could be a problem with the Sync servers.</message>
       <message name="IDS_BRAVE_SYNC_REQUIRES_CORRECT_TIME_TITLE" desc="Error message in dialog for when a Sync could not couldn't connect to Sync servers, because of wrong system time (title)">Couldn't connect to Sync servers</message>
       <message name="IDS_BRAVE_SYNC_REQUIRES_CORRECT_TIME_DESCRIPTION" desc="Error message in dialog for when a Sync could not connect to Sync servers, because of wrong system time (description)">Your computer's clock may be set to the wrong time or time zone. Check your clock settings.</message>
-      <!-- WebUI Brave Toolbar resources -->
+      <!-- WebUI Dissenter Toolbar resources -->
       <message name="IDS_WALLETS_TITLE" desc="The toolbar title for the brave://wallets page">Crypto Wallets</message>
     </messages>
   </release>

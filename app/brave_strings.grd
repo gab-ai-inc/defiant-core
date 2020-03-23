@@ -152,18 +152,18 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <part file="settings_brave_strings.grdp" />
       </if>
 
-      <message name="IDS_PRODUCT_NAME" desc="The Brave application name">
-        Brave
+      <message name="IDS_PRODUCT_NAME" desc="The Dissenter application name">
+        Dissenter
       </message>
-      <message name="IDS_SHORT_PRODUCT_NAME" desc="The Brave application short name.">
-        Brave
+      <message name="IDS_SHORT_PRODUCT_NAME" desc="The Dissenter application short name.">
+        Dissenter
       </message>
       <if expr="is_win">
-        <message name="IDS_SXS_SHORTCUT_NAME">Brave Nightly</message>
-        <message name="IDS_SHORTCUT_NAME_BETA">Brave Beta</message>
-        <message name="IDS_SHORTCUT_NAME_DEV">Brave Dev</message>
+        <message name="IDS_SXS_SHORTCUT_NAME">Dissenter Nightly</message>
+        <message name="IDS_SHORTCUT_NAME_BETA">Dissenter Beta</message>
+        <message name="IDS_SHORTCUT_NAME_DEV">Dissenter Dev</message>
         <message name="IDS_PRODUCT_DESCRIPTION" desc="Browser description">
-          Brave is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Brave.
+          Dissenter is a web browser that runs webpages and applications with lightning speed. It's fast, stable, and easy to use. Browse the web more safely with malware and phishing protection built into Dissenter.
         </message>
       </if>
       <if expr="chromeos">
@@ -174,101 +174,101 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
           Chrome OS
         </message>
       </if>
-      <message name="IDS_SHORT_PRODUCT_LOGO_ALT_TEXT" desc="Alt text for the Brave logo image.">
-        Brave logo
+      <message name="IDS_SHORT_PRODUCT_LOGO_ALT_TEXT" desc="Alt text for the Dissenter logo image.">
+        Dissenter logo
       </message>
-      <!-- Brave enterprise logo won't be used in Brave -->
-      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the Brave Enterprise logo image." />
+      <!-- Dissenter enterprise logo won't be used in Dissenter -->
+      <message name="IDS_PRODUCT_LOGO_ENTERPRISE_ALT_TEXT" desc="Alt text for the Dissenter Enterprise logo image." />
       <if expr="is_win">
         <message name="IDS_SHORTCUT_NEW_WINDOW" desc="The text label of the New window shortcut context menu entry as of Windows 8">
           New window
         </message>
       </if>
       <message name="IDS_TASK_MANAGER_TITLE" desc="The title of the Task Manager window">
-        Task Manager - Brave
+        Task Manager - Dissenter
       </message>
       <message name="IDS_SESSION_CRASHED_VIEW_UMA_OPTIN" desc="Text besides the checkbox to let users optin to UMA in the restore from previous crash bubble.">
-        Help make Brave better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Brave
+        Help make Dissenter better by sending crash reports and <ph name="UMA_LINK">$1<ex>usage statistics</ex></ph> to Dissenter
       </message>
       <if expr="not chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabs and popup windows">
-          <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave
+          <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - Dissenter
         </message>
       </if>
       <if expr="chromeos">
         <!-- Browser Window Title Format -->
         <message name="IDS_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for titles displayed in tabbed browser windows">
-          Brave - <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph>
+          Dissenter - <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph>
         </message>
       </if>
       <!-- Accessible window title format - includes the channel, and the same
            on all browser platforms rather than different on Chrome OS. -->
       <message name="IDS_ACCESSIBLE_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave
+        <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - Dissenter
       </message>
       <message name="IDS_ACCESSIBLE_BETA_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the beta channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Beta
+        <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - Dissenter Beta
       </message>
       <message name="IDS_ACCESSIBLE_DEV_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the developer (dev) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Dev
+        <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - Dissenter Dev
       </message>
       <message name="IDS_ACCESSIBLE_CANARY_BROWSER_WINDOW_TITLE_FORMAT" desc="The format for the accessible name of a tabbed browser window for the canary (nightly build) channel version of the browser">
-        <ph name="PAGE_TITLE">$1<ex>Brave</ex></ph> - Brave Canary
+        <ph name="PAGE_TITLE">$1<ex>Dissenter</ex></ph> - Dissenter Canary
       </message>
       <message name="IDS_ABOUT_VERSION_COMPANY_NAME" desc="Company name on the about pages">
-        Brave Software Inc
+        Gab AI Inc
       </message>
       <message name="IDS_ABOUT_VERSION_COPYRIGHT" desc="Copyright information on the about pages">
-        Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The Brave Authors. All rights reserved.
+        Copyright © <ph name="YEAR">{0,date,y}<ex>2016</ex></ph> The Dissenter Authors. All rights reserved.
       </message>
       <if expr="chromeos">
-        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the Brave open source URLs for Chrome OS.">
+        <message name="IDS_ABOUT_CROS_VERSION_LICENSE" desc="Additional text displayed beneath the Dissenter open source URLs for Chrome OS.">
           Chrome OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>.
         </message>
-        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the Brave open source URLs for Chrome OS when Crostini is installed.">
+        <message name="IDS_ABOUT_CROS_WITH_LINUX_VERSION_LICENSE" desc="Additional text displayed beneath the Dissenter open source URLs for Chrome OS when Crostini is installed.">
           Chrome OS is made possible by additional <ph name="BEGIN_LINK_CROS_OSS">&lt;a target="_blank" href="$1"&gt;</ph>open source software<ph name="END_LINK_CROS_OSS">&lt;/a&gt;</ph>, as is <ph name="BEGIN_LINK_LINUX_OSS">&lt;a target="_blank" href="$2"&gt;</ph>Linux (Beta)<ph name="END_LINK_LINUX_OSS">&lt;/a&gt;</ph>.
         </message>
         <message name="IDS_ABOUT_SAFETY_INFORMATION" desc="The safety label in the About box." translateable="false">
-          Not used in Brave. Placeholder to keep resource maps in sync.
+          Not used in Dissenter. Placeholder to keep resource maps in sync.
         </message>
       </if>
       <message name="IDS_ABOUT_TERMS_OF_SERVICE" desc="The terms of service label in the About box." translateable="false">
-        Not used in Brave. Placeholder to keep resource maps in sync. It expects one argument: <ph name="ARGUMENT">$1</ph>.
+        Not used in Dissenter. Placeholder to keep resource maps in sync. It expects one argument: <ph name="ARGUMENT">$1</ph>.
       </message>
       <if expr="is_macosx">
         <message name="IDS_MAC_10_9_OBSOLETE_NOW" desc="A message displayed on an at-launch infobar and About (Help) page warning the user that the OS version they are using is no longer supported.">
-          Brave may not function correctly because it is no longer supported on Mac OS X 10.9.
+          Dissenter may not function correctly because it is no longer supported on Mac OS X 10.9.
         </message>
       </if>
       <if expr="is_win">
         <message name="IDS_WIN_XP_VISTA_OBSOLETE" desc="A message displayed on an at-launch infobar and about:help warning the user that the computer they are using is no longer supported.">
-          Brave may not function correctly because it is no longer supported on Windows XP or Windows Vista
+          Dissenter may not function correctly because it is no longer supported on Windows XP or Windows Vista
         </message>
       </if>
       <message name="IDS_ACCNAME_APP" desc="The accessible name for the app menu.">
-        Brave
+        Dissenter
       </message>
       <!-- Hung Browser Detector -->
       <if expr="is_win">
         <message name="IDS_BROWSER_HUNGBROWSER_MESSAGE" desc="Content of the dialog box shown when the browser is hung">
-          Brave is unresponsive. Relaunch now?
+          Dissenter is unresponsive. Relaunch now?
         </message>
       </if>
       <!-- Uninstall messages -->
       <if expr="is_win">
         <message name="IDS_UNINSTALL_CLOSE_APP" desc="Message to user when uninstall detects other app instance running">
-          Please close all Brave windows and try again.
+          Please close all Dissenter windows and try again.
         </message>
         <message name="IDS_UNINSTALL_VERIFY" desc="Message to confirm user wants to uninstall">
-          Are you sure you want to uninstall Brave?
+          Are you sure you want to uninstall Dissenter?
         </message>
-        <message name="IDS_UNINSTALL_CHROME" desc="The title of the Brave uninstall dialog.">
-          Uninstall Brave
+        <message name="IDS_UNINSTALL_CHROME" desc="The title of the Dissenter uninstall dialog.">
+          Uninstall Dissenter
         </message>
       </if>
       <message name="IDS_FR_CUSTOMIZE_DEFAULT_BROWSER" desc="Default browser checkbox label">
-        Make Brave the default browser
+        Make Dissenter the default browser
       </message>
       <if expr="chromeos">
         <message name="IDS_EXTERNAL_PROTOCOL_TITLE" desc="External Protocol Dialog Title">
@@ -277,28 +277,28 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       </if>
       <if expr="use_titlecase">
         <message name="IDS_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND" desc="In Title Case: The checkbox in the status tray context menu that controls whether chrome keeps running in the background after the last window is closed">
-          Let Brave Run in the Background
+          Let Dissenter Run in the Background
         </message>
       </if>
       <if expr="not use_titlecase">
         <message name="IDS_STATUS_TRAY_KEEP_CHROME_RUNNING_IN_BACKGROUND" desc="The checkbox in the status tray context menu that controls whether chrome keeps running in the background after the last window is closed">
-          Let Brave run in the background
+          Let Dissenter run in the background
         </message>
       </if>
       <message name="IDS_CANT_WRITE_USER_DIRECTORY_SUMMARY" desc="Summary of problem displayed in dialog when we can't create a directory for this user.">
-Brave cannot read and write to its data directory:
+Dissenter cannot read and write to its data directory:
 
-<ph name="USER_DATA_DIRECTORY">$1<ex>C:\Documents and Settings\devint\Local Settings\Application Data\Brave\Brave</ex></ph>
+<ph name="USER_DATA_DIRECTORY">$1<ex>C:\Documents and Settings\devint\Local Settings\Application Data\Dissenter\Dissenter</ex></ph>
       </message>
       <if expr="chromeos">
         <message name="IDS_EULA_CHECKBOX_ENABLE_LOGGING" desc="The label of the checkbox to enable/disable crash and user metrics logging">
-          Optional: Help make Brave better by automatically sending usage statistics and crash reports to Brave.
+          Optional: Help make Dissenter better by automatically sending usage statistics and crash reports to Dissenter.
         </message>
       </if>
       <message name="IDS_PROFILE_TOO_NEW_ERROR" desc="Error displayed on startup when the profile is from a newer version of the product and can not be read">
-Your profile can not be used because it is from a newer version of Brave.
+Your profile can not be used because it is from a newer version of Dissenter.
 
-Some features may be unavailable. Please specify a different profile directory or use a newer version of Brave.
+Some features may be unavailable. Please specify a different profile directory or use a newer version of Dissenter.
       </message>
       <message name="IDS_PREFERENCES_UNREADABLE_ERROR" desc="Error displayed on startup when user preferences file can not be read">
 Your preferences can not be read.
@@ -308,249 +308,249 @@ Some features may be unavailable and changes to preferences won't be saved.
       <message name="IDS_PREFERENCES_CORRUPT_ERROR" desc="Error displayed on startup when user preferences file can not be read">
 Your preferences file is corrupt or invalid.
 
-Brave is unable to recover your settings.
+Dissenter is unable to recover your settings.
       </message>
       <!-- Crash Recovery Dialog -->
       <message name="IDS_CRASH_RECOVERY_TITLE" desc="Title of dialog shown when the browser crashes.">
-        Brave
+        Dissenter
       </message>
       <if expr="is_win">
         <message name="IDS_CRASH_RECOVERY_CONTENT" desc="Text content telling the user the browser has crashed.">
-          Whoa! Brave has crashed. Relaunch now?
+          Whoa! Dissenter has crashed. Relaunch now?
         </message>
       </if>
       <!-- Password generation strings -->
       <message name="IDS_PASSWORD_GENERATION_PROMPT" desc="Autofill dropdown text describing password generation.">
-        Brave will save this password in your Brave Account. You won’t have to remember it.
+        Dissenter will save this password in your Dissenter Account. You won’t have to remember it.
       </message>
       <!-- Password manager onboarding strings -->
       <message name="IDS_PASSWORD_MANAGER_ONBOARDING_DETAILS_C" desc="The explanation text that is shown below the title in the password manager onboarding dialog.">
-        Brave lets you know if your passwords are ever compromised
+        Dissenter lets you know if your passwords are ever compromised
       </message>
       <message name="IDS_PASSWORD_MANAGER_TITLE_BRAND" desc="The product name used in the title of the password bubble.">
-        Brave
+        Dissenter
       </message>
       <if expr="is_macosx">
         <message name="IDS_PASSWORDS_PAGE_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before revealing plaintext passwords on the password page.">
-          Brave is trying to show passwords.
+          Dissenter is trying to show passwords.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
-          Brave wants to export your passwords.
+          Dissenter wants to export your passwords.
         </message>
       </if>
       <if expr="is_win">
         <message name="IDS_PASSWORDS_PAGE_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before revealing plaintext passwords on the password page.">
-          Brave is trying to show passwords. Type your Windows password to allow this.
+          Dissenter is trying to show passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_PASSWORDS_PAGE_EXPORT_AUTHENTICATION_PROMPT" desc="Text for the dialog box that prompts the user for their OS account password before exporting passwords to a file.">
-          Brave wants to export your passwords. Type your Windows password to allow this.
+          Dissenter wants to export your passwords. Type your Windows password to allow this.
         </message>
         <message name="IDS_INSTALL_HIGHER_VERSION" desc="Error displayed when higher version already exists.">
-          This computer already has a more recent version of Brave. If the software is not working, please uninstall Brave and try again.
+          This computer already has a more recent version of Dissenter. If the software is not working, please uninstall Dissenter and try again.
         </message>
         <message name="IDS_INSTALL_FAILED" desc="Error displayed if installation fails due to some unknown error.">
-          Installation failed due to unspecified error. If Brave is currently running, please close it and try again.
+          Installation failed due to unspecified error. If Dissenter is currently running, please close it and try again.
         </message>
-        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Brave running.">
-          Can not install the same Brave version that is currently running. Please close Brave and try again.
+        <message name="IDS_SAME_VERSION_REPAIR_FAILED" desc="Error displayed if installation fails due to Dissenter running.">
+          Can not install the same Dissenter version that is currently running. Please close Dissenter and try again.
         </message>
         <message name="IDS_SETUP_PATCH_FAILED" desc="Error message when setup.exe fails to patch itself.">
-          Installation failed due to unspecified error. Please download Brave again.
+          Installation failed due to unspecified error. Please download Dissenter again.
         </message>
         <message name="IDS_INSTALL_OS_NOT_SUPPORTED" desc="Error displayed if OS is not supported">
-          Brave requires Windows 7 or higher.
+          Dissenter requires Windows 7 or higher.
         </message>
         <message name="IDS_INSTALL_OS_ERROR" desc="Error displayed when any Windows API call fails and we do not have more specific information.">
-          An operating system error occurred during installation. Please download Brave again.
+          An operating system error occurred during installation. Please download Dissenter again.
         </message>
         <message name="IDS_INSTALL_SINGLETON_ACQUISITION_FAILED" desc="Error displayed when the installer cannot run because another installer is already running.">
-          Another operation on Brave is in progress. Please try again later.
+          Another operation on Dissenter is in progress. Please try again later.
         </message>
         <message name="IDS_INSTALL_TEMP_DIR_FAILED" desc="Error displayed when we fail to create temporary directory during installation.">
           The installer couldn't create a temporary directory. Please check for free disk space and permission to install software.
         </message>
         <message name="IDS_INSTALL_UNCOMPRESSION_FAILED" desc="Error when when we can not uncompress installation archive.">
-          The installer failed to uncompress archive. Please download Brave again.
+          The installer failed to uncompress archive. Please download Dissenter again.
         </message>
         <message name="IDS_INSTALL_INVALID_ARCHIVE" desc="Error displayed when we can not open the installation archive.">
-          The installer archive is corrupted or invalid. Please download Brave again.
+          The installer archive is corrupted or invalid. Please download Dissenter again.
         </message>
         <message name="IDS_INSTALL_INSUFFICIENT_RIGHTS" desc="Error displayed when a non admin user tries to attempt system level install/uninstall.">
           You do not have appropriate rights for system-level install. Try running the installer again as Administrator.
         </message>
-        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Brave in their user profile directory when their computer already has Brave installed for all users. In this case, the installer silently launches the existing version of Brave for all users rather than installing a second version of Brave.">
-          Brave is already installed for all users on your computer.
+        <message name="IDS_INSTALL_EXISTING_VERSION_LAUNCHED" desc="A message shown to users who try to install Dissenter in their user profile directory when their computer already has Dissenter installed for all users. In this case, the installer silently launches the existing version of Dissenter for all users rather than installing a second version of Dissenter.">
+          Dissenter is already installed for all users on your computer.
         </message>
       </if>
       <!-- Options Dialog -->
       <if expr="is_win">
-        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the Brave shortcuts.">
+        <message name="IDS_SHORTCUT_TOOLTIP" desc="Text for the hover-on tooltip for the Dissenter shortcuts.">
           Access the Internet
         </message>
         <message name="IDS_UNINSTALL_DELETE_PROFILE" desc="Text to show user to ask whether to delete all the profile data also during uninstallation.">
           Also delete your browsing data?
         </message>
-        <message name="IDS_UNINSTALL_SET_DEFAULT_BROWSER" desc="Text to ask whether to set another browser as default when Brave is uninstalled.">
+        <message name="IDS_UNINSTALL_SET_DEFAULT_BROWSER" desc="Text to ask whether to set another browser as default when Dissenter is uninstalled.">
           Change default browser to:
         </message>
         <message name="IDS_UNINSTALL_BUTTON_TEXT" desc="Label for uninstall button on Uninstall confirmation dialog.">
           Uninstall
         </message>
       </if>
-      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Brave is not the current default browser.">
-        Brave isn't your default browser
+      <message name="IDS_DEFAULT_BROWSER_INFOBAR_TEXT" desc="Text to show in an infobar when Dissenter is not the current default browser.">
+        Dissenter isn't your default browser
       </message>
       <if expr="is_win">
-        <!-- Try Brave Toast Dialog -->
+        <!-- Try Dissenter Toast Dialog -->
         <message name="IDS_TRY_TOAST_HEADING" desc="Top line of the try-chrome-again dialog">
-          There is a new version of Brave available.
+          There is a new version of Dissenter available.
         </message>
         <message name="IDS_TRY_TOAST_HEADING2" desc="Top line of the try-chrome-again dialog">
-          There's a new version of Brave available, and it's faster than ever.
+          There's a new version of Dissenter available, and it's faster than ever.
         </message>
         <message name="IDS_TRY_TOAST_HEADING3" desc="Top line of the try-chrome-again dialog">
-          There's a new, safer version of Brave available.
+          There's a new, safer version of Dissenter available.
         </message>
         <message name="IDS_TRY_TOAST_HEADING4" desc="Top line of the try-chrome-again dialog">
-          Brave has been updated, but you haven't used it for at least 30 days.
+          Dissenter has been updated, but you haven't used it for at least 30 days.
         </message>
         <message name="IDS_TRY_TOAST_HEADING_SKYPE" desc="Top line of the try-chrome-again dialog">
-          Brave lets you click a phone number on the web and call it with Skype!
+          Dissenter lets you click a phone number on the web and call it with Skype!
         </message>
       </if>
 
       <!-- Print Preview -->
       <message name="IDS_PRINT_PREVIEW_NO_PLUGIN" desc="Message to display when the PDF viewer is missing.">
-        Brave cannot show the print preview when the built-in PDF viewer is missing.
+        Dissenter cannot show the print preview when the built-in PDF viewer is missing.
       </message>
 
       <!-- Download Shelf Items -->
       <message name="IDS_DOWNLOAD_STATUS_CRX_INSTALL_RUNNING" desc="Message shown when a CRX has been downloaded and is being unpacked.">
-        Adding to Brave...
+        Adding to Dissenter...
       </message>
 
       <message name="IDS_PROMPT_DOWNLOAD_CHANGES_SETTINGS" desc="Message shown on the download shelf when the download is known to change settings in the browser in a malicious way.">
-        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous, so Brave has blocked it.
+        <ph name="FILE_NAME">$1<ex>bla.exe</ex></ph> may be dangerous, so Dissenter has blocked it.
       </message>
 
       <message name="IDS_PROMPT_MALICIOUS_DOWNLOAD_URL" desc="Message shown to the user to validate the download when the download url is classified to lead to malware by the safebrowsing database.">
-        This file is dangerous, so Brave has blocked it.
+        This file is dangerous, so Dissenter has blocked it.
       </message>
       <message name="IDS_PROMPT_MALICIOUS_DOWNLOAD_CONTENT" desc="Message shown to the user to validate the download when the download content is classified to lead to malware by safebrowsing.">
-        <ph name="FILE_NAME">$1<ex>malware.exe</ex></ph> is dangerous, so Brave has blocked it.
+        <ph name="FILE_NAME">$1<ex>malware.exe</ex></ph> is dangerous, so Dissenter has blocked it.
       </message>
       <message name="IDS_BLOCK_REASON_DANGEROUS_DOWNLOAD" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is malware.">
-        This file is dangerous, so Brave has blocked it.
+        This file is dangerous, so Dissenter has blocked it.
       </message>
       <message name="IDS_BLOCK_REASON_UNWANTED_DOWNLOAD" desc="Message shown to the user on chrome://downloads page to explain that this download is blocked because it is unwanted sofware.">
-        This file may be dangerous, so Brave has blocked it.
+        This file may be dangerous, so Dissenter has blocked it.
       </message>
 
       <!-- Abandon in-progress downloads confirmation dialog -->
       <if expr="not is_macosx">
         <message name="IDS_ABANDON_DOWNLOAD_DIALOG_BROWSER_MESSAGE" desc="Message on a dialog shown when the user closes the browser while one or more downloads are in progress. This string is shown on Windows, Chrome OS, and Linux, which all use 'Exit' to refer to closing a browser.">
-          Exit Brave anyway?
+          Exit Dissenter anyway?
         </message>
       </if>
       <if expr="is_macosx">
         <message name="IDS_ABANDON_DOWNLOAD_DIALOG_BROWSER_MESSAGE" desc="Mac OSX Only: Message on a dialog shown when the user closes the browser while one or more downloads are in progress. This string is shown on Mac OSX only, which uses 'Quit' to refer to closing a browser.">
-          Quit Brave anyway?
+          Quit Dissenter anyway?
         </message>
       </if>
 
       <!-- Quit all apps confirmation dialog -->
       <if expr="is_macosx">
-        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Brave is running in the background.">
-          Brave is in background mode.
+        <message name="IDS_QUIT_WITH_APPS_TITLE" desc="Title for a notification explaining that Dissenter is running in the background.">
+          Dissenter is in background mode.
         </message>
       </if>
 
-      <!-- Brave API keys info bar -->
-      <message name="IDS_MISSING_GOOGLE_API_KEYS" desc="Message shown when Brave API keys are missing. This message is followed by a 'Learn more' link.">
-        Brave API keys are missing. Some functionality of Brave will be disabled.
+      <!-- Dissenter API keys info bar -->
+      <message name="IDS_MISSING_GOOGLE_API_KEYS" desc="Message shown when Dissenter API keys are missing. This message is followed by a 'Learn more' link.">
+        Dissenter API keys are missing. Some functionality of Dissenter will be disabled.
       </message>
 
       <!-- Extension/App install prompt -->
       <if expr="enable_extensions">
         <!-- Extension installed bubble -->
         <message name="IDS_EXTENSION_INSTALLED_HEADING" desc="Title of the extension-installed bubble. Instructs that the extension was installed.">
-          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Brave
+          <ph name="EXTENSION_NAME">$1<ex>Gmail Checker</ex></ph> has been added to Dissenter
         </message>
 
         <!-- Extension uninstall prompt -->
         <message name="IDS_EXTENSION_UNINSTALL_PROMPT_REMOVE_DATA_CHECKBOX" desc="Checkbox text to ask the user whether they want to remove associated data at uninstall time. Only used when uninstalling an app associated with a particular website.">
-          Also clear data from Brave (<ph name="URL">$1<ex>www.google.com</ex></ph>)
+          Also clear data from Dissenter (<ph name="URL">$1<ex>www.google.com</ex></ph>)
         </message>
 
         <!-- Extension context menu -->
         <if expr="not use_titlecase">
           <message name="IDS_EXTENSIONS_HIDE_BUTTON_IN_MENU" desc="The extension context menu item to hide the button in the application menu (sentence case).">
-            Hide in Brave menu
+            Hide in Dissenter menu
           </message>
         </if>
         <if expr="use_titlecase">
           <message name="IDS_EXTENSIONS_HIDE_BUTTON_IN_MENU" desc="The extension context menu item to hide the button in the application menu (title case).">
-            Hide in Brave Menu
+            Hide in Dissenter Menu
           </message>
         </if>
       </if>
 
       <!-- chrome://settings/extensions page -->
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Brave cannot prevent extensions from recording history in private mode. Displayed in extensions management UI after an extension is selected to be run in private mode.">
-        Warning: Brave cannot prevent extensions from recording your browsing history. To disable this extension in private mode, unselect this option.
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Dissenter cannot prevent extensions from recording history in private mode. Displayed in extensions management UI after an extension is selected to be run in private mode.">
+        Warning: Dissenter cannot prevent extensions from recording your browsing history. To disable this extension in private mode, unselect this option.
       </message>
       <message name="IDS_EXTENSIONS_UNINSTALL" desc="The link for uninstalling extensions.">
-        Remove from Brave...
+        Remove from Dissenter...
       </message>
-      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Brave application.">
-        In Brave
+      <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_IN_CHROME" desc="The label to indicate that a shortcut will be triggerable only from within the Dissenter application.">
+        In Dissenter
       </message>
 
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_MULTIPLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when multiple unsupported extensions have been disabled.">
-          To make Brave safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Dissenter safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
         <message name="IDS_EXTENSIONS_SINGLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when a single unsupported extension has been disabled.">
-          To make Brave safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Dissenter safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
       </if>
 
-      <!-- Main Brave menu -->
+      <!-- Main Dissenter menu -->
       <message name="IDS_APPMENU_TOOLTIP" desc="The tooltip to show for the browser menu">
-        Customize and control Brave
+        Customize and control Dissenter
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_UPDATE_AVAILABLE" desc="The tooltip to show for the browser menu when an update is available">
-        Customize and control Brave. Update is available.
+        Customize and control Dissenter. Update is available.
       </message>
 
       <message name="IDS_APPMENU_TOOLTIP_ALERT" desc="The tooltip to show for the browser menu when a non-update alert is displayed">
-        Customize and control Brave. Something needs your attention - click for details.
+        Customize and control Dissenter. Something needs your attention - click for details.
       </message>
 
-      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Brave menu item for the Hosted App app menu">
-        &amp;Open in Brave
+      <message name="IDS_OPEN_IN_CHROME" desc="The text label of the Open in Dissenter menu item for the Hosted App app menu">
+        &amp;Open in Dissenter
       </message>
 
       <if expr="use_titlecase and not chromeos">
-        <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Brave menu item">
-          About &amp;Brave
+        <message name="IDS_ABOUT" desc="In Title Case: The text label of the About Dissenter menu item">
+          About &amp;Dissenter
         </message>
-        <message name="IDS_UPDATE_NOW" desc="In Title Case: The text label of the Update Brave Now menu item">
-          Update &amp;Brave
+        <message name="IDS_UPDATE_NOW" desc="In Title Case: The text label of the Update Dissenter Now menu item">
+          Update &amp;Dissenter
         </message>
       </if>
       <if expr="not use_titlecase and not chromeos">
-        <message name="IDS_ABOUT" desc="The text label of the About Brave menu item">
-          About &amp;Brave
+        <message name="IDS_ABOUT" desc="The text label of the About Dissenter menu item">
+          About &amp;Dissenter
         </message>
-        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Brave Now menu item">
-          Update &amp;Brave
+        <message name="IDS_UPDATE_NOW" desc="The text label of the Update Dissenter Now menu item">
+          Update &amp;Dissenter
         </message>
       </if>
       <if expr="chromeos">
-        <message name="IDS_ABOUT" desc="The text label of the About Brave menu item">
-          About &amp;Brave
+        <message name="IDS_ABOUT" desc="The text label of the About Dissenter menu item">
+          About &amp;Dissenter
         </message>
         <message name="IDS_ABOUT_OS" desc="The text label of the About Chrome OS menu item">
           About &amp;Chrome OS
@@ -561,96 +561,96 @@ Brave is unable to recover your settings.
       </if>
 
       <if expr="is_macosx">
-        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Brave, not Brave.">
-          Brave
+        <message name="IDS_APP_MENU_PRODUCT_NAME" desc="The application's short name, used for the Mac's application menu, activity monitor, etc. This should be less than 16 characters. Example: Dissenter, not Dissenter.">
+          Dissenter
         </message>
-        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Brave application name (IDS_PRODUCT_NAME). Example: Brave Helper.">
-          Brave Helper
+        <message name="IDS_HELPER_NAME" desc="The helper application's name.  Should contain the Dissenter application name (IDS_PRODUCT_NAME). Example: Dissenter Helper.">
+          Dissenter Helper
         </message>
-        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Brave Helper, not Brave Helper.">
-          Brave Helper
+        <message name="IDS_SHORT_HELPER_NAME" desc="The helper application's short name, used for the Mac's application menu, activity monitor, etc. Example: Dissenter Helper, not Dissenter Helper.">
+          Dissenter Helper
         </message>
       </if>
 
-      <!-- Brave sign-in page -->
+      <!-- Dissenter sign-in page -->
       <message name="IDS_CHROME_SIGNIN_TITLE" desc="Title on the about:chrome-signin page">
-        Brave
+        Dissenter
       </message>
 
       <!-- DICE sign-in promo strings -->
       <message name="IDS_PROFILES_DICE_SYNC_PROMO" desc="Text describing the benefits of turning on Sync.">
-        Sync and personalize Brave across your devices
+        Sync and personalize Dissenter across your devices
       </message>
 
       <!-- One click sign-in infobar -->
       <if expr="not chromeos">
         <!-- New one-click sign-in dialog contents for SAML support -->
         <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_TITLE_NEW" desc="The title of the modal dialog window that opens when the user chooses to use one click sign-in.">
-          You're signed in to Brave!
+          You're signed in to Dissenter!
         </message>
         <message name="IDS_ONE_CLICK_SIGNIN_DIALOG_MESSAGE_NEW" desc="The message of the one click sign-in dialog.">
           You're signed in as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Now you can access your bookmarks, history, and other settings on all your signed in devices.
         </message>
         <message name="IDS_SYNC_WRONG_EMAIL" desc="Message shown when sync setup failed due to the user entering the wrong email address for sign-in.">
-          You were signed in to Brave as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
+          You were signed in to Dissenter as <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph>. Please use the same account to sign in again.
         </message>
         <message name="IDS_SYNC_USED_PROFILE_ERROR" desc="An error message shown when user tries to sign in to a profile that is used by other user name before.">
-          Someone previously signed in to Brave on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Brave user to keep your information separate.
+          Someone previously signed in to Dissenter on this computer as <ph name="ACCOUNT_EMAIL_LAST">$1<ex>user@example.com</ex></ph>. Please create a new Dissenter user to keep your information separate.
         </message>
       </if>
 
       <!-- Enterprise sign-in dialog -->
       <if expr="toolkit_views">
         <message name="IDS_ENTERPRISE_SIGNIN_TITLE" desc="The title of the dialog to confirm linking the browser profile with the signed-in enterprise account">
-          Link your Brave data to this account?
+          Link your Dissenter data to this account?
         </message>
-        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Brave profile. Your Brave data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Brave Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITHOUT_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Dissenter account. This message is followed by a 'Learn more' link.">
+          You are signing in with a managed account and giving its administrator control over your Dissenter profile. Your Dissenter data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Dissenter Accounts Dashboard, but you will not be able to associate this data with another account. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
-        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Brave account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
-          You are signing in with a managed account and giving its administrator control over your Brave profile. Your Brave data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Brave Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Brave data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
+        <message name="IDS_ENTERPRISE_SIGNIN_EXPLANATION_WITH_PROFILE_CREATION" desc="The warning message displayed to an enterprise user about to link their profile to their Dissenter account. Additionally notifies the user that they can create a new profile instead. This message is followed by a 'Learn more' link.">
+          You are signing in with a managed account and giving its administrator control over your Dissenter profile. Your Dissenter data, such as your apps, bookmarks, history, passwords, and other settings will become permanently tied to <ph name="USER_NAME">$1<ex>pat@example.com</ex></ph>. You will be able to delete this data via the Dissenter Accounts Dashboard, but you will not be able to associate this data with another account. You can optionally create a new profile to keep your existing Dissenter data separate. <ph name="LEARN_MORE">$2<ex>Learn more</ex></ph>
         </message>
       </if>
 
       <!-- about:browser-switch strings -->
       <if expr="is_win or is_macosx or (is_linux and not is_chromeos)">
         <message name="IDS_ABOUT_BROWSER_SWITCH_DESCRIPTION_UNKNOWN_BROWSER" desc="Description shown while waiting for an alternative browser to open, when the browser name is not auto-detected">
-          Your system administrator has configured Brave to open an alternative browser to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
+          Your system administrator has configured Dissenter to open an alternative browser to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
         </message>
         <message name="IDS_ABOUT_BROWSER_SWITCH_DESCRIPTION_KNOWN_BROWSER" desc="Description shown while waiting for an alternative browser to open, when the browser name is auto-detected">
-          Your system administrator has configured Brave to open <ph name="ALTERNATIVE_BROWSER_NAME">$2<ex>Internet Explorer</ex></ph> to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
+          Your system administrator has configured Dissenter to open <ph name="ALTERNATIVE_BROWSER_NAME">$2<ex>Internet Explorer</ex></ph> to access <ph name="TARGET_URL_HOSTNAME">$1<ex>example.com</ex></ph>.
         </message>
       </if>
 
       <!-- Signin Email Confirmation tab modal dialog -->
       <if expr="not chromeos">
         <message name="IDS_SIGNIN_EMAIL_CONFIRMATION_TITLE" desc="Title of the signin email confirmation tab modal dialog.">
-          <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> was previously using Brave
+          <ph name="USER_EMAIL_ADDRESS">$1<ex>foo@gmail.com</ex></ph> was previously using Dissenter
         </message>
       </if>
 
-      <!-- Brave Cleanup prompt.
-           Note: these strings should only be used by Brave, but
+      <!-- Dissenter Cleanup prompt.
+           Note: these strings should only be used by Dissenter, but
                  omitting them brings up a hash collision error. -->
       <if expr="is_win">
-        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Brave Cleanup dialog that Brave browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Brave; we are asking, Do you want Brave to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Brave Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
-          There's harmful software on your computer. Brave can remove it, restore your settings, and disable extensions to make your browser work normally again.
+        <message name="IDS_CHROME_CLEANUP_PROMPT_EXPLANATION" desc="Description in the Dissenter Cleanup dialog that Dissenter browser shows when unwanted software, like ad injectors or software that changes the user's settings without their knowledge, is found on the user's computer. Appears under the title asking 'Remove harmful software?' Actor is Dissenter; we are asking, Do you want Dissenter to remove harmful software? 'it' is harmful software. User has the option of clicking 'Remove' to proceed with a cleanup, or 'Details' to see more details. The description is also shown on the Dissenter Cleanup section of the Settings page, under 'Remove harmful software' title. Preferrably, the translation for this string should parallel IDS_SETTINGS_RESET_CLEANUP_EXPLANATION_CURRENTLY_REMOVING.">
+          There's harmful software on your computer. Dissenter can remove it, restore your settings, and disable extensions to make your browser work normally again.
         </message>
       </if>
 
       <!-- Sync/sign-in error messages -->
       <if expr="not chromeos">
         <message name="IDS_SYNC_PASSPHRASE_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sync error bubble view when the user needs to update their sync passphrase.">
-          Brave could not sync your data. Please update your Sync passphrase.
+          Dissenter could not sync your data. Please update your Sync passphrase.
         </message>
         <message name="IDS_SYNC_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when the user's sign-in credentials are out of date.">
-          Brave could not sync your data because your account sign-in details are out of date.
+          Dissenter could not sync your data because your account sign-in details are out of date.
         </message>
         <message name="IDS_SYNC_UNAVAILABLE_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when sync is not available for their domain.">
-          Brave could not sync your data because Sync is not available for your domain.
+          Dissenter could not sync your data because Sync is not available for your domain.
         </message>
         <message name="IDS_SYNC_OTHER_SIGN_IN_ERROR_BUBBLE_VIEW_MESSAGE" desc="Message in the sign-in error bubble view when there's an error signing in.">
-          Brave could not sync your data due to an error signing in.
+          Dissenter could not sync your data due to an error signing in.
         </message>
       </if>
       <if expr="chromeos">
@@ -671,7 +671,7 @@ Brave is unable to recover your settings.
         </message>
       </if>
       <message name="IDS_SYNC_PAUSED_REASON_CLEAR_COOKIES_ON_EXIT" desc="Info text displayed in the user menu when sync is paused due to cookies cleared on exit.">
-        You clear cookies when you quit Brave. To keep syncing, change this <ph name="COOKIE_SETTINGS_LINK">$1<ex>settings</ex></ph>.
+        You clear cookies when you quit Dissenter. To keep syncing, change this <ph name="COOKIE_SETTINGS_LINK">$1<ex>settings</ex></ph>.
       </message>
       <message name="IDS_SYNC_PAUSED_REASON_CLEAR_COOKIES_ON_EXIT_LINK_TEXT" desc="Link text part of the sync paused info text when sync is paused due to cookies cleared on exit.">
         settings
@@ -680,20 +680,20 @@ Brave is unable to recover your settings.
       <!-- App list -->
       <if expr="chromeos">
         <message name="IDS_APP_LIST_EXTENSIONS_UNINSTALL" desc="Title text for the context menu item of a non-platform-app app list item that removes the app.">
-          Remove from Brave...
+          Remove from Dissenter...
         </message>
       </if>
 
       <!-- App shortcuts -->
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Brave Apps Start Menu folder name.">
-        Brave Apps
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME" desc="Name for the Dissenter Apps Start Menu folder name.">
+        Dissenter Apps
       </message>
-      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the Brave Apps Start Menu folder name.">
-        Brave Apps
+      <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_CANARY" desc="Name for the Dissenter Apps Start Menu folder name.">
+        Dissenter Apps
       </message>
       <if expr="is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Brave Apps</message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Brave Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BETA">Dissenter Apps</message>
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_DEV">Dissenter Apps</message>
       </if>
 
       <!-- Chrome OS OOBE Terms of Service screen-->
@@ -705,26 +705,26 @@ Brave is unable to recover your settings.
 
       <!-- MediaStream capture status tray icon -->
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_AUDIO_AND_VIDEO" desc="Tool tip for the capture status tray icon when microphone and camera are being used">
-        Brave is using your camera and microphone.
+        Dissenter is using your camera and microphone.
       </message>
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_AUDIO_ONLY" desc="Tool tip for the capture status tray icon when microphone is being used">
-        Brave is using your microphone.
+        Dissenter is using your microphone.
       </message>
       <message name="IDS_MEDIA_STREAM_STATUS_TRAY_TEXT_VIDEO_ONLY" desc="Tool tip for the capture status tray icon when camera is being used">
-        Brave is using your camera.
+        Dissenter is using your camera.
       </message>
 
       <!-- ProcessSingleton -->
       <if expr="is_linux or is_macosx">
         <message name="IDS_PROFILE_IN_USE_POSIX" desc="Message shown when the browser cannot start because the profile is in use on a different host.">
-          The profile appears to be in use by another Brave process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>). Brave has locked the profile so that it doesn't get corrupted. If you are sure no other processes are using this profile, you can unlock the profile and relaunch Brave.
+          The profile appears to be in use by another Dissenter process (<ph name="PROCESS_ID">$1<ex>12345</ex></ph>) on another computer (<ph name="HOST_NAME">$2<ex>example.com</ex></ph>). Dissenter has locked the profile so that it doesn't get corrupted. If you are sure no other processes are using this profile, you can unlock the profile and relaunch Dissenter.
         </message>
       </if>
 
       <!-- Mac First-run dialog messages -->
       <if expr="is_macosx">
         <message name="IDS_FIRSTRUN_DLG_MAC_SET_DEFAULT_BROWSER_LABEL" desc="Label for checkbox that sets the default browser">
-          Set Brave as your default browser
+          Set Dissenter as your default browser
         </message>
       </if>
 
@@ -732,98 +732,98 @@ Brave is unable to recover your settings.
       <if expr="not is_android and not chromeos">
         <!-- User pod remove sync warning text -->
         <message name="IDS_LOGIN_POD_USER_REMOVE_WARNING_SYNC" desc="Main text shown as a warning when attempting to remove an user.">
-          This profile's browsing data will be deleted from this device. To recover the data, sign in to Brave as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
+          This profile's browsing data will be deleted from this device. To recover the data, sign in to Dissenter as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
         </message>
 
         <!-- Tutorial -->
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_INTRO_TITLE" desc="Title of the tutorial introduction slide">
-          Brave just got better
+          Dissenter just got better
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_INTRO_TEXT" desc="Main text of the tutorial introduction slide">
-          Now it's easier to use Brave with your Brave Account and on shared computers.
+          Now it's easier to use Dissenter with your Dissenter Account and on shared computers.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_YOUR_CHROME_TITLE" desc="Title of the slide about personalizing the browser">
-          This is your Brave
+          This is your Dissenter
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_YOUR_CHROME_TEXT" desc="Main text of the slide about personalizing the browser">
-          Your web, bookmarks, and other Brave stuff live here.
+          Your web, bookmarks, and other Dissenter stuff live here.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_GUEST_TEXT" desc="Main text of the guest user slide">
-          Guests can use Brave without leaving anything behind.
+          Guests can use Dissenter without leaving anything behind.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_FRIENDS_TEXT" desc="Main text of the friends and family slide">
-          If you share a computer, friends and family can browse separately and set up Brave just the way they want.
+          If you share a computer, friends and family can browse separately and set up Dissenter just the way they want.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_OUTRO_TEXT" desc="Main text of the tutorial completion slide">
-          Click your name to open Brave and start browsing.
+          Click your name to open Dissenter and start browsing.
         </message>
         <message name="IDS_USER_MANAGER_TUTORIAL_SLIDE_OUTRO_ADD_USER" desc="Text of the add a new user button">
-          Add yourself to Brave
+          Add yourself to Dissenter
         </message>
       </if>
 
       <!-- Settings API bubble -->
       <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_START_PAGES_SPECIFIC" desc="Text displayed in the Settings API bubble as first line when an extension has changed the start pages, and we are pointing to its icon.">
-        This extension has changed what page is shown when you start Brave.
+        This extension has changed what page is shown when you start Dissenter.
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_FIRST_LINE_START_PAGES" desc="Text displayed in the Settings API bubble as first line when an extension has changed the start pages, and we are not pointing to its icon.">
-        The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you start Brave.
+        The extension "<ph name="EXTENSION_NAME">$1<ex>AdBlock</ex></ph>" has changed what page is shown when you start Dissenter.
       </message>
-      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Brave is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
-        ''' It also controls what page is shown when you start Brave. '''
+      <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was just the start pages. The triple single quotes are needed to preserve the space before and after the sentence which is needed when the language (Dissenter is being translated to) uses space as word separator. Please preserve them, unless the language being translated to does not use space as word separator.">
+        ''' It also controls what page is shown when you start Dissenter. '''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_AND_HOME" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was both the start page and the home page. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES for reason for triple quotes.">
-        ''' It also controls what page is shown when you start Brave or click the Home button. '''
+        ''' It also controls what page is shown when you start Dissenter or click the Home button. '''
       </message>
       <message name="IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_AND_SEARCH" desc="Second line in the Settings API bubble. Only shown if the secondary change by the extension was both the start page and the search engine. See IDS_EXTENSIONS_SETTINGS_API_SECOND_LINE_START_PAGES for reason for triple quotes.">
-        ''' It also controls what page is shown when you start Brave or search from the Omnibox. '''
+        ''' It also controls what page is shown when you start Dissenter or search from the Omnibox. '''
       </message>
 
       <!-- Webstore strings -->
       <message name="IDS_WEBSTORE_APP_DESCRIPTION" desc="Description for the WebStore app.">
-        Discover great apps, games, extensions and themes for Brave.
+        Discover great apps, games, extensions and themes for Dissenter.
       </message>
 
       <!-- Windows firewall rule strings. -->
       <if expr="is_win">
         <message name="IDS_INBOUND_MDNS_RULE_NAME" desc="The name of the firewall rule allowing inbound mDNS traffic.">
-          Brave (mDNS-In)
+          Dissenter (mDNS-In)
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Brave Beta (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Brave Nightly (mDNS-In)</message>
-        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Brave Dev (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_BETA">Dissenter Beta (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_CANARY">Dissenter Nightly (mDNS-In)</message>
+        <message name="IDS_INBOUND_MDNS_RULE_NAME_DEV">Dissenter Dev (mDNS-In)</message>
         <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION">
-          Inbound rule for Brave to allow mDNS traffic.
+          Inbound rule for Dissenter to allow mDNS traffic.
         </message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Brave Beta to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Brave Nightly to allow mDNS traffic.</message>
-        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Brave Dev to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_BETA">Inbound rule for Dissenter Beta to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_CANARY">Inbound rule for Dissenter Nightly to allow mDNS traffic.</message>
+        <message name="IDS_INBOUND_MDNS_RULE_DESCRIPTION_DEV">Inbound rule for Dissenter Dev to allow mDNS traffic.</message>
       </if>
 
       <if expr="not is_android">
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave.">
-          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave. You can turn this off in settings at any time.
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Dissenter to Dissenter.">
+          If an image doesn’t have a useful description, Dissenter will try to provide one for you. To create descriptions, images are sent to Dissenter. You can turn this off in settings at any time.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Brave to Brave just once.">
-          If an image doesn’t have a useful description, Brave will try to provide one for you. To create descriptions, images are sent to Brave.
+        <message name="IDS_CONTENT_CONTEXT_ACCESSIBILITY_LABELS_BUBBLE_TEXT_ONCE" desc="The text of a bubble that confirms users allows integrating the accessibility labels service of Dissenter to Dissenter just once.">
+          If an image doesn’t have a useful description, Dissenter will try to provide one for you. To create descriptions, images are sent to Dissenter.
         </message>
-        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Brave to Brave.">
-          This uses the same spell checker that's used in Brave search. Text you type in the browser is sent to Brave. You can always change this behavior in settings.
+        <message name="IDS_CONTENT_CONTEXT_SPELLING_BUBBLE_TEXT" desc="The text of a bubble that confirms users allows integrating the spelling service of Dissenter to Dissenter.">
+          This uses the same spell checker that's used in Dissenter search. Text you type in the browser is sent to Dissenter. You can always change this behavior in settings.
         </message>
         <if expr="not use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP" desc="The name of the command to open a link in a newly created browser tab when the user is in an app window">
-            Open link in new Brave &amp;tab
+            Open link in new Dissenter &amp;tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="The name of the command to open a link in a private browser window when the user is in an app window">
-            Open link in Brave &amp;private window
+            Open link in Dissenter &amp;private window
           </message>
         </if>
         <if expr="use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKNEWTAB_INAPP" desc="In Title Case: The name of the command to open a link in a newly created browser tab when the user is in an app window">
-            Open Link in New Brave &amp;tab
+            Open Link in New Dissenter &amp;tab
           </message>
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="In Title Case: The name of the command to open a link in a private browser window when the user is in an app window">
-            Open Link in Brave &amp;Private Window
+            Open Link in Dissenter &amp;Private Window
           </message>
         </if>
       </if>
@@ -831,15 +831,15 @@ Brave is unable to recover your settings.
       <!-- Update Recommended dialog -->
       <if expr="not chromeos">
         <message name="IDS_UPDATE_RECOMMENDED_DIALOG_TITLE" desc="The window title for the Update Recommended dialog.">
-          Relaunch Brave
+          Relaunch Dissenter
         </message>
         <message name="IDS_UPDATE_RECOMMENDED" desc="The main text of the Update Recommended dialog with a count of open private windows.">
           {COUNT, plural,
-          =0 {A new update for Brave is available and will be applied as soon as you relaunch.}
-          =1 {A new update for Brave is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
-          other {A new update for Brave is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
+          =0 {A new update for Dissenter is available and will be applied as soon as you relaunch.}
+          =1 {A new update for Dissenter is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
+          other {A new update for Dissenter is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
         </message>
-        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Brave.">
+        <message name="IDS_RELAUNCH_AND_UPDATE" desc="The button in the Update Recommended dialog which updates and relaunches Dissenter.">
           Relaunch
         </message>
       </if>
@@ -856,67 +856,67 @@ Brave is unable to recover your settings.
       </if>
 
       <!-- Cannot update when other instances open dialog -->
-      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_TITLE" desc="The title for the dialog shown when multiple copies of Brave are running during a requested update.">
-        Quit all copies of Brave.
+      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_TITLE" desc="The title for the dialog shown when multiple copies of Dissenter are running during a requested update.">
+        Quit all copies of Dissenter.
       </message>
-      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_MESSAGE" desc="The message for the dialog shown when multiple copies of Brave are running during a requested update.">
-        Other copies of Brave are running. To update, close them.
+      <message name="IDS_UPDATE_OTHER_INSTANCES_SAME_USER_DIALOG_MESSAGE" desc="The message for the dialog shown when multiple copies of Dissenter are running during a requested update.">
+        Other copies of Dissenter are running. To update, close them.
       </message>
       <message name="IDS_UPDATE_OTHER_INSTANCES_OTHER_USER_AUTHENTICATION_PROMPT" desc="The window title for the other instances dialog.">
-        To update, Brave needs to stop running on this computer. This may cause other users logged into this computer to lose unsaved changes.
+        To update, Dissenter needs to stop running on this computer. This may cause other users logged into this computer to lose unsaved changes.
       </message>
 
       <!-- Update bubble -->
       <message name="IDS_REINSTALL_APP" desc="Text for the button the user clicks to reinstall the app.">
-        Reinstall Brave
+        Reinstall Dissenter
       </message>
       <if expr="use_titlecase">
-        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="In Title Case: Text for the Brave menu option replacing Update required.">
-          Brave is Out of Date
+        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="In Title Case: Text for the Dissenter menu option replacing Update required.">
+          Dissenter is Out of Date
         </message>
       </if>
       <if expr="not use_titlecase">
-        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="Text for the Brave menu option replacing Update required.">
-          Brave is out of date
+        <message name="IDS_UPGRADE_BUBBLE_MENU_ITEM" desc="Text for the Dissenter menu option replacing Update required.">
+          Dissenter is out of date
         </message>
       </if>
       <message name="IDS_UPGRADE_BUBBLE_TITLE" desc="Text for the title of the upgrade bubble view.">
-        Can't update Brave
+        Can't update Dissenter
       </message>
       <message name="IDS_UPGRADE_BUBBLE_TEXT" desc="Text for the upgrade bubble view full description.">
-        Brave couldn't update to the latest version, so you're missing out on new features and security fixes.
+        Dissenter couldn't update to the latest version, so you're missing out on new features and security fixes.
       </message>
 
       <!-- User menu errors -->
-      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_MESSAGE" desc="Message of the out-of-date Brave client error in the header of desktop user menu.">
-        Brave is out of date
+      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_MESSAGE" desc="Message of the out-of-date Dissenter client error in the header of desktop user menu.">
+        Dissenter is out of date
       </message>
-      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Brave to fix the out-of-date Brave client error.">
-        Update Brave
+      <message name="IDS_SYNC_ERROR_USER_MENU_UPGRADE_BUTTON" desc="Button in the header of desktop user menu that prompts the user to update Dissenter to fix the out-of-date Dissenter client error.">
+        Update Dissenter
       </message>
 
       <!-- Sync errors. Android uses native UI to handle Sync settings -->
       <if expr="not is_android">
         <message name="IDS_SYNC_UPGRADE_CLIENT" desc="Message indicating client needs to be upgraded to the latest version.">
-          Update Brave to start sync
+          Update Dissenter to start sync
         </message>
         <message name="IDS_SYNC_UPGRADE_CLIENT_LINK_LABEL" desc="Hyperlink text indicating client needs to be upgraded to the latest version.">
-          Update Brave
+          Update Dissenter
         </message>
       </if>
 
       <!-- Upgrade recovery bubble -->
       <message name="IDS_RECOVERY_BUBBLE_TITLE" desc="Text for the title of the chrome recovery bubble view.">
-        Brave is out of date
+        Dissenter is out of date
       </message>
       <if expr="use_titlecase">
         <message name="IDS_RUN_RECOVERY" desc="In Title Case: Text for the button the user clicks to recover chromium and its updater.">
-          Update Brave
+          Update Dissenter
         </message>
       </if>
       <if expr="not use_titlecase">
         <message name="IDS_RUN_RECOVERY" desc="Text for the button the user clicks to recover chromium and its updater.">
-          Update Brave
+          Update Dissenter
         </message>
       </if>
       <message name="IDS_RECOVERY_BUBBLE_TEXT" desc="Text for the chrome recovery bubble view full description.">
@@ -924,59 +924,59 @@ Brave is unable to recover your settings.
       </message>
 
       <!-- Critical Notification bubble -->
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. It counts down from # seconds and then Brave automatically restarts.">
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE" desc="The title for a bubble that appears when there is a critical update and Dissenter must restart to install it. It counts down from # seconds and then Dissenter automatically restarts.">
         {SECONDS, plural,
-         =1 {Brave will restart in 1 second}
-         other {Brave will restart in # seconds}}
+         =1 {Dissenter will restart in 1 second}
+         other {Dissenter will restart in # seconds}}
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Brave must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
-        Please restart Brave now
+      <message name="IDS_CRITICAL_NOTIFICATION_TITLE_ALTERNATE" desc="The title for a bubble that appears when there is a critical update and Dissenter must restart to install it. The title was previously countng down to an automatic restart and now it has finished. Will only be seen if a web page stops the shutdown process.">
+        Please restart Dissenter now
       </message>
-      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Brave must restart to install it.">
-        A special security update for Brave was just applied. Restart now and we'll restore your tabs.
+      <message name="IDS_CRITICAL_NOTIFICATION_TEXT" desc="Explanation text for the bubble that appears when there is a critical update and Dissenter must restart to install it.">
+        A special security update for Dissenter was just applied. Restart now and we'll restore your tabs.
       </message>
 
       <!-- Desktop Capture -->
       <message name="IDS_DESKTOP_MEDIA_PICKER_SOURCE_TYPE_TAB" desc="Text for the button on the window picker dialog, clicking which takes one to tab sharing">
-        Brave Tab
+        Dissenter Tab
       </message>
 
       <!-- Plugin Placeholders -->
       <if expr="is_linux">
         <message name="IDS_PLUGIN_RESTART_REQUIRED" desc="The placeholder text for a plugin that can't be loaded until the browser is restarted.">
-          Restart Brave to enable <ph name="PLUGIN_NAME">$1<ex>Flash</ex></ph>
+          Restart Dissenter to enable <ph name="PLUGIN_NAME">$1<ex>Flash</ex></ph>
         </message>
       </if>
 
       <!-- Runtime permission strings -->
       <if expr="is_android">
-        <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Brave is missing the Android camera permission.">
-          Brave needs permission to access your camera for this site
+        <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Dissenter is missing the Android camera permission.">
+          Dissenter needs permission to access your camera for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Brave is missing the Android microphone permission.">
-          Brave needs permission to access your microphone for this site
+        <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Dissenter is missing the Android microphone permission.">
+          Dissenter needs permission to access your microphone for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Brave is missing the Android microphone and camera permissions.">
-          Brave needs permission to access your camera and microphone for this site
+        <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Dissenter is missing the Android microphone and camera permissions.">
+          Dissenter needs permission to access your camera and microphone for this site
         </message>
-        <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Brave is missing the Android location permission.">
-          Brave needs access to your location to share your location with this site
+        <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Dissenter is missing the Android location permission.">
+          Dissenter needs access to your location to share your location with this site
         </message>
-        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Brave is missing the Android storage permission, which is required to download files.">
-          Brave needs storage access to download files
+        <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Dissenter is missing the Android storage permission, which is required to download files.">
+          Dissenter needs storage access to download files
         </message>
       </if>
 
       <if expr="is_macosx">
-        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Brave needs to access a protected resource (e.g., camera, microphone).">
-          Once Brave has access, websites will be able to ask you for access.
+        <message name="IDS_RUNTIME_PERMISSION_OS_REASON_TEXT" desc="Text provided to the macOS permission dialog, explaining why Dissenter needs to access a protected resource (e.g., camera, microphone).">
+          Once Dissenter has access, websites will be able to ask you for access.
         </message>
       </if>
 
       <!-- OOBE -->
       <if expr="chromeos">
         <message name="IDS_INSTALLING_UPDATE" desc="Label shown on the updates installation screen during OOBE">
-          Please wait while Brave installs the latest system updates.
+          Please wait while Dissenter installs the latest system updates.
         </message>
         <message name="IDS_EULA_SCREEN_ACCESSIBLE_TITLE" desc="Title to be spoken on opening the OOBE EULA screen">
           Chrome OS terms
@@ -985,15 +985,15 @@ Brave is unable to recover your settings.
 
       <!-- Welcome page (chrome://welcome) strings -->
       <if expr="not chromeos and not is_android">
-        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run Brave before.">
-          Welcome to Brave
+        <message name="IDS_WELCOME_HEADER" desc="A message which will appear as the header on the Welcome UI if the user has never run Dissenter before.">
+          Welcome to Dissenter
         </message>
       </if>
 
       <!-- Native notifications for Windows 10 -->
       <if expr="is_win">
-        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Brave notification settings.">
-          Go to Brave notification settings
+        <message name="IDS_WIN_NOTIFICATION_SETTINGS_CONTEXT_MENU_ITEM_NAME" desc="The name of the button in Windows Notification Center which leads to Dissenter notification settings.">
+          Go to Dissenter notification settings
         </message>
       </if>
       <!-- Relaunch notification bubble and dialog. -->
@@ -1001,64 +1001,64 @@ Brave is unable to recover your settings.
         <if expr="not chromeos">
           <message name="IDS_RELAUNCH_RECOMMENDED_TITLE" desc="The title of a dialog that tells users that a browser relaunch is recommended for an update available for some number of days.">
             {0, plural,
-              =0 {A Brave update is available}
-              =1 {A Brave update is available}
-              other {A Brave update has been available for # days}}
+              =0 {A Dissenter update is available}
+              =1 {A Dissenter update is available}
+              other {A Dissenter update has been available for # days}}
           </message>
           <message name="IDS_RELAUNCH_RECOMMENDED_BODY" desc="The body text of a dialog that tells users that a browser relaunch is recommended for an update with Private counter.">
              {COUNT, plural,
-              =0 {Your administrator asks that you relaunch Brave to apply this update}
-              =1 {Your administrator asks that you relaunch Brave to apply this update. Your Private window won't reopen.}
-              other {Your administrator asks that you relaunch Brave to apply this update. Your # Private windows won't reopen.}}
+              =0 {Your administrator asks that you relaunch Dissenter to apply this update}
+              =1 {Your administrator asks that you relaunch Dissenter to apply this update. Your Private window won't reopen.}
+              other {Your administrator asks that you relaunch Dissenter to apply this update. Your # Private windows won't reopen.}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_DAYS" desc="The title of a dialog that tells users the browser must be relaunched within two or more days.">
             {0, plural,
-              =1 {Relaunch Brave within a day}
-              other {Relaunch Brave within # days}}
+              =1 {Relaunch Dissenter within a day}
+              other {Relaunch Dissenter within # days}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_HOURS" desc="The title of a dialog that tells users the browser must be relaunched within one or more hours.">
             {0, plural,
-              =1 {Brave will relaunch in an hour}
-              other {Brave will relaunch in # hours}}
+              =1 {Dissenter will relaunch in an hour}
+              other {Dissenter will relaunch in # hours}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_MINUTES" desc="The title of a dialog that tells users the browser must be relaunched within one or more minutes.">
             {0, plural,
-              =1 {Brave will relaunch in 1 minute}
-              other {Brave will relaunch in # minutes}}
+              =1 {Dissenter will relaunch in 1 minute}
+              other {Dissenter will relaunch in # minutes}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_TITLE_SECONDS" desc="The title of a dialog that tells users the browser must be relaunched within some number of seconds.">
             {0, plural,
-              =0 {Brave will relaunch now}
-              =1 {Brave will relaunch in 1 second}
-              other {Brave will relaunch in # seconds}}
+              =0 {Dissenter will relaunch now}
+              =1 {Dissenter will relaunch in 1 second}
+              other {Dissenter will relaunch in # seconds}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_BODY" desc="The body text of a dialog that tells users the browser must be relaunched with Private counter.">
              {COUNT, plural,
-              =0 {Your administrator requires that you relaunch Brave to apply an update}
-              =1 {Your administrator requires that you relaunch Brave to apply an update. Your Private window won't reopen.}
-              other {Your administrator requires that you relaunch Brave to apply an update. Your # Private windows won't reopen.}}
+              =0 {Your administrator requires that you relaunch Dissenter to apply an update}
+              =1 {Your administrator requires that you relaunch Dissenter to apply an update. Your Private window won't reopen.}
+              other {Your administrator requires that you relaunch Dissenter to apply an update. Your # Private windows won't reopen.}}
           </message>
         </if>
       </if>
-      <!-- Brave launch blocking dialog. -->
+      <!-- Dissenter launch blocking dialog. -->
       <if expr="not is_android and not chromeos">
-         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Brave launch blocking dialog for machine level user cloud policy enrollment.">
-          Launching Brave...
+         <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_TOOLTIP" desc="The information message of Dissenter launch blocking dialog for machine level user cloud policy enrollment.">
+          Launching Dissenter...
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Brave launch blocking dialog when machine level user cloud policy enrollment failed.">
-          Couldn't launch Brave. Try again.
+        <message name="IDS_ENTERPRISE_STARTUP_CLOUD_POLICY_ENROLLMENT_ERROR" desc="The error message of Dissenter launch blocking dialog when machine level user cloud policy enrollment failed.">
+          Couldn't launch Dissenter. Try again.
         </message>
-        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Brave launch blocking dialog.">
-          Relaunch Brave
+        <message name="IDS_ENTERPRISE_STARTUP_RELAUNCH_BUTTON" desc="The text of relaunch button of Dissenter launch blocking dialog.">
+          Relaunch Dissenter
         </message>
       </if>
       <message name="IDS_DESKTOP_MEDIA_PICKER_TITLE_WEB_CONTENTS_ONLY" desc="Title for the window picker dialog shown when desktop capture of a tab is requested by an app.">
-        Share a Brave tab
+        Share a Dissenter tab
       </message>
       <!-- User happiness tracking survey UI -->
       <if expr="not is_android">
         <message name="IDS_HATS_BUBBLE_TITLE" translateable="false" desc="The title of Happiness Tracking Survey's invitation banner, it invites users to take a survey">
-          Help us improve Brave
+          Help us improve Dissenter
         </message>
       </if>
     </messages>

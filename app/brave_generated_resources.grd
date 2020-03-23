@@ -121,11 +121,11 @@
   </translations>
   <release seq="1">
     <messages fallback_to_english="true">
-      <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show Brave Rewards menu in the app menu">
-        Brave Rewards
+      <message name="IDS_SHOW_BRAVE_REWARDS" desc="The show Dissenter Rewards menu in the app menu">
+        Dissenter Rewards
       </message>
-      <message name="IDS_SHOW_BRAVE_ADBLOCK" desc="The show Brave Ad Block menu in the app menu">
-        Brave Ad Block
+      <message name="IDS_SHOW_BRAVE_ADBLOCK" desc="The show Extra Block Lists menu in the app menu">
+        Extra Block Lists
       </message>
       <message name="IDS_SHOW_BRAVE_WEBCOMPAT_REPORTER" desc="The menu item to report a broken site in the app menu">
         Report a Broken Site
@@ -133,7 +133,7 @@
       <message name="IDS_SHOW_BRAVE_SYNC" desc="The show brave sync menu in the app menu">
         Sync
       </message>
-      <message name="IDS_SHOW_BRAVE_WALLET" desc="The show Brave Wallet menu item (app menu)">
+      <message name="IDS_SHOW_BRAVE_WALLET" desc="The show Dissenter Wallet menu item (app menu)">
         Crypto Wallets
       </message>
       <message name="IDS_ADD_NEW_PROFILE" desc="The app menu item to create a new User Profile">
@@ -142,8 +142,8 @@
       <message name="IDS_OPEN_GUEST_PROFILE" desc="The app menu item to create a new User Profile">
         Open Guest Window
       </message>
-      <message name="IDS_EXTENSION_CANT_INSTALL_ON_BRAVE" desc="Error message when user tries to install an extension that is not allowed in Brave.">
-        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in Brave.
+      <message name="IDS_EXTENSION_CANT_INSTALL_ON_BRAVE" desc="Error message when user tries to install an extension that is not allowed in Dissenter.">
+        <ph name="EXTENSION_NAME">$1</ph> (extension ID "<ph name="EXTENSION_ID">$2<ex>abacabadabacabaeabacabadabacabaf</ex></ph>") is not allowed in Dissenter.
       </message>
       <!-- Importer Lock Dialog -->
       <message name="IDS_CHROME_IMPORTER_LOCK_TITLE" desc="Dialog title for Chrome importer lock dialog">
@@ -152,11 +152,11 @@
       <message name="IDS_CHROME_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the Chrome importer lock dialog">
 	To finish importing, close all Chrome windows.
       </message>
-      <message name="IDS_BRAVE_IMPORTER_LOCK_TITLE" desc="Dialog title for Brave importer lock dialog">
-	Close Brave (old)
+      <message name="IDS_BRAVE_IMPORTER_LOCK_TITLE" desc="Dialog title for Dissenter importer lock dialog">
+	Close Dissenter (old)
       </message>
-      <message name="IDS_BRAVE_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the Brave importer lock dialog">
-	To finish importing, close all Brave (old) windows.
+      <message name="IDS_BRAVE_IMPORTER_LOCK_TEXT" desc="The message to be displayed in the Dissenter importer lock dialog">
+	To finish importing, close all Dissenter (old) windows.
       </message>
       <message name="IDS_SETTINGS_IMPORT_COOKIES_CHECKBOX" desc="Checkbox for importing cookies">
         Cookies
@@ -165,7 +165,7 @@
         Stats
       </message>
       <message name="IDS_SETTINGS_IMPORT_LEDGER_CHECKBOX" desc="Checkbox for importing ledger">
-        Brave Payments
+        Dissenter Payments
       </message>
       <message name="IDS_SETTINGS_IMPORT_WINDOWS_CHECKBOX" desc="Checkbox for importing open windows and tabs">
         Open windows and tabs
@@ -194,16 +194,16 @@
         </message>
       </if>
       <message name="IDS_WIDEVINE_INSTALL_MESSAGE" desc="Bubble info text when Widevine is not installed. 'Widevine' is the name of a plugin and should not be translated.">
-        Google Widevine is a piece of Digital Rights Management (DRM) code that we at Brave Software do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some Brave users would like to use services that require it.
+        Google Widevine is a piece of Digital Rights Management (DRM) code that we at Gab AI Inc do not own and cannot inspect. The Google Widevine code is loaded from Google servers, not from our servers. It is loaded only when you enable this option. We discourage the use of DRM, but we respect user choice and acknowledge that some Dissenter users would like to use services that require it.
 
-By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that Brave is not responsible for any damages or losses in connection with your use of Google Widevine.
+By installing this extension, you are agreeing to the Google Widevine Terms of Use. You agree that Dissenter is not responsible for any damages or losses in connection with your use of Google Widevine.
       </message>
-      <!-- Brave Importer -->
-      <message name="IDS_IMPORT_FROM_BRAVE" desc="browser combo box: Brave">
-        Brave (old)
+      <!-- Dissenter Importer -->
+      <message name="IDS_IMPORT_FROM_BRAVE" desc="browser combo box: Dissenter">
+        Dissenter (old)
       </message>
-      <message name="IDS_BOOKMARK_GROUP_FROM_BRAVE" desc="The group name of bookmarks from Brave">
-        Imported From Brave
+      <message name="IDS_BOOKMARK_GROUP_FROM_BRAVE" desc="The group name of bookmarks from Dissenter">
+        Imported From Dissenter
       </message>
       <!-- Autoplay -->
       <message name="IDS_AUTOPLAY_PERMISSION_FRAGMENT" desc="Permission request shown if the user is visiting a site that wants to autoplay media. Follows a prompt: 'This site would like to:'">
@@ -228,8 +228,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Continue blocking autoplay
       </message>
       <!-- Extensions -->
-      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Brave. Asks the user if they want to install a particular extension or app.">
-        Brave has not reviewed this extension for security and safety. Only install this extension if you trust the developer.
+      <message name="IDS_UNVETTED_EXTENSION_INSTALL_PROMPT_TITLE" desc="Titlebar of the extension or app installation prompt which was not vetted by Dissenter. Asks the user if they want to install a particular extension or app.">
+        Dissenter has not reviewed this extension for security and safety. Only install this extension if you trust the developer.
       </message>
       <!-- Settings / Get Started -->
       <message name="IDS_SETTINGS_BRAVE_EDIT_PROFILE" desc="Title to edit the profile user name and picture">
@@ -237,16 +237,16 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <!-- Appearance -->
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_BRAVE_THEMES" desc="The label for brave theme change setting options">
-        Brave colors
+        Dissenter colors
       </message>
       <message name="IDS_SETTINGS_APPEARANCE_SETTINGS_LOCATION_BAR_IS_WIDE" desc="The label for whether the location bar should display wide or not">
         Use wide address bar
       </message>
-      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of Brave Rewards button">
-        Hide Brave Rewards button
+      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_LABEL" desc="The label for settings switch controlling the visibility of Dissenter Rewards button">
+        Hide Dissenter Rewards button
       </message>
-      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_DESC" desc="The description for settings switch controlling the visibility of Brave Rewards button">
-        Hides the Brave Rewards button in the location bar when Brave Rewards is not enabled
+      <message name="IDS_SETTINGS_HIDE_BRAVE_REWARDS_BUTTON_DESC" desc="The description for settings switch controlling the visibility of Dissenter Rewards button">
+        Hides the Dissenter Rewards button in the location bar when Dissenter Rewards is not enabled
       </message>
       <message name="IDS_SETTINGS_ALWAYS_SHOW_BOOKMARK_BAR_ON_NTP" desc="The label for settings switch controlling the visibility of bookmarks bar on NTP">
         Always show bookmarks on New Tab page
@@ -278,7 +278,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open Link in Private Window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="Title case: The name of the open a link in private window with Tor command">
-          Open Link in Brave Private Window with Tor
+          Open Link in Dissenter Private Window with Tor
         </message>
       </if>
       <if expr="not use_titlecase">
@@ -289,7 +289,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Open link in private window with Tor
         </message>
         <message name="IDS_CONTENT_CONTEXT_OPENLINKTOR_INAPP" desc="The name of the open a link in private window with Tor command">
-          Open link in Brave private window with Tor
+          Open link in Dissenter private window with Tor
         </message>
       </if>
       <message name="IDS_PROFILES_TOR_PROFILE_NAME" desc="Name of the Tor profile.">
@@ -310,47 +310,47 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_BRAVE_ADDITIONAL_SETTINGS" desc="The title for a group of settings which are more advanced">
         Additional settings
       </message>
-      <!-- Brave Shields  -->
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for Brave shields section in settings">
+      <!-- Dissenter Shields  -->
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_TITLE" desc="The title for Dissenter shields section in settings">
         Shields
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for Brave shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_TITLE" desc="The title for Dissenter shields Defaults sub-section in settings">
         Block trackers and ads which follow you across the web.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for Brave shields Defaults sub-section in settings">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_1" desc="The description for Dissenter shields Defaults sub-section in settings">
         These are the default Shields settings. They apply to all websites unless you change something in the Shields panel on a particular site. Changing these won't affect your existing per-site settings.
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The partial description for Brave shields Defaults sub-section in settings. The sentence is completed with `Brave rewards settings`">
-        This will block most ads on websites, not Brave private ads — those are controlled in the
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_2" desc="The partial description for Dissenter shields Defaults sub-section in settings. The sentence is completed with `Dissenter rewards settings`">
+        This will block most ads on websites, not Dissenter private ads — those are controlled in the
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_3" desc="The partial description for Brave shields Defaults sub-section in settings. Partial of `This will block most ads on websites, not Brave private ads — those are controlled in the Brave Rewards (settings)`">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DESCRIPTION_3" desc="The partial description for Dissenter shields Defaults sub-section in settings. Partial of `This will block most ads on websites, not Dissenter private ads — those are controlled in the Dissenter Rewards (settings)`">
         settings.
       </message>
       <message name="IDS_SETTINGS_SOCIAL_BLOCKING_DEFAULTS_TITLE" desc="The title the settings section which has options for blocking third-party embeds, commonly from social media sites">
         Social media blocking
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default Brave view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_DEFAULT_VIEW_LABEL" desc="Default Dissenter view title label">
         Default view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default Brave simple view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_SIMPLE_VIEW_LABEL" desc="Default Dissenter simple view title label">
         Simple view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default Brave advanced view title label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_DEFAULTS_ADVANCED_VIEW_LABEL" desc="Default Dissenter advanced view title label">
         Advanced view
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default Brave block cross-site trackers control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_AD_CONTROL_LABEL" desc="Default Dissenter block cross-site trackers control setting label">
         Block cross-site trackers
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default Brave cookies control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_COOKIE_CONTROL_LABEL" desc="Default Dissenter cookies control setting label">
         Cookies
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default Brave device recognition control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_FINGERPRINTING_CONTROL_LABEL" desc="Default Dissenter device recognition control setting label">
         Device recognition
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default Brave upgrade connections to HTTPS control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_HTTPS_EVERYWHERE_CONTROL_LABEL" desc="Default Dissenter upgrade connections to HTTPS control setting label">
         Upgrade connections to HTTPS
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default Brave script blocking control setting label">
+      <message name="IDS_SETTINGS_BRAVE_SHIELDS_NO_SCRIPT_CONTROL_LABEL" desc="Default Dissenter script blocking control setting label">
         Block scripts
       </message>
       <message name="IDS_SETTINGS_BRAVE_SHIELDS_GOOGLE_LOGINS_LABEL" desc="Label for a switch control which allows Google logins">
@@ -410,21 +410,21 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_SETTINGS_REMOTE_DEBUGGING_TITLE" desc="Select value">
         Remote debugging
       </message>
-      <!-- Brave Sync Settings -->
-      <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for Brave Sync in settings">
+      <!-- Dissenter Sync Settings -->
+      <message name="IDS_SETTINGS_BRAVE_SYNC_TITLE" desc="The title for Dissenter Sync in settings">
         Sync
       </message>
-      <message name="IDS_SETTINGS_BRAVE_SYNC_LINK_LABEL" desc="Brave Sync link label">
+      <message name="IDS_SETTINGS_BRAVE_SYNC_LINK_LABEL" desc="Dissenter Sync link label">
         Access Sync via
       </message>
       <!-- Help Tips Page -->
-      <message name="IDS_SETTINGS_HELP_TIPS" desc="Title for an item in the 'Help Tips' section of Brave Settings">
+      <message name="IDS_SETTINGS_HELP_TIPS" desc="Title for an item in the 'Help Tips' section of Dissenter Settings">
         Help Tips
       </message>
       <message name="IDS_SETTINGS_HELP_TIPS_SHOW_BRAVE_WAYBACK_MACHINE_PROMPT" desc="The label describing the 'wayback machine' toggle option">
         Show Wayback Machine prompt on 404 pages
       </message>
-      <!-- Brave Theme -->
+      <!-- Dissenter Theme -->
       <message name="IDS_BRAVE_THEME_TYPE_LIGHT" desc="Text for light theme type">
         Light
       </message>
@@ -452,8 +452,8 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
           Report a Broken Site
         </message>
       </if>
-      <!-- Brave Default Extensions -->
-      <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for Brave default extensions in settings">
+      <!-- Dissenter Default Extensions -->
+      <message name="IDS_SETTINGS_BRAVE_DEFAULT_EXTENSIONS_TITLE" desc="The title for Dissenter default extensions in settings">
         Extensions
       </message>
       <message name="IDS_SETTINGS_WEBTORRENT_ENABLED_DESC" desc="The description for WebTorrent switch in settings">
@@ -471,7 +471,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_WALLET_WEB3_PROVIDER_METAMASK" desc="Select control value for which web3 provider to use">
         MetaMask
       </message>
-      <message name="IDS_SETTINGS_BRAVE_WEB3_PROVIDER_DESC" desc="The description for Brave web3 provider select control in settings">
+      <message name="IDS_SETTINGS_BRAVE_WEB3_PROVIDER_DESC" desc="The description for Dissenter web3 provider select control in settings">
         Web3 provider for using Dapps
       </message>
      <message name="IDS_SETTINGS_HANGOUTS_ENABLED_DESC" desc="The description for Hangouts switch in settings">
@@ -480,10 +480,10 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
      <message name="IDS_SETTINGS_MEDIA_ROUTER_ENABLED_DESC" desc="The description for Media Router switch in settings">
         Uses Media Router component to enable Chromecast in the browser.
       </message>
-     <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Brave">
-        Your changes will take effect the next time you relaunch Brave.
+     <message name="IDS_SETTINGS_RESTART_NOTICE" desc="Notifies the user that they need to relaunch Dissenter">
+        Your changes will take effect the next time you relaunch Dissenter.
       </message>
-     <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Brave">
+     <message name="IDS_SETTINGS_RELAUNCH_BUTTON_LABEL" desc="Notifies the user that they need to relaunch Dissenter">
         Relaunch Now
       </message>
      <message name="IDS_SETTINGS_IPFS_COMPANION_ENABLED_DESC" desc="The description for IPFS companion switch in settings">
@@ -502,7 +502,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_EXTENSIONS_BRAVE_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Web Extensions Store.">
         View in Web Extensions Store
       </message>
-      <!-- Brave Clear Browsing Data On Exit Settings -->
+      <!-- Dissenter Clear Browsing Data On Exit Settings -->
       <message name="IDS_SETTINGS_BRAVE_ON_EXIT" desc="Clear Browsing Data dialog On exit tab label">
         On exit
       </message>
@@ -524,20 +524,20 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <!-- App shortcuts -->
       <if expr="not is_win">
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_NIGHTLY" desc="Name for the Brave Apps Start Menu folder name.">
-          Brave Browser Nightly Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_NIGHTLY" desc="Name for the Dissenter Apps Start Menu folder name.">
+          Dissenter Browser Nightly Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_BETA" desc="Name for the Brave Apps Start Menu folder name.">
-          Brave Browser Beta Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_BETA" desc="Name for the Dissenter Apps Start Menu folder name.">
+          Dissenter Browser Beta Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEV" desc="Name for the Brave Apps Start Menu folder name.">
-          Brave Browser Dev Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEV" desc="Name for the Dissenter Apps Start Menu folder name.">
+          Dissenter Browser Dev Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_STABLE" desc="Name for the Brave Apps Start Menu folder name.">
-          Brave Browser Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_STABLE" desc="Name for the Dissenter Apps Start Menu folder name.">
+          Dissenter Browser Apps
         </message>
-        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEVELOPMENT" desc="Name for the Brave Apps Start Menu folder name.">
-          Brave Browser Development Apps
+        <message name="IDS_APP_SHORTCUTS_SUBDIR_NAME_BRAVE_DEVELOPMENT" desc="Name for the Dissenter Apps Start Menu folder name.">
+          Dissenter Browser Development Apps
         </message>
       </if>
       <!-- Avatars. Generated via zsh and node:
@@ -551,7 +551,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </message>
       <if expr="not is_android">
         <message name="IDS_BRAVE_AVATAR_LABEL_56" desc="The label for the avatar_edgy_brave.png avatar.">
-            Avatar Edgy Brave
+            Avatar Edgy Dissenter
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_57" desc="The label for the avatar_edgy_ocean.png avatar.">
             Avatar Edgy Ocean
@@ -572,7 +572,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Paladin Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_63" desc="The label for the avatar_paladin_brave.png avatar.">
-            Avatar Paladin Brave
+            Avatar Paladin Dissenter
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_64" desc="The label for the avatar_paladin_ocean.png avatar.">
             Avatar Paladin Ocean
@@ -593,7 +593,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Gleam Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_70" desc="The label for the avatar_gleam_brave.png avatar.">
-            Avatar Gleam Brave
+            Avatar Gleam Dissenter
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_71" desc="The label for the avatar_gleam_ocean.png avatar.">
             Avatar Gleam Ocean
@@ -614,7 +614,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Oval Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_77" desc="The label for the avatar_oval_brave.png avatar.">
-            Avatar Oval Brave
+            Avatar Oval Dissenter
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_78" desc="The label for the avatar_oval_ocean.png avatar.">
             Avatar Oval Ocean
@@ -635,7 +635,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
             Avatar Bonbon Rewards
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_84" desc="The label for the avatar_bonbon_brave.png avatar.">
-            Avatar Bonbon Brave
+            Avatar Bonbon Dissenter
         </message>
         <message name="IDS_BRAVE_AVATAR_LABEL_85" desc="The label for the avatar_bonbon_ocean.png avatar.">
             Avatar Bonbon Ocean
@@ -655,7 +655,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       </if>
       <!-- P3A -->
       <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR" desc="Text that shows on the info bar where user acknowledges the P3A message">
-        Brave uses completely private product analytics to estimate the overall usage of certain features
+        Dissenter uses completely private product analytics to estimate the overall usage of certain features
       </message>
       <message name="IDS_BRAVE_CONFIRM_P3A_INFO_BAR_ACKNOWLEDGE" desc="OK button that shows on the info bar where user acknowledges the P3A message">
         Got it
@@ -664,14 +664,14 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Disable
       </message>
       <message name="IDS_BRAVE_P3A_ENABLE_SETTING" desc="Description that shows in settings for toggling P3A">
-        Automatically send completely private product analytics to Brave
+        Automatically send completely private product analytics to Dissenter
       </message>
       <message name="IDS_BRAVE_P3A_ENABLE_SETTING_SUBITEM" desc="Description that shows under main toggle setting for P3A">
-        This anonymous info only lets Brave estimate the overall usage of certain features.
+        This anonymous info only lets Dissenter estimate the overall usage of certain features.
       </message>
       <!-- Web3 detection -->
       <message name="IDS_BRAVE_CRYPTO_WALLETS_METAMASK_INFOBAR_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
-        Would you like to use Brave's Crypto Wallets or MetaMask for Dapps?
+        Would you like to use Dissenter's Crypto Wallets or MetaMask for Dapps?
       </message>
       <message name="IDS_BRAVE_CRYPTO_WALLETS_INFOBAR_TEXT" desc="Text that shows on the info bar when a Dapp is detected">
         Set up Crypto Wallets to interact with this app and others like it.
@@ -685,7 +685,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_CRYPTO_WALLETS_SETUP" desc="Use Crypto Wallets">
         SETUP
       </message>
-      <!-- Brave Wayback Machine -->
+      <!-- Dissenter Wayback Machine -->
       <message name="IDS_BRAVE_WAYBACK_MACHINE_INFOBAR_PAGE_MISSING_TEXT" desc="The label for sorry message when page is not available on infobar">
         Sorry, that page is missing.
       </message>
@@ -698,9 +698,9 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
       <message name="IDS_BRAVE_WAYBACK_MACHINE_CHECK_BUTTON_TEXT" desc="The label for check button on wayback infobar">
         Check for saved version
       </message>
-      <!-- Brave's copyright statement -->
+      <!-- Dissenter's copyright statement -->
       <message name="IDS_BRAVE_VERSION_UI_LICENSE" desc="The label below the copyright message, containing the URLs.">
-        Brave is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
+        Dissenter is made available to you under the <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla Public License 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) and includes <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>open source software<ph name="END_LINK_OSS">&lt;/a&gt;</ph> under a variety of other licenses.
         You can read <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>instructions on how to download and build for yourself<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> the specific <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>source code used to create this copy<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph>.
       </message>
       <if expr="not use_titlecase">
@@ -720,7 +720,7 @@ By installing this extension, you are agreeing to the Google Widevine Terms of U
         Full Disk Access required
       </message>
       <message name="IDS_FULL_DISK_ACCESS_CONFIRM_DIALOG_MESSAGE" desc="The label for full disk access dialog message">
-        Brave needs Full Disk Access to import your Bookmarks from Safari.
+        Dissenter needs Full Disk Access to import your Bookmarks from Safari.
       </message>
       <message name="IDS_FULL_DISK_ACCESS_CONFIRM_DIALOG_LINK_TEXT" desc="The label for full disk access dialog link text">
         Learn how to grant Full Disk Access from your System Preferences.

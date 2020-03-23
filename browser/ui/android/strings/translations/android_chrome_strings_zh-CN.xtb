@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">权限请求</translation>
 <translation id="3749259744154402564">不支持</translation>
 <translation id="629730747756840877">帐号</translation>
-<translation id="82609232232243542">登录 Brave</translation>
-<translation id="7956662517480676674">同步功能和 Brave Software 服务</translation>
-<translation id="5294439808117722387">您正在自定义您的“同步功能和 Brave Software 服务”设置。要完成开启同步功能的操作，请点按屏幕底部附近的“确认”按钮。转到上一层级</translation>
+<translation id="82609232232243542">登录 Dissenter</translation>
+<translation id="7956662517480676674">同步功能和 Gab AI Inc 服务</translation>
+<translation id="5294439808117722387">您正在自定义您的“同步功能和 Gab AI Inc 服务”设置。要完成开启同步功能的操作，请点按屏幕底部附近的“确认”按钮。转到上一层级</translation>
 <translation id="2096012225669085171">在所有设备上保持同步并进行个性化设置</translation>
 <translation id="1692118695553449118">同步功能已开启</translation>
 <translation id="5514904542973294328">已被此设备的管理员停用</translation>
-<translation id="6447211988989208781">Brave Software 活动控件</translation>
-<translation id="4882831918239250449">控制 Brave Software 如何利用您的浏览记录为您提供个性化的搜索、广告和其他服务</translation>
-<translation id="7431991332293347422">控制 Brave Software 如何利用您的浏览记录为您提供个性化的 Brave Software 搜索和其他 Brave Software 服务</translation>
+<translation id="6447211988989208781">Gab AI Inc 活动控件</translation>
+<translation id="4882831918239250449">控制 Gab AI Inc 如何利用您的浏览记录为您提供个性化的搜索、广告和其他服务</translation>
+<translation id="7431991332293347422">控制 Gab AI Inc 如何利用您的浏览记录为您提供个性化的 Gab AI Inc 搜索和其他 Gab AI Inc 服务</translation>
 <translation id="6303969859164067831">退出帐号并关闭同步功能</translation>
-<translation id="1125261911132334651">管理您的 Brave Software 帐号</translation>
+<translation id="1125261911132334651">管理您的 Gab AI Inc 帐号</translation>
 <translation id="6406506848690869874">同步</translation>
-<translation id="714362445477979774">同步 Brave 数据</translation>
+<translation id="714362445477979774">同步 Dissenter 数据</translation>
 <translation id="4314815835985389558">管理同步数据</translation>
-<translation id="5428209950370661546">其他 Brave Software 服务</translation>
+<translation id="5428209950370661546">其他 Gab AI Inc 服务</translation>
 <translation id="7704317875155739195">自动填充搜索字词和网址</translation>
 <translation id="2000419248597011803">将一些 Cookie 以及地址栏和搜索框中的搜索字词发送给您的默认搜索引擎</translation>
 <translation id="7981313251711023384">预加载网页，以便实现更快速的浏览和搜索</translation>
 <translation id="1821253160463689938">使用 Cookie 记住您的偏好设置（即使您不访问这些网页）</translation>
 <translation id="6697492270171225480">找不到相应网页时，显示有关类似网页的建议</translation>
-<translation id="8109318360573330108">将您尝试访问的网页的网址发送给 Brave Software</translation>
+<translation id="8109318360573330108">将您尝试访问的网页的网址发送给 Gab AI Inc</translation>
 <translation id="8438566539970814960">改善搜索和浏览体验</translation>
-<translation id="284843628681142937">将您所访问的网页的网址发送给 Brave Software</translation>
-<translation id="7222718784508482526">若想了解更多与隐私、安全和数据收集相关的设置，请参阅<ph name="BEGIN_LINK"/>同步功能和 Brave Software 服务<ph name="END_LINK"/></translation>
-<translation id="918192811481327695">帮助我们改进 Brave 的功能和性能</translation>
-<translation id="9063160602596686558">自动将使用情况统计信息和崩溃报告发送至 Brave Software</translation>
+<translation id="284843628681142937">将您所访问的网页的网址发送给 Gab AI Inc</translation>
+<translation id="7222718784508482526">若想了解更多与隐私、安全和数据收集相关的设置，请参阅<ph name="BEGIN_LINK"/>同步功能和 Gab AI Inc 服务<ph name="END_LINK"/></translation>
+<translation id="918192811481327695">帮助我们改进 Dissenter 的功能和性能</translation>
+<translation id="9063160602596686558">自动将使用情况统计信息和崩溃报告发送至 Gab AI Inc</translation>
 <translation id="4824958205181053313">取消同步？</translation>
 <translation id="3058498974290601450">您随时可在“设置”中开启同步功能</translation>
 <translation id="3143515551205905069">取消同步</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">卡号</translation>
 <translation id="869891660844655955">截止日期</translation>
 <translation id="2286841657746966508">帐单邮寄地址</translation>
-<translation id="663059986967017181">已复制到 Brave</translation>
+<translation id="663059986967017181">已复制到 Dissenter</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/> 种付款方式}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/> 种付款方式}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/> 个地址}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/> 个地址}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> 种送货方式}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026以及另外 <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/> 种送货方式}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">自动登录</translation>
 <translation id="363596933471559332">使用存储的凭据自动登录网站。当该功能处于停用状态时，您每次都要通过验证才能登录网站。</translation>
 <translation id="6995899638241819463">在密码遭遇数据泄露时，向您发出警告</translation>
-<translation id="1534287762301776620">当您登录自己的 Brave Software 帐号后，系统即会启用此功能</translation>
+<translation id="1534287762301776620">当您登录自己的 Gab AI Inc 帐号后，系统即会启用此功能</translation>
 <translation id="10614374240317010">一律不保存</translation>
-<translation id="3098842761938485917">查看和管理您的 <ph name="BEGIN_LINK"/>Brave Software 帐号<ph name="END_LINK"/>中保存的密码</translation>
+<translation id="3098842761938485917">查看和管理您的 <ph name="BEGIN_LINK"/>Gab AI Inc 帐号<ph name="END_LINK"/>中保存的密码</translation>
 <translation id="8562452229998620586">已保存的密码将显示在这里。</translation>
 <translation id="8084114998886531721">保存的密码</translation>
 <translation id="2870560284913253234">网站</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">需在“设置”部分中开启屏幕锁定功能，才能从此设备中导出您的密码</translation>
 <translation id="4842092870884894799">目前显示的是密码生成弹出式窗口</translation>
 <translation id="2259659629660284697">导出密码…</translation>
-<translation id="133012818630824069">导出存储在 Brave 中的密码</translation>
+<translation id="133012818630824069">导出存储在 Dissenter 中的密码</translation>
 <translation id="6914783257214138813">所有能查看此导出文件的人员都能看到您的密码。</translation>
 <translation id="2321086116217818302">正在准备密码…</translation>
 <translation id="8445448999790540984">无法导出密码</translation>
-<translation id="3066461326500799725">了解如何使用 Brave Software 云端硬盘</translation>
+<translation id="3066461326500799725">了解如何使用 Gab AI Inc 云端硬盘</translation>
 <translation id="729975465115245577">您的设备上没有可以存储密码文件的应用。</translation>
 <translation id="7682724950699840886">请尝试按以下提示操作：确保您的设备上有足够的空间，然后重新尝试导出。</translation>
 <translation id="1129510026454351943">错误详情：<ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">需解锁才能复制您的密码</translation>
 <translation id="5515439363601853141">需解锁才能查看您的密码</translation>
 <translation id="6221633008163990886">需解锁才能导出您的密码</translation>
-<translation id="230699814587342492">Brave 密码</translation>
+<translation id="230699814587342492">Dissenter 密码</translation>
 <translation id="6075798973483050474">修改主页</translation>
 <translation id="854522910157234410">打开此网页</translation>
 <translation id="2482878487686419369">通知</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">在设备开启深色主题背景或省电模式时启用深色主题背景</translation>
 <translation id="6381421346744604172">调暗网站颜色</translation>
 <translation id="5040262127954254034">隐私设置</translation>
-<translation id="4991384657077828949">帮助我们改善 Brave 安全性</translation>
-<translation id="1943176487615318915">为了检测危险应用和网站，Brave 会将您所访问的部分网页的网址、有限的系统信息以及部分网页内容发送给 Brave Software</translation>
+<translation id="4991384657077828949">帮助我们改善 Dissenter 安全性</translation>
+<translation id="1943176487615318915">为了检测危险应用和网站，Dissenter 会将您所访问的部分网页的网址、有限的系统信息以及部分网页内容发送给 Gab AI Inc</translation>
 <translation id="3181954750937456830">安全浏览（保护您和您的设备不受危险网站的侵害）</translation>
-<translation id="7315322926489145388">当您面临安全风险时，将您所访问的部分网页的网址发送给 Brave Software</translation>
+<translation id="7315322926489145388">当您面临安全风险时，将您所访问的部分网页的网址发送给 Gab AI Inc</translation>
 <translation id="2063713494490388661">点按搜索</translation>
-<translation id="2369463299479365221">无需离开所在页面，便可了解网站上的主题。“点按搜索”功能会将所选字词及上下文一起发送给 Brave Software 搜索，后者即会据此返回相应的定义、图片、搜索结果及其他详情。
+<translation id="2369463299479365221">无需离开所在页面，便可了解网站上的主题。“点按搜索”功能会将所选字词及上下文一起发送给 Gab AI Inc 搜索，后者即会据此返回相应的定义、图片、搜索结果及其他详情。
 
 要调整您的搜索字词，长按即可选中所需内容。要缩小您的搜索范围，请向上滑动到面板顶部，然后点按搜索框。</translation>
-<translation id="2930742481329940825">“点按搜索”功能会将所选字词和当前页面（作为上下文）一起发送给 Brave Software 搜索。您可在<ph name="BEGIN_LINK"/>设置<ph name="END_LINK"/>中关闭该功能。</translation>
+<translation id="2930742481329940825">“点按搜索”功能会将所选字词和当前页面（作为上下文）一起发送给 Gab AI Inc 搜索。您可在<ph name="BEGIN_LINK"/>设置<ph name="END_LINK"/>中关闭该功能。</translation>
 <translation id="5039804452771397117">允许</translation>
 <translation id="1406000523432664303">“不跟踪”</translation>
 <translation id="6232535412751077445">如果您启用了“不跟踪”，您的浏览流量中将会包含一项请求。具体影响取决于网站是否会回应该请求以及如何解读该请求。
@@ -197,18 +197,18 @@
 <translation id="7359002509206457351">查询付款方式</translation>
 <translation id="8026334261755873520">清除浏览数据</translation>
 <translation id="1291207594882862231">清除历史记录、Cookie、网站数据、缓存内容…</translation>
-<translation id="7814200940910057384">已清除 Brave 数据</translation>
-<translation id="1664855196866195614">所选数据已从 Brave 和同步的设备中移除。
+<translation id="7814200940910057384">已清除 Dissenter 数据</translation>
+<translation id="1664855196866195614">所选数据已从 Dissenter 和同步的设备中移除。
 
-不过，您的 Brave Software 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能还有其他形式的浏览记录（例如，在其他 Brave Software 服务中的搜索记录和活动记录）。</translation>
+不过，您的 Gab AI Inc 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能还有其他形式的浏览记录（例如，在其他 Gab AI Inc 服务中的搜索记录和活动记录）。</translation>
 <translation id="4699172675775169585">缓存的图片和文件</translation>
 <translation id="2496180316473517155">浏览记录</translation>
 <translation id="2546283357679194313">Cookie 和网站数据</translation>
 <translation id="8662811608048051533">您会从大多数网站退出。</translation>
-<translation id="8218628800671693884">您会从大多数网站退出，但不会退出自己的 Brave Software 帐号。</translation>
+<translation id="8218628800671693884">您会从大多数网站退出，但不会退出自己的 Gab AI Inc 帐号。</translation>
 <translation id="2017836877785168846">清除历史记录和地址栏中的自动填充项。</translation>
-<translation id="8096327394278038498">清除历史记录和地址栏中的自动填充项。您的 Brave Software 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
-<translation id="8122693181154564064">清除所有登录过的设备上的历史记录。您的 Brave Software 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
+<translation id="8096327394278038498">清除历史记录和地址栏中的自动填充项。您的 Gab AI Inc 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
+<translation id="8122693181154564064">清除所有登录过的设备上的历史记录。您的 Gab AI Inc 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
 <translation id="5869522115854928033">已保存的密码</translation>
 <translation id="6865313869410766144">自动填充表单数据</translation>
 <translation id="7562080006725997899">正在清除浏览数据</translation>
@@ -225,7 +225,7 @@
 <translation id="6643016212128521049">清除</translation>
 <translation id="7641339528570811325">清除浏览数据…</translation>
 <translation id="1670399744444387456">基本</translation>
-<translation id="3245261285041759672">您的 Brave Software 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
+<translation id="3245261285041759672">您的 Gab AI Inc 帐号在 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 上可能有其他形式的浏览记录。</translation>
 <translation id="7274013316676448362">禁止访问的网站</translation>
 <translation id="2534155362429831547">删除了 <ph name="NUMBER_OF_ITEMS"/> 项</translation>
 <translation id="6981982820502123353">无障碍</translation>
@@ -335,12 +335,12 @@
 <translation id="8156139159503939589">您能看懂哪些语言？</translation>
 <translation id="5689516760719285838">位置信息</translation>
 <translation id="2440823041667407902">位置信息使用权</translation>
-<translation id="2023546461831060654">在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中为 Brave 启用这些权限。</translation>
-<translation id="6665548517310046133">在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中为 Brave 启用这项权限。</translation>
-<translation id="2928908108430545745">要让 Brave 访问您的位置信息，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启位置信息服务。</translation>
-<translation id="1028853271388022585">要让 Brave 使用您的摄像头，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启摄像头。</translation>
-<translation id="2913721282607281710">要让 Brave 向您发送通知，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启通知。</translation>
-<translation id="8753483718490035722">要让 Brave 使用您的麦克风，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启麦克风。</translation>
+<translation id="2023546461831060654">在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中为 Dissenter 启用这些权限。</translation>
+<translation id="6665548517310046133">在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中为 Dissenter 启用这项权限。</translation>
+<translation id="2928908108430545745">要让 Dissenter 访问您的位置信息，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启位置信息服务。</translation>
+<translation id="1028853271388022585">要让 Dissenter 使用您的摄像头，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启摄像头。</translation>
+<translation id="2913721282607281710">要让 Dissenter 向您发送通知，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启通知。</translation>
+<translation id="8753483718490035722">要让 Dissenter 使用您的麦克风，您还需要在 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>中开启麦克风。</translation>
 <translation id="1887786770086287077">此设备的位置信息使用权已关闭；若想开启这项权限，请转到 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>。</translation>
 <translation id="2570922361219980984">此设备的位置信息使用权也已关闭；若想开启这项权限，请转到 <ph name="BEGIN_LINK"/>Android 设置<ph name="END_LINK"/>。</translation>
 <translation id="1620510694547887537">摄像头</translation>
@@ -358,8 +358,8 @@
 <translation id="7821588508402923572">您的数据流量节省情况将显示在这里</translation>
 <translation id="2131665479022868825">节省了 <ph name="DATA"/></translation>
 <translation id="8569404424186215731">自 <ph name="DATE"/>以来</translation>
-<translation id="3252158532344029638">在精简模式下，Brave 可更快速地加载网页，并可节省多达百分之 60 的流量。</translation>
-<translation id="1438581767753657407">启用精简模式后，Brave 使用 Brave 服务器来提高页面加载速度。精简模式重写非常慢的页面以仅加载基本内容。精简模式不适用于私有标签页。</translation>
+<translation id="3252158532344029638">在精简模式下，Dissenter 可更快速地加载网页，并可节省多达百分之 60 的流量。</translation>
+<translation id="1438581767753657407">启用精简模式后，Dissenter 使用 Dissenter 服务器来提高页面加载速度。精简模式重写非常慢的页面以仅加载基本内容。精简模式不适用于私有标签页。</translation>
 <translation id="6159335304067198720">节省 <ph name="PERCENT"/> 的数据流量</translation>
 <translation id="7494974237137038751">已节省的流量</translation>
 <translation id="6111020039983847643">已耗用的流量</translation>
@@ -381,15 +381,15 @@
 <translation id="1856325424225101786">重置精简模式？</translation>
 <translation id="3658159451045945436">这项重置操作会清空流量节省情况历史记录，包括曾访问过的网站的列表。</translation>
 <translation id="3295530008794733555">浏览速度更快。耗用的流量更少。</translation>
-<translation id="7340390500800578919">在精简模式下，Brave 可更快速地加载网页，并可节省多达 60% 的流量。为了优化您访问的网页，Brave 会将您的网络流量数据发送给 Brave Software。<ph name="BEGIN_LINK"/>了解详情<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">在精简模式下，Dissenter 可更快速地加载网页，并可节省多达 60% 的流量。为了优化您访问的网页，Dissenter 会将您的网络流量数据发送给 Gab AI Inc。<ph name="BEGIN_LINK"/>了解详情<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">开启精简模式</translation>
 <translation id="4493497663118223949">精简模式已开启</translation>
 <translation id="7559975015014302720">精简模式已关闭</translation>
 <translation id="7606077192958116810">精简模式已开启。在“设置”中管理此模式。</translation>
 <translation id="4714588616299687897">最多可为您节省 60% 的数据流量</translation>
-<translation id="1006927014032731288">Brave Software 服务器会优化您访问的网页。</translation>
-<translation id="3257320067425202300">Brave 已为您保存的数据量：<ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">Brave 已为您保存的数据量：<ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">Gab AI Inc 服务器会优化您访问的网页。</translation>
+<translation id="3257320067425202300">Dissenter 已为您保存的数据量：<ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">Dissenter 已为您保存的数据量：<ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">下载内容保存位置</translation>
 <translation id="7077143737582773186">SD 卡</translation>
 <translation id="7762668264895820836">SD 卡 <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@
 <translation id="7290209999329137901">不可重命名</translation>
 <translation id="3334729583274622784">更改文件扩展名？</translation>
 <translation id="107147699690128016">如果您更改文件扩展名，此文件可能会在另一应用中打开并对您的设备造成危害。</translation>
-<translation id="8541922081612557424">关于 Brave</translation>
-<translation id="5311273890481188673">版权所有 <ph name="YEAR"/> Brave Software LLC. 保留所有权利。</translation>
+<translation id="8541922081612557424">关于 Dissenter</translation>
+<translation id="5311273890481188673">版权所有 <ph name="YEAR"/> Gab AI Inc LLC. 保留所有权利。</translation>
 <translation id="1416550906796893042">应用版本</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/>（上次更新时间：<ph name="TIME_SINCE_UPDATE"/>）</translation>
 <translation id="7596558890252710462">操作系统</translation>
-<translation id="3968054912784331254">此版本的 Android 不再支持 Brave 更新</translation>
+<translation id="3968054912784331254">此版本的 Android 不再支持 Dissenter 更新</translation>
 <translation id="7665369617277396874">添加帐号</translation>
-<translation id="649070405679044769">已使用以下帐号登录 Brave Software：</translation>
-<translation id="6234515504547364178">退出 Brave</translation>
+<translation id="649070405679044769">已使用以下帐号登录 Gab AI Inc：</translation>
+<translation id="6234515504547364178">退出 Dissenter</translation>
 <translation id="5324858694974489420">家长设置</translation>
 <translation id="8920114477895755567">正在等待获取家长的详细信息。</translation>
 <translation id="5512137114520586844">该帐号由 <ph name="PARENT_NAME"/> 管理。</translation>
@@ -432,7 +432,7 @@
 <translation id="5403644198645076998">只允许访问某些网站</translation>
 <translation id="8641930654639604085">尽量屏蔽成人网站</translation>
 <translation id="5639724618331995626">允许访问所有网站</translation>
-<translation id="796823723482603597">由 Brave 提供支持</translation>
+<translation id="796823723482603597">由 Dissenter 提供支持</translation>
 <translation id="6324034347079777476">Android 系统同步功能已停用</translation>
 <translation id="5127805178023152808">同步功能已关闭</translation>
 <translation id="7015203776128479407">初始同步设置未完成。同步功能处于关闭状态。</translation>
@@ -441,48 +441,48 @@
 <translation id="6108923351542677676">正在设置…</translation>
 <translation id="4062305924942672200">法律信息</translation>
 <translation id="4256782883801055595">开放源代码许可</translation>
-<translation id="1138681184697033370">Brave 服务条款</translation>
-<translation id="7392539049993970338">Brave 隐私权声明</translation>
+<translation id="1138681184697033370">Dissenter 服务条款</translation>
+<translation id="7392539049993970338">Dissenter 隐私权声明</translation>
 <translation id="2677748264148917807">离开</translation>
 <translation id="5556459405103347317">重新加载</translation>
 <translation id="1623104350909869708">阻止此页创建其他对话框</translation>
 <translation id="2968755619301702150">证书查看器</translation>
 <translation id="1360432990279830238">退出帐号并关闭同步功能？</translation>
-<translation id="8581481290581777242">从这部设备中清除您的 Brave 数据？</translation>
-<translation id="1318865768845061710">您的书签、历史记录、密码和其他 Brave 数据将不再同步到您的 Brave Software 帐号中</translation>
-<translation id="3325020657155065477">同时从此设备中清除您的 Brave 数据</translation>
-<translation id="6136448902816743006">您将要退出由 <ph name="DOMAIN_NAME"/> 管理的帐号，因此您的 Brave 数据将会从这部设备中删除，但仍会保留在您的 Brave Software 帐号中。</translation>
-<translation id="1853026300647876496">正在连接到 Brave Software，请稍等片刻…</translation>
+<translation id="8581481290581777242">从这部设备中清除您的 Dissenter 数据？</translation>
+<translation id="1318865768845061710">您的书签、历史记录、密码和其他 Dissenter 数据将不再同步到您的 Gab AI Inc 帐号中</translation>
+<translation id="3325020657155065477">同时从此设备中清除您的 Dissenter 数据</translation>
+<translation id="6136448902816743006">您将要退出由 <ph name="DOMAIN_NAME"/> 管理的帐号，因此您的 Dissenter 数据将会从这部设备中删除，但仍会保留在您的 Gab AI Inc 帐号中。</translation>
+<translation id="1853026300647876496">正在连接到 Gab AI Inc，请稍等片刻…</translation>
 <translation id="2328985652426384049">无法登录</translation>
-<translation id="7723158744459952869">Brave Software 的响应速度太慢</translation>
+<translation id="7723158744459952869">Gab AI Inc 的响应速度太慢</translation>
 <translation id="4572422548854449519">请登录受管理的帐号</translation>
-<translation id="2689656545739939160">您正要登录由 <ph name="MANAGED_DOMAIN"/> 管理的帐号，并要授权其管理员控制您的 Brave 数据。您的数据将与此帐号永久关联。退出 Brave 后，您的数据将从这台设备上删除，但仍会保留在您的 Brave Software 帐号中。</translation>
+<translation id="2689656545739939160">您正要登录由 <ph name="MANAGED_DOMAIN"/> 管理的帐号，并要授权其管理员控制您的 Dissenter 数据。您的数据将与此帐号永久关联。退出 Dissenter 后，您的数据将从这台设备上删除，但仍会保留在您的 Gab AI Inc 帐号中。</translation>
 <translation id="1749561566933687563">同步您的书签</translation>
 <translation id="4242533952199664413">打开“设置”</translation>
 <translation id="1111673857033749125">您在其他设备上保存的书签将列在此处。</translation>
 <translation id="8636825310635137004">要访问您在其他设备上的标签页，请开启同步功能。</translation>
 <translation id="3269956123044984603">要访问您在其他设备上的标签页，请在 Android 帐号设置部分开启“自动同步数据”。</translation>
-<translation id="5157964048453367290">您在其他设备上的 Brave 中打开的标签页将列在此处。</translation>
+<translation id="5157964048453367290">您在其他设备上的 Dissenter 中打开的标签页将列在此处。</translation>
 <translation id="4684427112815847243">同步所有数据类型</translation>
 <translation id="2709516037105925701">自动填充</translation>
 <translation id="8820817407110198400">书签</translation>
 <translation id="1644574205037202324">历史记录</translation>
 <translation id="17513872634828108">目前打开的标签页</translation>
-<translation id="1320169905922104972">Brave Software Pay 中存储的信用卡和地址信息</translation>
+<translation id="1320169905922104972">Gab AI Inc Pay 中存储的信用卡和地址信息</translation>
 <translation id="6337234675334993532">加密</translation>
 <translation id="6698801883190606802">管理已同步的数据</translation>
-<translation id="3598578758776312506">使用 Brave Software 凭据加密密码</translation>
-<translation id="7810580217418711046">自 <ph name="TIME"/>起，使用 Brave Software 密码加密已同步的数据</translation>
+<translation id="3598578758776312506">使用 Gab AI Inc 凭据加密密码</translation>
+<translation id="7810580217418711046">自 <ph name="TIME"/>起，使用 Gab AI Inc 密码加密已同步的数据</translation>
 <translation id="8461694314515752532">使用您自己的同步密码加密已同步的数据</translation>
 <translation id="2996291259634659425">创建密码</translation>
-<translation id="5713644099811900409">Brave Software 帐号</translation>
-<translation id="8997474919031554666">密码加密不包括 Brave Software Pay 中的付款方式和地址。只有知道您密码的人才能读取您的已加密数据。系统不会将该密码发送给 Brave Software，Brave Software 也不会存储该密码。如果您忘记了密码或想更改此设置，则需重置同步设置。<ph name="BEGIN_LINK"/>了解详情<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Gab AI Inc 帐号</translation>
+<translation id="8997474919031554666">密码加密不包括 Gab AI Inc Pay 中的付款方式和地址。只有知道您密码的人才能读取您的已加密数据。系统不会将该密码发送给 Gab AI Inc，Gab AI Inc 也不会存储该密码。如果您忘记了密码或想更改此设置，则需重置同步设置。<ph name="BEGIN_LINK"/>了解详情<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">密码</translation>
 <translation id="7772032839648071052">确认密码</translation>
 <translation id="5304593522240415983">此字段不能为空</translation>
 <translation id="321773570071367578">如果您忘记了密码或想更改此设置，请<ph name="BEGIN_LINK"/>重置同步设置<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">密码不匹配</translation>
-<translation id="5149495116300586333">密码加密不包括 Brave Software Pay 中的付款方式和地址。
+<translation id="5149495116300586333">密码加密不包括 Gab AI Inc Pay 中的付款方式和地址。
 
 要更改此设置，请<ph name="BEGIN_LINK"/>重置同步设置<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">密码不正确</translation>
@@ -499,11 +499,11 @@
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>获取帮助<ph name="END_LINK1"/>或<ph name="BEGIN_LINK2"/>重新扫描<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">未找到任何兼容设备</translation>
 <translation id="3773755127849930740">请<ph name="BEGIN_LINK"/>开启蓝牙<ph name="END_LINK"/>以允许配对</translation>
-<translation id="998321811308652668">Brave 无法开启蓝牙适配器</translation>
+<translation id="998321811308652668">Dissenter 无法开启蓝牙适配器</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>获取帮助<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">Brave 需要拥有位置信息权限才能扫描设备。<ph name="BEGIN_LINK"/>更新权限<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">Brave 需要拥有位置信息使用权才能扫描设备。<ph name="BEGIN_LINK"/>此设备的位置信息使用权已被停用<ph name="END_LINK"/>。</translation>
-<translation id="2367014990350929709">Brave 需要拥有位置信息使用权才能扫描设备。请<ph name="BEGIN_LINK1"/>更新权限<ph name="END_LINK1"/>。<ph name="BEGIN_LINK2"/>此设备的位置信息使用权也已被停用<ph name="END_LINK2"/>。</translation>
+<translation id="8428644385678426438">Dissenter 需要拥有位置信息权限才能扫描设备。<ph name="BEGIN_LINK"/>更新权限<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">Dissenter 需要拥有位置信息使用权才能扫描设备。<ph name="BEGIN_LINK"/>此设备的位置信息使用权已被停用<ph name="END_LINK"/>。</translation>
+<translation id="2367014990350929709">Dissenter 需要拥有位置信息使用权才能扫描设备。请<ph name="BEGIN_LINK1"/>更新权限<ph name="END_LINK1"/>。<ph name="BEGIN_LINK2"/>此设备的位置信息使用权也已被停用<ph name="END_LINK2"/>。</translation>
 <translation id="1569387923882100876">连接的设备</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{信号强度：# 格}other{信号强度：# 格}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/> 想搜索附近的蓝牙设备，并发现了以下设备：</translation>
@@ -511,11 +511,11 @@
 <translation id="7605594153474022051">同步功能无法正常运行</translation>
 <translation id="2537178555904266562">同步密码时出错</translation>
 <translation id="1810845389119482123">未完成初始同步设置</translation>
-<translation id="3235722914093408050">打开 Android 设置，重新启用 Android 系统同步功能以开始 Brave 同步</translation>
+<translation id="3235722914093408050">打开 Android 设置，重新启用 Android 系统同步功能以开始 Dissenter 同步</translation>
 <translation id="3367813778245106622">重新登录以开始同步</translation>
 <translation id="3701167022068948696">立即修正</translation>
 <translation id="974555521953189084">输入密码以开始同步</translation>
-<translation id="2997266899014181325">要开始同步，请开启“同步 Brave 数据”。</translation>
+<translation id="2997266899014181325">要开始同步，请开启“同步 Dissenter 数据”。</translation>
 <translation id="8260126382462817229">请尝试重新登录</translation>
 <translation id="5919204609460789179">需更新 <ph name="PRODUCT_NAME"/>，才能开始同步</translation>
 <translation id="397583555483684758">同步功能已停止工作</translation>
@@ -548,14 +548,14 @@
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>。</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> <ph name="LINK_NAME"/>按钮</translation>
 <translation id="3205824638308738187">即将完成！</translation>
-<translation id="3960299545138990065">重新启动 Brave</translation>
+<translation id="3960299545138990065">重新启动 Dissenter</translation>
 <translation id="3771001275138982843">无法下载此项更新</translation>
-<translation id="3888648114124182147">正在下载 Brave 更新…</translation>
-<translation id="1705567146636171298">更新 Brave</translation>
-<translation id="6195417478702700398">要获得最好的浏览体验，请打开 Brave 以进行更新</translation>
-<translation id="3512968675351418494">若要使用您的语言查看网页，请获取最新版本的 Brave</translation>
+<translation id="3888648114124182147">正在下载 Dissenter 更新…</translation>
+<translation id="1705567146636171298">更新 Dissenter</translation>
+<translation id="6195417478702700398">要获得最好的浏览体验，请打开 Dissenter 以进行更新</translation>
+<translation id="3512968675351418494">若要使用您的语言查看网页，请获取最新版本的 Dissenter</translation>
 <translation id="6427112570124116297">翻译网页</translation>
-<translation id="1379423114029199501">更新即可在最新版本的 Brave 中使用您的语言</translation>
+<translation id="1379423114029199501">更新即可在最新版本的 Dissenter 中使用您的语言</translation>
 <translation id="5684874026226664614">糟糕，此网页内容无法翻译。</translation>
 <translation id="6831043979455480757">翻译</translation>
 <translation id="1285320974508926690">一律不翻译此网站</translation>
@@ -578,11 +578,11 @@
 <translation id="2532336938189706096">网页视图</translation>
 <translation id="6005538289190791541">建议的密码</translation>
 <translation id="4634124774493850572">使用密码</translation>
-<translation id="8285489906452138776">Brave 需要获得相应权限，才能允许此网站使用您的摄像头。</translation>
-<translation id="320189792589364011">Brave 需要获得相应权限，才能允许此网站使用您的麦克风。</translation>
-<translation id="7988136689212463100">Brave 需要获得相应权限，才能允许此网站使用您的摄像头和麦克风。</translation>
-<translation id="4931190655840828017">Brave 需要获得位置权限，才能将您的位置信息共享给此网站。</translation>
-<translation id="3088191967551450609">Brave 需要具备存储空间使用权限，才能下载文件。</translation>
+<translation id="8285489906452138776">Dissenter 需要获得相应权限，才能允许此网站使用您的摄像头。</translation>
+<translation id="320189792589364011">Dissenter 需要获得相应权限，才能允许此网站使用您的麦克风。</translation>
+<translation id="7988136689212463100">Dissenter 需要获得相应权限，才能允许此网站使用您的摄像头和麦克风。</translation>
+<translation id="4931190655840828017">Dissenter 需要获得位置权限，才能将您的位置信息共享给此网站。</translation>
+<translation id="3088191967551450609">Dissenter 需要具备存储空间使用权限，才能下载文件。</translation>
 <translation id="8942627711005830162">在其他窗口中打开</translation>
 <translation id="4195643157523330669">在新标签页中打开</translation>
 <translation id="1100066534610197918">在群组内的新标签页中打开</translation>
@@ -599,15 +599,15 @@
 <translation id="8073388330009372546">在新标签页中打开图片</translation>
 <translation id="6649642165559792194">预览图片<ph name="BEGIN_NEW"/>新<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">加载图片</translation>
-<translation id="3845332215609790146">使用 Brave Software 智能镜头进行搜索<ph name="BEGIN_NEW"/>新功能<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">使用 Gab AI Inc 智能镜头进行搜索<ph name="BEGIN_NEW"/>新功能<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">在<ph name="SEARCH_ENGINE"/>中搜索此图片</translation>
 <translation id="3384347053049321195">分享图片</translation>
 <translation id="5833984609253377421">分享链接</translation>
 <translation id="6475951671322991020">下载视频</translation>
-<translation id="2317945146070194624">在新的 Brave 标签页中打开</translation>
+<translation id="2317945146070194624">在新的 Dissenter 标签页中打开</translation>
 <translation id="7975379999046275268">预览网页<ph name="BEGIN_NEW"/>新<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">正在刷新页面</translation>
-<translation id="6990079615885386641">从 Brave Software Play 商店下载应用：<ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">从 Gab AI Inc Play 商店下载应用：<ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">深色调</translation>
 <translation id="1807246157184219062">浅色调</translation>
 <translation id="4056223980640387499">棕色调</translation>
@@ -634,9 +634,9 @@
 <translation id="164269334534774161">您目前浏览的是此网页的离线副本（创建时间：<ph name="CREATION_TIME"/>）</translation>
 <translation id="4594952190837476234">此离线网页是在 <ph name="CREATION_TIME"/>创建的，可能与在线版本有所不同。</translation>
 <translation id="8840953339110955557">此网页可能与在线版本有所不同。</translation>
-<translation id="6405300764336705484">此内容来自 <ph name="DOMAIN_NAME"/>（由 Brave Software 提供）。</translation>
+<translation id="6405300764336705484">此内容来自 <ph name="DOMAIN_NAME"/>（由 Gab AI Inc 提供）。</translation>
 <translation id="1006017844123154345">在线打开</translation>
-<translation id="3326636747541519688">由 Brave Software 提供的精简版网页</translation>
+<translation id="3326636747541519688">由 Gab AI Inc 提供的精简版网页</translation>
 <translation id="7149158118503947153">从 <ph name="DOMAIN_NAME"/> <ph name="BEGIN_LINK"/>加载原始网页<ph name="END_LINK"/></translation>
 <translation id="7475192538862203634">如果您频繁遇到此问题，请尝试按这些<ph name="BEGIN_LINK"/>建议<ph name="END_LINK"/>操作。</translation>
 <translation id="8748850008226585750">内容已隐藏</translation>
@@ -733,19 +733,19 @@
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">MM</translation>
 <translation id="605721222689873409">YY</translation>
-<translation id="724102042129299115">Brave 首次运行体验</translation>
-<translation id="2700285883409956633">使用此应用即表示您同意遵守 Brave 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>。</translation>
-<translation id="1640714894372474981">使用此应用即表示您同意 Brave 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>，以及<ph name="BEGIN_LINK3"/>针对通过 Family Link 管理的 Brave Software 帐号的隐私权声明<ph name="END_LINK3"/>。</translation>
-<translation id="4218324479468769727"><ph name="APP_NAME"/>将在 Brave 中打开。继续操作即表示您同意 Brave 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>。</translation>
-<translation id="5071615083211946659"><ph name="APP_NAME"/>将在 Brave 中打开。继续操作即表示您同意 Brave 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>，以及<ph name="BEGIN_LINK3"/>针对通过 Family Link 管理的 Brave Software 帐号的隐私权声明<ph name="END_LINK3"/>。</translation>
-<translation id="673197144963363525">将使用情况统计信息和崩溃报告发送给 Brave Software，帮助我们完善 Brave。</translation>
+<translation id="724102042129299115">Dissenter 首次运行体验</translation>
+<translation id="2700285883409956633">使用此应用即表示您同意遵守 Dissenter 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>。</translation>
+<translation id="1640714894372474981">使用此应用即表示您同意 Dissenter 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>，以及<ph name="BEGIN_LINK3"/>针对通过 Family Link 管理的 Gab AI Inc 帐号的隐私权声明<ph name="END_LINK3"/>。</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME"/>将在 Dissenter 中打开。继续操作即表示您同意 Dissenter 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>。</translation>
+<translation id="5071615083211946659"><ph name="APP_NAME"/>将在 Dissenter 中打开。继续操作即表示您同意 Dissenter 的<ph name="BEGIN_LINK1"/>服务条款<ph name="END_LINK1"/>和<ph name="BEGIN_LINK2"/>隐私权声明<ph name="END_LINK2"/>，以及<ph name="BEGIN_LINK3"/>针对通过 Family Link 管理的 Gab AI Inc 帐号的隐私权声明<ph name="END_LINK3"/>。</translation>
+<translation id="673197144963363525">将使用情况统计信息和崩溃报告发送给 Gab AI Inc，帮助我们完善 Dissenter。</translation>
 <translation id="3518985090088779359">接受并继续</translation>
-<translation id="7207456302801184289">欢迎使用 Brave</translation>
-<translation id="7189372733857464326">正在等待 Brave Software Play 服务完成更新</translation>
+<translation id="7207456302801184289">欢迎使用 Dissenter</translation>
+<translation id="7189372733857464326">正在等待 Gab AI Inc Play 服务完成更新</translation>
 <translation id="1231733316453485619">开启同步功能？</translation>
 <translation id="5132942445612118989">将您的密码、历史记录等信息同步到所有设备上</translation>
-<translation id="5736731321935944068">Brave Software 可能会利用您的历史记录为您提供个性化的 Brave Software 搜索、广告和其他 Brave Software 服务</translation>
-<translation id="4013614219085422040">Brave Software 可能会利用您的历史记录为您提供个性化的 Brave Software 搜索和其他 Brave Software 服务</translation>
+<translation id="5736731321935944068">Gab AI Inc 可能会利用您的历史记录为您提供个性化的 Gab AI Inc 搜索、广告和其他 Gab AI Inc 服务</translation>
+<translation id="4013614219085422040">Gab AI Inc 可能会利用您的历史记录为您提供个性化的 Gab AI Inc 搜索和其他 Gab AI Inc 服务</translation>
 <translation id="5581519193887989363">您始终可在<ph name="BEGIN_LINK1"/>设置<ph name="END_LINK1"/>中选择要同步的内容。</translation>
 <translation id="741204030948306876">立即启用</translation>
 <translation id="2410754283952462441">选择帐号</translation>
@@ -753,8 +753,8 @@
 <translation id="6210748933810148297">不是 <ph name="EMAIL"/>？</translation>
 <translation id="8109613176066109935">要将您的书签同步到您的所有设备上，请开启同步功能</translation>
 <translation id="2818669890320396765">要将您的书签同步到您的所有设备上，请登录您的帐号并开启同步功能</translation>
-<translation id="6003646045106347985">要获取 Brave Software 推荐的个性化内容，请开启同步功能</translation>
-<translation id="8494430740943879273">要获取 Brave Software 推荐的个性化内容，请登录您的帐号并开启同步功能</translation>
+<translation id="6003646045106347985">要获取 Gab AI Inc 推荐的个性化内容，请开启同步功能</translation>
+<translation id="8494430740943879273">要获取 Gab AI Inc 推荐的个性化内容，请登录您的帐号并开启同步功能</translation>
 <translation id="5862731021271217234">要访问您在其他设备上打开的标签页，请开启同步功能</translation>
 <translation id="3568688522516854065">要访问您在其他设备上的标签页，请登录您的帐号并开启同步功能</translation>
 <translation id="1208340532756947324">要在您的所有设备上保持同步并进行个性化设置，请开启同步功能</translation>
@@ -774,7 +774,7 @@
 <translation id="5423934151118863508">您最常访问的网页将列在此处</translation>
 <translation id="6127379762771434464">该项已移除</translation>
 <translation id="4605958867780575332">以下项已移除：<ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Brave Software 涂鸦：<ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Gab AI Inc 涂鸦：<ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">来自其他设备的同步</translation>
 <translation id="4738836084190194332">上次同步时间：<ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{# 分钟前}other{# 分钟前}}</translation>
@@ -805,9 +805,9 @@
 <translation id="1171770572613082465">点按“热门网站”按钮可查看热门网站</translation>
 <translation id="5233638681132016545">打开新的标签页</translation>
 <translation id="6336451774241870485">新的私有标签页</translation>
-<translation id="4521874409998847950">来自 <ph name="PUBLISHER_ORIGIN"/> - <ph name="BEGIN_DEEMPHASIZED"/>由 Brave Software 提供<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">来自 <ph name="PUBLISHER_ORIGIN"/> - <ph name="BEGIN_DEEMPHASIZED"/>由 Gab AI Inc 提供<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">新版本已推出</translation>
-<translation id="4058091506841967397">Brave 无法更新</translation>
+<translation id="4058091506841967397">Dissenter 无法更新</translation>
 <translation id="6316139424528454185">Android 版本不受支持</translation>
 <translation id="6989267951144302301">无法下载</translation>
 <translation id="624789221780392884">有可用的更新</translation>
@@ -855,7 +855,7 @@
 <translation id="2536728043171574184">正在查看此网页的离线副本</translation>
 <translation id="4698034686595694889">在 <ph name="APP_NAME"/> 中离线查看</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> 及更多网站</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{待准备就绪后，Brave 即会加载您的网页}other{待准备就绪后，Brave 即会加载您的网页}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{待准备就绪后，Dissenter 即会加载您的网页}other{待准备就绪后，Dissenter 即会加载您的网页}}</translation>
 <translation id="6811034713472274749">页面已可供查看</translation>
 <translation id="4561979708150884304">无网络连接</translation>
 <translation id="8274165955039650276">查看下载内容</translation>
@@ -865,16 +865,16 @@
 <translation id="3298243779924642547">精简版</translation>
 <translation id="393697183122708255">无法启用语音搜索功能</translation>
 <translation id="7191430249889272776">标签页已在后台打开。</translation>
-<translation id="8445059357334030806">在 Brave 中打开</translation>
+<translation id="8445059357334030806">在 Dissenter 中打开</translation>
 <translation id="4720023427747327413">在<ph name="PRODUCT_NAME"/>中打开</translation>
 <translation id="7022756207310403729">在浏览器中打开</translation>
 <translation id="1113597929977215864">显示简化版视图</translation>
 <translation id="1513352483775369820">书签和网络历史记录</translation>
-<translation id="4939482511480190003">欢迎帮助我们改进 Brave。<ph name="BEGIN_LINK"/>参与调查<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">欢迎帮助我们改进 Dissenter。<ph name="BEGIN_LINK"/>参与调查<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">返回</translation>
 <translation id="5596627076506792578">更多选项</translation>
 <translation id="3522247891732774234">有更新。更多选项</translation>
-<translation id="6773423637732432200">Brave 无法更新。更多选项</translation>
+<translation id="6773423637732432200">Dissenter 无法更新。更多选项</translation>
 <translation id="3328801116991980348">网站信息</translation>
 <translation id="5391532827096253100">您与此网站之间建立的连接不安全。网站信息</translation>
 <translation id="6206551242102657620">连接是安全的。网站信息</translation>
@@ -934,7 +934,7 @@
 <translation id="3211426585530211793">已删除“<ph name="ITEM_TITLE"/>”</translation>
 <translation id="4663756553811254707">已删除 <ph name="NUMBER_OF_BOOKMARKS"/> 个书签</translation>
 <translation id="3819178904835489326">已删除 <ph name="NUMBER_OF_DOWNLOADS"/> 项下载内容</translation>
-<translation id="1248710015876067820">Brave 实例数量已超出上限。</translation>
+<translation id="1248710015876067820">Dissenter 实例数量已超出上限。</translation>
 <translation id="4259722352634471385">已屏蔽 <ph name="URL"/></translation>
 <translation id="8959122750345127698">无法访问 <ph name="URL"/></translation>
 <translation id="5210365745912300556">关闭标签页</translation>
@@ -947,20 +947,20 @@
 <translation id="8427875596167638501">预览标签页已在下半屏中打开</translation>
 <translation id="9102803872260866941">预览标签页已打开</translation>
 <translation id="2942036813789421260">预览标签页已关闭</translation>
-<translation id="6355102470683871794">Brave Software <ph name="APP_NAME"/> 存储数据</translation>
+<translation id="6355102470683871794">Gab AI Inc <ph name="APP_NAME"/> 存储数据</translation>
 <translation id="3822502789641063741">要清除网站存储数据吗？</translation>
-<translation id="9205995714227143200">Brave 认为不重要的网站（例如未保存任何设置的网站或您不常访问的网站）存储的数据</translation>
+<translation id="9205995714227143200">Dissenter 认为不重要的网站（例如未保存任何设置的网站或您不常访问的网站）存储的数据</translation>
 <translation id="3997476611815694295">不重要网站的存储数据</translation>
 <translation id="8493948351860045254">释放空间</translation>
-<translation id="2324920234469020158">这会清除 Brave 认为不重要的网站的 Cookie、缓存和其他数据。</translation>
+<translation id="2324920234469020158">这会清除 Dissenter 认为不重要的网站的 Cookie、缓存和其他数据。</translation>
 <translation id="5447201525962359567">所有网站存储数据，包括 Cookie 及其他本地存储的数据</translation>
 <translation id="1376578503827013741">正在计算…</translation>
 <translation id="583281660410589416">未知</translation>
 <translation id="2323763861024343754">网站存储数据</translation>
-<translation id="3587672679800759167">Brave 所使用的数据总量，包括帐号、书签和已保存的设置</translation>
+<translation id="3587672679800759167">Dissenter 所使用的数据总量，包括帐号、书签和已保存的设置</translation>
 <translation id="6545017243486555795">清除所有数据</translation>
 <translation id="4095146165863963773">要删除应用数据吗？</translation>
-<translation id="53119194224775367">Brave 的所有应用数据都将被永久删除，其中包括所有文件、设置、帐号、数据库等。</translation>
+<translation id="53119194224775367">Dissenter 的所有应用数据都将被永久删除，其中包括所有文件、设置、帐号、数据库等。</translation>
 <translation id="5307446750509046227">清空网站存储数据</translation>
 <translation id="300526633675317032">这会清除全部的网站存储数据 (<ph name="SIZE_IN_KB"/>)。</translation>
 <translation id="8068648041423924542">无法选择证书。</translation>
@@ -982,15 +982,15 @@
 <translation id="1779089405699405702">图片解码器</translation>
 <translation id="8067883171444229417">播放视频</translation>
 <translation id="6560414384669816528">改用搜狗搜索</translation>
-<translation id="5406914950576900927">在中国，Brave 可以使用<ph name="BEGIN_BOLD"/>搜狗<ph name="END_BOLD"/>作为搜索引擎。如果需要，您可以在<ph name="BEGIN_LINK"/>设置<ph name="END_LINK"/>中进行更改。</translation>
-<translation id="6456271171669383967">继续使用 Brave Software</translation>
+<translation id="5406914950576900927">在中国，Dissenter 可以使用<ph name="BEGIN_BOLD"/>搜狗<ph name="END_BOLD"/>作为搜索引擎。如果需要，您可以在<ph name="BEGIN_LINK"/>设置<ph name="END_LINK"/>中进行更改。</translation>
+<translation id="6456271171669383967">继续使用 Gab AI Inc</translation>
 <translation id="4384468725000734951">目前使用的搜索引擎是搜狗</translation>
-<translation id="6103327872225198548">目前使用的搜索引擎是 Brave Software</translation>
+<translation id="6103327872225198548">目前使用的搜索引擎是 Gab AI Inc</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">此应用正在 Brave 中运行</translation>
-<translation id="6143689084714664628">正在 Brave 中运行</translation>
-<translation id="7675869148432102528">Brave 中也有<ph name="APP_NAME"/>的数据</translation>
-<translation id="2734140769649165081">要清除数据，请前往 Brave 的“设置”页面</translation>
+<translation id="919933208285147476">此应用正在 Dissenter 中运行</translation>
+<translation id="6143689084714664628">正在 Dissenter 中运行</translation>
+<translation id="7675869148432102528">Dissenter 中也有<ph name="APP_NAME"/>的数据</translation>
+<translation id="2734140769649165081">要清除数据，请前往 Dissenter 的“设置”页面</translation>
 <translation id="8232956427053453090">保留数据</translation>
 <translation id="4298388696830689168">已关联的网站</translation>
 <translation id="5763514718066511291">点按即可复制该应用的网址</translation>
@@ -1015,13 +1015,13 @@
 <translation id="8015452622527143194">将网页上的所有内容恢复到默认大小</translation>
 <translation id="3443221991560634068">重新加载当前网页</translation>
 <translation id="123724288017357924">重新加载当前网页（忽略缓存的内容）</translation>
-<translation id="305870044889644984">在新标签页中打开 Brave 帮助中心</translation>
+<translation id="305870044889644984">在新标签页中打开 Dissenter 帮助中心</translation>
 <translation id="3166827708714933426">标签页和窗口快捷键</translation>
-<translation id="3169981355900570544">Brave Software Brave 功能快捷键</translation>
+<translation id="3169981355900570544">Gab AI Inc Dissenter 功能快捷键</translation>
 <translation id="4558311620361989323">网页快捷键</translation>
-<translation id="1908301351964700579">Brave 仍在准备 VR。请稍等片刻再重启 Brave。</translation>
+<translation id="1908301351964700579">Dissenter 仍在准备 VR。请稍等片刻再重启 Dissenter。</translation>
 <translation id="8970887620466824814">出了点问题。</translation>
-<translation id="1875543012935658554">重新打开 Brave。</translation>
+<translation id="1875543012935658554">重新打开 Dissenter。</translation>
 <translation id="79859296434321399">要查看增强现实内容，请安装 ARCore</translation>
 <translation id="8558485628462305855">要查看增强现实内容，请更新 ARCore</translation>
 <translation id="3513704683820682405">增强现实</translation>
@@ -1033,9 +1033,9 @@
 该网站不会获得相机的使用权限。只有您可以看到该相机拍摄的图像。</translation>
 <translation id="1188239144602654184">进入 AR 会话</translation>
 <translation id="473775607612524610">更新</translation>
-<translation id="3133489217401741157">正在为 Brave 安装<ph name="MODULE"/>…</translation>
+<translation id="3133489217401741157">正在为 Dissenter 安装<ph name="MODULE"/>…</translation>
 <translation id="1791662854739702043">安装位置</translation>
-<translation id="5131234170665854056">无法为 Brave 安装<ph name="MODULE"/></translation>
+<translation id="5131234170665854056">无法为 Dissenter 安装<ph name="MODULE"/></translation>
 <translation id="2567385386134582609">图片</translation>
 <translation id="6395288395575013217">链接</translation>
 <translation id="7352939065658542140">视频</translation>
@@ -1046,16 +1046,16 @@
 <translation id="3341058695485821946">查看您已节省多少数据流量</translation>
 <translation id="3157842584138209013">通过“更多选项”按钮查看您已节省多少数据流量</translation>
 <translation id="8218622182176210845">管理您的帐号</translation>
-<translation id="8090895580117672212">要管理您的 Brave Software 帐号，请点按“管理帐号”按钮</translation>
-<translation id="8856898588039823173">由 Brave Software 提供的精简版网页。点按即可加载原始网页。</translation>
-<translation id="8134317863207426198">由 Brave Software 提供的精简版网页。点按“加载原始网页”按钮即可加载原始网页。</translation>
+<translation id="8090895580117672212">要管理您的 Gab AI Inc 帐号，请点按“管理帐号”按钮</translation>
+<translation id="8856898588039823173">由 Gab AI Inc 提供的精简版网页。点按即可加载原始网页。</translation>
+<translation id="8134317863207426198">由 Gab AI Inc 提供的精简版网页。点按“加载原始网页”按钮即可加载原始网页。</translation>
 <translation id="4961107849584082341">将此页面翻译成任何语言</translation>
 <translation id="569536719314091526">通过“更多选项”按钮将此页面翻译成任何语言</translation>
 <translation id="1397811292916898096">使用 <ph name="PRODUCT_NAME"/> 进行搜索</translation>
 <translation id="1792959175193046959">随时更改默认的下载内容保存位置</translation>
 <translation id="6942665639005891494">使用“设置”菜单选项随时更改默认的下载内容保存位置</translation>
 <translation id="6850409657436465440">您的下载仍在进行中</translation>
-<translation id="5817715962196959877">Brave 现可更快速地下载文件</translation>
+<translation id="5817715962196959877">Dissenter 现可更快速地下载文件</translation>
 <translation id="3976396876660209797">移除并重新创建此快捷方式</translation>
 <translation id="6766622839693428701">向下滑动即可关闭。</translation>
 <translation id="1028699632127661925">正在发送到<ph name="DEVICE_NAME"/>…</translation>
@@ -1071,15 +1071,15 @@
 <translation id="1521774566618522728">今天曾有活动</translation>
 <translation id="3631987586758005671">正在分享给<ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">开启同步功能以跨设备分享内容</translation>
-<translation id="6162454065885854378">如果想将您手机上的内容分享到另一部设备，那么对于这两部设备，您都需在 Brave 设置中开启同步功能</translation>
-<translation id="6084271560289605378">转至 Brave 设置</translation>
+<translation id="6162454065885854378">如果想将您手机上的内容分享到另一部设备，那么对于这两部设备，您都需在 Dissenter 设置中开启同步功能</translation>
+<translation id="6084271560289605378">转至 Dissenter 设置</translation>
 <translation id="2318045970523081853">点按即可拨打电话</translation>
 <translation id="9209888181064652401">无法致电</translation>
 <translation id="2860954141821109167">请确保已在此设备上启用了一款电话应用</translation>
 <translation id="2067805253194386918">文本</translation>
 <translation id="1450753235335490080">无法分享<ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">无法分享<ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">请确保<ph name="TARGET_DEVICE_NAME"/>已在 Brave 中开启同步功能</translation>
+<translation id="8287068819750208230">请确保<ph name="TARGET_DEVICE_NAME"/>已在 Dissenter 中开启同步功能</translation>
 <translation id="3016635187733453316">请确保此设备已连接到互联网。</translation>
 <translation id="8466613982764129868">请确保<ph name="TARGET_DEVICE_NAME"/>已连接到互联网</translation>
 <translation id="6539092367496845964">出了点问题。请稍后重试。</translation>
@@ -1101,16 +1101,16 @@
 <translation id="7055152154916055070">已禁止重定向：</translation>
 <translation id="5524843473235508879">已禁止重定向。</translation>
 <translation id="6573096386450695060">一律允许</translation>
-<translation id="5805364706385912897">此网页占用的内存过多，因此 Brave 已将其暂停。</translation>
-<translation id="5138664332909611586">此网页占用的内存过多，因此 Brave 移除了部分内容。</translation>
+<translation id="5805364706385912897">此网页占用的内存过多，因此 Dissenter 已将其暂停。</translation>
+<translation id="5138664332909611586">此网页占用的内存过多，因此 Dissenter 移除了部分内容。</translation>
 <translation id="9137013805542155359">显示原始网页</translation>
-<translation id="6361779936989026201">Brave 中的 Brave Software 助理</translation>
-<translation id="7291387454912369099">使用 Brave 中的 Brave Software 助理结帐</translation>
-<translation id="4565206163201411670">在“数字健康”应用中显示您的 Brave 活动记录？</translation>
-<translation id="9055113864158719823">您可以查看自己在 Brave 中访问的网站并为这些网站设置计时器。\n\nBrave Software 会获取这些设有计时器的网站的相关信息以及您对这些网站的访问时长。这些信息会被用于改进“数字健康”应用。</translation>
-<translation id="4596514158372210596">从“数字健康”应用中移除您的 Brave 活动记录</translation>
-<translation id="1174893863889683998">从“数字健康”应用中移除您的 Brave 活动记录？</translation>
-<translation id="708829030563435351">您在 Brave 中访问的网站不会显示。所有网站计时器都会被删除。</translation>
+<translation id="6361779936989026201">Dissenter 中的 Gab AI Inc 助理</translation>
+<translation id="7291387454912369099">使用 Dissenter 中的 Gab AI Inc 助理结帐</translation>
+<translation id="4565206163201411670">在“数字健康”应用中显示您的 Dissenter 活动记录？</translation>
+<translation id="9055113864158719823">您可以查看自己在 Dissenter 中访问的网站并为这些网站设置计时器。\n\nGab AI Inc 会获取这些设有计时器的网站的相关信息以及您对这些网站的访问时长。这些信息会被用于改进“数字健康”应用。</translation>
+<translation id="4596514158372210596">从“数字健康”应用中移除您的 Dissenter 活动记录</translation>
+<translation id="1174893863889683998">从“数字健康”应用中移除您的 Dissenter 活动记录？</translation>
+<translation id="708829030563435351">您在 Dissenter 中访问的网站不会显示。所有网站计时器都会被删除。</translation>
 <translation id="2056878612599315956">网站已被暂停</translation>
 <translation id="671481426037969117">您的 <ph name="FQDN"/> 计时器已结束计时。它将于明天重新开始。</translation>
 <translation id="7479104141328977413">标签页管理</translation>
@@ -1121,7 +1121,7 @@
 <translation id="246532703174860178">分享</translation>
 <translation id="2517472476991765520">扫描</translation>
 <translation id="8628973420740315031">要与附近的人分享，请让他们扫描此二维码</translation>
-<translation id="7339921667754113786">Brave Software 通知平台</translation>
+<translation id="7339921667754113786">Gab AI Inc 通知平台</translation>
 <translation id="8516012719330875537">图片编辑器</translation>
 <translation id="4808319664292298116">从 <ph name="DOMAIN"/> 进入 VR 环境？</translation>
 <translation id="4353114845960720315">当您处于 VR 环境时，此网站或许能够得知：</translation>

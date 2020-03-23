@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Solicitações de permissão</translation>
 <translation id="3749259744154402564">Incompatível</translation>
 <translation id="629730747756840877">Conta</translation>
-<translation id="82609232232243542">Fazer login no Brave Software Brave</translation>
-<translation id="7956662517480676674">Serviços do Brave Software e de sincronização</translation>
-<translation id="5294439808117722387">No momento, você está personalizando suas configurações de sincronização e de serviço do Brave Software. Para terminar de ativar a sincronização, toque no botão "Confirmar" na parte inferior da tela. Navegar para cima</translation>
+<translation id="82609232232243542">Fazer login no Gab AI Inc Dissenter</translation>
+<translation id="7956662517480676674">Serviços do Gab AI Inc e de sincronização</translation>
+<translation id="5294439808117722387">No momento, você está personalizando suas configurações de sincronização e de serviço do Gab AI Inc. Para terminar de ativar a sincronização, toque no botão "Confirmar" na parte inferior da tela. Navegar para cima</translation>
 <translation id="2096012225669085171">Sincronizar e personalizar entre dispositivos</translation>
 <translation id="1692118695553449118">A sincronização está ativada</translation>
 <translation id="5514904542973294328">Opção desativada pelo administrador deste dispositivo</translation>
-<translation id="6447211988989208781">Controles de atividade do Brave Software</translation>
+<translation id="6447211988989208781">Controles de atividade do Gab AI Inc</translation>
 <translation id="4882831918239250449">Controlar como o histórico de navegação é usado para personalizar a Pesquisa, os anúncios e muito mais</translation>
 <translation id="7431991332293347422">Controlar como o histórico de navegação é usado para personalizar a Pesquisa e muito mais</translation>
 <translation id="6303969859164067831">Sair e desativar a sincronização</translation>
-<translation id="1125261911132334651">Gerenciar sua Conta do Brave Software</translation>
+<translation id="1125261911132334651">Gerenciar sua Conta do Gab AI Inc</translation>
 <translation id="6406506848690869874">Sincronizar</translation>
-<translation id="714362445477979774">Sincronizar seus dados do Brave</translation>
+<translation id="714362445477979774">Sincronizar seus dados do Dissenter</translation>
 <translation id="4314815835985389558">Gerenciar sincronização</translation>
-<translation id="5428209950370661546">Outros serviços do Brave Software</translation>
+<translation id="5428209950370661546">Outros serviços do Gab AI Inc</translation>
 <translation id="7704317875155739195">Preencher automaticamente pesquisas e URLs</translation>
 <translation id="2000419248597011803">Envia alguns cookies e pesquisas da barra de endereço e da caixa de pesquisa para seu mecanismo de pesquisa padrão.</translation>
 <translation id="7981313251711023384">Pré-carregar páginas para possibilitar navegação e pesquisa mais rápidas</translation>
 <translation id="1821253160463689938">Utiliza cookies para lembrar suas preferências, mesmo se você não acessar essas páginas</translation>
 <translation id="6697492270171225480">Mostrar sugestões de páginas semelhantes quando uma página não for encontrada</translation>
-<translation id="8109318360573330108">Envia ao Brave Software o URL de uma página que você está tentando acessar</translation>
+<translation id="8109318360573330108">Envia ao Gab AI Inc o URL de uma página que você está tentando acessar</translation>
 <translation id="8438566539970814960">Melhorar as pesquisas e a navegação</translation>
-<translation id="284843628681142937">Envia URLs das páginas que você visita para o Brave Software</translation>
-<translation id="7222718784508482526">Para ver mais configurações relacionadas à privacidade, segurança e coleta de dados, acesse <ph name="BEGIN_LINK"/>Serviços do Brave Software e de sincronização<ph name="END_LINK"/></translation>
-<translation id="918192811481327695">Ajude a melhorar os recursos e o desempenho do Brave</translation>
-<translation id="9063160602596686558">Envia estatísticas de uso e relatórios de erros automaticamente para o Brave Software</translation>
+<translation id="284843628681142937">Envia URLs das páginas que você visita para o Gab AI Inc</translation>
+<translation id="7222718784508482526">Para ver mais configurações relacionadas à privacidade, segurança e coleta de dados, acesse <ph name="BEGIN_LINK"/>Serviços do Gab AI Inc e de sincronização<ph name="END_LINK"/></translation>
+<translation id="918192811481327695">Ajude a melhorar os recursos e o desempenho do Dissenter</translation>
+<translation id="9063160602596686558">Envia estatísticas de uso e relatórios de erros automaticamente para o Gab AI Inc</translation>
 <translation id="4824958205181053313">Cancelar sincronização?</translation>
 <translation id="3058498974290601450">Ative a sincronização quando quiser nas configurações</translation>
 <translation id="3143515551205905069">Cancelar sincronização</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Número do cartão</translation>
 <translation id="869891660844655955">Validade</translation>
 <translation id="2286841657746966508">Endereço de faturamento</translation>
-<translation id="663059986967017181">Copiado no Brave</translation>
+<translation id="663059986967017181">Copiado no Dissenter</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}one{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}one{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}one{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 e mais <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Login automático</translation>
 <translation id="363596933471559332">Faça login automaticamente nos websites usando as credenciais armazenadas. Se o recurso estiver desativado, será preciso fazer a verificação sempre antes de fazer login em um website.</translation>
 <translation id="6995899638241819463">Avisar se suas senhas forem expostas em uma violação de dados</translation>
-<translation id="1534287762301776620">Quando você faz login na sua Conta do Brave Software, este recurso é ativado</translation>
+<translation id="1534287762301776620">Quando você faz login na sua Conta do Gab AI Inc, este recurso é ativado</translation>
 <translation id="10614374240317010">Nunca salvas</translation>
-<translation id="3098842761938485917">Ver e gerenciar as senhas salvas na sua <ph name="BEGIN_LINK"/>Conta do Brave Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Ver e gerenciar as senhas salvas na sua <ph name="BEGIN_LINK"/>Conta do Gab AI Inc<ph name="END_LINK"/></translation>
 <translation id="8562452229998620586">As senhas salvas aparecerão aqui.</translation>
 <translation id="8084114998886531721">Senha salva</translation>
 <translation id="2870560284913253234">Site</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Ative o bloqueio da tela em Configurações para exportar suas senhas deste dispositivo</translation>
 <translation id="4842092870884894799">Mostrando pop-up da criação de senhas</translation>
 <translation id="2259659629660284697">Exportar senhas…</translation>
-<translation id="133012818630824069">Exportar senhas armazenadas com o Brave</translation>
+<translation id="133012818630824069">Exportar senhas armazenadas com o Dissenter</translation>
 <translation id="6914783257214138813">Suas senhas ficarão visíveis para qualquer pessoa que tiver acesso ao arquivo exportado.</translation>
 <translation id="2321086116217818302">Preparando senhas…</translation>
 <translation id="8445448999790540984">Não é possível exportar senhas</translation>
-<translation id="3066461326500799725">Saber como usar o Brave Software Drive</translation>
+<translation id="3066461326500799725">Saber como usar o Gab AI Inc Drive</translation>
 <translation id="729975465115245577">Seu dispositivo não tem um app para armazenar o arquivo de senhas.</translation>
 <translation id="7682724950699840886">Experimente as seguintes dicas: verifique se há espaço suficiente no dispositivo e tente exportar novamente.</translation>
 <translation id="1129510026454351943">Detalhes: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Desbloqueie para copiar sua senha</translation>
 <translation id="5515439363601853141">Desbloqueie para ver sua senha</translation>
 <translation id="6221633008163990886">Desbloqueie para exportar suas senhas</translation>
-<translation id="230699814587342492">Senhas do Brave</translation>
+<translation id="230699814587342492">Senhas do Dissenter</translation>
 <translation id="6075798973483050474">Editar página inicial</translation>
 <translation id="854522910157234410">Abrir esta página</translation>
 <translation id="2482878487686419369">Notificações</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Ativa o tema escuro quando essa opção ou a "Economia de bateria" do dispositivo está ativada</translation>
 <translation id="6381421346744604172">Escurecer sites</translation>
 <translation id="5040262127954254034">Privacidade</translation>
-<translation id="4991384657077828949">Ajudar a melhorar a segurança do Brave</translation>
-<translation id="1943176487615318915">Para detectar apps e sites perigosos, o Brave envia para o Brave Software URLs de algumas páginas visitadas, informações limitadas do sistema e um pouco do conteúdo da página</translation>
+<translation id="4991384657077828949">Ajudar a melhorar a segurança do Dissenter</translation>
+<translation id="1943176487615318915">Para detectar apps e sites perigosos, o Dissenter envia para o Gab AI Inc URLs de algumas páginas visitadas, informações limitadas do sistema e um pouco do conteúdo da página</translation>
 <translation id="3181954750937456830">Navegação segura: protege você e seu dispositivo de sites perigosos</translation>
-<translation id="7315322926489145388">Quando há risco de segurança, envia para o Brave Software os URLs de algumas páginas que você visita</translation>
+<translation id="7315322926489145388">Quando há risco de segurança, envia para o Gab AI Inc os URLs de algumas páginas que você visita</translation>
 <translation id="2063713494490388661">Tocar para pesquisar</translation>
-<translation id="2369463299479365221">Saiba mais sobre um determinado assunto de um site sem sair da página. Com o recurso "Tocar para pesquisar", você toca na palavra e o contexto relacionado é enviado para a Pesquisa Brave Software, que então mostra definições, imagens, resultados da pesquisa e outros detalhes relacionados para você.
+<translation id="2369463299479365221">Saiba mais sobre um determinado assunto de um site sem sair da página. Com o recurso "Tocar para pesquisar", você toca na palavra e o contexto relacionado é enviado para a Pesquisa Gab AI Inc, que então mostra definições, imagens, resultados da pesquisa e outros detalhes relacionados para você.
 
 Para ajustar o termo de pesquisa, toque nele e mantenha-o pressionado. Para refinar a pesquisa, deslize o painel totalmente para cima e toque na caixa de pesquisa.</translation>
-<translation id="2930742481329940825">O recurso "Tocar para pesquisar" envia a palavra selecionada e a página atual como contexto para a Pesquisa Brave Software. É possível desativá-lo em <ph name="BEGIN_LINK"/>Configurações<ph name="END_LINK"/>.</translation>
+<translation id="2930742481329940825">O recurso "Tocar para pesquisar" envia a palavra selecionada e a página atual como contexto para a Pesquisa Gab AI Inc. É possível desativá-lo em <ph name="BEGIN_LINK"/>Configurações<ph name="END_LINK"/>.</translation>
 <translation id="5039804452771397117">Permitir</translation>
 <translation id="1406000523432664303">"Não rastrear"</translation>
 <translation id="6232535412751077445">Ao ativar o recurso "Não rastrear" uma solicitação é incluída no tráfego de navegação. O resultado depende da resposta de um site à solicitação e de como a solicitação é interpretada.
@@ -197,19 +197,19 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="7359002509206457351">Acessar formas de pagamento</translation>
 <translation id="8026334261755873520">Limpar dados de navegação</translation>
 <translation id="1291207594882862231">Limpar histórico, cookies, dados do site, cache…</translation>
-<translation id="7814200940910057384">Dados do Brave apagados</translation>
-<translation id="1664855196866195614">Os dados selecionados foram removidos do Brave e dos seus dispositivos sincronizados.
+<translation id="7814200940910057384">Dados do Dissenter apagados</translation>
+<translation id="1664855196866195614">Os dados selecionados foram removidos do Dissenter e dos seus dispositivos sincronizados.
 
-É possível que sua Conta do Brave Software tenha outras formas de histórico de navegação, como pesquisas e atividades de outros serviços do Brave Software em 
+É possível que sua Conta do Gab AI Inc tenha outras formas de histórico de navegação, como pesquisas e atividades de outros serviços do Gab AI Inc em 
  <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="4699172675775169585">Imagens e arquivos armazenados em cache</translation>
 <translation id="2496180316473517155">Histórico de navegação</translation>
 <translation id="2546283357679194313">Cookies e dados do site</translation>
 <translation id="8662811608048051533">Desconecta você da maioria dos sites.</translation>
-<translation id="8218628800671693884">Desconecta você da maioria dos sites, mas não da sua Conta do Brave Software.</translation>
+<translation id="8218628800671693884">Desconecta você da maioria dos sites, mas não da sua Conta do Gab AI Inc.</translation>
 <translation id="2017836877785168846">Limpa o histórico e o preenchimento automático na barra de endereço.</translation>
-<translation id="8096327394278038498">Limpa o histórico e os preenchimentos automáticos na barra de endereço. Sua Conta do Brave Software pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Limpa o histórico de todos os dispositivos conectados. Sua Conta do Brave Software pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Limpa o histórico e os preenchimentos automáticos na barra de endereço. Sua Conta do Gab AI Inc pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Limpa o histórico de todos os dispositivos conectados. Sua Conta do Gab AI Inc pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="5869522115854928033">Senhas salvas</translation>
 <translation id="6865313869410766144">Preenchimento automático de dados de formulário</translation>
 <translation id="7562080006725997899">Limpando dados de navegação</translation>
@@ -226,7 +226,7 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="6643016212128521049">Limpar</translation>
 <translation id="7641339528570811325">Limpar dados de navegação…</translation>
 <translation id="1670399744444387456">Básico</translation>
-<translation id="3245261285041759672">Sua Conta do Brave Software pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3245261285041759672">Sua Conta do Gab AI Inc pode ter outras formas de histórico de navegação em <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7274013316676448362">Site bloqueado</translation>
 <translation id="2534155362429831547">Itens excluídos: <ph name="NUMBER_OF_ITEMS"/></translation>
 <translation id="6981982820502123353">Acessibilidade</translation>
@@ -336,12 +336,12 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="8156139159503939589">Quais idiomas você lê?</translation>
 <translation id="5689516760719285838">Local</translation>
 <translation id="2440823041667407902">Acesso ao local</translation>
-<translation id="2023546461831060654">Ative as permissões para o Brave nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">Ative a permissão para o Brave nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
-<translation id="2928908108430545745">Para permitir que o Brave acesse sua localização, ative-a nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
-<translation id="1028853271388022585">Para permitir que o Brave acesse sua câmera, ative-a também nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
-<translation id="2913721282607281710">Para permitir que o Brave envie notificações, ative-as também nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
-<translation id="8753483718490035722">Para permitir que o Brave acesse seu microfone, ative-o nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="2023546461831060654">Ative as permissões para o Dissenter nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">Ative a permissão para o Dissenter nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="2928908108430545745">Para permitir que o Dissenter acesse sua localização, ative-a nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="1028853271388022585">Para permitir que o Dissenter acesse sua câmera, ative-a também nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="2913721282607281710">Para permitir que o Dissenter envie notificações, ative-as também nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
+<translation id="8753483718490035722">Para permitir que o Dissenter acesse seu microfone, ative-o nas <ph name="BEGIN_LINK"/>configurações do Android<ph name="END_LINK"/>.</translation>
 <translation id="1887786770086287077">O acesso ao local está desativado para este dispositivo. Ative-o nas <ph name="BEGIN_LINK"/>Configurações do Android<ph name="END_LINK"/>.</translation>
 <translation id="2570922361219980984">O acesso ao local também está desativado para este dispositivo. Ative-o nas <ph name="BEGIN_LINK"/>Configurações do Android<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Câmera</translation>
@@ -359,8 +359,8 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="7821588508402923572">Sua economia de dados será exibida aqui</translation>
 <translation id="2131665479022868825"><ph name="DATA"/> salvo(s)</translation>
 <translation id="8569404424186215731">desde <ph name="DATE"/></translation>
-<translation id="3252158532344029638">Com o Modo Lite, as páginas são carregadas mais rapidamente no Brave, e há uma economia de dados de até 60 por cento.</translation>
-<translation id="1438581767753657407">Quando o modo Lite estiver ativo, Brave usará os servidores Brave para fazer com que as páginas carreguem mais rápido. O modo Lite reescreve páginas muito lentas para que carreguem apenas o conteúdo essencial. O modo Lite não funciona em abas privadas.</translation>
+<translation id="3252158532344029638">Com o Modo Lite, as páginas são carregadas mais rapidamente no Dissenter, e há uma economia de dados de até 60 por cento.</translation>
+<translation id="1438581767753657407">Quando o modo Lite estiver ativo, Dissenter usará os servidores Dissenter para fazer com que as páginas carreguem mais rápido. O modo Lite reescreve páginas muito lentas para que carreguem apenas o conteúdo essencial. O modo Lite não funciona em abas privadas.</translation>
 <translation id="6159335304067198720">Economia de dados de <ph name="PERCENT"/></translation>
 <translation id="7494974237137038751">de dados economizados</translation>
 <translation id="6111020039983847643">dados usados</translation>
@@ -382,15 +382,15 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="1856325424225101786">Redefinir o Modo Lite?</translation>
 <translation id="3658159451045945436">A redefinição limpa o histórico da economia de dados, incluindo a lista de sites visitados.</translation>
 <translation id="3295530008794733555">Navegue com mais rapidez. Use menos dados.</translation>
-<translation id="7340390500800578919">Com o Modo Lite, as páginas são carregadas mais rapidamente no Brave, e há uma economia de dados de até 60%. Para otimizar as páginas visitadas, o Brave envia seu tráfego da Web para o Brave Software. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">Com o Modo Lite, as páginas são carregadas mais rapidamente no Dissenter, e há uma economia de dados de até 60%. Para otimizar as páginas visitadas, o Dissenter envia seu tráfego da Web para o Gab AI Inc. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">Ativar Modo Lite</translation>
 <translation id="4493497663118223949">Modo Lite ativado</translation>
 <translation id="7559975015014302720">Modo Lite desativado</translation>
 <translation id="7606077192958116810">Modo Lite ativado. Gerencie-o nas configurações.</translation>
 <translation id="4714588616299687897">Economize até 60% dos seus dados</translation>
-<translation id="1006927014032731288">Os servidores do Brave Software otimizarão as páginas visitadas.</translation>
-<translation id="3257320067425202300">O Brave economizou <ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">O Brave economizou <ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">Os servidores do Gab AI Inc otimizarão as páginas visitadas.</translation>
+<translation id="3257320067425202300">O Dissenter economizou <ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">O Dissenter economizou <ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">Local de download</translation>
 <translation id="7077143737582773186">Cartão SD</translation>
 <translation id="7762668264895820836">Cartão SD <ph name="SD_CARD_NUMBER"/></translation>
@@ -416,15 +416,15 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="7290209999329137901">Ação de renomear indisponível</translation>
 <translation id="3334729583274622784">Mudar extensão do arquivo?</translation>
 <translation id="107147699690128016">Se você mudar a extensão do arquivo, ele poderá ser aberto em um aplicativo diferente e colocar em risco seu dispositivo.</translation>
-<translation id="8541922081612557424">Sobre o Brave Software Brave</translation>
-<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Brave Software LLC. Todos os direitos reservados.</translation>
+<translation id="8541922081612557424">Sobre o Gab AI Inc Dissenter</translation>
+<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Gab AI Inc LLC. Todos os direitos reservados.</translation>
 <translation id="1416550906796893042">Versão do aplicativo</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (atualizada <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Sistema operacional</translation>
-<translation id="3968054912784331254">As atualizações do Brave não são mais compatíveis com esta versão do Android</translation>
+<translation id="3968054912784331254">As atualizações do Dissenter não são mais compatíveis com esta versão do Android</translation>
 <translation id="7665369617277396874">Adicionar conta</translation>
-<translation id="649070405679044769">Conectado ao Brave Software como</translation>
-<translation id="6234515504547364178">Sair do Brave Software Brave</translation>
+<translation id="649070405679044769">Conectado ao Gab AI Inc como</translation>
+<translation id="6234515504547364178">Sair do Gab AI Inc Dissenter</translation>
 <translation id="5324858694974489420">Configurações dos pais</translation>
 <translation id="8920114477895755567">Aguardando detalhes dos pais.</translation>
 <translation id="5512137114520586844">Esta conta é gerenciada por <ph name="PARENT_NAME"/>.</translation>
@@ -433,7 +433,7 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="5403644198645076998">Permitir apenas determinados sites</translation>
 <translation id="8641930654639604085">Tentar bloquear sites com conteúdo para adultos</translation>
 <translation id="5639724618331995626">Permitir todos os sites</translation>
-<translation id="796823723482603597">Em execução no Brave</translation>
+<translation id="796823723482603597">Em execução no Dissenter</translation>
 <translation id="6324034347079777476">Sincronização do sistema Android desativada</translation>
 <translation id="5127805178023152808">A sincronização está desativada</translation>
 <translation id="7015203776128479407">A configuração de sincronização inicial não foi concluída. A sincronização está desativada.</translation>
@@ -442,48 +442,48 @@ Por exemplo, alguns sites podem responder a esse pedido mostrando anúncios que 
 <translation id="6108923351542677676">Configuração em andamento...</translation>
 <translation id="4062305924942672200">Informações legais</translation>
 <translation id="4256782883801055595">Licenças de código aberto</translation>
-<translation id="1138681184697033370">Termos de Serviço do Brave</translation>
-<translation id="7392539049993970338">Aviso de Privacidade do Brave</translation>
+<translation id="1138681184697033370">Termos de Serviço do Dissenter</translation>
+<translation id="7392539049993970338">Aviso de Privacidade do Dissenter</translation>
 <translation id="2677748264148917807">Sair</translation>
 <translation id="5556459405103347317">Recarregar</translation>
 <translation id="1623104350909869708">Impedir que esta página crie caixas de diálogo adicionais</translation>
 <translation id="2968755619301702150">Leitor de certificados</translation>
 <translation id="1360432990279830238">Sair e desativar a sincronização?</translation>
-<translation id="8581481290581777242">Limpar seus dados do Brave deste dispositivo?</translation>
-<translation id="1318865768845061710">Seus favoritos, histórico, senhas e outros dados do Brave não serão mais sincronizados com sua Conta do Brave Software</translation>
-<translation id="3325020657155065477">Limpar também seus dados do Brave deste dispositivo</translation>
-<translation id="6136448902816743006">Você está saindo de uma conta gerenciada por <ph name="DOMAIN_NAME"/>, por isso seus dados do Brave serão excluídos deste dispositivo. No entanto, eles permanecerão na sua Conta do Brave Software.</translation>
-<translation id="1853026300647876496">Entrando em contato com o Brave Software. Isso pode levar um minuto…</translation>
+<translation id="8581481290581777242">Limpar seus dados do Dissenter deste dispositivo?</translation>
+<translation id="1318865768845061710">Seus favoritos, histórico, senhas e outros dados do Dissenter não serão mais sincronizados com sua Conta do Gab AI Inc</translation>
+<translation id="3325020657155065477">Limpar também seus dados do Dissenter deste dispositivo</translation>
+<translation id="6136448902816743006">Você está saindo de uma conta gerenciada por <ph name="DOMAIN_NAME"/>, por isso seus dados do Dissenter serão excluídos deste dispositivo. No entanto, eles permanecerão na sua Conta do Gab AI Inc.</translation>
+<translation id="1853026300647876496">Entrando em contato com o Gab AI Inc. Isso pode levar um minuto…</translation>
 <translation id="2328985652426384049">Não consigo fazer login</translation>
-<translation id="7723158744459952869">O Brave Software demorou muito para responder</translation>
+<translation id="7723158744459952869">O Gab AI Inc demorou muito para responder</translation>
 <translation id="4572422548854449519">Fazer login em conta gerenciada</translation>
-<translation id="2689656545739939160">Você está fazendo login com uma conta gerenciada por <ph name="MANAGED_DOMAIN"/> e dando ao administrador dela o controle sobre seus dados do Brave, os quais ficarão permanentemente vinculados a essa conta. Se você sair do Brave, seus dados serão excluídos desse dispositivo, mas permanecerão armazenados na sua Conta do Brave Software.</translation>
+<translation id="2689656545739939160">Você está fazendo login com uma conta gerenciada por <ph name="MANAGED_DOMAIN"/> e dando ao administrador dela o controle sobre seus dados do Dissenter, os quais ficarão permanentemente vinculados a essa conta. Se você sair do Dissenter, seus dados serão excluídos desse dispositivo, mas permanecerão armazenados na sua Conta do Gab AI Inc.</translation>
 <translation id="1749561566933687563">Sincronize seus favoritos</translation>
 <translation id="4242533952199664413">Abrir configurações.</translation>
 <translation id="1111673857033749125">Favoritos salvos nos seus outros dispositivos serão exibidos aqui.</translation>
 <translation id="8636825310635137004">Para ver suas guias abertas em outros dispositivos, ative a sincronização.</translation>
 <translation id="3269956123044984603">Para ver as guias dos seus outros dispositivos, ative a opção "Sincronizar dados automaticamente" nas configurações de conta do Android.</translation>
-<translation id="5157964048453367290">As guias que você abriu no Brave nos seus outros dispositivos serão exibidas aqui.</translation>
+<translation id="5157964048453367290">As guias que você abriu no Dissenter nos seus outros dispositivos serão exibidas aqui.</translation>
 <translation id="4684427112815847243">Sincronizar tudo</translation>
 <translation id="2709516037105925701">Preenchimento automático</translation>
 <translation id="8820817407110198400">Favoritos</translation>
 <translation id="1644574205037202324">Histórico</translation>
 <translation id="17513872634828108">Guias abertas</translation>
-<translation id="1320169905922104972">Cartões de crédito e endereços que usam o Brave Software Pay</translation>
+<translation id="1320169905922104972">Cartões de crédito e endereços que usam o Gab AI Inc Pay</translation>
 <translation id="6337234675334993532">Criptografia</translation>
 <translation id="6698801883190606802">Gerenciar dados sincronizados</translation>
-<translation id="3598578758776312506">Usar as credenciais do Brave Software para criptografar e proteger minhas senhas</translation>
-<translation id="7810580217418711046">Criptografar dados sincronizados com a senha do Brave Software a partir de <ph name="TIME"/></translation>
+<translation id="3598578758776312506">Usar as credenciais do Gab AI Inc para criptografar e proteger minhas senhas</translation>
+<translation id="7810580217418711046">Criptografar dados sincronizados com a senha do Gab AI Inc a partir de <ph name="TIME"/></translation>
 <translation id="8461694314515752532">Criptografar dados sincronizados com sua senha de sincronização</translation>
 <translation id="2996291259634659425">Criar senha longa</translation>
-<translation id="5713644099811900409">Conta do Brave Software</translation>
-<translation id="8997474919031554666">A criptografia por senha longa não inclui formas de pagamento e endereços do Brave Software Pay. Apenas uma pessoa que tenha sua senha longa pode ler seus dados criptografados. Essa senha não é enviada ou armazenada pelo Brave Software. Se você esquecer a senha longa ou quiser alterar essa configuração, será necessário redefinir a sincronização. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Conta do Gab AI Inc</translation>
+<translation id="8997474919031554666">A criptografia por senha longa não inclui formas de pagamento e endereços do Gab AI Inc Pay. Apenas uma pessoa que tenha sua senha longa pode ler seus dados criptografados. Essa senha não é enviada ou armazenada pelo Gab AI Inc. Se você esquecer a senha longa ou quiser alterar essa configuração, será necessário redefinir a sincronização. <ph name="BEGIN_LINK"/>Saiba mais<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">Senha</translation>
 <translation id="7772032839648071052">Confirmar senha</translation>
 <translation id="5304593522240415983">Este campo não pode ficar em branco</translation>
 <translation id="321773570071367578">Se você esqueceu sua senha longa ou deseja alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronização<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">As senhas não correspondem</translation>
-<translation id="5149495116300586333">A criptografia por senha longa não inclui formas de pagamento e endereços do Brave Software Pay.
+<translation id="5149495116300586333">A criptografia por senha longa não inclui formas de pagamento e endereços do Gab AI Inc Pay.
 
 Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronização<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Senha incorreta</translation>
@@ -500,11 +500,11 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Receber ajuda<ph name="END_LINK1"/> ou <ph name="BEGIN_LINK2"/>verificar novamente<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">Nenhum dispositivo compatível encontrado</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Ativar o Bluetooth<ph name="END_LINK"/> para permitir o pareamento</translation>
-<translation id="998321811308652668">O Brave não pôde ativar o adaptador Bluetooth</translation>
+<translation id="998321811308652668">O Dissenter não pôde ativar o adaptador Bluetooth</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Receber ajuda<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">O Brave precisa de acesso ao local para procurar por dispositivos. <ph name="BEGIN_LINK"/>Atualizar permissões<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">O Brave precisa ter acesso ao local para verificar dispositivos. O acesso ao local está <ph name="BEGIN_LINK"/>desativado neste dispositivo<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">O Brave precisa ter acesso ao local para procurar dispositivos. <ph name="BEGIN_LINK1"/>Atualize as permissões<ph name="END_LINK1"/>. O acesso ao local também está <ph name="BEGIN_LINK2"/>desativado neste dispositivo<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">O Dissenter precisa de acesso ao local para procurar por dispositivos. <ph name="BEGIN_LINK"/>Atualizar permissões<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">O Dissenter precisa ter acesso ao local para verificar dispositivos. O acesso ao local está <ph name="BEGIN_LINK"/>desativado neste dispositivo<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">O Dissenter precisa ter acesso ao local para procurar dispositivos. <ph name="BEGIN_LINK1"/>Atualize as permissões<ph name="END_LINK1"/>. O acesso ao local também está <ph name="BEGIN_LINK2"/>desativado neste dispositivo<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Dispositivo conectado</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Nível de intensidade do sinal: de # barra}one{Nível de intensidade do sinal: de # barra}other{Nível de intensidade do sinal: de # barras}}</translation>
 <translation id="5230560987958996918">Solicitação de <ph name="SITE"/> para procurar dispositivos Bluetooth próximos. Os seguintes dispositivos foram encontrados:</translation>
@@ -512,11 +512,11 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="7605594153474022051">A sincronização não está funcionando</translation>
 <translation id="2537178555904266562">Erro ao sincronizar senhas</translation>
 <translation id="1810845389119482123">Configuração de sincronização inicial não concluída</translation>
-<translation id="3235722914093408050">Abrir configs. Android e reativar sincronização do Android p/ sincronizar Brave</translation>
+<translation id="3235722914093408050">Abrir configs. Android e reativar sincronização do Android p/ sincronizar Dissenter</translation>
 <translation id="3367813778245106622">Faça login novamente para começar a sincronizar</translation>
 <translation id="3701167022068948696">Corrigir agora</translation>
 <translation id="974555521953189084">Digite sua senha longa para iniciar a sincronização</translation>
-<translation id="2997266899014181325">Para iniciar a sincronização, ative a opção "Sincronizar seus dados do Brave".</translation>
+<translation id="2997266899014181325">Para iniciar a sincronização, ative a opção "Sincronizar seus dados do Dissenter".</translation>
 <translation id="8260126382462817229">Tente fazer login novamente</translation>
 <translation id="5919204609460789179">Atualize <ph name="PRODUCT_NAME"/> para iniciar a sincronização</translation>
 <translation id="397583555483684758">A sincronização parou de funcionar</translation>
@@ -549,14 +549,14 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> botão <ph name="LINK_NAME"/></translation>
 <translation id="3205824638308738187">Quase lá.</translation>
-<translation id="3960299545138990065">Reiniciar o Brave</translation>
+<translation id="3960299545138990065">Reiniciar o Dissenter</translation>
 <translation id="3771001275138982843">Não foi possível fazer o download da atualização</translation>
-<translation id="3888648114124182147">Fazendo o download da atualização do Brave…</translation>
-<translation id="1705567146636171298">Atualizar o Brave Software Brave</translation>
-<translation id="6195417478702700398">Para ter a melhor experiência de navegação, abra para atualizar o Brave</translation>
-<translation id="3512968675351418494">Para ver as páginas da Web no seu idioma, instale a versão mais recente do Brave</translation>
+<translation id="3888648114124182147">Fazendo o download da atualização do Dissenter…</translation>
+<translation id="1705567146636171298">Atualizar o Gab AI Inc Dissenter</translation>
+<translation id="6195417478702700398">Para ter a melhor experiência de navegação, abra para atualizar o Dissenter</translation>
+<translation id="3512968675351418494">Para ver as páginas da Web no seu idioma, instale a versão mais recente do Dissenter</translation>
 <translation id="6427112570124116297">Traduzir página da Web</translation>
-<translation id="1379423114029199501">Faça a atualização para usar a versão mais recente do Brave no seu idioma</translation>
+<translation id="1379423114029199501">Faça a atualização para usar a versão mais recente do Dissenter no seu idioma</translation>
 <translation id="5684874026226664614">Não foi possível traduzir esta página.</translation>
 <translation id="6831043979455480757">Traduzir</translation>
 <translation id="1285320974508926690">Nunca traduzir este site</translation>
@@ -579,11 +579,11 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="2532336938189706096">Visualização da Web</translation>
 <translation id="6005538289190791541">Senha sugerida</translation>
 <translation id="4634124774493850572">Usar senha</translation>
-<translation id="8285489906452138776">O Brave precisa de permissão para este site acessar sua câmera.</translation>
-<translation id="320189792589364011">O Brave precisa de permissão para este site acessar seu microfone.</translation>
-<translation id="7988136689212463100">O Brave precisa de permissão para este site acessar sua câmera e seu microfone.</translation>
-<translation id="4931190655840828017">O Brave precisa acessar sua localização para compartilhá-la com este site.</translation>
-<translation id="3088191967551450609">O Brave precisa de acesso para fazer o download e armazenar arquivos.</translation>
+<translation id="8285489906452138776">O Dissenter precisa de permissão para este site acessar sua câmera.</translation>
+<translation id="320189792589364011">O Dissenter precisa de permissão para este site acessar seu microfone.</translation>
+<translation id="7988136689212463100">O Dissenter precisa de permissão para este site acessar sua câmera e seu microfone.</translation>
+<translation id="4931190655840828017">O Dissenter precisa acessar sua localização para compartilhá-la com este site.</translation>
+<translation id="3088191967551450609">O Dissenter precisa de acesso para fazer o download e armazenar arquivos.</translation>
 <translation id="8942627711005830162">Abrir em outra janela</translation>
 <translation id="4195643157523330669">Abrir em uma nova guia</translation>
 <translation id="1100066534610197918">Abrir em nova guia no grupo</translation>
@@ -600,15 +600,15 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="8073388330009372546">Abrir imagem em nova guia</translation>
 <translation id="6649642165559792194">Visualizar imagem <ph name="BEGIN_NEW"/>Novidade<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Carregar imagem</translation>
-<translation id="3845332215609790146">Pesquisar com Brave Software Lens <ph name="BEGIN_NEW"/>Novo<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Pesquisar com Gab AI Inc Lens <ph name="BEGIN_NEW"/>Novo<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">Pesquisar imagem no <ph name="SEARCH_ENGINE"/></translation>
 <translation id="3384347053049321195">Compartilhar imagem</translation>
 <translation id="5833984609253377421">Compartilhar link</translation>
 <translation id="6475951671322991020">Fazer o download do vídeo</translation>
-<translation id="2317945146070194624">Abrir em nova guia do Brave</translation>
+<translation id="2317945146070194624">Abrir em nova guia do Dissenter</translation>
 <translation id="7975379999046275268">Visualizar página <ph name="BEGIN_NEW"/>Novidade<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Atualizando página</translation>
-<translation id="6990079615885386641">Comprar aplicativo na Brave Software Play Store: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Comprar aplicativo na Gab AI Inc Play Store: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Escuro</translation>
 <translation id="1807246157184219062">Claro</translation>
 <translation id="4056223980640387499">Sépia</translation>
@@ -635,9 +635,9 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="164269334534774161">Você está vendo uma cópia off-line desta página de <ph name="CREATION_TIME"/></translation>
 <translation id="4594952190837476234">Esta página off-line é de <ph name="CREATION_TIME"/> e pode ser diferente da versão on-line.</translation>
 <translation id="8840953339110955557">Esta página pode ser diferente da versão on-line.</translation>
-<translation id="6405300764336705484">Este conteúdo é de <ph name="DOMAIN_NAME"/>, veiculado pelo Brave Software.</translation>
+<translation id="6405300764336705484">Este conteúdo é de <ph name="DOMAIN_NAME"/>, veiculado pelo Gab AI Inc.</translation>
 <translation id="1006017844123154345">Abrir on-line</translation>
-<translation id="3326636747541519688">Página Lite exibida pelo Brave Software</translation>
+<translation id="3326636747541519688">Página Lite exibida pelo Gab AI Inc</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Carregar página original<ph name="END_LINK"/> de <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Se estiver vendo isso com frequência, tente estas <ph name="BEGIN_LINK"/>sugestões<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Conteúdo oculto</translation>
@@ -734,19 +734,19 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">MM</translation>
 <translation id="605721222689873409">AA</translation>
-<translation id="724102042129299115">Tela de apresentação do Brave</translation>
+<translation id="724102042129299115">Tela de apresentação do Dissenter</translation>
 <translation id="2700285883409956633">Ao usar este aplicativo, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e com o <ph name="BEGIN_LINK2"/>Aviso de Privacidade<ph name="END_LINK2"/>.</translation>
-<translation id="1640714894372474981">Ao usar este aplicativo, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade<ph name="END_LINK2"/> do Brave, bem como o <ph name="BEGIN_LINK3"/>Aviso de Privacidade de Contas do Brave Software gerenciadas com o Family Link<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727">O app <ph name="APP_NAME"/> será aberto no Brave. Ao continuar, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade<ph name="END_LINK2"/> do Brave.</translation>
-<translation id="5071615083211946659">O app <ph name="APP_NAME"/> será aberto no Brave. Ao continuar, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade do Brave<ph name="END_LINK2"/>, assim como o <ph name="BEGIN_LINK3"/>Aviso de Privacidade de Contas do Brave Software gerenciadas com o Family Link<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Ajude a melhorar o Brave. Envie estatísticas de uso e relatórios de falhas ao Brave Software.</translation>
+<translation id="1640714894372474981">Ao usar este aplicativo, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade<ph name="END_LINK2"/> do Dissenter, bem como o <ph name="BEGIN_LINK3"/>Aviso de Privacidade de Contas do Gab AI Inc gerenciadas com o Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727">O app <ph name="APP_NAME"/> será aberto no Dissenter. Ao continuar, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade<ph name="END_LINK2"/> do Dissenter.</translation>
+<translation id="5071615083211946659">O app <ph name="APP_NAME"/> será aberto no Dissenter. Ao continuar, você concorda com os <ph name="BEGIN_LINK1"/>Termos de Serviço<ph name="END_LINK1"/> e o <ph name="BEGIN_LINK2"/>Aviso de Privacidade do Dissenter<ph name="END_LINK2"/>, assim como o <ph name="BEGIN_LINK3"/>Aviso de Privacidade de Contas do Gab AI Inc gerenciadas com o Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Ajude a melhorar o Dissenter. Envie estatísticas de uso e relatórios de falhas ao Gab AI Inc.</translation>
 <translation id="3518985090088779359">Aceitar e continuar</translation>
-<translation id="7207456302801184289">Bem-vindo ao Brave Software Brave</translation>
-<translation id="7189372733857464326">Aguardando o fim da atualização do Brave Software Play Services</translation>
+<translation id="7207456302801184289">Bem-vindo ao Gab AI Inc Dissenter</translation>
+<translation id="7189372733857464326">Aguardando o fim da atualização do Gab AI Inc Play Services</translation>
 <translation id="1231733316453485619">Ativar sincronização?</translation>
 <translation id="5132942445612118989">Sincronize suas senhas, seu histórico e muito mais em todos os dispositivos</translation>
-<translation id="5736731321935944068">O Brave Software pode usar seu histórico para personalizar a Pesquisa, os anúncios e outros serviços que ele oferece</translation>
-<translation id="4013614219085422040">O Brave Software pode usar seu histórico para personalizar a Pesquisa e outros serviços que ele oferece</translation>
+<translation id="5736731321935944068">O Gab AI Inc pode usar seu histórico para personalizar a Pesquisa, os anúncios e outros serviços que ele oferece</translation>
+<translation id="4013614219085422040">O Gab AI Inc pode usar seu histórico para personalizar a Pesquisa e outros serviços que ele oferece</translation>
 <translation id="5581519193887989363">Nas <ph name="BEGIN_LINK1"/>configurações<ph name="END_LINK1"/>, é possível escolher a qualquer momento o que é sincronizado.</translation>
 <translation id="741204030948306876">Sim</translation>
 <translation id="2410754283952462441">Escolher uma conta</translation>
@@ -754,8 +754,8 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="6210748933810148297">Não é <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">Para ter seus favoritos em todos os seus dispositivos, ative a sincronização</translation>
 <translation id="2818669890320396765">Para ter seus favoritos em todos os seus dispositivos, faça login e ative a sincronização</translation>
-<translation id="6003646045106347985">Para receber conteúdo personalizado sugerido pelo Brave Software, ative a sincronização</translation>
-<translation id="8494430740943879273">Para receber conteúdo personalizado sugerido pelo Brave Software, ative a sincronização</translation>
+<translation id="6003646045106347985">Para receber conteúdo personalizado sugerido pelo Gab AI Inc, ative a sincronização</translation>
+<translation id="8494430740943879273">Para receber conteúdo personalizado sugerido pelo Gab AI Inc, ative a sincronização</translation>
 <translation id="5862731021271217234">Para ver as guias dos seus outros dispositivos, ative a sincronização</translation>
 <translation id="3568688522516854065">Para ver as guias dos seus outros dispositivos, faça login e ative a sincronização</translation>
 <translation id="1208340532756947324">Para sincronizar e personalizar vários dispositivos, ative a sincronização</translation>
@@ -775,7 +775,7 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="5423934151118863508">Suas páginas mais visitadas aparecerão aqui</translation>
 <translation id="6127379762771434464">Item removido</translation>
 <translation id="4605958867780575332">Item removido: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Doodle do Brave Software: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Doodle do Gab AI Inc: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Outros dispositivos</translation>
 <translation id="4738836084190194332">Última sincronização: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{# minuto atrás}one{# minutos atrás}other{# minutos atrás}}</translation>
@@ -806,9 +806,9 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="1171770572613082465">Toque no botão "Sites famosos" para ver os sites muito acessados</translation>
 <translation id="5233638681132016545">Nova guia</translation>
 <translation id="6336451774241870485">Nova aba privada</translation>
-<translation id="4521874409998847950">De <ph name="PUBLISHER_ORIGIN"/>: <ph name="BEGIN_DEEMPHASIZED"/>veiculado pelo Brave Software<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">De <ph name="PUBLISHER_ORIGIN"/>: <ph name="BEGIN_DEEMPHASIZED"/>veiculado pelo Gab AI Inc<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">Versão mais recente disponível</translation>
-<translation id="4058091506841967397">Erro ao atualizar Brave</translation>
+<translation id="4058091506841967397">Erro ao atualizar Dissenter</translation>
 <translation id="6316139424528454185">Versão Android não compatível</translation>
 <translation id="6989267951144302301">Falha no download</translation>
 <translation id="624789221780392884">Atualização pronta</translation>
@@ -856,7 +856,7 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="2536728043171574184">Vendo uma cópia off-line desta página</translation>
 <translation id="4698034686595694889">Ver off-line no app <ph name="APP_NAME"/></translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> e outros sites</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{O Brave carregará sua página quando ela estiver pronta}one{O Brave carregará sua página quando ela estiver pronta}other{O Brave carregará suas páginas quando elas estiverem prontas}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{O Dissenter carregará sua página quando ela estiver pronta}one{O Dissenter carregará sua página quando ela estiver pronta}other{O Dissenter carregará suas páginas quando elas estiverem prontas}}</translation>
 <translation id="6811034713472274749">A página já pode ser visualizada</translation>
 <translation id="4561979708150884304">Sem conexão</translation>
 <translation id="8274165955039650276">Ver downloads</translation>
@@ -866,16 +866,16 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="3298243779924642547">Lite</translation>
 <translation id="393697183122708255">Nenhuma pesq. por voz ativada disponível</translation>
 <translation id="7191430249889272776">Guia aberta no plano de fundo.</translation>
-<translation id="8445059357334030806">Abrir no Brave Software Brave</translation>
+<translation id="8445059357334030806">Abrir no Gab AI Inc Dissenter</translation>
 <translation id="4720023427747327413">Abrir no <ph name="PRODUCT_NAME"/></translation>
 <translation id="7022756207310403729">Abrir no navegador</translation>
 <translation id="1113597929977215864">Mostrar a versão simplificada</translation>
 <translation id="1513352483775369820">Favoritos e histórico da Web</translation>
-<translation id="4939482511480190003">Ajude a melhorar o Brave. <ph name="BEGIN_LINK"/>Responda à pesquisa.<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Ajude a melhorar o Dissenter. <ph name="BEGIN_LINK"/>Responda à pesquisa.<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Voltar</translation>
 <translation id="5596627076506792578">Mais opções</translation>
 <translation id="3522247891732774234">Atualização disponível. Mais opções</translation>
-<translation id="6773423637732432200">Não é possível atualizar o Brave. Mais opções</translation>
+<translation id="6773423637732432200">Não é possível atualizar o Dissenter. Mais opções</translation>
 <translation id="3328801116991980348">Informações do site</translation>
 <translation id="5391532827096253100">Sua conexão com este site não é segura. Informações do site</translation>
 <translation id="6206551242102657620">A conexão é segura. Informações do site</translation>
@@ -935,7 +935,7 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="3211426585530211793">Item excluído: <ph name="ITEM_TITLE"/></translation>
 <translation id="4663756553811254707"><ph name="NUMBER_OF_BOOKMARKS"/> favoritos excluídos</translation>
 <translation id="3819178904835489326"><ph name="NUMBER_OF_DOWNLOADS"/> downloads excluídos</translation>
-<translation id="1248710015876067820">Número de instâncias do Brave Software Brave não suportado.</translation>
+<translation id="1248710015876067820">Número de instâncias do Gab AI Inc Dissenter não suportado.</translation>
 <translation id="4259722352634471385">A Navegação GPS está bloqueada: <ph name="URL"/></translation>
 <translation id="8959122750345127698">A Navegação GPS está inacessível: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Fechar guia</translation>
@@ -948,20 +948,20 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="8427875596167638501">A guia "Visualizar" está parcialmente aberta</translation>
 <translation id="9102803872260866941">A guia "Visualizar" está aberta</translation>
 <translation id="2942036813789421260">A guia "Visualizar" está fechada</translation>
-<translation id="6355102470683871794">Armazenamento do Brave Software <ph name="APP_NAME"/></translation>
+<translation id="6355102470683871794">Armazenamento do Gab AI Inc <ph name="APP_NAME"/></translation>
 <translation id="3822502789641063741">Limpar armazenamento de sites?</translation>
-<translation id="9205995714227143200">Dados de armazenamento de site que o Brave não acredita serem importantes (por exemplo, sites sem configurações salvas ou que você não visita com frequência)</translation>
+<translation id="9205995714227143200">Dados de armazenamento de site que o Dissenter não acredita serem importantes (por exemplo, sites sem configurações salvas ou que você não visita com frequência)</translation>
 <translation id="3997476611815694295">Armazenamento sem importância</translation>
 <translation id="8493948351860045254">Liberar espaço</translation>
-<translation id="2324920234469020158">Essa ação limpará os cookies, cache e outros dados de sites que o Brave não acredita serem importantes.</translation>
+<translation id="2324920234469020158">Essa ação limpará os cookies, cache e outros dados de sites que o Dissenter não acredita serem importantes.</translation>
 <translation id="5447201525962359567">Todos os dados de armazenamento de sites, incluindo cookies e outros dados armazenados localmente</translation>
 <translation id="1376578503827013741">Calculando…</translation>
 <translation id="583281660410589416">Desconhecido</translation>
 <translation id="2323763861024343754">Armazenamento do site</translation>
-<translation id="3587672679800759167">Total de dados utilizados pelo Brave, incluindo contas, favoritos e configurações salvas</translation>
+<translation id="3587672679800759167">Total de dados utilizados pelo Dissenter, incluindo contas, favoritos e configurações salvas</translation>
 <translation id="6545017243486555795">Limpar todos os dados</translation>
 <translation id="4095146165863963773">Excluir dados de apps?</translation>
-<translation id="53119194224775367">Todos os dados de app Brave serão excluídos permanentemente. Isso inclui todos os arquivos, configurações, contas, bancos de dados etc.</translation>
+<translation id="53119194224775367">Todos os dados de app Dissenter serão excluídos permanentemente. Isso inclui todos os arquivos, configurações, contas, bancos de dados etc.</translation>
 <translation id="5307446750509046227">Limpar armazen. de site</translation>
 <translation id="300526633675317032">Essa ação limpará tudo, <ph name="SIZE_IN_KB"/> de dados de armazenamento de sites.</translation>
 <translation id="8068648041423924542">Não foi possível selecionar certificado.</translation>
@@ -983,15 +983,15 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="1779089405699405702">Decodificador de imagem</translation>
 <translation id="8067883171444229417">Assistir vídeo</translation>
 <translation id="6560414384669816528">Pesquisar usando o Sogou</translation>
-<translation id="5406914950576900927">O Brave pode usar o <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> para fazer pesquisas na China. É possível alterar essa opção nas <ph name="BEGIN_LINK"/>Configurações<ph name="END_LINK"/>.</translation>
-<translation id="6456271171669383967">Continuar usando o Brave Software</translation>
+<translation id="5406914950576900927">O Dissenter pode usar o <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> para fazer pesquisas na China. É possível alterar essa opção nas <ph name="BEGIN_LINK"/>Configurações<ph name="END_LINK"/>.</translation>
+<translation id="6456271171669383967">Continuar usando o Gab AI Inc</translation>
 <translation id="4384468725000734951">Usando o Sogou para pesquisar</translation>
-<translation id="6103327872225198548">Usando o Brave Software para pesquisar</translation>
+<translation id="6103327872225198548">Usando o Gab AI Inc para pesquisar</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Este app está sendo executado no Brave</translation>
-<translation id="6143689084714664628">Executando no Brave</translation>
-<translation id="7675869148432102528">O app <ph name="APP_NAME"/> também tem dados no Brave</translation>
-<translation id="2734140769649165081">É possível limpar os dados nas configurações do Brave</translation>
+<translation id="919933208285147476">Este app está sendo executado no Dissenter</translation>
+<translation id="6143689084714664628">Executando no Dissenter</translation>
+<translation id="7675869148432102528">O app <ph name="APP_NAME"/> também tem dados no Dissenter</translation>
+<translation id="2734140769649165081">É possível limpar os dados nas configurações do Dissenter</translation>
 <translation id="8232956427053453090">Manter dados</translation>
 <translation id="4298388696830689168">Sites vinculados</translation>
 <translation id="5763514718066511291">Toque para copiar o URL desse app</translation>
@@ -1016,13 +1016,13 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 <translation id="8015452622527143194">Retornar tudo na página para o tamanho padrão</translation>
 <translation id="3443221991560634068">Atualizar a página atual</translation>
 <translation id="123724288017357924">Atualizar página atual e ignorar conteúdo em cache</translation>
-<translation id="305870044889644984">Abrir Central de Ajuda do Brave em uma nova guia</translation>
+<translation id="305870044889644984">Abrir Central de Ajuda do Dissenter em uma nova guia</translation>
 <translation id="3166827708714933426">Atalhos de guias e janelas</translation>
-<translation id="3169981355900570544">Atalhos de recursos do Brave Software Brave</translation>
+<translation id="3169981355900570544">Atalhos de recursos do Gab AI Inc Dissenter</translation>
 <translation id="4558311620361989323">Atalhos de páginas da Web</translation>
-<translation id="1908301351964700579">O Brave ainda está se preparando para a RV. Reinicie-o mais tarde.</translation>
+<translation id="1908301351964700579">O Dissenter ainda está se preparando para a RV. Reinicie-o mais tarde.</translation>
 <translation id="8970887620466824814">Algo deu errado.</translation>
-<translation id="1875543012935658554">Reabra o Brave.</translation>
+<translation id="1875543012935658554">Reabra o Dissenter.</translation>
 <translation id="79859296434321399">Para ver conteúdo de realidade aumentada, instale o ARCore</translation>
 <translation id="8558485628462305855">Para ver conteúdo de realidade aumentada, atualize o ARCore</translation>
 <translation id="3513704683820682405">Realidade aumentada</translation>
@@ -1034,9 +1034,9 @@ Para alterar essa configuração, <ph name="BEGIN_LINK"/>redefina a sincronizaç
 O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas para você.</translation>
 <translation id="1188239144602654184">Entrar na RA</translation>
 <translation id="473775607612524610">Atualizar</translation>
-<translation id="3133489217401741157">Instalando <ph name="MODULE"/> para o Brave…</translation>
+<translation id="3133489217401741157">Instalando <ph name="MODULE"/> para o Dissenter…</translation>
 <translation id="1791662854739702043">Instalado</translation>
-<translation id="5131234170665854056">Não é possível instalar <ph name="MODULE"/> para o Brave</translation>
+<translation id="5131234170665854056">Não é possível instalar <ph name="MODULE"/> para o Dissenter</translation>
 <translation id="2567385386134582609">IMAGEM</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="7352939065658542140">VÍDEO</translation>
@@ -1047,16 +1047,16 @@ O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas
 <translation id="3341058695485821946">Veja o volume de dados que você economizou</translation>
 <translation id="3157842584138209013">Veja o volume de dados que você economizou no botão Mais opções</translation>
 <translation id="8218622182176210845">Gerenciar sua conta</translation>
-<translation id="8090895580117672212">Para gerenciar sua Conta do Brave Software, toque no botão "Gerenciar conta".</translation>
-<translation id="8856898588039823173">Página Lite exibida pelo Brave Software. Toque para carregar a original.</translation>
-<translation id="8134317863207426198">Página Lite exibida pelo Brave Software. Toque no botão "Carregar original" para carregar a página original.</translation>
+<translation id="8090895580117672212">Para gerenciar sua Conta do Gab AI Inc, toque no botão "Gerenciar conta".</translation>
+<translation id="8856898588039823173">Página Lite exibida pelo Gab AI Inc. Toque para carregar a original.</translation>
+<translation id="8134317863207426198">Página Lite exibida pelo Gab AI Inc. Toque no botão "Carregar original" para carregar a página original.</translation>
 <translation id="4961107849584082341">Traduza esta página para qualquer idioma</translation>
 <translation id="569536719314091526">Traduza esta página para qualquer idioma com o botão "Mais opções"</translation>
 <translation id="1397811292916898096">Pesquisar com o <ph name="PRODUCT_NAME"/></translation>
 <translation id="1792959175193046959">Altere o local padrão de download a qualquer momento</translation>
 <translation id="6942665639005891494">Altere o local padrão de download a qualquer momento usando a opção do menu "Configurações"</translation>
 <translation id="6850409657436465440">Seu download ainda está em andamento</translation>
-<translation id="5817715962196959877">Agora o Brave faz o download de arquivos mais rapidamente</translation>
+<translation id="5817715962196959877">Agora o Dissenter faz o download de arquivos mais rapidamente</translation>
 <translation id="3976396876660209797">Remova e recrie este atalho</translation>
 <translation id="6766622839693428701">Deslize para baixo para fechar.</translation>
 <translation id="1028699632127661925">Enviando para este dispositivo: <ph name="DEVICE_NAME"/>…</translation>
@@ -1072,15 +1072,15 @@ O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas
 <translation id="1521774566618522728">Ativado hoje</translation>
 <translation id="3631987586758005671">Compartilhando com <ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">Ative a sincronização para compartilhar entre dispositivos</translation>
-<translation id="6162454065885854378">Para compartilhar conteúdo do seu smartphone com outro dispositivo, ative a sincronização nas configurações do Brave nos dois dispositivos</translation>
-<translation id="6084271560289605378">Acesse as configurações do Brave</translation>
+<translation id="6162454065885854378">Para compartilhar conteúdo do seu smartphone com outro dispositivo, ative a sincronização nas configurações do Dissenter nos dois dispositivos</translation>
+<translation id="6084271560289605378">Acesse as configurações do Dissenter</translation>
 <translation id="2318045970523081853">Toque para ligar</translation>
 <translation id="9209888181064652401">Não é possível fazer chamadas</translation>
 <translation id="2860954141821109167">Verifique se há um aplicativo para telefones ativado neste dispositivo</translation>
 <translation id="2067805253194386918">texto</translation>
 <translation id="1450753235335490080">Falha no compartilhamento de <ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">Falha no compartilhamento de <ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">Verifique se a sincronização do <ph name="TARGET_DEVICE_NAME"/> está ativada no Brave</translation>
+<translation id="8287068819750208230">Verifique se a sincronização do <ph name="TARGET_DEVICE_NAME"/> está ativada no Dissenter</translation>
 <translation id="3016635187733453316">Verifique se o dispositivo está conectado à Internet</translation>
 <translation id="8466613982764129868">Verifique se o <ph name="TARGET_DEVICE_NAME"/> está conectado à Internet</translation>
 <translation id="6539092367496845964">Algo deu errado. Tente novamente mais tarde.</translation>
@@ -1102,16 +1102,16 @@ O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas
 <translation id="7055152154916055070">Redirecionamento bloqueado:</translation>
 <translation id="5524843473235508879">Redirecionamento bloqueado.</translation>
 <translation id="6573096386450695060">Sempre permitir</translation>
-<translation id="5805364706385912897">Como esta página usa muita memória, o Brave a pausou.</translation>
-<translation id="5138664332909611586">Como esta página usa muita memória, o Brave removeu parte do conteúdo.</translation>
+<translation id="5805364706385912897">Como esta página usa muita memória, o Dissenter a pausou.</translation>
+<translation id="5138664332909611586">Como esta página usa muita memória, o Dissenter removeu parte do conteúdo.</translation>
 <translation id="9137013805542155359">Mostrar original</translation>
-<translation id="6361779936989026201">Brave Software Assistente no Brave</translation>
+<translation id="6361779936989026201">Gab AI Inc Assistente no Dissenter</translation>
 <translation id="7291387454912369099">Finalizar compras com o Assistente</translation>
-<translation id="4565206163201411670">Mostrar sua atividade do Brave no Bem-estar digital?</translation>
-<translation id="9055113864158719823">Você pode ver os sites que visita no Brave e definir timers para eles.\n\nO Brave Software recebe informações sobre os sites para os quais você definiu timers e sobre o tempo que você passa neles. Essas informações são usadas para melhorar o Bem-estar digital.</translation>
+<translation id="4565206163201411670">Mostrar sua atividade do Dissenter no Bem-estar digital?</translation>
+<translation id="9055113864158719823">Você pode ver os sites que visita no Dissenter e definir timers para eles.\n\nO Gab AI Inc recebe informações sobre os sites para os quais você definiu timers e sobre o tempo que você passa neles. Essas informações são usadas para melhorar o Bem-estar digital.</translation>
 <translation id="4596514158372210596">Remover sua atividade do Chorme do Bem-estar digital</translation>
-<translation id="1174893863889683998">Remover sua atividade do Brave do Bem-estar digital?</translation>
-<translation id="708829030563435351">Os sites que você visita no Brave não serão exibidos. Todos os timers do site serão excluídos.</translation>
+<translation id="1174893863889683998">Remover sua atividade do Dissenter do Bem-estar digital?</translation>
+<translation id="708829030563435351">Os sites que você visita no Dissenter não serão exibidos. Todos os timers do site serão excluídos.</translation>
 <translation id="2056878612599315956">Site pausado</translation>
 <translation id="671481426037969117">Seu timer para <ph name="FQDN"/> chegou ao fim. Ele será iniciado novamente amanhã.</translation>
 <translation id="7479104141328977413">Gerenciamento de guias</translation>
@@ -1122,7 +1122,7 @@ O site NÃO terá acesso à câmera. As imagens da câmera são visíveis apenas
 <translation id="246532703174860178">Compartilhar</translation>
 <translation id="2517472476991765520">Verificar</translation>
 <translation id="8628973420740315031">Para compartilhar com pessoas próximas, permita que elas leiam esse código QR</translation>
-<translation id="7339921667754113786">Plataforma de notificações do Brave Software</translation>
+<translation id="7339921667754113786">Plataforma de notificações do Gab AI Inc</translation>
 <translation id="8516012719330875537">Editor de imagem</translation>
 <translation id="4808319664292298116">Entrar na RV do <ph name="DOMAIN"/>?</translation>
 <translation id="4353114845960720315">Enquanto você estiver em RV, o site poderá receber dados sobre:</translation>

@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Engedélykérések</translation>
 <translation id="3749259744154402564">Nem támogatott</translation>
 <translation id="629730747756840877">Fiók</translation>
-<translation id="82609232232243542">Bejelentkezés a Brave-ba</translation>
-<translation id="7956662517480676674">Szinkronizálás és Brave Software</translation>
-<translation id="5294439808117722387">Jelenleg a Szinkronizálás és Brave Software beállításait szabja személyre. A szinkronizálás bekapcsolásának véglegesítéséhez koppintson a képernyő alján található Megerősítés gombra. Fel</translation>
+<translation id="82609232232243542">Bejelentkezés a Dissenter-ba</translation>
+<translation id="7956662517480676674">Szinkronizálás és Gab AI Inc</translation>
+<translation id="5294439808117722387">Jelenleg a Szinkronizálás és Gab AI Inc beállításait szabja személyre. A szinkronizálás bekapcsolásának véglegesítéséhez koppintson a képernyő alján található Megerősítés gombra. Fel</translation>
 <translation id="2096012225669085171">Szinkronizálás és személyre szabás az eszközök között</translation>
 <translation id="1692118695553449118">Szinkronizálás bekapcsolva</translation>
 <translation id="5514904542973294328">Letiltotta az eszköz rendszergazdája</translation>
-<translation id="6447211988989208781">Brave Software Tevékenységvezérlők</translation>
+<translation id="6447211988989208781">Gab AI Inc Tevékenységvezérlők</translation>
 <translation id="4882831918239250449">Beállíthatja, hogy a rendszer hogyan szabja személyre a Keresést, a hirdetéseket és egyebeket a böngészési előzmények alapján</translation>
 <translation id="7431991332293347422">Beállíthatja, hogy a rendszer hogyan szabja személyre a Keresést és egyebeket a böngészési előzmények alapján</translation>
 <translation id="6303969859164067831">Kijelentkezés, és a szinkronizálás kikapcsolása</translation>
-<translation id="1125261911132334651">Brave Software-fiók kezelése</translation>
+<translation id="1125261911132334651">Gab AI Inc-fiók kezelése</translation>
 <translation id="6406506848690869874">Szinkronizálás</translation>
-<translation id="714362445477979774">Brave-adatok szinkronizálása</translation>
+<translation id="714362445477979774">Dissenter-adatok szinkronizálása</translation>
 <translation id="4314815835985389558">Szinkronizálás kezelése</translation>
-<translation id="5428209950370661546">Egyéb Brave Software-szolgáltatások</translation>
+<translation id="5428209950370661546">Egyéb Gab AI Inc-szolgáltatások</translation>
 <translation id="7704317875155739195">Keresések és URL-címek automatikus kiegészítése</translation>
 <translation id="2000419248597011803">Bizonyos cookie-kat és kereséseket küld a címsávból és a keresőmezőből az alapértelmezett keresőmotornak</translation>
 <translation id="7981313251711023384">Oldalak előtöltése a gyorsabb böngészés és keresés érdekében</translation>
 <translation id="1821253160463689938">Cookie-kat használ a preferenciák megjegyzésére még akkor is, ha Ön nem keresi fel az adott oldalakat</translation>
 <translation id="6697492270171225480">Hasonló oldalakra vonatkozó javaslatok megjelenítése, ha az oldal nem található</translation>
-<translation id="8109318360573330108">Az elérni kívánt oldal URL-címének elküldése a Brave Software-nak</translation>
+<translation id="8109318360573330108">Az elérni kívánt oldal URL-címének elküldése a Gab AI Inc-nak</translation>
 <translation id="8438566539970814960">Keresések és böngészés javítása</translation>
-<translation id="284843628681142937">A felkeresett oldalak URL-címének elküldése a Brave Software-nak</translation>
-<translation id="7222718784508482526">A <ph name="BEGIN_LINK"/>Szinkronizálás és Brave Software<ph name="END_LINK"/> részben további beállításokat talál az adatvédelemre, biztonságra és adatgyűjtésre vonatkozóan</translation>
-<translation id="918192811481327695">Segítség a Brave funkcióinak és teljesítményének javítása érdekében</translation>
-<translation id="9063160602596686558">Automatikusan elküldi a használati statisztikákat és hibajelentéseket a Brave Software-nak</translation>
+<translation id="284843628681142937">A felkeresett oldalak URL-címének elküldése a Gab AI Inc-nak</translation>
+<translation id="7222718784508482526">A <ph name="BEGIN_LINK"/>Szinkronizálás és Gab AI Inc<ph name="END_LINK"/> részben további beállításokat talál az adatvédelemre, biztonságra és adatgyűjtésre vonatkozóan</translation>
+<translation id="918192811481327695">Segítség a Dissenter funkcióinak és teljesítményének javítása érdekében</translation>
+<translation id="9063160602596686558">Automatikusan elküldi a használati statisztikákat és hibajelentéseket a Gab AI Inc-nak</translation>
 <translation id="4824958205181053313">Megszakítja a szinkronizálást?</translation>
 <translation id="3058498974290601450">A szinkronizálás bármikor bekapcsolható a beállításokban</translation>
 <translation id="3143515551205905069">Szinkronizálás megszakítása</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Kártyaszám</translation>
 <translation id="869891660844655955">Lejárati dátum</translation>
 <translation id="2286841657746966508">Számlázási cím</translation>
-<translation id="663059986967017181">A Brave-ba másolva</translation>
+<translation id="663059986967017181">A Dissenter-ba másolva</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 és további <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Automatikus bejelentkezés</translation>
 <translation id="363596933471559332">Automatikus bejelentkezés webhelyekre a tárolt hitelesítő adatokkal. Ha ez a funkció ki van kapcsolva, mindig meg kell adnia hitelesítő adatait, amikor egy webhelyre szeretne bejelentkezni.</translation>
 <translation id="6995899638241819463">Figyelmeztetés, ha jelszavai adatvédelmi incidens során nyilvánosságra kerülnek</translation>
-<translation id="1534287762301776620">Amikor bejelentkezik Brave Software-fiókjába, a rendszer bekapcsolja ezt a funkciót</translation>
+<translation id="1534287762301776620">Amikor bejelentkezik Gab AI Inc-fiókjába, a rendszer bekapcsolja ezt a funkciót</translation>
 <translation id="10614374240317010">Az alábbi oldalakról soha ne mentsen jelszavakat</translation>
-<translation id="3098842761938485917">Mentett jelszavait megtekintheti és kezelheti <ph name="BEGIN_LINK"/>Brave Software-fiókjában<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Mentett jelszavait megtekintheti és kezelheti <ph name="BEGIN_LINK"/>Gab AI Inc-fiókjában<ph name="END_LINK"/></translation>
 <translation id="8562452229998620586">A mentett jelszavak itt jelennek meg.</translation>
 <translation id="8084114998886531721">Mentett jelszó</translation>
 <translation id="2870560284913253234">Webhely</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Kapcsolja be a képernyőzárat a Beállítások menüben, hogy exportálhassa az ezen az eszközön tárolt jelszavait</translation>
 <translation id="4842092870884894799">Jelszógenerálás előugró ablakának megjelenítése</translation>
 <translation id="2259659629660284697">Jelszavak exportálása…</translation>
-<translation id="133012818630824069">A Brave-ban tárolt jelszavak exportálása</translation>
+<translation id="133012818630824069">A Dissenter-ban tárolt jelszavak exportálása</translation>
 <translation id="6914783257214138813">Jelszavai mindenki számára láthatók lesznek, aki hozzáfér az exportált fájlhoz.</translation>
 <translation id="2321086116217818302">Jelszavak előkészítése…</translation>
 <translation id="8445448999790540984">Nem sikerült a jelszavak exportálása</translation>
-<translation id="3066461326500799725">További információ a Brave Software Drive használatáról</translation>
+<translation id="3066461326500799725">További információ a Gab AI Inc Drive használatáról</translation>
 <translation id="729975465115245577">Az eszközön nincs olyan alkalmazás, amely tárolni tudja a jelszavakat tartalmazó fájlt.</translation>
 <translation id="7682724950699840886">Próbálkozzon a következő tippekkel: Győződjön meg arról, hogy elegendő tárhely áll rendelkezésre az eszközön, majd próbálja újra az exportálást.</translation>
 <translation id="1129510026454351943">Részletek: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Oldja fel a képernyőzárat a jelszó másolásához</translation>
 <translation id="5515439363601853141">Oldja fel a képernyőzárat a jelszó megtekintéséhez</translation>
 <translation id="6221633008163990886">A zárolás feloldásával exportálhatja a jelszavait</translation>
-<translation id="230699814587342492">Brave-jelszavak</translation>
+<translation id="230699814587342492">Dissenter-jelszavak</translation>
 <translation id="6075798973483050474">Kezdőoldal szerkesztése</translation>
 <translation id="854522910157234410">Az oldal megnyitása</translation>
 <translation id="2482878487686419369">Értesítések</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Sötét téma bekapcsolása, amikor az eszköz sötét témája vagy Akkumulátorkímélő módja be van kapcsolva</translation>
 <translation id="6381421346744604172">Webhelyek sötétítése</translation>
 <translation id="5040262127954254034">Adatvédelem</translation>
-<translation id="4991384657077828949">Segítség a Brave biztonságának továbberősítésében</translation>
-<translation id="1943176487615318915">A veszélyes alkalmazások és webhelyek észlelésének érdekében a Brave az egyes felkeresett oldalak URL-jét, valamint korlátozott rendszer-információkat és bizonyos oldaltartalmakat továbbít a Brave Software-nak.</translation>
+<translation id="4991384657077828949">Segítség a Dissenter biztonságának továbberősítésében</translation>
+<translation id="1943176487615318915">A veszélyes alkalmazások és webhelyek észlelésének érdekében a Dissenter az egyes felkeresett oldalak URL-jét, valamint korlátozott rendszer-információkat és bizonyos oldaltartalmakat továbbít a Gab AI Inc-nak.</translation>
 <translation id="3181954750937456830">Biztonságos Böngészés (megvédi Önt és eszközét a veszélyes webhelyekkel szemben)</translation>
-<translation id="7315322926489145388">Elküldi egyes felkeresett oldalak URL-jét a Brave Software-nak, ha veszélyben van az Ön biztonsága</translation>
+<translation id="7315322926489145388">Elküldi egyes felkeresett oldalak URL-jét a Gab AI Inc-nak, ha veszélyben van az Ön biztonsága</translation>
 <translation id="2063713494490388661">A Keresés koppintással funkció</translation>
-<translation id="2369463299479365221">Megtudhatja a webhelyek témaköreit anélkül, hogy elhagyná az oldalt. A Keresés koppintással funkció elküld egy szót és annak kontextusát a Brave Software Keresés számára, majd meghatározásokat, képeket, keresési eredményeket és egyéb részleteket ad vissza.
+<translation id="2369463299479365221">Megtudhatja a webhelyek témaköreit anélkül, hogy elhagyná az oldalt. A Keresés koppintással funkció elküld egy szót és annak kontextusát a Gab AI Inc Keresés számára, majd meghatározásokat, képeket, keresési eredményeket és egyéb részleteket ad vissza.
 
 A keresési kifejezés módosításához hosszú nyomva tartással hajthat végre kiválasztást. A keresés finomításához csúsztassa a panelt teljesen fel, majd érintse meg a keresőmezőt.</translation>
-<translation id="2930742481329940825">A Keresés koppintással funkció elküldi a kiválasztott szót és az aktuális oldalt kontextusként a Brave Software Keresés számára. A funkciót a <ph name="BEGIN_LINK"/>Beállításokban<ph name="END_LINK"/> lehet kikapcsolni.</translation>
+<translation id="2930742481329940825">A Keresés koppintással funkció elküldi a kiválasztott szót és az aktuális oldalt kontextusként a Gab AI Inc Keresés számára. A funkciót a <ph name="BEGIN_LINK"/>Beállításokban<ph name="END_LINK"/> lehet kikapcsolni.</translation>
 <translation id="5039804452771397117">Engedélyezés</translation>
 <translation id="1406000523432664303">„Nincs nyomon követés”</translation>
 <translation id="6232535412751077445">A „Nincs nyomon követés” engedélyezése azt jelenti, hogy a böngészési forgalommal együtt kérelmet is küld a rendszer. Ennek hatása attól függ, hogy a webhely reagál-e a kérelemre, és hogyan értelmezi azt.
@@ -197,18 +197,18 @@ Egyes webhelyek például válaszolhatnak rá úgy, hogy olyan hirdetéseket jel
 <translation id="7359002509206457351">Hozzáférés a fizetési módokhoz</translation>
 <translation id="8026334261755873520">Böngészési adatok törlése</translation>
 <translation id="1291207594882862231">Előzmények, cookie-k, webhelyadatok és a gyorsítótár törlése…</translation>
-<translation id="7814200940910057384">Brave-adatok törölve</translation>
-<translation id="1664855196866195614">A kiválasztott adatok el lettek távolítva a Brave-ból és a szinkronizált eszközökről.
+<translation id="7814200940910057384">Dissenter-adatok törölve</translation>
+<translation id="1664855196866195614">A kiválasztott adatok el lettek távolítva a Dissenter-ból és a szinkronizált eszközökről.
 
-Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> címen) még szerepelnek a böngészési előzmények egyéb formái, így például a keresések és egyéb tevékenységek más Brave Software-szolgáltatásokból.</translation>
+Előfordulhat, hogy Gab AI Inc-fiókjában (a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> címen) még szerepelnek a böngészési előzmények egyéb formái, így például a keresések és egyéb tevékenységek más Gab AI Inc-szolgáltatásokból.</translation>
 <translation id="4699172675775169585">A gyorsítótárban szereplő képek és fájlok</translation>
 <translation id="2496180316473517155">Böngészés előzményei</translation>
 <translation id="2546283357679194313">Cookie-k és webhelyadatok</translation>
 <translation id="8662811608048051533">A rendszer a legtöbb webhelyről kijelentkezteti Önt.</translation>
-<translation id="8218628800671693884">A rendszer a legtöbb webhelyről kijelentkezteti Önt, de Brave Software-fiókjából nem.</translation>
+<translation id="8218628800671693884">A rendszer a legtöbb webhelyről kijelentkezteti Önt, de Gab AI Inc-fiókjából nem.</translation>
 <translation id="2017836877785168846">Törli a címsávban található előzményeket és automatikus kiegészítéseket.</translation>
-<translation id="8096327394278038498">Törli a címsávban található előzményeket és automatikus kiegészítéseket. Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Brave Software-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
-<translation id="8122693181154564064">Törli az előzményeket valamennyi bejelentkezett eszközről. Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Brave Software-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
+<translation id="8096327394278038498">Törli a címsávban található előzményeket és automatikus kiegészítéseket. Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Gab AI Inc-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
+<translation id="8122693181154564064">Törli az előzményeket valamennyi bejelentkezett eszközről. Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Gab AI Inc-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
 <translation id="5869522115854928033">Mentett jelszavak</translation>
 <translation id="6865313869410766144">Automatikus kitöltési űrlapadatok</translation>
 <translation id="7562080006725997899">Böngészési adatok törlése</translation>
@@ -225,7 +225,7 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="6643016212128521049">Törlés</translation>
 <translation id="7641339528570811325">Böngészési adatok törlése…</translation>
 <translation id="1670399744444387456">Alapok</translation>
-<translation id="3245261285041759672">Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Brave Software-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
+<translation id="3245261285041759672">Előfordulhat, hogy a böngészési előzmények más formái még megtalálhatók Gab AI Inc-fiókjában a <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> webhelyen.</translation>
 <translation id="7274013316676448362">Letiltott oldal</translation>
 <translation id="2534155362429831547"><ph name="NUMBER_OF_ITEMS"/> elem törölve</translation>
 <translation id="6981982820502123353">Kisegítő lehetőségek</translation>
@@ -335,12 +335,12 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="8156139159503939589">Milyen nyelveken olvas?</translation>
 <translation id="5689516760719285838">Tartózkodási hely</translation>
 <translation id="2440823041667407902">Helyhozzáférés</translation>
-<translation id="2023546461831060654">A Brave-ra vonatkozó engedélyek aktiválása az <ph name="BEGIN_LINK"/>Android beállításaiban<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">A Brave-ra vonatkozó engedélyt az <ph name="BEGIN_LINK"/>Android beállításaiban<ph name="END_LINK"/> lehet aktiválni.</translation>
-<translation id="2928908108430545745">Ahhoz, hogy a Brave hozzáférhessen a helyadatokhoz, a helyadatokat az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
-<translation id="1028853271388022585">Ahhoz, hogy a Brave hozzáférhessen a kamerához, a kamerát az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
-<translation id="2913721282607281710">Ahhoz, hogy a Brave értesítéseket küldhessen, az értesítéseket az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
-<translation id="8753483718490035722">Ahhoz, hogy a Brave hozzáférhessen a mikrofonhoz, a mikrofont az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
+<translation id="2023546461831060654">A Dissenter-ra vonatkozó engedélyek aktiválása az <ph name="BEGIN_LINK"/>Android beállításaiban<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">A Dissenter-ra vonatkozó engedélyt az <ph name="BEGIN_LINK"/>Android beállításaiban<ph name="END_LINK"/> lehet aktiválni.</translation>
+<translation id="2928908108430545745">Ahhoz, hogy a Dissenter hozzáférhessen a helyadatokhoz, a helyadatokat az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
+<translation id="1028853271388022585">Ahhoz, hogy a Dissenter hozzáférhessen a kamerához, a kamerát az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
+<translation id="2913721282607281710">Ahhoz, hogy a Dissenter értesítéseket küldhessen, az értesítéseket az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
+<translation id="8753483718490035722">Ahhoz, hogy a Dissenter hozzáférhessen a mikrofonhoz, a mikrofont az <ph name="BEGIN_LINK"/>Android-beállítások<ph name="END_LINK"/> között is be kell kapcsolni.</translation>
 <translation id="1887786770086287077">A helyhozzáférés ki van kapcsolva ennél az eszköznél. A funkciót az <ph name="BEGIN_LINK"/>Android-beállításokban<ph name="END_LINK"/> tudja bekapcsolni.</translation>
 <translation id="2570922361219980984">A helyhozzáférés is ki van kapcsolva ennél az eszköznél. A funkciót az <ph name="BEGIN_LINK"/>Android-beállításokban<ph name="END_LINK"/> tudja bekapcsolni.</translation>
 <translation id="1620510694547887537">Kamera</translation>
@@ -358,8 +358,8 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="7821588508402923572">Itt látható a megtakarított adatmennyiség</translation>
 <translation id="2131665479022868825"><ph name="DATA"/> megtakarítva</translation>
 <translation id="8569404424186215731"><ph name="DATE"/> óta</translation>
-<translation id="3252158532344029638">Lite módban a Brave gyorsabban betölti az oldalakat, és akár 60 százalékkal kisebb adatforgalmat generál.</translation>
-<translation id="1438581767753657407">Lite módban a Brave saját szervereit használja, hogy az oldalak betöltése gyorsabb legyen. A Lite mód átírja a nagyon lassú oldalakat, hogy csak a lényeges tartalmakat töltse be. A Lite mód nem vonatkozik privát fülekre.</translation>
+<translation id="3252158532344029638">Lite módban a Dissenter gyorsabban betölti az oldalakat, és akár 60 százalékkal kisebb adatforgalmat generál.</translation>
+<translation id="1438581767753657407">Lite módban a Dissenter saját szervereit használja, hogy az oldalak betöltése gyorsabb legyen. A Lite mód átírja a nagyon lassú oldalakat, hogy csak a lényeges tartalmakat töltse be. A Lite mód nem vonatkozik privát fülekre.</translation>
 <translation id="6159335304067198720"><ph name="PERCENT"/>-os adatmegtakarítás</translation>
 <translation id="7494974237137038751">megtakarított adatmennyiség</translation>
 <translation id="6111020039983847643">használt adatmennyiség</translation>
@@ -381,15 +381,15 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="1856325424225101786">Visszaállítja az Egyszerűsített módot?</translation>
 <translation id="3658159451045945436">A visszaállítás törli a megtakarított adatmennyiségre vonatkozó előzményeket, így a felkeresett webhelyek listáját is.</translation>
 <translation id="3295530008794733555">Gyorsabb böngészés. Kevesebb adathasználat.</translation>
-<translation id="7340390500800578919">Lite módban a Brave gyorsabban betölti az oldalakat, és akár 60 százalékkal kisebb adatforgalmat generál. A felkeresett oldalak optimalizálása érdekében a Brave elküldi az internetes forgalmát a Brave Software-nak. <ph name="BEGIN_LINK"/>További információ<ph name="END_LINK"/>.</translation>
+<translation id="7340390500800578919">Lite módban a Dissenter gyorsabban betölti az oldalakat, és akár 60 százalékkal kisebb adatforgalmat generál. A felkeresett oldalak optimalizálása érdekében a Dissenter elküldi az internetes forgalmát a Gab AI Inc-nak. <ph name="BEGIN_LINK"/>További információ<ph name="END_LINK"/>.</translation>
 <translation id="4538018662093857852">Az Egyszerűsített mód bekapcsolása</translation>
 <translation id="4493497663118223949">Az Egyszerűsített mód be van kapcsolva</translation>
 <translation id="7559975015014302720">Az Egyszerűsített mód ki van kapcsolva</translation>
 <translation id="7606077192958116810">Az Egyszerűsített mód be van kapcsolva. Kezelésére a Beállításokban van lehetősége.</translation>
 <translation id="4714588616299687897">Akár 60%-kal is csökkentheti adatforgalmát</translation>
-<translation id="1006927014032731288">A Brave Software szerverei optimalizálni fogják a megnyitott weboldalakat.</translation>
-<translation id="3257320067425202300">A Brave <ph name="MEGABYTES"/> MB-ot spórolt meg Önnek</translation>
-<translation id="5813223329348543512">A Brave megspórolt Önnek <ph name="GIGABYTES"/> GB-ot</translation>
+<translation id="1006927014032731288">A Gab AI Inc szerverei optimalizálni fogják a megnyitott weboldalakat.</translation>
+<translation id="3257320067425202300">A Dissenter <ph name="MEGABYTES"/> MB-ot spórolt meg Önnek</translation>
+<translation id="5813223329348543512">A Dissenter megspórolt Önnek <ph name="GIGABYTES"/> GB-ot</translation>
 <translation id="8266862848225348053">Letöltés helye</translation>
 <translation id="7077143737582773186">SD-kártya</translation>
 <translation id="7762668264895820836">SD-kártya (<ph name="SD_CARD_NUMBER"/>)</translation>
@@ -415,15 +415,15 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="7290209999329137901">Nem lehetséges az átnevezés</translation>
 <translation id="3334729583274622784">Módosítja a fájl kiterjesztését?</translation>
 <translation id="107147699690128016">Ha módosítja a fájl kiterjesztését, előfordulhat, hogy a fájlt másik alkalmazás nyitja meg, ami veszélyt jelenthet az eszközre.</translation>
-<translation id="8541922081612557424">A Brave névjegye</translation>
-<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Brave Software LLC. Minden jog fenntartva.</translation>
+<translation id="8541922081612557424">A Dissenter névjegye</translation>
+<translation id="5311273890481188673">Copyright <ph name="YEAR"/> Gab AI Inc LLC. Minden jog fenntartva.</translation>
 <translation id="1416550906796893042">Alkalmazás verziószáma</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (Frissítve: <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Operációs rendszer</translation>
-<translation id="3968054912784331254">Az Android jelen verziója a továbbiakban már nem támogatja a Brave-frissítéseket</translation>
+<translation id="3968054912784331254">Az Android jelen verziója a továbbiakban már nem támogatja a Dissenter-frissítéseket</translation>
 <translation id="7665369617277396874">Fiók hozzáadása</translation>
-<translation id="649070405679044769">Bejelentkezve a Brave Software rendszerébe mint</translation>
-<translation id="6234515504547364178">Kijelentkezés a Brave-ból</translation>
+<translation id="649070405679044769">Bejelentkezve a Gab AI Inc rendszerébe mint</translation>
+<translation id="6234515504547364178">Kijelentkezés a Dissenter-ból</translation>
 <translation id="5324858694974489420">Szülői beállítások</translation>
 <translation id="8920114477895755567">Várakozás a szülői adatokra.</translation>
 <translation id="5512137114520586844">A fiók kezelője: <ph name="PARENT_NAME"/>.</translation>
@@ -432,7 +432,7 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="5403644198645076998">Csak bizonyos webhelyek engedélyezése</translation>
 <translation id="8641930654639604085">Felnőtteknek szóló webhelyek letiltásának megkísérlése</translation>
 <translation id="5639724618331995626">Minden webhely engedélyezése</translation>
-<translation id="796823723482603597">A Brave erejével</translation>
+<translation id="796823723482603597">A Dissenter erejével</translation>
 <translation id="6324034347079777476">Az Android rendszer szinkronizálása letiltva</translation>
 <translation id="5127805178023152808">Szinkronizálás kikapcsolva</translation>
 <translation id="7015203776128479407">A szinkronizálás kezdeti beállítása nem fejeződött be. A szinkronizálás ki van kapcsolva.</translation>
@@ -441,48 +441,48 @@ Előfordulhat, hogy Brave Software-fiókjában (a <ph name="BEGIN_LINK"/>myactiv
 <translation id="6108923351542677676">A telepítés folyamatban...</translation>
 <translation id="4062305924942672200">Jogi információk</translation>
 <translation id="4256782883801055595">Nyílt forráskódú licencek</translation>
-<translation id="1138681184697033370">Brave – Általános Szerződési Feltételek</translation>
-<translation id="7392539049993970338">Brave – Adatvédelmi közlemény</translation>
+<translation id="1138681184697033370">Dissenter – Általános Szerződési Feltételek</translation>
+<translation id="7392539049993970338">Dissenter – Adatvédelmi közlemény</translation>
 <translation id="2677748264148917807">Lap elhagyása</translation>
 <translation id="5556459405103347317">Újratöltés</translation>
 <translation id="1623104350909869708">Akadályozza meg, hogy ez az oldal további párbeszédablakokat hozzon létre.</translation>
 <translation id="2968755619301702150">Tanúsítványmegtekintő</translation>
 <translation id="1360432990279830238">Kijelentkezik, és kikapcsolja a szinkronizálást?</translation>
-<translation id="8581481290581777242">Törli Brave-adatait az eszközről?</translation>
-<translation id="1318865768845061710">Könyvjelzői, előzményei, jelszavai és más Brave-adatai többé nem lesznek szinkronizálva a Brave Software-fiókjával.</translation>
-<translation id="3325020657155065477">Az Ön Brave-adatai is törlődjenek erről az eszközről</translation>
-<translation id="6136448902816743006">Mivel kijelentkezik a(z) <ph name="DOMAIN_NAME"/> által kezelt fiókból, a rendszer törli az Ön Brave-adatait erről az eszközről. Brave Software-fiókjában továbbra is megmaradnak ezek az adatok.</translation>
-<translation id="1853026300647876496">Kapcsolatfelvétel a Brave Software-lal… ez eltarthat pár percig…</translation>
+<translation id="8581481290581777242">Törli Dissenter-adatait az eszközről?</translation>
+<translation id="1318865768845061710">Könyvjelzői, előzményei, jelszavai és más Dissenter-adatai többé nem lesznek szinkronizálva a Gab AI Inc-fiókjával.</translation>
+<translation id="3325020657155065477">Az Ön Dissenter-adatai is törlődjenek erről az eszközről</translation>
+<translation id="6136448902816743006">Mivel kijelentkezik a(z) <ph name="DOMAIN_NAME"/> által kezelt fiókból, a rendszer törli az Ön Dissenter-adatait erről az eszközről. Gab AI Inc-fiókjában továbbra is megmaradnak ezek az adatok.</translation>
+<translation id="1853026300647876496">Kapcsolatfelvétel a Gab AI Inc-lal… ez eltarthat pár percig…</translation>
 <translation id="2328985652426384049">Nem sikerült a bejelentkezés</translation>
-<translation id="7723158744459952869">A Brave Software túl hosszú ideje nem válaszol</translation>
+<translation id="7723158744459952869">A Gab AI Inc túl hosszú ideje nem válaszol</translation>
 <translation id="4572422548854449519">Bejelentkezés a kezelt fiókba</translation>
-<translation id="2689656545739939160">Egy <ph name="MANAGED_DOMAIN"/> által felügyelt fiókkal jelentkezik be, és engedélyezi az adminisztrátor számára a Brave-adatok kezelését. Adatai állandó jelleggel ehhez a fiókhoz lesznek társítva. A Brave-ból való kijelentkezéssel törli adatait erről az eszközről, de Brave Software-fiókjában továbbra is megmaradnak.</translation>
+<translation id="2689656545739939160">Egy <ph name="MANAGED_DOMAIN"/> által felügyelt fiókkal jelentkezik be, és engedélyezi az adminisztrátor számára a Dissenter-adatok kezelését. Adatai állandó jelleggel ehhez a fiókhoz lesznek társítva. A Dissenter-ból való kijelentkezéssel törli adatait erről az eszközről, de Gab AI Inc-fiókjában továbbra is megmaradnak.</translation>
 <translation id="1749561566933687563">Könyvjelzők szinkronizálása</translation>
 <translation id="4242533952199664413">Beállítások megnyitása</translation>
 <translation id="1111673857033749125">A más eszközökön mentett könyvjelzők itt jelennek meg.</translation>
 <translation id="8636825310635137004">Ha a többi eszközén is szeretné elérni lapjait, kapcsolja be a szinkronizálást</translation>
 <translation id="3269956123044984603">A többi eszközéről is hozzáférhet a lapjaihoz, ha bekapcsolja az Android-fiókbeállítások között található „Adatok automatikus szinkronizálása” funkciót.</translation>
-<translation id="5157964048453367290">A más eszközökön futó Brave böngészőben megnyitott lapok itt jelennek meg.</translation>
+<translation id="5157964048453367290">A más eszközökön futó Dissenter böngészőben megnyitott lapok itt jelennek meg.</translation>
 <translation id="4684427112815847243">Az összes szinkronizálása</translation>
 <translation id="2709516037105925701">Automatikus kitöltés</translation>
 <translation id="8820817407110198400">Könyvjelzők</translation>
 <translation id="1644574205037202324">Előzmények</translation>
 <translation id="17513872634828108">Megnyitott lapok</translation>
-<translation id="1320169905922104972">A Brave Software Pay szolgáltatást használó hitelkártyák és címek</translation>
+<translation id="1320169905922104972">A Gab AI Inc Pay szolgáltatást használó hitelkártyák és címek</translation>
 <translation id="6337234675334993532">Titkosítás</translation>
 <translation id="6698801883190606802">Szinkronizálás kezelése</translation>
-<translation id="3598578758776312506">A jelszavak titkosítása a Brave Software hitelesítési adataival</translation>
-<translation id="7810580217418711046">A szinkronizált adatok titkosítása Brave Software-jelszóval ekkortól: <ph name="TIME"/></translation>
+<translation id="3598578758776312506">A jelszavak titkosítása a Gab AI Inc hitelesítési adataival</translation>
+<translation id="7810580217418711046">A szinkronizált adatok titkosítása Gab AI Inc-jelszóval ekkortól: <ph name="TIME"/></translation>
 <translation id="8461694314515752532">A szinkronizált adatok titkosítása saját összetett szinkronizálási jelszóval</translation>
 <translation id="2996291259634659425">Összetett jelszó létrehozása</translation>
-<translation id="5713644099811900409">Brave Software Fiókjába</translation>
-<translation id="8997474919031554666">Az összetett jelszavas titkosítás nem tartalmazza a Brave Software Payben megadott fizetési módokat és címeket. Titkosított adatait csak az olvashatja el, aki rendelkezik az Ön összetett jelszavával. Az összetett jelszót a Brave Software nem kapja meg, és nem is tárolja. Ha elfelejtette összetett jelszavát, vagy módosítaná ezt a beállítást, alaphelyzetbe kell állítania a szinkronizálást. <ph name="BEGIN_LINK"/>További információ<ph name="END_LINK"/>.</translation>
+<translation id="5713644099811900409">Gab AI Inc Fiókjába</translation>
+<translation id="8997474919031554666">Az összetett jelszavas titkosítás nem tartalmazza a Gab AI Inc Payben megadott fizetési módokat és címeket. Titkosított adatait csak az olvashatja el, aki rendelkezik az Ön összetett jelszavával. Az összetett jelszót a Gab AI Inc nem kapja meg, és nem is tárolja. Ha elfelejtette összetett jelszavát, vagy módosítaná ezt a beállítást, alaphelyzetbe kell állítania a szinkronizálást. <ph name="BEGIN_LINK"/>További információ<ph name="END_LINK"/>.</translation>
 <translation id="9050666287014529139">Összetett jelszó</translation>
 <translation id="7772032839648071052">Összetett jelszó megerősítése</translation>
 <translation id="5304593522240415983">Ez a mező nem lehet üres</translation>
 <translation id="321773570071367578">Ha elfelejtette összetett jelszavát, vagy módosítani szeretné ezt a beállítást, <ph name="BEGIN_LINK"/>állítsa alaphelyzetbe a szinkronizálást<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">Az összetett jelszavak nem egyeznek</translation>
-<translation id="5149495116300586333">Az összetett jelszavas titkosítás nem tartalmazza a Brave Software Payben megadott fizetési módokat és címeket.
+<translation id="5149495116300586333">Az összetett jelszavas titkosítás nem tartalmazza a Gab AI Inc Payben megadott fizetési módokat és címeket.
 
 A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szinkronizálást<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Hibás összetett jelszó</translation>
@@ -499,11 +499,11 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Kérjen segítséget<ph name="END_LINK1"/>, vagy <ph name="BEGIN_LINK2"/>keressen rá újra<ph name="END_LINK2"/>.</translation>
 <translation id="230115972905494466">Nem találhatók kompatibilis eszközök</translation>
 <translation id="3773755127849930740">A párosítás engedélyezéséhez <ph name="BEGIN_LINK"/>kapcsolja be a Bluetooth funkciót<ph name="END_LINK"/></translation>
-<translation id="998321811308652668">A Brave nem tudja bekapcsolni a Bluetooth-adaptert</translation>
+<translation id="998321811308652668">A Dissenter nem tudja bekapcsolni a Bluetooth-adaptert</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Kérjen segítséget<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">A Brave-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. <ph name="BEGIN_LINK"/>Frissítse az engedélyeket<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">A Brave-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. A tartózkodási helyhez való hozzáférés <ph name="BEGIN_LINK"/>ki van kapcsolva ezen az eszközön<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">A Brave-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. <ph name="BEGIN_LINK1"/>Frissítse az engedélyeket<ph name="END_LINK1"/>. A helyadatokhoz való hozzáférés is <ph name="BEGIN_LINK2"/>ki van kapcsolva ezen az eszközön<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">A Dissenter-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. <ph name="BEGIN_LINK"/>Frissítse az engedélyeket<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">A Dissenter-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. A tartózkodási helyhez való hozzáférés <ph name="BEGIN_LINK"/>ki van kapcsolva ezen az eszközön<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">A Dissenter-nak hozzá kell férnie a tartózkodási helyhez, hogy eszközöket kereshessen. <ph name="BEGIN_LINK1"/>Frissítse az engedélyeket<ph name="END_LINK1"/>. A helyadatokhoz való hozzáférés is <ph name="BEGIN_LINK2"/>ki van kapcsolva ezen az eszközön<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Csatlakoztatott eszköz</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Jelerősség szintje: # sáv}other{Jelerősség szintje: # sáv}}</translation>
 <translation id="5230560987958996918">A(z) <ph name="SITE"/> szeretné megkeresni a közeli Bluetooth-eszközöket. A következő eszközöket találta:</translation>
@@ -511,11 +511,11 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="7605594153474022051">A szinkronizálás nem működik.</translation>
 <translation id="2537178555904266562">Hiba történt a jelszavak szinkronizálásakor</translation>
 <translation id="1810845389119482123">A szinkronizálás kezdeti beállítása nem fejeződött be</translation>
-<translation id="3235722914093408050">Aktiválja újra az Android rendszer szinkronizálását a Brave-szinkronizáláshoz</translation>
+<translation id="3235722914093408050">Aktiválja újra az Android rendszer szinkronizálását a Dissenter-szinkronizáláshoz</translation>
 <translation id="3367813778245106622">A szinkronizálás megkezdéséhez jelentkezzen be újra</translation>
 <translation id="3701167022068948696">Javítás most</translation>
 <translation id="974555521953189084">A szinkronizálás megkezdéséhez adja meg összetett jelszavát</translation>
-<translation id="2997266899014181325">A szinkronizálás megkezdéséhez kapcsolja be a „Brave-adatok szinkronizálása” beállítást.</translation>
+<translation id="2997266899014181325">A szinkronizálás megkezdéséhez kapcsolja be a „Dissenter-adatok szinkronizálása” beállítást.</translation>
 <translation id="8260126382462817229">Próbáljon meg újra bejelentkezni</translation>
 <translation id="5919204609460789179">A szinkronizálás megkezdéséhez frissítse a következőt: <ph name="PRODUCT_NAME"/></translation>
 <translation id="397583555483684758">A szinkronizálás leállt</translation>
@@ -548,14 +548,14 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> <ph name="LINK_NAME"/> gomb</translation>
 <translation id="3205824638308738187">Majdnem kész.</translation>
-<translation id="3960299545138990065">Indítsa újra a Brave-ot</translation>
+<translation id="3960299545138990065">Indítsa újra a Dissenter-ot</translation>
 <translation id="3771001275138982843">Nem sikerült letölteni a frissítést</translation>
-<translation id="3888648114124182147">A Brave frissítésének letöltése…</translation>
-<translation id="1705567146636171298">A Brave böngésző frissítése</translation>
-<translation id="6195417478702700398">Nyissa meg a Brave-ot, és frissítsen a legjobb böngészési élmény érdekében</translation>
-<translation id="3512968675351418494">Ha saját nyelvén szeretné böngészni az internetet, szerezze be a Brave legújabb verzióját</translation>
+<translation id="3888648114124182147">A Dissenter frissítésének letöltése…</translation>
+<translation id="1705567146636171298">A Dissenter böngésző frissítése</translation>
+<translation id="6195417478702700398">Nyissa meg a Dissenter-ot, és frissítsen a legjobb böngészési élmény érdekében</translation>
+<translation id="3512968675351418494">Ha saját nyelvén szeretné böngészni az internetet, szerezze be a Dissenter legújabb verzióját</translation>
 <translation id="6427112570124116297">Lefordíthatja az internetet</translation>
-<translation id="1379423114029199501">Frissítsen, hogy a saját nyelvén használhassa a Brave legújabb verzióját</translation>
+<translation id="1379423114029199501">Frissítsen, hogy a saját nyelvén használhassa a Dissenter legújabb verzióját</translation>
 <translation id="5684874026226664614">Hoppá! Az oldalt nem sikerült lefordítani.</translation>
 <translation id="6831043979455480757">Fordítás</translation>
 <translation id="1285320974508926690">Ezt a webhelyet soha ne fordítsa le</translation>
@@ -578,11 +578,11 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="2532336938189706096">Internetes megtekintés</translation>
 <translation id="6005538289190791541">Javasolt jelszó</translation>
 <translation id="4634124774493850572">Jelszó használata</translation>
-<translation id="8285489906452138776">A Brave számára engedély szükséges, hogy hozzáférjen a kamerához ennél a webhelynél.</translation>
-<translation id="320189792589364011">A Brave számára engedély szükséges, hogy hozzáférjen a mikrofonhoz ennél a webhelynél.</translation>
-<translation id="7988136689212463100">A Brave számára engedély szükséges, hogy hozzáférjen a kamerához és a mikrofonhoz ennél a webhelynél.</translation>
-<translation id="4931190655840828017">A Brave-nak hozzáférésre van szüksége a helyadatokra ahhoz, hogy megoszthassa a webhellyel az Ön tartózkodási helyét.</translation>
-<translation id="3088191967551450609">A Brave-nak tárhelyhozzáférésre van szüksége a fájlok letöltéséhez.</translation>
+<translation id="8285489906452138776">A Dissenter számára engedély szükséges, hogy hozzáférjen a kamerához ennél a webhelynél.</translation>
+<translation id="320189792589364011">A Dissenter számára engedély szükséges, hogy hozzáférjen a mikrofonhoz ennél a webhelynél.</translation>
+<translation id="7988136689212463100">A Dissenter számára engedély szükséges, hogy hozzáférjen a kamerához és a mikrofonhoz ennél a webhelynél.</translation>
+<translation id="4931190655840828017">A Dissenter-nak hozzáférésre van szüksége a helyadatokra ahhoz, hogy megoszthassa a webhellyel az Ön tartózkodási helyét.</translation>
+<translation id="3088191967551450609">A Dissenter-nak tárhelyhozzáférésre van szüksége a fájlok letöltéséhez.</translation>
 <translation id="8942627711005830162">Megnyitás másik ablakban</translation>
 <translation id="4195643157523330669">Megnyitás új lapon</translation>
 <translation id="1100066534610197918">Megnyitás új lapon, csoportban</translation>
@@ -599,15 +599,15 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="8073388330009372546">Kép megnyitása új lapon</translation>
 <translation id="6649642165559792194">Kép előnézete <ph name="BEGIN_NEW"/>Új<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Kép betöltése</translation>
-<translation id="3845332215609790146">Keresés a Brave Software Lensszel <ph name="BEGIN_NEW"/>Új<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Keresés a Gab AI Inc Lensszel <ph name="BEGIN_NEW"/>Új<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">A kép keresése a(z) <ph name="SEARCH_ENGINE"/> keresővel</translation>
 <translation id="3384347053049321195">Kép megosztása</translation>
 <translation id="5833984609253377421">Link megosztása</translation>
 <translation id="6475951671322991020">Videó letöltése</translation>
-<translation id="2317945146070194624">Megnyitás új Brave-lapon</translation>
+<translation id="2317945146070194624">Megnyitás új Dissenter-lapon</translation>
 <translation id="7975379999046275268">Oldal előnézete <ph name="BEGIN_NEW"/>Új<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Oldal frissítése</translation>
-<translation id="6990079615885386641">Alkalmazás beszerzése a Brave Software Play Áruházból: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Alkalmazás beszerzése a Gab AI Inc Play Áruházból: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Sötét</translation>
 <translation id="1807246157184219062">Világos</translation>
 <translation id="4056223980640387499">Szépia</translation>
@@ -634,9 +634,9 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="164269334534774161">Jelenleg az oldal <ph name="CREATION_TIME"/>-i dátummal mentett offline példányát tekinti meg</translation>
 <translation id="4594952190837476234">Az offline oldal létrehozási ideje: <ph name="CREATION_TIME"/>. Az oldal eltérhet az online változattól.</translation>
 <translation id="8840953339110955557">Az oldal eltérhet az online változattól.</translation>
-<translation id="6405300764336705484">Ez a Brave Software által megjelenített tartalom a(z) <ph name="DOMAIN_NAME"/> domainről származik.</translation>
+<translation id="6405300764336705484">Ez a Gab AI Inc által megjelenített tartalom a(z) <ph name="DOMAIN_NAME"/> domainről származik.</translation>
 <translation id="1006017844123154345">Online megnyitás</translation>
-<translation id="3326636747541519688">Egyszerű oldal a Brave Software-tól</translation>
+<translation id="3326636747541519688">Egyszerű oldal a Gab AI Inc-tól</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Eredeti oldal betöltése<ph name="END_LINK"/> innen: <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Ha gyakran látja ezt, próbálja ki ezeket a <ph name="BEGIN_LINK"/>javaslatokat<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Tartalom elrejtve</translation>
@@ -733,19 +733,19 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">HH</translation>
 <translation id="605721222689873409">ÉÉ</translation>
-<translation id="724102042129299115">Brave – Első futtatási élmény</translation>
-<translation id="2700285883409956633">Az alkalmazás használatával Ön elfogadja a Brave <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és az <ph name="BEGIN_LINK2"/>Adatvédelmi közleményt<ph name="END_LINK2"/>.</translation>
-<translation id="1640714894372474981">Az alkalmazás használatával elfogadja a Brave <ph name="BEGIN_LINK1"/>általános szerződési feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>adatvédelmi közleményét<ph name="END_LINK2"/>, valamint <ph name="BEGIN_LINK3"/>a Family Link szolgáltatással kezelt Brave Software-fiókokra vonatkozó adatvédelmi közleményt<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727">A(z) <ph name="APP_NAME"/> a Brave-ban nyílik meg. A folytatással elfogadja a Brave <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>Adatvédelmi közleményét<ph name="END_LINK2"/>.</translation>
-<translation id="5071615083211946659">A(z) <ph name="APP_NAME"/> a Brave-ban nyílik meg. A folytatással elfogadja a Brave <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>Adatvédelmi közleményét<ph name="END_LINK2"/>, valamint <ph name="BEGIN_LINK3"/>A Family Link szolgáltatással kezelt Brave Software-fiókokra vonatkozó Adatvédelmi közleményt<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Használati statisztikák és hibajelentések küldésével segíthet a Brave Software-nak a Brave fejlesztésében.</translation>
+<translation id="724102042129299115">Dissenter – Első futtatási élmény</translation>
+<translation id="2700285883409956633">Az alkalmazás használatával Ön elfogadja a Dissenter <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és az <ph name="BEGIN_LINK2"/>Adatvédelmi közleményt<ph name="END_LINK2"/>.</translation>
+<translation id="1640714894372474981">Az alkalmazás használatával elfogadja a Dissenter <ph name="BEGIN_LINK1"/>általános szerződési feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>adatvédelmi közleményét<ph name="END_LINK2"/>, valamint <ph name="BEGIN_LINK3"/>a Family Link szolgáltatással kezelt Gab AI Inc-fiókokra vonatkozó adatvédelmi közleményt<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727">A(z) <ph name="APP_NAME"/> a Dissenter-ban nyílik meg. A folytatással elfogadja a Dissenter <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>Adatvédelmi közleményét<ph name="END_LINK2"/>.</translation>
+<translation id="5071615083211946659">A(z) <ph name="APP_NAME"/> a Dissenter-ban nyílik meg. A folytatással elfogadja a Dissenter <ph name="BEGIN_LINK1"/>Általános Szerződési Feltételeit<ph name="END_LINK1"/> és <ph name="BEGIN_LINK2"/>Adatvédelmi közleményét<ph name="END_LINK2"/>, valamint <ph name="BEGIN_LINK3"/>A Family Link szolgáltatással kezelt Gab AI Inc-fiókokra vonatkozó Adatvédelmi közleményt<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Használati statisztikák és hibajelentések küldésével segíthet a Gab AI Inc-nak a Dissenter fejlesztésében.</translation>
 <translation id="3518985090088779359">Elfogadás és tovább</translation>
-<translation id="7207456302801184289">A Brave üdvözli Önt!</translation>
-<translation id="7189372733857464326">Várakozás a Brave Software Play-szolgáltatások frissítésének befejezésére</translation>
+<translation id="7207456302801184289">A Dissenter üdvözli Önt!</translation>
+<translation id="7189372733857464326">Várakozás a Gab AI Inc Play-szolgáltatások frissítésének befejezésére</translation>
 <translation id="1231733316453485619">Bekapcsolja a szinkronizálást?</translation>
 <translation id="5132942445612118989">Jelszavak, előzmények és egyebek szinkronizálása valamennyi eszközén</translation>
-<translation id="5736731321935944068">A Brave Software felhasználhatja az Ön előzményeit a Keresés, a hirdetések és más Brave Software-szolgáltatások személyre szabására</translation>
-<translation id="4013614219085422040">A Brave Software felhasználhatja az Ön előzményeit a Keresés és más Brave Software-szolgáltatások személyre szabására</translation>
+<translation id="5736731321935944068">A Gab AI Inc felhasználhatja az Ön előzményeit a Keresés, a hirdetések és más Gab AI Inc-szolgáltatások személyre szabására</translation>
+<translation id="4013614219085422040">A Gab AI Inc felhasználhatja az Ön előzményeit a Keresés és más Gab AI Inc-szolgáltatások személyre szabására</translation>
 <translation id="5581519193887989363">A <ph name="BEGIN_LINK1"/>beállítások<ph name="END_LINK1"/> között bármikor módosíthatja a szinkronizálni kívánt elemeket.</translation>
 <translation id="741204030948306876">Igen, folytatom</translation>
 <translation id="2410754283952462441">Válasszon fiókot</translation>
@@ -753,8 +753,8 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="6210748933810148297">Nem <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">Ha az összes eszközén szeretné elérni könyvjelzőit, kapcsolja be a szinkronizálást</translation>
 <translation id="2818669890320396765">Ha az összes eszközén szeretné elérni könyvjelzőit, jelentkezzen be, és kapcsolja be a szinkronizálást</translation>
-<translation id="6003646045106347985">A Brave Software által javasolt, személyre szabott tartalmak fogadásához kapcsolja be a szinkronizálást</translation>
-<translation id="8494430740943879273">A Brave Software által javasolt, személyre szabott tartalmak fogadásához jelentkezzen be, és kapcsolja be a szinkronizálást</translation>
+<translation id="6003646045106347985">A Gab AI Inc által javasolt, személyre szabott tartalmak fogadásához kapcsolja be a szinkronizálást</translation>
+<translation id="8494430740943879273">A Gab AI Inc által javasolt, személyre szabott tartalmak fogadásához jelentkezzen be, és kapcsolja be a szinkronizálást</translation>
 <translation id="5862731021271217234">Ha a többi eszközén lévő lapjait is szeretné elérni, kapcsolja be a szinkronizálást</translation>
 <translation id="3568688522516854065">Ha a többi eszközén is szeretné elérni lapjait, jelentkezzen be, és kapcsolja be a szinkronizálást</translation>
 <translation id="1208340532756947324">Az eszközök közötti szinkronizáláshoz és személyre szabáshoz kapcsolja be a szinkronizálást</translation>
@@ -774,7 +774,7 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="5423934151118863508">A leggyakrabban látogatott oldalak fognak itt megjelenni</translation>
 <translation id="6127379762771434464">Elem eltávolítva</translation>
 <translation id="4605958867780575332">A következő elem eltávolítva: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Brave Software ünnepi embléma: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Gab AI Inc ünnepi embléma: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Egyéb eszközök</translation>
 <translation id="4738836084190194332">Utolsó szinkronizálás: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{# perce}other{# perce}}</translation>
@@ -805,9 +805,9 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="1171770572613082465">A „Népszerűek” gombra koppintva megtekintheti a népszerű webhelyeket</translation>
 <translation id="5233638681132016545">Új lap</translation>
 <translation id="6336451774241870485">Új privát fül</translation>
-<translation id="4521874409998847950">A következőtől: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>megjelenítette a Brave Software<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">A következőtől: <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>megjelenítette a Gab AI Inc<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">Rendelkezésre áll új verzió</translation>
-<translation id="4058091506841967397">A Brave nem frissíthető</translation>
+<translation id="4058091506841967397">A Dissenter nem frissíthető</translation>
 <translation id="6316139424528454185">Nem támogatott Android-verzió</translation>
 <translation id="6989267951144302301">A letöltés sikertelen</translation>
 <translation id="624789221780392884">A frissítés készen áll</translation>
@@ -855,7 +855,7 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="2536728043171574184">Az oldal offline példányának megtekintése</translation>
 <translation id="4698034686595694889">Megtekintés offline állapotban itt: <ph name="APP_NAME"/></translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> és további webhelyek</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{A Brave betölti az oldalt, amint lehetséges}other{A Brave betölti az oldalakat, amint lehetséges}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{A Dissenter betölti az oldalt, amint lehetséges}other{A Dissenter betölti az oldalakat, amint lehetséges}}</translation>
 <translation id="6811034713472274749">Az oldal megtekinthető</translation>
 <translation id="4561979708150884304">Nincs kapcsolat</translation>
 <translation id="8274165955039650276">Letöltések megtekintése</translation>
@@ -865,16 +865,16 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="3298243779924642547">Egyszerű</translation>
 <translation id="393697183122708255">Nincs engedélyezett hangalapú keresés</translation>
 <translation id="7191430249889272776">A lap megnyílt a háttérben.</translation>
-<translation id="8445059357334030806">Megnyitás Brave-ban</translation>
+<translation id="8445059357334030806">Megnyitás Dissenter-ban</translation>
 <translation id="4720023427747327413">Megnyitás itt: <ph name="PRODUCT_NAME"/></translation>
 <translation id="7022756207310403729">Megnyitás böngészőben</translation>
 <translation id="1113597929977215864">Egyszerűsített nézet megjelenítése</translation>
 <translation id="1513352483775369820">Könyvjelzők és webes előzmények</translation>
-<translation id="4939482511480190003">Segítsen a Brave fejlesztésében. <ph name="BEGIN_LINK"/>Töltse ki ezt a felmérést.<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Segítsen a Dissenter fejlesztésében. <ph name="BEGIN_LINK"/>Töltse ki ezt a felmérést.<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Visszalépés</translation>
 <translation id="5596627076506792578">További lehetőségek</translation>
 <translation id="3522247891732774234">Frissítés áll rendelkezésre. További lehetőségek</translation>
-<translation id="6773423637732432200">A Brave frissítése nem lehetséges. További lehetőségek</translation>
+<translation id="6773423637732432200">A Dissenter frissítése nem lehetséges. További lehetőségek</translation>
 <translation id="3328801116991980348">Webhelyadatok</translation>
 <translation id="5391532827096253100">Kapcsolata a webhellyel nem biztonságos. Webhelyadatok</translation>
 <translation id="6206551242102657620">A kapcsolat biztonságos. Webhelyadatok</translation>
@@ -934,7 +934,7 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="3211426585530211793"><ph name="ITEM_TITLE"/> törölve</translation>
 <translation id="4663756553811254707"><ph name="NUMBER_OF_BOOKMARKS"/> könyvjelző törölve</translation>
 <translation id="3819178904835489326"><ph name="NUMBER_OF_DOWNLOADS"/> letöltés törölve</translation>
-<translation id="1248710015876067820">Ilyen sok Brave-példány nem futhat egyszerre.</translation>
+<translation id="1248710015876067820">Ilyen sok Dissenter-példány nem futhat egyszerre.</translation>
 <translation id="4259722352634471385">Le van tiltva az ide vezető navigáció: <ph name="URL"/></translation>
 <translation id="8959122750345127698">Nem érhető el az ide vezető navigáció: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Lap bezárása</translation>
@@ -947,20 +947,20 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="8427875596167638501">Félmagasságban megnyitott előnézeti ablak</translation>
 <translation id="9102803872260866941">Az előnézeti lap meg van nyitva</translation>
 <translation id="2942036813789421260">Az előnézeti lap zárva van</translation>
-<translation id="6355102470683871794">Brave Software <ph name="APP_NAME"/>-tárhely</translation>
+<translation id="6355102470683871794">Gab AI Inc <ph name="APP_NAME"/>-tárhely</translation>
 <translation id="3822502789641063741">Törli a webhely tárhelyét?</translation>
-<translation id="9205995714227143200">A Brave által nem fontosnak ítélt webhelytárhely (például a mentett beállítások nélküli vagy ritkán megnyitott webhelyek)</translation>
+<translation id="9205995714227143200">A Dissenter által nem fontosnak ítélt webhelytárhely (például a mentett beállítások nélküli vagy ritkán megnyitott webhelyek)</translation>
 <translation id="3997476611815694295">Nem fontos tárhely</translation>
 <translation id="8493948351860045254">Terület felszabadítása</translation>
-<translation id="2324920234469020158">Ezzel törli a cookie-kat, a gyorsítótárat, valamint a webhelyek összes olyan adatát, amelyről a Brave úgy véli, hogy nem fontos.</translation>
+<translation id="2324920234469020158">Ezzel törli a cookie-kat, a gyorsítótárat, valamint a webhelyek összes olyan adatát, amelyről a Dissenter úgy véli, hogy nem fontos.</translation>
 <translation id="5447201525962359567">Összes webhelytárhely, beleértve a cookie-kat és más helyben tárolt adatokat</translation>
 <translation id="1376578503827013741">Számítás…</translation>
 <translation id="583281660410589416">Ismeretlen</translation>
 <translation id="2323763861024343754">Webhely tárhelye</translation>
-<translation id="3587672679800759167">A Brave által használt teljes adatmennyiség, beleértve a fiókokat, könyvjelzőket és mentett beállításokat is</translation>
+<translation id="3587672679800759167">A Dissenter által használt teljes adatmennyiség, beleértve a fiókokat, könyvjelzőket és mentett beállításokat is</translation>
 <translation id="6545017243486555795">Összes adat törlése</translation>
 <translation id="4095146165863963773">Törli az alkalmazásadatokat?</translation>
-<translation id="53119194224775367">A Brave összes alkalmazásadata véglegesen törlődik, beleértve a fájlokat, beállításokat, fiókokat, adatbázisokat stb.</translation>
+<translation id="53119194224775367">A Dissenter összes alkalmazásadata véglegesen törlődik, beleértve a fájlokat, beállításokat, fiókokat, adatbázisokat stb.</translation>
 <translation id="5307446750509046227">Webhelytárhely törlése</translation>
 <translation id="300526633675317032">Ezzel törli a webhely teljes tárhelyét: <ph name="SIZE_IN_KB"/>.</translation>
 <translation id="8068648041423924542">A tanúsítvány kiválasztása nem sikerült.</translation>
@@ -982,15 +982,15 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="1779089405699405702">Képdekóder</translation>
 <translation id="8067883171444229417">Videó lejátszása</translation>
 <translation id="6560414384669816528">Keresés a Sogou használatával</translation>
-<translation id="5406914950576900927">A Brave igénybe veheti a <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> keresőszolgáltatást, hogy Kínában kereshessen. Ezt a <ph name="BEGIN_LINK"/>Beállításokban<ph name="END_LINK"/> módosíthatja.</translation>
-<translation id="6456271171669383967">A Brave Software megtartása</translation>
+<translation id="5406914950576900927">A Dissenter igénybe veheti a <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> keresőszolgáltatást, hogy Kínában kereshessen. Ezt a <ph name="BEGIN_LINK"/>Beállításokban<ph name="END_LINK"/> módosíthatja.</translation>
+<translation id="6456271171669383967">A Gab AI Inc megtartása</translation>
 <translation id="4384468725000734951">A Sogou használata a kereséshez</translation>
-<translation id="6103327872225198548">A Brave Software használata a kereséshez</translation>
+<translation id="6103327872225198548">A Gab AI Inc használata a kereséshez</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Ez az alkalmazás fut a Brave-ban</translation>
-<translation id="6143689084714664628">Fut a Brave-ban</translation>
-<translation id="7675869148432102528">A(z) <ph name="APP_NAME"/> a Brave-ban is rendelkezik adatokkal</translation>
-<translation id="2734140769649165081">Az adatokat a Brave beállításaiban módosíthatja</translation>
+<translation id="919933208285147476">Ez az alkalmazás fut a Dissenter-ban</translation>
+<translation id="6143689084714664628">Fut a Dissenter-ban</translation>
+<translation id="7675869148432102528">A(z) <ph name="APP_NAME"/> a Dissenter-ban is rendelkezik adatokkal</translation>
+<translation id="2734140769649165081">Az adatokat a Dissenter beállításaiban módosíthatja</translation>
 <translation id="8232956427053453090">Adatok megőrzése</translation>
 <translation id="4298388696830689168">Összekapcsolt webhelyek</translation>
 <translation id="5763514718066511291">Koppintson az alkalmazás URL-jének másolásához</translation>
@@ -1015,13 +1015,13 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 <translation id="8015452622527143194">Minden visszaállítása alapértelmezett méretűre</translation>
 <translation id="3443221991560634068">Az aktuális oldal újratöltése</translation>
 <translation id="123724288017357924">Oldal újratöltése a gyorsítótárat figyelmen kívül hagyva</translation>
-<translation id="305870044889644984">A Brave súgójának megnyitása új lapon</translation>
+<translation id="305870044889644984">A Dissenter súgójának megnyitása új lapon</translation>
 <translation id="3166827708714933426">Lapokkal és ablakokkal kapcsolatos billentyűparancsok</translation>
-<translation id="3169981355900570544">A Brave Software Brave-funkciók billentyűparancsai</translation>
+<translation id="3169981355900570544">A Gab AI Inc Dissenter-funkciók billentyűparancsai</translation>
 <translation id="4558311620361989323">Weboldalakkal kapcsolatos billentyűparancsok</translation>
-<translation id="1908301351964700579">A Brave még mindig a VR használatára készül fel. Indítsa újra a Brave-ot később.</translation>
+<translation id="1908301351964700579">A Dissenter még mindig a VR használatára készül fel. Indítsa újra a Dissenter-ot később.</translation>
 <translation id="8970887620466824814">Hiba történt.</translation>
-<translation id="1875543012935658554">Nyissa meg újra a Brave-ot.</translation>
+<translation id="1875543012935658554">Nyissa meg újra a Dissenter-ot.</translation>
 <translation id="79859296434321399">A kiterjesztett valósággal kapcsolatos tartalmak megtekintéséhez telepítse az ARCore-t</translation>
 <translation id="8558485628462305855">A kiterjesztett valósággal kapcsolatos tartalmak megtekintéséhez frissítse az ARCore-t</translation>
 <translation id="3513704683820682405">Kiterjesztett valóság</translation>
@@ -1033,9 +1033,9 @@ A beállítás módosításához <ph name="BEGIN_LINK"/>állítsa vissza a szink
 A webhely NEM kap hozzáférést a kamerához. A kamera képét csak Ön láthatja.</translation>
 <translation id="1188239144602654184">AR indítása</translation>
 <translation id="473775607612524610">Frissítés</translation>
-<translation id="3133489217401741157">A(z) <ph name="MODULE"/> telepítése a Brave-hoz…</translation>
+<translation id="3133489217401741157">A(z) <ph name="MODULE"/> telepítése a Dissenter-hoz…</translation>
 <translation id="1791662854739702043">Telepítve</translation>
-<translation id="5131234170665854056">Nem lehetséges a(z) <ph name="MODULE"/> telepítése a Brave-hoz</translation>
+<translation id="5131234170665854056">Nem lehetséges a(z) <ph name="MODULE"/> telepítése a Dissenter-hoz</translation>
 <translation id="2567385386134582609">KÉP</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="7352939065658542140">VIDEÓ</translation>
@@ -1046,16 +1046,16 @@ A webhely NEM kap hozzáférést a kamerához. A kamera képét csak Ön láthat
 <translation id="3341058695485821946">Megnézheti, mennyi adatot takarított meg</translation>
 <translation id="3157842584138209013">A További lehetőségek gombra kattintva tekintheti meg, hogy mekkora a megtakarított adatmennyiség</translation>
 <translation id="8218622182176210845">Fiók kezelése</translation>
-<translation id="8090895580117672212">Brave Software-fiókjának kezeléséhez koppintson a „Fiók kezelése” gombra</translation>
-<translation id="8856898588039823173">Egyszerű oldal a Brave Software-tól. Koppintással betöltheti az eredetit.</translation>
-<translation id="8134317863207426198">Egyszerű oldal a Brave Software-tól. Az Eredeti betöltése gombra koppintva betöltheti az eredeti oldalt.</translation>
+<translation id="8090895580117672212">Gab AI Inc-fiókjának kezeléséhez koppintson a „Fiók kezelése” gombra</translation>
+<translation id="8856898588039823173">Egyszerű oldal a Gab AI Inc-tól. Koppintással betöltheti az eredetit.</translation>
+<translation id="8134317863207426198">Egyszerű oldal a Gab AI Inc-tól. Az Eredeti betöltése gombra koppintva betöltheti az eredeti oldalt.</translation>
 <translation id="4961107849584082341">Bármely nyelvre lefordíthatja ezt az oldalt</translation>
 <translation id="569536719314091526">Bármely nyelvre lefordíthatja ezt az oldalt a További lehetőségek gomb segítségével</translation>
 <translation id="1397811292916898096">Keresés a(z) <ph name="PRODUCT_NAME"/> keresőmotorral</translation>
 <translation id="1792959175193046959">Az alapértelmezett letöltési helyet bármikor módosíthatja</translation>
 <translation id="6942665639005891494">Az alapértelmezett letöltési helyet bármikor módosíthatja a Beállítások menüben</translation>
 <translation id="6850409657436465440">A letöltés még mindig folyamatban van</translation>
-<translation id="5817715962196959877">Mostantól a Brave gyorsabban tölti le a fájlokat</translation>
+<translation id="5817715962196959877">Mostantól a Dissenter gyorsabban tölti le a fájlokat</translation>
 <translation id="3976396876660209797">A gyorsparancs eltávolítása és újbóli létrehozása</translation>
 <translation id="6766622839693428701">A bezáráshoz csúsztasson lefelé.</translation>
 <translation id="1028699632127661925">Küldés a következő eszközre: <ph name="DEVICE_NAME"/>…</translation>
@@ -1071,15 +1071,15 @@ A webhely NEM kap hozzáférést a kamerához. A kamera képét csak Ön láthat
 <translation id="1521774566618522728">Ma volt aktív</translation>
 <translation id="3631987586758005671">Megosztás a következővel: <ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">Szinkronizálás bekapcsolása az eszközök közötti megosztáshoz</translation>
-<translation id="6162454065885854378">Ha szeretne megosztani valamit a telefonjáról egy másik eszközre, kapcsolja be a szinkronizálást a Brave beállításaiban mindkét eszközön</translation>
-<translation id="6084271560289605378">Ugrás a Brave beállításaira</translation>
+<translation id="6162454065885854378">Ha szeretne megosztani valamit a telefonjáról egy másik eszközre, kapcsolja be a szinkronizálást a Dissenter beállításaiban mindkét eszközön</translation>
+<translation id="6084271560289605378">Ugrás a Dissenter beállításaira</translation>
 <translation id="2318045970523081853">Koppintson a hívás indításához</translation>
 <translation id="9209888181064652401">Nem lehet hívást indítani</translation>
 <translation id="2860954141821109167">Győződjön meg arról, hogy van engedélyezett telefonalkalmazás ezen az eszközön</translation>
 <translation id="2067805253194386918">szöveg</translation>
 <translation id="1450753235335490080">Nem sikerült a(z) <ph name="CONTENT_TYPE"/> megosztása</translation>
 <translation id="1266864766717917324">Nem sikerült a(z) <ph name="CONTENT_TYPE"/> megosztása</translation>
-<translation id="8287068819750208230">Győződjön meg arról, hogy a(z) <ph name="TARGET_DEVICE_NAME"/> szinkronizálása be van kapcsolva a Brave-ban</translation>
+<translation id="8287068819750208230">Győződjön meg arról, hogy a(z) <ph name="TARGET_DEVICE_NAME"/> szinkronizálása be van kapcsolva a Dissenter-ban</translation>
 <translation id="3016635187733453316">Ellenőrizze, hogy az eszköz csatlakozik-e az internethez</translation>
 <translation id="8466613982764129868">Győződjön meg arról, hogy a(z) <ph name="TARGET_DEVICE_NAME"/> eszköz csatlakozik az internethez</translation>
 <translation id="6539092367496845964">Hiba történt. Próbálja újra később.</translation>
@@ -1101,16 +1101,16 @@ A webhely NEM kap hozzáférést a kamerához. A kamera képét csak Ön láthat
 <translation id="7055152154916055070">Átirányítás letiltva:</translation>
 <translation id="5524843473235508879">Átirányítás letiltva.</translation>
 <translation id="6573096386450695060">Engedélyezés mindig</translation>
-<translation id="5805364706385912897">Ez az oldal túl sok memóriát használ, ezért a Brave szünetelteti.</translation>
-<translation id="5138664332909611586">Ez az oldal túl sok memóriát használ, ezért a Brave eltávolított egyes tartalmakat.</translation>
+<translation id="5805364706385912897">Ez az oldal túl sok memóriát használ, ezért a Dissenter szünetelteti.</translation>
+<translation id="5138664332909611586">Ez az oldal túl sok memóriát használ, ezért a Dissenter eltávolított egyes tartalmakat.</translation>
 <translation id="9137013805542155359">Eredeti megjelenítése</translation>
-<translation id="6361779936989026201">Brave Software Segéd a Brave-ban</translation>
+<translation id="6361779936989026201">Gab AI Inc Segéd a Dissenter-ban</translation>
 <translation id="7291387454912369099">Segéd által aktivált fizetés</translation>
-<translation id="4565206163201411670">Brave-beli tevékenysége megjelenjen a digitális jóllét funkcióban?</translation>
-<translation id="9055113864158719823">Megnézheti a Brave böngészővel felkeresett webhelyeket, és beállíthat hozzájuk időzítéseket.\n\nAz időzítéssel ellátott webhelyek adatait és a látogatás hosszát megkapja a Brave Software. Ezek az adatok a digitális jóllét funkció továbbfejlesztésére szolgálnak.</translation>
-<translation id="4596514158372210596">Brave-beli tevékenység eltávolítása a digitális jóllét funkcióból</translation>
-<translation id="1174893863889683998">Eltávolítja Brave-beli tevékenységét a digitális jóllét funkcióból?</translation>
-<translation id="708829030563435351">A Brave-ban felkeresett webhelyek nem fognak megjelenni. A webhelyekkel kapcsolatos összes időzítés törlődik.</translation>
+<translation id="4565206163201411670">Dissenter-beli tevékenysége megjelenjen a digitális jóllét funkcióban?</translation>
+<translation id="9055113864158719823">Megnézheti a Dissenter böngészővel felkeresett webhelyeket, és beállíthat hozzájuk időzítéseket.\n\nAz időzítéssel ellátott webhelyek adatait és a látogatás hosszát megkapja a Gab AI Inc. Ezek az adatok a digitális jóllét funkció továbbfejlesztésére szolgálnak.</translation>
+<translation id="4596514158372210596">Dissenter-beli tevékenység eltávolítása a digitális jóllét funkcióból</translation>
+<translation id="1174893863889683998">Eltávolítja Dissenter-beli tevékenységét a digitális jóllét funkcióból?</translation>
+<translation id="708829030563435351">A Dissenter-ban felkeresett webhelyek nem fognak megjelenni. A webhelyekkel kapcsolatos összes időzítés törlődik.</translation>
 <translation id="2056878612599315956">A webhely szüneteltetve van</translation>
 <translation id="671481426037969117">A(z) <ph name="FQDN"/> alkalmazás időzítése lejárt. Holnap újraindul.</translation>
 <translation id="7479104141328977413">Lapkezelés</translation>
@@ -1121,7 +1121,7 @@ A webhely NEM kap hozzáférést a kamerához. A kamera képét csak Ön láthat
 <translation id="246532703174860178">Megosztás</translation>
 <translation id="2517472476991765520">Keresés</translation>
 <translation id="8628973420740315031">Ha szeretné engedélyezni a megosztást a közelben lévő személyekkel, olvastassa be velük ezt a QR-kódot</translation>
-<translation id="7339921667754113786">Brave Software Notifications Platform</translation>
+<translation id="7339921667754113786">Gab AI Inc Notifications Platform</translation>
 <translation id="8516012719330875537">Képszerkesztő</translation>
 <translation id="4808319664292298116">Belép a(z) <ph name="DOMAIN"/> által biztosított virtuális valóságba?</translation>
 <translation id="4353114845960720315">Amíg VR-módban van, a webhely információkhoz juthat bizonyos dolgokról:</translation>

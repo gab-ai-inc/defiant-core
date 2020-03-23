@@ -23,7 +23,7 @@
 
   <!-- Internal page summary strings -->
   <!-- Note: IDS_PAGE_INFO_INTERNAL_PAGE would be here, but it is in components_{chromium,google_chrome}_strings.grd because it uses the browser name. -->
-  <message name="IDS_PAGE_INFO_EXTENSION_PAGE" desc="Message to display in the page info bubble when the page you are on is a chrome-extension:// page. This refers to Brave extensions.">
+  <message name="IDS_PAGE_INFO_EXTENSION_PAGE" desc="Message to display in the page info bubble when the page you are on is a chrome-extension:// page. This refers to Dissenter extensions.">
     You're viewing an extension page
   </message>
   <message name="IDS_PAGE_INFO_VIEW_SOURCE_PAGE" desc="Message to display in the page info bubble when you are viewing page sources by using |View page source| option from the right click menu.">
@@ -38,7 +38,7 @@
     Suspicious site
   </message>
   <message name="IDS_PAGE_INFO_SAFETY_TIP_BAD_REPUTATION_DESCRIPTION" desc="Body of message to display in the page info bubble when you are viewing a page that triggered a safety tip.">
-    This site could be fake or fraudulent. Brave recommends leaving now.
+    This site could be fake or fraudulent. Dissenter recommends leaving now.
   </message>
   <message name="IDS_PAGE_INFO_SAFETY_TIP_MORE_INFO_LINK" desc="Text of link to Help Center page on safety tip page info bubble.">
     Learn more
@@ -172,7 +172,7 @@
       <ph name="CITY">$1<ex>Mountain View</ex></ph>, <ph name="COUNTRY">$2<ex>US</ex></ph>
     </message>
     <message name="IDS_PAGE_INFO_SECURITY_TAB_SECURE_IDENTITY_EV_VERIFIED" desc="Describes the legal entity that the current page's HTTPS certificate was issued to. Shown in the certificate area in the Page Info bubble when a HTTPS site with a valid EV certificate is loaded.">
-      Issued to: <ph name="ORGANIZATION">$1<ex>Brave LLC</ex></ph> [<ph name="JURISDICTION">$2<ex>US</ex></ph>]
+      Issued to: <ph name="ORGANIZATION">$1<ex>Dissenter LLC</ex></ph> [<ph name="JURISDICTION">$2<ex>US</ex></ph>]
     </message>
 
     <!-- Certificate Viewer link -->
@@ -372,7 +372,7 @@
     </message>
 
     <!-- Site settings link -->
-    <message name="IDS_PAGE_INFO_SITE_SETTINGS_LINK" desc="This is the text of the link pointing to Brave's Site Settings page. This appears at the bottom of the Permissions pane of the Page Information Window.">
+    <message name="IDS_PAGE_INFO_SITE_SETTINGS_LINK" desc="This is the text of the link pointing to Dissenter's Site Settings page. This appears at the bottom of the Permissions pane of the Page Information Window.">
       Site settings
     </message>
     <message name="IDS_PAGE_INFO_SITE_SETTINGS_TOOLTIP" desc="The text of the tooltip on IDS_PAGE_INFO_SITE_SETTINGS_LINK.">
@@ -398,7 +398,7 @@
     <message name="IDS_PAGE_INFO_PERMISSION_ASK_BY_EXTENSION" desc="The label used underneath a permission listed in the Page Info bubble if the permission was explicitly set to 'Ask' by one of the user's extensions.">
       Setting controlled by an extension
     </message>
-    <message name="IDS_PAGE_INFO_PERMISSION_AUTOMATICALLY_BLOCKED" desc="The label used underneath a permission listed in the Page Info bubble if the permission was blocked by Brave on behalf of the user.">
+    <message name="IDS_PAGE_INFO_PERMISSION_AUTOMATICALLY_BLOCKED" desc="The label used underneath a permission listed in the Page Info bubble if the permission was blocked by Dissenter on behalf of the user.">
       Automatically blocked
     </message>
     <message name="IDS_PAGE_INFO_PERMISSION_ADS_SUBTITLE" desc="A subtitle shown under the ‘Ads’ setting indicating that a site has, in the past, shown intrusive or misleading ads. Shown when user clicks/taps the lock/'Danger' icon in the address bar. Used on both desktop and Android platforms" formatter_data="android_java">
@@ -422,60 +422,60 @@
       </message>
       <if expr="_google_chrome">
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS" desc="A short paragraph explaining to the user that they has reuse their google password on current website.">
-          You could lose access to your Brave Account. Brave recommends changing your password now. You'll be asked to sign in.
+          You could lose access to your Dissenter Account. Dissenter recommends changing your password now. You'll be asked to sign in.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website.">
-          You just entered your password on a deceptive site. Brave recommends changing your password now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website.">
+          You just entered your password on a deceptive site. Dissenter recommends changing your password now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_1_DOMAIN" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on one domain.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph> and other sites where you use this password and changing it now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_1_DOMAIN" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on one domain.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph> and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_2_DOMAINS" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on two domains.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and other sites where you use this password and changing it now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_2_DOMAINS" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on two domains.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_3_DOMAINS" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on three domains.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and <ph name="WEBSITE_3">$3<ex>www.amazon.com</ex></ph>, and other sites where you use this password and changing it now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_3_DOMAINS" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on three domains.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and <ph name="WEBSITE_3">$3<ex>www.amazon.com</ex></ph>, and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SYNC" desc="A short paragraph explaining to a Brave sync user that they have reused their Brave password on the current website.">
-          Brave can help you protect your Brave Account and change your password.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SYNC" desc="A short paragraph explaining to a Dissenter sync user that they have reused their Dissenter password on the current website.">
+          Dissenter can help you protect your Dissenter Account and change your password.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SIGNED_IN_NON_SYNC" desc="A short paragraph explaining to a non-sync user that they have reused their Brave password on the current website.">
-          You just entered your password on a deceptive site. Brave can help. To change your password and notify Brave that your account may be at risk, click Protect Account.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SIGNED_IN_NON_SYNC" desc="A short paragraph explaining to a non-sync user that they have reused their Dissenter password on the current website.">
+          You just entered your password on a deceptive site. Dissenter can help. To change your password and notify Dissenter that your account may be at risk, click Protect Account.
         </message>
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-          You could lose access to your organization's account or experience identity theft. Brave recommends changing your password now.
+          You could lose access to your organization's account or experience identity theft. Dissenter recommends changing your password now.
         </message>
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE_WITH_ORG_NAME" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-          You could lose access to your <ph name="ORG_NAME">$1<ex>Brave</ex></ph> account or experience identity theft. Brave recommends changing your password now.
+          You could lose access to your <ph name="ORG_NAME">$1<ex>Dissenter</ex></ph> account or experience identity theft. Dissenter recommends changing your password now.
         </message>
       </if>
       <if expr="not _google_chrome">
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS" desc="A short paragraph explaining to the user that they has reuse their google password on current website.">
-          You could lose access to your Brave Account. Brave recommends changing your password now. You'll be asked to sign in.
+          You could lose access to your Dissenter Account. Dissenter recommends changing your password now. You'll be asked to sign in.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website.">
-          You just entered your password on a deceptive site. Brave recommends changing your password now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website.">
+          You just entered your password on a deceptive site. Dissenter recommends changing your password now.
         </message>
-         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_1_DOMAIN" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on one domain.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph> and other sites where you use this password and changing it now.
+         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_1_DOMAIN" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on one domain.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph> and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_2_DOMAINS" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on two domains.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and other sites where you use this password and changing it now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_2_DOMAINS" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on two domains.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_3_DOMAINS" desc="A short paragraph explaining to a Brave user that they have reused their saved password on the current website and to change their password on three domains.">
-          You just entered your password on a deceptive site. Brave recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and <ph name="WEBSITE_3">$3<ex>www.amazon.com</ex></ph>, and other sites where you use this password and changing it now.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SAVED_3_DOMAINS" desc="A short paragraph explaining to a Dissenter user that they have reused their saved password on the current website and to change their password on three domains.">
+          You just entered your password on a deceptive site. Dissenter recommends going to <ph name="WEBSITE_1">$1<ex>www.google.com</ex></ph>, <ph name="WEBSITE_2">$2<ex>www.reddit.com</ex></ph>, and <ph name="WEBSITE_3">$3<ex>www.amazon.com</ex></ph>, and other sites where you use this password and changing it now.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SYNC" desc="A short paragraph explaining to a Brave sync user that they have reused their Brave password on the current website.">
-          Brave can help you protect your Brave Account and change your password.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SYNC" desc="A short paragraph explaining to a Dissenter sync user that they have reused their Dissenter password on the current website.">
+          Dissenter can help you protect your Dissenter Account and change your password.
         </message>
-        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SIGNED_IN_NON_SYNC" desc="A short paragraph explaining to a non-sync user that they have reused their Brave password on the current website.">
-          You just entered your password on a deceptive site. Brave can help. To change your password and notify Brave that your account may be at risk, click Protect Account.
+        <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_SIGNED_IN_NON_SYNC" desc="A short paragraph explaining to a non-sync user that they have reused their Dissenter password on the current website.">
+          You just entered your password on a deceptive site. Dissenter can help. To change your password and notify Dissenter that your account may be at risk, click Protect Account.
         </message>
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-          You could lose access to your organization's account or experience identity theft. Brave recommends changing your password now.
+          You could lose access to your organization's account or experience identity theft. Dissenter recommends changing your password now.
         </message>
         <message name="IDS_PAGE_INFO_CHANGE_PASSWORD_DETAILS_ENTERPRISE_WITH_ORG_NAME" desc="A short paragraph explaining to the user that they have reused their password on the current website.">
-          You could lose access to your <ph name="ORG_NAME">$1<ex>Brave</ex></ph> account or experience identity theft. Brave recommends changing your password now.
+          You could lose access to your <ph name="ORG_NAME">$1<ex>Dissenter</ex></ph> account or experience identity theft. Dissenter recommends changing your password now.
         </message>
       </if>
 

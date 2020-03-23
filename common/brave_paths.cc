@@ -27,7 +27,7 @@ bool PathProvider(int key, base::FilePath* result) {
     case DIR_TEST_DATA:
       if (!base::PathService::Get(base::DIR_SOURCE_ROOT, &cur))
         return false;
-      cur = cur.Append(FILE_PATH_LITERAL("brave"));
+      cur = cur.Append(FILE_PATH_LITERAL("dissenter"));
       cur = cur.Append(FILE_PATH_LITERAL("test"));
       cur = cur.Append(FILE_PATH_LITERAL("data"));
       if (!base::PathExists(cur))  // We don't want to create this.

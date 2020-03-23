@@ -1,21 +1,21 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="ar">
-<translation id="3333887201479867589">مكافآت Brave</translation>
-<translation id="7942180974165298215">Brave لحظر الإعلانات</translation>
+<translation id="3333887201479867589">مكافآت Dissenter</translation>
+<translation id="7942180974165298215">Dissenter لحظر الإعلانات</translation>
 <translation id="4615489450165434530">الإبلاغ عن موقع إلكتروني معطل</translation>
 <translation id="6406506848690869874">مزامنة</translation>
 <translation id="5655621391922317800">محافظ Crypto Wallets</translation>
 <translation id="2445484935443597917">إنشاء ملف شخصي جديد</translation>
 <translation id="2666990579225592931">فتح نافذة "ضيف"</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") غير مسموح به في Brave.</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") غير مسموح به في Dissenter.</translation>
 <translation id="7450557937477381864">أغلق Chrome</translation>
 <translation id="7008934821596358692">لإنهاء الاستيراد، أغلق جميع نوافذ كروم.</translation>
-<translation id="5735465527556462863">غلق Brave (قديم)</translation>
-<translation id="7737066986958447692">لإنهاء الاستيراد، أغلِق جميع نوافذ Brave (قديم).</translation>
+<translation id="5735465527556462863">غلق Dissenter (قديم)</translation>
+<translation id="7737066986958447692">لإنهاء الاستيراد، أغلِق جميع نوافذ Dissenter (قديم).</translation>
 <translation id="6447842834002726250">ملفّات تعريف الارتباط</translation>
 <translation id="4983925687993168579">الإحصائيات</translation>
-<translation id="6165477144235978006">دفعات Brave</translation>
+<translation id="6165477144235978006">دفعات Dissenter</translation>
 <translation id="3489524616427966890">فتح النوافذ وعلامات التبويب</translation>
 <translation id="3699882589215410581">تثبيت وتشغيل Widevine</translation>
 <translation id="8926389886865778422">عدم السؤال مرة أخرى</translation>
@@ -24,11 +24,11 @@
 <translation id="8762452230727230396">يقوم متصفح Tor بإخفاء عنوان IP الخاص بك من المواقع التي تزورها.</translation>
 <translation id="8053096063396012732">تثبيت Widevine</translation>
 <translation id="4840334696217618631">أعد تشغيل المتصفح لتمكين Widevine</translation>
-<translation id="8410111618231938546">إن Google Widevine هو جزء من رمز إدارة الحقوق الرقمية (DRM) التي لا نمتلكها ولا يمكننا فحصها في Brave Software. يتم تحميل رمز Google Widevine من خوادم Google، وليس من خوادمنا. يتم تحميله فقط عند تمكين هذا الخيار. نحن لا نشجع استخدام DRM، لكننا نحترم اختيار المستخدم ونقر بأن بعض مستخدمي Brave يرغبون في استخدام الخدمات التي تتطلب ذلك.
+<translation id="8410111618231938546">إن Google Widevine هو جزء من رمز إدارة الحقوق الرقمية (DRM) التي لا نمتلكها ولا يمكننا فحصها في Gab AI Inc. يتم تحميل رمز Google Widevine من خوادم Google، وليس من خوادمنا. يتم تحميله فقط عند تمكين هذا الخيار. نحن لا نشجع استخدام DRM، لكننا نحترم اختيار المستخدم ونقر بأن بعض مستخدمي Dissenter يرغبون في استخدام الخدمات التي تتطلب ذلك.
 
-عن طريق تثبيت هذا الملحق، إنك توافق على شروط استخدام Google Widevine. وتوافق على أن Brave ليست مسؤولة عن أية أضرار أو خسائر متعلقة باستخدامك لـ Google Widevine.</translation>
-<translation id="6499845530162974140">Brave (قديم)</translation>
-<translation id="3198814717959506569">تم الاستيراد من Brave</translation>
+عن طريق تثبيت هذا الملحق، إنك توافق على شروط استخدام Google Widevine. وتوافق على أن Dissenter ليست مسؤولة عن أية أضرار أو خسائر متعلقة باستخدامك لـ Google Widevine.</translation>
+<translation id="6499845530162974140">Dissenter (قديم)</translation>
+<translation id="3198814717959506569">تم الاستيراد من Dissenter</translation>
 <translation id="453977518730680921">وسائط التشغيل التلقائي</translation>
 <translation id="410351446219883937">تشغيل تلقائي</translation>
 <translation id="2240268017737062801">اسأل عندما يريد أحد المواقع تشغيل الوسائط تلقائيًا</translation>
@@ -36,12 +36,12 @@
 <translation id="3218385319396786393">تم حظر التشغيل التلقائي في هذه الصفحة</translation>
 <translation id="4988333904713528597">اسمح دائماً بالتشغيل الأوتوماتيكي على <ph name="HOST"/></translation>
 <translation id="4150684676757176434">متابعة حظر التشغيل التلقائي</translation>
-<translation id="5883458389055721080">لم يراجع Brave هذا الملحق للأمان والسلامة. قم بتثبيت هذا الملحق فقط إذا كنت تثق في المطور.</translation>
+<translation id="5883458389055721080">لم يراجع Dissenter هذا الملحق للأمان والسلامة. قم بتثبيت هذا الملحق فقط إذا كنت تثق في المطور.</translation>
 <translation id="8081858229109418493">اسم ورمز الملف الشخصي</translation>
-<translation id="2044383478723007273">ألوان Brave</translation>
+<translation id="2044383478723007273">ألوان Dissenter</translation>
 <translation id="2814998458708016836">استخدام شريط عناوين عريض</translation>
-<translation id="6123134130710658846">إخفاء زر Brave Rewards</translation>
-<translation id="7635711399568194460">يخفي زر Brave Rewards في شريط الموقع عند عدم تمكين Brave Rewards</translation>
+<translation id="6123134130710658846">إخفاء زر Dissenter Rewards</translation>
+<translation id="7635711399568194460">يخفي زر Dissenter Rewards في شريط الموقع عند عدم تمكين Dissenter Rewards</translation>
 <translation id="1520361618554057102">عرض الإشارات المرجعية في صفحة علامة التبويب الجديدة دائماً</translation>
 <translation id="5802665280774361839">إظهار الإكمال التلقائي في شريط العناوين</translation>
 <translation id="7965178729203412357">هوية تور الجديدة</translation>
@@ -51,10 +51,10 @@
 <translation id="3696187925156352769">افتح نافذة Tor</translation>
 <translation id="1434416574322382019">نافذة جديدة وخاصة بـTor</translation>
 <translation id="4703780849509456860">افتح الرابط في نافذة خاصة بـ Tor</translation>
-<translation id="3488584642074079080">افتح الرابط في نافذة Brave الخاصة بـ Tor</translation>
+<translation id="3488584642074079080">افتح الرابط في نافذة Dissenter الخاصة بـ Tor</translation>
 <translation id="6313675821927505581">نافذة خاصة جديدة من خلال Tor</translation>
 <translation id="2638041073279639246">افتح الرابط في نافذة خاصة، باستخدام Tor</translation>
-<translation id="3425600262621021599">افتح الرابط في نافذة Brave خاصة، باستخدام Tor</translation>
+<translation id="3425600262621021599">افتح الرابط في نافذة Dissenter خاصة، باستخدام Tor</translation>
 <translation id="3155170474926428993">مشغِّل تور</translation>
 <translation id="2515126961943087659">خدمة إعلانات Bat</translation>
 <translation id="7924918279836988121">خدمة دفتر الأستاذ من Bat</translation>
@@ -63,7 +63,7 @@
 <translation id="6303294677342628402">طرق الحماية</translation>
 <translation id="7133511168130368997">حظر برامج التتبع والإعلانات التي تتابعك عبر شبكة الويب.</translation>
 <translation id="2761825942249694703">هذه هي إعدادات Shields الافتراضية. تنطبق على جميع مواقع الويب ما لم تقم بتغيير شيء ما في لوحة Shields على موقع معين. لن يؤثر تغييرها على إعداداتك الحالية لكل موقع.</translation>
-<translation id="8754605759692119662">سيؤدي هذا إلى حظر معظم الإعلانات على مواقع الويب، وليس الإعلانات الخاصة بمتصفح Brave — يتم التحكم في هذه الإعلانات في</translation>
+<translation id="8754605759692119662">سيؤدي هذا إلى حظر معظم الإعلانات على مواقع الويب، وليس الإعلانات الخاصة بمتصفح Dissenter — يتم التحكم في هذه الإعلانات في</translation>
 <translation id="6388201778088078932">الإعدادات.</translation>
 <translation id="9185018653595759199">حجب وسائل التواصل الاجتماعي</translation>
 <translation id="7390783310074170337">العرض الافتراضي</translation>
@@ -106,7 +106,7 @@
 <translation id="1085027414516521238">MetaMask</translation>
 <translation id="6554397389149987360">يستخدم عنصر تطبيق Hangouts لتمكين مشاركة الشاشة وغيرها من الميزات في المتصفح.</translation>
 <translation id="1765684547504191670">يستخدم مكوّن Media Router لتمكين Chromecast في المتصفح.</translation>
-<translation id="9156965752763025780">‏ستسري التغييرات في المرة التالية التي تعيد فيها تشغيل Brave.</translation>
+<translation id="9156965752763025780">‏ستسري التغييرات في المرة التالية التي تعيد فيها تشغيل Dissenter.</translation>
 <translation id="7179921470347911571">أعد التشغيل الآن</translation>
 <translation id="4154389611571860454">يستخدم ملحق رفيق IPFS لدعم IPFS في المستعرض.</translation>
 <translation id="8137559199583651773">إدارة الإضافات</translation>
@@ -119,11 +119,11 @@
 <translation id="3789841737615482174">تثبيت</translation>
 <translation id="7658239707568436148">إلغاء</translation>
 <translation id="1307431692088049276">لا تسألني مرةً أخرى</translation>
-<translation id="3371343170427636147">تطبيقات متصفح Brave الليلية</translation>
-<translation id="4097979995947147464">تطبيقات متصفح Brave التجريبية</translation>
-<translation id="8303432794159193481">تطبيقات تطوير متصفح Brave</translation>
-<translation id="8292967014767479012">تطبيقات متصفح Brave</translation>
-<translation id="4743468424889072281">تطبيقات تطوير متصفح Brave</translation>
+<translation id="3371343170427636147">تطبيقات متصفح Dissenter الليلية</translation>
+<translation id="4097979995947147464">تطبيقات متصفح Dissenter التجريبية</translation>
+<translation id="8303432794159193481">تطبيقات تطوير متصفح Dissenter</translation>
+<translation id="8292967014767479012">تطبيقات متصفح Dissenter</translation>
+<translation id="4743468424889072281">تطبيقات تطوير متصفح Dissenter</translation>
 <translation id="6624718837376802990">الصورة الرمزية للمكافآت الهائجة</translation>
 <translation id="6617313057407561765">الصورة الرمزية للشجاع الهائج</translation>
 <translation id="6754445808455578019">الصورة الرمزية للمحيط الهائج</translation>
@@ -159,11 +159,11 @@
 <translation id="5318548116565208315">الصورة الرمزية ذرة بونبون</translation>
 <translation id="1959966725083452288">الصورة الرمزية بونبون ملكي</translation>
 <translation id="2039034364578911089">الصورة الرمزية بونبون نينجا</translation>
-<translation id="1872784258300710671">يستخدم Brave تحليلات المنتج الخاصة بالكامل لتقدير الاستخدام الكلي لبعض الميزات</translation>
+<translation id="1872784258300710671">يستخدم Dissenter تحليلات المنتج الخاصة بالكامل لتقدير الاستخدام الكلي لبعض الميزات</translation>
 <translation id="8712637175834984815">تم</translation>
 <translation id="4394049700291259645">إيقاف</translation>
-<translation id="6469509880167172749">إرسال تحليلات المنتج الخاصة بالكامل تلقائيًا إلى Brave</translation>
-<translation id="7090566321964540749">تتيح هذه المعلومات المُجهلة فقط لمتصفح Brave تقدير الاستخدام الكلي لبعض الميزات.</translation>
+<translation id="6469509880167172749">إرسال تحليلات المنتج الخاصة بالكامل تلقائيًا إلى Dissenter</translation>
+<translation id="7090566321964540749">تتيح هذه المعلومات المُجهلة فقط لمتصفح Dissenter تقدير الاستخدام الكلي لبعض الميزات.</translation>
 <translation id="7583735190612229830">قم بإعداد Crypto Wallets للتفاعل مع هذا التطبيق وما يماثله من التطبيقات الأخرى.</translation>
 <translation id="8337117349965899723">استخدام Crypto Wallets</translation>
 <translation id="5756155765711979898">استخدام MetaMask</translation>
@@ -172,7 +172,7 @@
 <translation id="2609895996619941644">هل تريد التحقق مما إذا كان هناك إصدار محفوظ متاح على "واي باك مشين"؟</translation>
 <translation id="8053093028263274061">عذراً، لا توجد نسخة محفوظة متاحة.</translation>
 <translation id="8517321676372639828">تحقق من وجود نسخة محفوظة</translation>
-<translation id="191143826155037518">يتم توفير Brave لك بموجب <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>ترخيص Mozilla العام 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) ويشمل <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>برمجيات مفتوحة المصدر<ph name="END_LINK_OSS">&lt;/a&gt;</ph> بموجب مختلف التراخيص الأخرى.
+<translation id="191143826155037518">يتم توفير Dissenter لك بموجب <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>ترخيص Mozilla العام 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) ويشمل <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>برمجيات مفتوحة المصدر<ph name="END_LINK_OSS">&lt;/a&gt;</ph> بموجب مختلف التراخيص الأخرى.
         يمكنك قراءة <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>التعليمات حول كيفية تنزيل وبناء<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph> التعليمات البرمجية الأصلية المحددة المستخدمة لإنشاء هذه النسخة<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph> لنفسك.</translation>
 <translation id="4474155171896946103">وضع إشارات على كل علامات التبويب...</translation>
 <translation id="2336228925368920074">وضع إشارة على جميع علامات التبويب...</translation>

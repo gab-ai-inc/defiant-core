@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- android_chrome_strings.grd contains strings for Brave for Android.
+<!-- android_chrome_strings.grd contains strings for Dissenter for Android.
 
 FAQ:
   - How do I add, change, or remove a string?
@@ -294,7 +294,7 @@ CHAR-LIMIT guidelines:
       </message>
 
       <!-- Main Preferences -->
-      <message name="IDS_PREFERENCES" desc="Title for Brave's Settings.">
+      <message name="IDS_PREFERENCES" desc="Title for Dissenter's Settings.">
         Settings
       </message>
       <message name="IDS_MENU_HELP" desc="Menu item for opening the help page. [CHAR-LIMIT=27]">
@@ -371,51 +371,51 @@ CHAR-LIMIT guidelines:
       <message name="IDS_PREFS_SECTION_ACCOUNT" desc="Title for the group of account-related entries in Settings. [CHAR-LIMIT=32]">
         Account
       </message>
-      <message name="IDS_SIGN_IN_TO_CHROME" desc="Title for the button to sign in to Brave using one's Brave account. [CHAR-LIMIT=27]">
-        Sign in to Brave
+      <message name="IDS_SIGN_IN_TO_CHROME" desc="Title for the button to sign in to Dissenter using one's Dissenter account. [CHAR-LIMIT=27]">
+        Sign in to Dissenter
       </message>
-      <message name="IDS_PREFS_SYNC_AND_SERVICES" desc="Title for Settings section to manage data collection for Sync and Brave services. [CHAR-LIMIT=40]">
-        Sync and Brave services
+      <message name="IDS_PREFS_SYNC_AND_SERVICES" desc="Title for Settings section to manage data collection for Sync and Dissenter services. [CHAR-LIMIT=40]">
+        Sync and Dissenter services
       </message>
-      <message name="IDS_PREFS_SYNC_AND_SERVICES_CONTENT_DESCRIPTION" desc="The accessibility text to read when the 'Sync and Brave services' Settings page is opened from the sign-in page. This text is attached to the 'Navigate Up' button shown at the top of the screen. The first two sentences describe the screen that is currently shown to the user, while 'Navigate up' is a description for the button this text is attached to. 'Navigate up' should match TC ID 6794660482873516081.">
-        You are currently customizing your Sync and Brave service settings. To finish turning on sync, tap the Confirm button near the bottom of the screen. Navigate up
+      <message name="IDS_PREFS_SYNC_AND_SERVICES_CONTENT_DESCRIPTION" desc="The accessibility text to read when the 'Sync and Dissenter services' Settings page is opened from the sign-in page. This text is attached to the 'Navigate Up' button shown at the top of the screen. The first two sentences describe the screen that is currently shown to the user, while 'Navigate up' is a description for the button this text is attached to. 'Navigate up' should match TC ID 6794660482873516081.">
+        You are currently customizing your Sync and Dissenter service settings. To finish turning on sync, tap the Confirm button near the bottom of the screen. Navigate up
       </message>
-      <message name="IDS_SIGNIN_PREF_SUMMARY" desc="Summary for the entry in Settings to sign in to Brave, explaining benefits of signing in.">
+      <message name="IDS_SIGNIN_PREF_SUMMARY" desc="Summary for the entry in Settings to sign in to Dissenter, explaining benefits of signing in.">
         Sync and personalize across devices
       </message>
-      <message name="IDS_SYNC_AND_SERVICES_SUMMARY_SYNC_ON" desc="Summary for 'Sync and Brave services' preference row when sync is enabled.">
+      <message name="IDS_SYNC_AND_SERVICES_SUMMARY_SYNC_ON" desc="Summary for 'Sync and Dissenter services' preference row when sync is enabled.">
         Sync is on
       </message>
-      <message name="IDS_SIGN_IN_TO_CHROME_DISABLED_SUMMARY" desc="A descriptive line of text that appears under the 'Sign in to Brave' option, in Brave Settings on Android. The text explains why 'Sign in to Brave' is disabled. 'Administrator' refers to the IT administrator of the company/organization that owns the user’s device.">
+      <message name="IDS_SIGN_IN_TO_CHROME_DISABLED_SUMMARY" desc="A descriptive line of text that appears under the 'Sign in to Dissenter' option, in Dissenter Settings on Android. The text explains why 'Sign in to Dissenter' is disabled. 'Administrator' refers to the IT administrator of the company/organization that owns the user’s device.">
         Disabled by the administrator of this device
       </message>
-      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_TITLE" desc="Title of Brave activity controls preference in signed in accounts settings screen">
-        Brave activity controls
+      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_TITLE" desc="Title of Dissenter activity controls preference in signed in accounts settings screen">
+        Dissenter activity controls
       </message>
-      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_SUMMARY" desc="Message of Brave activity controls preference in signed in accounts settings screen">
+      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_SUMMARY" desc="Message of Dissenter activity controls preference in signed in accounts settings screen">
         Control how your browsing history is used to personalize Search, ads, and more
       </message>
-      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_SUMMARY_CHILD_ACCOUNT" desc="Message of Brave activity controls preference in signed in accounts settings screen">
+      <message name="IDS_SIGN_IN_GOOGLE_ACTIVITY_CONTROLS_SUMMARY_CHILD_ACCOUNT" desc="Message of Dissenter activity controls preference in signed in accounts settings screen">
         Control how your browsing history is used to personalize Search and more
       </message>
       <!-- Unified consent preferences -->
       <message name="IDS_SIGN_OUT_AND_TURN_OFF_SYNC" desc="The text for a preferences row that for signs out the user and turns off sync.">
         Sign out and turn off sync
       </message>
-      <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Brave Account Page to manage account settings.">
-        Manage your Brave Account
+      <message name="IDS_MANAGE_YOUR_GOOGLE_ACCOUNT" desc="Title for link to Dissenter Account Page to manage account settings.">
+        Manage your Dissenter Account
       </message>
-      <message name="IDS_SYNC_CATEGORY_TITLE" desc="Title for the group of Sync-related entries in Settings. This group contains preferences for data tied to user's Brave Account.">
+      <message name="IDS_SYNC_CATEGORY_TITLE" desc="Title for the group of Sync-related entries in Settings. This group contains preferences for data tied to user's Dissenter Account.">
         Sync
       </message>
-      <message name="IDS_SYNC_SWITCH_TITLE" desc="Title for the switch preference that enables sync. Displayed in 'Sync and Brave services' screen.">
-        Sync your Brave data
+      <message name="IDS_SYNC_SWITCH_TITLE" desc="Title for the switch preference that enables sync. Displayed in 'Sync and Dissenter services' screen.">
+        Sync your Dissenter data
       </message>
-      <message name="IDS_MANAGE_SYNC_TITLE" desc="Title for the preference row that opens the screen that allows configuring separate data types. Displayed in 'Sync and Brave services' screen.">
+      <message name="IDS_MANAGE_SYNC_TITLE" desc="Title for the preference row that opens the screen that allows configuring separate data types. Displayed in 'Sync and Dissenter services' screen.">
         Manage sync
       </message>
-      <message name="IDS_SERVICES_CATEGORY_TITLE" desc="Title for the group of preferences that control non-personalized Brave services. This group contains preferences for data that is not tied to user's Brave Account.">
-        Other Brave services
+      <message name="IDS_SERVICES_CATEGORY_TITLE" desc="Title for the group of preferences that control non-personalized Dissenter services. This group contains preferences for data that is not tied to user's Dissenter Account.">
+        Other Dissenter services
       </message>
       <message name="IDS_AUTOCOMPLETE_SEARCHES_AND_URLS_TITLE" desc="Title for a checkbox in Settings that controls URL and search autocompletion and informs the user about the data shared by this feature.">
         Autocomplete searches and URLs
@@ -433,30 +433,30 @@ CHAR-LIMIT guidelines:
         Show suggestions for similar pages when a page can't be found
       </message>
       <message name="IDS_NAVIGATION_ERROR_SUGGESTIONS_SUMMARY" desc="Summary for a checkbox in Settings that controls pages suggestions on navigation errors and informs the user about the data shared by this feature.">
-        Sends the URL of a page you're trying to reach to Brave
+        Sends the URL of a page you're trying to reach to Dissenter
       </message>
       <message name="IDS_URL_KEYED_ANONYMIZED_DATA_TITLE" desc="Title for a checkbox in Settings that controls non-personalized URL collection and informs the user about the data shared by this feature.">
         Make searches and browsing better
       </message>
       <message name="IDS_URL_KEYED_ANONYMIZED_DATA_SUMMARY" desc="Summary for a checkbox in Settings that controls non-personalized URL collection and informs the user about the data shared by this feature.">
-        Sends URLs of pages you visit to Brave
+        Sends URLs of pages you visit to Dissenter
       </message>
       <message name="IDS_PRIVACY_SYNC_AND_SERVICES_LINK" desc="The text for Privacy preferences that is shown after all preference rows.">
-        For more settings that relate to privacy, security, and data collection, see <ph name="BEGIN_LINK">&lt;link&gt;</ph>Sync and Brave services<ph name="END_LINK">&lt;/link&gt;</ph>
+        For more settings that relate to privacy, security, and data collection, see <ph name="BEGIN_LINK">&lt;link&gt;</ph>Sync and Dissenter services<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_USAGE_AND_CRASH_REPORTS_TITLE" desc="Title for a preference that enables sending usage statistics and crash reports.">
-        Help improve Brave's features and performance
+        Help improve Dissenter's features and performance
       </message>
-      <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Brave's features and performance' preference.">
-        Automatically sends crash reports to Brave
+      <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Dissenter's features and performance' preference.">
+        Automatically sends crash reports to Dissenter
       </message>
-      <message name="IDS_CANCEL_SYNC_DIALOG_TITLE" desc="The title of a dialog that is shown when users tries closing 'Sync and Brave services' preferences without confirming the changes.">
+      <message name="IDS_CANCEL_SYNC_DIALOG_TITLE" desc="The title of a dialog that is shown when users tries closing 'Sync and Dissenter services' preferences without confirming the changes.">
         Cancel sync?
       </message>
-      <message name="IDS_CANCEL_SYNC_DIALOG_MESSAGE" desc="The text of a dialog that is shown when users tries closing 'Sync and Brave services' preferences without confirming the changes.">
+      <message name="IDS_CANCEL_SYNC_DIALOG_MESSAGE" desc="The text of a dialog that is shown when users tries closing 'Sync and Dissenter services' preferences without confirming the changes.">
         You can turn on sync anytime in settings
       </message>
-      <message name="IDS_CANCEL_SYNC_BUTTON" desc="The text of a button in a dialog that is shown when users tries closing 'Sync and Brave services' preferences without confirming the changes.">
+      <message name="IDS_CANCEL_SYNC_BUTTON" desc="The text of a button in a dialog that is shown when users tries closing 'Sync and Dissenter services' preferences without confirming the changes.">
         Cancel sync
       </message>
 
@@ -540,17 +540,17 @@ CHAR-LIMIT guidelines:
       <message name="IDS_AUTOFILL_CREDIT_CARD_EDITOR_BILLING_ADDRESS" desc="Label for a spinner input field containing a list of billing addresses for a credit card. [CHAR-LIMIT=32]">
         Billing address
       </message>
-      <message name="IDS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Brave instance.">
-         Copied to Brave
+      <message name="IDS_AUTOFILL_DESCRIBE_LOCAL_COPY" desc="Text label that describes a Wallet credit card which has been copied to the local Dissenter instance.">
+         Copied to Dissenter
       </message>
 
        <!-- Payment Request section preview strings -->
-       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Brave, plus an indication of the number of additional payment methods the user has saved.         Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
+       <message name="IDS_PAYMENT_REQUEST_PAYMENT_METHODS_PREVIEW" desc="This is a snippet of a payment method a user has saved to Dissenter, plus an indication of the number of additional payment methods the user has saved.         Its function is to show the user has payment methods that can be used to complete a payment, and thus doesn't have to type the entire payment method. [ICU Syntax]">
         {PAYMENT_METHOD, plural,
           =1 {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>1</ex></ph> more}
           other {<ph name="PAYMENT_METHOD_PREVIEW">%1$s<ex>VISA ....1234</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Brave, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_SHIPPING_ADDRESSES_PREVIEW" desc="This is a snippet of a shipping address a user has saved to Dissenter, plus an indication of the number of additional shipping addresses the user has saved. Its function is to show the user has shipping addresses that can be used to complete a purchase, and thus doesn't have to type the entire address. [ICU Syntax]">
       {SHIPPING_ADDRESS, plural,
         =1 {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_ADDRESS_PREVIEW">%1$s<ex>Jerry, 1253 Mcgill college</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES">%2$s<ex>2</ex></ph> more}}
@@ -560,7 +560,7 @@ CHAR-LIMIT guidelines:
         =1 {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>1</ex></ph> more}
         other {<ph name="SHIPPING_OPTION_PREVIEW">%1$s<ex>standard shipping</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS">%2$s<ex>2</ex></ph> more}}
       </message>
-      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Brave, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
+      <message name="IDS_PAYMENT_REQUEST_CONTACTS_PREVIEW" desc="This is a snippet of a contact a user has saved to Dissenter, plus an indication of the number of additional contacts the user has saved. Its function is to show the user has contacts that can be used to complete a purchase, and thus doesn't have to type the entire contact info. [ICU Syntax]">
         {CONTACT, plural,
           =1 {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>1</ex></ph> more}
           other {<ph name="CONTACT_PREVIEW">%1$s<ex>Jerry, 438-123-1922</ex></ph>\u2026 and <ph name="NUMBER_OF_ADDITIONAL_CONTACTS">%2$s<ex>2</ex></ph> more}}
@@ -579,17 +579,17 @@ CHAR-LIMIT guidelines:
       <message name="IDS_PASSWORDS_AUTO_SIGNIN_DESCRIPTION" desc="Text under 'Auto sign-in' checkbox">
         Automatically sign in to websites using stored credentials. When the feature is off, you’ll be asked for verification every time before signing in to a website.
       </message>
-      <message name="IDS_PASSWORDS_LEAK_DETECTION_SWITCH_TITLE" desc="Title for the switch toggling whether Brave should check that entered credentials have been part of a leak.">
+      <message name="IDS_PASSWORDS_LEAK_DETECTION_SWITCH_TITLE" desc="Title for the switch toggling whether Dissenter should check that entered credentials have been part of a leak.">
         Warn you if passwords are exposed in a data breach
       </message>
-      <message name="IDS_PASSWORDS_LEAK_DETECTION_SWITCH_SIGNED_OUT_ENABLE_DESCRIPTION" desc="Description for the switch toggling whether Brave should check that entered credentials have been part of a leak. Displayed for users who are not signed in and syncing.">
-        When you sign in to your Brave Account, this feature is turned on
+      <message name="IDS_PASSWORDS_LEAK_DETECTION_SWITCH_SIGNED_OUT_ENABLE_DESCRIPTION" desc="Description for the switch toggling whether Dissenter should check that entered credentials have been part of a leak. Displayed for users who are not signed in and syncing.">
+        When you sign in to your Dissenter Account, this feature is turned on
       </message>
       <message name="IDS_SECTION_SAVED_PASSWORDS_EXCEPTIONS" desc="Header for the list of websites for which user selected to never save passwords. [CHAR-LIMIT=32]">
         Never saved
       </message>
       <message name="IDS_MANAGE_PASSWORDS_TEXT" desc="Text for link to manage passwords on Account Central.">
-        View and manage saved passwords in your <ph name="BEGIN_LINK">&lt;link&gt;</ph>Brave Account<ph name="END_LINK">&lt;/link&gt;</ph>
+        View and manage saved passwords in your <ph name="BEGIN_LINK">&lt;link&gt;</ph>Dissenter Account<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_SAVED_PASSWORDS_NONE_TEXT" desc="Text when there are no saved passwords/exceptions.">
         Saved passwords will appear here.
@@ -655,7 +655,7 @@ CHAR-LIMIT guidelines:
         Export passwords…
       </message>
       <message name="IDS_SAVE_PASSWORD_PREFERENCES_EXPORT_ACTION_DESCRIPTION" desc="The description of a menu item to trigger exporting passwords from the password settings.">
-        Export passwords stored with Brave
+        Export passwords stored with Dissenter
       </message>
       <message name="IDS_SETTINGS_PASSWORDS_EXPORT_DESCRIPTION" desc="Text shown to the user who initiated exporting passwords, as a warning before any passwords have been exported.">
         Your passwords will be visible to anyone who can see the exported file.
@@ -680,17 +680,17 @@ CHAR-LIMIT guidelines:
       </message>
 
       <!-- Lock Screen Fragment -->
-      <message name="IDS_LOCKSCREEN_DESCRIPTION_COPY" desc="When a user attempts to copy a password for a particular website into clipboard in Brave's settings, Brave launches a lock screen to verify the user's identity and displays the following explanation.">
+      <message name="IDS_LOCKSCREEN_DESCRIPTION_COPY" desc="When a user attempts to copy a password for a particular website into clipboard in Dissenter's settings, Dissenter launches a lock screen to verify the user's identity and displays the following explanation.">
         Unlock to copy your password
       </message>
-      <message name="IDS_LOCKSCREEN_DESCRIPTION_VIEW" desc="When a user attempts to view a password for a particular website in Brave's settings, Brave launches a lock screen to verify the user's identity and displays the following explanation.">
+      <message name="IDS_LOCKSCREEN_DESCRIPTION_VIEW" desc="When a user attempts to view a password for a particular website in Dissenter's settings, Dissenter launches a lock screen to verify the user's identity and displays the following explanation.">
         Unlock to view your password
       </message>
-      <message name="IDS_LOCKSCREEN_DESCRIPTION_EXPORT" desc="When a user attempts to export saved passwords in Brave's settings, Brave launches a lock screen to verify the user's identity and displays the following explanation.">
+      <message name="IDS_LOCKSCREEN_DESCRIPTION_EXPORT" desc="When a user attempts to export saved passwords in Dissenter's settings, Dissenter launches a lock screen to verify the user's identity and displays the following explanation.">
         Unlock to export your passwords
       </message>
-      <message name="IDS_SAVE_PASSWORD_PREFERENCES_EXPORT_SUBJECT" desc="Brave sets this string to be the subject of the sharing intent for sharing exported passwords. How the subject is interpreted is up to the consumer app, e.g., Google Drive will make it the filename, GMail will make it the e-mail subject. In general, it describes what is being shared.">
-        Brave Passwords
+      <message name="IDS_SAVE_PASSWORD_PREFERENCES_EXPORT_SUBJECT" desc="Dissenter sets this string to be the subject of the sharing intent for sharing exported passwords. How the subject is interpreted is up to the consumer app, e.g., Google Drive will make it the filename, GMail will make it the e-mail subject. In general, it describes what is being shared.">
+        Dissenter Passwords
       </message>
 
       <!-- Homepage preferences -->
@@ -740,27 +740,27 @@ CHAR-LIMIT guidelines:
         Privacy
       </message>
       <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_TITLE" desc="Title for checkbox that controls reporting data to detect bad apps/sites. Please ensure ‘Safe Browsing’ in this message matches the ‘Safe Browsing’ settings title.">
-        Help improve Brave security
+        Help improve Dissenter security
       </message>
-      <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Body text for Brave setting under 'Help Improve Safe Browsing'. This feature sends small amounts of data to Brave about potentially-dangerous pages to help Safe Browsing improve Brave's protection against malware and phishing.">
-        To detect dangerous apps and sites, Brave sends URLs of some pages you visit, limited system information, and some page content to Brave
+      <message name="IDS_SAFE_BROWSING_SCOUT_REPORTING_SUMMARY" desc="Body text for Dissenter setting under 'Help Improve Safe Browsing'. This feature sends small amounts of data to Dissenter about potentially-dangerous pages to help Safe Browsing improve Dissenter's protection against malware and phishing.">
+        To detect dangerous apps and sites, Dissenter sends URLs of some pages you visit, limited system information, and some page content to Dissenter
       </message>
       <message name="IDS_SAFE_BROWSING_TITLE" desc="Title for safe browsing.">
         Safe Browsing (protects you and your device from dangerous sites)
       </message>
       <message name="IDS_SAFE_BROWSING_SUMMARY" desc="Summary for safe browsing.">
-        Sends URLs of some pages you visit to Brave, when your security is at risk
+        Sends URLs of some pages you visit to Dissenter, when your security is at risk
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_TITLE" desc="Name for the Contextual Search feature, which allows users to search for a term in a web page by tapping on it.">
         Tap to Search
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_DESCRIPTION" desc="Description for Contextual Search preference">
-        Learn about topics on websites without leaving the page. Tap to Search sends a word and its surrounding context to Brave Search, returning definitions, pictures, search results, and other details.
+        Learn about topics on websites without leaving the page. Tap to Search sends a word and its surrounding context to Dissenter Search, returning definitions, pictures, search results, and other details.
 
 To adjust your search term, long press to select. To refine your search, slide the panel all the way up and tap the search box.
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_SHORT_DESCRIPTION" desc="A promo message shown to users who have Tap to Search enabled to explain the new behavior and provide an option to opt out">
-        Tap to Search sends the selected word and the current page as context to Brave Search. You can turn it off in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Tap to Search sends the selected word and the current page as context to Dissenter Search. You can turn it off in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_ALLOW_BUTTON" desc="A button to confirm and dismiss opt out promo">
         Allow
@@ -786,12 +786,12 @@ For example, some websites may respond to this request by showing you ads that a
         Clear history, cookies, site data, cache…
       </message>
       <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_TITLE" desc="Title of a dialog that is shown after the deletion of browsing history finished.">
-        Cleared Brave data
+        Cleared Dissenter data
       </message>
-      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_DATA_TEXT" desc="Text of the dialog that is shown after the deletion of browsing history items finished, indicating that the selected data has been removed, but there may be other forms of browsing history still present in user's Brave account.">
-        The selected data has been removed from Brave and your synced devices.
+      <message name="IDS_CLEAR_BROWSING_DATA_HISTORY_DIALOG_DATA_TEXT" desc="Text of the dialog that is shown after the deletion of browsing history items finished, indicating that the selected data has been removed, but there may be other forms of browsing history still present in user's Dissenter account.">
+        The selected data has been removed from Dissenter and your synced devices.
 
-Your Brave account may have other forms of browsing history like searches and activity from other Brave services at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
+Your Dissenter account may have other forms of browsing history like searches and activity from other Dissenter services at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CLEAR_CACHE_TITLE" desc="Title for Clear Cache in Clear Browsing Data dialog">
         Cached images and files
@@ -805,17 +805,17 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites.">
         Signs you out of most sites.
       </message>
-      <message name="IDS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC_SIGNED_IN" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites but you Brave sign in will stay.">
-        Signs you out of most sites. You won't be signed out of your Brave Account.
+      <message name="IDS_CLEAR_COOKIES_AND_SITE_DATA_SUMMARY_BASIC_SIGNED_IN" desc="A summary for the 'Cookies and site data' option in the 'Clear Browsing Data' screen, explaining that deleting cookies and site data will sign the user out of most websites but you Dissenter sign in will stay.">
+        Signs you out of most sites. You won't be signed out of your Dissenter Account.
       </message>
       <message name="IDS_CLEAR_BROWSING_HISTORY_SUMMARY" desc="A text for the basic tab explaining browsing history.">
         Clears history and autocompletions in the address bar.
       </message>
       <message name="IDS_CLEAR_BROWSING_HISTORY_SUMMARY_SIGNED_IN" desc="A text explaining other forms of activity for signed in users.">
-        Clears history and autocompletions in the address bar. Your Brave Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Clears history and autocompletions in the address bar. Your Dissenter Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CLEAR_BROWSING_HISTORY_SUMMARY_SYNCED" desc="A text for the basic tab explaining browsing history for users with history sync.">
-        Clears history from all signed-in devices. Your Brave Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Clears history from all signed-in devices. Your Dissenter Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_CLEAR_PASSWORDS_TITLE" desc="Title for Clear Passwords in Clear Browsing Data preference">
         Saved passwords
@@ -865,8 +865,8 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_CLEAR_BROWSING_DATA_BASIC_TAB_TITLE" desc="The title of the tab showing the basic clear browsing data options.">
         Basic
       </message>
-      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Brave browsing history will not delete other forms of history stored at Brave My Activity.">
-        Your Brave Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
+      <message name="IDS_ANDROID_HISTORY_OTHER_FORMS_OF_HISTORY" desc="The notification at the top of the history page indicating that deleting Dissenter browsing history will not delete other forms of history stored at Dissenter My Activity.">
+        Your Dissenter Account may have other forms of browsing history at <ph name="BEGIN_LINK">&lt;link&gt;</ph>myactivity.google.com<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_HISTORY_BLOCKED_SITE" desc="The text displayed in the history page indicating that a visit to a web site was blocked due to an administrator policy.">
         Blocked site
@@ -1028,7 +1028,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ALLOWED_EXCEPT_THIRD_PARTY" desc="Summary text for when only third-party cookies are blocked.">
         Allowed, except third-party
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ASK" desc="Summary text explaining that Brave will ask the user before allowing a site to use a certain permission, e.g. JavaScript: ask first.">
+      <message name="IDS_WEBSITE_SETTINGS_CATEGORY_ASK" desc="Summary text explaining that Dissenter will ask the user before allowing a site to use a certain permission, e.g. JavaScript: ask first.">
         Ask first
       </message>
       <message name="IDS_WEBSITE_SETTINGS_BLOCKED_GROUP_HEADING" desc="The heading for a list of websites that have been blocked from using a particular permission, e.g. blocked from accessing the user's location.">
@@ -1154,16 +1154,16 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_WEBSITE_SETTINGS_CATEGORY_BLUETOOTH_SCANNING_ASK" desc="Summary text explaining that the Bluetooth scanning permission is set to ask the user for permission to do Bluetooth scanning. To be shown in the list of permission categories.">
         Ask when a site wants to discover nearby Bluetooth devices (recommended)
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW" desc="Summary text explaining that Brave will allow a website to access some permission, e.g. JavaScript: allow.">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW" desc="Summary text explaining that Dissenter will allow a website to access some permission, e.g. JavaScript: allow.">
         Allow
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK" desc="Summary text explaining that Brave will block a website from accessing some permission, e.g. JavaScript: block.">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK" desc="Summary text explaining that Dissenter will block a website from accessing some permission, e.g. JavaScript: block.">
         Block
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW_DSE" desc="Summary text explaining that Brave will allow the default search engine to access the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Allow for current search engine">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_ALLOW_DSE" desc="Summary text explaining that Dissenter will allow the default search engine to access the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Allow for current search engine">
         Allow for current search engine
       </message>
-      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK_DSE" desc="Summary text explaining that Brave will block the default search engine from accessing the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Block for current search engine">
+      <message name="IDS_WEBSITE_SETTINGS_PERMISSIONS_BLOCK_DSE" desc="Summary text explaining that Dissenter will block the default search engine from accessing the user's location, both when performed from the address bar and from search result pages. e.g. Location access: Block for current search engine">
         Block for current search engine
       </message>
       <message name="IDS_WEBSITE_RESET" desc="The label for the button allowing users to clear all data and reset the permissions for a website.">
@@ -1206,13 +1206,13 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_PREFS_ADD_LANGUAGE" desc="Title for the screen that allows users to add languages to their preferred language list. [CHAR-LIMIT=32]">
         Add language
       </message>
-      <message name="IDS_LANGUAGES_LIST_PREFS_DESCRIPTION" desc="Description on the Languages settings screen. Appears above a list of one or more languages that the user selects, to tell Brave which languages they prefer to use to read website content.">
+      <message name="IDS_LANGUAGES_LIST_PREFS_DESCRIPTION" desc="Description on the Languages settings screen. Appears above a list of one or more languages that the user selects, to tell Dissenter which languages they prefer to use to read website content.">
         Websites will show text in your preferred language, when possible.
       </message>
-      <message name="IDS_LANGUAGES_OFFER_TRANSLATE_SWITCH" desc="Appears next to the 'offer to translate' switch that controls whether or not Brave will display the Brave Translate UI on web pages that are not in the user's preferred language(s).">
+      <message name="IDS_LANGUAGES_OFFER_TRANSLATE_SWITCH" desc="Appears next to the 'offer to translate' switch that controls whether or not Dissenter will display the Dissenter Translate UI on web pages that are not in the user's preferred language(s).">
         Offer to translate pages in other languages
       </message>
-      <message name="IDS_LANGUAGES_ITEM_OPTION_OFFER_TO_TRANSLATE" desc="Option in language item menu. User can click the 'Offer to translate' option to toggle whether they want Brave to translate pages in this language. [CHAR-LIMIT=32]">
+      <message name="IDS_LANGUAGES_ITEM_OPTION_OFFER_TO_TRANSLATE" desc="Option in language item menu. User can click the 'Offer to translate' option to toggle whether they want Dissenter to translate pages in this language. [CHAR-LIMIT=32]">
         Offer to translate
       </message>
       <message name="IDS_LANGUAGES_EXPLICIT_ASK_TITLE" desc="Title of the dialog that explicitly asks the user which languages they can read.">
@@ -1227,27 +1227,27 @@ Your Brave account may have other forms of browsing history like searches and ac
         Location access
       </message>
       <message name="IDS_ANDROID_PERMISSION_OFF_PLURAL" desc="Text at the top of the Website list, explaining to the user that multiple permissions, such as the location service, are turned off. Contains a link to the settings menu to change it.">
-        Turn on permissions for Brave in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Turn on permissions for Dissenter in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_PERMISSION_OFF" desc="Text at the top of the Website list, explaining to the user that a permission, such as the location service, is turned off. Contains a link to the settings menu to change it.">
-        Turn on permission for Brave in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Turn on permission for Dissenter in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_LOCATION_PERMISSION_OFF" desc="The message to show when the location permission needs to be turned on not just in Brave, but also in Android settings.">
-        To let Brave access your location, also turn on location in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+      <message name="IDS_ANDROID_LOCATION_PERMISSION_OFF" desc="The message to show when the location permission needs to be turned on not just in Dissenter, but also in Android settings.">
+        To let Dissenter access your location, also turn on location in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_CAMERA_PERMISSION_OFF" desc="The message to show when the camera permission needs to be turned on not just in Brave, but also in Android settings.">
-        To let Brave access your camera, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+      <message name="IDS_ANDROID_CAMERA_PERMISSION_OFF" desc="The message to show when the camera permission needs to be turned on not just in Dissenter, but also in Android settings.">
+        To let Dissenter access your camera, also turn on camera in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_NOTIFICATIONS_PERMISSION_OFF" desc="The message to show when the notifications permission needs to be turned on not just in Brave, but also in Android settings.">
-        To let Brave send you notifications, also turn on notifications in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+      <message name="IDS_ANDROID_NOTIFICATIONS_PERMISSION_OFF" desc="The message to show when the notifications permission needs to be turned on not just in Dissenter, but also in Android settings.">
+        To let Dissenter send you notifications, also turn on notifications in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_MICROPHONE_PERMISSION_OFF" desc="The message to show when the microphone permission needs to be turned on not just in Brave, but also in Android settings.">
-        To let Brave access your microphone, also turn on microphone in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+      <message name="IDS_ANDROID_MICROPHONE_PERMISSION_OFF" desc="The message to show when the microphone permission needs to be turned on not just in Dissenter, but also in Android settings.">
+        To let Dissenter access your microphone, also turn on microphone in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
       <message name="IDS_ANDROID_LOCATION_OFF_GLOBALLY" desc="The message to show when Location has been turned off globally in Android. Contains a link to the settings menu to enable location.">
         Location access is off for this device. Turn it on in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Brave but also globally in Android. Contains a link to the settings menu to enable location.">
+      <message name="IDS_ANDROID_LOCATION_ALSO_OFF_GLOBALLY" desc="The additional message to show when Location has not just been turned off for Dissenter but also globally in Android. Contains a link to the settings menu to enable location.">
         Location access is also off for this device. Turn it on in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Android Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
 
@@ -1308,10 +1308,10 @@ Your Brave account may have other forms of browsing history like searches and ac
         since <ph name="date">%1$s<ex>Feb 28</ex></ph>
       </message>
       <message name="IDS_DATA_REDUCTION_BENEFITS_DESCRIPTION_LITE_MODE" desc="Description text about the benefits of the Lite mode feature. Seen only before the user has enabled the feature.">
-         In Lite mode, Brave loads pages faster and uses up to 60 percent less data.
+         In Lite mode, Dissenter loads pages faster and uses up to 60 percent less data.
       </message>
       <message name="IDS_DATA_REDUCTION_DESCRIPTION_LITE_MODE" desc="Text describing how the Lite mode feature works. Seen only before the user has enabled the feature.">
-        When Lite mode is on, Brave uses Brave servers to make pages load faster. Lite mode rewrites very slow pages to load only essential content. Lite mode does not apply to Private tabs.
+        When Lite mode is on, Dissenter uses Dissenter servers to make pages load faster. Lite mode rewrites very slow pages to load only essential content. Lite mode does not apply to Private tabs.
       </message>
       <message name="IDS_DATA_REDUCTION_MENU_ITEM_SUMMARY_LITE_MODE" desc="Label that states the percent of mobile data that was saved by Lite mode. Lite mode allows users to to reduce their mobile data usage by compressing network traffic.">
         <ph name="PERCENT">%1$s<ex>49%</ex></ph> data savings
@@ -1319,7 +1319,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_DATA_REDUCTION_SAVINGS_LABEL" desc="Data Reduction statistics label that states the amount of mobile data that was saved by Lite mode. Lite mode allows users to to reduce their mobile data usage by compressing network traffic.">
         data saved
       </message>
-      <message name="IDS_DATA_REDUCTION_USAGE_LABEL" desc="Data Reduction statistics label that states the amount of data that was used by Brave when Lite mode is enabled.">
+      <message name="IDS_DATA_REDUCTION_USAGE_LABEL" desc="Data Reduction statistics label that states the amount of data that was used by Dissenter when Lite mode is enabled.">
         data used
       </message>
       <message name="IDS_DATA_REDUCTION_START_DATE_CONTENT_DESCRIPTION" desc="This label is used in the device screen reader to describe the starting date that data savings are computed from. This will always be used in the form 'Start date: February 28'.">
@@ -1349,7 +1349,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_DATA_REDUCTION_BREAKDOWN_SAVED_TITLE" desc="Title for the data saved column on the Data Reduction statistics page. The breakdown lists for the top ten sites with the greatest amount of data usage or mobile data that was saved. Lite mode allows users to to reduce their mobile data usage by compressing network traffic.">
         Saved
       </message>
-      <message name="IDS_DATA_REDUCTION_BREAKDOWN_SAVED_HEADER_CONTENT_DESCRIPTION" desc="This label is used to state that by clicking the associated button, the displayed table will be sorted descending by the amount of mobile data that was saved when viewing a webpage by using Brave's Lite mode feature. This is used in the device's screen reader and is not displayed visually to the user.">
+      <message name="IDS_DATA_REDUCTION_BREAKDOWN_SAVED_HEADER_CONTENT_DESCRIPTION" desc="This label is used to state that by clicking the associated button, the displayed table will be sorted descending by the amount of mobile data that was saved when viewing a webpage by using Dissenter's Lite mode feature. This is used in the device's screen reader and is not displayed visually to the user.">
         Sort by amount of data saved
       </message>
       <message name="IDS_DATA_REDUCTION_BREAKDOWN_DATA_SAVED_SORTED" desc="This title states that the following table contains the details of how much data was saved for each site and that the table rows are sorted by how much data was saved for each site. This is used in the device's screen reader and is not displayed visually to the user.">
@@ -1358,7 +1358,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_DATA_REDUCTION_BREAKDOWN_USED_CONTENT_DESCRIPTION" desc="This label is used as a suffix to describe the amount of mobile data that was used to view a webpage. It is used in the form '0 bytes used'.">
         <ph name="amount">%1$s<ex>0 bytes</ex></ph> used
       </message>
-      <message name="IDS_DATA_REDUCTION_BREAKDOWN_SAVED_CONTENT_DESCRIPTION" desc="This label is used as a suffix to describe the amount of mobile data that was saved when viewing a webpage by using Brave's Lite mode feature. It is used in the form '0 bytes used'.">
+      <message name="IDS_DATA_REDUCTION_BREAKDOWN_SAVED_CONTENT_DESCRIPTION" desc="This label is used as a suffix to describe the amount of mobile data that was saved when viewing a webpage by using Dissenter's Lite mode feature. It is used in the form '0 bytes used'.">
         <ph name="amount">%1$s<ex>0 bytes</ex></ph> saved
       </message>
       <message name="IDS_DATA_REDUCTION_BREAKDOWN_REMAINING_SITES_LABEL" desc="Title for the the remaining sites on the Data Reduction statistics page. The breakdown lists the top ten sites with the greatest amount of data usage or mobile data that was saved and then groups the remaining sites together.">
@@ -1384,8 +1384,8 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_DATA_REDUCTION_PROMO_TITLE_LITE_MODE" desc="The title for the promo inviting users to enable Lite mode">
         Browse faster. Use less data.
       </message>
-      <message name="IDS_DATA_REDUCTION_PROMO_SUMMARY_LITE_MODE" desc="Description for the promo inviting users to enable Lite mode. This informs users that their web traffic will sent to Brave to optimize data usage. The Learn more link goes to the help center article for Lite mode." meaning="The translation of percent should be spelled out instead of using the percent symbol.">
-        In Lite mode, Brave loads pages faster and uses up to 60 percent less data. To optimize the pages that you visit, Brave sends your web traffic to Brave. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Learn more<ph name="END_LINK">&lt;/link&gt;</ph>
+      <message name="IDS_DATA_REDUCTION_PROMO_SUMMARY_LITE_MODE" desc="Description for the promo inviting users to enable Lite mode. This informs users that their web traffic will sent to Dissenter to optimize data usage. The Learn more link goes to the help center article for Lite mode." meaning="The translation of percent should be spelled out instead of using the percent symbol.">
+        In Lite mode, Dissenter loads pages faster and uses up to 60 percent less data. To optimize the pages that you visit, Dissenter sends your web traffic to Dissenter. <ph name="BEGIN_LINK">&lt;link&gt;</ph>Learn more<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_DATA_REDUCTION_PROMO_LEARN_MORE_URL" desc="URL for Lite mode help center article" translateable="false">
         https://support.google.com/chrome/?p=lite_mode
@@ -1406,13 +1406,13 @@ Your Brave account may have other forms of browsing history like searches and ac
         Save up to 60% of your data
       </message>
       <message name="IDS_DATA_REDUCTION_PROMO_INFOBAR_TEXT" desc="Text to be displayed in the data reduction promo infobar">
-        Brave servers will optimize the pages you visit.
+        Dissenter servers will optimize the pages you visit.
       </message>
       <message name="IDS_DATA_REDUCTION_MILESTONE_PROMO_TEXT_MB" desc="Text to be displayed in the data reduction promo message that lets the user know they saved a certain amount of data in MB">
-        Brave has saved you <ph name="megabytes">%1$d<ex>100</ex></ph> MB
+        Dissenter has saved you <ph name="megabytes">%1$d<ex>100</ex></ph> MB
       </message>
       <message name="IDS_DATA_REDUCTION_MILESTONE_PROMO_TEXT_GB" desc="Text to be displayed in the data reduction promo message that lets the user know they saved a certain amount of data in GB">
-        Brave has saved you <ph name="gigabytes">%1$d<ex>10</ex></ph> GB
+        Dissenter has saved you <ph name="gigabytes">%1$d<ex>10</ex></ph> GB
       </message>
 
       <!-- Downloads location -->
@@ -1467,7 +1467,7 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_DOWNLOAD_SETTINGS_PREFETCH_UNAVAILABLE_DESCRIPTION" desc="Description explaining that the article prefetching feature is disabled because it is unavailable in the user's country.">
         Not available in your location
       </message>
-      <message name="IDS_DOWNLOAD_SETTINGS_PREFETCH_MAYBE_UNAVAILABLE_DESCRIPTION" desc="Description explaining that the article prefetching feature is disabled because Brave has not yet determined whether it is available in the user's country.">
+      <message name="IDS_DOWNLOAD_SETTINGS_PREFETCH_MAYBE_UNAVAILABLE_DESCRIPTION" desc="Description explaining that the article prefetching feature is disabled because Dissenter has not yet determined whether it is available in the user's country.">
         May not be available in your location
       </message>
       <message name="IDS_RENAME" desc="Label for the option to rename items.">
@@ -1492,24 +1492,24 @@ Your Brave account may have other forms of browsing history like searches and ac
         If you change the file extension, the file may open in a different application and potentially be a hazard to your device.
       </message>
 
-      <!-- About Brave preferences -->
-      <message name="IDS_PREFS_ABOUT_CHROME" desc="Title for the About Brave page. [CHAR-LIMIT=32]">
-        About Brave
+      <!-- About Dissenter preferences -->
+      <message name="IDS_PREFS_ABOUT_CHROME" desc="Title for the About Dissenter page. [CHAR-LIMIT=32]">
+        About Dissenter
       </message>
       <message name="IDS_LEGAL_INFORMATION_SUMMARY" desc="Summary for legal information" meaning="Android">
-        Copyright © <ph name="year">%1$d<ex>2014</ex></ph> The Brave Authors. All rights reserved.
+        Copyright © <ph name="year">%1$d<ex>2014</ex></ph> The Dissenter Authors. All rights reserved.
       </message>
       <message name="IDS_APPLICATION_VERSION_TITLE" desc="Title for application version">
         Application version
       </message>
-      <message name="IDS_VERSION_WITH_UPDATE_TIME" desc="Message showing Brave's version and the time it was last updated">
-        <ph name="VERSION">%1$s<ex>Brave 40.0.2214.67</ex></ph> (Updated <ph name="TIME_SINCE_UPDATE">%2$s<ex>5 minutes ago</ex></ph>)
+      <message name="IDS_VERSION_WITH_UPDATE_TIME" desc="Message showing Dissenter's version and the time it was last updated">
+        <ph name="VERSION">%1$s<ex>Dissenter 40.0.2214.67</ex></ph> (Updated <ph name="TIME_SINCE_UPDATE">%2$s<ex>5 minutes ago</ex></ph>)
       </message>
       <message name="IDS_OS_VERSION_TITLE" desc="Title for operating system version">
         Operating system
       </message>
-      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Brave updates no longer being supported">
-        Brave updates are no longer supported for this version of Android
+      <message name="IDS_DEPRECATION_WARNING" desc="Warning about Dissenter updates no longer being supported">
+        Dissenter updates are no longer supported for this version of Android
       </message>
 
       <!-- Account management UI strings. -->
@@ -1517,10 +1517,10 @@ Your Brave account may have other forms of browsing history like searches and ac
         Add account
       </message>
       <message name="IDS_ACCOUNT_MANAGEMENT_TITLE" desc="Header title for the account management screen. [CHAR-LIMIT=32]">
-        Signed in to Brave as
+        Signed in to Dissenter as
       </message>
-      <message name="IDS_ACCOUNT_MANAGEMENT_SIGN_OUT" desc="Button text for signing out of Brave">
-        Sign out of Brave
+      <message name="IDS_ACCOUNT_MANAGEMENT_SIGN_OUT" desc="Button text for signing out of Dissenter">
+        Sign out of Dissenter
       </message>
 
       <!-- Child accounts -->
@@ -1549,21 +1549,21 @@ Your Brave account may have other forms of browsing history like searches and ac
         Allow all sites
       </message>
 
-      <message name="IDS_POWERED_BY_CHROME_MESSAGE" desc="A message indicating that the current page is running in Brave.">
-        Powered by Brave
+      <message name="IDS_POWERED_BY_CHROME_MESSAGE" desc="A message indicating that the current page is running in Dissenter.">
+        Powered by Dissenter
       </message>
 
       <!-- Sync strings in account management dialog -->
       <message name="IDS_SYNC_ANDROID_MASTER_SYNC_DISABLED" desc="Message to show when Android master sync flag is disabled">
         Android system sync disabled
       </message>
-      <message name="IDS_SYNC_IS_DISABLED" desc="Message to show when Brave sync is disabled">
+      <message name="IDS_SYNC_IS_DISABLED" desc="Message to show when Dissenter sync is disabled">
         Sync is off
       </message>
       <message name="IDS_SYNC_SETTINGS_NOT_CONFIRMED" desc="The error message to display when sign-in was interrupted and the user didn't review the sync settings.">
         Initial sync setup was not finished. Sync is off.
       </message>
-      <message name="IDS_SYNC_IS_DISABLED_BY_ADMINISTRATOR" desc="Message to show when Brave sync is disabled by administrator">
+      <message name="IDS_SYNC_IS_DISABLED_BY_ADMINISTRATOR" desc="Message to show when Dissenter sync is disabled by administrator">
         Sync is disabled by your administrator
       </message>
       <message name="IDS_SYNC_NEED_PASSPHRASE" desc="Error message when a passphrase is needed for decrypting sync data.">
@@ -1584,15 +1584,15 @@ Your Brave account may have other forms of browsing history like searches and ac
         chrome://credits
       </message>
       <message name="IDS_TERMS_OF_SERVICE_TITLE" desc="Title for terms of service">
-        Brave Terms of Service
+        Dissenter Terms of Service
       </message>
-      <message name="IDS_PRIVACY_NOTICE_TITLE" desc="Title for the Brave privacy notice">
-        Brave Privacy Notice
+      <message name="IDS_PRIVACY_NOTICE_TITLE" desc="Title for the Dissenter privacy notice">
+        Dissenter Privacy Notice
       </message>
-      <message name="IDS_CHROME_PRIVACY_NOTICE_URL" desc="URL for the Brave privacy notice" translateable="false">
+      <message name="IDS_CHROME_PRIVACY_NOTICE_URL" desc="URL for the Dissenter privacy notice" translateable="false">
         https://www.google.com/intl/$LOCALE/chrome/browser/privacy/
       </message>
-      <message name="IDS_CHROME_TERMS_OF_SERVICE_URL" desc="URL for Brave Terms of Service" translateable="false">
+      <message name="IDS_CHROME_TERMS_OF_SERVICE_URL" desc="URL for Dissenter Terms of Service" translateable="false">
         https://www.google.com/intl/$LOCALE/chrome/browser/privacy/eula_text.html
       </message>
       <message name="IDS_FAMILY_LINK_PRIVACY_POLICY_URL" desc="URL for the Family Link privacy policy" translateable="false">
@@ -1616,29 +1616,29 @@ Your Brave account may have other forms of browsing history like searches and ac
       </message>
 
       <!-- Sign-in strings -->
-      <message name="IDS_SIGNOUT_TITLE" desc="Title for sign out of Brave dialog [CHAR-LIMIT=40]">
+      <message name="IDS_SIGNOUT_TITLE" desc="Title for sign out of Dissenter dialog [CHAR-LIMIT=40]">
         Sign out and turn off sync?
       </message>
-      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_TITLE" desc="Title for sign out of Brave dialog for enterprise account [CHAR-LIMIT=40]">
-        Clear your Brave data from this device?
+      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_TITLE" desc="Title for sign out of Dissenter dialog for enterprise account [CHAR-LIMIT=40]">
+        Clear your Dissenter data from this device?
       </message>
       <message name="IDS_SIGNOUT_MESSAGE" desc="Message to display in 'Sign out and turn off sync?' dialog">
-        Your bookmarks, history, passwords, and other Brave data will no longer be synced to your Brave Account
+        Your bookmarks, history, passwords, and other Dissenter data will no longer be synced to your Dissenter Account
       </message>
       <message name="IDS_REMOVE_LOCAL_DATA" desc="Checkbox to delete all existing data in local device storage">
-        Also clear your Brave data from this device
+        Also clear your Dissenter data from this device
       </message>
-      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_MESSAGE" desc="Message to display for sign out of Brave dialog when the account has enterprise management, and all user data will be erased">
-        Because you're signing out of an account managed by <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, your Brave data will be deleted from this device. It will remain in your Brave Account.
+      <message name="IDS_SIGNOUT_MANAGED_ACCOUNT_MESSAGE" desc="Message to display for sign out of Dissenter dialog when the account has enterprise management, and all user data will be erased">
+        Because you're signing out of an account managed by <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, your Dissenter data will be deleted from this device. It will remain in your Dissenter Account.
       </message>
       <message name="IDS_SIGN_IN_GETTING_ACCOUNT_MANAGEMENT_POLICY" desc="Title of progress bar dialog for getting management policy">
-        Contacting Brave. This may take a minute…
+        Contacting Dissenter. This may take a minute…
       </message>
       <message name="IDS_SIGN_IN_TIMEOUT_TITLE" desc="Title of sign in timeout alert dialog">
         Can’t sign in
       </message>
       <message name="IDS_SIGN_IN_TIMEOUT_MESSAGE" desc="Message of sign in timeout alert dialog">
-        Brave took too long to respond
+        Dissenter took too long to respond
       </message>
 
       <!-- Sync strings -->
@@ -1646,12 +1646,12 @@ Your Brave account may have other forms of browsing history like searches and ac
         Sign in to managed account
       </message>
       <message name="IDS_SIGN_IN_MANAGED_ACCOUNT_DESCRIPTION" desc="Description for signing in to managed accounts">
-        You are signing in with an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Brave</ex></ph> and giving its administrator control over your Brave data. Your data will become permanently tied to this account. Signing out of Brave will delete your data from this device, but it will remain stored in your Brave Account.
+        You are signing in with an account managed by <ph name="MANAGED_DOMAIN">%1$s<ex>Dissenter</ex></ph> and giving its administrator control over your Dissenter data. Your data will become permanently tied to this account. Signing out of Dissenter will delete your data from this device, but it will remain stored in your Dissenter Account.
       </message>
       <message name="IDS_SYNC_YOUR_BOOKMARKS" desc="Title for the prompt to signin and enable sync to sync their bookmarks">
         Sync your bookmarks
       </message>
-      <message name="IDS_ENABLE_SYNC_BUTTON" desc="Text that displayed or button that allows the user to open Brave settings to enable sync.">
+      <message name="IDS_ENABLE_SYNC_BUTTON" desc="Text that displayed or button that allows the user to open Dissenter settings to enable sync.">
         Open settings
       </message>
       <message name="IDS_OPEN_SETTINGS_BUTTON" desc="Text that displayed or button that allows the open Android settings to enable sync.">
@@ -1667,7 +1667,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         To get your tabs from your other devices, turn on “Auto-sync data” in Android account settings.
       </message>
       <message name="IDS_NTP_RECENT_TABS_SYNC_PROMO_INSTRUCTIONS" desc="Information about sync displayed on the NTP when the user has signed in on mobile but not on desktop">
-        Tabs that you've opened in Brave on your other devices will appear here.
+        Tabs that you've opened in Dissenter on your other devices will appear here.
       </message>
 
       <message name="IDS_SIGN_IN_SYNC" desc="Sync preference title in signed-in prefs and prefix for notification related to sync [CHAR-LIMIT=32]">
@@ -1694,23 +1694,23 @@ Your Brave account may have other forms of browsing history like searches and ac
       <message name="IDS_SYNC_SETTINGS" desc="Title for preference which enables sync'ing of settings. [CHAR-LIMT=32]">
         Settings
       </message>
-      <message name="IDS_SYNC_PAYMENTS_INTEGRATION" desc="Title for preference which enables import of Brave Pay data for Autofill. 'Brave Pay' should not be translated as it is the product name.">
-        Credit cards and addresses using Brave Pay
+      <message name="IDS_SYNC_PAYMENTS_INTEGRATION" desc="Title for preference which enables import of Dissenter Pay data for Autofill. 'Dissenter Pay' should not be translated as it is the product name.">
+        Credit cards and addresses using Dissenter Pay
       </message>
       <message name="IDS_SYNC_ENCRYPTION" desc="Preference category name for sync encryption. [CHAR-LIMT=32]">
         Encryption
       </message>
-      <message name="IDS_SYNC_MANAGE_DATA" desc="Title for link to Brave Dashboard to manage sync data.">
+      <message name="IDS_SYNC_MANAGE_DATA" desc="Title for link to Dissenter Dashboard to manage sync data.">
         Manage synced data
       </message>
       <message name="IDS_SYNC_PASSPHRASE_TYPE_TITLE" desc="Title of sync passphrase type dialog. [CHAR-LIMIT=24]">
         Encryption
       </message>
-      <message name="IDS_SYNC_PASSPHRASE_TYPE_KEYSTORE" desc="Option to encrypt only passwords, using your Brave credentials.">
-        Encrypt passwords with Brave credentials
+      <message name="IDS_SYNC_PASSPHRASE_TYPE_KEYSTORE" desc="Option to encrypt only passwords, using your Dissenter credentials.">
+        Encrypt passwords with Dissenter credentials
       </message>
-      <message name="IDS_SYNC_PASSPHRASE_TYPE_FROZEN" desc="Option to encrypt sync data, using your Brave password frozen on the substituted date.">
-        Encrypt synced data with Brave password as of <ph name="TIME">%1$s<ex>Oct 3, 2014</ex></ph>
+      <message name="IDS_SYNC_PASSPHRASE_TYPE_FROZEN" desc="Option to encrypt sync data, using your Dissenter password frozen on the substituted date.">
+        Encrypt synced data with Dissenter password as of <ph name="TIME">%1$s<ex>Oct 3, 2014</ex></ph>
       </message>
       <message name="IDS_SYNC_PASSPHRASE_TYPE_CUSTOM" desc="Option to encrypt sync data with a custom passphrase.">
         Encrypt synced data with your own sync passphrase
@@ -1719,10 +1719,10 @@ Your Brave account may have other forms of browsing history like searches and ac
         Create passphrase
       </message>
       <message name="IDS_SIGN_IN_GOOGLE_ACCOUNT" desc="Title of sign in account selection dialog. [CHAR-LIMIT=32]">
-        Brave Account
+        Dissenter Account
       </message>
       <message name="IDS_SYNC_CUSTOM_PASSPHRASE" desc="Prompt user to create a custom sync password.">
-        Passphrase encryption doesn’t include payment methods and addresses from Brave Pay. Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Brave. If you forget your passphrase or want to change this setting you'll need to reset sync. <ph name="BEGIN_LINK">&lt;learnmore&gt;</ph>Learn more<ph name="END_LINK">&lt;/learnmore&gt;</ph>
+        Passphrase encryption doesn’t include payment methods and addresses from Dissenter Pay. Only someone with your passphrase can read your encrypted data. The passphrase is not sent to or stored by Dissenter. If you forget your passphrase or want to change this setting you'll need to reset sync. <ph name="BEGIN_LINK">&lt;learnmore&gt;</ph>Learn more<ph name="END_LINK">&lt;/learnmore&gt;</ph>
       </message>
       <message name="IDS_SYNC_ENTER_CUSTOM_PASSPHRASE_HINT" desc="Hint for the passphrase field when user is to type in a passphrase. [CHAR-LIMIT=30]">
         Passphrase
@@ -1740,7 +1740,7 @@ Your Brave account may have other forms of browsing history like searches and ac
         Passphrases do not match
       </message>
       <message name="IDS_SYNC_PASSPHRASE_ENCRYPTION_RESET_INSTRUCTIONS" desc="Inform user how to change their encryption setting.">
-        Passphrase encryption doesn’t include payment methods and addresses from Brave Pay.
+        Passphrase encryption doesn’t include payment methods and addresses from Dissenter Pay.
 
 To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<ph name="END_LINK">&lt;/resetlink&gt;</ph>
       </message>
@@ -1787,22 +1787,22 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_BLUETOOTH_ADAPTER_OFF" desc="The message to show when scanning cannot start because the bluetooth adapter is turned off.">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Turn on Bluetooth<ph name="END_LINK">&lt;/link&gt;</ph> to allow pairing
       </message>
-      <message name="IDS_BLUETOOTH_UNABLE_TO_TURN_ON_ADAPTER" desc="The message to show when Brave is unable to turn on the Bluetooth adapter.">
-          Brave is unable to turn on Bluetooth adapter
+      <message name="IDS_BLUETOOTH_UNABLE_TO_TURN_ON_ADAPTER" desc="The message to show when Dissenter is unable to turn on the Bluetooth adapter.">
+          Dissenter is unable to turn on Bluetooth adapter
       </message>
       <message name="IDS_BLUETOOTH_ADAPTER_OFF_HELP" desc="The status message to show along with the message when the bluetooth adapter is turned off (to get Help).">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Get help<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION" desc="The message to show when scanning cannot start because Brave needs the Location permission in order for Android to return any Bluetooth devices from a scan.">
-        Brave needs location access to scan for devices. <ph name="BEGIN_LINK">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK">&lt;/permission_link&gt;</ph>
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION" desc="The message to show when scanning cannot start because Dissenter needs the Location permission in order for Android to return any Bluetooth devices from a scan.">
+        Dissenter needs location access to scan for devices. <ph name="BEGIN_LINK">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK">&lt;/permission_link&gt;</ph>
       </message>
       <message name="IDS_BLUETOOTH_NEED_LOCATION_SERVICES_ON" desc="The message to show when scanning cannot start because Android location services are off, but they must be turned on for Android to return any Bluetooth devices from a scan.">
-        Brave needs location access to scan for devices. Location access is <ph name="BEGIN_LINK">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/services_link&gt;</ph>.
+        Dissenter needs location access to scan for devices. Location access is <ph name="BEGIN_LINK">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK">&lt;/services_link&gt;</ph>.
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_AND_SERVICES_ON" desc="The message to show when scanning cannot start because Brave doesn't have the Location permission and the device's location services are turned off, and both must be enabled in order for Android to return any Bluetooth devices from a scan.">
-        Brave needs location access to scan for devices. <ph name="BEGIN_LINK1">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK1">&lt;/permission_link&gt;</ph>. Location access is also <ph name="BEGIN_LINK2">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK2">&lt;/services_link&gt;</ph>.
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_AND_SERVICES_ON" desc="The message to show when scanning cannot start because Dissenter doesn't have the Location permission and the device's location services are turned off, and both must be enabled in order for Android to return any Bluetooth devices from a scan.">
+        Dissenter needs location access to scan for devices. <ph name="BEGIN_LINK1">&lt;permission_link&gt;</ph>Update permissions<ph name="END_LINK1">&lt;/permission_link&gt;</ph>. Location access is also <ph name="BEGIN_LINK2">&lt;services_link&gt;</ph>turned off for this device<ph name="END_LINK2">&lt;/services_link&gt;</ph>.
       </message>
-      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_HELP" desc="The status message to get more information about why Brave needs the Location permission in order to scan for Bluetooth devices.">
+      <message name="IDS_BLUETOOTH_NEED_LOCATION_PERMISSION_HELP" desc="The status message to get more information about why Dissenter needs the Location permission in order to scan for Bluetooth devices.">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Get help<ph name="END_LINK">&lt;/link&gt;</ph>
       </message>
       <message name="IDS_BLUETOOTH_DEVICE_CONNECTED" desc="Content description for the connected icon next to connected Bluetooth devices.">
@@ -1833,7 +1833,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Initial sync setup not finished
       </message>
       <message name="IDS_HINT_ANDROID_SYNC_DISABLED" desc="Hint message to resolve Android system sync is disabled error.">
-        Open Android settings and re-enable Android system sync to start Brave sync
+        Open Android settings and re-enable Android system sync to start Dissenter sync
       </message>
       <message name="IDS_HINT_SYNC_AUTH_ERROR" desc="Hint message to resolve sync auth error.">
         Sign in again to start sync
@@ -1845,13 +1845,13 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Enter your passphrase to start sync
       </message>
       <message name="IDS_HINT_SYNC_SETTINGS_NOT_CONFIRMED_DESCRIPTION" desc="The error message to display when sign-in was interrupted and the user didn't review the sync settings.">
-        To start sync, turn on "Sync your Brave data".
+        To start sync, turn on "Sync your Dissenter data".
       </message>
       <message name="IDS_HINT_OTHER_SYNC_ERRORS" desc="Hint message to resolve sync errors not listed independently.">
         Try signing in again
       </message>
       <message name="IDS_HINT_CLIENT_OUT_OF_DATE" desc="Hint message to resolve sync protocol error for out-of-date client.">
-        Update <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph> to start sync
+        Update <ph name="PRODUCT_NAME">%1$s<ex>Dissenter</ex></ph> to start sync
       </message>
 
       <!-- Sync error strings -->
@@ -1865,7 +1865,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Could not connect to the sync server.
       </message>
       <message name="IDS_SYNC_ERROR_UPGRADE_CLIENT" desc="Sync error string for out-of-date client. [CHAR-LIMIT=80]">
-        <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph> is out of date.
+        <ph name="PRODUCT_NAME">%1$s<ex>Dissenter</ex></ph> is out of date.
       </message>
       <message name="IDS_SYNC_ERROR_SERVICE_UNAVAILABLE" desc="Sync error string for service unavailable. [CHAR-LIMIT=80]">
         The service is not available; try again later.
@@ -1900,7 +1900,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         <ph name="TAB_TITLE">%1$s<ex>Welcome to Facebook</ex></ph>, tab
       </message>
       <message name="IDS_ACCESSIBILITY_TABSTRIP_BTN_CLOSE_TAB" desc="Content description for the close tab button.">
-        Close <ph name="TAB_TITLE">%1$s<ex>Brave</ex></ph> tab
+        Close <ph name="TAB_TITLE">%1$s<ex>Dissenter</ex></ph> tab
       </message>
       <message name="IDS_TAB_LOADING_DEFAULT_TITLE" desc="The title of a tab when we are still waiting for either the URL or the real title. This generally shows when the page is first loading.">
         Loading…
@@ -1972,36 +1972,36 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_INLINE_UPDATE_INFOBAR_READY_MESSAGE" desc="Text showing that the update process is almost ready.">
         Almost finished!
       </message>
-      <message name="IDS_INLINE_UPDATE_INFOBAR_READY_LINK_TEXT" desc="The clickable link letting the user know they can click to restart Brave.">
-        Restart Brave
+      <message name="IDS_INLINE_UPDATE_INFOBAR_READY_LINK_TEXT" desc="The clickable link letting the user know they can click to restart Dissenter.">
+        Restart Dissenter
       </message>
       <message name="IDS_INLINE_UPDATE_INFOBAR_FAILED_MESSAGE" desc="Text showing that the update process failed.">
         Couldn’t download the update
       </message>
 
       <!-- Inline Update Toast -->
-      <message name="IDS_INLINE_UPDATE_TOAST_DOWNLOADING_MESSAGE" desc="Text showing when the user starts the inline update process in Brave which lets the user know that the update is downloading.">
-        Downloading Brave Update…
+      <message name="IDS_INLINE_UPDATE_TOAST_DOWNLOADING_MESSAGE" desc="Text showing when the user starts the inline update process in Dissenter which lets the user know that the update is downloading.">
+        Downloading Dissenter Update…
       </message>
 
       <!-- Update Notification-->
-      <message name="IDS_UPDATE_NOTIFICATION_TITLE_DEFAULT" desc="Default title of update notification to remind user to update Brave.">
-        Update Brave
+      <message name="IDS_UPDATE_NOTIFICATION_TITLE_DEFAULT" desc="Default title of update notification to remind user to update Dissenter.">
+        Update Dissenter
       </message>
-      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_DEFAULT" desc="Default text showing in the update notification body, kindly telling user to update to the latest version of Brave.">
-        For the best browsing experience, open to update Brave
+      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_DEFAULT" desc="Default text showing in the update notification body, kindly telling user to update to the latest version of Dissenter.">
+        For the best browsing experience, open to update Dissenter
       </message>
-      <message name="IDS_UPDATE_NOTIFICATION_TITLE_EXPERIMENTAL_UPDATE_CHROME" desc="Experimental version A title of update notification to remind user to update Brave.">
-        Update Brave
+      <message name="IDS_UPDATE_NOTIFICATION_TITLE_EXPERIMENTAL_UPDATE_CHROME" desc="Experimental version A title of update notification to remind user to update Dissenter.">
+        Update Dissenter
       </message>
-      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_EXPERIMENTAL_UPDATE_CHROME" desc="Experimental version A text showing in the update notification body, kindly telling user to update to the latest version of Brave.">
-        To see the web in your language, get the latest version of Brave
+      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_EXPERIMENTAL_UPDATE_CHROME" desc="Experimental version A text showing in the update notification body, kindly telling user to update to the latest version of Dissenter.">
+        To see the web in your language, get the latest version of Dissenter
       </message>
-      <message name="IDS_UPDATE_NOTIFICATION_TITLE_EXPERIMENTAL_TRANSLATE_THE_WEB" desc="Experimental version B title of update notification to remind user to update Brave.">
+      <message name="IDS_UPDATE_NOTIFICATION_TITLE_EXPERIMENTAL_TRANSLATE_THE_WEB" desc="Experimental version B title of update notification to remind user to update Dissenter.">
         Translate the Web
       </message>
-      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_EXPERIMENTAL_TRANSLATE_THE_WEB" desc="Experimental version B text showing in the update notification body, kindly telling user to update to the latest version of Brave.">
-        Update to get your language in the latest version of Brave
+      <message name="IDS_UPDATE_NOTIFICATION_TEXT_BODY_EXPERIMENTAL_TRANSLATE_THE_WEB" desc="Experimental version B text showing in the update notification body, kindly telling user to update to the latest version of Dissenter.">
+        Update to get your language in the latest version of Dissenter
       </message>
 
       <!-- TranslateInfoBar -->
@@ -2015,16 +2015,16 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Never translate this site
       </message>
 
-      <message name="IDS_TRANSLATE_OPTION_ALWAYS_TRANSLATE" desc="Option in the Brave menu. User can click the 'Always Translate' option to indicate that they want Brave to translate pages in this language automatically. Imperative.">
+      <message name="IDS_TRANSLATE_OPTION_ALWAYS_TRANSLATE" desc="Option in the Dissenter menu. User can click the 'Always Translate' option to indicate that they want Dissenter to translate pages in this language automatically. Imperative.">
         Always translate pages in <ph name="SOURCE_LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
-      <message name="IDS_TRANSLATE_OPTION_NEVER_TRANSLATE" desc="Option in the Brave menu. User can click the 'Never Translate' option to indicate that they never want Brave to translate pages in this language. The variable SOURCE_LANGUAGE could be any of 50+ languages supported by Brave Translate, like French, Spanish, German, Italian, Japanese, Korean, etc. Imperative.">
+      <message name="IDS_TRANSLATE_OPTION_NEVER_TRANSLATE" desc="Option in the Dissenter menu. User can click the 'Never Translate' option to indicate that they never want Dissenter to translate pages in this language. The variable SOURCE_LANGUAGE could be any of 50+ languages supported by Dissenter Translate, like French, Spanish, German, Italian, Japanese, Korean, etc. Imperative.">
         Never translate pages in <ph name="SOURCE_LANGUAGE">%1$s<ex>French</ex></ph>
       </message>
-      <message name="IDS_TRANSLATE_OPTION_MORE_LANGUAGE" desc="Option in the Brave menu. Lets the user open a dialog to choose other target languages for translation, from a list of available languages. [CHAR-LIMIT=64]">
+      <message name="IDS_TRANSLATE_OPTION_MORE_LANGUAGE" desc="Option in the Dissenter menu. Lets the user open a dialog to choose other target languages for translation, from a list of available languages. [CHAR-LIMIT=64]">
         More languages
       </message>
-      <message name="IDS_TRANSLATE_OPTION_NOT_SOURCE_LANGUAGE" desc="Option in the Brave menu. Sometimes a web page's source language is not correctly identified by Brave Translate, and this menu option lets the user open a submenu to select another language as the source language to translate. Phrased as a question as if to query the user, 'Is this page not in [source language identified]? If so, click here.' [CHAR-LIMIT=64]">
+      <message name="IDS_TRANSLATE_OPTION_NOT_SOURCE_LANGUAGE" desc="Option in the Dissenter menu. Sometimes a web page's source language is not correctly identified by Dissenter Translate, and this menu option lets the user open a submenu to select another language as the source language to translate. Phrased as a question as if to query the user, 'Is this page not in [source language identified]? If so, click here.' [CHAR-LIMIT=64]">
         Page is not in <ph name="LANGUAGE">%1$s<ex>French</ex></ph>?
       </message>
       <message name="IDS_TRANSLATE_SNACKBAR_ALWAYS_TRANSLATE" desc="After the user selects 'Always translate pages in [LANGUAGE]', this text confirms the user's choice and lets them know that pages in [LANGUAGE] will be translated to their chosen target language automatically. Imperative. [CHAR-LIMIT=64]">
@@ -2055,7 +2055,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_ACCESSIBILITY_MENU_SHARE_VIA" desc="Content description share current page via the most recently used application menu item">
         Share via <ph name="APPLICATION">%s<ex>Gmail</ex></ph>
       </message>
-      <message name="IDS_ERROR_PRINTING_FAILED" desc="Generic error message shown when Brave fails to print the current page for some reason.">
+      <message name="IDS_ERROR_PRINTING_FAILED" desc="Generic error message shown when Dissenter fails to print the current page for some reason.">
         There was a problem printing the page. Please try again.
       </message>
       <message name="IDS_ACCESSIBILITY_MENU_BOOKMARK" desc="Content description for the bookmark button when the page is not currently bookmarked.">
@@ -2083,20 +2083,20 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- Runtime permission strings -->
-      <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Brave is missing the Android camera permission.">
-        Brave needs permission to access your camera for this site.
+      <message name="IDS_INFOBAR_MISSING_CAMERA_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the camera capabilities, but Dissenter is missing the Android camera permission.">
+        Dissenter needs permission to access your camera for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Brave is missing the Android microphone permission.">
-        Brave needs permission to access your microphone for this site.
+      <message name="IDS_INFOBAR_MISSING_MICROPHONE_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone capabilities, but Dissenter is missing the Android microphone permission.">
+        Dissenter needs permission to access your microphone for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Brave is missing the Android microphone and camera permissions.">
-        Brave needs permission to access your camera and microphone for this site.
+      <message name="IDS_INFOBAR_MISSING_MICROPHONE_CAMERA_PERMISSIONS_TEXT" desc="Text shown in an infobar when a website has requested access to the microphone and camera capabilities, but Dissenter is missing the Android microphone and camera permissions.">
+        Dissenter needs permission to access your camera and microphone for this site.
       </message>
-      <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Brave is missing the Android location permission.">
-        Brave needs access to your location to share your location with this site.
+      <message name="IDS_INFOBAR_MISSING_LOCATION_PERMISSION_TEXT" desc="Text shown in an infobar when a website has requested access to the location capabilities, but Dissenter is missing the Android location permission.">
+        Dissenter needs access to your location to share your location with this site.
       </message>
-      <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Brave is missing the Android storage permission, which is required to download files.">
-        Brave needs storage access to download files.
+      <message name="IDS_MISSING_STORAGE_PERMISSION_DOWNLOAD_EDUCATION_TEXT" desc="Text shown educating the user that Dissenter is missing the Android storage permission, which is required to download files.">
+        Dissenter needs storage access to download files.
       </message>
 
       <!-- ContextMenu -->
@@ -2149,10 +2149,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Load image
       </message>
       <message name="IDS_CONTEXTMENU_SEARCH_WITH_GOOGLE_LENS" desc="Context sensitive menu item for deep linking into google lens. [CHAR-LIMIT=30]">
-        Search with Brave Lens <ph name="BEGIN_NEW">&lt;new&gt;</ph>New<ph name="END_NEW">&lt;/new&gt;</ph>
+        Search with Dissenter Lens <ph name="BEGIN_NEW">&lt;new&gt;</ph>New<ph name="END_NEW">&lt;/new&gt;</ph>
       </message>
       <message name="IDS_CONTEXTMENU_SEARCH_WEB_FOR_IMAGE" desc="Context sensitive menu item for search-for-Image command in a new tab. [CHAR-LIMIT=30]">
-        Search <ph name="SEARCH_ENGINE">%1$s<ex>Brave</ex></ph> for this image
+        Search <ph name="SEARCH_ENGINE">%1$s<ex>Dissenter</ex></ph> for this image
       </message>
       <message name="IDS_CONTEXTMENU_SHARE_IMAGE" desc="Context sensitive menu item for sharing an image via the Android system share action. [CHAR-LIMIT=30]">
         Share image
@@ -2163,10 +2163,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_CONTEXTMENU_SAVE_VIDEO" desc="Context sensitive menu item for saving the selected video. [CHAR-LIMIT=30]">
         Download video
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Brave tab from Brave Custom Tab. [CHAR-LIMIT=30]">
-        Open in new Brave tab
+      <message name="IDS_CONTEXTMENU_OPEN_IN_NEW_CHROME_TAB" desc="Context sensitive menu item to open the selected link in a new Dissenter tab from Dissenter Custom Tab. [CHAR-LIMIT=30]">
+        Open in new Dissenter tab
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave private tab from Brave Custom Tab. [CHAR-LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Dissenter private tab from Dissenter Custom Tab. [CHAR-LIMIT=30]">
         Open in private tab
       </message>
       <message name="IDS_CONTEXTMENU_OPEN_IN_EPHEMERAL_TAB" desc="Context-sensitive menu item to open a quick preview of the selected linked page.   Note that 'preview' is a verb, not a noun. We're also labeling it *New* to draw attention to it when first released. The selected link will open in an overlay panel on top of the current tab which will go away easily too. [CHAR-LIMIT=30]">
@@ -2234,7 +2234,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Install
       </message>
       <message name="IDS_ADDED_TO_HOMESCREEN" desc="Indicates that the website with the specified name was added to the user's Home screen.">
-        <ph name="NAME">%1$s<ex>Brave</ex></ph> was added to your Home screen
+        <ph name="NAME">%1$s<ex>Dissenter</ex></ph> was added to your Home screen
       </message>
       <message name="IDS_WEBAPK_INSTALL_IN_PROGRESS" desc="Indicates that an installation for the WebAPK for the specific website is already in progress.">
         Still adding previous site
@@ -2281,13 +2281,13 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         This page may differ from the online version.
       </message>
       <message name="IDS_PAGE_INFO_DOMAIN_HIDDEN" desc="Message to display in the page info bubble when the domain is hidden.">
-        This content is from <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, delivered by Brave.
+        This content is from <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>, delivered by Dissenter.
       </message>
       <message name="IDS_PAGE_INFO_OPEN_ONLINE_BUTTON" desc="Text in the button that attempts to open an online version of the offline website displayed in the tab.">
         Open Online
       </message>
-      <message name="IDS_PAGE_INFO_PREVIEW_MESSAGE" desc="This text is displayed in the page info bubble when the currently viewed page has been modified by Brave to be a lighter and faster version of the original page. The word 'Lite' should match the translation in TC ID 1019734090540434451">
-        Lite page provided by Brave
+      <message name="IDS_PAGE_INFO_PREVIEW_MESSAGE" desc="This text is displayed in the page info bubble when the currently viewed page has been modified by Dissenter to be a lighter and faster version of the original page. The word 'Lite' should match the translation in TC ID 1019734090540434451">
+        Lite page provided by Dissenter
       </message>
       <message name="IDS_PAGE_INFO_PREVIEW_LOAD_ORIGINAL" desc="This text, when clicked, loads the original page from its origin without any treatments. This text is shown in the page info bubble when the currently viewed page has been modified to be a lighter and faster version of the original page.">
         <ph name="BEGIN_LINK">&lt;link&gt;</ph>Load original page<ph name="END_LINK">&lt;/link&gt;</ph> from <ph name="DOMAIN_NAME">%1$s<ex>google.com</ex></ph>
@@ -2305,7 +2305,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_NOTIFICATION_SITE_SETTINGS_BUTTON" desc="Text of a button shown on notifications, that opens the Site Settings of the website that showed the notification. (If it isn't possible to fit within the char limit, the string will be ellipsized if 3 buttons are shown side by side, so try to ensure that the user can guess the meaning from the first 8 characters). [CHAR-LIMIT=9]">
         Settings
       </message>
-      <message name="IDS_NOTIFICATION_MANAGE_BUTTON" desc="Text of a button shown on notifications, that opens the Brave notifications settings page. This allows users to edit notification settings when a site asks them to allow notifications. [CHAR-LIMIT=9]">
+      <message name="IDS_NOTIFICATION_MANAGE_BUTTON" desc="Text of a button shown on notifications, that opens the Dissenter notifications settings page. This allows users to edit notification settings when a site asks them to allow notifications. [CHAR-LIMIT=9]">
         Manage
       </message>
       <message name="IDS_NOTIFICATION_WORK_PROFILE_BADGE_CONTENT_DESCRIPTION" desc="Content description of the work profile badge in the notification.">
@@ -2608,32 +2608,32 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
 
       <!-- First Run strings -->
       <message name="IDS_FRE_ACTIVITY_LABEL" desc="Label for first run dialog in Android Recents.">
-        Brave First Run Experience
+        Dissenter First Run Experience
       </message>
-      <message name="IDS_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice.">
-        By using this application, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
+      <message name="IDS_FRE_TOS_AND_PRIVACY" desc="Message explaining that use of Dissenter is governed by Dissenter's terms of service and privacy notice.">
+        By using this application, you agree to Dissenter’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
-      <message name="IDS_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice, and Family Link's privacy notice for children.">
-        By using this application, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Brave Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
+      <message name="IDS_FRE_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Dissenter is governed by Dissenter's terms of service and privacy notice, and Family Link's privacy notice for children.">
+        By using this application, you agree to Dissenter’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Dissenter Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice.">
-        <ph name="APP_NAME">%1$s<ex>Brave Maps</ex></ph> will open in Brave. By continuing, you agree to Brave’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
+      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY" desc="Message explaining that use of Dissenter is governed by Dissenter's terms of service and privacy notice.">
+        <ph name="APP_NAME">%1$s<ex>Dissenter Maps</ex></ph> will open in Dissenter. By continuing, you agree to Dissenter’s <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>.
       </message>
-      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Brave is governed by Brave's terms of service and privacy notice, and Family Link's privacy notice for children.">
-        <ph name="APP_NAME">%1$s<ex>Brave Maps</ex></ph> will open in Brave. By continuing, you agree to Brave's <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Brave Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
+      <message name="IDS_LIGHTWEIGHT_FRE_ASSOCIATED_APP_TOS_AND_PRIVACY_CHILD_ACCOUNT" desc="Message explaining that use of Dissenter is governed by Dissenter's terms of service and privacy notice, and Family Link's privacy notice for children.">
+        <ph name="APP_NAME">%1$s<ex>Dissenter Maps</ex></ph> will open in Dissenter. By continuing, you agree to Dissenter's <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>Terms of Service<ph name="END_LINK1">&lt;/LINK1&gt;</ph> and <ph name="BEGIN_LINK2">&lt;LINK2&gt;</ph>Privacy Notice<ph name="END_LINK2">&lt;/LINK2&gt;</ph>, and the <ph name="BEGIN_LINK3">&lt;LINK3&gt;</ph>Privacy Notice for Dissenter Accounts Managed with Family Link<ph name="END_LINK3">&lt;/LINK3&gt;</ph>.
       </message>
       <message name="IDS_FRE_SEND_REPORT_CHECK" desc="Text for asking the user to allow sending stats and crash reports">
-        Help make Brave better by sending usage statistics and crash reports to Brave.
+        Help make Dissenter better by sending usage statistics and crash reports to Dissenter.
       </message>
       <message name="IDS_FRE_ACCEPT_CONTINUE" desc="Text for first page accept and continue button [CHAR-LIMIT=20]">
         Accept &amp; continue
       </message>
-      <message name="IDS_FRE_WELCOME" desc="Text for greeting the user on Brave First Run">
-        Welcome to Brave
+      <message name="IDS_FRE_WELCOME" desc="Text for greeting the user on Dissenter First Run">
+        Welcome to Dissenter
       </message>
 
       <!-- Account Signin Strings -->
-      <message name="IDS_SIGNIN_ADD_ACCOUNT" desc="Text for adding another Brave Account">
+      <message name="IDS_SIGNIN_ADD_ACCOUNT" desc="Text for adding another Dissenter Account">
         Add account
       </message>
       <message name="IDS_SIGNIN_GMS_UPDATING" desc="Message notifying user that Google Play Services is still updating.">
@@ -2648,10 +2648,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Sync your passwords, history &amp; more on all devices
       </message>
       <message name="IDS_SIGNIN_SYNC_DESCRIPTION" desc="Description of Sync feature for the screen that asks users to sign-in and turn on Sync.">
-        Brave may use your history to personalize Search, ads, and other Brave services
+        Dissenter may use your history to personalize Search, ads, and other Dissenter services
       </message>
       <message name="IDS_SIGNIN_SYNC_DESCRIPTION_CHILD_ACCOUNT" desc="Description of Sync feature for the screen that asks users to sign-in and turn on Sync.">
-        Brave may use your history to personalize Search and other Brave services
+        Dissenter may use your history to personalize Search and other Dissenter services
       </message>
       <message name="IDS_SIGNIN_DETAILS_DESCRIPTION" desc="Message with a link to customize Sync settings. Shown on the screen that asks the user to turn on Sync.">
         You can always choose what to sync in <ph name="BEGIN_LINK1">&lt;LINK1&gt;</ph>settings<ph name="END_LINK1">&lt;/LINK1&gt;</ph>.
@@ -2664,10 +2664,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- Personalized Signin Promos Strings -->
-      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Brave with this acccount.">
+      <message name="IDS_SIGNIN_PROMO_CONTINUE_AS" desc="Button that the user can press to login without asking the password and continue using Dissenter with this acccount.">
         Continue as <ph name="USER_FULL_NAME">%1$s<ex>John Doe</ex></ph>
       </message>
-      <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Brave found (opposite of 'Continue as Joe Doe').">
+      <message name="IDS_SIGNIN_PROMO_CHOOSE_ACCOUNT" desc="Button that the user can press if they are not the profile that Dissenter found (opposite of 'Continue as Joe Doe').">
         Not <ph name="EMAIL">%1$s<ex>john.doe@example.com</ex></ph>?
       </message>
       <!-- Strings for signin promos when Unified Consent is enabled. -->
@@ -2678,10 +2678,10 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         To get your bookmarks on all your devices, sign in and turn on sync
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_CONTENT_SUGGESTIONS" desc="Description string for 'Continue as' signin promo shown in NTP content suggestions screen. This version of the string is shown when there are no accounts on the device.">
-        To get personalized content suggested by Brave, turn on sync
+        To get personalized content suggested by Dissenter, turn on sync
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_NTP_CONTENT_SUGGESTIONS_NO_ACCOUNT" desc="Description string for 'Continue as' signin promo shown in NTP content suggestions screen. This version of the string is shown when there are no accounts on the device.">
-        To get personalized content suggested by Brave, sign in and turn on sync
+        To get personalized content suggested by Dissenter, sign in and turn on sync
       </message>
       <message name="IDS_SIGNIN_PROMO_DESCRIPTION_RECENT_TABS" desc="Description string for 'Continue as' signin promo shown in Recent Tabs screen.">
         To get your tabs from your other devices, turn on sync
@@ -2747,8 +2747,8 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_NTP_ACCESSIBILITY_ITEM_REMOVED" desc="Text announced for accessibility when the user removes an item from the new tab page e.g. by swiping it away or using the context menu.">
         Item removed: <ph name="ITEM_TITLE">%1$s<ex>Prime minister announces new health care plans</ex></ph>
       </message>
-      <message name="IDS_ACCESSIBILITY_GOOGLE_DOODLE" desc="Content description for the Brave Doodle (the fun, alternative Brave logo) shown on the new tab page.">
-        Brave doodle: <ph name="DOODLE_DESCRIPTION">%1$s<ex>Einstein’s birthday</ex></ph>
+      <message name="IDS_ACCESSIBILITY_GOOGLE_DOODLE" desc="Content description for the Dissenter Doodle (the fun, alternative Dissenter logo) shown on the new tab page.">
+        Dissenter doodle: <ph name="DOODLE_DESCRIPTION">%1$s<ex>Einstein’s birthday</ex></ph>
       </message>
       <message name="IDS_NTP_RECENT_TABS_SYNC_PROMO_TITLE" desc="Header for the promo explaining how users can see the list of tabs open on their other devices">
         Other devices
@@ -2851,34 +2851,34 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_BUTTON_NEW_INCOGNITO_TAB" desc="Tooltip for the button to open a new private browser tab.">
         New private tab
       </message>
-      <message name="IDS_CUSTOM_TAB_AMP_PUBLISHER_URL" desc="Text shown in a Custom Tab toolbar for a web page that is hosted by the Brave content delivery network but was originally published by someone else.">
-        From <ph name="PUBLISHER_ORIGIN">&lt;pub&gt;%1$s&lt;/pub&gt;<ex>example.com</ex></ph> – <ph name="BEGIN_DEEMPHASIZED">&lt;bg&gt;</ph>delivered by Brave<ph name="END_DEEMPHASIZED">&lt;/bg&gt;</ph>
+      <message name="IDS_CUSTOM_TAB_AMP_PUBLISHER_URL" desc="Text shown in a Custom Tab toolbar for a web page that is hosted by the Dissenter content delivery network but was originally published by someone else.">
+        From <ph name="PUBLISHER_ORIGIN">&lt;pub&gt;%1$s&lt;/pub&gt;<ex>example.com</ex></ph> – <ph name="BEGIN_DEEMPHASIZED">&lt;bg&gt;</ph>delivered by Dissenter<ph name="END_DEEMPHASIZED">&lt;/bg&gt;</ph>
       </message>
 
       <!-- Main menu items -->
       <message name="IDS_MENU_UPDATE" desc="Menu item for updating chrome. [CHAR-LIMIT=24]">
-        Update Brave
+        Update Dissenter
       </message>
-      <message name="IDS_MENU_UPDATE_SUMMARY_DEFAULT" desc="Summary string for update menu item explaining that a newer version of Brave is available. [CHAR-LIMIT=30]">
+      <message name="IDS_MENU_UPDATE_SUMMARY_DEFAULT" desc="Summary string for update menu item explaining that a newer version of Dissenter is available. [CHAR-LIMIT=30]">
         Newer version is available
       </message>
-      <message name="IDS_MENU_UPDATE_UNSUPPORTED" desc="Menu item for when Brave can not be updated. [CHAR-LIMIT=24]">
-        Brave can’t update
+      <message name="IDS_MENU_UPDATE_UNSUPPORTED" desc="Menu item for when Dissenter can not be updated. [CHAR-LIMIT=24]">
+        Dissenter can’t update
       </message>
       <message name="IDS_MENU_UPDATE_UNSUPPORTED_SUMMARY_DEFAULT" desc="Summary string for update menu item explaining that the Android version on the device is unsupported. [CHAR-LIMIT=30]">
         Android version is unsupported
       </message>
-      <message name="IDS_MENU_INLINE_UPDATE_DOWNLOADING" desc="Menu item for when Brave is in the process of updating. [CHAR-LIMIT=24]">
+      <message name="IDS_MENU_INLINE_UPDATE_DOWNLOADING" desc="Menu item for when Dissenter is in the process of updating. [CHAR-LIMIT=24]">
         Downloading…
       </message>
-      <message name="IDS_MENU_INLINE_UPDATE_FAILED" desc="Menu item for when Brave failed to download an update. [CHAR-LIMIT=24]">
+      <message name="IDS_MENU_INLINE_UPDATE_FAILED" desc="Menu item for when Dissenter failed to download an update. [CHAR-LIMIT=24]">
         Couldn’t download
       </message>
-      <message name="IDS_MENU_INLINE_UPDATE_READY" desc="Menu item text that is shown when Brave has downloaded an update for itself and is ready to be restarted, which will apply the update. [CHAR-LIMIT=24]">
+      <message name="IDS_MENU_INLINE_UPDATE_READY" desc="Menu item text that is shown when Dissenter has downloaded an update for itself and is ready to be restarted, which will apply the update. [CHAR-LIMIT=24]">
         Update ready
       </message>
-      <message name="IDS_MENU_INLINE_UPDATE_READY_SUMMARY" desc="Summary text that is shown when Brave has downloaded an update for itself and is ready to be restarted, which will apply the update.  This lets the user know the update will restart. [CHAR-LIMIT=24]">
-        Restart Brave
+      <message name="IDS_MENU_INLINE_UPDATE_READY_SUMMARY" desc="Summary text that is shown when Dissenter has downloaded an update for itself and is ready to be restarted, which will apply the update.  This lets the user know the update will restart. [CHAR-LIMIT=24]">
+        Restart Dissenter
       </message>
       <message name="IDS_MENU_MOVE_TO_OTHER_WINDOW" desc="Menu item for moving the current tab into the other window. [CHAR-LIMIT=27]">
         Move to other window
@@ -2922,7 +2922,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_MENU_FIND_IN_PAGE" desc="Menu item allowing users to find text within the current page. [CHAR-LIMIT=27]">
         Find in page
       </message>
-      <message name="IDS_MENU_REQUEST_DESKTOP_SITE" desc="Menu item in Brave's overflow/options menu. By default, when a user navigates to a web page, Brave shows the mobile site, that is, the version of the site designed for mobile phones. If this menu item is selected, however, Brave will try to load the 'desktop' site instead, i.e. the site designed for desktop computers or laptop computers, which have larger screens. [CHAR-LIMIT=24]">
+      <message name="IDS_MENU_REQUEST_DESKTOP_SITE" desc="Menu item in Dissenter's overflow/options menu. By default, when a user navigates to a web page, Dissenter shows the mobile site, that is, the version of the site designed for mobile phones. If this menu item is selected, however, Dissenter will try to load the 'desktop' site instead, i.e. the site designed for desktop computers or laptop computers, which have larger screens. [CHAR-LIMIT=24]">
         Desktop site
       </message>
       <message name="IDS_MENU_REQUEST_DESKTOP_SITE_ON" desc="Accessibility description for when Request Desktop Site is enabled.">
@@ -2963,7 +2963,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
           other {<ph name="BOOKMARKS_COUNT_MANY">%1$d<ex>8</ex></ph> bookmarks}}
       </message>
       <message name="IDS_BOOKMARK_PAGE_SAVED" desc="App-based message shown after user adds a new bookmark. [CHAR-LIMIT=32]">
-        Bookmarked in <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph>
+        Bookmarked in <ph name="PRODUCT_NAME">%1$s<ex>Dissenter</ex></ph>
       </message>
       <message name="IDS_BOOKMARK_PAGE_SAVED_DEFAULT" desc="Default message shown after user adds a new bookmark. [CHAR-LIMIT=32]">
         Bookmarked
@@ -3046,8 +3046,8 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Viewing an offline copy of this page
       </message>
 
-      <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TITLE" desc="Title text of a notification that informs the user that there is web content available to view in Brave even while offline">
-        View offline in <ph name="APP_NAME">%1$s<ex>Brave</ex></ph>
+      <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TITLE" desc="Title text of a notification that informs the user that there is web content available to view in Dissenter even while offline">
+        View offline in <ph name="APP_NAME">%1$s<ex>Dissenter</ex></ph>
       </message>
 
       <message name="IDS_OFFLINE_PAGES_PREFETCH_NOTIFICATION_TEXT" desc="Text inside a notification explaining the sites that fresh offline web pages originate from.">
@@ -3056,11 +3056,11 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
 
       <message name="IDS_OFFLINE_PAGES_AUTO_FETCH_IN_PROGRESS_NOTIFICATION_TEXT" desc="Text inside a notification explaining that one or more pages will be fetched when the device is online. [ICU Syntax]">
         {NUM_IN_PROGRESS, plural,
-          =1 {Brave will load your page when ready}
-          other {Brave will load your pages when ready}}
+          =1 {Dissenter will load your page when ready}
+          other {Dissenter will load your pages when ready}}
       </message>
 
-      <message name="IDS_OFFLINE_PAGES_AUTO_FETCH_READY_NOTIFICATION_TEXT" desc="Text inside a notification explaining that the page has been fetched and is ready to view. This is the subtext of the notification and appars below the web page title. When the notification is tapped, the page is opened in Brave.">
+      <message name="IDS_OFFLINE_PAGES_AUTO_FETCH_READY_NOTIFICATION_TEXT" desc="Text inside a notification explaining that the page has been fetched and is ready to view. This is the subtext of the notification and appars below the web page title. When the notification is tapped, the page is opened in Dissenter.">
         Page is ready to view
       </message>
 
@@ -3103,14 +3103,14 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_OPEN_IN_NEW_TAB_TOAST" desc="Toast displayed after a tab is opened in the background on a low end device.">
         Tab opened in background.
       </message>
-      <message name="IDS_MENU_OPEN_IN_CHROME" desc="Context sensitive menu item for opening a link in Brave. [CHAR-LIMIT=30]">
-        Open in Brave
+      <message name="IDS_MENU_OPEN_IN_CHROME" desc="Context sensitive menu item for opening a link in Dissenter. [CHAR-LIMIT=30]">
+        Open in Dissenter
       </message>
-      <message name="IDS_MENU_OPEN_IN_INCOGNITO_CHROME" desc="Context sensitive menu item for opening a link in Brave in a Private tab. [CHAR-LIMIT=30]" translateable="false">
-        Open in Private Brave
+      <message name="IDS_MENU_OPEN_IN_INCOGNITO_CHROME" desc="Context sensitive menu item for opening a link in Dissenter in a Private tab. [CHAR-LIMIT=30]" translateable="false">
+        Open in Private Dissenter
       </message>
       <message name="IDS_MENU_OPEN_IN_PRODUCT" desc="App menu item for opening link in the browser. [CHAR-LIMIT=30]">
-        Open in <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph>
+        Open in <ph name="PRODUCT_NAME">%1$s<ex>Dissenter</ex></ph>
       </message>
       <message name="IDS_MENU_OPEN_IN_PRODUCT_DEFAULT" desc="Default title for menu item for opening link in browser. [CHAR-LIMIT=30]">
         Open in browser
@@ -3118,11 +3118,11 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_READER_VIEW_TEXT_ALT" desc="Message shown on the reader mode button bar, to invite the user to tap to open a reader mode. Reader mode extracts content and removes clutter from a web page and puts the result in a panel making it easier to read. This is used when &quot;Reader Mode for Accessibility&quot; is available.">
         Show simplified view
       </message>
-      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Brave's entry in QSB's list of search suggestion providers [CHAR-LIMIT=32]">
+      <message name="IDS_CONTENT_PROVIDER_SEARCH_DESCRIPTION" desc="Description for Dissenter's entry in QSB's list of search suggestion providers [CHAR-LIMIT=32]">
         Bookmarks and web history
       </message>
-      <message name="IDS_CHROME_SURVEY_PROMPT" desc="Message shown that invites the user to take a survey about Brave. 'Help' and 'improve' are imperative verbs. 'Take survey' is a tappable link. When tapped, a survey about Brave opens.">
-        Help improve Brave. <ph name="BEGIN_LINK">&lt;LINK&gt;</ph>Take survey<ph name="END_LINK">&lt;/LINK&gt;</ph>
+      <message name="IDS_CHROME_SURVEY_PROMPT" desc="Message shown that invites the user to take a survey about Dissenter. 'Help' and 'improve' are imperative verbs. 'Take survey' is a tappable link. When tapped, a survey about Dissenter opens.">
+        Help improve Dissenter. <ph name="BEGIN_LINK">&lt;LINK&gt;</ph>Take survey<ph name="END_LINK">&lt;/LINK&gt;</ph>
       </message>
 
       <!-- Accessibility -->
@@ -3135,11 +3135,11 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU" desc="Content description for the settings menu button.">
         More options
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU_UPDATE" desc="Content description for the menu button when it is covered by the update icon that is displayed when a newer version of Brave is available.">
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU_UPDATE" desc="Content description for the menu button when it is covered by the update icon that is displayed when a newer version of Dissenter is available.">
         Update available. More options
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_MENU_OS_VERSION_UNSUPPORTED" desc="Content description for the menu button when it is covered by the warning icon that is displayed when the current Android OS version is unsupported.">
-        Brave can’t update. More options
+        Dissenter can’t update. More options
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_SEARCH_ACCELERATOR" desc="Content description for the search accelerator button">
         Search
@@ -3192,7 +3192,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_TABSWITCHER_TOGGLE_DEFAULT" desc="Placeholder content description for the button that enters or leaves the tab switcher.">
         open tabs
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_IDENTITY_DISC" desc="The content description for a toolbar button displaying user profile picture. Tapping on this button navigates to 'Sync and Brave services' page in settings">
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_IDENTITY_DISC" desc="The content description for a toolbar button displaying user profile picture. Tapping on this button navigates to 'Sync and Dissenter services' page in settings">
         Manage account
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_HOME" desc="Content description for the home button.">
@@ -3329,7 +3329,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_CONTEXTUAL_SEARCH_QUICK_ACTION_CAPTION_GENERIC_WEBSITE" desc="Caption displayed in the Contextual Search bar prompting the user to navigate to a web page.">
         Go to page
       </message>
-      <message name="IDS_CONTEXTUAL_SEARCH_IPH_ENTITY" desc="An in-product-help message for the Tap to Search feature on Brave Android. The message encourages users to open a panel that contains search results for the word or phrase they tapped on.">
+      <message name="IDS_CONTEXTUAL_SEARCH_IPH_ENTITY" desc="An in-product-help message for the Tap to Search feature on Dissenter Android. The message encourages users to open a panel that contains search results for the word or phrase they tapped on.">
         See instant search results in this panel
       </message>
       <message name="IDS_CONTEXTUAL_SEARCH_IPH_SEARCH_RESULT" desc="An in-product-help message for the Tap to Search feature. It encourages users to open the Tap to Search panel to see search results for a word or phrase they have tapped.">
@@ -3375,8 +3375,8 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- MultiWindow -->
-      <message name="IDS_UNSUPPORTED_NUMBER_OF_WINDOWS" desc="Popup message for when the user has tried to start too many concurrent versions of Brave.">
-        Unsupported number of Brave instances.
+      <message name="IDS_UNSUPPORTED_NUMBER_OF_WINDOWS" desc="Popup message for when the user has tried to start too many concurrent versions of Dissenter.">
+        Unsupported number of Dissenter instances.
       </message>
 
       <!-- Override URL -->
@@ -3393,7 +3393,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
 
       <!-- Overscroll Navigation -->
       <message name="IDS_OVERSCROLL_NAVIGATION_CLOSE_CHROME" desc="Message displayed on overscroll navigation UI widget when the back navigation is attempted at the beginning of navigation history stack. The widget only has an arrow icon but expands to display this message next to it.">
-        Close <ph name="APP_NAME">%1$s<ex>Brave</ex></ph>
+        Close <ph name="APP_NAME">%1$s<ex>Dissenter</ex></ph>
       </message>
       <message name="IDS_OVERSCROLL_NAVIGATION_CLOSE_TAB" desc="Message displayed on overscroll navigation UI widget when the back navigation is attempted at the beginning of navigation history stack. The widget only has an arrow icon but expands to display this message next to it.">
         Close tab
@@ -3426,23 +3426,23 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- Storage Preference UI strings for clearing storage. -->
-      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Brave's Manage Space Activity.">
-         Brave <ph name="APP_NAME">%1$s<ex>Brave</ex></ph> storage
+      <message name="IDS_STORAGE_MANAGEMENT_ACTIVITY_LABEL" desc="Title for Dissenter's Manage Space Activity.">
+         Dissenter <ph name="APP_NAME">%1$s<ex>Dissenter</ex></ph> storage
       </message>
       <message name="IDS_STORAGE_CLEAR_SITE_STORAGE_TITLE" desc="Title of clear storage dialogs used in a couple different places to confirm clearing site storage data. [CHAR-LIMIT=24]">
         Clear site storage?
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_UNIMPORTANT_SITE_DATA_DESCRIPTION" desc="Text to describe the data stored by unimportant or infrequent sites.">
-        Site storage Brave doesn't think is important (e.g. sites with no saved settings or that you don't visit often)
+        Site storage Dissenter doesn't think is important (e.g. sites with no saved settings or that you don't visit often)
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_UNIMPORTANT_SITE_DATA_SIZE_LABEL" desc="Label for the data usage of site data for unimportant sites (followed by a number of megabytes). [CHAR-LIMIT=30]">
         Unimportant storage
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_SITE_DATA_BUTTON" desc="Text on the button to clear all Brave data. [CHAR LIMIT=30]">
+      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_SITE_DATA_BUTTON" desc="Text on the button to clear all Dissenter data. [CHAR LIMIT=30]">
         Free up space
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_CLEAR_UNIMPORTANT_DIALOG_TEXT" desc="Text of the clear unimportant site data dialog in the storage UI.">
-        This will clear cookies, cache, and other data of sites Brave doesn't think is important.
+        This will clear cookies, cache, and other data of sites Dissenter doesn't think is important.
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_SITE_DATA_DESCRIPTION" desc="Text to describe the data stored on the device by websites.">
         All site storage, including cookies and other locally stored data
@@ -3459,17 +3459,17 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_STORAGE_MANAGEMENT_MANAGE_SITE_DATA_BUTTON" desc="Text on the button allowing users to manage the space used by websites. [CHAR LIMIT=30]">
         Manage
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Brave.">
-        Total data used by Brave, including accounts, bookmarks, and saved settings
+      <message name="IDS_STORAGE_MANAGEMENT_ALL_STORAGE_DESCRIPTION" desc="Text used to describe all storage space used by Dissenter.">
+        Total data used by Dissenter, including accounts, bookmarks, and saved settings
       </message>
-      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_ALL_DATA_BUTTON" desc="Text on the button to clear all Brave data. [CHAR LIMIT=30]">
+      <message name="IDS_STORAGE_MANAGEMENT_CLEAR_ALL_DATA_BUTTON" desc="Text on the button to clear all Dissenter data. [CHAR LIMIT=30]">
         Clear All Data
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TITLE" desc="Title of the reset app dialog in the storage UI used to reset the app.">
         Delete app data?
       </message>
       <message name="IDS_STORAGE_MANAGEMENT_RESET_APP_DIALOG_TEXT" desc="Text of the reset app dialoag in the storage UI.">
-        All Brave’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.
+        All Dissenter’s app data will be deleted permanently. This includes all files, settings, accounts, databases, etc.
       </message>
 
       <message name="IDS_STORAGE_CLEAR_BUTTON_TITLE" desc="Title of a button in the storage UI used to clear all storage data. [CHAR-LIMIT=24]">
@@ -3557,16 +3557,16 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         Search with Sogou
       </message>
       <message name="IDS_SOGOU_EXPLANATION" desc="Text explaining why Sogou should be used as default search engine.">
-        Brave can use <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Sogou<ph name="END_BOLD">&lt;/b&gt;</ph> for search in China. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
+        Dissenter can use <ph name="BEGIN_BOLD">&lt;b&gt;</ph>Sogou<ph name="END_BOLD">&lt;/b&gt;</ph> for search in China. You can change this in <ph name="BEGIN_LINK">&lt;link&gt;</ph>Settings<ph name="END_LINK">&lt;/link&gt;</ph>.
       </message>
-      <message name="IDS_KEEP_GOOGLE" desc="Text representing the option that the user wants to keep Brave as the default search engine.">
-        Keep Brave
+      <message name="IDS_KEEP_GOOGLE" desc="Text representing the option that the user wants to keep Dissenter as the default search engine.">
+        Keep Dissenter
       </message>
       <message name="IDS_USING_SOGOU" desc="Text notifying users that the default search engine has been set to Sogou.">
         Using Sogou for search
       </message>
-      <message name="IDS_USING_GOOGLE" desc="Text notifying users that the default search engine has been set to Brave.">
-        Using Brave for search
+      <message name="IDS_USING_GOOGLE" desc="Text notifying users that the default search engine has been set to Dissenter.">
+        Using Dissenter for search
       </message>
 
       <!-- Item Chooser UI strings -->
@@ -3575,17 +3575,17 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- WebAPK/TWA related strings -->
-      <message name="IDS_APP_RUNNING_IN_CHROME_DISCLOSURE" desc="Message on the snackbar that indicates an app may use Brave data.">
-        This app is running in Brave
+      <message name="IDS_APP_RUNNING_IN_CHROME_DISCLOSURE" desc="Message on the snackbar that indicates an app may use Dissenter data.">
+        This app is running in Dissenter
       </message>
-      <message name="IDS_TWA_RUNNING_IN_CHROME" desc="Message on a snackbar indicating that the current Activity may use Brave data (the rest of the app may not be).">
-        Running in Brave
+      <message name="IDS_TWA_RUNNING_IN_CHROME" desc="Message on a snackbar indicating that the current Activity may use Dissenter data (the rest of the app may not be).">
+        Running in Dissenter
       </message>
       <message name="IDS_TWA_CLEAR_DATA_DIALOG_TITLE" desc="Title of the clear data dialog showing after user uninstalls or clears data of an app hosting a Trusted Web Activity">
-        <ph name="APP_NAME">%1$s<ex>YouTube</ex></ph> also has data in Brave
+        <ph name="APP_NAME">%1$s<ex>YouTube</ex></ph> also has data in Dissenter
       </message>
       <message name="IDS_TWA_CLEAR_DATA_DIALOG_MESSAGE" desc="Message of the clear data dialog">
-        You can clear the data in Brave Settings
+        You can clear the data in Dissenter Settings
       </message>
       <message name="IDS_TWA_CLEAR_DATA_DIALOG_KEEP_DATA" desc="Text on the negative button of the clear data dialog">
         Keep data
@@ -3611,25 +3611,25 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       </message>
 
       <!-- Keyboard shortcuts in Android N-->
-      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut to open a new tab in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut to open a new tab in Dissenter. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open a new tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_REOPEN_NEW_TAB" desc="A text label that appears next to the keyboard shortcut for reopening the last tab in the chrome app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Reopen the last closed tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in private mode in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in private mode in Dissenter. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open a new tab in Private mode
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_MENU" desc="A text label that appears next to a keyboard shortcut that opens the overflow menu in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_OPEN_MENU" desc="A text label that appears next to a keyboard shortcut that opens the overflow menu in Dissenter. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open the menu
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_NEXT_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the next tab in the Brave app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_NEXT_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the next tab in the Dissenter app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the next tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_PREV_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the previous tab in the Brave app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_PREV_TAB" desc="A text label that appears next to the keyboard shortcut that will move the user to the previous tab in the Dissenter app. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the previous tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_CLOSE_TAB" desc="A text label that appears next to the keyboard shortcut that will close the current tab in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_CLOSE_TAB" desc="A text label that appears next to the keyboard shortcut that will close the current tab in Dissenter. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Close current tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_FIND_BAR" desc="A text label that appears next to the keyboard shortcut that will open the find bar that searches what is on the screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
@@ -3638,7 +3638,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_KEYBOARD_SHORTCUT_ADDRESS_BAR" desc="A text label that appears next to the keyboard that will let you focus on the address bar on the screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Jump to the address bar
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_MANAGER" desc="A text label that appears next to the keyboard shortcut that will open the bookmarks manager in Brave. On a tablet this is a new tab, on the phone this is a new activity. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_MANAGER" desc="A text label that appears next to the keyboard shortcut that will open the bookmarks manager in Dissenter. On a tablet this is a new tab, on the phone this is a new activity. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open the bookmarks manager
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_BOOKMARK_PAGE" desc="A text label that appears next to the keyboard shortcut that will bookmark the page that is currently on screen. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
@@ -3665,31 +3665,31 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
       <message name="IDS_KEYBOARD_SHORTCUT_RELOAD_NO_CACHE" desc="A text label that appears next to the keyboard shortcut that will reload the current page without a cache. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Reload the current page, ignoring cached content
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_HELP_CENTER" desc="A text label that appears next to the keyboard shortcut that will open the Brave Help Center in a new tab. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
-        Open the Brave Help Center in a new tab
+      <message name="IDS_KEYBOARD_SHORTCUT_HELP_CENTER" desc="A text label that appears next to the keyboard shortcut that will open the Dissenter Help Center in a new tab. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+        Open the Dissenter Help Center in a new tab
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_TAB_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the tab window. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
         Tab and window shortcuts
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_CHROME_FEATURE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the Brave app features. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
-        Brave feature shortcuts
+      <message name="IDS_KEYBOARD_SHORTCUT_CHROME_FEATURE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to the Dissenter app features. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
+        Dissenter feature shortcuts
       </message>
       <message name="IDS_KEYBOARD_SHORTCUT_WEBPAGE_GROUP_HEADER" desc="A text label that appears above a list of shortcuts that are related to manipulation of the current tab window. This group is part of several groups of keyboard shortcuts all shown in a dialog.">
         Webpage shortcuts
       </message>
 
       <!-- VR module -->
-      <message name="IDS_VR_MODULE_TITLE" desc="Text shown when the VR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Virtual Reality for Brave…').">
+      <message name="IDS_VR_MODULE_TITLE" desc="Text shown when the VR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Virtual Reality for Dissenter…').">
         Virtual Reality
       </message>
-      <message name="IDS_VR_PREPARING_VR_TOAST_STANDALONE_TEXT" desc="Text shown on a toast when Brave's VR browser could not be started due to the VR module missing.">
-        Brave is still preparing for VR. Restart Brave later.
+      <message name="IDS_VR_PREPARING_VR_TOAST_STANDALONE_TEXT" desc="Text shown on a toast when Dissenter's VR browser could not be started due to the VR module missing.">
+        Dissenter is still preparing for VR. Restart Dissenter later.
       </message>
       <message name="IDS_VR_PREPARING_VR_NOTIFICATION_TITLE" desc="Title of a notifaction shown in VR if VR browser not ready yet. [CHAR-LIMIT=23]">
         Something went wrong.
       </message>
       <message name="IDS_VR_PREPARING_VR_NOTIFICATION_BODY" desc="Body of a notifaction shown in VR if VR browser not ready yet.">
-        Reopen Brave.
+        Reopen Dissenter.
       </message>
 
       <if expr="enable_vr">
@@ -3706,7 +3706,7 @@ To change this setting, <ph name="BEGIN_LINK">&lt;resetlink&gt;</ph>reset sync<p
         </message>
 
         <!-- AR module -->
-        <message name="IDS_AR_MODULE_TITLE" desc="Text shown when the AR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Augmented Reality for Brave…').">
+        <message name="IDS_AR_MODULE_TITLE" desc="Text shown when the AR module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Augmented Reality for Dissenter…').">
           Augmented Reality
         </message>
         <message name="IDS_AR_IMMERSIVE_MODE_CONSENT_TITLE" desc="Title for dialog shown when a site requests consent for starting an augmented reality session.">
@@ -3730,14 +3730,14 @@ The site does NOT gain access to the camera. The camera images are only visible 
       </if>
 
       <!-- Dynamic feature modules -->
-      <message name="IDS_MODULE_INSTALL_START_TEXT" desc="Text shown on a toast when Brave starts to download a dynamic feature module.">
-        Installing <ph name="module">%1$s<ex>augmented reality</ex></ph> for Brave…
+      <message name="IDS_MODULE_INSTALL_START_TEXT" desc="Text shown on a toast when Dissenter starts to download a dynamic feature module.">
+        Installing <ph name="module">%1$s<ex>augmented reality</ex></ph> for Dissenter…
       </message>
-      <message name="IDS_MODULE_INSTALL_SUCCESS_TEXT" desc="Text shown on a toast when Brave successfully installed a dynamic feature module.">
+      <message name="IDS_MODULE_INSTALL_SUCCESS_TEXT" desc="Text shown on a toast when Dissenter successfully installed a dynamic feature module.">
         Installed
       </message>
-      <message name="IDS_MODULE_INSTALL_FAILURE_TEXT" desc="Text shown on an infobar when Brave failed to install a dynamic feature module.">
-        Unable to install <ph name="module">%1$s<ex>augmented reality</ex></ph> for Brave
+      <message name="IDS_MODULE_INSTALL_FAILURE_TEXT" desc="Text shown on an infobar when Dissenter failed to install a dynamic feature module.">
+        Unable to install <ph name="module">%1$s<ex>augmented reality</ex></ph> for Dissenter
       </message>
 
       <!-- Custom Context Menu Informations -->
@@ -3770,17 +3770,17 @@ The site does NOT gain access to the camera. The camera images are only visible 
       <message name="IDS_IPH_DATA_SAVER_DETAIL_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text to open lite mode.">
         See how much data you've saved from the More Options button
       </message>
-      <message name="IDS_IPH_IDENTITY_DISC_TEXT" desc="The in-product-help text prompting the user that tapping identity disc will navigate to 'Sync and Brave services' settings page.">
+      <message name="IDS_IPH_IDENTITY_DISC_TEXT" desc="The in-product-help text prompting the user that tapping identity disc will navigate to 'Sync and Dissenter services' settings page.">
         Manage your account
       </message>
-      <message name="IDS_IPH_IDENTITY_DISC_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text prompting the user that tapping identity disc will navigate to 'Sync and Brave services' settings page.">
-        To manage your Brave account, tap the "Manage account" button
+      <message name="IDS_IPH_IDENTITY_DISC_ACCESSIBILITY_TEXT" desc="The in-product-help accessibility text prompting the user that tapping identity disc will navigate to 'Sync and Dissenter services' settings page.">
+        To manage your Dissenter account, tap the "Manage account" button
       </message>
-      <message name="IDS_IPH_PREVIEWS_OMNIBOX_UI_TEXT" desc="The in-product-help text informing the user that the displayed page was modified to make it load faster or use less data. Prompts the user to tap the message and load the original, unaltered, page if they would like. The 'Lite page provided by Brave.' sentence should match TC ID 373879247902731825">
-        Lite page provided by Brave. Tap to load the original.
+      <message name="IDS_IPH_PREVIEWS_OMNIBOX_UI_TEXT" desc="The in-product-help text informing the user that the displayed page was modified to make it load faster or use less data. Prompts the user to tap the message and load the original, unaltered, page if they would like. The 'Lite page provided by Dissenter.' sentence should match TC ID 373879247902731825">
+        Lite page provided by Dissenter. Tap to load the original.
       </message>
-      <message name="IDS_IPH_PREVIEWS_OMNIBOX_UI_ACCESSIBILITY_TEXT" desc="The in-product-help text informing the user that the displayed page was modified to make it load faster or use less data. Prompts the user to tap the message and load the original, unaltered, page if they would like. The 'Lite page provided by Brave.' sentence should match TC ID 373879247902731825">
-        Lite page provided by Brave. Tap the load original button to load the original page.
+      <message name="IDS_IPH_PREVIEWS_OMNIBOX_UI_ACCESSIBILITY_TEXT" desc="The in-product-help text informing the user that the displayed page was modified to make it load faster or use less data. Prompts the user to tap the message and load the original, unaltered, page if they would like. The 'Lite page provided by Dissenter.' sentence should match TC ID 373879247902731825">
+        Lite page provided by Dissenter. Tap the load original button to load the original page.
       </message>
       <message name="IDS_IPH_TRANSLATE_MENU_BUTTON_TEXT" desc="The in-product-help message after a successful navigation prompting user to translate current page.">
         Translate this page to any language
@@ -3794,7 +3794,7 @@ The site does NOT gain access to the camera. The camera images are only visible 
         Search
       </message>
       <message name="IDS_SEARCH_WITH_PRODUCT" desc="Text for search widget with a search engine name">
-        Search with <ph name="PRODUCT_NAME">%1$s<ex>Brave</ex></ph>
+        Search with <ph name="PRODUCT_NAME">%1$s<ex>Dissenter</ex></ph>
       </message>
       <message name="IDS_IPH_DOWNLOAD_SETTINGS_TEXT" desc="The in-product-help message to open download settings in download home.">
         Change the default download location any time
@@ -3806,7 +3806,7 @@ The site does NOT gain access to the camera. The camera images are only visible 
         Your download is still in progress
       </message>
       <message name="IDS_IPH_DOWNLOAD_INFOBAR_DOWNLOADS_ARE_FASTER_TEXT" desc="The in-product-help message on the download InfoBar to inform that downloads are now faster than before.">
-        Brave now downloads files faster
+        Dissenter now downloads files faster
       </message>
 
       <!-- Launcher Shortcuts -->
@@ -3865,10 +3865,10 @@ The site does NOT gain access to the camera. The camera images are only visible 
         Turn on sync to share across devices
       </message>
       <message name="IDS_SHARING_NO_DEVICES_AVAILABLE_TEXT" desc="Text to show when no device targets are available for sharing.">
-        To share something from your phone to another device, turn on sync in Brave settings on both devices
+        To share something from your phone to another device, turn on sync in Dissenter settings on both devices
       </message>
       <message name="IDS_SHARING_CHROME_SETTINGS" desc="Text shown in a button when user has turned off sync.">
-        Go to Brave settings
+        Go to Dissenter settings
       </message>
 
       <!-- ClickToCall -->
@@ -3896,7 +3896,7 @@ The site does NOT gain access to the camera. The camera images are only visible 
       </message>
 
       <message name="IDS_BROWSER_SHARING_ERROR_DIALOG_TEXT_DEVICE_NOT_FOUND" desc="The text to be shown on the dialog when an error occurred because the device is not synced.">
-        Make sure <ph name="TARGET_DEVICE_NAME">%1$s<ex>Pixel XL</ex></ph> has sync turned on in Brave
+        Make sure <ph name="TARGET_DEVICE_NAME">%1$s<ex>Pixel XL</ex></ph> has sync turned on in Dissenter
       </message>
       <message name="IDS_BROWSER_SHARING_ERROR_DIALOG_TEXT_NETWORK_ERROR" desc="The text to be shown on the dialog when the sender device has network issues.">
         Make sure this device is connected to the internet
@@ -3930,14 +3930,14 @@ The site does NOT gain access to the camera. The camera images are only visible 
         Send text to Your Devices
       </message>
 
-      <!-- Brave Duet -->
+      <!-- Dissenter Duet -->
       <message name="IDS_IPH_DUET_HOME_BUTTON_TITLE" desc="This string appears in an overlay that explains a new UI to users. The title of the feature highlight bubble that explains what is home button in bottom toolbar for.">
         Get back home easily
       </message>
       <message name="IDS_IPH_DUET_HOME_BUTTON_DESCRIPTION" desc="This string appears in an overlay that explains a new UI to users. The text in the feature highlight bubble that explains what is home button in bottom toolbar for.">
         Tap here to quickly access your homepage from anywhere
       </message>
-      <message name="IDS_IPH_DUET_SEARCH_TITLE" desc="This string appears in an overlay that explains a new UI to users. 'Search' refers to searching the web, and 'explore' refers to Brave's suggested content.">
+      <message name="IDS_IPH_DUET_SEARCH_TITLE" desc="This string appears in an overlay that explains a new UI to users. 'Search' refers to searching the web, and 'explore' refers to Dissenter's suggested content.">
         Search &amp; explore
       </message>
       <message name="IDS_IPH_DUET_SEARCH_DESCRIPTION" desc="This string appears in an overlay that explains a new UI to users. 'From here' is a generic directional cue: don't worry about the direction, as it is clarified by the way the overlay is shown.">
@@ -3975,13 +3975,13 @@ The site does NOT gain access to the camera. The camera images are only visible 
         Always allow
       </message>
       <message name="IDS_NEAR_OOM_INTERVENTION_MESSAGE" desc="The message stating that the browser intervened to stop the page using too much memory.">
-         This page uses too much memory, so Brave paused it.
+         This page uses too much memory, so Dissenter paused it.
       </message>
       <message name="IDS_NEAR_OOM_INTERVENTION_DECLINE" desc="The text of the button letting the user decline the browser's intervention, so that the page can resume what it was doing.">
          Resume
       </message>
       <message name="IDS_NEAR_OOM_REDUCTION_MESSAGE" desc="The message stating that the browser removed some content of the page using too much memory.">
-         This page uses too much memory, so Brave removed some content.
+         This page uses too much memory, so Dissenter removed some content.
       </message>
       <message name="IDS_NEAR_OOM_REDUCTION_DECLINE" desc="The text of the button letting the user decline the browser's intervention, so that the page can be reloaded.">
          Show original
@@ -3989,26 +3989,26 @@ The site does NOT gain access to the camera. The camera images are only visible 
 
       <!-- Autofill Assistant preferences -->
       <message name="IDS_PREFS_AUTOFILL_ASSISTANT_TITLE" desc="Title for the Autofill Assistant preferences screen. [CHAR-LIMIT=32]">
-        Brave Assistant in Brave
+        Dissenter Assistant in Dissenter
       </message>
       <message name="IDS_PREFS_AUTOFILL_ASSISTANT_SWITCH" desc="Title for the switch toggling whether Autofill Assistant is enabled. [CHAR-LIMIT=32]">
         Assistant Triggered Checkout
       </message>
       <!-- Usage Stats strings -->
-      <message name="IDS_USAGE_STATS_CONSENT_TITLE" desc="Title for activity authorizing Digital Wellbeing to access Brave usage data">
-        Show your Brave activity in Digital Wellbeing?
+      <message name="IDS_USAGE_STATS_CONSENT_TITLE" desc="Title for activity authorizing Digital Wellbeing to access Dissenter usage data">
+        Show your Dissenter activity in Digital Wellbeing?
       </message>
-      <message name="IDS_USAGE_STATS_CONSENT_PROMPT" desc="Consent prompt when authorizing Digital Wellbeing to access Brave usage data">
-       You can see sites you visit in Brave and set timers for them.\n\nBrave gets info about the sites you set timers for and how long you visit them. This info is used to make Digital Wellbeing better.
+      <message name="IDS_USAGE_STATS_CONSENT_PROMPT" desc="Consent prompt when authorizing Digital Wellbeing to access Dissenter usage data">
+       You can see sites you visit in Dissenter and set timers for them.\n\nDissenter gets info about the sites you set timers for and how long you visit them. This info is used to make Digital Wellbeing better.
       </message>
-      <message name="IDS_USAGE_STATS_SETTING_TITLE" desc="Title for setting removing Digital Wellbeing's access to Brave usage data">
-        Remove your Brave activity from Digital Wellbeing
+      <message name="IDS_USAGE_STATS_SETTING_TITLE" desc="Title for setting removing Digital Wellbeing's access to Dissenter usage data">
+        Remove your Dissenter activity from Digital Wellbeing
       </message>
-      <message name="IDS_USAGE_STATS_REVOCATION_PROMPT" desc="Prompt for removing Digital Wellbeing's access to Brave usage data">
-        Remove your Brave activity from Digital Wellbeing?
+      <message name="IDS_USAGE_STATS_REVOCATION_PROMPT" desc="Prompt for removing Digital Wellbeing's access to Dissenter usage data">
+        Remove your Dissenter activity from Digital Wellbeing?
       </message>
-      <message name="IDS_USAGE_STATS_REVOCATION_EXPLANATION" desc="Explanation of the effect of revoking Digital Wellbeing's access to Brave usage data">
-        Sites you visit in Brave won't show. All site timers will be deleted.
+      <message name="IDS_USAGE_STATS_REVOCATION_EXPLANATION" desc="Explanation of the effect of revoking Digital Wellbeing's access to Dissenter usage data">
+        Sites you visit in Dissenter won't show. All site timers will be deleted.
       </message>
       <message name="IDS_USAGE_STATS_SITE_PAUSED" desc="Message when a website is suspended due to exceeding a user-defined limit">
         Site paused
@@ -4018,27 +4018,27 @@ The site does NOT gain access to the camera. The camera images are only visible 
       </message>
 
       <!-- Tab Group Tab Switcher strings -->
-      <message name="IDS_TAB_MANAGEMENT_MODULE_TITLE" desc="Text shown when the Tab Management module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Tab management for Brave…').">
+      <message name="IDS_TAB_MANAGEMENT_MODULE_TITLE" desc="Text shown when the Tab Management module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Tab management for Dissenter…').">
         Tab management
       </message>
 
-      <message name="IDS_AUTOFILL_ASSISTANT_MODULE_TITLE" desc="Text shown when the Foo module is referenced in install start, success,         failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to         'Installing Assistant for Brave…').">
-  Brave Assistant in Brave
+      <message name="IDS_AUTOFILL_ASSISTANT_MODULE_TITLE" desc="Text shown when the Foo module is referenced in install start, success,         failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to         'Installing Assistant for Dissenter…').">
+  Dissenter Assistant in Dissenter
       </message>
 
-      <message name="IDS_DEV_UI_MODULE_TITLE" desc="Text shown when the Developer UI module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Developer UI for Brave…').">
+      <message name="IDS_DEV_UI_MODULE_TITLE" desc="Text shown when the Developer UI module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Developer UI for Dissenter…').">
         Developer UI
       </message>
 
-      <message name="IDS_TEST_DUMMY_MODULE_TITLE" translateable="false" desc="Text shown when the test dummy module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Test Dummy for Brave…').">
+      <message name="IDS_TEST_DUMMY_MODULE_TITLE" translateable="false" desc="Text shown when the test dummy module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Test Dummy for Dissenter…').">
         Test Dummy
       </message>
 
-      <message name="IDS_STACK_UNWINDER_MODULE_TITLE" desc="Text shown when the stack unwinder module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Stack Unwinder for Brave…').">
+      <message name="IDS_STACK_UNWINDER_MODULE_TITLE" desc="Text shown when the stack unwinder module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Stack Unwinder for Dissenter…').">
         Stack Unwinder
       </message>
 
-      <message name="IDS_EXTRA_ICU_MODULE_TITLE" desc="Text shown when the extra ICU module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Extra ICU for Brave…').">
+      <message name="IDS_EXTRA_ICU_MODULE_TITLE" desc="Text shown when the extra ICU module is referenced in install start, success,               failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to               'Installing Extra ICU for Dissenter…').">
         Extra ICU
       </message>
 
@@ -4064,12 +4064,12 @@ The site does NOT gain access to the camera. The camera images are only visible 
       </message>
 
       <!-- Chime DFM module strings -->
-      <message name="IDS_CHIME_MODULE_TITLE" desc="Text shown when the chime module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Brave Notifications Platform for Brave…').">
-        Brave Notifications Platform
+      <message name="IDS_CHIME_MODULE_TITLE" desc="Text shown when the chime module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Dissenter Notifications Platform for Dissenter…').">
+        Dissenter Notifications Platform
       </message>
 
       <!-- Image Editor DFM module strings -->
-      <message name="IDS_IMAGE_EDITOR_MODULE_TITLE" desc="Text shown when the image editor module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Image Editor for Brave…').">
+      <message name="IDS_IMAGE_EDITOR_MODULE_TITLE" desc="Text shown when the image editor module is referenced in install start, success, failure UI (e.g. in IDS_MODULE_INSTALL_START_TEXT, which will expand to 'Installing Image Editor for Dissenter…').">
         Image Editor
       </message>
     </messages>

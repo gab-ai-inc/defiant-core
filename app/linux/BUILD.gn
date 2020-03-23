@@ -46,7 +46,7 @@ action("strip_and_dump_symbols") {
     ":generate_breakpad_symbols",
     dump_syms_label,
   ]
-  brave_binary = "$brave_dist_dir/brave"
+  brave_binary = "$brave_dist_dir/dissenter"
   if (current_cpu == "x86") {
   # Use "ia32" instead of "x86" for GYP compat.
     brave_symbol_file = "$root_out_dir/brave.breakpad.ia32"

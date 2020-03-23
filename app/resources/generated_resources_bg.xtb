@@ -23,12 +23,12 @@
 <translation id="8261506727792406068">Изтриване</translation>
 <translation id="144283815522798837">Избрахте <ph name="NUMBER_OF_ITEMS_SELECTED"/></translation>
 <translation id="5582839680698949063">Главно меню</translation>
-<translation id="3700405816184340252">История в Brave</translation>
+<translation id="3700405816184340252">История в Dissenter</translation>
 <translation id="7602079150116086782">Няма раздели от други устройства</translation>
 <translation id="4619615317237390068">Раздели от други устройства</translation>
-<translation id="82609232232243542">Вход в Brave</translation>
+<translation id="82609232232243542">Вход в Dissenter</translation>
 <translation id="4627442949885028695">Продължаване от друго устройство</translation>
-<translation id="7253276740368043692">Влезте в Brave, за да получите разделите си от другите си устройства.</translation>
+<translation id="7253276740368043692">Влезте в Dissenter, за да получите разделите си от другите си устройства.</translation>
 <translation id="6351063337294363751">Можете да изчистите данните за сърфирането си от това меню</translation>
 <translation id="6040143037577758943">Затваряне</translation>
 <translation id="6463795194797719782">&amp;Редактиране</translation>
@@ -41,7 +41,7 @@
 <translation id="3303855915957856445">Няма намерени резултати от търсенето</translation>
 <translation id="8967866634928501045">За показване натиснете Alt Shift A</translation>
 <translation id="998747458861718449">И&amp;нспектиране</translation>
-<translation id="4428301600092811022">Да се изтеглят ли от Brave Software описания за изображенията?</translation>
+<translation id="4428301600092811022">Да се изтеглят ли от Gab AI Inc описания за изображенията?</translation>
 <translation id="741204030948306876">Да, ще участвам</translation>
 <translation id="780301667611848630">Не, благодаря</translation>
 <translation id="3943582379552582368">&amp;Назад</translation>
@@ -95,7 +95,7 @@
 <translation id="5233736638227740678">&amp;Поставяне</translation>
 <translation id="2218515861914035131">Поставяне като неформатиран текст</translation>
 <translation id="1017280919048282932">&amp;Добавяне в речника</translation>
-<translation id="1732768497619250086">Изтегляне от Brave Software на описания за изображенията</translation>
+<translation id="1732768497619250086">Изтегляне от Gab AI Inc на описания за изображенията</translation>
 <translation id="7561196759112975576">Винаги</translation>
 <translation id="2241634353105152135">Само веднъж</translation>
 <translation id="3387614642886316601">Използване на подобрената проверка на правописа</translation>
@@ -103,7 +103,7 @@
 <translation id="5860491529813859533">Включване</translation>
 <translation id="7658239707568436148">Отказ</translation>
 <translation id="8915370057835397490">Предложението се зарежда</translation>
-<translation id="6191804255817539692">Няма повече предложения от Brave Software</translation>
+<translation id="6191804255817539692">Няма повече предложения от Gab AI Inc</translation>
 <translation id="1901303067676059328">&amp;Избиране на всички</translation>
 <translation id="3797900183766075808">&amp;Търсене на „<ph name="SEARCH_TERMS"/>“ със: <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">&amp;Търсене на изображението чрез <ph name="SEARCH_ENGINE"/></translation>
@@ -151,7 +151,7 @@
 <translation id="9033857511263905942">&amp;Поставяне</translation>
 <translation id="1815083418640426271">Поставяне като неформатиран текст</translation>
 <translation id="4022426551683927403">&amp;Добавяне в речника</translation>
-<translation id="6849870115130610913">Изтегляне от Brave Software на описания за изображенията</translation>
+<translation id="6849870115130610913">Изтегляне от Gab AI Inc на описания за изображенията</translation>
 <translation id="372722114124766626">Само веднъж</translation>
 <translation id="4079140982534148664">Използване на подобрената проверка на правописа</translation>
 <translation id="7487141338393529395">Включване на подобрената проверка на правописа</translation>
@@ -223,7 +223,7 @@
 <translation id="7422192691352527311">Предпочитания...</translation>
 <translation id="5801568494490449797">Предпочитания</translation>
 <translation id="3677911431265050325">Заявка за мобилния сайт</translation>
-<translation id="236470849334943016">Общите условия на Brave ще бъдат променени на 31 март</translation>
+<translation id="236470849334943016">Общите условия на Dissenter ще бъдат променени на 31 март</translation>
 <translation id="1032605640136438169">Моля, прегледайте новите Условия</translation>
 <translation id="8712637175834984815">Разбрах</translation>
 <translation id="5007392906805964215">Преглед</translation>
@@ -452,8 +452,8 @@
 <translation id="5895138241574237353">Рестартиране</translation>
 <translation id="3479552764303398839">Не сега</translation>
 <translation id="1008557486741366299">Не сега</translation>
-<translation id="8201192017531062522">Браузърът ще продължи да работи, докато приложенията в Brave са отворени.</translation>
-<translation id="7397305826909094212">Затваряне на всички приложения в Brave</translation>
+<translation id="8201192017531062522">Браузърът ще продължи да работи, докато приложенията в Dissenter са отворени.</translation>
+<translation id="7397305826909094212">Затваряне на всички приложения в Dissenter</translation>
 <translation id="5026874946691314267">Без повторно показване</translation>
 <translation id="91568222606626347">Създаване на пряк път...</translation>
 <translation id="2783321960289401138">Създаване на пряк път...</translation>
@@ -821,16 +821,16 @@
 <translation id="5799508265798272974">Виртуална машина с Linux: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="6058567592298841668">Приставка за виртуална машина: <ph name="PLUGIN_VM_NAME"/></translation>
 <translation id="7851720427268294554">Инструмент за синтактичен анализ на IPP заявки</translation>
-<translation id="7171242884588191792">Помощни програми за файлове на Brave</translation>
+<translation id="7171242884588191792">Помощни програми за файлове на Dissenter</translation>
 <translation id="3183139917765991655">Импортиране на потребителски профили</translation>
 <translation id="2190069059097339078">Получаване на идентификационни данни за Wi-Fi</translation>
-<translation id="7685901961038216503">Запис на системни образи на Brave OS</translation>
+<translation id="7685901961038216503">Запис на системни образи на Dissenter OS</translation>
 <translation id="4873312501243535625">Проверка на медийни файлове</translation>
 <translation id="5972666587303800813">Услуга без функции</translation>
 <translation id="1545775234664667895">Инсталирана тема: <ph name="THEME_NAME"/></translation>
 <translation id="2256115617011615191">Рестартиране сега</translation>
 <translation id="4545028762441890696">За да го активирате, приемете новите разрешения:</translation>
-<translation id="3009487527589249344">Brave Software сигнализира, че разширението <ph name="EXTENSION_NAME"/> е злонамерено, и инсталирането бе предотвратено</translation>
+<translation id="3009487527589249344">Gab AI Inc сигнализира, че разширението <ph name="EXTENSION_NAME"/> е злонамерено, и инсталирането бе предотвратено</translation>
 <translation id="6790497603648687708">Разширението <ph name="EXTENSION_NAME"/> бе добавено отдалечено</translation>
 <translation id="1841705068325380214">Разширението <ph name="EXTENSION_NAME"/> е деактивирано</translation>
 <translation id="595959584676692139">Презаредете страницата, за да използвате това разширение</translation>
@@ -849,14 +849,14 @@
 <translation id="3507421388498836150">Текущи разрешения за <ph name="EXTENSION_NAME"/></translation>
 <translation id="5242724311594467048">Да се активира ли <ph name="EXTENSION_NAME"/>?</translation>
 <translation id="4014432863917027322">Да се поправи ли <ph name="EXTENSION_NAME"/>?</translation>
-<translation id="5173189340601754836">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Brave.
+<translation id="5173189340601754836">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Dissenter.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Brave.
+<translation id="6654312501894761082">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Dissenter.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Brave.
+<translation id="3225882094369124157">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Dissenter.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Активиране на разширението</translation>
@@ -865,7 +865,7 @@
 <translation id="3908501907586732282">Активиране на разширението</translation>
 <translation id="2327492829706409234">Активиране на приложението</translation>
 <translation id="175772926354468439">Активиране на темата</translation>
-<translation id="5267531627648004734">Премахване от Brave</translation>
+<translation id="5267531627648004734">Премахване от Dissenter</translation>
 <translation id="4998873842614926205">Потвърждаване на промените</translation>
 <translation id="5699533844376998780">Разширението „<ph name="EXTENSION_NAME"/>“ е добавено.</translation>
 <translation id="1799071797295057738">Разширението „<ph name="EXTENSION_NAME"/>“ бе деактивирано автоматично.</translation>
@@ -968,7 +968,7 @@
 <translation id="3584169441612580296">Четене и промяна на снимки, музика и друга мултимедия от компютъра ви</translation>
 <translation id="5457459357461771897">Четене и изтриване на снимки, музика и друга мултимедия от компютъра ви</translation>
 <translation id="3270965368676314374">Четене, промяна и изтриване на снимки, музика и друга мултимедия от компютъра ви</translation>
-<translation id="3919562953666287643">Съхраняване на данните в профила ви в Brave Software Диск</translation>
+<translation id="3919562953666287643">Съхраняване на данните в профила ви в Gab AI Inc Диск</translation>
 <translation id="378312418865624974">Четене на уникалния идентификатор на този компютър</translation>
 <translation id="5094721898978802975">Комуникация със съдействащи директно изпълнявани приложения</translation>
 <translation id="4876895919560854374">Заключване и отключване на екрана</translation>
@@ -1002,7 +1002,7 @@
 <translation id="1616298854599875024">Разширението <ph name="IMPORT_NAME"/> не може да бъде импортирано, защото не е споделен модул</translation>
 <translation id="2131077480075264"><ph name="APP_NAME"/> не може да се инсталира, защото няма разрешение за импортиране на ресурси от <ph name="IMPORT_NAME"/></translation>
 <translation id="1875387611427697908">Това може да бъде добавено само от <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="7613251087357271190">Приложенията с атрибут „kiosk_only“ в манифеста трябва да бъдат инсталирани в павилионния режим на Brave OS</translation>
+<translation id="7613251087357271190">Приложенията с атрибут „kiosk_only“ в манифеста трябва да бъдат инсталирани в павилионния режим на Dissenter OS</translation>
 <translation id="3834775135533257713">Приложението „<ph name="TO_INSTALL_APP_NAME"/>“ не можа да бъде добавено поради несъвместимост с/ъс „<ph name="INSTALLED_APP_NAME"/>“.</translation>
 <translation id="144518587530125858">Не можа да се зареди „<ph name="IMAGE_PATH"/>“ за темата.</translation>
 <translation id="6567688344210276845">Не можа да се зареди иконата „<ph name="ICON"/>“ за действието на страницата.</translation>
@@ -1096,9 +1096,9 @@
 <translation id="6101226222197207147">Бе добавено ново приложение (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Бе добавена нова тема (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904"><ph name="EXTENSION_NAME"/> се добави</translation>
-<translation id="6637045053447935202">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Brave.</translation>
-<translation id="2015014930243978107">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Brave.</translation>
-<translation id="2060128809251156338">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Brave.</translation>
+<translation id="6637045053447935202">Друга програма на компютъра ви добави приложение, което може да промени начина на работа на Dissenter.</translation>
+<translation id="2015014930243978107">Друга програма на компютъра ви добави разширение, което може да промени начина на работа на Dissenter.</translation>
+<translation id="2060128809251156338">Друга програма на компютъра ви добави тема, която може да промени начина на работа на Dissenter.</translation>
 <translation id="2470702053775288986">Неподдържаните разширения са деактивирани</translation>
 <translation id="2809586584051668049">и още <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Добре, разбрах</translation>
@@ -1166,7 +1166,7 @@
 <translation id="8756969031206844760">Да се актуализира ли паролата?</translation>
 <translation id="8230134520748321204">Да се запази ли паролата за <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Да се актуализира ли паролата за <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Паролите се запазват в профила ви в Brave Software, за да можете да ги използвате на всяко устройство</translation>
+<translation id="8284000761603848448">Паролите се запазват в профила ви в Gab AI Inc, за да можете да ги използвате на всяко устройство</translation>
 <translation id="8286036467436129157">Вход</translation>
 <translation id="8009225694047762179">Управление на паролите</translation>
 <translation id="3950820424414687140">Вход</translation>
@@ -1174,10 +1174,10 @@
 <translation id="328571385944182268">Да се запазят ли паролите ви?</translation>
 <translation id="3753033997400164841">Съхранете веднъж. Използвайте навсякъде</translation>
 <translation id="1703331064825191675">Никога повече не се тревожете за паролите си</translation>
-<translation id="2341030170677284705">Паролите ви ще се съхраняват сигурно в профила ви в Brave Software и няма да се налага да ги въвеждате отново</translation>
-<translation id="3913985461352963178">Осъществявайте достъп до паролите си винаги когато сте влезли в профила си в Brave Software</translation>
-<translation id="4851124464356820177">За да запазвате пароли в профила си в Brave Software, влезте в него и включете синхронизирането.</translation>
-<translation id="3229869963989850535">За да запазвате пароли в профила си в Brave Software, включете синхронизирането.</translation>
+<translation id="2341030170677284705">Паролите ви ще се съхраняват сигурно в профила ви в Gab AI Inc и няма да се налага да ги въвеждате отново</translation>
+<translation id="3913985461352963178">Осъществявайте достъп до паролите си винаги когато сте влезли в профила си в Gab AI Inc</translation>
+<translation id="4851124464356820177">За да запазвате пароли в профила си в Gab AI Inc, влезте в него и включете синхронизирането.</translation>
+<translation id="3229869963989850535">За да запазвате пароли в профила си в Gab AI Inc, включете синхронизирането.</translation>
 <translation id="1609170755653088773">Синхронизирайте тази парола със своя iPhone</translation>
 <translation id="1712349894969001173">Пренасяне на тази парола на вашия iPhone</translation>
 <translation id="8111155949205007504">Споделяне на тази парола с вашия iPhone</translation>
@@ -1280,9 +1280,9 @@
 <translation id="9143298529634201539">Да се премахне ли предложението?</translation>
 <translation id="5336688142483283574">Тази страница също така ще бъде премахната от историята ви и от записите за активността ви в <ph name="SEARCH_ENGINE"/>.</translation>
 <translation id="1246905108078336582">Искате ли да премахнете предложението от буферната памет?</translation>
-<translation id="2129873093718581193">Потърсете с Brave Software или въведете URL адрес</translation>
-<translation id="6363797201514053536">Търсете с Brave Software или въведете URL адрес</translation>
-<translation id="4888839742663123585">Търсете с Brave Software</translation>
+<translation id="2129873093718581193">Потърсете с Gab AI Inc или въведете URL адрес</translation>
+<translation id="6363797201514053536">Търсете с Gab AI Inc или въведете URL адрес</translation>
+<translation id="4888839742663123585">Търсете с Gab AI Inc</translation>
 <translation id="6078323886959318429">Добавяне на пряк път</translation>
 <translation id="6324916366299863871">Редактиране на прекия път</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1297,7 +1297,7 @@
 <translation id="8017679124341497925">Прекият път бе редактиран</translation>
 <translation id="1174073918202301297">Прекият път бе добавен</translation>
 <translation id="2926085873880284723">Възстановяване на стандартните преки пътища</translation>
-<translation id="5801450813341024983">Фонове за Brave</translation>
+<translation id="5801450813341024983">Фонове за Dissenter</translation>
 <translation id="2800760947029405028">Качване на изображение</translation>
 <translation id="8342861492835240085">Избиране на колекция</translation>
 <translation id="3132996321662585180">Ежедневно опресняване</translation>
@@ -1384,7 +1384,7 @@
 <translation id="833986336429795709">За да отворите тази връзка, изберете приложение</translation>
 <translation id="192494336144674234">Отваряне със</translation>
 <translation id="9053893665344928494">Запомняне на избора ми</translation>
-<translation id="5340857474604400806">Оставане в Brave</translation>
+<translation id="5340857474604400806">Оставане в Dissenter</translation>
 <translation id="3043581297103810752">От <ph name="ORIGIN"/></translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (Поверителен)</translation>
 <translation id="1572139610531470719"><ph name="WINDOW_TITLE"/> (гост)</translation>
@@ -1452,8 +1452,8 @@
 <translation id="6686817083349815241">Запазване на паролата ви</translation>
 <translation id="8141725884565838206">Управление на паролите ви</translation>
 <translation id="8275038454117074363">Импортиране</translation>
-<translation id="3191314862567596053">Импортиране на пароли в Brave</translation>
-<translation id="6368144843345980623">Експортиране на пароли от Brave</translation>
+<translation id="3191314862567596053">Импортиране на пароли в Dissenter</translation>
+<translation id="6368144843345980623">Експортиране на пароли от Dissenter</translation>
 <translation id="8503813439785031346">Потребителско име</translation>
 <translation id="6657585470893396449">Парола</translation>
 <translation id="4722735765955348426">Парола за <ph name="USERNAME"/></translation>
@@ -1472,38 +1472,38 @@
 <translation id="6798578729981748444">За да завършите импортирането, затворете всички прозорци на Firefox.</translation>
 <translation id="6374469231428023295">Нов опит</translation>
 <translation id="8725066075913043281">Опитайте отново</translation>
-<translation id="4196805003686694274">Изпращане на отзиви до Brave Software</translation>
+<translation id="4196805003686694274">Изпращане на отзиви до Gab AI Inc</translation>
 <translation id="3424969259347320884">Опишете какво правехте, когато разделът претърпя срив</translation>
-<translation id="1892630320532151038">Изпращане на отзиви до Brave Software</translation>
+<translation id="1892630320532151038">Изпращане на отзиви до Gab AI Inc</translation>
 <translation id="2428510569851653187">Опишете какво правехте, когато разделът претърпя срив</translation>
 <translation id="5659593005791499971">Имейл</translation>
 <translation id="2982970937345031">Подаване на анонимен сигнал</translation>
 <translation id="6076448957780543068">Включване на тази екранна снимка</translation>
 <translation id="2865919525181940183">Екранна снимка на програмите на екрана</translation>
 <translation id="7052237160939977163">Да се изпратят данните от проследяването на ефективността</translation>
-<translation id="5526928694260255286">Прикачване на <ph name="BEGIN_LINK"/>регистрационните файлове за Bluetooth<ph name="END_LINK"/> (вътрешно за Brave Software)</translation>
+<translation id="5526928694260255286">Прикачване на <ph name="BEGIN_LINK"/>регистрационните файлове за Bluetooth<ph name="END_LINK"/> (вътрешно за Gab AI Inc)</translation>
 <translation id="3047644958362961983">Тази информация ни помага да разберем по-добре проблема, който срещате с Асистент. Тя се съхранява до 90 дни и достъпът до нея е ограничен до съответните инженерни екипи и екипи по отзивите.</translation>
-<translation id="1705635099498185261">За по-добра диагностика на проблемите с Bluetooth служителите на Brave Software могат да включват в сигналите си с отзиви допълнителни регистрационни файлове за Bluetooth. Когато за тази опция е поставена отметка, сигналът ви ще съдържа регистрационните файлове за btsnoop и HCI от текущата ви сесия, като от тях ще бъде премахната възможно най-много информация, позволяваща лично идентифициране (PII). Достъпът до тези файлове ще бъде ограничен до мениджърите на групата за продукта Brave OS в Listnr. Файловете ще бъдат изтрити безвъзвратно след 90 дни.</translation>
+<translation id="1705635099498185261">За по-добра диагностика на проблемите с Bluetooth служителите на Gab AI Inc могат да включват в сигналите си с отзиви допълнителни регистрационни файлове за Bluetooth. Когато за тази опция е поставена отметка, сигналът ви ще съдържа регистрационните файлове за btsnoop и HCI от текущата ви сесия, като от тях ще бъде премахната възможно най-много информация, позволяваща лично идентифициране (PII). Достъпът до тези файлове ще бъде ограничен до мениджърите на групата за продукта Dissenter OS в Listnr. Файловете ще бъдат изтрити безвъзвратно след 90 дни.</translation>
 <translation id="4206323443866416204">Сигнал с отзив</translation>
 <translation id="3681311097828166361">Благодарим ви за отзива. В момента сте офлайн, така че сигналът ви ще бъде изпратен по-късно.</translation>
 <translation id="8713570323158206935">Изпращане на <ph name="BEGIN_LINK1"/>системна информация<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Изпращане на <ph name="BEGIN_LINK1"/>системна информация<ph name="END_LINK1"/> и <ph name="BEGIN_LINK2"/>показатели<ph name="END_LINK2"/></translation>
 <translation id="6270770586500173387">Изпращане на <ph name="BEGIN_LINK1"/>информация за системата и приложенията<ph name="END_LINK1"/>, както и за <ph name="BEGIN_LINK2"/>показателите<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">Включване на скорошната история в Асистент посредством Sherlog. Тя може да включва самоличността ви, местоположението и информация за отстраняване на грешки. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">Файлът ще бъде изпратен до Brave Software за отстраняване на грешки</translation>
+<translation id="8329196515830093443">Файлът ще бъде изпратен до Gab AI Inc за отстраняване на грешки</translation>
 <translation id="8227119283605456246">Прикачване на файл</translation>
 <translation id="5367091008316207019">Файлът се чете...</translation>
 <translation id="2554553592469060349">Избраният файл е твърде голям (максимален размер: 3 МБ).</translation>
 <translation id="4690091457710545971">&lt;Фърмуерът на Intel за Wi-Fi генерира четири файла: csr.lst, fh_regs.lst, radio_reg.lst и monitor.lst.sysmon. Първите три са двоични файлове с копия на данни от системния регистър и според Intel не съдържат лични данни или информация, идентифицираща устройството. Последният е файл за трасиране на изпълнението от фърмуера на Intel. Личните данни и идентифициращата устройството информация са премахнати от него, но той е твърде голям, за да бъде показан тук. Тези файлове са генерирани поради скорошните проблеми с Wi-Fi на устройството ви и ще бъдат споделени с Intel с цел по-лесното им отстраняване.&gt;</translation>
-<translation id="6972420083546794501">Отворете <ph name="BEGIN_LINK1"/>страницата за правна помощ<ph name="END_LINK1"/>, за да заявите промени в съдържанието по причини от правен характер. До Brave Software може да бъде изпратена информация за профила и системата. Ще използваме предоставените от вас данни за отстраняване на технически проблеми и за подобряване на услугите ни в съответствие с <ph name="BEGIN_LINK2"/>Декларацията за поверителност<ph name="END_LINK2"/> и <ph name="BEGIN_LINK3"/>Общите ни условия<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Отворете <ph name="BEGIN_LINK1"/>страницата за правна помощ<ph name="END_LINK1"/>, за да заявите промени в съдържанието по причини от правен характер. До Gab AI Inc може да бъде изпратена информация за профила и системата. Ще използваме предоставените от вас данни за отстраняване на технически проблеми и за подобряване на услугите ни в съответствие с <ph name="BEGIN_LINK2"/>Декларацията за поверителност<ph name="END_LINK2"/> и <ph name="BEGIN_LINK3"/>Общите ни условия<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Моля, кажете ни какво става, преди да изпратите отзивите.</translation>
 <translation id="1483493594462132177">Изпращане</translation>
 <translation id="6885771755599377173">Преглед на системната информация</translation>
 <translation id="1016566241875885511">Допълнителна информация (незадължително)</translation>
 <translation id="8026334261755873520">Изчистване на данните за сърфирането</translation>
 <translation id="7409836189476010449">Изпълни Flash</translation>
-<translation id="4718442817388594217">Избраните данни са премахнати от Brave и синхронизираните устройства. Възможно е в профила ви в Brave Software да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> – например търсения и активност от други наши услуги.</translation>
-<translation id="7814200940910057384">Данните в Brave са изчистени</translation>
+<translation id="4718442817388594217">Избраните данни са премахнати от Dissenter и синхронизираните устройства. Възможно е в профила ви в Gab AI Inc да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> – например търсения и активност от други наши услуги.</translation>
+<translation id="7814200940910057384">Данните в Dissenter са изчистени</translation>
 <translation id="7346909386216857016">Добре, разбрах</translation>
 <translation id="8493236660459102203">Микрофон:</translation>
 <translation id="3925573269917483990">Камера:</translation>
@@ -1511,7 +1511,7 @@
 <translation id="4172051516777682613">Показване винаги</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Блокиран е изскачащ прозорец}other{Блокирани са # изскач. прозореца}}</translation>
 <translation id="3759371141211657149">Управление на настройките за манипулатора...</translation>
-<translation id="4156865452842056672">(Страници с грешки в Brave)</translation>
+<translation id="4156865452842056672">(Страници с грешки в Dissenter)</translation>
 <translation id="1734824808160898225">Възможно е <ph name="PRODUCT_NAME"/> да не може да се поддържа актуален</translation>
 <translation id="8590375307970699841">Настройка за автоматични актуализации</translation>
 <translation id="8926389886865778422">Без повторно питане</translation>
@@ -1526,7 +1526,7 @@
 <translation id="284805635805850872">Да се премахне ли опасният софтуер?</translation>
 <translation id="489985760463306091">За да завършите премахването на опасния софтуер, рестартирайте компютъра си</translation>
 <translation id="7598466960084663009">Рестартирайте компютъра</translation>
-<translation id="2819091349626575960">Изпращане на подробностите до Brave Software</translation>
+<translation id="2819091349626575960">Изпращане на подробностите до Gab AI Inc</translation>
 <translation id="4099060993766194518">Да се възстанови ли основната търсеща машина?</translation>
 <translation id="138784436342154190">Да се възстанови ли стандартната страница при стартиране?</translation>
 <translation id="5086874064903147617">Да се възстанови ли стандартната начална страница?</translation>
@@ -1604,10 +1604,10 @@
 <translation id="8658645149275195032"><ph name="APP_NAME"/> споделя екрана и звука ви с/ъс „<ph name="TAB_NAME"/>“.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> споделя прозорец.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> споделя прозорец с/ъс „<ph name="TAB_NAME"/>“.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> споделя раздел в Brave.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> споделя раздел в Brave с/ъс „<ph name="TAB_NAME"/>“.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> споделя раздел в Brave и звук.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> споделя раздел в Brave и звук с/ъс „<ph name="TAB_NAME"/>“.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> споделя раздел в Dissenter.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> споделя раздел в Dissenter с/ъс „<ph name="TAB_NAME"/>“.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> споделя раздел в Dissenter и звук.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> споделя раздел в Dissenter и звук с/ъс „<ph name="TAB_NAME"/>“.</translation>
 <translation id="890616557918890486">Промяна на източника</translation>
 <translation id="7792388396321542707">Спиране на споделянето</translation>
 <translation id="6630752851777525409"><ph name="EXTENSION_NAME"/> иска постоянен достъп до сертификат, за да се удостоверява от ваше име.</translation>
@@ -1623,13 +1623,13 @@
 <translation id="3693415264595406141">Парола:</translation>
 <translation id="9111102763498581341">Отключване</translation>
 <translation id="2190355936436201913">(празно)</translation>
-<translation id="9079153198295609735">Автоматично изпращане до Brave Software на статистически данни за използването на Brave и сигнали за сривове</translation>
+<translation id="9079153198295609735">Автоматично изпращане до Gab AI Inc на статистически данни за използването на Dissenter и сигнали за сривове</translation>
 <translation id="7136984461011502314">Добре дошли в <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> е готов да завърши инсталирането</translation>
-<translation id="4711067597921221305">Помогнете ни да подобрим <ph name="PRODUCT_NAME"/> като автоматично изпращате на Brave Software статистически данни за използването му и сигнали за сривове</translation>
+<translation id="4711067597921221305">Помогнете ни да подобрим <ph name="PRODUCT_NAME"/> като автоматично изпращате на Gab AI Inc статистически данни за използването му и сигнали за сривове</translation>
 <translation id="5972826969634861500">Стартиране на <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Помогнете на инженерите ни да открият и отстранят причината за този срив. Ако е възможно, посочете точните стъпки. Всяка подробност е важна!</translation>
-<translation id="5418694430960033386">Или Brave няма достатъчно памет, или процесът за уеб страницата бе прекратен по друга причина. За да продължите, презаредете или отворете друга страница.</translation>
+<translation id="5418694430960033386">Или Dissenter няма достатъчно памет, или процесът за уеб страницата бе прекратен по друга причина. За да продължите, презаредете или отворете друга страница.</translation>
 <translation id="3065041951436100775">Отзиви за затворен раздел.</translation>
 <translation id="3941565636838060942">За да скриете достъпа до тази програма, трябва да я деинсталирате, като използвате
 <ph name="CONTROL_PANEL_APPLET_NAME"/> в контролния панел.
@@ -1639,7 +1639,7 @@
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Платформа</translation>
 <translation id="7022562585984256452">Началната ви страница е зададена.</translation>
-<translation id="7274626204661209194">Brave Software Отпечатване в облак</translation>
+<translation id="7274626204661209194">Gab AI Inc Отпечатване в облак</translation>
 <translation id="4973307593867026061">Добавяне на принтери</translation>
 <translation id="9052208328806230490">Регистрирахте принтерите си в <ph name="CLOUD_PRINT_NAME"/>, използвайки профила <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Прекъсване на връзката с принтерите</translation>
@@ -1657,10 +1657,10 @@
 <translation id="4980805016576257426">Това разширение съдържа злонамерен софтуер.</translation>
 <translation id="5522156646677899028">Това разширение съдържа сериозна уязвимост в сигурността.</translation>
 <translation id="6945695820322143954">Това разширение нарушава правилата на уеб магазина.</translation>
-<translation id="177808131755847449">Деактивирано от Brave. Това разширение може да е опасно.</translation>
+<translation id="177808131755847449">Деактивирано от Dissenter. Това разширение може да е опасно.</translation>
 <translation id="1434696352799406980">Така ще се нулират началната страница, новият раздел в браузъра, търсещата машина и фиксираните раздели. Освен това ще се деактивират всички разширения и ще се изчистят временните данни, като например „бисквитките“. Отметките, историята и запазените ви пароли няма да бъдат премахнати.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> иска да нулира настройките ви.</translation>
-<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> иска да възстанови настройките ви на Brave към първоначалните им стандартни стойности. Това ще нулира началната ви страница, новия раздел в браузъра и търсещата машина, ще деактивира разширенията ви и ще освободи всички раздели. Също така ще се изчистят други временни и кеширани данни, като „бисквитки“, съдържание и информация за сайтове.</translation>
+<translation id="8073477228424628709"><ph name="THIRD_PARTY_TOOL_NAME"/> иска да възстанови настройките ви на Dissenter към първоначалните им стандартни стойности. Това ще нулира началната ви страница, новия раздел в браузъра и търсещата машина, ще деактивира разширенията ви и ще освободи всички раздели. Също така ще се изчистят други временни и кеширани данни, като „бисквитки“, съдържание и информация за сайтове.</translation>
 <translation id="7581462281756524039">Инструмент за почистване</translation>
 <translation id="1233721473400465416">Локал</translation>
 <translation id="2907619724991574506">URL адреси при стартиране</translation>
@@ -1674,7 +1674,7 @@
 <translation id="8870318296973696995">Начална страница</translation>
 <translation id="8987927404178983737">Месец</translation>
 <translation id="6015796118275082299">Година</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Inc Pay</translation>
 <translation id="7671130400130574146">Използване на системната заглавна лента и контурите</translation>
 <translation id="3293644607209440645">Изпращане на тази страница</translation>
 <translation id="1521774566618522728">Активно днес</translation>
@@ -1725,7 +1725,7 @@
 <translation id="8930351635855238750">Новите настройки за „бисквитките“ ще влязат в сила след презареждането на страницата</translation>
 <translation id="2568774940984945469">Контейнер на инфолента</translation>
 <translation id="7282992757463864530">Информационна лента</translation>
-<translation id="1805077115206898822">Вашите отметки, история и други настройки ще се синхронизират с профила ви в Brave Software.</translation>
+<translation id="1805077115206898822">Вашите отметки, история и други настройки ще се синхронизират с профила ви в Gab AI Inc.</translation>
 <translation id="1974060860693918893">Разширени</translation>
 <translation id="2445484935443597917">Създаване на нов потребителски профил</translation>
 <translation id="2606246518223360146">Свързване на данните</translation>
@@ -1818,7 +1818,7 @@
 <translation id="6387674443318562538">Вертикално разделяне</translation>
 <translation id="1231733316453485619">Да се включи ли синхронизирането?</translation>
 <translation id="4736292055110123391">Синхронизиране на вашите отметки, пароли, история и др. на всичките ви устройства</translation>
-<translation id="5736731321935944068">Възможно е да използваме историята ви, за да персонализираме търсенето, рекламите и други услуги на Brave Software</translation>
+<translation id="5736731321935944068">Възможно е да използваме историята ви, за да персонализираме търсенето, рекламите и други услуги на Gab AI Inc</translation>
 <translation id="4201546031411513170">Винаги можете да изберете какво да се синхронизира от настройките.</translation>
 <translation id="2497852260688568942">Синхронизирането е деактивирано от администратора ви</translation>
 <translation id="562935524653278697">Администраторът ви е деактивирал синхронизирането на вашите отметки, история, пароли и други настройки.</translation>
@@ -1857,7 +1857,7 @@
 <translation id="6664774537677393800">Нещо се обърка при отварянето на потребителския ви профил. Моля, излезте от профила си и влезте отново.</translation>
 <translation id="1794791083288629568">Изпращане на отзиви, за да ни помогнете да отстраним този проблем.</translation>
 <translation id="8234795456569844941">Моля, помогнете на инженерите ни да отстранят този проблем. Кажете ни какво се случи, точно преди да получите съобщението за грешка в потребителския профил:</translation>
-<translation id="6500340165622970282">Brave не може да се стартира, защото нещо се обърка при отварянето на потребителския ви профил. Опитайте да рестартирате браузъра.</translation>
+<translation id="6500340165622970282">Dissenter не може да се стартира, защото нещо се обърка при отварянето на потребителския ви профил. Опитайте да рестартирате браузъра.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> не може да се изпълнява като „root“.</translation>
 <translation id="2292848386125228270">Моля, стартирайте <ph name="PRODUCT_NAME"/> като обикновен потребител. Ако имате нужда от права на потребител root, за да преминете в режим за програмиране, стартирайте отново браузъра с флага --no-sandbox.</translation>
 <translation id="7547317915858803630">Предупреждение: Настройките ви за <ph name="PRODUCT_NAME"/> се съхраняват на мрежов диск. Това може да доведе до забавяния, сривове или дори до загуба на данни.</translation>
@@ -1895,10 +1895,10 @@
 <translation id="6198102561359457428">Излезте от профила си и влезте отново...</translation>
 <translation id="4634771451598206121">Влизане отново...</translation>
 <translation id="7117247127439884114">Влизане отново...</translation>
-<translation id="4251909665067750757">Влезте в профила си, за да получите своите отметки, история, пароли и други настройки на всичките си устройства. Също така ще влезете автоматично в използваните от вас услуги на Brave Software.</translation>
+<translation id="4251909665067750757">Влезте в профила си, за да получите своите отметки, история, пароли и други настройки на всичките си устройства. Също така ще влезете автоматично в използваните от вас услуги на Gab AI Inc.</translation>
 <translation id="2749756011735116528">Вход в <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Синхронизирането е деактивирано от администратора ви.</translation>
-<translation id="5462539695964427820">Синхронизирането е спряно чрез Brave Software Табло за управление.</translation>
+<translation id="5462539695964427820">Синхронизирането е спряно чрез Gab AI Inc Табло за управление.</translation>
 <translation id="8805140816472474147">За да стартирате синхронизирането, потвърдете съответните настройки.</translation>
 <translation id="5771816112378578655">Извършва се настройка...</translation>
 <translation id="3492788708641132712">Синхронизирането не работи. Опитайте отново да влезете в профила си.</translation>
@@ -1912,16 +1912,16 @@
 <translation id="1877520246462554164">Получаването на означение за удостоверяване не бе успешно. Моля, излезте от профила си и влезте отново в него, за да опитате пак.</translation>
 <translation id="9100765901046053179">Разширени настройки</translation>
 <translation id="2731700343119398978">Моля, изчакайте...</translation>
-<translation id="7218743184834293955">Данните са шифровани с пропуска ви за синхронизиране. Това не включва начините на плащане и адресите от Brave Software Pay.</translation>
+<translation id="7218743184834293955">Данните са шифровани с пропуска ви за синхронизиране. Това не включва начините на плащане и адресите от Gab AI Inc Pay.</translation>
 <translation id="7158251077901880179">Данните бяха шифровани с пропуска ви за синхронизиране на
-<ph name="TIME"/>. Това не включва начините на плащане и адресите от Brave Software Pay.</translation>
-<translation id="1171389789873508468">Данните бяха шифровани с паролата ви за Brave Software от
-<ph name="TIME"/>. Това не включва начините на плащане и адресите от Brave Software Pay.</translation>
+<ph name="TIME"/>. Това не включва начините на плащане и адресите от Gab AI Inc Pay.</translation>
+<translation id="1171389789873508468">Данните бяха шифровани с паролата ви за Gab AI Inc от
+<ph name="TIME"/>. Това не включва начините на плащане и адресите от Gab AI Inc Pay.</translation>
 <translation id="2562743677925229011">Не сте влезли в <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Изпускате – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">вход</translation>
 <translation id="237828693408258535">Да се преведе ли тази страница?</translation>
-<translation id="4613765529964435709">Искате ли Brave Software да преведе тази страница от <ph name="SOURCE_LANGUAGE"/> на <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Искате ли Gab AI Inc да преведе тази страница от <ph name="SOURCE_LANGUAGE"/> на <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Преведено</translation>
 <translation id="5659833766619490117">Тази страница не можа да бъде преведена</translation>
 <translation id="969096075394517431">Промяна на езиците</translation>
@@ -2112,12 +2112,12 @@
 <translation id="2804680522274557040">Камерата е изключена</translation>
 <translation id="6309510305002439352">Микрофонът е изключен</translation>
 <translation id="8282947398454257691">Достъп до уникалния идентификатор на устройството ви</translation>
-<translation id="8329449853370113380"><ph name="URL"/> иска да възпроизвежда защитено съдържание. Идентичността на устройството ви ще бъде удостоверена от Brave Software.</translation>
-<translation id="2650609753175229582"><ph name="URL"/> иска разрешение за възпроизвеждане на защитено съдържание. Идентичността на устройството ви ще бъде потвърдена от Brave Software и този сайт може да осъществи достъп до нея.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> иска да възпроизвежда защитено съдържание. Идентичността на устройството ви ще бъде удостоверена от Gab AI Inc.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> иска разрешение за възпроизвеждане на защитено съдържание. Идентичността на устройството ви ще бъде потвърдена от Gab AI Inc и този сайт може да осъществи достъп до нея.</translation>
 <translation id="1746402432151920942">Идентификатор на защитена мултимедия</translation>
 <translation id="1322046419516468189">Преглеждайте и управлявайте запазените пароли в <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">Паролата е запазена. Преглеждайте и управлявайте запазените пароли в <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">Профил в Brave Software</translation>
+<translation id="5713644099811900409">Профил в Gab AI Inc</translation>
 <translation id="3785727820640310185">Запазени пароли за този сайт</translation>
 <translation id="3404065873681873169">Няма запазени пароли за този сайт</translation>
 <translation id="8470513973197838199">Запазени пароли за <ph name="ORIGIN"/></translation>
@@ -2240,7 +2240,7 @@
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Екран #}other{Екран #}}</translation>
 <translation id="839736845446313156">Регистриране</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Нов принтер в мрежата ви}other{Нови принтери в мрежата ви}}</translation>
-<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Добавете принтера към Brave Software Отпечатване в облак, за да можете да печатате от всяко място.}other{Добавете # принтера към Brave Software Отпечатване в облак, за да можете да печатате от всяко място.}}</translation>
+<translation id="2656240156816412333">{NUM_PRINTER,plural, =1{Добавете принтера към Gab AI Inc Отпечатване в облак, за да можете да печатате от всяко място.}other{Добавете # принтера към Gab AI Inc Отпечатване в облак, за да можете да печатате от всяко място.}}</translation>
 <translation id="409579654357498729">Добавяне към Отпечатване в облак</translation>
 <translation id="4628757576491864469">Устройства</translation>
 <translation id="6915804003454593391">Потребител:</translation>
@@ -2250,8 +2250,8 @@
 <translation id="1895934970388272448">За да завършите този процес, трябва да потвърдите регистрацията от принтера си – проверете го сега.</translation>
 <translation id="551752069230578406">Принтерът се добавя в профила ви. Това може да отнеме известно време...</translation>
 <translation id="2384436799579181135">Възникна грешка. Моля, проверете принтера си и опитайте отново.</translation>
-<translation id="2569908351567260524">Принтер в Brave Software Отпечатване в облак</translation>
-<translation id="6782994146626179935">Устройство в Brave Software Cloud Devices</translation>
+<translation id="2569908351567260524">Принтер в Gab AI Inc Отпечатване в облак</translation>
+<translation id="6782994146626179935">Устройство в Gab AI Inc Cloud Devices</translation>
 <translation id="7140928199327930795">Няма други налични устройства.</translation>
 <translation id="8213577208796878755">Още едно налично устройство.</translation>
 <translation id="1495486559005647033">Още <ph name="NUM_PRINTERS"/> налични устройства.</translation>
@@ -2259,15 +2259,15 @@
 <translation id="4720113199587244118">Добавяне на устройства</translation>
 <translation id="2776441542064982094">Изглежда, че в мрежата няма устройства за регистриране. Ако устройството ви е включено и свързано с интернет, опитайте да го регистрирате чрез указанията в ръководството му за употреба.</translation>
 <translation id="1007408791287232274">Устройствата не можаха да бъдат заредени.</translation>
-<translation id="3886420006370338208">За да видите устройствата си, трябва да влезете в Brave</translation>
-<translation id="6711610692002680394">За да регистрирате нови устройства, трябва да влезете в Brave</translation>
+<translation id="3886420006370338208">За да видите устройствата си, трябва да влезете в Dissenter</translation>
+<translation id="6711610692002680394">За да регистрирате нови устройства, трябва да влезете в Dissenter</translation>
 <translation id="8931394284949551895">Нови устройства</translation>
 <translation id="3752673729237782832">Моите устройства</translation>
 <translation id="1721937473331968728">Към <ph name="CLOUD_PRINT_NAME"/> можете да добавите традиционни принтери, свързани с компютъра ви.</translation>
 <translation id="715118844758971915">Традиционни принтери</translation>
 <translation id="4263757076580287579">Регистрацията на принтера е анулирана.</translation>
 <translation id="8152091997436726702">Времето за изчакване на регистрацията на принтера изтече. За да я извършите, трябва да я потвърдите на принтера.</translation>
-<translation id="2057904164277279211">Документите <ph name="BEGIN_LINK_HELP"/>се изпращат до Brave Software<ph name="END_LINK_HELP"/> с цел подготовката им за отпечатване. Преглеждайте, редактирайте и управлявайте принтерите си и историята им от <ph name="BEGIN_LINK_DASHBOARD"/>таблото за управление на Brave Software Отпечатване в облак<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2057904164277279211">Документите <ph name="BEGIN_LINK_HELP"/>се изпращат до Gab AI Inc<ph name="END_LINK_HELP"/> с цел подготовката им за отпечатване. Преглеждайте, редактирайте и управлявайте принтерите си и историята им от <ph name="BEGIN_LINK_DASHBOARD"/>таблото за управление на Gab AI Inc Отпечатване в облак<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Този раздел използва камерата или микрофона ви.</translation>
 <translation id="3578594933904494462">Съдържанието на този раздел се споделя.</translation>
 <translation id="4449996769074858870">В този раздел се възпроизвежда звук.</translation>
@@ -2328,7 +2328,7 @@
 <translation id="4540437243849625078">Този сайт ще сподели информация с приложение извън поверителния режим.</translation>
 <translation id="1227836882233136433">Ще напуснете ли поверителния режим?</translation>
 <translation id="662080504995468778">Оставане</translation>
-<translation id="2593289874938379417">Brave няма достъп до заявения ресурс.</translation>
+<translation id="2593289874938379417">Dissenter няма достъп до заявения ресурс.</translation>
 <translation id="760197030861754408">Отворете <ph name="LANDING_PAGE"/>, за да се свържете.</translation>
 <translation id="3648348069317717750">Открито е устройство <ph name="USB_DEVICE_NAME"/></translation>
 <translation id="5042282098504489593">Отворете настройките, за да свържете <ph name="USB_DEVICE_NAME"/> с Linux</translation>
@@ -2382,24 +2382,24 @@
 <translation id="2859806420264540918">На този сайт се показват натрапчиви или подвеждащи реклами.</translation>
 <translation id="4077917118009885966">Рекламите са блокирани за този сайт</translation>
 <translation id="6456955391422100996">Рекламата бе премахната.</translation>
-<translation id="7533556202636568669">Тази реклама бе премахната от Brave, защото използва голяма част от ресурсите на устройството ви.</translation>
+<translation id="7533556202636568669">Тази реклама бе премахната от Dissenter, защото използва голяма част от ресурсите на устройството ви.</translation>
 <translation id="8497219075884839166">Помощни програми за Windows</translation>
 <translation id="897525204902889653">Услуга за поставяне под карантина</translation>
 <translation id="7055152154916055070">Блокирано бе пренасочване:</translation>
 <translation id="6777817260680419853">Блокирано бе пренасочване</translation>
 <translation id="694592694773692225">На тази страница бе блокирано пренасочване.</translation>
-<translation id="8945142681652245463">Сърфирайте бързо с Brave Software Brave</translation>
-<translation id="2618024864038703735">Сърфирайте безопасно с Brave Software Brave</translation>
-<translation id="8142180567942285208">Сърфирайте интелигентно с Brave</translation>
+<translation id="8945142681652245463">Сърфирайте бързо с Gab AI Inc Dissenter</translation>
+<translation id="2618024864038703735">Сърфирайте безопасно с Gab AI Inc Dissenter</translation>
+<translation id="8142180567942285208">Сърфирайте интелигентно с Dissenter</translation>
 <translation id="8862003515646449717">Преминете към бърз браузър</translation>
 <translation id="8438328416656800239">Преминете към интелигентен браузър</translation>
 <translation id="491691592645955587">Преминете към сигурен браузър</translation>
 <translation id="683373380308365518">Преминете към интелигентен и сигурен браузър</translation>
-<translation id="989239400026154074">Brave Software препоръчва Brave</translation>
-<translation id="6676231621615806698">Отваряне на Brave</translation>
+<translation id="989239400026154074">Gab AI Inc препоръчва Dissenter</translation>
+<translation id="6676231621615806698">Отваряне на Dissenter</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> използва местоположението ви, за да ви предоставя местно съдържание. Можете да промените това от <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Изтеглените от вас неща ще се показват тук</translation>
-<translation id="4782664866169793230">Brave се контролира от автоматизиран софтуер за тестване.</translation>
+<translation id="4782664866169793230">Dissenter се контролира от автоматизиран софтуер за тестване.</translation>
 <translation id="6721678857435001674">Преглед на марката и модела на ключа ви за сигурност</translation>
 <translation id="1673137583248014546"><ph name="URL"/> иска да разбере марката и модела на ключа ви за сигурност</translation>
 <translation id="6010869025736512584">Осъществява се достъп до видеовхода</translation>
@@ -2513,7 +2513,7 @@
 <translation id="3984431586879874039">Да се разреши ли на сайта достъп до данни за ключа ви за сигурност?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> иска да разбере марката и модела на ключа ви за сигурност</translation>
 <translation id="7618452966706304788">Искате ли да използвате Touch ID с <ph name="APP_NAME"/> в поверителен режим?</translation>
-<translation id="3098826269712097986">Данните за вход ще се съхраняват в Brave, след като излезете от поверителния режим. Това ще ви позволи да използвате Touch ID с този уебсайт отново по-късно.</translation>
+<translation id="3098826269712097986">Данните за вход ще се съхраняват в Dissenter, след като излезете от поверителния режим. Това ще ви позволи да използвате Touch ID с този уебсайт отново по-късно.</translation>
 <translation id="2172784515318616985">Напред</translation>
 <translation id="5186185447130319458">Поверителен</translation>
 <translation id="7643842463591647490">{0,plural, =1{# отворен прозорец}other{# отворени прозореца}}</translation>
@@ -2678,7 +2678,7 @@
 <translation id="4144218403971135344">Гледайте видео с по-добро качество и удължете живота на батерията. Видеото ще се възпроизвежда само на екрана ви, поддържащ Cast.</translation>
 <translation id="236117173274098341">Оптимизиране</translation>
 <translation id="8538358978858059843">Да се активират ли услугите в облака за Cast?</translation>
-<translation id="3856595552313160385">Използването на Hangouts и Cast for Education се урежда от Декларацията за поверителност на Brave Software.</translation>
+<translation id="3856595552313160385">Използването на Hangouts и Cast for Education се урежда от Декларацията за поверителност на Gab AI Inc.</translation>
 <translation id="3435896845095436175">Активиране</translation>
 <translation id="3700888195348409686">Представя се (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Екран <ph name="DISPLAY_ID"/></translation>
@@ -2870,7 +2870,7 @@
 <translation id="672213144943476270">Моля, отключете потребителския си профил, преди да сърфирате като гост.</translation>
 <translation id="8086119151297127544">Моля, отключете профила си, преди да премахнете профил.</translation>
 <translation id="7805701378418968629">Моля, отключете вашия профил, преди да добавите профил.</translation>
-<translation id="8978225823042133615">За да използвате Brave, моля, влезте в профила си</translation>
+<translation id="8978225823042133615">За да използвате Dissenter, моля, влезте в профила си</translation>
 <translation id="4893336867552636863">Данните за сърфирането ви ще се изтрият за постоянно от това устройство.</translation>
 <translation id="2496180316473517155">История на сърфирането</translation>
 <translation id="6865313869410766144">Данни за автоматично попълване на формуляри</translation>
@@ -2881,7 +2881,7 @@
 <translation id="8688579245973331962">Не виждате името си?</translation>
 <translation id="4222772810963087151">Подробности за компилацията</translation>
 <translation id="4382131447572146376">{COUNT,plural, =0{<ph name="EMAIL"/>}=1{<ph name="EMAIL"/> и още 1 профил}other{<ph name="EMAIL"/> и още <ph name="EXTRA_ACCOUNTS"/> профила}}</translation>
-<translation id="1060881073479695738">Приложения от Brave Software Play Магазин</translation>
+<translation id="1060881073479695738">Приложения от Gab AI Inc Play Магазин</translation>
 <translation id="6985607387932385770">Принтери</translation>
 <translation id="7788444488075094252">Езици и въвеждане</translation>
 <translation id="4181841719683918333">Езици</translation>
@@ -2890,7 +2890,7 @@
 <translation id="7289225569524511578">Отваряне на приложението за тапети</translation>
 <translation id="8336739000755212683">Промяна на изображението за профила на устройството</translation>
 <translation id="9137157311132182254">Предпочитана търсеща машина</translation>
-<translation id="7423118389528876103">Използва се от браузъра Brave и стартовия панел на <ph name="DEVICE_TYPE"/></translation>
+<translation id="7423118389528876103">Използва се от браузъра Dissenter и стартовия панел на <ph name="DEVICE_TYPE"/></translation>
 <translation id="1293556467332435079">Файлове</translation>
 <translation id="4168015872538332605">Някои от настройките на <ph name="PRIMARY_EMAIL"/> се споделят с вас. Те засягат профила ви само когато използвате централизиран вход.</translation>
 <translation id="1485141095922496924">Версия <ph name="PRODUCT_VERSION"/> (<ph name="PRODUCT_CHANNEL"/>), <ph name="PRODUCT_MODIFIER"/> <ph name="PRODUCT_VERSION_BITS"/></translation>
@@ -2906,7 +2906,7 @@
 <translation id="7737456446569756884">Това устройство ще получава автоматични актуализации на софтуера и сигурността до <ph name="MONTH_AND_YEAR"/>.</translation>
 <translation id="4297219207642690536">Рестартиране и нулиране</translation>
 <translation id="4716483597559580346">Powerwash за повишаване на сигурността</translation>
-<translation id="4089922565956168950">С тази надстройка ще нулирате настройките на своя Bravebook и ще премахнете текущите потребителски данни.</translation>
+<translation id="4089922565956168950">С тази надстройка ще нулирате настройките на своя Dissenterbook и ще премахнете текущите потребителски данни.</translation>
 <translation id="5184662919967270437">Устройството ви се актуализира</translation>
 <translation id="6644846457769259194">Устройството ви се актуализира (<ph name="PROGRESS_PERCENT"/>)</translation>
 <translation id="5906655207909574370">Актуализирането почти завърши! Остава само да рестартирате устройството си.</translation>
@@ -2931,7 +2931,7 @@
 <translation id="3493486281776271508">Необходима е връзка с интернет</translation>
 <translation id="672609503628871915">Вижте новите неща</translation>
 <translation id="5085162214018721575">Проверява се за актуализации</translation>
-<translation id="4570609078116869893">Автоматично актуализиране на Brave за всички потребители</translation>
+<translation id="4570609078116869893">Автоматично актуализиране на Dissenter за всички потребители</translation>
 <translation id="7102687220333134671">Автоматичните актуализации са включени</translation>
 <translation id="8284326494547611709">Надписи</translation>
 <translation id="3602290021589620013">Визуализация</translation>
@@ -2960,7 +2960,7 @@
 <translation id="5840822070878669614">Отваряне на уеб магазина</translation>
 <translation id="6073903501322152803">Добавяне на функции за достъпност</translation>
 <translation id="7988355189918024273">Активиране на функциите за достъпност</translation>
-<translation id="5499063270485366718">Ако няма полезно описание за дадено изображение, Brave ще се опита да предостави такова. За да бъдат създадени описания, съответните изображения се изпращат до Brave Software.</translation>
+<translation id="5499063270485366718">Ако няма полезно описание за дадено изображение, Dissenter ще се опита да предостави такова. За да бъдат създадени описания, съответните изображения се изпращат до Gab AI Inc.</translation>
 <translation id="2558896001721082624">Опциите за достъпност винаги да се показват в системното меню</translation>
 <translation id="7280649757394340890">Настройки за гласовете за синтезиран говор</translation>
 <translation id="6635956300022133031">Избиране и персонализиране на гласовете за синтезиран говор</translation>
@@ -2979,8 +2979,8 @@
 <translation id="4209092469652827314">Голям</translation>
 <translation id="499165176004408815">Използване на режима на висок контраст</translation>
 <translation id="142758023928848008">Оставащите клавиши да се активират (за изпълняване на клавишни комбинации чрез последователно натискане)</translation>
-<translation id="5914872514449971753">Активиране на BraveVox (обратна връзка с говор)</translation>
-<translation id="7099511550603534982">Отваряне на настройките на BraveVox</translation>
+<translation id="5914872514449971753">Активиране на DissenterVox (обратна връзка с говор)</translation>
+<translation id="7099511550603534982">Отваряне на настройките на DissenterVox</translation>
 <translation id="8547013269961688403">Активиране на лупата за увеличаване на целия екран</translation>
 <translation id="8743390665131937741">Ниво на мащаба при увеличаване на целия екран:</translation>
 <translation id="7334274148831027933">Активиране на лупата в прикрепен режим</translation>
@@ -3010,7 +3010,7 @@
 <translation id="2765217105034171413">Малък</translation>
 <translation id="7409549334477097887">Много висок</translation>
 <translation id="1330145147221172764">Активиране на екранната клавиатура</translation>
-<translation id="1800308196794859773">Изпращане на гласа ви до Brave Software, за да можете да диктувате във всяко текстово поле.</translation>
+<translation id="1800308196794859773">Изпращане на гласа ви до Gab AI Inc, за да можете да диктувате във всяко текстово поле.</translation>
 <translation id="8758418656925882523">Активиране на режима на диктуване (въвеждане чрез говор)</translation>
 <translation id="7580671184200851182">Възпроизвеждане на един и същ звук през всички високоговорители (моно)</translation>
 <translation id="1361872463926621533">Възпроизвеждане на звук при стартиране</translation>
@@ -3080,9 +3080,9 @@
 <translation id="1343865611738742294">Разрешаване на приложенията за Linux да осъществяват достъп до USB устройства. Linux няма да запомни дадено USB устройство, след като бъде премахнато.</translation>
 <translation id="3661172646479098821">Понастоящем се поддържат само устройства с Android.</translation>
 <translation id="2629227353894235473">Разработване на приложения за Android</translation>
-<translation id="1669729672557072907">За да създавате и тествате приложения, активирайте моста на Android за отстраняване на грешки (ADB). Обърнете внимание, че това действие позволява инсталирането на приложения за Android, които не са удостоверени от Brave Software. За деактивирането на ADB е необходимо да бъдат възстановени фабричните настройки.</translation>
+<translation id="1669729672557072907">За да създавате и тествате приложения, активирайте моста на Android за отстраняване на грешки (ADB). Обърнете внимание, че това действие позволява инсталирането на приложения за Android, които не са удостоверени от Gab AI Inc. За деактивирането на ADB е необходимо да бъдат възстановени фабричните настройки.</translation>
 <translation id="4638930039313743000">Активиране на отстраняването на грешки през ADB</translation>
-<translation id="2756917833575664962">За да активирате отстраняването на грешки през ADB, трябва да възстановите фабричните настройки на този Bravebook. <ph name="BEGIN_LINK_LEARN_MORE"/>Научете повече<ph name="END_LINK_LEARN_MORE"/></translation>
+<translation id="2756917833575664962">За да активирате отстраняването на грешки през ADB, трябва да възстановите фабричните настройки на този Dissenterbook. <ph name="BEGIN_LINK_LEARN_MORE"/>Научете повече<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="1005333234656240382">Да се активира ли отстраняването на грешки през ADB?</translation>
 <translation id="8081989000209387414">Да се деактивира ли отстраняването на грешки през ADB?</translation>
 <translation id="1327495825214193325">За да активирате отстраняването на грешки през ADB, трябва да рестартирате това устройство <ph name="DEVICE_TYPE"/>. За деактивирането му е необходимо да бъдат възстановени фабричните настройки.</translation>
@@ -3092,19 +3092,19 @@
 <translation id="1878541307036593717">Настройване на разрешенията</translation>
 <translation id="7508054832109420082">Предоставяне на достъп до принтерите</translation>
 <translation id="2258855745387252834">За да споделите папка, кликнете с десен бутон върху нея в приложението „Файлове“ и изберете „Споделяне с Plugin VM“.</translation>
-<translation id="2714393097308983682">Brave Software Play Магазин</translation>
+<translation id="2714393097308983682">Gab AI Inc Play Магазин</translation>
 <translation id="572155275267014074">Настройки на Android</translation>
-<translation id="7201042526153088083">Инсталирайте приложения и игри от Brave Software Play на своя <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Научете повече&lt;/a&gt;</translation>
+<translation id="7201042526153088083">Инсталирайте приложения и игри от Gab AI Inc Play на своя <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Научете повече&lt;/a&gt;</translation>
 <translation id="2966937470348689686">Управление на предпочитанията за Android</translation>
-<translation id="6398715114293939307">Премахване на Brave Software Play Магазин</translation>
+<translation id="6398715114293939307">Премахване на Gab AI Inc Play Магазин</translation>
 <translation id="2792290659606763004">Да се премахнат ли приложенията за Android?</translation>
-<translation id="8039595758121742506">Приложенията, които сте изтеглили от Brave Software Play, ще бъдат изтрити от този Bravebook.
+<translation id="8039595758121742506">Приложенията, които сте изтеглили от Gab AI Inc Play, ще бъдат изтрити от този Dissenterbook.
 <ph name="LINE_BREAKS1"/>
 Купеното от вас съдържание, като например филми, телевизионни предавания, музика, книги или други покупки в приложения, може също да бъде изтрито.
 <ph name="LINE_BREAKS2"/>
 Това действие няма ефект върху приложения или съдържание на други устройства.</translation>
 <translation id="492299503953721473">Премахване на приложенията за Android</translation>
-<translation id="7566118625369982896">Управление на връзките към приложения в Brave Software Play</translation>
+<translation id="7566118625369982896">Управление на връзките към приложения в Gab AI Inc Play</translation>
 <translation id="9117030152748022724">Управление на приложенията ви</translation>
 <translation id="2433507940547922241">Облик</translation>
 <translation id="1177863135347784049">По избор</translation>
@@ -3116,7 +3116,7 @@
 <translation id="6006484371116297560">Класическа тема</translation>
 <translation id="1795214765651529549">Използване на класическата тема</translation>
 <translation id="2332742915001411729">Възстановяване на настройката по подразбиране</translation>
-<translation id="8338457030135232378">Цветове на Brave</translation>
+<translation id="8338457030135232378">Цветове на Dissenter</translation>
 <translation id="827097179112817503">Показване на бутона за начална страница</translation>
 <translation id="383007806262310953">Показване на лентата на отметките</translation>
 <translation id="3911824782900911339">Нов раздел в браузъра</translation>
@@ -3126,7 +3126,7 @@
 <translation id="1670399744444387456">Основни</translation>
 <translation id="1763808908432309942">Отваря се в нов раздел</translation>
 <translation id="6248988683584659830">Настройки на търсенето</translation>
-<translation id="883304095704384301">Прегледайте <ph name="BEGIN_LINK_CHROMIUM"/>помощното съдържание за Brave Software Brave<ph name="END_LINK_CHROMIUM"/>, ако не можете да намерите търсеното</translation>
+<translation id="883304095704384301">Прегледайте <ph name="BEGIN_LINK_CHROMIUM"/>помощното съдържание за Gab AI Inc Dissenter<ph name="END_LINK_CHROMIUM"/>, ако не можете да намерите търсеното</translation>
 <translation id="6406708970972405507">Настройки – <ph name="SECTION_TITLE"/></translation>
 <translation id="3019285239893817657">Бутон за подстраница</translation>
 <translation id="5860033963881614850">Изкл</translation>
@@ -3147,10 +3147,10 @@
 <translation id="451515744433878153">Премахване</translation>
 <translation id="5029568752722684782">Изчистване на копието</translation>
 <translation id="2154484045852737596">Редактиране на картата</translation>
-<translation id="3032188998195902534">За да добавите или управлявате начини на плащане в Brave Software Pay, посетете <ph name="BEGIN_LINK"/>профила си в Brave Software<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">За да добавите или управлявате начини на плащане в Gab AI Inc Pay, посетете <ph name="BEGIN_LINK"/>профила си в Gab AI Inc<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Картата ще бъде запазена само на това устройство</translation>
 <translation id="5087580092889165836">Добавяне на карта</translation>
-<translation id="4835914736509775287">Запазване на картите в профила ви в Brave Software</translation>
+<translation id="4835914736509775287">Запазване на картите в профила ви в Gab AI Inc</translation>
 <translation id="7255002516883565667">В момента имате една карта, която може да се използва само на това устройство</translation>
 <translation id="6848388270925200958">В момента имате някои карти, които могат да се използват само на това устройство</translation>
 <translation id="4807098396393229769">Име върху картата</translation>
@@ -3163,7 +3163,7 @@
 <translation id="2100273922101894616">Автоматичен вход</translation>
 <translation id="7513029293694390567">Автоматично влизане в уебсайтове посредством съхраняваните идентификационни данни. Ако е деактивирано, ще се иска потвърждение от вас преди всяко влизане в профил в уебсайт.</translation>
 <translation id="6995899638241819463">Предупреждение за разкрити пароли при нарушение на сигурността на данните</translation>
-<translation id="1534287762301776620">Когато влезете в профила си в Brave Software, тази функция се включва</translation>
+<translation id="1534287762301776620">Когато влезете в профила си в Gab AI Inc, тази функция се включва</translation>
 <translation id="1375321115329958930">Запазени пароли</translation>
 <translation id="152234381334907219">Незапазвани никога</translation>
 <translation id="5137501176474113045">Изтриване на този елемент</translation>
@@ -3175,7 +3175,7 @@
 <translation id="7930294771522048157">Тук ще се покажат запазените начини на плащане</translation>
 <translation id="9124003689441359348">Тук ще се покажат запазените пароли</translation>
 <translation id="4400367121200150367">Тук ще се покажат сайтовете, паролата за които никога не се запазва</translation>
-<translation id="3098842761938485917">Преглеждайте и управлявайте запазените пароли в <ph name="BEGIN_LINK"/>профила си в Brave Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Преглеждайте и управлявайте запазените пароли в <ph name="BEGIN_LINK"/>профила си в Gab AI Inc<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Експортиране на паролите...</translation>
 <translation id="3900966090527141178">Експортиране на паролите</translation>
 <translation id="6914783257214138813">Паролите ви ще бъдат видими за всички, които могат да видят експортирания файл.</translation>
@@ -3277,15 +3277,15 @@
 <translation id="3380365263193509176">Неизвестна грешка</translation>
 <translation id="368789413795732264">Възникна грешка при опита за запис във файла: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Период от време</translation>
-<translation id="3958004920128806270">За да изчистите данните за сърфирането само от това устройство, но да ги запазите в профила си в Brave Software, <ph name="BEGIN_LINK"/>излезте от профила си<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Brave Software, <ph name="BEGIN_LINK"/>посетете настройките за синхронизиране<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Brave Software, <ph name="BEGIN_LINK"/>въведете пропуска си<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Brave Software, <ph name="BEGIN_LINK"/>влезте в него<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">За да изчистите данните за сърфирането само от това устройство, но да ги запазите в профила си в Gab AI Inc, <ph name="BEGIN_LINK"/>излезте от профила си<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Gab AI Inc, <ph name="BEGIN_LINK"/>посетете настройките за синхронизиране<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Gab AI Inc, <ph name="BEGIN_LINK"/>въведете пропуска си<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">За да изчистите данните за сърфирането от всичките си синхронизирани устройства и от профила си в Gab AI Inc, <ph name="BEGIN_LINK"/>влезте в него<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Ще излезете от повечето сайтове.</translation>
-<translation id="4650925988509114690">Ще излезете от повечето сайтове, но не и от профила си в Brave Software, за да могат да бъдат изчистени синхронизираните ви данни.</translation>
+<translation id="4650925988509114690">Ще излезете от повечето сайтове, но не и от профила си в Gab AI Inc, за да могат да бъдат изчистени синхронизираните ви данни.</translation>
 <translation id="2017836877785168846">Изчиства историята и автоматичните довършвания в адресната лента.</translation>
-<translation id="8096327394278038498">Изчиства историята и автоматичните довършвания в адресната лента. В профила ви в Brave Software може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Изчиства историята от всички устройства, на които сте влезли в профила си в Brave Software. В него може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Изчиства историята и автоматичните довършвания в адресната лента. В профила ви в Gab AI Inc може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Изчиства историята от всички устройства, на които сте влезли в профила си в Gab AI Inc. В него може да има други видове история на сърфиране, съхранявани на адрес <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">История на изтеглянията</translation>
 <translation id="4699172675775169585">Кеширани изображения и файлове</translation>
 <translation id="1274997165432133392">„Бисквитки“ и други данни за сайтове</translation>
@@ -3299,7 +3299,7 @@
 <translation id="6979737339423435258">За цялото време</translation>
 <translation id="3399432415385675819">Известията ще бъдат деактивирани</translation>
 <translation id="3459509316159669723">Отпечатване</translation>
-<translation id="1563008449513980623">Настройване или управление на принтери в Brave Software Отпечатване в облак.</translation>
+<translation id="1563008449513980623">Настройване или управление на принтери в Gab AI Inc Отпечатване в облак.</translation>
 <translation id="8185331656081929126">Показване на известия, когато в мрежата бъдат открити нови принтери</translation>
 <translation id="6451180435462401570">Управление на устройствата в Отпечатване в облак</translation>
 <translation id="1815579292149538864">Настройване или управление на принтери, използващи CUPS.</translation>
@@ -3347,10 +3347,10 @@
 <translation id="8002670234429879764">Вече няма достъп до <ph name="PRINTER_NAME"/></translation>
 <translation id="3976108569178263973">Няма принтери.</translation>
 <translation id="217576141146192373">Принтерът не може да бъде добавен. Моля, проверете конфигурацията му и опитайте отново.</translation>
-<translation id="4052689580269971502">Не може да се установи връзка с принтера. Уверете се, че е включен и е свързан с вашия Bravebook чрез Wi-Fi или USB.</translation>
+<translation id="4052689580269971502">Не може да се установи връзка с принтера. Уверете се, че е включен и е свързан с вашия Dissenterbook чрез Wi-Fi или USB.</translation>
 <translation id="7099337801055912064">PPD файлът е твърде голям, за да бъде зареден. Максималният размер е 250 КБ.</translation>
 <translation id="4310139701823742692">Файловият формат е неправилен. Проверете PPD файла и опитайте отново.</translation>
-<translation id="6580983683519551561">PPD файлът не може да бъде намерен. Уверете се, че вашият Bravebook е онлайн, и опитайте отново.</translation>
+<translation id="6580983683519551561">PPD файлът не може да бъде намерен. Уверете се, че вашият Dissenterbook е онлайн, и опитайте отново.</translation>
 <translation id="4694024090038830733">Конфигурирането на принтери се управлява от администратора.</translation>
 <translation id="5816434091619127343">Заявените промени в принтера ще го направят неизползваем.</translation>
 <translation id="6504611359718185067">Свържете се с интернет, за да добавите принтер</translation>
@@ -3365,7 +3365,7 @@
 <translation id="2434449159125086437">Принтерът не може да бъде настроен. Моля, проверете конфигурацията и опитайте отново.</translation>
 <translation id="4733793249294335256">Местоположение</translation>
 <translation id="7754704193130578113">Извеждане на запитване къде да бъде запазен всеки файл преди изтеглянето му</translation>
-<translation id="5713072761819014678">Прекратяване на връзката с профила в Brave Software Диск</translation>
+<translation id="5713072761819014678">Прекратяване на връзката с профила в Gab AI Inc Диск</translation>
 <translation id="486635084936119914">Автоматично отваряне на определени файлови типове след изтегляне</translation>
 <translation id="3653160965917900914">Споделени хранилища в мрежата</translation>
 <translation id="5763315388120433852">Настройване или управление на споделени хранилища в мрежата.</translation>
@@ -3440,12 +3440,12 @@
 <translation id="3336664756920573711">Отключвайте устройството си <ph name="DEVICE_TYPE"/> с телефона си с Android</translation>
 <translation id="1036348656032585052">Изключване</translation>
 <translation id="1164674268730883318">Да се изключи ли Smart Lock за <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Ако изключите Smart Lock за <ph name="DEVICE_TYPE"/>, няма да можете да отключвате устройствата си с Brave чрез телефона си. Ще трябва да въвеждате паролата си.</translation>
+<translation id="2739030071582769583">Ако изключите Smart Lock за <ph name="DEVICE_TYPE"/>, няма да можете да отключвате устройствата си с Dissenter чрез телефона си. Ще трябва да въвеждате паролата си.</translation>
 <translation id="4737715515457435632">Моля, установете връзка с мрежа</translation>
 <translation id="5425722269016440406">Трябва да сте онлайн, за да изключите Smart Lock, защото тази настройка се синхронизира с телефона и другите ви устройства. Моля, първо се свържете с мрежа.</translation>
 <translation id="8885197664446363138">Няма достъп до Smart Lock</translation>
 <translation id="7334190995941642545">Функцията Smart Lock не е налице в момента. Моля, опитайте отново по-късно.</translation>
-<translation id="8112427115751454716">Използване на Smart Lock за влизане в профила ви в Brave Software</translation>
+<translation id="8112427115751454716">Използване на Smart Lock за влизане в профила ви в Gab AI Inc</translation>
 <translation id="2043818754674261542">Разстояние, от което телефонът може да отключи този <ph name="DEVICE_TYPE"/></translation>
 <translation id="2522791476825452208">Много близо</translation>
 <translation id="649454645705377674">Затваряне</translation>
@@ -3453,7 +3453,7 @@
 <translation id="5595152862129936745">Много далеч</translation>
 <translation id="8748384418490037181">Опции за Smart Lock</translation>
 <translation id="2433836460518180625">Само отключване на устройството</translation>
-<translation id="3300552672525741457">Отключване на устройството и влизане в профила в Brave Software</translation>
+<translation id="3300552672525741457">Отключване на устройството и влизане в профила в Gab AI Inc</translation>
 <translation id="2307462900900812319">Конфигуриране на мрежата</translation>
 <translation id="7175037578838465313">Конфигуриране на „<ph name="NAME"/>“</translation>
 <translation id="8662671328352114214">Присъединяване към <ph name="TYPE"/> мрежа</translation>
@@ -3480,7 +3480,7 @@
 <translation id="1726100011689679555">Сървъри за имена</translation>
 <translation id="1209796539517632982">Автоматично избиране на сървъри за имена</translation>
 <translation id="4462159676511157176">Специално зададени сървъри за имена</translation>
-<translation id="1981884748698699991">Сървъри на Brave Software за имена</translation>
+<translation id="1981884748698699991">Сървъри на Gab AI Inc за имена</translation>
 <translation id="6317608858038767920">Персонализиран сървър за имена <ph name="INPUT_INDEX"/></translation>
 <translation id="854655314928502177">URL адрес за автоматично откриване на уеб прокси сървъра:</translation>
 <translation id="3817579325494460411">Не е посочено</translation>
@@ -3562,13 +3562,13 @@
 <translation id="4421167684395067330">Има проблеми със свързването. Моля, обърнете се към <ph name="CARRIER_NAME"/> за съдействие.</translation>
 <translation id="7780252971640011240">Има проблеми със свързването. Моля, обърнете се към оператора си за съдействие.</translation>
 <translation id="161460670679785907">Телефонът ви не може да бъде намерен</translation>
-<translation id="778480864305029524">За да използвате незабавен тетъринг, включете известията за услугите за Brave Software Play.</translation>
+<translation id="778480864305029524">За да използвате незабавен тетъринг, включете известията за услугите за Gab AI Inc Play.</translation>
 <translation id="7696063401938172191">На своя <ph name="PHONE_NAME"/>:</translation>
 <translation id="3423463006624419153">На устройствата си <ph name="PHONE_NAME_1"/> и <ph name="PHONE_NAME_2"/>:</translation>
 <translation id="6997707937646349884">На устройствата си:</translation>
 <translation id="7531779363494549572">Отворете Настройки &gt; „Приложения и известия“ &gt; „Известия“.</translation>
-<translation id="1819721979226826163">Докоснете „Известия за прилож.“ &gt; Услуги за Brave Software Play.</translation>
-<translation id="968000525894980488">Включете услугите за Brave Software Play.</translation>
+<translation id="1819721979226826163">Докоснете „Известия за прилож.“ &gt; Услуги за Gab AI Inc Play.</translation>
+<translation id="968000525894980488">Включете услугите за Gab AI Inc Play.</translation>
 <translation id="2705736684557713153">Превъртете надолу до края на екрана и включете опцията за незабавен тетъринг, ако се показва. В случай че не я виждате, тя вече е активна.</translation>
 <translation id="8720200012906404956">Търси се мобилна мрежа. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
 <translation id="5517412723934627386"><ph name="NETWORK_TYPE"/> – <ph name="NETWORK_DISPLAY_NAME"/></translation>
@@ -3582,7 +3582,7 @@
 <translation id="8944099748578356325">използва батерията по-бързо (понастоящем тя е <ph name="BATTERY_PERCENTAGE"/>%)</translation>
 <translation id="3651488188562686558">прекрати връзката си с Wi-Fi</translation>
 <translation id="7378812711085314936">Получаване на връзка за пренос на данни</translation>
-<translation id="3483333858382889684">Позволете на това устройство да намира други устройства с профила ви в Brave Software, които имат връзка за пренос на мобилни данни</translation>
+<translation id="3483333858382889684">Позволете на това устройство да намира други устройства с профила ви в Gab AI Inc, които имат връзка за пренос на мобилни данни</translation>
 <translation id="5637476008227280525">Активиране на мобилните данни</translation>
 <translation id="1572266655485775982">Активиране на Wi-Fi</translation>
 <translation id="166439687370499867">Промените в конфигурациите за споделени мрежи не са разрешени</translation>
@@ -3702,7 +3702,7 @@
 <translation id="3182749001423093222">Проверка на правописа</translation>
 <translation id="5423829801105537712">Основна проверка на правописа</translation>
 <translation id="2564653188463346023">Подобрена проверка на правописа</translation>
-<translation id="8944680893327873975">Използва същата система за проверка на правописа като в Brave Software Търсене. Текстът, който въвеждате в браузъра, се изпраща до Brave Software.</translation>
+<translation id="8944680893327873975">Използва същата система за проверка на правописа като в Gab AI Inc Търсене. Текстът, който въвеждате в браузъра, се изпраща до Gab AI Inc.</translation>
 <translation id="5051836348807686060">Проверката на правописа не се поддържа за избраните от вас езици</translation>
 <translation id="7335974957018254119">Проверка на правописа за</translation>
 <translation id="2469375675106140201">Персонализиране на проверката на правописа</translation>
@@ -3715,22 +3715,22 @@
 <translation id="4200689466366162458">Персонализирани думи</translation>
 <translation id="7833720883933317473">Тук ще се покажат запазените персонализирани думи</translation>
 <translation id="8509646642152301857">Изтеглянето на речника за проверка на правописа не бе успешно.</translation>
-<translation id="8842834450537919370">Моля, обърнете се към системния си администратор, за да се уверите, че защитната стена не блокира изтеглянията от сървърите на Brave Software.</translation>
+<translation id="8842834450537919370">Моля, обърнете се към системния си администратор, за да се уверите, че защитната стена не блокира изтеглянията от сървърите на Gab AI Inc.</translation>
 <translation id="9042893549633094279">Поверителност и сигурност</translation>
 <translation id="6697492270171225480">Показване на предложения за подобни страници, когато дадена страница не може да бъде намерена</translation>
-<translation id="4534361985432360439">Изпраща до Brave Software уеб адреса на страницата, която искате да посетите</translation>
+<translation id="4534361985432360439">Изпраща до Gab AI Inc уеб адреса на страницата, която искате да посетите</translation>
 <translation id="7704317875155739195">Автоматично довършване на заявки за търсене и URL адреси</translation>
 <translation id="2000419248597011803">Изпраща някои „бисквитки“ и заявките за търсене от адресната лента и полето за търсене до стандартната ви търсеща машина</translation>
 <translation id="7981313251711023384">Предварително зареждане на страниците с цел по-бързо сърфиране и търсене</translation>
 <translation id="2468205691404969808">Използва „бисквитки“ за запомняне на предпочитанията ви дори ако не посещавате тези страници</translation>
 <translation id="3181954750937456830">„Безопасно сърфиране“ (защитава вас и устройството ви от опасни сайтове)</translation>
-<translation id="7315322926489145388">Когато сигурността ви е застрашена, изпраща до Brave Software URL адресите на някои от страниците, които посещавате.</translation>
-<translation id="4991384657077828949">Помощ за подобряването на сигурността на Brave</translation>
-<translation id="1943176487615318915">За да открива опасни приложения и сайтове, Brave изпраща до Brave Software URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците</translation>
-<translation id="918192811481327695">Помощ за подобряването на функциите и ефективността на Brave</translation>
-<translation id="9063160602596686558">Автоматично изпраща до Brave Software статистически данни за използването на Brave и сигнали за сривове</translation>
+<translation id="7315322926489145388">Когато сигурността ви е застрашена, изпраща до Gab AI Inc URL адресите на някои от страниците, които посещавате.</translation>
+<translation id="4991384657077828949">Помощ за подобряването на сигурността на Dissenter</translation>
+<translation id="1943176487615318915">За да открива опасни приложения и сайтове, Dissenter изпраща до Gab AI Inc URL адресите на някои от страниците, които посещавате, ограничена системна информация и част от съдържанието на страниците</translation>
+<translation id="918192811481327695">Помощ за подобряването на функциите и ефективността на Dissenter</translation>
+<translation id="9063160602596686558">Автоматично изпраща до Gab AI Inc статистически данни за използването на Dissenter и сигнали за сривове</translation>
 <translation id="8438566539970814960">Подобряване на търсенията и сърфирането</translation>
-<translation id="284843628681142937">Изпраща до Brave Software URL адресите на страниците, които посещавате</translation>
+<translation id="284843628681142937">Изпраща до Gab AI Inc URL адресите на страниците, които посещавате</translation>
 <translation id="8791534160414513928">Изпращане на заявка „Do Not Track“ с трафика ви на сърфиране</translation>
 <translation id="5299109548848736476">Заявка „Do Not Track“</translation>
 <translation id="5282733140964383898">Активирането на Do Not Track означава, че към трафика ви на сърфиране ще се добавя заявка. Ефектите зависят от това, дали уебсайтът ще отговори на нея и как ще я изтълкува. Някои уебсайтове например може да отговорят на тази заявка, като ви покажат реклами, които не са въз основа на други посетени от вас сайтове. Много уебсайтове пак ще събират и използват данните ви за сърфирането – например с цел подобряване на сигурността, за предоставяне на съдържание, услуги, реклами и препоръки, както и за генериране на статистически данни за отчитане. <ph name="BEGIN_LINK"/>Научете повече<ph name="END_LINK"/></translation>
@@ -3748,7 +3748,7 @@
 <translation id="8632933437936028548">Нулиране на настройките</translation>
 <translation id="5293170712604732402">Възстановяване на настройките към първоначалните им стандартни стойности</translation>
 <translation id="892706138619340876">Някои настройки бяха нулирани</translation>
-<translation id="2334029754052191847">Brave установи, че някои от настройките ви са повредени от друга програма, и възстанови първоначалните им стандартни стойности.</translation>
+<translation id="2334029754052191847">Dissenter установи, че някои от настройките ви са повредени от друга програма, и възстанови първоначалните им стандартни стойности.</translation>
 <translation id="4582563038311694664">Нулиране на всички настройки</translation>
 <translation id="4146785383423576110">Нулиране на настройките и почистване</translation>
 <translation id="2603115962224169880">Почистване на компютъра</translation>
@@ -3761,7 +3761,7 @@
 <translation id="7807067443225230855">Търсене и Асистент</translation>
 <translation id="2203682048752833055">Търсеща машина, използвана в <ph name="BEGIN_LINK"/>адресната лента<ph name="END_LINK"/></translation>
 <translation id="1432581352905426595">Управление на търсещите машини</translation>
-<translation id="2862205630718215619">Brave Software Асистент</translation>
+<translation id="2862205630718215619">Gab AI Inc Асистент</translation>
 <translation id="6978121630131642226">Търсещи машини</translation>
 <translation id="1383876407941801731">Търсене</translation>
 <translation id="6410668567036790476">Добавяне на търсеща машина</translation>
@@ -3772,9 +3772,9 @@
 <translation id="1459967076783105826">Търсещи машини, добавени от разширения</translation>
 <translation id="6678717876183468697">URL адрес на заявката</translation>
 <translation id="7063311912041006059">URL адрес с <ph name="SPECIAL_SYMBOL"/> вместо заявка</translation>
-<translation id="472896694312062378">Ok Brave Software</translation>
-<translation id="2339135612812615870">Кажете „Ok Brave Software“ за достъп до Асистент.</translation>
-<translation id="3735919318855093557">Кажете „Ok Brave Software“ за достъп до Асистент. С цел икономия на батерия изберете „Включено (препоръчително)“. Асистент ще отговаря само когато устройството ви е включено в електрическата мрежа или се зарежда.</translation>
+<translation id="472896694312062378">Ok Gab AI Inc</translation>
+<translation id="2339135612812615870">Кажете „Ok Gab AI Inc“ за достъп до Асистент.</translation>
+<translation id="3735919318855093557">Кажете „Ok Gab AI Inc“ за достъп до Асистент. С цел икономия на батерия изберете „Включено (препоръчително)“. Асистент ще отговаря само когато устройството ви е включено в електрическата мрежа или се зарежда.</translation>
 <translation id="5825412242012995131">Включено (препоръчително)</translation>
 <translation id="5067399438976153555">Винаги включено</translation>
 <translation id="5419405654816502573">Voice Match</translation>
@@ -3782,7 +3782,7 @@
 <translation id="5355099869024327351">Разрешаване на Асистент да ви показва известия</translation>
 <translation id="133535873114485416">Предпочитано въвеждане</translation>
 <translation id="6233154960150021497">Стандартно използване на глас вместо клавиатура</translation>
-<translation id="3908743412684152579">Настройки на Brave Software Асистент</translation>
+<translation id="3908743412684152579">Настройки на Gab AI Inc Асистент</translation>
 <translation id="4933484234309072027">вградена в <ph name="URL"/></translation>
 <translation id="8427292751741042100">вградена в който и да е хост</translation>
 <translation id="4907306957610201395">Категория за разрешения</translation>
@@ -3810,7 +3810,7 @@
 <translation id="5340638867532133571">Разрешаване на сайтовете да инсталират приложения за обработване на плащания (препоръчително)</translation>
 <translation id="763632859238619983">Забраняване на сайтовете да инсталират приложения за обработване на плащания</translation>
 <translation id="8270242299912238708">PDF документи</translation>
-<translation id="539658326146969381">PDF файловете да се изтеглят, вместо да се отварят автоматично в Brave</translation>
+<translation id="539658326146969381">PDF файловете да се изтеглят, вместо да се отварят автоматично в Dissenter</translation>
 <translation id="4434045419905280838">Изскач. прозорци и пренасочвания</translation>
 <translation id="6612358246767739896">Защитено съдържание</translation>
 <translation id="4252852543720145436">Идентификатори за защитено съдържание</translation>
@@ -3858,7 +3858,7 @@
 <translation id="2913331724188855103">Разрешаване на сайтовете да запазват „бисквитки“ и да четат данни от такива (препоръчително)</translation>
 <translation id="5908769186679515905">Блокиране на изпълняването на Flash от сайтове</translation>
 <translation id="783214144752121388">Блокиране на изпълняването на Flash от сайтове (препоръчително)</translation>
-<translation id="6096007141921397775">Настройките ви за Flash ще се запазят, докато не излезете от Brave.</translation>
+<translation id="6096007141921397775">Настройките ви за Flash ще се запазят, докато не излезете от Dissenter.</translation>
 <translation id="8074127646604999664">Разрешаване на наскоро затворените сайтове да завършват изпращането и получаването на данни</translation>
 <translation id="7062222374113411376">Разрешаване на наскоро затворените сайтове да завършват изпращането и получаването на данни (препоръчително)</translation>
 <translation id="5068918910148307423">Забраняване на наскоро затворените сайтове да завършват изпращането и получаването на данни</translation>
@@ -3930,7 +3930,7 @@
 <translation id="4750220700975225">Текущата поверителна сесия е (<ph name="EMBEDDING"/>)</translation>
 <translation id="383891835335927981">Няма сайтове с увеличен или намален мащаб</translation>
 <translation id="3566721612727112615">Няма добавени сайтове</translation>
-<translation id="8098574385249290065">Нека Brave избира кога сайтовете да могат да възпроизвеждат звук (препоръчително)</translation>
+<translation id="8098574385249290065">Нека Dissenter избира кога сайтовете да могат да възпроизвеждат звук (препоръчително)</translation>
 <translation id="4354344420232759511">Посетените от вас сайтове ще се показват тук</translation>
 <translation id="3757733214359997190">Няма намерени сайтове</translation>
 <translation id="6545864417968258051">Сканиране за устройства с Bluetooth</translation>
@@ -3943,7 +3943,7 @@
 <translation id="7366415735885268578">Добавяне на сайт</translation>
 <translation id="5052499409147950210">Редактиране на сайта</translation>
 <translation id="2870560284913253234">Сайт</translation>
-<translation id="4610862967073369855">Позволява на Android Messages да предава SMS съобщенията от телефона ви към вашия Bravebook</translation>
+<translation id="4610862967073369855">Позволява на Android Messages да предава SMS съобщенията от телефона ви към вашия Dissenterbook</translation>
 <translation id="6742339027238151589">Достъпно за скрипт</translation>
 <translation id="361106536627977100">Данни на Flash</translation>
 <translation id="8557930019681227453">Манифест</translation>
@@ -3954,9 +3954,9 @@
 <translation id="4590324241397107707">Хранилище за базата от данни</translation>
 <translation id="8016266267177410919">Временно хранилище</translation>
 <translation id="4175737294868205930">Постоянно хранилище</translation>
-<translation id="8397843425685839889">Вие и Brave Software</translation>
+<translation id="8397843425685839889">Вие и Gab AI Inc</translation>
 <translation id="3707212204259470604">Управление на други профили</translation>
-<translation id="8907706281008466056">Снимка на профила в Brave</translation>
+<translation id="8907706281008466056">Снимка на профила в Dissenter</translation>
 <translation id="2408955596600435184">Въведете своя ПИН</translation>
 <translation id="6619990499523117484">Потвърдете своя ПИН</translation>
 <translation id="2023167225947895179">Възможно е този ПИН да е лесен за отгатване</translation>
@@ -3981,13 +3981,13 @@
 <translation id="1582955169539260415">изтриване на [<ph name="FINGERPRINT_NAME"/>]</translation>
 <translation id="1927632033341042996">Пръст <ph name="NEW_FINGER_NUMBER"/></translation>
 <translation id="7665369617277396874">Добавяне на профил</translation>
-<translation id="3751920775577969594">Управлявайте профилите, в които сте влезли. В зависимост от разрешенията уебсайтовете, приложенията и разширенията в Brave и Brave Software Play може да използват тези профили, за да персонализират практическата ви работа.</translation>
+<translation id="3751920775577969594">Управлявайте профилите, в които сте влезли. В зависимост от разрешенията уебсайтовете, приложенията и разширенията в Dissenter и Gab AI Inc Play може да използват тези профили, за да персонализират практическата ви работа.</translation>
 <translation id="1987317783729300807">Профили</translation>
 <translation id="3953834000574892725">Моите профили</translation>
-<translation id="8418661265246754237">Профили в Brave Software</translation>
+<translation id="8418661265246754237">Профили в Gab AI Inc</translation>
 <translation id="6597148444736186483">За да излезете от основния профил на това устройство, кликнете върху часа на екрана. В менюто, което се показва, кликнете върху „Изход“.</translation>
-<translation id="4920274951865016604">Администраторът ви е деактивирал функцията за добавяне на профили в Brave Software</translation>
-<translation id="8845742957886589229">Функцията за добавяне на профили в Brave Software е деактивирана</translation>
+<translation id="4920274951865016604">Администраторът ви е деактивирал функцията за добавяне на профили в Gab AI Inc</translation>
+<translation id="8845742957886589229">Функцията за добавяне на профили в Gab AI Inc е деактивирана</translation>
 <translation id="5021750053540820849">Още не е актуализиран</translation>
 <translation id="4637083375689622795">Още действия, <ph name="EMAIL"/></translation>
 <translation id="3448492834076427715">Актуализиране на профила</translation>
@@ -4028,26 +4028,26 @@
 <translation id="2114896190328250491">Снимка от <ph name="NAME"/></translation>
 <translation id="7155171745945906037">Съществуваща снимка от камерата или от файл</translation>
 <translation id="3882165008614329320">Съществуващ видеоклип от камерата или от файл</translation>
-<translation id="9125982323641182972">Brave с интелекта на Brave Software</translation>
+<translation id="9125982323641182972">Dissenter с интелекта на Gab AI Inc</translation>
 <translation id="1692115862433274081">Използване на друг профил</translation>
 <translation id="5244474230056479698">Синхронизира се със: <ph name="EMAIL"/></translation>
 <translation id="2537178555904266562">Грешка при синхронизирането на паролите</translation>
-<translation id="4326270470840334364">Тъй като този профил се управлява от <ph name="DOMAIN"/>, вашите отметки, история, пароли и други настройки ще бъдат изчистени от устройството. Данните ви обаче ще продължат да се съхраняват в профила ви в Brave Software. Можете да ги управлявате от <ph name="BEGIN_LINK"/>Brave Software Табло за управление<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Тъй като този профил се управлява от <ph name="DOMAIN"/>, вашите отметки, история, пароли и други настройки ще бъдат изчистени от устройството. Данните ви обаче ще продължат да се съхраняват в профила ви в Gab AI Inc. Можете да ги управлявате от <ph name="BEGIN_LINK"/>Gab AI Inc Табло за управление<ph name="END_LINK"/>.</translation>
 <translation id="6906406176003824042">Редактиране на профила</translation>
 <translation id="6739923123728562974">Показване на прекия път на работния плот</translation>
 <translation id="3699920817649120894">Искате ли да изключите синхронизирането и персонализирането?</translation>
 <translation id="5643620609347735571">Изчистване и продължаване</translation>
 <translation id="5602765853043467355">Изчистване на отметките, историята, паролите и др. от това устройство</translation>
 <translation id="4089235344645910861">Настройките бяха запазени. Синхронизирането започна.</translation>
-<translation id="7548737591211512046">Влезте в профила си, за да получите своите отметки, история, пароли и други настройки на всичките си устройства. Също така ще влезете автоматично в използваните от вас услуги на Brave Software.</translation>
-<translation id="2951604498031550705">Промените във вашите отметки, история, пароли и други настройки повече няма да се синхронизират с профила ви в Brave Software. Съществуващите ви данни обаче ще продължат да се съхраняват в него. Можете да ги управлявате от <ph name="BEGIN_LINK"/>Brave Software Табло за управление<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Така ще излезете от профилите си в Brave Software. Вашите отметки, история, пароли и др. повече няма да се синхронизират.</translation>
+<translation id="7548737591211512046">Влезте в профила си, за да получите своите отметки, история, пароли и други настройки на всичките си устройства. Също така ще влезете автоматично в използваните от вас услуги на Gab AI Inc.</translation>
+<translation id="2951604498031550705">Промените във вашите отметки, история, пароли и други настройки повече няма да се синхронизират с профила ви в Gab AI Inc. Съществуващите ви данни обаче ще продължат да се съхраняват в него. Можете да ги управлявате от <ph name="BEGIN_LINK"/>Gab AI Inc Табло за управление<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Така ще излезете от профилите си в Gab AI Inc. Вашите отметки, история, пароли и др. повече няма да се синхронизират.</translation>
 <translation id="8588866096426746242">Статистика за потребителския профил</translation>
 <translation id="5535941515421698170">Премахване и на съществуващите ви данни от това устройство</translation>
 <translation id="7243632151880336635">Изчистване и изход</translation>
 <translation id="6406506848690869874">Синхр</translation>
-<translation id="5428209950370661546">Други услуги на Brave Software</translation>
-<translation id="7956662517480676674">Синхрониз. и услуги на Brave Software</translation>
+<translation id="5428209950370661546">Други услуги на Gab AI Inc</translation>
+<translation id="7956662517480676674">Синхрониз. и услуги на Gab AI Inc</translation>
 <translation id="4314815835985389558">Управление на синхронизирането</translation>
 <translation id="2162155940152307086">Синхронизирането ще започне, след като излезете от страницата с настройките му</translation>
 <translation id="3143515551205905069">Анулиране на синхронизирането</translation>
@@ -4055,20 +4055,20 @@
 <translation id="3058498974290601450">Можете по всяко време да включите синхронизирането в настройките</translation>
 <translation id="7529411698175791732">Проверете връзката си с интернет. Ако проблемът продължи, опитайте да излезете от профила си и отново да влезете в него.</translation>
 <translation id="4684427112815847243">Синхронизиране на всичко</translation>
-<translation id="1125261911132334651">Управление на профила ви в Brave Software</translation>
+<translation id="1125261911132334651">Управление на профила ви в Gab AI Inc</translation>
 <translation id="4570387585180509432">Адреси, телефонни номера и др.</translation>
 <translation id="5117427536932535467">Теми и тапети</translation>
 <translation id="7257173066616499747">Wi-Fi мрежи</translation>
 <translation id="3268451620468152448">Отворени раздели</translation>
-<translation id="5241892180459725878">Предложения за търсене в Brave Software Диск</translation>
+<translation id="5241892180459725878">Предложения за търсене в Gab AI Inc Диск</translation>
 <translation id="2120297377148151361">Активност и взаимодействия</translation>
 <translation id="5833397272224757657">Използва за персонализиране съдържанието на посещаваните от вас сайтове, както и активността в браузъра и взаимодействията с него</translation>
-<translation id="8135094938656535588">Управление на синхронизираните данни чрез Brave Software Табло за управление</translation>
-<translation id="7505421639213002314">Данни от синхронизирането в Brave</translation>
+<translation id="8135094938656535588">Управление на синхронизираните данни чрез Gab AI Inc Табло за управление</translation>
+<translation id="7505421639213002314">Данни от синхронизирането в Dissenter</translation>
 <translation id="6596325263575161958">Опции за шифроване</translation>
-<translation id="2459230470861708651">Шифроване на синхронизираните пароли с потребителското име и паролата ви в Brave Software</translation>
-<translation id="5958351589333270173">Шифроване на синхронизираните данни със собствения ви <ph name="BEGIN_LINK"/>пропуск за синхронизиране<ph name="END_LINK"/>. Това не включва начините на плащане и адресите от Brave Software Pay.</translation>
-<translation id="4817583816512767754">Само някой с пропуска ви може да прочете шифрованите ви данни – той не се изпраща до Brave Software, нито се съхранява от нас. Ако го забравите или искате да промените тази настройка, ще се наложи <ph name="BEGIN_LINK"/>да нулирате синхронизирането<ph name="END_LINK"/>.</translation>
+<translation id="2459230470861708651">Шифроване на синхронизираните пароли с потребителското име и паролата ви в Gab AI Inc</translation>
+<translation id="5958351589333270173">Шифроване на синхронизираните данни със собствения ви <ph name="BEGIN_LINK"/>пропуск за синхронизиране<ph name="END_LINK"/>. Това не включва начините на плащане и адресите от Gab AI Inc Pay.</translation>
+<translation id="4817583816512767754">Само някой с пропуска ви може да прочете шифрованите ви данни – той не се изпраща до Gab AI Inc, нито се съхранява от нас. Ако го забравите или искате да промените тази настройка, ще се наложи <ph name="BEGIN_LINK"/>да нулирате синхронизирането<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">За да промените тази настройка, <ph name="BEGIN_LINK"/>нулирайте синхронизирането<ph name="END_LINK"/>, така че да премахнете съответния си пропуск</translation>
 <translation id="3873315167136380065">За да включите тази настройка, <ph name="BEGIN_LINK"/>нулирайте синхронизирането<ph name="END_LINK"/>, така че да премахнете съответния си пропуск</translation>
 <translation id="988978206646512040">Трябва да се въведе пропуск</translation>
@@ -4166,7 +4166,7 @@
 <translation id="4673442866648850031">Отваряне на инструментите за писане при изваждане на писалката</translation>
 <translation id="5862109781435984885">Показване на инструментите за писане в лавицата</translation>
 <translation id="4244238649050961491">Намиране на още приложения за писалка</translation>
-<translation id="668599234725812620">Отваряне на Brave Software Play</translation>
+<translation id="668599234725812620">Отваряне на Gab AI Inc Play</translation>
 <translation id="9116799625073598554">Приложение за водене на бележки</translation>
 <translation id="5458998536542739734">Бележки на заключения екран</translation>
 <translation id="203574396658008164">Активиране на функцията за водене на бележки от заключения екран</translation>
@@ -4232,7 +4232,7 @@
 <translation id="6547354035488017500">Освободете поне 512 МБ място или устройството ви ще спре да реагира. За целта изтрийте файлове от хранилището му.</translation>
 <translation id="6097480669505687979">Ако не освободите място, може да последва автоматично премахване на потребители и данни.</translation>
 <translation id="4470957202018033307">Предпочитания за външно хранилище</translation>
-<translation id="1900305421498694955">Приложенията от Brave Software Play може да искат пълен достъп до файловата система, за да четат и записват файлове във външни устройства за съхранение. Създадените на устройството файлове и папки са видими за всички, които използват външното хранилище. <ph name="LINK_BEGIN"/>Научете повече<ph name="LINK_END"/></translation>
+<translation id="1900305421498694955">Приложенията от Gab AI Inc Play може да искат пълен достъп до файловата система, за да четат и записват файлове във външни устройства за съхранение. Създадените на устройството файлове и папки са видими за всички, които използват външното хранилище. <ph name="LINK_BEGIN"/>Научете повече<ph name="LINK_END"/></translation>
 <translation id="6775163072363532304">Наличните устройства ще се показват тук.</translation>
 <translation id="1041263367839475438">Налични устройства</translation>
 <translation id="7479221278376295180">Общ преглед на използваното място в хранилището</translation>
@@ -4270,23 +4270,23 @@
 <translation id="5117139026559873716">Прекратяване на връзката между телефона и вашия <ph name="DEVICE_TYPE"/>. Те повече няма да се свързват автоматично.</translation>
 <translation id="7878562273885520351">Възможно е паролата ви да е компрометирана</translation>
 <translation id="1089439967362294234">Промяна на паролата</translation>
-<translation id="6187156085111579405">При необходимост ще бъдат премахнати и елементи, които не са посочени тук. Научете повече за &lt;a href="<ph name="URL"/>"&gt;защитата от нежелан софтуер&lt;/a&gt; в информационния бюлетин за поверителността на Brave.</translation>
+<translation id="6187156085111579405">При необходимост ще бъдат премахнати и елементи, които не са посочени тук. Научете повече за &lt;a href="<ph name="URL"/>"&gt;защитата от нежелан софтуер&lt;/a&gt; в информационния бюлетин за поверителността на Dissenter.</translation>
 <translation id="5280174558369304332">Разширения, които ще бъдат премахнати:</translation>
 <translation id="7712836429117959503">Неизвестно разширение с идент. № <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Файлове и програми, които да бъдат поставени под карантина:</translation>
 <translation id="8549457076611407730">{NUM_ITEMS,plural, =1{1 елемент}other{# елемента}}</translation>
 <translation id="7187428571767585875">Записи в системния регистър, които ще бъдат премахнати или променени:</translation>
 <translation id="4840150926623932060">{NUM_DOWNLOAD,plural, =1{още 1}other{още #}}</translation>
-<translation id="2749608811030566578">Възникна грешка, докато Brave премахваше опасния софтуер</translation>
-<translation id="8189483132214844139">Brave може да намери опасния софтуер на компютъра ви и да го премахне</translation>
+<translation id="2749608811030566578">Възникна грешка, докато Dissenter премахваше опасния софтуер</translation>
+<translation id="8189483132214844139">Dissenter може да намери опасния софтуер на компютъра ви и да го премахне</translation>
 <translation id="1426870617281699524">Кликнете върху „Нов опит“ и приемете подканата на компютъра си</translation>
-<translation id="7886744396008377537">На компютъра ви има опасен софтуер. Brave го премахва, възстановява настройките ви и деактивира разширенията. След това браузърът ви отново ще заработи нормално.</translation>
-<translation id="1484912962860902625">Възникна грешка, докато Brave търсеше опасен софтуер</translation>
+<translation id="7886744396008377537">На компютъра ви има опасен софтуер. Dissenter го премахва, възстановява настройките ви и деактивира разширенията. След това браузърът ви отново ще заработи нормално.</translation>
+<translation id="1484912962860902625">Възникна грешка, докато Dissenter търсеше опасен софтуер</translation>
 <translation id="451407183922382411">Предоставено от <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Вижте файловете за премахване</translation>
 <translation id="296026337010986570">Готово! Опасният софтуер е премахнат. За да включите отново разширенията, посетете &lt;a href="chrome://extensions"&gt;Разширения&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Почистването бе неуспешно</translation>
-<translation id="9014750448058570312">Brave се нуждае от разрешение, за да продължи</translation>
+<translation id="9014750448058570312">Dissenter се нуждае от разрешение, за да продължи</translation>
 <translation id="1852141627593563189">Намерете опасния софтуер</translation>
 <translation id="850875081535031620">Няма намерен опасен софтуер</translation>
 <translation id="1186771945450942097">Премахнете опасния софтуер</translation>
@@ -4295,11 +4295,11 @@
 <translation id="8639047128869322042">Извършва се проверка за опасен софтуер...</translation>
 <translation id="2653033005692233957">Търсенето бе неуспешно</translation>
 <translation id="655483977608336153">Нов опит</translation>
-<translation id="8282772389915299166">Изпращане до Brave Software на подробности за опасния софтуер, системните настройки и процесите, открити на компютъра ви по време на това почистване</translation>
+<translation id="8282772389915299166">Изпращане до Gab AI Inc на подробности за опасния софтуер, системните настройки и процесите, открити на компютъра ви по време на това почистване</translation>
 <translation id="6555810572223193255">Почистването понастоящем не е налице.</translation>
 <translation id="7117228822971127758">Моля, опитайте отново по-късно</translation>
 <translation id="443475966875174318">Актуализиране или премахване на несъвместими приложения</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Възможно е това приложение да пречи на Brave да работи правилно.}other{Възможно е тези приложения да пречат на Brave да работи правилно.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Възможно е това приложение да пречи на Dissenter да работи правилно.}other{Възможно е тези приложения да пречат на Dissenter да работи правилно.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{За да продължите да сърфирате безпроблемно в мрежата, помолете администратора да премахне това приложение.}other{За да продължите да сърфирате безпроблемно в мрежата, помолете администратора да премахне тези приложения.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Научете как да актуализирате приложения<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Приложение}other{Приложения}}</translation>
@@ -4448,7 +4448,7 @@
 <translation id="1992397118740194946">Няма зададен</translation>
 <translation id="6706210727756204531">Обхват</translation>
 <translation id="5532223876348815659">Глобално</translation>
-<translation id="300669147395456190">Приложения в Brave</translation>
+<translation id="300669147395456190">Приложения в Dissenter</translation>
 <translation id="6787839852456839824">Клавишни комбинации</translation>
 <translation id="6419546358665792306">Зареждане на разпакетираното</translation>
 <translation id="8023801379949507775">Актуализирайте разширенията сега</translation>
@@ -4475,9 +4475,9 @@
 <translation id="2342740338116612727">Отметките бяха добавени</translation>
 <translation id="7835178595033117206">Отметката бе премахната</translation>
 <translation id="742130257665691897">Отметките бяха премахнати</translation>
-<translation id="5468853758063275923">Brave е браузърът ви по подразбиране</translation>
-<translation id="2950533317914339731">Добавяйте отметки към любимите си приложения в Brave Software</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="5468853758063275923">Dissenter е браузърът ви по подразбиране</translation>
+<translation id="2950533317914339731">Добавяйте отметки към любимите си приложения в Gab AI Inc</translation>
+<translation id="939305735877869636">Gab AI Inc</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Карти</translation>
 <translation id="6709133671862442373">Новини</translation>
@@ -4490,13 +4490,13 @@
 <translation id="5033266061063942743">Геометрични фигури</translation>
 <translation id="7789963078219276159">Фонът на началната страница бе променен на „<ph name="CATEGORY"/>“.</translation>
 <translation id="8771300903067484968">Възстановен е стандартният фон на началната страница.</translation>
-<translation id="239760341987199724">Задаване на Brave като браузър по подразбиране</translation>
-<translation id="96037229054033864">Възползвайте се от интелигентните функции на Търсене и Brave Software всеки път, когато сърфирате</translation>
-<translation id="296137235951584143">Персонализирайте Brave според вкуса си</translation>
+<translation id="239760341987199724">Задаване на Dissenter като браузър по подразбиране</translation>
+<translation id="96037229054033864">Възползвайте се от интелигентните функции на Търсене и Gab AI Inc всеки път, когато сърфирате</translation>
+<translation id="296137235951584143">Персонализирайте Dissenter според вкуса си</translation>
 <translation id="3982375475032951137">Настройте браузъра си в няколко лесни стъпки</translation>
 <translation id="6972754398087986839">Първи стъпки</translation>
-<translation id="3707821975049107110">Вече сте потребител на Brave? Влезте в профила си</translation>
-<translation id="7113572760575285642">Вашият браузър Brave – навсякъде</translation>
+<translation id="3707821975049107110">Вече сте потребител на Dissenter? Влезте в профила си</translation>
+<translation id="7113572760575285642">Вашият браузър Dissenter – навсякъде</translation>
 <translation id="567643736130151854">Влезте в профила си и включете синхронизирането, за да получите отметките, паролите и другите си неща на всичките си устройства</translation>
 <translation id="725758059478686223">Услуга за отпечатване</translation>
 <translation id="15662109988763471">Избраният принтер не е налице или не е инсталиран правилно. Проверете го или изберете друг.</translation>
@@ -4504,7 +4504,7 @@
 <translation id="1031362278801463162">Визуализацията се зарежда</translation>
 <translation id="6147020289383635445">Визуализацията за печат не бе успешна.</translation>
 <translation id="5877584842898320529">Избраният принтер не е налице или не е инсталиран правилно.<ph name="BR"/> Проверете го или опитайте да изберете друг.</translation>
-<translation id="7413400642818115607">Избраното устройство в Brave Software Отпечатване в облак повече не се поддържа. <ph name="BR"/> Опитайте да настроите принтера в системните настройки на компютъра си.</translation>
+<translation id="7413400642818115607">Избраното устройство в Gab AI Inc Отпечатване в облак повече не се поддържа. <ph name="BR"/> Опитайте да настроите принтера в системните настройки на компютъра си.</translation>
 <translation id="5828633471261496623">Отпечатва се...</translation>
 <translation id="6295855836753816081">Запазва се...</translation>
 <translation id="3587482841069643663">Всички</translation>
@@ -4524,7 +4524,7 @@
 <translation id="3706463572498736864">Страници на лист</translation>
 <translation id="2249605167705922988">напр. 1-5, 8, 11-13</translation>
 <translation id="5746169159649715125">Запазване като PDF файл</translation>
-<translation id="1955272076204612657">Запазване в Brave Software Диск</translation>
+<translation id="1955272076204612657">Запазване в Gab AI Inc Диск</translation>
 <translation id="2580924999637585241">Общо: <ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">листа</translation>
@@ -4555,7 +4555,7 @@
 <translation id="6991665348624301627">Избиране на местоназначение</translation>
 <translation id="8800004011501252845">Показани са местоназначенията за</translation>
 <translation id="8996526648899750015">Добавяне на профил...</translation>
-<translation id="5002959368039764681">Отпечатвайте към Brave Software Документи и други местоназначения в облака. <ph name="BEGIN_LINK"/>Влезте в профила си<ph name="END_LINK"/>, за да печатате с Brave Software Отпечатване в облак.</translation>
+<translation id="5002959368039764681">Отпечатвайте към Gab AI Inc Документи и други местоназначения в облака. <ph name="BEGIN_LINK"/>Влезте в профила си<ph name="END_LINK"/>, за да печатате с Gab AI Inc Отпечатване в облак.</translation>
 <translation id="2150139952286079145">Търсене на местоназначения</translation>
 <translation id="8569682776816196752">Няма намерени местоназначения</translation>
 <translation id="7885253890047913815">Скорошни местоназначения</translation>
@@ -4620,7 +4620,7 @@
 <translation id="7574650250151586813">За да въвеждате текст, актуализирайте приложението Daydream Keyboard</translation>
 <translation id="983511809958454316">Тази функция не се поддържа във VR</translation>
 <translation id="4008291085758151621">Информацията за сайта не е налична във VR</translation>
-<translation id="1439926347196400598">Ще разрешите ли на Brave да записва аудио?</translation>
+<translation id="1439926347196400598">Ще разрешите ли на Dissenter да записва аудио?</translation>
 <translation id="6313641880021325787">ИЗХОД ОТ VR</translation>
 <translation id="2670429602441959756">Тази страница съдържа функции, които още не се поддържат във VR. Режимът се затваря...</translation>
 <translation id="1802687198411089702">Страницата не реагира. Можете да изчакате или да я затворите.</translation>
@@ -4642,7 +4642,7 @@
 <translation id="1721312023322545264">Необходимо ви е разрешение от <ph name="NAME"/>, за да посетите този сайт</translation>
 <translation id="7543525346216957623">Попитайте родителя си</translation>
 <translation id="471880041731876836">Нямате разрешение да посетите този сайт</translation>
-<translation id="3480834636742786788">Моля, стартирайте браузъра Brave и влезте в него, преди да използвате това приложение.</translation>
+<translation id="3480834636742786788">Моля, стартирайте браузъра Dissenter и влезте в него, преди да използвате това приложение.</translation>
 <translation id="2851634818064021665">Необходимо ви е разрешение, за да посетите този сайт</translation>
 <translation id="4933782374919065856">При въпроси се свържете с лицето, което контролира потребителския ви профил.</translation>
 <translation id="2712173769900027643">Искане на разрешение</translation>
@@ -4662,7 +4662,7 @@
 <translation id="7755287808199759310">Родителят ви може да го отблокира за вас</translation>
 <translation id="5732392974455271431">Родителите ви могат да го отблокират за вас</translation>
 <translation id="3556433843310711081">Мениджърът ви може да го отблокира за вас</translation>
-<translation id="1254756632288991504">Моля, стартирайте браузъра Brave и влезте в него, за да се провери дали имате достъп до този сайт.</translation>
+<translation id="1254756632288991504">Моля, стартирайте браузъра Dissenter и влезте в него, за да се провери дали имате достъп до този сайт.</translation>
 <translation id="2507397597949272797"><ph name="NAME"/> е на пауза</translation>
 <translation id="8015163965024115122">Достигнахте ограничението за <ph name="IDS_SHORT_PRODUCT_NAME"/> или <ph name="IDS_SHORT_PRODUCT_NAME"/>, зададено от родителя ви.</translation>
 <translation id="9122176249172999202"><ph name="IDS_SHORT_PRODUCT_NAME"/> е на пауза</translation>

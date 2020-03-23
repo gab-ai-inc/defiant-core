@@ -67,32 +67,32 @@
 <translation id="5342314432463739672">Solicitări de permisiuni</translation>
 <translation id="3749259744154402564">Nu se acceptă</translation>
 <translation id="629730747756840877">Cont</translation>
-<translation id="82609232232243542">Conectează-te la Brave</translation>
-<translation id="7956662517480676674">Sincronizarea și serviciile Brave Software</translation>
-<translation id="5294439808117722387">Acum personalizezi setările pentru sincronizare și serviciul Brave Software. Pentru a finaliza activarea sincronizării, atinge butonul Confirmă din partea de jos a ecranului. Navighează în sus</translation>
+<translation id="82609232232243542">Conectează-te la Dissenter</translation>
+<translation id="7956662517480676674">Sincronizarea și serviciile Gab AI Inc</translation>
+<translation id="5294439808117722387">Acum personalizezi setările pentru sincronizare și serviciul Gab AI Inc. Pentru a finaliza activarea sincronizării, atinge butonul Confirmă din partea de jos a ecranului. Navighează în sus</translation>
 <translation id="2096012225669085171">Sincronizează și personalizează pe toate dispozitivele</translation>
 <translation id="1692118695553449118">Sincronizarea este activată</translation>
 <translation id="5514904542973294328">Dezactivată de administratorul dispozitivului</translation>
-<translation id="6447211988989208781">Opțiuni privind activitatea Brave Software</translation>
+<translation id="6447211988989208781">Opțiuni privind activitatea Gab AI Inc</translation>
 <translation id="4882831918239250449">Controlează modul în care istoricul de navigare este folosit pentru a personaliza Căutarea, anunțurile și alte servicii</translation>
 <translation id="7431991332293347422">Controlează modul în care istoricul de navigare este folosit pentru a personaliza Căutarea și alte servicii</translation>
 <translation id="6303969859164067831">Deconectează-te și dezactivează sincronizarea</translation>
-<translation id="1125261911132334651">Gestionează-ți Contul Brave Software</translation>
+<translation id="1125261911132334651">Gestionează-ți Contul Gab AI Inc</translation>
 <translation id="6406506848690869874">Sincronizare</translation>
-<translation id="714362445477979774">Sincronizează datele din Brave</translation>
+<translation id="714362445477979774">Sincronizează datele din Dissenter</translation>
 <translation id="4314815835985389558">Gestionează sincronizarea</translation>
-<translation id="5428209950370661546">Alte servicii Brave Software</translation>
+<translation id="5428209950370661546">Alte servicii Gab AI Inc</translation>
 <translation id="7704317875155739195">Completează automat căutările și adresele URL</translation>
 <translation id="2000419248597011803">Trimite anumite cookie-uri și căutări din bara de adrese și din caseta de căutare în motorul de căutare prestabilit</translation>
 <translation id="7981313251711023384">Preîncarcă paginile pentru navigare și căutare mai rapide</translation>
 <translation id="1821253160463689938">Folosește cookie-uri pentru a-ți reține preferințele, chiar dacă nu accesezi paginile respective</translation>
 <translation id="6697492270171225480">Afișează sugestii pentru pagini similare atunci când o pagină nu poate fi găsită</translation>
-<translation id="8109318360573330108">Trimite la Brave Software adresa URL a unei pagini pe care încerci să o accesezi</translation>
+<translation id="8109318360573330108">Trimite la Gab AI Inc adresa URL a unei pagini pe care încerci să o accesezi</translation>
 <translation id="8438566539970814960">Îmbunătățește căutările și navigarea</translation>
-<translation id="284843628681142937">Trimite la Brave Software adresele URL ale paginilor pe care le accesezi</translation>
-<translation id="7222718784508482526">Pentru mai multe setări privind confidențialitatea, securitatea și colectarea datelor, consultă <ph name="BEGIN_LINK"/>Sincronizare și servicii Brave Software<ph name="END_LINK"/></translation>
-<translation id="918192811481327695">Contribuie la îmbunătățirea funcțiilor și performanței Brave</translation>
-<translation id="9063160602596686558">Trimite automat statistici de utilizare și rapoarte de blocare la Brave Software</translation>
+<translation id="284843628681142937">Trimite la Gab AI Inc adresele URL ale paginilor pe care le accesezi</translation>
+<translation id="7222718784508482526">Pentru mai multe setări privind confidențialitatea, securitatea și colectarea datelor, consultă <ph name="BEGIN_LINK"/>Sincronizare și servicii Gab AI Inc<ph name="END_LINK"/></translation>
+<translation id="918192811481327695">Contribuie la îmbunătățirea funcțiilor și performanței Dissenter</translation>
+<translation id="9063160602596686558">Trimite automat statistici de utilizare și rapoarte de blocare la Gab AI Inc</translation>
 <translation id="4824958205181053313">Anulezi sincronizarea?</translation>
 <translation id="3058498974290601450">Poți să activezi sincronizarea oricând în setări</translation>
 <translation id="3143515551205905069">Anulează sincronizarea</translation>
@@ -121,7 +121,7 @@
 <translation id="2612676031748830579">Număr card</translation>
 <translation id="869891660844655955">Dată de expirare</translation>
 <translation id="2286841657746966508">Adresa de facturare</translation>
-<translation id="663059986967017181">Copiat în Brave</translation>
+<translation id="663059986967017181">Copiat în Dissenter</translation>
 <translation id="7774809984919390718">{PAYMENT_METHOD,plural, =1{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}few{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}other{<ph name="PAYMENT_METHOD_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_PAYMENT_METHODS"/>}}</translation>
 <translation id="6343495912647200061">{SHIPPING_ADDRESS,plural, =1{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}few{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}other{<ph name="SHIPPING_ADDRESS_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_ADDRESSES"/>}}</translation>
 <translation id="4695891336199304370">{SHIPPING_OPTIONS,plural, =1{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}few{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}other{<ph name="SHIPPING_OPTION_PREVIEW"/>\u2026 și încă <ph name="NUMBER_OF_ADDITIONAL_SHIPPING_OPTIONS"/>}}</translation>
@@ -131,9 +131,9 @@
 <translation id="2100273922101894616">Conectare automată</translation>
 <translation id="363596933471559332">Te conectezi automat la site-uri folosind datele de conectare stocate. Când funcția este dezactivată, ți se va solicita verificarea de fiecare dată înainte de a te conecta la un site.</translation>
 <translation id="6995899638241819463">Avertizează-mă dacă parolele au fost expuse în urma încălcării securității datelor</translation>
-<translation id="1534287762301776620">Când te conectezi la Contul Brave Software, această funcție este activată</translation>
+<translation id="1534287762301776620">Când te conectezi la Contul Gab AI Inc, această funcție este activată</translation>
 <translation id="10614374240317010">Nu se salvează niciodată</translation>
-<translation id="3098842761938485917">Vezi și gestionează parolele salvate în <ph name="BEGIN_LINK"/>Contul Brave Software<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Vezi și gestionează parolele salvate în <ph name="BEGIN_LINK"/>Contul Gab AI Inc<ph name="END_LINK"/></translation>
 <translation id="8562452229998620586">Parolele salvate vor fi afișate aici.</translation>
 <translation id="8084114998886531721">Parola a fost salvată</translation>
 <translation id="2870560284913253234">Site</translation>
@@ -155,18 +155,18 @@
 <translation id="6154478581116148741">Pentru a-ți exporta parolele de pe acest dispozitiv, activează blocarea ecranului în Setări.</translation>
 <translation id="4842092870884894799">Fereastra pop-up pentru generarea parolelor este afișată</translation>
 <translation id="2259659629660284697">Exportă parolele…</translation>
-<translation id="133012818630824069">Exportă parolele stocate în Brave</translation>
+<translation id="133012818630824069">Exportă parolele stocate în Dissenter</translation>
 <translation id="6914783257214138813">Parolele vor fi vizibile pentru toți cei care pot vedea fișierul exportat.</translation>
 <translation id="2321086116217818302">Se pregătesc parolele…</translation>
 <translation id="8445448999790540984">Nu se pot exporta parole</translation>
-<translation id="3066461326500799725">Află cum să folosești Brave Software Drive</translation>
+<translation id="3066461326500799725">Află cum să folosești Gab AI Inc Drive</translation>
 <translation id="729975465115245577">Dispozitivul nu are o aplicație pentru stocarea fișierului parolelor.</translation>
 <translation id="7682724950699840886">Încearcă următoarele sfaturi: asigură-te că există spațiu suficient pe dispozitiv, încearcă să exporți din nou.</translation>
 <translation id="1129510026454351943">Detalii: <ph name="ERROR_DESCRIPTION"/></translation>
 <translation id="6891726759199484455">Deblochează pentru a copia parola</translation>
 <translation id="5515439363601853141">Deblochează pentru a vedea parola</translation>
 <translation id="6221633008163990886">Deblochează pentru a-ți exporta parolele.</translation>
-<translation id="230699814587342492">Parole Brave</translation>
+<translation id="230699814587342492">Parole Dissenter</translation>
 <translation id="6075798973483050474">Editează pagina de pornire</translation>
 <translation id="854522910157234410">Deschide această pagină</translation>
 <translation id="2482878487686419369">Notificări</translation>
@@ -180,15 +180,15 @@
 <translation id="2760989362628427051">Activează tema întunecată când este activată tema întunecată sau Economisirea bateriei pentru dispozitiv</translation>
 <translation id="6381421346744604172">Întunecă site-urile</translation>
 <translation id="5040262127954254034">Confidențialitate</translation>
-<translation id="4991384657077828949">Contribuie la îmbunătățirea securității pentru Brave</translation>
-<translation id="1943176487615318915">Pentru a detecta aplicațiile și site-urile periculoase, Brave trimite la Brave Software adresele URL ale unor pagini pe care le accesezi, informații de sistem limitate și o parte din conținutul paginii</translation>
+<translation id="4991384657077828949">Contribuie la îmbunătățirea securității pentru Dissenter</translation>
+<translation id="1943176487615318915">Pentru a detecta aplicațiile și site-urile periculoase, Dissenter trimite la Gab AI Inc adresele URL ale unor pagini pe care le accesezi, informații de sistem limitate și o parte din conținutul paginii</translation>
 <translation id="3181954750937456830">Navigare sigură (protecție împotriva site-urilor periculoase)</translation>
-<translation id="7315322926489145388">Trimite la Brave Software adrese URL ale unor pagini pe care le accesezi, când securitatea este în pericol</translation>
+<translation id="7315322926489145388">Trimite la Gab AI Inc adrese URL ale unor pagini pe care le accesezi, când securitatea este în pericol</translation>
 <translation id="2063713494490388661">Atinge pentru a căuta</translation>
-<translation id="2369463299479365221">Află despre subiectele de pe site-uri fără să părăsești pagina. Funcția Atinge pentru a căuta trimite un cuvânt și contextul aferent către Căutarea Brave Software și returnează definiții, imagini, rezultate ale căutării și alte detalii.
+<translation id="2369463299479365221">Află despre subiectele de pe site-uri fără să părăsești pagina. Funcția Atinge pentru a căuta trimite un cuvânt și contextul aferent către Căutarea Gab AI Inc și returnează definiții, imagini, rezultate ale căutării și alte detalii.
 
 Pentru a ajusta termenul de căutare, apasă lung pentru a selecta. Pentru a rafina căutarea, glisează panoul până în partea de sus și atinge caseta de căutare.</translation>
-<translation id="2930742481329940825">Funcția Atinge pentru a căuta trimite cuvântul selectat și pagina actuală drept context către Căutarea Brave Software. Poți dezactiva această funcție din <ph name="BEGIN_LINK"/>Setări<ph name="END_LINK"/>.</translation>
+<translation id="2930742481329940825">Funcția Atinge pentru a căuta trimite cuvântul selectat și pagina actuală drept context către Căutarea Gab AI Inc. Poți dezactiva această funcție din <ph name="BEGIN_LINK"/>Setări<ph name="END_LINK"/>.</translation>
 <translation id="5039804452771397117">Permite</translation>
 <translation id="1406000523432664303">„Nu urmări”</translation>
 <translation id="6232535412751077445">Dacă activezi opțiunea „Nu urmări”, o solicitare va fi inclusă împreună cu traficul de navigare. Efectul variază în funcție de răspunsul site-ului la solicitare și în funcție de modul în care este interpretată solicitarea.
@@ -197,18 +197,18 @@ De exemplu, unele site-uri pot răspunde la această solicitare afișând anunț
 <translation id="7359002509206457351">Acces la metodele de plată</translation>
 <translation id="8026334261755873520">Șterge datele de navigare</translation>
 <translation id="1291207594882862231">Șterge istoricul, cookie-urile, datele privind site-urile și memoria cache…</translation>
-<translation id="7814200940910057384">Datele Brave au fost șterse</translation>
-<translation id="1664855196866195614">Datele selectate au fost eliminate din Brave și de pe dispozitivele sincronizate.
+<translation id="7814200940910057384">Datele Dissenter au fost șterse</translation>
+<translation id="1664855196866195614">Datele selectate au fost eliminate din Dissenter și de pe dispozitivele sincronizate.
 
-Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cum ar fi căutările și activitatea din alte servicii Brave Software, la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+Contul Gab AI Inc poate să ofere alte forme ale istoricului de navigare, cum ar fi căutările și activitatea din alte servicii Gab AI Inc, la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="4699172675775169585">Imaginile și fișierele memorate în cache</translation>
 <translation id="2496180316473517155">Istoricul de navigare</translation>
 <translation id="2546283357679194313">Cookie-uri și date privind site-ul</translation>
 <translation id="8662811608048051533">Te deconectează de pe majoritatea site-urilor.</translation>
-<translation id="8218628800671693884">Te deconectează de pe majoritatea site-urilor. Nu te va deconecta de la Contul Brave Software.</translation>
+<translation id="8218628800671693884">Te deconectează de pe majoritatea site-urilor. Nu te va deconecta de la Contul Gab AI Inc.</translation>
 <translation id="2017836877785168846">Șterge istoricul și completările automate din bara de adrese.</translation>
-<translation id="8096327394278038498">Șterge istoricul și completările automate din bara de adrese. Contul Brave Software poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Șterge istoricul de pe toate dispozitivele conectate. Contul Brave Software poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Șterge istoricul și completările automate din bara de adrese. Contul Gab AI Inc poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Șterge istoricul de pe toate dispozitivele conectate. Contul Gab AI Inc poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="5869522115854928033">Parole salvate</translation>
 <translation id="6865313869410766144">Datele salvate pentru completarea automată a formularelor</translation>
 <translation id="7562080006725997899">Se șterg datele de navigare</translation>
@@ -225,7 +225,7 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="6643016212128521049">Șterge</translation>
 <translation id="7641339528570811325">Șterge datele de navigare…</translation>
 <translation id="1670399744444387456">De bază</translation>
-<translation id="3245261285041759672">Contul Brave Software poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3245261285041759672">Contul Gab AI Inc poate să ofere alte forme ale istoricului de navigare la <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7274013316676448362">Site blocat</translation>
 <translation id="2534155362429831547">Elemente șterse: <ph name="NUMBER_OF_ITEMS"/></translation>
 <translation id="6981982820502123353">Accesibilitate</translation>
@@ -335,12 +335,12 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="8156139159503939589">În ce limbi poți să citești?</translation>
 <translation id="5689516760719285838">Locație</translation>
 <translation id="2440823041667407902">Accesul la locație</translation>
-<translation id="2023546461831060654">Activează permisiunile pentru Brave din <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
-<translation id="6665548517310046133">Activează permisiunea pentru Brave din <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
-<translation id="2928908108430545745">Pentru a permite Brave să acceseze locația, activează locația și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
-<translation id="1028853271388022585">Pentru a permite Brave să acceseze camera, activează camera și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
-<translation id="2913721282607281710">Pentru a permite Brave să îți trimită notificări, activează notificările și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
-<translation id="8753483718490035722">Ca să permiți Brave să acceseze microfonul, activează microfonul și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
+<translation id="2023546461831060654">Activează permisiunile pentru Dissenter din <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
+<translation id="6665548517310046133">Activează permisiunea pentru Dissenter din <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
+<translation id="2928908108430545745">Pentru a permite Dissenter să acceseze locația, activează locația și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
+<translation id="1028853271388022585">Pentru a permite Dissenter să acceseze camera, activează camera și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
+<translation id="2913721282607281710">Pentru a permite Dissenter să îți trimită notificări, activează notificările și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
+<translation id="8753483718490035722">Ca să permiți Dissenter să acceseze microfonul, activează microfonul și în <ph name="BEGIN_LINK"/>Setările Android<ph name="END_LINK"/>.</translation>
 <translation id="1887786770086287077">Accesul la locație este dezactivat pentru acest dispozitiv. Activează-l în <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
 <translation id="2570922361219980984">Accesul la locație este dezactivat și pentru acest dispozitiv. Activează-l în <ph name="BEGIN_LINK"/>Setări Android<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Cameră</translation>
@@ -358,8 +358,8 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="7821588508402923572">Economiile de date vor apărea aici</translation>
 <translation id="2131665479022868825">Date economisite: <ph name="DATA"/></translation>
 <translation id="8569404424186215731">începând cu <ph name="DATE"/></translation>
-<translation id="3252158532344029638">În modul Lite, Brave încarcă mai repede paginile și folosește cu până la 60 de procente mai puține date.</translation>
-<translation id="1438581767753657407">Când este pornit modul Lite, Brave folosește serverele Brave pentru ca paginile să se încarce mai rapid. Modul Lite rescrie paginile foarte lente pentru a încărca doar conținutul esențial. Modul Lite nu se aplică paginilor private.</translation>
+<translation id="3252158532344029638">În modul Lite, Dissenter încarcă mai repede paginile și folosește cu până la 60 de procente mai puține date.</translation>
+<translation id="1438581767753657407">Când este pornit modul Lite, Dissenter folosește serverele Dissenter pentru ca paginile să se încarce mai rapid. Modul Lite rescrie paginile foarte lente pentru a încărca doar conținutul esențial. Modul Lite nu se aplică paginilor private.</translation>
 <translation id="6159335304067198720">Economie de date de <ph name="PERCENT"/></translation>
 <translation id="7494974237137038751">date economisite</translation>
 <translation id="6111020039983847643">date utilizate</translation>
@@ -381,15 +381,15 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="1856325424225101786">Resetezi modul Lite?</translation>
 <translation id="3658159451045945436">Prin resetare se șterge istoricul economisirii de date, inclusiv lista site-urilor vizitate.</translation>
 <translation id="3295530008794733555">Navighează mai rapid. Folosește mai puține date.</translation>
-<translation id="7340390500800578919">În modul Lite, Brave încarcă mai repede paginile și folosește cu până la 60 % mai puține date. Pentru a optimiza paginile pe care le accesezi, Brave trimite traficul tău web la Brave Software. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
+<translation id="7340390500800578919">În modul Lite, Dissenter încarcă mai repede paginile și folosește cu până la 60 % mai puține date. Pentru a optimiza paginile pe care le accesezi, Dissenter trimite traficul tău web la Gab AI Inc. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
 <translation id="4538018662093857852">Activează modul Lite</translation>
 <translation id="4493497663118223949">Modul Lite este activat</translation>
 <translation id="7559975015014302720">Modul Lite este dezactivat</translation>
 <translation id="7606077192958116810">Modul Lite este activat. Gestionează-l în Setări.</translation>
 <translation id="4714588616299687897">Economisește până la 60% din date</translation>
-<translation id="1006927014032731288">Serverele Brave Software vor optimiza paginile pe care le vizitezi.</translation>
-<translation id="3257320067425202300">Brave a economisit <ph name="MEGABYTES"/> MB</translation>
-<translation id="5813223329348543512">Brave a economisit <ph name="GIGABYTES"/> GB</translation>
+<translation id="1006927014032731288">Serverele Gab AI Inc vor optimiza paginile pe care le vizitezi.</translation>
+<translation id="3257320067425202300">Dissenter a economisit <ph name="MEGABYTES"/> MB</translation>
+<translation id="5813223329348543512">Dissenter a economisit <ph name="GIGABYTES"/> GB</translation>
 <translation id="8266862848225348053">Locația de descărcare</translation>
 <translation id="7077143737582773186">Card SD</translation>
 <translation id="7762668264895820836">Cardul SD <ph name="SD_CARD_NUMBER"/></translation>
@@ -415,15 +415,15 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="7290209999329137901">Nu se poate redenumi</translation>
 <translation id="3334729583274622784">Modifici extensia de fișier?</translation>
 <translation id="107147699690128016">Dacă modifici extensia de fișier, fișierul poate să se deschidă în altă aplicație și să dăuneze dispozitivului.</translation>
-<translation id="8541922081612557424">Despre Brave</translation>
-<translation id="5311273890481188673">Drept de autor <ph name="YEAR"/> Brave Software LLC. Toate drepturile rezervate.</translation>
+<translation id="8541922081612557424">Despre Dissenter</translation>
+<translation id="5311273890481188673">Drept de autor <ph name="YEAR"/> Gab AI Inc LLC. Toate drepturile rezervate.</translation>
 <translation id="1416550906796893042">Versiunea aplicației</translation>
 <translation id="7493994139787901920"><ph name="VERSION"/> (Actualizată la <ph name="TIME_SINCE_UPDATE"/>)</translation>
 <translation id="7596558890252710462">Sistem de operare</translation>
-<translation id="3968054912784331254">Actualizările Brave nu mai sunt acceptate pentru această versiune de Android</translation>
+<translation id="3968054912784331254">Actualizările Dissenter nu mai sunt acceptate pentru această versiune de Android</translation>
 <translation id="7665369617277396874">Adaugă un cont</translation>
-<translation id="649070405679044769">Conectat(ă) la Brave Software ca</translation>
-<translation id="6234515504547364178">Deconectează-te de la Brave</translation>
+<translation id="649070405679044769">Conectat(ă) la Gab AI Inc ca</translation>
+<translation id="6234515504547364178">Deconectează-te de la Dissenter</translation>
 <translation id="5324858694974489420">Setări parentale</translation>
 <translation id="8920114477895755567">Se așteaptă detaliile părinților.</translation>
 <translation id="5512137114520586844">Acest cont este gestionat de <ph name="PARENT_NAME"/>.</translation>
@@ -432,7 +432,7 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="5403644198645076998">Permite numai anumite site-uri</translation>
 <translation id="8641930654639604085">Încearcă să blochezi site-urile destinate adulților</translation>
 <translation id="5639724618331995626">Permite toate site-urile</translation>
-<translation id="796823723482603597">Afișată de Brave</translation>
+<translation id="796823723482603597">Afișată de Dissenter</translation>
 <translation id="6324034347079777476">Sincronizarea de sistem Android este dezactivată</translation>
 <translation id="5127805178023152808">Sincronizarea este dezactivată</translation>
 <translation id="7015203776128479407">Configurarea inițială a sincronizării nu a fost finalizată. Sincronizarea este dezactivată.</translation>
@@ -441,48 +441,48 @@ Contul Brave Software poate să ofere alte forme ale istoricului de navigare, cu
 <translation id="6108923351542677676">Configurare în curs...</translation>
 <translation id="4062305924942672200">Informații juridice</translation>
 <translation id="4256782883801055595">Licențe open source</translation>
-<translation id="1138681184697033370">Termenii și condițiile Brave</translation>
-<translation id="7392539049993970338">Notificare privind confidențialitatea Brave</translation>
+<translation id="1138681184697033370">Termenii și condițiile Dissenter</translation>
+<translation id="7392539049993970338">Notificare privind confidențialitatea Dissenter</translation>
 <translation id="2677748264148917807">Ieși</translation>
 <translation id="5556459405103347317">Reîncarcă</translation>
 <translation id="1623104350909869708">Restricționați capacitatea acestei pagini de a crea casete de dialog suplimentare</translation>
 <translation id="2968755619301702150">Vizualizator de certificate</translation>
 <translation id="1360432990279830238">Te deconectezi și dezactivezi sincronizarea?</translation>
-<translation id="8581481290581777242">Ștergi datele tale Brave de pe acest dispozitiv?</translation>
-<translation id="1318865768845061710">Marcajele, istoricul, parolele și alte date Brave nu vor mai fi sincronizate cu Contul Brave Software</translation>
-<translation id="3325020657155065477">Șterge și datele Brave de pe acest dispozitiv</translation>
-<translation id="6136448902816743006">Întrucât te deconectezi de la un cont gestionat de <ph name="DOMAIN_NAME"/>, datele Brave vor fi șterse de pe dispozitiv. Acestea vor fi păstrate în Contul tău Brave Software.</translation>
-<translation id="1853026300647876496">Se contactează Brave Software. Poate dura un minut...</translation>
+<translation id="8581481290581777242">Ștergi datele tale Dissenter de pe acest dispozitiv?</translation>
+<translation id="1318865768845061710">Marcajele, istoricul, parolele și alte date Dissenter nu vor mai fi sincronizate cu Contul Gab AI Inc</translation>
+<translation id="3325020657155065477">Șterge și datele Dissenter de pe acest dispozitiv</translation>
+<translation id="6136448902816743006">Întrucât te deconectezi de la un cont gestionat de <ph name="DOMAIN_NAME"/>, datele Dissenter vor fi șterse de pe dispozitiv. Acestea vor fi păstrate în Contul tău Gab AI Inc.</translation>
+<translation id="1853026300647876496">Se contactează Gab AI Inc. Poate dura un minut...</translation>
 <translation id="2328985652426384049">Nu se poate conecta</translation>
-<translation id="7723158744459952869">Brave Software a răspuns prea târziu</translation>
+<translation id="7723158744459952869">Gab AI Inc a răspuns prea târziu</translation>
 <translation id="4572422548854449519">Conectează-te la contul gestionat</translation>
-<translation id="2689656545739939160">Te conectezi cu un cont gestionat de <ph name="MANAGED_DOMAIN"/> și acorzi administratorului acestuia controlul asupra datelor Brave. Datele vor fi asociate definitiv acestui cont. Dacă te deconectezi de la Brave, datele se vor șterge de pe acest dispozitiv, dar vor rămâne stocate în Contul Brave Software.</translation>
+<translation id="2689656545739939160">Te conectezi cu un cont gestionat de <ph name="MANAGED_DOMAIN"/> și acorzi administratorului acestuia controlul asupra datelor Dissenter. Datele vor fi asociate definitiv acestui cont. Dacă te deconectezi de la Dissenter, datele se vor șterge de pe acest dispozitiv, dar vor rămâne stocate în Contul Gab AI Inc.</translation>
 <translation id="1749561566933687563">Sincronizează marcajele</translation>
 <translation id="4242533952199664413">Deschide setările</translation>
 <translation id="1111673857033749125">Marcajele salvate pe alte dispozitive vor apărea aici.</translation>
 <translation id="8636825310635137004">Pentru a accesa filele de pe alte dispozitive, activează sincronizarea.</translation>
-<translation id="3269956123044984603">Pentru a accesa filele de pe alte dispozitive, activează opțiunea „Sincronizează automat datele” în setările Android din Contul Brave Software.</translation>
-<translation id="5157964048453367290">Filele deschise în Brave pe alte dispozitive vor apărea aici.</translation>
+<translation id="3269956123044984603">Pentru a accesa filele de pe alte dispozitive, activează opțiunea „Sincronizează automat datele” în setările Android din Contul Gab AI Inc.</translation>
+<translation id="5157964048453367290">Filele deschise în Dissenter pe alte dispozitive vor apărea aici.</translation>
 <translation id="4684427112815847243">Sincronizează tot</translation>
 <translation id="2709516037105925701">Completare automată</translation>
 <translation id="8820817407110198400">Marcaje</translation>
 <translation id="1644574205037202324">Istoric</translation>
 <translation id="17513872634828108">File deschise</translation>
-<translation id="1320169905922104972">Carduri de credit și adrese care folosesc Brave Software Pay</translation>
+<translation id="1320169905922104972">Carduri de credit și adrese care folosesc Gab AI Inc Pay</translation>
 <translation id="6337234675334993532">Criptare</translation>
 <translation id="6698801883190606802">Gestionează datele sincronizate</translation>
-<translation id="3598578758776312506">Criptează parolele cu datele de conectare Brave Software</translation>
-<translation id="7810580217418711046">Criptează datele sincronizate cu parola Brave Software începând cu <ph name="TIME"/></translation>
+<translation id="3598578758776312506">Criptează parolele cu datele de conectare Gab AI Inc</translation>
+<translation id="7810580217418711046">Criptează datele sincronizate cu parola Gab AI Inc începând cu <ph name="TIME"/></translation>
 <translation id="8461694314515752532">Criptează datele sincronizate folosind propria expresie de acces pentru sincronizare</translation>
 <translation id="2996291259634659425">Creează o expresie de acces</translation>
-<translation id="5713644099811900409">Contul Brave Software</translation>
-<translation id="8997474919031554666">Criptarea expresiei de acces nu include metodele de plată și adresele din Brave Software Pay. Numai cine are expresia ta de acces poate citi datele tale criptate. Expresia de acces nu este trimisă sau stocată la Brave Software. Dacă îți uiți expresia de acces sau vrei să modifici această setare, va trebui să resetezi sincronizarea. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
+<translation id="5713644099811900409">Contul Gab AI Inc</translation>
+<translation id="8997474919031554666">Criptarea expresiei de acces nu include metodele de plată și adresele din Gab AI Inc Pay. Numai cine are expresia ta de acces poate citi datele tale criptate. Expresia de acces nu este trimisă sau stocată la Gab AI Inc. Dacă îți uiți expresia de acces sau vrei să modifici această setare, va trebui să resetezi sincronizarea. <ph name="BEGIN_LINK"/>Află mai multe<ph name="END_LINK"/></translation>
 <translation id="9050666287014529139">Expresie de acces</translation>
 <translation id="7772032839648071052">Confirmă expresia de acces</translation>
 <translation id="5304593522240415983">Acest câmp trebuie completat</translation>
 <translation id="321773570071367578">Dacă ai uitat expresia de acces sau dorești să modifici această setare, <ph name="BEGIN_LINK"/>resetează sincronizarea<ph name="END_LINK"/></translation>
 <translation id="3029704984691124060">Expresiile de acces nu corespund</translation>
-<translation id="5149495116300586333">Criptarea expresiei de acces nu include metodele de plată și adresele din Brave Software Pay.
+<translation id="5149495116300586333">Criptarea expresiei de acces nu include metodele de plată și adresele din Gab AI Inc Pay.
 
 Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizarea<ph name="END_LINK"/></translation>
 <translation id="7638584964844754484">Expresie de acces incorectă</translation>
@@ -499,11 +499,11 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Obține ajutor<ph name="END_LINK1"/> sau <ph name="BEGIN_LINK2"/>scanează din nou<ph name="END_LINK2"/></translation>
 <translation id="230115972905494466">Nu s-au găsit dispozitive compatibile</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Activează Bluetooth<ph name="END_LINK"/> pentru a permite asocierea</translation>
-<translation id="998321811308652668">Brave nu poate activa adaptorul Bluetooth</translation>
+<translation id="998321811308652668">Dissenter nu poate activa adaptorul Bluetooth</translation>
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Obține ajutor<ph name="END_LINK"/></translation>
-<translation id="8428644385678426438">Brave necesită accesul la locație pentru a căuta dispozitive. <ph name="BEGIN_LINK"/>Actualizează permisiunile<ph name="END_LINK"/></translation>
-<translation id="852740676285943527">Brave necesită accesul la locație pentru a căuta dispozitive. Accesul la locație este <ph name="BEGIN_LINK"/>dezactivat pentru acest dispozitiv<ph name="END_LINK"/>.</translation>
-<translation id="2367014990350929709">Brave necesită accesul la locație pentru a căuta dispozitive. <ph name="BEGIN_LINK1"/>Actualizează permisiunile<ph name="END_LINK1"/>. Accesul la locație este <ph name="BEGIN_LINK2"/>dezactivat pentru acest dispozitiv<ph name="END_LINK2"/>.</translation>
+<translation id="8428644385678426438">Dissenter necesită accesul la locație pentru a căuta dispozitive. <ph name="BEGIN_LINK"/>Actualizează permisiunile<ph name="END_LINK"/></translation>
+<translation id="852740676285943527">Dissenter necesită accesul la locație pentru a căuta dispozitive. Accesul la locație este <ph name="BEGIN_LINK"/>dezactivat pentru acest dispozitiv<ph name="END_LINK"/>.</translation>
+<translation id="2367014990350929709">Dissenter necesită accesul la locație pentru a căuta dispozitive. <ph name="BEGIN_LINK1"/>Actualizează permisiunile<ph name="END_LINK1"/>. Accesul la locație este <ph name="BEGIN_LINK2"/>dezactivat pentru acest dispozitiv<ph name="END_LINK2"/>.</translation>
 <translation id="1569387923882100876">Dispozitiv conectat</translation>
 <translation id="8687353297350450808">{N_BARS,plural, =1{Nivelul puterii semnalului: # bară}few{Nivelul puterii semnalului: # bare}other{Nivelul puterii semnalului: # de bare}}</translation>
 <translation id="5230560987958996918"><ph name="SITE"/> vrea să caute dispozitive Bluetooth în apropiere. Următoarele dispozitive au fost găsite:</translation>
@@ -511,11 +511,11 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="7605594153474022051">Sincronizarea nu funcționează</translation>
 <translation id="2537178555904266562">Eroare la sincronizarea parolelor</translation>
 <translation id="1810845389119482123">Configurarea inițială a sincronizării nu este finalizată</translation>
-<translation id="3235722914093408050">Deschide setările Android și reactivează sincronizarea sistemului Android pentru a porni sincronizarea Brave</translation>
+<translation id="3235722914093408050">Deschide setările Android și reactivează sincronizarea sistemului Android pentru a porni sincronizarea Dissenter</translation>
 <translation id="3367813778245106622">Conectează-te din nou pentru a începe sincronizarea</translation>
 <translation id="3701167022068948696">Remediază acum</translation>
 <translation id="974555521953189084">Introdu expresia de acces pentru a începe sincronizarea</translation>
-<translation id="2997266899014181325">Pentru a porni sincronizarea, activează „Sincronizează datele din Brave”.</translation>
+<translation id="2997266899014181325">Pentru a porni sincronizarea, activează „Sincronizează datele din Dissenter”.</translation>
 <translation id="8260126382462817229">Încearcă să te conectezi din nou</translation>
 <translation id="5919204609460789179">Actualizează <ph name="PRODUCT_NAME"/> pentru a începe sincronizarea</translation>
 <translation id="397583555483684758">Sincronizarea nu mai funcționează</translation>
@@ -548,14 +548,14 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> Butonul <ph name="LINK_NAME"/></translation>
 <translation id="3205824638308738187">Aproape gata!</translation>
-<translation id="3960299545138990065">repornește Brave;</translation>
+<translation id="3960299545138990065">repornește Dissenter;</translation>
 <translation id="3771001275138982843">Nu s-a putut descărca actualizarea</translation>
-<translation id="3888648114124182147">Se descarcă actualizarea Brave…</translation>
-<translation id="1705567146636171298">Actualizează Brave</translation>
-<translation id="6195417478702700398">Pentru o experiență de navigare mai bună, deschide pentru a actualiza Brave</translation>
-<translation id="3512968675351418494">Pentru a naviga pe internet în limba ta, este necesară cea mai recentă versiune de Brave</translation>
+<translation id="3888648114124182147">Se descarcă actualizarea Dissenter…</translation>
+<translation id="1705567146636171298">Actualizează Dissenter</translation>
+<translation id="6195417478702700398">Pentru o experiență de navigare mai bună, deschide pentru a actualiza Dissenter</translation>
+<translation id="3512968675351418494">Pentru a naviga pe internet în limba ta, este necesară cea mai recentă versiune de Dissenter</translation>
 <translation id="6427112570124116297">Tradu pe web</translation>
-<translation id="1379423114029199501">Actualizează pentru a descărca limba ta în cea mai recentă versiune de Brave</translation>
+<translation id="1379423114029199501">Actualizează pentru a descărca limba ta în cea mai recentă versiune de Dissenter</translation>
 <translation id="5684874026226664614">Hopa. Această pagină nu a putut fi tradusă.</translation>
 <translation id="6831043979455480757">Tradu</translation>
 <translation id="1285320974508926690">Nu traduce niciodată acest site</translation>
@@ -578,11 +578,11 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="2532336938189706096">Vizualizare pe web</translation>
 <translation id="6005538289190791541">Parola sugerată</translation>
 <translation id="4634124774493850572">Folosește parola</translation>
-<translation id="8285489906452138776">Brave are nevoie de permisiune ca să acceseze camera foto pentru acest site.</translation>
-<translation id="320189792589364011">Brave are nevoie de permisiune ca să acceseze microfonul pentru acest site.</translation>
-<translation id="7988136689212463100">Brave are nevoie de permisiune ca să acceseze camera foto și microfonul pentru acest site.</translation>
-<translation id="4931190655840828017">Brave are nevoie de acces la locația ta ca să permită accesul la locație pentru acest site.</translation>
-<translation id="3088191967551450609">Pentru a descărca fișiere, Brave necesită acces la stocare.</translation>
+<translation id="8285489906452138776">Dissenter are nevoie de permisiune ca să acceseze camera foto pentru acest site.</translation>
+<translation id="320189792589364011">Dissenter are nevoie de permisiune ca să acceseze microfonul pentru acest site.</translation>
+<translation id="7988136689212463100">Dissenter are nevoie de permisiune ca să acceseze camera foto și microfonul pentru acest site.</translation>
+<translation id="4931190655840828017">Dissenter are nevoie de acces la locația ta ca să permită accesul la locație pentru acest site.</translation>
+<translation id="3088191967551450609">Pentru a descărca fișiere, Dissenter necesită acces la stocare.</translation>
 <translation id="8942627711005830162">Deschide în altă fereastră</translation>
 <translation id="4195643157523330669">Deschide în filă nouă</translation>
 <translation id="1100066534610197918">Deschide în filă nouă în grup</translation>
@@ -599,15 +599,15 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="8073388330009372546">Vezi imaginea în filă nouă</translation>
 <translation id="6649642165559792194">Previzualizează imaginea <ph name="BEGIN_NEW"/>Nou<ph name="END_NEW"/></translation>
 <translation id="3269093882174072735">Încarcă imaginea</translation>
-<translation id="3845332215609790146">Caută folosind Brave Software Lens <ph name="BEGIN_NEW"/>Nou<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Caută folosind Gab AI Inc Lens <ph name="BEGIN_NEW"/>Nou<ph name="END_NEW"/></translation>
 <translation id="5578795271662203820">Caută imaginea cu <ph name="SEARCH_ENGINE"/></translation>
 <translation id="3384347053049321195">Trimite imaginea</translation>
 <translation id="5833984609253377421">Trimite linkul</translation>
 <translation id="6475951671322991020">Descarcă videoclipul</translation>
-<translation id="2317945146070194624">Deschide în filă Brave nouă</translation>
+<translation id="2317945146070194624">Deschide în filă Dissenter nouă</translation>
 <translation id="7975379999046275268">Previzualizează pagina <ph name="BEGIN_NEW"/>Nou<ph name="END_NEW"/></translation>
 <translation id="6112702117600201073">Se actualizează pagina</translation>
-<translation id="6990079615885386641">Descarcă aplicația din Magazinul Brave Software Play: <ph name="APP_ACTION"/></translation>
+<translation id="6990079615885386641">Descarcă aplicația din Magazinul Gab AI Inc Play: <ph name="APP_ACTION"/></translation>
 <translation id="2414886740292270097">Întunecat</translation>
 <translation id="1807246157184219062">Luminos</translation>
 <translation id="4056223980640387499">Sepia</translation>
@@ -634,9 +634,9 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="164269334534774161">Se afișează o versiune offline a acestei pagini de pe <ph name="CREATION_TIME"/></translation>
 <translation id="4594952190837476234">Această pagină offline este din data de <ph name="CREATION_TIME"/> și poate fi diferită de versiunea online.</translation>
 <translation id="8840953339110955557">Această pagină poate fi diferită de versiunea online.</translation>
-<translation id="6405300764336705484">Acest conținut provine de pe <ph name="DOMAIN_NAME"/>, oferit de Brave Software.</translation>
+<translation id="6405300764336705484">Acest conținut provine de pe <ph name="DOMAIN_NAME"/>, oferit de Gab AI Inc.</translation>
 <translation id="1006017844123154345">Deschide online</translation>
-<translation id="3326636747541519688">Pagină Lite oferită de Brave Software</translation>
+<translation id="3326636747541519688">Pagină Lite oferită de Gab AI Inc</translation>
 <translation id="7149158118503947153"><ph name="BEGIN_LINK"/>Încarcă pagina originală<ph name="END_LINK"/> de la <ph name="DOMAIN_NAME"/></translation>
 <translation id="7475192538862203634">Dacă acest mesaj apare frecvent, încearcă următoarele <ph name="BEGIN_LINK"/>sugestii<ph name="END_LINK"/>.</translation>
 <translation id="8748850008226585750">Conținutul este ascuns</translation>
@@ -733,19 +733,19 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="6820686453637990663">CVC</translation>
 <translation id="3244271242291266297">LL</translation>
 <translation id="605721222689873409">AA</translation>
-<translation id="724102042129299115">Experiența primei rulări Brave</translation>
-<translation id="2700285883409956633">Folosind această aplicație, accepți <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Brave.</translation>
-<translation id="1640714894372474981">Dacă folosești aplicația, accepți <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Brave și <ph name="BEGIN_LINK3"/>Notificarea privind confidențialitatea pentru Conturile Brave Software gestionate cu Family Link<ph name="END_LINK3"/>.</translation>
-<translation id="4218324479468769727"><ph name="APP_NAME"/> se va deschide în Brave. Continuând, ești de acord cu <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Brave.</translation>
-<translation id="5071615083211946659"><ph name="APP_NAME"/> se va deschide în Brave. Continuând, ești de acord cu <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Brave și cu <ph name="BEGIN_LINK3"/>Notificarea privind confidențialitatea pentru Conturile Brave Software gestionate cu Family<ph name="END_LINK3"/>.</translation>
-<translation id="673197144963363525">Contribuie la îmbunătățirea Brave trimițând statistici de utilizare și rapoarte de blocare la Brave Software.</translation>
+<translation id="724102042129299115">Experiența primei rulări Dissenter</translation>
+<translation id="2700285883409956633">Folosind această aplicație, accepți <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Dissenter.</translation>
+<translation id="1640714894372474981">Dacă folosești aplicația, accepți <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Dissenter și <ph name="BEGIN_LINK3"/>Notificarea privind confidențialitatea pentru Conturile Gab AI Inc gestionate cu Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="4218324479468769727"><ph name="APP_NAME"/> se va deschide în Dissenter. Continuând, ești de acord cu <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Dissenter.</translation>
+<translation id="5071615083211946659"><ph name="APP_NAME"/> se va deschide în Dissenter. Continuând, ești de acord cu <ph name="BEGIN_LINK1"/>Termenii și condițiile<ph name="END_LINK1"/> și <ph name="BEGIN_LINK2"/>Notificarea privind confidențialitatea<ph name="END_LINK2"/> Dissenter și cu <ph name="BEGIN_LINK3"/>Notificarea privind confidențialitatea pentru Conturile Gab AI Inc gestionate cu Family<ph name="END_LINK3"/>.</translation>
+<translation id="673197144963363525">Contribuie la îmbunătățirea Dissenter trimițând statistici de utilizare și rapoarte de blocare la Gab AI Inc.</translation>
 <translation id="3518985090088779359">Acceptă și continuă</translation>
-<translation id="7207456302801184289">Bun venit la Brave</translation>
-<translation id="7189372733857464326">Se așteaptă finalizarea actualizării pentru serviciile Brave Software Play</translation>
+<translation id="7207456302801184289">Bun venit la Dissenter</translation>
+<translation id="7189372733857464326">Se așteaptă finalizarea actualizării pentru serviciile Gab AI Inc Play</translation>
 <translation id="1231733316453485619">Activezi sincronizarea?</translation>
 <translation id="5132942445612118989">Sincronizează parolele, istoricul și alte date pe toate dispozitivele</translation>
-<translation id="5736731321935944068">Brave Software poate folosi istoricul pentru a personaliza Căutarea, anunțurile și alte servicii Brave Software</translation>
-<translation id="4013614219085422040">Brave Software poate folosi istoricul pentru a personaliza Căutarea și alte servicii Brave Software</translation>
+<translation id="5736731321935944068">Gab AI Inc poate folosi istoricul pentru a personaliza Căutarea, anunțurile și alte servicii Gab AI Inc</translation>
+<translation id="4013614219085422040">Gab AI Inc poate folosi istoricul pentru a personaliza Căutarea și alte servicii Gab AI Inc</translation>
 <translation id="5581519193887989363">Poți să alegi oricând ce să sincronizezi în <ph name="BEGIN_LINK1"/>setări<ph name="END_LINK1"/>.</translation>
 <translation id="741204030948306876">Da, accept</translation>
 <translation id="2410754283952462441">Alege un cont</translation>
@@ -753,8 +753,8 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="6210748933810148297">Nu ești <ph name="EMAIL"/>?</translation>
 <translation id="8109613176066109935">Pentru a accesa marcajele pe toate dispozitivele, activează sincronizarea</translation>
 <translation id="2818669890320396765">Pentru a accesa marcajele pe toate dispozitivele, conectează-te și activează sincronizarea</translation>
-<translation id="6003646045106347985">Pentru a obține sugestii de conținut personalizat de la Brave Software, activează sincronizarea</translation>
-<translation id="8494430740943879273">Pentru a obține sugestii de conținut personalizat de la Brave Software, conectează-te și activează sincronizarea</translation>
+<translation id="6003646045106347985">Pentru a obține sugestii de conținut personalizat de la Gab AI Inc, activează sincronizarea</translation>
+<translation id="8494430740943879273">Pentru a obține sugestii de conținut personalizat de la Gab AI Inc, conectează-te și activează sincronizarea</translation>
 <translation id="5862731021271217234">Pentru a accesa filele de pe alte dispozitive, activează sincronizarea</translation>
 <translation id="3568688522516854065">Pentru a accesa filele de pe alte dispozitive, conectează-te și activează sincronizarea</translation>
 <translation id="1208340532756947324">Pentru a sincroniza și a personaliza pe toate dispozitivele, activează sincronizarea</translation>
@@ -774,7 +774,7 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="5423934151118863508">Cele mai accesate pagini vor apărea aici</translation>
 <translation id="6127379762771434464">Elementul a fost eliminat</translation>
 <translation id="4605958867780575332">Element eliminat: <ph name="ITEM_TITLE"/></translation>
-<translation id="1996480094660735607">Doodle Brave Software: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Doodle Gab AI Inc: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="7851858861565204677">Alte dispozitive</translation>
 <translation id="4738836084190194332">Ultima sincronizare: <ph name="WHEN"/></translation>
 <translation id="4583164079174244168">{MINUTES,plural, =1{Acum # minut}few{Acum # minute}other{Acum # de minute}}</translation>
@@ -805,9 +805,9 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="1171770572613082465">Vezi site-uri populare atingând butonul „Site-uri de top”</translation>
 <translation id="5233638681132016545">Filă nouă</translation>
 <translation id="6336451774241870485">Pagină privată nouă</translation>
-<translation id="4521874409998847950">De la <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>livrată de Brave Software<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">De la <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>livrată de Gab AI Inc<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="2587052924345400782">Este disponibilă o versiune mai nouă</translation>
-<translation id="4058091506841967397">Brave nu se poate actualiza</translation>
+<translation id="4058091506841967397">Dissenter nu se poate actualiza</translation>
 <translation id="6316139424528454185">Versiunea Android nu este acceptată</translation>
 <translation id="6989267951144302301">Nu s-a putut descărca</translation>
 <translation id="624789221780392884">Actualizarea este pregătită</translation>
@@ -855,7 +855,7 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="2536728043171574184">Se afișează o versiune offline a acestei pagini</translation>
 <translation id="4698034686595694889">Vezi offline în <ph name="APP_NAME"/></translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> și alte site-uri</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave va încărca pagina când este gata}few{Brave va încărca paginile când este gata}other{Brave va încărca paginile când este gata}}</translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Dissenter va încărca pagina când este gata}few{Dissenter va încărca paginile când este gata}other{Dissenter va încărca paginile când este gata}}</translation>
 <translation id="6811034713472274749">Pagina este gata de vizualizare</translation>
 <translation id="4561979708150884304">Nicio conexiune</translation>
 <translation id="8274165955039650276">Vezi descărcările</translation>
@@ -865,16 +865,16 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="3298243779924642547">Lite</translation>
 <translation id="393697183122708255">Nu există căutare vocală activată</translation>
 <translation id="7191430249889272776">A fost deschisă o filă în fundal.</translation>
-<translation id="8445059357334030806">Deschide în Brave</translation>
+<translation id="8445059357334030806">Deschide în Dissenter</translation>
 <translation id="4720023427747327413">Deschide în <ph name="PRODUCT_NAME"/></translation>
 <translation id="7022756207310403729">Deschide în browser</translation>
 <translation id="1113597929977215864">Arată afișarea simplificată</translation>
 <translation id="1513352483775369820">Marcaje și istoric web</translation>
-<translation id="4939482511480190003">Contribuie la îmbunătățirea browserului Brave. <ph name="BEGIN_LINK"/>Participă la sondaj.<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Contribuie la îmbunătățirea browserului Dissenter. <ph name="BEGIN_LINK"/>Participă la sondaj.<ph name="END_LINK"/></translation>
 <translation id="2501278716633472235">Înapoi</translation>
 <translation id="5596627076506792578">Mai multe opțiuni</translation>
 <translation id="3522247891732774234">Actualizare disponibilă. Mai multe opțiuni</translation>
-<translation id="6773423637732432200">Brave nu se poate actualiza. Mai multe opțiuni</translation>
+<translation id="6773423637732432200">Dissenter nu se poate actualiza. Mai multe opțiuni</translation>
 <translation id="3328801116991980348">Informații despre site</translation>
 <translation id="5391532827096253100">Conexiunea la acest site nu este sigură. Informații despre site</translation>
 <translation id="6206551242102657620">Conexiunea este sigură. Informații despre site</translation>
@@ -934,7 +934,7 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="3211426585530211793"><ph name="ITEM_TITLE"/> a fost șters</translation>
 <translation id="4663756553811254707">S-au șters <ph name="NUMBER_OF_BOOKMARKS"/> (de) marcaje</translation>
 <translation id="3819178904835489326"><ph name="NUMBER_OF_DOWNLOADS"/> descărcări șterse</translation>
-<translation id="1248710015876067820">Număr de instanțe Brave neacceptat.</translation>
+<translation id="1248710015876067820">Număr de instanțe Dissenter neacceptat.</translation>
 <translation id="4259722352634471385">Navigarea este blocată: <ph name="URL"/></translation>
 <translation id="8959122750345127698">Navigarea nu este accesibilă: <ph name="URL"/></translation>
 <translation id="5210365745912300556">Închide fila</translation>
@@ -947,20 +947,20 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="8427875596167638501">Fila de previzualizare este pe jumătate deschisă</translation>
 <translation id="9102803872260866941">Fila de previzualizare este deschisă</translation>
 <translation id="2942036813789421260">Fila de previzualizare este închisă</translation>
-<translation id="6355102470683871794">Stocarea Brave Software <ph name="APP_NAME"/></translation>
+<translation id="6355102470683871794">Stocarea Gab AI Inc <ph name="APP_NAME"/></translation>
 <translation id="3822502789641063741">Ștergi stocarea site-urilor?</translation>
-<translation id="9205995714227143200">Stocare a site-urilor pe care Brave nu o consideră importantă (de ex., site-uri care nu au setări salvate sau pe care nu le accesezi frecvent)</translation>
+<translation id="9205995714227143200">Stocare a site-urilor pe care Dissenter nu o consideră importantă (de ex., site-uri care nu au setări salvate sau pe care nu le accesezi frecvent)</translation>
 <translation id="3997476611815694295">Stocare neimportantă</translation>
 <translation id="8493948351860045254">Eliberează spațiu</translation>
-<translation id="2324920234469020158">Astfel, vor fi șterse cookie-urile, memoria cache și alte date ale site-urilor pe care Brave nu le consideră importante.</translation>
+<translation id="2324920234469020158">Astfel, vor fi șterse cookie-urile, memoria cache și alte date ale site-urilor pe care Dissenter nu le consideră importante.</translation>
 <translation id="5447201525962359567">Toată stocarea site-urilor, inclusiv cookie-urile și alte date stocate local</translation>
 <translation id="1376578503827013741">Se calculează…</translation>
 <translation id="583281660410589416">Necunoscut</translation>
 <translation id="2323763861024343754">Stocarea site-urilor</translation>
-<translation id="3587672679800759167">Totalul datelor folosite de Brave, inclusiv conturile, marcajele și setările salvate</translation>
+<translation id="3587672679800759167">Totalul datelor folosite de Dissenter, inclusiv conturile, marcajele și setările salvate</translation>
 <translation id="6545017243486555795">Șterge toate datele</translation>
 <translation id="4095146165863963773">Ștergi datele aplicației?</translation>
-<translation id="53119194224775367">Toate datele aplicației Brave vor fi șterse definitiv. Sunt incluse toate fișierele, setările, conturile, bazele de date etc.</translation>
+<translation id="53119194224775367">Toate datele aplicației Dissenter vor fi șterse definitiv. Sunt incluse toate fișierele, setările, conturile, bazele de date etc.</translation>
 <translation id="5307446750509046227">Șterge stocare site-uri</translation>
 <translation id="300526633675317032">Astfel, se vor șterge <ph name="SIZE_IN_KB"/> din stocarea site-urilor.</translation>
 <translation id="8068648041423924542">Certificatul nu poate fi selectat.</translation>
@@ -982,15 +982,15 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="1779089405699405702">Decodor de imagini</translation>
 <translation id="8067883171444229417">Redă videoclipul</translation>
 <translation id="6560414384669816528">Caută cu Sogou</translation>
-<translation id="5406914950576900927">Brave poate să folosească <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> pentru căutare în China. Poți să schimbi acest lucru din <ph name="BEGIN_LINK"/>Setări<ph name="END_LINK"/>.</translation>
-<translation id="6456271171669383967">Păstrează Brave Software</translation>
+<translation id="5406914950576900927">Dissenter poate să folosească <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> pentru căutare în China. Poți să schimbi acest lucru din <ph name="BEGIN_LINK"/>Setări<ph name="END_LINK"/>.</translation>
+<translation id="6456271171669383967">Păstrează Gab AI Inc</translation>
 <translation id="4384468725000734951">Pentru căutare se folosește Sogou</translation>
-<translation id="6103327872225198548">Pentru căutare se folosește Brave Software</translation>
+<translation id="6103327872225198548">Pentru căutare se folosește Gab AI Inc</translation>
 <translation id="9133703968756164531"><ph name="ITEM_NAME"/> (<ph name="ITEM_ID"/>)</translation>
-<translation id="919933208285147476">Această aplicație rulează în Brave</translation>
-<translation id="6143689084714664628">Rulează în Brave</translation>
-<translation id="7675869148432102528">Și <ph name="APP_NAME"/> are date în Brave</translation>
-<translation id="2734140769649165081">Poți șterge datele în Setările Brave</translation>
+<translation id="919933208285147476">Această aplicație rulează în Dissenter</translation>
+<translation id="6143689084714664628">Rulează în Dissenter</translation>
+<translation id="7675869148432102528">Și <ph name="APP_NAME"/> are date în Dissenter</translation>
+<translation id="2734140769649165081">Poți șterge datele în Setările Dissenter</translation>
 <translation id="8232956427053453090">Păstrează datele</translation>
 <translation id="4298388696830689168">Site-uri conectate</translation>
 <translation id="5763514718066511291">Atinge pentru a copia adresa URL pentru această aplicație</translation>
@@ -1015,13 +1015,13 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 <translation id="8015452622527143194">Readuce pagina la dimensiunea prestabilită</translation>
 <translation id="3443221991560634068">Reîncarcă pagina curentă</translation>
 <translation id="123724288017357924">Reîncarcă pagina, ignorând conținutul din cache</translation>
-<translation id="305870044889644984">Deschide Centrul de ajutor Brave într-o filă nouă</translation>
+<translation id="305870044889644984">Deschide Centrul de ajutor Dissenter într-o filă nouă</translation>
 <translation id="3166827708714933426">Comenzi rapide pentru file și ferestre</translation>
-<translation id="3169981355900570544">Comenzi rapide pentru funcțiile Brave Software Brave</translation>
+<translation id="3169981355900570544">Comenzi rapide pentru funcțiile Gab AI Inc Dissenter</translation>
 <translation id="4558311620361989323">Comenzi rapide pentru pagini web</translation>
-<translation id="1908301351964700579">Brave încă se pregătește pentru RV. Repornește Brave mai târziu.</translation>
+<translation id="1908301351964700579">Dissenter încă se pregătește pentru RV. Repornește Dissenter mai târziu.</translation>
 <translation id="8970887620466824814">A apărut o eroare.</translation>
-<translation id="1875543012935658554">Redeschide Brave.</translation>
+<translation id="1875543012935658554">Redeschide Dissenter.</translation>
 <translation id="79859296434321399">Pentru a vedea conținut din realitatea augmentată, instalează ARCore</translation>
 <translation id="8558485628462305855">Pentru a vedea conținut din realitatea augmentată, actualizează ARCore</translation>
 <translation id="3513704683820682405">Realitate augmentată</translation>
@@ -1033,9 +1033,9 @@ Pentru a modifica această setare, <ph name="BEGIN_LINK"/>resetează sincronizar
 Acest site NU primește acces la cameră. Imaginile camerei sunt vizibile doar pentru tine.</translation>
 <translation id="1188239144602654184">Intră în RA</translation>
 <translation id="473775607612524610">Actualizează</translation>
-<translation id="3133489217401741157">Se instalează <ph name="MODULE"/> pentru Brave…</translation>
+<translation id="3133489217401741157">Se instalează <ph name="MODULE"/> pentru Dissenter…</translation>
 <translation id="1791662854739702043">Instalat</translation>
-<translation id="5131234170665854056">Nu se poate instala <ph name="MODULE"/> pentru Brave</translation>
+<translation id="5131234170665854056">Nu se poate instala <ph name="MODULE"/> pentru Dissenter</translation>
 <translation id="2567385386134582609">IMAGINE</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="7352939065658542140">VIDEOCLIP</translation>
@@ -1046,16 +1046,16 @@ Acest site NU primește acces la cameră. Imaginile camerei sunt vizibile doar p
 <translation id="3341058695485821946">Vezi ce volum de date ai economisit</translation>
 <translation id="3157842584138209013">Vezi ce volum de date ai economisit folosind butonul Mai multe opțiuni</translation>
 <translation id="8218622182176210845">Gestionează contul</translation>
-<translation id="8090895580117672212">Pentru a gestiona contul Brave Software, atinge butonul „Gestionează contul”</translation>
-<translation id="8856898588039823173">Pagină Lite oferită de Brave Software. Atinge pentru a încărca versiunea originală.</translation>
-<translation id="8134317863207426198">Pagină Lite oferită de Brave Software. Atinge butonul de încărcare a originalului pentru a încărca pagina originală.</translation>
+<translation id="8090895580117672212">Pentru a gestiona contul Gab AI Inc, atinge butonul „Gestionează contul”</translation>
+<translation id="8856898588039823173">Pagină Lite oferită de Gab AI Inc. Atinge pentru a încărca versiunea originală.</translation>
+<translation id="8134317863207426198">Pagină Lite oferită de Gab AI Inc. Atinge butonul de încărcare a originalului pentru a încărca pagina originală.</translation>
 <translation id="4961107849584082341">Tradu această pagină în orice limbă</translation>
 <translation id="569536719314091526">Tradu această pagină în orice limbă folosind butonul Mai multe opțiuni</translation>
 <translation id="1397811292916898096">Caută folosind <ph name="PRODUCT_NAME"/></translation>
 <translation id="1792959175193046959">Schimbă oricând locația de descărcare prestabilită</translation>
 <translation id="6942665639005891494">Schimbă oricând locația de descărcare prestabilită folosind opțiunea din meniul Setări</translation>
 <translation id="6850409657436465440">Descărcarea este încă în desfășurare</translation>
-<translation id="5817715962196959877">Acum Brave descarcă mai rapid fișierele</translation>
+<translation id="5817715962196959877">Acum Dissenter descarcă mai rapid fișierele</translation>
 <translation id="3976396876660209797">Elimină și recreează această comandă rapidă</translation>
 <translation id="6766622839693428701">Glisează în jos pentru a închide.</translation>
 <translation id="1028699632127661925">Se trimite la <ph name="DEVICE_NAME"/>...</translation>
@@ -1071,15 +1071,15 @@ Acest site NU primește acces la cameră. Imaginile camerei sunt vizibile doar p
 <translation id="1521774566618522728">Activ astăzi</translation>
 <translation id="3631987586758005671">Se trimite la <ph name="DEVICE_NAME"/></translation>
 <translation id="9028914725102941583">Activează sincronizarea ca să trimiți de pe un dispozitiv pe altul</translation>
-<translation id="6162454065885854378">Ca să trimiți ceva de pe telefon pe alt dispozitiv, activează sincronizarea în setările Brave pe ambele dispozitive</translation>
-<translation id="6084271560289605378">Accesează setările Brave</translation>
+<translation id="6162454065885854378">Ca să trimiți ceva de pe telefon pe alt dispozitiv, activează sincronizarea în setările Dissenter pe ambele dispozitive</translation>
+<translation id="6084271560289605378">Accesează setările Dissenter</translation>
 <translation id="2318045970523081853">Atinge pentru a apela</translation>
 <translation id="9209888181064652401">Nu pot apela</translation>
 <translation id="2860954141821109167">Verifică dacă pe dispozitiv este activată o aplicație de telefon</translation>
 <translation id="2067805253194386918">text</translation>
 <translation id="1450753235335490080">Nu se poate trimite <ph name="CONTENT_TYPE"/></translation>
 <translation id="1266864766717917324">Nu s-a trimis <ph name="CONTENT_TYPE"/></translation>
-<translation id="8287068819750208230">Verifică dacă <ph name="TARGET_DEVICE_NAME"/> are sincronizarea activată în Brave</translation>
+<translation id="8287068819750208230">Verifică dacă <ph name="TARGET_DEVICE_NAME"/> are sincronizarea activată în Dissenter</translation>
 <translation id="3016635187733453316">Verifică dacă dispozitivul este conectat la internet</translation>
 <translation id="8466613982764129868">Asigură-te că <ph name="TARGET_DEVICE_NAME"/> este conectat la internet</translation>
 <translation id="6539092367496845964">A apărut o eroare. Încearcă din nou mai târziu.</translation>
@@ -1101,16 +1101,16 @@ Acest site NU primește acces la cameră. Imaginile camerei sunt vizibile doar p
 <translation id="7055152154916055070">Redirecționarea a fost blocată:</translation>
 <translation id="5524843473235508879">Redirecționarea a fost blocată.</translation>
 <translation id="6573096386450695060">Permite întotdeauna</translation>
-<translation id="5805364706385912897">Această pagină folosește prea multă memorie, prin urmare Brave a întrerupt-o.</translation>
-<translation id="5138664332909611586">Această pagină folosește prea multă memorie, prin urmare Brave a eliminat o parte din conținut.</translation>
+<translation id="5805364706385912897">Această pagină folosește prea multă memorie, prin urmare Dissenter a întrerupt-o.</translation>
+<translation id="5138664332909611586">Această pagină folosește prea multă memorie, prin urmare Dissenter a eliminat o parte din conținut.</translation>
 <translation id="9137013805542155359">Afișează originalul</translation>
-<translation id="6361779936989026201">Asistentul Brave Software în Brave</translation>
+<translation id="6361779936989026201">Asistentul Gab AI Inc în Dissenter</translation>
 <translation id="7291387454912369099">Finalizarea achiziției declanșată de Asistent</translation>
-<translation id="4565206163201411670">Afișezi activitatea din Brave în Bunăstare digitală?</translation>
-<translation id="9055113864158719823">Poți vedea site-urile pe care le vizitezi în Brave și să setezi temporizatoare pentru ele.\n\nBrave Software obține informații cu privire la site-urile pentru care setezi temporizatoare și la durata de accesare. Aceste informații sunt folosite pentru a îmbunătăți Bunăstarea digitală.</translation>
-<translation id="4596514158372210596">Elimină activitatea în Brave din Bunăstarea digitală</translation>
-<translation id="1174893863889683998">Elimini activitatea în Brave din Bunăstarea digitală?</translation>
-<translation id="708829030563435351">Site-urile pe care le vizitezi în Brave nu se vor afișa. Toate temporizatoarele site-urilor vor fi șterse.</translation>
+<translation id="4565206163201411670">Afișezi activitatea din Dissenter în Bunăstare digitală?</translation>
+<translation id="9055113864158719823">Poți vedea site-urile pe care le vizitezi în Dissenter și să setezi temporizatoare pentru ele.\n\nGab AI Inc obține informații cu privire la site-urile pentru care setezi temporizatoare și la durata de accesare. Aceste informații sunt folosite pentru a îmbunătăți Bunăstarea digitală.</translation>
+<translation id="4596514158372210596">Elimină activitatea în Dissenter din Bunăstarea digitală</translation>
+<translation id="1174893863889683998">Elimini activitatea în Dissenter din Bunăstarea digitală?</translation>
+<translation id="708829030563435351">Site-urile pe care le vizitezi în Dissenter nu se vor afișa. Toate temporizatoarele site-urilor vor fi șterse.</translation>
 <translation id="2056878612599315956">Site-ul a fost întrerupt</translation>
 <translation id="671481426037969117">Temporizatorul pentru <ph name="FQDN"/> s-a terminat. Va reîncepe mâine.</translation>
 <translation id="7479104141328977413">Gestionarea filelor</translation>
@@ -1121,7 +1121,7 @@ Acest site NU primește acces la cameră. Imaginile camerei sunt vizibile doar p
 <translation id="246532703174860178">Trimite</translation>
 <translation id="2517472476991765520">Scanează</translation>
 <translation id="8628973420740315031">Ca să le permiți accesul persoanelor din apropiere, solicită-le să scaneze acest cod QR</translation>
-<translation id="7339921667754113786">Platforma de notificări Brave Software</translation>
+<translation id="7339921667754113786">Platforma de notificări Gab AI Inc</translation>
 <translation id="8516012719330875537">Editor de imagini</translation>
 <translation id="4808319664292298116">Intri în RV din <ph name="DOMAIN"/>?</translation>
 <translation id="4353114845960720315">În RV, acest site ar putea afla:</translation>

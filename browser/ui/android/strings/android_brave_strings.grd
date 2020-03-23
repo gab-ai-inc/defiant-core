@@ -115,10 +115,10 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
   </translations>
   <release seq="1" allow_pseudo="false">
     <messages fallback_to_english="true">
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable Brave Shields.">
-        Enable/Disable Brave Shields
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_SHIELDS" desc="Content description for the button that is enable, disable Dissenter Shields.">
+        Enable/Disable Dissenter Shields
       </message>
-      <message name="IDS_BRAVE_SHIELDS" desc="Brave Shields title.">
+      <message name="IDS_BRAVE_SHIELDS" desc="Dissenter Shields title.">
         Shields
       </message>
       <message name="IDS_BRAVE_SHIELDS_BLOCK_3RD_PARTY_COOKIES_SWITCH" desc="Switch for Block Scripts.">
@@ -148,14 +148,14 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_BRAVE_SHIELDS_SCRIPTS_BLOCKED" desc="Scripts Blocked.">
         Scripts Blocked
       </message>
-      <message name="IDS_BRAVE_SHIELDS_FIRST_GROUP_TITLE" desc="Title for the first group of Brave's shields panel.">
+      <message name="IDS_BRAVE_SHIELDS_FIRST_GROUP_TITLE" desc="Title for the first group of Dissenter's shields panel.">
         Blocking Monitor
       </message>
-      <message name="IDS_BRAVE_SHIELDS_SECOND_GROUP_TITLE" desc="Title for the second group of Brave's shields panel.">
+      <message name="IDS_BRAVE_SHIELDS_SECOND_GROUP_TITLE" desc="Title for the second group of Dissenter's shields panel.">
         Individual Controls
       </message>
-      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_REWARDS" desc="Content description for the button that is enable, disable Brave Rewards.">
-        Manage Brave Rewards
+      <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BRAVE_REWARDS" desc="Content description for the button that is enable, disable Dissenter Rewards.">
+        Manage Dissenter Rewards
       </message>
       <message name="IDS_PREFS_SECTION_SEARCH_ENGINE" desc="Title for search engine section that can select DSE of normal and private tab">
         Search engine
@@ -218,10 +218,10 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Prefer desktop version of sites
       </message>
       <message name="IDS_SETTINGS_PLAY_YT_VIDEO_IN_BROWSER_TITLE" desc="Title for desktop mode in site settings">
-        Video playback in Brave
+        Video playback in Dissenter
       </message>
       <message name="IDS_SETTINGS_PLAY_YT_VIDEO_IN_BROWSER_ON" desc="Desc for desktop mode in site settings">
-        If enabled, videos will be played in Brave instead of corresponding app
+        If enabled, videos will be played in Dissenter instead of corresponding app
       </message>
       <message name="IDS_PREFS_SECTION_CONTROLS" desc="Title for controls section in main preferences screen">
         Controls
@@ -230,7 +230,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Background video playback
       </message>
       <message name="IDS_PREFS_CLOSING_ALL_TABS_CLOSES_BRAVE" desc="Title for closing all tabs closes brave in controls section">
-        Closing all tabs closes Brave
+        Closing all tabs closes Dissenter
       </message>
       <message name="IDS_PREFS_BACKGROUND_VIDEO_PLAYBACK_ON" desc="Text for background video playback is on">
         Experimental. Enables play audio from video in background when tab is not active or device screen is turned off. Try to switch to desktop mode if this feature is not working.
@@ -247,11 +247,11 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
       <message name="IDS_PREFS_APPEARANCE" desc="Title of Appearance settings, which allows the user to change display settings. [CHAR-LIMIT=32]">
         Appearance
       </message>
-      <message name="IDS_HIDE_BRAVE_REWARDS_ICON_TITLE" desc="Title for preference that hides or shows Brave Rewards icon.">
-        Hide Brave Rewards Icon
+      <message name="IDS_HIDE_BRAVE_REWARDS_ICON_TITLE" desc="Title for preference that hides or shows Dissenter Rewards icon.">
+        Hide Dissenter Rewards Icon
       </message>
-      <message name="IDS_HIDE_BRAVE_REWARDS_ICON_DESCRIPTION" desc="Description for preference that hides or shows Brave Rewards icon.">
-        Hides the Brave Rewards Icon when Brave Rewards is not enabled
+      <message name="IDS_HIDE_BRAVE_REWARDS_ICON_DESCRIPTION" desc="Description for preference that hides or shows Dissenter Rewards icon.">
+        Hides the Dissenter Rewards Icon when Dissenter Rewards is not enabled
       </message>
       <message name="IDS_BOTTOM_TOOLBAR_ENABLE" desc="Menu item for enabling the bottom toolbar.">
         Enable bottom toolbar
@@ -263,7 +263,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Off
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOTICE" desc="Text for message asked about browser relaunch to apply new settings">
-        Your changes will take effect the next time you relaunch Brave
+        Your changes will take effect the next time you relaunch Dissenter
       </message>
       <message name="IDS_SETTINGS_REQUIRE_RELAUNCH_NOW" desc="Text on the button causes relaunch browser now">
         RELAUNCH NOW
@@ -283,7 +283,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Troubleshooting onboarding
       </message>
       <message name="IDS_WELCOME_TO_BRAVE_BROWSER" desc="Title for search engine page for onboarding">
-        Welcome to Brave Browser
+        Welcome to Dissenter Browser
       </message>
       <message name="IDS_SELECT_YOUR_DEFAULT_SEARCH_ENGINE" desc="Text for search engine page for onboarding">
         Select your default search engine
@@ -292,7 +292,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Block
       </message>
       <message name="IDS_BRAVE_SHIELDS_ONBOARDING_TITLE" desc="Title for brave shield page">
-        Brave Shields
+        Dissenter Shields
       </message>
       <message name="IDS_BRAVE_SHIELDS_ONBOARDING_TEXT" desc="Text for brave shield page">
         privacy-invading ads and trackers so you can browse without being followed around the web.
@@ -301,7 +301,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Earn tokens
       </message>
       <message name="IDS_BRAVE_REWARDS_ONBOARDING_TITLE" desc="Title for brave rewards page">
-        Brave Rewards
+        Dissenter Rewards
       </message>
       <message name="IDS_BRAVE_REWARDS_ONBOARDING_TEXT" desc="Text for brave rewards page">
         for seeing privacy-respecting ads. Use them to support your favorite sites and creators.
@@ -322,13 +322,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         I didn&apos;t see an ad
       </message>
       <message name="IDS_BRAVE_ADS_ONBOARDING_TITLE" desc="Title for brave ads page">
-        Brave will show your first ad in
+        Dissenter will show your first ad in
       </message>
       <message name="IDS_BRAVE_ADS_ONBOARDING_TEXT" desc="Text for brave ads page">
-        To see ads from Brave Rewards, make sure Brave is allowed to show you notifications.
+        To see ads from Dissenter Rewards, make sure Dissenter is allowed to show you notifications.
       </message>
       <message name="IDS_THIS_IS_YOUR_FIRST_AD" desc="Text brave rewards notification.">
-        This is your first Brave ad. Tap to learn more.
+        This is your first Dissenter ad. Tap to learn more.
       </message>
       <message name="IDS_TURN_ON" desc="Text for turn on button">
         Turn On
@@ -353,19 +353,19 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Set as default browser
       </message>
       <message name="IDS_BRAVE_SET_DEFAULT_BROWSER_DIALOG_TEXT" desc="Dialog for setting default browser">
-        Select Brave Browser from the list and tap 'Always'
+        Select Dissenter Browser from the list and tap 'Always'
       </message>
-      <message name="IDS_BRAVE_ALREADY_SET_AS_DEFAULT_BROWSER" desc="Toast message for those whom have already set Brave as default browser">
-        Brave is already set as your default browser.
+      <message name="IDS_BRAVE_ALREADY_SET_AS_DEFAULT_BROWSER" desc="Toast message for those whom have already set Dissenter as default browser">
+        Dissenter is already set as your default browser.
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_GO_TO_SETTINGS" desc="Toast message for those without 7.0 to go to settings to change default browser">
         You've already set a default browser. You may change the default browser in your app settings.
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_TITLE" desc="Title for default browser notification.">
-        Brave is lightning fast
+        Dissenter is lightning fast
       </message>
       <message name="IDS_BRAVE_DEFAULT_BROWSER_BODY" desc="Body for default browser notification.">
-        Make Brave your default browser!
+        Make Dissenter your default browser!
       </message>
       <message name="IDS_BRAVE_MAKE_DEFAULT_TEXT" desc="Text for positive default browser notification button.">
         Make default
@@ -374,13 +374,13 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         No
       </message>
       <message name="IDS_MENU_BRAVE_REWARDS" desc="Title for brave rewards menu item">
-        Brave Rewards
+        Dissenter Rewards
       </message>
       <message name="IDS_DDG_OFFER_TITLE" desc="Title for DDG offer.">
         Private search with DuckDuckGo?
       </message>
       <message name="IDS_DDG_OFFER_TEXT" desc="Text for DDG offer.">
-        With private search, Brave will use DuckDuckGo to answer your searches while you are in this private tab. DuckDuckGo is a search engine that does not track your search history, enabling you to search privately.
+        With private search, Dissenter will use DuckDuckGo to answer your searches while you are in this private tab. DuckDuckGo is a search engine that does not track your search history, enabling you to search privately.
       </message>
       <message name="IDS_DDG_OFFER_POSITIVE" desc="Positive button text for DDG offer.">
         Yes
@@ -407,7 +407,7 @@ This file contains all "about" strings.  It is set to NOT be translated, in tran
         Your first monthly tip will be sent on:
       </message>
       <message name="IDS_BRAVE_UI_SITE_BANNER_NOTICE_TEXT" desc="A message on tipping page when a creator is not verified yet">
-        NOTE: This creator has not yet signed up to receive contributions from Brave users. We'll keep trying to contribute until they verify, or until 90 days have passed.
+        NOTE: This creator has not yet signed up to receive contributions from Dissenter users. We'll keep trying to contribute until they verify, or until 90 days have passed.
       </message>
       <message name="IDS_BRAVE_UI_SITE_BANNER_WELCOME" desc="Tipping page title">
         Welcome!
@@ -450,11 +450,11 @@ the next Internet.
         You can now earn tokens for
 watching privacy-respecting ads.
       </message>
-      <message name="IDS_BRAVE_UI_WELCOME_BUTTON_TEXT_TWO" desc="Button to join Brave Rewards">
+      <message name="IDS_BRAVE_UI_WELCOME_BUTTON_TEXT_TWO" desc="Button to join Dissenter Rewards">
         JOIN REWARDS
       </message>
-      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="Menu item and title for Brave Rewards Settings. [CHAR-LIMIT=27]">
-        Brave Rewards
+      <message name="IDS_BRAVE_UI_BRAVE_REWARDS" desc="Menu item and title for Dissenter Rewards Settings. [CHAR-LIMIT=27]">
+        Dissenter Rewards
       </message>
       <message name="IDS_BRAVE_UI_WELCOME_FOOTER_TEXT_TWO" desc="Learn more hyperlink">
         LEARN MORE
@@ -495,13 +495,13 @@ content creators you love.
         ENABLE BRAVE REWARDS
       </message>
       <message name="IDS_BRAVE_UI_VERIFIED_PUBLISHER" desc="A message that a particular publisher is verified">
-        Brave Verified Publisher
+        Dissenter Verified Publisher
       </message>
       <message name="IDS_BRAVE_UI_NOT_VERIFIED_PUBLISHER" desc="A message that a particular publisher is not verified">
         Not yet verified
       </message>
       <message name="IDS_BRAVE_UI_NOT_VERIFIED_PUBLISHER_DESCRIPTION" desc="A message that appear when a particular publisher is not verified">
-        This creator has not yet signed up to receive contributions from Brave users.
+        This creator has not yet signed up to receive contributions from Dissenter users.
         Any tips you send will remain in your wallet until they verify.
       </message>
       <message name="IDS_BRAVE_UI_DONATE_NOW" desc="Send a tip button text">
@@ -562,35 +562,35 @@ month...
       <message name="IDS_BRAVE_UI_NEW_TOKEN_GRANT" desc="A notification about free token grant">
         Free Token Grant
       </message>
-      <message name="IDS_NOTIFICATION_CATEGORY_GROUP_BRAVE_ADS" desc="Subheading for 'Brave Ads' section of a list of notification categories. [CHAR-LIMIT=32]">
-        Brave Ads
+      <message name="IDS_NOTIFICATION_CATEGORY_GROUP_BRAVE_ADS" desc="Subheading for 'Dissenter Ads' section of a list of notification categories. [CHAR-LIMIT=32]">
+        Dissenter Ads
       </message>
-      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS" desc="Label for Brave Ads. [CHAR-LIMIT=32]">
-        Brave Ads
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS" desc="Label for Dissenter Ads. [CHAR-LIMIT=32]">
+        Dissenter Ads
       </message>
       <message name="IDS_BRAVE_UI_NEW_GRANT" desc="A notification about free token grant">
         A free token grant is available.
       </message>
-      <message name="IDS_BRAVE_ADS_YOU_EARNED" desc='Brave Ads "You earned" text'>
+      <message name="IDS_BRAVE_ADS_YOU_EARNED" desc='Dissenter Ads "You earned" text'>
         You've earned
       </message>
       <message name="IDS_BRAVE_UI_INSUFFICIENT_FUNDS_MSG" desc="A message about not enough funds">
         Insufficient Funds
       </message>
       <message name="IDS_BRAVE_UI_INSUFFICIENT_FUNDS_DESC" desc="A notification message about not enough funds">
-        Your Brave Rewards account is waiting for a deposit.
+        Your Dissenter Rewards account is waiting for a deposit.
       </message>
       <message name="IDS_BRAVE_UI_BACKUP_WALLET_MSG" desc="A notification message title about backing up the wallet">
         Backup Wallet
       </message>
       <message name="IDS_BRAVE_UI_BACKUP_WALLET_DESC" desc="A notification message description about backing up the wallet">
-        Please backup your Brave wallet.
+        Please backup your Dissenter wallet.
       </message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_UH_OH" desc="A prefix to a message about a problem">
         Uh oh!
       </message>
       <message name="IDS_BRAVE_REWARDS_LOCAL_SERVER_NOT_RESPONDING" desc="A message that appears when no connection to rewards server">
-        The Brave Rewards server is not responding. We will fix this as soon as possible.
+        The Dissenter Rewards server is not responding. We will fix this as soon as possible.
       </message>
       <message name="IDS_BRAVE_UI_ERROR_INIT_WALLET" desc="An error which appear on wallet creation with no connection to the rewards service">
         Please try again later.
@@ -624,133 +624,133 @@ until they verify, or until 90 days have passed.
       <message name="IDS_BRAVE_UI_DO_MONTHLY" desc="Set monthly tip button text">
         set monthly tip
       </message>
-      <message name="IDS_BRAVE_REWARDS_NOT_AVAILABLE" desc="The message for the dialog when Brave Rewards is not available on the device.">
-        We're sorry it appears Brave Rewards is not available on your device
+      <message name="IDS_BRAVE_REWARDS_NOT_AVAILABLE" desc="The message for the dialog when Dissenter Rewards is not available on the device.">
+        We're sorry it appears Dissenter Rewards is not available on your device
       </message>
-      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
-        Brave Ads are here!
+      <message name="IDS_BRAVE_ADS_EXISTING_USER_OFFER_TITLE" desc="Title for Dissenter Ads offer.">
+        Dissenter Ads are here!
       </message>
-      <message name="IDS_BRAVE_SYNC_REQUIRES_CORRECT_TIME" desc="Text for Brave Sync requires correct time.">
+      <message name="IDS_BRAVE_SYNC_REQUIRES_CORRECT_TIME" desc="Text for Dissenter Sync requires correct time.">
 	Your computer's clock may be set to the wrong time, or to the wrong time-zone. Check your clock settings
       </message>
-      <message name="IDS_BRAVE_SYNC_DEVICE_FAILURE" desc="Text for Brave Sync device failure.">
+      <message name="IDS_BRAVE_SYNC_DEVICE_FAILURE" desc="Text for Dissenter Sync device failure.">
 	Sync could not be setup
       </message>
-      <message name="IDS_BRAVE_SYNC_THIS_DEVICE_TEXT" desc="Text for Brave Sync this device.">
+      <message name="IDS_BRAVE_SYNC_THIS_DEVICE_TEXT" desc="Text for Dissenter Sync this device.">
 	(this device)
       </message>
-      <message name="IDS_BRAVE_SYNC_DEVICES_TITLE" desc="Text for Brave Sync devices title.">
+      <message name="IDS_BRAVE_SYNC_DEVICES_TITLE" desc="Text for Dissenter Sync devices title.">
 	OTHER DEVICES ON CHAIN
       </message>
-      <message name="IDS_BRAVE_SYNC_LOADING_DEVICES_TITLE" desc="Text for Brave Sync loading devices title.">
+      <message name="IDS_BRAVE_SYNC_LOADING_DEVICES_TITLE" desc="Text for Dissenter Sync loading devices title.">
 	LOADING DEVICES...
       </message>
-      <message name="IDS_BRAVE_SYNC_WORD_COUNT_TEXT" desc="Text for Brave Sync word count message.">
+      <message name="IDS_BRAVE_SYNC_WORD_COUNT_TEXT" desc="Text for Dissenter Sync word count message.">
 	Word count: <ph name="WORD_COUNT">%1$d</ph>
       </message>
-      <message name="IDS_BRAVE_SYNC_WORD_COUNT_ERROR" desc="Text for Brave Sync word count error.">
+      <message name="IDS_BRAVE_SYNC_WORD_COUNT_ERROR" desc="Text for Dissenter Sync word count error.">
 	Incorrect number of words
       </message>
-      <message name="IDS_BRAVE_SYNC_TIME_OUT_MESSAGE" desc="Text for Brave Sync time out message.">
+      <message name="IDS_BRAVE_SYNC_TIME_OUT_MESSAGE" desc="Text for Dissenter Sync time out message.">
 	Something went wrong, looks like your request timed out.
       </message>
-      <message name="IDS_BRAVE_SYNC_OFFICIAL" desc="Text for Brave Sync preference.">
-	Brave Sync
+      <message name="IDS_BRAVE_SYNC_OFFICIAL" desc="Text for Dissenter Sync preference.">
+	Dissenter Sync
       </message>
-      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1_PART_1" desc="Text for Brave Sync description part 1.">
-	Brave Sync allows you to sync bookmarks data privately between your Brave Browsers on your various devices.
+      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1_PART_1" desc="Text for Dissenter Sync description part 1.">
+	Dissenter Sync allows you to sync bookmarks data privately between your Dissenter Browsers on your various devices.
       </message>
-      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1_PART_2" desc="Text for Brave Sync description part 2.">
+      <message name="IDS_BRAVE_SYNC_DESCRIPTION_PAGE_1_PART_2" desc="Text for Dissenter Sync description part 2.">
 	Simply scan the code from your sync chain that you created on another device. Or start a new sync chain.
       </message>
-      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE_V2" desc="Text for Brave Sync QR code message.">
-	Using existing synced device, open Brave Settings and navigate to Settings > Sync. Choose "Add Device" and scan the QR Code displayed on the screen.
+      <message name="IDS_BRAVE_SYNC_QRCODE_MESSAGE_V2" desc="Text for Dissenter Sync QR code message.">
+	Using existing synced device, open Dissenter Settings and navigate to Settings > Sync. Choose "Add Device" and scan the QR Code displayed on the screen.
       </message>
-      <message name="IDS_BRAVE_SYNC_COPIED_TEXT" desc="Text for Brave Sync copied text message.">
+      <message name="IDS_BRAVE_SYNC_COPIED_TEXT" desc="Text for Dissenter Sync copied text message.">
 	Copied to Clipboard
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WORDS_TITLE" desc="Text for Brave Sync code words title.">
+      <message name="IDS_BRAVE_SYNC_CODE_WORDS_TITLE" desc="Text for Dissenter Sync code words title.">
 	Pair
       </message>
-      <message name="IDS_BRAVE_SYNC_DELETE_SENT" desc="Text for Brave Sync delete request message.">
+      <message name="IDS_BRAVE_SYNC_DELETE_SENT" desc="Text for Dissenter Sync delete request message.">
 	Delete request has been sent. Device will be removed shortly.
       </message>
-      <message name="IDS_BRAVE_SYNC_REMOVE_DEVICE_TEXT" desc="Text for Brave Sync remove device message.">
+      <message name="IDS_BRAVE_SYNC_REMOVE_DEVICE_TEXT" desc="Text for Dissenter Sync remove device message.">
 	Remove this device
       </message>
-      <message name="IDS_BRAVE_SYNC_DELETE_DEVICE" desc="Text for Brave Sync delete device message.">
+      <message name="IDS_BRAVE_SYNC_DELETE_DEVICE" desc="Text for Dissenter Sync delete device message.">
 	Are you sure you want to delete device '<ph name="DEVICE_NAME">%1$s</ph>'?
       </message>
-      <message name="IDS_BRAVE_SYNC_SCAN_CHAIN_CODE" desc="Text for Brave Sync chain code message.">
+      <message name="IDS_BRAVE_SYNC_SCAN_CHAIN_CODE" desc="Text for Dissenter Sync chain code message.">
 	Scan or enter sync code
       </message>
-      <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN" desc="Text for Brave Sync start new chain message.">
+      <message name="IDS_BRAVE_SYNC_START_NEW_CHAIN" desc="Text for Dissenter Sync start new chain message.">
 	Start a new sync chain
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_MOBILE" desc="Text for Brave Sync add a mobile device button.">
+      <message name="IDS_BRAVE_SYNC_BTN_MOBILE" desc="Text for Dissenter Sync add a mobile device button.">
 	Add a Mobile Device
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_LAPTOP" desc="Text for Brave Sync add a laptop button.">
+      <message name="IDS_BRAVE_SYNC_BTN_LAPTOP" desc="Text for Dissenter Sync add a laptop button.">
 	Add a Computer
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT_PART_1" desc="Text for Brave Sync add a mobile device description part 1.">
-	Using a second phone or tablet, navigate to Brave Settings > Sync > Scan.
+      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT_PART_1" desc="Text for Dissenter Sync add a mobile device description part 1.">
+	Using a second phone or tablet, navigate to Dissenter Settings > Sync > Scan.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT_PART_2" desc="Text for Brave Sync add a mobile device description part 2.">
-	On your mobile device, navigate to Brave Sync in the Settings panel and click the button "Scan Sync Code". Use your camera to scan the QR Code below.
+      <message name="IDS_BRAVE_SYNC_ADD_MOBILE_DEVICE_TEXT_PART_2" desc="Text for Dissenter Sync add a mobile device description part 2.">
+	On your mobile device, navigate to Dissenter Sync in the Settings panel and click the button "Scan Sync Code". Use your camera to scan the QR Code below.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_PART_1" desc="Text for Brave Sync add a laptop description part 1.">
-	On your computer, navigate to Brave Settings > Sync. Choose "Enter a Sync Chain Code".
+      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_PART_1" desc="Text for Dissenter Sync add a laptop description part 1.">
+	On your computer, navigate to Dissenter Settings > Sync. Choose "Enter a Sync Chain Code".
       </message>
-      <message name="IDS_BRAVE_SYNC_SCAN_SYNC_CODE" desc="Text for Brave Sync scan sync code message.">
+      <message name="IDS_BRAVE_SYNC_SCAN_SYNC_CODE" desc="Text for Dissenter Sync scan sync code message.">
 	Scan this sync code
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WARNING" desc="Text for Brave Sync code warning message.">
+      <message name="IDS_BRAVE_SYNC_CODE_WARNING" desc="Text for Dissenter Sync code warning message.">
 	Treat this code like a password. If someone gets hold of it, they can read and modify your synced data.
       </message>
-      <message name="IDS_BRAVE_SYNC_LOADING_DATA_TITLE" desc="Text for Brave Sync loading data title.">
+      <message name="IDS_BRAVE_SYNC_LOADING_DATA_TITLE" desc="Text for Dissenter Sync loading data title.">
 	Loading data...
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_PART_2_NEW" desc="Text for Brave Sync add laptop part 2.">
-	On your target computer, navigate to Brave Sync in settings and click the button "I have a Sync Code".\nEnter the sync chain code words shown below.
+      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_PART_2_NEW" desc="Text for Dissenter Sync add laptop part 2.">
+	On your target computer, navigate to Dissenter Sync in settings and click the button "I have a Sync Code".\nEnter the sync chain code words shown below.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_TITLE" desc="Text for Brave Sync add laptop title.">
+      <message name="IDS_BRAVE_SYNC_ADD_LAPTOP_TEXT_TITLE" desc="Text for Dissenter Sync add laptop title.">
 	Enter the sync chain code
       </message>
-      <message name="IDS_BRAVE_SYNC_QR_CODE" desc="Text for Brave Sync QR code.">
+      <message name="IDS_BRAVE_SYNC_QR_CODE" desc="Text for Dissenter Sync QR code.">
 	QR Code
       </message>
-      <message name="IDS_BRAVE_SYNC_CODE_WORDS" desc="Text for Brave Sync code words.">
+      <message name="IDS_BRAVE_SYNC_CODE_WORDS" desc="Text for Dissenter Sync code words.">
 	Code Words
       </message>
-      <message name="IDS_BRAVE_SYNC_COPY_BUTTON_TEXT" desc="Text for Brave Sync copy button.">
+      <message name="IDS_BRAVE_SYNC_COPY_BUTTON_TEXT" desc="Text for Dissenter Sync copy button.">
 	Copy to Clipboard
       </message>
-      <message name="IDS_BRAVE_SYNC_BTN_DONE" desc="Text for Brave Sync done button.">
+      <message name="IDS_BRAVE_SYNC_BTN_DONE" desc="Text for Dissenter Sync done button.">
 	Done
       </message>
-      <message name="IDS_BRAVE_SYNC_SETTINGS_TITLE" desc="Text for Brave Sync settings title.">
+      <message name="IDS_BRAVE_SYNC_SETTINGS_TITLE" desc="Text for Dissenter Sync settings title.">
 	SYNC ON THIS DEVICE
       </message>
-      <message name="IDS_BRAVE_SYNC_SETTINGS_DESCRIPTION" desc="Text for Brave Sync settings description.">
+      <message name="IDS_BRAVE_SYNC_SETTINGS_DESCRIPTION" desc="Text for Dissenter Sync settings description.">
 	Changing settings will only affect data that this device shares with others.
       </message>
-      <message name="IDS_BRAVE_SYNC_ADD_DEVICE_TEXT" desc="Text for Brave Sync add device message.">
+      <message name="IDS_BRAVE_SYNC_ADD_DEVICE_TEXT" desc="Text for Dissenter Sync add device message.">
 	Add another device
       </message>
-      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Text for Brave Sync enter code words message.">
+      <message name="IDS_ENTER_CODE_WORDS_SYNC" desc="Text for Dissenter Sync enter code words message.">
 	Enter code words
       </message>
-      <message name="IDS_BRAVE_SYNC_CODEWORDS_MESSAGE" desc="Text for Brave Sync code words message.">
-	Using existing synced device, open Brave Settings and navigate to Settings > Sync. Choose "Add Device" then "Display code words instead".
+      <message name="IDS_BRAVE_SYNC_CODEWORDS_MESSAGE" desc="Text for Dissenter Sync code words message.">
+	Using existing synced device, open Dissenter Settings and navigate to Settings > Sync. Choose "Add Device" then "Display code words instead".
       </message>
-      <message name="IDS_BRAVE_SYNC_CONFIRM_CODE_WORDS_TEXT" desc="Text for Brave Sync confirm code words message.">
+      <message name="IDS_BRAVE_SYNC_CONFIRM_CODE_WORDS_TEXT" desc="Text for Dissenter Sync confirm code words message.">
 	Confirm
       </message>
-      <message name="IDS_BRAVE_SYNC_USE_CAMERA_TEXT" desc="Text for Brave Sync use camera message.">
+      <message name="IDS_BRAVE_SYNC_USE_CAMERA_TEXT" desc="Text for Dissenter Sync use camera message.">
 	I'll use my camera...
       </message>
-      <message name="IDS_BRAVE_SYNC_EXAMPLE_DEVICE_NAME" desc="Text for Brave Sync example device name.">
+      <message name="IDS_BRAVE_SYNC_EXAMPLE_DEVICE_NAME" desc="Text for Dissenter Sync example device name.">
 	Android device
       </message>
       <message name="IDS_BRAVE_SYNC_DEVICE" desc="Text for sync device message.">
@@ -765,29 +765,29 @@ until they verify, or until 90 days have passed.
       <message name="IDS_SETTINGS_EXIT" desc="Text for Settings exit.">
 	Settings exit
       </message>
-      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TITLE" desc="Title for Brave Ads offer.">
-        Enable Brave Rewards
+      <message name="IDS_BRAVE_ADS_NEW_USER_OFFER_TITLE" desc="Title for Dissenter Ads offer.">
+        Enable Dissenter Rewards
       </message>
-      <message name="IDS_BRAVE_ADS_OFFER_POSITIVE" desc="Positive button text for Brave Ads offer.">
+      <message name="IDS_BRAVE_ADS_OFFER_POSITIVE" desc="Positive button text for Dissenter Ads offer.">
         I'm in!
       </message>
-      <message name="IDS_BRAVE_ADS_OFFER_TEXT" desc="Text for Brave Ads offer.">
-        Earn Basic Attention Token for viewing privacy preserving Brave Rewards ads.
+      <message name="IDS_BRAVE_ADS_OFFER_TEXT" desc="Text for Dissenter Ads offer.">
+        Earn Basic Attention Token for viewing privacy preserving Dissenter Rewards ads.
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_TITLE" desc="Title for Brave Rewards reset error dialog.">
+      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_TITLE" desc="Title for Dissenter Rewards reset error dialog.">
         Reset Error
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Brave Rewards reset error dialog.">
-        There was an error resetting Brave Rewards. Please relaunch Brave and try again.
+      <message name="IDS_RESET_BRAVE_REWARDS_ERROR_DESCRIPTION" desc="Description for Dissenter Rewards reset error dialog.">
+        There was an error resetting Dissenter Rewards. Please relaunch Dissenter and try again.
       </message>
-      <message name="IDS_SHOW_ADS_WHEN_BRAVE_IS_NOT_IN_USE" desc="Title for Show Ads when Brave is not in use option in Brave rewards settings.">
-        Show Ads when Brave is not in use
+      <message name="IDS_SHOW_ADS_WHEN_BRAVE_IS_NOT_IN_USE" desc="Title for Show Ads when Dissenter is not in use option in Dissenter rewards settings.">
+        Show Ads when Dissenter is not in use
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_OPTION" desc="Title for preference to reset Brave Rewards.">
-        Reset Brave Rewards
+      <message name="IDS_RESET_BRAVE_REWARDS_OPTION" desc="Title for preference to reset Dissenter Rewards.">
+        Reset Dissenter Rewards
       </message>
-      <message name="IDS_RESET_BRAVE_REWARDS_OPTION_DESCRIPTION" desc="Description for preference to reset Brave Rewards.">
-        This will delete your Brave wallet and reset all of your Brave Rewards data
+      <message name="IDS_RESET_BRAVE_REWARDS_OPTION_DESCRIPTION" desc="Description for preference to reset Dissenter Rewards.">
+        This will delete your Dissenter wallet and reset all of your Dissenter Rewards data
       </message>
       <message name="IDS_ACCESSIBILITY_TOOLBAR_BTN_BOOKMARK" desc="Content description for the bookmark button.">
         Create a bookmark
@@ -798,14 +798,14 @@ until they verify, or until 90 days have passed.
       <message name="IDS_SYNC_DEVICE_FAILURE" desc="The message for the dialog where the user notified about sync setup failure.">
         Sync could not be setup
       </message>
-      <message name="IDS_BRAVE_PRIVACY_NOTICE_URL" desc="URL for the Brave privacy notice" translateable="false">
+      <message name="IDS_BRAVE_PRIVACY_NOTICE_URL" desc="URL for the Dissenter privacy notice" translateable="false">
         https://brave.com/privacy_android
       </message>
-      <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for Brave Terms of Service" translateable="false">
+      <message name="IDS_BRAVE_TERMS_OF_SERVICE_URL" desc="URL for Dissenter Terms of Service" translateable="false">
         https://brave.com/terms_of_use
       </message>
-      <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for Brave License">
-        Brave License
+      <message name="IDS_BRAVE_LICENSE_TEXT" desc="Title for Dissenter License">
+        Dissenter License
       </message>
       <message name="IDS_BRAVE_NEW_PRIVATE_TAB" desc="Text for 'New private tab'">
         New private tab
@@ -816,8 +816,8 @@ until they verify, or until 90 days have passed.
       <message name="IDS_NEW_TAB_OTR_TITLE" desc="Message shown when a user opens a private tab explaining private mode">
         Even though sites you visit in private tabs are not saved locally, they do not make you anonymous or invisible to your ISP, your employer, or to the sites you are visiting.
       </message>
-      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS_BACKGROUND" desc="Label for Brave Ads in background.">
-        Brave Ads sent when browser is in the background
+      <message name="IDS_NOTIFICATION_CATEGORY_BRAVE_ADS_BACKGROUND" desc="Label for Dissenter Ads in background.">
+        Dissenter Ads sent when browser is in the background
       </message>
       <message name="IDS_CLEAR_DOWNLOADS_TITLE" desc="Title for Clear download in Clear Browsing Data dialog">
         Download history
@@ -832,7 +832,7 @@ until they verify, or until 90 days have passed.
         Turn on Ads
       </message>
       <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_TITLE" desc="Message used in notification to let users know Ads is available">
-        Brave Ads has arrived!
+        Dissenter Ads has arrived!
       </message>
       <message name="IDS_BRAVE_UI_BRAVE_ADS_LAUNCH_MSG" desc="Message for ads launch notification">
         Now you can earn by viewing ads.
@@ -892,13 +892,13 @@ until they verify, or until 90 days have passed.
         Get paid to see this background image.
       </message>
       <message name="IDS_NTP_BRAVE_REWARDS_OFF_TEXT" desc="Text on NTP banner when brave rewrads is off ">
-        You&apos;ll receive 70% of the ad revenue for this private sponsorship which can be used to support web content creators. Turn on Brave Rewards to claim your share.
+        You&apos;ll receive 70% of the ad revenue for this private sponsorship which can be used to support web content creators. Turn on Dissenter Rewards to claim your share.
       </message>
       <message name="IDS_TURN_ON_REWARDS" desc="Text for turn on rewards button">
         Turn on Rewards
       </message>
       <message name="IDS_TURN_ON_BRAVE_ADS" desc="Text for turn on brave ads button">
-        Turn on Brave Ads
+        Turn on Dissenter Ads
       </message>
       <message name="IDS_NTP_TOS_TEXT" desc="Text for term of service on NTP">
         By turning on Rewards, you agree to the <ph name="TERMS_OF_SERVICE">%1$s</ph>. You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.
@@ -916,13 +916,13 @@ until they verify, or until 90 days have passed.
           You’re getting paid to see this background image.
       </message>
       <message name="IDS_BR_ON_ADS_ON_TEXT" desc="Text description for NTP banner.">
-          <ph name="LEARN_MORE">%1$s</ph> about sponsored images in Brave Rewards. You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.
+          <ph name="LEARN_MORE">%1$s</ph> about sponsored images in Dissenter Rewards. You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%2$s</ph>.
       </message>
       <message name="IDS_BR_ON_ADS_ON_TEXT2" desc="Text description for NTP banner.">
           You can also choose to <ph name="HIDE_SPONSORED_IMAGES">%1$s</ph>.
       </message>
       <message name="IDS_TURN_ON_BRAVE_ADS_TO_CLAIM" desc="Text description for NTP banner.">
-          Get paid to see this background image. Turn on Brave Ads to claim your share.
+          Get paid to see this background image. Turn on Dissenter Ads to claim your share.
       </message>
     </messages>
   </release>
