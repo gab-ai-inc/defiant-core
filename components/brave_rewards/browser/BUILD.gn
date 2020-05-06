@@ -7,8 +7,8 @@ source_set("browser") {
   ]
 
   sources = [
-    "android_util.cc",
-    "android_util.h",
+    # "android_util.cc",
+    # "android_util.h",
     "switches.cc",
     "switches.h",
     "auto_contribution_props.cc",
@@ -50,8 +50,8 @@ source_set("browser") {
     "transaction_report_info.h",
     "contribution_report_info.cc",
     "contribution_report_info.h",
-    "rewards_database.h",
-    "rewards_database.cc",
+    # "rewards_database.h",
+    # "rewards_database.cc",
   ]
 
   deps = [

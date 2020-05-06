@@ -59,6 +59,7 @@ std::string GetMappingTableData(const base::FilePath& installed_dir) {
 void CacheSuperReferralData(const std::string& data_json,
                             const base::FilePath& installed_dir,
                             const base::FilePath& super_referral_cache_dir) {
+  return;
   NTPBackgroundImagesData data(data_json,
                                super_referral_cache_dir);
 
@@ -140,7 +141,7 @@ NTPBackgroundImagesService::~NTPBackgroundImagesService() = default;
 
 void NTPBackgroundImagesService::Init() {
   RestoreCachedTopSitesFaviconList();
-
+  return;
   // Flag override for testing or demo purposes
   base::FilePath forced_local_path(
       base::CommandLine::ForCurrentProcess()->GetSwitchValueNative(
@@ -180,6 +181,7 @@ void NTPBackgroundImagesService::CheckSIComponentUpdate(
 }
 
 void NTPBackgroundImagesService::RegisterSponsoredImagesComponent() {
+  return;
   const std::string locale =
       brave_l10n::LocaleHelper::GetInstance()->GetLocale();
   const auto& data = GetSponsoredImagesComponentData(
@@ -210,6 +212,7 @@ void NTPBackgroundImagesService::RegisterSponsoredImagesComponent() {
 }
 
 void NTPBackgroundImagesService::CheckSuperReferralComponent() {
+  return;
   const auto* value = local_pref_->Get(
       prefs::kNewTabPageCachedSuperReferralComponentInfo);
   // If we have valid cached SR component info, it means this install is valid
@@ -275,6 +278,7 @@ void NTPBackgroundImagesService::CheckSuperReferralComponent() {
 
     // This below code is for recover above abnormal situation - Shutdown
     // situation before getting map table or getting initial component.
+    /*
     if (brave::BraveReferralsService::IsDefaultReferralCode(code)) {
       MarkThisInstallIsNotSuperReferralForever();
     } else {
@@ -282,6 +286,7 @@ void NTPBackgroundImagesService::CheckSuperReferralComponent() {
       // mapping table.
       DownloadSuperReferralMappingTable();
     }
+    */
     return;
   }
 
@@ -306,11 +311,11 @@ void NTPBackgroundImagesService::OnPreferenceChanged(
   DVLOG(2) << __func__ << ": Got referral promo code: "
                        << new_referral_code;
   DCHECK(!new_referral_code.empty());
-  if (brave::BraveReferralsService::IsDefaultReferralCode(new_referral_code)) {
-    DVLOG(2) << __func__ << ": This has default referral promo code.";
-    MarkThisInstallIsNotSuperReferralForever();
+  //if (brave::BraveReferralsService::IsDefaultReferralCode(new_referral_code)) {
+//    DVLOG(2) << __func__ << ": This has default referral promo code.";
+  //  MarkThisInstallIsNotSuperReferralForever();
     return;
-  }
+  //}
 
   DVLOG(2) << __func__ << ": This has non default referral promo code."
                        << " Let's check this code is super referral or not"
