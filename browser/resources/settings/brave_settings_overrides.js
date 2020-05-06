@@ -168,13 +168,13 @@ BravePatching.RegisterPolymerTemplateModifications({
     getStartedEl.insertAdjacentElement('afterend', appearanceBrowserEl)
     // Add Sync and Help Tips item
     const helpTipsEl = createMenuElement(loadTimeData.getString('braveHelpTips'), '/braveHelpTips', 'brave_settings:help')
-    if (loadTimeData.getBoolean('isSyncDisabled')) {
-      appearanceBrowserEl.insertAdjacentElement('afterend', helpTipsEl)
-    } else {
-      const syncEl = createMenuElement(loadTimeData.getString('braveSync'), '/braveSync', 'brave_settings:sync')
-      appearanceBrowserEl.insertAdjacentElement('afterend', syncEl)
-      syncEl.insertAdjacentElement('afterend', helpTipsEl)
-    }
+    //if (loadTimeData.getBoolean('isSyncDisabled')) {
+    //  appearanceBrowserEl.insertAdjacentElement('afterend', helpTipsEl)
+    //} else {
+    //  const syncEl = createMenuElement(loadTimeData.getString('braveSync'), '/braveSync', 'brave_settings:sync')
+    //  appearanceBrowserEl.insertAdjacentElement('afterend', syncEl)
+    //  syncEl.insertAdjacentElement('afterend', helpTipsEl)
+    //}
     // Add Shields item
     const shieldsEl = createMenuElement(loadTimeData.getString('braveShieldsTitle'), '/shields',  'brave_settings:shields')
     helpTipsEl.insertAdjacentElement('afterend', shieldsEl)
@@ -240,7 +240,7 @@ BravePatching.RegisterPolymerTemplateModifications({
     r.SHIELDS = r.BASIC.createSection('/shields', 'shields')
     r.SOCIAL_BLOCKING = r.BASIC.createSection('/socialBlocking', 'socialBlocking')
     r.EXTENSIONS = r.BASIC.createSection('/extensions', 'extensions')
-    r.BRAVE_SYNC = r.BASIC.createSection('/braveSync', 'braveSync')
+    //r.BRAVE_SYNC = r.BASIC.createSection('/braveSync', 'braveSync')
     r.BRAVE_HELP_TIPS = r.BASIC.createSection('/braveHelpTips', 'braveHelpTips')
     if (!r.SITE_SETTINGS) {
       console.error('[Brave Settings Overrides] Routes: could not find SITE_SETTINGS page')
@@ -333,7 +333,7 @@ BravePatching.RegisterPolymerTemplateModifications({
       const sectionAppearance = getSectionElement(actualTemplate.content, 'appearance')
       sectionGetStarted.insertAdjacentElement('afterend', sectionAppearance)
       // Insert sync
-      sectionAppearance.insertAdjacentElement('afterend', sectionSync)
+      //sectionAppearance.insertAdjacentElement('afterend', sectionSync)
       // Insert shields
       sectionSync.insertAdjacentElement('afterend', sectionShields)
       // Insert Social Blocking
