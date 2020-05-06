@@ -18,7 +18,7 @@ import {
   BinanceWidget as Binance
 } from '../../components/default'
 import * as Page from '../../components/default/page'
-import BrandedWallpaperLogo from '../../components/default/brandedWallpaper/logo'
+//import BrandedWallpaperLogo from '../../components/default/brandedWallpaper/logo'
 
 // Helpers
 import VisibilityTimer from '../../helpers/visibilityTimer'
@@ -574,7 +574,7 @@ class NewTabPage extends React.Component<Props, State> {
     }
 
     const hasImage = this.imageSource !== undefined
-    const isShowingBrandedWallpaper = newTabData.brandedWallpaperData ? true : false
+    //const isShowingBrandedWallpaper = newTabData.brandedWallpaperData ? true : false
     const showTopSites = !!this.props.gridSitesData.gridSites.length && newTabData.showTopSites
     //const cryptoContent = this.renderCryptoContent()
 
@@ -601,6 +601,7 @@ class NewTabPage extends React.Component<Props, State> {
             showTopSites={showTopSites}
             showBrandedWallpaper={false}
         >
+          <GabSites/>
           {newTabData.showStats &&
           <Page.GridItemStats>
             <Stats
@@ -637,7 +638,6 @@ class NewTabPage extends React.Component<Props, State> {
               </Page.GridItemTopSites>
               ) : null
           }
-          <GabSites/>
           <GabAds/>
           {
             gridSitesData.shouldShowSiteRemovedNotification
@@ -649,16 +649,7 @@ class NewTabPage extends React.Component<Props, State> {
           }
           
           <Page.Footer>
-            <Page.FooterContent>
-            {false && isShowingBrandedWallpaper && newTabData.brandedWallpaperData &&
-            newTabData.brandedWallpaperData.logo &&
-            <Page.GridItemBrandedLogo>
-              <BrandedWallpaperLogo
-                menuPosition={'right'}
-                textDirection={newTabData.textDirection}
-                data={newTabData.brandedWallpaperData.logo}
-              />
-            </Page.GridItemBrandedLogo>}
+            <Page.FooterContent>          
             <FooterInfo
               textDirection={newTabData.textDirection}
               onClickOutside={this.closeSettings}

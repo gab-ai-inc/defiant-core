@@ -82,7 +82,7 @@ export default class Settings extends React.PureComponent<Props, {}> {
       toggleShowTopSites,
       //toggleBrandedWallpaperOptIn,
       //toggleShowRewards,
-      showBackgroundImage,
+      //showBackgroundImage,
       showStats,
       showClock,
       showTopSites,
