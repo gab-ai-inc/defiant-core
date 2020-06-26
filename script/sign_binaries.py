@@ -64,7 +64,7 @@ def _ParseOptions():
 
 
 def main(options):
-    sign_binaries(options.build_dir, ('brave.exe', 'chrome.dll'))
+    sign_binaries(options.build_dir, ('dissenter.exe', 'chrome.dll'))
 
 
 if '__main__' == __name__:

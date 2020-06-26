@@ -26,13 +26,13 @@
 
   <if expr="use_titlecase">
     <message name="IDS_NTP_ARTICLE_SUGGESTIONS_SECTION_HEADER_BRANDED" desc="Branded version of the the articles section header, which is a list of news articles displayed as cards on the New Tab Page.">
-      Suggestions by Brave
+      Suggestions by Dissenter
     </message>
   </if>
 
   <if expr="not use_titlecase">
     <message name="IDS_NTP_ARTICLE_SUGGESTIONS_SECTION_HEADER_BRANDED" desc="Branded version of the the articles section header, which is a list of news articles displayed as cards on the New Tab Page." formatter_data="android_java">
-      Suggestions by Brave
+      Suggestions by Dissenter
     </message>
   </if>
 

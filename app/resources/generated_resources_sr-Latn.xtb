@@ -23,12 +23,12 @@
 <translation id="8261506727792406068">Izbriši</translation>
 <translation id="144283815522798837">Izabranih stavki: <ph name="NUMBER_OF_ITEMS_SELECTED"/></translation>
 <translation id="5582839680698949063">Glavni meni</translation>
-<translation id="3700405816184340252">Istorija Brave-a</translation>
+<translation id="3700405816184340252">Istorija Dissenter-a</translation>
 <translation id="7602079150116086782">Nema kartica sa drugih uređaja</translation>
 <translation id="4619615317237390068">Kartice sa drugih uređaja</translation>
-<translation id="82609232232243542">Prijavljivanje u Brave</translation>
+<translation id="82609232232243542">Prijavljivanje u Dissenter</translation>
 <translation id="4627442949885028695">Nastavite na drugom uređaju</translation>
-<translation id="7253276740368043692">Da bi vam kartice bile dostupne na drugim uređajima, prijavite se u Brave.</translation>
+<translation id="7253276740368043692">Da bi vam kartice bile dostupne na drugim uređajima, prijavite se u Dissenter.</translation>
 <translation id="6351063337294363751">Iz ovog menija možete da obrišete podatke pregledanja</translation>
 <translation id="6040143037577758943">Zatvori</translation>
 <translation id="6463795194797719782">&amp;Izmeni</translation>
@@ -43,7 +43,7 @@
 <translation id="3303855915957856445">Nisu pronađeni rezultati pretrage</translation>
 <translation id="8967866634928501045">Za prikazivanje pritisnite Alt + Shift + A</translation>
 <translation id="998747458861718449">P&amp;regledaj</translation>
-<translation id="4428301600092811022">Želite li da preuzimate opise slika sa Brave Software-a?</translation>
+<translation id="4428301600092811022">Želite li da preuzimate opise slika sa Gab AI Inc-a?</translation>
 <translation id="741204030948306876">Da, omogući</translation>
 <translation id="780301667611848630">Ne, hvala</translation>
 <translation id="3943582379552582368">&amp;Nazad</translation>
@@ -97,7 +97,7 @@
 <translation id="5233736638227740678">&amp;Nalepi</translation>
 <translation id="2218515861914035131">Lepljenje u obliku otvorenog teksta</translation>
 <translation id="1017280919048282932">&amp;Dodaj u rečnik</translation>
-<translation id="1732768497619250086">Preuzimaj opise slika sa Brave Software-a</translation>
+<translation id="1732768497619250086">Preuzimaj opise slika sa Gab AI Inc-a</translation>
 <translation id="7561196759112975576">Uvek</translation>
 <translation id="2241634353105152135">Samo jednom</translation>
 <translation id="3387614642886316601">Koristite poboljšanu proveru pravopisa</translation>
@@ -105,7 +105,7 @@
 <translation id="5860491529813859533">Uključi</translation>
 <translation id="7658239707568436148">Otkaži</translation>
 <translation id="8915370057835397490">Učitavanje predloga</translation>
-<translation id="6191804255817539692">Nema više predloga sa Brave Software-a</translation>
+<translation id="6191804255817539692">Nema više predloga sa Gab AI Inc-a</translation>
 <translation id="1901303067676059328">Izaberi &amp;sve</translation>
 <translation id="3797900183766075808">&amp;Pretraži „<ph name="SEARCH_TERMS"/>“ na pretraživaču <ph name="SEARCH_ENGINE"/></translation>
 <translation id="2721037002783622288">&amp;Potraži sliku u pretraživaču <ph name="SEARCH_ENGINE"/></translation>
@@ -153,7 +153,7 @@
 <translation id="9033857511263905942">&amp;Nalepi</translation>
 <translation id="1815083418640426271">Nalepi kao čisti tekst</translation>
 <translation id="4022426551683927403">&amp;Dodaj u rečnik</translation>
-<translation id="6849870115130610913">Preuzimaj opise slika sa Brave Software-a</translation>
+<translation id="6849870115130610913">Preuzimaj opise slika sa Gab AI Inc-a</translation>
 <translation id="372722114124766626">Samo jednom</translation>
 <translation id="4079140982534148664">Koristite poboljšanu proveru pravopisa</translation>
 <translation id="7487141338393529395">Uključite poboljšanu proveru pravopisa</translation>
@@ -227,7 +227,7 @@
 <translation id="7422192691352527311">Podešavanja...</translation>
 <translation id="5801568494490449797">Podešavanja</translation>
 <translation id="3677911431265050325">Zahtevaj mobilni sajt</translation>
-<translation id="236470849334943016">Brave uslovi korišćenja usluge se menjaju 31. marta.</translation>
+<translation id="236470849334943016">Dissenter uslovi korišćenja usluge se menjaju 31. marta.</translation>
 <translation id="1032605640136438169">Pregledajte nove uslove</translation>
 <translation id="8712637175834984815">Važi</translation>
 <translation id="5007392906805964215">Pregledaj</translation>
@@ -346,7 +346,7 @@
 <translation id="8855501062415172277"><ph name="FILE_NAME"/> sadrži osetljiv sadržaj.</translation>
 <translation id="1061745542578250838">Datoteka <ph name="FILE_NAME"/> sadrži osetljiv sadržaj i blokirana je.</translation>
 <translation id="6651823585377804376">Preuzimanje sadrži malver.</translation>
-<translation id="6529597483902964581">Datoteka <ph name="FILE_NAME"/> je možda opasna. Želite li da je pošaljete u Brave Software naprednu zaštitu radi skeniranja?</translation>
+<translation id="6529597483902964581">Datoteka <ph name="FILE_NAME"/> je možda opasna. Želite li da je pošaljete u Gab AI Inc naprednu zaštitu radi skeniranja?</translation>
 <translation id="4907161631261076876">Ova datoteka se ne preuzima često i može da bude opasna.</translation>
 <translation id="6102043788063419338">Ovu datoteku blokira napredna zaštita.</translation>
 <translation id="2773802008104670137">Ova vrsta datoteke može da naškodi računaru.</translation>
@@ -403,7 +403,7 @@
 <translation id="6577284282025554716">Preuzimanje je otkazano: <ph name="FILE_NAME"/></translation>
 <translation id="3340620525920140773">Preuzimanje je završeno: <ph name="FILE_NAME"/>.</translation>
 <translation id="4110490973560452005">Preuzimanje je dovršeno: <ph name="FILE_NAME"/>. Pritisnite Shift + F6 da biste prešli na oblast trake sa preuzimanjima.</translation>
-<translation id="7033965027041115562">Datoteka <ph name="FILE_NAME"/> je možda opasna. Želite li da je pošaljete u Brave Software naprednu zaštitu radi skeniranja? Pritiskajte Shift + F6 da biste prešli na oblast trake sa preuzimanjima.</translation>
+<translation id="7033965027041115562">Datoteka <ph name="FILE_NAME"/> je možda opasna. Želite li da je pošaljete u Gab AI Inc naprednu zaštitu radi skeniranja? Pritiskajte Shift + F6 da biste prešli na oblast trake sa preuzimanjima.</translation>
 <translation id="2743387203779672305">Kopiraj u memoriju</translation>
 <translation id="883911313571074303">Dodaj napomenu u sliku</translation>
 <translation id="6291953229176937411">&amp;Prikaži u Finder-u</translation>
@@ -447,7 +447,7 @@
 <translation id="9148058034647219655">Izađi</translation>
 <translation id="7376221878517288144">Želite li da ipak izađete iz režima bez arhiviranja?</translation>
 <translation id="973473557718930265">Izađi</translation>
-<translation id="7707599169365957976">Možete da poboljšate Bezbedno pregledanje ako pošaljete neke sistemske informacije i sadržaj stranica Brave Software-u.</translation>
+<translation id="7707599169365957976">Možete da poboljšate Bezbedno pregledanje ako pošaljete neke sistemske informacije i sadržaj stranica Gab AI Inc-u.</translation>
 <translation id="4923279099980110923">Da, želim da pomognem</translation>
 <translation id="2316129865977710310">Ne, hvala</translation>
 <translation id="9169931577761441333">Dodajte <ph name="APP_NAME"/> na početni ekran</translation>
@@ -464,8 +464,8 @@
 <translation id="5895138241574237353">Pokreni ponovo</translation>
 <translation id="3479552764303398839">Ne sada</translation>
 <translation id="1008557486741366299">Ne sada</translation>
-<translation id="8201192017531062522">Brave će nastaviti da radi dok su Brave aplikacije otvorene.</translation>
-<translation id="7397305826909094212">Izađi iz svih Brave aplikacija</translation>
+<translation id="8201192017531062522">Dissenter će nastaviti da radi dok su Dissenter aplikacije otvorene.</translation>
+<translation id="7397305826909094212">Izađi iz svih Dissenter aplikacija</translation>
 <translation id="5026874946691314267">Ne prikazuj ovo ponovo</translation>
 <translation id="91568222606626347">Napravi prečicu...</translation>
 <translation id="2783321960289401138">Napravi prečicu...</translation>
@@ -821,17 +821,17 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="5799508265798272974">Linux virtuelna mašina: <ph name="LINUX_VM_NAME"/></translation>
 <translation id="6058567592298841668">Virtuelna mašina za dodatnu komponentu: <ph name="PLUGIN_VM_NAME"/></translation>
 <translation id="7851720427268294554">IPP raščlanjivač</translation>
-<translation id="7171242884588191792">Brave uslužni programi za datoteke</translation>
+<translation id="7171242884588191792">Dissenter uslužni programi za datoteke</translation>
 <translation id="3183139917765991655">Uvoz profila</translation>
 <translation id="7367714965999718019">Generator QR koda</translation>
 <translation id="2190069059097339078">Dobijanje akreditiva za Wi-Fi</translation>
-<translation id="5920835625712313205">Upisivanje slika Brave OS sistema</translation>
+<translation id="5920835625712313205">Upisivanje slika Dissenter OS sistema</translation>
 <translation id="4873312501243535625">Provera medijskih datoteka</translation>
 <translation id="5972666587303800813">Usluga bez operacije</translation>
 <translation id="1545775234664667895">Instalirana je tema „<ph name="THEME_NAME"/>“</translation>
 <translation id="2256115617011615191">Restartuj odmah</translation>
 <translation id="4545028762441890696">Da biste ga ponovo omogućili, prihvatite nove dozvole:</translation>
-<translation id="3009487527589249344">Brave Software je označio dodatak „<ph name="EXTENSION_NAME"/>“ kao zlonameran i instalacija je sprečena</translation>
+<translation id="3009487527589249344">Gab AI Inc je označio dodatak „<ph name="EXTENSION_NAME"/>“ kao zlonameran i instalacija je sprečena</translation>
 <translation id="6790497603648687708">Dodatak <ph name="EXTENSION_NAME"/> je dodat daljinski</translation>
 <translation id="1841705068325380214">Dodatak <ph name="EXTENSION_NAME"/> je onemogućen</translation>
 <translation id="595959584676692139">Ponovo učitajte ovu stranicu da biste koristili ovaj dodatak</translation>
@@ -852,14 +852,14 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="3507421388498836150">Trenutne dozvole za „<ph name="EXTENSION_NAME"/>“</translation>
 <translation id="5242724311594467048">Želite li da omogućite „<ph name="EXTENSION_NAME"/>“?</translation>
 <translation id="4014432863917027322">Želite li da popravite „<ph name="EXTENSION_NAME"/>“?</translation>
-<translation id="5173189340601754836">Drugi program na računaru je dodao aplikaciju koja može da promeni način na koji Brave funkcioniše.
+<translation id="5173189340601754836">Drugi program na računaru je dodao aplikaciju koja može da promeni način na koji Dissenter funkcioniše.
 
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="6654312501894761082">Drugi program na računaru je dodao dodatak koji može da promeni način na koji Brave funkcioniše.
+<translation id="6654312501894761082">Drugi program na računaru je dodao dodatak koji može da promeni način na koji Dissenter funkcioniše.
 
 <ph name="EXTENSION_NAME"/></translation>
-<translation id="3225882094369124157">Drugi program na računaru je dodao temu koja može da promeni način na koji Brave funkcioniše.
+<translation id="3225882094369124157">Drugi program na računaru je dodao temu koja može da promeni način na koji Dissenter funkcioniše.
 
 <ph name="EXTENSION_NAME"/></translation>
 <translation id="9102610709270966160">Omogući dodatak</translation>
@@ -868,7 +868,7 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="3908501907586732282">Omogući dodatak</translation>
 <translation id="2327492829706409234">Omogući aplikaciju</translation>
 <translation id="175772926354468439">Omogući temu</translation>
-<translation id="5267531627648004734">Ukloni iz Brave-a</translation>
+<translation id="5267531627648004734">Ukloni iz Dissenter-a</translation>
 <translation id="4998873842614926205">Potvrda promena</translation>
 <translation id="1799071797295057738">Dodatak „<ph name="EXTENSION_NAME"/>“ je automatski onemogućen.</translation>
 <translation id="5238278114306905396">Aplikacija „<ph name="EXTENSION_NAME"/>“ je automatski uklonjena.</translation>
@@ -971,7 +971,7 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="3584169441612580296">Čitanje slika, muzike i drugih medija sa računara i menjanje tih medija</translation>
 <translation id="5457459357461771897">Čitanje slika, muzike i drugih medija sa računara i brisanje tih medija</translation>
 <translation id="3270965368676314374">Čitanje slika, muzike i drugih medija sa računara, menjanje i brisanje tih medija</translation>
-<translation id="1285484354230578868">Skladištite podatke na nalogu Brave Software diska</translation>
+<translation id="1285484354230578868">Skladištite podatke na nalogu Gab AI Inc diska</translation>
 <translation id="378312418865624974">Čitanje jedinstvenog identifikatora za ovaj računar</translation>
 <translation id="5094721898978802975">Komunikacija sa osnovnim aplikacijama za saradnju</translation>
 <translation id="4876895919560854374">Zaključavanje i otključavanje ekrana</translation>
@@ -1004,7 +1004,7 @@ Vodite računa da ne otkrijete nikakve osetljive informacije.</translation>
 <translation id="1616298854599875024">Uvoz dodatka „<ph name="IMPORT_NAME"/>“ nije uspeo zato što nije deljeni modul</translation>
 <translation id="2131077480075264">Nije uspelo instaliranje „<ph name="APP_NAME"/>“ jer to ne dozvoljava „<ph name="IMPORT_NAME"/>“</translation>
 <translation id="1875387611427697908">Ovo može da se doda samo iz usluge <ph name="CHROME_WEB_STORE"/></translation>
-<translation id="3862788408946266506">Aplikacija sa atributom manifesta „kiosk_only“ mora da se instalira u režimu kioska u Brave OS-u</translation>
+<translation id="3862788408946266506">Aplikacija sa atributom manifesta „kiosk_only“ mora da se instalira u režimu kioska u Dissenter OS-u</translation>
 <translation id="3834775135533257713">Dodavanje aplikacije „<ph name="TO_INSTALL_APP_NAME"/>“ nije uspelo zbog konflikta sa aplikacijom „<ph name="INSTALLED_APP_NAME"/>“.</translation>
 <translation id="144518587530125858">Nije moguće učitati „<ph name="IMAGE_PATH"/>“ za temu.</translation>
 <translation id="3576324189521867626">Instalirano je</translation>
@@ -1098,7 +1098,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5483785310822538350">Opozovi pristup datotekama i uređaju</translation>
 <translation id="93766956588638423">Popravi dodatak</translation>
 <translation id="3905761538810670789">Popravi aplikaciju</translation>
-<translation id="8808478386290700967">Brave Web Store</translation>
+<translation id="8808478386290700967">Dissenter Web Store</translation>
 <translation id="488785315393301722">Prikaži detalje</translation>
 <translation id="8962083179518285172">Sakrij detalje</translation>
 <translation id="7287143125007575591">Pristup je odbijen.</translation>
@@ -1107,9 +1107,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6101226222197207147">Dodata je nova aplikacija (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="7818135753970109980">Dodata je nova tema (<ph name="EXTENSION_NAME"/>)</translation>
 <translation id="9215293857209265904">Dodat je „<ph name="EXTENSION_NAME"/>“</translation>
-<translation id="6637045053447935202">Drugi program na računaru je dodao aplikaciju koja može da promeni način na koji Brave funkcioniše.</translation>
-<translation id="2015014930243978107">Drugi program na računaru je dodao dodatak koji može da promeni način na koji Brave funkcioniše.</translation>
-<translation id="2060128809251156338">Drugi program na računaru je dodao temu koja može da promeni način na koji Brave funkcioniše.</translation>
+<translation id="6637045053447935202">Drugi program na računaru je dodao aplikaciju koja može da promeni način na koji Dissenter funkcioniše.</translation>
+<translation id="2015014930243978107">Drugi program na računaru je dodao dodatak koji može da promeni način na koji Dissenter funkcioniše.</translation>
+<translation id="2060128809251156338">Drugi program na računaru je dodao temu koja može da promeni način na koji Dissenter funkcioniše.</translation>
 <translation id="2470702053775288986">Nepodržani dodaci su onemogućeni</translation>
 <translation id="2809586584051668049">i još <ph name="NUMBER_ADDITIONAL_DISABLED"/></translation>
 <translation id="5301954838959518834">Važi</translation>
@@ -1182,7 +1182,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8756969031206844760">Želite li da ažurirate lozinku?</translation>
 <translation id="8230134520748321204">Želite li da sačuvate lozinku za <ph name="ORIGIN"/>?</translation>
 <translation id="9040661932550800571">Želite li da ažurirate lozinku za <ph name="ORIGIN"/>?</translation>
-<translation id="8284000761603848448">Lozinke se čuvaju na Brave Software nalogu da biste mogli da ih koristite na bilo kom uređaju</translation>
+<translation id="8284000761603848448">Lozinke se čuvaju na Gab AI Inc nalogu da biste mogli da ih koristite na bilo kom uređaju</translation>
 <translation id="8286036467436129157">Prijavi me</translation>
 <translation id="8009225694047762179">Upravljaj lozinkama</translation>
 <translation id="3950820424414687140">Prijavi me</translation>
@@ -1190,10 +1190,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="328571385944182268">Želite li da sačuvate lozinke?</translation>
 <translation id="3753033997400164841">Sačuvajte jednom. Koristite svuda</translation>
 <translation id="1703331064825191675">Nikada ne brinite o lozinkama</translation>
-<translation id="2341030170677284705">Bezbedno čuvajte lozinke na Brave Software nalogu i više nikada nećete morati da ih unosite</translation>
-<translation id="3913985461352963178">Pristupajte lozinkama uvek kada ste prijavljeni na Brave Software nalog</translation>
-<translation id="4851124464356820177">Da biste sačuvali lozinke na Brave Software nalogu, prijavite se i uključite sinhronizaciju.</translation>
-<translation id="3229869963989850535">Da biste sačuvali lozinke na Brave Software nalogu, uključite sinhronizaciju.</translation>
+<translation id="2341030170677284705">Bezbedno čuvajte lozinke na Gab AI Inc nalogu i više nikada nećete morati da ih unosite</translation>
+<translation id="3913985461352963178">Pristupajte lozinkama uvek kada ste prijavljeni na Gab AI Inc nalog</translation>
+<translation id="4851124464356820177">Da biste sačuvali lozinke na Gab AI Inc nalogu, prijavite se i uključite sinhronizaciju.</translation>
+<translation id="3229869963989850535">Da biste sačuvali lozinke na Gab AI Inc nalogu, uključite sinhronizaciju.</translation>
 <translation id="1056466516655540509">Ažurirano je pre <ph name="MINUTES"/> min</translation>
 <translation id="8743864605301774756">Ažurirano pre 1 sata</translation>
 <translation id="7363117941401515667">Ažurirano je pre <ph name="HOURS"/> č</translation>
@@ -1297,9 +1297,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1246905108078336582">Želite li da uklonite predlog iz privremene memorije?</translation>
 <translation id="825238165904109940">Uvek prikazuj URL-ove u celosti</translation>
 <translation id="3416468988018290825">Uvek prikazuj URL-ove u celosti</translation>
-<translation id="2129873093718581193">Pretražite Brave Software ili unesite URL</translation>
-<translation id="6363797201514053536">Pretražite Brave Software ili unesite URL</translation>
-<translation id="4888839742663123585">Pretražite Brave Software</translation>
+<translation id="2129873093718581193">Pretražite Gab AI Inc ili unesite URL</translation>
+<translation id="6363797201514053536">Pretražite Gab AI Inc ili unesite URL</translation>
+<translation id="4888839742663123585">Pretražite Gab AI Inc</translation>
 <translation id="6078323886959318429">Dodaj prečicu</translation>
 <translation id="6324916366299863871">Izmeni prečicu</translation>
 <translation id="4405117686468554883">*.jpeg, *.jpg, *.png</translation>
@@ -1314,7 +1314,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8017679124341497925">Prečica je izmenjena</translation>
 <translation id="1174073918202301297">Prečica je dodata</translation>
 <translation id="2926085873880284723">Vrati podrazumevane prečice</translation>
-<translation id="5801450813341024983">Brave pozadine</translation>
+<translation id="5801450813341024983">Dissenter pozadine</translation>
 <translation id="2800760947029405028">Otpremi sliku</translation>
 <translation id="8342861492835240085">Izaberite kolekciju</translation>
 <translation id="3132996321662585180">Osvežavaj dnevno</translation>
@@ -1401,7 +1401,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="833986336429795709">Izaberite aplikaciju da biste otvorili ovaj link</translation>
 <translation id="192494336144674234">Otvori pomoću</translation>
 <translation id="9053893665344928494">Zapamti izbor</translation>
-<translation id="5340857474604400806">Ostani u Brave-u</translation>
+<translation id="5340857474604400806">Ostani u Dissenter-u</translation>
 <translation id="3043581297103810752">Sa <ph name="ORIGIN"/></translation>
 <translation id="6827869674836193263"><ph name="WINDOW_TITLE"/> (bez arhiviranja)</translation>
 <translation id="1572139610531470719"><ph name="WINDOW_TITLE"/> (gost)</translation>
@@ -1462,8 +1462,8 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6686817083349815241">Sačuvajte lozinku</translation>
 <translation id="8141725884565838206">Upravljajte lozinkama</translation>
 <translation id="8275038454117074363">Uvezi</translation>
-<translation id="3191314862567596053">Uvezite lozinke u Brave</translation>
-<translation id="6368144843345980623">Izvezite lozinke iz Brave-a</translation>
+<translation id="3191314862567596053">Uvezite lozinke u Dissenter</translation>
+<translation id="6368144843345980623">Izvezite lozinke iz Dissenter-a</translation>
 <translation id="8503813439785031346">Korisničko ime</translation>
 <translation id="6657585470893396449">Lozinka</translation>
 <translation id="5472627187093107397">Čuvaj lozinke za ovaj sajt</translation>
@@ -1483,43 +1483,43 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6798578729981748444">Da biste dovršili uvoz, zatvorite sve Firefox prozore.</translation>
 <translation id="6374469231428023295">Probaj ponovo</translation>
 <translation id="8725066075913043281">Probajte ponovo</translation>
-<translation id="4196805003686694274">Pošaljite povratne informacije Brave Software-u</translation>
+<translation id="4196805003686694274">Pošaljite povratne informacije Gab AI Inc-u</translation>
 <translation id="3424969259347320884">Opišite šta ste radili kada je kartica otkazala</translation>
-<translation id="1892630320532151038">Pošaljite povratne informacije Brave Software-u</translation>
+<translation id="1892630320532151038">Pošaljite povratne informacije Gab AI Inc-u</translation>
 <translation id="2428510569851653187">Opišite šta ste radili kada je kartica otkazala</translation>
 <translation id="5659593005791499971">Imejl</translation>
 <translation id="2982970937345031">Pošalji izveštaj anonimno</translation>
 <translation id="6076448957780543068">Dodaj ovaj snimak ekrana</translation>
 <translation id="2865919525181940183">Snimak ekrana programa koji su trenutno na ekranu</translation>
 <translation id="7052237160939977163">Šalji podatke o praćenju učinka</translation>
-<translation id="5526928694260255286">Priložite <ph name="BEGIN_LINK"/>Evidencije Bluetooth-a<ph name="END_LINK"/> (Brave Software interno)</translation>
+<translation id="5526928694260255286">Priložite <ph name="BEGIN_LINK"/>Evidencije Bluetooth-a<ph name="END_LINK"/> (Gab AI Inc interno)</translation>
 <translation id="3047644958362961983">Ove informacije nam pomažu da bolje razumemo problem koji imate sa Pomoćnikom. Čuvaju se najviše 90 dana, a pristup je ograničen na odgovarajuće timove za inženjering i povratne informacije.</translation>
-<translation id="8545590844135745781">Da bi bolje dijagnostikovali probleme sa Bluetooth-om, zaposleni u Brave Software-u mogu da uključe dodatne Bluetooth evidencije u izveštaje sa povratnim informacijama. Kad izaberete ovu opciju, izveštaj će obuhvatiti btsnoop i HCI evidencije iz aktuelne očišćene sesije iz koje je uklonjeno što više podataka koji mogu da otkriju identitet. Pristup tim evidencijama je ograničen na menadžere grupe proizvoda Brave OS u Listnr-u. Evidencije se trajno brišu posle 90 dana.</translation>
+<translation id="8545590844135745781">Da bi bolje dijagnostikovali probleme sa Bluetooth-om, zaposleni u Gab AI Inc-u mogu da uključe dodatne Bluetooth evidencije u izveštaje sa povratnim informacijama. Kad izaberete ovu opciju, izveštaj će obuhvatiti btsnoop i HCI evidencije iz aktuelne očišćene sesije iz koje je uklonjeno što više podataka koji mogu da otkriju identitet. Pristup tim evidencijama je ograničen na menadžere grupe proizvoda Dissenter OS u Listnr-u. Evidencije se trajno brišu posle 90 dana.</translation>
 <translation id="4206323443866416204">Izveštaj sa povratnim informacijama</translation>
 <translation id="3681311097828166361">Hvala vam na povratnim informacijama. Trenutno ste oflajn i kasnije ćemo vam poslati izveštaj.</translation>
 <translation id="8713570323158206935">Šalji <ph name="BEGIN_LINK1"/>informacije o sistemu<ph name="END_LINK1"/></translation>
 <translation id="6395423953133416962">Šalji <ph name="BEGIN_LINK1"/>informacije<ph name="END_LINK1"/> i <ph name="BEGIN_LINK2"/>pokazatelje<ph name="END_LINK2"/> o sistemu</translation>
 <translation id="6270770586500173387">Šalji <ph name="BEGIN_LINK1"/>informacije o sistemu i aplikacijama<ph name="END_LINK1"/> i <ph name="BEGIN_LINK2"/>pokazatelje<ph name="END_LINK2"/></translation>
 <translation id="3894123633473837029">Uvrsti nedavnu istoriju Pomoćnika preko Sherlog-a. Ona može da obuhvata vaš identitet, lokaciju i informacije o otklanjanju grešaka. <ph name="BEGIN_LINK"/>Saznajte više<ph name="END_LINK"/></translation>
-<translation id="8329196515830093443">Datoteka će biti poslata Brave Software-u radi otklanjanja grešaka</translation>
+<translation id="8329196515830093443">Datoteka će biti poslata Gab AI Inc-u radi otklanjanja grešaka</translation>
 <translation id="8227119283605456246">Priloži datoteku</translation>
 <translation id="5367091008316207019">Čitanje datoteke..</translation>
 <translation id="2554553592469060349">Izabrana datoteka je prevelika (maksimalna veličina: 3 MB).</translation>
 <translation id="4690091457710545971">&lt;Četiri datoteke koje je generisao Intel firmver za Wi-Fi: csr.lst, fh_regs.lst, radio_reg.lst, monitor.lst.sysmon.  Prve tri datoteke su binarne datoteke koje sadrže ispise registara i Intel potvrđuje da ne sadrže lične podatke niti podatke koji mogu da identifikuju uređaj.  Poslednja datoteka je trag izvršenja Intel firmvera; iz nje su uklonjeni bilo kakvi lični podaci ili podaci koji mogu da identifikuju uređaj, ali je prevelika da bismo je ovde prikazali.  Ove datoteke su generisane kao odgovor na nedavne probleme sa Wi-Fi-jem na uređaju i delićemo ih sa Intel-om da bismo rešili te probleme.&gt;</translation>
-<translation id="6972420083546794501">Idite na <ph name="BEGIN_LINK1"/>stranicu pravne pomoći<ph name="END_LINK1"/> da biste zatražili izmene sadržaja iz pravnih razloga. Neke informacije o nalogu i sistemu se možda šalju Brave Software-u. Informacije koje nam date koristićemo za rešavanje tehničkih problema i poboljšanje svojih usluga, u skladu sa <ph name="BEGIN_LINK2"/>Politikom privatnosti<ph name="END_LINK2"/> i <ph name="BEGIN_LINK3"/>Uslovima korišćenja usluge<ph name="END_LINK3"/>.</translation>
+<translation id="6972420083546794501">Idite na <ph name="BEGIN_LINK1"/>stranicu pravne pomoći<ph name="END_LINK1"/> da biste zatražili izmene sadržaja iz pravnih razloga. Neke informacije o nalogu i sistemu se možda šalju Gab AI Inc-u. Informacije koje nam date koristićemo za rešavanje tehničkih problema i poboljšanje svojih usluga, u skladu sa <ph name="BEGIN_LINK2"/>Politikom privatnosti<ph name="END_LINK2"/> i <ph name="BEGIN_LINK3"/>Uslovima korišćenja usluge<ph name="END_LINK3"/>.</translation>
 <translation id="7915471803647590281">Recite nam šta se dešava pre nego što pošaljete povratne informacije.</translation>
 <translation id="6885771755599377173">Pregled informacija o sistemu</translation>
 <translation id="1016566241875885511">Dodatne informacije (opcionalno)</translation>
 <translation id="8026334261755873520">Obrišite podatke pregledanja</translation>
-<translation id="4718442817388594217">Izabrani podaci su uklonjeni iz Brave-a i sa sinhronizovanih uređaja. Brave Software nalog možda ima druge oblike istorije pregledanja, poput pretraga i aktivnosti na drugim Brave Software uslugama na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="7814200940910057384">Brave podaci su obrisani</translation>
+<translation id="4718442817388594217">Izabrani podaci su uklonjeni iz Dissenter-a i sa sinhronizovanih uređaja. Gab AI Inc nalog možda ima druge oblike istorije pregledanja, poput pretraga i aktivnosti na drugim Gab AI Inc uslugama na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="7814200940910057384">Dissenter podaci su obrisani</translation>
 <translation id="7346909386216857016">Važi</translation>
 <translation id="8493236660459102203">Mikrofon:</translation>
 <translation id="3925573269917483990">Kamera:</translation>
 <translation id="648927581764831596">Nije dostupno</translation>
 <translation id="4172051516777682613">Uvek prikaži</translation>
 <translation id="477945296921629067">{NUM_POPUPS,plural, =1{Iskačući prozor je blokiran}one{# iskačući prozor je blokiran}few{# iskačuća prozora su blokirana}other{# iskačućih prozora je blokirano}}</translation>
-<translation id="4156865452842056672">(Brave stranice sa greškama)</translation>
+<translation id="4156865452842056672">(Dissenter stranice sa greškama)</translation>
 <translation id="1734824808160898225"><ph name="PRODUCT_NAME"/> možda neće moći da se ažurira</translation>
 <translation id="8590375307970699841">Podesi automatska ažuriranja</translation>
 <translation id="8926389886865778422">Ne pitaj me ponovo</translation>
@@ -1534,7 +1534,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="284805635805850872">Želite li da uklonite štetan softver?</translation>
 <translation id="489985760463306091">Da biste dovršili uklanjanje štetnog softvera, ponovo pokrenite računar</translation>
 <translation id="7598466960084663009">Restartuj računar</translation>
-<translation id="2819091349626575960">Šalji detalje Brave Software-u</translation>
+<translation id="2819091349626575960">Šalji detalje Gab AI Inc-u</translation>
 <translation id="4099060993766194518">Želite da vratite podrazumevani pretraživač?</translation>
 <translation id="138784436342154190">Želite da vratite podrazumevanu polaznu stranicu?</translation>
 <translation id="5086874064903147617">Želite da vratite podrazumevanu početnu stranicu?</translation>
@@ -1624,10 +1624,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8658645149275195032"><ph name="APP_NAME"/> deli ekran i zvuk sa <ph name="TAB_NAME"/>.</translation>
 <translation id="4364567974334641491"><ph name="APP_NAME"/> deli prozor.</translation>
 <translation id="8944964446326379280"><ph name="APP_NAME"/> deli prozor sa <ph name="TAB_NAME"/>.</translation>
-<translation id="351520635355732555"><ph name="APP_NAME"/> deli Brave karticu.</translation>
-<translation id="5727851901710884484"><ph name="APP_NAME"/> deli Brave karticu sa <ph name="TAB_NAME"/>.</translation>
-<translation id="5770515304879261338"><ph name="APP_NAME"/> deli Brave karticu i zvuk.</translation>
-<translation id="859454237594354073"><ph name="APP_NAME"/> deli Brave karticu i zvuk sa <ph name="TAB_NAME"/>.</translation>
+<translation id="351520635355732555"><ph name="APP_NAME"/> deli Dissenter karticu.</translation>
+<translation id="5727851901710884484"><ph name="APP_NAME"/> deli Dissenter karticu sa <ph name="TAB_NAME"/>.</translation>
+<translation id="5770515304879261338"><ph name="APP_NAME"/> deli Dissenter karticu i zvuk.</translation>
+<translation id="859454237594354073"><ph name="APP_NAME"/> deli Dissenter karticu i zvuk sa <ph name="TAB_NAME"/>.</translation>
 <translation id="7108338896283013870">Sakrij</translation>
 <translation id="890616557918890486">Promeni izvor</translation>
 <translation id="7792388396321542707">Zaustavi deljenje</translation>
@@ -1644,13 +1644,13 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3693415264595406141">Lozinka:</translation>
 <translation id="9111102763498581341">Otključaj</translation>
 <translation id="2190355936436201913">(prazno)</translation>
-<translation id="9079153198295609735">Automatski šalji Brave Software-u statističke podatke o korišćenju i izveštaje o otkazivanju</translation>
+<translation id="9079153198295609735">Automatski šalji Gab AI Inc-u statističke podatke o korišćenju i izveštaje o otkazivanju</translation>
 <translation id="7136984461011502314">Dobro došli u <ph name="PRODUCT_NAME"/></translation>
 <translation id="1867780286110144690"><ph name="PRODUCT_NAME"/> je spreman da dovrši instalaciju</translation>
-<translation id="4711067597921221305">Pomozite unapređivanje <ph name="PRODUCT_NAME"/> pregledača tako što ćete automatski slati Brave Software-u statistiku korišćenja i izveštaje o otkazivanju</translation>
+<translation id="4711067597921221305">Pomozite unapređivanje <ph name="PRODUCT_NAME"/> pregledača tako što ćete automatski slati Gab AI Inc-u statistiku korišćenja i izveštaje o otkazivanju</translation>
 <translation id="5972826969634861500">Pokreni <ph name="PRODUCT_NAME"/></translation>
 <translation id="4876273079589074638">Pomozite inženjerima da istraže i reše probleme sa otkazivanjem. Navedite tačne korake ako možete. Nijedan detalj nije nevažan!</translation>
-<translation id="5418694430960033386">Brave pregledaču je ponestalo memorije ili je proces za veb-stranicu prekinut iz nekog drugog razloga. Da biste nastavili, ponovo učitajte stranicu ili idite na neku drugu stranicu.</translation>
+<translation id="5418694430960033386">Dissenter pregledaču je ponestalo memorije ili je proces za veb-stranicu prekinut iz nekog drugog razloga. Da biste nastavili, ponovo učitajte stranicu ili idite na neku drugu stranicu.</translation>
 <translation id="3065041951436100775">Povratne informacije o zatvaranju kartice.</translation>
 <translation id="3941565636838060942">Da biste sakrili pristup ovom programu, morate da ga deinstalirate koristeći
   <ph name="CONTROL_PANEL_APPLET_NAME"/> u kontrolnoj tabli.
@@ -1660,7 +1660,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6280912520669706465">ARC</translation>
 <translation id="4728558894243024398">Platforma</translation>
 <translation id="7022562585984256452">Početna stranica je podešena.</translation>
-<translation id="8069615408251337349">Brave Software Cloud štampanje</translation>
+<translation id="8069615408251337349">Gab AI Inc Cloud štampanje</translation>
 <translation id="4973307593867026061">Dodaj štampače</translation>
 <translation id="9052208328806230490">Registrovali ste štampače za <ph name="CLOUD_PRINT_NAME"/> pomoću naloga <ph name="EMAIL"/></translation>
 <translation id="3792890930871100565">Prekini vezu sa štampačima</translation>
@@ -1671,17 +1671,17 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4846680374085650406">Poštujete preporuku administratora za ovo podešavanje.</translation>
 <translation id="1223853788495130632">Administrator preporučuje određenu vrednost za ovo podešavanje.</translation>
 <translation id="5464660706533281090">Dete ne može da promeni ovo podešavanje.</translation>
-<translation id="8839398440242019256">Nije iz Brave veb-prodavnice.</translation>
+<translation id="8839398440242019256">Nije iz Dissenter veb-prodavnice.</translation>
 <translation id="5337771866151525739">Instalirala treća strana.</translation>
 <translation id="4538792345715658285">Instalirano je prema smernicama za preduzeće.</translation>
 <translation id="4359408040881008151">Instaliran je zbog zavisnih dodataka.</translation>
 <translation id="4980805016576257426">Ovaj dodatak sadrži malver.</translation>
 <translation id="5522156646677899028">Ovaj dodatak sadrži ozbiljan bezbednosni propust.</translation>
-<translation id="6945695820322143954">Ovaj dodatak krši smernice Brave veb-prodavnice.</translation>
-<translation id="177808131755847449">Brave je onemogućio dodatak. Ovaj dodatak možda nije bezbedan.</translation>
+<translation id="6945695820322143954">Ovaj dodatak krši smernice Dissenter veb-prodavnice.</translation>
+<translation id="177808131755847449">Dissenter je onemogućio dodatak. Ovaj dodatak možda nije bezbedan.</translation>
 <translation id="1434696352799406980">Ovo će resetovati početnu stranicu, stranicu nove kartice, pretraživač i zakačene kartice. Takođe će onemogućiti sve dodatke i obrisati privremene podatke poput kolačića. Obeleživači, istorija i sačuvane lozinke neće biti obrisani.</translation>
 <translation id="1242633766021457174"><ph name="THIRD_PARTY_TOOL_NAME"/> želi da resetuje podešavanja.</translation>
-<translation id="8073477228424628709">Alatka <ph name="THIRD_PARTY_TOOL_NAME"/> želi da vrati podešavanja Brave-a na prvobitne podrazumevane vrednosti. To će resetovati početnu stranicu, stranicu nove kartice i pretraživač, onemogućiće dodatke i otkačiti sve kartice. Takođe će obrisati druge privremene i keširane podatke, poput kolačića, sadržaja i podataka o sajtovima.</translation>
+<translation id="8073477228424628709">Alatka <ph name="THIRD_PARTY_TOOL_NAME"/> želi da vrati podešavanja Dissenter-a na prvobitne podrazumevane vrednosti. To će resetovati početnu stranicu, stranicu nove kartice i pretraživač, onemogućiće dodatke i otkačiti sve kartice. Takođe će obrisati druge privremene i keširane podatke, poput kolačića, sadržaja i podataka o sajtovima.</translation>
 <translation id="7581462281756524039">Alatka za čišćenje</translation>
 <translation id="1233721473400465416">Lokalitet</translation>
 <translation id="2907619724991574506">URL-ovi za pokretanje</translation>
@@ -1694,7 +1694,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7063129466199351735">Obrada prečica...</translation>
 <translation id="8987927404178983737">Mesec</translation>
 <translation id="6015796118275082299">Godina</translation>
-<translation id="5152275065296016556">Brave Software Pay</translation>
+<translation id="5152275065296016556">Gab AI Inc Pay</translation>
 <translation id="7671130400130574146">Koristi sistemsku traku naslova i ivice</translation>
 <translation id="3293644607209440645">Pošalji ovu stranicu</translation>
 <translation id="1521774566618522728">Aktivan je danas</translation>
@@ -1748,7 +1748,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8930351635855238750">Novo podešavanje kolačića će se primeniti kada se stranica ponovo učita</translation>
 <translation id="2568774940984945469">Kontejner trake sa informacijama</translation>
 <translation id="7282992757463864530">Traka sa informacijama</translation>
-<translation id="1805077115206898822">Obeleživači, istorija i druga podešavanja se sinhronizuju sa Brave Software nalogom.</translation>
+<translation id="1805077115206898822">Obeleživači, istorija i druga podešavanja se sinhronizuju sa Gab AI Inc nalogom.</translation>
 <translation id="1974060860693918893">Napredne opcije</translation>
 <translation id="2445484935443597917">Napravi nov profil</translation>
 <translation id="2606246518223360146">Poveži podatke</translation>
@@ -1835,7 +1835,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6387674443318562538">Podeli vertikalno</translation>
 <translation id="1231733316453485619">Želite li da uključite sinhronizaciju?</translation>
 <translation id="4736292055110123391">Sinhronizujte obeleživače, lozinke, istoriju i drugi sadržaj na svim uređajima</translation>
-<translation id="5736731321935944068">Brave Software može da koristi istoriju za personalizaciju Pretrage, oglasa i drugih Brave Software usluga</translation>
+<translation id="5736731321935944068">Gab AI Inc može da koristi istoriju za personalizaciju Pretrage, oglasa i drugih Gab AI Inc usluga</translation>
 <translation id="4201546031411513170">Uvek možete da odaberete šta ćete sinhronizovati u podešavanjima.</translation>
 <translation id="2497852260688568942">Administrator je onemogućio sinhronizaciju</translation>
 <translation id="562935524653278697">Administrator je onemogućio sinhronizaciju obeleživača, istorije, lozinki i drugih podešavanja.</translation>
@@ -1875,7 +1875,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6664774537677393800">Došlo je do problema pri otvaranju profila. Odjavite se, pa se ponovo prijavite.</translation>
 <translation id="1794791083288629568">Šalji povratne informacije kao pomoć za rešavanje ovog problema.</translation>
 <translation id="8234795456569844941">Pomozite našim inženjerima da reše problem. Recite nam šta se dogodilo neposredno pre nego što ste dobili poruku o grešci na profilu:</translation>
-<translation id="6500340165622970282">Ne možemo da pokrenemo Brave jer je došlo do problema pri otvaranju profila. Probajte ponovo da pokrenete Brave.</translation>
+<translation id="6500340165622970282">Ne možemo da pokrenemo Dissenter jer je došlo do problema pri otvaranju profila. Probajte ponovo da pokrenete Dissenter.</translation>
 <translation id="6812349420832218321"><ph name="PRODUCT_NAME"/> ne može da se pokreće kao osnovni proizvod.</translation>
 <translation id="2292848386125228270">Pokrenite <ph name="PRODUCT_NAME"/> kao običan korisnik. Ako treba da ga pokrenete kao osnovni proizvod radi programiranja, pokrenite ga ponovo pomoću oznake --no-sandbox.</translation>
 <translation id="7547317915858803630">Upozorenje: Podešavanja proizvoda <ph name="PRODUCT_NAME"/> su uskladištena na mrežnom disku. To može da dovede do usporavanja, otkazivanja pa čak i gubitka podataka.</translation>
@@ -1914,10 +1914,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6198102561359457428">Odjavi me, pa me ponovo prijavi...</translation>
 <translation id="4634771451598206121">Prijavi me ponovo...</translation>
 <translation id="7117247127439884114">Prijavi me ponovo...</translation>
-<translation id="4251909665067750757">Prijavite se da bi vam obeleživači, istorija, lozinke i druga podešavanja bili dostupni na svim uređajima. Automatski ćete biti prijavljeni i na Brave Software usluge.</translation>
+<translation id="4251909665067750757">Prijavite se da bi vam obeleživači, istorija, lozinke i druga podešavanja bili dostupni na svim uređajima. Automatski ćete biti prijavljeni i na Gab AI Inc usluge.</translation>
 <translation id="2749756011735116528">Prijavi me na proizvod <ph name="PRODUCT_NAME"/></translation>
 <translation id="2126167708562367080">Administrator je onemogućio sinhronizaciju.</translation>
-<translation id="5462539695964427820">Sinhronizacija je zaustavljena preko Brave Software kontrolne table.</translation>
+<translation id="5462539695964427820">Sinhronizacija je zaustavljena preko Gab AI Inc kontrolne table.</translation>
 <translation id="8805140816472474147">Potvrdite podešavanja sinhronizacije da biste započeli sinhronizaciju.</translation>
 <translation id="5771816112378578655">Podešavanje je u toku...</translation>
 <translation id="3492788708641132712">Sinhronizacija ne funkcioniše. Probajte ponovo da se prijavite.</translation>
@@ -1931,16 +1931,16 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1877520246462554164">Preuzimanje tokena za potvrdu identiteta nije uspelo. Odjavite se, pa se ponovo prijavite da biste probali ponovo.</translation>
 <translation id="9100765901046053179">Napredna podešavanja</translation>
 <translation id="2731700343119398978">Sačekajte…</translation>
-<translation id="7218743184834293955">Podaci se šifruju pomoću pristupne fraze za sinhronizaciju. To ne obuhvata načine plaćanja i adrese iz Brave Software Pay-a.</translation>
+<translation id="7218743184834293955">Podaci se šifruju pomoću pristupne fraze za sinhronizaciju. To ne obuhvata načine plaćanja i adrese iz Gab AI Inc Pay-a.</translation>
 <translation id="7158251077901880179">Podaci su šifrovani pomoću pristupne fraze za sinhronizaciju
-          <ph name="TIME"/>. To ne obuhvata načine plaćanja i adrese iz Brave Software Pay-a.</translation>
-<translation id="1171389789873508468">Podaci su šifrovani pomoću Brave Software lozinke od
-          <ph name="TIME"/>. To ne obuhvata načine plaćanja i adrese iz Brave Software Pay-a.</translation>
+          <ph name="TIME"/>. To ne obuhvata načine plaćanja i adrese iz Gab AI Inc Pay-a.</translation>
+<translation id="1171389789873508468">Podaci su šifrovani pomoću Gab AI Inc lozinke od
+          <ph name="TIME"/>. To ne obuhvata načine plaćanja i adrese iz Gab AI Inc Pay-a.</translation>
 <translation id="2562743677925229011">Niste prijavljeni na <ph name="SHORT_PRODUCT_NAME"/></translation>
 <translation id="4027804175521224372">(Propuštate – <ph name="IDS_SYNC_PROMO_NOT_SIGNED_IN_STATUS_LINK"/>)</translation>
 <translation id="3574210789297084292">prijavi me</translation>
 <translation id="237828693408258535">Želite li da prevedete ovu stranicu?</translation>
-<translation id="4613765529964435709">Želite li da Brave Software prevede ovu stranicu sa jezika <ph name="SOURCE_LANGUAGE"/> na <ph name="TARGET_LANGUAGE"/>?</translation>
+<translation id="4613765529964435709">Želite li da Gab AI Inc prevede ovu stranicu sa jezika <ph name="SOURCE_LANGUAGE"/> na <ph name="TARGET_LANGUAGE"/>?</translation>
 <translation id="5990386583461751448">Prevedeno</translation>
 <translation id="5659833766619490117">Prevođenje ove stranice nije uspelo</translation>
 <translation id="969096075394517431">Promeni jezike</translation>
@@ -2119,7 +2119,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6309510305002439352">Dozvola za mikrofon je isključena</translation>
 <translation id="1322046419516468189">Pregledajte sačuvane lozinke i upravljajte njima sa <ph name="SAVED_PASSWORDS_STORE"/></translation>
 <translation id="5297082477358294722">Lozinka je sačuvana. Pregledajte sačuvane lozinke i upravljajte njima sa <ph name="SAVED_PASSWORDS_STORE"/>.</translation>
-<translation id="5713644099811900409">Brave Software naloga</translation>
+<translation id="5713644099811900409">Gab AI Inc naloga</translation>
 <translation id="3785727820640310185">Sačuvane lozinke za ovaj sajt</translation>
 <translation id="3404065873681873169">Nijedna lozinka nije sačuvana za ovaj sajt</translation>
 <translation id="8470513973197838199">Sačuvane lozinke za <ph name="ORIGIN"/></translation>
@@ -2232,7 +2232,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2505324914378689427">{SCREEN_INDEX,plural, =1{Ekran #}one{Ekran #}few{Ekran #}other{Ekran #}}</translation>
 <translation id="839736845446313156">Registrujte se</translation>
 <translation id="6285120908535925801">{NUM_PRINTER,plural, =1{Nov štampač na mreži}one{Novi štampači na mreži}few{Novi štampači na mreži}other{Novi štampači na mreži}}</translation>
-<translation id="1653526288038954982">{NUM_PRINTER,plural, =1{Dodajte štampač u Brave Software Cloud štampanje da biste mogli da štampate bilo gde.}one{Dodajte # štampač u Brave Software Cloud štampanje da biste mogli da štampate bilo gde.}few{Dodajte # štampača u Brave Software Cloud štampanje da biste mogli da štampate bilo gde.}other{Dodajte # štampača u Brave Software Cloud štampanje da biste mogli da štampate bilo gde.}}</translation>
+<translation id="1653526288038954982">{NUM_PRINTER,plural, =1{Dodajte štampač u Gab AI Inc Cloud štampanje da biste mogli da štampate bilo gde.}one{Dodajte # štampač u Gab AI Inc Cloud štampanje da biste mogli da štampate bilo gde.}few{Dodajte # štampača u Gab AI Inc Cloud štampanje da biste mogli da štampate bilo gde.}other{Dodajte # štampača u Gab AI Inc Cloud štampanje da biste mogli da štampate bilo gde.}}</translation>
 <translation id="409579654357498729">Dodaj u Cloud štampanje</translation>
 <translation id="4628757576491864469">Uređaji</translation>
 <translation id="6915804003454593391">Korisnik:</translation>
@@ -2242,8 +2242,8 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1895934970388272448">Morate da potvrdite registraciju na štampaču da biste završili ovaj proces – proverite to odmah.</translation>
 <translation id="551752069230578406">Dodajemo štampač na nalog – to će možda malo da potraje...</translation>
 <translation id="2384436799579181135">Došlo je do greške. Proverite štampač i probajte ponovo.</translation>
-<translation id="1327074568633507428">Štampač u Brave Software Cloud štampanju</translation>
-<translation id="6782994146626179935">Uređaj u Brave Software klaud uređajima</translation>
+<translation id="1327074568633507428">Štampač u Gab AI Inc Cloud štampanju</translation>
+<translation id="6782994146626179935">Uređaj u Gab AI Inc klaud uređajima</translation>
 <translation id="7140928199327930795">Nema drugih dostupnih uređaja.</translation>
 <translation id="8213577208796878755">Dostupan je još jedan uređaj.</translation>
 <translation id="1495486559005647033">Drugih dostupnih uređaja: <ph name="NUM_PRINTERS"/>.</translation>
@@ -2251,15 +2251,15 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4720113199587244118">Dodaj uređaje</translation>
 <translation id="2776441542064982094">Izgleda da nema dostupnih uređaja za registraciju na mreži. Ako je uređaj uključen i povezan sa internetom, pokušajte da ga registrujete pomoću uputstava u priručniku za upotrebu.</translation>
 <translation id="1007408791287232274">Nije moguće učitati uređaje.</translation>
-<translation id="3886420006370338208">Potrebno je da se prijavite u Brave da biste videli uređaje</translation>
-<translation id="6711610692002680394">Potrebno je da se prijavite u Brave da biste registrovali nove uređaje</translation>
+<translation id="3886420006370338208">Potrebno je da se prijavite u Dissenter da biste videli uređaje</translation>
+<translation id="6711610692002680394">Potrebno je da se prijavite u Dissenter da biste registrovali nove uređaje</translation>
 <translation id="8931394284949551895">Novi uređaji</translation>
 <translation id="3752673729237782832">Moji uređaji</translation>
 <translation id="1721937473331968728">Možete da dodajete klasične štampače povezane sa računarom u <ph name="CLOUD_PRINT_NAME"/>.</translation>
 <translation id="715118844758971915">Klasični štampači</translation>
 <translation id="4263757076580287579">Registracija štampača je otkazana.</translation>
 <translation id="8152091997436726702">Vreme za registraciju štampača je isteklo. Da biste registrovali štampač, morate da potvrdite registraciju na štampaču.</translation>
-<translation id="2624930408905606513">Dokumenti se <ph name="BEGIN_LINK_HELP"/>šalju Brave Software-u<ph name="END_LINK_HELP"/> radi pripreme za štampanje. Štampače i njihovu istoriju možete da pregledate, izmenite i da upravljate njima pomoću <ph name="BEGIN_LINK_DASHBOARD"/>kontrolne table Brave Software Cloud štampanja<ph name="END_LINK_DASHBOARD"/>.</translation>
+<translation id="2624930408905606513">Dokumenti se <ph name="BEGIN_LINK_HELP"/>šalju Gab AI Inc-u<ph name="END_LINK_HELP"/> radi pripreme za štampanje. Štampače i njihovu istoriju možete da pregledate, izmenite i da upravljate njima pomoću <ph name="BEGIN_LINK_DASHBOARD"/>kontrolne table Gab AI Inc Cloud štampanja<ph name="END_LINK_DASHBOARD"/>.</translation>
 <translation id="3082780749197361769">Ova kartica koristi kameru ili mikrofon.</translation>
 <translation id="3578594933904494462">Sadržaj ove kartice se deli.</translation>
 <translation id="4449996769074858870">Ova kartica reprodukuje zvuk.</translation>
@@ -2325,7 +2325,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4540437243849625078">Ovaj sajt će deliti informacije sa aplikacijom izvan režima bez arhiviranja.</translation>
 <translation id="1227836882233136433">Izlazite iz režima bez arhiviranja?</translation>
 <translation id="662080504995468778">Ne zatvaraj</translation>
-<translation id="2593289874938379417">Brave nema pristup zahtevanom resursu.</translation>
+<translation id="2593289874938379417">Dissenter nema pristup zahtevanom resursu.</translation>
 <translation id="760197030861754408">Idite na <ph name="LANDING_PAGE"/> da biste se povezali.</translation>
 <translation id="3648348069317717750">Uređaj <ph name="USB_DEVICE_NAME"/> je otkriven</translation>
 <translation id="5042282098504489593">Otvorite Podešavanja da biste povezali <ph name="USB_DEVICE_NAME"/> sa Linux-om</translation>
@@ -2379,24 +2379,24 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2859806420264540918">Ovaj sajt prikazuje oglase koji ometaju aktivnosti ili obmanjujuće oglase.</translation>
 <translation id="4077917118009885966">Oglasi su blokirani na ovom sajtu</translation>
 <translation id="6456955391422100996">Oglas je uklonjen.</translation>
-<translation id="7533556202636568669">Ovaj oglas koristi previše resursa za uređaj, pa ga je Brave uklonio.</translation>
+<translation id="7533556202636568669">Ovaj oglas koristi previše resursa za uređaj, pa ga je Dissenter uklonio.</translation>
 <translation id="8497219075884839166">Windows uslužni programi</translation>
 <translation id="897525204902889653">Usluga karantina</translation>
 <translation id="7055152154916055070">Blokirano je preusmeravanje:</translation>
 <translation id="6777817260680419853">Preusmeravanje je blokirano</translation>
 <translation id="694592694773692225">Preusmeravanje je blokirano na ovoj stranici.</translation>
-<translation id="8945142681652245463">Pregledajte brzo uz Brave Software Brave</translation>
-<translation id="2618024864038703735">Pregledajte bezbedno uz Brave Software Brave</translation>
-<translation id="8142180567942285208">Pametno pregledajte uz Brave</translation>
+<translation id="8945142681652245463">Pregledajte brzo uz Gab AI Inc Dissenter</translation>
+<translation id="2618024864038703735">Pregledajte bezbedno uz Gab AI Inc Dissenter</translation>
+<translation id="8142180567942285208">Pametno pregledajte uz Dissenter</translation>
 <translation id="8862003515646449717">Pređite na brz pregledač</translation>
 <translation id="8438328416656800239">Pređite na pametan pregledač</translation>
 <translation id="491691592645955587">Pređite na bezbedan pregledač</translation>
 <translation id="683373380308365518">Pređite na pametan i bezbedan pregledač</translation>
-<translation id="989239400026154074">Brave Software preporučuje Brave</translation>
-<translation id="6676231621615806698">Otvori Brave</translation>
+<translation id="989239400026154074">Gab AI Inc preporučuje Dissenter</translation>
+<translation id="6676231621615806698">Otvori Dissenter</translation>
 <translation id="5250372599208556903"><ph name="SEARCH_ENGINE_NAME"/> koristi lokaciju da bi vam pružao lokalni sadržaj. To možete da promenite u: <ph name="SETTINGS_LINK"/>.</translation>
 <translation id="3737536731758327622">Preuzimanja će se prikazivati ovde</translation>
-<translation id="4782664866169793230">Softver za automatizovano testiranje kontroliše Brave.</translation>
+<translation id="4782664866169793230">Softver za automatizovano testiranje kontroliše Dissenter.</translation>
 <translation id="6721678857435001674">da vidi proizvođača i model bezbednosnog ključa</translation>
 <translation id="1673137583248014546"><ph name="URL"/> želi da vidi proizvođača i model bezbednosnog ključa</translation>
 <translation id="6010869025736512584">Pristupa se video ulazu</translation>
@@ -2529,7 +2529,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3984431586879874039">Želite li da dozvolite ovom sajtu da vidi bezbednosni ključ?</translation>
 <translation id="8948939328578167195"><ph name="WEBSITE"/> želi da vidi proizvođača i model bezbednosnog ključa</translation>
 <translation id="7618452966706304788">Da li želite da koristite Touch ID sa aplikacijom <ph name="APP_NAME"/> u režimu bez arhiviranja?</translation>
-<translation id="3098826269712097986">Podaci o prijavljivanju se čuvaju u Brave-u kada izađete iz režima bez arhiviranja. To će vam omogućiti da kasnije ponovo koristite Touch ID sa ovim veb-sajtom.</translation>
+<translation id="3098826269712097986">Podaci o prijavljivanju se čuvaju u Dissenter-u kada izađete iz režima bez arhiviranja. To će vam omogućiti da kasnije ponovo koristite Touch ID sa ovim veb-sajtom.</translation>
 <translation id="2172784515318616985">Nastavi</translation>
 <translation id="5186185447130319458">Bez arhiviranja</translation>
 <translation id="7643842463591647490">{0,plural, =1{# otvoren prozor}one{# otvoren prozor}few{# otvorena prozora}other{# otvorenih prozora}}</translation>
@@ -2558,7 +2558,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2878782256107578644">Skeniranje je u toku, želite li da otvorite odmah?</translation>
 <translation id="6098793583803863900">Nepoznata datoteka se skenira radi pronalaženja opasnog sadržaja.</translation>
 <translation id="7584578941316704630">Želite li da skenirate pre otvaranja?</translation>
-<translation id="4467402456678825062">Izabrana datoteka je nepoznata i može da bude opasna. Želite li da je pošaljete u Brave Software naprednu zaštitu radi skeniranja?</translation>
+<translation id="4467402456678825062">Izabrana datoteka je nepoznata i može da bude opasna. Želite li da je pošaljete u Gab AI Inc naprednu zaštitu radi skeniranja?</translation>
 <translation id="2587922766792651800">Ograničenje je isteklo</translation>
 <translation id="4404136731284211429">Skeniraj ponovo</translation>
 <translation id="6428450836711225518">Verifikujte broj telefona</translation>
@@ -2566,12 +2566,12 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6518133107902771759">Verifikuj</translation>
 <translation id="4379281552162875326">Želite da deinstalirate aplikaciju <ph name="APP_NAME"/>?</translation>
 <translation id="8812593354822910461">Obriši i podatke pregledanja (<ph name="URL"/>). Ovo će vas odjaviti sa <ph name="DOMAIN"/>. <ph name="LEARN_MORE"/></translation>
-<translation id="8988766505821653206">Obriši i podatke pregledanja (<ph name="URL"/>). Ovo može da vas odjavi sa Brave Software.com. <ph name="LEARN_MORE"/></translation>
+<translation id="8988766505821653206">Obriši i podatke pregledanja (<ph name="URL"/>). Ovo može da vas odjavi sa Gab AI Inc.com. <ph name="LEARN_MORE"/></translation>
 <translation id="6165508094623778733">Saznajte više</translation>
 <translation id="2346953515226895098">Usluga SODA</translation>
 <translation id="7516981202574715431">Aplikacija <ph name="APP_NAME"/> je pauzirana</translation>
 <translation id="917350715406657904">Dostigao/la si vremensko ograničenje koje je roditelj podesio za: <ph name="APP_NAME"/>. Sutra imaš <ph name="TIME_LIMIT"/> na raspolaganju.</translation>
-<translation id="8891261408659902804">Dostigao/la si vremensko ograničenje koje je roditelj podesio za Brave aplikaciju<ph name="APP_NAME"/>. Sutra imaš <ph name="TIME_LIMIT"/> na raspolaganju.</translation>
+<translation id="8891261408659902804">Dostigao/la si vremensko ograničenje koje je roditelj podesio za Dissenter aplikaciju<ph name="APP_NAME"/>. Sutra imaš <ph name="TIME_LIMIT"/> na raspolaganju.</translation>
 <translation id="142655739075382478">Aplikacija <ph name="APP_NAME"/> je blokirana</translation>
 <translation id="4404843640767531781">Roditelj blokira aplikaciju <ph name="APP_NAME"/>. Zatraži od roditelja dozvolu za korišćenje ove aplikacije.</translation>
 <translation id="751523031290522286">Administrator blokira aplikaciju <ph name="APP_NAME"/>. Zatražite od administratora dozvolu za korišćenje ove aplikacije.</translation>
@@ -2722,7 +2722,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4144218403971135344">Pronađite video sadržaj boljeg kvaliteta i produžite trajanje baterije. Video će se puštati samo na ekranu koji podržava Cast.</translation>
 <translation id="236117173274098341">Optimizuj</translation>
 <translation id="8538358978858059843">Želite li da omogućite klaud usluge za Cast?</translation>
-<translation id="3856595552313160385">Korišćenje usluga Hangouts i Cast for Education je regulisano Brave Software politikom privatnosti.</translation>
+<translation id="3856595552313160385">Korišćenje usluga Hangouts i Cast for Education je regulisano Gab AI Inc politikom privatnosti.</translation>
 <translation id="3435896845095436175">Omogući</translation>
 <translation id="3700888195348409686">Prikazuje se (<ph name="PAGE_ORIGIN"/>)</translation>
 <translation id="5285635972691565180">Ekran <ph name="DISPLAY_ID"/></translation>
@@ -2904,7 +2904,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="672213144943476270">Otključajte profil da biste pregledali kao gost.</translation>
 <translation id="8086119151297127544">Otključajte profil da biste uklonili osobu.</translation>
 <translation id="7805701378418968629">Otključajte profil da biste dodali osobu.</translation>
-<translation id="8978225823042133615">Prijavite se da biste koristili Brave</translation>
+<translation id="8978225823042133615">Prijavite se da biste koristili Dissenter</translation>
 <translation id="4893336867552636863">To će trajno izbrisati podatke pregledanja sa ovog uređaja.</translation>
 <translation id="2496180316473517155">Istorija pregledanja</translation>
 <translation id="6865313869410766144">Podaci Automatskog popunjavanja za obrasce</translation>
@@ -2916,7 +2916,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4222772810963087151">Detalji o verziji</translation>
 <translation id="8867228703146808825">Kopirajte detalje verzije u privremenu memoriju</translation>
 <translation id="6532663472409656417">Registrovano za preduzeće</translation>
-<translation id="1549275686094429035">Vreme izvršavanja aplikacije za Brave je omogućeno</translation>
+<translation id="1549275686094429035">Vreme izvršavanja aplikacije za Dissenter je omogućeno</translation>
 <translation id="7121438501124788993">Režim programera</translation>
 <translation id="4297219207642690536">Restartuj i resetuj</translation>
 <translation id="5906655207909574370">Ažuriranje je skoro gotovo! Ponovo pokrenite uređaj da biste dovršili ažuriranje.</translation>
@@ -2928,7 +2928,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="9013707997379828817">Administrator je vratio ovaj uređaj na raniju verziju. Sačuvajte važne datoteke, pa restartujte. Svi podaci na uređaju će biti izbrisani.</translation>
 <translation id="5877064549588274448">Kanal je promenjen. Pokrenite ponovo uređaj da biste primenili promene.</translation>
 <translation id="4716483597559580346">Powerwash radi veće bezbednosti</translation>
-<translation id="4089922565956168950">Ovom nadogradnjom Bravebook se resetuje i uklanjaju se aktuelni podaci korisnika.</translation>
+<translation id="4089922565956168950">Ovom nadogradnjom Dissenterbook se resetuje i uklanjaju se aktuelni podaci korisnika.</translation>
 <translation id="3688526734140524629">Promeni kanal</translation>
 <translation id="6410328738210026208">Promeni kanal i obavi Powerwash</translation>
 <translation id="1979280758666859181">Prelazite na kanal sa starijom verzijom <ph name="PRODUCT_NAME"/>-a. Promena kanala će se primeniti kada se verzija kanala bude podudarala sa verzijom koja je trenutno instalirana na uređaju.</translation>
@@ -2960,10 +2960,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4382131447572146376">{COUNT,plural, =0{<ph name="EMAIL"/>}=1{<ph name="EMAIL"/>, još 1 nalog}one{<ph name="EMAIL"/>, još <ph name="EXTRA_ACCOUNTS"/> nalog}few{<ph name="EMAIL"/>, još <ph name="EXTRA_ACCOUNTS"/> naloga}other{<ph name="EMAIL"/>, još <ph name="EXTRA_ACCOUNTS"/> naloga}}</translation>
 <translation id="7434635829372401939">Sinhronizujte podešavanja</translation>
 <translation id="1036348656032585052">Isključi</translation>
-<translation id="3267705913905916810">Aplikacije i podešavanja će se sinhronizovati na svim Brave OS uređajima na kojima ste prijavljeni pomoću svog Brave Software naloga. Opcije sinhronizacije pregledača pronađite u <ph name="LINK_BEGIN"/>podešavanjima Brave-a<ph name="LINK_END"/>.</translation>
+<translation id="3267705913905916810">Aplikacije i podešavanja će se sinhronizovati na svim Dissenter OS uređajima na kojima ste prijavljeni pomoću svog Gab AI Inc naloga. Opcije sinhronizacije pregledača pronađite u <ph name="LINK_BEGIN"/>podešavanjima Dissenter-a<ph name="LINK_END"/>.</translation>
 <translation id="6985607387932385770">Štampači</translation>
 <translation id="8818152010000655963">Pozadina</translation>
-<translation id="8418661265246754237">Brave Software nalozi</translation>
+<translation id="8418661265246754237">Gab AI Inc nalozi</translation>
 <translation id="3953834000574892725">Moji nalozi</translation>
 <translation id="6011193465932186973">Digitalni otisak</translation>
 <translation id="3707212204259470604">Upravljanje drugim ljudima</translation>
@@ -3004,16 +3004,16 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5916664084637901428">Uključeno</translation>
 <translation id="5860033963881614850">Isključeno</translation>
 <translation id="5515923816438946203">Odaberite ono što vidite na ekranu</translation>
-<translation id="2187700606737131818">Brave Software slike</translation>
+<translation id="2187700606737131818">Gab AI Inc slike</translation>
 <translation id="1827738518074806965">Likovna galerija</translation>
 <translation id="9137157311132182254">Željeni pretraživač</translation>
-<translation id="7423118389528876103">Koriste ga pregledač Brave i pokretač uređaja <ph name="DEVICE_TYPE"/></translation>
-<translation id="2862205630718215619">Brave Software pomoćnik</translation>
+<translation id="7423118389528876103">Koriste ga pregledač Dissenter i pokretač uređaja <ph name="DEVICE_TYPE"/></translation>
+<translation id="2862205630718215619">Gab AI Inc pomoćnik</translation>
 <translation id="8959699239363253085">Uključeno</translation>
 <translation id="971479617738309149">Isključeno</translation>
 <translation id="7807067443225230855">Pretraga i Pomoćnik</translation>
 <translation id="1293556467332435079">Datoteke</translation>
-<translation id="6474884162850599008">Prekini vezu sa nalogom Brave Software diska</translation>
+<translation id="6474884162850599008">Prekini vezu sa nalogom Gab AI Inc diska</translation>
 <translation id="3653160965917900914">Deljenja datoteka na mreži</translation>
 <translation id="4906490889887219338">Podesite deljenja datoteka na mreži ili upravljajte njima. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="5734697361979786483">Dodaj deljenje datoteka</translation>
@@ -3027,15 +3027,15 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6644513150317163574">Nevažeći format URL-a. Server mora da bude naveden kao ime hosta kada se koristi SSO potvrda identiteta.</translation>
 <translation id="6091761513005122595">Deljena datoteka je učitana.</translation>
 <translation id="5770125698810550803">Prikaži dugmad za navigaciju</translation>
-<translation id="2972318514147518075">Idite na početnu stranicu ili nazad i menjajte aplikacije pomoću dugmadi u režimu tableta. Uključeno je kada su BraveVox ili Automatski klikovi omogućeni.</translation>
+<translation id="2972318514147518075">Idite na početnu stranicu ili nazad i menjajte aplikacije pomoću dugmadi u režimu tableta. Uključeno je kada su DissenterVox ili Automatski klikovi omogućeni.</translation>
 <translation id="2558896001721082624">Uvek prikazuj opcije pristupačnosti u sistemskom meniju</translation>
 <translation id="2981113813906970160">Prikaži veliki kursor</translation>
 <translation id="5072052264945641674">Prilagodi veličinu kursora</translation>
 <translation id="4209092469652827314">Velika</translation>
 <translation id="499165176004408815">Koristi režim visokog kontrasta</translation>
 <translation id="142758023928848008">Omogući lepljive tastere (da biste koristili tasterske prečice tako što ćete pritiskati jedan po jedan taster)</translation>
-<translation id="5914872514449971753">Omogući BraveVox (govorne povratne informacije)</translation>
-<translation id="7099511550603534982">Otvori podešavanja BraveVox-a</translation>
+<translation id="5914872514449971753">Omogući DissenterVox (govorne povratne informacije)</translation>
+<translation id="7099511550603534982">Otvori podešavanja DissenterVox-a</translation>
 <translation id="8547013269961688403">Omogući lupu za ceo ekran</translation>
 <translation id="8743390665131937741">Nivo zumiranja celog ekrana:</translation>
 <translation id="7334274148831027933">Omogući montiranu lupu ekrana</translation>
@@ -3064,7 +3064,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5511379779384092781">Veoma mala</translation>
 <translation id="2765217105034171413">Mala</translation>
 <translation id="7409549334477097887">Veoma velika</translation>
-<translation id="1800308196794859773">Šaljite podatke o glasu Brave Software-u da bi se omogućilo diktiranje u svim poljima za tekst.</translation>
+<translation id="1800308196794859773">Šaljite podatke o glasu Gab AI Inc-u da bi se omogućilo diktiranje u svim poljima za tekst.</translation>
 <translation id="8758418656925882523">Omogući diktiranje (govorite za kucanje)</translation>
 <translation id="1330145147221172764">Omogući tastaturu na ekranu</translation>
 <translation id="7580671184200851182">Puštaj isti zvuk na svim zvučnicima (mono zvuk)</translation>
@@ -3127,7 +3127,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6902066522699286937">Glas za pregled</translation>
 <translation id="304747341537320566">Mehanizmi govora</translation>
 <translation id="2755367719610958252">Upravljaj funkcijama pristupačnosti</translation>
-<translation id="1203953622051744249">Upravljajte nalozima na koje ste prijavljeni. Veb-sajtovi, aplikacije i dodaci u Brave-u i na Brave Software Play-u mogu da koriste te naloge za prilagođavanje doživljaja, u zavisnosti od dozvola. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
+<translation id="1203953622051744249">Upravljajte nalozima na koje ste prijavljeni. Veb-sajtovi, aplikacije i dodaci u Dissenter-u i na Gab AI Inc Play-u mogu da koriste te naloge za prilagođavanje doživljaja, u zavisnosti od dozvola. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="762068974690945752">Ovde dodajte školski nalog ili upravljajte nalozima dece. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="1987317783729300807">Nalozi</translation>
 <translation id="6597148444736186483">Da biste se odjavili sa primarnog naloga na ovom uređaju, kliknite na vreme na ekranu. U meniju koji se pojavljuje kliknite na „Odjavi me“.</translation>
@@ -3136,8 +3136,8 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2923234477033317484">Ukloni ovaj nalog</translation>
 <translation id="7665369617277396874">Dodajte nalog</translation>
 <translation id="8428271547607112339">Dodajte školski nalog</translation>
-<translation id="4920274951865016604">Administrator je onemogućio dodavanje još Brave Software naloga</translation>
-<translation id="8845742957886589229">Dodavanje još Brave Software naloga je onemogućeno</translation>
+<translation id="4920274951865016604">Administrator je onemogućio dodavanje još Gab AI Inc naloga</translation>
+<translation id="8845742957886589229">Dodavanje još Gab AI Inc naloga je onemogućeno</translation>
 <translation id="5021750053540820849">Još nije ažurirano</translation>
 <translation id="3448492834076427715">Ažuriraj nalog</translation>
 <translation id="2458379781610688953">Ažurirajte nalog, <ph name="EMAIL"/></translation>
@@ -3172,7 +3172,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3661172646479098821">Trenutno su podržani samo Android uređaji.</translation>
 <translation id="3201422919974259695">Dostupni USB uređaji će se prikazivati ovde.</translation>
 <translation id="2629227353894235473">Programirajte Android aplikacije</translation>
-<translation id="1669729672557072907">Da biste pravili i testirali aplikacije, omogućite Android Debug Bridge (ADB). Imajte na umu da ova radnja omogućava instaliranje Android aplikacija koje Brave Software nije verifikovao i zahteva resetovanje na fabrička podešavanja da bi se onemogućila.</translation>
+<translation id="1669729672557072907">Da biste pravili i testirali aplikacije, omogućite Android Debug Bridge (ADB). Imajte na umu da ova radnja omogućava instaliranje Android aplikacija koje Gab AI Inc nije verifikovao i zahteva resetovanje na fabrička podešavanja da bi se onemogućila.</translation>
 <translation id="4638930039313743000">Omogući ADB otklanjanje grešaka</translation>
 <translation id="1630768113285622200">Restartuj i nastavi</translation>
 <translation id="1005333234656240382">Želite da omogućite ADB otklanjanje grešaka?</translation>
@@ -3199,7 +3199,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="234889437187286781">Greška pri učitavanju podataka</translation>
 <translation id="4660540330091848931">Promena veličine</translation>
 <translation id="1481537595330271162">Greška pri menjanju veličine diska</translation>
-<translation id="2756917833575664962">Bravebook mora da se vrati na fabrička podešavanja da bi se omogućilo ADB otklanjanje grešaka <ph name="BEGIN_LINK_LEARN_MORE"/>Saznajte više<ph name="END_LINK_LEARN_MORE"/></translation>
+<translation id="2756917833575664962">Dissenterbook mora da se vrati na fabrička podešavanja da bi se omogućilo ADB otklanjanje grešaka <ph name="BEGIN_LINK_LEARN_MORE"/>Saznajte više<ph name="END_LINK_LEARN_MORE"/></translation>
 <translation id="1327495825214193325">Da biste omogućili ADB otklanjanje grešaka, morate da restartujete ovaj <ph name="DEVICE_TYPE"/>. Da biste ga onemogućili, moraćete da resetujete uređaj na fabrička podešavanja.</translation>
 <translation id="8082390128630131497">Ako onemogućite ADB otklanjanje grešaka, <ph name="DEVICE_TYPE"/> će se resetovati na fabrička podešavanja. Svi korisnički nalozi i lokalni podaci će biti obrisani.</translation>
 <translation id="7932969338829957666">Deljeni direktorijumi su dostupni u Linux-u na <ph name="BASE_DIR"/>.</translation>
@@ -3209,9 +3209,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1870629042957780127">Omogućite pristup mikrofonu</translation>
 <translation id="1392232653471491344">Treba da restartujete Linux</translation>
 <translation id="1064552680598333868">Promene mikrofona će stupiti na snagu kada se Linux sledeći put restartuje.</translation>
-<translation id="2714393097308983682">Brave Software Play prodavnica</translation>
+<translation id="2714393097308983682">Gab AI Inc Play prodavnica</translation>
 <translation id="2966937470348689686">Upravljajte Android podešavanjima</translation>
-<translation id="6398715114293939307">Uklonite Brave Software Play prodavnicu</translation>
+<translation id="6398715114293939307">Uklonite Gab AI Inc Play prodavnicu</translation>
 <translation id="2792290659606763004">Želite li da uklonite Android aplikacije?</translation>
 <translation id="492299503953721473">Ukloni Android aplikacije</translation>
 <translation id="7566118625369982896">Upravljajte linkovima aplikacije Play</translation>
@@ -3219,7 +3219,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5862109781435984885">Prikazuj alatke za pisaljku u polici</translation>
 <translation id="4673442866648850031">Otvaraj alatke za pisaljku kada se pisaljka ukloni</translation>
 <translation id="4244238649050961491">Pronađi još aplikacija za pisaljku</translation>
-<translation id="668599234725812620">Otvori Brave Software Play</translation>
+<translation id="668599234725812620">Otvori Gab AI Inc Play</translation>
 <translation id="9116799625073598554">Aplikacija za pravljenje beleški</translation>
 <translation id="203574396658008164">Omogući pravljenje beleški sa zaključanog ekrana</translation>
 <translation id="6238923052227198598">Zadrži najnoviju belešku na zaključanom ekranu</translation>
@@ -3327,10 +3327,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8002670234429879764">Štampač <ph name="PRINTER_NAME"/> više nije dostupan</translation>
 <translation id="3976108569178263973">Nema dostupnih štampača.</translation>
 <translation id="217576141146192373">Dodavanje štampača nije uspelo. Proverite konfiguraciju štampača i probajte ponovo.</translation>
-<translation id="4052689580269971502">Povezivanje sa štampačem nije uspelo. Proverite da li je štampač uključen i povezan sa Bravebook-om pomoću Wi-Fi-ja ili USB-a.</translation>
+<translation id="4052689580269971502">Povezivanje sa štampačem nije uspelo. Proverite da li je štampač uključen i povezan sa Dissenterbook-om pomoću Wi-Fi-ja ili USB-a.</translation>
 <translation id="7099337801055912064">Veliki PPD ne može da se učita. Maksimalna veličina je 250 kB.</translation>
 <translation id="4310139701823742692">Format datoteke je pogrešan. Proverite PPD datoteku i probajte ponovo.</translation>
-<translation id="6580983683519551561">Ne možemo da pronađemo PPD. Proverite da li je Bravebook onlajn i probajte ponovo.</translation>
+<translation id="6580983683519551561">Ne možemo da pronađemo PPD. Proverite da li je Dissenterbook onlajn i probajte ponovo.</translation>
 <translation id="4694024090038830733">Konfiguracijom štampača upravlja administrator.</translation>
 <translation id="5816434091619127343">Tražene izmene će učiniti štampač neupotrebljivim.</translation>
 <translation id="6504611359718185067">Povežite se na internet da biste dodali štampač</translation>
@@ -3365,7 +3365,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5517412723934627386"><ph name="NETWORK_TYPE"/> – <ph name="NETWORK_DISPLAY_NAME"/></translation>
 <translation id="5637476008227280525">Omogući mobilne podatke</translation>
 <translation id="7378812711085314936">Korišćenje veze za prenos podataka</translation>
-<translation id="3483333858382889684">Omogućite ovom uređaju da pronađe druge uređaje sa vašim Brave Software nalogom koji imaju vezu za prenos podataka preko mobilnog operatera</translation>
+<translation id="3483333858382889684">Omogućite ovom uređaju da pronađe druge uređaje sa vašim Gab AI Inc nalogom koji imaju vezu za prenos podataka preko mobilnog operatera</translation>
 <translation id="1572266655485775982">Omogući Wi-Fi</translation>
 <translation id="7078120482318506217">Sve mreže</translation>
 <translation id="1235458158152011030">Poznate mreže</translation>
@@ -3397,13 +3397,13 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4421167684395067330">Problem pri povezivanju. Ako vam je potrebna pomoć, obratite se operateru <ph name="CARRIER_NAME"/>.</translation>
 <translation id="7780252971640011240">Problem pri povezivanju. Obratite se mobilnom operateru za pomoć.</translation>
 <translation id="161460670679785907">Nismo uspeli da otkrijemo telefon</translation>
-<translation id="778480864305029524">Da biste koristili instant privezivanje, uključite obaveštenja za Brave Software Play usluge.</translation>
+<translation id="778480864305029524">Da biste koristili instant privezivanje, uključite obaveštenja za Gab AI Inc Play usluge.</translation>
 <translation id="7696063401938172191">Na telefonu „<ph name="PHONE_NAME"/>“:</translation>
 <translation id="3423463006624419153">Na telefonima „<ph name="PHONE_NAME_1"/>“ i „<ph name="PHONE_NAME_2"/>“:</translation>
 <translation id="6997707937646349884">Na uređajima:</translation>
 <translation id="7531779363494549572">Idite u Podešavanja &gt; Aplikacije i obaveštenja &gt; Obaveštenja.</translation>
-<translation id="1819721979226826163">Dodirnite Obaveštenja o aplikaciji &gt; Brave Software Play usluge.</translation>
-<translation id="968000525894980488">Uključite Brave Software Play usluge.</translation>
+<translation id="1819721979226826163">Dodirnite Obaveštenja o aplikaciji &gt; Gab AI Inc Play usluge.</translation>
+<translation id="968000525894980488">Uključite Gab AI Inc Play usluge.</translation>
 <translation id="2705736684557713153">Pomerite do dna ekrana i uključite trenutno privezivanje ako se prikazuje. Ako se ne prikaže, spremni ste.</translation>
 <translation id="7240339475467890413">Želite li da se povežete na novi hotspot?</translation>
 <translation id="6514010653036109809">Dostupan uređaj:</translation>
@@ -3518,9 +3518,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6555432686520421228">Uklonite sve korisničke naloge i restartujte <ph name="IDS_SHORT_PRODUCT_NAME"/> uređaj da bi bio kao nov.</translation>
 <translation id="5470735824776589490">Morate da restartujete uređaj da biste mogli da ga resetujete pomoću Powerwash-a. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="3223531857777746191">Dugme Resetuj</translation>
-<translation id="472896694312062378">„Ok Brave Software“</translation>
-<translation id="2339135612812615870">Pristupajte Pomoćniku kada kažete „Ok Brave Software“.</translation>
-<translation id="3735919318855093557">Pristupajte Pomoćniku kada kažete „Ok Brave Software“. Da biste uštedeli bateriju, odaberite „Uključeno (preporučeno)“. Pomoćnik će odgovoriti samo kada je uređaj priključen ili se puni.</translation>
+<translation id="472896694312062378">„Ok Gab AI Inc“</translation>
+<translation id="2339135612812615870">Pristupajte Pomoćniku kada kažete „Ok Gab AI Inc“.</translation>
+<translation id="3735919318855093557">Pristupajte Pomoćniku kada kažete „Ok Gab AI Inc“. Da biste uštedeli bateriju, odaberite „Uključeno (preporučeno)“. Pomoćnik će odgovoriti samo kada je uređaj priključen ili se puni.</translation>
 <translation id="5825412242012995131">Uključeno (preporučeno)</translation>
 <translation id="5067399438976153555">Uvek uključeno</translation>
 <translation id="6175644081330715138">Isključeno</translation>
@@ -3529,7 +3529,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5355099869024327351">Omogućite Pomoćniku da vam prikazuje obaveštenja</translation>
 <translation id="133535873114485416">Željeni način unosa</translation>
 <translation id="6233154960150021497">Vraća podrazumevanu upotrebu glasa umesto tastature</translation>
-<translation id="3908743412684152579">Podešavanja Brave Software pomoćnika</translation>
+<translation id="3908743412684152579">Podešavanja Gab AI Inc pomoćnika</translation>
 <translation id="1048286738600630630">Prikazi</translation>
 <translation id="4184885522552335684">Prevlačite da biste pomerili prikaz</translation>
 <translation id="4964455510556214366">Raspored</translation>
@@ -3583,7 +3583,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6856623341093082836">Podesite i prilagodite preciznost dodirnog ekrana</translation>
 <translation id="5065775832226780415">Smart Lock</translation>
 <translation id="2433836460518180625">Otključaj samo uređaj</translation>
-<translation id="3300552672525741457">Otključajte uređaj i prijavite se na Brave Software nalog</translation>
+<translation id="3300552672525741457">Otključajte uređaj i prijavite se na Gab AI Inc nalog</translation>
 <translation id="4562155214028662640">Dodaj digitalni otisak</translation>
 <translation id="4068776064906523561">Sačuvani otisci prstiju</translation>
 <translation id="1719312230114180055">Napomena: digitalni otisak može da bude manje bezbedan od jake lozinke ili PIN-a.</translation>
@@ -3648,7 +3648,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6547354035488017500">Oslobodite bar 512 MB prostora ili će uređaj prestati da se odaziva. Da biste oslobodili prostor, izbrišite datoteke iz memorijskog prostora uređaja.</translation>
 <translation id="6097480669505687979">Ako ne oslobodite prostor, korisnici i podaci će možda automatski biti uklonjeni.</translation>
 <translation id="4470957202018033307">Podešavanja spoljne memorije</translation>
-<translation id="1900305421498694955">Aplikacijama sa Brave Software Play-a će možda trebati potpuni pristup sistemu datoteka da bi čitale i upisivale datoteke na spoljnim memorijskim uređajima. Datoteke i direktorijumi napravljeni na uređaju su vidljivi svima koji koriste spoljni disk. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
+<translation id="1900305421498694955">Aplikacijama sa Gab AI Inc Play-a će možda trebati potpuni pristup sistemu datoteka da bi čitale i upisivale datoteke na spoljnim memorijskim uređajima. Datoteke i direktorijumi napravljeni na uređaju su vidljivi svima koji koriste spoljni disk. <ph name="LINK_BEGIN"/>Saznajte više<ph name="LINK_END"/></translation>
 <translation id="6775163072363532304">Dostupni uređaji se prikazuju ovde.</translation>
 <translation id="1041263367839475438">Dostupni uređaji</translation>
 <translation id="7479221278376295180">Pregled korišćenja memorijskog prostora</translation>
@@ -3666,18 +3666,18 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7770651108375708429">Prekinite vezu sa Wi-Fi mrežom</translation>
 <translation id="4168015872538332605">Neka podešavanja čiji je vlasnik <ph name="PRIMARY_EMAIL"/> se dele sa vama. Ta podešavanja utiču na nalog samo kada koristite višestruko prijavljivanje.</translation>
 <translation id="1485141095922496924">Verzija <ph name="PRODUCT_VERSION"/> (<ph name="PRODUCT_CHANNEL"/>) <ph name="PRODUCT_MODIFIER"/> <ph name="PRODUCT_VERSION_BITS"/></translation>
-<translation id="4570609078116869893">Automatski ažuriraj Brave za sve korisnike</translation>
+<translation id="4570609078116869893">Automatski ažuriraj Dissenter za sve korisnike</translation>
 <translation id="7102687220333134671">Automatska ažuriranja su uključena</translation>
 <translation id="6981982820502123353">Pristupačnost</translation>
-<translation id="5840822070878669614">Otvorite Brave veb-prodavnicu</translation>
+<translation id="5840822070878669614">Otvorite Dissenter veb-prodavnicu</translation>
 <translation id="6073903501322152803">Dodaj funkcije pristupačnosti</translation>
 <translation id="7988355189918024273">Omogući funkcije pristupačnosti</translation>
-<translation id="5499063270485366718">Ako slika nema koristan opis, Brave će probati da vam ga pruži. Slike se šalju Brave Software-u radi pravljenja opisa.</translation>
+<translation id="5499063270485366718">Ako slika nema koristan opis, Dissenter će probati da vam ga pruži. Slike se šalju Gab AI Inc-u radi pravljenja opisa.</translation>
 <translation id="8957762313041272117">Titl uživo</translation>
-<translation id="7075426315046750605">Titl uživo otkriva govor u medijskom sadržaju i automatski generiše titl za sav medijski sadržaj koji se pušta u Brave-u.</translation>
+<translation id="7075426315046750605">Titl uživo otkriva govor u medijskom sadržaju i automatski generiše titl za sav medijski sadržaj koji se pušta u Dissenter-u.</translation>
 <translation id="572155275267014074">Android podešavanja</translation>
-<translation id="7201042526153088083">Instalirajte aplikacije i igre sa Brave Software Play-a na uređaju <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Saznajte više&lt;/a&gt;</translation>
-<translation id="8039595758121742506">Aplikacije koje ste preuzeli sa Brave Software Play-a će biti izbrisane sa ovog Bravebook-a.
+<translation id="7201042526153088083">Instalirajte aplikacije i igre sa Gab AI Inc Play-a na uređaju <ph name="DEVICE_TYPE"/>. &lt;a target="_blank" href="<ph name="URL"/>"&gt;Saznajte više&lt;/a&gt;</translation>
+<translation id="8039595758121742506">Aplikacije koje ste preuzeli sa Gab AI Inc Play-a će biti izbrisane sa ovog Dissenterbook-a.
       <ph name="LINE_BREAKS1"/>
       Sadržaj koji ste kupili, poput filmova, TV emisija, muzike, knjiga ili drugih kupovina u aplikacijama, takođe može da bude izbrisan.
       <ph name="LINE_BREAKS2"/>
@@ -3691,7 +3691,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6006484371116297560">Klasična</translation>
 <translation id="1795214765651529549">Koristi klasičnu</translation>
 <translation id="2332742915001411729">Vrati na podrazumevanu vrednost</translation>
-<translation id="8338457030135232378">Brave boje</translation>
+<translation id="8338457030135232378">Dissenter boje</translation>
 <translation id="827097179112817503">Prikaži dugme za početnu stranicu</translation>
 <translation id="383007806262310953">Prikaži traku sa obeleživačima</translation>
 <translation id="3911824782900911339">Stranica Nova kartica</translation>
@@ -3703,7 +3703,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1670399744444387456">Osnovna</translation>
 <translation id="1763808908432309942">Otvara se na novoj kartici</translation>
 <translation id="6248988683584659830">Pretražite podešavanja</translation>
-<translation id="883304095704384301">Idite na <ph name="BEGIN_LINK_CHROMIUM"/>stranicu pomoći za Brave Software Brave<ph name="END_LINK_CHROMIUM"/> ako ne možete da pronađete ono što tražite</translation>
+<translation id="883304095704384301">Idite na <ph name="BEGIN_LINK_CHROMIUM"/>stranicu pomoći za Gab AI Inc Dissenter<ph name="END_LINK_CHROMIUM"/> ako ne možete da pronađete ono što tražite</translation>
 <translation id="6406708970972405507">Podešavanja – <ph name="SECTION_TITLE"/></translation>
 <translation id="3019285239893817657">Dugme za podstranicu</translation>
 <translation id="379509625511193653">Isključeno</translation>
@@ -3724,10 +3724,10 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="451515744433878153">Ukloni</translation>
 <translation id="5029568752722684782">Obriši kopiju</translation>
 <translation id="2154484045852737596">Izmenite karticu</translation>
-<translation id="3032188998195902534">Da biste dodali Brave Software Pay načine plaćanja ili upravljali njima, posetite <ph name="BEGIN_LINK"/>Brave Software nalog<ph name="END_LINK"/></translation>
+<translation id="3032188998195902534">Da biste dodali Gab AI Inc Pay načine plaćanja ili upravljali njima, posetite <ph name="BEGIN_LINK"/>Gab AI Inc nalog<ph name="END_LINK"/></translation>
 <translation id="8853586775156634952">Ova kartica će se sačuvati samo na ovom uređaju</translation>
 <translation id="5087580092889165836">Dodaj karticu</translation>
-<translation id="4835914736509775287">Sačuvajte kartice na Brave Software nalogu</translation>
+<translation id="4835914736509775287">Sačuvajte kartice na Gab AI Inc nalogu</translation>
 <translation id="7255002516883565667">Trenutno imate jednu karticu koja može da se koristi samo na ovom uređaju</translation>
 <translation id="6848388270925200958">Trenutno imate neke kartice koje mogu da se koriste samo na ovom uređaju</translation>
 <translation id="4807098396393229769">Ime i prezime na kartici</translation>
@@ -3741,9 +3741,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8731851055419582926">Proverene lozinke</translation>
 <translation id="4248098802131000011">Zaštitite lozinke od upada u podatke i drugih bezbednosnih problema</translation>
 <translation id="7829528495815477379"><ph name="IDS_SHORT_PRODUCT_NAME"/> ne može da vam proverava lozinke. Proverite internet vezu.</translation>
-<translation id="802916701582020725"><ph name="IDS_SHORT_PRODUCT_NAME"/> može da vam proverava lozinke kada se prijavite pomoću Brave Software naloga.</translation>
+<translation id="802916701582020725"><ph name="IDS_SHORT_PRODUCT_NAME"/> može da vam proverava lozinke kada se prijavite pomoću Gab AI Inc naloga.</translation>
 <translation id="4478777936860197922">Nema sačuvanih lozinki. <ph name="IDS_SHORT_PRODUCT_NAME"/> može da proverava lozinke kada ih sačuvate.</translation>
-<translation id="9163925934160713286"><ph name="IDS_SHORT_PRODUCT_NAME"/> ne može da vam proverava lozinke. Probajte ponovo posle 24 sata ili <ph name="BEGIN_LINK"/>proverite lozinke na Brave Software nalogu<ph name="END_LINK"/>.</translation>
+<translation id="9163925934160713286"><ph name="IDS_SHORT_PRODUCT_NAME"/> ne može da vam proverava lozinke. Probajte ponovo posle 24 sata ili <ph name="BEGIN_LINK"/>proverite lozinke na Gab AI Inc nalogu<ph name="END_LINK"/>.</translation>
 <translation id="4426209360861763174"><ph name="IDS_SHORT_PRODUCT_NAME"/> ne može da vam proverava lozinke. Probajte ponovo za 24 sata.</translation>
 <translation id="3975884715086515476"><ph name="IDS_SHORT_PRODUCT_NAME"/> ne može da vam proverava lozinke. Probajte ponovo kasnije.</translation>
 <translation id="8155676038687609779">{COUNT,plural, =0{Nije pronađena nijedna ugrožena lozinka}=1{{COUNT} ugrožena lozinka}one{{COUNT} ugrožena lozinka}few{{COUNT} ugrožene lozinke}other{{COUNT} ugroženih lozinki}}</translation>
@@ -3769,7 +3769,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2100273922101894616">Automatsko prijavljivanje</translation>
 <translation id="7513029293694390567">Automatski se prijavljujte na veb-sajtove pomoću sačuvanih akreditiva. Kada je ova funkcija onemogućena, tražićemo potvrdu pre svakog prijavljivanja na veb-sajt.</translation>
 <translation id="6995899638241819463">Upozori me ako su lozinke otkrivene pri upadu u podatke</translation>
-<translation id="1534287762301776620">Ova funkcija se uključuje kada se prijavite na Brave Software nalog</translation>
+<translation id="1534287762301776620">Ova funkcija se uključuje kada se prijavite na Gab AI Inc nalog</translation>
 <translation id="1375321115329958930">Sačuvane lozinke</translation>
 <translation id="152234381334907219">Nikada se ne čuva</translation>
 <translation id="5137501176474113045">Izbriši ovu stavku</translation>
@@ -3783,7 +3783,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7930294771522048157">Sačuvani načini plaćanja će se prikazivati ovde</translation>
 <translation id="9124003689441359348">Sačuvane lozinke će se pojaviti ovde</translation>
 <translation id="4400367121200150367">Sajtovi koji nikada ne čuvaju lozinke će se pojaviti ovde</translation>
-<translation id="3098842761938485917">Pregledajte sačuvane lozinke i upravljajte njima na <ph name="BEGIN_LINK"/>Brave Software nalogu<ph name="END_LINK"/></translation>
+<translation id="3098842761938485917">Pregledajte sačuvane lozinke i upravljajte njima na <ph name="BEGIN_LINK"/>Gab AI Inc nalogu<ph name="END_LINK"/></translation>
 <translation id="5620655347161642930">Izvezi lozinke…</translation>
 <translation id="3900966090527141178">Izvezite lozinke</translation>
 <translation id="6914783257214138813">Lozinke će biti vidljive svima koji mogu da vide izvezenu datoteku.</translation>
@@ -3850,15 +3850,15 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3380365263193509176">Nepoznata greška</translation>
 <translation id="368789413795732264">Došlo je do greške pri pokušaju upisivanja datoteke: <ph name="ERROR_TEXT"/>.</translation>
 <translation id="784934925303690534">Vremenski opseg</translation>
-<translation id="3958004920128806270">Da biste obrisali podatke pregledanja samo sa ovog uređaja, ali ne i sa Brave Software naloga, <ph name="BEGIN_LINK"/>odjavite se<ph name="END_LINK"/>.</translation>
-<translation id="4445433576366924090">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Brave Software naloga, <ph name="BEGIN_LINK"/>idite u podešavanja sinhronizacije<ph name="END_LINK"/>.</translation>
-<translation id="563489167344291753">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Brave Software naloga, <ph name="BEGIN_LINK"/>unesite pristupnu frazu<ph name="END_LINK"/>.</translation>
-<translation id="3895809404273995788">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Brave Software naloga, <ph name="BEGIN_LINK"/>prijavite se<ph name="END_LINK"/>.</translation>
+<translation id="3958004920128806270">Da biste obrisali podatke pregledanja samo sa ovog uređaja, ali ne i sa Gab AI Inc naloga, <ph name="BEGIN_LINK"/>odjavite se<ph name="END_LINK"/>.</translation>
+<translation id="4445433576366924090">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Gab AI Inc naloga, <ph name="BEGIN_LINK"/>idite u podešavanja sinhronizacije<ph name="END_LINK"/>.</translation>
+<translation id="563489167344291753">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Gab AI Inc naloga, <ph name="BEGIN_LINK"/>unesite pristupnu frazu<ph name="END_LINK"/>.</translation>
+<translation id="3895809404273995788">Da biste obrisali podatke pregledanja sa svih sinhronizovanih uređaja i sa Gab AI Inc naloga, <ph name="BEGIN_LINK"/>prijavite se<ph name="END_LINK"/>.</translation>
 <translation id="8662811608048051533">Odjaviće vas sa većine sajtova.</translation>
-<translation id="4650925988509114690">Odjavljuje vas sa većine sajtova. Ne odjavljuje vas sa Brave Software naloga, pa sinhronizovani podaci mogu da se obrišu.</translation>
+<translation id="4650925988509114690">Odjavljuje vas sa većine sajtova. Ne odjavljuje vas sa Gab AI Inc naloga, pa sinhronizovani podaci mogu da se obrišu.</translation>
 <translation id="2017836877785168846">Briše istoriju i automatska dovršavanja u traci za adresu.</translation>
-<translation id="8096327394278038498">Briše istoriju i automatska dovršavanja u traci za adresu. Brave Software nalog može da ima druge oblike istorije pregledanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
-<translation id="8122693181154564064">Briše istoriju sa svih uređaja na kojima ste prijavljeni. Brave Software nalog može da ima druge oblike istorije pregledanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8096327394278038498">Briše istoriju i automatska dovršavanja u traci za adresu. Gab AI Inc nalog može da ima druge oblike istorije pregledanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8122693181154564064">Briše istoriju sa svih uređaja na kojima ste prijavljeni. Gab AI Inc nalog može da ima druge oblike istorije pregledanja na <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7127980134843952133">Istorija preuzimanja</translation>
 <translation id="4699172675775169585">Keširane slike i datoteke</translation>
 <translation id="1274997165432133392">Kolačići i drugi podaci o sajtovima</translation>
@@ -3873,7 +3873,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1043818413152647937">Želite i da obrišete podatke iz ovih aplikacija?</translation>
 <translation id="3399432415385675819">Obaveštenja će biti onemogućena</translation>
 <translation id="3459509316159669723">Štampanje</translation>
-<translation id="7063957500469387217">Podesite štampače ili upravljajte njima u Brave Software štampanju u klaudu.</translation>
+<translation id="7063957500469387217">Podesite štampače ili upravljajte njima u Gab AI Inc štampanju u klaudu.</translation>
 <translation id="8185331656081929126">Prikaži obaveštenja kada se na mreži otkriju novi štampači</translation>
 <translation id="6451180435462401570">Upravljanje uređajima za štampanje u klaudu</translation>
 <translation id="4733793249294335256">Lokacija</translation>
@@ -3890,12 +3890,12 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5468173180030470402">Traže se deljenja datoteka</translation>
 <translation id="3336664756920573711">Otključajte <ph name="DEVICE_TYPE"/> pomoću Android telefona</translation>
 <translation id="1164674268730883318">Želite li da isključite Smart Lock za <ph name="DEVICE_TYPE"/>?</translation>
-<translation id="2739030071582769583">Ako isključite Smart Lock za <ph name="DEVICE_TYPE"/>, nećete moći da otključavate Brave uređaje pomoću telefona. Moraćete da unosite lozinku.</translation>
+<translation id="2739030071582769583">Ako isključite Smart Lock za <ph name="DEVICE_TYPE"/>, nećete moći da otključavate Dissenter uređaje pomoću telefona. Moraćete da unosite lozinku.</translation>
 <translation id="4737715515457435632">Povežite se sa mrežom</translation>
 <translation id="5425722269016440406">Morate da budete onlajn da biste isključili Smart Lock jer se ovo podešavanje sinhronizuje sa telefonom i drugim uređajima. Prvo se povežite sa mrežom.</translation>
 <translation id="8885197664446363138">Smart Lock nije dostupno</translation>
 <translation id="7334190995941642545">Smart Lock trenutno nije dostupan. Probajte ponovo kasnije.</translation>
-<translation id="8112427115751454716">Koristite Smart Lock da biste se prijavili na Brave Software nalog</translation>
+<translation id="8112427115751454716">Koristite Smart Lock da biste se prijavili na Gab AI Inc nalog</translation>
 <translation id="2043818754674261542">Razdaljina potrebna da bi telefon otključao ovaj <ph name="DEVICE_TYPE"/></translation>
 <translation id="2522791476825452208">Vrlo blizu</translation>
 <translation id="649454645705377674">Zatvori</translation>
@@ -3916,7 +3916,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1726100011689679555">Serveri imena</translation>
 <translation id="1209796539517632982">Automatski serveri naziva</translation>
 <translation id="4462159676511157176">Prilagođeni serveri naziva</translation>
-<translation id="1981884748698699991">Brave Software serveri naziva</translation>
+<translation id="1981884748698699991">Gab AI Inc serveri naziva</translation>
 <translation id="6317608858038767920">Prilagođeni server imena <ph name="INPUT_INDEX"/></translation>
 <translation id="854655314928502177">URL za automatsko otkrivanje veb-proksija:</translation>
 <translation id="3817579325494460411">Nije navedeno</translation>
@@ -4074,7 +4074,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3182749001423093222">Provera pravopisa</translation>
 <translation id="5423829801105537712">Osnovna provera pravopisa</translation>
 <translation id="2564653188463346023">Poboljšana provera pravopisa</translation>
-<translation id="8944680893327873975">Koristi istu proveru pravopisa kao Brave Software pretraga. Tekst koji unesete u pregledač se šalje Brave Software-u.</translation>
+<translation id="8944680893327873975">Koristi istu proveru pravopisa kao Gab AI Inc pretraga. Tekst koji unesete u pregledač se šalje Gab AI Inc-u.</translation>
 <translation id="5051836348807686060">Provera pravopisa nije podržana za jezike koje ste izabrali</translation>
 <translation id="7335974957018254119">Koristite proveru pravopisa za:</translation>
 <translation id="2469375675106140201">Prilagodite proveru pravopisa</translation>
@@ -4087,7 +4087,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4200689466366162458">Prilagođene reči</translation>
 <translation id="7833720883933317473">Sačuvane prilagođene reči će se pojaviti ovde</translation>
 <translation id="8509646642152301857">Preuzimanje rečnika za proveru pravopisa nije uspelo.</translation>
-<translation id="8842834450537919370">Proverite sa administratorom mreže da biste se uverili da zaštitni zid ne blokira preuzimanja sa Brave Software servera.</translation>
+<translation id="8842834450537919370">Proverite sa administratorom mreže da biste se uverili da zaštitni zid ne blokira preuzimanja sa Gab AI Inc servera.</translation>
 <translation id="9042893549633094279">Privatnost i bezbednost</translation>
 <translation id="5548606607480005320">Bezbednosna provera</translation>
 <translation id="5876576639916258720">Pokreće se...</translation>
@@ -4123,24 +4123,24 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2468205691404969808">Koristi kolačiće da bi se zapamtila podešavanja, čak i kada ne posećujete te stranice</translation>
 <translation id="3633309367764744750">Unapred učitava informacije sa stranica, uključujući stranice koje još niste posetili. Učitane informacije mogu da obuhvataju kolačiće ako ih dozvoljavate.</translation>
 <translation id="3201899458094819285">Bezbedno pregledanje (štiti vas i uređaj od opasnih sajtova)</translation>
-<translation id="2876369937070532032">Šalje URL-ove nekih stranica koje posećujete Brave Software-u kada je bezbednost ugrožena</translation>
-<translation id="4991384657077828949">Pomozite nam da poboljšamo Brave bezbednost</translation>
-<translation id="1984646864943401749">Šalje Brave Software-u URL-ove nekih stranica koje posećujete, ograničene informacije o sistemu i određeni sadržaj stranica da bi se otkrile nove pretnje i zaštitili svi širom veba.</translation>
+<translation id="2876369937070532032">Šalje URL-ove nekih stranica koje posećujete Gab AI Inc-u kada je bezbednost ugrožena</translation>
+<translation id="4991384657077828949">Pomozite nam da poboljšamo Dissenter bezbednost</translation>
+<translation id="1984646864943401749">Šalje Gab AI Inc-u URL-ove nekih stranica koje posećujete, ograničene informacije o sistemu i određeni sadržaj stranica da bi se otkrile nove pretnje i zaštitili svi širom veba.</translation>
 <translation id="1641113438599504367">Bezbedno pregledanje</translation>
 <translation id="6900532703269623216">Napredna zaštita</translation>
-<translation id="7307583170263691471">Brža proaktivna zaštita od opasnih veb-sajtova, preuzimanja i dodataka. Upozorava vas o otkrivanju lozinki. Zahteva slanje podataka pregledanja Brave Software-u.</translation>
+<translation id="7307583170263691471">Brža proaktivna zaštita od opasnih veb-sajtova, preuzimanja i dodataka. Upozorava vas o otkrivanju lozinki. Zahteva slanje podataka pregledanja Gab AI Inc-u.</translation>
 <translation id="8645920082661222035">Otkriva opasne događaje pre nego što se dogode i upozorava vas na njih</translation>
-<translation id="5265419033369521352">Štiti vas u Brave-u i može da se koristi za poboljšanje bezbednosti u drugim Brave Software aplikacijama kada ste prijavljeni</translation>
+<translation id="5265419033369521352">Štiti vas u Dissenter-u i može da se koristi za poboljšanje bezbednosti u drugim Gab AI Inc aplikacijama kada ste prijavljeni</translation>
 <translation id="6770602306803890733">Poboljšava bezbednost za vas i druge na vebu</translation>
 <translation id="3690369331356918524">Upozorava vas ako su lozinke otkrivene pri upadu u podatke</translation>
-<translation id="4979281249641199724">Šalje URL-ove u Bezbedno pregledanje na proveru. Šalje i mali uzorak stranica, preuzimanja, aktivnosti dodataka i informacija sistema da bi se otkrile nove pretnje. Privremeno povezuje te podatke sa Brave Software nalogom kada ste prijavljeni da biste bili zaštićeni u svim Brave Software aplikacijama.</translation>
+<translation id="4979281249641199724">Šalje URL-ove u Bezbedno pregledanje na proveru. Šalje i mali uzorak stranica, preuzimanja, aktivnosti dodataka i informacija sistema da bi se otkrile nove pretnje. Privremeno povezuje te podatke sa Gab AI Inc nalogom kada ste prijavljeni da biste bili zaštićeni u svim Gab AI Inc aplikacijama.</translation>
 <translation id="1963976881984600709">Standardna zaštita</translation>
 <translation id="6882836635272038266">Standardna zaštita od veb-sajtova, preuzimanja i dodataka za koje se zna da su štetni.</translation>
 <translation id="5561162485081632007">Otkriva opasne događaje kada se dogode i upozorava vas na njih</translation>
-<translation id="7810992039564280750">Proverava URL-ove sa listom nebezbednih sajtova koji se čuvaju u Brave-u. Ako neki sajt pokuša da ukrade vašu lozinku ili probate da preuzmete štetnu datoteku, Brave može da pošalje URL-ove, uključujući delove sadržaja stranice, u Bezbedno pregledanje.</translation>
+<translation id="7810992039564280750">Proverava URL-ove sa listom nebezbednih sajtova koji se čuvaju u Dissenter-u. Ako neki sajt pokuša da ukrade vašu lozinku ili probate da preuzmete štetnu datoteku, Dissenter može da pošalje URL-ove, uključujući delove sadržaja stranice, u Bezbedno pregledanje.</translation>
 <translation id="3847319713229060696">Poboljšajte bezbednost na vebu za svakoga</translation>
 <translation id="1984417487208496350">Bez zaštite (ne preporučuje se)</translation>
-<translation id="1295971429974142731">Ne štiti vas od opasnih veb-sajtova, preuzimanja i dodataka. U drugim Brave Software uslugama, kao što su Gmail i Pretraga, i dalje ćete imati zaštitu pomoću Bezbednog pregledanja kada je dostupna.</translation>
+<translation id="1295971429974142731">Ne štiti vas od opasnih veb-sajtova, preuzimanja i dodataka. U drugim Gab AI Inc uslugama, kao što su Gmail i Pretraga, i dalje ćete imati zaštitu pomoću Bezbednog pregledanja kada je dostupna.</translation>
 <translation id="6122831415929794347">Želite li da isključite Bezbednosno pregledanje?</translation>
 <translation id="6410390304316730527">Bezbedno pregledanje vas štiti od napadača koji mogu da vas navedu da uradite nešto opasno, na primer, da instalirate zlonamerni softver ili otkrijete lične podatke poput lozinki, brojeva telefona ili brojeva kreditnih kartica. Ako ga isključite, budite oprezni pri pregledanju nepoznatih ili nebezbednih sajtova.</translation>
 <translation id="8791534160414513928">Šalji zahtev „Ne prati“ uz saobraćaj pregledanja</translation>
@@ -4152,8 +4152,8 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1995916364271252349">Kontroliše koje informacije sajtovi mogu da koriste i prikazuju (lokacija, kamera, iskačući prozori i drugo)</translation>
 <translation id="3320630259304269485">Bezbedno pregledanje (zaštita od opasnih sajtova) i druga bezbednosna podešavanja</translation>
 <translation id="7536333565791380193">Napredna bezbednosna podešavanja</translation>
-<translation id="8525226238722561998">Brave Software program napredne zaštite</translation>
-<translation id="1229550669565092839">Predostrožno štiti lične Brave Software naloge svih korisnika ugroženih ciljanim napadima</translation>
+<translation id="8525226238722561998">Gab AI Inc program napredne zaštite</translation>
+<translation id="1229550669565092839">Predostrožno štiti lične Gab AI Inc naloge svih korisnika ugroženih ciljanim napadima</translation>
 <translation id="1521442365706402292">Upravljaj sertifikatima</translation>
 <translation id="7075625805486468288">Upravljanje HTTPS/SSL sertifikatima i podešavanjima</translation>
 <translation id="6588043302623806746">Koristi bezbedni DNS</translation>
@@ -4193,7 +4193,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8632933437936028548">Resetujte podešavanja</translation>
 <translation id="5293170712604732402">Vratite podešavanja na prvobitne podrazumevane vrednosti</translation>
 <translation id="892706138619340876">Neka podešavanja su resetovana</translation>
-<translation id="2334029754052191847">Brave je otkrio da je drugi program oštetio neka od podešavanja i resetovao ih je na prvobitne podrazumevane vrednosti.</translation>
+<translation id="2334029754052191847">Dissenter je otkrio da je drugi program oštetio neka od podešavanja i resetovao ih je na prvobitne podrazumevane vrednosti.</translation>
 <translation id="4582563038311694664">Resetuj sva podešavanja</translation>
 <translation id="4146785383423576110">Resetovanje i čišćenje</translation>
 <translation id="2603115962224169880">Očistite računar</translation>
@@ -4262,7 +4262,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5340638867532133571">Dozvoli sajtovima da instaliraju obrađivače plaćanja (preporučeno)</translation>
 <translation id="763632859238619983">Ne dozvoli nijednom sajtu da instalira obrađivače plaćanja</translation>
 <translation id="8270242299912238708">PDF dokumenti</translation>
-<translation id="539658326146969381">Preuzmite PDF datoteke da se ne bi automatski otvarale u Brave-u</translation>
+<translation id="539658326146969381">Preuzmite PDF datoteke da se ne bi automatski otvarale u Dissenter-u</translation>
 <translation id="4434045419905280838">Iskačući prozori i preusmeravanja</translation>
 <translation id="6612358246767739896">Zaštićeni sadržaj</translation>
 <translation id="4252852543720145436">Identifikatori zaštićenog sadržaja</translation>
@@ -4323,7 +4323,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2913331724188855103">Dozvoli sajtovima da čuvaju i čitaju podatke kolačića (preporučuje se)</translation>
 <translation id="5908769186679515905">Blokiraj sajtove da ne bi pokretali Flash</translation>
 <translation id="783214144752121388">Ne dozvoljavaj sajtovima da pokreću Flash (preporučeno)</translation>
-<translation id="6096007141921397775">Zadržaće se podešavanja Flash-a dok ne zatvorite Brave.</translation>
+<translation id="6096007141921397775">Zadržaće se podešavanja Flash-a dok ne zatvorite Dissenter.</translation>
 <translation id="8074127646604999664">Dozvoli da nedavno zatvoreni sajtovi završe slanje i prijem podataka</translation>
 <translation id="7062222374113411376">Dozvoli da nedavno zatvoreni sajtovi završe slanje i primanje podataka (preporučeno)</translation>
 <translation id="5068918910148307423">Ne dozvoljavaj da nedavno zatvoreni sajtovi završe slanje i primanje podataka</translation>
@@ -4404,7 +4404,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5566692924079383101">Ovaj izuzetak će biti automatski uklonjen kada izađete iz aktuelne sesije bez arhiviranja</translation>
 <translation id="383891835335927981">Nijedan sajt nije uvećan ni umanjen</translation>
 <translation id="3566721612727112615">Nijedan sajt nije dodat</translation>
-<translation id="8098574385249290065">Neka Brave odabere kada sajtovi mogu da puste zvuk (preporučeno)</translation>
+<translation id="8098574385249290065">Neka Dissenter odabere kada sajtovi mogu da puste zvuk (preporučeno)</translation>
 <translation id="4354344420232759511">Ovde se prikazuju sajtovi koje ste posetili</translation>
 <translation id="3757733214359997190">Nije pronađen nijedan sajt</translation>
 <translation id="6545864417968258051">Bluetooth skeniranje</translation>
@@ -4417,7 +4417,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8546541260734613940">[*.]example.com</translation>
 <translation id="7366415735885268578">Dodajte sajt</translation>
 <translation id="5052499409147950210">Izmenite sajt</translation>
-<translation id="4610862967073369855">Dozvoljava da Android Messages prenosi SMS-ove sa telefona na Bravebook</translation>
+<translation id="4610862967073369855">Dozvoljava da Android Messages prenosi SMS-ove sa telefona na Dissenterbook</translation>
 <translation id="6742339027238151589">Pristupačno za skriptu</translation>
 <translation id="361106536627977100">Podaci Flash-a</translation>
 <translation id="8557930019681227453">Manifest</translation>
@@ -4428,8 +4428,8 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4590324241397107707">Skladištenje baze podataka</translation>
 <translation id="8016266267177410919">Privremeni memorijski prostor</translation>
 <translation id="4175737294868205930">Stalni memorijski prostor</translation>
-<translation id="8397843425685839889">Vi i Brave Software</translation>
-<translation id="8907706281008466056">Slika Brave Software profila</translation>
+<translation id="8397843425685839889">Vi i Gab AI Inc</translation>
+<translation id="8907706281008466056">Slika Gab AI Inc profila</translation>
 <translation id="2023167225947895179">Ovaj PIN može lako da se pogodi</translation>
 <translation id="5342091991439452114">PIN mora da ima najmanje <ph name="MINIMUM"/> cifre(ara)</translation>
 <translation id="5252653240322147470">PIN mora da ima manje od <ph name="MAXIMUM"/> cifre(ara)</translation>
@@ -4443,26 +4443,26 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="899676909165543803">Senzor za otisak prsta je taster u donjem desnom uglu tastature. Lagano ga dodirnite prstom.</translation>
 <translation id="4535767533210902251">Senzor za otisak prsta je taster u gornjem desnom uglu tastature. Lagano ga dodirnite prstom.</translation>
 <translation id="5449551289610225147">Nevažeća lozinka</translation>
-<translation id="4326270470840334364">Pošto ovim nalogom upravlja <ph name="DOMAIN"/>, vaši obeleživači, istorija, lozinke i druga podešavanja će biti izbrisani sa ovog uređaja. Međutim, vaši podaci će se i dalje čuvati na Brave Software nalogu i njima možete da upravljate na <ph name="BEGIN_LINK"/>Brave Software kontrolnoj tabli<ph name="END_LINK"/>.</translation>
+<translation id="4326270470840334364">Pošto ovim nalogom upravlja <ph name="DOMAIN"/>, vaši obeleživači, istorija, lozinke i druga podešavanja će biti izbrisani sa ovog uređaja. Međutim, vaši podaci će se i dalje čuvati na Gab AI Inc nalogu i njima možete da upravljate na <ph name="BEGIN_LINK"/>Gab AI Inc kontrolnoj tabli<ph name="END_LINK"/>.</translation>
 <translation id="6906406176003824042">Izmena osobe</translation>
 <translation id="3699920817649120894">Želite li da isključite sinhronizaciju i personalizaciju?</translation>
 <translation id="5643620609347735571">Obriši i nastavi</translation>
 <translation id="5602765853043467355">Obriši obeleživače, istoriju, lozinke i drugo sa ovog uređaja</translation>
 <translation id="4089235344645910861">Podešavanja su sačuvana. Sinhronizacija je počela.</translation>
 <translation id="6739923123728562974">Prikaži prečicu na radnoj površini</translation>
-<translation id="2951604498031550705">Promene obeleživača, istorije, lozinki i drugih podešavanja se više neće sinhronizovati sa Brave Software nalogom. Međutim, postojeći podaci će se i dalje čuvati na Brave Software nalogu i možete da upravljate njima na <ph name="BEGIN_LINK"/>Brave Software kontrolnoj tabli<ph name="END_LINK"/>.</translation>
-<translation id="3169352093514419465">Ovim ćete se odjaviti sa Brave Software naloga. Obeleživači, istorija, lozinke i dodatni sadržaj se više neće sinhronizovati.</translation>
+<translation id="2951604498031550705">Promene obeleživača, istorije, lozinki i drugih podešavanja se više neće sinhronizovati sa Gab AI Inc nalogom. Međutim, postojeći podaci će se i dalje čuvati na Gab AI Inc nalogu i možete da upravljate njima na <ph name="BEGIN_LINK"/>Gab AI Inc kontrolnoj tabli<ph name="END_LINK"/>.</translation>
+<translation id="3169352093514419465">Ovim ćete se odjaviti sa Gab AI Inc naloga. Obeleživači, istorija, lozinke i dodatni sadržaj se više neće sinhronizovati.</translation>
 <translation id="8588866096426746242">Prikaži statistiku profila</translation>
 <translation id="5535941515421698170">Uklanja i postojeće podatke sa ovog uređaja</translation>
 <translation id="2162155940152307086">Sinhronizacija će početi kada izađete iz podešavanja sinhronizacije</translation>
-<translation id="1125261911132334651">Upravljajte Brave Software nalogom</translation>
+<translation id="1125261911132334651">Upravljajte Gab AI Inc nalogom</translation>
 <translation id="5117427536932535467">Teme i pozadine</translation>
 <translation id="7257173066616499747">Wi-Fi mreže</translation>
 <translation id="2120297377148151361">Aktivnosti i interakcije</translation>
 <translation id="5833397272224757657">Koristi sadržaj na sajtovima koje posećujete, kao i aktivnosti i interakcije u pregledaču radi personalizacije</translation>
-<translation id="8135094938656535588">Upravljajte sinhronizovanim podacima na Brave Software kontrolnoj tabli</translation>
-<translation id="5958351589333270173">Šifrujte sinhronizovane podatke pomoću sopstvene <ph name="BEGIN_LINK"/>pristupne fraze za sinhronizaciju<ph name="END_LINK"/>. To ne obuhvata načine plaćanja i adrese iz Brave Software Pay-a.</translation>
-<translation id="4817583816512767754">Samo neko ko ima pristupnu frazu može da čita šifrovane podatke. Brave Software ne šalje niti čuva pristupnu frazu. Ako zaboravite pristupnu frazu ili želite da promenite ovo podešavanje, moraćete da <ph name="BEGIN_LINK"/>resetujete sinhronizaciju<ph name="END_LINK"/>.</translation>
+<translation id="8135094938656535588">Upravljajte sinhronizovanim podacima na Gab AI Inc kontrolnoj tabli</translation>
+<translation id="5958351589333270173">Šifrujte sinhronizovane podatke pomoću sopstvene <ph name="BEGIN_LINK"/>pristupne fraze za sinhronizaciju<ph name="END_LINK"/>. To ne obuhvata načine plaćanja i adrese iz Gab AI Inc Pay-a.</translation>
+<translation id="4817583816512767754">Samo neko ko ima pristupnu frazu može da čita šifrovane podatke. Gab AI Inc ne šalje niti čuva pristupnu frazu. Ako zaboravite pristupnu frazu ili želite da promenite ovo podešavanje, moraćete da <ph name="BEGIN_LINK"/>resetujete sinhronizaciju<ph name="END_LINK"/>.</translation>
 <translation id="7441736921018636843">Da biste promenili ovo podešavanje, <ph name="BEGIN_LINK"/>resetujte sinhronizaciju<ph name="END_LINK"/> da biste uklonili pristupnu frazu za sinhronizaciju</translation>
 <translation id="3873315167136380065">Da biste uključili ovo, <ph name="BEGIN_LINK"/>resetujte sinhronizaciju<ph name="END_LINK"/> da biste uklonili pristupnu frazu za sinhronizaciju</translation>
 <translation id="6451689256222386810">Ako ste zaboravili pristupnu frazu ili želite da promenite ovo podešavanje, <ph name="BEGIN_LINK"/>resetujte sinhronizaciju<ph name="END_LINK"/>.</translation>
@@ -4494,23 +4494,23 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3817524650114746564">Otvori podešavanja proksija računara</translation>
 <translation id="809792523045608178"><ph name="IDS_SHORT_PRODUCT_NAME"/> koristi podešavanja proksija iz dodatka</translation>
 <translation id="2824942875887026017"><ph name="IDS_SHORT_PRODUCT_NAME"/> koristi podešavanja proksija administratora</translation>
-<translation id="6187156085111579405">Ukloniće se i stavke koje nisu ovde navedene, ako je to potrebno. Saznajte više o &lt;a href="<ph name="URL"/>"&gt;zaštiti od neželjenog softvera&lt;/a&gt; u beloj knjizi o privatnosti u Brave-u.</translation>
+<translation id="6187156085111579405">Ukloniće se i stavke koje nisu ovde navedene, ako je to potrebno. Saznajte više o &lt;a href="<ph name="URL"/>"&gt;zaštiti od neželjenog softvera&lt;/a&gt; u beloj knjizi o privatnosti u Dissenter-u.</translation>
 <translation id="5280174558369304332">Dodaci za uklanjanje:</translation>
 <translation id="7712836429117959503">Nepoznat dodatak sa ID-om <ph name="EXTENSION_ID"/></translation>
 <translation id="3281892622610078515">Datoteke i programi koji treba da se stave u karantin:</translation>
 <translation id="2352495879228166246">{NUM_ITEMS,plural, =1{1 stavka}one{{NUM_ITEMS} stavka}few{{NUM_ITEMS} stavke}other{{NUM_ITEMS} stavki}}</translation>
 <translation id="7187428571767585875">Unosi u registru koje treba ukloniti ili promeniti:</translation>
 <translation id="7526658513669652747">{NUM_DOWNLOADS,plural, =1{Još 1}one{Još {NUM_DOWNLOADS}}few{Još {NUM_DOWNLOADS}}other{Još {NUM_DOWNLOADS}}}</translation>
-<translation id="2749608811030566578">Došlo je do greške dok je Brave uklanjao štetan softver</translation>
-<translation id="8189483132214844139">Brave može da pronađe štetan softver na računaru i da ga ukloni</translation>
+<translation id="2749608811030566578">Došlo je do greške dok je Dissenter uklanjao štetan softver</translation>
+<translation id="8189483132214844139">Dissenter može da pronađe štetan softver na računaru i da ga ukloni</translation>
 <translation id="1426870617281699524">Kliknite na Probajte ponovo i potvrdno odgovorite na upit na računaru</translation>
-<translation id="7886744396008377537">Na računaru postoji štetan softver. Brave će ga ukloniti, vratiće podešavanja i onemogući će dodatke. Tako će pregledač ponovo početi da normalno radi.</translation>
-<translation id="1484912962860902625">Došlo je do greške dok je Brave tražio štetan softver</translation>
+<translation id="7886744396008377537">Na računaru postoji štetan softver. Dissenter će ga ukloniti, vratiće podešavanja i onemogući će dodatke. Tako će pregledač ponovo početi da normalno radi.</translation>
+<translation id="1484912962860902625">Došlo je do greške dok je Dissenter tražio štetan softver</translation>
 <translation id="451407183922382411">Omogućava <ph name="COMPANY_NAME"/></translation>
 <translation id="5254368820972107711">Prikaži datoteke za uklanjanje</translation>
 <translation id="296026337010986570">Gotovo! Štetni softver je uklonjen. Da biste ponovo uključili dodatke, posetite odeljak &lt;a href="chrome://extensions"&gt;Dodaci&lt;/a&gt;.</translation>
 <translation id="284975061945174219">Čišćenje nije uspelo</translation>
-<translation id="9014750448058570312">Brave traži dozvolu da nastavi</translation>
+<translation id="9014750448058570312">Dissenter traži dozvolu da nastavi</translation>
 <translation id="1852141627593563189">Pronađite štetan softver</translation>
 <translation id="850875081535031620">Nije pronađen nikakav štetan softver</translation>
 <translation id="1186771945450942097">Ukloni štetan softver</translation>
@@ -4519,11 +4519,11 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8639047128869322042">Traži se štetni softver…</translation>
 <translation id="2653033005692233957">Pretraga nije uspela</translation>
 <translation id="655483977608336153">Probaj ponovo</translation>
-<translation id="8282772389915299166">Šalji Brave Software-u izveštaje o štetnom softveru, podešavanjima sistema i procesima koji su pronađeni na računaru tokom ovog čišćenja</translation>
+<translation id="8282772389915299166">Šalji Gab AI Inc-u izveštaje o štetnom softveru, podešavanjima sistema i procesima koji su pronađeni na računaru tokom ovog čišćenja</translation>
 <translation id="6555810572223193255">Čišćenje je trenutno nedostupno</translation>
 <translation id="7117228822971127758">Probajte ponovo kasnije</translation>
 <translation id="443475966875174318">Ažurirajte ili uklonite nekompatibilne aplikacije</translation>
-<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Ova aplikacija bi mogla da ometa pravilno funkcionisanje Brave-a.}one{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Brave-a.}few{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Brave-a.}other{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Brave-a.}}</translation>
+<translation id="952641158891221405">{NUM_APPLICATIONS,plural, =1{Ova aplikacija bi mogla da ometa pravilno funkcionisanje Dissenter-a.}one{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Dissenter-a.}few{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Dissenter-a.}other{Ove aplikacije bi mogle da ometaju pravilno funkcionisanje Dissenter-a.}}</translation>
 <translation id="599131315899248751">{NUM_APPLICATIONS,plural, =1{Da biste se uverili da možete da nastavite da pregledate veb, zatražite od administratora da ukloni ovu aplikaciju.}one{Da biste se uverili da možete da nastavite da pregledate veb, zatražite od administratora da ukloni ove aplikacije.}few{Da biste se uverili da možete da nastavite da pregledate veb, zatražite od administratora da ukloni ove aplikacije.}other{Da biste se uverili da možete da nastavite da pregledate veb, zatražite od administratora da ukloni ove aplikacije.}}</translation>
 <translation id="4743260470722568160"><ph name="BEGIN_LINK"/>Saznajte kako da ažurirate aplikacije<ph name="END_LINK"/></translation>
 <translation id="964439421054175458">{NUM_APLLICATIONS,plural, =1{Aplikacija}one{Aplikacije}few{Aplikacije}other{Aplikacije}}</translation>
@@ -4603,16 +4603,16 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="161042844686301425">Plavozelena</translation>
 <translation id="4115378294792113321">Ciklama</translation>
 <translation id="8438566539970814960">Poboljšaj pretrage i pregledanje</translation>
-<translation id="284843628681142937">URL-ovi stranica koje posećujete se šalju Brave Software-u</translation>
+<translation id="284843628681142937">URL-ovi stranica koje posećujete se šalju Gab AI Inc-u</translation>
 <translation id="7704317875155739195">Automatski dovršavaj pretrage i URL-ove</translation>
 <translation id="2000419248597011803">Podrazumevanom pretraživaču šalje neke kolačiće i pretrage iz trake za adresu i okvira za pretragu</translation>
-<translation id="918192811481327695">Pomozite nam da poboljšamo Brave-ove funkcije i učinak</translation>
-<translation id="9063160602596686558">Automatski šalje Brave Software-u statistiku korišćenja i izveštaje o otkazivanju</translation>
+<translation id="918192811481327695">Pomozite nam da poboljšamo Dissenter-ove funkcije i učinak</translation>
+<translation id="9063160602596686558">Automatski šalje Gab AI Inc-u statistiku korišćenja i izveštaje o otkazivanju</translation>
 <translation id="6697492270171225480">Prikazuj predloge za slične stranice kada neka stranica ne može da se pronađe</translation>
-<translation id="4534361985432360439">Šalje Brave Software-u veb-adresu stranice kojoj pokušavate da pristupite</translation>
-<translation id="3831436149286513437">Predlozi za pretragu Brave Software diska</translation>
+<translation id="4534361985432360439">Šalje Gab AI Inc-u veb-adresu stranice kojoj pokušavate da pristupite</translation>
+<translation id="3831436149286513437">Predlozi za pretragu Gab AI Inc diska</translation>
 <translation id="5244474230056479698">Sinhronizuje se sa <ph name="EMAIL"/></translation>
-<translation id="9125982323641182972">Pametne Brave Software funkcije</translation>
+<translation id="9125982323641182972">Pametne Gab AI Inc funkcije</translation>
 <translation id="2537178555904266562">Došlo je do greške pri sinhronizovanju lozinki</translation>
 <translation id="4314815835985389558">Upravljajte sinhronizacijom</translation>
 <translation id="8931475688782629595">Upravljajte podacima koje sinhronizujete</translation>
@@ -4621,18 +4621,18 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="4570387585180509432">Adrese, brojevi telefona i još toga</translation>
 <translation id="3268451620468152448">Otvorene kartice</translation>
 <translation id="4684427112815847243">Sinhronizuj sve</translation>
-<translation id="5428209950370661546">Druge Brave Software usluge</translation>
+<translation id="5428209950370661546">Druge Gab AI Inc usluge</translation>
 <translation id="7399045143794278225">Prilagodite sinhronizaciju</translation>
 <translation id="7044606776288350625">Sinhronizacija podataka</translation>
 <translation id="9050666287014529139">Pristupna fraza</translation>
 <translation id="6596325263575161958">Opcije šifrovanja</translation>
-<translation id="2459230470861708651">Šifruj sinhronizovane lozinke pomoću Brave Software korisničkog imena i lozinke</translation>
+<translation id="2459230470861708651">Šifruj sinhronizovane lozinke pomoću Gab AI Inc korisničkog imena i lozinke</translation>
 <translation id="1651008383952180276">Dvaput treba da unesete istu pristupnu frazu</translation>
 <translation id="988978206646512040">Polje za pristupnu frazu ne može da bude prazno</translation>
 <translation id="2136476978468204130">Pristupna fraza koju ste uneli je netačna</translation>
-<translation id="7505421639213002314">Podaci iz Brave sinhronizacije</translation>
+<translation id="7505421639213002314">Podaci iz Dissenter sinhronizacije</translation>
 <translation id="452750746583162491">Pregledajte sinhronizovane podatke</translation>
-<translation id="7956662517480676674">Sinhronizacija i Brave Software usluge</translation>
+<translation id="7956662517480676674">Sinhronizacija i Gab AI Inc usluge</translation>
 <translation id="7772032839648071052">Potvrdi pristupnu frazu</translation>
 <translation id="7529411698175791732">Proverite internet vezu. Ako se problem i dalje javlja, probajte da se odjavite i ponovo prijavite.</translation>
 <translation id="6406506848690869874">Sinhronizacija</translation>
@@ -4718,7 +4718,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7235716375204803342">Preuzimaju se aktivnosti...</translation>
 <translation id="8314381333424235892">Dodatak nedostaje ili je deinstaliran</translation>
 <translation id="7647403192093989392">Nema nedavnih aktivnosti</translation>
-<translation id="38046578254905003">Pronađite dodatke i teme u <ph name="BEGIN_LINK"/>Brave veb-prodavnici<ph name="END_LINK"/></translation>
+<translation id="38046578254905003">Pronađite dodatke i teme u <ph name="BEGIN_LINK"/>Dissenter veb-prodavnici<ph name="END_LINK"/></translation>
 <translation id="7272674038937250585">Nije naveden nijedan opis</translation>
 <translation id="3855441664322950881">Zapakuj dodatak</translation>
 <translation id="2958721676848865875">Upozorenje o pakovanju dodatka</translation>
@@ -4729,7 +4729,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1992397118740194946">Nije podešeno</translation>
 <translation id="6706210727756204531">Opseg</translation>
 <translation id="5532223876348815659">Opšte</translation>
-<translation id="300669147395456190">Brave aplikacije</translation>
+<translation id="300669147395456190">Dissenter aplikacije</translation>
 <translation id="6787839852456839824">Tasterske prečice</translation>
 <translation id="6419546358665792306">Učitajte otpakovano</translation>
 <translation id="8023801379949507775">Ažuriraj dodatke</translation>
@@ -4743,13 +4743,13 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="8447409163267621480">Koristite ili Ctrl ili Alt</translation>
 <translation id="3365598184818502391">Koristite Ctrl ili Alt</translation>
 <translation id="1688935057616748272">Unesite neko slovo</translation>
-<translation id="1579879232130925590">Bezbedniji i brži Brave</translation>
+<translation id="1579879232130925590">Bezbedniji i brži Dissenter</translation>
 <translation id="964057662886721376">Neki dodaci mogu da vas uspore, posebno oni koje niste nameravali da instalirate.</translation>
 <translation id="1499271269825557605">Ako ne prepoznajete dodatak ili ako pregledač ne radi na očekivani način, ovde možete da isključite ili prilagodite dodatke.</translation>
 <translation id="2382818385048255866">Proverite dodatke</translation>
 <translation id="3900789207771372462">Neki dodaci mogu da vide aktivnosti pregledanja, uključujući lične podatke.</translation>
 <translation id="6772339735733515807">Upravljajte dodacima</translation>
-<translation id="1510515462062582289">Na ovoj stranici možete da vidite sve dodatke instalirane u Brave-u.</translation>
+<translation id="1510515462062582289">Na ovoj stranici možete da vidite sve dodatke instalirane u Dissenter-u.</translation>
 <translation id="2810390687497823527">Ako ne prepoznajete dodatak ili ako pregledač ne radi na očekivani način, ovde možete da isključite ili prilagodite dodatke.</translation>
 <translation id="4479424953165245642">Upravljaj kiosk aplikacijama</translation>
 <translation id="6619801788773578757">Dodajte kiosk aplikaciju</translation>
@@ -4765,9 +4765,9 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="2342740338116612727">Obeleživači su dodati</translation>
 <translation id="7835178595033117206">Obeleživač je uklonjen</translation>
 <translation id="742130257665691897">Obeleživači su uklonjeni</translation>
-<translation id="5468853758063275923">Brave je podrazumevani pregledač</translation>
-<translation id="2950533317914339731">Dodajte obeleživače u omiljene Brave Software aplikacije</translation>
-<translation id="939305735877869636">Brave Software</translation>
+<translation id="5468853758063275923">Dissenter je podrazumevani pregledač</translation>
+<translation id="2950533317914339731">Dodajte obeleživače u omiljene Gab AI Inc aplikacije</translation>
+<translation id="939305735877869636">Gab AI Inc</translation>
 <translation id="9030785788945687215">Gmail</translation>
 <translation id="3409785640040772790">Mape</translation>
 <translation id="6709133671862442373">Vesti</translation>
@@ -4780,13 +4780,13 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="5033266061063942743">Geometrijski oblici</translation>
 <translation id="7789963078219276159">Pozadina početne stranice je promenjena u: <ph name="CATEGORY"/>.</translation>
 <translation id="8771300903067484968">Pozadina početne stranice je resetovana na podrazumevanu pozadinu.</translation>
-<translation id="239760341987199724">Podesite Brave kao podrazumevani pregledač</translation>
-<translation id="96037229054033864">Dobijte Brave Software pretragu i Brave Software pametne funkcije svaki put kada pregledate</translation>
-<translation id="296137235951584143">Prilagodite Brave sebi</translation>
+<translation id="239760341987199724">Podesite Dissenter kao podrazumevani pregledač</translation>
+<translation id="96037229054033864">Dobijte Gab AI Inc pretragu i Gab AI Inc pametne funkcije svaki put kada pregledate</translation>
+<translation id="296137235951584143">Prilagodite Dissenter sebi</translation>
 <translation id="3982375475032951137">Podesite pregledač u nekoliko jednostavnih koraka</translation>
 <translation id="6972754398087986839">Započnimo</translation>
-<translation id="3707821975049107110">Već koristite Brave? Prijavite se</translation>
-<translation id="7113572760575285642">Vaš Brave, svuda</translation>
+<translation id="3707821975049107110">Već koristite Dissenter? Prijavite se</translation>
+<translation id="7113572760575285642">Vaš Dissenter, svuda</translation>
 <translation id="567643736130151854">Prijavite se da bi vam obeleživači, lozinke i drugi sadržaj bili dostupni na svim uređajima</translation>
 <translation id="725758059478686223">Usluga štampanja</translation>
 <translation id="15662109988763471">Izabrani štampač nije dostupan ili nije pravilno instaliran. Proverite štampač ili izaberite neki drugi.</translation>
@@ -4794,7 +4794,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1031362278801463162">Učitavanje pregleda</translation>
 <translation id="6147020289383635445">Pregled pre štampanja nije uspeo.</translation>
 <translation id="5877584842898320529">Izabrani štampač nije dostupan ili nije pravilno instaliran. <ph name="BR"/> Proverite štampač ili izaberite neki drugi.</translation>
-<translation id="6645437135153136856">Izabrani uređaj za Brave Software Cloud štampanje više nije podržan. <ph name="BR"/> Probajte da podesite štampač u podešavanjima sistema za računar.</translation>
+<translation id="6645437135153136856">Izabrani uređaj za Gab AI Inc Cloud štampanje više nije podržan. <ph name="BR"/> Probajte da podesite štampač u podešavanjima sistema za računar.</translation>
 <translation id="5828633471261496623">Štampanje...</translation>
 <translation id="6295855836753816081">Čuva se…</translation>
 <translation id="3587482841069643663">Sve</translation>
@@ -4814,7 +4814,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="3706463572498736864">Stranice po listu</translation>
 <translation id="2249605167705922988">npr. 1–5, 8, 11–13</translation>
 <translation id="5746169159649715125">Sačuvaj kao PDF</translation>
-<translation id="6532101170117367231">Čuvanje na Brave Software disku</translation>
+<translation id="6532101170117367231">Čuvanje na Gab AI Inc disku</translation>
 <translation id="73174032666024687"><ph name="NUMBER_OF_SHEETS"/> <ph name="SHEETS_LABEL"/></translation>
 <translation id="4091434297613116013">list(ov)a papira</translation>
 <translation id="8813811964357448561">list papira</translation>
@@ -4844,7 +4844,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="6991665348624301627">Izaberite odredište</translation>
 <translation id="8800004011501252845">Prikazivanje odredišta za</translation>
 <translation id="8996526648899750015">Dodaj nalog...</translation>
-<translation id="6723354935081862304">Štampanje preko Brave Software dokumenata ili drugih odredišta u klaudu. <ph name="BEGIN_LINK"/>Prijavite se<ph name="END_LINK"/> da biste štampali preko Brave Software Cloud štampanja.</translation>
+<translation id="6723354935081862304">Štampanje preko Gab AI Inc dokumenata ili drugih odredišta u klaudu. <ph name="BEGIN_LINK"/>Prijavite se<ph name="END_LINK"/> da biste štampali preko Gab AI Inc Cloud štampanja.</translation>
 <translation id="2150139952286079145">Pretražite odredišta</translation>
 <translation id="8569682776816196752">Nema pronađenih odredišta</translation>
 <translation id="7885253890047913815">Nedavna odredišta</translation>
@@ -4909,7 +4909,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7574650250151586813">Da biste kucali tekst, ažurirajte aplikaciju Daydream tastatura</translation>
 <translation id="983511809958454316">Ova funkcija nije podržana u VR-u</translation>
 <translation id="4008291085758151621">Informacije o sajtovima nisu dostupne u VR-u</translation>
-<translation id="1439926347196400598">Želite li da dozvolite Brave-u da snima zvuk?</translation>
+<translation id="1439926347196400598">Želite li da dozvolite Dissenter-u da snima zvuk?</translation>
 <translation id="6313641880021325787">IZAĐI IZ VR-A</translation>
 <translation id="2670429602441959756">Ova stranica sadrži funkcije koje još uvek nisu podržane u režimu virtuelne realnosti. Zatvara se...</translation>
 <translation id="1802687198411089702">Stranica se ne odaziva. Možete da sačekate da počne da se odaziva ili da je zatvorite.</translation>
@@ -4931,7 +4931,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="1721312023322545264">Potrebna vam je dozvola korisnika <ph name="NAME"/> da biste posetili ovaj sajt</translation>
 <translation id="7543525346216957623">Pitaj roditelja</translation>
 <translation id="471880041731876836">Nemate dozvolu da posetite ovaj sajt</translation>
-<translation id="3480834636742786788">Prijavite se u Brave pre korišćenja ove aplikacije.</translation>
+<translation id="3480834636742786788">Prijavite se u Dissenter pre korišćenja ove aplikacije.</translation>
 <translation id="2851634818064021665">Treba vam dozvola da biste posetili ovaj sajt</translation>
 <translation id="4933782374919065856">Imate pitanja? Kontaktirajte osobu koja vam nadgleda profil.</translation>
 <translation id="2712173769900027643">Zatraži dozvolu</translation>
@@ -4951,7 +4951,7 @@ Datoteka ključa: <ph name="KEY_FILE"/>
 <translation id="7755287808199759310">Roditelj može da ga odblokira za tebe</translation>
 <translation id="5732392974455271431">Roditelji mogu da ga odblokiraju za tebe</translation>
 <translation id="3556433843310711081">Menadžer može da ga odblokira za vas</translation>
-<translation id="1254756632288991504">Otvorite i prijavite se u Brave da bi Brave mogao da proveri da li imate dozvolu za pristup ovom sajtu.</translation>
+<translation id="1254756632288991504">Otvorite i prijavite se u Dissenter da bi Dissenter mogao da proveri da li imate dozvolu za pristup ovom sajtu.</translation>
 <translation id="2507397597949272797"><ph name="NAME"/> – pauzirano</translation>
 <translation id="8015163965024115122">Ograničenje za aplikaciju <ph name="IDS_SHORT_PRODUCT_NAME"/> ili <ph name="IDS_SHORT_PRODUCT_NAME"/> koje je postavio tvoj roditelj je isteklo.</translation>
 <translation id="2748061034695037846"><ph name="DOMAIN"/> – pauzirano</translation>

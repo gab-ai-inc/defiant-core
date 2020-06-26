@@ -7,12 +7,12 @@
 namespace google_update {
 
 #if defined(OFFICIAL_BUILD)
-const wchar_t kAppGuid[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
+const wchar_t kAppGuid[] = L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
 const wchar_t kMultiInstallAppGuid[] =
-    L"{F7526127-0B8A-406F-8998-282BEA40103A}";
-const wchar_t kBetaAppGuid[] = L"{103BD053-949B-43A8-9120-2E424887DE11}";
-const wchar_t kDevAppGuid[] = L"{CB2150F2-595F-4633-891A-E39720CE0531}";
-const wchar_t kSxSAppGuid[] = L"{C6CB981E-DB30-4876-8639-109F8933582C}";
+    L"{DA2C89DD-D3D6-4E1C-9534-27E0F66759A1}";
+const wchar_t kBetaAppGuid[] = L"{911586F3-317E-4498-868B-26BFCBD4F5FB}";
+const wchar_t kDevAppGuid[] = L"{2F0CC5B2-B924-40EA-A441-175E25CD51AA}";
+const wchar_t kSxSAppGuid[] = L"{7D06B97B-CBC7-49E6-8440-4A6750F016A6}";
 #else
 const wchar_t kAppGuid[] = L"";
 const wchar_t kMultiInstallAppGuid[] = L"";

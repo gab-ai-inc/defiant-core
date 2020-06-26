@@ -107,49 +107,6 @@ export default class Settings extends React.PureComponent<Props, {}> {
         {showSettingsMenu &&
           <SettingsMenu textDirection={textDirection}>
             <SettingsTitle>{getLocale('dashboardSettingsTitle')}</SettingsTitle>
-            {allowSponsoredWallpaperUI &&
-            <SettingsRow>
-              <SettingsText>{getLocale('showBackgroundImage')}</SettingsText>
-              <Toggle
-                onChange={this.toggleShowBackgroundImage}
-                checked={showBackgroundImage}
-                size='small'
-              />
-            </SettingsRow>
-            }
-            {false && allowSponsoredWallpaperUI &&
-            <SettingsRow isChildSetting={true}>
-              <SettingsText>{getLocale('brandedWallpaperOptIn')}</SettingsText>
-              <Toggle
-                onChange={toggleBrandedWallpaperOptIn}
-                // This option can only be enabled if
-                // users opt in for background images
-                checked={showBackgroundImage && brandedWallpaperOptIn}
-                disabled={!showBackgroundImage}
-                size='small'
-              />
-            </SettingsRow>
-            <SettingsRow>
-              <SettingsText>{getLocale('showRewards')}</SettingsText>
-              <Toggle
-                onChange={toggleShowRewards}
-                checked={showRewards}
-                size='small'
-              />
-            </SettingsRow>
-            }
-            {
-              false && binanceSupported
-              ? <SettingsRow>
-                  <SettingsText>{getLocale('showBinance')}</SettingsText>
-                  <Toggle
-                    onChange={toggleShowBinance}
-                    checked={showBinance}
-                    size='small'
-                  />
-                </SettingsRow>
-              : null
-            }
             <SettingsRow>
               <SettingsText>{getLocale('showBraveStats')}</SettingsText>
               <Toggle

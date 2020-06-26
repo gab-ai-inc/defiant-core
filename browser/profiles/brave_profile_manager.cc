@@ -10,7 +10,7 @@
 #include <vector>
 
 #include "base/metrics/histogram_macros.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
+//#include "brave/browser/brave_rewards/rewards_service_factory.h"
 #include "brave/browser/profiles/profile_util.h"
 #include "brave/browser/tor/buildflags.h"
 #include "brave/browser/tor/tor_profile_service.h"
@@ -19,7 +19,7 @@
 #include "brave/common/pref_names.h"
 #include "brave/common/tor/pref_names.h"
 #include "brave/common/tor/tor_constants.h"
-#include "brave/components/brave_ads/browser/ads_service_factory.h"
+//#include "brave/components/brave_ads/browser/ads_service_factory.h"
 #include "brave/components/brave_shields/browser/ad_block_regional_service.h"
 #include "brave/components/brave_shields/browser/ad_block_service.h"
 #include "brave/components/brave_shields/browser/brave_shields_util.h"
@@ -143,8 +143,8 @@ void BraveProfileManager::DoFinalInitForServices(Profile* profile,
   ProfileManager::DoFinalInitForServices(profile, go_off_the_record);
   if (!do_final_services_init_)
     return;
-  brave_ads::AdsServiceFactory::GetForProfile(profile);
-  brave_rewards::RewardsServiceFactory::GetForProfile(profile);
+  //brave_ads::AdsServiceFactory::GetForProfile(profile);
+  //brave_rewards::RewardsServiceFactory::GetForProfile(profile);
 #if BUILDFLAG(BRAVE_WALLET_ENABLED)
   BraveWalletServiceFactory::GetForProfile(profile);
 #endif

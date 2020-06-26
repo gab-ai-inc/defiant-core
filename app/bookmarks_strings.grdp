@@ -209,16 +209,16 @@
 
   <!-- Begin of Desktop to iOS Promo strings. -->
   <if expr="is_win">
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE" desc="Title for Dissenter iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Sync this bookmark to your iPhone
     </message>
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V2" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V2" desc="Title for Dissenter iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Get this bookmark on your iPhone
     </message>
-    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V3" desc="Title for Brave iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
+    <message name="IDS_BOOKMARK_BUBBLE_DESKTOP_TO_IOS_PROMO_TITLE_V3" desc="Title for Dissenter iOS promotion appearing in the bookmark bubble after a bookmark is saved.">
       Share this bookmark with your iPhone
     </message>
-    <message name="IDS_BOOKMARK_FOOTNOTE_DESKTOP_TO_IOS_PROMO_MESSAGE" desc="Text of the Brave iOS promotion displayed at the bottom of the bookmark bubble.">
+    <message name="IDS_BOOKMARK_FOOTNOTE_DESKTOP_TO_IOS_PROMO_MESSAGE" desc="Text of the Dissenter iOS promotion displayed at the bottom of the bookmark bubble.">
       To get your bookmarks on your mobile device, <ph name="GET_IOS_APP_LINK">$1<ex>get the application on your iPhone</ex></ph>.
     </message>
   </if>

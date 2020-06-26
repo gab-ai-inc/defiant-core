@@ -10,8 +10,8 @@
 #include "brave/browser/search_engines/search_engine_provider_service_factory.h"
 #include "brave/browser/search_engines/search_engine_tracker.h"
 #include "brave/browser/tor/tor_profile_service_factory.h"
-#include "brave/components/brave_ads/browser/ads_service_factory.h"
-#include "brave/browser/brave_rewards/rewards_service_factory.h"
+//#include "brave/components/brave_ads/browser/ads_service_factory.h"
+//#include "brave/browser/brave_rewards/rewards_service_factory.h"
 #include "brave/components/greaselion/browser/buildflags/buildflags.h"
 #include "brave/browser/ntp_background_images/view_counter_service_factory.h"
 #include "brave/components/brave_wallet/browser/buildflags/buildflags.h"
@@ -33,8 +33,8 @@
 namespace brave {
 
 void EnsureBrowserContextKeyedServiceFactoriesBuilt() {
-  brave_ads::AdsServiceFactory::GetInstance();
-  brave_rewards::RewardsServiceFactory::GetInstance();
+  //brave_ads::AdsServiceFactory::GetInstance();
+  //brave_rewards::RewardsServiceFactory::GetInstance();
   brave_shields::AdBlockPrefServiceFactory::GetInstance();
   brave_shields::CookiePrefServiceFactory::GetInstance();
 #if BUILDFLAG(ENABLE_GREASELION)

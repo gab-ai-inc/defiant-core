@@ -35,12 +35,6 @@
                 pref="{{prefs.brave.new_tab_page.show_background_image}}"
                 label="$i18n{braveNewTabBackgroundImages}">
             </settings-toggle-button>
-            <settings-toggle-button
-                class="nested-section borderless"
-                pref="{{prefs.brave.new_tab_page.show_branded_background_image}}"
-                disabled="{{!prefs.brave.new_tab_page.show_background_image.value}}"
-                label="$i18n{braveNewTabSponsoredImages}">
-            </settings-toggle-button>
         </template>
         </div>
       </div>
@@ -50,16 +44,6 @@
           pref="{{prefs.brave.new_tab_page.show_stats}}"
           label="$i18n{braveNewTabStats}">
       </settings-toggle-button>
-      <settings-toggle-button
-          pref="{{prefs.brave.new_tab_page.show_rewards}}"
-          label="$i18n{braveNewTabBraveRewards}">
-      </settings-toggle-button>
-      <template is="dom-if" if="[[isBinanceSupported_]]">
-        <settings-toggle-button
-            pref="{{prefs.brave.new_tab_page.show_binance}}"
-            label="$i18n{braveNewTabBinance}">
-        </settings-toggle-button>
-      </template>
       <settings-toggle-button
           pref="{{prefs.brave.new_tab_page.show_top_sites}}"
           label="$i18n{braveNewTabTopSites}">
