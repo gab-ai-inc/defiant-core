@@ -6,8 +6,8 @@
 #include "brave/components/brave_ads/browser/ads_notification_handler.h"
 
 #define BRAVE_ADD_BRAVE_ADS_NOTIFICATION_HANDLER \
-  AddNotificationHandler(                        \
+  /*AddNotificationHandler(                        \
       NotificationHandler::Type::BRAVE_ADS,      \
-      std::make_unique<brave_ads::AdsNotificationHandler>(profile));
+      std::make_unique<brave_ads::AdsNotificationHandler>(profile));*/
 #include "../../../../../chrome/browser/notifications/notification_display_service_impl.cc"
 #undef BRAVE_ADD_BRAVE_ADS_NOTIFICATION_HANDLER

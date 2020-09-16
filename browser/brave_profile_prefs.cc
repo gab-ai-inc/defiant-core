@@ -266,7 +266,7 @@ void RegisterProfilePrefs(user_prefs::PrefRegistrySyncable* registry) {
 #endif
 
 #if !defined(OS_ANDROID)
-  brave_ads::RegisterP2APrefs(registry);
+  //brave_ads::RegisterP2APrefs(registry);
 #endif
 
   RegisterProfilePrefsForMigration(registry);

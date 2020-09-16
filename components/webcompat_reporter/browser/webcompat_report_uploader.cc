@@ -27,6 +27,7 @@ WebcompatReportUploader::WebcompatReportUploader(
 WebcompatReportUploader::~WebcompatReportUploader() {}
 
 void WebcompatReportUploader::SubmitReport(std::string report_domain) {
+  /*
   std::string api_key = brave::GetAPIKey();
 
   GURL upload_url(WEBCOMPAT_REPORT_ENDPOINT);
@@ -39,11 +40,13 @@ void WebcompatReportUploader::SubmitReport(std::string report_domain) {
   base::JSONWriter::Write(post_data_obj, &post_data);
 
   WebcompatReportUploader::CreateAndStartURLLoader(upload_url, post_data);
+  */
 }
 
 void WebcompatReportUploader::CreateAndStartURLLoader(
     const GURL& upload_url,
     const std::string& post_data) {
+      /*
   DCHECK_CURRENTLY_ON(content::BrowserThread::UI);
 
   std::string content_type = "application/json";
@@ -79,6 +82,7 @@ void WebcompatReportUploader::CreateAndStartURLLoader(
       shared_url_loader_factory_.get(),
       base::BindOnce(&WebcompatReportUploader::OnSimpleURLLoaderComplete,
                      base::Unretained(this)));
+                     */
 }
 
 void WebcompatReportUploader::OnSimpleURLLoaderComplete(

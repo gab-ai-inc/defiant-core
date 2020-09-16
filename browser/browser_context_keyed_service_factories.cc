@@ -33,8 +33,8 @@
 namespace brave {
 
 void EnsureBrowserContextKeyedServiceFactoriesBuilt() {
-  brave_ads::AdsServiceFactory::GetInstance();
-  brave_rewards::RewardsServiceFactory::GetInstance();
+  //brave_ads::AdsServiceFactory::GetInstance();
+  //brave_rewards::RewardsServiceFactory::GetInstance();
   brave_shields::AdBlockPrefServiceFactory::GetInstance();
   brave_shields::CookiePrefServiceFactory::GetInstance();
 #if BUILDFLAG(ENABLE_GREASELION)

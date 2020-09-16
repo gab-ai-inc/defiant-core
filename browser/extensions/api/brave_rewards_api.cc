@@ -45,6 +45,7 @@ void BraveRewardsCreateWalletFunction::OnCreateWallet(int32_t result) {
 }
 
 ExtensionFunction::ResponseAction BraveRewardsCreateWalletFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
@@ -53,6 +54,7 @@ ExtensionFunction::ResponseAction BraveRewardsCreateWalletFunction::Run() {
             &BraveRewardsCreateWalletFunction::OnCreateWallet,
             weak_factory_.GetWeakPtr()));
   }
+  */
   return RespondNow(NoArguments());
 }
 
@@ -83,6 +85,7 @@ ExtensionFunction::ResponseAction BraveRewardsTipSiteFunction::Run() {
       brave_rewards::TipSite::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
 
+  /*
   // Sanity check: don't allow tips in private / tor contexts,
   // although the command should not have been enabled in the first place.
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -110,7 +113,7 @@ ExtensionFunction::ResponseAction BraveRewardsTipSiteFunction::Run() {
   params_dict->SetString(
       "url", contents ? contents->GetLastCommittedURL().spec() : std::string());
   ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
-
+  */
   return RespondNow(NoArguments());
 }
 
@@ -127,6 +130,7 @@ BraveRewardsTipTwitterUserFunction::Run() {
       brave_rewards::TipTwitterUser::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
 
+  /*
   // Sanity check: don't allow tips in private / tor contexts,
   // although the command should not have been enabled in the first place.
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -149,7 +153,7 @@ BraveRewardsTipTwitterUserFunction::Run() {
                    OnTwitterPublisherInfoSaved,
                    weak_factory_.GetWeakPtr()));
   }
-
+  */
   return RespondNow(NoArguments());
 }
 
@@ -161,6 +165,7 @@ BraveRewardsTipRedditUserFunction::~BraveRewardsTipRedditUserFunction() {
 }
 
 ExtensionFunction::ResponseAction BraveRewardsTipRedditUserFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::TipRedditUser::Params> params(
       brave_rewards::TipRedditUser::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
@@ -187,12 +192,13 @@ ExtensionFunction::ResponseAction BraveRewardsTipRedditUserFunction::Run() {
             &BraveRewardsTipRedditUserFunction::OnRedditPublisherInfoSaved,
             weak_factory_.GetWeakPtr()));
   }
-
+  */
   return RespondNow(NoArguments());
 }
 
 void BraveRewardsTipRedditUserFunction::OnRedditPublisherInfoSaved(
     std::unique_ptr<::brave_rewards::ContentSite> publisher_info) {
+  /*
   std::unique_ptr<brave_rewards::TipRedditUser::Params> params(
       brave_rewards::TipRedditUser::Params::Create(*args_));
 
@@ -233,12 +239,15 @@ void BraveRewardsTipRedditUserFunction::OnRedditPublisherInfoSaved(
 
   ::brave_rewards::OpenTipDialog(
       contents, std::move(params_dict));
-
+  */
   Release();
 }
 
 void BraveRewardsTipTwitterUserFunction::OnTwitterPublisherInfoSaved(
     std::unique_ptr<::brave_rewards::ContentSite> publisher_info) {
+  Release();
+  return;
+  /*
   std::unique_ptr<brave_rewards::TipTwitterUser::Params> params(
       brave_rewards::TipTwitterUser::Params::Create(*args_));
 
@@ -283,6 +292,7 @@ void BraveRewardsTipTwitterUserFunction::OnTwitterPublisherInfoSaved(
   ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
 
   Release();
+  */
 }
 ///////////////////////////////////////////////////
 BraveRewardsTipGitHubUserFunction::BraveRewardsTipGitHubUserFunction()
@@ -294,6 +304,7 @@ BraveRewardsTipGitHubUserFunction::~BraveRewardsTipGitHubUserFunction() {
 
 ExtensionFunction::ResponseAction
 BraveRewardsTipGitHubUserFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::TipGitHubUser::Params> params(
       brave_rewards::TipGitHubUser::Params::Create(*args_));
   EXTENSION_FUNCTION_VALIDATE(params.get());
@@ -322,12 +333,14 @@ BraveRewardsTipGitHubUserFunction::Run() {
                      weak_factory_.GetWeakPtr()));
     }
   }
+  */
   return RespondNow(NoArguments());
 }
 
 
 void BraveRewardsTipGitHubUserFunction::OnGitHubPublisherInfoSaved(
     std::unique_ptr<::brave_rewards::ContentSite> publisher_info) {
+  /*
   std::unique_ptr<brave_rewards::TipGitHubUser::Params> params(
       brave_rewards::TipGitHubUser::Params::Create(*args_));
 
@@ -364,7 +377,7 @@ void BraveRewardsTipGitHubUserFunction::OnGitHubPublisherInfoSaved(
                        std::move(media_meta_data_dict));
 
   ::brave_rewards::OpenTipDialog(contents, std::move(params_dict));
-
+  */
   Release();
 }
 //////////////////
@@ -378,6 +391,7 @@ BraveRewardsIncludeInAutoContributionFunction::
 
 ExtensionFunction::ResponseAction
   BraveRewardsIncludeInAutoContributionFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::IncludeInAutoContribution::Params> params(
     brave_rewards::IncludeInAutoContribution::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -388,10 +402,12 @@ ExtensionFunction::ResponseAction
       params->publisher_key,
       params->exclude);
   }
+  */
   return RespondNow(NoArguments());
 }
 
 ExtensionFunction::ResponseAction BraveRewardsGetPublisherDataFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::GetPublisherData::Params> params(
       brave_rewards::GetPublisherData::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -402,6 +418,7 @@ ExtensionFunction::ResponseAction BraveRewardsGetPublisherDataFunction::Run() {
                                                   params->favicon_url,
                                                   params->publisher_blob);
   }
+  */
   return RespondNow(NoArguments());
 }
 
@@ -410,6 +427,7 @@ BraveRewardsGetRewardsParametersFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetRewardsParametersFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (!rewards_service) {
@@ -421,10 +439,13 @@ BraveRewardsGetRewardsParametersFunction::Run() {
       &BraveRewardsGetRewardsParametersFunction::OnGet,
       this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetRewardsParametersFunction::OnGet(
     std::unique_ptr<::brave_rewards::RewardsParameters> parameters) {
+  /*
   auto data = std::make_unique<base::DictionaryValue>();
 
   if (!parameters) {
@@ -439,12 +460,14 @@ void BraveRewardsGetRewardsParametersFunction::OnGet(
   data->SetList("monthlyTipChoices", std::move(monthly_choices));
 
   Respond(OneArgument(std::move(data)));
+  */
 }
 
 BraveRewardsGetBalanceReportFunction::
 ~BraveRewardsGetBalanceReportFunction() = default;
 
 ExtensionFunction::ResponseAction BraveRewardsGetBalanceReportFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   auto* rewards_service = RewardsServiceFactory::GetForProfile(profile);
   if (!rewards_service) {
@@ -462,11 +485,15 @@ ExtensionFunction::ResponseAction BraveRewardsGetBalanceReportFunction::Run() {
           &BraveRewardsGetBalanceReportFunction::OnBalanceReport,
           this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetBalanceReportFunction::OnBalanceReport(
     const int32_t result,
     const ::brave_rewards::BalanceReport& report) {
+  return;
+  /*
   auto data = std::make_unique<base::Value>(base::Value::Type::DICTIONARY);
   data->SetDoubleKey("ads", report.earning_from_ads);
   data->SetDoubleKey("contribute", report.auto_contribute);
@@ -474,18 +501,21 @@ void BraveRewardsGetBalanceReportFunction::OnBalanceReport(
   data->SetDoubleKey("tips", report.one_time_donation);
   data->SetDoubleKey("monthly", report.recurring_donation);
   Respond(OneArgument(std::move(data)));
+  */
 }
 
 BraveRewardsFetchPromotionsFunction::
 ~BraveRewardsFetchPromotionsFunction() = default;
 
 ExtensionFunction::ResponseAction BraveRewardsFetchPromotionsFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
   if (rewards_service) {
     rewards_service->FetchPromotions();
   }
+  */
   return RespondNow(NoArguments());
 }
 
@@ -493,6 +523,7 @@ BraveRewardsClaimPromotionFunction::
 ~BraveRewardsClaimPromotionFunction() = default;
 
 ExtensionFunction::ResponseAction BraveRewardsClaimPromotionFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::ClaimPromotion::Params> params(
       brave_rewards::ClaimPromotion::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -511,6 +542,8 @@ ExtensionFunction::ResponseAction BraveRewardsClaimPromotionFunction::Run() {
           this,
           params->promotion_id));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsClaimPromotionFunction::OnClaimPromotion(
@@ -519,6 +552,8 @@ void BraveRewardsClaimPromotionFunction::OnClaimPromotion(
     const std::string& captcha_image,
     const std::string& hint,
     const std::string& captcha_id) {
+  return;
+  /*
 
   auto data = std::make_unique<base::Value>(base::Value::Type::DICTIONARY);
   data->SetIntKey("result", result);
@@ -527,12 +562,14 @@ void BraveRewardsClaimPromotionFunction::OnClaimPromotion(
   data->SetStringKey("captchaId", captcha_id);
   data->SetStringKey("hint", hint);
   Respond(OneArgument(std::move(data)));
+  */
 }
 
 BraveRewardsAttestPromotionFunction::
 ~BraveRewardsAttestPromotionFunction() = default;
 
 ExtensionFunction::ResponseAction BraveRewardsAttestPromotionFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::AttestPromotion::Params> params(
       brave_rewards::AttestPromotion::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -548,12 +585,15 @@ ExtensionFunction::ResponseAction BraveRewardsAttestPromotionFunction::Run() {
         this,
         params->promotion_id));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsAttestPromotionFunction::OnAttestPromotion(
     const std::string& promotion_id,
     const int32_t result,
     std::unique_ptr<::brave_rewards::Promotion> promotion) {
+  /*
   auto data = std::make_unique<base::Value>(base::Value::Type::DICTIONARY);
   data->SetStringKey("promotionId", promotion_id);
 
@@ -567,6 +607,7 @@ void BraveRewardsAttestPromotionFunction::OnAttestPromotion(
   data->SetDoubleKey("amount", promotion->amount);
   data->SetIntKey("type", promotion->type);
   Respond(TwoArguments(std::make_unique<base::Value>(result), std::move(data)));
+  */
 }
 
 BraveRewardsGetPendingContributionsTotalFunction::
@@ -575,6 +616,7 @@ BraveRewardsGetPendingContributionsTotalFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetPendingContributionsTotalFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -588,6 +630,8 @@ BraveRewardsGetPendingContributionsTotalFunction::Run() {
         &BraveRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetPendingContributionsTotalFunction::OnGetPendingTotal(
@@ -601,6 +645,7 @@ BraveRewardsGetRewardsMainEnabledFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetRewardsMainEnabledFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -613,6 +658,8 @@ BraveRewardsGetRewardsMainEnabledFunction::Run() {
         &BraveRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetRewardsMainEnabledFunction::OnGetRewardsMainEnabled(
@@ -624,6 +671,7 @@ BraveRewardsSaveAdsSettingFunction::~BraveRewardsSaveAdsSettingFunction() {
 }
 
 ExtensionFunction::ResponseAction BraveRewardsSaveAdsSettingFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::SaveAdsSetting::Params> params(
       brave_rewards::SaveAdsSetting::Params::Create(*args_));
   Profile* profile = Profile::FromBrowserContext(browser_context());
@@ -635,6 +683,7 @@ ExtensionFunction::ResponseAction BraveRewardsSaveAdsSettingFunction::Run() {
       ads_service_->SetEnabled(is_enabled);
     }
   }
+  */
   return RespondNow(NoArguments());
 }
 
@@ -644,6 +693,7 @@ BraveRewardsGetACEnabledFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetACEnabledFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -656,6 +706,8 @@ BraveRewardsGetACEnabledFunction::Run() {
         &BraveRewardsGetACEnabledFunction::OnGetACEnabled,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetACEnabledFunction::OnGetACEnabled(bool enabled) {
@@ -666,6 +718,7 @@ BraveRewardsSaveSettingFunction::~BraveRewardsSaveSettingFunction() {
 }
 
 ExtensionFunction::ResponseAction BraveRewardsSaveSettingFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::SaveSetting::Params> params(
       brave_rewards::SaveSetting::Params::Create(*args_));
 
@@ -679,7 +732,7 @@ ExtensionFunction::ResponseAction BraveRewardsSaveSettingFunction::Run() {
           std::stoi(params->value.c_str()));
     }
   }
-
+  */
   return RespondNow(NoArguments());
 }
 
@@ -689,6 +742,7 @@ BraveRewardsSaveRecurringTipFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsSaveRecurringTipFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::SaveRecurringTip::Params> params(
     brave_rewards::SaveRecurringTip::Params::Create(*args_));
 
@@ -708,6 +762,8 @@ BraveRewardsSaveRecurringTipFunction::Run() {
           this));
 
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsSaveRecurringTipFunction::OnSaveRecurringTip(bool success) {
@@ -724,6 +780,7 @@ BraveRewardsRemoveRecurringTipFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsRemoveRecurringTipFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::RemoveRecurringTip::Params> params(
     brave_rewards::RemoveRecurringTip::Params::Create(*args_));
 
@@ -734,7 +791,7 @@ BraveRewardsRemoveRecurringTipFunction::Run() {
   if (rewards_service_) {
     rewards_service_->RemoveRecurringTip(params->publisher_key);
   }
-
+  */
   return RespondNow(NoArguments());
 }
 
@@ -744,6 +801,7 @@ BraveRewardsGetRecurringTipsFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetRecurringTipsFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -756,10 +814,13 @@ BraveRewardsGetRecurringTipsFunction::Run() {
         &BraveRewardsGetRecurringTipsFunction::OnGetRecurringTips,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetRecurringTipsFunction::OnGetRecurringTips(
     std::unique_ptr<::brave_rewards::ContentSiteList> list) {
+      /*
   std::unique_ptr<base::DictionaryValue> result(new base::DictionaryValue());
   auto recurringTips = std::make_unique<base::ListValue>();
 
@@ -774,6 +835,7 @@ void BraveRewardsGetRecurringTipsFunction::OnGetRecurringTips(
 
   result->SetList("recurringTips", std::move(recurringTips));
   Respond(OneArgument(std::move(result)));
+  */
 }
 
 BraveRewardsGetPublisherBannerFunction::
@@ -782,6 +844,7 @@ BraveRewardsGetPublisherBannerFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetPublisherBannerFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::GetPublisherBanner::Params> params(
     brave_rewards::GetPublisherBanner::Params::Create(*args_));
 
@@ -799,10 +862,13 @@ BraveRewardsGetPublisherBannerFunction::Run() {
         &BraveRewardsGetPublisherBannerFunction::OnPublisherBanner,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetPublisherBannerFunction::OnPublisherBanner(
     std::unique_ptr<::brave_rewards::PublisherBanner> banner) {
+      /*
   std::unique_ptr<base::DictionaryValue> result(new base::DictionaryValue());
 
   if (banner) {
@@ -829,12 +895,14 @@ void BraveRewardsGetPublisherBannerFunction::OnPublisherBanner(
   }
 
   Respond(OneArgument(std::move(result)));
+  */
 }
 
 BraveRewardsRefreshPublisherFunction::~BraveRewardsRefreshPublisherFunction() {
 }
 
 ExtensionFunction::ResponseAction BraveRewardsRefreshPublisherFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::RefreshPublisher::Params> params(
       brave_rewards::RefreshPublisher::Params::Create(*args_));
 
@@ -852,6 +920,8 @@ ExtensionFunction::ResponseAction BraveRewardsRefreshPublisherFunction::Run() {
         &BraveRewardsRefreshPublisherFunction::OnRefreshPublisher,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsRefreshPublisherFunction::OnRefreshPublisher(
@@ -868,6 +938,7 @@ BraveRewardsGetAllNotificationsFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetAllNotificationsFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -896,6 +967,8 @@ BraveRewardsGetAllNotificationsFunction::Run() {
   }
 
   return RespondNow(OneArgument(std::move(list)));
+  */
+  return RespondNow(NoArguments());
 }
 
 BraveRewardsGetInlineTippingPlatformEnabledFunction::
@@ -904,6 +977,7 @@ BraveRewardsGetInlineTippingPlatformEnabledFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetInlineTippingPlatformEnabledFunction::Run() {
+  /*
   std::unique_ptr<brave_rewards::GetInlineTippingPlatformEnabled::Params>
       params(brave_rewards::GetInlineTippingPlatformEnabled::Params::Create(
           *args_));
@@ -922,6 +996,8 @@ BraveRewardsGetInlineTippingPlatformEnabledFunction::Run() {
           OnInlineTipSetting,
           this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetInlineTippingPlatformEnabledFunction::OnInlineTipSetting(
@@ -935,6 +1011,7 @@ BraveRewardsFetchBalanceFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsFetchBalanceFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -948,6 +1025,8 @@ BraveRewardsFetchBalanceFunction::Run() {
           &BraveRewardsFetchBalanceFunction::OnBalance,
           this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsFetchBalanceFunction::OnBalance(
@@ -978,6 +1057,7 @@ BraveRewardsGetExternalWalletFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetExternalWalletFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -996,6 +1076,8 @@ BraveRewardsGetExternalWalletFunction::Run() {
           &BraveRewardsGetExternalWalletFunction::OnExternalWalet,
           this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetExternalWalletFunction::OnExternalWalet(
@@ -1028,6 +1110,7 @@ BraveRewardsDisconnectWalletFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsDisconnectWalletFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -1039,6 +1122,7 @@ BraveRewardsDisconnectWalletFunction::Run() {
     brave_rewards::DisconnectWallet::Params::Create(*args_));
 
   rewards_service->DisconnectWallet(params->type);
+  */
   return RespondNow(NoArguments());
 }
 
@@ -1048,6 +1132,7 @@ BraveRewardsOnlyAnonWalletFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsOnlyAnonWalletFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -1057,6 +1142,8 @@ BraveRewardsOnlyAnonWalletFunction::Run() {
 
   const auto only = rewards_service->OnlyAnonWallet();
   return RespondNow(OneArgument(std::make_unique<base::Value>(only)));
+  */
+  return RespondNow(NoArguments());
 }
 
 BraveRewardsGetAdsEnabledFunction::
@@ -1065,6 +1152,7 @@ BraveRewardsGetAdsEnabledFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetAdsEnabledFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   AdsService* ads_service_ =
       AdsServiceFactory::GetForProfile(profile);
@@ -1076,6 +1164,8 @@ BraveRewardsGetAdsEnabledFunction::Run() {
   const bool enabled = ads_service_->IsEnabled();
   return RespondNow(
       OneArgument(std::make_unique<base::Value>(enabled)));
+  */
+  return RespondNow(NoArguments());
 }
 
 BraveRewardsGetAdsEstimatedEarningsFunction::
@@ -1084,6 +1174,7 @@ BraveRewardsGetAdsEstimatedEarningsFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetAdsEstimatedEarningsFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   AdsService* ads_service_ =
       AdsServiceFactory::GetForProfile(profile);
@@ -1096,6 +1187,8 @@ BraveRewardsGetAdsEstimatedEarningsFunction::Run() {
         &BraveRewardsGetAdsEstimatedEarningsFunction::OnAdsEstimatedEarnings,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetAdsEstimatedEarningsFunction::OnAdsEstimatedEarnings(
@@ -1112,6 +1205,7 @@ BraveRewardsGetWalletExistsFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetWalletExistsFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -1124,6 +1218,8 @@ BraveRewardsGetWalletExistsFunction::Run() {
         &BraveRewardsGetWalletExistsFunction::OnGetWalletExists,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetWalletExistsFunction::OnGetWalletExists(
@@ -1137,6 +1233,7 @@ BraveRewardsGetAdsSupportedFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetAdsSupportedFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   AdsService* ads_service_ =
       AdsServiceFactory::GetForProfile(profile);
@@ -1148,6 +1245,8 @@ BraveRewardsGetAdsSupportedFunction::Run() {
   const bool supported = ads_service_->IsSupportedLocale();
   return RespondNow(
       OneArgument(std::make_unique<base::Value>(supported)));
+  */
+  return RespondNow(NoArguments());
 }
 
 BraveRewardsGetAnonWalletStatusFunction::
@@ -1155,6 +1254,7 @@ BraveRewardsGetAnonWalletStatusFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsGetAnonWalletStatusFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -1167,6 +1267,8 @@ BraveRewardsGetAnonWalletStatusFunction::Run() {
         &BraveRewardsGetAnonWalletStatusFunction::OnGetAnonWalletStatus,
         this));
   return RespondLater();
+  */
+  return RespondNow(NoArguments());
 }
 
 void BraveRewardsGetAnonWalletStatusFunction::OnGetAnonWalletStatus(
@@ -1179,6 +1281,7 @@ BraveRewardsIsInitializedFunction::
 
 ExtensionFunction::ResponseAction
 BraveRewardsIsInitializedFunction::Run() {
+  /*
   Profile* profile = Profile::FromBrowserContext(browser_context());
   RewardsService* rewards_service =
     RewardsServiceFactory::GetForProfile(profile);
@@ -1190,6 +1293,8 @@ BraveRewardsIsInitializedFunction::Run() {
   const bool initialized = rewards_service->IsInitialized();
   return RespondNow(
       OneArgument(std::make_unique<base::Value>(initialized)));
+  */
+  return RespondNow(NoArguments());
 }
 
 }  // namespace api
