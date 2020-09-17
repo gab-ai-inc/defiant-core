@@ -43,9 +43,9 @@ namespace extensions {
       case IDR_BRAVE_EXTENSION:
       case IDR_BRAVE_WEBTORRENT:
         return true;
-      case IDR_BRAVE_REWARDS:
-      case IDR_BRAVE_SYNC_EXTENSION:
-        return false;
+      //case IDR_BRAVE_REWARDS:
+      //case IDR_BRAVE_SYNC_EXTENSION:
+      //return false;
     }
 
     return IsComponentExtensionWhitelisted_ChromiumImpl(manifest_resource_id);
