@@ -14,6 +14,7 @@ import { TogetherWidget } from './together'
 import { AddCardWidget } from './addCard'
 import { GeminiWidget } from './gemini'
 import createWidget from './widget'
+import { GabLinksContainer, GabLinksItem } from './gablinks'
 
 export * from './page'
 
@@ -34,5 +35,7 @@ export {
   TogetherWidget,
   AddCardWidget,
   GeminiWidget,
-  createWidget
+  createWidget,
+  GabLinksContainer,
+  GabLinksItem
 }

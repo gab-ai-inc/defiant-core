@@ -120,16 +120,11 @@ BraveNewTabMessageHandler* BraveNewTabMessageHandler::Create(
   // Initial Values
   // Should only contain data that is static
   //
-  auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
+  //auto* ads_service_ = brave_ads::AdsServiceFactory::GetForProfile(profile);
   // For safety, default |is_ads_supported_locale_| to true. Better to have
   // false positive than falsen egative,
   // in which case we would not show "opt out" toggle.
-  bool is_ads_supported_locale_ = true;
-  if (!ads_service_) {
-    LOG(ERROR) << "Ads service is not initialized!";
-  } else {
-    is_ads_supported_locale_ = ads_service_->IsSupportedLocale();
-  }
+  bool is_ads_supported_locale_ = false;
 
   source->AddBoolean(
       "featureFlagBraveNTPSponsoredImagesWallpaper",

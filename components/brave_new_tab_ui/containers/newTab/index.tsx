@@ -15,6 +15,7 @@ import {
 } from '../../components/default'
 import * as Page from '../../components/default/page'
 //import BrandedWallpaperLogo from '../../components/default/brandedWallpaper/logo'
+import GabLinks from './gablinks'
 
 // Helpers
 import arrayMove from 'array-move'
@@ -240,6 +241,10 @@ class NewTabPage extends React.Component<Props, State> {
             ) : null
           }
           <Page.Footer>
+            <GabLinks
+              menuPosition={'right'}
+              textDirection={newTabData.textDirection}
+            />
             <Page.FooterContent>            
             <FooterInfo
               textDirection={newTabData.textDirection}
