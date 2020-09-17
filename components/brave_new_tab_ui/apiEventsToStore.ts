@@ -51,6 +51,7 @@ export function wireApiEventsToStore () {
 }
 
 export function rewardsInitData () {
+  return;
   getRewardsPreInitialData()
   .then((preInitialRewardsData) => {
     getActions().setPreInitialRewardsData(preInitialRewardsData)
@@ -73,6 +74,8 @@ export function rewardsInitData () {
 }
 
 function binanceInitData () {
+  return;
+
   getBinanceBlackList()
   .then(({ isSupportedRegion, onlyAnonWallet }) => {
     if (onlyAnonWallet || !isSupportedRegion) {
@@ -87,6 +90,8 @@ function binanceInitData () {
 }
 
 function setRewardsFetchInterval () {
+  return;
+
   window.setInterval(() => {
     chrome.braveRewards.getRewardsMainEnabled((enabledMain: boolean) => {
       if (!enabledMain) {
@@ -102,6 +107,8 @@ function setRewardsFetchInterval () {
 }
 
 function fetchCreatedWalletData () {
+  return;
+
   chrome.braveRewards.isInitialized((initialized: boolean) => {
     if (!initialized) {
       return
@@ -118,18 +125,26 @@ function fetchCreatedWalletData () {
 }
 
 chrome.braveRewards.walletCreated.addListener(() => {
+  return;
+
   getActions().onWalletInitialized(12)
 })
 
 chrome.braveRewards.walletCreationFailed.addListener((result: any | NewTab.RewardsResult) => {
+  return;
+
   getActions().onWalletInitialized(result)
 })
 
 chrome.braveRewards.initialized.addListener((result: any | NewTab.RewardsResult) => {
+  return;
+
   rewardsInitData()
 })
 
 chrome.braveRewards.onEnabledMain.addListener((enabledMain: boolean) => {
+  return;
+
   if (enabledMain) {
     chrome.braveRewards.getAdsEnabled((enabledAds: boolean) => {
       getActions().onEnabledMain(enabledMain, enabledAds)
@@ -140,17 +155,25 @@ chrome.braveRewards.onEnabledMain.addListener((enabledMain: boolean) => {
 })
 
 chrome.braveRewards.onAdsEnabled.addListener((enabled: boolean) => {
+  return;
+
   getActions().onAdsEnabled(enabled)
 })
 
 chrome.braveRewards.onPromotions.addListener((result: number, promotions: NewTab.Promotion[]) => {
+  return;
+
   getActions().onPromotions(result, promotions)
 })
 
 chrome.braveRewards.onPromotionFinish.addListener((result: number, promotion: NewTab.Promotion) => {
+  return;
+
   getActions().onPromotionFinish(result, promotion)
 })
 
 chrome.braveRewards.onCompleteReset.addListener((properties: { success: boolean }) => {
+  return;
+
   getActions().onCompleteReset(properties.success)
 })

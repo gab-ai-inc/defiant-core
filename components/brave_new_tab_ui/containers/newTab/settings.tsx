@@ -34,7 +34,6 @@ import BackgroundImageSettings from './settings/backgroundImage'
 import BraveStatsSettings from './settings/braveStats'
 import TopSitesSettings from './settings/topSites'
 import ClockSettings from './settings/clock'
-import MoreCardsSettings from './settings/moreCards'
 
 export interface Props {
   textDirection: string
@@ -44,25 +43,10 @@ export interface Props {
   toggleShowClock: () => void
   toggleShowStats: () => void
   toggleShowTopSites: () => void
-  toggleShowRewards: () => void
-  toggleShowTogether: () => void
-  toggleShowBinance: () => void
-  toggleShowGemini: () => void
-  toggleBrandedWallpaperOptIn: () => void
   showBackgroundImage: boolean
   showStats: boolean
   showClock: boolean
   showTopSites: boolean
-  brandedWallpaperOptIn: boolean
-  allowSponsoredWallpaperUI: boolean
-  showRewards: boolean
-  showTogether: boolean
-  showBinance: boolean
-  binanceSupported: boolean
-  togetherSupported: boolean
-  showGemini: boolean
-  geminiSupported: boolean
-  focusMoreCards: boolean
 }
 
 type ActiveTabType = 'BackgroundImage' | 'BraveStats' | 'TopSites' | 'Clock' | 'MoreCards'
@@ -76,7 +60,7 @@ export default class Settings extends React.PureComponent<Props, State> {
   constructor (props: Props) {
     super(props)
     this.settingsMenuRef = React.createRef()
-    this.state = { activeTab: props.allowSponsoredWallpaperUI ? 0 : 1 }
+    this.state = { activeTab: 1 }
   }
 
   handleClickOutside = (event: Event) => {
@@ -98,12 +82,6 @@ export default class Settings extends React.PureComponent<Props, State> {
     document.removeEventListener('mousedown', this.handleClickOutside)
   }
 
-  componentDidUpdate (prevProps: Props) {
-    if (!prevProps.focusMoreCards && this.props.focusMoreCards) {
-      this.setState({ activeTab: 4 })
-    }
-  }
-
   onKeyPressSettings = (event: KeyboardEvent) => {
     if (event.key === 'Escape') {
       this.props.onClickOutside()
@@ -120,7 +98,7 @@ export default class Settings extends React.PureComponent<Props, State> {
 
   get activeTabOptions (): ActiveTabType[] {
     return [
-      'BackgroundImage', 'BraveStats', 'TopSites', 'Clock', 'MoreCards'
+      'BackgroundImage', 'BraveStats', 'TopSites', 'Clock', //'MoreCards'
     ]
   }
 
@@ -173,24 +151,10 @@ export default class Settings extends React.PureComponent<Props, State> {
       toggleShowClock,
       toggleShowStats,
       toggleShowTopSites,
-      toggleShowRewards,
-      toggleShowTogether,
-      toggleBrandedWallpaperOptIn,
       showBackgroundImage,
       showStats,
       showClock,
       showTopSites,
-      showRewards,
-      showTogether,
-      brandedWallpaperOptIn,
-      allowSponsoredWallpaperUI,
-      toggleShowBinance,
-      showBinance,
-      binanceSupported,
-      togetherSupported,
-      toggleShowGemini,
-      geminiSupported,
-      showGemini
     } = this.props
     const { activeTab } = this.state
 
@@ -209,11 +173,11 @@ export default class Settings extends React.PureComponent<Props, State> {
             </SettingsTitle>
             <SettingsContent id='settingsBody'>
               <SettingsSidebar id='sidebar'>
-                <SettingsSidebarActiveButtonSlider translateTo={activeTab} />
+                <SettingsSidebarActiveButtonSlider translateTo={activeTab-1} />
                 {
                   this.activeTabOptions.map((tabName, index) => {
                     const name = this.getTabKey(tabName)
-                    if (index === 0 && !allowSponsoredWallpaperUI) {
+                    if (index === 0) {
                       return <div key={`sidebar-button=${index}`} />
                     }
                     return (
@@ -240,9 +204,7 @@ export default class Settings extends React.PureComponent<Props, State> {
                   activeTab === 0
                     ? (
                     <BackgroundImageSettings
-                      toggleBrandedWallpaperOptIn={toggleBrandedWallpaperOptIn}
                       toggleShowBackgroundImage={this.toggleShowBackgroundImage}
-                      brandedWallpaperOptIn={brandedWallpaperOptIn}
                       showBackgroundImage={showBackgroundImage}
                     />
                   ) : null
@@ -276,21 +238,7 @@ export default class Settings extends React.PureComponent<Props, State> {
                 }
                 {
                   activeTab === 4
-                    ? (
-                      <MoreCardsSettings
-                        toggleShowBinance={toggleShowBinance}
-                        showBinance={showBinance}
-                        binanceSupported={binanceSupported}
-                        toggleShowTogether={toggleShowTogether}
-                        showTogether={showTogether}
-                        togetherSupported={togetherSupported}
-                        toggleShowRewards={toggleShowRewards}
-                        showRewards={showRewards}
-                        showGemini={showGemini}
-                        toggleShowGemini={toggleShowGemini}
-                        geminiSupported={geminiSupported}
-                      />
-                    ) : null
+                    ? null : null
                 }
               </SettingsFeatureBody>
             </SettingsContent>

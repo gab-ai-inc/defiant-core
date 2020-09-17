@@ -14,13 +14,10 @@ import NewTabPage from './newTab'
 // Utils
 import * as newTabActions from '../actions/new_tab_actions'
 import * as gridSitesActions from '../actions/grid_sites_actions'
-import * as binanceActions from '../actions/binance_actions'
-import * as rewardsActions from '../actions/rewards_actions'
-import * as geminiActions from '../actions/gemini_actions'
 import * as PreferencesAPI from '../api/preferences'
 
 interface Props {
-  actions: typeof newTabActions & typeof gridSitesActions & typeof binanceActions & typeof rewardsActions & typeof geminiActions
+  actions: typeof newTabActions & typeof gridSitesActions
   newTabData: NewTab.State
   gridSitesData: NewTab.GridSitesState
 }
@@ -45,12 +42,6 @@ class DefaultPage extends React.Component<Props, {}> {
           saveShowClock={PreferencesAPI.saveShowClock}
           saveShowStats={PreferencesAPI.saveShowStats}
           saveShowTopSites={PreferencesAPI.saveShowTopSites}
-          saveShowRewards={PreferencesAPI.saveShowRewards}
-          saveShowTogether={PreferencesAPI.saveShowTogether}
-          saveShowBinance={PreferencesAPI.saveShowBinance}
-          saveShowAddCard={PreferencesAPI.saveShowAddCard}
-          saveShowGemini={PreferencesAPI.saveShowGemini}
-          saveBrandedWallpaperOptIn={PreferencesAPI.saveBrandedWallpaperOptIn}
         />
       )
   }
@@ -62,7 +53,7 @@ const mapStateToProps = (state: NewTab.ApplicationState) => ({
 })
 
 const mapDispatchToProps = (dispatch: Dispatch) => {
-  const allActions = Object.assign({}, newTabActions, gridSitesActions, binanceActions, rewardsActions, geminiActions)
+  const allActions = Object.assign({}, newTabActions, gridSitesActions)
   return {
     actions: bindActionCreators(allActions, dispatch)
   }
