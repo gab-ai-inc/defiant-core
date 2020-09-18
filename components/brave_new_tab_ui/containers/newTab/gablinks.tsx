@@ -16,13 +16,7 @@ class GabLinks extends React.Component<Props, {}> {
     return (
       <GabLinksContainer>
         <GabLinksItem
-          description={"Gab is a free speech software company supported by users, not ads."}
-        />
-        <GabLinksItem
-          description={"We don't track you across the internet & we don't want your data."}
-        />
-        <GabLinksItem
-          description={"Help defend liberty, visit pro.gab.com"}
+          description={"Help us defend liberty, go GabPRO at "}          
         />
       </GabLinksContainer>
     )

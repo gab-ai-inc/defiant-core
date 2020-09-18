@@ -14,7 +14,7 @@ export const StyledGabLinksItemContainer = styled<{}, 'ul'>('ul')`
   color: inherit;
   font-size: inherit;
   font-family: inherit;
-  width:420px;
+  width:500px;
 `
 
 export const StyledGabLinksItem = styled<{}, 'li'>('li')`
@@ -44,6 +44,14 @@ export const StyledGabLinksItemText = styled<{}, 'span'>('span')`
 `
 
 export const StyledGabLinksItemDescription = styled<{}, 'div'>('div')`
+  font-size: 16px;
+  font-weight: 500;
+  color: #DDDDDD;
+  margin-top: 8px;
+  font-family: ${p => p.theme.fontFamily.heading};
+`
+
+export const StyledGabLinksItemURL = styled<{}, 'a'>('a')`
   font-size: 16px;
   font-weight: 500;
   color: #DDDDDD;

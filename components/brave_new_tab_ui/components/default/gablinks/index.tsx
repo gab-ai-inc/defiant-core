@@ -8,7 +8,8 @@ import {
   StyledGabLinksItemContainer,
   StyledGabLinksItem,
   StyledGabLinksItemText,
-  StyledGabLinksItemDescription
+  StyledGabLinksItemDescription,
+  StyledGabLinksItemURL
 } from './style'
 
 export interface GabLinksProps {
@@ -49,7 +50,10 @@ export class GabLinksItem extends React.PureComponent<GabLinksItemProps, {}> {
     return (
       <StyledGabLinksItem data-test-id={testId}>
           {text && <StyledGabLinksItemText>{text}</StyledGabLinksItemText>}
-        <StyledGabLinksItemDescription>{description}</StyledGabLinksItemDescription>
+        <StyledGabLinksItemDescription>
+          {description}
+          <StyledGabLinksItemURL href="https://pro.gab.com">https://pro.gab.com</StyledGabLinksItemURL>
+        </StyledGabLinksItemDescription>
       </StyledGabLinksItem>
     )
   }
