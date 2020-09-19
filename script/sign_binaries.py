@@ -4,9 +4,7 @@ import subprocess
 import sys
 
 cert = os.environ.get('CERT')
-signtool_args = (os.environ.get('SIGNTOOL_ARGS') or
-                 'sign /t http://timestamp.digicert.com /sm '
-                 '/fd sha256')
+signtool_args = ('sign /tr http://timestamp.comodoca.com /td sha256 /fd sha256 /n "Gab AI Inc"')
 
 assert (cert or signtool_args), 'One or both of the CERT or SIGNTOOL_ARGS '
 'must be set. CERT by default is the name in the //CurrentUser/My windows '
@@ -64,7 +62,7 @@ def _ParseOptions():
 
 
 def main(options):
-    sign_binaries(options.build_dir, ('brave.exe', 'chrome.dll'))
+    sign_binaries(options.build_dir, ('dissenter.exe', 'chrome.dll'))
 
 
 if '__main__' == __name__:

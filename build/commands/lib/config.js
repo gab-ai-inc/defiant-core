@@ -96,7 +96,7 @@ const Config = function () {
   this.safeBrowsingApiEndpoint = getNPMConfig(['safebrowsing_api_endpoint']) || ''
   this.updaterProdEndpoint = getNPMConfig(['updater_prod_endpoint']) || ''
   this.updaterDevEndpoint = getNPMConfig(['updater_dev_endpoint']) || ''
-  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://webcompat.brave.com/1/webcompat'
+  this.webcompatReportApiEndpoint = getNPMConfig(['webcompat_report_api_endpoint']) || 'https://127.0.0.1/1/webcompat'
   this.chromePgoPhase = 0
   // this.buildProjects()
   this.braveVersion = getNPMConfig(['version']) || '0.0.0'
@@ -386,8 +386,7 @@ Config.prototype.shouldSign = function () {
   }
 
   if (process.platform === 'win32') {
-    return process.env.CERT !== undefined &&
-           process.env.SIGNTOOL_ARGS !== undefined
+    return true
   }
 
   return false;
