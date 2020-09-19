@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/gcapi/gcapi.cc b/chrome/installer/gcapi/gcapi.cc
-index e502b40a78791c65cee30ff0e1ef041eb011d9b2..2652057e4190bf0c1a2b60aced7dce2cb4221879 100644
+index e502b40a78791c65cee30ff0e1ef041eb011d9b2..239d632cd085c147f5b59f0f687d76710cc29ea2 100644
 --- a/chrome/installer/gcapi/gcapi.cc
 +++ b/chrome/installer/gcapi/gcapi.cc
 @@ -57,6 +57,16 @@ using Microsoft::WRL::ComPtr;
@@ -7,14 +7,14 @@ index e502b40a78791c65cee30ff0e1ef041eb011d9b2..2652057e4190bf0c1a2b60aced7dce2c
  namespace {
  
 +#if defined(BRAVE_CHROMIUM_BUILD) && defined(OFFICIAL_BUILD)
-+const wchar_t kGCAPITempKey[] = L"Software\\BraveSoftware\\GCAPITemp";
++const wchar_t kGCAPITempKey[] = L"Software\\GabAI\\GCAPITemp";
 +const wchar_t kChromeRegVersion[] = L"pv";
 +const wchar_t kNoChromeOfferUntil[] =
-+    L"SOFTWARE\\BraveSoftware\\No Chrome Offer Until";
++    L"SOFTWARE\\GabAI\\No Chrome Offer Until";
 +const wchar_t kC1FPendingKey[] =
-+    L"Software\\BraveSoftware\\Common\\Rlz\\Events\\C";
++    L"Software\\GabAI\\Common\\Rlz\\Events\\C";
 +const wchar_t kC1FSentKey[] =
-+    L"Software\\BraveSoftware\\Common\\Rlz\\StatefulEvents\\C";
++    L"Software\\GabAI\\Common\\Rlz\\StatefulEvents\\C";
 +#else
  const wchar_t kGCAPITempKey[] = L"Software\\Google\\GCAPITemp";
  

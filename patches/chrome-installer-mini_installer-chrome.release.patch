@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/mini_installer/chrome.release b/chrome/installer/mini_installer/chrome.release
-index f86e95ba89302631017f372bc60335e1ebf1244f..4244d2e6f69fa158d8f6c56838bab56718135551 100644
+index f86e95ba89302631017f372bc60335e1ebf1244f..30ef37329d1ee127cfbe9db8979d1bb5869df8d0 100644
 --- a/chrome/installer/mini_installer/chrome.release
 +++ b/chrome/installer/mini_installer/chrome.release
 @@ -6,7 +6,7 @@
@@ -7,7 +7,7 @@ index f86e95ba89302631017f372bc60335e1ebf1244f..4244d2e6f69fa158d8f6c56838bab567
  # Chrome Application dir entries, sorted alphabetically.
  #
 -chrome.exe: %(ChromeDir)s\
-+brave.exe: %(ChromeDir)s\
++dissenter.exe: %(ChromeDir)s\
  chrome_proxy.exe: %(ChromeDir)s\
  #
  # Chrome version dir assembly manifest.
@@ -15,7 +15,7 @@ index f86e95ba89302631017f372bc60335e1ebf1244f..4244d2e6f69fa158d8f6c56838bab567
  #
  # Chrome version dir entries, sorted alphabetically.
  #
-+brave.exe.sig: %(VersionDir)s\
++dissenter.exe.sig: %(VersionDir)s\
  chrome.dll: %(VersionDir)s\
 +chrome.dll.sig: %(VersionDir)s\
 +brave_resources.pak: %(VersionDir)s\

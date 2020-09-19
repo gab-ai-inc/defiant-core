@@ -1,4 +1,4 @@
-/* Copyright (c) 2020 The Brave Authors. All rights reserved.
+/* Copyright (c) 2020 The Dissenter Authors. All rights reserved.
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this file,
  * You can obtain one at http://mozilla.org/MPL/2.0/. */
@@ -59,14 +59,14 @@ const wchar_t kUninstallRegistryValue[] = L"UninstallString";
 #if defined(OFFICIAL_BUILD)
 // The path to the key containing each app's Clients registry key. The trailing
 // slash is required.
-const wchar_t kClientsKeyBase[] = L"Software\\BraveSoftware\\Update\\Clients\\";
+const wchar_t kClientsKeyBase[] = L"Software\\GabAI\\Update\\Clients\\";
 // The path to the key containing each app's Client State registry key. The
 // trailing slash is required.
 const wchar_t kClientStateKeyBase[] =
-    L"Software\\BraveSoftware\\Update\\ClientState\\";
+    L"Software\\GabAI\\Update\\ClientState\\";
 // The path to the key in which kCleanupRegistryValue is found.
 const wchar_t kCleanupRegistryKey[] =
-    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Brave";
+    L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Dissenter";
 #else
 // The path to the key containing each app's Clients registry key.
 // No trailing slash on this one because the app's GUID is not appended.

@@ -7,7 +7,7 @@
 namespace google_update {
 
 #if defined(OFFICIAL_BUILD)
-const wchar_t kAppGuid[] = L"{AFE6A462-C574-4B8A-AF43-4CC60DF4563B}";
+const wchar_t kAppGuid[] = L"{0C12B489-0B55-4F8B-8EB7-640256ADBE54}";
 const wchar_t kMultiInstallAppGuid[] =
     L"{F7526127-0B8A-406F-8998-282BEA40103A}";
 const wchar_t kBetaAppGuid[] = L"{103BD053-949B-43A8-9120-2E424887DE11}";
