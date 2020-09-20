@@ -8,21 +8,6 @@ installationPath=$2
 
 promoCode=""
 
-# Detect if installer contained a referral promotion code within the filename
-standardPromoCodeRegex='[a-zA-Z0-9]{3}[0-9]{3}'
-installerPathPromoCodeRegex=".+-((${standardPromoCodeRegex})|([a-zA-Z]{1,}-[a-zA-Z]{1,}))([[:blank:]]?\([0-9]+\))?\.pkg$"
-if [[ $installerPath =~ $installerPathPromoCodeRegex ]]; then
-  n=${#BASH_REMATCH[*]}
-  rematch=${BASH_REMATCH[1]}
-  if [[ $n -ge 1 && ! ${rematch} =~ ^Browser-.*$ ]]; then
-    promoCode=${rematch}
-    if [[ $promoCode =~ $standardPromoCodeRegex ]]; then
-      promoCode=$(tr a-z A-Z <<< $promoCode)
-    fi
-    echo "Got promo code: $promoCode"
-  fi
-fi
-
 # Get a channel-safe version of the application name (based on the
 # .pkg file name)
 if [ "$promoCode" == "" ]; then
@@ -33,7 +18,7 @@ fi
 
 appNameNoDash=$(echo $appName | sed "s/-/ /g")
 installationAppPath="$installationPath/${appNameNoDash}.app"
-userDataDir="$HOME/Library/Application Support/BraveSoftware/${appName}"
+userDataDir="$HOME/Library/Application Support/GabAI/Dissenter"
 promoCodePath="$userDataDir/promoCode"
 
 # pkg runs this script as root so we need to get current username

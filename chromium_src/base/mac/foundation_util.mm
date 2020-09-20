@@ -49,7 +49,7 @@ const char* BaseBundleID() {
     case version_info::Channel::STABLE:
     case version_info::Channel::UNKNOWN:
     default:
-      return "com.brave.Browser";
+      return "com.gab.Dissenter";
   }
 #endif
 }

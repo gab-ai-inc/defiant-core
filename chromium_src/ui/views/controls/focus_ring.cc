@@ -30,9 +30,9 @@ class FocusRingTheme {
     // a very simplistic implementation.
     switch (id) {
       case ui::NativeTheme::kColorId_FocusedBorderColor:
-        return SkColorSetARGB(0x66, 0xfb, 0x54, 0x2b);
+        return SkColorSetARGB(0xEE, 0x00, 0xD1, 0x77);
       case ui::NativeTheme::kColorId_AlertSeverityHigh:
-        return SkColorSetRGB(0xf4, 0x34, 0x05);
+        return SkColorSetRGB(0x00, 0xC4, 0x66);
     }
     return gfx::kPlaceholderColor;
   }

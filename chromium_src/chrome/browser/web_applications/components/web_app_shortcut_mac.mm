@@ -16,15 +16,15 @@ base::FilePath GetLocalizableBraveAppShortcutsSubdirName();
 namespace {
 base::FilePath GetLocalizableBraveAppShortcutsSubdirName() {
   static const char kBraveBrowserDevelopmentAppDirName[] =
-      "Brave Browser Development Apps.localized";
+      "Dissenter Browser Development Apps.localized";
   static const char kBraveBrowserAppDirName[] =
-      "Brave Browser Apps.localized";
+      "Dissenter Browser Apps.localized";
   static const char kBraveBrowserBetaAppDirName[] =
-      "Brave Browser Beta Apps.localized";
+      "Dissenter Browser Beta Apps.localized";
   static const char kBraveBrowserDevAppDirName[] =
-      "Brave Browser Dev Apps.localized";
+      "Dissenter Browser Dev Apps.localized";
   static const char kBraveBrowserNightlyAppDirName[] =
-      "Brave Browser Nightly Apps.localized";
+      "Dissenter Browser Nightly Apps.localized";
 
   switch (chrome::GetChannel()) {
     case version_info::Channel::STABLE:

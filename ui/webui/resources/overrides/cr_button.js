@@ -10,10 +10,10 @@ export default html`
     /* Default/light theme button colors */
     :host(:not([style])) {
       --brave-text-color: #3b3e4f; /* grey800 */
-      --brave-brand-color: #ff7654; /* orange400 */
-      --brave-primary-hover: #ff977d; /* orange300 */
-      --brave-default-hover: rgba(255, 118, 84, 0.1); /* orange400 */
-      --brave-focus-outline: rgba(255, 118, 84, 0.4); /* orange400 */
+      --brave-brand-color: #00d177; /* orange400 */
+      --brave-primary-hover: #66E3AD; /* orange300 */
+      --brave-default-hover: rgba(0, 209, 119, 0.1); /* orange400 */
+      --brave-focus-outline: rgba(0, 209, 119, 0.4); /* orange400 */
       --ink-color: var(--brave-brand-color) !important;
       --text-color: var(--brave-text-color) !important;
       --text-color-action: white !important;

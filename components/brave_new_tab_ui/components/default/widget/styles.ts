@@ -111,7 +111,7 @@ export const StyledWidgetButton = styled<WidgetButtonProps, 'button'>('button')`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  outline-color: #FF7654;
+  outline-color: #00d177;
   outline-width: 2px;
   outline-offset: -3px;
   cursor: pointer;
@@ -132,7 +132,7 @@ export const StyledWidgetLink = styled<WidgetButtonProps, 'a'>('a')`
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
-  outline-color: #FF7654;
+  outline-color: #00d177;
   outline-width: 2px;
   outline-offset: -3px;
   cursor: pointer;
