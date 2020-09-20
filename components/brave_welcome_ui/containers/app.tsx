@@ -11,10 +11,10 @@ import { Page, Panel, SlideContent } from '../components'
 
 // Component groups
 import WelcomeBox from './screens/welcomeBox'
-import ImportBox from './screens/importBox'
-import RewardsBox from './screens/rewardsBox'
-import SearchBox from './screens/searchBox'
-import ShieldsBox from './screens/shieldsBox'
+//import ImportBox from './screens/importBox'
+//import RewardsBox from './screens/rewardsBox'
+//import SearchBox from './screens/searchBox'
+//import ShieldsBox from './screens/shieldsBox'
 import FooterBox from './screens/footerBox'
 
 // Images
@@ -40,7 +40,7 @@ export interface State {
   shouldUpdateElementOverflow: boolean
 }
 
-const totalScreensSize = 5
+const totalScreensSize = 1
 
 export class WelcomePage extends React.Component<Props, State> {
   constructor (props: Props) {
@@ -54,7 +54,7 @@ export class WelcomePage extends React.Component<Props, State> {
   }
 
   componentDidUpdate (prevProps: Props) {
-    this.props.actions.recordP3A(this.state)
+    //this.props.actions.recordP3A(this.state)
   }
 
   get currentScreen () {
@@ -63,8 +63,9 @@ export class WelcomePage extends React.Component<Props, State> {
 
   onClickLetsGo = () => {
     this.setState({
-      currentScreen: this.state.currentScreen + 1
+      finished: true
     })
+    this.props.actions.goToTabRequested('chrome://newtab', '_self')
   }
 
   onClickImport = (sourceBrowserProfileIndex: number) => {
@@ -109,7 +110,7 @@ export class WelcomePage extends React.Component<Props, State> {
   }
 
   render () {
-    const { welcomeData, actions } = this.props
+    //const { welcomeData, actions } = this.props
     const { shouldUpdateElementOverflow } = this.state
     return (
       <>
@@ -121,21 +122,6 @@ export class WelcomePage extends React.Component<Props, State> {
           <Panel>
             <SlideContent>
               <WelcomeBox index={1} currentScreen={this.currentScreen} onClick={this.onClickLetsGo} />
-              <ImportBox
-                index={2}
-                currentScreen={this.currentScreen}
-                onClick={this.onClickImport}
-                browserProfiles={welcomeData.browserProfiles}
-              />
-              <ShieldsBox index={3} currentScreen={this.currentScreen} />
-              <SearchBox
-                index={4}
-                currentScreen={this.currentScreen}
-                onClick={this.onClickNext}
-                changeDefaultSearchProvider={actions.changeDefaultSearchProvider}
-                searchProviders={welcomeData.searchProviders}
-              />
-              <RewardsBox index={5} currentScreen={this.currentScreen} onClick={this.onClickRewardsGetStarted} />
             </SlideContent>
             <FooterBox
               totalScreensSize={totalScreensSize}

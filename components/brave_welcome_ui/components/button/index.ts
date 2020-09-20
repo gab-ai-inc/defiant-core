@@ -80,10 +80,10 @@ export const Bullet = styled(BaseButton as ComponentType<any>)`
   }
 
   ${p => p.active && css`
-    color: #FB542B;
+    color: #089759;
 
     &:hover {
-      color: #C72E03;
+      color: #00d177;
     }
   `}
 `

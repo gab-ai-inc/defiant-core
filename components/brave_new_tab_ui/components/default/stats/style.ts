@@ -25,7 +25,7 @@ export const StyledStatsItem = styled<{}, 'li'>('li')`
   margin: 10px 16px;
 
   &:first-child {
-    color: #FB542B;
+    color: #00d177;
   }
   &:nth-child(2) {
     color: #A0A5EB;

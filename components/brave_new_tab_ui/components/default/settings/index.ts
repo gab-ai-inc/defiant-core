@@ -345,7 +345,7 @@ export const StyledWidgetToggle = styled<WidgetToggleProps, 'button'>('button')`
   border: none;
   margin-top: 8px;
   cursor: pointer;
-  background: ${p => p.isAdd ? '#FB542B' : '#212529'};
+  background: ${p => p.isAdd ? '#089759' : '#212529'};
 `
 
 export const StyledButtonIcon = styled<{}, 'div'>('div')`

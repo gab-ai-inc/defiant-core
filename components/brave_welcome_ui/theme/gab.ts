@@ -1,0 +1,65 @@
+import colors from 'brave-ui/theme/colors'
+import ITheme from 'brave-ui/theme/theme-interface'
+
+// Define colors, fonts, and sizes by purpose.
+// Keys should not describe the value, but what they are to be used for.
+
+const theme: ITheme = {
+  name: 'Default',
+  palette: {
+    ...colors
+  },
+  color: {
+    brandBrave: colors.green500,
+    brandBat: colors.blurple500,
+    // brave controls
+    brandBraveInteracting: colors.green500,
+    brandBraveActive: colors.green200,
+    brandBraveLight: colors.green000,
+    // bat controls
+    brandBatInteracting: colors.blurple500,
+    brandBatActive: colors.blurple200,
+    // regular controls
+    defaultControl: colors.grey800,
+    defaultControlInteracting: colors.black,
+    defaultControlActive: colors.grey700,
+    // warning controls
+    warn: colors.red500,
+    warnInteracting: colors.red600,
+    warnActive: colors.red700,
+    // subtle controls
+    subtle: colors.grey400,
+    subtleBackground: colors.grey100,
+    subtleExclude: colors.grey300,
+    subtleInteracting: colors.grey500,
+    subtleActive: colors.grey600,
+    // disabled controls
+    disabled: colors.grey300,
+    disabledResourceBlocked: colors.neutral600,
+    // backgrounds
+    panelBackground: colors.white,
+    panelBackgroundSecondary: colors.neutral000,
+    primaryBackground: colors.white,
+    contextMenuBackground: colors.white,
+    contextMenuHoverBackground: colors.blurple200,
+    secondaryBackground: colors.grey400,
+    modalOverlayBackground: 'rgba(36,37,54,0.85)',
+    // text
+    contextMenuForeground: colors.grey800,
+    contextMenuHoverForeground: colors.neutral800,
+    detailDescription: colors.grey500,
+    text: colors.grey700,
+    // form controls
+    inputBorder: colors.grey500,
+    separatorLine: colors.grey100,
+    // images
+    lionLogo: colors.grey500
+  },
+  fontFamily: {
+    heading: 'Poppins, sans-serif',
+    body: 'Muli, sans-serif',
+    system: '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif'
+  }
+}
+
+export default theme
