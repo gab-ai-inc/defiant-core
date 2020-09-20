@@ -330,7 +330,7 @@ are declared in tools/grit/grit_rule.gni.
       <if expr="is_win">
         </if>
 
-      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's notifications permission request is automatically blocked by Brave, as this permission prompt is often denied by other users for this site.">
+      <message name="IDS_NOTIFICATIONS_QUIET_PERMISSION_BUBBLE_CROWD_DENY_DESCRIPTION" desc="Description for the notifications status bubble, which is triggered when a user clicks on the blocked notifications icon in the omnibox, shown when a site's notifications permission request is automatically blocked by Dissenter, as this permission prompt is often denied by other users for this site.">
         Most profiles block notifications from this site
       </message>
       <if expr="toolkit_views">
@@ -351,7 +351,7 @@ are declared in tools/grit/grit_rule.gni.
           Private App: <ph name="APP_NAME">$1<ex>Sample App</ex></ph>
         </message>
         <message name="IDS_TASK_MANAGER_TAB_INCOGNITO_PREFIX" desc="The prefix for a Task Manager private Tab row (may not be visible if private is not open)">
-          Private Tab: <ph name="TAB_NAME">$1<ex>Brave</ex></ph>
+          Private Tab: <ph name="TAB_NAME">$1<ex>Dissenter</ex></ph>
         </message>
         <message name="IDS_TASK_MANAGER_SUBFRAME_INCOGNITO_PREFIX" desc="The prefix for a Private out-of-process-iframe process row in the Task Manager (these processes are created when site isolation is enabled, in private mode)">
           Private Subframe: <ph name="SUBFRAME_SITE">$1<ex>https://youtube.com/</ex></ph>
@@ -407,7 +407,7 @@ are declared in tools/grit/grit_rule.gni.
       <message name="IDS_EXTENSION_WEB_STORE_TITLE" desc="Text for the Web Store">
         Web Store
       </message>
-      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Brave without the user's knowledge">
+      <message name="IDS_EXTENSIONS_ADDED_WITHOUT_KNOWLEDGE" desc="Text shown in the extensions settings for items that might have been forcefully added to Dissenter without the user's knowledge">
         This extension is not listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
       </message>
       <if expr="use_titlecase">
@@ -569,7 +569,7 @@ are declared in tools/grit/grit_rule.gni.
         </if>
 
       <message name="IDS_FR_ENABLE_LOGGING" desc="The label of the checkbox to enable/disable crash and user metrics logging">
-        Automatically send crash reports to Brave
+        Automatically send crash reports to Dissenter
       </message>
 
       <if expr="is_macosx">
@@ -828,7 +828,7 @@ are declared in tools/grit/grit_rule.gni.
        Do you want to use Touch ID with <ph name="APP_NAME">$1<ex>example.com</ex></ph> in Private mode?
      </message>
      <message name="IDS_WEBAUTHN_TOUCH_ID_INCOGNITO_BUMP_DESCRIPTION" desc="Description of the dialog shown when the user attempts to set up sign-in with Touch ID on a website in private mode." meaning="'Touch ID' is the fingerprint recognition feature in macOS. Try to refer Apple support documentation in the target language for the appropriate product name translation.">
-       Sign-in data will be stored in Brave after you exit Private mode. This will let you use Touch ID with this website again later.
+       Sign-in data will be stored in Dissenter after you exit Private mode. This will let you use Touch ID with this website again later.
      </message>
      </if>
 

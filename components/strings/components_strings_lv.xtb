@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">Uz kartes norādītā vārda pievienošana</translation>
 <translation id="1089439967362294234">Nomainīt paroli</translation>
 <translation id="1096545575934602868">Šajā laukā drīkst būt ne vairāk kā <ph name="MAX_ITEMS_LIMIT"/> ierakstu. Visi turpmākie ieraksti tiks atmesti.</translation>
-<translation id="1920681928837417101">Pārvaldīt paroles Brave iestatījumos</translation>
+<translation id="1920681928837417101">Pārvaldīt paroles Dissenter iestatījumos</translation>
 <translation id="1101672080107056897">Darbība pēc kļūdas konstatēšanas</translation>
 <translation id="1103523840287552314">Vienmēr tulkot <ph name="LANGUAGE"/> valodas saturu</translation>
 <translation id="1110994991967754504">Atlasiet atļauju: <ph name="PERMISSION_NAME"/></translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">Bez nosaukuma</translation>
 <translation id="1236081509407217141">Vai atļaut VR?</translation>
 <translation id="1240347957665416060">Jūsu ierīces nosaukums</translation>
-<translation id="1052005765108026699">Lai nākamreiz veiktu maksājumu ātrāk, saglabājiet kartes datus, vārdu un norēķinu adresi savā Brave kontā.</translation>
+<translation id="1052005765108026699">Lai nākamreiz veiktu maksājumu ātrāk, saglabājiet kartes datus, vārdu un norēķinu adresi savā Dissenter kontā.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (veikta sinhronizācija)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Ja, mēģinot apmeklēt vietni, tā netiek atvērta, vispirms izmēģiniet tālāk norādītās problēmu novēršanas darbības.&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">Saņemšanas veids</translation>
 <translation id="1281476433249504884">1. izvades vieta</translation>
 <translation id="1285320974508926690">Nekad netulkot šo vietni</translation>
-<translation id="1209478311331937175">“Programmatūra jūsu datorā, kuras dēļ pārlūkā Brave nevar izveidot drošu tīmekļa savienojumu” (tikai Windows datoros)</translation>
+<translation id="1209478311331937175">“Programmatūra jūsu datorā, kuras dēļ pārlūkā Dissenter nevar izveidot drošu tīmekļa savienojumu” (tikai Windows datoros)</translation>
 <translation id="1294154142200295408">Komandrindu varianti</translation>
 <translation id="129553762522093515">Nesen aizvērtas</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>Dzēsiet sīkfailus<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">Drukāt</translation>
 <translation id="1442386063175183758">Abpusējs locījums pa labi</translation>
 <translation id="1442987760062738829">Caurums</translation>
-<translation id="7408760246081928496">Jūsu ielīmētais vai pievienotais teksts tiek nosūtīts uz Brave mākoni vai trešajām pusēm, lai veiktu analīzi. Teksts var tikt pārmeklēts, piemēram, vai lai konstatētu, vai tajā ir ietverti sensitīvi dati.</translation>
+<translation id="7408760246081928496">Jūsu ielīmētais vai pievienotais teksts tiek nosūtīts uz Dissenter mākoni vai trešajām pusēm, lai veiktu analīzi. Teksts var tikt pārmeklēts, piemēram, vai lai konstatētu, vai tajā ir ietverti sensitīvi dati.</translation>
 <translation id="1455413310270022028">Dzēšgumija</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5 x 7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">Paroles maiņa</translation>
 <translation id="1484290072879560759">Izvēlēties nosūtīšanas adresi</translation>
 <translation id="1492194039220927094">Politiku informatīvie ziņojumi:</translation>
-<translation id="1812569385220097122">Rādī kartes no mana Brave konta</translation>
+<translation id="1812569385220097122">Rādī kartes no mana Dissenter konta</translation>
 <translation id="1507202001669085618">&lt;p&gt;Šis kļūdas ziņojums tiek rādīts, ja izmantojat Wi-Fi portālu, kurā ir jāpierakstās, lai varētu pāriet tiešsaistē.&lt;/p&gt;
     &lt;p&gt;Lai novērstu šo kļūdu, lapā, kuru mēģināt atvērt, noklikšķiniet uz &lt;strong&gt;Izveidot savienojumu&lt;/strong&gt;.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">Vēstures ierakstu saraksts</translation>
 <translation id="1517433312004943670">Jānorāda tālruņa numurs</translation>
 <translation id="1519264250979466059">Būvējuma datums</translation>
-<translation id="5524011986660000129">Brave izklājlapas</translation>
+<translation id="5524011986660000129">Dissenter izklājlapas</translation>
 <translation id="1527263332363067270">Tiek gaidīta savienojuma izveide...</translation>
 <translation id="1529521330346880926">10x15 (aploksne)</translation>
 <translation id="1529789484829130889">8. paplāte</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">Vēsture</translation>
 <translation id="1645368109819982629">Neatbalstīts protokols</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave vienkāršoja šo lapu, lai atvieglotu lasīšanu. Brave izguva sākotnējo lapu, izmantojot drošu savienojumu.</translation>
+<translation id="3848846802033604519">Dissenter vienkāršoja šo lapu, lai atvieglotu lasīšanu. Dissenter izguva sākotnējo lapu, izmantojot drošu savienojumu.</translation>
 <translation id="1656489000284462475">Informācija par saņemšanu</translation>
 <translation id="1662550410081243962">Saglabāt un aizpildīt maksājuma veidus</translation>
-<translation id="1838576226863399477">Kartes un adreses tiek iegūtas no Brave. Varat pārvaldīt tās <ph name="BEGIN_LINK"/>iestatījumos<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Kartes un adreses tiek iegūtas no Dissenter. Varat pārvaldīt tās <ph name="BEGIN_LINK"/>iestatījumos<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">Turpmāk lapas, kas būs šādā valodā: <ph name="SOURCE_LANGUAGE"/>, tiks tulkotas šādā valodā: <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1682696192498422849">Vispirms īsākā mala</translation>
 <translation id="168693727862418163">Šo politikas vērtību neizdevās apstiprināt, izmantojot tās shēmu, un tā tiks ignorēta.</translation>
@@ -213,7 +213,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">Atjauniniet savu sinhronizācijas ieejas frāzi.</translation>
 <translation id="1787142507584202372">Šeit tiks parādītas jūsu atvērtās cilnes</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">Kartes īpašnieka vārds, uzvārds</translation>
 <translation id="1807528111851433570">Sākuma lapa</translation>
@@ -226,7 +226,7 @@
 <translation id="1842969606798536927">Maksāt</translation>
 <translation id="1871208020102129563">Starpniekserveris ir iestatīts, lai tas lietotu fiksētus starpniekserverus, nevis .pac skripta URL.</translation>
 <translation id="1871284979644508959">Obligātais lauks</translation>
-<translation id="85321348617848915">Brave veidlapas</translation>
+<translation id="85321348617848915">Dissenter veidlapas</translation>
 <translation id="187918866476621466">Atvērt sākumlapas</translation>
 <translation id="1883255238294161206">Sakļaut sarakstu</translation>
 <translation id="1898423065542865115">Filtrēšana</translation>
@@ -237,19 +237,19 @@
 <translation id="1914326953223720820">Pakalpojums failu izgūšanai no arhīva</translation>
 <translation id="1915697529809968049">Vai vēlaties izmantot Touch ID, nevis CVC?</translation>
 <translation id="1916770123977586577">Lai lietotu atjauninātos iestatījumus šai vietnei, atkārtoti ielādējiet šo lapu</translation>
-<translation id="688541908229382784">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Brave iesaka nekavējoties nomainīt vietnē <ph name="ORIGIN"/> izmantoto paroli.</translation>
+<translation id="688541908229382784">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Dissenter iesaka nekavējoties nomainīt vietnē <ph name="ORIGIN"/> izmantoto paroli.</translation>
 <translation id="1919345977826869612">Reklāmas</translation>
 <translation id="1919367280705858090">Palīdzība par konkrētu kļūdas ziņojumu</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Nav}=1{1 vietne}zero{# vietnes}one{# vietne}other{# vietnes}}</translation>
 <translation id="194030505837763158">Apmeklējiet vietni <ph name="LINK"/></translation>
 <translation id="1947454675006758438">Skavojums augšējā labajā malā</translation>
-<translation id="990584554013599191">Palīdzēt uzlabot drošību tīmeklī visiem, nosūtot Brave serveriem <ph name="BEGIN_WHITEPAPER_LINK"/>dažu apmeklēto lapu vietrāžus URL, ierobežotu sistēmas informāciju un daļu lapu satura<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Konfidencialitātes politika<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Palīdzēt uzlabot drošību tīmeklī visiem, nosūtot Dissenter serveriem <ph name="BEGIN_WHITEPAPER_LINK"/>dažu apmeklēto lapu vietrāžus URL, ierobežotu sistēmas informāciju un daļu lapu satura<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Konfidencialitātes politika<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436"><ph name="DOMAIN"/> grāmatzīmes</translation>
 <translation id="1973335181906896915">Radās serializēšanas kļūda.</translation>
 <translation id="1974060860693918893">Papildu</translation>
 <translation id="1975584088563498795">10. pastkaste</translation>
 <translation id="1978555033938440688">Aparātprogrammatūras versija</translation>
-<translation id="711418501679417607">Notīrīt Brave pārlūkošanas vēstures datus</translation>
+<translation id="711418501679417607">Notīrīt Dissenter pārlūkošanas vēstures datus</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">piekļūt sīkfailiem un vietnes datiem.
 
@@ -265,7 +265,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="2030481566774242610">Vai domājāt <ph name="LINK"/>?</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>Pārbaudiet starpniekserveri un ugunsmūri<ph name="END_LINK"/>.</translation>
 <translation id="2042213636306070719">7. paplāte</translation>
-<translation id="3163988908275223348">Pierakstieties, lai izmantotu savā Brave kontā saglabātās paroles.</translation>
+<translation id="3163988908275223348">Pierakstieties, lai izmantotu savā Dissenter kontā saglabātās paroles.</translation>
 <translation id="2053111141626950936">Lapas netiks tulkotas no šīs valodas: <ph name="LANGUAGE"/></translation>
 <translation id="2053553514270667976">Pasta indekss</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 ieteikums}zero{# ieteikumi}one{# ieteikums}other{# ieteikumi}}</translation>
@@ -318,7 +318,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="2258928405015593961">Ievadiet derīguma termiņu, kas ir nākotnē, un mēģiniet vēlreiz.</translation>
 <translation id="225943865679747347">Kļūdas kods: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">HTTP kļūda</translation>
-<translation id="112540507627099823">Atjaunināt kredītkaršu automātisko aizpildi Brave iestatījumos</translation>
+<translation id="112540507627099823">Atjaunināt kredītkaršu automātisko aizpildi Dissenter iestatījumos</translation>
 <translation id="2267047181501709434">Notiek jūsu identitātes pārbaude...</translation>
 <translation id="2270484714375784793">Tālruņa numurs</translation>
 <translation id="2276057643614339130">Drukāšanas virsma</translation>
@@ -339,7 +339,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="2344028582131185878">Automātiskās lejupielādes</translation>
 <translation id="2346319942568447007">Kopētais attēls</translation>
 <translation id="2354001756790975382">Citas grāmatzīmes</translation>
-<translation id="2354430244986887761">Izmantojot Brave drošo pārlūkošanu, nesen <ph name="BEGIN_LINK"/>tika atrastas kaitīgas lietotnes<ph name="END_LINK"/> vietnē <ph name="SITE"/>.</translation>
+<translation id="2354430244986887761">Izmantojot Dissenter drošo pārlūkošanu, nesen <ph name="BEGIN_LINK"/>tika atrastas kaitīgas lietotnes<ph name="END_LINK"/> vietnē <ph name="SITE"/>.</translation>
 <translation id="2355395290879513365">Uzbrucēji var skatīt attēlus, kurus skatāt šajā vietnē, un apmānīt jūs, pārveidojot šos attēlus.</translation>
 <translation id="2356070529366658676">Vaicāt</translation>
 <translation id="2359629602545592467">Vairākas</translation>
@@ -369,7 +369,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="2491120439723279231">Servera sertifikātā ir kļūdas.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">JSON parsētājs</translation>
-<translation id="5047769237368272183">Ja šī izvēles rūtiņa ir atzīmēta, pārlūks Brave saglabās jūsu kartes informāciju šajā ierīcē, lai nodrošinātu ātrāku veidlapu aizpildi.</translation>
+<translation id="5047769237368272183">Ja šī izvēles rūtiņa ir atzīmēta, pārlūks Dissenter saglabās jūsu kartes informāciju šajā ierīcē, lai nodrošinātu ātrāku veidlapu aizpildi.</translation>
 <translation id="2498091847651709837">Skenēt jaunu karti</translation>
 <translation id="2501278716633472235">Doties atpakaļ</translation>
 <translation id="2505268675989099013">Aizsargāt kontu</translation>
@@ -431,12 +431,12 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="277133753123645258">Nosūtīšanas veids</translation>
 <translation id="277499241957683684">Trūkst ierīces ieraksta.</translation>
 <translation id="2775884851269838147">Pirmā drukas lapa</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">Savienojums tika atiestatīts.</translation>
 <translation id="2792012897584536778">Šīs ierīces administratori ir iestatījuši drošības sertifikātus, kas var ļaut viņiem skatīt jūsu apmeklēto vietņu saturu.</translation>
 <translation id="2799020568854403057">Šajā vietnē, kas tiks atvērta, ir kaitīgas lietotnes</translation>
 <translation id="2799223571221894425">Restartēt</translation>
-<translation id="2803306138276472711">Brave drošās pārlūkošanas tehnoloģija vietnē <ph name="SITE"/> nesen <ph name="BEGIN_LINK"/>konstatēja ļaunprātīgu programmatūru<ph name="END_LINK"/>. Vietnes, kuras parasti ir drošas, dažkārt tiek inficētas ar ļaunprātīgu programmatūru.</translation>
+<translation id="2803306138276472711">Dissenter drošās pārlūkošanas tehnoloģija vietnē <ph name="SITE"/> nesen <ph name="BEGIN_LINK"/>konstatēja ļaunprātīgu programmatūru<ph name="END_LINK"/>. Vietnes, kuras parasti ir drošas, dažkārt tiek inficētas ar ļaunprātīgu programmatūru.</translation>
 <translation id="2807052079800581569">Attēla pozīcija uz Y ass</translation>
 <translation id="2824514415781424867">Vai kopīgot atrašanās vietu?</translation>
 <translation id="2824775600643448204">Adreses un meklēšanas josla</translation>
@@ -477,7 +477,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="2989742184762224133">Divkāršs skavojums augšdaļā</translation>
 <translation id="2991174974383378012">Kopīgošana ar vietnēm</translation>
 <translation id="2991571918955627853">Pašlaik nevarat apmeklēt vietni <ph name="SITE"/>, jo tā izmanto HSTS. Tā kā tīkla kļūdas un uzbrukumi parasti ir īslaicīgi, visticamāk, šī lapa vēlāk darbosies.</translation>
-<translation id="6683975920571472553">Brave ieteikumi</translation>
+<translation id="6683975920571472553">Dissenter ieteikumi</translation>
 <translation id="3002501248619246229">Ievades paliktņa materiāla pārbaude</translation>
 <translation id="3005723025932146533">Rādīt saglabāto versiju</translation>
 <translation id="3008447029300691911">Ievadiet kredītkartes <ph name="CREDIT_CARD"/> CVC. Pēc apstiprināšanas kartes informācija tiks kopīgota ar šo vietni.</translation>
@@ -560,7 +560,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3399952811970034796">Piegādes adrese</translation>
 <translation id="3402261774528610252">Šīs vietnes ielādes savienojumam tika izmantots protokols TLS 1.0 vai TLS 1.1. Šīs versijas ir novecojušas un vēlāk tiks atspējotas. Kad tās būs atspējotas, lietotāji nevarēs ielādēt šo vietni. Serverim ir jāiespējo protokols TLS 1.2 vai jaunāka versija.</translation>
 <translation id="3414952576877147120">Lielums:</translation>
-<translation id="25726459489263481">Jūsu augšupielādētie vai pievienotie faili tiek nosūtīti uz Brave mākoni vai trešajām pusēm, lai veiktu analīzi. Šie faili var tikt pārmeklēti, lai konstatētu, piemēram, vai tajos ir ietverti sensitīvi dati vai ļaunprātīga programmatūra.</translation>
+<translation id="25726459489263481">Jūsu augšupielādētie vai pievienotie faili tiek nosūtīti uz Dissenter mākoni vai trešajām pusēm, lai veiktu analīzi. Šie faili var tikt pārmeklēti, lai konstatētu, piemēram, vai tajos ir ietverti sensitīvi dati vai ļaunprātīga programmatūra.</translation>
 <translation id="3422248202833853650">Aizveriet citas programmas, lai atbrīvotu vietu atmiņā.</translation>
 <translation id="3422472998109090673">Vietne <ph name="HOST_NAME"/> pašlaik nav sasniedzama.</translation>
 <translation id="3423742043356668186">Sistēmas noteikta</translation>
@@ -569,7 +569,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3428151540071562330">Viens vai vairāki DnsOverHttpsTemplates servera veidņu identifikatori URI nav derīgi un netiks izmantoti.</translation>
 <translation id="3431636764301398940">Saglabāt šo karti šajā ierīcē</translation>
 <translation id="3432601291244612633">Aizvērt lapu</translation>
-<translation id="4527130811319726464">Jūsu Brave kontā glabāto paroļu izmantošana</translation>
+<translation id="4527130811319726464">Jūsu Dissenter kontā glabāto paroļu izmantošana</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Šīs ierīces īpašnieks ir izslēdzis dinozauru spēli.</translation>
 <translation id="3447884698081792621">Parādīt sertifikātu (izsniedza <ph name="ISSUER"/>)</translation>
@@ -600,7 +600,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3567778190852720481">Nevar reģistrēt ierīci, izmantojot uzņēmuma kontu (uzņēmuma konts nav piemērots).</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">Vietnē <ph name="SITE"/> iegultā lapā ir rakstīts</translation>
-<translation id="230476913390177517">Brave jūs informēs, kad šī lapa būs gatava. &lt;a&gt;Atcelt&lt;/a&gt;</translation>
+<translation id="230476913390177517">Dissenter jūs informēs, kad šī lapa būs gatava. &lt;a&gt;Atcelt&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Pievienojiet vārdu.</translation>
 <translation id="3583757800736429874">&amp;Pārvietošanas atsaukuma atcelšana</translation>
 <translation id="3584299510153766161">Divi caurumi apakšdaļā</translation>
@@ -642,7 +642,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="373042150751172459">B4 (aploksne)</translation>
 <translation id="3731873414101415120">Jūsu apmeklētās vietnes un nedrošu lapu saturs</translation>
 <translation id="3736520371357197498">Ja apzināties drošības risku, varat <ph name="BEGIN_LINK"/>apmeklēt šo nedrošo vietni<ph name="END_LINK"/>, pirms ir noņemtas bīstamās programmas.</translation>
-<translation id="4098534208927606680">Pēc apstiprināšanas kartes informācija no Brave konta tiks kopīgota ar šo vietni.</translation>
+<translation id="4098534208927606680">Pēc apstiprināšanas kartes informācija no Dissenter konta tiks kopīgota ar šo vietni.</translation>
 <translation id="3748148204939282805">Uzbrucēji vietnē <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> var mudināt jūs veikt bīstamas darbības, piemēram, instalēt programmatūru vai atklāt personas informāciju (piemēram, paroles, tālruņa numurus vai kredītkaršu datus). <ph name="BEGIN_LEARN_MORE_LINK"/>Uzziniet vairāk<ph name="END_LEARN_MORE_LINK"/>.</translation>
 <translation id="3754210790023674521">Iziet no režīma “Attēls attēlā”</translation>
 <translation id="3759461132968374835">Pēdējā laikā neesat ziņojis par avārijām. Šeit nebūs redzamas avārijas, kas radās laikā, kad avāriju pārskatu izveide bija atspējota.</translation>
@@ -650,7 +650,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3761718714832595332">Slēpt statusu</translation>
 <translation id="3765032636089507299">Drošās pārlūkošanas lapa pašlaik nav pieejama</translation>
 <translation id="3765588406864124894">9. pastkaste</translation>
-<translation id="5141491707451394486">Vai vēlaties saglabāt šo karti savā Brave kontā un šajā ierīcē?</translation>
+<translation id="5141491707451394486">Vai vēlaties saglabāt šo karti savā Dissenter kontā un šajā ierīcē?</translation>
 <translation id="3780694243617746492">Izvades nodalījums</translation>
 <translation id="3781428340399460090">Spilgti rozā</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -680,7 +680,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3901925938762663762">Kartes derīguma termiņš ir beidzies.</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Planšetdators</translation>
-<translation id="2650609753175229582">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Jūsu ierīces identitāti pārbaudīs Brave, un tai var piekļūt šī vietne.</translation>
+<translation id="2650609753175229582">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Jūsu ierīces identitāti pārbaudīs Dissenter, un tai var piekļūt šī vietne.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">Vai vēlaties izmantot WebAuthn, nevis CVC?</translation>
 <translation id="3946209740501886391">Vienmēr jautāt šajā vietnē</translation>
@@ -695,7 +695,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="3964661563329879394">{COUNT,plural, =0{Nav}=1{No 1 vietnes }zero{No # vietnēm }one{No # vietnes }other{No # vietnēm }}</translation>
 <translation id="397105322502079400">Aprēķina...</translation>
 <translation id="3973234410852337861">Vietne <ph name="HOST_NAME"/> ir bloķēta</translation>
-<translation id="2321540973325616220">Pārlūks Brave ir konstatējis, ka šī vietne varētu būt viltota vai krāpnieciska.
+<translation id="2321540973325616220">Pārlūks Dissenter ir konstatējis, ka šī vietne varētu būt viltota vai krāpnieciska.
 
     Ja uzskatāt, ka tas tiek parādīts kļūdas dēļ, lūdzu, apmeklējiet vietni https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Mazāk nekā 1 MB</translation>
@@ -770,7 +770,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4275830172053184480">Ierīces restartēšana</translation>
 <translation id="4277028893293644418">Atiestatīt paroli</translation>
 <translation id="4279811152705618813">Jūsu ierīci (veids: <ph name="DEVICE_TYPE"/>) pārvalda <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Šī karte tika saglabāta jūsu Brave kontā}zero{Šīs kartes tika saglabātas jūsu Brave kontā}one{Šīs kartes tika saglabātas jūsu Brave kontā}other{Šīs kartes tika saglabātas jūsu Brave kontā}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Šī karte tika saglabāta jūsu Dissenter kontā}zero{Šīs kartes tika saglabātas jūsu Dissenter kontā}one{Šīs kartes tika saglabātas jūsu Dissenter kontā}other{Šīs kartes tika saglabātas jūsu Dissenter kontā}}</translation>
 <translation id="42981349822642051">Izvērst</translation>
 <translation id="4300675098767811073">Vairāki caurumi labajā pusē</translation>
 <translation id="4302965934281694568">Chou3 (aploksne)</translation>
@@ -783,7 +783,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4326324639298822553">Pārbaudiet derīguma termiņa datumu un mēģiniet vēlreiz.</translation>
 <translation id="4331519897422864041">5. izvades vieta</translation>
 <translation id="4331708818696583467">Nav droši</translation>
-<translation id="6116812392674177288">Šo datoru nepārvalda uzņēmums, tāpēc politika var automātiski instalēt tikai tos paplašinājumus, kas tiek mitināti Brave interneta veikalā. Brave interneta veikala atjauninājumu URL: <ph name="CWS_UPDATE_URL"/>.</translation>
+<translation id="6116812392674177288">Šo datoru nepārvalda uzņēmums, tāpēc politika var automātiski instalēt tikai tos paplašinājumus, kas tiek mitināti Dissenter interneta veikalā. Dissenter interneta veikala atjauninājumu URL: <ph name="CWS_UPDATE_URL"/>.</translation>
 <translation id="4346197816712207223">Pieņemtās kredītkartes</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">Šajā vietnē esošie uzbrucēji jūsu datorā var mēģināt instalēt bīstamas programmas, kuras var nozagt vai dzēst jūsu informāciju (piemēram, fotoattēlus, paroles, ziņojumus un informāciju par kredītkartēm).</translation>
@@ -808,7 +808,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4477350412780666475">Nākamais ieraksts</translation>
 <translation id="4482953324121162758">Šī vietne netiks tulkota.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">Šīs funkcijas ir atspējotas pēc noklusējuma. Turpmākajās Brave versijās tās nebūs pieejamas.</translation>
+<translation id="3614771894046523359">Šīs funkcijas ir atspējotas pēc noklusējuma. Turpmākajās Dissenter versijās tās nebūs pieejamas.</translation>
 <translation id="4493480324863638523">Nederīgs URL. Vietrādim URL ir jābūt ar standarta shēmu, piemēram, “http://example.com” vai “https://example.com”.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">Validācijas kļūda: <ph name="VALIDATION_ERROR"/></translation>
@@ -816,7 +816,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="450710068430902550">Kopīgošana ar administratoru</translation>
 <translation id="4508814173490746936">Neizdevās izmantot Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (aploksne)</translation>
-<translation id="4892470328555495647">Kartes un adreses tiek iegūtas no Brave un jūsu Brave konta (<ph name="ACCOUNT_EMAIL"/>). Varat tās pārvaldīt <ph name="BEGIN_LINK"/>iestatījumos<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Kartes un adreses tiek iegūtas no Dissenter un jūsu Dissenter konta (<ph name="ACCOUNT_EMAIL"/>). Varat tās pārvaldīt <ph name="BEGIN_LINK"/>iestatījumos<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (aploksne)</translation>
 <translation id="4522570452068850558">Informācija</translation>
 <translation id="4524138615196389145">Turpmāk, izmantojot WebAuthn, apstipriniet kartes ātrāk</translation>
@@ -842,7 +842,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4670064810192446073">Virtuālā realitāte</translation>
 <translation id="467662567472608290">Šis serveris nevarēja pierādīt, ka šī ir vietne <ph name="DOMAIN"/>; tās drošības sertifikātā ir kļūdas. Iespējams, tas ir nepareizas konfigurācijas dēļ vai arī kāds ir ļaunprātīgi izmantojis jūsu savienojumu.</translation>
 <translation id="4677585247300749148">Vietnē <ph name="URL"/> tiek pieprasīta atļauja reaģēt uz piekļūstamības notikumiem.</translation>
-<translation id="8197094463444457125">Brave prezentācijas</translation>
+<translation id="8197094463444457125">Dissenter prezentācijas</translation>
 <translation id="4690462567478992370">Pārtraukt nederīga sertifikāta izmantošanu</translation>
 <translation id="4691835149146451662">Architecture-A (aploksne)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -872,11 +872,11 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4785689107224900852">Pāriet uz šo cilni</translation>
 <translation id="4791134497475588553">Instalētās Linux lietotnes un to iepriekšējās lietošanas laiks</translation>
 <translation id="4796594887379589189">Darba konta ID</translation>
-<translation id="7110430050177876111">Lai atjauninātu kartes informāciju, ievadiet kredītkartes <ph name="CREDIT_CARD"/> derīguma termiņu un CVC kodu. Pēc apstiprināšanas kartes informācija no Brave konta tiks kopīgota ar šo vietni.</translation>
+<translation id="7110430050177876111">Lai atjauninātu kartes informāciju, ievadiet kredītkartes <ph name="CREDIT_CARD"/> derīguma termiņu un CVC kodu. Pēc apstiprināšanas kartes informācija no Dissenter konta tiks kopīgota ar šo vietni.</translation>
 <translation id="4800132727771399293">Pārbaudiet derīguma termiņu un CVC kodu un mēģiniet vēlreiz.</translation>
 <translation id="480334179571489655">Izcelsmes politikas kļūda</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">Pašlaik nevarat apmeklēt vietni <ph name="SITE"/>, jo tā nosūtīja bojātus akreditācijas datus, ko nevar apstrādāt pārlūkā Brave Brave. Tīkla kļūdas un uzbrukumi parasti ir īslaicīgi, tāpēc šī lapa vēlāk, visticamāk, darbosies.</translation>
+<translation id="8896585555528145662">Pašlaik nevarat apmeklēt vietni <ph name="SITE"/>, jo tā nosūtīja bojātus akreditācijas datus, ko nevar apstrādāt pārlūkā Dissenter Dissenter. Tīkla kļūdas un uzbrukumi parasti ir īslaicīgi, tāpēc šī lapa vēlāk, visticamāk, darbosies.</translation>
 <translation id="4813512666221746211">Tīkla kļūda</translation>
 <translation id="4816492930507672669">Ietilpināt lapā</translation>
 <translation id="484462545196658690">Autom.</translation>
@@ -914,7 +914,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="4989542687859782284">Nav pieejami</translation>
 <translation id="4989809363548539747">Šis spraudnis netiek atbalstīts</translation>
 <translation id="4995216769782533993">Lai kopīgotu kartes datus ar šo vietni, apstipriniet drošības kodu.</translation>
-<translation id="3676215163710610678">Iespējojot šo opciju, Brave saglabās jūsu kartes informāciju šajā ierīcē, lai jūs varētu ātrāk aizpildīt veidlapas.</translation>
+<translation id="3676215163710610678">Iespējojot šo opciju, Dissenter saglabās jūsu kartes informāciju šajā ierīcē, lai jūs varētu ātrāk aizpildīt veidlapas.</translation>
 <translation id="5015510746216210676">Ierīces nosaukums:</translation>
 <translation id="5017554619425969104">Kopētais teksts</translation>
 <translation id="5018422839182700155">Nevar atvērt šo lapu</translation>
@@ -923,7 +923,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5029568752722684782">Dzēst kopiju</translation>
 <translation id="5030338702439866405">Izsniedzis</translation>
 <translation id="503069730517007720">Programmatūrai <ph name="SOFTWARE_NAME"/> ir nepieciešams saknes sertifikāts, taču tas nav instalēts. Lai novērstu šo problēmu, tīkla administratoram ir jāapskata <ph name="SOFTWARE_NAME"/> konfigurācijas norādījumi. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Par Brave tulkotāju</translation>
+<translation id="6425384654920630035">Par Dissenter tulkotāju</translation>
 <translation id="503498442187459473"><ph name="HOST"/> vēlas lietot jūsu kameru un mikrofonu.</translation>
 <translation id="5039804452771397117">Atļaut</translation>
 <translation id="5040262127954254034">Konfidencialitāte</translation>
@@ -940,7 +940,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5088142053160410913">Ziņojums operatoram</translation>
 <translation id="5089810972385038852">Štats</translation>
 <translation id="5093232627742069661">Z-veida locījums</translation>
-<translation id="4906192414477726331">Šis serveris nevarēja pierādīt, ka šī ir vietne <ph name="DOMAIN"/>; tās drošības sertifikāts netiek uzskatīts par uzticamu Brave sistēmā. Iespējams, tas ir nepareizas konfigurācijas dēļ vai arī kāds ir ļaunprātīgi izmantojis jūsu savienojumu.</translation>
+<translation id="4906192414477726331">Šis serveris nevarēja pierādīt, ka šī ir vietne <ph name="DOMAIN"/>; tās drošības sertifikāts netiek uzskatīts par uzticamu Dissenter sistēmā. Iespējams, tas ir nepareizas konfigurācijas dēļ vai arī kāds ir ļaunprātīgi izmantojis jūsu savienojumu.</translation>
 <translation id="5095208057601539847">Province</translation>
 <translation id="5097099694988056070">Ierīces statistika, piemēram, CPU/RAM lietojums</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -952,7 +952,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5126510351761255129">Kartes verificēšana</translation>
 <translation id="6291230311289558881">Pārvaldīt adreses...</translation>
 <translation id="5138227688689900538">Rādīt mazāk</translation>
-<translation id="7186167407612593632">Šifrēt sinhronizētās paroles, izmantojot Brave akreditācijas datus</translation>
+<translation id="7186167407612593632">Šifrēt sinhronizētās paroles, izmantojot Dissenter akreditācijas datus</translation>
 <translation id="5145883236150621069">Politikas atbildē ir kļūdas kods.</translation>
 <translation id="5146995429444047494">Vietnes <ph name="ORIGIN"/> paziņojumi ir bloķēti</translation>
 <translation id="5148809049217731050">Ar virspusi uz augšu</translation>
@@ -960,8 +960,8 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5158275234811857234">Vāks</translation>
 <translation id="5161506081086828129">9. izvades vieta</translation>
 <translation id="5164798890604758545">Tiek ievadīts teksts</translation>
-<translation id="2996889577833788807">Ievadiet kredītkartes <ph name="CREDIT_CARD"/> CVC kodu. Pēc apstiprināšanas kartes informācija no Brave konta tiks kopīgota ar šo vietni.</translation>
-<translation id="8515152881111950319">Varat zaudēt piekļuvi savam organizācijas kontam, vai jūsu identitāte var tikt nozagta. Brave iesaka nekavējoties nomainīt paroli.</translation>
+<translation id="2996889577833788807">Ievadiet kredītkartes <ph name="CREDIT_CARD"/> CVC kodu. Pēc apstiprināšanas kartes informācija no Dissenter konta tiks kopīgota ar šo vietni.</translation>
+<translation id="8515152881111950319">Varat zaudēt piekļuvi savam organizācijas kontam, vai jūsu identitāte var tikt nozagta. Dissenter iesaka nekavējoties nomainīt paroli.</translation>
 <translation id="5171045022955879922">Meklējiet vai ievadiet URL.</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Ierīce</translation>
@@ -970,7 +970,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5201306358585911203">Šajā lapā iegultā lapā ir rakstīts</translation>
 <translation id="5205222826937269299">Jānorāda vārds vai nosaukums.</translation>
 <translation id="5209518306177824490">SHA-1 pirkstu nospiedums</translation>
-<translation id="1051285409463218679">Adreses un maksājumu veidi, kuros tiek izmantots pakalpojums Brave Pay</translation>
+<translation id="1051285409463218679">Adreses un maksājumu veidi, kuros tiek izmantots pakalpojums Dissenter Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">Jānorāda e-pasta adrese.</translation>
 <translation id="5230733896359313003">Piegādes adrese</translation>
@@ -994,7 +994,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5287456746628258573">Šajā vietnē tiek izmantota novecojusi drošības konfigurācija, tādēļ var tikt atklāta jūsu informācija (piemēram, paroles vai kredītkaršu numuri), kad tā tiek nosūtīta uz šo vietni.</translation>
 <translation id="5288108484102287882">Validējot politikas vērtības, tika konstatētas kļūdas</translation>
 <translation id="5289384342738547352">Vairāku dokumentu apstrāde</translation>
-<translation id="3764885446986388155">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Brave iesaka nekavējoties pārbaudīt saglabātās paroles.</translation>
+<translation id="3764885446986388155">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Dissenter iesaka nekavējoties pārbaudīt saglabātās paroles.</translation>
 <translation id="5299298092464848405">Parsējot politiku, radās kļūda.</translation>
 <translation id="5300589172476337783">Rādīt</translation>
 <translation id="5306593769196050043">Abas lapas</translation>
@@ -1053,7 +1053,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5541086400771735334">7. pastkaste</translation>
 <translation id="5541546772353173584">E-pasta adreses pievienošana</translation>
 <translation id="5545756402275714221">Ieteiktie raksti</translation>
-<translation id="6084314943327785510">Pārlūkā Brave tiek periodiski pārbaudītas jūsu paroles, salīdzinot tās ar tiešsaistē publicētiem sarakstiem. Šo pārbaužu laikā paroles un lietotājvārdi ir šifrēti, lai neviens tos nevarētu lasīt, tostarp Brave.</translation>
+<translation id="6084314943327785510">Pārlūkā Dissenter tiek periodiski pārbaudītas jūsu paroles, salīdzinot tās ar tiešsaistē publicētiem sarakstiem. Šo pārbaužu laikā paroles un lietotājvārdi ir šifrēti, lai neviens tos nevarētu lasīt, tostarp Dissenter.</translation>
 <translation id="5556459405103347317">Pārlādēt</translation>
 <translation id="5560088892362098740">Derīguma termiņš</translation>
 <translation id="5565735124758917034">Aktīvs</translation>
@@ -1066,14 +1066,14 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="560412284261940334">Pārvaldīšana netiek atbalstīta.</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">Šī vietne varētu būt viltota vai krāpnieciska. Brave iesaka pamest vietni tūlīt.</translation>
+<translation id="4067274479097837765">Šī vietne varētu būt viltota vai krāpnieciska. Dissenter iesaka pamest vietni tūlīt.</translation>
 <translation id="5610142619324316209">Pārbaudiet savienojumu.</translation>
 <translation id="5610807607761827392">Varat pārvaldīt karšu un adrešu informāciju sadaļā <ph name="BEGIN_LINK"/>Iestatījumi<ph name="END_LINK"/>.</translation>
 <translation id="5612720917913232150">Vietnē <ph name="URL"/> tiek pieprasīta atļauja izmantot jūsu datora atrašanās vietu.</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> novirzīja pārāk daudz reižu.</translation>
 <translation id="5629630648637658800">Neizdevās ielādēt politikas iestatījumus.</translation>
 <translation id="5631439013527180824">Ierīces pārvaldības marķieris nav derīgs.</translation>
-<translation id="2590378115732684772">Jūsu dati tika šifrēti, izmantojot jūsu <ph name="BEGIN_LINK"/>Brave paroli<ph name="END_LINK"/>, no šāda datuma: <ph name="TIME"/>. Ievadiet paroli, lai sāktu sinhronizāciju.</translation>
+<translation id="2590378115732684772">Jūsu dati tika šifrēti, izmantojot jūsu <ph name="BEGIN_LINK"/>Dissenter paroli<ph name="END_LINK"/>, no šāda datuma: <ph name="TIME"/>. Ievadiet paroli, lai sāktu sinhronizāciju.</translation>
 <translation id="5633066919399395251">Uzbrucēji vietnē <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> var mēģināt jūsu datorā instalēt bīstamas programmas, kas zog vai izdzēš informāciju (piemēram, fotoattēlus, paroles, ziņojumus un kredītkaršu datus). <ph name="BEGIN_LEARN_MORE_LINK"/>Uzziniet vairāk<ph name="END_LEARN_MORE_LINK"/>.</translation>
 <translation id="563324245173044180">Bloķēts maldinošs saturs</translation>
 <translation id="5644090287519800334">1. puses attēla nobīde uz X ass</translation>
@@ -1096,8 +1096,8 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5710435578057952990">Tīmekļa vietnes identitāte nav apstiprināta.</translation>
 <translation id="5720705177508910913">Pašreizējais lietotājs</translation>
 <translation id="5728056243719941842">C5 (aploksne)</translation>
-<translation id="3006790309890592320">Brave iesaka atiestatīt jūsu paroli, ja izmantojāt to citās vietnēs.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Kartes datu saglabāšana Brave kontā}zero{Karšu datu saglabāšana Brave kontā}one{Karšu datu saglabāšana Brave kontā}other{Karšu datu saglabāšana Brave kontā}}</translation>
+<translation id="3006790309890592320">Dissenter iesaka atiestatīt jūsu paroli, ja izmantojāt to citās vietnēs.</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Kartes datu saglabāšana Dissenter kontā}zero{Karšu datu saglabāšana Dissenter kontā}one{Karšu datu saglabāšana Dissenter kontā}other{Karšu datu saglabāšana Dissenter kontā}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Izmantojiet šai kartei virtuālu numuru}zero{Atlasiet karti}one{Atlasiet karti}other{Atlasiet karti}}</translation>
 <translation id="5759751709240058861">jūsu kameras izmantošana un kustināšana</translation>
 <translation id="5763042198335101085">Ievadiet derīgu e-pasta adresi</translation>
@@ -1111,7 +1111,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="5785756445106461925">Turklāt šajā lapā ir citi resursi, kas nav droši. Kamēr šie resursi tiek pārsūtīti, tos var aplūkot citi, kā arī uzbrucējs var tos pārveidot, lai mainītu lapas izskatu.</translation>
 <translation id="5786044859038896871">Vai vēlaties aizpildīt laukus ar kartes informāciju?</translation>
 <translation id="5798290721819630480">Vai atmest izmaiņas?</translation>
-<translation id="2828698628112858998">Mainīt sākumlapu Brave iestatījumos</translation>
+<translation id="2828698628112858998">Mainīt sākumlapu Dissenter iestatījumos</translation>
 <translation id="5803412860119678065">Vai vēlaties aizpildīt lauku ar informāciju “<ph name="CARD_DETAIL"/>”?</translation>
 <translation id="5804241973901381774">Atļaujas</translation>
 <translation id="5804427196348435412">izmantot NFC ierīces</translation>
@@ -1140,7 +1140,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="59174027418879706">Iespējots</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">Iesl.</translation>
-<translation id="2687595201721621314">Vai saglabāt kartes datus Brave kontā?</translation>
+<translation id="2687595201721621314">Vai saglabāt kartes datus Dissenter kontā?</translation>
 <translation id="5922853866070715753">Gandrīz pabeigts</translation>
 <translation id="5932224571077948991">Vietnē tiek rādītas traucējošas vai maldinošas reklāmas</translation>
 <translation id="5946937721014915347">Notiek vietnes <ph name="SITE_NAME"/> atvēršana...</translation>
@@ -1189,10 +1189,10 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">Tīmekļa lapa <ph name="PAGE"/> var būt īslaicīgi nepieejama, vai tā var būt pārvietota uz jaunu tīmekļa adresi.</translation>
 <translation id="6107012941649240045">Izsniegts</translation>
-<translation id="8233947174119245051">Jūsu Brave kontam var būt citu veidu pārlūkošanas vēstures dati vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8233947174119245051">Jūsu Dissenter kontam var būt citu veidu pārlūkošanas vēstures dati vietnē <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6116338172782435947">Skatīt starpliktuvē kopēto tekstu un attēlus</translation>
 <translation id="6120179357481664955">Vai iegaumēt jūsu UPI ID?</translation>
-<translation id="5972135347314259717">Brave Enterprise savienotāji</translation>
+<translation id="5972135347314259717">Dissenter Enterprise savienotāji</translation>
 <translation id="6146055958333702838">Pārbaudiet vadus un atkārtoti palaidiet maršrutētājus, modemus vai citas
     izmantotās tīkla ierīces.</translation>
 <translation id="614940544461990577">Veiciet tālāk norādītās darbības.</translation>
@@ -1204,11 +1204,11 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6180316780098470077">Intervāls starp atkārtotiem mēģinājumiem</translation>
 <translation id="6196640612572343990">Bloķēt trešo pušu sīkfailus</translation>
 <translation id="6203231073485539293">Interneta savienojuma pārbaude</translation>
-<translation id="8385639954311581596">Vai noņemt adresi no pārlūka Brave?</translation>
+<translation id="8385639954311581596">Vai noņemt adresi no pārlūka Dissenter?</translation>
 <translation id="622039917539443112">Paralēls locījums</translation>
-<translation id="6221345481584921695">Brave drošās pārlūkošanas tehnoloģija vietnē <ph name="SITE"/> nesen <ph name="BEGIN_LINK"/>konstatēja ļaunprātīgu programmatūru<ph name="END_LINK"/>. Vietnes, kuras parasti ir drošas, dažkārt tiek inficētas ar ļaunprātīgu programmatūru. Ļaunprātīgā satura avots ir <ph name="SUBRESOURCE_HOST"/> — plaši zināms ļaunprātīgās programmatūras izplatītājs.</translation>
+<translation id="6221345481584921695">Dissenter drošās pārlūkošanas tehnoloģija vietnē <ph name="SITE"/> nesen <ph name="BEGIN_LINK"/>konstatēja ļaunprātīgu programmatūru<ph name="END_LINK"/>. Vietnes, kuras parasti ir drošas, dažkārt tiek inficētas ar ļaunprātīgu programmatūru. Ļaunprātīgā satura avots ir <ph name="SUBRESOURCE_HOST"/> — plaši zināms ļaunprātīgās programmatūras izplatītājs.</translation>
 <translation id="6234122620015464377">Apgriešana pēc katra dokumenta</translation>
-<translation id="4765229189146046954">Brave Pay logotips</translation>
+<translation id="4765229189146046954">Dissenter Pay logotips</translation>
 <translation id="6241121617266208201">Paslēpt ieteikumus</translation>
 <translation id="624499991300733384">Drukājamā satura salikšanas pakalpojums</translation>
 <translation id="6254436959401408446">Nav pietiekami daudz vietas atmiņā, lai atvērtu šo lapu</translation>
@@ -1218,10 +1218,10 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6264485186158353794">Atpakaļ drošībā</translation>
 <translation id="6265794661083428563">Kopēt politikas <ph name="POLICY_NAME"/> vērtību</translation>
 <translation id="6266934640124581640">Gaiši zilganzaļa</translation>
-<translation id="9136010393039243713">Brave atjauninājums</translation>
+<translation id="9136010393039243713">Dissenter atjauninājums</translation>
 <translation id="6276112860590028508">Šeit tiek rādītas lasīšanas sarakstā esošās lapas</translation>
-<translation id="7954557091400543500">Lai nākamreiz veiktu maksājumu ātrāk, saglabājiet kartes datus un norēķinu adresi savā Brave kontā.</translation>
-<translation id="293801390522973485">Pārlūkprogrammā Brave <ph name="BEGIN_EMPHASIS"/>netiks saglabāta<ph name="END_EMPHASIS"/> tālāk norādītā informācija.
+<translation id="7954557091400543500">Lai nākamreiz veiktu maksājumu ātrāk, saglabājiet kartes datus un norēķinu adresi savā Dissenter kontā.</translation>
+<translation id="293801390522973485">Pārlūkprogrammā Dissenter <ph name="BEGIN_EMPHASIS"/>netiks saglabāta<ph name="END_EMPHASIS"/> tālāk norādītā informācija.
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>Jūsu pārlūkošanas vēsture
           <ph name="LIST_ITEM"/>Sīkfaili un vietņu dati
@@ -1231,7 +1231,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6282194474023008486">Pasta indekss</translation>
 <translation id="6290238015253830360">Ieteiktie raksti tiek parādīti šeit</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">Tiek pārtraukta Brave asistenta darbība pārlūkprogrammā Brave.</translation>
+<translation id="5880900081429361525">Tiek pārtraukta Dissenter asistenta darbība pārlūkprogrammā Dissenter.</translation>
 <translation id="6305205051461490394">Vietne <ph name="URL"/> nav sasniedzama.</translation>
 <translation id="6312113039770857350">Tīmekļa lapa nav pieejama</translation>
 <translation id="6321917430147971392">Sistēmas DNS iestatījumu pārbaude</translation>
@@ -1256,7 +1256,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6401136357288658127">Šī politika ir novecojusi. Tās vietā jums vajadzētu izmantot <ph name="NEW_POLICY"/> politiku.</translation>
 <translation id="6404511346730675251">Rediģēt grāmatzīmi</translation>
 <translation id="6406765186087300643">C0 (aploksne)</translation>
-<translation id="9018981925326888629">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Pārlūks Brave iesaka pēc iespējas ātrāk nomainīt paroli.</translation>
+<translation id="9018981925326888629">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Pārlūks Dissenter iesaka pēc iespējas ātrāk nomainīt paroli.</translation>
 <translation id="6410264514553301377">Ievadiet kredītkartes <ph name="CREDIT_CARD"/> derīguma termiņu un CVC.</translation>
 <translation id="6423385022588644828">Turpmāk, izmantojot Touch ID, apstipriniet kartes ātrāk</translation>
 <translation id="6425092077175753609">Materiāls</translation>
@@ -1276,7 +1276,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6476284679642588870">Pārvaldīt maksājumu veidus</translation>
 <translation id="6489534406876378309">Sākt avāriju datu augšupielādi</translation>
 <translation id="6499038740797743453">Vai atiestatīt paroli?</translation>
-<translation id="3960299545138990065">Restartējiet pārlūku Brave</translation>
+<translation id="3960299545138990065">Restartējiet pārlūku Dissenter</translation>
 <translation id="6517596291481585650">Brīdinājums! Šī politika netika apvienota kā saraksts atbilstoši politikā noteiktajam, jo tā nav saraksts.</translation>
 <translation id="6518133107902771759">Verificēt</translation>
 <translation id="6521745193039995384">Nav aktīva</translation>
@@ -1306,14 +1306,14 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6631202559048444592">Šai politikai ir vairāk nekā viens avots, bet vērtības ir vienādas.</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Notīrīt</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Nav}=1{No 1 vietnes (jūs netiksiet izrakstīts no sava Brave konta)}zero{No # vietnēm (jūs netiksiet izrakstīts no sava Brave konta)}one{No # vietnes (jūs netiksiet izrakstīts no sava Brave konta)}other{No # vietnēm (jūs netiksiet izrakstīts no sava Brave konta)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Nav}=1{No 1 vietnes (jūs netiksiet izrakstīts no sava Dissenter konta)}zero{No # vietnēm (jūs netiksiet izrakstīts no sava Dissenter konta)}one{No # vietnes (jūs netiksiet izrakstīts no sava Dissenter konta)}other{No # vietnēm (jūs netiksiet izrakstīts no sava Dissenter konta)}}</translation>
 <translation id="6652101503459149953">Izmantot Windows Hello</translation>
 <translation id="6657585470893396449">Parole</translation>
 <translation id="6665553082534466207">Trīs caurumi labajā pusē</translation>
 <translation id="6685834062052613830">Izrakstieties un pabeidziet iestatīšanu</translation>
 <translation id="6687335167692595844">Tika pieprasīts fonta lielums</translation>
 <translation id="6689249931105087298">Relatīva, ar melno punktu saspiešanu</translation>
-<translation id="5406652219015697259">Pārlūkprogrammā Brave tiek piedāvāts saglabāt jūsu kartes Brave kontā, jo esat pierakstījies. Varat mainīt šo darbību iestatījumos. Kartes īpašnieka vārds tiek iegūts no jūsu konta.</translation>
+<translation id="5406652219015697259">Pārlūkprogrammā Dissenter tiek piedāvāts saglabāt jūsu kartes Dissenter kontā, jo esat pierakstījies. Varat mainīt šo darbību iestatījumos. Kartes īpašnieka vārds tiek iegūts no jūsu konta.</translation>
 <translation id="6704582573942289642">Vai šī ir pareizā vietne?</translation>
 <translation id="6710213216561001401">Iepriekšējais</translation>
 <translation id="6710594484020273272">&lt;Ierakstiet meklēšanas vienumu&gt;</translation>
@@ -1346,14 +1346,14 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6874604403660855544">&amp;Atcelt pievienošanas atsaukšanu</translation>
 <translation id="6884662655240309489">1. izmērs</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/>: <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave vienkāršoja šo lapu, lai atvieglotu lasīšanu. Brave izguva sākotnējo lapu, izmantojot nedrošu savienojumu.</translation>
+<translation id="7265969755975834932">Dissenter vienkāršoja šo lapu, lai atvieglotu lasīšanu. Dissenter izguva sākotnējo lapu, izmantojot nedrošu savienojumu.</translation>
 <translation id="6891596781022320156">Politikas līmenis netiek atbalstīts.</translation>
 <translation id="6895330447102777224">Karte ir apstiprināta</translation>
 <translation id="6897140037006041989">Lietotāja aģents</translation>
 <translation id="6898699227549475383">Organizācija (O)</translation>
 <translation id="6910240653697687763">Vietnē <ph name="URL"/> tiek pieprasīta atļauja pilnībā pārvaldīt jūsu MIDI ierīces.</translation>
 <translation id="6915804003454593391">Lietotājs:</translation>
-<translation id="6722453239914327220">Šis vārds ir no jūsu Brave konta</translation>
+<translation id="6722453239914327220">Šis vārds ir no jūsu Dissenter konta</translation>
 <translation id="6944692733090228304">Jūs ievadījāt paroli vietnē, kuru nepārvalda <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. Lai aizsargātu savu kontu, neizmantojiet šo paroli citās lietotnēs un vietnēs.</translation>
 <translation id="6945221475159498467">Atlasīt</translation>
 <translation id="6948701128805548767">Lai skatītu saņemšanas veidus un prasības, atlasiet adresi.</translation>
@@ -1369,10 +1369,10 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="6972629891077993081">HID ierīces</translation>
 <translation id="6973656660372572881">Ir norādīti gan fiksēti starpniekserveri, gan .pac skripta URL.</translation>
 <translation id="6973932557599545801">Diemžēl nevaru palīdzēt. Lūdzu, turpiniet patstāvīgi.</translation>
-<translation id="846000886289004690">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, kā arī citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
-<translation id="6979158407327259162">Brave disks</translation>
+<translation id="846000886289004690">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, kā arī citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
+<translation id="6979158407327259162">Dissenter disks</translation>
 <translation id="6979440798594660689">Izslēgt skaņu (noklusējums)</translation>
-<translation id="1714833602699685456">Jūsu lejupielādētie faili tiek nosūtīti uz Brave mākoni vai trešajām pusēm, lai veiktu analīzi. Šie faili var tikt pārmeklēti, lai konstatētu, piemēram, vai tajos ir ietverti sensitīvi dati vai ļaunprātīga programmatūra.</translation>
+<translation id="1714833602699685456">Jūsu lejupielādētie faili tiek nosūtīti uz Dissenter mākoni vai trešajām pusēm, lai veiktu analīzi. Šie faili var tikt pārmeklēti, lai konstatētu, piemēram, vai tajos ir ietverti sensitīvi dati vai ļaunprātīga programmatūra.</translation>
 <translation id="6989763994942163495">Rādīt papildu iestatījumus...</translation>
 <translation id="6993898126790112050">6x9 (aploksne)</translation>
 <translation id="6996312675313362352">Vienmēr tulkot šo valodu: <ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1380,7 +1380,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="7012363358306927923">China UnionPay</translation>
 <translation id="7016992613359344582">Šie naudas pieprasījumi var būt vienreizēji vai atkārtoti, un tie var nebūt uzreiz pamanāmi.</translation>
 <translation id="7029809446516969842">Paroles</translation>
-<translation id="7031646650991750659">Kuras Brave Play lietotnes esat instalējis</translation>
+<translation id="7031646650991750659">Kuras Dissenter Play lietotnes esat instalējis</translation>
 <translation id="7050187094878475250">Jūs mēģinājāt sasniegt domēnu <ph name="DOMAIN"/>, bet serveris uzrādīja sertifikātu, kura derīguma periods ir pārāk ilgs, lai būtu uzticams.</translation>
 <translation id="705310974202322020">{NUM_CARDS,plural, =1{Šo karti pašlaik nevar saglabāt}zero{Pašlaik nevar saglabāt šīs kartes}one{Pašlaik nevar saglabāt šīs kartes}other{Pašlaik nevar saglabāt šīs kartes}}</translation>
 <translation id="7053983685419859001">Bloķēt</translation>
@@ -1395,7 +1395,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="7083258188081898530">9. paplāte</translation>
 <translation id="7086090958708083563">Augšupielādi pieprasīja lietotājs.</translation>
 <translation id="7087282848513945231">Grāfiste</translation>
-<translation id="5711818857380891233">Veiciet Brave meklēšanu, izmantojot vaicājumu “<ph name="LINK"/>”</translation>
+<translation id="5711818857380891233">Veiciet Dissenter meklēšanu, izmantojot vaicājumu “<ph name="LINK"/>”</translation>
 <translation id="7108338896283013870">Slēpt</translation>
 <translation id="7108634116785509031">Vietnē <ph name="HOST"/> tiek pieprasīta atļauja lietot jūsu kameru.</translation>
 <translation id="7108819624672055576">Atļāva paplašinājums</translation>
@@ -1429,7 +1429,7 @@ Pretējā gadījumā šī iespēja būtu liegta saskaņā ar jūsu konfidenciali
 <translation id="7219179957768738017">Savienojums izmanto <ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">Notiek apstrāde</translation>
 <translation id="7221855153210829124">Rādīt paziņojumus</translation>
-<translation id="3619365259205518877">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/>, kā arī citas vietnes, kurās izmantojat šo paroli.</translation>
+<translation id="3619365259205518877">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/>, kā arī citas vietnes, kurās izmantojat šo paroli.</translation>
 <translation id="7233592378249864828">Drukāšanas apstiprinājuma lapa</translation>
 <translation id="7238585580608191973">SHA-256 pirkstu nospiedums</translation>
 <translation id="7240120331469437312">Sertifikāta subjekta cits nosaukums</translation>
@@ -1452,7 +1452,7 @@ Papildu informācija:
 <translation id="7320336641823683070">Savienojuma palīdzība</translation>
 <translation id="7323804146520582233">Paslēpt sadaļu “<ph name="SECTION"/>”</translation>
 <translation id="733354035281974745">Ierīces lokālā konta ignorēšana</translation>
-<translation id="8539546768943490744">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> un <ph name="WEBSITE_3"/>, kā arī citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
+<translation id="8539546768943490744">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> un <ph name="WEBSITE_3"/>, kā arī citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
 <translation id="7334320624316649418">&amp;Atcelt pārkārtošanas atsaukšanu</translation>
 <translation id="7337706099755338005">Nav pieejams jūsu platformā.</translation>
 <translation id="733923710415886693">Servera sertifikāts netika atklāts, izmantojot Certificate Transparency.</translation>
@@ -1461,7 +1461,7 @@ Papildu informācija:
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">Komandrinda</translation>
 <translation id="7372973238305370288">meklēšanas rezultāts</translation>
-<translation id="3898257577441589237">Šīs problēmas iemesls ir sertifikāts, kuru jūs vai kāds cits ir instalējis jūsu ierīcē. Ir zināms, ka šis sertifikāts tiek izmantots tīklu pārraudzībai un pārtveršanai, un pārlūks Brave tam neuzticas. Lai gan pastāv daži likumīgi pārraudzības gadījumi, piemēram, skolas vai uzņēmuma tīklā, pārlūks Brave vēlas pārliecināties, ka esat par to informēts, pat ja nevarat to apturēt. Pārraudzība var notikt jebkurā pārlūkā vai lietojumprogrammā ar piekļuvi tīmeklim.</translation>
+<translation id="3898257577441589237">Šīs problēmas iemesls ir sertifikāts, kuru jūs vai kāds cits ir instalējis jūsu ierīcē. Ir zināms, ka šis sertifikāts tiek izmantots tīklu pārraudzībai un pārtveršanai, un pārlūks Dissenter tam neuzticas. Lai gan pastāv daži likumīgi pārraudzības gadījumi, piemēram, skolas vai uzņēmuma tīklā, pārlūks Dissenter vēlas pārliecināties, ka esat par to informēts, pat ja nevarat to apturēt. Pārraudzība var notikt jebkurā pārlūkā vai lietojumprogrammā ar piekļuvi tīmeklim.</translation>
 <translation id="7375818412732305729">Tiek pievienots fails</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Multivides vadīklas</translation>
@@ -1479,7 +1479,7 @@ Papildu informācija:
       &lt;li&gt;Sadaļā &lt;strong&gt;Startēšanas tips&lt;/strong&gt; atlasiet &lt;strong&gt;Atspējots&lt;/strong&gt;.
       &lt;li&gt;Sadaļā &lt;strong&gt;Pakalpojuma statuss&lt;/strong&gt; noklikšķiniet uz &lt;strong&gt;Apturēt&lt;/strong&gt;.
       &lt;li&gt;Noklikšķiniet uz &lt;strong&gt;Lietot&lt;/strong&gt;, pēc tam noklikšķiniet uz &lt;strong&gt;Labi&lt;/strong&gt;.
-      &lt;li&gt;Apmeklējiet &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Brave palīdzības centru&lt;/a&gt;, lai uzzinātu, kā neatgriezeniski noņemt programmatūru no datora.
+      &lt;li&gt;Apmeklējiet &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Dissenter palīdzības centru&lt;/a&gt;, lai uzzinātu, kā neatgriezeniski noņemt programmatūru no datora.
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">Aktivizēt Flash atskaņotāju</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1499,7 +1499,7 @@ Papildu informācija:
 <translation id="7481312909269577407">Pārsūtīt</translation>
 <translation id="7485870689360869515">Dati netika atrasti.</translation>
 <translation id="7488762544858401571">Rediģēts</translation>
-<translation id="3692186536781145635">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Brave iesaka nekavējoties pārbaudīt saglabātās paroles un nomainīt vietnē <ph name="ORIGIN"/> izmantoto paroli.</translation>
+<translation id="3692186536781145635">Kādā vietnē vai lietotnē notika datu noplūde un tika atklāta jūsu parole. Dissenter iesaka nekavējoties pārbaudīt saglabātās paroles un nomainīt vietnē <ph name="ORIGIN"/> izmantoto paroli.</translation>
 <translation id="7495528107193238112">Šis saturs ir bloķēts. Lai novērstu problēmu, sazinieties ar vietnes īpašnieku.</translation>
 <translation id="7498234416455752244">Turpināt rediģēšanu</translation>
 <translation id="7508255263130623398">Atgrieztais politikas ierīces ID ir tukšs vai neatbilst pašreizējam ierīces ID.</translation>
@@ -1517,13 +1517,13 @@ Papildu informācija:
 <translation id="7542995811387359312">Automātiska kredītkartes numura ievadīšana ir atspējota, jo šai veidlapai netiek izmantots drošs savienojums.</translation>
 <translation id="7548892272833184391">Savienojuma kļūdu novēršana</translation>
 <translation id="7549584377607005141">Lai tīmekļa lapu varētu attēlot pareizi, tai nepieciešami jūsu iepriekš ievadītie dati. Varat atkārtoti nosūtīt šos datus, taču tādā gadījumā tiks atkārtota ikviena darbība, ko pirms tam veica lapa.</translation>
-<translation id="5474381306981932386">Jūsu lietotājvārds ierīcē un pārlūkā Brave</translation>
+<translation id="5474381306981932386">Jūsu lietotājvārds ierīcē un pārlūkā Dissenter</translation>
 <translation id="7552846755917812628">Izmantojiet tālāk sniegtos padomus.</translation>
 <translation id="7554791636758816595">Jauna cilne</translation>
 <translation id="7567204685887185387">Šis serveris nevarēja pierādīt, ka šī ir vietne <ph name="DOMAIN"/>; tās drošības sertifikāts, iespējams, ir izveidots krāpnieciski. Iespējams, tas ir nepareizas konfigurācijas dēļ vai arī kāds ir ļaunprātīgi izmantojis jūsu savienojumu.</translation>
 <translation id="7569983096843329377">Melna</translation>
 <translation id="7575207903026901870">Ieteikuma noņemšanas poga, nospiediet ievadīšanas taustiņu, lai noņemtu šo ieteikumu</translation>
-<translation id="405970181812690156">Ātri apmaksājiet pirkumus vietnēs un lietotnēs no dažādām ierīcēm, izmantojot kartes, ko esat saglabājis Brave sistēmā.</translation>
+<translation id="405970181812690156">Ātri apmaksājiet pirkumus vietnēs un lietotnēs no dažādām ierīcēm, izmantojot kartes, ko esat saglabājis Dissenter sistēmā.</translation>
 <translation id="7581199239021537589">2. puses attēla nobīde uz Y ass</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> vēlas izmantot sīkfailus un vietnes datus šeit: <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">Servera sertifikātā ir pārkāpti nosaukuma ierobežojumi.</translation>
@@ -1532,12 +1532,12 @@ Papildu informācija:
 <translation id="7600965453749440009">Nekad netulkot saturu, kas rakstīts <ph name="LANGUAGE"/> valodā</translation>
 <translation id="7610193165460212391">Vērtība pārsniedz diapazonu: <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">Derīguma termiņš: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">Jums jau ir dati, kas šifrēti, izmantojot citu Brave konta paroles versiju. Ievadiet to šeit.</translation>
-<translation id="8565825862287624454">Administrators ir ieslēdzis savienotāju kolekciju Brave Enterprise Connectors jūsu pārlūkā. Šie savienotāji var piekļūt daļai jūsu datu.</translation>
+<translation id="6994126885316933886">Jums jau ir dati, kas šifrēti, izmantojot citu Dissenter konta paroles versiju. Ievadiet to šeit.</translation>
+<translation id="8565825862287624454">Administrators ir ieslēdzis savienotāju kolekciju Dissenter Enterprise Connectors jūsu pārlūkā. Šie savienotāji var piekļūt daļai jūsu datu.</translation>
 <translation id="7619838219691048931">Beigu lapa</translation>
 <translation id="762844065391966283">Pa vienam</translation>
 <translation id="7633909222644580952">Veiktspējas dati un avāriju pārskati</translation>
-<translation id="6386821459680628976">Vai noņemt kredītkarti no pārlūka Brave?</translation>
+<translation id="6386821459680628976">Vai noņemt kredītkarti no pārlūka Dissenter?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Nav}=1{1 parole jūsu kontā (<ph name="DOMAIN_LIST"/>)}zero{# paroles jūsu kontā (<ph name="DOMAIN_LIST"/>)}one{# parole jūsu kontā (<ph name="DOMAIN_LIST"/>)}other{# paroles jūsu kontā (<ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Seriālie porti</translation>
 <translation id="7639968568612851608">Tumši pelēka</translation>
@@ -1590,9 +1590,9 @@ Papildu informācija:
 <translation id="7802523362929240268">Vietne ir uzticama</translation>
 <translation id="780301667611848630">Nē, paldies</translation>
 <translation id="7805768142964895445">Statuss</translation>
-<translation id="3350174497208615172">Mainīt meklētājprogrammas iestatījumus pārlūkā Brave</translation>
+<translation id="3350174497208615172">Mainīt meklētājprogrammas iestatījumus pārlūkā Dissenter</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Vai noņemt veidlapas ieteikumu no pārlūka Brave?</translation>
+<translation id="4670564340385807132">Vai noņemt veidlapas ieteikumu no pārlūka Dissenter?</translation>
 <translation id="781440967107097262">Vai kopīgot starpliktuvi?</translation>
 <translation id="7815407501681723534">Meklējot pēc virknes “<ph name="SEARCH_STRING"/>”, tika atrasti <ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/></translation>
 <translation id="782886543891417279">Iespējams, izmantotajā Wi-Fi tīklā (<ph name="WIFI_NAME"/>) tiks pieprasīts apmeklēt pieteikšanās lapu.</translation>
@@ -1601,7 +1601,7 @@ Papildu informācija:
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/>: <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">Vai aizvērt vietni?</translation>
 <translation id="7865448901209910068">Optimālais ātrums</translation>
-<translation id="1012292338579042608">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, kā arī citās vietnēs, kurās izmantojat šo paroli.</translation>
+<translation id="1012292338579042608">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, kā arī citās vietnēs, kurās izmantojat šo paroli.</translation>
 <translation id="7878562273885520351">Iespējams, jūsu parole ir apdraudēta</translation>
 <translation id="7882421473871500483">Brūna</translation>
 <translation id="7887683347370398519">Pārbaudiet CVC kodu un mēģiniet vēlreiz.</translation>
@@ -1611,7 +1611,7 @@ Papildu informācija:
 <translation id="7932579305932748336">Pārklājums</translation>
 <translation id="79338296614623784">Ievadiet derīgu tālruņa numuru</translation>
 <translation id="7934052535022478634">Maksājums pabeigts</translation>
-<translation id="8329449853370113380">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Brave verificēs jūsu ierīces identitāti.</translation>
+<translation id="8329449853370113380">Vietne <ph name="URL"/> vēlas atskaņot aizsargātu saturu. Dissenter verificēs jūsu ierīces identitāti.</translation>
 <translation id="7935031712718413217">Iespējams viltus URL</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Derīguma termiņš: <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1643,11 +1643,11 @@ Papildu informācija:
 <translation id="8042918947222776840">Izvēlēties saņemšanas veidu</translation>
 <translation id="8057711352706143257">Programmatūra <ph name="SOFTWARE_NAME"/> nav pareizi konfigurēta. Atinstalējot programmatūru <ph name="SOFTWARE_NAME"/>, parasti problēma tiek novērsta. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">Diemžēl radās problēma.</translation>
-<translation id="5442778523450464826">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave var palīdzēt. Lai mainītu paroli un paziņotu uzņēmumam Brave, ka jūsu konts, iespējams, ir apdraudēts, noklikšķiniet uz pogas Aizsargāt kontu.</translation>
+<translation id="5442778523450464826">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter var palīdzēt. Lai mainītu paroli un paziņotu uzņēmumam Dissenter, ka jūsu konts, iespējams, ir apdraudēts, noklikšķiniet uz pogas Aizsargāt kontu.</translation>
 <translation id="8074253406171541171">10x13 (aploksne)</translation>
 <translation id="8078141288243656252">Pagrieztiem dokumentiem nevar pievienot piezīmes</translation>
 <translation id="8079031581361219619">Vai atkārtoti ielādēt vietni?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">Melnraksts</translation>
 <translation id="8088680233425245692">Rakstu neizdevās skatīt.</translation>
 <translation id="808894953321890993">Mainīt paroli</translation>
@@ -1666,7 +1666,7 @@ Papildu informācija:
 <translation id="8150722005171944719">Vietnē <ph name="URL"/> esošo failu nevar nolasīt. Iespējams, tas ir noņemts vai pārvietots vai piekļuvei nepieciešamas atļaujas.</translation>
 <translation id="8157295877370077682">Pamest vietni</translation>
 <translation id="8163866351304776260">Četri caurumi kreisajā malā</translation>
-<translation id="4351627595884993315">Pārlūkprogrammā Brave tiek piedāvāts saglabāt jūsu kartes Brave kontā, jo esat pierakstījies. Varat mainīt šo darbību iestatījumos.</translation>
+<translation id="4351627595884993315">Pārlūkprogrammā Dissenter tiek piedāvāts saglabāt jūsu kartes Dissenter kontā, jo esat pierakstījies. Varat mainīt šo darbību iestatījumos.</translation>
 <translation id="8184538546369750125">Izmantot globālo noklusējumu (Atļaut)</translation>
 <translation id="8194797478851900357">&amp;Pārvietošanas atsaukšana</translation>
 <translation id="8197543752516192074">Tulkot lapu</translation>
@@ -1677,7 +1677,7 @@ Papildu informācija:
 <translation id="8211406090763984747">Savienojums ir drošs</translation>
 <translation id="8218327578424803826">Piešķirtā atrašanās vieta:</translation>
 <translation id="8220146938470311105">C7/C6 (aploksne)</translation>
-<translation id="3272614036080146686">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/> un citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
+<translation id="3272614036080146686">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt apmeklējiet vietni <ph name="WEBSITE_1"/> un citas vietnes, kurās izmantojat šo paroli, un nomainiet to.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">Platformas temperatūra</translation>
 <translation id="8241707690549784388">Lapa, ko meklējāt, izmantoja jūsu ievadīto informāciju. Atgriešanās lapā var radīt jebkuras jūsu darbības atkārtojumu. Vai vēlaties turpināt?</translation>
@@ -1704,7 +1704,7 @@ Papildu informācija:
 <translation id="830498451218851433">Locījums uz pusēm</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">Instalētās lietotnes un to izmantošanas biežums</translation>
-<translation id="8390490312179389407">Šī lapa ir aizdomīga (atzīmēta pārlūkā Brave).</translation>
+<translation id="8390490312179389407">Šī lapa ir aizdomīga (atzīmēta pārlūkā Dissenter).</translation>
 <translation id="831997045666694187">Vakarā</translation>
 <translation id="8332188693563227489">Piekļuve vietnei <ph name="HOST_NAME"/> tika noraidīta</translation>
 <translation id="833262891116910667">Atzīmēt</translation>
@@ -1714,7 +1714,7 @@ Papildu informācija:
 <translation id="8363502534493474904">Izslēdziet lidojuma režīmu.</translation>
 <translation id="8364627913115013041">Nav iestatīta.</translation>
 <translation id="8367477997601443248">Nedroša veidlapa</translation>
-<translation id="8368476060205742148">Brave Play pakalpojumi</translation>
+<translation id="8368476060205742148">Dissenter Play pakalpojumi</translation>
 <translation id="8371889962595521444">Pielāgoti saknes sertifikāti</translation>
 <translation id="8380941800586852976">Bīstama</translation>
 <translation id="8381674639488873545">Maksa var tikt pieprasīta vienreiz vai atkārtoti; iespējams, pieprasījums nebūs skaidri pamanāms. <ph name="BEGIN_LINK"/>Tik un tā rādīt<ph name="END_LINK"/></translation>
@@ -1735,14 +1735,14 @@ Papildu informācija:
 <translation id="8473863474539038330">Adreses un citus datus</translation>
 <translation id="8474910779563686872">Skatīt informāciju par izstrādātāju</translation>
 <translation id="8479754468255770962">Skavojums apakšējā kreisajā malā</translation>
-<translation id="5142582872611298328">Lai izmantotu kartes no sava Brave konta, pierakstieties pārlūkā Brave!</translation>
+<translation id="5142582872611298328">Lai izmantotu kartes no sava Dissenter konta, pierakstieties pārlūkā Dissenter!</translation>
 <translation id="8488350697529856933">Attiecas uz</translation>
 <translation id="8490137692873530638">10. izvades vieta</translation>
 <translation id="8498891568109133222">Vietne <ph name="HOST_NAME"/> pārāk ilgi nereaģēja.</translation>
-<translation id="230699814587342492">Brave paroles</translation>
+<translation id="230699814587342492">Dissenter paroles</translation>
 <translation id="8503813439785031346">Lietotājvārds</translation>
 <translation id="8508648098325802031">Meklēšanas ikona</translation>
-<translation id="1426902392270366682">Brave var palīdzēt jums aizsargāt jūsu Brave kontu un nomainīt paroli.</translation>
+<translation id="1426902392270366682">Dissenter var palīdzēt jums aizsargāt jūsu Dissenter kontu un nomainīt paroli.</translation>
 <translation id="8541158209346794904">Bluetooth ierīce</translation>
 <translation id="8542014550340843547">Trīskāršs skavojums apakšdaļā</translation>
 <translation id="8543181531796978784">Jūs varat <ph name="BEGIN_ERROR_LINK"/>ziņot par noteikšanas problēmu<ph name="END_ERROR_LINK"/> vai, ja apzināties drošības riskus, <ph name="BEGIN_LINK"/>apmeklēt šo nedrošo vietni<ph name="END_LINK"/>.</translation>
@@ -1776,19 +1776,19 @@ Papildu informācija:
 <translation id="8719528812645237045">Vairāki caurumi augšdaļā</translation>
 <translation id="8725066075913043281">Mēģināt vēlreiz</translation>
 <translation id="8730621377337864115">Gatavs</translation>
-<translation id="6326805297893828864">Lai izveidotu drošu savienojumu, ir jāiestata pareizs pulksteņa laiks. Tas ir nepieciešams, jo sertifikāti, kurus vietnes izmanto, lai tiktu identificētas, ir derīgi tikai noteiktos laika periodos. Tā kā jūsu ierīces pulkstenis nav pareizi iestatīts, Brave nevar verificēt šos sertifikātus.</translation>
+<translation id="6326805297893828864">Lai izveidotu drošu savienojumu, ir jāiestata pareizs pulksteņa laiks. Tas ir nepieciešams, jo sertifikāti, kurus vietnes izmanto, lai tiktu identificētas, ir derīgi tikai noteiktos laika periodos. Tā kā jūsu ierīces pulkstenis nav pareizi iestatīts, Dissenter nevar verificēt šos sertifikātus.</translation>
 <translation id="8740359287975076522">Nevarēja atrast <ph name="HOST_NAME"/> &lt;abbr id="dnsDefinition"&gt;DNS adresi&lt;/abbr&gt;. Notiek problēmas diagnosticēšana.</translation>
 <translation id="874918643257405732">Saglabāt šo cilni kā grāmatzīmi</translation>
 <translation id="8751426954251315517">Mēģiniet vēlreiz nākamajā reizē</translation>
 <translation id="8759274551635299824">Kartes derīguma termiņš ir beidzies</translation>
 <translation id="87601671197631245">Šajā vietnē tiek izmantota novecojusi drošības konfigurācija, tādēļ var tikt atklāta jūsu informācija (piemēram, paroles, ziņojumi vai kredītkaršu dati), kad tā tiek nosūtīta uz šo vietni.</translation>
-<translation id="8761567432415473239">Brave drošās pārlūkošanas tehnoloģija nesen vietnē <ph name="SITE"/> <ph name="BEGIN_LINK"/>atklāja kaitīgas programmas<ph name="END_LINK"/>.</translation>
+<translation id="8761567432415473239">Dissenter drošās pārlūkošanas tehnoloģija nesen vietnē <ph name="SITE"/> <ph name="BEGIN_LINK"/>atklāja kaitīgas programmas<ph name="END_LINK"/>.</translation>
 <translation id="8763927697961133303">USB ierīce</translation>
-<translation id="565908431635579039">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Brave ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, kā arī citās vietnēs, kurās izmantojat šo paroli.</translation>
+<translation id="565908431635579039">Jūs tikko ievadījāt savu paroli maldinošā vietnē. Dissenter ieteikums: tūlīt pārbaudiet saglabātās paroles vietnē <ph name="WEBSITE_1"/>, kā arī citās vietnēs, kurās izmantojat šo paroli.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Atcelt dzēšanas atsaukšanu</translation>
-<translation id="5304100303568917877">Varat zaudēt piekļuvi savam <ph name="ORG_NAME"/> kontam, vai jūsu identitāte var tikt nozagta. Brave iesaka nekavējoties nomainīt paroli.</translation>
-<translation id="9156291179464624174">Domēns <ph name="ENROLLMENT_DOMAIN"/> ir iespējojis savienotājus Brave Enterprise Connectors jūsu pārlūkā. Šie savienotāji var piekļūt daļai jūsu datu.</translation>
+<translation id="5304100303568917877">Varat zaudēt piekļuvi savam <ph name="ORG_NAME"/> kontam, vai jūsu identitāte var tikt nozagta. Dissenter iesaka nekavējoties nomainīt paroli.</translation>
+<translation id="9156291179464624174">Domēns <ph name="ENROLLMENT_DOMAIN"/> ir iespējojis savienotājus Dissenter Enterprise Connectors jūsu pārlūkā. Šie savienotāji var piekļūt daļai jūsu datu.</translation>
 <translation id="8800988563907321413">Šeit tiks parādīti funkcijas Tuvumā ieteikumi</translation>
 <translation id="8805819170075074995">Saraksta ieraksts “<ph name="LANGUAGE_ID"/>”: ieraksts tiek ignorēts, jo tas ir iekļauts arī SpellcheckLanguage politikā.</translation>
 <translation id="8807160976559152894">Apgriešana pēc katras lapas</translation>
@@ -1796,8 +1796,8 @@ Papildu informācija:
 <translation id="883848425547221593">Citas grāmatzīmes</translation>
 <translation id="884264119367021077">Piegādes adrese</translation>
 <translation id="884923133447025588">Nav atrasts atsaukšanas mehānisms.</translation>
-<translation id="7487066225574140895">Kopīgošana ar Brave</translation>
-<translation id="4764754838347156633">Brave iesaka atiestatīt jūsu <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> paroli, ja izmantojāt to citās vietnēs.</translation>
+<translation id="7487066225574140895">Kopīgošana ar Dissenter</translation>
+<translation id="4764754838347156633">Dissenter iesaka atiestatīt jūsu <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> paroli, ja izmantojāt to citās vietnēs.</translation>
 <translation id="8866481888320382733">Parsējot politikas iestatījumus, radās kļūda.</translation>
 <translation id="8866928039507595380">Locījums</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1809,23 +1809,23 @@ Papildu informācija:
 <translation id="8903921497873541725">Tuvināt</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Ieteikuma noņemšanas poga, nospiediet ievadīšanas taustiņu, lai noņemtu, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Brave konts</translation>
+<translation id="2684652081942622950">Dissenter konts</translation>
 <translation id="8918231688545606538">Šī lapa ir aizdomīga</translation>
 <translation id="892588693504540538">Caurums augšējā labajā malā</translation>
-<translation id="7757992844965332255">Vai vēlaties saglabāt šo karti savā Brave kontā?</translation>
+<translation id="7757992844965332255">Vai vēlaties saglabāt šo karti savā Dissenter kontā?</translation>
 <translation id="8932102934695377596">Norādītais laiks ir pārāk tālu pagātnē</translation>
 <translation id="893332455753468063">Vārda pievienošana</translation>
 <translation id="8943282376843390568">Laima zaļa</translation>
 <translation id="8957210676456822347">Caurlaides lapas autorizācija</translation>
-<translation id="109444839364056698">Ja Brave Enterprise Connectors atzīmē ar drošību saistītus notikumus, atbilstoši dati par notikumiem tiek nosūtīti administratoram. Šie dati var būt, piemēram, pārlūkā Brave apmeklēto lapu URL, failu nosaukumi vai metadati un lietotājvārds, ar kuru pierakstāties ierīcē un pārlūkprogrammā Brave.</translation>
+<translation id="109444839364056698">Ja Dissenter Enterprise Connectors atzīmē ar drošību saistītus notikumus, atbilstoši dati par notikumiem tiek nosūtīti administratoram. Šie dati var būt, piemēram, pārlūkā Dissenter apmeklēto lapu URL, failu nosaukumi vai metadati un lietotājvārds, ar kuru pierakstāties ierīcē un pārlūkprogrammā Dissenter.</translation>
 <translation id="8962950042226115166">Aizdomīga vietne</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>Ieteikumi.<ph name="MARKUP_2"/>Pārbaudiet, vai ir pieejams datu savienojums.<ph name="MARKUP_3"/>Ielādējiet šo tīmekļa lapu vēlāk.<ph name="MARKUP_4"/>Pārbaudiet, vai ir ievadīta pareiza adrese.<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">Saglabāt karti</translation>
 <translation id="8971063699422889582">Servera sertifikātam ir beidzies derīguma termiņš.</translation>
 <translation id="8975012916872825179">Iekļauta tāda informācija kā tālruņa numuri, e-pasta un piegādes adreses</translation>
 <translation id="8975263830901772334">Drukāto failu nosaukumi</translation>
-<translation id="8978053250194585037">Brave drošā pārlūkošana nesen <ph name="BEGIN_LINK"/>konstatēja pikšķerēšanu<ph name="END_LINK"/> vietnē <ph name="SITE"/>. Pikšķerēšanas vietnes uzdodas par citām vietnēm, lai jūs maldinātu.</translation>
-<translation id="5889706513445719653">Adreses un maksājumu veidi, kuros tiek izmantots pakalpojums Brave Pay</translation>
+<translation id="8978053250194585037">Dissenter drošā pārlūkošana nesen <ph name="BEGIN_LINK"/>konstatēja pikšķerēšanu<ph name="END_LINK"/> vietnē <ph name="SITE"/>. Pikšķerēšanas vietnes uzdodas par citām vietnēm, lai jūs maldinātu.</translation>
+<translation id="5889706513445719653">Adreses un maksājumu veidi, kuros tiek izmantots pakalpojums Dissenter Pay</translation>
 <translation id="8987927404178983737">Mēnesis</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">Vietnē, kura tiks atvērta, ir kaitīgas programmas</translation>
@@ -1854,10 +1854,10 @@ Papildu informācija:
 <translation id="9089260154716455634">Izslēgšanas stundu politika:</translation>
 <translation id="9095388113577226029">Citas valodas…</translation>
 <translation id="9101630580131696064">1. paplāte</translation>
-<translation id="6373940988468425649">Vietnē <ph name="SITE"/> informācijas aizsargāšanai parasti tiek izmantota šifrēšana. Kad pārlūkā Brave tika mēģināts izveidot savienojumu ar vietni <ph name="SITE"/>, šoreiz tā nosūtīja neparastus un nepareizus akreditācijas datus. Iespējams, tas notika, jo uzbrucējs mēģināja uzdoties par vietni <ph name="SITE"/>, vai arī Wi-Fi pierakstīšanās ekrāns pārtrauca savienojumu. Jūsu informācija joprojām ir drošībā, jo pārlūks Brave pārtrauca savienojumu, pirms tika veikta jebkādu datu apmaiņa.</translation>
+<translation id="6373940988468425649">Vietnē <ph name="SITE"/> informācijas aizsargāšanai parasti tiek izmantota šifrēšana. Kad pārlūkā Dissenter tika mēģināts izveidot savienojumu ar vietni <ph name="SITE"/>, šoreiz tā nosūtīja neparastus un nepareizus akreditācijas datus. Iespējams, tas notika, jo uzbrucējs mēģināja uzdoties par vietni <ph name="SITE"/>, vai arī Wi-Fi pierakstīšanās ekrāns pārtrauca savienojumu. Jūsu informācija joprojām ir drošībā, jo pārlūks Dissenter pārtrauca savienojumu, pirms tika veikta jebkādu datu apmaiņa.</translation>
 <translation id="9106062320799175032">Norēķinu adreses pievienošana</translation>
 <translation id="9114524666733003316">Notiek kartes apstiprināšana...</translation>
-<translation id="3582535072753734287">Šo pārlūku nepārvalda uzņēmums vai cita organizācija. Darbību šajā ierīcē var pārvaldīt ārpus pārlūka Brave. <ph name="BEGIN_LINK"/>Uzzināt vairāk<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Šo pārlūku nepārvalda uzņēmums vai cita organizācija. Darbību šajā ierīcē var pārvaldīt ārpus pārlūka Dissenter. <ph name="BEGIN_LINK"/>Uzzināt vairāk<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">Augšupielādēts</translation>
 <translation id="9128870381267983090">Izveidot savienojumu ar tīklu</translation>
 <translation id="9137013805542155359">Rādīt oriģinālo</translation>
@@ -1865,7 +1865,7 @@ Papildu informācija:
 <translation id="9148088599418889305">Izvēlēties nosūtīšanas veidu</translation>
 <translation id="9148507642005240123">&amp;Atsaukt labojumu</translation>
 <translation id="9150045010208374699">Izmantot jūsu videokameru</translation>
-<translation id="5874192512642998555">Jūsu administrators var attālināti mainīt jūsu pārlūka iestatījumus. Darbību šajā ierīcē var pārvaldīt arī ārpus Brave. <ph name="BEGIN_LINK"/>Uzzināt vairāk<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Jūsu administrators var attālināti mainīt jūsu pārlūka iestatījumus. Darbību šajā ierīcē var pārvaldīt arī ārpus Dissenter. <ph name="BEGIN_LINK"/>Uzzināt vairāk<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Atjaunināts</translation>
 <translation id="9157595877708044936">Notiek uzstādīšana...</translation>
 <translation id="9158625974267017556">C6 (aploksne)</translation>
@@ -1876,17 +1876,17 @@ Papildu informācija:
 <translation id="9173282814238175921">Viens dokuments/jauna lapa</translation>
 <translation id="917450738466192189">Servera sertifikāts ir nederīgs.</translation>
 <translation id="9174917557437862841">Ciļņu pārslēgšanas poga. Nospiediet ievadīšanas taustiņu, lai pārslēgtu šo cilni.</translation>
-<translation id="9183302530794969518">Brave dokumenti</translation>
+<translation id="9183302530794969518">Dissenter dokumenti</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> izmanto neatbalstītu protokolu.</translation>
 <translation id="9191834167571392248">Caurums apakšējā kreisajā malā</translation>
 <translation id="9205078245616868884">Jūsu dati ir šifrēti, izmantojot jūsu sinhronizācijas ieejas frāzi. Lai sāktu sinhronizāciju, ievadiet ieejas frāzi.</translation>
 <translation id="9207861905230894330">Rakstu neizdevās pievienot.</translation>
-<translation id="2206050430829841793">Lietojumprogrammas darbības dēļ pārlūkā Brave nevar izveidot drošu savienojumu ar šo vietni</translation>
+<translation id="2206050430829841793">Lietojumprogrammas darbības dēļ pārlūkā Dissenter nevar izveidot drošu savienojumu ar šo vietni</translation>
 <translation id="9219103736887031265">Attēli</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">NOTĪRĪT VEIDLAPU</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Varat zaudēt piekļuvi savam Brave kontam. Brave iesaka nekavējoties nomainīt paroli. Jums tiks lūgts pierakstīties.</translation>
+<translation id="7486559383537872796">Varat zaudēt piekļuvi savam Dissenter kontam. Dissenter iesaka nekavējoties nomainīt paroli. Jums tiks lūgts pierakstīties.</translation>
 <translation id="939736085109172342">Jauna mape</translation>
 <translation id="945855313015696284">Pārbaudiet tālāk sniegto informāciju un dzēsiet visas nederīgās kartītes.</translation>
 <translation id="950736567201356821">Trīs caurumi augšdaļā</translation>
@@ -1911,7 +1911,7 @@ Papildu informācija:
     &lt;li&gt;Mēģiniet izveidot savienojumu ar citu tīklu.&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">No pakalpojuma Brave Pay</translation>
+<translation id="6771143571626203666">No pakalpojuma Dissenter Pay</translation>
 <translation id="8820817407110198400">Grāmatzīmes</translation>
 <translation id="8362995731815961365">Persona, kura iestatīja šo datoru, izvēlējās bloķēt šo vietni.</translation>
 <translation id="4075123085690634698">Atvērt lapu jaunā inkognito režīma logā (⇧⌘N)</translation>
@@ -1923,7 +1923,7 @@ Papildu informācija:
 <translation id="2227116904818538760">Jūs esat atvēris inkognito režīmu</translation>
 <translation id="2007417459975034427">Tagad varat privāti pārlūkot saturu, un citas personas, kas izmanto šo ierīci, nevarēs redzēt jūsu darbības. Tomēr lejupielādes un grāmatzīmes tiks saglabātas.</translation>
 <translation id="2586968635953373425">Atvērt inkognito režīma logu</translation>
-<translation id="3489858312836205593">Atveriet jaunu Brave inkognito režīma logu</translation>
+<translation id="3489858312836205593">Atveriet jaunu Dissenter inkognito režīma logu</translation>
 <translation id="6984479912851154518">Ja maksāšanai tiks izmantota ārēja lietojumprogramma, tiks aizvērts inkognito režīms. Vai turpināt?</translation>
 <translation id="1426112902089905810">&lt;h4&gt;1. darbība. Pierakstīšanās portālā&lt;/h4&gt;
     &lt;p&gt;Wi-Fi tīklos tādās vietās kā kafejnīcas un lidostas ir jāveic pierakstīšanās. Lai atvērtu pierakstīšanās lapu, apmeklējiet lapu, kurā tiek izmantots &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -1933,11 +1933,11 @@ Papildu informācija:
     &lt;/ol&gt;
     &lt;h4&gt;2. darbība. Lapas atvēršana inkognito režīmā (tikai datorā)&lt;/h4&gt;
     &lt;p&gt;Atveriet apmeklēto lapu inkognito režīma logā.&lt;/p&gt;
-    &lt;p&gt;Ja lapa tiek atvērta, Brave paplašinājums nedarbojas pareizi. Lai novērstu kļūdu, izslēdziet paplašinājumu.&lt;/p&gt;
+    &lt;p&gt;Ja lapa tiek atvērta, Dissenter paplašinājums nedarbojas pareizi. Lai novērstu kļūdu, izslēdziet paplašinājumu.&lt;/p&gt;
     &lt;h4&gt;3. darbība. Operētājsistēmas atjaunināšana&lt;/h4&gt;
     &lt;p&gt;Ierīcē ir jābūt instalētai jaunākajai operētājsistēmas versijai.&lt;/p&gt;
     &lt;h4&gt;4. darbība. Pretvīrusu programmas īslaicīga izslēgšana&lt;/h4&gt;
-    &lt;p&gt;Šis kļūdas ziņojums tiek rādīts, ja pretvīrusu programmatūra ietver HTTPS aizsardzību vai HTTPS skenēšanu. Šī pretvīrusa programmatūra novērš Brave drošības funkciju darbību.&lt;/p&gt;
+    &lt;p&gt;Šis kļūdas ziņojums tiek rādīts, ja pretvīrusu programmatūra ietver HTTPS aizsardzību vai HTTPS skenēšanu. Šī pretvīrusa programmatūra novērš Dissenter drošības funkciju darbību.&lt;/p&gt;
     &lt;p&gt;Lai novērstu šo problēmu, izslēdziet pretvīrusu programmatūru. Ja pēc programmatūras izslēgšanas lapa darbojas, izslēdziet šo programmatūru, kad apmeklējat drošas vietnes.&lt;/p&gt;
     &lt;p&gt;Pēc darba beigšanas noteikti atkal ieslēdziet pretvīrusu programmatūru.&lt;/p&gt;
     &lt;h4&gt;5. darbība. Papildu palīdzības saņemšana&lt;/h4&gt;

@@ -2,7 +2,7 @@
 <!-- Settings-specific strings shared by Browser and Chrome OS settings -->
 <grit-part>
   <message name="IDS_SETTINGS_ENABLE_LOGGING_PREF_DESC" desc="The description of the checkbox to enable/disable crash and user metrics logging">
-    Automatically sends crash reports to Brave
+    Automatically sends crash reports to Dissenter
   </message>
   <if expr="chromeos">
     </if>

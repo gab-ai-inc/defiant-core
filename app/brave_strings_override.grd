@@ -149,15 +149,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
           </if>
       </if>
 
-      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Brave cannot prevent extensions from recording history in private mode. Displayed in extensions management UI after an extension is selected to be run in private mode.">
-        Warning: Brave cannot prevent extensions from recording your browsing history. To disable this extension in private mode, unselect this option.
+      <message name="IDS_EXTENSIONS_INCOGNITO_WARNING" desc="Warns the user that Dissenter cannot prevent extensions from recording history in private mode. Displayed in extensions management UI after an extension is selected to be run in private mode.">
+        Warning: Dissenter cannot prevent extensions from recording your browsing history. To disable this extension in private mode, unselect this option.
       </message>
       <if expr="enable_extensions">
         <message name="IDS_EXTENSIONS_MULTIPLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when multiple unsupported extensions have been disabled.">
-          To make Brave safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Dissenter safer, we disabled some extensions that aren't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
         <message name="IDS_EXTENSIONS_SINGLE_UNSUPPORTED_DISABLED_BODY" desc="Body of the dialog shown when a single unsupported extension has been disabled.">
-          To make Brave safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
+          To make Dissenter safer, we disabled the following extension that isn't listed in the <ph name="IDS_EXTENSION_WEB_STORE_TITLE">$1<ex>Web Store</ex></ph> and may have been added without your knowledge.
         </message>
       </if>
 
@@ -208,7 +208,7 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
 
       <if expr="not is_android and not chromeos">
         <message name="IDS_LOGIN_POD_USER_REMOVE_WARNING_SYNC" desc="Main text shown as a warning when attempting to remove an user.">
-          This profile's browsing data will be deleted from this device. To recover the data, sign in to Brave as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
+          This profile's browsing data will be deleted from this device. To recover the data, sign in to Dissenter as <ph name="USER_EMAIL">$2<ex>foo@example.com</ex></ph>.
         </message>
 
         </if>
@@ -219,12 +219,12 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <if expr="not is_android">
         <if expr="not use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="The name of the command to open a link in a private browser window when the user is in an app window">
-            Open link in Brave &amp;private window
+            Open link in Dissenter &amp;private window
           </message>
         </if>
         <if expr="use_titlecase">
           <message name="IDS_CONTENT_CONTEXT_OPENLINKOFFTHERECORD_INAPP" desc="In Title Case: The name of the command to open a link in a private browser window when the user is in an app window">
-            Open Link in Brave &amp;Private Window
+            Open Link in Dissenter &amp;Private Window
           </message>
         </if>
       </if>
@@ -232,9 +232,9 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
       <if expr="not chromeos">
         <message name="IDS_UPDATE_RECOMMENDED" desc="The main text of the Update Recommended dialog with a count of open private windows.">
           {COUNT, plural,
-          =0 {A new update for Brave is available and will be applied as soon as you relaunch.}
-          =1 {A new update for Brave is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
-          other {A new update for Brave is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
+          =0 {A new update for Dissenter is available and will be applied as soon as you relaunch.}
+          =1 {A new update for Dissenter is available and will be applied as soon as you relaunch. Your Private window won't reopen.}
+          other {A new update for Dissenter is available and will be applied as soon as you relaunch. Your # Private windows won't reopen.}}
         </message>
         </if>
       <if expr="chromeos">
@@ -272,15 +272,15 @@ If you update this file, be sure also to update google_chrome_strings.grd. -->
         <if expr="not chromeos">
           <message name="IDS_RELAUNCH_RECOMMENDED_BODY" desc="The body text of a dialog that tells users that a browser relaunch is recommended for an update with Private counter.">
              {COUNT, plural,
-              =0 {Your administrator asks that you relaunch Brave to apply this update}
-              =1 {Your administrator asks that you relaunch Brave to apply this update. Your Private window won't reopen.}
-              other {Your administrator asks that you relaunch Brave to apply this update. Your # Private windows won't reopen.}}
+              =0 {Your administrator asks that you relaunch Dissenter to apply this update}
+              =1 {Your administrator asks that you relaunch Dissenter to apply this update. Your Private window won't reopen.}
+              other {Your administrator asks that you relaunch Dissenter to apply this update. Your # Private windows won't reopen.}}
           </message>
           <message name="IDS_RELAUNCH_REQUIRED_BODY" desc="The body text of a dialog that tells users the browser must be relaunched with Private counter.">
              {COUNT, plural,
-              =0 {Your administrator requires that you relaunch Brave to apply an update}
-              =1 {Your administrator requires that you relaunch Brave to apply an update. Your Private window won't reopen.}
-              other {Your administrator requires that you relaunch Brave to apply an update. Your # Private windows won't reopen.}}
+              =0 {Your administrator requires that you relaunch Dissenter to apply an update}
+              =1 {Your administrator requires that you relaunch Dissenter to apply an update. Your Private window won't reopen.}
+              other {Your administrator requires that you relaunch Dissenter to apply an update. Your # Private windows won't reopen.}}
           </message>
         </if>
       </if>

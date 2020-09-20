@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- Settings-specific Brave strings (included from chromium_strings.grd). -->
+<!-- Settings-specific Dissenter strings (included from chromium_strings.grd). -->
 <grit-part>
   <if expr="not chromeos">
-    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Brave">
-      Nearly up to date! Relaunch Brave to finish updating. Private windows won't reopen.
+    <message name="IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH" desc="Status label: Successfully updated Dissenter">
+      Nearly up to date! Relaunch Dissenter to finish updating. Private windows won't reopen.
     </message>
     </if>
   <if expr="chromeos">

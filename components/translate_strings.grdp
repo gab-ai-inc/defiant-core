@@ -21,8 +21,8 @@
   <message name="IDS_TRANSLATE_INFOBAR_OPTIONS_REPORT_ERROR" desc="Text for the menu item for reporting the page's language was not correctly detected">
     Not in <ph name="original_language">$1<ex>French</ex></ph>? Report this error
   </message>
-  <message name="IDS_TRANSLATE_INFOBAR_OPTIONS_ABOUT" desc="Text for the menu item for information about Brave Translate">
-    About Brave Translate
+  <message name="IDS_TRANSLATE_INFOBAR_OPTIONS_ABOUT" desc="Text for the menu item for information about Dissenter Translate">
+    About Dissenter Translate
   </message>
   <if expr="is_ios">
     <message name="IDS_TRANSLATE_INFOBAR_BEFORE_MESSAGE_IOS" desc="Text to display on the translate infobar to offer a translate. [Length: 200em] [iOS only]">

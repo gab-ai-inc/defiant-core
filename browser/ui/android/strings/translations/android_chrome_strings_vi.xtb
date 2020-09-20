@@ -8,7 +8,7 @@
 <translation id="1041308826830691739">Từ trang web</translation>
 <translation id="1045899828449635435">Đồng thời xóa dữ liệu khỏi các trang web này?</translation>
 <translation id="10614374240317010">Không bao giờ lưu</translation>
-<translation id="5428209950370661546">Các dịch vụ khác của Brave</translation>
+<translation id="5428209950370661546">Các dịch vụ khác của Dissenter</translation>
 <translation id="1068672505746868501">Không bao giờ dịch các trang viết bằng <ph name="SOURCE_LANGUAGE"/></translation>
 <translation id="107147699690128016">Nếu bạn thay đổi đuôi tệp, thì tệp có thể mở trong một ứng dụng khác và tiềm ẩn nguy cơ đối với thiết bị.</translation>
 <translation id="1100066534610197918">Mở trong thẻ mới trong nhóm</translation>
@@ -36,7 +36,7 @@
 <translation id="123724288017357924">Tải lại trang hiện tại, bỏ qua nội dung được lưu trong bộ nhớ đệm</translation>
 <translation id="124116460088058876">Ngôn ngữ khác</translation>
 <translation id="124678866338384709">Đóng thẻ hiện tại</translation>
-<translation id="1996480094660735607">Hình tượng trưng của Brave: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Hình tượng trưng của Dissenter: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="1260236875608242557">Tìm kiếm và khám phá</translation>
 <translation id="1266864766717917324">Không thể chia sẻ <ph name="CONTENT_TYPE"/></translation>
 <translation id="1283039547216852943">Nhấn để mở rộng</translation>
@@ -49,8 +49,8 @@
 <translation id="1310482092992808703">Nhóm các thẻ</translation>
 <translation id="1311657260431405215">Mã QR này không phải là URL: <ph name="QRCODEVALUE"/></translation>
 <translation id="1327257854815634930">Lịch sử di chuyển đang mở</translation>
-<translation id="6773423637732432200">Brave không thể cập nhật. Tùy chọn khác</translation>
-<translation id="3169981355900570544">Phím tắt cho các tính năng của Brave</translation>
+<translation id="6773423637732432200">Dissenter không thể cập nhật. Tùy chọn khác</translation>
+<translation id="3169981355900570544">Phím tắt cho các tính năng của Dissenter</translation>
 <translation id="1347468774581902829">Quản lý hoạt động</translation>
 <translation id="1360432990279830238">Đăng xuất và tắt tính năng đồng bộ hóa?</translation>
 <translation id="1373696734384179344">Không đủ bộ nhớ để tải xuống nội dung được chọn.</translation>
@@ -62,7 +62,7 @@
 <translation id="1407135791313364759">Mở tất cả</translation>
 <translation id="1409426117486808224">Chế độ xem đơn giản cho thẻ đang mở</translation>
 <translation id="1409879593029778104">Đã ngăn tải xuống <ph name="FILE_NAME"/> do tệp này đã tồn tại.</translation>
-<translation id="1853026300647876496">Đang liên hệ với Brave. Quá trình này có thể mất ít phút…</translation>
+<translation id="1853026300647876496">Đang liên hệ với Dissenter. Quá trình này có thể mất ít phút…</translation>
 <translation id="1416550906796893042">Phiên bản ứng dụng</translation>
 <translation id="1430915738399379752">In</translation>
 <translation id="1450753235335490080">Không thể chia sẻ <ph name="CONTENT_TYPE"/></translation>
@@ -72,12 +72,12 @@
 <translation id="1513858653616922153">Xóa mật khẩu</translation>
 <translation id="1521774566618522728">Hoạt động hôm nay</translation>
 <translation id="1543538514740974167">Truy cập vào trang này nhanh hơn</translation>
-<translation id="8090895580117672212">Để quản lý Tài khoản Brave của bạn, hãy nhấn vào nút "Quản lý tài khoản"</translation>
+<translation id="8090895580117672212">Để quản lý Tài khoản Dissenter của bạn, hãy nhấn vào nút "Quản lý tài khoản"</translation>
 <translation id="1549000191223877751">Di chuyển đến cửa sổ khác</translation>
-<translation id="1705567146636171298">Cập nhật Brave</translation>
+<translation id="1705567146636171298">Cập nhật Dissenter</translation>
 <translation id="1569387923882100876">Thiết bị đã kết nối</translation>
 <translation id="1571304935088121812">Sao chép tên người dùng</translation>
-<translation id="852740676285943527">Brave cần có quyền truy cập vị trí để quét tìm thiết bị. Tính năng truy cập vị trí bị <ph name="BEGIN_LINK"/>tắt cho thiết bị này<ph name="END_LINK"/>.</translation>
+<translation id="852740676285943527">Dissenter cần có quyền truy cập vị trí để quét tìm thiết bị. Tính năng truy cập vị trí bị <ph name="BEGIN_LINK"/>tắt cho thiết bị này<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Máy ảnh</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Xóa 1 mục đã chọn}other{Xóa # mục đã chọn}}</translation>
 <translation id="1641113438599504367">Duyệt web an toàn</translation>
@@ -97,37 +97,37 @@
 <translation id="1782483593938241562">Ngày kết thúc <ph name="DATE"/></translation>
 <translation id="1791662854739702043">Đã cài đặt</translation>
 <translation id="1792959175193046959">Thay đổi vị trí tải xuống mặc định bất cứ lúc nào</translation>
-<translation id="2368444735104192323">Điều khoản dịch vụ bổ sung của Brave và Brave OS</translation>
+<translation id="2368444735104192323">Điều khoản dịch vụ bổ sung của Dissenter và Dissenter OS</translation>
 <translation id="1807246157184219062">Sáng</translation>
 <translation id="1810845389119482123">Chưa hoàn tất quá trình thiết lập đồng bộ hóa ban đầu</translation>
 <translation id="1821253160463689938">Sử dụng cookie để ghi nhớ tùy chọn của bạn, ngay cả khi bạn không truy cập vào các trang đó</translation>
 <translation id="1826516787628120939">Đang kiểm tra</translation>
 <translation id="1829244130665387512">Tìm trong trang</translation>
 <translation id="1856325424225101786">Đặt lại Chế độ thu gọn?</translation>
-<translation id="5817715962196959877">Giờ đây, Brave tải tệp xuống còn nhanh hơn nữa</translation>
+<translation id="5817715962196959877">Giờ đây, Dissenter tải tệp xuống còn nhanh hơn nữa</translation>
 <translation id="1883903952484604915">Tệp của tôi</translation>
 <translation id="1919950603503897840">Chọn mục liên hệ</translation>
 <translation id="1925021887439448749">Nhập địa chỉ web tùy chỉnh</translation>
 <translation id="1928696683969751773">Số lần cập nhật</translation>
-<translation id="1875543012935658554">Mở lại Brave.</translation>
+<translation id="1875543012935658554">Mở lại Dissenter.</translation>
 <translation id="1933845786846280168">Thẻ được chọn</translation>
 <translation id="1943432128510653496">Lưu mật khẩu</translation>
 <translation id="1952172573699511566">Các trang web sẽ hiển thị văn bản bằng ngôn ngữ ưu tiên của bạn khi có thể.</translation>
-<translation id="3968054912784331254">Các bản cập nhật Brave không còn được hỗ trợ cho phiên bản Android này</translation>
+<translation id="3968054912784331254">Các bản cập nhật Dissenter không còn được hỗ trợ cho phiên bản Android này</translation>
 <translation id="1966710179511230534">Vui lòng cập nhật chi tiết đăng nhập của bạn.</translation>
 <translation id="1974060860693918893">Nâng cao</translation>
-<translation id="714362445477979774">Đồng bộ hóa dữ liệu của bạn trên Brave</translation>
+<translation id="714362445477979774">Đồng bộ hóa dữ liệu của bạn trên Dissenter</translation>
 <translation id="1986685561493779662">Tên đã tồn tại</translation>
 <translation id="1987739130650180037">Nút <ph name="MESSAGE"/> <ph name="LINK_NAME"/></translation>
 <translation id="1989112275319619282">Duyệt qua</translation>
 <translation id="1993768208584545658"><ph name="SITE"/> muốn ghép nối</translation>
 <translation id="2000419248597011803">Gửi một số cookie và nội dung tìm kiếm từ thanh địa chỉ cũng như hộp tìm kiếm tới công cụ tìm kiếm mặc định</translation>
-<translation id="1320169905922104972">Thẻ tín dụng và địa chỉ lưu trong Brave Pay</translation>
+<translation id="1320169905922104972">Thẻ tín dụng và địa chỉ lưu trong Dissenter Pay</translation>
 <translation id="2013642289801508067">{FILE_COUNT,plural, =1{# tệp}other{# tệp}}</translation>
 <translation id="2017836877785168846">Xóa lịch sử duyệt web và nội dung tự động hoàn thành trong thanh địa chỉ.</translation>
 <translation id="2021896219286479412">Kiểm soát trang toàn màn hình</translation>
 <translation id="2038563949887743358">Bật Yêu cầu trang web cho máy tính</translation>
-<translation id="7675869148432102528"><ph name="APP_NAME"/> cũng có dữ liệu trong Brave</translation>
+<translation id="7675869148432102528"><ph name="APP_NAME"/> cũng có dữ liệu trong Dissenter</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2056878612599315956">Đã tạm dừng trang web</translation>
 <translation id="2067805253194386918">văn bản</translation>
@@ -135,24 +135,24 @@
 <translation id="2096012225669085171">Đồng bộ hóa và cá nhân hóa trên các thiết bị</translation>
 <translation id="2100273922101894616">Tự động đăng nhập</translation>
 <translation id="2100314319871056947">Hãy thử chia sẻ văn bản theo các đoạn nhỏ hơn</translation>
-<translation id="4749189475009528195">Tìm hiểu về các chủ đề trên trang web mà không cần rời khỏi trang. Tính năng Chạm để tìm kiếm sẽ gửi một từ và ngữ cảnh xung quanh từ đó tới Brave Tìm kiếm, sau đó hiển thị định nghĩa, hình ảnh, kết quả tìm kiếm và các chi tiết khác.
+<translation id="4749189475009528195">Tìm hiểu về các chủ đề trên trang web mà không cần rời khỏi trang. Tính năng Chạm để tìm kiếm sẽ gửi một từ và ngữ cảnh xung quanh từ đó tới Dissenter Tìm kiếm, sau đó hiển thị định nghĩa, hình ảnh, kết quả tìm kiếm và các chi tiết khác.
 
 Nhấn vào từ bất kỳ để tìm kiếm. Để điều chỉnh nội dung tìm kiếm, hãy chạm và giữ để chọn nhiều hoặc ít từ hơn. Để chỉnh sửa nội dung tìm kiếm, hãy mở bảng điều khiển, nhấn vào biểu tượng của ứng dụng bất kỳ bạn muốn mở trong một thẻ mới rồi thay đổi nội dung trong hộp tìm kiếm.</translation>
 <translation id="2111511281910874386">Chuyển đến trang</translation>
 <translation id="2122601567107267586">Không thể mở ứng dụng</translation>
-<translation id="796823723482603597">Được hỗ trợ bởi Brave</translation>
+<translation id="796823723482603597">Được hỗ trợ bởi Dissenter</translation>
 <translation id="2131665479022868825">Đã tiết kiệm <ph name="DATA"/></translation>
 <translation id="213279576345780926">Đã đóng <ph name="TAB_TITLE"/></translation>
 <translation id="2139186145475833000">Thêm vào Màn hình chính</translation>
 <translation id="2154484045852737596">Chỉnh sửa thẻ</translation>
 <translation id="2154710561487035718">Sao chép URL</translation>
 <translation id="2156074688469523661">Số trang web còn lại (<ph name="NUMBER_OF_SITES"/>)</translation>
-<translation id="6162454065885854378">Để chia sẻ nội dung trên điện thoại của bạn với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần Cài đặt của Brave trên cả hai thiết bị</translation>
+<translation id="6162454065885854378">Để chia sẻ nội dung trên điện thoại của bạn với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần Cài đặt của Dissenter trên cả hai thiết bị</translation>
 <translation id="2169830938017475061">Bây giờ</translation>
 <translation id="2175927920773552910">Mã QR</translation>
 <translation id="218608176142494674">Chia sẻ</translation>
 <translation id="2227444325776770048">Tiếp tục bằng <ph name="USER_FULL_NAME"/></translation>
-<translation id="7956662517480676674">Đồng bộ hóa và các dịch vụ của Brave</translation>
+<translation id="7956662517480676674">Đồng bộ hóa và các dịch vụ của Dissenter</translation>
 <translation id="2239812875700136898">Kiểm soát các tin bài của bạn bằng các Tùy chọn của nút Khám phá</translation>
 <translation id="2259659629660284697">Xuất mật khẩu...</translation>
 <translation id="2268044343513325586">Tinh chỉnh</translation>
@@ -165,32 +165,32 @@ Nhấn vào từ bất kỳ để tìm kiếm. Để điều chỉnh nội dung 
 <translation id="2328985652426384049">Không thể đăng nhập</translation>
 <translation id="234265804618409743">Không thể mở máy ảnh. Đã xảy ra lỗi.</translation>
 <translation id="2345671828921229300">Để tìm kiếm, hãy chạm và giữ một từ</translation>
-<translation id="3587672679800759167">Tổng số dữ liệu mà Brave sử dụng, bao gồm tài khoản, dấu trang và cài đặt đã lưu</translation>
+<translation id="3587672679800759167">Tổng số dữ liệu mà Dissenter sử dụng, bao gồm tài khoản, dấu trang và cài đặt đã lưu</translation>
 <translation id="2353636109065292463">Kiểm tra kết nối Internet</translation>
 <translation id="2359808026110333948">Tiếp tục</translation>
 <translation id="2369533728426058518">thẻ đang mở</translation>
 <translation id="2387895666653383613">Chia tỷ lệ văn bản</translation>
 <translation id="2394602618534698961">Các tệp bạn tải xuống sẽ xuất hiện ở đây</translation>
-<translation id="801672626447970525">Khi bạn đăng nhập vào Tài khoản Brave của mình, tính năng này sẽ được bật</translation>
+<translation id="801672626447970525">Khi bạn đăng nhập vào Tài khoản Dissenter của mình, tính năng này sẽ được bật</translation>
 <translation id="2407674018644220013">Bạn muốn đặt <ph name="APP_NAME"/> làm trình duyệt mặc định?</translation>
 <translation id="2410754283952462441">Chọn một tài khoản</translation>
 <translation id="2414886740292270097">Tối</translation>
 <translation id="2426805022920575512">Chọn một tài khoản khác</translation>
 <translation id="2433507940547922241">Hình thức</translation>
 <translation id="2450083983707403292">Bạn có muốn bắt đầu tải xuống <ph name="FILE_NAME"/> lần nữa không?</translation>
-<translation id="934250516944040460">Tìm hiểu về các chủ đề trên trang web mà không cần rời khỏi trang. Tính năng Chạm để tìm kiếm sẽ gửi một từ và ngữ cảnh xung quanh từ đó tới Brave Tìm kiếm, sau đó hiển thị định nghĩa, hình ảnh, kết quả tìm kiếm và các chi tiết khác.
+<translation id="934250516944040460">Tìm hiểu về các chủ đề trên trang web mà không cần rời khỏi trang. Tính năng Chạm để tìm kiếm sẽ gửi một từ và ngữ cảnh xung quanh từ đó tới Dissenter Tìm kiếm, sau đó hiển thị định nghĩa, hình ảnh, kết quả tìm kiếm và các chi tiết khác.
 
 Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội dung tìm kiếm, hãy chọn nhiều hoặc ít từ hơn. Để chỉnh sửa nội dung tìm kiếm, hãy mở bảng điều khiển, nhấn vào biểu tượng của ứng dụng bất kỳ bạn muốn mở trong một thẻ mới rồi thay đổi nội dung trong hộp tìm kiếm.</translation>
 <translation id="246532703174860178">Chia sẻ</translation>
 <translation id="2479148705183875116">Chuyển đến phần Cài đặt</translation>
 <translation id="2482878487686419369">Thông báo</translation>
-<translation id="6361779936989026201">Trợ lý Brave trong Brave</translation>
+<translation id="6361779936989026201">Trợ lý Dissenter trong Dissenter</translation>
 <translation id="2496180316473517155">Lịch sử duyệt web</translation>
 <translation id="2497852260688568942">Đồng bộ hóa bị quản trị viên của bạn tắt</translation>
-<translation id="7222718784508482526">Bạn có thể xem thêm tùy chọn cài đặt liên quan đến quyền riêng tư, bảo mật và hoạt động thu thập dữ liệu trong phần <ph name="BEGIN_LINK"/>Đồng bộ hóa và dịch vụ của Brave<ph name="END_LINK"/></translation>
+<translation id="7222718784508482526">Bạn có thể xem thêm tùy chọn cài đặt liên quan đến quyền riêng tư, bảo mật và hoạt động thu thập dữ liệu trong phần <ph name="BEGIN_LINK"/>Đồng bộ hóa và dịch vụ của Dissenter<ph name="END_LINK"/></translation>
 <translation id="2517472476991765520">Quét</translation>
-<translation id="7340390500800578919">Ở Chế độ thu gọn, Brave tải trang nhanh hơn và sử dụng ít dữ liệu hơn lên tới 60%. Để tối ưu hóa các trang bạn truy cập, Brave sẽ gửi lưu lượng truy cập web của bạn cho Brave. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
-<translation id="284843628681142937">Gửi cho Brave URL của các trang bạn truy cập</translation>
+<translation id="7340390500800578919">Ở Chế độ thu gọn, Dissenter tải trang nhanh hơn và sử dụng ít dữ liệu hơn lên tới 60%. Để tối ưu hóa các trang bạn truy cập, Dissenter sẽ gửi lưu lượng truy cập web của bạn cho Dissenter. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
+<translation id="284843628681142937">Gửi cho Dissenter URL của các trang bạn truy cập</translation>
 <translation id="2532336938189706096">Lượt xem trên web</translation>
 <translation id="2534155362429831547">Đã xóa <ph name="NUMBER_OF_ITEMS"/> mục</translation>
 <translation id="2536728043171574184">Xem bản sao ngoại tuyến của trang này</translation>
@@ -198,7 +198,7 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="2546283357679194313">Cookie và dữ liệu trang web</translation>
 <translation id="2567385386134582609">HÌNH ẢNH</translation>
 <translation id="257088987046510401">Chủ đề</translation>
-<translation id="2324920234469020158">Thao tác này sẽ xóa cookie, bộ nhớ đệm và các dữ liệu khác của các trang web mà Brave cho rằng không quan trọng.</translation>
+<translation id="2324920234469020158">Thao tác này sẽ xóa cookie, bộ nhớ đệm và các dữ liệu khác của các trang web mà Dissenter cho rằng không quan trọng.</translation>
 <translation id="2587052924345400782">Đã có phiên bản mới hơn</translation>
 <translation id="2593272815202181319">Monospace</translation>
 <translation id="2612676031748830579">Số thẻ</translation>
@@ -209,7 +209,7 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="2651091186440431324">{FILE_COUNT,plural, =1{# tệp âm thanh}other{# tệp âm thanh}}</translation>
 <translation id="2656405586795711023">Ứng dụng web</translation>
 <translation id="2677748264148917807">Rời khỏi</translation>
-<translation id="4550860619133710557">Bằng việc sử dụng Brave, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Brave<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Brave và Brave OS<ph name="END_LINK2"/>. Bạn sẽ phải tuân thủ cả <ph name="BEGIN_LINK3"/>Thông báo về quyền riêng tư cho Tài khoản Brave được quản lý bằng Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="4550860619133710557">Bằng việc sử dụng Dissenter, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Dissenter<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Dissenter và Dissenter OS<ph name="END_LINK2"/>. Bạn sẽ phải tuân thủ cả <ph name="BEGIN_LINK3"/>Thông báo về quyền riêng tư cho Tài khoản Dissenter được quản lý bằng Family Link<ph name="END_LINK3"/>.</translation>
 <translation id="2707726405694321444">Làm mới trang</translation>
 <translation id="2709516037105925701">Tự động điền</translation>
 <translation id="2717722538473713889">Địa chỉ email</translation>
@@ -220,28 +220,28 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="2777555524387840389">Còn <ph name="SECONDS"/> giây</translation>
 <translation id="2779651927720337254">không tải xuống được</translation>
 <translation id="2781151931089541271">Còn 1 giây</translation>
-<translation id="1379423114029199501">Hãy cập nhật để dùng ngôn ngữ của bạn trong phiên bản Brave mới nhất</translation>
+<translation id="1379423114029199501">Hãy cập nhật để dùng ngôn ngữ của bạn trong phiên bản Dissenter mới nhất</translation>
 <translation id="2810645512293415242">Trang đơn giản giúp lưu dữ liệu và tải nhanh hơn.</translation>
-<translation id="7068873021383263704">Xem và quản lý các mật khẩu đã lưu trong <ph name="BEGIN_LINK"/>Tài khoản Brave<ph name="END_LINK"/> của bạn</translation>
+<translation id="7068873021383263704">Xem và quản lý các mật khẩu đã lưu trong <ph name="BEGIN_LINK"/>Tài khoản Dissenter<ph name="END_LINK"/> của bạn</translation>
 <translation id="2818669890320396765">Để sử dụng dấu trang trên tất cả các thiết bị, hãy đăng nhập và bật tính năng đồng bộ hóa</translation>
 <translation id="2827278682606527653">Trình đơn thẻ nguồn cấp dữ liệu mở ở nửa dưới của màn hình</translation>
 <translation id="2842985007712546952">Thư mục mẹ</translation>
 <translation id="2860954141821109167">Hãy đảm bảo bạn đã bật ứng dụng điện thoại trên thiết bị này</translation>
 <translation id="2870560284913253234">Trang web</translation>
-<translation id="2876369937070532032">Gửi URL của một số trang mà bạn truy cập cho Brave khi bạn gặp rủi ro về bảo mật</translation>
-<translation id="8541922081612557424">Giới thiệu về Brave</translation>
+<translation id="2876369937070532032">Gửi URL của một số trang mà bạn truy cập cho Dissenter khi bạn gặp rủi ro về bảo mật</translation>
+<translation id="8541922081612557424">Giới thiệu về Dissenter</translation>
 <translation id="2891154217021530873">Ngừng tải trang</translation>
 <translation id="2892647708214602204">Bạn sẽ nhìn thấy thông báo khi tệp này sẵn sàng để tải xuống</translation>
-<translation id="4013614219085422040">Brave có thể sử dụng lịch sử của bạn để điều chỉnh tính năng Tìm kiếm và các dịch vụ khác của Brave cho phù hợp với bạn</translation>
+<translation id="4013614219085422040">Dissenter có thể sử dụng lịch sử của bạn để điều chỉnh tính năng Tìm kiếm và các dịch vụ khác của Dissenter cho phù hợp với bạn</translation>
 <translation id="2898264748040935573">Chỉnh sửa mật khẩu đã lưu trữ</translation>
 <translation id="2900528713135656174">Tạo sự kiện</translation>
 <translation id="2903493209154104877">Địa chỉ</translation>
 <translation id="290376772003165898">Trang này không được viết bằng <ph name="LANGUAGE"/>?</translation>
 <translation id="2904414404539560095">Danh sách các thiết bị mà bạn có thể chia sẻ một thẻ đã mở trên toàn màn hình.</translation>
-<translation id="7339921667754113786">Nền tảng thông báo của Brave</translation>
+<translation id="7339921667754113786">Nền tảng thông báo của Dissenter</translation>
 <translation id="2923908459366352541">Tên không hợp lệ</translation>
 <translation id="2927707377793151377">Chọn nhà cung cấp khác:</translation>
-<translation id="6355102470683871794">Bộ nhớ Brave <ph name="APP_NAME"/></translation>
+<translation id="6355102470683871794">Bộ nhớ Dissenter <ph name="APP_NAME"/></translation>
 <translation id="2942036813789421260">Thẻ xem trước đang đóng</translation>
 <translation id="2956410042958133412">Tài khoản này do <ph name="PARENT_NAME_1"/> và <ph name="PARENT_NAME_2"/> quản lý.</translation>
 <translation id="2968755619301702150">Trình xem chứng chỉ</translation>
@@ -255,14 +255,14 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Nhận trợ giúp<ph name="END_LINK"/></translation>
 <translation id="305593374596241526">Đã tắt vị trí; hãy bật vị trí trong mục <ph name="BEGIN_LINK"/>Cài đặt Android<ph name="END_LINK"/>.</translation>
 <translation id="3058498974290601450">Bạn có thể bật tính năng đồng bộ hóa bất cứ lúc nào trong phần cài đặt</translation>
-<translation id="7006260220514217183">Tính năng Duyệt web an toàn đang tắt. Bạn nên bật tính năng này trên Brave.</translation>
+<translation id="7006260220514217183">Tính năng Duyệt web an toàn đang tắt. Bạn nên bật tính năng này trên Dissenter.</translation>
 <translation id="3060635849835183725">{BOOKMARKS_COUNT,plural, =1{<ph name="BOOKMARKS_COUNT_ONE"/> dấu trang}other{<ph name="BOOKMARKS_COUNT_MANY"/> dấu trang}}</translation>
-<translation id="6153252609477956632">Các bài viết về chủ đề mà bạn quan tâm trên Brave</translation>
+<translation id="6153252609477956632">Các bài viết về chủ đề mà bạn quan tâm trên Dissenter</translation>
 <translation id="3114012059975132928">Trình phát video</translation>
 <translation id="3114507951000454849">Đọc tin tức hôm nay <ph name="NEWS_ICON"/></translation>
 <translation id="3123734510202723619">Thông báo</translation>
 <translation id="3143515551205905069">Hủy đồng bộ hóa</translation>
-<translation id="5063487983358782016">Trang chủ của Brave</translation>
+<translation id="5063487983358782016">Trang chủ của Dissenter</translation>
 <translation id="3157842584138209013">Xem lượng dữ liệu bạn đã tiết kiệm được từ nút Tùy chọn khác</translation>
 <translation id="3166827708714933426">Phím tắt dành cho thẻ và cửa sổ</translation>
 <translation id="3169472444629675720">Khám phá</translation>
@@ -279,24 +279,24 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="3259831549858767975">Thu nhỏ mọi nội dung trên trang</translation>
 <translation id="3269093882174072735">Tải hình ảnh</translation>
 <translation id="3269956123044984603">Để có các thẻ từ các thiết bị khác của bạn, hãy bật “Tự động đồng bộ hóa dữ liệu” trong cài đặt tài khoản Android.</translation>
-<translation id="82609232232243542">Đăng nhập vào Brave</translation>
+<translation id="82609232232243542">Đăng nhập vào Dissenter</translation>
 <translation id="3288003805934695103">Đang tải lại trang</translation>
 <translation id="32895400574683172">Cho phép thông báo</translation>
 <translation id="3295530008794733555">Duyệt web nhanh hơn. Sử dụng ít dữ liệu hơn.</translation>
 <translation id="3298243779924642547">Phiên bản rút gọn</translation>
 <translation id="3303414029551471755">Tiếp tục tải xuống nội dung?</translation>
-<translation id="919933208285147476">Ứng dụng này đang chạy trong Brave</translation>
-<translation id="5294439808117722387">Bạn đang tùy chỉnh các tùy chọn cài đặt Đồng bộ hóa và dịch vụ của Brave. Để hoàn tất thao tác bật tính năng đồng bộ hóa, hãy nhấn vào nút Xác nhận ở gần cuối màn hình. Di chuyển lên</translation>
+<translation id="919933208285147476">Ứng dụng này đang chạy trong Dissenter</translation>
+<translation id="5294439808117722387">Bạn đang tùy chỉnh các tùy chọn cài đặt Đồng bộ hóa và dịch vụ của Dissenter. Để hoàn tất thao tác bật tính năng đồng bộ hóa, hãy nhấn vào nút Xác nhận ở gần cuối màn hình. Di chuyển lên</translation>
 <translation id="3328801116991980348">Thông tin về trang web</translation>
 <translation id="3333961966071413176">Tất cả người liên hệ</translation>
 <translation id="3334729583274622784">Thay đổi đuôi tệp?</translation>
 <translation id="3341058695485821946">Xem lượng dữ liệu bạn đã tiết kiệm được</translation>
-<translation id="8134317863207426198">Trang phiên bản rút gọn do Brave cung cấp. Nhấn vào nút tải bản gốc để tải trang gốc.</translation>
+<translation id="8134317863207426198">Trang phiên bản rút gọn do Dissenter cung cấp. Nhấn vào nút tải bản gốc để tải trang gốc.</translation>
 <translation id="3359667936385849800">Sử dụng nhà cung cấp dịch vụ hiện tại của bạn</translation>
 <translation id="3367813778245106622">Đăng nhập lại để bắt đầu đồng bộ hóa</translation>
 <translation id="337236281855091893">Để tìm kiếm, hãy chạm và giữ thay vì nhấn vào một từ</translation>
-<translation id="2746024117903470217">Để chia sẻ trang này với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần cài đặt Brave trên thiết bị đó</translation>
-<translation id="8801234437789558906">Dấu trang, lịch sử, mật khẩu và các dữ liệu khác trên Brave sẽ không được đồng bộ hóa với Tài khoản Brave của bạn nữa</translation>
+<translation id="2746024117903470217">Để chia sẻ trang này với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần cài đặt Dissenter trên thiết bị đó</translation>
+<translation id="8801234437789558906">Dấu trang, lịch sử, mật khẩu và các dữ liệu khác trên Dissenter sẽ không được đồng bộ hóa với Tài khoản Dissenter của bạn nữa</translation>
 <translation id="3384347053049321195">Chia sẻ hình ảnh</translation>
 <translation id="3387650086002190359">Tải xuống <ph name="FILE_NAME"/> không thành công do lỗi hệ thống tệp.</translation>
 <translation id="3389286852084373014">Văn bản quá lớn</translation>
@@ -312,16 +312,16 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="3522247891732774234">Bản cập nhật có sẵn. Tùy chọn khác</translation>
 <translation id="3524138585025253783">Giao diện người dùng dành cho nhà phát triển</translation>
 <translation id="3527085408025491307">Thư mục</translation>
-<translation id="9078804073692109646">Bạn chưa lưu mật khẩu nào. Brave có thể kiểm tra các mật khẩu của bạn khi bạn lưu các mật khẩu đó.</translation>
+<translation id="9078804073692109646">Bạn chưa lưu mật khẩu nào. Dissenter có thể kiểm tra các mật khẩu của bạn khi bạn lưu các mật khẩu đó.</translation>
 <translation id="3542235761944717775">Còn <ph name="KILOBYTES"/> KB</translation>
 <translation id="3549657413697417275">Tìm kiếm trong lịch sử duyệt web</translation>
 <translation id="3557336313807607643">Thêm vào danh bạ</translation>
-<translation id="1908301351964700579">Brave vẫn đang chuẩn bị mô-đun Thực tế ảo. Hãy khởi động lại Brave sau.</translation>
+<translation id="1908301351964700579">Dissenter vẫn đang chuẩn bị mô-đun Thực tế ảo. Hãy khởi động lại Dissenter sau.</translation>
 <translation id="3568688522516854065">Để sử dụng các thẻ từ những thiết bị khác, hãy đăng nhập và bật tính năng đồng bộ hóa</translation>
 <translation id="3587482841069643663">Tất cả</translation>
-<translation id="9205995714227143200">Bộ nhớ trang web mà Brave cho rằng không quan trọng (ví dụ: những trang web không có cài đặt đã lưu nào hoặc trang web mà bạn không truy cập thường xuyên)</translation>
+<translation id="9205995714227143200">Bộ nhớ trang web mà Dissenter cho rằng không quan trọng (ví dụ: những trang web không có cài đặt đã lưu nào hoặc trang web mà bạn không truy cập thường xuyên)</translation>
 <translation id="3594780231884063836">Tắt tiếng video</translation>
-<translation id="3551285888947169900">Xóa lịch sử khỏi tất cả các thiết bị đã đăng nhập. Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="3551285888947169900">Xóa lịch sử khỏi tất cả các thiết bị đã đăng nhập. Tài khoản Dissenter của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="3616113530831147358">Âm thanh</translation>
 <translation id="3631987586758005671">Đang chia sẻ đến <ph name="DEVICE_NAME"/></translation>
 <translation id="3632295766818638029">Hiển thị mật khẩu</translation>
@@ -330,14 +330,14 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="3692944402865947621">Không tải <ph name="FILE_NAME"/> xuống được do không tìm thấy vị trí bộ nhớ.</translation>
 <translation id="3701167022068948696">Khắc phục ngay</translation>
 <translation id="3714981814255182093">Mở thanh Tìm kiếm</translation>
-<translation id="5805364706385912897">Brave đã tạm dừng trang này vì trang dùng quá nhiều bộ nhớ.</translation>
+<translation id="5805364706385912897">Dissenter đã tạm dừng trang này vì trang dùng quá nhiều bộ nhớ.</translation>
 <translation id="3738139272394829648">Chạm để tìm kiếm</translation>
 <translation id="3739899004075612870">Đã đánh dấu trang trong <ph name="PRODUCT_NAME"/></translation>
 <translation id="3749259744154402564">Chưa hỗ trợ</translation>
 <translation id="3763247130972274048">Nhấn đúp vào bên trái hoặc bên phải của video để tua lại/tua đi 10 giây</translation>
 <translation id="3771001275138982843">Không thể tải bản cập nhật xuống</translation>
 <translation id="3771290962915251154">Tùy chọn cài đặt này bị tắt do các quyền kiểm soát của cha mẹ đang bật</translation>
-<translation id="1138681184697033370">Điều khoản dịch vụ của Brave</translation>
+<translation id="1138681184697033370">Điều khoản dịch vụ của Dissenter</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Bật Bluetooth<ph name="END_LINK"/> để cho phép ghép nối</translation>
 <translation id="3775705724665058594">Gửi đến các thiết bị của bạn</translation>
 <translation id="3778956594442850293">Đã thêm vào màn hình chính</translation>
@@ -356,10 +356,10 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="3928666092801078803">Kết hợp dữ liệu của tôi</translation>
 <translation id="393697183122708255">Không có tìm kiếm bằng giọng nói đã bật</translation>
 <translation id="395206256282351086">Tính năng đề xuất trang web và tìm kiếm đã bị tắt</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave sẽ tải trang của bạn khi sẵn sàng}other{Brave sẽ tải trang của bạn khi sẵn sàng}}</translation>
-<translation id="8997474919031554666">Việc mã hóa cụm mật khẩu không bao gồm địa chỉ và phương thức thanh toán từ Brave Pay. Chỉ người có cụm mật khẩu của bạn mới có thể đọc dữ liệu mã hóa. Cụm mật khẩu này sẽ không được gửi đến hay lưu trữ tại Brave. Nếu quên cụm mật khẩu hoặc muốn thay đổi tùy chọn cài đặt này, thì bạn cần đặt lại tính năng đồng bộ hóa. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Dissenter sẽ tải trang của bạn khi sẵn sàng}other{Dissenter sẽ tải trang của bạn khi sẵn sàng}}</translation>
+<translation id="8997474919031554666">Việc mã hóa cụm mật khẩu không bao gồm địa chỉ và phương thức thanh toán từ Dissenter Pay. Chỉ người có cụm mật khẩu của bạn mới có thể đọc dữ liệu mã hóa. Cụm mật khẩu này sẽ không được gửi đến hay lưu trữ tại Dissenter. Nếu quên cụm mật khẩu hoặc muốn thay đổi tùy chọn cài đặt này, thì bạn cần đặt lại tính năng đồng bộ hóa. <ph name="BEGIN_LINK"/>Tìm hiểu thêm<ph name="END_LINK"/></translation>
 <translation id="3967822245660637423">Tải xuống hoàn tất</translation>
-<translation id="7961941514656597723"><ph name="APP_NAME"/> sẽ mở trong Brave. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Brave<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Brave và Brave OS<ph name="END_LINK2"/>. Bạn sẽ phải tuân thủ cả <ph name="BEGIN_LINK3"/>Thông báo về quyền riêng tư cho Tài khoản Brave được quản lý bằng Family Link<ph name="END_LINK3"/>.</translation>
+<translation id="7961941514656597723"><ph name="APP_NAME"/> sẽ mở trong Dissenter. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Dissenter<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Dissenter và Dissenter OS<ph name="END_LINK2"/>. Bạn sẽ phải tuân thủ cả <ph name="BEGIN_LINK3"/>Thông báo về quyền riêng tư cho Tài khoản Dissenter được quản lý bằng Family Link<ph name="END_LINK3"/>.</translation>
 <translation id="397583555483684758">Đồng bộ hóa đã ngừng hoạt động</translation>
 <translation id="3976396876660209797">Xóa và tạo lại lối tắt này</translation>
 <translation id="3985215325736559418">Bạn có muốn tải lại <ph name="FILE_NAME"/> xuống không?</translation>
@@ -373,21 +373,21 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="4060598801229743805">Có các tùy chọn ở gần đầu màn hình</translation>
 <translation id="4062305924942672200">Thông tin pháp lý</translation>
 <translation id="4084682180776658562">Dấu trang</translation>
-<translation id="4521874409998847950">Từ <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>Do Brave phân phối<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">Từ <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>Do Dissenter phân phối<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="4095146165863963773">Xóa dữ liệu ứng dụng?</translation>
-<translation id="673197144963363525">Giúp cải thiện Brave bằng cách gửi số liệu thống kê sử dụng và báo cáo sự cố cho Brave.</translation>
+<translation id="673197144963363525">Giúp cải thiện Dissenter bằng cách gửi số liệu thống kê sử dụng và báo cáo sự cố cho Dissenter.</translation>
 <translation id="4116038641877404294">Tải trang xuống để sử dụng ngoại tuyến</translation>
 <translation id="4135200667068010335">Danh sách các thiết bị mà bạn có thể chia sẻ một thẻ đã đóng.</translation>
 <translation id="4149994727733219643">Chế độ xem đơn giản cho trang web</translation>
 <translation id="4170011742729630528">Dịch vụ không khả dụng; thử lại sau.</translation>
 <translation id="4179980317383591987">Đã dùng <ph name="AMOUNT"/></translation>
 <translation id="4181841719683918333">Ngôn ngữ</translation>
-<translation id="3845332215609790146">Tìm bằng Brave Ống kính <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Tìm bằng Dissenter Ống kính <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
 <translation id="4195643157523330669">Mở trong thẻ mới</translation>
 <translation id="4198423547019359126">Không có vị trí tải xuống</translation>
-<translation id="4628143400597876607">Brave có thể kiểm tra xem các tùy chọn cài đặt có đang bảo vệ bạn thông qua:</translation>
-<translation id="6003646045106347985">Để nhận nội dung do Brave đề xuất riêng cho bạn, hãy bật tính năng đồng bộ hóa</translation>
-<translation id="7810580217418711046">Mã hóa dữ liệu đã đồng bộ hóa bằng mật khẩu Brave kể từ <ph name="TIME"/></translation>
+<translation id="4628143400597876607">Dissenter có thể kiểm tra xem các tùy chọn cài đặt có đang bảo vệ bạn thông qua:</translation>
+<translation id="6003646045106347985">Để nhận nội dung do Dissenter đề xuất riêng cho bạn, hãy bật tính năng đồng bộ hóa</translation>
+<translation id="7810580217418711046">Mã hóa dữ liệu đã đồng bộ hóa bằng mật khẩu Dissenter kể từ <ph name="TIME"/></translation>
 <translation id="4242533952199664413">Mở phần cài đặt</translation>
 <translation id="4248098802131000011">Bảo vệ mật khẩu của bạn trước việc bị rò rỉ dữ liệu và các vấn đề bảo mật khác</translation>
 <translation id="4250229828105606438">Ảnh chụp màn hình</translation>
@@ -405,22 +405,22 @@ Chạm và giữ từ bất kỳ để tìm kiếm. Để điều chỉnh nội 
 <translation id="4404568932422911380">Không có dấu trang nào</translation>
 <translation id="4405224443901389797">Chuyển tới...</translation>
 <translation id="4411535500181276704">Chế độ thu gọn</translation>
-<translation id="5749788945734786627">Quản lý Tài khoản Brave</translation>
+<translation id="5749788945734786627">Quản lý Tài khoản Dissenter</translation>
 <translation id="4432792777822557199">Kể từ bây giờ trở đi, các trang viết bằng <ph name="SOURCE_LANGUAGE"/> sẽ được dịch sang <ph name="TARGET_LANGUAGE"/></translation>
-<translation id="8856898588039823173">Trang phiên bản rút gọn do Brave cung cấp. Nhấn để tải trang gốc.</translation>
+<translation id="8856898588039823173">Trang phiên bản rút gọn do Dissenter cung cấp. Nhấn để tải trang gốc.</translation>
 <translation id="4452411734226507615">Đóng thẻ <ph name="TAB_TITLE"/></translation>
 <translation id="4452548195519783679">Đã đánh dấu trang vào <ph name="FOLDER_NAME"/></translation>
 <translation id="4472118726404937099">Để đồng bộ hóa và cá nhân hóa trên các thiết bị, hãy đăng nhập và bật tính năng đồng bộ hóa</translation>
-<translation id="918192811481327695">Giúp cải thiện hiệu suất và các tính năng của Brave</translation>
-<translation id="3133489217401741157">Đang cài đặt <ph name="MODULE"/> cho Brave…</translation>
-<translation id="53119194224775367">Tất cả dữ liệu của ứng dụng Brave sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, các tùy chọn cài đặt, tài khoản, cơ sở dữ liệu, v.v.</translation>
+<translation id="918192811481327695">Giúp cải thiện hiệu suất và các tính năng của Dissenter</translation>
+<translation id="3133489217401741157">Đang cài đặt <ph name="MODULE"/> cho Dissenter…</translation>
+<translation id="53119194224775367">Tất cả dữ liệu của ứng dụng Dissenter sẽ bị xóa vĩnh viễn, bao gồm tất cả các tệp, các tùy chọn cài đặt, tài khoản, cơ sở dữ liệu, v.v.</translation>
 <translation id="4493497663118223949">Chế độ thu gọn đang bật</translation>
 <translation id="4508528996305412043">Đã mở trình đơn thẻ nguồn cấp dữ liệu</translation>
 <translation id="4513387527876475750">{DAYS,plural, =1{# ngày trước}other{# ngày trước}}</translation>
 <translation id="451872707440238414">Tìm kiếm trong các dấu trang</translation>
-<translation id="1664855196866195614">Dữ liệu được chọn đã bị xóa khỏi Brave và các thiết bị đã đồng bộ hóa của bạn.
+<translation id="1664855196866195614">Dữ liệu được chọn đã bị xóa khỏi Dissenter và các thiết bị đã đồng bộ hóa của bạn.
 
-Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web khác, chẳng hạn như tìm kiếm và hoạt động từ các dịch vụ khác của Brave tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+Tài khoản Dissenter của bạn có thể có các dạng lịch sử duyệt web khác, chẳng hạn như tìm kiếm và hoạt động từ các dịch vụ khác của Dissenter tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="4532845899244822526">Chọn thư mục</translation>
 <translation id="4538018662093857852">Bật Chế độ thu gọn</translation>
 <translation id="4550003330909367850">Để xem hoặc sao chép mật khẩu của bạn tại đây, hãy đặt khóa màn hình trên thiết bị này.</translation>
@@ -446,7 +446,7 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="4714588616299687897">Tiết kiệm tới 60% dữ liệu</translation>
 <translation id="4719927025381752090">Đề xuất dịch</translation>
 <translation id="4720023427747327413">Mở trong <ph name="PRODUCT_NAME"/></translation>
-<translation id="4939482511480190003">Hãy giúp cải tiến Brave. <ph name="BEGIN_LINK"/>Tham gia khảo sát<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Hãy giúp cải tiến Dissenter. <ph name="BEGIN_LINK"/>Tham gia khảo sát<ph name="END_LINK"/></translation>
 <translation id="4732120983431207637">Trình gỡ ngăn xếp</translation>
 <translation id="473775607612524610">Cập nhật</translation>
 <translation id="4738836084190194332">Đồng bộ hóa lần gần đây nhất: <ph name="WHEN"/></translation>
@@ -454,32 +454,32 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="4759238208242260848">Tệp đã tải xuống</translation>
 <translation id="4763829664323285145">{FILE_COUNT,plural, =1{Đã tải xong 1 tệp xuống.}other{Đã tải xong # tệp xuống.}}</translation>
 <translation id="4767937498890654900">{FILE_COUNT,plural, =1{Đã lên lịch 1 quá trình tải xuống.}other{Đã lên lịch # quá trình tải xuống.}}</translation>
-<translation id="1533987887228911109">Trong Brave, bạn sẽ thấy trạng thái đăng nhập, dữ liệu duyệt web và dữ liệu trang web trên <ph name="SITE_NAME"/>.</translation>
-<translation id="5149495116300586333">Việc mã hóa cụm mật khẩu không bao gồm địa chỉ và phương thức thanh toán từ Brave Pay.
+<translation id="1533987887228911109">Trong Dissenter, bạn sẽ thấy trạng thái đăng nhập, dữ liệu duyệt web và dữ liệu trang web trên <ph name="SITE_NAME"/>.</translation>
+<translation id="5149495116300586333">Việc mã hóa cụm mật khẩu không bao gồm địa chỉ và phương thức thanh toán từ Dissenter Pay.
 
 Để thay đổi tùy chọn cài đặt này, hãy <ph name="BEGIN_LINK"/>đặt lại tính năng đồng bộ hóa<ph name="END_LINK"/></translation>
 <translation id="4807098396393229769">Tên trên thẻ</translation>
 <translation id="4824958205181053313">Bạn muốn hủy đồng bộ hóa?</translation>
-<translation id="2593289874938379417">Brave không có quyền truy cập vào tài nguyên đã yêu cầu.</translation>
+<translation id="2593289874938379417">Dissenter không có quyền truy cập vào tài nguyên đã yêu cầu.</translation>
 <translation id="4837753911714442426">Mở tùy chọn để in trang</translation>
 <translation id="4842092870884894799">Hiển thị cửa sổ bật lên tạo mật khẩu</translation>
 <translation id="4860895144060829044">Gọi</translation>
-<translation id="5131234170665854056">Không thể cài đặt <ph name="MODULE"/> cho Brave</translation>
+<translation id="5131234170665854056">Không thể cài đặt <ph name="MODULE"/> cho Dissenter</translation>
 <translation id="4875775213178255010">Đề xuất nội dung</translation>
 <translation id="4878404682131129617">Thiết lập đường hầm qua máy chủ proxy không thành công</translation>
 <translation id="4880127995492972015">Dịch…</translation>
 <translation id="4881695831933465202">Mở</translation>
 <translation id="488187801263602086">Đổi tên tệp</translation>
-<translation id="4882831918239250449">Kiểm soát cách Brave sử dụng lịch sử duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm, quảng cáo và các dịch vụ khác</translation>
-<translation id="1248710015876067820">Số phiên bản Brave không được hỗ trợ.</translation>
-<translation id="3217997482476578430">Tính năng Khám phá của Brave</translation>
+<translation id="4882831918239250449">Kiểm soát cách Dissenter sử dụng lịch sử duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm, quảng cáo và các dịch vụ khác</translation>
+<translation id="1248710015876067820">Số phiên bản Dissenter không được hỗ trợ.</translation>
+<translation id="3217997482476578430">Tính năng Khám phá của Dissenter</translation>
 <translation id="4910889077668685004">Ứng dụng thanh toán</translation>
 <translation id="4913161338056004800">Đặt lại thống kê</translation>
 <translation id="4913169188695071480">Ngừng làm mới</translation>
 <translation id="4915549754973153784"><ph name="BEGIN_LINK"/>Nhận trợ giúp<ph name="END_LINK"/> trong khi quét tìm thiết bị…</translation>
 <translation id="4921180162323349895">{FILE_COUNT,plural, =1{# trang}other{# trang}}</translation>
 <translation id="49268022542405662">Mật khẩu của bạn sẽ được xuất và tải xuống dưới dạng tệp văn bản. Mật khẩu sẽ hiển thị với bất kỳ ai và bất kỳ ứng dụng nào có quyền truy cập vào thư mục đích.</translation>
-<translation id="1955495299630319741">Vì bạn đang đăng xuất khỏi một tài khoản thuộc quản lý của <ph name="DOMAIN_NAME"/> nên dữ liệu của bạn trên Brave sẽ bị xóa khỏi thiết bị này. Tuy nhiên, dữ liệu đó sẽ vẫn còn trong Tài khoản Brave của bạn.</translation>
+<translation id="1955495299630319741">Vì bạn đang đăng xuất khỏi một tài khoản thuộc quản lý của <ph name="DOMAIN_NAME"/> nên dữ liệu của bạn trên Dissenter sẽ bị xóa khỏi thiết bị này. Tuy nhiên, dữ liệu đó sẽ vẫn còn trong Tài khoản Dissenter của bạn.</translation>
 <translation id="4943703118917034429">Thực tế ảo</translation>
 <translation id="4943872375798546930">Không tìm thấy kết quả nào</translation>
 <translation id="4961107849584082341">Dịch trang này sang ngôn ngữ bất kỳ</translation>
@@ -488,7 +488,7 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="4988210275050210843">Đang tải tệp xuống (<ph name="MEGABYTES"/>).</translation>
 <translation id="4988526792673242964">Trang</translation>
 <translation id="4994033804516042629">Không tìm thấy người liên hệ nào</translation>
-<translation id="6447211988989208781">Kiểm soát hoạt động trên Brave</translation>
+<translation id="6447211988989208781">Kiểm soát hoạt động trên Dissenter</translation>
 <translation id="5005498671520578047">Sao chép mật khẩu</translation>
 <translation id="5011311129201317034"><ph name="SITE"/> muốn kết nối</translation>
 <translation id="5013696553129441713">Không có nội dung đề xuất mới</translation>
@@ -507,7 +507,7 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="5161254044473106830">Cần có tiêu đề</translation>
 <translation id="5162754098604580781">{FILE_COUNT,plural, =1{Không tải được 1 tệp xuống.}other{Không tải được # tệp xuống.}}</translation>
 <translation id="5170568018924773124">Hiển thị trong thư mục</translation>
-<translation id="8445059357334030806">Mở trong Brave</translation>
+<translation id="8445059357334030806">Mở trong Dissenter</translation>
 <translation id="5193988420012215838">Đã sao chép vào khay nhớ tạm</translation>
 <translation id="5197729504361054390">Những người liên hệ bạn chọn sẽ được chia sẻ với <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/>.</translation>
 <translation id="5199929503336119739">Hồ sơ công việc</translation>
@@ -522,7 +522,7 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="5304593522240415983">Không được để trống trường này</translation>
 <translation id="5308380583665731573">Kết nối</translation>
 <translation id="5317780077021120954">Lưu</translation>
-<translation id="989239400026154074">Brave đề xuất Brave</translation>
+<translation id="989239400026154074">Dissenter đề xuất Dissenter</translation>
 <translation id="5324858694974489420">Cài đặt dành cho cha mẹ</translation>
 <translation id="5327248766486351172">Tên</translation>
 <translation id="5342314432463739672">Yêu cầu cấp quyền</translation>
@@ -552,7 +552,7 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="5515439363601853141">Mở khóa để xem mật khẩu của bạn</translation>
 <translation id="5517095782334947753">Bạn có dấu trang, lịch sử, mật khẩu và các cài đặt khác từ <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="5524843473235508879">Đã chặn chuyển hướng.</translation>
-<translation id="2367014990350929709">Brave cần có quyền truy cập vị trí để quét tìm thiết bị. <ph name="BEGIN_LINK1"/>Cập nhật quyền<ph name="END_LINK1"/>. Tính năng truy cập vị trí cũng bị <ph name="BEGIN_LINK2"/>tắt cho thiết bị này<ph name="END_LINK2"/>.</translation>
+<translation id="2367014990350929709">Dissenter cần có quyền truy cập vị trí để quét tìm thiết bị. <ph name="BEGIN_LINK1"/>Cập nhật quyền<ph name="END_LINK1"/>. Tính năng truy cập vị trí cũng bị <ph name="BEGIN_LINK2"/>tắt cho thiết bị này<ph name="END_LINK2"/>.</translation>
 <translation id="5534640966246046842">Đã sao chép trang web</translation>
 <translation id="5548606607480005320">Kiểm tra an toàn</translation>
 <translation id="5561549206367097665">Đang chờ mạng…</translation>
@@ -580,40 +580,40 @@ Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web
 <translation id="5732819098735351888">Hoạt động tải xuống sẽ bắt đầu qua Wi-Fi.</translation>
 <translation id="5733983706093266635">Không thể tạo mã QR. URL dài hơn <ph name="CHARACTER_LIMIT"/> ký tự.</translation>
 <translation id="5748802427693696783">Đã chuyển sang thẻ chuẩn</translation>
-<translation id="3088191967551450609">Brave cần quyền truy cập vào bộ nhớ để tải tệp xuống.</translation>
+<translation id="3088191967551450609">Dissenter cần quyền truy cập vào bộ nhớ để tải tệp xuống.</translation>
 <translation id="5763514718066511291">Nhấn để sao chép URL cho ứng dụng này</translation>
 <translation id="5765780083710877561">Mô tả:</translation>
 <translation id="5793665092639000975">Đang dùng: <ph name="SPACE_USED"/>/<ph name="SPACE_AVAILABLE"/></translation>
 <translation id="5795872532621730126">Tìm kiếm và duyệt xem</translation>
-<translation id="5736731321935944068">Brave có thể sử dụng lịch sử của bạn để điều chỉnh tính năng Tìm kiếm, quảng cáo và các dịch vụ khác của Brave cho phù hợp với bạn</translation>
+<translation id="5736731321935944068">Dissenter có thể sử dụng lịch sử của bạn để điều chỉnh tính năng Tìm kiếm, quảng cáo và các dịch vụ khác của Dissenter cho phù hợp với bạn</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{# giờ trước}other{# giờ trước}}</translation>
-<translation id="5311273890481188673">Bản quyền <ph name="YEAR"/> Brave LLC. Mọi quyền được bảo lưu.</translation>
+<translation id="5311273890481188673">Bản quyền <ph name="YEAR"/> Dissenter LLC. Mọi quyền được bảo lưu.</translation>
 <translation id="5817918615728894473">Ghép nối</translation>
 <translation id="583281660410589416">Không xác định</translation>
 <translation id="5833984609253377421">Chia sẻ liên kết</translation>
-<translation id="3888648114124182147">Đang tải Bản cập nhật Brave…</translation>
+<translation id="3888648114124182147">Đang tải Bản cập nhật Dissenter…</translation>
 <translation id="584120177693484274">Đã bỏ đánh dấu</translation>
 <translation id="5853623416121554550">đã tạm dừng</translation>
 <translation id="5854790677617711513">Đã tồn tại hơn 30 ngày</translation>
-<translation id="998321811308652668">Brave không thể bật bộ điều hợp Bluetooth</translation>
+<translation id="998321811308652668">Dissenter không thể bật bộ điều hợp Bluetooth</translation>
 <translation id="5860491529813859533">Bật</translation>
 <translation id="5862731021271217234">Để sử dụng các thẻ từ những thiết bị khác, hãy bật tính năng đồng bộ hóa</translation>
 <translation id="5864174910718532887">Thông tin chi tiết: Sắp xếp theo tên trang web</translation>
 <translation id="5864419784173784555">Đang chờ đến lần tải xuống tiếp theo…</translation>
 <translation id="5869522115854928033">Mật khẩu đã lưu</translation>
 <translation id="5876056640971328065">Tạm dừng video</translation>
-<translation id="9037412730408024068">Để giúp bạn hoàn thành những việc cần làm, Brave sẽ nhận URL và nội dung của các trang web mà bạn sử dụng Trợ lý, cũng như thông tin bạn gửi qua Trợ lý</translation>
+<translation id="9037412730408024068">Để giúp bạn hoàn thành những việc cần làm, Dissenter sẽ nhận URL và nội dung của các trang web mà bạn sử dụng Trợ lý, cũng như thông tin bạn gửi qua Trợ lý</translation>
 <translation id="5919204609460789179">Cập nhật <ph name="PRODUCT_NAME"/> để bắt đầu đồng bộ hóa</translation>
 <translation id="5937580074298050696">Đã tiết kiệm <ph name="AMOUNT"/></translation>
 <translation id="5939518447894949180">Đặt lại</translation>
-<translation id="6103327872225198548">Sử dụng Brave để tìm kiếm</translation>
-<translation id="8109318360573330108">Gửi cho Brave URL của trang bạn đang cố truy cập</translation>
-<translation id="305870044889644984">Mở Trung tâm trợ giúp Brave trong thẻ mới</translation>
+<translation id="6103327872225198548">Sử dụng Dissenter để tìm kiếm</translation>
+<translation id="8109318360573330108">Gửi cho Dissenter URL của trang bạn đang cố truy cập</translation>
+<translation id="305870044889644984">Mở Trung tâm trợ giúp Dissenter trong thẻ mới</translation>
 <translation id="5958275228015807058">Tìm tệp và trang của bạn trong Tệp đã tải xuống</translation>
 <translation id="5962718611393537961">Nhấn để thu gọn</translation>
-<translation id="7760665516427405230">Để chia sẻ trang này với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần cài đặt Brave</translation>
+<translation id="7760665516427405230">Để chia sẻ trang này với một thiết bị khác, hãy bật tính năng đồng bộ hóa trong phần cài đặt Dissenter</translation>
 <translation id="5979084224081478209">Kiểm tra mật khẩu</translation>
-<translation id="6456271171669383967">Giữ Brave làm công cụ tìm kiếm mặc định</translation>
+<translation id="6456271171669383967">Giữ Dissenter làm công cụ tìm kiếm mặc định</translation>
 <translation id="6005538289190791541">Mật khẩu đề xuất</translation>
 <translation id="6036057147555329831">Bộ chuyển đổi giao diện (ICU) bổ sung</translation>
 <translation id="6039379616847168523">Chuyển sang thẻ tiếp theo</translation>
@@ -644,7 +644,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="624789221780392884">Bản cập nhật đã sẵn sàng</translation>
 <translation id="6255999984061454636">Đề xuất nội dung</translation>
 <translation id="6277522088822131679">Đã xảy ra sự cố khi in trang này. Vui lòng thử lại.</translation>
-<translation id="7766792282581704663">Bằng việc sử dụng Brave, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Brave<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Brave và Brave OS<ph name="END_LINK2"/>.</translation>
+<translation id="7766792282581704663">Bằng việc sử dụng Dissenter, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Dissenter<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Dissenter và Dissenter OS<ph name="END_LINK2"/>.</translation>
 <translation id="629730747756840877">Tài khoản</translation>
 <translation id="6297765934698848803">Tổ chức giữ quyền quản lý thiết bị của bạn đã tắt máy ảnh của bạn.</translation>
 <translation id="6303969859164067831">Đăng xuất và tắt đồng bộ hóa</translation>
@@ -660,7 +660,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6366047038980456022"><ph name="APP_NAME"/> có các tính năng thông minh và tốc độ mà bạn cần để thao tác, sáng tạo và khám phá trên mạng</translation>
 <translation id="6369229450655021117">Từ đây, bạn có thể tìm kiếm trên web, chia sẻ với bạn bè và xem các trang đang mở</translation>
 <translation id="6378173571450987352">Thông tin chi tiết: Sắp xếp theo lượng dữ liệu đã dùng</translation>
-<translation id="4993481112200507346"><ph name="APP_NAME"/> sẽ mở trong Brave. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Brave<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Brave và Brave OS<ph name="END_LINK2"/>.</translation>
+<translation id="4993481112200507346"><ph name="APP_NAME"/> sẽ mở trong Dissenter. Bằng việc tiếp tục, bạn đồng ý với <ph name="BEGIN_LINK1"/>Điều khoản dịch vụ của Dissenter<ph name="END_LINK1"/> cũng như <ph name="BEGIN_LINK2"/>Điều khoản dịch vụ bổ sung của Dissenter và Dissenter OS<ph name="END_LINK2"/>.</translation>
 <translation id="6381421346744604172">Làm tối trang web</translation>
 <translation id="6395288395575013217">LIÊN KẾT</translation>
 <translation id="6397616442223433927">Đã có kết nối mạng trở lại</translation>
@@ -675,46 +675,46 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6444421004082850253">{FILE_COUNT,plural, =1{# hình ảnh}other{# hình ảnh}}</translation>
 <translation id="6447558397796644647">Không tìm thấy dấu trang đó. Hãy kiểm tra lỗi chính tả hoặc thêm dấu trang mới.</translation>
 <translation id="6461962085415701688">Không thể mở tệp</translation>
-<translation id="9055113864158719823">Bạn có thể xem các trang web mà mình truy cập trên Brave và hẹn giờ cho các trang web này.\n\nBrave thu thập thông tin về các trang web mà bạn đã hẹn giờ và khoảng thời gian bạn truy cập các trang web đó. Thông tin này dùng để cải thiện Digital Wellbeing.</translation>
+<translation id="9055113864158719823">Bạn có thể xem các trang web mà mình truy cập trên Dissenter và hẹn giờ cho các trang web này.\n\nDissenter thu thập thông tin về các trang web mà bạn đã hẹn giờ và khoảng thời gian bạn truy cập các trang web đó. Thông tin này dùng để cải thiện Digital Wellbeing.</translation>
 <translation id="6475951671322991020">Tải video xuống</translation>
 <translation id="6477928892249167417">Các trang web này có vẻ quan trọng đối với bạn:</translation>
 <translation id="6482749332252372425">Tải xuống <ph name="FILE_NAME"/> không thành công do thiếu dung lượng bộ nhớ.</translation>
 <translation id="6496823230996795692">Để sử dụng <ph name="APP_NAME"/> lần đầu tiên, vui lòng kết nối Internet.</translation>
-<translation id="3960299545138990065">Khởi động lại Brave</translation>
+<translation id="3960299545138990065">Khởi động lại Dissenter</translation>
 <translation id="6527303717912515753">Chia sẻ</translation>
-<translation id="708829030563435351">Các trang web bạn truy cập trên Brave sẽ không hiển thị. Tất cả lịch hẹn giờ trên trang web sẽ bị xóa.</translation>
-<translation id="7723158744459952869">Brave mất quá nhiều thời gian để phản hồi</translation>
+<translation id="708829030563435351">Các trang web bạn truy cập trên Dissenter sẽ không hiển thị. Tất cả lịch hẹn giờ trên trang web sẽ bị xóa.</translation>
+<translation id="7723158744459952869">Dissenter mất quá nhiều thời gian để phản hồi</translation>
 <translation id="6539092367496845964">Đã xảy ra lỗi. Hãy thử lại sau.</translation>
 <translation id="6545017243486555795">Xóa tất cả dữ liệu</translation>
 <translation id="6560414384669816528">Tìm kiếm với Sogou</translation>
 <translation id="656065428026159829">Xem thêm</translation>
-<translation id="5813223329348543512">Brave đã tiết kiệm <ph name="GIGABYTES"/> GB cho bạn</translation>
+<translation id="5813223329348543512">Dissenter đã tiết kiệm <ph name="GIGABYTES"/> GB cho bạn</translation>
 <translation id="6573096386450695060">Luôn cho phép</translation>
-<translation id="5157964048453367290">Các thẻ bạn đã mở trong Brave trên thiết bị khác sẽ xuất hiện tại đây.</translation>
+<translation id="5157964048453367290">Các thẻ bạn đã mở trong Dissenter trên thiết bị khác sẽ xuất hiện tại đây.</translation>
 <translation id="6583199322650523874">Đánh dấu trang hiện tại</translation>
 <translation id="6588043302623806746">Sử dụng hệ thống tên miền (DNS) bảo mật</translation>
 <translation id="6590471736817333463">Tiết kiệm tới 60% dữ liệu</translation>
 <translation id="6593061639179217415">Trang web cho máy tính</translation>
 <translation id="6597891566292541626">Điều chỉnh sao cho mã vạch/mã QR nằm trong khung này.</translation>
-<translation id="663059986967017181">Đã sao chép vào Brave</translation>
+<translation id="663059986967017181">Đã sao chép vào Dissenter</translation>
 <translation id="662080504995468778">Ở lại</translation>
 <translation id="6627583120233659107">Chỉnh sửa thư mục</translation>
 <translation id="6643016212128521049">Xóa</translation>
 <translation id="6643649862576733715">Sắp xếp theo lượng dữ liệu tiết kiệm được</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/> tùy chọn khác}other{<ph name="CONTACT_PREVIEW"/>\u2026 và <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/> tùy chọn khác}}</translation>
 <translation id="6649642165559792194">Xem trước hình ảnh <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
-<translation id="8428644385678426438">Brave cần có quyền truy cập vị trí để quét tìm thiết bị. <ph name="BEGIN_LINK"/>Cập nhật quyền<ph name="END_LINK"/></translation>
+<translation id="8428644385678426438">Dissenter cần có quyền truy cập vị trí để quét tìm thiết bị. <ph name="BEGIN_LINK"/>Cập nhật quyền<ph name="END_LINK"/></translation>
 <translation id="6657585470893396449">Mật khẩu</translation>
 <translation id="6659594942844771486">Thẻ</translation>
 <translation id="666731172850799929">Mở trong <ph name="APP_NAME"/></translation>
-<translation id="7392539049993970338">Thông báo quyền riêng tư của Brave</translation>
+<translation id="7392539049993970338">Thông báo quyền riêng tư của Dissenter</translation>
 <translation id="6671495933530132209">Sao chép ảnh</translation>
-<translation id="8581481290581777242">Xóa dữ liệu Brave của bạn khỏi thiết bị này?</translation>
+<translation id="8581481290581777242">Xóa dữ liệu Dissenter của bạn khỏi thiết bị này?</translation>
 <translation id="6689172468748959065">Ảnh tiểu sử</translation>
 <translation id="6691888250440401212">1. Chọn <ph name="APP_NAME"/>\n2. Nhấn vào mục "Đặt làm mặc định"</translation>
 <translation id="6697492270171225480">Hiển thị phần đề xuất các trang tương tự khi không tìm thấy một trang</translation>
 <translation id="6698801883190606802">Quản lý dữ liệu đã đồng bộ hóa</translation>
-<translation id="1006927014032731288">Máy chủ của Brave sẽ tối ưu hóa các trang bạn truy cập.</translation>
+<translation id="1006927014032731288">Máy chủ của Dissenter sẽ tối ưu hóa các trang bạn truy cập.</translation>
 <translation id="6710213216561001401">Trước đó</translation>
 <translation id="671481426037969117">Thời gian hẹn giờ của <ph name="FQDN"/> đã hết. Thời gian hẹn giờ sẽ bắt đầu lại vào ngày mai.</translation>
 <translation id="6738867403308150051">Đang tải xuống...</translation>
@@ -723,11 +723,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="6811034713472274749">Trang hiện đã sẵn sàng cho bạn xem</translation>
 <translation id="6820686453637990663">CVC</translation>
 <translation id="6831043979455480757">Dịch</translation>
-<translation id="4991384657077828949">Giúp cải thiện khả năng bảo mật của Brave</translation>
+<translation id="4991384657077828949">Giúp cải thiện khả năng bảo mật của Dissenter</translation>
 <translation id="6846298663435243399">Đang tải…</translation>
 <translation id="6850409657436465440">Vẫn đang tải xuống</translation>
 <translation id="6850830437481525139">Đã đóng <ph name="TAB_COUNT"/> thẻ</translation>
-<translation id="4046835482356054431">Tính năng Khám phá của Brave – đang tắt</translation>
+<translation id="4046835482356054431">Tính năng Khám phá của Dissenter – đang tắt</translation>
 <translation id="6864459304226931083">Tải hình ảnh xuống</translation>
 <translation id="6865313869410766144">Dữ liệu tự động điền vào biểu mẫu</translation>
 <translation id="6884306546558072722">Tiếp tục khám phá khi không có mạng</translation>
@@ -753,7 +753,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7063006564040364415">Không thể kết nối với máy chủ đồng bộ hóa.</translation>
 <translation id="7071521146534760487">Quản lý tài khoản</translation>
 <translation id="7077143737582773186">Thẻ SD</translation>
-<translation id="1968157943459987269">Xóa lịch sử duyệt web và nội dung tự động hoàn thành trong thanh địa chỉ. Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="1968157943459987269">Xóa lịch sử duyệt web và nội dung tự động hoàn thành trong thanh địa chỉ. Tài khoản Dissenter của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="7128355412245153445">Xem các trang web hàng đầu và những tin gần đây bất cứ khi nào bạn nhấn vào nút Trang chủ</translation>
 <translation id="7138678301420049075">Khác</translation>
 <translation id="7146622961999026732">Các trang web và ứng dụng này có vẻ quan trọng đối với bạn:</translation>
@@ -765,16 +765,16 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7189372733857464326">Đợi Dịch vụ của Google Play cập nhật xong</translation>
 <translation id="7191430249889272776">Thẻ được mở dưới nền.</translation>
 <translation id="723171743924126238">Chọn hình ảnh</translation>
-<translation id="3512968675351418494">Để duyệt web bằng ngôn ngữ của bạn, hãy tải phiên bản Brave mới nhất</translation>
+<translation id="3512968675351418494">Để duyệt web bằng ngôn ngữ của bạn, hãy tải phiên bản Dissenter mới nhất</translation>
 <translation id="7243308994586599757">Có các tùy chọn ở gần cuối màn hình</translation>
-<translation id="8287068819750208230">Hãy đảm bảo <ph name="TARGET_DEVICE_NAME"/> đã bật tính năng đồng bộ hóa trên Brave</translation>
+<translation id="8287068819750208230">Hãy đảm bảo <ph name="TARGET_DEVICE_NAME"/> đã bật tính năng đồng bộ hóa trên Dissenter</translation>
 <translation id="7274013316676448362">Trang web bị chặn</translation>
 <translation id="7290209999329137901">Không đổi tên được</translation>
 <translation id="7291387454912369099">Trợ lý kích hoạt thanh toán</translation>
-<translation id="2997266899014181325">Để bắt đầu đồng bộ hóa, hãy bật tùy chọn "Đồng bộ hóa dữ liệu của bạn trên Brave".</translation>
+<translation id="2997266899014181325">Để bắt đầu đồng bộ hóa, hãy bật tùy chọn "Đồng bộ hóa dữ liệu của bạn trên Dissenter".</translation>
 <translation id="729975465115245577">Thiết bị của bạn không có ứng dụng để lưu trữ tệp mật khẩu.</translation>
 <translation id="7302081693174882195">Thông tin chi tiết: Sắp xếp theo lượng dữ liệu đã tiết kiệm được</translation>
-<translation id="3252158532344029638">Ở Chế độ thu gọn, Brave tải trang nhanh hơn và sử dụng ít dữ liệu hơn lên tới 60 phần trăm.</translation>
+<translation id="3252158532344029638">Ở Chế độ thu gọn, Dissenter tải trang nhanh hơn và sử dụng ít dữ liệu hơn lên tới 60 phần trăm.</translation>
 <translation id="7333031090786104871">Vẫn đang thêm trang web trước</translation>
 <translation id="7340958967809483333">Các tùy chọn của tính năng Khám phá</translation>
 <translation id="7352939065658542140">VIDEO</translation>
@@ -783,13 +783,13 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7375125077091615385">Loại:</translation>
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="7400418766976504921">URL</translation>
-<translation id="724102042129299115">Trải nghiệm lần chạy đầu tiên của Brave</translation>
+<translation id="724102042129299115">Trải nghiệm lần chạy đầu tiên của Dissenter</translation>
 <translation id="741204030948306876">Có, tôi đồng ý</translation>
 <translation id="7413229368719586778">Ngày bắt đầu <ph name="DATE"/></translation>
-<translation id="7431991332293347422">Kiểm soát cách Brave sử dụng lịch sử duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm và các dịch vụ khác</translation>
-<translation id="6234515504547364178">Đăng xuất khỏi Brave</translation>
+<translation id="7431991332293347422">Kiểm soát cách Dissenter sử dụng lịch sử duyệt web của bạn để cá nhân hóa dịch vụ Tìm kiếm và các dịch vụ khác</translation>
+<translation id="6234515504547364178">Đăng xuất khỏi Dissenter</translation>
 <translation id="7444811645081526538">Danh mục khác</translation>
-<translation id="3699067418237091329">Đăng xuất bạn khỏi hầu hết các trang web. Bạn sẽ không bị đăng xuất khỏi Tài khoản Brave của mình.</translation>
+<translation id="3699067418237091329">Đăng xuất bạn khỏi hầu hết các trang web. Bạn sẽ không bị đăng xuất khỏi Tài khoản Dissenter của mình.</translation>
 <translation id="7454641608352164238">Không đủ dung lượng</translation>
 <translation id="7475192538862203634">Nếu bạn thường xuyên thấy thông báo này, hãy thử các <ph name="BEGIN_LINK"/>đề xuất<ph name="END_LINK"/> sau.</translation>
 <translation id="7475688122056506577">Không tìm thấy thẻ SD. Một số tệp của bạn có thể bị thiếu.</translation>
@@ -807,22 +807,22 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7542481630195938534">Không thể nhận nội dung đề xuất</translation>
 <translation id="7559975015014302720">Chế độ thu gọn đang tắt</translation>
 <translation id="7562080006725997899">Xóa dữ liệu duyệt web</translation>
-<translation id="7814200940910057384">Đã xóa dữ liệu Brave</translation>
+<translation id="7814200940910057384">Đã xóa dữ liệu Dissenter</translation>
 <translation id="7577900504646297215">Quản lý mối quan tâm</translation>
 <translation id="757855969265046257">{FILES,plural, =1{Đã tải <ph name="FILES_DOWNLOADED_ONE"/> tệp xuống}other{Đã tải <ph name="FILES_DOWNLOADED_MANY"/> tệp xuống}}</translation>
 <translation id="7588219262685291874">Bật giao diện tối khi Trình tiết kiệm pin trên thiết bị đang bật</translation>
-<translation id="3235722914093408050">Mở c.đặt Android &amp; bật lại đ.bộ hóa hệ thống Android để b.đầu đồng bộ hóa Brave</translation>
+<translation id="3235722914093408050">Mở c.đặt Android &amp; bật lại đ.bộ hóa hệ thống Android để b.đầu đồng bộ hóa Dissenter</translation>
 <translation id="7596558890252710462">Hệ điều hành</translation>
 <translation id="7605594153474022051">Đồng bộ hóa không hoạt động</translation>
 <translation id="7606077192958116810">Chế độ thu gọn đang bật. Quản lý chế độ này trong phần Cài đặt.</translation>
-<translation id="649070405679044769">Đã đăng nhập vào Brave bằng</translation>
+<translation id="649070405679044769">Đã đăng nhập vào Dissenter bằng</translation>
 <translation id="7619072057915878432">Tải xuống không thành công <ph name="FILE_NAME"/> do lỗi mạng.</translation>
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Nhận trợ giúp<ph name="END_LINK1"/> hoặc <ph name="BEGIN_LINK2"/>quét lại<ph name="END_LINK2"/></translation>
-<translation id="7207456302801184289">Chào mừng bạn đến với Brave</translation>
+<translation id="7207456302801184289">Chào mừng bạn đến với Dissenter</translation>
 <translation id="7630202231528827509">URL của nhà cung cấp</translation>
 <translation id="7638584964844754484">Cụm mật khẩu không chính xác</translation>
 <translation id="7641339528570811325">Xóa dữ liệu duyệt web…</translation>
-<translation id="3598578758776312506">Mã hóa mật khẩu bằng thông tin đăng nhập Brave</translation>
+<translation id="3598578758776312506">Mã hóa mật khẩu bằng thông tin đăng nhập Dissenter</translation>
 <translation id="7658239707568436148">Hủy</translation>
 <translation id="7665369617277396874">Thêm tài khoản</translation>
 <translation id="766587987807204883">Các bài viết xuất hiện ở đây và bạn có thể đọc ngay cả khi không có kết nối mạng</translation>
@@ -831,7 +831,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7704317875155739195">Tự động hoàn thành cụm từ tìm kiếm và URL</translation>
 <translation id="7725024127233776428">Các trang mà bạn đánh dấu sẽ xuất hiện tại đây</translation>
 <translation id="773466115871691567">Luôn dịch các trang viết bằng <ph name="SOURCE_LANGUAGE"/></translation>
-<translation id="1943176487615318915">Để phát hiện các ứng dụng và trang web nguy hiểm, Brave sẽ gửi URL của một số trang mà bạn truy cập, thông tin hệ thống giới hạn và một số nội dung trang cho Brave</translation>
+<translation id="1943176487615318915">Để phát hiện các ứng dụng và trang web nguy hiểm, Dissenter sẽ gửi URL của một số trang mà bạn truy cập, thông tin hệ thống giới hạn và một số nội dung trang cho Dissenter</translation>
 <translation id="7757787379047923882">Văn bản được chia sẻ từ <ph name="DEVICE_NAME"/></translation>
 <translation id="7761849928583394409">Chọn ngày và giờ</translation>
 <translation id="7762668264895820836">Thẻ SD <ph name="SD_CARD_NUMBER"/></translation>
@@ -844,21 +844,21 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7810647596859435254">Mở bằng…</translation>
 <translation id="7821588508402923572">Mức tiết kiệm dữ liệu sẽ hiển thị tại đây</translation>
 <translation id="783819812427904514">Bật tiếng video</translation>
-<translation id="7068829570137757602">Các dịch vụ của Brave</translation>
+<translation id="7068829570137757602">Các dịch vụ của Dissenter</translation>
 <translation id="784934925303690534">Phạm vi thời gian</translation>
 <translation id="7851858861565204677">Thiết bị khác</translation>
 <translation id="7857691613771368249">Hỏi thời điểm lưu tệp</translation>
 <translation id="7875915731392087153">Tạo email</translation>
 <translation id="7876243839304621966">Xóa tất cả</translation>
 <translation id="7882131421121961860">Không tìm thấy nội dung nào khớp</translation>
-<translation id="6143689084714664628">Đang chạy trong Brave</translation>
+<translation id="6143689084714664628">Đang chạy trong Dissenter</translation>
 <translation id="7925590027513907933">{FILE_COUNT,plural, =1{Đang tải tệp xuống.}other{Đang tải # tệp xuống.}}</translation>
 <translation id="7926975587469166629">Biệt hiệu của thẻ</translation>
 <translation id="7929962904089429003">Mở menu</translation>
 <translation id="7942131818088350342"><ph name="PRODUCT_NAME"/> đã lỗi thời.</translation>
 <translation id="7947953824732555851">Chấp nhận &amp; đăng nhập</translation>
 <translation id="7963646190083259054">Nhà cung cấp:</translation>
-<translation id="5149323899804758325">Để quét mã QR, hãy thay đổi các tùy chọn cài đặt để Brave có thể sử dụng máy ảnh của bạn</translation>
+<translation id="5149323899804758325">Để quét mã QR, hãy thay đổi các tùy chọn cài đặt để Dissenter có thể sử dụng máy ảnh của bạn</translation>
 <translation id="7971136598759319605">Hoạt động 1 ngày trước</translation>
 <translation id="7975379999046275268">Xem trước trang <ph name="BEGIN_NEW"/>Mới<ph name="END_NEW"/></translation>
 <translation id="7981313251711023384">Tải trước các trang để tìm kiếm và duyệt web nhanh hơn</translation>
@@ -866,7 +866,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="7986741934819883144">Chọn một người liên hệ</translation>
 <translation id="7998918019931843664">Mở lại thẻ đã đóng</translation>
 <translation id="8004582292198964060">Trình duyệt</translation>
-<translation id="3325020657155065477">Xóa cả dữ liệu của bạn trên Brave khỏi thiết bị này</translation>
+<translation id="3325020657155065477">Xóa cả dữ liệu của bạn trên Dissenter khỏi thiết bị này</translation>
 <translation id="8015452622527143194">Trả lại mọi nội dung trên trang về kích thước mặc định</translation>
 <translation id="8026334261755873520">Xóa dữ liệu duyệt web</translation>
 <translation id="8027863900915310177">Chọn vị trí lưu tệp tải xuống</translation>
@@ -875,7 +875,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="804335162455518893">Không tìm thấy thẻ SD</translation>
 <translation id="805047784848435650">Dựa trên lịch sử duyệt web của bạn</translation>
 <translation id="8051695050440594747">Còn <ph name="MEGABYTES"/> MB</translation>
-<translation id="2317945146070194624">Mở trong thẻ Brave mới</translation>
+<translation id="2317945146070194624">Mở trong thẻ Dissenter mới</translation>
 <translation id="8063895661287329888">Không thêm được dấu trang.</translation>
 <translation id="806745655614357130">Giữ dữ liệu của tôi riêng biệt</translation>
 <translation id="8067883171444229417">Phát video</translation>
@@ -884,11 +884,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8084114998886531721">Mật khẩu đã lưu</translation>
 <translation id="8105893657415066307"><ph name="DESCRIPTION"/> <ph name="SEPARATOR"/> <ph name="FILE_SIZE"/></translation>
 <translation id="8109613176066109935">Để sử dụng dấu trang trên tất cả các thiết bị, hãy bật tính năng đồng bộ hóa</translation>
-<translation id="4565206163201411670">Bạn có muốn hiển thị hoạt động của mình trên Brave trong Digital Wellbeing không?</translation>
-<translation id="1506404221681151315">Để quét mã QR, hãy cho phép Brave dùng máy ảnh của bạn</translation>
+<translation id="4565206163201411670">Bạn có muốn hiển thị hoạt động của mình trên Dissenter trong Digital Wellbeing không?</translation>
+<translation id="1506404221681151315">Để quét mã QR, hãy cho phép Dissenter dùng máy ảnh của bạn</translation>
 <translation id="8127542551745560481">Chỉnh sửa trang chủ</translation>
 <translation id="813082847718468539">Xem thông tin trang web</translation>
-<translation id="6209156474097347789">Chạm để tìm kiếm sẽ gửi từ đã chọn và trang hiện tại làm ngữ cảnh cho Brave Tìm kiếm. Bạn có thể tắt tính năng này trong <ph name="BEGIN_LINK"/>Cài đặt<ph name="END_LINK"/>.</translation>
+<translation id="6209156474097347789">Chạm để tìm kiếm sẽ gửi từ đã chọn và trang hiện tại làm ngữ cảnh cho Dissenter Tìm kiếm. Bạn có thể tắt tính năng này trong <ph name="BEGIN_LINK"/>Cài đặt<ph name="END_LINK"/>.</translation>
 <translation id="8156139159503939589">Bạn sử dụng ngôn ngữ nào?</translation>
 <translation id="8168435359814927499">Nội dung</translation>
 <translation id="8186512483418048923">Còn lại <ph name="FILES"/> tệp</translation>
@@ -902,7 +902,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8232956427053453090">Lưu giữ dữ liệu</translation>
 <translation id="8233540874193135768">Để quét mã QR, hãy dùng một thiết bị có máy ảnh.</translation>
 <translation id="8250920743982581267">Tài liệu</translation>
-<translation id="5138664332909611586">Trang này sử dụng quá nhiều bộ nhớ, nên Brave đã xóa bớt nội dung.</translation>
+<translation id="5138664332909611586">Trang này sử dụng quá nhiều bộ nhớ, nên Dissenter đã xóa bớt nội dung.</translation>
 <translation id="8260126382462817229">Thử đăng nhập lại</translation>
 <translation id="8261506727792406068">Xóa</translation>
 <translation id="8266862848225348053">Vị trí tải xuống</translation>
@@ -910,7 +910,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8284326494547611709">Phụ đề</translation>
 <translation id="8310344678080805313">Thẻ chuẩn</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> và các trang web khác</translation>
-<translation id="6195417478702700398">Để có trải nghiệm duyệt web tuyệt vời nhất, hãy mở để cập nhật Brave</translation>
+<translation id="6195417478702700398">Để có trải nghiệm duyệt web tuyệt vời nhất, hãy mở để cập nhật Dissenter</translation>
 <translation id="8339163506404995330">Các trang viết bằng <ph name="LANGUAGE"/> sẽ không được dịch</translation>
 <translation id="8349013245300336738">Sắp xếp theo lượng dữ liệu đã dùng</translation>
 <translation id="8364299278605033898">Xem các trang web phổ biến</translation>
@@ -922,7 +922,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8427875596167638501">Thẻ xem trước đang mở trên nửa màn hình</translation>
 <translation id="8428213095426709021">Cài đặt</translation>
 <translation id="8438566539970814960">Cải thiện tính năng tìm kiếm và duyệt web</translation>
-<translation id="4058091506841967397">Brave không thể cập nhật</translation>
+<translation id="4058091506841967397">Dissenter không thể cập nhật</translation>
 <translation id="8445448999790540984">Không xuất được mật khẩu</translation>
 <translation id="8461694314515752532">Mã hóa dữ liệu đã đồng bộ hóa bằng cụm mật khẩu đồng bộ hóa của riêng bạn</translation>
 <translation id="8466613982764129868">Hãy đảm bảo <ph name="TARGET_DEVICE_NAME"/> có kết nối Internet</translation>
@@ -931,9 +931,9 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8489271220582375723">Mở trang lịch sử</translation>
 <translation id="8493948351860045254">Giải phóng dung lượng</translation>
 <translation id="8497726226069778601">Chưa có gì để xem ở đây...</translation>
-<translation id="230699814587342492">Mật khẩu Brave</translation>
+<translation id="230699814587342492">Mật khẩu Dissenter</translation>
 <translation id="8503813439785031346">Tên người dùng</translation>
-<translation id="133012818630824069">Xuất mật khẩu đã lưu trữ với Brave</translation>
+<translation id="133012818630824069">Xuất mật khẩu đã lưu trữ với Dissenter</translation>
 <translation id="8516012719330875537">Trình chỉnh sửa ảnh</translation>
 <translation id="8523928698583292556">Xóa mật khẩu đã lưu trữ</translation>
 <translation id="8525306231823319788">Toàn màn hình</translation>
@@ -948,11 +948,11 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8571213806525832805">4 tuần qua</translation>
 <translation id="8583805026567836021">Xóa dữ liệu tài khoản</translation>
 <translation id="860043288473659153">Tên chủ thẻ</translation>
-<translation id="5784514951651328424">Tài khoản Brave của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="5784514951651328424">Tài khoản Dissenter của bạn có thể có các dạng lịch sử duyệt web khác tại <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="8617240290563765734">Mở URL đề xuất được chỉ định trong nội dung được tải xuống?</translation>
 <translation id="8636825310635137004">Để có các thẻ từ các thiết bị khác của bạn, hãy bật đồng bộ hóa.</translation>
 <translation id="8641930654639604085">Cố gắng chặn các trang web cho người lớn</translation>
-<translation id="2734140769649165081">Bạn có thể xóa dữ liệu trong mục Cài đặt của Brave</translation>
+<translation id="2734140769649165081">Bạn có thể xóa dữ liệu trong mục Cài đặt của Dissenter</translation>
 <translation id="8655599981421006542">Nhấn vào đây để tạo thẻ mới và quay lại thẻ trước</translation>
 <translation id="8662811608048051533">Đăng xuất bạn khỏi hầu hết các trang web.</translation>
 <translation id="8664979001105139458">Tên tệp đã tồn tại</translation>
@@ -971,21 +971,21 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="8840953339110955557">Trang này có thể khác với phiên bản trực tuyến.</translation>
 <translation id="8853345339104747198">Thẻ <ph name="TAB_TITLE"/></translation>
 <translation id="8854223127042600341">Xem tệp khi không có mạng</translation>
-<translation id="6084271560289605378">Chuyển đến phần Cài đặt của Brave</translation>
+<translation id="6084271560289605378">Chuyển đến phần Cài đặt của Dissenter</translation>
 <translation id="8909135823018751308">Chia sẻ...</translation>
-<translation id="2684652081942622950">Tài khoản Brave</translation>
+<translation id="2684652081942622950">Tài khoản Dissenter</translation>
 <translation id="8920114477895755567">Đang đợi thông tin chi tiết của phụ huynh.</translation>
 <translation id="8921772741368021346"><ph name="POSITION"/>/<ph name="DURATION"/></translation>
 <translation id="8922289737868596582">Tải trang xuống từ nút Thêm tùy chọn để sử dụng ngoại tuyến</translation>
-<translation id="1174893863889683998">Bạn có muốn xóa hoạt động của mình trên Brave khỏi Digital Wellbeing không?</translation>
+<translation id="1174893863889683998">Bạn có muốn xóa hoạt động của mình trên Dissenter khỏi Digital Wellbeing không?</translation>
 <translation id="8942627711005830162">Mở trong cửa sổ khác</translation>
-<translation id="3257320067425202300">Brave đã tiết kiệm <ph name="MEGABYTES"/> MB cho bạn</translation>
+<translation id="3257320067425202300">Dissenter đã tiết kiệm <ph name="MEGABYTES"/> MB cho bạn</translation>
 <translation id="8965591936373831584">đang chờ xử lý</translation>
 <translation id="8970887620466824814">Đã xảy ra lỗi.</translation>
 <translation id="8972098258593396643">Tải xuống thư mục mặc định?</translation>
 <translation id="8988028529677883095">Dùng điện thoại làm khóa bảo mật</translation>
 <translation id="8990209962746788689">Không thể tạo mã QR</translation>
-<translation id="3275122921244685452">Bạn đang đăng nhập bằng tài khoản do <ph name="MANAGED_DOMAIN"/> quản lý và cấp cho quản trị viên quyền kiểm soát dữ liệu Brave của bạn. Dữ liệu của bạn sẽ được liên kết vĩnh viễn với tài khoản này. Việc đăng xuất khỏi Brave sẽ xóa dữ liệu của bạn khỏi thiết bị này nhưng dữ liệu sẽ vẫn được lưu trữ trong Tài khoản Brave.</translation>
+<translation id="3275122921244685452">Bạn đang đăng nhập bằng tài khoản do <ph name="MANAGED_DOMAIN"/> quản lý và cấp cho quản trị viên quyền kiểm soát dữ liệu Dissenter của bạn. Dữ liệu của bạn sẽ được liên kết vĩnh viễn với tài khoản này. Việc đăng xuất khỏi Dissenter sẽ xóa dữ liệu của bạn khỏi thiết bị này nhưng dữ liệu sẽ vẫn được lưu trữ trong Tài khoản Dissenter.</translation>
 <translation id="9028914725102941583">Bật tính năng đồng bộ hóa để chia sẻ giữa các thiết bị</translation>
 <translation id="9040142327097499898">Cho phép thông báo. Đã tắt vị trí đối với thiết bị này.</translation>
 <translation id="9041669420854607037">{FILE_COUNT,plural, =1{# video}other{# video}}</translation>
@@ -993,7 +993,7 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="9063523880881406963">Tắt Yêu cầu trang web cho máy tính</translation>
 <translation id="9065203028668620118">Chỉnh sửa</translation>
 <translation id="9070377983101773829">Bắt đầu tìm kiếm bằng giọng nói</translation>
-<translation id="8494430740943879273">Để nhận nội dung do Brave đề xuất riêng cho bạn, hãy đăng nhập và bật tính năng đồng bộ hóa</translation>
+<translation id="8494430740943879273">Để nhận nội dung do Dissenter đề xuất riêng cho bạn, hãy đăng nhập và bật tính năng đồng bộ hóa</translation>
 <translation id="9086302186042011942">Đang đồng bộ hóa</translation>
 <translation id="9086455579313502267">Không thể truy cập mạng</translation>
 <translation id="9100505651305367705">Đề xuất hiển thị các bài viết ở chế độ xem đơn giản khi được hỗ trợ</translation>
@@ -1011,12 +1011,12 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="9206873250291191720">A</translation>
 <translation id="9209888181064652401">Không thể gọi điện</translation>
 <translation id="9219103736887031265">Hình ảnh</translation>
-<translation id="4596514158372210596">Xóa hoạt động của bạn trên Brave khỏi Digital Wellbeing</translation>
-<translation id="2830145431802238213">Dùng Chế độ thu gọn trên Brave</translation>
+<translation id="4596514158372210596">Xóa hoạt động của bạn trên Dissenter khỏi Digital Wellbeing</translation>
+<translation id="2830145431802238213">Dùng Chế độ thu gọn trên Dissenter</translation>
 <translation id="932327136139879170">Trang chủ</translation>
 <translation id="93753284658583800">Trang chủ đã thay đổi</translation>
 <translation id="938850635132480979">Lỗi: <ph name="ERROR_CODE"/></translation>
-<translation id="5406914950576900927">Brave có thể sử dụng <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> để tìm kiếm tại Trung Quốc. Bạn có thể thay đổi điều này trong <ph name="BEGIN_LINK"/>Cài đặt<ph name="END_LINK"/>.</translation>
+<translation id="5406914950576900927">Dissenter có thể sử dụng <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/> để tìm kiếm tại Trung Quốc. Bạn có thể thay đổi điều này trong <ph name="BEGIN_LINK"/>Cài đặt<ph name="END_LINK"/>.</translation>
 <translation id="968900484120156207">Các trang mà bạn truy cập sẽ xuất hiện tại đây</translation>
 <translation id="970715775301869095">Còn <ph name="MINUTES"/> phút</translation>
 <translation id="974555521953189084">Nhập cụm mật khẩu của bạn để bắt đầu đồng bộ hóa</translation>
@@ -1025,8 +1025,8 @@ Ví dụ: một số trang web có thể phản hồi yêu cầu này bằng cá
 <translation id="987264212798334818">Chung</translation>
 <translation id="996149300115483134">Trình đơn thẻ nguồn cấp dữ liệu đang đóng</translation>
 <translation id="5186185447130319458">Riêng tư</translation>
-<translation id="9063160602596686558">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Brave Software</translation>
-<translation id="1438581767753657407">Khi chế độ Lite đang bật, Brave sử dụng các máy chủ Brave để đẩy nhanh tốc độ tải các trang. Chế độ Lite sẽ viết lại các trang tải rất chậm để chỉ tải nội dung thiết yếu. Chế độ Lite không áp dụng cho các tab Riêng tư.</translation>
+<translation id="9063160602596686558">Tự động gửi số liệu thống kê sử dụng và báo cáo sự cố cho Gab AI Inc</translation>
+<translation id="1438581767753657407">Khi chế độ Lite đang bật, Dissenter sử dụng các máy chủ Dissenter để đẩy nhanh tốc độ tải các trang. Chế độ Lite sẽ viết lại các trang tải rất chậm để chỉ tải nội dung thiết yếu. Chế độ Lite không áp dụng cho các tab Riêng tư.</translation>
 <translation id="2633278372998075009">Tab riêng tư</translation>
 <translation id="6099151465289169210">Đã chuyển sang tab riêng tư</translation>
 <translation id="4243710787042215766">Mở trong tab riêng tư</translation>

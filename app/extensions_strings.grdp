@@ -239,7 +239,7 @@
   <message name="IDS_EXTENSIONS_ITEM_EXTENSION_WEBSITE" desc="Label for button to go to the website the extension developer specified.">
     Open extension website
   </message>
-  <message name="IDS_EXTENSIONS_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Brave web store.">
+  <message name="IDS_EXTENSIONS_ITEM_CHROME_WEB_STORE" desc="Label for button to visit the Dissenter web store.">
     View in Web Store
   </message>
   <message name="IDS_EXTENSIONS_ITEM_OPTIONS" desc="The label on the button to open an extension options page.">
@@ -353,11 +353,11 @@
   <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_LABEL" desc="The label for the dropdown menu that lets the user choose the scope of an extension command (within chrome or global).">
     Scope
   </message>
-  <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_GLOBAL" desc="The label to indicate that a shortcut will be triggerable globally (including outside of the Brave application).">
+  <message name="IDS_EXTENSIONS_SHORTCUT_SCOPE_GLOBAL" desc="The label to indicate that a shortcut will be triggerable globally (including outside of the Dissenter application).">
     Global
   </message>
   <message name="IDS_EXTENSIONS_APPS_TITLE" desc="The text displayed in the sidebar to go to the apps section of the page.">
-    Brave Apps
+    Dissenter Apps
   </message>
   <message name="IDS_EXTENSIONS_REMOVE" desc="The generic label for a button to remove an entry.">
     Remove
@@ -433,7 +433,7 @@
 
 <!-- Extensions Checkup Banner -->
 <message name="IDS_EXTENSIONS_CHECKUP_BANNER_PERFORMANCE_TITLE" desc="Title of the extensions checkup flow shown in the chrome://extensions page, encouraging the user to audit their installed extensions with a performance focus.">
-  A healthier, happier Brave
+  A healthier, happier Dissenter
 </message>
 <message name="IDS_EXTENSIONS_CHECKUP_BANNER_PERFORMANCE_BODY1" desc="First pargagraph of the extensions checkup flow shown in the chrome://extensions page, encouraging the user to audit their installed extensions with a performance focus.">
   Some extensions can slow you down - especially ones you didn't mean to install.
@@ -454,7 +454,7 @@
   Manage your extensions
 </message>
 <message name="IDS_EXTENSIONS_CHECKUP_BANNER_NEUTRAL_BODY1" desc="First paragraph of the extensions checkup flow shown in the chrome://extensions page, encouraging the user to audit their installed extensions with a neutral focus.">
-  On this page you can see all the extensions installed in Brave.
+  On this page you can see all the extensions installed in Dissenter.
 </message>
 <message name="IDS_EXTENSIONS_CHECKUP_BANNER_NEUTRAL_BODY2" desc="Second paragraph of the extensions checkup flow shown in the chrome://extensions page, encouraging the user to audit their installed extensions with a neutral focus.">
   If you don't recognize an extension, or if your browser isn't working as expected, you can turn off or customize extensions here.

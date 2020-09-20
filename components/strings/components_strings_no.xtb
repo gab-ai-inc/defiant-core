@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">Legg til navnet på kortet</translation>
 <translation id="1089439967362294234">Endre passord</translation>
 <translation id="1096545575934602868">Dette feltet skal ikke ha mer enn <ph name="MAX_ITEMS_LIMIT"/> oppføringer. Oppføringer utover dette blir forkastet.</translation>
-<translation id="1920681928837417101">Administrer passord i Brave-innstillingene</translation>
+<translation id="1920681928837417101">Administrer passord i Dissenter-innstillingene</translation>
 <translation id="1101672080107056897">Feilhandling</translation>
 <translation id="1103523840287552314">Oversett alltid <ph name="LANGUAGE"/></translation>
 <translation id="1110994991967754504">Velg tillatelse for <ph name="PERMISSION_NAME"/></translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">Uten tittel</translation>
 <translation id="1236081509407217141">Vil du tillate VR?</translation>
 <translation id="1240347957665416060">Navnet på enheten din</translation>
-<translation id="1052005765108026699">For å betale raskere neste gang, lagre kortet og faktureringsadressen i Brave-kontoen din.</translation>
+<translation id="1052005765108026699">For å betale raskere neste gang, lagre kortet og faktureringsadressen i Dissenter-kontoen din.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/> og <ph name="TYPE_2"/> (synkronisert)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Hvis du prøver å gå til et nettsted og det ikke åpnes, bør du først prøve å løse feilen med disse feilsøkingstrinnene:&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">Hentemåte</translation>
 <translation id="1281476433249504884">Hylle 1</translation>
 <translation id="1285320974508926690">Oversett aldri dette nettstedet</translation>
-<translation id="1209478311331937175">«Det er programvare på datamaskinen din som hindrer Brave i å koble trygt til Internett» (bare på Windows-datamaskiner)</translation>
+<translation id="1209478311331937175">«Det er programvare på datamaskinen din som hindrer Dissenter i å koble trygt til Internett» (bare på Windows-datamaskiner)</translation>
 <translation id="1294154142200295408">Variasjoner i kommandolinjen</translation>
 <translation id="129553762522093515">Nylig lukket</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>Prøv å slette informasjonskapslene dine<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">Skriv ut</translation>
 <translation id="1442386063175183758">Høyre vindusfals</translation>
 <translation id="1442987760062738829">Hull</translation>
-<translation id="7408760246081928496">Tekst du limer inn eller legger ved, sendes til Brave Cloud eller tredjeparter for analyse. Den kan for eksempel bli skannet for sensitive data.</translation>
+<translation id="7408760246081928496">Tekst du limer inn eller legger ved, sendes til Dissenter Cloud eller tredjeparter for analyse. Den kan for eksempel bli skannet for sensitive data.</translation>
 <translation id="1455413310270022028">Viskelær</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5 x 7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">Endre passordet</translation>
 <translation id="1484290072879560759">Velg leveringsadresse</translation>
 <translation id="1492194039220927094">Push-levering av regler:</translation>
-<translation id="1812569385220097122">Vis kredittkort fra Brave-kontoen din</translation>
+<translation id="1812569385220097122">Vis kredittkort fra Dissenter-kontoen din</translation>
 <translation id="1507202001669085618">&lt;p&gt;Du ser denne feilmeldingen hvis du bruker en Wi-Fi-portal hvor du må logge på før du kommer deg på nettet.&lt;/p&gt;
     &lt;p&gt;For å fikse feilen, klikk på &lt;strong&gt;Koble til&lt;/strong&gt; på siden du prøver å åpne.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">Liste over loggoppføringer</translation>
 <translation id="1517433312004943670">Det kreves et telefonnummer</translation>
 <translation id="1519264250979466059">Versjonsdato</translation>
-<translation id="5524011986660000129">Brave Regneark</translation>
+<translation id="5524011986660000129">Dissenter Regneark</translation>
 <translation id="1527263332363067270">Venter på tilkobling …</translation>
 <translation id="1529521330346880926">10x15 (konvolutt)</translation>
 <translation id="1529789484829130889">Skuff 8</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">Logg</translation>
 <translation id="1645368109819982629">Protokollen støttes ikke</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave har forenklet denne siden for å gjøre den lettere å lese. Brave hentet den opprinnelige siden via en sikker forbindelse.</translation>
+<translation id="3848846802033604519">Dissenter har forenklet denne siden for å gjøre den lettere å lese. Dissenter hentet den opprinnelige siden via en sikker forbindelse.</translation>
 <translation id="1656489000284462475">Henting</translation>
 <translation id="1662550410081243962">Lagre og fyll ut betalingsmåter</translation>
-<translation id="1838576226863399477">Kortene og adressene er fra Brave. Du kan administrere dem i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Kortene og adressene er fra Dissenter. Du kan administrere dem i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">Fra nå av oversettes sider på <ph name="SOURCE_LANGUAGE"/> til <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1682696192498422849">Kortsiden først</translation>
 <translation id="168693727862418163">Denne regelverdien kunne ikke valideres mot oppsettet og blir derfor ignorert.</translation>
@@ -213,7 +213,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">Oppdater passordfrasen for synkronisering.</translation>
 <translation id="1787142507584202372">De åpne fanene dine vises her</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">Kortinnehaverens navn</translation>
 <translation id="1807528111851433570">Startark</translation>
@@ -226,7 +226,7 @@
 <translation id="1842969606798536927">Betal</translation>
 <translation id="1871208020102129563">Mellomtjeneren er angitt til å bruke statiske proxytjenere, ikke en nettadresse med .pac-skript.</translation>
 <translation id="1871284979644508959">Obligatorisk felt</translation>
-<translation id="85321348617848915">Brave Skjemaer</translation>
+<translation id="85321348617848915">Dissenter Skjemaer</translation>
 <translation id="187918866476621466">Åpne oppstartssidene</translation>
 <translation id="1883255238294161206">Skjul liste</translation>
 <translation id="1898423065542865115">Filtrering</translation>
@@ -237,19 +237,19 @@
 <translation id="1914326953223720820">Utpakkingstjeneste</translation>
 <translation id="1915697529809968049">Vil du bruke Touch ID i stedet for CVC?</translation>
 <translation id="1916770123977586577">Last inn denne siden på nytt for å ta i bruk de oppdaterte innstillingene dine på dette nettstedet.</translation>
-<translation id="688541908229382784">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du endrer passordet ditt på <ph name="ORIGIN"/> nå.</translation>
+<translation id="688541908229382784">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Dissenter anbefaler at du endrer passordet ditt på <ph name="ORIGIN"/> nå.</translation>
 <translation id="1919345977826869612">Annonser</translation>
 <translation id="1919367280705858090">Få hjelp med spesifikke feilmeldinger</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ingen}=1{1 nettsted}other{# nettsteder}}</translation>
 <translation id="194030505837763158">Gå til <ph name="LINK"/></translation>
 <translation id="1947454675006758438">Stift oppe til høyre</translation>
-<translation id="990584554013599191">Bidra til å gjøre sikkerheten på nettet bedre for alle ved å sende <ph name="BEGIN_WHITEPAPER_LINK"/>nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold<ph name="END_WHITEPAPER_LINK"/> til Brave. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Personvernregler<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Bidra til å gjøre sikkerheten på nettet bedre for alle ved å sende <ph name="BEGIN_WHITEPAPER_LINK"/>nettadressene til noen av sidene du besøker, begrenset systeminformasjon og noe sideinnhold<ph name="END_WHITEPAPER_LINK"/> til Dissenter. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Personvernregler<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436"><ph name="DOMAIN"/>-bokmerker</translation>
 <translation id="1973335181906896915">Serialiseringsfeil</translation>
 <translation id="1974060860693918893">Avanserte</translation>
 <translation id="1975584088563498795">Postkasse 10</translation>
 <translation id="1978555033938440688">Fastvareversjon</translation>
-<translation id="711418501679417607">Tøm nettlesingsloggen i Brave</translation>
+<translation id="711418501679417607">Tøm nettlesingsloggen i Dissenter</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">få tilgang til informasjonskapsler og nettstedsdata.
 
@@ -265,7 +265,7 @@ I motsatt fall blir dette blokkert av personverninnstillingene. Dette gjør at i
 <translation id="2030481566774242610">Mener du <ph name="LINK"/>?</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>Sjekk proxy-tjeneren og brannmuren<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">Skuff 7</translation>
-<translation id="3163988908275223348">Logg på for å bruke passord som er lagret i Brave-kontoen din</translation>
+<translation id="3163988908275223348">Logg på for å bruke passord som er lagret i Dissenter-kontoen din</translation>
 <translation id="2053111141626950936">Sider på <ph name="LANGUAGE"/> oversettes ikke.</translation>
 <translation id="2053553514270667976">Postnummer</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 forslag}other{# forslag}}</translation>
@@ -318,7 +318,7 @@ I motsatt fall blir dette blokkert av personverninnstillingene. Dette gjør at i
 <translation id="2258928405015593961">Oppgi en fremtidig utløpsdato, og prøv på nytt</translation>
 <translation id="225943865679747347">Feilkode: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">HTTP-feil</translation>
-<translation id="112540507627099823">Oppdater autofyll av kredittkortinformasjon i Brave-innstillingene</translation>
+<translation id="112540507627099823">Oppdater autofyll av kredittkortinformasjon i Dissenter-innstillingene</translation>
 <translation id="2267047181501709434">Bekrefter identiteten din …</translation>
 <translation id="2270484714375784793">Telefonnummer</translation>
 <translation id="2276057643614339130">Utskriftsgrunnlag</translation>
@@ -369,7 +369,7 @@ I motsatt fall blir dette blokkert av personverninnstillingene. Dette gjør at i
 <translation id="2491120439723279231">Tjenerens sertifikat inneholder feil.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">JSON Parser</translation>
-<translation id="5047769237368272183">Hvis det er merket av for dette alternativet, lagrer Brave en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
+<translation id="5047769237368272183">Hvis det er merket av for dette alternativet, lagrer Dissenter en kopi av kortet ditt på denne enheten, slik at det går raskere å fylle ut skjemaer.</translation>
 <translation id="2498091847651709837">Skann nytt kort</translation>
 <translation id="2501278716633472235">Gå tilbake</translation>
 <translation id="2505268675989099013">Beskytt kontoen</translation>
@@ -433,7 +433,7 @@ brukere av denne nettleseren.</translation>
 <translation id="277133753123645258">Leveringsmetode</translation>
 <translation id="277499241957683684">Manglende enhetsoppføring</translation>
 <translation id="2775884851269838147">Første utskriftsside</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">Tilkoblingen ble tilbakestilt.</translation>
 <translation id="2792012897584536778">Enhetsadministratorene har satt opp sikkerhetssertifikater som kan gjøre det mulig for dem å se innholdet på nettsteder du besøker.</translation>
 <translation id="2799020568854403057">Nettstedet du er på vei til, inneholder skadelige apper</translation>
@@ -479,7 +479,7 @@ brukere av denne nettleseren.</translation>
 <translation id="2989742184762224133">To stifter topp</translation>
 <translation id="2991174974383378012">Deling med nettsteder</translation>
 <translation id="2991571918955627853">Du kan ikke gå til <ph name="SITE"/> akkurat nå, siden nettstedet bruker HSTS. Nettverksfeil og -angrep er vanligvis midlertidige, så denne siden fungerer sannsynligvis senere.</translation>
-<translation id="6683975920571472553">Forslag fra Brave</translation>
+<translation id="6683975920571472553">Forslag fra Dissenter</translation>
 <translation id="3002501248619246229">Sjekk inndataskuffmedier</translation>
 <translation id="3005723025932146533">Vis lagret kopi</translation>
 <translation id="3008447029300691911">Skriv inn verifiseringskoden for <ph name="CREDIT_CARD"/>. Når du bekrefter, deles kortinformasjonen din med dette nettstedet.</translation>
@@ -562,7 +562,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3399952811970034796">Leveringsadresse</translation>
 <translation id="3402261774528610252">Tilkoblingen som ble brukt til å laste inn dette nettstedet, brukte TLS 1.0 eller TLS 1.1, som er foreldet og kommer til å bli slått av i fremtiden. Når det er slått av, blir brukerne hindret i å laste inn dette nettstedet. Tjeneren bør slå på TLS 1.2 eller nyere.</translation>
 <translation id="3414952576877147120">Størrelse:</translation>
-<translation id="25726459489263481">Filer du laster opp eller legger ved, sendes til Brave Cloud eller tredjeparter for analyse. De kan for eksempel bli skannet for sensitive data eller skadelig programvare.</translation>
+<translation id="25726459489263481">Filer du laster opp eller legger ved, sendes til Dissenter Cloud eller tredjeparter for analyse. De kan for eksempel bli skannet for sensitive data eller skadelig programvare.</translation>
 <translation id="3422248202833853650">Prøv å lukke andre programmer for å frigjøre minne.</translation>
 <translation id="3422472998109090673"><ph name="HOST_NAME"/> er ikke tilgjengelig for øyeblikket.</translation>
 <translation id="3423742043356668186">Systemspesifisert</translation>
@@ -571,7 +571,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3428151540071562330">Én eller flere av URI-ene for DnsOverHttpsTemplates-tjenermaler er ugyldige og blir ikke brukt.</translation>
 <translation id="3431636764301398940">Lagre dette kortet på denne enheten</translation>
 <translation id="3432601291244612633">Lukk siden</translation>
-<translation id="4527130811319726464">Bruk passord som er lagret i Brave-kontoen din</translation>
+<translation id="4527130811319726464">Bruk passord som er lagret i Dissenter-kontoen din</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Eieren av denne enheten har slått av dinosaurspillet.</translation>
 <translation id="3447884698081792621">Vis sertifikat (utstedt av <ph name="ISSUER"/>)</translation>
@@ -602,7 +602,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3567778190852720481">Kan ikke registrere med bedriftskontoen (bedriftskontoen er ikke kvalifisert).</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/>, <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">På en innebygd side på <ph name="SITE"/> står det</translation>
-<translation id="230476913390177517">Brave gir deg beskjed når denne siden er klar. &lt;a&gt;Avbryt&lt;/a&gt;</translation>
+<translation id="230476913390177517">Dissenter gir deg beskjed når denne siden er klar. &lt;a&gt;Avbryt&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Legg til navn</translation>
 <translation id="3583757800736429874">&amp;Flytt likevel</translation>
 <translation id="3584299510153766161">To hull bunn</translation>
@@ -645,7 +645,7 @@ brukere av denne nettleseren.</translation>
 <translation id="373042150751172459">B4 (konvolutt)</translation>
 <translation id="3731873414101415120">Nettsteder du besøker, og innholdet på usikre sider</translation>
 <translation id="3736520371357197498">Hvis du forstår sikkerhetsrisikoen, kan du <ph name="BEGIN_LINK"/>gå til det usikre nettstedet<ph name="END_LINK"/> før de farlige programmene er fjernet.</translation>
-<translation id="4098534208927606680">Etter at du har bekreftet, deles kortopplysningene fra Brave-kontoen din med dette nettstedet.</translation>
+<translation id="4098534208927606680">Etter at du har bekreftet, deles kortopplysningene fra Dissenter-kontoen din med dette nettstedet.</translation>
 <translation id="3748148204939282805">Angripere på <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> kan lure deg til å gjøre farlige ting, deriblant å installere programvare eller oppgi personopplysninger (for eksempel passord, telefonnumre og kredittkortinformasjon). <ph name="BEGIN_LEARN_MORE_LINK"/>Finn ut mer<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">Avslutt bilde-i-bilde</translation>
 <translation id="3759461132968374835">Du har ingen nylig rapportert programstopp. Programstopp som inntraff når rapportering om programstopp var deaktivert, blir ikke vist her.</translation>
@@ -653,7 +653,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3761718714832595332">Skjul statusen</translation>
 <translation id="3765032636089507299">Safe Browsing-siden er under utvikling.</translation>
 <translation id="3765588406864124894">Postkasse 9</translation>
-<translation id="5141491707451394486">Vil du lagre dette kortet i Brave-kontoen din og på denne enheten?</translation>
+<translation id="5141491707451394486">Vil du lagre dette kortet i Dissenter-kontoen din og på denne enheten?</translation>
 <translation id="3780694243617746492">Ut-skuff</translation>
 <translation id="3781428340399460090">Knallrosa</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -683,7 +683,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3901925938762663762">Kortet er utløpt</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Nettbrett</translation>
-<translation id="2650609753175229582"><ph name="URL"/> ber om tillatelse til å spille beskyttet innhold. Identiteten til enheten din bekreftes av Brave og kan bli gjort tilgjengelig for dette nettstedet.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> ber om tillatelse til å spille beskyttet innhold. Identiteten til enheten din bekreftes av Dissenter og kan bli gjort tilgjengelig for dette nettstedet.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">Vil du bruke WebAuthn i stedet for CVC?</translation>
 <translation id="3946209740501886391">Spør alltid på dette nettstedet</translation>
@@ -698,7 +698,7 @@ brukere av denne nettleseren.</translation>
 <translation id="3964661563329879394">{COUNT,plural, =0{Ingen}=1{Fra 1 nettsted }other{Fra # nettsteder }}</translation>
 <translation id="397105322502079400">Beregner …</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> er blokkert</translation>
-<translation id="2321540973325616220">Brave har funnet ut at dette nettstedet kan være falskt eller prøve å svindle deg.
+<translation id="2321540973325616220">Dissenter har funnet ut at dette nettstedet kan være falskt eller prøve å svindle deg.
 
     Hvis du mener at dette er en feil, kan du gå til https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Under 1 MB</translation>
@@ -773,7 +773,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4275830172053184480">Start enheten din på nytt</translation>
 <translation id="4277028893293644418">Tilbakestill passordet</translation>
 <translation id="4279811152705618813"><ph name="DEVICE_TYPE"/> administreres av <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Dette kortet er lagret i Brave-kontoen din}other{Disse kortene er lagret i Brave-kontoen din}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Dette kortet er lagret i Dissenter-kontoen din}other{Disse kortene er lagret i Dissenter-kontoen din}}</translation>
 <translation id="42981349822642051">Vis</translation>
 <translation id="4300675098767811073">Flere hull høyre</translation>
 <translation id="4302965934281694568">Chou3 (konvolutt)</translation>
@@ -786,7 +786,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4326324639298822553">Kontrollér utløpsdatoen, og prøv igjen</translation>
 <translation id="4331519897422864041">Hylle 5</translation>
 <translation id="4331708818696583467">Ikke sikker</translation>
-<translation id="6116812392674177288">Denne datamaskinen er ikke registrert som administrert av en bedrift, så regelen kan bare automatisk installere utvidelser som finnes på Brave Nettmarked. Nettadressen for Brave Nettmarked-oppdateringen er «<ph name="CWS_UPDATE_URL"/>».</translation>
+<translation id="6116812392674177288">Denne datamaskinen er ikke registrert som administrert av en bedrift, så regelen kan bare automatisk installere utvidelser som finnes på Dissenter Nettmarked. Nettadressen for Dissenter Nettmarked-oppdateringen er «<ph name="CWS_UPDATE_URL"/>».</translation>
 <translation id="4346197816712207223">Godkjente kredittkort</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">Angripere på dette nettstedet kan prøve å installere farlige programmer på datamaskinen din. Disse kan stjele eller slette informasjonen din (for eksempel bilder, passord, e-post og kredittkortinformasjon).</translation>
@@ -811,7 +811,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4477350412780666475">Neste spor</translation>
 <translation id="4482953324121162758">Dette nettstedet oversettes ikke.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">Som standard er disse funksjonene avslått. De kommer ikke til å være tilgjengelige i fremtidige versjoner av Brave.</translation>
+<translation id="3614771894046523359">Som standard er disse funksjonene avslått. De kommer ikke til å være tilgjengelige i fremtidige versjoner av Dissenter.</translation>
 <translation id="4493480324863638523">Ugyldig nettadresse. Dette må være en nettadresse på standardformat, f.eks. http://example.com eller https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">Valideringsfeil: <ph name="VALIDATION_ERROR"/></translation>
@@ -819,7 +819,7 @@ brukere av denne nettleseren.</translation>
 <translation id="450710068430902550">Deling med administratoren</translation>
 <translation id="4508814173490746936">Kunne ikke bruke Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (konvolutt)</translation>
-<translation id="4892470328555495647">Kortene og adressene er fra Brave og Brave-kontoen din (<ph name="ACCOUNT_EMAIL"/>). Du kan administrere dem i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Kortene og adressene er fra Dissenter og Dissenter-kontoen din (<ph name="ACCOUNT_EMAIL"/>). Du kan administrere dem i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (konvolutt)</translation>
 <translation id="4522570452068850558">Detaljer</translation>
 <translation id="4524138615196389145">Bekreft kortene dine raskere ved å bruke WebAuthn fra nå av</translation>
@@ -845,7 +845,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4670064810192446073">Virtuell virkelighet</translation>
 <translation id="467662567472608290">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN"/>. Sikkerhetssertifikatet til tjeneren inneholder feil. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> ber om å svare på tilgjengelighetshendelser</translation>
-<translation id="8197094463444457125">Brave Presentasjoner</translation>
+<translation id="8197094463444457125">Dissenter Presentasjoner</translation>
 <translation id="4690462567478992370">Slutt å bruke et ugyldig sertifikat</translation>
 <translation id="4691835149146451662">Architecture-A (konvolutt)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -875,11 +875,11 @@ brukere av denne nettleseren.</translation>
 <translation id="4785689107224900852">Bytt til denne fanen</translation>
 <translation id="4791134497475588553">Installerte Linux-apper og når de ble brukt sist</translation>
 <translation id="4796594887379589189">Jobbkonto-ID</translation>
-<translation id="7110430050177876111">Skriv inn utløpsdatoen og verifiseringskoden for <ph name="CREDIT_CARD"/> for å oppdatere kortopplysningene dine. Etter at du har bekreftet, deles kortopplysningene fra Brave-kontoen din med dette nettstedet.</translation>
+<translation id="7110430050177876111">Skriv inn utløpsdatoen og verifiseringskoden for <ph name="CREDIT_CARD"/> for å oppdatere kortopplysningene dine. Etter at du har bekreftet, deles kortopplysningene fra Dissenter-kontoen din med dette nettstedet.</translation>
 <translation id="4800132727771399293">Kontrollér utløpsdatoen og CVC-koden, og prøv igjen.</translation>
 <translation id="480334179571489655">Feil i opprinnelsesregel</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">Du kan ikke gå til <ph name="SITE"/> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Brave ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
+<translation id="8896585555528145662">Du kan ikke gå til <ph name="SITE"/> akkurat nå, fordi nettstedet sendte kryptert legitimasjon som Dissenter ikke kan behandle. Nettverksfeil og -angrep er vanligvis forbigående, så siden kommer sikkert til å virke senere.</translation>
 <translation id="4813512666221746211">Nettverksfeil</translation>
 <translation id="4816492930507672669">Tilpass til siden</translation>
 <translation id="484462545196658690">Auto</translation>
@@ -917,7 +917,7 @@ brukere av denne nettleseren.</translation>
 <translation id="4989542687859782284">Utilgjengelig</translation>
 <translation id="4989809363548539747">Dette programtillegget støttes ikke</translation>
 <translation id="4995216769782533993">Bekreft sikkerhetskoden for å dele kortopplysningene dine med dette nettstedet</translation>
-<translation id="3676215163710610678">Hvis du slår på dette alternativet, lagrer Brave en kopi av kortet ditt på denne enheten, slik at det blir raskere å fylle ut skjemaer i fremtiden.</translation>
+<translation id="3676215163710610678">Hvis du slår på dette alternativet, lagrer Dissenter en kopi av kortet ditt på denne enheten, slik at det blir raskere å fylle ut skjemaer i fremtiden.</translation>
 <translation id="5015510746216210676">Maskinnavn:</translation>
 <translation id="5017554619425969104">Teksten du kopierte</translation>
 <translation id="5018422839182700155">Kan ikke åpne denne siden</translation>
@@ -926,7 +926,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5029568752722684782">Slett kopi</translation>
 <translation id="5030338702439866405">Utstedt av</translation>
 <translation id="503069730517007720">Et rotsertifikat for «<ph name="SOFTWARE_NAME"/>» kreves, men er ikke installert. IT-administratoren din bør se på konfigurasjonsveiledningen for «<ph name="SOFTWARE_NAME"/>» for å løse dette problemet. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Om Brave Oversett</translation>
+<translation id="6425384654920630035">Om Dissenter Oversett</translation>
 <translation id="503498442187459473"><ph name="HOST"/> ber om å bruke kameraet ditt og mikrofonen din</translation>
 <translation id="5039804452771397117">Tillat</translation>
 <translation id="5040262127954254034">Personvern</translation>
@@ -943,7 +943,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5088142053160410913">Melding til operatøren</translation>
 <translation id="5089810972385038852">Fylke/delstat</translation>
 <translation id="5093232627742069661">Z-fals</translation>
-<translation id="4906192414477726331">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN"/>. Sikkerhetssertifikatet til tjeneren er ikke klarert av Brave. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
+<translation id="4906192414477726331">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN"/>. Sikkerhetssertifikatet til tjeneren er ikke klarert av Dissenter. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="5095208057601539847">Provins</translation>
 <translation id="5097099694988056070">enhetsstatistikk, som prosessor- og minnebruk</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -955,7 +955,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5126510351761255129">Bekreft kortet ditt</translation>
 <translation id="6291230311289558881">Adminstrer adresser…</translation>
 <translation id="5138227688689900538">Vis færre</translation>
-<translation id="7186167407612593632">Kryptér synkroniserte passord med Brave-legitimasjonen din</translation>
+<translation id="7186167407612593632">Kryptér synkroniserte passord med Dissenter-legitimasjonen din</translation>
 <translation id="5145883236150621069">Feilkode i responsen for enhetsinnstillinger</translation>
 <translation id="5146995429444047494">Varsler for <ph name="ORIGIN"/> er blokkert</translation>
 <translation id="5148809049217731050">Forsiden opp</translation>
@@ -963,8 +963,8 @@ brukere av denne nettleseren.</translation>
 <translation id="5158275234811857234">Omslag</translation>
 <translation id="5161506081086828129">Hylle 9</translation>
 <translation id="5164798890604758545">Tekst skrives inn</translation>
-<translation id="2996889577833788807">Skriv inn verifiseringskoden for <ph name="CREDIT_CARD"/>. Etter at du har bekreftet, deles kortopplysningene fra Brave-kontoen din med dette nettstedet.</translation>
-<translation id="8515152881111950319">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="2996889577833788807">Skriv inn verifiseringskoden for <ph name="CREDIT_CARD"/>. Etter at du har bekreftet, deles kortopplysningene fra Dissenter-kontoen din med dette nettstedet.</translation>
+<translation id="8515152881111950319">Du kan miste tilgangen til organisasjonskontoen din eller bli utsatt for identitetstyveri. Dissenter anbefaler at du endrer passordet ditt nå.</translation>
 <translation id="5171045022955879922">Søk, eller skriv inn en nettadresse</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Datamaskin</translation>
@@ -973,7 +973,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5201306358585911203">På en innebygd side på denne siden står det</translation>
 <translation id="5205222826937269299">Navn er obligatorisk</translation>
 <translation id="5209518306177824490">SHA-1-fingeravtrykk</translation>
-<translation id="1051285409463218679">Betalingsmåter og adresser som bruker Brave Pay</translation>
+<translation id="1051285409463218679">Betalingsmåter og adresser som bruker Dissenter Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">E-post er obligatorisk</translation>
 <translation id="5230733896359313003">Leveringsadresse</translation>
@@ -997,7 +997,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5287456746628258573">Dette nettstedet bruker en utdatert sikkerhetskonfigurasjon, som betyr at informasjonen din (for eksempel passord eller kredittkortnumre) kan bli avslørt når den sendes til dette nettstedet.</translation>
 <translation id="5288108484102287882">Det har oppstått advarsler under validering av regelverdier</translation>
 <translation id="5289384342738547352">Håndtering av flere dokumenter</translation>
-<translation id="3764885446986388155">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du sjekker de lagrede passordene dine nå.</translation>
+<translation id="3764885446986388155">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Dissenter anbefaler at du sjekker de lagrede passordene dine nå.</translation>
 <translation id="5299298092464848405">Feil under analysen av enhetsinnstillingene</translation>
 <translation id="5300589172476337783">Vis</translation>
 <translation id="5306593769196050043">Begge arkene</translation>
@@ -1056,7 +1056,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5541086400771735334">Postkasse 7</translation>
 <translation id="5541546772353173584">Legg til e-post</translation>
 <translation id="5545756402275714221">Artikler for deg</translation>
-<translation id="6084314943327785510">Brave sjekker passordene dine regelmessig mot lister som er lagt ut på nett. Når dette gjøres, er passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Brave.</translation>
+<translation id="6084314943327785510">Dissenter sjekker passordene dine regelmessig mot lister som er lagt ut på nett. Når dette gjøres, er passordene og brukernavnene dine kryptert. Det betyr at ingen kan lese dem, ikke engang Dissenter.</translation>
 <translation id="5556459405103347317">Last inn på nytt</translation>
 <translation id="5560088892362098740">Utløpsdato</translation>
 <translation id="5565735124758917034">Aktiv</translation>
@@ -1069,14 +1069,14 @@ brukere av denne nettleseren.</translation>
 <translation id="560412284261940334">Administrering støttes ikke</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">Dette nettstedet kan være falskt eller prøve å svindle deg. Brave anbefaler at du forlater det nå.</translation>
+<translation id="4067274479097837765">Dette nettstedet kan være falskt eller prøve å svindle deg. Dissenter anbefaler at du forlater det nå.</translation>
 <translation id="5610142619324316209">Sjekk tilkoblingen</translation>
 <translation id="5610807607761827392">Du kan administrere kort og adresser i <ph name="BEGIN_LINK"/>Innstillinger<ph name="END_LINK"/>.</translation>
 <translation id="5612720917913232150"><ph name="URL"/> ber om å bruke posisjonen til enheten din</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> viderekoblet deg for mange ganger.</translation>
 <translation id="5629630648637658800">Kunne ikke laste in angivelsen for enhetsinnstillinger</translation>
 <translation id="5631439013527180824">Ugyldig token for enhetsadministrering</translation>
-<translation id="2590378115732684772">Dataene dine har blitt kryptert med <ph name="BEGIN_LINK"/>Brave-passordet<ph name="END_LINK"/> ditt siden <ph name="TIME"/>. Skriv det inn for å starte synkroniseringen.</translation>
+<translation id="2590378115732684772">Dataene dine har blitt kryptert med <ph name="BEGIN_LINK"/>Dissenter-passordet<ph name="END_LINK"/> ditt siden <ph name="TIME"/>. Skriv det inn for å starte synkroniseringen.</translation>
 <translation id="5633066919399395251">Angripere som er på <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/>, kan prøve å installere farlige programmer på datamaskinen du bruker, for å stjele eller slette informasjonen din (for eksempel bilder, passord, meldinger og kredittkortinformasjon). <ph name="BEGIN_LEARN_MORE_LINK"/>Finn ut mer<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">Villedende innhold er blokkert.</translation>
 <translation id="5644090287519800334">X-forskyvning av bilde på side 1</translation>
@@ -1099,8 +1099,8 @@ brukere av denne nettleseren.</translation>
 <translation id="5710435578057952990">Identiteten til dette nettstedet er ikke verifisert.</translation>
 <translation id="5720705177508910913">Gjeldende bruker</translation>
 <translation id="5728056243719941842">C5 (konvolutt)</translation>
-<translation id="3006790309890592320">Brave anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Lagre kort i Brave-kontoen din}other{Lagre kort i Brave-kontoen din}}</translation>
+<translation id="3006790309890592320">Dissenter anbefaler at du tilbakestiller passordet ditt hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Lagre kort i Dissenter-kontoen din}other{Lagre kort i Dissenter-kontoen din}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Bruk et virtuelt nummer for dette kortet}other{Velg et kort}}</translation>
 <translation id="5759751709240058861">bruke og bevege kameraet ditt</translation>
 <translation id="5763042198335101085">Angi en gyldig e-postadresse</translation>
@@ -1114,7 +1114,7 @@ brukere av denne nettleseren.</translation>
 <translation id="5785756445106461925">Denne siden inneholder i tillegg andre ressurser som ikke er sikre. Disse ressursene er synlige for andre mens de sendes frem og tilbake, og eventuelle angripere kan modifisere dem for å endre på utseendet til siden.</translation>
 <translation id="5786044859038896871">Vil du fylle ut kortinformasjonen?</translation>
 <translation id="5798290721819630480">Vil du forkaste endringene?</translation>
-<translation id="2828698628112858998">Endre startsiden i Brave-innstillingene</translation>
+<translation id="2828698628112858998">Endre startsiden i Dissenter-innstillingene</translation>
 <translation id="5803412860119678065">Vil du fylle ut informasjonen knyttet til <ph name="CARD_DETAIL"/>?</translation>
 <translation id="5804241973901381774">Tillatelser</translation>
 <translation id="5804427196348435412">Bruk NFC-enheter</translation>
@@ -1143,7 +1143,7 @@ brukere av denne nettleseren.</translation>
 <translation id="59174027418879706">Aktivert</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">På</translation>
-<translation id="2687595201721621314">Vil du lagre kortet i Brave-kontoen?</translation>
+<translation id="2687595201721621314">Vil du lagre kortet i Dissenter-kontoen?</translation>
 <translation id="5922853866070715753">Nesten ferdig</translation>
 <translation id="5932224571077948991">Nettstedet viser forstyrrende eller villedende annonser</translation>
 <translation id="5946937721014915347">Åpner <ph name="SITE_NAME"/> …</translation>
@@ -1192,10 +1192,10 @@ brukere av denne nettleseren.</translation>
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">Det kan hende at nettsiden på <ph name="PAGE"/> er midlertidig nede eller flyttet permanent til en ny nettadresse.</translation>
 <translation id="6107012941649240045">Utstedt til</translation>
-<translation id="8233947174119245051">Det kan hende Brave-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8233947174119245051">Det kan hende Dissenter-kontoen din har andre typer nettleserlogger på <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6116338172782435947">Se tekst og bilder som er kopiert til utklippstavlen</translation>
 <translation id="6120179357481664955">Husker du UPI-ID-en din?</translation>
-<translation id="5972135347314259717">Brave Enterprise Connectors</translation>
+<translation id="5972135347314259717">Dissenter Enterprise Connectors</translation>
 <translation id="6146055958333702838">Sjekk alle kabler, og start rutere, modemer eller andre nettverksenheter
      du bruker, på nytt.</translation>
 <translation id="614940544461990577">Prøv dette:</translation>
@@ -1207,11 +1207,11 @@ brukere av denne nettleseren.</translation>
 <translation id="6180316780098470077">Forsøksintervall</translation>
 <translation id="6196640612572343990">Blokkér informasjonskapsler fra tredjeparter</translation>
 <translation id="6203231073485539293">Kontrollér Internett-tilkoblingen</translation>
-<translation id="8385639954311581596">Vil du fjerne adressen fra Brave?</translation>
+<translation id="8385639954311581596">Vil du fjerne adressen fra Dissenter?</translation>
 <translation id="622039917539443112">Parallellfals</translation>
 <translation id="6221345481584921695">Google Safe Browsing oppdaget nylig <ph name="BEGIN_LINK"/>skadelig programvare<ph name="END_LINK"/> på <ph name="SITE"/>. Nettsteder som vanligvis er trygge, kan noen ganger være infisert med skadelig programvare. Det skadelige innholdet kommer fra <ph name="SUBRESOURCE_HOST"/>, som er en kjent distributør av skadelig programvare.</translation>
 <translation id="6234122620015464377">Beskjær etter hvert dokument</translation>
-<translation id="4765229189146046954">Brave Pay-logo</translation>
+<translation id="4765229189146046954">Dissenter Pay-logo</translation>
 <translation id="6241121617266208201">Skjul forslag</translation>
 <translation id="624499991300733384">Utskriftskomposisjonstjeneste</translation>
 <translation id="6254436959401408446">Det er ikke nok minne til å åpne denne siden</translation>
@@ -1221,10 +1221,10 @@ brukere av denne nettleseren.</translation>
 <translation id="6264485186158353794">Tilbake til trygg grunn</translation>
 <translation id="6265794661083428563">Kopiér verdien av <ph name="POLICY_NAME"/>-regelen</translation>
 <translation id="6266934640124581640">Lys blågrønn</translation>
-<translation id="9136010393039243713">Brave Oppdatering</translation>
+<translation id="9136010393039243713">Dissenter Oppdatering</translation>
 <translation id="6276112860590028508">Sider fra leselisten din vises her</translation>
-<translation id="7954557091400543500">For å betale raskere neste gang, lagre kortet ditt og faktureringsadressen i Brave-kontoen din.</translation>
-<translation id="293801390522973485">Brave <ph name="BEGIN_EMPHASIS"/>lagrer ikke<ph name="END_EMPHASIS"/>
+<translation id="7954557091400543500">For å betale raskere neste gang, lagre kortet ditt og faktureringsadressen i Dissenter-kontoen din.</translation>
+<translation id="293801390522973485">Dissenter <ph name="BEGIN_EMPHASIS"/>lagrer ikke<ph name="END_EMPHASIS"/>
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>nettleserloggen din
           <ph name="LIST_ITEM"/>informasjonskapsler og nettstedsdata
@@ -1234,7 +1234,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6282194474023008486">Postnummer</translation>
 <translation id="6290238015253830360">De foreslåtte artiklene dine vises her</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">Stopper Brave-assistenten i Brave</translation>
+<translation id="5880900081429361525">Stopper Dissenter-assistenten i Dissenter</translation>
 <translation id="6305205051461490394"><ph name="URL"/> er ikke tilgjengelig.</translation>
 <translation id="6312113039770857350">Nettsiden er ikke tilgjengelig</translation>
 <translation id="6321917430147971392">Kontrollér DNS-innstillingene dine</translation>
@@ -1259,7 +1259,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6401136357288658127">Denne regelen er avviklet. Du bør bruke den nye regelen <ph name="NEW_POLICY"/> i stedet.</translation>
 <translation id="6404511346730675251">Rediger bokmerket</translation>
 <translation id="6406765186087300643">C0 (konvolutt)</translation>
-<translation id="9018981925326888629">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler deg å bytte passord nå.</translation>
+<translation id="9018981925326888629">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler deg å bytte passord nå.</translation>
 <translation id="6410264514553301377">Skriv inn utløpsdatoen og verifiseringskoden for <ph name="CREDIT_CARD"/></translation>
 <translation id="6423385022588644828">Bekreft kortene dine raskere ved å bruke Touch ID fra nå av</translation>
 <translation id="6425092077175753609">Materiale</translation>
@@ -1279,7 +1279,7 @@ brukere av denne nettleseren.</translation>
 <translation id="6476284679642588870">Administrer betalingsmåter</translation>
 <translation id="6489534406876378309">Start opplastingen av krasj</translation>
 <translation id="6499038740797743453">Vil du tilbakestille passordet?</translation>
-<translation id="3960299545138990065">Start Brave på nytt</translation>
+<translation id="3960299545138990065">Start Dissenter på nytt</translation>
 <translation id="6517596291481585650">Advarsel: Denne regelen ble ikke sammenslått som en regelspesifisert liste fordi den ikke er en liste.</translation>
 <translation id="6518133107902771759">Bekreft</translation>
 <translation id="6521745193039995384">Ikke aktiv</translation>
@@ -1309,14 +1309,14 @@ brukere av denne nettleseren.</translation>
 <translation id="6631202559048444592">Regelen har mer enn én kilde, men verdiene er like.</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Tøm</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Ingen}=1{Fra 1 nettsted (du blir ikke logget av Brave-kontoen din)}other{Fra # nettsteder (du blir ikke logget av Brave-kontoen din)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Ingen}=1{Fra 1 nettsted (du blir ikke logget av Dissenter-kontoen din)}other{Fra # nettsteder (du blir ikke logget av Dissenter-kontoen din)}}</translation>
 <translation id="6652101503459149953">Bruk Windows Hello</translation>
 <translation id="6657585470893396449">Passord</translation>
 <translation id="6665553082534466207">Tre hull høyre</translation>
 <translation id="6685834062052613830">Logg av og fullfør konfigurasjonen</translation>
 <translation id="6687335167692595844">Forespurt skriftstørrelse</translation>
 <translation id="6689249931105087298">Relativ med svartpunktkomprimering</translation>
-<translation id="5406652219015697259">Brave tilbyr å lagre kort i Brave-kontoen din fordi du er logget på. Du kan endre dette i innstillingene. Kortinnehaverens navn kommer fra kontoen din.</translation>
+<translation id="5406652219015697259">Dissenter tilbyr å lagre kort i Dissenter-kontoen din fordi du er logget på. Du kan endre dette i innstillingene. Kortinnehaverens navn kommer fra kontoen din.</translation>
 <translation id="6704582573942289642">Er dette riktig nettsted?</translation>
 <translation id="6710213216561001401">Forrige</translation>
 <translation id="6710594484020273272">&lt;Skriv inn en søketerm&gt;</translation>
@@ -1349,14 +1349,14 @@ brukere av denne nettleseren.</translation>
 <translation id="6874604403660855544">&amp;Legg til likevel</translation>
 <translation id="6884662655240309489">Størrelse 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave har forenklet denne siden for å gjøre den lettere å lese. Brave hentet den opprinnelige siden via en usikker forbindelse.</translation>
+<translation id="7265969755975834932">Dissenter har forenklet denne siden for å gjøre den lettere å lese. Dissenter hentet den opprinnelige siden via en usikker forbindelse.</translation>
 <translation id="6891596781022320156">Innstillingsnivået støttes ikke.</translation>
 <translation id="6895330447102777224">Kortet ditt er bekreftet</translation>
 <translation id="6897140037006041989">Brukeragent</translation>
 <translation id="6898699227549475383">Organisasjon (O)</translation>
 <translation id="6910240653697687763"><ph name="URL"/> ber om full kontroll over MIDI-enhetene dine</translation>
 <translation id="6915804003454593391">Bruker:</translation>
-<translation id="6722453239914327220">Dette navnet er fra Brave-kontoen din</translation>
+<translation id="6722453239914327220">Dette navnet er fra Dissenter-kontoen din</translation>
 <translation id="6944692733090228304">Du har skrevet inn passordet ditt på et nettsted som ikke administreres av <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. For å beskytte kontoen din må du ikke bruke det samme passordet i andre apper eller på andre nettsteder.</translation>
 <translation id="6945221475159498467">Velg</translation>
 <translation id="6948701128805548767">For å se hentemetoder og -krav, velg en adresse</translation>
@@ -1372,10 +1372,10 @@ brukere av denne nettleseren.</translation>
 <translation id="6972629891077993081">HID-enheter</translation>
 <translation id="6973656660372572881">Både statiske proxytjenere og en .pac-skriptnettadresse er angitt.</translation>
 <translation id="6973932557599545801">Beklager, jeg kan ikke hjelpe deg. Fortsett på egen hånd.</translation>
-<translation id="846000886289004690">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
-<translation id="6979158407327259162">Brave Disk</translation>
+<translation id="846000886289004690">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du går til <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
+<translation id="6979158407327259162">Dissenter Disk</translation>
 <translation id="6979440798594660689">Kutt lyden (standard)</translation>
-<translation id="1714833602699685456">Filer du laster ned, sendes til Brave Cloud eller tredjeparter for analyse. De kan for eksempel bli skannet for sensitive data eller skadelig programvare.</translation>
+<translation id="1714833602699685456">Filer du laster ned, sendes til Dissenter Cloud eller tredjeparter for analyse. De kan for eksempel bli skannet for sensitive data eller skadelig programvare.</translation>
 <translation id="6989763994942163495">Vis avanserte innstillinger</translation>
 <translation id="6993898126790112050">6x9 (konvolutt)</translation>
 <translation id="6996312675313362352">Oversett alltid <ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1398,7 +1398,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7083258188081898530">Skuff 9</translation>
 <translation id="7086090958708083563">Opplasting forespurt av bruker</translation>
 <translation id="7087282848513945231">Fylke</translation>
-<translation id="5711818857380891233">Søk på Brave etter <ph name="LINK"/></translation>
+<translation id="5711818857380891233">Søk på Dissenter etter <ph name="LINK"/></translation>
 <translation id="7108338896283013870">Skjul</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> ber om å bruke kameraet ditt</translation>
 <translation id="7108819624672055576">Tillatt av en utvidelse</translation>
@@ -1432,7 +1432,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7219179957768738017">Tilkoblingen bruker <ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">Behandler</translation>
 <translation id="7221855153210829124">Vis varsler</translation>
-<translation id="3619365259205518877">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
+<translation id="3619365259205518877">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
 <translation id="7233592378249864828">Skriv ut bekreftelsesark</translation>
 <translation id="7238585580608191973">SHA-256-fingeravtrykk</translation>
 <translation id="7240120331469437312">Alternativt navn på sertifikatemne</translation>
@@ -1454,7 +1454,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7320336641823683070">Tilkoblingshjelp</translation>
 <translation id="7323804146520582233">Skjul «<ph name="SECTION"/>»-delen</translation>
 <translation id="733354035281974745">Overstyrt av lokal konto på enheten</translation>
-<translation id="8539546768943490744">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
+<translation id="8539546768943490744">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du går til <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> og andre nettsteder der du bruker dette passordet, og endrer det nå.</translation>
 <translation id="7334320624316649418">&amp;Omorganiser likevel</translation>
 <translation id="7337706099755338005">Ikke tilgjengelig på plattformen din.</translation>
 <translation id="733923710415886693">Tjenerens sertifikat er ikke vist i henhold til regelen for sertifikatåpenhet.</translation>
@@ -1463,7 +1463,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">Kommandolinje </translation>
 <translation id="7372973238305370288">søkeresultat</translation>
-<translation id="3898257577441589237">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Brave stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Brave sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
+<translation id="3898257577441589237">Dette problemet oppstår på grunn av et sertifikat du eller noen andre har installert på enheten. Det er kjent at sertifikatet brukes til nettverksavlytting og -overvåking, og Dissenter stoler ikke på det. Selv om det finnes legitime bruksområder for overvåking, f.eks. på skole- eller bedriftsnettverk, vil Dissenter sørge for at du er klar over at det foregår, selv om du ikke kan stoppe det. Overvåking kan skje i alle nettlesere og applikasjoner som bruker nettet.</translation>
 <translation id="7375818412732305729">Filer legges ved</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> – <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Mediekontroller</translation>
@@ -1481,7 +1481,7 @@ brukere av denne nettleseren.</translation>
       &lt;li&gt;Velg &lt;strong&gt;Deaktivert&lt;/strong&gt; under &lt;strong&gt;Oppstartstype&lt;/strong&gt;.
       &lt;li&gt;Klikk på &lt;strong&gt;Stopp&lt;/strong&gt; under &lt;strong&gt;Tjenestestatus&lt;/strong&gt;.
       &lt;li&gt;Klikk på &lt;strong&gt;Bruk&lt;/strong&gt; og deretter på &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;brukerstøtten for Brave&lt;/a&gt; for å finne ut hvordan du fjerner programvaren fra datamaskinen permanent.
+      &lt;li&gt;Gå til &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;brukerstøtten for Dissenter&lt;/a&gt; for å finne ut hvordan du fjerner programvaren fra datamaskinen permanent.
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">Kjør Flash</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1501,7 +1501,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7481312909269577407">Frem</translation>
 <translation id="7485870689360869515">Ingen data ble funnet.</translation>
 <translation id="7488762544858401571">Redigert</translation>
-<translation id="3692186536781145635">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Brave anbefaler at du sjekker de lagrede passordene dine og endrer passordet på <ph name="ORIGIN"/> nå.</translation>
+<translation id="3692186536781145635">Et databrudd på et nettsted eller i en app har avdekket passordet ditt. Dissenter anbefaler at du sjekker de lagrede passordene dine og endrer passordet på <ph name="ORIGIN"/> nå.</translation>
 <translation id="7495528107193238112">Dette innholdet er blokkert. Kontakt nettstedseieren for å løse problemet.</translation>
 <translation id="7498234416455752244">Fortsett å endre</translation>
 <translation id="7508255263130623398">Den returnerte enhets-ID-en for regelen er tom eller samsvarer ikke med den faktiske enhets-ID-en</translation>
@@ -1519,13 +1519,13 @@ brukere av denne nettleseren.</translation>
 <translation id="7542995811387359312">Automatisk utfylling av kredittkort er deaktivert fordi dette skjemaet ikke bruker en sikker tilkobling.</translation>
 <translation id="7548892272833184391">Fiks tilkoblingsfeil</translation>
 <translation id="7549584377607005141">Denne nettsiden krever data som du har skrevet inn tidligere for å vises korrekt. Du kan sende inn dataene på nytt, men hvis du gjør det, gjentas eventuelle handlinger denne siden utførte.</translation>
-<translation id="5474381306981932386">Brukernavnet ditt på enheten og i Brave</translation>
+<translation id="5474381306981932386">Brukernavnet ditt på enheten og i Dissenter</translation>
 <translation id="7552846755917812628">Prøv følgende tips:</translation>
 <translation id="7554791636758816595">Ny fane</translation>
 <translation id="7567204685887185387">Denne tjeneren kunne ikke bevise at den er <ph name="DOMAIN"/>. Tjenerens sikkerhetssertifikat kan ha blitt utstedt på uredelig vis. Dette kan være forårsaket av en feilkonfigurering eller en angriper som avskjærer tilkoblingen din.</translation>
 <translation id="7569983096843329377">Svart</translation>
 <translation id="7575207903026901870">Knapp for å fjerne forslag – trykk på Enter for å fjerne dette forslaget</translation>
-<translation id="405970181812690156">Når du lagrer kort med Brave, kan du bruke dem til å betale raskt på nettsteder og i apper – uansett hvilken enhet du bruker.</translation>
+<translation id="405970181812690156">Når du lagrer kort med Dissenter, kan du bruke dem til å betale raskt på nettsteder og i apper – uansett hvilken enhet du bruker.</translation>
 <translation id="7581199239021537589">Y-forskyvning av bilde på side 2</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> vil bruke informasjonskapsler og nettstedsdata på <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">Tjenerens sertifikat bryter navnereglene.</translation>
@@ -1534,12 +1534,12 @@ brukere av denne nettleseren.</translation>
 <translation id="7600965453749440009">Oversett aldri <ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">Verdien er utenfor rekkevidden <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">Utløpsdato: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">Du har allerede data som er kryptert med en annen versjon av Brave-kontopassordet ditt. Skriv det inn nedenfor.</translation>
-<translation id="8565825862287624454">Administratoren har slått på Brave Enterprise Connectors i nettleseren din. Disse koblingene har tilgang til noen av dataene dine.</translation>
+<translation id="6994126885316933886">Du har allerede data som er kryptert med en annen versjon av Dissenter-kontopassordet ditt. Skriv det inn nedenfor.</translation>
+<translation id="8565825862287624454">Administratoren har slått på Dissenter Enterprise Connectors i nettleseren din. Disse koblingene har tilgang til noen av dataene dine.</translation>
 <translation id="7619838219691048931">Sluttark</translation>
 <translation id="762844065391966283">Enkeltvis</translation>
 <translation id="7633909222644580952">Ytelsesdata og programstopprapporter</translation>
-<translation id="6386821459680628976">Vil du fjerne kredittkortet fra Brave?</translation>
+<translation id="6386821459680628976">Vil du fjerne kredittkortet fra Dissenter?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Ingen}=1{1 passord i kontoen (for <ph name="DOMAIN_LIST"/>)}other{# passord i kontoen (for <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Serielle porter</translation>
 <translation id="7639968568612851608">Mørk grå</translation>
@@ -1592,9 +1592,9 @@ brukere av denne nettleseren.</translation>
 <translation id="7802523362929240268">Nettstedet er legitimt</translation>
 <translation id="780301667611848630">Nei takk</translation>
 <translation id="7805768142964895445">Status</translation>
-<translation id="3350174497208615172">Endre innstillingene for søkemotor i Brave</translation>
+<translation id="3350174497208615172">Endre innstillingene for søkemotor i Dissenter</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Vil du fjerne skjemaforslaget fra Brave?</translation>
+<translation id="4670564340385807132">Vil du fjerne skjemaforslaget fra Dissenter?</translation>
 <translation id="781440967107097262">Vil du dele utklippstavlen din?</translation>
 <translation id="7815407501681723534">Fant <ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/> for «<ph name="SEARCH_STRING"/>»</translation>
 <translation id="782886543891417279">Det kan hende at Wi-Fi-nettverket du bruker (<ph name="WIFI_NAME"/>), krever at du besøker en påloggingsside.</translation>
@@ -1603,7 +1603,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">Vil du forlate nettstedet?</translation>
 <translation id="7865448901209910068">Beste hastighet</translation>
-<translation id="1012292338579042608">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
+<translation id="1012292338579042608">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
 <translation id="7878562273885520351">Passordet ditt kan være kompromittert</translation>
 <translation id="7882421473871500483">Brun</translation>
 <translation id="7887683347370398519">Kontrollér CVC-koden din, og prøv igjen.</translation>
@@ -1613,7 +1613,7 @@ brukere av denne nettleseren.</translation>
 <translation id="7932579305932748336">Belegg</translation>
 <translation id="79338296614623784">Angi et gyldig telefonnummer</translation>
 <translation id="7934052535022478634">Betalingen er fullført</translation>
-<translation id="8329449853370113380"><ph name="URL"/> vil spille av beskyttet innhold. Identiteten til enheten din blir bekreftet av Brave.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> vil spille av beskyttet innhold. Identiteten til enheten din blir bekreftet av Dissenter.</translation>
 <translation id="7935031712718413217">Nettadresse med mulig forfalskning</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Utløper <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1645,11 +1645,11 @@ brukere av denne nettleseren.</translation>
 <translation id="8042918947222776840">Velg hentemåte</translation>
 <translation id="8057711352706143257">«<ph name="SOFTWARE_NAME"/>» er ikke riktig konfigurert. Avinstallering av «<ph name="SOFTWARE_NAME"/>» løser vanligvis problemet. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">Beklager, noe gikk galt.</translation>
-<translation id="5442778523450464826">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave kan hjelpe deg. For å bytte passord og varsle Brave om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
+<translation id="5442778523450464826">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter kan hjelpe deg. For å bytte passord og varsle Dissenter om at kontoen din kanskje er i fare, klikk på Beskytt konto.</translation>
 <translation id="8074253406171541171">10x13 (konvolutt)</translation>
 <translation id="8078141288243656252">Kan ikke legge til annoteringer når dokumentet er rotert</translation>
 <translation id="8079031581361219619">Vil du laste inn nettstedet på nytt?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">Utkast</translation>
 <translation id="8088680233425245692">Kunne ikke åpne artikkelen.</translation>
 <translation id="808894953321890993">Endre passord</translation>
@@ -1668,7 +1668,7 @@ brukere av denne nettleseren.</translation>
 <translation id="8150722005171944719">Kunne ikke lese filen på <ph name="URL"/> Den kan ha blitt fjernet eller flyttet. Det kan også være filtillatelser som forhindrer tilgang.</translation>
 <translation id="8157295877370077682">Forlat nettstedet</translation>
 <translation id="8163866351304776260">Fire hull venstre</translation>
-<translation id="4351627595884993315">Brave tilbyr å lagre kort i Brave-kontoen din fordi du er logget på. Du kan endre dette i innstillingene.</translation>
+<translation id="4351627595884993315">Dissenter tilbyr å lagre kort i Dissenter-kontoen din fordi du er logget på. Du kan endre dette i innstillingene.</translation>
 <translation id="8184538546369750125">Bruk global standardinnstilling (Tillat)</translation>
 <translation id="8194797478851900357">&amp;Angre flyttingen</translation>
 <translation id="8197543752516192074">Oversett siden</translation>
@@ -1679,7 +1679,7 @@ brukere av denne nettleseren.</translation>
 <translation id="8211406090763984747">Tilkoblingen er sikker</translation>
 <translation id="8218327578424803826">Tilordnet posisjon:</translation>
 <translation id="8220146938470311105">C7/C6 (konvolutt)</translation>
-<translation id="3272614036080146686">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du går til <ph name="WEBSITE_1"/>, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
+<translation id="3272614036080146686">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du går til <ph name="WEBSITE_1"/>, samt andre nettsteder der du bruker dette passordet, og bytter det nå.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">Plattformtemperatur</translation>
 <translation id="8241707690549784388">Siden du ser etter, brukte informasjon som du anga. Hvis du går tilbake til denne siden, kan det føre til at handlinger som er utført, blir gjentatt. Vil du fortsette?</translation>
@@ -1706,7 +1706,7 @@ brukere av denne nettleseren.</translation>
 <translation id="830498451218851433">Halvfals</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">hvilke apper som er installert, og hvor ofte de brukes</translation>
-<translation id="8390490312179389407">Denne siden er mistenkelig (merket av Brave).</translation>
+<translation id="8390490312179389407">Denne siden er mistenkelig (merket av Dissenter).</translation>
 <translation id="831997045666694187">Kveld</translation>
 <translation id="8332188693563227489">Forsøket på å koble til <ph name="HOST_NAME"/> ble avvist</translation>
 <translation id="833262891116910667">Fremhev</translation>
@@ -1737,14 +1737,14 @@ Mer informasjon:
 <translation id="8473863474539038330">Adresser med mer</translation>
 <translation id="8474910779563686872">Vis utviklerdetaljer</translation>
 <translation id="8479754468255770962">Stift nede til venstre</translation>
-<translation id="5142582872611298328">For å bruke kredittkort du har lagret i Brave-kontoen din, logg på Brave</translation>
+<translation id="5142582872611298328">For å bruke kredittkort du har lagret i Dissenter-kontoen din, logg på Dissenter</translation>
 <translation id="8488350697529856933">Gjelder for</translation>
 <translation id="8490137692873530638">Hylle 10</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> brukte for lang tid på å svare.</translation>
-<translation id="230699814587342492">Brave-passord</translation>
+<translation id="230699814587342492">Dissenter-passord</translation>
 <translation id="8503813439785031346">Brukernavn</translation>
 <translation id="8508648098325802031">Søkeikon</translation>
-<translation id="1426902392270366682">Brave kan hjelpe deg med å beskytte Brave-kontoen din og endre passordet ditt.</translation>
+<translation id="1426902392270366682">Dissenter kan hjelpe deg med å beskytte Dissenter-kontoen din og endre passordet ditt.</translation>
 <translation id="8541158209346794904">Bluetooth-enhet</translation>
 <translation id="8542014550340843547">Tre stifter bunn</translation>
 <translation id="8543181531796978784">Du kan <ph name="BEGIN_ERROR_LINK"/>rapportere et påvisningsproblem<ph name="END_ERROR_LINK"/> eller, hvis du forstår sikkerhetsrisikoen, <ph name="BEGIN_LINK"/>gå til dette usikre nettstedet<ph name="END_LINK"/>.</translation>
@@ -1777,7 +1777,7 @@ Mer informasjon:
 <translation id="8719528812645237045">Flere hull topp</translation>
 <translation id="8725066075913043281">Prøv igjen</translation>
 <translation id="8730621377337864115">Ferdig</translation>
-<translation id="6326805297893828864">Klokken din må være riktig stilt for at du skal kunne opprette en sikker forbindelse. Sertifikatene som nettsteder bruker til å identifisere seg med, er nemlig bare gyldige i en viss tid. Siden enhetens klokke er feil, kan ikke Brave kontrollere disse sertifikatene.</translation>
+<translation id="6326805297893828864">Klokken din må være riktig stilt for at du skal kunne opprette en sikker forbindelse. Sertifikatene som nettsteder bruker til å identifisere seg med, er nemlig bare gyldige i en viss tid. Siden enhetens klokke er feil, kan ikke Dissenter kontrollere disse sertifikatene.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;DNS-adressen&lt;/abbr&gt; til <ph name="HOST_NAME"/> ble ikke funnet. Problemet diagnostiseres.</translation>
 <translation id="874918643257405732">Bokmerk denne fanen</translation>
 <translation id="8751426954251315517">Prøv på nytt neste gang</translation>
@@ -1785,11 +1785,11 @@ Mer informasjon:
 <translation id="87601671197631245">Dette nettstedet bruker en utdatert sikkerhetskonfigurasjon, som betyr at informasjonen din (for eksempel passord, meldinger eller kredittkort) kan bli avslørt når den sendes til dette nettstedet.</translation>
 <translation id="8761567432415473239">Google Safe Browsing oppdaget nylig <ph name="BEGIN_LINK"/>skadelige programmer<ph name="END_LINK"/> på <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">USB-enhet</translation>
-<translation id="565908431635579039">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Brave anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
+<translation id="565908431635579039">Du har nettopp skrevet inn passordet ditt på et villedende nettsted. Dissenter anbefaler at du sjekker de lagrede passordene dine for <ph name="WEBSITE_1"/> og andre nettsteder der du bruker dette passordet, nå.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Slett likevel</translation>
-<translation id="5304100303568917877">Du kan miste tilgangen til <ph name="ORG_NAME"/>-kontoen din eller bli utsatt for identitetstyveri. Brave anbefaler at du endrer passordet ditt nå.</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> har slått på Brave Enterprise Connectors i nettleseren din. Disse koblingene har tilgang til noen av dataene dine.</translation>
+<translation id="5304100303568917877">Du kan miste tilgangen til <ph name="ORG_NAME"/>-kontoen din eller bli utsatt for identitetstyveri. Dissenter anbefaler at du endrer passordet ditt nå.</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> har slått på Dissenter Enterprise Connectors i nettleseren din. Disse koblingene har tilgang til noen av dataene dine.</translation>
 <translation id="8800988563907321413">Forslagene dine om ting like ved vises her</translation>
 <translation id="8805819170075074995">Listeoppføringen «<ph name="LANGUAGE_ID"/>»: Oppføringen er ignorert fordi den også er inkludert i regelen SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Beskjær etter hver side</translation>
@@ -1797,8 +1797,8 @@ Mer informasjon:
 <translation id="883848425547221593">Andre bokmerker</translation>
 <translation id="884264119367021077">Leveringsadresse</translation>
 <translation id="884923133447025588">Finner ingen tilbakekallingsmekanisme.</translation>
-<translation id="7487066225574140895">Deling med Brave</translation>
-<translation id="4764754838347156633">Brave anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> hvis du også har brukt det på andre nettsteder.</translation>
+<translation id="7487066225574140895">Deling med Dissenter</translation>
+<translation id="4764754838347156633">Dissenter anbefaler at du tilbakestiller passordet ditt for <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> hvis du også har brukt det på andre nettsteder.</translation>
 <translation id="8866481888320382733">Analysefeil i angivelsen av enhetrsinnstillinger</translation>
 <translation id="8866928039507595380">Fals</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1810,15 +1810,15 @@ Mer informasjon:
 <translation id="8903921497873541725">Zoom inn</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Knapp for å fjerne forslag – trykk på Enter for å fjerne. <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Brave-konto</translation>
+<translation id="2684652081942622950">Dissenter-konto</translation>
 <translation id="8918231688545606538">Denne siden er mistenkelig</translation>
 <translation id="892588693504540538">Hull oppe til høyre</translation>
-<translation id="7757992844965332255">Vil du lagre dette kortet i Brave-kontoen din?</translation>
+<translation id="7757992844965332255">Vil du lagre dette kortet i Dissenter-kontoen din?</translation>
 <translation id="8932102934695377596">Klokken går for sent</translation>
 <translation id="893332455753468063">Legg til navn</translation>
 <translation id="8943282376843390568">Limegrønn</translation>
 <translation id="8957210676456822347">Captive Portal-autorisasjon</translation>
-<translation id="109444839364056698">Når Brave Enterprise Connectors merker sikkerhetshendelser, blir relevante data om hendelsene sendt til administratoren din. Dette kan omfatte nettadressene til sider du besøker i Brave, filnavn, metadata og brukernavnet du bruker når du logger på enheten din og Brave.</translation>
+<translation id="109444839364056698">Når Dissenter Enterprise Connectors merker sikkerhetshendelser, blir relevante data om hendelsene sendt til administratoren din. Dette kan omfatte nettadressene til sider du besøker i Dissenter, filnavn, metadata og brukernavnet du bruker når du logger på enheten din og Dissenter.</translation>
 <translation id="8962950042226115166">Mistenkelig nettsted</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>Forslag:<ph name="MARKUP_2"/>Sjekk at du har datatilkobling.<ph name="MARKUP_3"/>Last inn denne nettsiden på nytt senere.<ph name="MARKUP_4"/>Kontrollér adressen du har skrevet inn.<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">Lagre kortet</translation>
@@ -1826,7 +1826,7 @@ Mer informasjon:
 <translation id="8975012916872825179">Inkluderer informasjon som telefonnumre, e-postadresser og leveringsadresser</translation>
 <translation id="8975263830901772334">Navnene på filer du skriver ut</translation>
 <translation id="8978053250194585037">Google Safe Browsing <ph name="BEGIN_LINK"/>oppdaget nylig nettfisking<ph name="END_LINK"/> på <ph name="SITE"/>. Nettsteder for nettfisking er laget for å ligne på andre nettsteder, for å prøve å lure deg.</translation>
-<translation id="5889706513445719653">Betalingsmåter og adresser som bruker Brave Pay</translation>
+<translation id="5889706513445719653">Betalingsmåter og adresser som bruker Dissenter Pay</translation>
 <translation id="8987927404178983737">Måned</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">Nettstedet du er i ferd med å åpne, inneholder skadelige programmer</translation>
@@ -1855,10 +1855,10 @@ Mer informasjon:
 <translation id="9089260154716455634">Regler for bruk utenom arbeidstiden:</translation>
 <translation id="9095388113577226029">Flere språk</translation>
 <translation id="9101630580131696064">Skuff 1</translation>
-<translation id="6373940988468425649"><ph name="SITE"/> bruker vanligvis kryptering for å beskytte informasjonen din. Da Brave prøvde å koble til <ph name="SITE"/> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE"/>, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Brave stoppet tilkoblingen før det ble utvekslet noen data.</translation>
+<translation id="6373940988468425649"><ph name="SITE"/> bruker vanligvis kryptering for å beskytte informasjonen din. Da Dissenter prøvde å koble til <ph name="SITE"/> denne gangen, sendte nettstedet tilbake uvanlig og feil legitimasjon. Dette kan skje hvis en angriper prøver å utgi seg for å være <ph name="SITE"/>, eller hvis en Wi-Fi-påloggingsskjerm har avbrutt tilkoblingen. Informasjonen din er likevel sikker fordi Dissenter stoppet tilkoblingen før det ble utvekslet noen data.</translation>
 <translation id="9106062320799175032">Legg til faktureringsadresse</translation>
 <translation id="9114524666733003316">Bekrefter kortet …</translation>
-<translation id="3582535072753734287">Denne nettleseren administreres ikke av et selskap eller en annen organisasjon. Aktiviteten på denne enheten kan bli administrert utenfor Brave. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Denne nettleseren administreres ikke av et selskap eller en annen organisasjon. Aktiviteten på denne enheten kan bli administrert utenfor Dissenter. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">Opplastet</translation>
 <translation id="9128870381267983090">Koble til nettverk</translation>
 <translation id="9137013805542155359">Vis original</translation>
@@ -1866,7 +1866,7 @@ Mer informasjon:
 <translation id="9148088599418889305">Velg leveringsmåte</translation>
 <translation id="9148507642005240123">&amp;Angre endringen</translation>
 <translation id="9150045010208374699">bruke kameraet ditt</translation>
-<translation id="5874192512642998555">Administratoren kan endre nettleseroppsettet eksternt. Aktiviteten på denne enheten kan også bli administrert utenfor Brave. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Administratoren kan endre nettleseroppsettet eksternt. Aktiviteten på denne enheten kan også bli administrert utenfor Dissenter. <ph name="BEGIN_LINK"/>Finn ut mer<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Oppdatert</translation>
 <translation id="9157595877708044936">Konfigurerer ...</translation>
 <translation id="9158625974267017556">C6 (konvolutt)</translation>
@@ -1877,17 +1877,17 @@ Mer informasjon:
 <translation id="9173282814238175921">Enkeltdokument / nytt ark</translation>
 <translation id="917450738466192189">Tjenerens sertifikat er ugyldig.</translation>
 <translation id="9174917557437862841">Knappen for å bytte fane – trykk på Enter for å bytte til denne fanen</translation>
-<translation id="9183302530794969518">Brave Dokumenter</translation>
+<translation id="9183302530794969518">Dissenter Dokumenter</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> bruker en protokoll som ikke støttes.</translation>
 <translation id="9191834167571392248">Hull nede til venstre</translation>
 <translation id="9205078245616868884">Dataene dine er kryptert med passordfrasen din for synkronisering. Skriv den inn for å starte synkroniseringen.</translation>
 <translation id="9207861905230894330">Kunne ikke legge til artikkelen.</translation>
-<translation id="2206050430829841793">Et program hindrer Brave i å koble trygt til dette nettstedet.</translation>
+<translation id="2206050430829841793">Et program hindrer Dissenter i å koble trygt til dette nettstedet.</translation>
 <translation id="9219103736887031265">Bilder</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">SLETT INNHOLDET I SKJEMAET</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Du kan miste tilgangen til Brave-kontoen din. Brave anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
+<translation id="7486559383537872796">Du kan miste tilgangen til Dissenter-kontoen din. Dissenter anbefaler at du endrer passordet ditt nå. Du blir bedt om å logge på.</translation>
 <translation id="939736085109172342">Ny mappe</translation>
 <translation id="945855313015696284">Gå gjennom informasjonen nedenfor, og slett eventuelle ugyldige kort</translation>
 <translation id="950736567201356821">Tre hull topp</translation>
@@ -1912,7 +1912,7 @@ Mer informasjon:
     &lt;li&gt;Prøv å koble til et annet nettverk&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">Fra Brave Pay</translation>
+<translation id="6771143571626203666">Fra Dissenter Pay</translation>
 <translation id="8820817407110198400">Bokmerker</translation>
 <translation id="8362995731815961365">Personen som konfigurerte denne datamaskinen, har valgt å blokkere dette nettstedet.</translation>
 <translation id="4075123085690634698">Åpne siden i et nytt inkognitovindu (⇧ + ⌘ + N)</translation>
@@ -1924,7 +1924,7 @@ Mer informasjon:
 <translation id="2227116904818538760">Nå er du inkognito</translation>
 <translation id="2007417459975034427">Nå kan du surfe privat. Andre som bruker denne enheten, ser ikke aktiviteten din, men nedlastinger og bokmerker blir lagret.</translation>
 <translation id="2586968635953373425">Åpne et inkognitovindu</translation>
-<translation id="3489858312836205593">Åpne et nytt inkognitovindu i Brave</translation>
+<translation id="3489858312836205593">Åpne et nytt inkognitovindu i Dissenter</translation>
 <translation id="6984479912851154518">Går ut av inkognitomodus for å betale via en ekstern app. Vil du fortsette?</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Trinn 1: Logg på portalen&lt;/h4&gt;
     &lt;p&gt;Wi-Fi-nettverk på steder som kaféer eller flyplasser krever at du logger på. For å se påloggingssiden, åpne en side som bruker &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -1934,11 +1934,11 @@ Mer informasjon:
     &lt;/ol&gt;
     &lt;h4&gt;Trinn 2: Åpne siden i inkognitomodus (bare på datamaskiner)&lt;/h4&gt;
     &lt;p&gt;Åpne siden du besøkte, i et inkognitovindu.&lt;/p&gt;
-    &lt;p&gt;Hvis siden åpnes, har du en Brave-utvidelse som ikke fungerer som den skal. For å fikse feilen, slå av utvidelsen.&lt;/p&gt;
+    &lt;p&gt;Hvis siden åpnes, har du en Dissenter-utvidelse som ikke fungerer som den skal. For å fikse feilen, slå av utvidelsen.&lt;/p&gt;
     &lt;h4&gt;Trinn 3: Oppdater operativsystemet&lt;/h4&gt;
     &lt;p&gt;Sørg for at enheten din er oppdatert.&lt;/p&gt;
     &lt;h4&gt;Trinn 4: Slå av antivirusprogramvaren midlertidig&lt;/h4&gt;
-    &lt;p&gt;Du ser denne feilmeldingen hvis du har antivirusprogramvare som tilbyr «HTTPS-beskyttelse» eller «HTTPS-skanning», noe som gjør at sikkerhetsfunksjonene i Brave ikke fungerer.&lt;/p&gt;
+    &lt;p&gt;Du ser denne feilmeldingen hvis du har antivirusprogramvare som tilbyr «HTTPS-beskyttelse» eller «HTTPS-skanning», noe som gjør at sikkerhetsfunksjonene i Dissenter ikke fungerer.&lt;/p&gt;
     &lt;p&gt;For å fikse dette problemet, slå av antivirusprogramvaren. Hvis siden fungerer når du har slått av programvaren, bør du slå den av når du bruker sikre nettsteder.&lt;/p&gt;
     &lt;p&gt;Husk å slå på antivirusprogramvaren igjen når du er ferdig.&lt;/p&gt;
     &lt;h4&gt;Trinn 5: Få mer hjelp&lt;/h4&gt;

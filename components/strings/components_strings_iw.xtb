@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">הוספת השם שמופיע בכרטיס</translation>
 <translation id="1089439967362294234">שינוי סיסמה</translation>
 <translation id="1096545575934602868">השדה הזה יכול לכלול עד <ph name="MAX_ITEMS_LIMIT"/> רשומות. כל הרשומות הנוספות יימחקו.</translation>
-<translation id="1920681928837417101">‏ניהול סיסמאות בהגדרות Brave</translation>
+<translation id="1920681928837417101">‏ניהול סיסמאות בהגדרות Dissenter</translation>
 <translation id="1101672080107056897">פעולת שגיאה</translation>
 <translation id="1103523840287552314">ברצוני לקבל תרגום מ<ph name="LANGUAGE"/> תמיד</translation>
 <translation id="1110994991967754504">צריך לבחור את ההרשאה של <ph name="PERMISSION_NAME"/></translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">ללא שם</translation>
 <translation id="1236081509407217141">‏להתיר VR?</translation>
 <translation id="1240347957665416060">שם המכשיר שלך</translation>
-<translation id="1052005765108026699">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Brave את פרטי הכרטיס, השם והכתובת לחיוב.</translation>
+<translation id="1052005765108026699">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Dissenter את פרטי הכרטיס, השם והכתובת לחיוב.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (מסונכרנים)</translation>
 <translation id="1256368399071562588">‏&lt;p&gt;אם אתם מנסים להיכנס לאתר והוא לא נפתח, קודם נסו לפתור את הבעיה בעזרת השלבים הבאים:&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">שיטת איסוף</translation>
 <translation id="1281476433249504884">מערים 1</translation>
 <translation id="1285320974508926690">איני רוצה לקבל תרגום של אתר זה</translation>
-<translation id="1209478311331937175">‏"יש תוכנה במחשב שלך שמונעת מ-Brave להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
+<translation id="1209478311331937175">‏"יש תוכנה במחשב שלך שמונעת מ-Dissenter להתחבר באופן מאובטח אל האינטרנט" (מחשבי Windows בלבד)</translation>
 <translation id="1294154142200295408">וריאציות של שורת פקודה</translation>
 <translation id="129553762522093515">נסגרו לאחרונה</translation>
 <translation id="129863573139666797">‏<ph name="BEGIN_LINK"/>נסה לנקות את קובצי ה-Cookie<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">הדפסה</translation>
 <translation id="1442386063175183758">כנף ימנית בקיפול</translation>
 <translation id="1442987760062738829">ניקוב</translation>
-<translation id="7408760246081928496">‏טקסט שמדביקים או מצרפים בקובץ נשלח ל-Brave Cloud או לצדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהטקסט יעבור סריקה כדי לאתר מידע אישי רגיש.</translation>
+<translation id="7408760246081928496">‏טקסט שמדביקים או מצרפים בקובץ נשלח ל-Dissenter Cloud או לצדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהטקסט יעבור סריקה כדי לאתר מידע אישי רגיש.</translation>
 <translation id="1455413310270022028">כלי מחיקה</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5x7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">עליך לשנות את הסיסמה</translation>
 <translation id="1484290072879560759">בחירת כתובת למשלוח</translation>
 <translation id="1492194039220927094">דחיפת מדיניות:</translation>
-<translation id="1812569385220097122">‏הצגת כרטיסים מחשבון Brave שלך</translation>
+<translation id="1812569385220097122">‏הצגת כרטיסים מחשבון Dissenter שלך</translation>
 <translation id="1507202001669085618">‏&lt;p&gt;השגיאה הזו תוצג אם אתם משתמשים בפורטל Wi-Fi שבו צריך להיכנס לחשבון לפני התחברות לרשת.&lt;/p&gt;
     &lt;p&gt;כדי לפתור את השגיאה, צריך ללחוץ על &lt;strong&gt;התחברות&lt;/strong&gt; בדף שמנסים לפתוח.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">רשימה של רשומות היסטוריות</translation>
 <translation id="1517433312004943670">יש צורך במספר טלפון</translation>
 <translation id="1519264250979466059">‏תאריך ה-Build</translation>
-<translation id="5524011986660000129">Brave Sheets</translation>
+<translation id="5524011986660000129">Dissenter Sheets</translation>
 <translation id="1527263332363067270">תיכף נתחבר…</translation>
 <translation id="1529521330346880926">10x15 (Envelope)‎</translation>
 <translation id="1529789484829130889">מגש 8</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">היסטוריה</translation>
 <translation id="1645368109819982629">פרוטוקול לא נתמך</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">‏Brave יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Brave באמצעות חיבור מאובטח.</translation>
+<translation id="3848846802033604519">‏Dissenter יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Dissenter באמצעות חיבור מאובטח.</translation>
 <translation id="1656489000284462475">איסוף</translation>
 <translation id="1662550410081243962">שמירה ומילוי של אמצעי תשלום</translation>
-<translation id="1838576226863399477">‏הכרטיסים והכתובות נלקחים מ-Brave. אפשר לנהל אותם ב<ph name="BEGIN_LINK"/>הגדרות<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">‏הכרטיסים והכתובות נלקחים מ-Dissenter. אפשר לנהל אותם ב<ph name="BEGIN_LINK"/>הגדרות<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">דפים ב<ph name="SOURCE_LANGUAGE"/> יתורגמו מעכשיו ל<ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1682696192498422849">הקצה הקצר ראשון</translation>
 <translation id="168693727862418163">אימות ערך המדיניות הזה נכשל בבדיקה מול הסכימה והמערכת תתעלם ממנו.</translation>
@@ -213,7 +213,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">יש לעדכן את משפט-הסיסמה של הסינכרון.</translation>
 <translation id="1787142507584202372">כאן מופיעות הכרטיסיות שאתה פותח</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">שם בעל הכרטיס</translation>
 <translation id="1807528111851433570">גיליון ראשון</translation>
@@ -226,7 +226,7 @@
 <translation id="1842969606798536927">לתשלום</translation>
 <translation id="1871208020102129563">‏שרת ה-Proxy מוגדר להשתמש בשרתי Proxy קבועים, לא בכתובת אתר של סקריפט ‎.Pac</translation>
 <translation id="1871284979644508959">שדה חובה</translation>
-<translation id="85321348617848915">Brave Forms</translation>
+<translation id="85321348617848915">Dissenter Forms</translation>
 <translation id="187918866476621466">פתח דפי פתיחה</translation>
 <translation id="1883255238294161206">כווץ רשימה</translation>
 <translation id="1898423065542865115">סינון</translation>
@@ -243,13 +243,13 @@
 <translation id="192020519938775529">{COUNT,plural, =0{ללא}=1{אתר אחד}two{שני אתרים}many{# אתרים}other{# אתרים}}</translation>
 <translation id="194030505837763158">עבור ל-<ph name="LINK"/></translation>
 <translation id="1947454675006758438">סיכת הידוק בפינה הימנית העליונה</translation>
-<translation id="990584554013599191">‏כדי לעזור לנו לשפר את האבטחה באינטרנט לטובת כולם, המערכת תשלח אל Brave <ph name="BEGIN_WHITEPAPER_LINK"/>כתובות URL של כמה מהדפים שנכנסת אליהם, מידע מוגבל על המערכת וחלק מהתוכן של הדפים<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>מדיניות פרטיות<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">‏כדי לעזור לנו לשפר את האבטחה באינטרנט לטובת כולם, המערכת תשלח אל Dissenter <ph name="BEGIN_WHITEPAPER_LINK"/>כתובות URL של כמה מהדפים שנכנסת אליהם, מידע מוגבל על המערכת וחלק מהתוכן של הדפים<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>מדיניות פרטיות<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436">סימניות של <ph name="DOMAIN"/></translation>
 <translation id="1973335181906896915">שגיאה בעריכה בסידרה</translation>
 <translation id="1974060860693918893">מתקדם</translation>
 <translation id="1975584088563498795">תיבת דואר 10</translation>
 <translation id="1978555033938440688">גרסת קושחה</translation>
-<translation id="711418501679417607">‏ניקוי נתוני היסטוריית הגלישה של Brave</translation>
+<translation id="711418501679417607">‏ניקוי נתוני היסטוריית הגלישה של Dissenter</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">‏לקבל גישה לקובצי Cookie ולנתוני אתרים.
 
@@ -265,7 +265,7 @@
 <translation id="2030481566774242610">האם התכוונת ל-<ph name="LINK"/>?</translation>
 <translation id="2032962459168915086">‏<ph name="BEGIN_LINK"/>לבדוק את שרת ה-Proxy ואת חומת האש<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">מגש 7</translation>
-<translation id="3163988908275223348">‏כדי להשתמש בסיסמאות השמורות בחשבון Brave, עליך להיכנס שוב לחשבון</translation>
+<translation id="3163988908275223348">‏כדי להשתמש בסיסמאות השמורות בחשבון Dissenter, עליך להיכנס שוב לחשבון</translation>
 <translation id="2053111141626950936">דפים ב<ph name="LANGUAGE"/> לא יתורגמו.</translation>
 <translation id="2053553514270667976">מספר / מיקוד</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{הצעה אחת}two{שתי הצעות}many{# הצעות}other{# הצעות}}</translation>
@@ -318,7 +318,7 @@
 <translation id="2258928405015593961">צריך להזין תאריך תפוגה עתידי ולנסות שוב</translation>
 <translation id="225943865679747347">קוד שגיאה: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">‏שגיאת HTTP</translation>
-<translation id="112540507627099823">‏עדכון המילוי האוטומטי של פרטי כרטיס אשראי בהגדרות Brave</translation>
+<translation id="112540507627099823">‏עדכון המילוי האוטומטי של פרטי כרטיס אשראי בהגדרות Dissenter</translation>
 <translation id="2267047181501709434">מתבצע אימות של הזהות שלך...</translation>
 <translation id="2270484714375784793">מספר טלפון</translation>
 <translation id="2276057643614339130">בסיס הדפסה</translation>
@@ -339,7 +339,7 @@
 <translation id="2344028582131185878">הורדות אוטומטיות</translation>
 <translation id="2346319942568447007">תמונה שהעתקת</translation>
 <translation id="2354001756790975382">סימניות אחרות</translation>
-<translation id="2354430244986887761">‏התכונה 'גלישה בטוחה' של Brave <ph name="BEGIN_LINK"/>מצאה לאחרונה יישומים מזיקים<ph name="END_LINK"/> באתר <ph name="SITE"/>.</translation>
+<translation id="2354430244986887761">‏התכונה 'גלישה בטוחה' של Dissenter <ph name="BEGIN_LINK"/>מצאה לאחרונה יישומים מזיקים<ph name="END_LINK"/> באתר <ph name="SITE"/>.</translation>
 <translation id="2355395290879513365">ייתכן שתוקפים יוכלו לראות את התמונות שבהן אתה צופה באתר זה, ולאחר מכן הם ינסו להונות אותך על ידי שינוי התמונות.</translation>
 <translation id="2356070529366658676">שאל</translation>
 <translation id="2359629602545592467">מטבעות מרובים</translation>
@@ -369,7 +369,7 @@
 <translation id="2491120439723279231">אישור השרת מכיל שגיאות.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">‏מנתח JSON</translation>
-<translation id="5047769237368272183">‏אם האפשרות תסומן, Brave ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
+<translation id="5047769237368272183">‏אם האפשרות תסומן, Dissenter ישמור עותק של הכרטיס במכשיר הזה כדי למלא טפסים במהירות רבה יותר.</translation>
 <translation id="2498091847651709837">סריקת כרטיס חדש</translation>
 <translation id="2501278716633472235">חזרה</translation>
 <translation id="2505268675989099013">הגנה על החשבון</translation>
@@ -433,12 +433,12 @@
 <translation id="277133753123645258">שיטת משלוח</translation>
 <translation id="277499241957683684">חסרה רשומת מכשיר</translation>
 <translation id="2775884851269838147">דף מודפס ראשון</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">החיבור עבר איפוס.</translation>
 <translation id="2792012897584536778">מנהלי מערכת של המכשיר הזה הגדירו אישורי אבטחה שעשויים לאפשר להם לראות את התוכן של אתרים שביקרת בהם.</translation>
 <translation id="2799020568854403057">האתר הבא מכיל יישומים מזיקים</translation>
 <translation id="2799223571221894425">הפעל מחדש</translation>
-<translation id="2803306138276472711">‏לאחרונה, 'גלישה בטוחה של Brave‏' <ph name="BEGIN_LINK"/>זיהתה תוכנה זדונית<ph name="END_LINK"/> באתר <ph name="SITE"/>. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית.</translation>
+<translation id="2803306138276472711">‏לאחרונה, 'גלישה בטוחה של Dissenter‏' <ph name="BEGIN_LINK"/>זיהתה תוכנה זדונית<ph name="END_LINK"/> באתר <ph name="SITE"/>. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית.</translation>
 <translation id="2807052079800581569">‏מיקום תמונה על ציר Y</translation>
 <translation id="2824514415781424867">לשתף את המיקום?</translation>
 <translation id="2824775600643448204">שורת חיפוש וכתובות אתרים</translation>
@@ -479,7 +479,7 @@
 <translation id="2989742184762224133">שתי סיכות הידוק בחלק העליון</translation>
 <translation id="2991174974383378012">שיתוף עם אתרים</translation>
 <translation id="2991571918955627853">‏נכון לעכשיו אי אפשר לבקר באתר <ph name="SITE"/> מאחר שנעשה בו שימוש ב-HSTS. שגיאות רשת ומתקפות הן בדרך כלל זמניות, כך שהדף הזה יחזור כנראה לפעול מאוחר יותר.</translation>
-<translation id="6683975920571472553">‏הצעות מאת Brave</translation>
+<translation id="6683975920571472553">‏הצעות מאת Dissenter</translation>
 <translation id="3002501248619246229">בדיקת מדיה במגש קלט</translation>
 <translation id="3005723025932146533">הצג עותק שמור</translation>
 <translation id="3008447029300691911">הזן את קוד האימות של הכרטיס <ph name="CREDIT_CARD"/>. ברגע שתאשר, פרטי הכרטיס שלך ישותפו עם האתר הזה.</translation>
@@ -562,7 +562,7 @@
 <translation id="3399952811970034796">כתובת למשלוח</translation>
 <translation id="3402261774528610252">‏החיבור ששימש לצורך טעינת האתר הזה היה מבוסס על הפרוטוקול TLS 1.0 או TLS 1.1, שהוצא משימוש ויושבת בעתיד. אחרי שהפרוטוקול יושבת, משתמשים לא יוכלו לטעון את האתר הזה. יש להפעיל בשרת את הפרוטוקול TLS 1.2 ואילך.</translation>
 <translation id="3414952576877147120">גודל:</translation>
-<translation id="25726459489263481">‏קבצים שמעלים או מצרפים נשלחים ל-Brave Cloud או לצדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהקבצים יעברו סריקה כדי לאתר מידע אישי רגיש או תוכנות זדוניות.</translation>
+<translation id="25726459489263481">‏קבצים שמעלים או מצרפים נשלחים ל-Dissenter Cloud או לצדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהקבצים יעברו סריקה כדי לאתר מידע אישי רגיש או תוכנות זדוניות.</translation>
 <translation id="3422248202833853650">מומלץ לצאת מתוכניות אחרות וכך לפנות מקום בזיכרון.</translation>
 <translation id="3422472998109090673">לא ניתן לגשת כרגע אל <ph name="HOST_NAME"/>.</translation>
 <translation id="3423742043356668186">צוין על-ידי המערכת</translation>
@@ -571,7 +571,7 @@
 <translation id="3428151540071562330">‏אחד או יותר ממזהי ה-URI של תבנית השרת DnsOverHttpsTemplates אינם חוקיים ולא ייעשה בהם שימוש.</translation>
 <translation id="3431636764301398940">שמור כרטיס זה במכשיר הנוכחי</translation>
 <translation id="3432601291244612633">סגירת הדף</translation>
-<translation id="4527130811319726464">‏שימוש בסיסמאות השמורות בחשבון Brave שלך</translation>
+<translation id="4527130811319726464">‏שימוש בסיסמאות השמורות בחשבון Dissenter שלך</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">הבעלים של המכשיר הזה כיבה את משחק הדינוזאורים.</translation>
 <translation id="3447884698081792621">הצגת אישור (נופק על-ידי <ph name="ISSUER"/>)</translation>
@@ -602,7 +602,7 @@
 <translation id="3567778190852720481">לא ניתן להירשם באמצעות חשבון ארגוני (חשבון ארגוני לא עומד בקריטריונים).</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">דף מוטמע באתר <ph name="SITE"/> אומר</translation>
-<translation id="230476913390177517">‏כשהדף יהיה מוכן, מערכת Brave תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
+<translation id="230476913390177517">‏כשהדף יהיה מוכן, מערכת Dissenter תודיע לך על כך. &lt;a&gt;ביטול&lt;/a&gt;</translation>
 <translation id="3582930987043644930">הוסף שם</translation>
 <translation id="3583757800736429874">&amp;ביצוע מחדש של העברה</translation>
 <translation id="3584299510153766161">שני ניקובים בחלק התחתון</translation>
@@ -645,7 +645,7 @@
 <translation id="373042150751172459">B4 (Envelope)‎</translation>
 <translation id="3731873414101415120">אתרים שביקרת בהם ותוכן של דפים לא בטוחים</translation>
 <translation id="3736520371357197498">אם אתה מבין את הסיכונים בנוגע לאבטחה שלך, תוכל <ph name="BEGIN_LINK"/>להיכנס לאתר לא בטוח זה<ph name="END_LINK"/> לפני הסרת התכניות המסוכנות.</translation>
-<translation id="4098534208927606680">‏אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Brave.</translation>
+<translation id="4098534208927606680">‏אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Dissenter.</translation>
 <translation id="3748148204939282805">תוקפים באתר <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> עלולים להונות אותך כדי לגרום לך לבצע פעולות מסוכנות, כמו התקנת תוכנה או חשיפת מידע אישי (לדוגמה, סיסמאות, מספרי טלפון או כרטיסי אשראי). <ph name="BEGIN_LEARN_MORE_LINK"/>מידע נוסף<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">יציאה ממצב תמונה בתוך תמונה</translation>
 <translation id="3759461132968374835">לא התקבלו דיווחים על קריסות לאחרונה. קריסות שהתרחשו בזמן שאפשרות הדיווח על קריסות היתה מושבתת לא יופיעו כאן.</translation>
@@ -653,7 +653,7 @@
 <translation id="3761718714832595332">הסתרת הסטטוס</translation>
 <translation id="3765032636089507299">הדף 'גלישה בטוחה' נמצא כרגע בבנייה.</translation>
 <translation id="3765588406864124894">תיבת דואר 9</translation>
-<translation id="5141491707451394486">‏האם ברצונך לשמור את הכרטיס בחשבון Brave שלך ובמכשיר הזה?</translation>
+<translation id="5141491707451394486">‏האם ברצונך לשמור את הכרטיס בחשבון Dissenter שלך ובמכשיר הזה?</translation>
 <translation id="3780694243617746492">סל פלט</translation>
 <translation id="3781428340399460090">ורוד בוהק</translation>
 <translation id="3783418713923659662">מאסטרקארד</translation>
@@ -683,7 +683,7 @@
 <translation id="3901925938762663762">תוקף הכרטיס פג</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">טאבלט</translation>
-<translation id="2650609753175229582">‏<ph name="URL"/> רוצה להציג תוכן מוגן. הזהות של המכשיר שלך תאומת על ידי Brave ולאתר תהיה גישה אליה.</translation>
+<translation id="2650609753175229582">‏<ph name="URL"/> רוצה להציג תוכן מוגן. הזהות של המכשיר שלך תאומת על ידי Dissenter ולאתר תהיה גישה אליה.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">‏האם להשתמש ב-WebAuthn במקום ב-CVC?</translation>
 <translation id="3946209740501886391">שאל תמיד באתר הזה</translation>
@@ -698,7 +698,7 @@
 <translation id="3964661563329879394">{COUNT,plural, =0{ללא}=1{מאתר אחד }two{משני אתרים }many{מ-# אתרים }other{מ-# אתרים }}</translation>
 <translation id="397105322502079400">מחשב...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> חסום</translation>
-<translation id="2321540973325616220">‏לפי אמצעי האבטחה של Brave, האתר הזה עשוי להיות מזויף או אתר שנועד להונאה.
+<translation id="2321540973325616220">‏לפי אמצעי האבטחה של Dissenter, האתר הזה עשוי להיות מזויף או אתר שנועד להונאה.
 
     אם לדעתך זו טעות, יש לעבור אל https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">‏פחות מ-‎1 MB</translation>
@@ -771,7 +771,7 @@
 <translation id="4275830172053184480">הפעלת המכשיר מחדש</translation>
 <translation id="4277028893293644418">איפוס סיסמה</translation>
 <translation id="4279811152705618813">ה-<ph name="DEVICE_TYPE"/> מנוהל על-ידי <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{‏הכרטיס הזה נשמר בחשבון Brave שלך}two{‏הכרטיסים האלה נשמרו בחשבון Brave שלך}many{‏הכרטיסים האלה נשמרו בחשבון Brave שלך}other{‏הכרטיסים האלה נשמרו בחשבון Brave שלך}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{‏הכרטיס הזה נשמר בחשבון Dissenter שלך}two{‏הכרטיסים האלה נשמרו בחשבון Dissenter שלך}many{‏הכרטיסים האלה נשמרו בחשבון Dissenter שלך}other{‏הכרטיסים האלה נשמרו בחשבון Dissenter שלך}}</translation>
 <translation id="42981349822642051">הרחבה</translation>
 <translation id="4300675098767811073">ניקובים מרובים בצד ימין</translation>
 <translation id="4302965934281694568">Chou3 (Envelope)‎</translation>
@@ -784,7 +784,7 @@
 <translation id="4326324639298822553">בדוק את תאריך התפוגה ונסה שוב</translation>
 <translation id="4331519897422864041">מערים 5</translation>
 <translation id="4331708818696583467">לא מאובטח</translation>
-<translation id="6116812392674177288">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Brave. כתובת האתר לעדכונים מחנות האינטרנט של Brave היא "<ph name="CWS_UPDATE_URL"/>".</translation>
+<translation id="6116812392674177288">‏המחשב לא זוהה כמכשיר המנוהל על ידי הארגון, כך שלפי המדיניות מותר להתקין אוטומטית רק תוספים מחנות האינטרנט של Dissenter. כתובת האתר לעדכונים מחנות האינטרנט של Dissenter היא "<ph name="CWS_UPDATE_URL"/>".</translation>
 <translation id="4346197816712207223">כרטיסי אשראי שהסוחר מקבל</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">תוקפים באתר הזה עשויים לנסות להתקין במחשב שלך תוכניות מסוכנות שגונבות או מוחקות מידע שלך (לדוגמה: תמונות, סיסמאות, הודעות ופרטי כרטיסי אשראי).</translation>
@@ -809,7 +809,7 @@
 <translation id="4477350412780666475">הטראק הבא</translation>
 <translation id="4482953324121162758">האתר הזה לא יתורגם.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Brave.</translation>
+<translation id="3614771894046523359">‏התכונות האלה מושבתות כברירת מחדל. הן לא יהיו זמינות בגרסאות עתידיות של Dissenter.</translation>
 <translation id="4493480324863638523">‏כתובת URL לא חוקית. הסכימה של כתובת ה-URL צריכה להיות רגילה, כלומר: http://example.com או https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">שגיאת אימות: <ph name="VALIDATION_ERROR"/></translation>
@@ -817,7 +817,7 @@
 <translation id="450710068430902550">שיתוף עם מנהל מערכת</translation>
 <translation id="4508814173490746936">‏לא ניתן להשתמש ב-Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (Envelope)‎</translation>
-<translation id="4892470328555495647">‏הכרטיסים והכתובות לקוחים מ-Brave ומחשבון Brave שלך (<ph name="ACCOUNT_EMAIL"/>). אפשר לנהל אותם ב<ph name="BEGIN_LINK"/>הגדרות<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">‏הכרטיסים והכתובות לקוחים מ-Dissenter ומחשבון Dissenter שלך (<ph name="ACCOUNT_EMAIL"/>). אפשר לנהל אותם ב<ph name="BEGIN_LINK"/>הגדרות<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (Envelope)‎</translation>
 <translation id="4522570452068850558">פרטים</translation>
 <translation id="4524138615196389145">‏כדי לאשר את הכרטיסים שלך מהר יותר, אפשר להשתמש ב-WebAuthn מעכשיו והלאה</translation>
@@ -843,7 +843,7 @@
 <translation id="4670064810192446073">מציאות מדומה</translation>
 <translation id="467662567472608290">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN"/>; אישור האבטחה שלו מכיל שגיאות. ייתכן שהסיבה לכך היא הגדרה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> רוצה להגיב לאירועי נגישות</translation>
-<translation id="8197094463444457125">Brave Slides</translation>
+<translation id="8197094463444457125">Dissenter Slides</translation>
 <translation id="4690462567478992370">הפסק להשתמש באישור לא חוקי</translation>
 <translation id="4691835149146451662">Architecture-A (Envelope)‎</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -877,11 +877,11 @@ Del</translation>
 <translation id="4785689107224900852">החלפה לכרטיסייה זו</translation>
 <translation id="4791134497475588553">‏אפליקציות Linux שהותקנו והפעם האחרונה שנעשה בהן שימוש</translation>
 <translation id="4796594887379589189">מזהה חשבון עבודה</translation>
-<translation id="7110430050177876111">‏כדי לעדכן את פרטי הכרטיס, יש להזין את תאריך התפוגה וקוד האימות של <ph name="CREDIT_CARD"/>. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Brave.</translation>
+<translation id="7110430050177876111">‏כדי לעדכן את פרטי הכרטיס, יש להזין את תאריך התפוגה וקוד האימות של <ph name="CREDIT_CARD"/>. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Dissenter.</translation>
 <translation id="4800132727771399293">‏בדוק את תאריך התפוגה ואת ה-CVC ונסה שוב</translation>
 <translation id="480334179571489655">שגיאת מדיניות מקור</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">‏לא ניתן לבקר כעת באתר <ph name="SITE"/> מכיוון שהאתר שלח אישורים משובשים ש-Brave אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שהדף הזה יפעל מאוחר יותר.</translation>
+<translation id="8896585555528145662">‏לא ניתן לבקר כעת באתר <ph name="SITE"/> מכיוון שהאתר שלח אישורים משובשים ש-Dissenter אינו יכול לעבד. שגיאות רשת ותקיפות מתרחשות בדרך כלל לזמן מוגבל, כך שסביר להניח שהדף הזה יפעל מאוחר יותר.</translation>
 <translation id="4813512666221746211">שגיאת רשת</translation>
 <translation id="4816492930507672669">התאמה לדף</translation>
 <translation id="484462545196658690">אוטומטי</translation>
@@ -919,7 +919,7 @@ Del</translation>
 <translation id="4989542687859782284">לא זמין</translation>
 <translation id="4989809363548539747">הפלאגין הזה אינו נתמך</translation>
 <translation id="4995216769782533993">יש לאמת את קוד האבטחה כדי לשתף פרטי כרטיס עם האתר הזה</translation>
-<translation id="3676215163710610678">‏אם האפשרות הזו תופעל, Brave יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
+<translation id="3676215163710610678">‏אם האפשרות הזו תופעל, Dissenter יאחסן עותק של הכרטיס שלך במכשיר הזה למילוי מהיר יותר של טפסים.</translation>
 <translation id="5015510746216210676">שם המחשב:</translation>
 <translation id="5017554619425969104">טקסט שהעתקת</translation>
 <translation id="5018422839182700155">לא ניתן לפתוח את הדף</translation>
@@ -928,7 +928,7 @@ Del</translation>
 <translation id="5029568752722684782">מחיקת העותק</translation>
 <translation id="5030338702439866405">הונפק על ידי</translation>
 <translation id="503069730517007720">‏יש צורך באישור שורש בשביל "<ph name="SOFTWARE_NAME"/>", אבל לא מותקן אישור כזה. על מנהל ה-IT לבדוק את הוראות התצורה של "<ph name="SOFTWARE_NAME"/>" כדי לפתור את הבעיה. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">‏מידע על Brave Translate</translation>
+<translation id="6425384654920630035">‏מידע על Dissenter Translate</translation>
 <translation id="503498442187459473"><ph name="HOST"/> רוצה להשתמש במצלמה ובמיקרופון שלך</translation>
 <translation id="5039804452771397117">זה בסדר</translation>
 <translation id="5040262127954254034">פרטיות</translation>
@@ -945,7 +945,7 @@ Del</translation>
 <translation id="5088142053160410913">הודעה לאופרטור</translation>
 <translation id="5089810972385038852">מדינה</translation>
 <translation id="5093232627742069661">‏קיפול Z</translation>
-<translation id="4906192414477726331">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN"/>. אישור האבטחה שלו לא נחשב כמהימן על ידי Brave. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
+<translation id="4906192414477726331">‏השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN"/>. אישור האבטחה שלו לא נחשב כמהימן על ידי Dissenter. ייתכן שהסיבה לכך היא תצורה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="5095208057601539847">פרובינציה</translation>
 <translation id="5097099694988056070">‏נתונים סטטיסטיים של המכשיר, כמו ניצול יחידת העיבוד המרכזית (CPU)/זיכרון RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -957,7 +957,7 @@ Del</translation>
 <translation id="5126510351761255129">אימות הכרטיס</translation>
 <translation id="6291230311289558881">ניהול כתובות...</translation>
 <translation id="5138227688689900538">פחות אפליקציות</translation>
-<translation id="7186167407612593632">‏הצפנת סיסמאות מסונכרנות באמצעות פרטי הכניסה שלך ל-Brave</translation>
+<translation id="7186167407612593632">‏הצפנת סיסמאות מסונכרנות באמצעות פרטי הכניסה שלך ל-Dissenter</translation>
 <translation id="5145883236150621069">קיים קוד שגיאה בתגובת המדיניות</translation>
 <translation id="5146995429444047494">התראות של <ph name="ORIGIN"/> נחסמו</translation>
 <translation id="5148809049217731050">פנים כלפי מעלה</translation>
@@ -965,8 +965,8 @@ Del</translation>
 <translation id="5158275234811857234">שער</translation>
 <translation id="5161506081086828129">מערים 9</translation>
 <translation id="5164798890604758545">מתבצעת הזנת טקסט</translation>
-<translation id="2996889577833788807">‏יש להזין את קוד האימות של <ph name="CREDIT_CARD"/>. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Brave.</translation>
-<translation id="8515152881111950319">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="2996889577833788807">‏יש להזין את קוד האימות של <ph name="CREDIT_CARD"/>. אחרי שנקבל ממך אישור, נשתף עם האתר הזה את פרטי הכרטיס מחשבון Dissenter.</translation>
+<translation id="8515152881111950319">‏ייתכן שלא יתאפשר לך לגשת לחשבון הארגוני, והזהות שלך עלולה להיגנב. לגלישה בטוחה ב-Dissenter, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="5171045022955879922">טקסט או כתובת אתר לחיפוש</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">מכונה</translation>
@@ -975,7 +975,7 @@ Del</translation>
 <translation id="5201306358585911203">דף מוטמע בדף הזה אומר</translation>
 <translation id="5205222826937269299">שם (חובה)</translation>
 <translation id="5209518306177824490">‏טביעת אצבע SHA-1</translation>
-<translation id="1051285409463218679">‏אמצעי תשלום וכתובות שנשמרו ב-Brave Pay</translation>
+<translation id="1051285409463218679">‏אמצעי תשלום וכתובות שנשמרו ב-Dissenter Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">אימייל (חובה)</translation>
 <translation id="5230733896359313003">כתובת למשלוח</translation>
@@ -1059,7 +1059,7 @@ Del</translation>
 <translation id="5541086400771735334">תיבת דואר 7</translation>
 <translation id="5541546772353173584">הוספת כתובת אימייל</translation>
 <translation id="5545756402275714221">מאמרים שעשויים לעניין אותך</translation>
-<translation id="6084314943327785510">‏מערכת Brave בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Brave.</translation>
+<translation id="6084314943327785510">‏מערכת Dissenter בודקת מדי פעם את הסיסמאות שלך ומשווה אותן לרשימות שהתפרסמו באינטרנט. כשהפעולה הזו מבוצעת, הסיסמאות ושמות המשתמש מוצפנים, כך שאיש לא יוכל לקרוא אותם, כולל Dissenter.</translation>
 <translation id="5556459405103347317">ניסיון טעינה נוסף</translation>
 <translation id="5560088892362098740">תאריך תפוגה</translation>
 <translation id="5565735124758917034">פעיל</translation>
@@ -1072,14 +1072,14 @@ Del</translation>
 <translation id="560412284261940334">ניהול אינו נתמך</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">‏האתר הזה עשוי להיות מזויף או לשמש להונאה ההמלצה של Brave היא לצאת ממנו עכשיו.</translation>
+<translation id="4067274479097837765">‏האתר הזה עשוי להיות מזויף או לשמש להונאה ההמלצה של Dissenter היא לצאת ממנו עכשיו.</translation>
 <translation id="5610142619324316209">לבדוק את החיבור</translation>
 <translation id="5610807607761827392">ב<ph name="BEGIN_LINK"/>הגדרות<ph name="END_LINK"/> תוכל לנהל את האפשרויות של כרטיסים וכתובות.</translation>
 <translation id="5612720917913232150"><ph name="URL"/> רוצה להשתמש במיקום המחשב שלך</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> הפנה אותך מחדש פעמים רבות מדי.</translation>
 <translation id="5629630648637658800">טעינת הגדרות המדיניות נכשלה</translation>
 <translation id="5631439013527180824">אסימון ניהול המכשיר אינו חוקי</translation>
-<translation id="2590378115732684772">‏החל מ-<ph name="TIME"/> הנתונים שלך מוצפנים בעזרת <ph name="BEGIN_LINK"/>הסיסמה שלך ל-Brave<ph name="END_LINK"/>. יש להזין את הסיסמה כדי להתחיל את הסנכרון.</translation>
+<translation id="2590378115732684772">‏החל מ-<ph name="TIME"/> הנתונים שלך מוצפנים בעזרת <ph name="BEGIN_LINK"/>הסיסמה שלך ל-Dissenter<ph name="END_LINK"/>. יש להזין את הסיסמה כדי להתחיל את הסנכרון.</translation>
 <translation id="5633066919399395251">תוקפים שנמצאים כרגע באתר <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> עלולים להתקין במחשב שלך תוכנות מסוכנות שגונבות מידע או מוחקות אותו (למשל, תמונות, סיסמאות, הודעות וכרטיסי אשראי). <ph name="BEGIN_LEARN_MORE_LINK"/>מידע נוסף<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">תוכן מטעה נחסם</translation>
 <translation id="5644090287519800334">‏הזזה של תמונה בצד 1 על ציר X</translation>
@@ -1102,8 +1102,8 @@ Del</translation>
 <translation id="5710435578057952990">הזהות של אתר זה לא אומתה.</translation>
 <translation id="5720705177508910913">משתמש נוכחי:</translation>
 <translation id="5728056243719941842">C5 (Envelope)‎</translation>
-<translation id="3006790309890592320">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{‏שמירת הכרטיס בחשבון Brave}two{‏שמירת הכרטיסים בחשבון Brave}many{‏שמירת הכרטיסים בחשבון Brave}other{‏שמירת הכרטיסים בחשבון Brave}}</translation>
+<translation id="3006790309890592320">‏אם הזנת את הסיסמה שלך באתרים אחרים, ההמלצה של Dissenter היא לאפס אותה.</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{‏שמירת הכרטיס בחשבון Dissenter}two{‏שמירת הכרטיסים בחשבון Dissenter}many{‏שמירת הכרטיסים בחשבון Dissenter}other{‏שמירת הכרטיסים בחשבון Dissenter}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{שימוש במספר וירטואלי בשביל הכרטיס הזה}two{בחירת כרטיס}many{בחירת כרטיס}other{בחירת כרטיס}}</translation>
 <translation id="5759751709240058861">להשתמש במצלמה ולהזיז אותה</translation>
 <translation id="5763042198335101085">עליך להזין כתובת אימייל חוקית</translation>
@@ -1117,7 +1117,7 @@ Del</translation>
 <translation id="5785756445106461925">כמו כן, דף זה כולל משאבים נוספים שאינם מאובטחים. גורמים אחרים עלולים לראות את המשאבים האלה במהלך העברתם, ותוקף עלול לשנות אותם באופן שישנה את מראה הדף.</translation>
 <translation id="5786044859038896871">האם ברצונך למלא את פרטי הכרטיס שלך?</translation>
 <translation id="5798290721819630480">לבטל את השינויים?</translation>
-<translation id="2828698628112858998">‏שינוי דף הבית בהגדרות Brave</translation>
+<translation id="2828698628112858998">‏שינוי דף הבית בהגדרות Dissenter</translation>
 <translation id="5803412860119678065">האם ברצונך למלא את פרטי הכרטיס <ph name="CARD_DETAIL"/>?</translation>
 <translation id="5804241973901381774">הרשאות</translation>
 <translation id="5804427196348435412">‏שימוש בהתקני NFC</translation>
@@ -1146,7 +1146,7 @@ Del</translation>
 <translation id="59174027418879706">מופעל</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">מופעל</translation>
-<translation id="2687595201721621314">‏לשמור את הכרטיס בחשבון Brave?</translation>
+<translation id="2687595201721621314">‏לשמור את הכרטיס בחשבון Dissenter?</translation>
 <translation id="5922853866070715753">עוד רגע מסיימים</translation>
 <translation id="5932224571077948991">באתר מוצגות מודעות מפריעות או מטעות</translation>
 <translation id="5946937721014915347">פתיחה של <ph name="SITE_NAME"/>…</translation>
@@ -1195,10 +1195,10 @@ Del</translation>
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">ייתכן שדף האינטרנט בכתובת <ph name="PAGE"/> אינו פעיל זמנית, או שהוא הועבר לכתובת אינטרנט קבועה אחרת.</translation>
 <translation id="6107012941649240045">מונפק ל</translation>
-<translation id="8233947174119245051">‏ייתכן שלחשבון Brave שלך משויכים סוגים אחרים של היסטוריית גלישה בכתובת <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8233947174119245051">‏ייתכן שלחשבון Dissenter שלך משויכים סוגים אחרים של היסטוריית גלישה בכתובת <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6116338172782435947">גישה אל טקסט ותמונות שהועתקו ללוח</translation>
 <translation id="6120179357481664955">‏מזהה UPI שלך זכור לך?</translation>
-<translation id="5972135347314259717">‏מחברים של Brave Enterprise</translation>
+<translation id="5972135347314259717">‏מחברים של Dissenter Enterprise</translation>
 <translation id="6146055958333702838">בדוק את הכבלים והפעל מחדש את הנתבים, המודמים ושאר התקני הרשת
   שאתה משתמש בהם.</translation>
 <translation id="614940544461990577">כדאי לנסות:</translation>
@@ -1210,11 +1210,11 @@ Del</translation>
 <translation id="6180316780098470077">מרווח בין ניסיונות חוזרים</translation>
 <translation id="6196640612572343990">‏חסום קובצי Cookie של צד שלישי</translation>
 <translation id="6203231073485539293">בדוק את חיבור האינטרנט</translation>
-<translation id="8385639954311581596">‏האם להסיר מ-Brave את הכתובת?</translation>
+<translation id="8385639954311581596">‏האם להסיר מ-Dissenter את הכתובת?</translation>
 <translation id="622039917539443112">קיפול מקביל</translation>
-<translation id="6221345481584921695">‏לאחרונה, 'גלישה בטוחה של Brave' ‏<ph name="BEGIN_LINK"/>זיהתה תוכנה זדונית<ph name="END_LINK"/> ב-<ph name="SITE"/>. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית. התוכן הזדוני מגיע מ-<ph name="SUBRESOURCE_HOST"/>, מפיץ ידוע של תוכנות זדוניות.</translation>
+<translation id="6221345481584921695">‏לאחרונה, 'גלישה בטוחה של Dissenter' ‏<ph name="BEGIN_LINK"/>זיהתה תוכנה זדונית<ph name="END_LINK"/> ב-<ph name="SITE"/>. אתרים שבדרך כלל נחשבים לבטוחים נדבקים לעתים בתוכנה זדונית. התוכן הזדוני מגיע מ-<ph name="SUBRESOURCE_HOST"/>, מפיץ ידוע של תוכנות זדוניות.</translation>
 <translation id="6234122620015464377">חיתוך אחרי כל מסמך</translation>
-<translation id="4765229189146046954">‏הלוגו של Brave Pay</translation>
+<translation id="4765229189146046954">‏הלוגו של Dissenter Pay</translation>
 <translation id="6241121617266208201">הסתרת ההצעות</translation>
 <translation id="624499991300733384">שירות מחבר הדפסות</translation>
 <translation id="6254436959401408446">אין מספיק זיכרון כדי לפתוח את הדף</translation>
@@ -1224,10 +1224,10 @@ Del</translation>
 <translation id="6264485186158353794">חזרה לחוף מבטחים</translation>
 <translation id="6265794661083428563">העתקת ערך המדיניות <ph name="POLICY_NAME"/></translation>
 <translation id="6266934640124581640">כחול-ירקרק בהיר</translation>
-<translation id="9136010393039243713">‏עדכוני Brave</translation>
+<translation id="9136010393039243713">‏עדכוני Dissenter</translation>
 <translation id="6276112860590028508">דפים מרשימת הקריאה שלך מופיעים כאן</translation>
-<translation id="7954557091400543500">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Brave את פרטי הכרטיס ואת הכתובת לחיוב.</translation>
-<translation id="293801390522973485">‏Brave <ph name="BEGIN_EMPHASIS"/>לא ישמור<ph name="END_EMPHASIS"/> את הנתונים הבאים:
+<translation id="7954557091400543500">‏כדי לשלם מהר יותר בפעם הבאה, אפשר לשמור בחשבון Dissenter את פרטי הכרטיס ואת הכתובת לחיוב.</translation>
+<translation id="293801390522973485">‏Dissenter <ph name="BEGIN_EMPHASIS"/>לא ישמור<ph name="END_EMPHASIS"/> את הנתונים הבאים:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>היסטוריית הגלישה שלך
           <ph name="LIST_ITEM"/>קובצי cookie ונתוני אתרים
@@ -1237,7 +1237,7 @@ Del</translation>
 <translation id="6282194474023008486">מיקוד</translation>
 <translation id="6290238015253830360">הצעות של מאמרים עבורך מופיעות כאן</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">‏Brave Assistant ב-Brave מופסק</translation>
+<translation id="5880900081429361525">‏Dissenter Assistant ב-Dissenter מופסק</translation>
 <translation id="6305205051461490394">לא ניתן לגשת אל <ph name="URL"/>.</translation>
 <translation id="6312113039770857350">דף האינטרנט אינו זמין</translation>
 <translation id="6321917430147971392">‏בדוק את הגדרות ה-DNS</translation>
@@ -1262,7 +1262,7 @@ Del</translation>
 <translation id="6401136357288658127">המדיניות הזו הוצאה משימוש. במקומה יש להשתמש במדיניות <ph name="NEW_POLICY"/>.</translation>
 <translation id="6404511346730675251">ערוך סימניה</translation>
 <translation id="6406765186087300643">C0 (Envelope)‎</translation>
-<translation id="9018981925326888629">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="9018981925326888629">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לשנות את הסיסמה עכשיו.</translation>
 <translation id="6410264514553301377">הזן את תאריך התפוגה ואת קוד האימות של <ph name="CREDIT_CARD"/></translation>
 <translation id="6423385022588644828">‏כדי לאשר את הכרטיסים שלך מהר יותר, אפשר להשתמש ב-Touch ID מעכשיו והלאה</translation>
 <translation id="6425092077175753609">עיצוב חדשני תלת-ממדי</translation>
@@ -1282,7 +1282,7 @@ Del</translation>
 <translation id="6476284679642588870">ניהול אמצעי תשלום</translation>
 <translation id="6489534406876378309">התחל להעלות קריסות</translation>
 <translation id="6499038740797743453">לאפס את הסיסמה?</translation>
-<translation id="3960299545138990065">‏הפעלה מחדש של Brave</translation>
+<translation id="3960299545138990065">‏הפעלה מחדש של Dissenter</translation>
 <translation id="6517596291481585650">אזהרה! המדיניות הזו לא עברה מיזוג בהתאם למדיניות, מאחר שהיא אינה רשימה.</translation>
 <translation id="6518133107902771759">אימות</translation>
 <translation id="6521745193039995384">לא פעילה</translation>
@@ -1312,14 +1312,14 @@ Del</translation>
 <translation id="6631202559048444592">במדיניות הזו קיים יותר ממקור אחד, אבל הערכים זהים.</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">ניקוי</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{ללא}=1{‏מאתר אחד (לא תבוצע יציאה מחשבון Brave שלך.)}two{‏מ-# אתרים (לא תבוצע יציאה מחשבון Brave שלך.)}many{‏מ-# אתרים (לא תבוצע יציאה מחשבון Brave שלך.)}other{‏מ-# אתרים (לא תבוצע יציאה מחשבון Brave שלך.)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{ללא}=1{‏מאתר אחד (לא תבוצע יציאה מחשבון Dissenter שלך.)}two{‏מ-# אתרים (לא תבוצע יציאה מחשבון Dissenter שלך.)}many{‏מ-# אתרים (לא תבוצע יציאה מחשבון Dissenter שלך.)}other{‏מ-# אתרים (לא תבוצע יציאה מחשבון Dissenter שלך.)}}</translation>
 <translation id="6652101503459149953">‏שימוש ב-Windows Hello</translation>
 <translation id="6657585470893396449">סיסמה</translation>
 <translation id="6665553082534466207">3 ניקובים בצד ימין</translation>
 <translation id="6685834062052613830">צא והשלם את ההגדרה</translation>
 <translation id="6687335167692595844">גודל הגופן שהתבקש</translation>
 <translation id="6689249931105087298">יחסי עם דחיסת נקודות שחורות</translation>
-<translation id="5406652219015697259">‏מאחר שנכנסת לחשבון, Brave מציע לשמור את הכרטיסים שלך בחשבון Brave. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
+<translation id="5406652219015697259">‏מאחר שנכנסת לחשבון, Dissenter מציע לשמור את הכרטיסים שלך בחשבון Dissenter. אפשר לשנות את ההתנהגות הזאת בהגדרות. שם בעל הכרטיס מגיע מהחשבון שלך.</translation>
 <translation id="6704582573942289642">האם זה האתר הנכון?</translation>
 <translation id="6710213216561001401">הקודם</translation>
 <translation id="6710594484020273272">&lt;הקלד מונח חיפוש&gt;</translation>
@@ -1352,14 +1352,14 @@ Del</translation>
 <translation id="6874604403660855544">&amp;ביצוע מחדש של הוספה</translation>
 <translation id="6884662655240309489">גודל 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">‏Brave יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Brave באמצעות חיבור לא מאובטח.</translation>
+<translation id="7265969755975834932">‏Dissenter יצר גרסה פשוטה של הדף הזה כדי להקל את הקריאה שלו. אחזור הדף המקורי בוצע על-ידי Dissenter באמצעות חיבור לא מאובטח.</translation>
 <translation id="6891596781022320156">רמת המדיניות אינה נתמכת.</translation>
 <translation id="6895330447102777224">הכרטיס שלך מאושר</translation>
 <translation id="6897140037006041989">User agent</translation>
 <translation id="6898699227549475383">‏ארגון (O)</translation>
 <translation id="6910240653697687763">‏<ph name="URL"/> רוצה לקבל שליטה מלאה על מכשירי ה-MIDI שלך</translation>
 <translation id="6915804003454593391">משתמש:</translation>
-<translation id="6722453239914327220">‏השם הזה הוא מחשבון Brave שלך</translation>
+<translation id="6722453239914327220">‏השם הזה הוא מחשבון Dissenter שלך</translation>
 <translation id="6944692733090228304">הזנת את הסיסמה שלך באתר שלא מנוהל על ידי <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. כדי להגן על החשבון, מומלץ לא להשתמש בסיסמה שלך באפליקציות ובאתרים אחרים.</translation>
 <translation id="6945221475159498467">בחירה</translation>
 <translation id="6948701128805548767">עליך לבחור כתובת כדי לראות שיטות איסוף ודרישות</translation>
@@ -1375,10 +1375,10 @@ Del</translation>
 <translation id="6972629891077993081">‏התקני HID</translation>
 <translation id="6973656660372572881">‏צוינו שרתי Proxy קבועים וכתובת אתר של הסקריפט מסוג ‎.Pac</translation>
 <translation id="6973932557599545801">לצערי אין לי אפשרות לעזור. עליך להמשיך בעצמך.</translation>
-<translation id="846000886289004690">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="846000886289004690">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לעבור אל <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">השתקה (ברירת מחדל)</translation>
-<translation id="1714833602699685456">‏קבצים שמורידים נשלחים אל Brave Cloud או אל צדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהקבצים יעברו סריקה כדי לאתר מידע אישי רגיש או תוכנות זדוניות.</translation>
+<translation id="1714833602699685456">‏קבצים שמורידים נשלחים אל Dissenter Cloud או אל צדדים שלישיים לצורך ניתוח. לדוגמה, ייתכן שהקבצים יעברו סריקה כדי לאתר מידע אישי רגיש או תוכנות זדוניות.</translation>
 <translation id="6989763994942163495">הצג הגדרות מתקדמות...</translation>
 <translation id="6993898126790112050">6x9 (Envelope)‎</translation>
 <translation id="6996312675313362352">תמיד לתרגם  מ<ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1401,7 +1401,7 @@ Del</translation>
 <translation id="7083258188081898530">מגש 9</translation>
 <translation id="7086090958708083563">ההעלאה התבקשה על ידי המשתמש</translation>
 <translation id="7087282848513945231">מחוז</translation>
-<translation id="5711818857380891233">‏חפש ב-Brave את <ph name="LINK"/></translation>
+<translation id="5711818857380891233">‏חפש ב-Dissenter את <ph name="LINK"/></translation>
 <translation id="7108338896283013870">הסתרה</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> רוצה להשתמש במצלמה שלך</translation>
 <translation id="7108819624672055576">אושרה על-ידי תוסף</translation>
@@ -1435,7 +1435,7 @@ Del</translation>
 <translation id="7219179957768738017">החיבור משתמש ב-<ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">מעבד</translation>
 <translation id="7221855153210829124">להציג הודעות</translation>
-<translation id="3619365259205518877">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
+<translation id="3619365259205518877">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
 <translation id="7233592378249864828">הדפסה של גיליון אישור</translation>
 <translation id="7238585580608191973">‏טביעת אצבע SHA-256</translation>
 <translation id="7240120331469437312">שם חלופי של נושא האישור</translation>
@@ -1458,7 +1458,7 @@ Del</translation>
 <translation id="7320336641823683070">עזרה בחיבור</translation>
 <translation id="7323804146520582233">הסתרת הקטע "<ph name="SECTION"/>"</translation>
 <translation id="733354035281974745">ביטול עקב סשן חשבון מקומי במכשיר</translation>
-<translation id="8539546768943490744">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="8539546768943490744">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לעבור אל <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="7334320624316649418">&amp;ביצוע מחדש של שינוי סדר</translation>
 <translation id="7337706099755338005">לא זמין בפלטפורמה שלך.</translation>
 <translation id="733923710415886693">אישור השרת לא נחשף דרך 'שקיפות אישורים'.</translation>
@@ -1467,7 +1467,7 @@ Del</translation>
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">שורת פקודה </translation>
 <translation id="7372973238305370288">תוצאת חיפוש</translation>
-<translation id="3898257577441589237">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Brave. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Brave רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
+<translation id="3898257577441589237">‏הבעיה הזו מתרחשת בגלל אישור שהותקן במכשיר על ידך או על ידי מישהו אחר. האישור הזה מוכר כאישור שמשמש לצורך מעקב אחרי רשתות ויירוט נתונים מרשתות, והוא לא נחשב כמהימן על ידי Dissenter. במקרים מסוימים מתבצע מעקב מסיבות לגיטימיות, כמו במוסדות חינוך או ברשתות של חברות, אך Dissenter רוצה לוודא שהמעקב מתבצע בידיעתך גם אם אין לך אפשרות לעצור אותו. המעקב עשוי להתבצע בכל דפדפן או אפליקציה שניגשים לאינטרנט.</translation>
 <translation id="7375818412732305729">מצורף קובץ</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">פקדי מדיה</translation>
@@ -1485,7 +1485,7 @@ Del</translation>
       &lt;li&gt;בקטע &lt;strong&gt;סוג הפעלה&lt;/strong&gt;, בוחרים &lt;strong&gt;מושבת&lt;/strong&gt;
       &lt;li&gt;בקטע &lt;strong&gt;סטטוס שירות&lt;/strong&gt;, לוחצים על &lt;strong&gt;עצירה&lt;/strong&gt;
       &lt;li&gt;לוחצים על &lt;strong&gt;הפעלה&lt;/strong&gt; ולאחר מכן לוחצים על &lt;strong&gt;אישור&lt;/strong&gt;
-      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Brave&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
+      &lt;li&gt;עוברים אל &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;מרכז העזרה של Dissenter&lt;/a&gt; כדי ללמוד כיצד להסיר את התוכנה מהמחשב
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">‏להפעיל Flash</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1523,13 +1523,13 @@ Del</translation>
 <translation id="7542995811387359312">מילוי אוטומטי של פרטי כרטיס אשראי מושבת כיוון שטופס זה אינו משתמש בחיבור מאובטח.</translation>
 <translation id="7548892272833184391">פתרון שגיאות חיבור</translation>
 <translation id="7549584377607005141">דף אינטרנט זה זקוק לנתונים שהזנת קודם לכן כדי שהוא יוצג כראוי. ניתן שוב את הנתונים, אך פעולה זו תגרום לחזרה על כל פעולה שדף זה ביצע בעבר.</translation>
-<translation id="5474381306981932386">‏שם המשתמש במכשיר ושם המשתמש ב-Brave</translation>
+<translation id="5474381306981932386">‏שם המשתמש במכשיר ושם המשתמש ב-Dissenter</translation>
 <translation id="7552846755917812628">אולי הטיפים האלו יעזרו לך:</translation>
 <translation id="7554791636758816595">כרטיסייה חדשה</translation>
 <translation id="7567204685887185387">השרת הזה לא הצליח להוכיח שהוא <ph name="DOMAIN"/>. ייתכן שאישור האבטחה שלו נופק כהונאה. הסיבה לכך עשויה להיות הגדרה שגויה או תוקף המיירט את החיבור שלך.</translation>
 <translation id="7569983096843329377">שחור</translation>
 <translation id="7575207903026901870">‏הלחצן 'הסרת ההצעה', יש ללחוץ על Enter כדי להסיר את ההצעה הזו</translation>
-<translation id="405970181812690156">‏ניתן לשלם במהירות באתרים ובאפליקציות בכל המכשירים באמצעות כרטיסים ששמרת ב-Brave.</translation>
+<translation id="405970181812690156">‏ניתן לשלם במהירות באתרים ובאפליקציות בכל המכשירים באמצעות כרטיסים ששמרת ב-Dissenter.</translation>
 <translation id="7581199239021537589">‏הזזה של תמונה בצד 2 על ציר Y</translation>
 <translation id="7591636454931265313">‏<ph name="EMBEDDED_URL"/> רוצה להשתמש בקובצי Cookie ובנתונים שבאתר <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">אישור השרת מפר את אילוצי השמות.</translation>
@@ -1538,12 +1538,12 @@ Del</translation>
 <translation id="7600965453749440009">איני רוצה לקבל תרגום מ<ph name="LANGUAGE"/> בכלל</translation>
 <translation id="7610193165460212391">הערך מחוץ לטווח <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">תפוגה: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">‏יש לך כבר נתונים שהוצפנו באמצעות גירסה אחרת של סיסמת חשבון Brave שלך. הזן אותה למטה.</translation>
-<translation id="8565825862287624454">‏מנהל המערכת הפעיל את Brave Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
+<translation id="6994126885316933886">‏יש לך כבר נתונים שהוצפנו באמצעות גירסה אחרת של סיסמת חשבון Dissenter שלך. הזן אותה למטה.</translation>
+<translation id="8565825862287624454">‏מנהל המערכת הפעיל את Dissenter Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
 <translation id="7619838219691048931">גיליון סיום</translation>
 <translation id="762844065391966283">פריט מידע אחד בכל פעם</translation>
 <translation id="7633909222644580952">נתוני ביצועים ודוחות קריסה</translation>
-<translation id="6386821459680628976">‏האם להסיר מ-Brave את כרטיס האשראי?</translation>
+<translation id="6386821459680628976">‏האם להסיר מ-Dissenter את כרטיס האשראי?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{אין סיסמאות}=1{סיסמה אחת בחשבון (עבור <ph name="DOMAIN_LIST"/>)}two{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST"/>)}many{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST"/>)}other{# סיסמאות בחשבון (עבור <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">יציאות טוריות</translation>
 <translation id="7639968568612851608">אפור כהה</translation>
@@ -1596,9 +1596,9 @@ Del</translation>
 <translation id="7802523362929240268">האתר חוקי</translation>
 <translation id="780301667611848630">לא תודה</translation>
 <translation id="7805768142964895445">סטטוס</translation>
-<translation id="3350174497208615172">‏שינוי הגדרות מנוע החיפוש ב-Brave</translation>
+<translation id="3350174497208615172">‏שינוי הגדרות מנוע החיפוש ב-Dissenter</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">‏האם להסיר מ-Brave הצעות בשביל טפסים?</translation>
+<translation id="4670564340385807132">‏האם להסיר מ-Dissenter הצעות בשביל טפסים?</translation>
 <translation id="781440967107097262">לשתף את הלוח?</translation>
 <translation id="7815407501681723534">נמצאו <ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/> בנושא '<ph name="SEARCH_STRING"/>'</translation>
 <translation id="782886543891417279">‏ייתכן שתידרש להיכנס לדף ההתחברות של רשת ה-Wi-Fi שבה אתה משתמש (<ph name="WIFI_NAME"/>).</translation>
@@ -1607,7 +1607,7 @@ Del</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">לצאת מהאתר?</translation>
 <translation id="7865448901209910068">המהירות הטובה ביותר</translation>
-<translation id="1012292338579042608">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
+<translation id="1012292338579042608">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
 <translation id="7878562273885520351">ייתכן שאבטחת הסיסמה שלך נפגעה</translation>
 <translation id="7882421473871500483">חום</translation>
 <translation id="7887683347370398519">‏בדוק את ה-CVC ונסה שוב</translation>
@@ -1617,7 +1617,7 @@ Del</translation>
 <translation id="7932579305932748336">ציפוי</translation>
 <translation id="79338296614623784">עליך להזין מספר טלפון חוקי</translation>
 <translation id="7934052535022478634">התשלום הושלם</translation>
-<translation id="8329449853370113380">‏<ph name="URL"/> רוצה להפעיל תוכן מוגן. זהות המכשיר שלך תאומת על-ידי Brave.</translation>
+<translation id="8329449853370113380">‏<ph name="URL"/> רוצה להפעיל תוכן מוגן. זהות המכשיר שלך תאומת על-ידי Dissenter.</translation>
 <translation id="7935031712718413217">‏כתובת URL שעשויה להיות מזויפת</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">בתוקף עד <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1649,11 +1649,11 @@ Del</translation>
 <translation id="8042918947222776840">בחירת שיטת איסוף</translation>
 <translation id="8057711352706143257">יש בעיה בהגדרה של "<ph name="SOFTWARE_NAME"/>". בדרך כלל, הסרת ההתקנה של "<ph name="SOFTWARE_NAME"/>" פותרת את הבעיה. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">מצטערים, משהו השתבש.</translation>
-<translation id="5442778523450464826">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Brave. כדי לשנות את הסיסמה ולהודיע ל-Brave שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
+<translation id="5442778523450464826">‏הזנת כרגע את הסיסמה שלך באתר מטעה. אפשר לפתור את הבעיה בעזרת Dissenter. כדי לשנות את הסיסמה ולהודיע ל-Dissenter שייתכן כי החשבון בסיכון, יש ללחוץ על 'הגנה על החשבון'.</translation>
 <translation id="8074253406171541171">10x13 (Envelope)‎</translation>
 <translation id="8078141288243656252">לא ניתן להוסיף הערה במצב מסובב</translation>
 <translation id="8079031581361219619">לטעון את האתר מחדש?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">טיוטה</translation>
 <translation id="8088680233425245692">הצגת הפריט נכשלה.</translation>
 <translation id="808894953321890993">שינוי הסיסמה</translation>
@@ -1672,7 +1672,7 @@ Del</translation>
 <translation id="8150722005171944719">הקובץ הנמצא ב-<ph name="URL"/> לא ניתן לקריאה. ייתכן שהקובץ הוסר או הועבר, או שהרשאות הקובץ מונעות גישה אליו.</translation>
 <translation id="8157295877370077682">יציאה מהאתר</translation>
 <translation id="8163866351304776260">4 ניקובים בצד שמאל</translation>
-<translation id="4351627595884993315">‏Brave מציע לשמור את הכרטיסים שלך בחשבון Brave כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
+<translation id="4351627595884993315">‏Dissenter מציע לשמור את הכרטיסים שלך בחשבון Dissenter כי התחברת לחשבון. אפשר לשנות את ההתנהגות הזאת בהגדרות.</translation>
 <translation id="8184538546369750125">השתמש בברירת המחדל הכללית (אפשר)</translation>
 <translation id="8194797478851900357">&amp;ביטול העברה</translation>
 <translation id="8197543752516192074">תרגום הדף</translation>
@@ -1683,7 +1683,7 @@ Del</translation>
 <translation id="8211406090763984747">החיבור מאובטח</translation>
 <translation id="8218327578424803826">מיקום מוקצה:</translation>
 <translation id="8220146938470311105">C7/C6 (Envelope)‎</translation>
-<translation id="3272614036080146686">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לעבור אל <ph name="WEBSITE_1"/> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
+<translation id="3272614036080146686">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לעבור אל <ph name="WEBSITE_1"/> ואל אתרים אחרים שבהם הסיסמה הזו בשימוש ולשנות אותה עכשיו.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">טמפרטורת פלטפורמה</translation>
 <translation id="8241707690549784388">הדף שאתה מחפש השתמש במידע שהזנת. החזרה לדף זה עלולה לגרום לכפילות בפעולות שביצעת. האם ברצונך להמשיך?</translation>
@@ -1710,7 +1710,7 @@ Del</translation>
 <translation id="830498451218851433">קיפול באמצע</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">את האפליקציות המותקנות ואת תדירות השימוש בהן.</translation>
-<translation id="8390490312179389407">‏הדף הזה חשוד (סומן על-ידי Brave).</translation>
+<translation id="8390490312179389407">‏הדף הזה חשוד (סומן על-ידי Dissenter).</translation>
 <translation id="831997045666694187">ערב</translation>
 <translation id="8332188693563227489">אין גישה אל <ph name="HOST_NAME"/></translation>
 <translation id="833262891116910667">הדגשה</translation>
@@ -1741,14 +1741,14 @@ Del</translation>
 <translation id="8473863474539038330">כתובות ועוד</translation>
 <translation id="8474910779563686872">הצגת פרטי המפתח</translation>
 <translation id="8479754468255770962">סיכת הידוק בפינה השמאלית התחתונה</translation>
-<translation id="5142582872611298328">‏כדי להשתמש בכרטיסים מחשבון Brave, היכנס אל Brave</translation>
+<translation id="5142582872611298328">‏כדי להשתמש בכרטיסים מחשבון Dissenter, היכנס אל Dissenter</translation>
 <translation id="8488350697529856933">חל על</translation>
 <translation id="8490137692873530638">מערים 10</translation>
 <translation id="8498891568109133222">ל-<ph name="HOST_NAME"/> נדרש זמן רב מדי להגיב.</translation>
-<translation id="230699814587342492">‏סיסמאות Brave</translation>
+<translation id="230699814587342492">‏סיסמאות Dissenter</translation>
 <translation id="8503813439785031346">שם משתמש</translation>
 <translation id="8508648098325802031">סמל החיפוש</translation>
-<translation id="1426902392270366682">‏בעזרת Brave אפשר להגן על חשבון Brave ולשנות את הסיסמה.</translation>
+<translation id="1426902392270366682">‏בעזרת Dissenter אפשר להגן על חשבון Dissenter ולשנות את הסיסמה.</translation>
 <translation id="8541158209346794904">‏מכשיר Bluetooth</translation>
 <translation id="8542014550340843547">3 סיכות הידוק בחלק התחתון</translation>
 <translation id="8543181531796978784">באפשרותך <ph name="BEGIN_ERROR_LINK"/>לדווח על בעיית זיהוי<ph name="END_ERROR_LINK"/> או, אם אתה מבין את סיכוני האבטחה, <ph name="BEGIN_LINK"/>להיכנס לאתר הזה, שאינו מאובטח<ph name="END_LINK"/>.</translation>
@@ -1782,19 +1782,19 @@ Del</translation>
 <translation id="8719528812645237045">ניקובים מרובים בחלק העליון</translation>
 <translation id="8725066075913043281">נסה שוב</translation>
 <translation id="8730621377337864115">בוצע</translation>
-<translation id="6326805297893828864">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Brave לא יכול לאמת את האישורים האלו.</translation>
+<translation id="6326805297893828864">‏כדי ליצור חיבור מאובטח, השעון צריך להיות מוגדר כהלכה. הסיבה לכך היא שהאישורים שבהם אתרים משתמשים כדי לזהות את עצמם תקפים רק למשך פרקי זמן מסוימים. מאחר שהשעון במכשיר שלך שגוי, Dissenter לא יכול לאמת את האישורים האלו.</translation>
 <translation id="8740359287975076522">‏לא ניתן היה למצוא את &lt;abbr id="dnsDefinition"&gt;כתובת ה-DNS&lt;/abbr&gt; של <ph name="HOST_NAME"/>. מאבחן את הבעיה.</translation>
 <translation id="874918643257405732">הוספת הכרטיסייה לסימניות</translation>
 <translation id="8751426954251315517">אפשר לנסות שוב מאוחר יותר.</translation>
 <translation id="8759274551635299824">פג תוקפו של הכרטיס</translation>
 <translation id="87601671197631245">באתר הזה נעשה שימוש בתצורת הגנה מיושנת, כך שמידע נשלח אליו עשוי להיחשף (למשל סיסמאות, הודעות או כרטיסי אשראי).</translation>
-<translation id="8761567432415473239">‏גלישה בטוחה של Brave <ph name="BEGIN_LINK"/>איתרה לאחרונה תוכניות מזיקות<ph name="END_LINK"/> באתר <ph name="SITE"/>.</translation>
+<translation id="8761567432415473239">‏גלישה בטוחה של Dissenter <ph name="BEGIN_LINK"/>איתרה לאחרונה תוכניות מזיקות<ph name="END_LINK"/> באתר <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">‏התקן USB</translation>
-<translation id="565908431635579039">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Brave היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
+<translation id="565908431635579039">‏הזנת כרגע את הסיסמה שלך באתר מטעה. ההמלצה של Dissenter היא לבדוק באופן מיידי את הסיסמאות השמורות של <ph name="WEBSITE_1"/> ואתרים אחרים שבהם הסיסמה הזו נמצאת בשימוש.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;ביצוע מחדש של מחיקה</translation>
-<translation id="5304100303568917877">‏הגישה שלך לחשבון <ph name="ORG_NAME"/> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Brave היא לשנות את הסיסמה עכשיו.</translation>
-<translation id="9156291179464624174">‏הדומיין <ph name="ENROLLMENT_DOMAIN"/> הפעיל את Brave Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
+<translation id="5304100303568917877">‏הגישה שלך לחשבון <ph name="ORG_NAME"/> עשויה להישלל והזהות שלך עשויה להיגנב. ההמלצה של Dissenter היא לשנות את הסיסמה עכשיו.</translation>
+<translation id="9156291179464624174">‏הדומיין <ph name="ENROLLMENT_DOMAIN"/> הפעיל את Dissenter Enterprise Connectors בדפדפן שלך. למחברים האלה יש גישה אל חלק מהנתונים שלך.</translation>
 <translation id="8800988563907321413">כאן מופיעות הצעות עבורך למקומות קרובים</translation>
 <translation id="8805819170075074995">‏ערך רשימה "<ph name="LANGUAGE_ID"/>": המערכת התעלמה מהערך מאחר שהוא כלול גם במדיניות SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">חיתוך אחרי כל עמוד</translation>
@@ -1802,8 +1802,8 @@ Del</translation>
 <translation id="883848425547221593">סימניות אחרות</translation>
 <translation id="884264119367021077">כתובת למשלוח</translation>
 <translation id="884923133447025588">לא נמצא מנגנון ביטול</translation>
-<translation id="7487066225574140895">‏שיתוף עם Brave</translation>
-<translation id="4764754838347156633">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> באתרים אחרים, ההמלצה של Brave היא לאפס אותה.</translation>
+<translation id="7487066225574140895">‏שיתוף עם Dissenter</translation>
+<translation id="4764754838347156633">‏אם הזנת את הסיסמה של <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> באתרים אחרים, ההמלצה של Dissenter היא לאפס אותה.</translation>
 <translation id="8866481888320382733">שגיאה בניתוח הגדרות המדיניות</translation>
 <translation id="8866928039507595380">קיפול</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1815,23 +1815,23 @@ Del</translation>
 <translation id="8903921497873541725">התקרב</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">‏הלחצן 'הסרת הצעה', יש ללחוץ על Enter כדי להסיר, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">‏חשבון Brave</translation>
+<translation id="2684652081942622950">‏חשבון Dissenter</translation>
 <translation id="8918231688545606538">הדף הזה חשוד</translation>
 <translation id="892588693504540538">ניקוב בפינה הימנית העליונה</translation>
-<translation id="7757992844965332255">‏האם ברצונך לשמור את הכרטיס הזה בחשבון Brave שלך?</translation>
+<translation id="7757992844965332255">‏האם ברצונך לשמור את הכרטיס הזה בחשבון Dissenter שלך?</translation>
 <translation id="8932102934695377596">השעון שלך מאחר</translation>
 <translation id="893332455753468063">הוספת שם</translation>
 <translation id="8943282376843390568">ליים</translation>
 <translation id="8957210676456822347">הרשאת פורטל חובה</translation>
-<translation id="109444839364056698">‏כאשר אירועי אבטחה מסומנים לבדיקה על ידי Brave Enterprise Connectors, נתונים רלוונטיים לגבי האירוע נשלחים למנהל המערכת שלך. הנתונים האלה יכולים לכלול כתובות URL של דפים שביקרת בהם ב-Brave, שמות או מטא-נתונים של קבצים, ואת שם המשתמש שבאמצעותו נכנסת למכשיר ול-Brave.</translation>
+<translation id="109444839364056698">‏כאשר אירועי אבטחה מסומנים לבדיקה על ידי Dissenter Enterprise Connectors, נתונים רלוונטיים לגבי האירוע נשלחים למנהל המערכת שלך. הנתונים האלה יכולים לכלול כתובות URL של דפים שביקרת בהם ב-Dissenter, שמות או מטא-נתונים של קבצים, ואת שם המשתמש שבאמצעותו נכנסת למכשיר ול-Dissenter.</translation>
 <translation id="8962950042226115166">אתר חשוד</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>הצעות:<ph name="MARKUP_2"/>ודא שקיים חיבור נתונים<ph name="MARKUP_3"/>טען מחדש את דף האינטרנט הזה מאוחר יותר<ph name="MARKUP_4"/>בדוק את הכתובת שהזנת<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">שמירת הכרטיס</translation>
 <translation id="8971063699422889582">פג תוקפו של אישור השרת.</translation>
 <translation id="8975012916872825179">כולל מידע כמו מספרי טלפון, כתובות אימייל וכתובות למשלוח</translation>
 <translation id="8975263830901772334">שמות הקבצים שמודפסים על ידך</translation>
-<translation id="8978053250194585037">‏לאחרונה <ph name="BEGIN_LINK"/>זוהה פישינג<ph name="END_LINK"/> באתר <ph name="SITE"/> על-ידי הגלישה הבטוחה של Brave. אתרי פישינג מתחזים לאתרים אחרים כדי להונות אותך.</translation>
-<translation id="5889706513445719653">‏אמצעי תשלום וכתובות שנשמרו ב-Brave Pay</translation>
+<translation id="8978053250194585037">‏לאחרונה <ph name="BEGIN_LINK"/>זוהה פישינג<ph name="END_LINK"/> באתר <ph name="SITE"/> על-ידי הגלישה הבטוחה של Dissenter. אתרי פישינג מתחזים לאתרים אחרים כדי להונות אותך.</translation>
+<translation id="5889706513445719653">‏אמצעי תשלום וכתובות שנשמרו ב-Dissenter Pay</translation>
 <translation id="8987927404178983737">חודש</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">האתר הבא מכיל תוכניות מזיקות</translation>
@@ -1860,10 +1860,10 @@ Del</translation>
 <translation id="9089260154716455634">מדיניות לשעות ללא פעילות:</translation>
 <translation id="9095388113577226029">שפות נוספות...</translation>
 <translation id="9101630580131696064">מגש 1</translation>
-<translation id="6373940988468425649">‏האתר <ph name="SITE"/> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Brave ניסה הפעם להתחבר ל-<ph name="SITE"/>, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE"/>, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Brave הפסיק את החיבור לפני חילופי הנתונים.</translation>
+<translation id="6373940988468425649">‏האתר <ph name="SITE"/> משתמש בדרך כלל בהצפנה כדי להגן על המידע שלך. כאשר Dissenter ניסה הפעם להתחבר ל-<ph name="SITE"/>, האתר שלח חזרה אישורים חריגים ושגויים. ייתכן שתוקף מנסה להתחזות לאתר <ph name="SITE"/>, או שמסך כניסה ל-Wi-Fi הפריע לחיבור. המידע שלך עדיין מאובטח מכיוון ש-Dissenter הפסיק את החיבור לפני חילופי הנתונים.</translation>
 <translation id="9106062320799175032">הוספה של כתובת לחיוב</translation>
 <translation id="9114524666733003316">אישור הכרטיס מתבצע...</translation>
-<translation id="3582535072753734287">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Brave. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">‏הדפדפן הזה לא מנוהל על ידי חברה או ארגון אחר. ייתכן שהפעילות במכשיר הזה מנוהלת מחוץ ל-Dissenter. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">הועלה</translation>
 <translation id="9128870381267983090">התחבר לרשת</translation>
 <translation id="9137013805542155359">הצג מקור</translation>
@@ -1871,7 +1871,7 @@ Del</translation>
 <translation id="9148088599418889305">בחירת שיטת משלוח</translation>
 <translation id="9148507642005240123">&amp;ביטול עריכה</translation>
 <translation id="9150045010208374699">להשתמש במצלמה</translation>
-<translation id="5874192512642998555">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Brave. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">‏מנהל המערכת יכול לשנות את הגדרת הדפדפן שלך מרחוק. בנוסף, ניתן לנהל את הפעילות במכשיר הזה מחוץ ל-Dissenter. <ph name="BEGIN_LINK"/>מידע נוסף<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">עודכן</translation>
 <translation id="9157595877708044936">מגדיר...</translation>
 <translation id="9158625974267017556">C6 (Envelope)‎</translation>
@@ -1887,12 +1887,12 @@ Del</translation>
 <translation id="9191834167571392248">ניקוב בפינה השמאלית התחתונה</translation>
 <translation id="9205078245616868884">הנתונים שלך מוצפנים באמצעות ביטוי הסיסמה לסינכרון. הזן אותו כדי להתחיל בסינכרון.</translation>
 <translation id="9207861905230894330">הוספת הפריט נכשלה.</translation>
-<translation id="2206050430829841793">‏יישום כלשהו לא מאפשר ל-Brave להתחבר באופן מאובטח לאתר זה</translation>
+<translation id="2206050430829841793">‏יישום כלשהו לא מאפשר ל-Dissenter להתחבר באופן מאובטח לאתר זה</translation>
 <translation id="9219103736887031265">תמונות</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ניקוי הטופס</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Brave. לגלישה בטוחה ב-Brave, מומלץ לשנות את הסיסמה עכשיו.</translation>
+<translation id="7486559383537872796">‏ייתכן שמישהו אחר ישלול את הגישה שלך לחשבון Dissenter. לגלישה בטוחה ב-Dissenter, מומלץ לשנות את הסיסמה עכשיו.</translation>
 <translation id="939736085109172342">תיקייה חדשה</translation>
 <translation id="945855313015696284">יש לבדוק את המידע שבהמשך ולמחוק כרטיסים עם שגיאות</translation>
 <translation id="950736567201356821">3 ניקובים בחלק העליון</translation>
@@ -1917,7 +1917,7 @@ Del</translation>
     &lt;li&gt;להתחבר לרשת אחרת&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">‏מ-Brave Pay</translation>
+<translation id="6771143571626203666">‏מ-Dissenter Pay</translation>
 <translation id="8820817407110198400">סימניות</translation>
 <translation id="8362995731815961365">המשתמש שהגדיר את המחשב הזה בחר לחסום את האתר הזה.</translation>
 <translation id="4075123085690634698">‏פתח את הדף בחלון חדש של גלישה בסתר (‎⇧⌘N)</translation>
@@ -1929,7 +1929,7 @@ Del</translation>
 <translation id="2227116904818538760">עברת למצב אנונימי</translation>
 <translation id="2007417459975034427">עכשיו אפשר לגלוש באופן פרטי, ואנשים אחרים שמשתמשים במכשיר הזה לא יראו את הפעילות שלך. עם זאת, עדיין תתבצע שמירה של הורדות וסימניות.</translation>
 <translation id="2586968635953373425">פתיחת חלון גלישה בסתר</translation>
-<translation id="3489858312836205593">‏פתיחת חלון חדש של גלישה בסתר ב-Brave</translation>
+<translation id="3489858312836205593">‏פתיחת חלון חדש של גלישה בסתר ב-Dissenter</translation>
 <translation id="6984479912851154518">בחרת לצאת ממצב גלישה בסתר כדי לשלם באמצעות יישום חיצוני. להמשיך?</translation>
 <translation id="1426112902089905810">‏&lt;h4&gt;שלב ראשון: כניסה לפורטל&lt;/h4&gt;
     &lt;p&gt;כדי להשתמש ברשתות Wi-Fi במקומות כמו בתי קפה ושדות תעופה, צריך להיכנס לפורטל ייעודי. כדי לראות את דף הכניסה צריך להיכנס לדף שהכתובת שלו מתחילה ב-&lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -1939,11 +1939,11 @@ Del</translation>
     &lt;/ol&gt;
     &lt;h4&gt;שלב שני: פתיחת הדף במצב גלישה בסתר (מחשבים בלבד)&lt;/h4&gt;
     &lt;p&gt;פותחים את הדף שאליו רוצים להיכנס בחלון גלישה בסתר.&lt;/p&gt;
-    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Brave. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
+    &lt;p&gt;אם הדף נפתח, יש בעיה בתוסף של Dissenter. כדי לפתור את השגיאה צריך להשבית את התוסף.&lt;/p&gt;
     &lt;h4&gt;שלב שלישי: עדכון מערכת ההפעלה&lt;/h4&gt;
     &lt;p&gt;מוודאים שמערכת ההפעלה במכשיר מעודכנת.&lt;/p&gt;
     &lt;h4&gt;שלב רביעי: השבתה זמנית של האנטי-וירוס&lt;/h4&gt;
-    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Brave לספק אבטחה.&lt;/p&gt;
+    &lt;p&gt;השגיאה זו תוצג אם במחשב מותקנת תוכנת אנטי-וירוס שמספקת "הגנת HTTPS" או "סריקת HTTPS". תוכנת האנטי-וירוס מונעת מ-Dissenter לספק אבטחה.&lt;/p&gt;
     &lt;p&gt;כדי לפתור את הבעיה, יש לכבות את תוכנת האנטי-וירוס. אם הדף פועל לאחר כיבוי התוכנה, יש לכבות אותה בזמן השימוש באתרים מאובטחים.&lt;/p&gt;
     &lt;p&gt;חשוב להפעיל שוב את האנטי-וירוס בסיום.&lt;/p&gt;
     &lt;h4&gt;שלב חמישי: סיוע נוסף&lt;/h4&gt;

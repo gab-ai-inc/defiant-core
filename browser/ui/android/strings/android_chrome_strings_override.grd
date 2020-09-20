@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!-- android_chrome_strings.grd contains strings for Brave for Android.
+<!-- android_chrome_strings.grd contains strings for Dissenter for Android.
 
 FAQ:
   - How do I add, change, or remove a string?
@@ -116,11 +116,11 @@ CHAR-LIMIT guidelines:
       <message name="IDS_NOTIFICATION_CATEGORY_INCOGNITO" desc="Label for notification that indicates private mode is active, within a list of notification categories. [CHAR-LIMIT=32]">
         Private
       </message>
-      <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Brave's features and performance' preference.">
-        Automatically sends crash reports to Brave
+      <message name="IDS_USAGE_AND_CRASH_REPORTS_SUMMARY" desc="Description for 'Help improve Dissenter's features and performance' preference.">
+        Automatically sends crash reports to Dissenter
       </message>
       <message name="IDS_DATA_REDUCTION_DESCRIPTION_LITE_MODE" desc="Text describing how the Lite mode feature works. Seen only before the user has enabled the feature.">
-        When Lite mode is on, Brave uses Brave servers to make pages load faster. Lite mode rewrites very slow pages to load only essential content. Lite mode does not apply to Private tabs.
+        When Lite mode is on, Dissenter uses Dissenter servers to make pages load faster. Lite mode rewrites very slow pages to load only essential content. Lite mode does not apply to Private tabs.
       </message>
       <message name="IDS_ACCESSIBILITY_TAB_SWITCHER_INCOGNITO_STACK" desc="Content description for the private stack selection 'button'.">
         Private tabs
@@ -131,7 +131,7 @@ CHAR-LIMIT guidelines:
       <message name="IDS_CONTEXTMENU_OPEN_IN_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a new private tab. [CHAR-LIMIT=30]">
         Open in private tab
       </message>
-      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Brave private tab from Brave Custom Tab. [CHAR-LIMIT=30]">
+      <message name="IDS_CONTEXTMENU_OPEN_IN_CHROME_INCOGNITO_TAB" desc="Context sensitive menu item to open the selected link in a Dissenter private tab from Dissenter Custom Tab. [CHAR-LIMIT=30]">
         Open in private tab
       </message>
       <message name="IDS_DOWNLOAD_NOTIFICATION_INCOGNITO_SUBTEXT" desc="Displayed in private mode download notification as subtext.">
@@ -159,8 +159,8 @@ CHAR-LIMIT guidelines:
       <message name="IDS_MENU_CLOSE_ALL_INCOGNITO_TABS" desc="Menu item for closing all open private tabs. [CHAR-LIMIT=27]">
         Close private tabs
       </message>
-      <message name="IDS_MENU_OPEN_IN_INCOGNITO_CHROME" desc="Context sensitive menu item for opening a link in Brave in a Private tab. [CHAR-LIMIT=30]" translateable="false">
-        Open in Private Brave
+      <message name="IDS_MENU_OPEN_IN_INCOGNITO_CHROME" desc="Context sensitive menu item for opening a link in Dissenter in a Private tab. [CHAR-LIMIT=30]" translateable="false">
+        Open in Private Dissenter
       </message>
       <message name="IDS_ACCESSIBILITY_NEW_INCOGNITO_TAB_PAGE" desc="Accessibility text to read aloud when the user focuses the new private tab view.">
         New private tab
@@ -187,7 +187,7 @@ CHAR-LIMIT guidelines:
       <message name="IDS_ACCESSIBILITY_TABSTRIP_INCOGNITO_IDENTIFIER_SELECTED" desc="Content description for the tab that is selected in private mode">
         Selected Private Tab
       </message>
-      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in private mode in Brave. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
+      <message name="IDS_KEYBOARD_SHORTCUT_NEW_INCOGNITO_TAB" desc="A text label that appears next to a keyboard shortcut to open a new tab in private mode in Dissenter. The shortcut description is shown in a system dialog along with all other supported shortcuts. [CHAR-LIMIT=55]">
         Open a new tab in Private mode
       </message>
       <if expr="enable_arcore">

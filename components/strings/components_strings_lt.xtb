@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">Kortelėje nurodytų vardo ir pavardės pridėjimas</translation>
 <translation id="1089439967362294234">Slaptažodžio keitimas</translation>
 <translation id="1096545575934602868">Šiame lauke negali būti daugiau nei <ph name="MAX_ITEMS_LIMIT"/> įraš. Visi šį apribojimą viršijantys įrašai bus atmesti.</translation>
-<translation id="1920681928837417101">Tvarkyti slaptažodžius „Brave“ nustatymuose</translation>
+<translation id="1920681928837417101">Tvarkyti slaptažodžius „Dissenter“ nustatymuose</translation>
 <translation id="1101672080107056897">Klaidos veiksmas</translation>
 <translation id="1103523840287552314">Visada versti <ph name="LANGUAGE"/></translation>
 <translation id="1110994991967754504"><ph name="PERMISSION_NAME"/>: pasirinkite leidimą</translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">Be pavadinimo</translation>
 <translation id="1236081509407217141">Leisti VR?</translation>
 <translation id="1240347957665416060">Įrenginio pavadinimas</translation>
-<translation id="1052005765108026699">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę, vardą bei pavardę ir atsiskaitymo adresą „Brave“ paskyroje.</translation>
+<translation id="1052005765108026699">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę, vardą bei pavardę ir atsiskaitymo adresą „Dissenter“ paskyroje.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (sinchronizuota)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Jei bandote apsilankyti svetainėje, bet nepavyksta jos atidaryti, pirma pabandykite ištaisyti klaidą atlikdami toliau nurodytus trikčių šalinimo veiksmus.&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">Paėmimo metodas</translation>
 <translation id="1281476433249504884">1 dėtuvė</translation>
 <translation id="1285320974508926690">Niekada neversti šios svetainės</translation>
-<translation id="1209478311331937175">„Programinė įranga jūsų kompiuteryje neleidžia „Brave“ saugiai prisijungti prie žiniatinklio“ (tik „Windows“ kompiuteriuose)</translation>
+<translation id="1209478311331937175">„Programinė įranga jūsų kompiuteryje neleidžia „Dissenter“ saugiai prisijungti prie žiniatinklio“ (tik „Windows“ kompiuteriuose)</translation>
 <translation id="1294154142200295408">Komandos eilutės kintamieji</translation>
 <translation id="129553762522093515">Neseniai uždarytas</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>Pabandykite išvalyti slapukus<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">Spausdinti</translation>
 <translation id="1442386063175183758">Atvartas dešinėje</translation>
 <translation id="1442987760062738829">Skylių pramušimas</translation>
-<translation id="7408760246081928496">Tekstas, kurį įklijuojate ar pridedate, siunčiamas „Brave Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, tekstas gali būti nuskaitytas, ar jame nėra neskelbtinų duomenų.</translation>
+<translation id="7408760246081928496">Tekstas, kurį įklijuojate ar pridedate, siunčiamas „Dissenter Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, tekstas gali būti nuskaitytas, ar jame nėra neskelbtinų duomenų.</translation>
 <translation id="1455413310270022028">Trintukas</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5 x 7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">Pakeiskite slaptažodį</translation>
 <translation id="1484290072879560759">Pasirinkti pristatymo adresą</translation>
 <translation id="1492194039220927094">Politikos gavimas:</translation>
-<translation id="1812569385220097122">Rodyti korteles iš „Brave“ paskyros</translation>
+<translation id="1812569385220097122">Rodyti korteles iš „Dissenter“ paskyros</translation>
 <translation id="1507202001669085618">&lt;p&gt;Ši klaida rodoma, jei naudojate „Wi-Fi“ portalą, prie kurio reikia prisijungti, kad galėtumėte naudotis internetu.&lt;/p&gt;
     &lt;p&gt;Kad ištaisytumėte šią klaidą, puslapyje, kurį bandote atidaryti, spustelėkite &lt;strong&gt;Prisijungti&lt;/strong&gt;.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">Istorijos įrašų sąrašas</translation>
 <translation id="1517433312004943670">Būtinas telefono numeris</translation>
 <translation id="1519264250979466059">Sukūrimo data</translation>
-<translation id="5524011986660000129">„Brave“ skaičiuoklės</translation>
+<translation id="5524011986660000129">„Dissenter“ skaičiuoklės</translation>
 <translation id="1527263332363067270">Laukiama ryšio…</translation>
 <translation id="1529521330346880926">10 x 15 (vokas)</translation>
 <translation id="1529789484829130889">8 dėklas</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">Istorija</translation>
 <translation id="1645368109819982629">Nepalaikomas protokolas</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">„Brave“ supaprastino šį puslapį, kad būtų paprasčiau skaityti. „Brave“ gavo pradinį puslapį prisijungusi saugiu ryšiu.</translation>
+<translation id="3848846802033604519">„Dissenter“ supaprastino šį puslapį, kad būtų paprasčiau skaityti. „Dissenter“ gavo pradinį puslapį prisijungusi saugiu ryšiu.</translation>
 <translation id="1656489000284462475">Paėmimas</translation>
 <translation id="1662550410081243962">Išsaugoti ir užpildyti mokėjimo metodų informaciją</translation>
-<translation id="1838576226863399477">Kortelės ir adresai naudojami iš „Brave“. Juos galite tvarkyti nuėję į <ph name="BEGIN_LINK"/>Nustatymus<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Kortelės ir adresai naudojami iš „Dissenter“. Juos galite tvarkyti nuėję į <ph name="BEGIN_LINK"/>Nustatymus<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">Puslapiai, parašyti <ph name="SOURCE_LANGUAGE"/>, nuo dabar bus verčiami į <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1682696192498422849">Pirmiau trumpasis kraštas</translation>
 <translation id="168693727862418163">Šios politikos vertės nepavyko patvirtinti pagal schemą ir jos bus nepaisoma.</translation>
@@ -213,7 +213,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">Atnaujinkite sinchronizavimo slaptafrazę.</translation>
 <translation id="1787142507584202372">Atidaryti skirtukai bus rodomi čia</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">Kortelės savininko vardas</translation>
 <translation id="1807528111851433570">Pradžios lapas</translation>
@@ -226,7 +226,7 @@
 <translation id="1842969606798536927">Mokėti</translation>
 <translation id="1871208020102129563">Įgaliotasis serveris nustatytas naudoti fiksuotų įgaliotųjų serverių, o ne .pac scenarijaus URL.</translation>
 <translation id="1871284979644508959">Būtinas laukas</translation>
-<translation id="85321348617848915">„Brave“ formos</translation>
+<translation id="85321348617848915">„Dissenter“ formos</translation>
 <translation id="187918866476621466">Atidaryti paleidimo puslapius</translation>
 <translation id="1883255238294161206">Sutraukti sąrašą</translation>
 <translation id="1898423065542865115">Filtravimas</translation>
@@ -237,19 +237,19 @@
 <translation id="1914326953223720820">Išpakavimo paslauga</translation>
 <translation id="1915697529809968049">Naudoti „Touch ID“ vietoj CVC?</translation>
 <translation id="1916770123977586577">Kad pritaikytumėte atnaujintus nustatymus šioje svetainėje, iš naujo įkelkite šį puslapį</translation>
-<translation id="688541908229382784">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Brave“ rekomenduoja dabar pakeisti <ph name="ORIGIN"/> slaptažodį.</translation>
+<translation id="688541908229382784">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Dissenter“ rekomenduoja dabar pakeisti <ph name="ORIGIN"/> slaptažodį.</translation>
 <translation id="1919345977826869612">Skelbimai</translation>
 <translation id="1919367280705858090">Gaukite pagalbos dėl konkretaus klaidos pranešimo</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Nėra}=1{1 svetainė}one{# svetainė}few{# svetainės}many{# svetainės}other{# svetainių}}</translation>
 <translation id="194030505837763158">Apsilankykite <ph name="LINK"/></translation>
 <translation id="1947454675006758438">Sankabėlė viršuje dešinėje</translation>
-<translation id="990584554013599191">Padėkite gerinti visų naudotojų saugumą žiniatinklyje – atsiųskite <ph name="BEGIN_WHITEPAPER_LINK"/>lankomų puslapių URL, ribotos sistemos informacijos ir puslapių turinio<ph name="END_WHITEPAPER_LINK"/> į „Brave“. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Privatumo politika<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Padėkite gerinti visų naudotojų saugumą žiniatinklyje – atsiųskite <ph name="BEGIN_WHITEPAPER_LINK"/>lankomų puslapių URL, ribotos sistemos informacijos ir puslapių turinio<ph name="END_WHITEPAPER_LINK"/> į „Dissenter“. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Privatumo politika<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436"><ph name="DOMAIN"/> žymės</translation>
 <translation id="1973335181906896915">Serijinio rengimo klaida</translation>
 <translation id="1974060860693918893">Išplėstiniai</translation>
 <translation id="1975584088563498795">10 pašto dėžutė</translation>
 <translation id="1978555033938440688">Programinės aparatinės įrangos versija</translation>
-<translation id="711418501679417607">Išvalyti „Brave“ naršymo istorijos duomenis</translation>
+<translation id="711418501679417607">Išvalyti „Dissenter“ naršymo istorijos duomenis</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">Pasiekti slapukus ir svetainės duomenis.
 
@@ -265,7 +265,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2030481566774242610">Ar turėjote omenyje <ph name="LINK"/>?</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>Patikrinti tarpinį serverį ir užkardą<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">7 dėklas</translation>
-<translation id="3163988908275223348">Prisijunkite, kad galėtumėte naudoti „Brave“ paskyroje išsaugotus slaptažodžius</translation>
+<translation id="3163988908275223348">Prisijunkite, kad galėtumėte naudoti „Dissenter“ paskyroje išsaugotus slaptažodžius</translation>
 <translation id="2053111141626950936">Puslapiai, parašyti <ph name="LANGUAGE"/>, verčiami nebus.</translation>
 <translation id="2053553514270667976">Pašto kodas</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 pasiūlymas}one{# pasiūlymas}few{# pasiūlymai}many{# pasiūlymo}other{# pasiūlymų}}</translation>
@@ -318,7 +318,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2258928405015593961">Įveskite galiojimo laiko pabaigos datą, kuri yra ateityje, ir bandykite dar kartą</translation>
 <translation id="225943865679747347">Klaidos kodas: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">HTTP klaida</translation>
-<translation id="112540507627099823">Atnaujinti kredito kortelės automatinio pildymo informaciją „Brave“ nustatymuose</translation>
+<translation id="112540507627099823">Atnaujinti kredito kortelės automatinio pildymo informaciją „Dissenter“ nustatymuose</translation>
 <translation id="2267047181501709434">Patvirtinama tapatybė...</translation>
 <translation id="2270484714375784793">Telefono numeris</translation>
 <translation id="2276057643614339130">Spausdinimo pagrindas</translation>
@@ -339,7 +339,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2344028582131185878">Automatiniai atsisiuntimai</translation>
 <translation id="2346319942568447007">Nukopijuotas vaizdas</translation>
 <translation id="2354001756790975382">Kitos žymės</translation>
-<translation id="2354430244986887761">„Brave“ saugaus naršymo technologija svetainėje <ph name="SITE"/> neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjiškų programų<ph name="END_LINK"/>.</translation>
+<translation id="2354430244986887761">„Dissenter“ saugaus naršymo technologija svetainėje <ph name="SITE"/> neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjiškų programų<ph name="END_LINK"/>.</translation>
 <translation id="2355395290879513365">Užpuolikai galbūt galės matyti, kuriuos šios svetainės vaizdus peržiūrite, ir juos pakeis siekdami jus suklaidinti.</translation>
 <translation id="2356070529366658676">Paklausti</translation>
 <translation id="2359629602545592467">Kelios</translation>
@@ -369,7 +369,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2491120439723279231">Serverio sertifikate yra klaidų.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">JSON analizavimo įrankis</translation>
-<translation id="5047769237368272183">Jei pažymėta, „Brave“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
+<translation id="5047769237368272183">Jei pažymėta, „Dissenter“ išsaugos kortelės kopiją įrenginyje, kad galėtumėte greičiau užpildyti formas.</translation>
 <translation id="2498091847651709837">Nuskaityti naują kortelę</translation>
 <translation id="2501278716633472235">Grįžti</translation>
 <translation id="2505268675989099013">Apsaugoti paskyrą</translation>
@@ -433,12 +433,12 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="277133753123645258">Pristatymo metodas</translation>
 <translation id="277499241957683684">Trūksta įrenginio įrašo</translation>
 <translation id="2775884851269838147">Pirmas spausdinamas lapas</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">Ryšys atkurtas.</translation>
 <translation id="2792012897584536778">Šio įrenginio administratoriai nustatė saugos sertifikatus, leidžiančius jiems peržiūrėti svetainių, kuriose lankotės, turinį.</translation>
 <translation id="2799020568854403057">Pateiktoje svetainėje yra kenkėjiškų programų</translation>
 <translation id="2799223571221894425">Paleisti iš naujo</translation>
-<translation id="2803306138276472711">„Brave“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjiškų programų<ph name="END_LINK"/> svetainėje <ph name="SITE"/>. Kartais svetainės, kurios paprastai yra saugios, užkrečiamos kenkėjiškomis programomis.</translation>
+<translation id="2803306138276472711">„Dissenter“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjiškų programų<ph name="END_LINK"/> svetainėje <ph name="SITE"/>. Kartais svetainės, kurios paprastai yra saugios, užkrečiamos kenkėjiškomis programomis.</translation>
 <translation id="2807052079800581569">Vaizdo Y padėtis</translation>
 <translation id="2824514415781424867">Bendrinti vietovę?</translation>
 <translation id="2824775600643448204">Adreso ir paieškos juosta</translation>
@@ -479,7 +479,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="2989742184762224133">Dvi sankabėlės viršuje</translation>
 <translation id="2991174974383378012">Bendrinimas su svetainėmis</translation>
 <translation id="2991571918955627853">Negalite dabar apsilankyti <ph name="SITE"/>, nes svetainėje naudojama HSTS. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
-<translation id="6683975920571472553">„Brave“ pasiūlymai</translation>
+<translation id="6683975920571472553">„Dissenter“ pasiūlymai</translation>
 <translation id="3002501248619246229">Patikrinkite įvesties dėklo mediją</translation>
 <translation id="3005723025932146533">Rodyti išsaugotą kopiją</translation>
 <translation id="3008447029300691911">Įveskite „<ph name="CREDIT_CARD"/>“ kortelės saugos kodą (CVC). Kai patvirtinsite, išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
@@ -563,7 +563,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3399952811970034796">Pristatymo adresas</translation>
 <translation id="3402261774528610252">Šiai svetainei įkelti naudojamam ryšiui buvo naudojama 1.0 arba 1.1 versijos TLS, kuri nebenaudojama ir ateityje bus išjungta. Išjungus naudotojai nebegalės įkelti šios svetainės. Serveryje reikia įgalinti 1.2 arba naujesnės versijos TLS.</translation>
 <translation id="3414952576877147120">Dydis:</translation>
-<translation id="25726459489263481">Failai, kuriuos įkeliate ar pridedate, siunčiami „Brave Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, failai gali būti nuskaityti, ar juose nėra neskelbtinų duomenų ar kenkėjiškų programų.</translation>
+<translation id="25726459489263481">Failai, kuriuos įkeliate ar pridedate, siunčiami „Dissenter Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, failai gali būti nuskaityti, ar juose nėra neskelbtinų duomenų ar kenkėjiškų programų.</translation>
 <translation id="3422248202833853650">Pabandykite išeiti iš kitų programų, kad atlaisvintumėte atminties.</translation>
 <translation id="3422472998109090673"><ph name="HOST_NAME"/> šiuo metu nepasiekiama.</translation>
 <translation id="3423742043356668186">Nurodyta sistema</translation>
@@ -572,7 +572,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3428151540071562330">Vienas arba keli „DnsOverHttpsTemplates“ serverio šablono URI yra netinkami ir nebus naudojami.</translation>
 <translation id="3431636764301398940">Išsaugoti šią kortelę šiame įrenginyje</translation>
 <translation id="3432601291244612633">Uždaryti puslapį</translation>
-<translation id="4527130811319726464">Naudoti „Brave“ paskyroje išsaugotus slaptažodžius</translation>
+<translation id="4527130811319726464">Naudoti „Dissenter“ paskyroje išsaugotus slaptažodžius</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Įrenginio savininkas išjungė dinozauro žaidimą.</translation>
 <translation id="3447884698081792621">Rodyti sertifikatą (išdavė „<ph name="ISSUER"/>“)</translation>
@@ -603,7 +603,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3567778190852720481">Negalima užsiregistruoti naudojant įmonės paskyrą (įmonės paskyra netinkama).</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">Svetainėje <ph name="SITE"/> įterptame puslapyje nurodyta:</translation>
-<translation id="230476913390177517">„Brave“ informuos jus, kai šis puslapis bus paruoštas. &lt;a&gt;Atšaukti&lt;/a&gt;</translation>
+<translation id="230476913390177517">„Dissenter“ informuos jus, kai šis puslapis bus paruoštas. &lt;a&gt;Atšaukti&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Pridėti vardą</translation>
 <translation id="3583757800736429874">&amp;Perkelti dar kartą</translation>
 <translation id="3584299510153766161">Dvi skylės apačioje</translation>
@@ -646,7 +646,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="373042150751172459">B4 (vokas)</translation>
 <translation id="3731873414101415120">Svetainės, kuriose lankotės, ir nesaugių puslapių turinys</translation>
 <translation id="3736520371357197498">Jei suprantate, kokia rizika gali kilti jūsų saugai, galite <ph name="BEGIN_LINK"/>apsilankyti šioje nesaugioje svetainėje<ph name="END_LINK"/>, kol iš jos dar nepašalintos pavojingos programos.</translation>
-<translation id="4098534208927606680">Kai patvirtinsite, „Brave“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
+<translation id="4098534208927606680">Kai patvirtinsite, „Dissenter“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
 <translation id="3748148204939282805"><ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> užpuolikai gali bandyti apgaule priversti jus atlikti pavojingus veiksmus, pvz., įdiegti programinę įrangą ar atskleisti asmens informaciją (pvz., slaptažodžius, telefonų numerius ar kredito kortelių duomenis). <ph name="BEGIN_LEARN_MORE_LINK"/>Sužinokite daugiau<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">Išeiti iš vaizdo vaizde režimo</translation>
 <translation id="3759461132968374835">Nėra strigčių, apie kurias buvo neseniai pranešta. Strigtys, įvykusios tuo metu, kai strigčių ataskaitų teikimas buvo išjungtas, čia rodomos nebus.</translation>
@@ -654,7 +654,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3761718714832595332">Slėpti būseną</translation>
 <translation id="3765032636089507299">Saugaus naršymo puslapis kuriamas.</translation>
 <translation id="3765588406864124894">9 pašto dėžutė</translation>
-<translation id="5141491707451394486">Ar norite išsaugoti šią kortelę „Brave“ paskyroje ir šiame įrenginyje?</translation>
+<translation id="5141491707451394486">Ar norite išsaugoti šią kortelę „Dissenter“ paskyroje ir šiame įrenginyje?</translation>
 <translation id="3780694243617746492">Išvesties dėklas</translation>
 <translation id="3781428340399460090">Ryškiai rausva</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -684,7 +684,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3901925938762663762">Kortelė nebegalioja</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Planšetinis kompiuteris</translation>
-<translation id="2650609753175229582"><ph name="URL"/> nori paleisti saugomą turinį Įrenginio tapatybę patvirtins „Brave“ ir įrenginį galės pasiekti ši svetainė.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> nori paleisti saugomą turinį Įrenginio tapatybę patvirtins „Dissenter“ ir įrenginį galės pasiekti ši svetainė.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">Naudoti „WebAuthn“ vietoj CVC?</translation>
 <translation id="3946209740501886391">Visada klausti šioje svetainėje</translation>
@@ -699,7 +699,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="3964661563329879394">{COUNT,plural, =0{Nėra}=1{Iš 1 svetainės }one{Iš # svetainės }few{Iš # svetainių }many{Iš # svetainės }other{Iš # svetainių }}</translation>
 <translation id="397105322502079400">Skaičiuojama...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> užblokuota.</translation>
-<translation id="2321540973325616220">„Brave“ nustatė, kad ši svetainė gali būti suklastota ar apgavikiška.
+<translation id="2321540973325616220">„Dissenter“ nustatė, kad ši svetainė gali būti suklastota ar apgavikiška.
 
     Jei manote, kad šis pranešimas rodomas per klaidą, apsilankykite adresu https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Mažiau nei 1 MB</translation>
@@ -774,7 +774,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4275830172053184480">Iš naujo paleisti įrenginį</translation>
 <translation id="4277028893293644418">Iš naujo nustatyti slaptažodį</translation>
 <translation id="4279811152705618813">Jūsų „<ph name="DEVICE_TYPE"/>“ tvarko <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Ši kortelė išsaugota jūsų „Brave“ paskyroje}one{Šios kortelės išsaugotos jūsų „Brave“ paskyroje}few{Šios kortelės išsaugotos jūsų „Brave“ paskyroje}many{Šios kortelės išsaugotos jūsų „Brave“ paskyroje}other{Šios kortelės išsaugotos jūsų „Brave“ paskyroje}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Ši kortelė išsaugota jūsų „Dissenter“ paskyroje}one{Šios kortelės išsaugotos jūsų „Dissenter“ paskyroje}few{Šios kortelės išsaugotos jūsų „Dissenter“ paskyroje}many{Šios kortelės išsaugotos jūsų „Dissenter“ paskyroje}other{Šios kortelės išsaugotos jūsų „Dissenter“ paskyroje}}</translation>
 <translation id="42981349822642051">Išskleisti</translation>
 <translation id="4300675098767811073">Kelios skylės dešinėje</translation>
 <translation id="4302965934281694568">„Chou3“ (vokas)</translation>
@@ -787,7 +787,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4326324639298822553">Patikrinkite galiojimo pabaigos datą ir bandykite dar kartą</translation>
 <translation id="4331519897422864041">5 dėtuvė</translation>
 <translation id="4331708818696583467">Nesaugi</translation>
-<translation id="6116812392674177288">Šis kompiuteris neaptinkamas kaip valdomas įmonės, todėl taikant politiką galima automatiškai įdiegti tik „Brave“ internetinėje parduotuvėje priglobiamus plėtinius. „Brave“ internetinės parduotuvės atnaujinimo URL yra „<ph name="CWS_UPDATE_URL"/>“.</translation>
+<translation id="6116812392674177288">Šis kompiuteris neaptinkamas kaip valdomas įmonės, todėl taikant politiką galima automatiškai įdiegti tik „Dissenter“ internetinėje parduotuvėje priglobiamus plėtinius. „Dissenter“ internetinės parduotuvės atnaujinimo URL yra „<ph name="CWS_UPDATE_URL"/>“.</translation>
 <translation id="4346197816712207223">Tinkamos kredito kortelės</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">Šios svetainės užpuolėjai gali jūsų kompiuteryje bandyti įdiegti pavojingas programas, kurios vagia arba ištrina informaciją (pvz., nuotraukas, slaptažodžius, pranešimus ir kredito kortelių numerius).</translation>
@@ -812,7 +812,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4477350412780666475">Kitas takelis</translation>
 <translation id="4482953324121162758">Ši svetainė nebus verčiama.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">Šios funkcijos išjungtos pagal numatytuosius nustatymus. Jos nebus pasiekiamos būsimų versijų naršyklėje „Brave“.</translation>
+<translation id="3614771894046523359">Šios funkcijos išjungtos pagal numatytuosius nustatymus. Jos nebus pasiekiamos būsimų versijų naršyklėje „Dissenter“.</translation>
 <translation id="4493480324863638523">Netinkamas URL. Tai turi būti įprastos schemos URL, pvz., http://example.com arba https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">Tikrinimo klaida: <ph name="VALIDATION_ERROR"/></translation>
@@ -820,7 +820,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="450710068430902550">Bendrinimas su administratoriumi</translation>
 <translation id="4508814173490746936">Nepavyko naudoti „Touch ID“</translation>
 <translation id="4510487217173779431">„Chou4“ (vokas)</translation>
-<translation id="4892470328555495647">Kortelės ir adresai naudojami iš „Brave“ ir jūsų „Brave“ paskyros (<ph name="ACCOUNT_EMAIL"/>). Galite juos tvarkyti skiltyje <ph name="BEGIN_LINK"/>Nustatymai<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Kortelės ir adresai naudojami iš „Dissenter“ ir jūsų „Dissenter“ paskyros (<ph name="ACCOUNT_EMAIL"/>). Galite juos tvarkyti skiltyje <ph name="BEGIN_LINK"/>Nustatymai<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">„Comm-10“ (vokas)</translation>
 <translation id="4522570452068850558">Išsami informacija</translation>
 <translation id="4524138615196389145">Nuo šiol patvirtinkite korteles greičiau su „WebAuthn“</translation>
@@ -846,7 +846,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4670064810192446073">Virtualioji realybė</translation>
 <translation id="467662567472608290">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN"/>; jo saugos sertifikate yra klaidų. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> nori reaguoti į pritaikymo neįgaliesiems įvykius</translation>
-<translation id="8197094463444457125">„Brave“ skaidrės</translation>
+<translation id="8197094463444457125">„Dissenter“ skaidrės</translation>
 <translation id="4690462567478992370">Nebenaudoti negaliojančio sertifikato</translation>
 <translation id="4691835149146451662">„Architecture-A“ (vokas)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -876,11 +876,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4785689107224900852">Perjungti į šį skirtuką</translation>
 <translation id="4791134497475588553">Įdiegtos „Linux“ programos ir kada paskutinį kartą jos buvo naudotos</translation>
 <translation id="4796594887379589189">Užduoties paskyros ID</translation>
-<translation id="7110430050177876111">Jei norite atnaujinti išsamią kortelės informaciją, įveskite „<ph name="CREDIT_CARD"/>“ galiojimo laiko pabaigos datą ir kortelės saugos kodą (CVC). Kai patvirtinsite, „Brave“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
+<translation id="7110430050177876111">Jei norite atnaujinti išsamią kortelės informaciją, įveskite „<ph name="CREDIT_CARD"/>“ galiojimo laiko pabaigos datą ir kortelės saugos kodą (CVC). Kai patvirtinsite, „Dissenter“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
 <translation id="4800132727771399293">Patikrinkite kortelės galiojimo pabaigos datą bei saugos kodą (CVC) ir bandykite dar kart</translation>
 <translation id="480334179571489655">Pradinės politikos klaida</translation>
 <translation id="4803924862070940586"><ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
-<translation id="8896585555528145662">Negalite dabar apsilankyti svetainėje <ph name="SITE"/>, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Brave“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
+<translation id="8896585555528145662">Negalite dabar apsilankyti svetainėje <ph name="SITE"/>, nes ji atsiuntė užšifruotus prisijungimo duomenis, kurių „Dissenter“ negali apdoroti. Tinklo klaidos ir užpuolimai dažniausiai yra laikini, todėl šis puslapis vėliau tikriausiai veiks.</translation>
 <translation id="4813512666221746211">Tinklo klaida</translation>
 <translation id="4816492930507672669">Pritaikyti pagal puslapį</translation>
 <translation id="484462545196658690">Automatiškai</translation>
@@ -918,7 +918,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="4989542687859782284">Nepasiekiama</translation>
 <translation id="4989809363548539747">Šis papildinys nepalaikomas</translation>
 <translation id="4995216769782533993">Patvirtinkite saugos kodą, kad išsami kortelės informacija būtų bendrinama su šia svetaine</translation>
-<translation id="3676215163710610678">Jei šis nustatymas įgalintas, „Brave“ saugos kortelės kopiją šiame įrenginyje, kad būtų galima greičiau užpildyti formas.</translation>
+<translation id="3676215163710610678">Jei šis nustatymas įgalintas, „Dissenter“ saugos kortelės kopiją šiame įrenginyje, kad būtų galima greičiau užpildyti formas.</translation>
 <translation id="5015510746216210676">Įrenginio pavadinimas:</translation>
 <translation id="5017554619425969104">Nukopijuotas tekstas</translation>
 <translation id="5018422839182700155">Negalima atidaryti šio puslapio</translation>
@@ -927,7 +927,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5029568752722684782">Išvalyti kopiją</translation>
 <translation id="5030338702439866405">Išdavė</translation>
 <translation id="503069730517007720">Reikalingas „<ph name="SOFTWARE_NAME"/>“ šakninis sertifikatas, bet jis nėra įdiegtas. Jūsų IT administratorius turėtų peržiūrėti „<ph name="SOFTWARE_NAME"/>“ konfigūravimo instrukcijas, kad išspręstų šią problemą. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Apie „Brave“ vertėją</translation>
+<translation id="6425384654920630035">Apie „Dissenter“ vertėją</translation>
 <translation id="503498442187459473"><ph name="HOST"/> nori naudoti kamerą ir mikrofoną</translation>
 <translation id="5039804452771397117">Leisti</translation>
 <translation id="5040262127954254034">Privatumas</translation>
@@ -944,7 +944,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5088142053160410913">Pranešimas operatoriui</translation>
 <translation id="5089810972385038852">Valstija</translation>
 <translation id="5093232627742069661">Z formos perlenkimas</translation>
-<translation id="4906192414477726331">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN"/>; jo saugos sertifikatas nėra patikimas „Brave“. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
+<translation id="4906192414477726331">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN"/>; jo saugos sertifikatas nėra patikimas „Dissenter“. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="5095208057601539847">Provincija</translation>
 <translation id="5097099694988056070">Įrenginio statistika, pvz., centrinio procesoriaus / laisvosios prieigos atminties naudojimas</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -956,7 +956,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5126510351761255129">Kortelės patvirtinimas</translation>
 <translation id="6291230311289558881">Tvarkyti adresus...</translation>
 <translation id="5138227688689900538">Rodyti mažiau</translation>
-<translation id="7186167407612593632">Šifruoti sinchronizuotus slaptažodžius naudojant „Brave“ prisijungimo duomenis</translation>
+<translation id="7186167407612593632">Šifruoti sinchronizuotus slaptažodžius naudojant „Dissenter“ prisijungimo duomenis</translation>
 <translation id="5145883236150621069">Politikos atsakyme yra klaidos kodas</translation>
 <translation id="5146995429444047494"><ph name="ORIGIN"/> pranešimai užblokuoti</translation>
 <translation id="5148809049217731050">Gerąja puse į viršų</translation>
@@ -964,8 +964,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5158275234811857234">Viršelis</translation>
 <translation id="5161506081086828129">9 dėtuvė</translation>
 <translation id="5164798890604758545">Įvestas tekstas</translation>
-<translation id="2996889577833788807">Įveskite „<ph name="CREDIT_CARD"/>“ kortelės saugos kodą (CVC). Kai patvirtinsite, „Brave“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
-<translation id="8515152881111950319">Galite prarasti prieigą prie organizacijos paskyros arba gali būti pavogta tapatybė. „Brave“ rekomenduoja pakeisti slaptažodį dabar.</translation>
+<translation id="2996889577833788807">Įveskite „<ph name="CREDIT_CARD"/>“ kortelės saugos kodą (CVC). Kai patvirtinsite, „Dissenter“ paskyroje nurodyta išsami kortelės informacija bus bendrinama su šia svetaine.</translation>
+<translation id="8515152881111950319">Galite prarasti prieigą prie organizacijos paskyros arba gali būti pavogta tapatybė. „Dissenter“ rekomenduoja pakeisti slaptažodį dabar.</translation>
 <translation id="5171045022955879922">Ieškokite ar įveskite URL</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Įrenginys</translation>
@@ -974,7 +974,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5201306358585911203">Šiame puslapyje įterptame puslapyje nurodyta:</translation>
 <translation id="5205222826937269299">Būtina nurodyti pavadinimą</translation>
 <translation id="5209518306177824490">SHA-1 piršto atspaudas</translation>
-<translation id="1051285409463218679">„Brave Pay“ naudojami mokėjimo metodai ir adresai</translation>
+<translation id="1051285409463218679">„Dissenter Pay“ naudojami mokėjimo metodai ir adresai</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">Būtina nurodyti el. paštą</translation>
 <translation id="5230733896359313003">Pristatymo adresas</translation>
@@ -998,7 +998,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5287456746628258573">Šioje svetainėje naudojama pasenusi saugos konfigūracija, todėl gali būti atskleista į šią svetainę siunčiama informacija (pvz., slaptažodžiai ar kredito kortelių numeriai).</translation>
 <translation id="5288108484102287882">Patvirtinant politikos vertes pateikta įspėjimų</translation>
 <translation id="5289384342738547352">Kelių dokumentų apdorojimas</translation>
-<translation id="3764885446986388155">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Brave“ rekomenduoja dabar patikrinti išsaugotus slaptažodžius.</translation>
+<translation id="3764885446986388155">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Dissenter“ rekomenduoja dabar patikrinti išsaugotus slaptažodžius.</translation>
 <translation id="5299298092464848405">Analizuojant politiką įvyko klaida</translation>
 <translation id="5300589172476337783">Rodyti</translation>
 <translation id="5306593769196050043">Abu lapai</translation>
@@ -1057,7 +1057,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5541086400771735334">7 pašto dėžutė</translation>
 <translation id="5541546772353173584">El. pašto adreso pridėjimas</translation>
 <translation id="5545756402275714221">Jums skirti straipsniai</translation>
-<translation id="6084314943327785510">„Brave“ periodiškai tikrina, ar jūsų slaptažodžiai nebuvo įtraukti į internete paskelbtus sąrašus. Tai atliekant, slaptažodžiai ir naudotojų vardai užšifruojami, kad niekas negalėtų jų perskaityti, įskaitant „Brave“.</translation>
+<translation id="6084314943327785510">„Dissenter“ periodiškai tikrina, ar jūsų slaptažodžiai nebuvo įtraukti į internete paskelbtus sąrašus. Tai atliekant, slaptažodžiai ir naudotojų vardai užšifruojami, kad niekas negalėtų jų perskaityti, įskaitant „Dissenter“.</translation>
 <translation id="5556459405103347317">Įkelti iš naujo</translation>
 <translation id="5560088892362098740">Galiojimo laiko pabaigos data</translation>
 <translation id="5565735124758917034">Aktyvus</translation>
@@ -1070,14 +1070,14 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="560412284261940334">Tvarkymas nepalaikomas</translation>
 <translation id="5605670050355397069">Buhalterinis</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">Svetainė gali būti suklastota ar apgavikiška. „Brave“ rekomenduoja dabar iš jos išeiti.</translation>
+<translation id="4067274479097837765">Svetainė gali būti suklastota ar apgavikiška. „Dissenter“ rekomenduoja dabar iš jos išeiti.</translation>
 <translation id="5610142619324316209">Patikrinti ryšį</translation>
 <translation id="5610807607761827392">Korteles ir adresus galite tvarkyti skiltyje <ph name="BEGIN_LINK"/>Nustatymai<ph name="END_LINK"/>.</translation>
 <translation id="5612720917913232150"><ph name="URL"/> nori naudoti kompiuterio vietovę</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> buvote per daug kartų peradresuoti.</translation>
 <translation id="5629630648637658800">Įkeliant politikos nustatymus įvyko klaida</translation>
 <translation id="5631439013527180824">Netinkamas įrenginio tvarkymo prieigos raktas</translation>
-<translation id="2590378115732684772">Nuo <ph name="TIME"/> duomenys užšifruoti naudojant <ph name="BEGIN_LINK"/>„Brave“ slaptažodį<ph name="END_LINK"/>. Įveskite jį, kad pradėtumėte sinchronizuoti.</translation>
+<translation id="2590378115732684772">Nuo <ph name="TIME"/> duomenys užšifruoti naudojant <ph name="BEGIN_LINK"/>„Dissenter“ slaptažodį<ph name="END_LINK"/>. Įveskite jį, kad pradėtumėte sinchronizuoti.</translation>
 <translation id="5633066919399395251">Šiuo metu <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> užpuolikai gali jūsų kompiuteryje bandyti įdiegti pavojingas programas, kurios vagia arba ištrina informaciją (pvz., nuotraukas, slaptažodžius, pranešimus ir kredito kortelių duomenis). <ph name="BEGIN_LEARN_MORE_LINK"/>Sužinokite daugiau<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">Klaidinantis turinys užblokuotas.</translation>
 <translation id="5644090287519800334">1 pusė: sukti vaizdą pagal X ašį</translation>
@@ -1100,8 +1100,8 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5710435578057952990">Šio tinklalapio tapatybė nenustatyta.</translation>
 <translation id="5720705177508910913">Dabartinis naudotojas</translation>
 <translation id="5728056243719941842">C5 (vokas)</translation>
-<translation id="3006790309890592320">„Brave“ rekomenduoja iš naujo nustatyti slaptažodį, jei naudojate jį kitose svetainėse.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Išsaugokite kortelę „Brave“ paskyroje}one{Išsaugokite korteles „Brave“ paskyroje}few{Išsaugokite korteles „Brave“ paskyroje}many{Išsaugokite korteles „Brave“ paskyroje}other{Išsaugokite korteles „Brave“ paskyroje}}</translation>
+<translation id="3006790309890592320">„Dissenter“ rekomenduoja iš naujo nustatyti slaptažodį, jei naudojate jį kitose svetainėse.</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Išsaugokite kortelę „Dissenter“ paskyroje}one{Išsaugokite korteles „Dissenter“ paskyroje}few{Išsaugokite korteles „Dissenter“ paskyroje}many{Išsaugokite korteles „Dissenter“ paskyroje}other{Išsaugokite korteles „Dissenter“ paskyroje}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Šiai kortelei naudokite virtualų numerį}one{Pasirinkite kortelę}few{Pasirinkite kortelę}many{Pasirinkite kortelę}other{Pasirinkite kortelę}}</translation>
 <translation id="5759751709240058861">Kameros naudojimas ir judinimas</translation>
 <translation id="5763042198335101085">Įveskite galiojantį el. pašto adresą</translation>
@@ -1115,7 +1115,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="5785756445106461925">Be to, šiame puslapyje yra kitų nesaugių išteklių. Perduodant duomenis šiuos išteklius gali peržiūrėti kiti asmenys ir keisti atakuojanti programa, siekianti pakeisti puslapio išvaizdą.</translation>
 <translation id="5786044859038896871">Ar norite, kad būtų įvesta jūsų kredito kortelės informacija?</translation>
 <translation id="5798290721819630480">Atmesti pakeitimus?</translation>
-<translation id="2828698628112858998">Keisti pagrindinį puslapį „Brave“ nustatymuose</translation>
+<translation id="2828698628112858998">Keisti pagrindinį puslapį „Dissenter“ nustatymuose</translation>
 <translation id="5803412860119678065">Ar norite, kad būtų įvesta <ph name="CARD_DETAIL"/> informacija?</translation>
 <translation id="5804241973901381774">Leidimai</translation>
 <translation id="5804427196348435412">Naudoti ALR įrenginius</translation>
@@ -1144,7 +1144,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="59174027418879706">Įjungta</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">Įjungta</translation>
-<translation id="2687595201721621314">Išsaugoti kortelę „Brave“ paskyroje?</translation>
+<translation id="2687595201721621314">Išsaugoti kortelę „Dissenter“ paskyroje?</translation>
 <translation id="5922853866070715753">Beveik atlikta</translation>
 <translation id="5932224571077948991">Svetainėje rodomi nepageidaujami arba klaidinantys skelbimai</translation>
 <translation id="5946937721014915347">Atidaroma „<ph name="SITE_NAME"/>“…</translation>
@@ -1193,10 +1193,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">Gali būti, kad tinklalapis adresu <ph name="PAGE"/> laikinai neveikia arba yra visam laikui perkeltas nauju žiniatinklio adresu.</translation>
 <translation id="6107012941649240045">Išduotas</translation>
-<translation id="8233947174119245051">„Brave“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8233947174119245051">„Dissenter“ paskyroje gali būti kito tipo naršymo istorijos, kuri pasiekiama adresu <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6116338172782435947">Peržiūrėti tekstą ir vaizdus, nukopijuotus į iškarpinę</translation>
 <translation id="6120179357481664955">Prisiminti UPI ID?</translation>
-<translation id="5972135347314259717">Brave Enterprise Connectors</translation>
+<translation id="5972135347314259717">Dissenter Enterprise Connectors</translation>
 <translation id="6146055958333702838">Patikrinkite laidus ir iš naujo paleiskite maršruto parinktuvus, modemus ar kitus
         naudojamus tinklo įrenginius.</translation>
 <translation id="614940544461990577">Pabandykite atlikti toliau nurodytus veiksmus.</translation>
@@ -1208,11 +1208,11 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6180316780098470077">Pakartotinio bandymo intervalas</translation>
 <translation id="6196640612572343990">Blokuoti trečiosios šalies slapukus</translation>
 <translation id="6203231073485539293">Patikrinkite interneto ryšį</translation>
-<translation id="8385639954311581596">Pašalinti adresą iš „Brave“?</translation>
+<translation id="8385639954311581596">Pašalinti adresą iš „Dissenter“?</translation>
 <translation id="622039917539443112">Lygiagretus perlenkimas</translation>
-<translation id="6221345481584921695">„Brave“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjišką programą<ph name="END_LINK"/> svetainėje <ph name="SITE"/>. Svetainės, kurios paprastai yra saugios, kartais užkrečiamos kenkėjiškomis programomis. Kenkėjiškas turinys gautas iš <ph name="SUBRESOURCE_HOST"/>, žinomo kenkėjiškų programų platintojo.</translation>
+<translation id="6221345481584921695">„Dissenter“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko kenkėjišką programą<ph name="END_LINK"/> svetainėje <ph name="SITE"/>. Svetainės, kurios paprastai yra saugios, kartais užkrečiamos kenkėjiškomis programomis. Kenkėjiškas turinys gautas iš <ph name="SUBRESOURCE_HOST"/>, žinomo kenkėjiškų programų platintojo.</translation>
 <translation id="6234122620015464377">Apkarpymas po kiekvieno dokumento</translation>
-<translation id="4765229189146046954">„Brave Pay“ logotipas</translation>
+<translation id="4765229189146046954">„Dissenter Pay“ logotipas</translation>
 <translation id="6241121617266208201">Slėpti pasiūlymus</translation>
 <translation id="624499991300733384">Spausdinimo rengyklės paslauga</translation>
 <translation id="6254436959401408446">Nepakanka atminties, kad būtų galima atidaryti šį puslapį</translation>
@@ -1222,10 +1222,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6264485186158353794">Grįžti prie saugumo</translation>
 <translation id="6265794661083428563">Nukopijuoti politikos „<ph name="POLICY_NAME"/>“ vertę</translation>
 <translation id="6266934640124581640">Šviesi žalsvai mėlyna</translation>
-<translation id="9136010393039243713">„Brave“ naujinys</translation>
+<translation id="9136010393039243713">„Dissenter“ naujinys</translation>
 <translation id="6276112860590028508">Čia rodomi puslapiai iš skaitymo sąrašo</translation>
-<translation id="7954557091400543500">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę ir atsiskaitymo adresą „Brave“ paskyroje.</translation>
-<translation id="293801390522973485">„Brave“ <ph name="BEGIN_EMPHASIS"/>nesaugos<ph name="END_EMPHASIS"/> šios informacijos:
+<translation id="7954557091400543500">Kad kitą kartą galėtumėte greičiau atlikti mokėjimą, išsaugokite kortelę ir atsiskaitymo adresą „Dissenter“ paskyroje.</translation>
+<translation id="293801390522973485">„Dissenter“ <ph name="BEGIN_EMPHASIS"/>nesaugos<ph name="END_EMPHASIS"/> šios informacijos:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>naršymo istorijos;
           <ph name="LIST_ITEM"/>slapukų ir svetainių duomenų;
@@ -1235,7 +1235,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6282194474023008486">Pašto kodas</translation>
 <translation id="6290238015253830360">Jūsų pasiūlyti straipsniai rodomi čia</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">„Brave“ padėjėjas sistemoje „Brave“ sustabdomas</translation>
+<translation id="5880900081429361525">„Dissenter“ padėjėjas sistemoje „Dissenter“ sustabdomas</translation>
 <translation id="6305205051461490394"><ph name="URL"/> nepasiekiama.</translation>
 <translation id="6312113039770857350">Tinklalapis nepasiekiamas</translation>
 <translation id="6321917430147971392">Patikrinkite DNS nustatymus</translation>
@@ -1260,7 +1260,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6401136357288658127">Ši politika nebenaudojama. Vietoj jos turėtumėte naudoti politiką „<ph name="NEW_POLICY"/>“.</translation>
 <translation id="6404511346730675251">Redaguoti žymę</translation>
 <translation id="6406765186087300643">C0 (vokas)</translation>
-<translation id="9018981925326888629">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja dabar pakeisti slaptažodį.</translation>
+<translation id="9018981925326888629">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja dabar pakeisti slaptažodį.</translation>
 <translation id="6410264514553301377">įveskite „<ph name="CREDIT_CARD"/>“ galiojimo pabaigos datą ir kortelės saugos kodą (CVC)</translation>
 <translation id="6423385022588644828">Nuo šiol patvirtinkite korteles greičiau su „Touch ID“</translation>
 <translation id="6425092077175753609">Trimačiai objektai</translation>
@@ -1280,7 +1280,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6476284679642588870">Tvarkyti mokėjimo metodus</translation>
 <translation id="6489534406876378309">Pradėti įkelti strigtis</translation>
 <translation id="6499038740797743453">Iš naujo nustatyti slaptažodį?</translation>
-<translation id="3960299545138990065">Iš naujo paleiskite „Brave“</translation>
+<translation id="3960299545138990065">Iš naujo paleiskite „Dissenter“</translation>
 <translation id="6517596291481585650">Įspėjimas: ši politika nebuvo sujungta kaip sąrašas, kaip nurodyta politikoje, nes ji nėra sąrašas.</translation>
 <translation id="6518133107902771759">Patvirtinti</translation>
 <translation id="6521745193039995384">Neaktyvi</translation>
@@ -1310,14 +1310,14 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6631202559048444592">Pateiktas daugiau nei vienas politikos šaltinis, bet vertės vienodos.</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Išvalyti</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Nėra}=1{Iš 1 svetainės (nebūsite atjungti nuo „Brave“ paskyros)}one{Iš # svetainės (nebūsite atjungti nuo „Brave“ paskyros)}few{Iš # svetainių (nebūsite atjungti nuo „Brave“ paskyros)}many{Iš # svetainės (nebūsite atjungti nuo „Brave“ paskyros)}other{Iš # svetainių (nebūsite atjungti nuo „Brave“ paskyros)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Nėra}=1{Iš 1 svetainės (nebūsite atjungti nuo „Dissenter“ paskyros)}one{Iš # svetainės (nebūsite atjungti nuo „Dissenter“ paskyros)}few{Iš # svetainių (nebūsite atjungti nuo „Dissenter“ paskyros)}many{Iš # svetainės (nebūsite atjungti nuo „Dissenter“ paskyros)}other{Iš # svetainių (nebūsite atjungti nuo „Dissenter“ paskyros)}}</translation>
 <translation id="6652101503459149953">Naudoti „Windows Hello“</translation>
 <translation id="6657585470893396449">Slaptažodis</translation>
 <translation id="6665553082534466207">Trys skylės dešinėje</translation>
 <translation id="6685834062052613830">Atsijunkite ir užbaikite sąranką</translation>
 <translation id="6687335167692595844">Reikia nurodyti šrifto dydį</translation>
 <translation id="6689249931105087298">Santykinis su juodų taškų sutankinimu</translation>
-<translation id="5406652219015697259">„Brave“ siūlo išsaugoti korteles „Brave“ paskyroje, nes esate prisijungę. Šią elgseną galite pakeisti nustatymuose. Kortelės savininko vardas gaunamas iš jūsų paskyros.</translation>
+<translation id="5406652219015697259">„Dissenter“ siūlo išsaugoti korteles „Dissenter“ paskyroje, nes esate prisijungę. Šią elgseną galite pakeisti nustatymuose. Kortelės savininko vardas gaunamas iš jūsų paskyros.</translation>
 <translation id="6704582573942289642">Ar tai tinkama svetainė?</translation>
 <translation id="6710213216561001401">Ankstesnis</translation>
 <translation id="6710594484020273272">&lt;Įveskite paieškos terminą&gt;</translation>
@@ -1350,14 +1350,14 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6874604403660855544">&amp;Pridėti dar kartą</translation>
 <translation id="6884662655240309489">Dydis: 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">„Brave“ supaprastino šį puslapį, kad būtų paprasčiau skaityti. „Brave“ gavo pradinį puslapį prisijungusi nesaugiu ryšiu.</translation>
+<translation id="7265969755975834932">„Dissenter“ supaprastino šį puslapį, kad būtų paprasčiau skaityti. „Dissenter“ gavo pradinį puslapį prisijungusi nesaugiu ryšiu.</translation>
 <translation id="6891596781022320156">Politikos lygis nepalaikomas.</translation>
 <translation id="6895330447102777224">Kortelė patvirtinta</translation>
 <translation id="6897140037006041989">Naudotojo atstovas</translation>
 <translation id="6898699227549475383">Organizacija (O)</translation>
 <translation id="6910240653697687763"><ph name="URL"/> nori visiškai valdyti MIDI įrenginius</translation>
 <translation id="6915804003454593391">Naudotojas:</translation>
-<translation id="6722453239914327220">Šis vardas yra iš jūsų „Brave“ paskyros</translation>
+<translation id="6722453239914327220">Šis vardas yra iš jūsų „Dissenter“ paskyros</translation>
 <translation id="6944692733090228304">Įvedėte slaptažodį svetainėje, kurios netvarko organizacija <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. Kad apsaugotumėte paskyrą, nenaudokite to paties slaptažodžio kitose programose ir svetainėse.</translation>
 <translation id="6945221475159498467">Pasirinkti</translation>
 <translation id="6948701128805548767">Jei norite peržiūrėti paėmimo metodus ir reikalavimus, pasirinkite adresą</translation>
@@ -1373,10 +1373,10 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="6972629891077993081">HID įrenginiai</translation>
 <translation id="6973656660372572881">Nurodyti fiksuoti įgaliotieji serveriai ir .pac scenarijaus URL.</translation>
 <translation id="6973932557599545801">Deja, negaliu padėti, tolesnius veiksmus atlikite patys.</translation>
-<translation id="846000886289004690">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
-<translation id="6979158407327259162">„Brave“ diskas</translation>
+<translation id="846000886289004690">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
+<translation id="6979158407327259162">„Dissenter“ diskas</translation>
 <translation id="6979440798594660689">Nutildyti (numatytasis)</translation>
-<translation id="1714833602699685456">Failai, kuriuos atsisiunčiate, siunčiami „Brave Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, failai gali būti nuskaityti, ar juose nėra neskelbtinų duomenų ar kenkėjiškų programų.</translation>
+<translation id="1714833602699685456">Failai, kuriuos atsisiunčiate, siunčiami „Dissenter Cloud“ arba trečiosioms šalims, kad būtų atlikta analizė. Pavyzdžiui, failai gali būti nuskaityti, ar juose nėra neskelbtinų duomenų ar kenkėjiškų programų.</translation>
 <translation id="6989763994942163495">Rodyti išplėstinius nustatymus...</translation>
 <translation id="6993898126790112050">6 x 9 (vokas)</translation>
 <translation id="6996312675313362352">Visada versti <ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1399,7 +1399,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7083258188081898530">9 dėklas</translation>
 <translation id="7086090958708083563">Naudotojo pateikta įkėlimo užklausa</translation>
 <translation id="7087282848513945231">Apskritis</translation>
-<translation id="5711818857380891233">Sistemoje „Brave“ atlikite paiešką pagal užklausą „<ph name="LINK"/>“</translation>
+<translation id="5711818857380891233">Sistemoje „Dissenter“ atlikite paiešką pagal užklausą „<ph name="LINK"/>“</translation>
 <translation id="7108338896283013870">Slėpti</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> nori naudoti fotoaparatą</translation>
 <translation id="7108819624672055576">Leidžiama pagal plėtinį</translation>
@@ -1433,7 +1433,7 @@ Kitu atveju tai bus užblokuota pagal jūsų privatumo nustatymus. Taip turinys,
 <translation id="7219179957768738017">Ryšiui naudojama <ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">Apdorojama</translation>
 <translation id="7221855153210829124">Rodyti pranešimus</translation>
-<translation id="3619365259205518877">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
+<translation id="3619365259205518877">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
 <translation id="7233592378249864828">Spausdinti patvirtinimo lapą</translation>
 <translation id="7238585580608191973">SHA-256 piršto antspaudas</translation>
 <translation id="7240120331469437312">Alternatyvus sertifikato subjekto vardas</translation>
@@ -1456,7 +1456,7 @@ Papildoma išsami informacija:
 <translation id="7320336641823683070">Su ryšiu susijusi pagalba</translation>
 <translation id="7323804146520582233">Slėpti skiltį „<ph name="SECTION"/>“</translation>
 <translation id="733354035281974745">Įrenginio vietos paskyros nepaisymas</translation>
-<translation id="8539546768943490744">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
+<translation id="8539546768943490744">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
 <translation id="7334320624316649418">&amp;Pertvarkyti dar kartą</translation>
 <translation id="7337706099755338005">Nepasiekiama jūsų platformoje.</translation>
 <translation id="733923710415886693">Serverio sertifikatas nebuvo atskleistas taikant sertifikato skaidrumą.</translation>
@@ -1465,7 +1465,7 @@ Papildoma išsami informacija:
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">Komandos eilutė</translation>
 <translation id="7372973238305370288">paieškos rezultatas</translation>
-<translation id="3898257577441589237">Ši problema kyla dėl sertifikato, kurį jūs ar kitas asmuo įdiegėte įrenginyje. Žinoma, kad sertifikatas naudojamas tinklams stebėti ir nuskaityti ir nėra patikimas sistemoje „Brave“. Kai kurie stebėjimo atvejai yra teisėti, pvz., mokyklos ar įmonės tinkle, bet „Brave“ nori būti tikra, kad apie stebėjimą būsite informuoti, net jei jo nutraukti negalite. Stebėjimas galimas bet kurioje naršyklėje ar programoje, iš kurių pasiekiamas žiniatinklis.</translation>
+<translation id="3898257577441589237">Ši problema kyla dėl sertifikato, kurį jūs ar kitas asmuo įdiegėte įrenginyje. Žinoma, kad sertifikatas naudojamas tinklams stebėti ir nuskaityti ir nėra patikimas sistemoje „Dissenter“. Kai kurie stebėjimo atvejai yra teisėti, pvz., mokyklos ar įmonės tinkle, bet „Dissenter“ nori būti tikra, kad apie stebėjimą būsite informuoti, net jei jo nutraukti negalite. Stebėjimas galimas bet kurioje naršyklėje ar programoje, iš kurių pasiekiamas žiniatinklis.</translation>
 <translation id="7375818412732305729">Pridėtas failas</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Medijos valdikliai</translation>
@@ -1483,7 +1483,7 @@ Papildoma išsami informacija:
     &lt;li&gt;Skiltyje &lt;strong&gt;Paleisties tipas&lt;/strong&gt; pasirinkite &lt;strong&gt;Išjungta&lt;/strong&gt;.
     &lt;li&gt;Skiltyje &lt;strong&gt;Paslaugos būsena&lt;/strong&gt; spustelėkite &lt;strong&gt;Sustabdyti&lt;/strong&gt;.
     &lt;li&gt;Spustelėkite &lt;strong&gt;Taikyti&lt;/strong&gt;, tada – &lt;strong&gt;Gerai&lt;/strong&gt;.
-    &lt;li&gt;Apsilankykite &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;„Brave“ pagalbos centre&lt;/a&gt;, kad sužinotumėte, kaip visam laikui pašalinti programinę įrangą iš kompiuterio.
+    &lt;li&gt;Apsilankykite &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;„Dissenter“ pagalbos centre&lt;/a&gt;, kad sužinotumėte, kaip visam laikui pašalinti programinę įrangą iš kompiuterio.
     &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">Vykdyti „Flash“</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1503,7 +1503,7 @@ Papildoma išsami informacija:
 <translation id="7481312909269577407">Persiųsti</translation>
 <translation id="7485870689360869515">Nerasta jokių duomenų.</translation>
 <translation id="7488762544858401571">Redaguota</translation>
-<translation id="3692186536781145635">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Brave“ rekomenduoja dabar patikrinti išsaugotus slaptažodžius ir pakeisti <ph name="ORIGIN"/> slaptažodį.</translation>
+<translation id="3692186536781145635">Dėl duomenų saugos pažeidimo svetainėje ar programoje buvo atskleistas jūsų slaptažodis. „Dissenter“ rekomenduoja dabar patikrinti išsaugotus slaptažodžius ir pakeisti <ph name="ORIGIN"/> slaptažodį.</translation>
 <translation id="7495528107193238112">Šis turinys užblokuotas. Susisiekite su svetainės savininku, kad išspręstų problemą.</translation>
 <translation id="7498234416455752244">Toliau redaguoti</translation>
 <translation id="7508255263130623398">Sugrąžinto politikos įrenginio ID nenurodytas arba neatitinka dabartinio įrenginio ID</translation>
@@ -1521,13 +1521,13 @@ Papildoma išsami informacija:
 <translation id="7542995811387359312">Automatinis kredito kortelės informacijos pildymas neleidžiamas, nes šiai formai nenaudojamas saugus ryšys.</translation>
 <translation id="7548892272833184391">Ryšio klaidų taisymas</translation>
 <translation id="7549584377607005141">Jei norite, kad šis tinklalapis būtų tinkamai pateikiamas, reikalingi anksčiau įvesti duomenys. Galite nusiųsti šiuos duomenis iš naujo, bet taip pakartosite visus anksčiau šiame puslapyje įvykdytus veiksmus.</translation>
-<translation id="5474381306981932386">Įrenginio naudotojo vardas ir „Brave“ naudotojo vardas</translation>
+<translation id="5474381306981932386">Įrenginio naudotojo vardas ir „Dissenter“ naudotojo vardas</translation>
 <translation id="7552846755917812628">Išbandykite toliau pateiktus patarimus.</translation>
 <translation id="7554791636758816595">Naujas skirtukas</translation>
 <translation id="7567204685887185387">Šiam serveriui nepavyko patvirtinti, kad tai yra <ph name="DOMAIN"/>; jo saugos sertifikatas gali būti neteisėtai išduotas. Taip gali nutikti dėl netinkamos konfigūracijos ar dėl ryšį pertraukusio užgrobėjo.</translation>
 <translation id="7569983096843329377">Juoda</translation>
 <translation id="7575207903026901870">Pašalinkite pasiūlymo mygtuką, paspauskite „Enter“, kad pašalintumėte šį pasiūlymą</translation>
-<translation id="405970181812690156">Greitai mokėkite svetainėse ir programose įvairiuose įrenginiuose naudodami korteles, kurias išsaugojote „Brave“.</translation>
+<translation id="405970181812690156">Greitai mokėkite svetainėse ir programose įvairiuose įrenginiuose naudodami korteles, kurias išsaugojote „Dissenter“.</translation>
 <translation id="7581199239021537589">2 pusė: sukti vaizdą pagal Y ašį</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> nori naudoti slapukus ir svetainės duomenis <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">Serverio sertifikatas pažeidžia pavadinimų apribojimus.</translation>
@@ -1536,12 +1536,12 @@ Papildoma išsami informacija:
 <translation id="7600965453749440009">Niekada neversti <ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">Vertė nepatenka į diapazoną <ph name="VALUE"/>.</translation>
 <translation id="7613889955535752492">Galioja iki: <ph name="EXPIRATION_YEAR"/>-<ph name="EXPIRATION_MONTH"/></translation>
-<translation id="6994126885316933886">Jau turite duomenų, kurie šifruojami naudojant kitos versijos „Brave“ paskyros slaptažodį. Įveskite juos toliau.</translation>
-<translation id="8565825862287624454">Administratorius įjungė „Brave Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
+<translation id="6994126885316933886">Jau turite duomenų, kurie šifruojami naudojant kitos versijos „Dissenter“ paskyros slaptažodį. Įveskite juos toliau.</translation>
+<translation id="8565825862287624454">Administratorius įjungė „Dissenter Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
 <translation id="7619838219691048931">Galinis lapas</translation>
 <translation id="762844065391966283">Po vieną</translation>
 <translation id="7633909222644580952">Našumo duomenys ir strigčių ataskaitos</translation>
-<translation id="6386821459680628976">Pašalinti kredito kortelės informaciją iš „Brave“?</translation>
+<translation id="6386821459680628976">Pašalinti kredito kortelės informaciją iš „Dissenter“?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Nėra}=1{Vienas slaptažodis paskyroje (<ph name="DOMAIN_LIST"/>)}one{# slaptažodis paskyroje (<ph name="DOMAIN_LIST"/>)}few{# slaptažodžiai paskyroje (<ph name="DOMAIN_LIST"/>)}many{# slaptažodžio paskyroje (<ph name="DOMAIN_LIST"/>)}other{# slaptažodžių paskyroje (<ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Nuoseklieji prievadai</translation>
 <translation id="7639968568612851608">Tamsiai pilka</translation>
@@ -1594,9 +1594,9 @@ Papildoma išsami informacija:
 <translation id="7802523362929240268">Svetainė yra teisėta</translation>
 <translation id="780301667611848630">Ačiū, ne</translation>
 <translation id="7805768142964895445">Būsena</translation>
-<translation id="3350174497208615172">Keisti paieškos variklio nustatymus sistemoje „Brave“</translation>
+<translation id="3350174497208615172">Keisti paieškos variklio nustatymus sistemoje „Dissenter“</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Pašalinti formos pasiūlymą iš „Brave“?</translation>
+<translation id="4670564340385807132">Pašalinti formos pasiūlymą iš „Dissenter“?</translation>
 <translation id="781440967107097262">Bendrinti iškarpinę?</translation>
 <translation id="7815407501681723534">Pagal terminą „<ph name="SEARCH_STRING"/>“ surasta tiek <ph name="SEARCH_RESULTS"/>: <ph name="NUMBER_OF_RESULTS"/></translation>
 <translation id="782886543891417279">Naudojant šį „Wi-Fi“ tinklą („<ph name="WIFI_NAME"/>“) gali būti prašoma apsilankyti prisijungimo puslapyje.</translation>
@@ -1605,7 +1605,7 @@ Papildoma išsami informacija:
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
 <translation id="7862185352068345852">Išeiti iš svetainės?</translation>
 <translation id="7865448901209910068">Geriausias greitis</translation>
-<translation id="1012292338579042608">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
+<translation id="1012292338579042608">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
 <translation id="7878562273885520351">Jūsų slaptažodis gali būti pažeistas</translation>
 <translation id="7882421473871500483">Ruda</translation>
 <translation id="7887683347370398519">Patikrinkite kortelės saugos kodą (CVC) ir bandykite dar kartą</translation>
@@ -1615,7 +1615,7 @@ Papildoma išsami informacija:
 <translation id="7932579305932748336">Danga</translation>
 <translation id="79338296614623784">Įveskite tinkamą telefono numerį</translation>
 <translation id="7934052535022478634">Mokėjimas atliktas</translation>
-<translation id="8329449853370113380"><ph name="URL"/> nori leisti apsaugotą turinį. Įrenginio tapatybę patvirtins „Brave“</translation>
+<translation id="8329449853370113380"><ph name="URL"/> nori leisti apsaugotą turinį. Įrenginio tapatybę patvirtins „Dissenter“</translation>
 <translation id="7935031712718413217">Galimai suklastotas URL</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Baigia galioti <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1647,11 +1647,11 @@ Papildoma išsami informacija:
 <translation id="8042918947222776840">Pasirinkti paėmimo metodą</translation>
 <translation id="8057711352706143257">„<ph name="SOFTWARE_NAME"/>“ netinkamai sukonfigūruota. Pašalinus „<ph name="SOFTWARE_NAME"/>“ paprastai pavyksta išspręsti šią problemą. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">Deja, kažkas nepavyko.</translation>
-<translation id="5442778523450464826">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ gali padėti. Norėdami pakeisti slaptažodį ir pranešti „Brave“, kad jūsų paskyrai gali grėsti pavojus, spustelėkite „Apsaugoti paskyrą“.</translation>
+<translation id="5442778523450464826">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ gali padėti. Norėdami pakeisti slaptažodį ir pranešti „Dissenter“, kad jūsų paskyrai gali grėsti pavojus, spustelėkite „Apsaugoti paskyrą“.</translation>
 <translation id="8074253406171541171">10 x 13 (vokas)</translation>
 <translation id="8078141288243656252">Negalima rašyti komentarų, kai pasukta</translation>
 <translation id="8079031581361219619">Iš naujo įkelti svetainę?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">Juodraštis</translation>
 <translation id="8088680233425245692">Nepavyko peržiūrėti straipsnio.</translation>
 <translation id="808894953321890993">Keisti slaptažodį</translation>
@@ -1670,7 +1670,7 @@ Papildoma išsami informacija:
 <translation id="8150722005171944719"><ph name="URL"/> nurodyto failo negalima skaityti. Gali būti, kad jis pašalintas, perkeltas arba neleidžiama prieiga prie jo dėl failo leidimų.</translation>
 <translation id="8157295877370077682">Išeiti iš svetainės</translation>
 <translation id="8163866351304776260">Keturios skylės kairėje</translation>
-<translation id="4351627595884993315">„Brave“ siūlo išsaugoti korteles „Brave“ paskyroje, nes esate prisijungę. Šią elgseną galite pakeisti nustatymuose.</translation>
+<translation id="4351627595884993315">„Dissenter“ siūlo išsaugoti korteles „Dissenter“ paskyroje, nes esate prisijungę. Šią elgseną galite pakeisti nustatymuose.</translation>
 <translation id="8184538546369750125">Naudoti visuotinį numatytąjį nustatymą (leisti)</translation>
 <translation id="8194797478851900357">&amp;Anuliuoti perkėlimą</translation>
 <translation id="8197543752516192074">Versti puslapį</translation>
@@ -1681,7 +1681,7 @@ Papildoma išsami informacija:
 <translation id="8211406090763984747">Ryšys saugus</translation>
 <translation id="8218327578424803826">Priskirta vieta:</translation>
 <translation id="8220146938470311105">C7 / C6 (vokas)</translation>
-<translation id="3272614036080146686">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
+<translation id="3272614036080146686">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja dabar apsilankyti <ph name="WEBSITE_1"/> ir kitose svetainėse, kuriose naudojate šį slaptažodį, ir jį pakeisti.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">Platformos temperatūra</translation>
 <translation id="8241707690549784388">Jūsų ieškomas puslapis ieškojo informacijos, kurią įvedėte. Grįžus į tą puslapį bet kokie jūsų atliekami veiksmai gali būti kartojami. Ar norite tęsti?</translation>
@@ -1708,7 +1708,7 @@ Papildoma išsami informacija:
 <translation id="830498451218851433">Perlenkimas per pusę</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">Įdiegtos programos ir kaip dažnai jos naudojamos</translation>
-<translation id="8390490312179389407">Šis puslapis įtartinas (pažymėta naršyklėje „Brave“).</translation>
+<translation id="8390490312179389407">Šis puslapis įtartinas (pažymėta naršyklėje „Dissenter“).</translation>
 <translation id="831997045666694187">Vakaras</translation>
 <translation id="8332188693563227489">Prieiga prie <ph name="HOST_NAME"/> atmesta</translation>
 <translation id="833262891116910667">Paryškinti</translation>
@@ -1739,14 +1739,14 @@ Papildoma išsami informacija:
 <translation id="8473863474539038330">Adresai ir dar daugiau</translation>
 <translation id="8474910779563686872">Rodyti išsamią kūrėjo informaciją</translation>
 <translation id="8479754468255770962">Sankabėlė apačioje kairėje</translation>
-<translation id="5142582872611298328">Jei norite naudoti korteles iš „Brave“ paskyros, prisijunkite prie „Brave“</translation>
+<translation id="5142582872611298328">Jei norite naudoti korteles iš „Dissenter“ paskyros, prisijunkite prie „Dissenter“</translation>
 <translation id="8488350697529856933">Taikoma</translation>
 <translation id="8490137692873530638">10 dėtuvė</translation>
 <translation id="8498891568109133222">Per ilgai laukta <ph name="HOST_NAME"/> atsako.</translation>
-<translation id="230699814587342492">„Brave“ slaptažodžiai</translation>
+<translation id="230699814587342492">„Dissenter“ slaptažodžiai</translation>
 <translation id="8503813439785031346">Vartotojo vardas</translation>
 <translation id="8508648098325802031">Paieškos piktograma</translation>
-<translation id="1426902392270366682">„Brave“ gali padėti apsaugoti „Brave“ paskyrą ir pakeisti slaptažodį.</translation>
+<translation id="1426902392270366682">„Dissenter“ gali padėti apsaugoti „Dissenter“ paskyrą ir pakeisti slaptažodį.</translation>
 <translation id="8541158209346794904">„Bluetooth“ įrenginys</translation>
 <translation id="8542014550340843547">Trys sankabėlės apačioje</translation>
 <translation id="8543181531796978784">Galite <ph name="BEGIN_ERROR_LINK"/>pranešti apie aptikimo problemą<ph name="END_ERROR_LINK"/> arba, jei suprantate saugos riziką, galite <ph name="BEGIN_LINK"/>apsilankyti šioje nesaugioje svetainėje<ph name="END_LINK"/>.</translation>
@@ -1780,19 +1780,19 @@ Papildoma išsami informacija:
 <translation id="8719528812645237045">Kelios skylės viršuje</translation>
 <translation id="8725066075913043281">Bandyti dar kartą</translation>
 <translation id="8730621377337864115">Atlikta</translation>
-<translation id="6326805297893828864">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Brave“ negali tinkamai patvirtinti sertifikatų.</translation>
+<translation id="6326805297893828864">Jei norite užmegzti saugų ryšį, turėsite tinkamai nustatyti laikrodį. To reikalaujama todėl, kad svetainių tapatybei įrodyti naudojami sertifikatai galioja tik tam tikrą laikotarpį. Kadangi įrenginio laikrodis nustatytas netinkamai, „Dissenter“ negali tinkamai patvirtinti sertifikatų.</translation>
 <translation id="8740359287975076522">Nepavyko rasti <ph name="HOST_NAME"/> &lt;abbr id="dnsDefinition"&gt;DNS adreso&lt;/abbr&gt;. Nustatoma problema.</translation>
 <translation id="874918643257405732">Žymėti šį skirtuką</translation>
 <translation id="8751426954251315517">Vėliau bandykite dar kartą</translation>
 <translation id="8759274551635299824">Ši kortelė nebegalioja</translation>
 <translation id="87601671197631245">Šioje svetainėje naudojama pasenusi saugos konfigūracija, todėl gali būti atskleista į šią svetainę siunčiama informacija (pvz., slaptažodžiai, pranešimai ar kredito kortelių duomenys).</translation>
-<translation id="8761567432415473239">„Brave“ saugaus naršymo funkcija neseniai <ph name="BEGIN_LINK"/>rado kenkėjiškų programų<ph name="END_LINK"/> <ph name="SITE"/>.</translation>
+<translation id="8761567432415473239">„Dissenter“ saugaus naršymo funkcija neseniai <ph name="BEGIN_LINK"/>rado kenkėjiškų programų<ph name="END_LINK"/> <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">USB įrenginys</translation>
-<translation id="565908431635579039">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Brave“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
+<translation id="565908431635579039">Ką tik savo slaptažodį įvedėte apgaulingoje svetainėje. „Dissenter“ rekomenduoja patikrinti išsaugotus <ph name="WEBSITE_1"/> ir kitų svetainių, kuriose dabar naudojate šį slaptažodį, slaptažodžius.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Ištrinti dar kartą</translation>
-<translation id="5304100303568917877">Galite prarasti galimybę pasiekti „<ph name="ORG_NAME"/>“ paskyrą arba gali būti pavogta tapatybė. „Brave“ rekomenduoja pakeisti slaptažodį dabar.</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> įjungė „Brave Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
+<translation id="5304100303568917877">Galite prarasti galimybę pasiekti „<ph name="ORG_NAME"/>“ paskyrą arba gali būti pavogta tapatybė. „Dissenter“ rekomenduoja pakeisti slaptažodį dabar.</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> įjungė „Dissenter Enterprise Connectors“ jūsų naršyklėje. Naudojant šias jungtis galima pasiekti kai kuriuos jūsų duomenis.</translation>
 <translation id="8800988563907321413">Netoliese esantys pasiūlymai jums rodomi čia</translation>
 <translation id="8805819170075074995">Sąrašo įrašas „<ph name="LANGUAGE_ID"/>“: įrašo nepaisoma, nes jis taip pat įtrauktas į politiką „SpellcheckLanguage“.</translation>
 <translation id="8807160976559152894">Apkarpymas po kiekvieno puslapio</translation>
@@ -1800,8 +1800,8 @@ Papildoma išsami informacija:
 <translation id="883848425547221593">Kitos žymės</translation>
 <translation id="884264119367021077">Siuntimo adresas</translation>
 <translation id="884923133447025588">Nerasta atšaukimo mechanizmo.</translation>
-<translation id="7487066225574140895">Bendrinimas su „Brave“</translation>
-<translation id="4764754838347156633">„Brave“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
+<translation id="7487066225574140895">Bendrinimas su „Dissenter“</translation>
+<translation id="4764754838347156633">„Dissenter“ rekomenduoja iš naujo nustatyti <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> slaptažodį, jei naudojate jį kitose svetainėse.</translation>
 <translation id="8866481888320382733">Analizuojant politikos nustatymus įvyko klaida</translation>
 <translation id="8866928039507595380">Perlenkimas</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1813,23 +1813,23 @@ Papildoma išsami informacija:
 <translation id="8903921497873541725">Artinti</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Pašalinkite pasiūlymo mygtuką, paspauskite „Enter“, kad pašalintumėte, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">„Brave“ paskyra</translation>
+<translation id="2684652081942622950">„Dissenter“ paskyra</translation>
 <translation id="8918231688545606538">Šis puslapis įtartinas</translation>
 <translation id="892588693504540538">Skylė viršuje dešinėje</translation>
-<translation id="7757992844965332255">Ar norite išsaugoti šios kortelės informaciją „Brave“ paskyroje?</translation>
+<translation id="7757992844965332255">Ar norite išsaugoti šios kortelės informaciją „Dissenter“ paskyroje?</translation>
 <translation id="8932102934695377596">Jūsų laikrodis atsilieka</translation>
 <translation id="893332455753468063">Vardo ir pavardės pridėjimas</translation>
 <translation id="8943282376843390568">Žaliųjų citrinų spalva</translation>
 <translation id="8957210676456822347">Fiksuotojo portalo autorizavimas</translation>
-<translation id="109444839364056698">Kai saugos įvykius pažymi „Brave Enterprise Connectors“, atitinkami įvykio duomenys išsiunčiami administratoriui. Tai gali būti naršyklėje „Brave“ lankomų puslapių URL, failų pavadinimai ar metaduomenys ir naudotojo vardas, kurį naudodami prisijungiate prie įrenginio ir „Brave“.</translation>
+<translation id="109444839364056698">Kai saugos įvykius pažymi „Dissenter Enterprise Connectors“, atitinkami įvykio duomenys išsiunčiami administratoriui. Tai gali būti naršyklėje „Dissenter“ lankomų puslapių URL, failų pavadinimai ar metaduomenys ir naudotojo vardas, kurį naudodami prisijungiate prie įrenginio ir „Dissenter“.</translation>
 <translation id="8962950042226115166">Įtartina svetainė</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>Pasiūlymai:<ph name="MARKUP_2"/>įsitikinkite, kad veikia duomenų ryšys;<ph name="MARKUP_3"/>vėliau iš naujo įkelkite šį tinklalapį;<ph name="MARKUP_4"/>patikrinkite įvestą adresą<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">Išsaugoti kortelę</translation>
 <translation id="8971063699422889582">Baigėsi serverio sertifikato galiojimo laikas.</translation>
 <translation id="8975012916872825179">Įtraukiama tokia informacija kaip telefono numeriai, el. pašto adresai ir pristatymo adresai</translation>
 <translation id="8975263830901772334">Jūsų spausdinamų failų pavadinimai</translation>
-<translation id="8978053250194585037">„Brave“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko, kad svetainėje <ph name="SITE"/> sukčiaujama<ph name="END_LINK"/>. Sukčiavimo svetainės apsimeta kitomis svetainėmis, kad jus apgautų.</translation>
-<translation id="5889706513445719653">„Brave Pay“ naudojami mokėjimo metodai ir adresai</translation>
+<translation id="8978053250194585037">„Dissenter“ saugaus naršymo sistema neseniai <ph name="BEGIN_LINK"/>aptiko, kad svetainėje <ph name="SITE"/> sukčiaujama<ph name="END_LINK"/>. Sukčiavimo svetainės apsimeta kitomis svetainėmis, kad jus apgautų.</translation>
+<translation id="5889706513445719653">„Dissenter Pay“ naudojami mokėjimo metodai ir adresai</translation>
 <translation id="8987927404178983737">Mėnuo</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">Pateiktoje svetainėje yra kenkėjiškų programų</translation>
@@ -1858,10 +1858,10 @@ Papildoma išsami informacija:
 <translation id="9089260154716455634">Nenaudojimo valandų politika:</translation>
 <translation id="9095388113577226029">Daugiau kalbų...</translation>
 <translation id="9101630580131696064">1 dėklas</translation>
-<translation id="6373940988468425649">Svetainėje <ph name="SITE"/> įprastai naudojama šifruotė informacijai apsaugoti. Šį kartą „Brave“ bandant prisijungti prie <ph name="SITE"/>, ji pateikė neįprastus ir netinkamus prisijungimo duomenis. Gali būti, kad užpuolėjas bando apsimesti svetaine <ph name="SITE"/> arba „Wi-Fi“ prisijungimo ekrane nutrūko ryšys. Jūsų informacija vis tiek liko apsaugota, nes „Brave“ sustabdė prisijungimą prieš apsikeitimą bet kokiais duomenimis.</translation>
+<translation id="6373940988468425649">Svetainėje <ph name="SITE"/> įprastai naudojama šifruotė informacijai apsaugoti. Šį kartą „Dissenter“ bandant prisijungti prie <ph name="SITE"/>, ji pateikė neįprastus ir netinkamus prisijungimo duomenis. Gali būti, kad užpuolėjas bando apsimesti svetaine <ph name="SITE"/> arba „Wi-Fi“ prisijungimo ekrane nutrūko ryšys. Jūsų informacija vis tiek liko apsaugota, nes „Dissenter“ sustabdė prisijungimą prieš apsikeitimą bet kokiais duomenimis.</translation>
 <translation id="9106062320799175032">Atsiskaitymo adreso pridėjimas</translation>
 <translation id="9114524666733003316">Kortelė patvirtinama...</translation>
-<translation id="3582535072753734287">Šios naršyklės netvarko įmonė ar kita organizacija. Veiklą šiame įrenginyje galima tvarkyti ne naršyklėje „Brave“. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Šios naršyklės netvarko įmonė ar kita organizacija. Veiklą šiame įrenginyje galima tvarkyti ne naršyklėje „Dissenter“. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">Įkelta</translation>
 <translation id="9128870381267983090">Prisijungti prie tinklo</translation>
 <translation id="9137013805542155359">Rodyti originalą</translation>
@@ -1869,7 +1869,7 @@ Papildoma išsami informacija:
 <translation id="9148088599418889305">Pasirinkti pristatymo metodą</translation>
 <translation id="9148507642005240123">&amp;Anuliuoti redagavimą</translation>
 <translation id="9150045010208374699">Naudoti kamerą</translation>
-<translation id="5874192512642998555">Administratorius gali nuotoliniu būdu keisti naršyklės sąranką. Veiklą šiame įrenginyje taip pat galima tvarkyti ne naršyklėje „Brave“. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Administratorius gali nuotoliniu būdu keisti naršyklės sąranką. Veiklą šiame įrenginyje taip pat galima tvarkyti ne naršyklėje „Dissenter“. <ph name="BEGIN_LINK"/>Sužinokite daugiau<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Atnaujinta</translation>
 <translation id="9157595877708044936">Nustatoma...</translation>
 <translation id="9158625974267017556">C6 (vokas)</translation>
@@ -1880,17 +1880,17 @@ Papildoma išsami informacija:
 <translation id="9173282814238175921">Vienas dokumentas / naujas lapas</translation>
 <translation id="917450738466192189">Serverio sertifikatas negalioja.</translation>
 <translation id="9174917557437862841">Skirtuko perjungimo mygtukas; paspauskite „Enter“, kad perjungtumėte į šį skirtuką</translation>
-<translation id="9183302530794969518">„Brave“ dokumentai</translation>
+<translation id="9183302530794969518">„Dissenter“ dokumentai</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> naudojamas nepalaikomas protokolas.</translation>
 <translation id="9191834167571392248">Skylė apačioje kairėje</translation>
 <translation id="9205078245616868884">Duomenys užšifruoti naudojant sinchronizavimo slaptafrazę. Įveskite ją, kad pradėtumėte sinchronizuoti.</translation>
 <translation id="9207861905230894330">Nepavyko pridėti straipsnio.</translation>
-<translation id="2206050430829841793">Programa neleidžia „Brave“ saugiai prisijungti prie svetainės</translation>
+<translation id="2206050430829841793">Programa neleidžia „Dissenter“ saugiai prisijungti prie svetainės</translation>
 <translation id="9219103736887031265">Vaizdai</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">CLEAR FORM</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Galite prarasti prieigą prie „Brave“ paskyros. „Brave“ rekomenduoja pakeisti slaptažodį dabar. Bus prašoma prisijungti.</translation>
+<translation id="7486559383537872796">Galite prarasti prieigą prie „Dissenter“ paskyros. „Dissenter“ rekomenduoja pakeisti slaptažodį dabar. Bus prašoma prisijungti.</translation>
 <translation id="939736085109172342">Naujas aplankas</translation>
 <translation id="945855313015696284">Patikrinkite toliau pateiktą informaciją ir ištrinkite visas netinkamas korteles</translation>
 <translation id="950736567201356821">Trys skylės viršuje</translation>
@@ -1915,7 +1915,7 @@ Papildoma išsami informacija:
     &lt;li&gt;Pabandykite prisijungti prie kito tinklo.&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">Iš „Brave Pay“</translation>
+<translation id="6771143571626203666">Iš „Dissenter Pay“</translation>
 <translation id="8820817407110198400">Žymės</translation>
 <translation id="8362995731815961365">Šį kompiuterį nustatęs asmuo pasirinko blokuoti šią svetainę.</translation>
 <translation id="4075123085690634698">Atidarykite puslapį naujame inkognito lange (⇧⌘N)</translation>
@@ -1927,7 +1927,7 @@ Papildoma išsami informacija:
 <translation id="2227116904818538760">Veikia inkognito režimas</translation>
 <translation id="2007417459975034427">Dabar galite naršyti privačiai, o kiti šį įrenginį naudojantys žmonės nematys jūsų veiklos. Tačiau atsisiuntimai ir žymės bus išsaugoti.</translation>
 <translation id="2586968635953373425">Atidaryti inkognito langą</translation>
-<translation id="3489858312836205593">Atidaryti naują „Brave“ inkognito langą</translation>
+<translation id="3489858312836205593">Atidaryti naują „Dissenter“ inkognito langą</translation>
 <translation id="6984479912851154518">Išjungiate inkognito režimą, kad galėtumėte sumokėti naudodami išorinę programą. Tęsti?</translation>
 <translation id="1426112902089905810">&lt;h4&gt;1 veiksmas: prisijunkite prie portalo&lt;/h4&gt;
     &lt;p&gt;Norint naudotis „Wi-Fi“ tinklais tokiose vietose kaip kavinės ar oro uostai, reikia prisijungti. Kad būtų rodomas prisijungimo puslapis, apsilankykite puslapyje, kuriame naudojama &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -1937,11 +1937,11 @@ Papildoma išsami informacija:
     &lt;/ol&gt;
     &lt;h4&gt;2 veiksmas: atidarykite puslapį inkognito režimu (skirta tik kompiuteriams)&lt;/h4&gt;
     &lt;p&gt;Atidarykite puslapį, kuriame norite apsilankyti, inkognito lange.&lt;/p&gt;
-    &lt;p&gt;Jei puslapis atidaromas, tai reiškia, kad netinkamai veikia „Brave“ plėtinys. Kad ištaisytumėte klaidą, išjunkite plėtinį.&lt;/p&gt;
+    &lt;p&gt;Jei puslapis atidaromas, tai reiškia, kad netinkamai veikia „Dissenter“ plėtinys. Kad ištaisytumėte klaidą, išjunkite plėtinį.&lt;/p&gt;
     &lt;h4&gt;3 veiksmas: atnaujinkite operacinę sistemą&lt;/h4&gt;
     &lt;p&gt;Įsitikinkite, kad įrenginys atnaujintas.&lt;/p&gt;
     &lt;h4&gt;4 veiksmas: laikinai išjunkite antivirusinę programinę įrangą&lt;/h4&gt;
-    &lt;p&gt;Bus rodoma klaida, jei naudojate antivirusinę programinę įrangą, teikiančią „HTTPS apsaugą“ arba „HTTPS nuskaitymą“. Antivirusinė programinė įranga trukdo „Brave“ užtikrinti saugą.&lt;/p&gt;
+    &lt;p&gt;Bus rodoma klaida, jei naudojate antivirusinę programinę įrangą, teikiančią „HTTPS apsaugą“ arba „HTTPS nuskaitymą“. Antivirusinė programinė įranga trukdo „Dissenter“ užtikrinti saugą.&lt;/p&gt;
     &lt;p&gt;Kad išspręstumėte problemą, išjunkite antivirusinę programinę įrangą. Jei puslapis veikia išjungus programinę įrangą, išjunkite ją, kai naudojate saugias svetaines.&lt;/p&gt;
     &lt;p&gt;Baigę nepamirškite vėl įjungti antivirusinės programos.&lt;/p&gt;
     &lt;h4&gt;5 veiksmas: gaukite papildomos pagalbos&lt;/h4&gt;

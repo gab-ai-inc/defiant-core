@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">新增持卡人姓名</translation>
 <translation id="1089439967362294234">變更密碼</translation>
 <translation id="1096545575934602868">這個欄位最多只能包含 <ph name="MAX_ITEMS_LIMIT"/> 個項目，其餘將會捨棄。</translation>
-<translation id="1920681928837417101">在 Brave 設定中管理密碼</translation>
+<translation id="1920681928837417101">在 Dissenter 設定中管理密碼</translation>
 <translation id="1101672080107056897">錯誤動作</translation>
 <translation id="1103523840287552314">一律翻譯<ph name="LANGUAGE"/></translation>
 <translation id="1110994991967754504">選取<ph name="PERMISSION_NAME"/>權限設定</translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">未命名</translation>
 <translation id="1236081509407217141">要允許 VR 嗎？</translation>
 <translation id="1240347957665416060">你的裝置名稱</translation>
-<translation id="1052005765108026699">只要將你的卡片資訊、姓名與帳單地址儲存到你的 Brave 帳戶中，下次即可更快完成付款程序。</translation>
+<translation id="1052005765108026699">只要將你的卡片資訊、姓名與帳單地址儲存到你的 Dissenter 帳戶中，下次即可更快完成付款程序。</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>、<ph name="TYPE_2"/> (已同步)</translation>
 <translation id="1256368399071562588">&lt;p&gt;如果您無法順利開啟網站，請先嘗試按照以下疑難排解步驟修正相關錯誤：&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">取件方式</translation>
 <translation id="1281476433249504884">堆疊出紙器 1</translation>
 <translation id="1285320974508926690">一律不翻譯此網站</translation>
-<translation id="1209478311331937175">「你的電腦上有軟體阻止 Brave 建立安全的網路連線」(僅限 Windows 電腦)</translation>
+<translation id="1209478311331937175">「你的電腦上有軟體阻止 Dissenter 建立安全的網路連線」(僅限 Windows 電腦)</translation>
 <translation id="1294154142200295408">命令列變化版本</translation>
 <translation id="129553762522093515">最近關閉的分頁</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>試試看清除 Cookie<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">列印</translation>
 <translation id="1442386063175183758">右半邊對折</translation>
 <translation id="1442987760062738829">打孔</translation>
-<translation id="7408760246081928496">系統會將你貼上或附加的文字傳送到 Brave Cloud 或第三方進行分析。舉例來說，Brave Cloud 或第三方可能會掃描文字，檢查是否含有機密資料。</translation>
+<translation id="7408760246081928496">系統會將你貼上或附加的文字傳送到 Dissenter Cloud 或第三方進行分析。舉例來說，Dissenter Cloud 或第三方可能會掃描文字，檢查是否含有機密資料。</translation>
 <translation id="1455413310270022028">橡皮擦</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5x7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">變更你的密碼</translation>
 <translation id="1484290072879560759">選擇運送地址</translation>
 <translation id="1492194039220927094">政策通知推送：</translation>
-<translation id="1812569385220097122">顯示你 Brave 帳戶中的卡片</translation>
+<translation id="1812569385220097122">顯示你 Dissenter 帳戶中的卡片</translation>
 <translation id="1507202001669085618">&lt;p&gt;如果您使用的 Wi-Fi 入口網站必須先登入才能連上網路，系統就會顯示這則錯誤訊息。&lt;/p&gt;
     &lt;p&gt;如要修正這個錯誤，請在您要嘗試開啟的網頁上按一下 [連線]&lt;strong&gt;&lt;/strong&gt;。&lt;/p&gt;</translation>
 <translation id="1513706915089223971">歷史記錄項目清單</translation>
 <translation id="1517433312004943670">必須輸入電話號碼</translation>
 <translation id="1519264250979466059">建立日期</translation>
-<translation id="5524011986660000129">Brave 試算表</translation>
+<translation id="5524011986660000129">Dissenter 試算表</translation>
 <translation id="1527263332363067270">正在等待連線…</translation>
 <translation id="1529521330346880926">10x15 (信封)</translation>
 <translation id="1529789484829130889">紙匣 8</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">歷史記錄</translation>
 <translation id="1645368109819982629">不支援的通訊協定</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave 已簡化這個頁面，讓內容更易於閱讀。Brave 透過安全連線擷取原始頁面。</translation>
+<translation id="3848846802033604519">Dissenter 已簡化這個頁面，讓內容更易於閱讀。Dissenter 透過安全連線擷取原始頁面。</translation>
 <translation id="1656489000284462475">取件</translation>
 <translation id="1662550410081243962">儲存及填入付款方式</translation>
-<translation id="1838576226863399477">信用卡和地址資訊皆來自 Brave。你可以在<ph name="BEGIN_LINK"/>設定<ph name="END_LINK"/>頁面管理這些資訊。</translation>
+<translation id="1838576226863399477">信用卡和地址資訊皆來自 Dissenter。你可以在<ph name="BEGIN_LINK"/>設定<ph name="END_LINK"/>頁面管理這些資訊。</translation>
 <translation id="1671391448414634642">從現在起，系統會將<ph name="SOURCE_LANGUAGE"/>網頁翻譯成<ph name="TARGET_LANGUAGE"/>。</translation>
 <translation id="1682696192498422849">先從短邊開始</translation>
 <translation id="168693727862418163">這項政策的值未通過其結構定義的驗證，因此會遭到忽略。</translation>
@@ -209,7 +209,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">請更新你的同步通關密語。</translation>
 <translation id="1787142507584202372">這裡會顯示你最近開啟的分頁</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">持卡人姓名</translation>
 <translation id="1807528111851433570">起始工作表</translation>
@@ -222,7 +222,7 @@
 <translation id="1842969606798536927">支付</translation>
 <translation id="1871208020102129563">Proxy 設定為使用固定的 Proxy 伺服器，而非 .pac 指令碼網址。</translation>
 <translation id="1871284979644508959">必填欄位</translation>
-<translation id="85321348617848915">Brave 表單</translation>
+<translation id="85321348617848915">Dissenter 表單</translation>
 <translation id="187918866476621466">開啟起始網頁</translation>
 <translation id="1883255238294161206">收合清單</translation>
 <translation id="1898423065542865115">篩選</translation>
@@ -233,19 +233,19 @@
 <translation id="1914326953223720820">解壓縮服務</translation>
 <translation id="1915697529809968049">要使用 Touch ID 取代信用卡驗證碼嗎？</translation>
 <translation id="1916770123977586577">如要將你更新過的設定套用到這個網站，請重新載入這個網頁</translation>
-<translation id="688541908229382784">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Brave 建議你立即變更 <ph name="ORIGIN"/> 上的密碼。</translation>
+<translation id="688541908229382784">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Dissenter 建議你立即變更 <ph name="ORIGIN"/> 上的密碼。</translation>
 <translation id="1919345977826869612">廣告</translation>
 <translation id="1919367280705858090">瞭解如何修正特定錯誤訊息指出的錯誤</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{無}=1{1 個網站}other{# 個網站}}</translation>
 <translation id="194030505837763158">前往 <ph name="LINK"/></translation>
 <translation id="1947454675006758438">釘裝 (右上方)</translation>
-<translation id="990584554013599191"><ph name="BEGIN_WHITEPAPER_LINK"/>將你造訪的部分網頁網址、特定的系統資訊以及部分網頁內容傳送<ph name="END_WHITEPAPER_LINK"/>給 Brave，協助我們改善所有使用者的網路安全。<ph name="BEGIN_PRIVACY_PAGE_LINK"/>隱私權政策<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191"><ph name="BEGIN_WHITEPAPER_LINK"/>將你造訪的部分網頁網址、特定的系統資訊以及部分網頁內容傳送<ph name="END_WHITEPAPER_LINK"/>給 Dissenter，協助我們改善所有使用者的網路安全。<ph name="BEGIN_PRIVACY_PAGE_LINK"/>隱私權政策<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436"><ph name="DOMAIN"/> 書籤</translation>
 <translation id="1973335181906896915">序列化錯誤</translation>
 <translation id="1974060860693918893">進階</translation>
 <translation id="1975584088563498795">出紙槽 10</translation>
 <translation id="1978555033938440688">韌體版本</translation>
-<translation id="711418501679417607">清除 Brave 的瀏覽記錄資料</translation>
+<translation id="711418501679417607">清除 Dissenter 的瀏覽記錄資料</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">存取 Cookie 和網站資料。
 
@@ -261,7 +261,7 @@
 <translation id="2030481566774242610">你要找的是 <ph name="LINK"/> 嗎？</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>檢查 Proxy 和防火牆<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">紙匣 7</translation>
-<translation id="3163988908275223348">登入以使用儲存在 Brave 帳戶中的密碼</translation>
+<translation id="3163988908275223348">登入以使用儲存在 Dissenter 帳戶中的密碼</translation>
 <translation id="2053111141626950936">系統不會翻譯<ph name="LANGUAGE"/>網頁。</translation>
 <translation id="2053553514270667976">郵遞區號</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 個建議項目}other{# 個建議項目}}</translation>
@@ -314,7 +314,7 @@
 <translation id="2258928405015593961">請將到期日設在未來，然後再試一次</translation>
 <translation id="225943865679747347">錯誤代碼：<ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">HTTP 錯誤</translation>
-<translation id="112540507627099823">在 Brave 設定中更新信用卡自動填入資訊</translation>
+<translation id="112540507627099823">在 Dissenter 設定中更新信用卡自動填入資訊</translation>
 <translation id="2267047181501709434">正在驗證你的身分...</translation>
 <translation id="2270484714375784793">電話號碼</translation>
 <translation id="2276057643614339130">列印基底</translation>
@@ -335,7 +335,7 @@
 <translation id="2344028582131185878">自動下載</translation>
 <translation id="2346319942568447007">你複製的圖片</translation>
 <translation id="2354001756790975382">其他書籤</translation>
-<translation id="2354430244986887761">Brave 安全瀏覽服務最近在 <ph name="SITE"/> <ph name="BEGIN_LINK"/>發現有害的應用程式<ph name="END_LINK"/>。</translation>
+<translation id="2354430244986887761">Dissenter 安全瀏覽服務最近在 <ph name="SITE"/> <ph name="BEGIN_LINK"/>發現有害的應用程式<ph name="END_LINK"/>。</translation>
 <translation id="2355395290879513365">攻擊者可能會看到你正在這個網站上瀏覽的圖片，並以修改圖片內容的方式讓你受騙。</translation>
 <translation id="2356070529366658676">詢問</translation>
 <translation id="2359629602545592467">多種</translation>
@@ -365,7 +365,7 @@
 <translation id="2491120439723279231">伺服器憑證含有錯誤。</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">JSON 剖析器</translation>
-<translation id="5047769237368272183">勾選後，Brave 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="5047769237368272183">勾選後，Dissenter 會將您的信用卡資料儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="2498091847651709837">掃描新信用卡</translation>
 <translation id="2501278716633472235">返回</translation>
 <translation id="2505268675989099013">保護帳戶</translation>
@@ -427,12 +427,12 @@
 <translation id="277133753123645258">運送方式</translation>
 <translation id="277499241957683684">沒有裝置記錄</translation>
 <translation id="2775884851269838147">首刷頁面</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">連線已重設。</translation>
 <translation id="2792012897584536778">這個裝置的系統管理員已設定安全憑證，這些憑證將允許系統管理員檢視你所造訪的網站內容。</translation>
 <translation id="2799020568854403057">你要造訪的網站含有有害的應用程式</translation>
 <translation id="2799223571221894425">重新啟動</translation>
-<translation id="2803306138276472711">Brave 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到惡意軟體<ph name="END_LINK"/>。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。</translation>
+<translation id="2803306138276472711">Dissenter 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到惡意軟體<ph name="END_LINK"/>。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。</translation>
 <translation id="2807052079800581569">圖片 Y 位置</translation>
 <translation id="2824514415781424867">要分享位置資訊嗎？</translation>
 <translation id="2824775600643448204">網址與搜尋列</translation>
@@ -473,7 +473,7 @@
 <translation id="2989742184762224133">雙釘 (頂端)</translation>
 <translation id="2991174974383378012">與網站分享</translation>
 <translation id="2991571918955627853">目前無法造訪 <ph name="SITE"/>，因為這個網站使用 HSTS。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會恢復正常狀態。</translation>
-<translation id="6683975920571472553">Brave 建議的項目</translation>
+<translation id="6683975920571472553">Dissenter 建議的項目</translation>
 <translation id="3002501248619246229">檢查輸入紙匣媒體</translation>
 <translation id="3005723025932146533">顯示儲存的複本</translation>
 <translation id="3008447029300691911">請輸入 <ph name="CREDIT_CARD"/> 的信用卡驗證碼。您確認後，這個網站就可以取得您的信用卡詳細資訊。</translation>
@@ -556,7 +556,7 @@
 <translation id="3399952811970034796">快遞地址</translation>
 <translation id="3402261774528610252">用來載入這個網站的連線使用傳輸層安全標準 (TLS) 1.0 或 1.1，現已不適用，並將在日後遭到停用。一旦停用，使用者將無法載入這個網站。伺服器應啟用傳輸層安全標準 (TLS) 1.2 以上版本。</translation>
 <translation id="3414952576877147120">空間大小：</translation>
-<translation id="25726459489263481">系統會將你上傳或附加的檔案傳送到 Brave Cloud 或第三方進行分析。舉例來說，Brave Cloud 或第三方可能會掃描檔案，檢查是否含有機密資料或惡意軟體。</translation>
+<translation id="25726459489263481">系統會將你上傳或附加的檔案傳送到 Dissenter Cloud 或第三方進行分析。舉例來說，Dissenter Cloud 或第三方可能會掃描檔案，檢查是否含有機密資料或惡意軟體。</translation>
 <translation id="3422248202833853650">嘗試關閉其他程式以釋出記憶體。</translation>
 <translation id="3422472998109090673">目前無法連上 <ph name="HOST_NAME"/>。</translation>
 <translation id="3423742043356668186">指定的系統</translation>
@@ -565,7 +565,7 @@
 <translation id="3428151540071562330">一或多個 DnsOverHttpsTemplates 伺服器範本 URI 無效，因此系統不會採用這些伺服器範本 URI。</translation>
 <translation id="3431636764301398940">將這張信用卡儲存到這個裝置</translation>
 <translation id="3432601291244612633">關閉頁面</translation>
-<translation id="4527130811319726464">使用儲存在 Brave 帳戶中的密碼</translation>
+<translation id="4527130811319726464">使用儲存在 Dissenter 帳戶中的密碼</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">這個裝置的擁有者已關閉恐龍遊戲。</translation>
 <translation id="3447884698081792621">顯示憑證 (核發者：<ph name="ISSUER"/>)</translation>
@@ -596,7 +596,7 @@
 <translation id="3567778190852720481">無法使用公司帳戶註冊 (公司帳戶不符合註冊資格)。</translation>
 <translation id="3574305903863751447"><ph name="COUNTRY"/>，<ph name="STATE"/>，<ph name="CITY"/></translation>
 <translation id="3576616784287504635"><ph name="SITE"/> 的嵌入式網頁顯示</translation>
-<translation id="230476913390177517">Brave 會在網頁就緒後通知你。&lt;a&gt;取消&lt;/a&gt;</translation>
+<translation id="230476913390177517">Dissenter 會在網頁就緒後通知你。&lt;a&gt;取消&lt;/a&gt;</translation>
 <translation id="3582930987043644930">新增名稱</translation>
 <translation id="3583757800736429874">重做移動(&amp;R)</translation>
 <translation id="3584299510153766161">雙孔 (底部)</translation>
@@ -639,7 +639,7 @@
 <translation id="373042150751172459">B4 (信封)</translation>
 <translation id="3731873414101415120">你造訪的網站和不安全頁面的內容</translation>
 <translation id="3736520371357197498">如果你瞭解安全性風險，也可以選擇在危險程式尚未遭到移除的狀態下<ph name="BEGIN_LINK"/>造訪這個不安全的網站<ph name="END_LINK"/>。</translation>
-<translation id="4098534208927606680">經你確認後，這個網站就會取得你的 Brave 帳戶中的信用卡詳細資料。</translation>
+<translation id="4098534208927606680">經你確認後，這個網站就會取得你的 Dissenter 帳戶中的信用卡詳細資料。</translation>
 <translation id="3748148204939282805">攻擊者可能會試圖透過 <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> 誘使你做一些危險行為，例如安裝軟體或提供個人資訊 (包括密碼、電話號碼或信用卡資料)。<ph name="BEGIN_LEARN_MORE_LINK"/>瞭解詳情<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">離開子母畫面</translation>
 <translation id="3759461132968374835">最近沒有收到當機資訊。當機回報功能停用時發生的當機不會列在這裡。</translation>
@@ -647,7 +647,7 @@
 <translation id="3761718714832595332">隱藏狀態</translation>
 <translation id="3765032636089507299">安全瀏覽網頁正在建構中。</translation>
 <translation id="3765588406864124894">出紙槽 9</translation>
-<translation id="5141491707451394486">你要將這張信用卡的資訊儲存到你在這個裝置上的 Brave 帳戶嗎？</translation>
+<translation id="5141491707451394486">你要將這張信用卡的資訊儲存到你在這個裝置上的 Dissenter 帳戶嗎？</translation>
 <translation id="3780694243617746492">輸出紙槽</translation>
 <translation id="3781428340399460090">亮粉色</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -677,7 +677,7 @@
 <translation id="3901925938762663762">這張信用卡已過期</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">平板電腦</translation>
-<translation id="2650609753175229582"><ph name="URL"/> 想要播放受到保護的內容。Brave 會驗證你的裝置身分，這個網站可能也會存取你的裝置身分。</translation>
+<translation id="2650609753175229582"><ph name="URL"/> 想要播放受到保護的內容。Dissenter 會驗證你的裝置身分，這個網站可能也會存取你的裝置身分。</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/>：<ph name="ERROR"/></translation>
 <translation id="3939773374150895049">要使用 WebAuthn 取代信用卡驗證碼嗎？</translation>
 <translation id="3946209740501886391">一律詢問你是否接受這個網站的要求</translation>
@@ -692,7 +692,7 @@
 <translation id="3964661563329879394">{COUNT,plural, =0{無}=1{來自 1 個網站 }other{來自 # 個網站 }}</translation>
 <translation id="397105322502079400">計算中…</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> 遭到封鎖</translation>
-<translation id="2321540973325616220">Brave 判斷這可能是偽造網站或詐騙網站。
+<translation id="2321540973325616220">Dissenter 判斷這可能是偽造網站或詐騙網站。
 
     如果你認為系統不應顯示這則訊息，請前往 https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals。</translation>
 <translation id="3987940399970879459">不到 1 MB</translation>
@@ -762,7 +762,7 @@
 <translation id="4275830172053184480">重新啟動裝置</translation>
 <translation id="4277028893293644418">重設密碼</translation>
 <translation id="4279811152705618813">你的 <ph name="DEVICE_TYPE"/> 是由 <ph name="ENROLLMENT_DOMAIN"/> 管理</translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{這張卡片已儲存到你的 Brave 帳戶}other{這些卡片已儲存到你的 Brave 帳戶}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{這張卡片已儲存到你的 Dissenter 帳戶}other{這些卡片已儲存到你的 Dissenter 帳戶}}</translation>
 <translation id="42981349822642051">展開</translation>
 <translation id="4300675098767811073">多孔 (右側)</translation>
 <translation id="4302965934281694568">Chou3 (信封)</translation>
@@ -775,7 +775,7 @@
 <translation id="4326324639298822553">請檢查信用卡到期日，然後再試一次</translation>
 <translation id="4331519897422864041">堆疊出紙器 5</translation>
 <translation id="4331708818696583467">不安全</translation>
-<translation id="6116812392674177288">系統偵測結果顯示這台電腦未受企業管理，因此政策只能自動安裝透過 Brave 線上應用程式商店代管的擴充功能。Brave 線上應用程式商店更新網址為「<ph name="CWS_UPDATE_URL"/>」。</translation>
+<translation id="6116812392674177288">系統偵測結果顯示這台電腦未受企業管理，因此政策只能自動安裝透過 Dissenter 線上應用程式商店代管的擴充功能。Dissenter 線上應用程式商店更新網址為「<ph name="CWS_UPDATE_URL"/>」。</translation>
 <translation id="4346197816712207223">接受的信用卡</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">攻擊者可能會試圖透過這個網站在你的電腦上安裝危險程式，藉此竊取或刪除你的資訊 (例如相片、密碼、郵件和信用卡資料)。</translation>
@@ -800,7 +800,7 @@
 <translation id="4477350412780666475">下一首曲目</translation>
 <translation id="4482953324121162758">系統不會翻譯這個網站。</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">這些功能預設為停用。日後發布的 Brave 版本將不再提供這些功能。</translation>
+<translation id="3614771894046523359">這些功能預設為停用。日後發布的 Dissenter 版本將不再提供這些功能。</translation>
 <translation id="4493480324863638523">網址無效。網址必須採用標準架構，例如 http://example.com 或 https://example.com。</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">驗證錯誤：<ph name="VALIDATION_ERROR"/></translation>
@@ -808,7 +808,7 @@
 <translation id="450710068430902550">與管理員分享</translation>
 <translation id="4508814173490746936">無法使用 Touch ID</translation>
 <translation id="4510487217173779431">Chou4 (信封)</translation>
-<translation id="4892470328555495647">信用卡和地址資訊皆來自 Brave 和你的 Brave 帳戶 (<ph name="ACCOUNT_EMAIL"/>)。你可以在<ph name="BEGIN_LINK"/>設定<ph name="END_LINK"/>頁面管理這些資訊。</translation>
+<translation id="4892470328555495647">信用卡和地址資訊皆來自 Dissenter 和你的 Dissenter 帳戶 (<ph name="ACCOUNT_EMAIL"/>)。你可以在<ph name="BEGIN_LINK"/>設定<ph name="END_LINK"/>頁面管理這些資訊。</translation>
 <translation id="4517607026994743406">Comm-10 (信封)</translation>
 <translation id="4522570452068850558">詳細資訊</translation>
 <translation id="4524138615196389145">現在就開始使用 WebAuthn，加快卡片驗證速度</translation>
@@ -834,7 +834,7 @@
 <translation id="4670064810192446073">虛擬實境</translation>
 <translation id="467662567472608290">伺服器無法證明其屬於 <ph name="DOMAIN"/> 網域；其安全性憑證含有錯誤。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="4677585247300749148"><ph name="URL"/> 要求回應無障礙事件</translation>
-<translation id="8197094463444457125">Brave 簡報</translation>
+<translation id="8197094463444457125">Dissenter 簡報</translation>
 <translation id="4690462567478992370">停止使用無效的憑證</translation>
 <translation id="4691835149146451662">Architecture-A (信封)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -864,11 +864,11 @@
 <translation id="4785689107224900852">切換至這個分頁</translation>
 <translation id="4791134497475588553">已安裝的 Linux 應用程式及上次使用時間</translation>
 <translation id="4796594887379589189">工作帳戶 ID</translation>
-<translation id="7110430050177876111">請輸入 <ph name="CREDIT_CARD"/> 的到期日和信用卡驗證碼，以更新信用卡詳細資料。你確認後，這個網站就會取得你 Brave 帳戶中的信用卡詳細資料。</translation>
+<translation id="7110430050177876111">請輸入 <ph name="CREDIT_CARD"/> 的到期日和信用卡驗證碼，以更新信用卡詳細資料。你確認後，這個網站就會取得你 Dissenter 帳戶中的信用卡詳細資料。</translation>
 <translation id="4800132727771399293">請檢查您的有效期限和信用卡驗證碼，然後再試一次</translation>
 <translation id="480334179571489655">來源政策錯誤</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">您目前無法造訪 <ph name="SITE"/>，因為這個網站傳送的憑證是亂碼，Brave 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
+<translation id="8896585555528145662">您目前無法造訪 <ph name="SITE"/>，因為這個網站傳送的憑證是亂碼，Dissenter 無法處理。網路錯誤和攻擊行為通常是暫時性的，因此這個網頁可能稍後就會正常運作。</translation>
 <translation id="4813512666221746211">網路錯誤</translation>
 <translation id="4816492930507672669">依頁面大小自動調整</translation>
 <translation id="484462545196658690">自動</translation>
@@ -906,7 +906,7 @@
 <translation id="4989542687859782284">尚未支援</translation>
 <translation id="4989809363548539747">這是不支援的外掛程式</translation>
 <translation id="4995216769782533993">如要與這個網站分享你的卡片資料，請確認安全碼</translation>
-<translation id="3676215163710610678">啟用後，Brave 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
+<translation id="3676215163710610678">啟用後，Dissenter 會將您的信用卡複本儲存在這個裝置上，以加快表單填寫速度。</translation>
 <translation id="5015510746216210676">裝置名稱：</translation>
 <translation id="5017554619425969104">你複製的文字</translation>
 <translation id="5018422839182700155">無法開啟這個網頁</translation>
@@ -915,7 +915,7 @@
 <translation id="5029568752722684782">清除複本</translation>
 <translation id="5030338702439866405">發行者</translation>
 <translation id="503069730517007720">未安裝必要的「<ph name="SOFTWARE_NAME"/>」根憑證。IT 管理員必須按照「<ph name="SOFTWARE_NAME"/>」的設定說明修正這個問題。<ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">關於「Brave 翻譯」</translation>
+<translation id="6425384654920630035">關於「Dissenter 翻譯」</translation>
 <translation id="503498442187459473"><ph name="HOST"/> 要求使用攝影機和麥克風</translation>
 <translation id="5039804452771397117">允許</translation>
 <translation id="5040262127954254034">隱私權</translation>
@@ -932,7 +932,7 @@
 <translation id="5088142053160410913">給操作員的訊息</translation>
 <translation id="5089810972385038852">州</translation>
 <translation id="5093232627742069661">彈簧二摺</translation>
-<translation id="4906192414477726331">伺服器無法證明其屬於 <ph name="DOMAIN"/> 網域；其安全性憑證未取得 Brave 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
+<translation id="4906192414477726331">伺服器無法證明其屬於 <ph name="DOMAIN"/> 網域；其安全性憑證未取得 Dissenter 的信任。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="5095208057601539847">州/省</translation>
 <translation id="5097099694988056070">CPU/RAM 使用量等裝置統計資料</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -944,7 +944,7 @@
 <translation id="5126510351761255129">請驗證卡片</translation>
 <translation id="6291230311289558881">管理地址...</translation>
 <translation id="5138227688689900538">顯示較少</translation>
-<translation id="7186167407612593632">使用你的 Brave 憑證對已同步處理的密碼進行加密</translation>
+<translation id="7186167407612593632">使用你的 Dissenter 憑證對已同步處理的密碼進行加密</translation>
 <translation id="5145883236150621069">政策回應中存在錯誤代碼</translation>
 <translation id="5146995429444047494">已封鎖 <ph name="ORIGIN"/> 的通知</translation>
 <translation id="5148809049217731050">正面朝上</translation>
@@ -952,8 +952,8 @@
 <translation id="5158275234811857234">封面</translation>
 <translation id="5161506081086828129">堆疊出紙器 9</translation>
 <translation id="5164798890604758545">已輸入文字</translation>
-<translation id="2996889577833788807">請輸入 <ph name="CREDIT_CARD"/> 的信用卡驗證碼。你確認後，這個網站就會取得你 Brave 帳戶中的信用卡詳細資料。</translation>
-<translation id="8515152881111950319">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Brave 建議你立即變更密碼。</translation>
+<translation id="2996889577833788807">請輸入 <ph name="CREDIT_CARD"/> 的信用卡驗證碼。你確認後，這個網站就會取得你 Dissenter 帳戶中的信用卡詳細資料。</translation>
+<translation id="8515152881111950319">你可能會失去貴機構帳戶的存取權，或身分遭到冒用。Dissenter 建議你立即變更密碼。</translation>
 <translation id="5171045022955879922">搜尋或輸入網址</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">本機</translation>
@@ -962,7 +962,7 @@
 <translation id="5201306358585911203">這個網頁上的嵌入式網頁顯示</translation>
 <translation id="5205222826937269299">請輸入名稱</translation>
 <translation id="5209518306177824490">SHA-1 指紋</translation>
-<translation id="1051285409463218679">儲存在 Brave Pay 的付款方式和地址資訊</translation>
+<translation id="1051285409463218679">儲存在 Dissenter Pay 的付款方式和地址資訊</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">請輸入電子郵件地址</translation>
 <translation id="5230733896359313003">運送地址</translation>
@@ -986,7 +986,7 @@
 <translation id="5287456746628258573">這個網站的安全性設定過舊，因此你傳送給這個網站的的資訊 (例如密碼或信用卡號碼) 可能會外洩。</translation>
 <translation id="5288108484102287882">政策值驗證作業出現警告訊息</translation>
 <translation id="5289384342738547352">多份文件處理</translation>
-<translation id="3764885446986388155">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Brave 建議你立即檢查已儲存的密碼。</translation>
+<translation id="3764885446986388155">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Dissenter 建議你立即檢查已儲存的密碼。</translation>
 <translation id="5299298092464848405">解析政策時發生錯誤</translation>
 <translation id="5300589172476337783">顯示</translation>
 <translation id="5306593769196050043">兩份表單</translation>
@@ -1045,7 +1045,7 @@
 <translation id="5541086400771735334">出紙槽 7</translation>
 <translation id="5541546772353173584">新增電子郵件地址</translation>
 <translation id="5545756402275714221">為你推薦的報導</translation>
-<translation id="6084314943327785510">Brave 會定期將你的密碼與網路上發布的清單進行比對。在比對過程中，你的密碼和使用者名稱會經過加密，任何人 (包括 Brave) 都無法讀取。</translation>
+<translation id="6084314943327785510">Dissenter 會定期將你的密碼與網路上發布的清單進行比對。在比對過程中，你的密碼和使用者名稱會經過加密，任何人 (包括 Dissenter) 都無法讀取。</translation>
 <translation id="5556459405103347317">重新載入</translation>
 <translation id="5560088892362098740">到期日</translation>
 <translation id="5565735124758917034">管理中</translation>
@@ -1058,14 +1058,14 @@
 <translation id="560412284261940334">系統不支援管理</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">這可能是偽造的網站或詐騙網站，Brave 建議你立即離開。</translation>
+<translation id="4067274479097837765">這可能是偽造的網站或詐騙網站，Dissenter 建議你立即離開。</translation>
 <translation id="5610142619324316209">檢查連線狀態</translation>
 <translation id="5610807607761827392">你可以在<ph name="BEGIN_LINK"/>設定<ph name="END_LINK"/>中管理信用卡和地址資訊。</translation>
 <translation id="5612720917913232150"><ph name="URL"/> 要求使用電腦的位置資訊</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> 將您重新導向的次數過多。</translation>
 <translation id="5629630648637658800">無法載入政策設定</translation>
 <translation id="5631439013527180824">裝置管理符記無效</translation>
-<translation id="2590378115732684772">你在 <ph name="TIME"/>已使用 <ph name="BEGIN_LINK"/>Brave 密碼<ph name="END_LINK"/>將資料加密。如要開始同步處理資料，請輸入密碼。</translation>
+<translation id="2590378115732684772">你在 <ph name="TIME"/>已使用 <ph name="BEGIN_LINK"/>Dissenter 密碼<ph name="END_LINK"/>將資料加密。如要開始同步處理資料，請輸入密碼。</translation>
 <translation id="5633066919399395251">攻擊者目前可能會試圖透過 <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> 在你的電腦上安裝危險程式，藉此竊取或刪除你的資訊 (例如相片、密碼、郵件和信用卡資料)。<ph name="BEGIN_LEARN_MORE_LINK"/>瞭解詳情<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">已封鎖欺騙性內容。</translation>
 <translation id="5644090287519800334">側邊 1 圖片 X 批次</translation>
@@ -1088,8 +1088,8 @@
 <translation id="5710435578057952990">此網頁的身分未經驗證。</translation>
 <translation id="5720705177508910913">目前使用者</translation>
 <translation id="5728056243719941842">C5 (信封)</translation>
-<translation id="3006790309890592320">如果你在其他網站上重複使用過你的密碼，Brave 會建議你重設密碼。</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{將卡片儲存到你的 Brave 帳戶}other{將卡片儲存到你的 Brave 帳戶}}</translation>
+<translation id="3006790309890592320">如果你在其他網站上重複使用過你的密碼，Dissenter 會建議你重設密碼。</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{將卡片儲存到你的 Dissenter 帳戶}other{將卡片儲存到你的 Dissenter 帳戶}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{使用這張卡片的虛擬卡號}other{請選取卡片}}</translation>
 <translation id="5759751709240058861">使用及調整攝影機</translation>
 <translation id="5763042198335101085">請輸入有效的電子郵件地址</translation>
@@ -1103,7 +1103,7 @@
 <translation id="5785756445106461925">此外，這個網頁含有其他不安全的資源。其他人可能會在資源傳輸期間檢視這些資源，攻擊者也可能會修改這些資源，進而變更網頁外觀。</translation>
 <translation id="5786044859038896871">要填入你的信用卡資訊嗎？</translation>
 <translation id="5798290721819630480">要捨棄變更嗎？</translation>
-<translation id="2828698628112858998">在 Brave 設定中變更首頁</translation>
+<translation id="2828698628112858998">在 Dissenter 設定中變更首頁</translation>
 <translation id="5803412860119678065">要填入你的 <ph name="CARD_DETAIL"/> 資訊嗎？</translation>
 <translation id="5804241973901381774">權限</translation>
 <translation id="5804427196348435412">使用 NFC 裝置</translation>
@@ -1132,7 +1132,7 @@
 <translation id="59174027418879706">已啟用</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">開啟</translation>
-<translation id="2687595201721621314">要將這張卡片儲存到 Brave 帳戶嗎？</translation>
+<translation id="2687595201721621314">要將這張卡片儲存到 Dissenter 帳戶嗎？</translation>
 <translation id="5922853866070715753">即將完成</translation>
 <translation id="5932224571077948991">網站顯示干擾性或誤導性廣告</translation>
 <translation id="5946937721014915347">正在開啟 <ph name="SITE_NAME"/>…</translation>
@@ -1181,10 +1181,10 @@
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">位於 <ph name="PAGE"/> 的網頁可能暫時無法使用，或是已永久移至新的網址。</translation>
 <translation id="6107012941649240045">核發對象</translation>
-<translation id="8233947174119245051">你的 Brave 帳戶仍可能保留了其他類型的瀏覽記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
+<translation id="8233947174119245051">你的 Dissenter 帳戶仍可能保留了其他類型的瀏覽記錄 (可前往 <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> 查詢)。</translation>
 <translation id="6116338172782435947">讀取已複製到剪貼簿的文字和圖片</translation>
 <translation id="6120179357481664955">還記得你的 UPI ID 嗎？</translation>
-<translation id="5972135347314259717">Brave Enterprise 連接器</translation>
+<translation id="5972135347314259717">Dissenter Enterprise 連接器</translation>
 <translation id="6146055958333702838">檢查您的網路線是否穩固連接。重新啟動您可能正在使用的任何路由器、
     數據機或其他網路裝置。</translation>
 <translation id="614940544461990577">建議做法：</translation>
@@ -1196,11 +1196,11 @@
 <translation id="6180316780098470077">重試間隔</translation>
 <translation id="6196640612572343990">封鎖第三方 Cookie</translation>
 <translation id="6203231073485539293">檢查網際網路連線</translation>
-<translation id="8385639954311581596">要從 Brave 中移除地址嗎？</translation>
+<translation id="8385639954311581596">要從 Dissenter 中移除地址嗎？</translation>
 <translation id="622039917539443112">雙對摺</translation>
-<translation id="6221345481584921695">Brave 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到惡意軟體<ph name="END_LINK"/>。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。這些惡意內容來自已知的惡意軟體散佈網站 <ph name="SUBRESOURCE_HOST"/>。</translation>
+<translation id="6221345481584921695">Dissenter 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到惡意軟體<ph name="END_LINK"/>。即使是平常可以安全使用的網站，有時也會遭到惡意軟體感染。這些惡意內容來自已知的惡意軟體散佈網站 <ph name="SUBRESOURCE_HOST"/>。</translation>
 <translation id="6234122620015464377">完成每份文件後裁切</translation>
-<translation id="4765229189146046954">Brave Pay 標誌</translation>
+<translation id="4765229189146046954">Dissenter Pay 標誌</translation>
 <translation id="6241121617266208201">隱藏建議項目</translation>
 <translation id="624499991300733384">列印合成器服務</translation>
 <translation id="6254436959401408446">記憶體不足，無法開啟這個網頁</translation>
@@ -1210,10 +1210,10 @@
 <translation id="6264485186158353794">返回安全性瀏覽</translation>
 <translation id="6265794661083428563">複製 <ph name="POLICY_NAME"/> 政策的值</translation>
 <translation id="6266934640124581640">淺藍綠色</translation>
-<translation id="9136010393039243713">Brave 更新</translation>
+<translation id="9136010393039243713">Dissenter 更新</translation>
 <translation id="6276112860590028508">你的閱讀清單中的頁面會顯示在這裡</translation>
-<translation id="7954557091400543500">只要將卡片資訊與帳單地址儲存到你的 Brave 帳戶中，下次即可更快完成付款程序。</translation>
-<translation id="293801390522973485">Brave <ph name="BEGIN_EMPHASIS"/>不會儲存<ph name="END_EMPHASIS"/>下列資訊：
+<translation id="7954557091400543500">只要將卡片資訊與帳單地址儲存到你的 Dissenter 帳戶中，下次即可更快完成付款程序。</translation>
+<translation id="293801390522973485">Dissenter <ph name="BEGIN_EMPHASIS"/>不會儲存<ph name="END_EMPHASIS"/>下列資訊：
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>你的瀏覽記錄
           <ph name="LIST_ITEM"/>Cookie 和網站資料
@@ -1223,7 +1223,7 @@
 <translation id="6282194474023008486">郵遞區號</translation>
 <translation id="6290238015253830360">這裡會顯示推薦給你的文章</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">正在停止 Brave 版 Brave 助理</translation>
+<translation id="5880900081429361525">正在停止 Dissenter 版 Dissenter 助理</translation>
 <translation id="6305205051461490394">無法連上 <ph name="URL"/>。</translation>
 <translation id="6312113039770857350">網頁無法使用</translation>
 <translation id="6321917430147971392">檢查 DNS 設定</translation>
@@ -1248,7 +1248,7 @@
 <translation id="6401136357288658127">這項政策目前已淘汰，請改用 <ph name="NEW_POLICY"/> 政策。</translation>
 <translation id="6404511346730675251">編輯書籤</translation>
 <translation id="6406765186087300643">C0 (信封)</translation>
-<translation id="9018981925326888629">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即變更密碼。</translation>
+<translation id="9018981925326888629">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即變更密碼。</translation>
 <translation id="6410264514553301377">輸入 <ph name="CREDIT_CARD"/> 的到期日和信用卡驗證碼</translation>
 <translation id="6423385022588644828">現在就開始使用 Touch ID，加快卡片驗證速度</translation>
 <translation id="6425092077175753609">質感</translation>
@@ -1268,7 +1268,7 @@
 <translation id="6476284679642588870">管理付款方式</translation>
 <translation id="6489534406876378309">開始上傳當機報告</translation>
 <translation id="6499038740797743453">要重設密碼嗎？</translation>
-<translation id="3960299545138990065">重新啟動 Brave</translation>
+<translation id="3960299545138990065">重新啟動 Dissenter</translation>
 <translation id="6517596291481585650">警告：這項政策並非清單，因此未依照政策中指定的方式合併為清單。</translation>
 <translation id="6518133107902771759">驗證</translation>
 <translation id="6521745193039995384">未啟用</translation>
@@ -1298,14 +1298,14 @@
 <translation id="6631202559048444592">這項政策有多個來源，但來源的值都相同。</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">清除</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{無}=1{1 個網站 (你不會因此登出 Brave 帳戶)}other{# 個網站 (你不會因此登出 Brave 帳戶)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{無}=1{1 個網站 (你不會因此登出 Dissenter 帳戶)}other{# 個網站 (你不會因此登出 Dissenter 帳戶)}}</translation>
 <translation id="6652101503459149953">使用 Windows Hello</translation>
 <translation id="6657585470893396449">密碼</translation>
 <translation id="6665553082534466207">三孔 (右側)</translation>
 <translation id="6685834062052613830">請登出並完成設定程序</translation>
 <translation id="6687335167692595844">要求的字型大小</translation>
 <translation id="6689249931105087298">與黑點壓縮相對</translation>
-<translation id="5406652219015697259">你已登入帳戶，因此 Brave 詢問你是否要將卡片儲存至 Brave 帳戶。你可以在設定中變更這項行為。持卡人姓名來自你的帳戶。</translation>
+<translation id="5406652219015697259">你已登入帳戶，因此 Dissenter 詢問你是否要將卡片儲存至 Dissenter 帳戶。你可以在設定中變更這項行為。持卡人姓名來自你的帳戶。</translation>
 <translation id="6704582573942289642">這是你要造訪的網站嗎？</translation>
 <translation id="6710213216561001401">返回</translation>
 <translation id="6710594484020273272">&lt;輸入搜尋字詞&gt;</translation>
@@ -1338,14 +1338,14 @@
 <translation id="6874604403660855544">重做新增(&amp;R)</translation>
 <translation id="6884662655240309489">粗細：1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave 已簡化這個頁面，讓內容更易於閱讀。Brave 透過不安全的連線擷取原始頁面。</translation>
+<translation id="7265969755975834932">Dissenter 已簡化這個頁面，讓內容更易於閱讀。Dissenter 透過不安全的連線擷取原始頁面。</translation>
 <translation id="6891596781022320156">系統不支援這項政策的層級。</translation>
 <translation id="6895330447102777224">您的信用卡已通過驗證</translation>
 <translation id="6897140037006041989">使用者代理程式</translation>
 <translation id="6898699227549475383">組織 (O)</translation>
 <translation id="6910240653697687763"><ph name="URL"/> 要求取得 MIDI 裝置的完整控制權限</translation>
 <translation id="6915804003454593391">使用者：</translation>
-<translation id="6722453239914327220">這是你在 Brave 帳戶中設定的名稱</translation>
+<translation id="6722453239914327220">這是你在 Dissenter 帳戶中設定的名稱</translation>
 <translation id="6944692733090228304">你在不是由 <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> 管理的網站上輸入了你的密碼。為確保帳戶安全，請勿在其他應用程式和網站上重複使用你的密碼。</translation>
 <translation id="6945221475159498467">選取</translation>
 <translation id="6948701128805548767">如要查看取件方式和相關規定，請選取一個地址</translation>
@@ -1361,10 +1361,10 @@
 <translation id="6972629891077993081">HID 裝置</translation>
 <translation id="6973656660372572881">已指定固定的 Proxy 伺服器和 .pac 指令碼網址。</translation>
 <translation id="6973932557599545801">抱歉，目前無法提供協助，請自行填入資料。</translation>
-<translation id="846000886289004690">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即前往 <ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/> 以及也使用這個密碼的其他網站變更密碼。</translation>
-<translation id="6979158407327259162">Brave 雲端硬碟</translation>
+<translation id="846000886289004690">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即前往 <ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/> 以及也使用這個密碼的其他網站變更密碼。</translation>
+<translation id="6979158407327259162">Dissenter 雲端硬碟</translation>
 <translation id="6979440798594660689">靜音 (預設)</translation>
-<translation id="1714833602699685456">系統會將你下載的檔案傳送到 Brave Cloud 或第三方進行分析。舉例來說，Brave Cloud 或第三方可能會掃描檔案，檢查是否含有機密資料或惡意軟體。</translation>
+<translation id="1714833602699685456">系統會將你下載的檔案傳送到 Dissenter Cloud 或第三方進行分析。舉例來說，Dissenter Cloud 或第三方可能會掃描檔案，檢查是否含有機密資料或惡意軟體。</translation>
 <translation id="6989763994942163495">顯示進階設定...</translation>
 <translation id="6993898126790112050">6x9 (信封)</translation>
 <translation id="6996312675313362352">一律翻譯<ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1387,7 +1387,7 @@
 <translation id="7083258188081898530">紙匣 9</translation>
 <translation id="7086090958708083563">使用者要求上傳</translation>
 <translation id="7087282848513945231">郡/縣</translation>
-<translation id="5711818857380891233">請透過 Brave 搜尋「<ph name="LINK"/>」</translation>
+<translation id="5711818857380891233">請透過 Dissenter 搜尋「<ph name="LINK"/>」</translation>
 <translation id="7108338896283013870">隱藏</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> 要求使用攝影機</translation>
 <translation id="7108819624672055576">依據擴充功能設定允許</translation>
@@ -1421,7 +1421,7 @@
 <translation id="7219179957768738017">這個連線使用 <ph name="SSL_VERSION"/>。</translation>
 <translation id="7220786058474068424">處理中</translation>
 <translation id="7221855153210829124">顯示通知</translation>
-<translation id="3619365259205518877">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>、<ph name="WEBSITE_3"/>，以及使用這組密碼的其他網站。</translation>
+<translation id="3619365259205518877">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>、<ph name="WEBSITE_3"/>，以及使用這組密碼的其他網站。</translation>
 <translation id="7233592378249864828">列印確認工作表</translation>
 <translation id="7238585580608191973">SHA-256 指紋</translation>
 <translation id="7240120331469437312">憑證主體替代名稱</translation>
@@ -1444,7 +1444,7 @@
 <translation id="7320336641823683070">連線說明</translation>
 <translation id="7323804146520582233">隱藏「<ph name="SECTION"/>」部分</translation>
 <translation id="733354035281974745">裝置本機帳戶覆寫</translation>
-<translation id="8539546768943490744">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即前往 <ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>、<ph name="WEBSITE_3"/>，以及也使用這個密碼的其他網站變更密碼。</translation>
+<translation id="8539546768943490744">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即前往 <ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>、<ph name="WEBSITE_3"/>，以及也使用這個密碼的其他網站變更密碼。</translation>
 <translation id="7334320624316649418">重做重新排序(&amp;R)</translation>
 <translation id="7337706099755338005">你的平台無法使用實驗性功能。</translation>
 <translation id="733923710415886693">伺服器憑證未依憑證透明化政策公開。</translation>
@@ -1453,7 +1453,7 @@
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">命令列</translation>
 <translation id="7372973238305370288">搜尋結果</translation>
-<translation id="3898257577441589237">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Brave 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Brave 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
+<translation id="3898257577441589237">發生這個問題是因為你或其他人在裝置上安裝了具有風險的憑證。已知這個憑證是用於監控及攔截網路資訊，且不受 Dissenter 信任。雖然有部分監控活動屬於正當行為 (例如學校或公司網路上的監控機制)，Dissenter 仍想確保你知曉此一情況，即使你無法阻止這類監控活動。任何存取網路的瀏覽器或應用程式都可能受到監控。</translation>
 <translation id="7375818412732305729">已附加檔案</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">媒體控制項</translation>
@@ -1471,7 +1471,7 @@
       &lt;li&gt;在「啟動類型」&lt;strong&gt;&lt;/strong&gt;之下，選取 [已停用]&lt;strong&gt;&lt;/strong&gt;
       &lt;li&gt;在「服務狀態」&lt;strong&gt;&lt;/strong&gt;之下，按一下 [停止]&lt;strong&gt;&lt;/strong&gt;
       &lt;li&gt;依序按一下 [套用]&lt;strong&gt;&lt;/strong&gt; 和 [確定]&lt;strong&gt;&lt;/strong&gt;
-      &lt;li&gt;前往 &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Brave 說明中心&lt;/a&gt;瞭解如何將該軟體從電腦上永久移除
+      &lt;li&gt;前往 &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Dissenter 說明中心&lt;/a&gt;瞭解如何將該軟體從電腦上永久移除
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">執行 Flash</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1491,7 +1491,7 @@
 <translation id="7481312909269577407">往前</translation>
 <translation id="7485870689360869515">找不到任何資料。</translation>
 <translation id="7488762544858401571">已編輯版本</translation>
-<translation id="3692186536781145635">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Brave 建議你立即檢查已儲存的密碼，並變更 <ph name="ORIGIN"/> 上的密碼。</translation>
+<translation id="3692186536781145635">你使用的某個網站或應用程式發生資料侵害事件，因此你的密碼已遭洩露。Dissenter 建議你立即檢查已儲存的密碼，並變更 <ph name="ORIGIN"/> 上的密碼。</translation>
 <translation id="7495528107193238112">這項內容已遭到封鎖，請聯絡網站擁有者以修正問題。</translation>
 <translation id="7498234416455752244">繼續編輯</translation>
 <translation id="7508255263130623398">傳回的政策裝置 ID 沒有任何內容，或是與目前的裝置 ID 不符</translation>
@@ -1509,13 +1509,13 @@
 <translation id="7542995811387359312">由於這個表單並未採用加密連線方式，所以信用卡自動填入功能已停用。</translation>
 <translation id="7548892272833184391">修正連線錯誤</translation>
 <translation id="7549584377607005141">這個網頁需要使用你先前輸入的資料才能正確顯示。你可以重新傳送這些資料，不過這麼做會重複執行這個網頁先前執行過的任何動作。</translation>
-<translation id="5474381306981932386">你的裝置使用者名稱和 Brave 使用者名稱</translation>
+<translation id="5474381306981932386">你的裝置使用者名稱和 Dissenter 使用者名稱</translation>
 <translation id="7552846755917812628">嘗試按照下列提示操作：</translation>
 <translation id="7554791636758816595">新分頁</translation>
 <translation id="7567204685887185387">伺服器無法證明其屬於 <ph name="DOMAIN"/> 網域；其安全性憑證是以欺詐方式發行。這可能是因為設定錯誤，或有攻擊者攔截你的連線所致。</translation>
 <translation id="7569983096843329377">黑色</translation>
 <translation id="7575207903026901870">移除建議按鈕，按下 Enter 鍵即可移除這項建議</translation>
-<translation id="405970181812690156">在不同的裝置上透過各個網站和應用程式消費時，使用您讓 Brave 儲存的信用卡資料即可快速付款。</translation>
+<translation id="405970181812690156">在不同的裝置上透過各個網站和應用程式消費時，使用您讓 Dissenter 儲存的信用卡資料即可快速付款。</translation>
 <translation id="7581199239021537589">側邊 2 圖片 Y 批次</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> 要求使用 <ph name="TOP_LEVEL_URL"/> 上的 Cookie 和網站資料</translation>
 <translation id="7592362899630581445">伺服器憑證的名稱不符合限制。</translation>
@@ -1524,12 +1524,12 @@
 <translation id="7600965453749440009">一律不翻譯<ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">值超出 <ph name="VALUE"/> 的範圍。</translation>
 <translation id="7613889955535752492">有效期限：<ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">你已經使用其他版本的「Brave 帳戶」密碼對資料進行加密，請在下方輸入密碼。</translation>
-<translation id="8565825862287624454">系統管理員已為你的瀏覽器啟用 Brave Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
+<translation id="6994126885316933886">你已經使用其他版本的「Dissenter 帳戶」密碼對資料進行加密，請在下方輸入密碼。</translation>
+<translation id="8565825862287624454">系統管理員已為你的瀏覽器啟用 Dissenter Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
 <translation id="7619838219691048931">結束工作表</translation>
 <translation id="762844065391966283">一次一個物件</translation>
 <translation id="7633909222644580952">效能資料和當機報告</translation>
-<translation id="6386821459680628976">要從 Brave 中移除信用卡嗎？</translation>
+<translation id="6386821459680628976">要從 Dissenter 中移除信用卡嗎？</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{無}=1{你的帳戶中有 1 組密碼 (<ph name="DOMAIN_LIST"/> 的密碼)}other{你的帳戶中有 # 組密碼 (<ph name="DOMAIN_LIST"/> 的密碼)}}</translation>
 <translation id="7638605456503525968">序列埠</translation>
 <translation id="7639968568612851608">深灰色</translation>
@@ -1582,9 +1582,9 @@
 <translation id="7802523362929240268">網站合法</translation>
 <translation id="780301667611848630">不用了，謝謝</translation>
 <translation id="7805768142964895445">狀態</translation>
-<translation id="3350174497208615172">在 Brave 中變更搜尋引擎設定</translation>
+<translation id="3350174497208615172">在 Dissenter 中變更搜尋引擎設定</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">要從 Brave 中移除建議嗎？</translation>
+<translation id="4670564340385807132">要從 Dissenter 中移除建議嗎？</translation>
 <translation id="781440967107097262">要分享剪貼簿嗎？</translation>
 <translation id="7815407501681723534">找到 <ph name="NUMBER_OF_RESULTS"/> 個與「<ph name="SEARCH_STRING"/>」相符的<ph name="SEARCH_RESULTS"/></translation>
 <translation id="782886543891417279">目前使用的 Wi-Fi 網路 (<ph name="WIFI_NAME"/>) 可能會要求您造訪登入網頁。</translation>
@@ -1593,7 +1593,7 @@
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">要離開網站嗎？</translation>
 <translation id="7865448901209910068">最佳速度</translation>
-<translation id="1012292338579042608">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>，以及使用這組密碼的其他網站。</translation>
+<translation id="1012292338579042608">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/>、<ph name="WEBSITE_2"/>，以及使用這組密碼的其他網站。</translation>
 <translation id="7878562273885520351">你的密碼可能已經外洩</translation>
 <translation id="7882421473871500483">棕色</translation>
 <translation id="7887683347370398519">請檢查您的信用卡驗證碼，然後再試一次</translation>
@@ -1603,7 +1603,7 @@
 <translation id="7932579305932748336">塗布</translation>
 <translation id="79338296614623784">請輸入有效的電話號碼</translation>
 <translation id="7934052535022478634">付款完成</translation>
-<translation id="8329449853370113380"><ph name="URL"/> 要求播放受保護的內容。Brave 會驗證你裝置的識別資訊。</translation>
+<translation id="8329449853370113380"><ph name="URL"/> 要求播放受保護的內容。Dissenter 會驗證你裝置的識別資訊。</translation>
 <translation id="7935031712718413217">這可能是假冒的網址</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">到期日：<ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1635,11 +1635,11 @@
 <translation id="8042918947222776840">選擇取件方式</translation>
 <translation id="8057711352706143257">「<ph name="SOFTWARE_NAME"/>」的設定不正確。通常解除安裝「<ph name="SOFTWARE_NAME"/>」即可修正這個問題。<ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">抱歉，系統發生錯誤。</translation>
-<translation id="5442778523450464826">你剛才在詐騙網站上輸入了密碼。Brave 能夠幫助你。如要變更密碼並通知 Brave 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
+<translation id="5442778523450464826">你剛才在詐騙網站上輸入了密碼。Dissenter 能夠幫助你。如要變更密碼並通知 Dissenter 你的帳戶可能面臨風險，請按一下 [保護帳戶]。</translation>
 <translation id="8074253406171541171">10x13 (信封)</translation>
 <translation id="8078141288243656252">文件旋轉後無法加註</translation>
 <translation id="8079031581361219619">要重新載入網站嗎？</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">草稿</translation>
 <translation id="8088680233425245692">無法查看文章。</translation>
 <translation id="808894953321890993">變更密碼</translation>
@@ -1658,7 +1658,7 @@
 <translation id="8150722005171944719">無法讀取位於 <ph name="URL"/> 的檔案。這個檔案可能已遭移除或移動位置，或者檔案權限為禁止存取。</translation>
 <translation id="8157295877370077682">離開網站</translation>
 <translation id="8163866351304776260">四孔 (左側)</translation>
-<translation id="4351627595884993315">你已登入帳戶，因此 Brave 詢問你是否要將卡片儲存至你的 Brave 帳戶。你可以在設定中變更這項行為。</translation>
+<translation id="4351627595884993315">你已登入帳戶，因此 Dissenter 詢問你是否要將卡片儲存至你的 Dissenter 帳戶。你可以在設定中變更這項行為。</translation>
 <translation id="8184538546369750125">使用全域預設值 (允許)</translation>
 <translation id="8194797478851900357">復原移動(&amp;U)</translation>
 <translation id="8197543752516192074">翻譯網頁</translation>
@@ -1669,7 +1669,7 @@
 <translation id="8211406090763984747">已建立安全連線</translation>
 <translation id="8218327578424803826">指派的位置：</translation>
 <translation id="8220146938470311105">C7/C6 (信封)</translation>
-<translation id="3272614036080146686">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即前往 <ph name="WEBSITE_1"/> 以及也使用這個密碼的其他網站變更密碼。</translation>
+<translation id="3272614036080146686">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即前往 <ph name="WEBSITE_1"/> 以及也使用這個密碼的其他網站變更密碼。</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>、<ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">平台溫度</translation>
 <translation id="8241707690549784388">你尋找的網頁使用了你輸入的資料。返回該頁會重複你剛才的行動。你確定要繼續嗎？</translation>
@@ -1696,7 +1696,7 @@
 <translation id="830498451218851433">對折</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">已安裝的應用程式以及使用頻率</translation>
-<translation id="8390490312179389407">這個網頁含有 Brave 標記的可疑內容。</translation>
+<translation id="8390490312179389407">這個網頁含有 Dissenter 標記的可疑內容。</translation>
 <translation id="831997045666694187">傍晚</translation>
 <translation id="8332188693563227489">存取 <ph name="HOST_NAME"/> 的要求遭到拒絕</translation>
 <translation id="833262891116910667">醒目顯示</translation>
@@ -1727,14 +1727,14 @@
 <translation id="8473863474539038330">地址和其他資訊</translation>
 <translation id="8474910779563686872">顯示開發人員詳細資料</translation>
 <translation id="8479754468255770962">釘裝 (左下方)</translation>
-<translation id="5142582872611298328">如要使用您的 Brave 帳戶中的信用卡，請登入 Brave</translation>
+<translation id="5142582872611298328">如要使用您的 Dissenter 帳戶中的信用卡，請登入 Dissenter</translation>
 <translation id="8488350697529856933">適用對象</translation>
 <translation id="8490137692873530638">堆疊出紙器 10</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> 的回應時間過長。</translation>
-<translation id="230699814587342492">Brave 密碼</translation>
+<translation id="230699814587342492">Dissenter 密碼</translation>
 <translation id="8503813439785031346">使用者名稱</translation>
 <translation id="8508648098325802031">搜尋圖示</translation>
-<translation id="1426902392270366682">Brave 可協助你保護 Brave 帳戶並變更密碼。</translation>
+<translation id="1426902392270366682">Dissenter 可協助你保護 Dissenter 帳戶並變更密碼。</translation>
 <translation id="8541158209346794904">藍牙裝置</translation>
 <translation id="8542014550340843547">三釘 (底部)</translation>
 <translation id="8543181531796978784">您可以<ph name="BEGIN_ERROR_LINK"/>回報偵測問題<ph name="END_ERROR_LINK"/>。或者在您瞭解安全性風險後，仍然可以<ph name="BEGIN_LINK"/>前往這個不安全的網站<ph name="END_LINK"/>。</translation>
@@ -1767,19 +1767,19 @@
 <translation id="8719528812645237045">多孔 (頂端)</translation>
 <translation id="8725066075913043281">再試一次</translation>
 <translation id="8730621377337864115">完成</translation>
-<translation id="6326805297893828864">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Brave 無法驗證這些憑證。</translation>
+<translation id="6326805297893828864">你必須正確設定時鐘，才能建立安全連線。這是因為網站驗證身分時所使用的憑證僅於特定一段時間內有效。由於你裝置的時鐘不正確，因此 Dissenter 無法驗證這些憑證。</translation>
 <translation id="8740359287975076522">找不到 <ph name="HOST_NAME"/> 的 &lt;abbr id="dnsDefinition"&gt;DNS 位址&lt;/abbr&gt;，正在診斷問題。</translation>
 <translation id="874918643257405732">將此分頁加入書籤</translation>
 <translation id="8751426954251315517">請稍後再試</translation>
 <translation id="8759274551635299824">這張信用卡已過期</translation>
 <translation id="87601671197631245">這個網站的安全性設定過舊，因此你傳送給這個網站的的資訊 (例如密碼、訊息或信用卡資訊) 可能會外洩。</translation>
-<translation id="8761567432415473239">Brave 安全瀏覽最近在「<ph name="SITE"/>」<ph name="BEGIN_LINK"/>發現了有害程式<ph name="END_LINK"/>。</translation>
+<translation id="8761567432415473239">Dissenter 安全瀏覽最近在「<ph name="SITE"/>」<ph name="BEGIN_LINK"/>發現了有害程式<ph name="END_LINK"/>。</translation>
 <translation id="8763927697961133303">USB 裝置</translation>
-<translation id="565908431635579039">你剛才在詐騙網站上輸入了密碼。Brave 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/> 和使用這組密碼的其他網站。</translation>
+<translation id="565908431635579039">你剛才在詐騙網站上輸入了密碼。Dissenter 建議你立即檢查為以下網站儲存的密碼：<ph name="WEBSITE_1"/> 和使用這組密碼的其他網站。</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">重做刪除(&amp;R)</translation>
-<translation id="5304100303568917877">你可能會失去 <ph name="ORG_NAME"/> 帳戶存取權，或身分遭到冒用。Brave 建議你立即變更密碼。</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> 已為你的瀏覽器啟用 Brave Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
+<translation id="5304100303568917877">你可能會失去 <ph name="ORG_NAME"/> 帳戶存取權，或身分遭到冒用。Dissenter 建議你立即變更密碼。</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> 已為你的瀏覽器啟用 Dissenter Enterprise 連接器。這些連接器可以存取你的部分資料。</translation>
 <translation id="8800988563907321413">這裡會顯示系統建議你瀏覽的鄰近網頁</translation>
 <translation id="8805819170075074995">清單項目「<ph name="LANGUAGE_ID"/>」：這個項目同時也納入在 SpellcheckLanguage 政策中，因此系統已予以忽略。</translation>
 <translation id="8807160976559152894">每完成一頁後裁切</translation>
@@ -1787,8 +1787,8 @@
 <translation id="883848425547221593">其他書籤</translation>
 <translation id="884264119367021077">運送地址</translation>
 <translation id="884923133447025588">未發現撤銷機制。</translation>
-<translation id="7487066225574140895">與 Brave 分享</translation>
-<translation id="4764754838347156633">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> 密碼，Brave 會建議你重設密碼。</translation>
+<translation id="7487066225574140895">與 Dissenter 分享</translation>
+<translation id="4764754838347156633">如果你在其他網站上重複使用過你的 <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> 密碼，Dissenter 會建議你重設密碼。</translation>
 <translation id="8866481888320382733">解析政策設定時發生錯誤</translation>
 <translation id="8866928039507595380">折疊</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1800,23 +1800,23 @@
 <translation id="8903921497873541725">放大</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">移除建議按鈕，按一下 Enter 鍵即可移除「<ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/>」</translation>
-<translation id="2684652081942622950">Brave 帳戶</translation>
+<translation id="2684652081942622950">Dissenter 帳戶</translation>
 <translation id="8918231688545606538">這個網頁包含可疑的內容</translation>
 <translation id="892588693504540538">打孔 (右上方)</translation>
-<translation id="7757992844965332255">您要將這張卡片的資訊儲存到您的 Brave 帳戶嗎？</translation>
+<translation id="7757992844965332255">您要將這張卡片的資訊儲存到您的 Dissenter 帳戶嗎？</translation>
 <translation id="8932102934695377596">你的時鐘時間過慢</translation>
 <translation id="893332455753468063">新增名稱</translation>
 <translation id="8943282376843390568">萊姆綠</translation>
 <translation id="8957210676456822347">監控式入口網站授權</translation>
-<translation id="109444839364056698">當 Brave Enterprise 連接器標記安全性事件時，系統會將與事件相關的資料傳送給系統管理員。這些資料可能包括你在 Brave 中造訪的網頁網址、檔案名稱或中繼資料，以及用於登入裝置和 Brave 的使用者名稱。</translation>
+<translation id="109444839364056698">當 Dissenter Enterprise 連接器標記安全性事件時，系統會將與事件相關的資料傳送給系統管理員。這些資料可能包括你在 Dissenter 中造訪的網頁網址、檔案名稱或中繼資料，以及用於登入裝置和 Dissenter 的使用者名稱。</translation>
 <translation id="8962950042226115166">可疑網站</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>建議：<ph name="MARKUP_2"/>確認您的數據連線狀態正常<ph name="MARKUP_3"/>稍後再重新載入這個網頁<ph name="MARKUP_4"/>檢查您輸入的網址是否正確<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">儲存卡片</translation>
 <translation id="8971063699422889582">伺服器憑證已過期。</translation>
 <translation id="8975012916872825179">包括電話號碼、電子郵件地址和運送地址等資訊</translation>
 <translation id="8975263830901772334">你列印的檔案名稱</translation>
-<translation id="8978053250194585037">Brave 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到網路詐騙行為<ph name="END_LINK"/>。詐騙網站會偽裝成其他網站，藉此騙取你的資訊。</translation>
-<translation id="5889706513445719653">儲存在 Brave Pay 的付款方式和地址資訊</translation>
+<translation id="8978053250194585037">Dissenter 安全瀏覽功能最近在 <ph name="SITE"/> 上<ph name="BEGIN_LINK"/>偵測到網路詐騙行為<ph name="END_LINK"/>。詐騙網站會偽裝成其他網站，藉此騙取你的資訊。</translation>
+<translation id="5889706513445719653">儲存在 Dissenter Pay 的付款方式和地址資訊</translation>
 <translation id="8987927404178983737">月</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">你要瀏覽的網站含有有害程式</translation>
@@ -1845,10 +1845,10 @@
 <translation id="9089260154716455634">停機時間政策：</translation>
 <translation id="9095388113577226029">更多語言...</translation>
 <translation id="9101630580131696064">紙匣 1</translation>
-<translation id="6373940988468425649"><ph name="SITE"/> 通常使用加密方式保護您的資訊。但 Brave 這次嘗試連線到 <ph name="SITE"/> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE"/>，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Brave 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
+<translation id="6373940988468425649"><ph name="SITE"/> 通常使用加密方式保護您的資訊。但 Dissenter 這次嘗試連線到 <ph name="SITE"/> 時，該網站傳回了異常且錯誤的憑證。這可能是因為有攻擊者企圖偽裝成 <ph name="SITE"/>，或是受到 Wi-Fi 登入畫面影響而造成連線中斷。不過請放心，Dissenter 已及時停止連線，並未傳輸任何資料，因此您的資訊仍然安全無虞。</translation>
 <translation id="9106062320799175032">新增帳單地址</translation>
 <translation id="9114524666733003316">正在驗證信用卡...</translation>
-<translation id="3582535072753734287">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Brave 以外的服務管理。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">這個瀏覽器未受到任何公司或其他機構管理。這部裝置上的活動可透過 Dissenter 以外的服務管理。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">已上傳</translation>
 <translation id="9128870381267983090">連線至網路</translation>
 <translation id="9137013805542155359">顯示原文</translation>
@@ -1856,7 +1856,7 @@
 <translation id="9148088599418889305">選擇運送方式</translation>
 <translation id="9148507642005240123">復原編輯(&amp;U)</translation>
 <translation id="9150045010208374699">使用你的相機</translation>
-<translation id="5874192512642998555">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Brave 以外的服務管理。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">你的系統管理員可以遠端變更瀏覽器設定。這部裝置上的活動也可以透過 Dissenter 以外的服務管理。<ph name="BEGIN_LINK"/>瞭解詳情<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">已更新</translation>
 <translation id="9157595877708044936">設定中...</translation>
 <translation id="9158625974267017556">C6 (信封)</translation>
@@ -1867,17 +1867,17 @@
 <translation id="9173282814238175921">單一文件/新工作表</translation>
 <translation id="917450738466192189">伺服器憑證無效。</translation>
 <translation id="9174917557437862841">分頁切換按鈕，按下 Enter 鍵即可切換到這個分頁</translation>
-<translation id="9183302530794969518">Brave 文件</translation>
+<translation id="9183302530794969518">Dissenter 文件</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> 使用了不支援的通訊協定。</translation>
 <translation id="9191834167571392248">打孔 (左下方)</translation>
 <translation id="9205078245616868884">您已使用同步通關密語對資料進行加密，請輸入通關密語開始進行同步。</translation>
 <translation id="9207861905230894330">無法新增文章。</translation>
-<translation id="2206050430829841793">有應用程式阻止 Brave 建立這個網站的安全連線</translation>
+<translation id="2206050430829841793">有應用程式阻止 Dissenter 建立這個網站的安全連線</translation>
 <translation id="9219103736887031265">圖片</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">清除表單</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">為避免失去 Brave 帳戶存取權，Brave 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
+<translation id="7486559383537872796">為避免失去 Dissenter 帳戶存取權，Dissenter 建議你立即變更密碼。系統會要求你登入帳戶。</translation>
 <translation id="939736085109172342">新增資料夾</translation>
 <translation id="945855313015696284">查看下方資訊並刪除所有無效的卡片</translation>
 <translation id="950736567201356821">三孔 (頂端)</translation>
@@ -1902,7 +1902,7 @@
     &lt;li&gt;嘗試連線至其他網路&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">來自 Brave Pay</translation>
+<translation id="6771143571626203666">來自 Dissenter Pay</translation>
 <translation id="8820817407110198400">書籤列</translation>
 <translation id="8362995731815961365">設定這部電腦的使用者選擇封鎖這個網站。</translation>
 <translation id="4075123085690634698">在新的無痕式視窗中開啟網頁 (⇧ + ⌘ + N 鍵)</translation>
@@ -1914,7 +1914,7 @@
 <translation id="2227116904818538760">你已啟用無痕模式</translation>
 <translation id="2007417459975034427">現在你可以進行私密瀏覽了。共用這部裝置的其他使用者不會看到你的活動，不過，你下載的內容和新增的書籤仍會保留在裝置上。</translation>
 <translation id="2586968635953373425">開啟無痕式視窗</translation>
-<translation id="3489858312836205593">開啟新的 Brave 無痕式視窗</translation>
+<translation id="3489858312836205593">開啟新的 Dissenter 無痕式視窗</translation>
 <translation id="6984479912851154518">即將離開無痕模式，改為使用外部應用程式付款，要繼續嗎？</translation>
 <translation id="1426112902089905810">&lt;h4&gt;步驟 1：從入口網站登入&lt;/h4&gt;
     &lt;p&gt;咖啡館或機場等地點的 Wi-Fi 網路必須先登入才能使用。如要查看登入頁面，請造訪使用 &lt;code&gt;http://&lt;/code&gt; 的網頁。&lt;/p&gt;
@@ -1924,11 +1924,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;步驟 2：以無痕模式開啟網頁 (僅適用於電腦)&lt;/h4&gt;
     &lt;p&gt;使用無痕式視窗開啟您曾造訪的網頁。&lt;/p&gt;
-    &lt;p&gt;如果網頁可以順利開啟，表示有 Brave 擴充功能並未正常運作。如要修正這項錯誤，請關閉該擴充功能。&lt;/p&gt;
+    &lt;p&gt;如果網頁可以順利開啟，表示有 Dissenter 擴充功能並未正常運作。如要修正這項錯誤，請關閉該擴充功能。&lt;/p&gt;
     &lt;h4&gt;步驟 3：更新您的作業系統&lt;/h4&gt;
     &lt;p&gt;確認您的裝置已更新至最新版本的作業系統。&lt;/p&gt;
     &lt;h4&gt;步驟 4：暫時關閉防毒軟體&lt;/h4&gt;
-    &lt;p&gt;如果您的電腦使用任何提供「HTTPS 保護」或「HTTPS 掃描」功能的防毒軟體，導致 Brave 無法提供安全支援，系統就會顯示這則錯誤訊息。&lt;/p&gt;
+    &lt;p&gt;如果您的電腦使用任何提供「HTTPS 保護」或「HTTPS 掃描」功能的防毒軟體，導致 Dissenter 無法提供安全支援，系統就會顯示這則錯誤訊息。&lt;/p&gt;
     &lt;p&gt;如要修正這個問題，請關閉防毒軟體。如果這麼做可以順利解決問題，代表您必須關閉防毒軟體，才能使用安全網站。&lt;/p&gt;
     &lt;p&gt;事後請記得再次開啟防毒程式。&lt;/p&gt;
     &lt;h4&gt;步驟 5：尋求更多協助&lt;/h4&gt;

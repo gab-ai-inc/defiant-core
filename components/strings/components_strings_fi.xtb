@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">Lisää kortissa oleva nimi</translation>
 <translation id="1089439967362294234">Vaihda salasana</translation>
 <translation id="1096545575934602868">Kentässä voi olla korkeintaan <ph name="MAX_ITEMS_LIMIT"/> kohtaa. Muut kohdat ohitetaan.</translation>
-<translation id="1920681928837417101">Määritä salasanat Brave-asetuksissa</translation>
+<translation id="1920681928837417101">Määritä salasanat Dissenter-asetuksissa</translation>
 <translation id="1101672080107056897">Virhetapahtuma</translation>
 <translation id="1103523840287552314">Käännä <ph name="LANGUAGE"/> aina</translation>
 <translation id="1110994991967754504">Valitse käyttöoikeus kohteelle <ph name="PERMISSION_NAME"/></translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">Nimetön</translation>
 <translation id="1236081509407217141">Sallitaanko VR?</translation>
 <translation id="1240347957665416060">Laitteesi nimi</translation>
-<translation id="1052005765108026699">Jos haluat maksaa nopeammin ensi kerralla, tallenna kortti, nimi ja laskutusosoite Brave-tilillesi.</translation>
+<translation id="1052005765108026699">Jos haluat maksaa nopeammin ensi kerralla, tallenna kortti, nimi ja laskutusosoite Dissenter-tilillesi.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (synkronoitu)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Jos verkkosivuston avaaminen ei onnistu, kokeile ensin seuraavia vianetsintäkeinoja:&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">Noutotapa</translation>
 <translation id="1281476433249504884">Pinoaja 1</translation>
 <translation id="1285320974508926690">Älä käännä tätä sivustoa</translation>
-<translation id="1209478311331937175">Tietokoneelle asennettu ohjelmisto estää Bravea muodostamasta turvallista yhteyttä verkkoon (vain Windows-tietokoneilla)</translation>
+<translation id="1209478311331937175">Tietokoneelle asennettu ohjelmisto estää Dissentera muodostamasta turvallista yhteyttä verkkoon (vain Windows-tietokoneilla)</translation>
 <translation id="1294154142200295408">Komentorivin muunnelmat</translation>
 <translation id="129553762522093515">Hiljattain suljetut välilehdet</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>Tyhjennä evästeet.<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">Tulosta</translation>
 <translation id="1442386063175183758">Oikeanpuoleinen lehtitaite</translation>
 <translation id="1442987760062738829">Rei'itys</translation>
-<translation id="7408760246081928496">Liittämäsi teksti lähetetään Brave Cloudiin tai kolmansille osapuolille analysoitavaksi. Se voidaan esimerkiksi skannata arkaluontoisten tietojen varalta.</translation>
+<translation id="7408760246081928496">Liittämäsi teksti lähetetään Dissenter Cloudiin tai kolmansille osapuolille analysoitavaksi. Se voidaan esimerkiksi skannata arkaluontoisten tietojen varalta.</translation>
 <translation id="1455413310270022028">Pyyhekumi</translation>
 <translation id="1462245070427461050">JIS B9 (45 mm x 64 mm)</translation>
 <translation id="1463543813647160932">5 x 7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">Vaihda salasana</translation>
 <translation id="1484290072879560759">Valitse toimitusosoite</translation>
 <translation id="1492194039220927094">Käytäntöjen kehotusviestit:</translation>
-<translation id="1812569385220097122">Näytä Brave-tilin kortit</translation>
+<translation id="1812569385220097122">Näytä Dissenter-tilin kortit</translation>
 <translation id="1507202001669085618">&lt;p&gt;Näet tämän virheen, jos käyttämäsi Wi-Fi-portaali edellyttää kirjautumista ennen verkon käyttöä.&lt;/p&gt;
     &lt;p&gt;Korjaa virhe valitsemalla &lt;strong&gt;Yhdistä&lt;/strong&gt; sivulla, jota yrität avata.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">Luettelo historiamerkinnöistä</translation>
 <translation id="1517433312004943670">Puhelinnumero vaaditaan</translation>
 <translation id="1519264250979466059">Koontipäivä</translation>
-<translation id="5524011986660000129">Brave Sheets</translation>
+<translation id="5524011986660000129">Dissenter Sheets</translation>
 <translation id="1527263332363067270">Odotetaan yhteyttä…</translation>
 <translation id="1529521330346880926">10x15 (kirjekuori)</translation>
 <translation id="1529789484829130889">Lokero 8</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">Historia</translation>
 <translation id="1645368109819982629">Protokollaa ei tueta</translation>
 <translation id="1652415888492971589">JIS B8 (64 mm x 91 mm)</translation>
-<translation id="3848846802033604519">Brave teki sivusta yksinkertaisemman, jotta sen lukeminen olisi helpompaa. Brave nouti alkuperäisen sivun suojatun yhteyden kautta.</translation>
+<translation id="3848846802033604519">Dissenter teki sivusta yksinkertaisemman, jotta sen lukeminen olisi helpompaa. Dissenter nouti alkuperäisen sivun suojatun yhteyden kautta.</translation>
 <translation id="1656489000284462475">Noutoaika</translation>
 <translation id="1662550410081243962">Tallenna ja täytä maksutavat</translation>
-<translation id="1838576226863399477">Kortit ja osoitteet ovat peräisin Bravesta. Voit hallinnoida niitä <ph name="BEGIN_LINK"/>asetuksissa<ph name="END_LINK"/>.</translation>
+<translation id="1838576226863399477">Kortit ja osoitteet ovat peräisin Dissentersta. Voit hallinnoida niitä <ph name="BEGIN_LINK"/>asetuksissa<ph name="END_LINK"/>.</translation>
 <translation id="1671391448414634642">Kielellä <ph name="SOURCE_LANGUAGE"/> kirjoitetut sivut käännetään tästä lähtien kielelle <ph name="TARGET_LANGUAGE"/>.</translation>
 <translation id="1682696192498422849">Lyhyt reuna ensin</translation>
 <translation id="168693727862418163">Tämän käytännön arvon ei onnistunut vahvistamaan kaavaa ja se ohitetaan.</translation>
@@ -213,7 +213,7 @@
 <translation id="1778646502362731194">JIS B0 (1 030 mm x 1 456 mm)</translation>
 <translation id="1783075131180517613">Päivitä synkronoinnin tunnuslause.</translation>
 <translation id="1787142507584202372">Avoimet välilehdet näkyvät tässä.</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">Kortinhaltijan nimi</translation>
 <translation id="1807528111851433570">Aloitussivu</translation>
@@ -226,7 +226,7 @@
 <translation id="1842969606798536927">Maksa</translation>
 <translation id="1871208020102129563">Välityspalvelin on asetettu käyttämään kiinteitä välityspalvelimia, ei .pac-URL-osoitetta.</translation>
 <translation id="1871284979644508959">Pakollinen tieto</translation>
-<translation id="85321348617848915">Brave Forms</translation>
+<translation id="85321348617848915">Dissenter Forms</translation>
 <translation id="187918866476621466">Avaa aloitussivut</translation>
 <translation id="1883255238294161206">Tiivistä luettelo</translation>
 <translation id="1898423065542865115">Suodatus</translation>
@@ -237,19 +237,19 @@
 <translation id="1914326953223720820">Purkupalvelu</translation>
 <translation id="1915697529809968049">Käytetäänkö Touch ID:tä CVC:n sijaan?</translation>
 <translation id="1916770123977586577">Päivitä tämä sivu, niin päivitetyt asetuksesi otetaan käyttöön tällä sivustolla.</translation>
-<translation id="688541908229382784">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee, että vaihdat salasanan heti (<ph name="ORIGIN"/>).</translation>
+<translation id="688541908229382784">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Dissenter suosittelee, että vaihdat salasanan heti (<ph name="ORIGIN"/>).</translation>
 <translation id="1919345977826869612">Mainokset</translation>
 <translation id="1919367280705858090">Tiettyjen virheiden korjaaminen</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Ei mitään}=1{1 sivusto}other{# sivustoa}}</translation>
 <translation id="194030505837763158">Siirry osoitteeseen <ph name="LINK"/></translation>
 <translation id="1947454675006758438">Niitti oikeassa yläkulmassa</translation>
-<translation id="990584554013599191">Auta parantamaan kaikkien verkkoturvallisuutta lähettämällä Bravelle <ph name="BEGIN_WHITEPAPER_LINK"/>joidenkin avaamiesi sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Tietosuojakäytäntö<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">Auta parantamaan kaikkien verkkoturvallisuutta lähettämällä Dissenterlle <ph name="BEGIN_WHITEPAPER_LINK"/>joidenkin avaamiesi sivujen URL-osoitteita, rajallisia järjestelmätietoja ja osia sivujen sisällöstä<ph name="END_WHITEPAPER_LINK"/>. <ph name="BEGIN_PRIVACY_PAGE_LINK"/>Tietosuojakäytäntö<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436">Verkkotunnuksen <ph name="DOMAIN"/> kirjanmerkit</translation>
 <translation id="1973335181906896915">Sarjaesittämisen virhe</translation>
 <translation id="1974060860693918893">Lisäasetukset</translation>
 <translation id="1975584088563498795">Postilaatikko 10</translation>
 <translation id="1978555033938440688">Laiteohjelmiston versio</translation>
-<translation id="711418501679417607">Tyhjennä Braven selaushistoriadata</translation>
+<translation id="711418501679417607">Tyhjennä Dissentern selaushistoriadata</translation>
 <translation id="1992331125980284532">JIS B3 (364 mm x 515 mm)</translation>
 <translation id="1992796205810278279">päästä evästeisiin ja sivustodataan.
 
@@ -265,7 +265,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="2030481566774242610">Tarkoititko: <ph name="LINK"/>?</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>Tarkista välityspalvelimen ja palomuurin määritykset.<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">Lokero 7</translation>
-<translation id="3163988908275223348">Kirjaudu sisään käyttääksesi Brave-tilillesi tallennettuja salasanoja</translation>
+<translation id="3163988908275223348">Kirjaudu sisään käyttääksesi Dissenter-tilillesi tallennettuja salasanoja</translation>
 <translation id="2053111141626950936">Kielellä <ph name="LANGUAGE"/> kirjoitettuja sivuja ei käännetä.</translation>
 <translation id="2053553514270667976">Postinumero</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 ehdotus}other{# ehdotusta}}</translation>
@@ -318,7 +318,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="2258928405015593961">Syötä tulevaisuudessa oleva viimeinen voimassaolopäivä ja yritä uudelleen</translation>
 <translation id="225943865679747347">Virhekoodi: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">HTTP-virhe</translation>
-<translation id="112540507627099823">Päivitä luottokorttien automaattiset täyttötiedot Brave-asetuksissa</translation>
+<translation id="112540507627099823">Päivitä luottokorttien automaattiset täyttötiedot Dissenter-asetuksissa</translation>
 <translation id="2267047181501709434">Henkilöllisyyttäsi vahvistetaan…</translation>
 <translation id="2270484714375784793">Puhelinnumero</translation>
 <translation id="2276057643614339130">Tulostusalusta</translation>
@@ -339,7 +339,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="2344028582131185878">Automaattiset lataukset</translation>
 <translation id="2346319942568447007">Kopioimasi kuva</translation>
 <translation id="2354001756790975382">Muut kirjanmerkit</translation>
-<translation id="2354430244986887761">Brave-selaussuoja <ph name="BEGIN_LINK"/>löysi äskettäin haitallisia sovelluksia<ph name="END_LINK"/> sivustolta <ph name="SITE"/>.</translation>
+<translation id="2354430244986887761">Dissenter-selaussuoja <ph name="BEGIN_LINK"/>löysi äskettäin haitallisia sovelluksia<ph name="END_LINK"/> sivustolta <ph name="SITE"/>.</translation>
 <translation id="2355395290879513365">Hyökkääjät voivat mahdollisesti nähdä kuvat, joita katselet tällä sivustolla, ja huijata sinua muokkaamalla niitä.</translation>
 <translation id="2356070529366658676">Kysy</translation>
 <translation id="2359629602545592467">Useita</translation>
@@ -369,7 +369,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="2491120439723279231">Palvelimen varmenteessa on virheitä.</translation>
 <translation id="2493640343870896922">Kirje-plus</translation>
 <translation id="2495083838625180221">JSON-jäsentäjä</translation>
-<translation id="5047769237368272183">Jos tämä on valittu, Brave tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
+<translation id="5047769237368272183">Jos tämä on valittu, Dissenter tallentaa kortin kopion tälle laitteelle nopeuttaakseen lomakkeiden täyttöä.</translation>
 <translation id="2498091847651709837">Skannaa uusi kortti</translation>
 <translation id="2501278716633472235">Takaisin</translation>
 <translation id="2505268675989099013">Suojaa tili</translation>
@@ -433,12 +433,12 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="277133753123645258">Lähetystapa</translation>
 <translation id="277499241957683684">Laitetallenne puuttuu</translation>
 <translation id="2775884851269838147">Ensimmäinen tulostettava sivu</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">Yhteys katkaistiin.</translation>
 <translation id="2792012897584536778">Tämän laitteen järjestelmänvalvojat ovat ottaneet käyttöön tietosuojavarmenteita, joiden avulla he saattavat nähdä avaamiesi sivustojen sisällöt.</translation>
 <translation id="2799020568854403057">Sivusto sisältää haitallisia sovelluksia</translation>
 <translation id="2799223571221894425">Käynnistä uudelleen</translation>
-<translation id="2803306138276472711">Brave-selaussuoja havaitsi sivustossa <ph name="SITE"/> äskettäin <ph name="BEGIN_LINK"/>haittaohjelmia<ph name="END_LINK"/>. Tavallisesti turvalliset sivustot voivat joskus saada haittaohjelmatartunnan.</translation>
+<translation id="2803306138276472711">Dissenter-selaussuoja havaitsi sivustossa <ph name="SITE"/> äskettäin <ph name="BEGIN_LINK"/>haittaohjelmia<ph name="END_LINK"/>. Tavallisesti turvalliset sivustot voivat joskus saada haittaohjelmatartunnan.</translation>
 <translation id="2807052079800581569">Kuvan Y sijainti</translation>
 <translation id="2824514415781424867">Jaetaanko sijainti?</translation>
 <translation id="2824775600643448204">Osoite- ja hakupalkki</translation>
@@ -479,7 +479,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="2989742184762224133">Kaksi niittiä yläreunassa</translation>
 <translation id="2991174974383378012">Jakaminen verkkosivustojen kanssa</translation>
 <translation id="2991571918955627853"><ph name="SITE"/> ei ole juuri nyt käytettävissä, koska se käyttää HSTS:ää. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu luultavasti toimii myöhemmin.</translation>
-<translation id="6683975920571472553">Braven ehdotukset</translation>
+<translation id="6683975920571472553">Dissentern ehdotukset</translation>
 <translation id="3002501248619246229">Tarkista syöttölokeron media</translation>
 <translation id="3005723025932146533">Näytä tallennettu kopio</translation>
 <translation id="3008447029300691911">Anna kortin <ph name="CREDIT_CARD"/> CVC. Vahvistamisen jälkeen korttisi tiedot jaetaan sivuston kanssa.</translation>
@@ -563,7 +563,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3399952811970034796">Toimitusosoite</translation>
 <translation id="3402261774528610252">Tämä sivusto ladattiin TLS 1.0:lla tai TLS 1.1:llä. Ne ovat vanhentuneet ja poistetaan käytöstä tulevaisuudessa. Kun ne poistetaan käytöstä, käyttäjät eivät voi enää ladata tätä sivustoa. Palvelimen pitäisi ottaa käyttöön TLS 1.2 tai uudempi versio.</translation>
 <translation id="3414952576877147120">Koko:</translation>
-<translation id="25726459489263481">Lähettämäsi tai liittämäsi tiedostot lähetetään Brave Cloudiin tai kolmansille osapuolille analysoitaviksi. Ne voidaan esimerkiksi skannata arkaluontoisten tietojen tai haittaohjelmien varalta.</translation>
+<translation id="25726459489263481">Lähettämäsi tai liittämäsi tiedostot lähetetään Dissenter Cloudiin tai kolmansille osapuolille analysoitaviksi. Ne voidaan esimerkiksi skannata arkaluontoisten tietojen tai haittaohjelmien varalta.</translation>
 <translation id="3422248202833853650">Yritä vapauttaa muistia sulkemalla muita ohjelmia.</translation>
 <translation id="3422472998109090673">Sivustoon <ph name="HOST_NAME"/> ei saada tällä hetkellä yhteyttä.</translation>
 <translation id="3423742043356668186">Järjestelmän määrittämä</translation>
@@ -572,7 +572,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3428151540071562330">Yksi tai useampi DnsOverHttpsTemplates-palvelinmallien URI-tunnuksista on virheellinen, eikä niitä käytetä.</translation>
 <translation id="3431636764301398940">Tallenna kortti tälle laitteelle</translation>
 <translation id="3432601291244612633">Sulje sivu</translation>
-<translation id="4527130811319726464">Käytä Brave-tilillesi tallennettuja salasanoja</translation>
+<translation id="4527130811319726464">Käytä Dissenter-tilillesi tallennettuja salasanoja</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Tämän laitteen omistaja on poistanut dinosauruspelin käytöstä.</translation>
 <translation id="3447884698081792621">Näytä varmenne (myöntäjä: <ph name="ISSUER"/>)</translation>
@@ -603,7 +603,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3567778190852720481">Liittyminen yritystilillä ei onnistu (yritystiliä ei tueta).</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">Viesti upotetulta sivulta osoitteessa <ph name="SITE"/></translation>
-<translation id="230476913390177517">Brave ilmoittaa, kun tämä sivu on valmis. &lt;a&gt;Peruuta&lt;/a&gt;</translation>
+<translation id="230476913390177517">Dissenter ilmoittaa, kun tämä sivu on valmis. &lt;a&gt;Peruuta&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Lisää nimi</translation>
 <translation id="3583757800736429874">&amp;Toista siirto</translation>
 <translation id="3584299510153766161">Kaksi reikää alareunassa</translation>
@@ -646,7 +646,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="373042150751172459">B4 (kirjekuori)</translation>
 <translation id="3731873414101415120">Avaamasi verkkosivustot ja vaarallisten sivujen sisältö</translation>
 <translation id="3736520371357197498">Jos ymmärrät käyntiä koskevat turvallisuusriskit, voit <ph name="BEGIN_LINK"/>siirtyä vaarantuneeseen sivustoon<ph name="END_LINK"/> jo ennen haitallisten ohjelmien poistamista.</translation>
-<translation id="4098534208927606680">Vahvistamisen jälkeen korttitiedot Brave-tililtäsi jaetaan tämän sivuston kanssa.</translation>
+<translation id="4098534208927606680">Vahvistamisen jälkeen korttitiedot Dissenter-tililtäsi jaetaan tämän sivuston kanssa.</translation>
 <translation id="3748148204939282805">Sivustolle <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> hyökännyt taho voi yrittää huijata sinua tekemään jotain vaarallista, kuten asentamaan ohjelmia tai paljastamaan henkilötietojasi (esimerkiksi salasanoja, puhelinnumeroita tai luottokorttitietoja). <ph name="BEGIN_LEARN_MORE_LINK"/>Lisätietoja<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">Sulje kuva kuvassa ‑tila</translation>
 <translation id="3759461132968374835">Ei viimeaikaisia kaatumisilmoituksia. Jos selain kaatui kaatumisilmoitusten ollessa pois käytöstä, ilmoituksia ei näytetä täällä.</translation>
@@ -654,7 +654,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3761718714832595332">Piilota tila</translation>
 <translation id="3765032636089507299">Selaussuojasivu on työn alla.</translation>
 <translation id="3765588406864124894">Postilaatikko 9</translation>
-<translation id="5141491707451394486">Haluatko tallentaa tämän kortin Brave-tilille ja tälle laitteelle?</translation>
+<translation id="5141491707451394486">Haluatko tallentaa tämän kortin Dissenter-tilille ja tälle laitteelle?</translation>
 <translation id="3780694243617746492">Tulostuslokero</translation>
 <translation id="3781428340399460090">Pinkki</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -684,7 +684,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3901925938762663762">Kortti on vanhentunut.</translation>
 <translation id="3906600011954732550">B5-ekstra</translation>
 <translation id="3906954721959377182">Tabletti</translation>
-<translation id="2650609753175229582"><ph name="URL"/> haluaa toistaa suojattua sisältöä. Brave vahvistaa laitteesi identiteetin, ja myös sivusto voi saada pääsyn laitteesi identiteettitietoihin.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> haluaa toistaa suojattua sisältöä. Dissenter vahvistaa laitteesi identiteetin, ja myös sivusto voi saada pääsyn laitteesi identiteettitietoihin.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">Käytetäänkö WebAuthnia CVC:n sijaan?</translation>
 <translation id="3946209740501886391">Kysy aina tällä sivustolla</translation>
@@ -699,7 +699,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="3964661563329879394">{COUNT,plural, =0{Ei mitään}=1{1 sivustolta }other{# sivustolta }}</translation>
 <translation id="397105322502079400">Lasketaan...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> on estetty</translation>
-<translation id="2321540973325616220">Brave epäilee tätä sivustoa vilpilliseksi tai valesivustoksi.
+<translation id="2321540973325616220">Dissenter epäilee tätä sivustoa vilpilliseksi tai valesivustoksi.
 
     Jos uskot, että ilmoitus on virheellinen, siirry osoitteeseen https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Alle 1 Mt</translation>
@@ -774,7 +774,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4275830172053184480">Käynnistä laite uudelleen</translation>
 <translation id="4277028893293644418">Pyydä uusi salasana</translation>
 <translation id="4279811152705618813"><ph name="ENROLLMENT_DOMAIN"/> ylläpitää laitetta (<ph name="DEVICE_TYPE"/>)</translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Tämä kortti on tallennettu Brave-tilillesi}other{Nämä kortit on tallennettu Brave-tilillesi}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Tämä kortti on tallennettu Dissenter-tilillesi}other{Nämä kortit on tallennettu Dissenter-tilillesi}}</translation>
 <translation id="42981349822642051">Laajenna</translation>
 <translation id="4300675098767811073">Useita reikiä oikealla</translation>
 <translation id="4302965934281694568">Chou3 (kirjekuori)</translation>
@@ -787,7 +787,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4326324639298822553">Tarkista vanhentumispäivä ja yritä uudelleen.</translation>
 <translation id="4331519897422864041">Pinoaja 5</translation>
 <translation id="4331708818696583467">Ei turvallinen</translation>
-<translation id="6116812392674177288">Havaintojen mukaan tämä tietokone ei ole yrityksen hallinnoima, joten käytäntö voi asentaa automaattisesti vain Brave Web Storessa hostattuja laajennuksia. Brave Web Storen päivitys-URL-osoite on <ph name="CWS_UPDATE_URL"/>.</translation>
+<translation id="6116812392674177288">Havaintojen mukaan tämä tietokone ei ole yrityksen hallinnoima, joten käytäntö voi asentaa automaattisesti vain Dissenter Web Storessa hostattuja laajennuksia. Dissenter Web Storen päivitys-URL-osoite on <ph name="CWS_UPDATE_URL"/>.</translation>
 <translation id="4346197816712207223">Hyväksytyt luottokortit</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">Tälle sivustolle hyökännyt taho voi yrittää asentaa tietokoneellesi vaarallisia ohjelmia, jotka varastavat tai poistavat tietojasi, kuten kuviasi, salasanojasi, viestejäsi ja luottokorttiesi tietoja.</translation>
@@ -812,7 +812,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4477350412780666475">Seuraava kappale</translation>
 <translation id="4482953324121162758">Tätä sivustoa ei käännetä.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">Nämä ominaisuudet ovat oletuksena poissa käytöstä. Ne eivät ole käytettävissä Braven tulevissa versioissa.</translation>
+<translation id="3614771894046523359">Nämä ominaisuudet ovat oletuksena poissa käytöstä. Ne eivät ole käytettävissä Dissentern tulevissa versioissa.</translation>
 <translation id="4493480324863638523">Virheellinen URL-osoite URL-osoitteen on oltava vakiomallien mukainen, esimerkiksi "http://example.com" tai "https://example.com".</translation>
 <translation id="4503882053543859973">Arkkitehti-D</translation>
 <translation id="4506176782989081258">Todennusvirhe: <ph name="VALIDATION_ERROR"/></translation>
@@ -820,7 +820,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="450710068430902550">Jakaminen järjestelmänvalvojan kanssa</translation>
 <translation id="4508814173490746936">Touch ID:n käyttö ei onnistunut</translation>
 <translation id="4510487217173779431">Chou4 (kirjekuori)</translation>
-<translation id="4892470328555495647">Kortit ja osoitteet ovat peräisin Bravesta ja Brave-tililtäsi (<ph name="ACCOUNT_EMAIL"/>). Voit hallinnoida niitä <ph name="BEGIN_LINK"/>asetuksissa<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Kortit ja osoitteet ovat peräisin Dissentersta ja Dissenter-tililtäsi (<ph name="ACCOUNT_EMAIL"/>). Voit hallinnoida niitä <ph name="BEGIN_LINK"/>asetuksissa<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (kirjekuori)</translation>
 <translation id="4522570452068850558">Tiedot</translation>
 <translation id="4524138615196389145">Vahvista kortit jatkossa nopeammin WebAuthn-todennuksella</translation>
@@ -846,7 +846,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4670064810192446073">Virtuaalitodellisuus</translation>
 <translation id="467662567472608290">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN"/>; sen suojausvarmenne sisältää virheitä. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> haluaa vastata esteettömyystapahtumiin.</translation>
-<translation id="8197094463444457125">Brave Slides</translation>
+<translation id="8197094463444457125">Dissenter Slides</translation>
 <translation id="4690462567478992370">Lopeta virheellisten varmenteiden käyttö</translation>
 <translation id="4691835149146451662">Arkkitehti-A (kirjekuori)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -876,11 +876,11 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4785689107224900852">Siirry tälle välilehdelle</translation>
 <translation id="4791134497475588553">Asennetut Linux-sovellukset ja niiden edellinen käyttökerta</translation>
 <translation id="4796594887379589189">Työpaikan tilin tunnus</translation>
-<translation id="7110430050177876111">Päivitä <ph name="CREDIT_CARD"/> ‑tiedot antamalla sen viimeinen voimassaolopäivä ja CVC. Vahvistamisen jälkeen korttitiedot Brave-tililtäsi jaetaan tämän sivuston kanssa.</translation>
+<translation id="7110430050177876111">Päivitä <ph name="CREDIT_CARD"/> ‑tiedot antamalla sen viimeinen voimassaolopäivä ja CVC. Vahvistamisen jälkeen korttitiedot Dissenter-tililtäsi jaetaan tämän sivuston kanssa.</translation>
 <translation id="4800132727771399293">Tarkista vanhenemispäivä ja CVC ja yritä uudelleen.</translation>
 <translation id="480334179571489655">Käytännön alkuperävirhe</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">Et voi siirtyä sivustoon <ph name="SITE"/> juuri nyt, koska sivusto lähetti sekoitetut kirjautumistiedot, joita Brave ei voi käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu luultavasti toimii myöhemmin.</translation>
+<translation id="8896585555528145662">Et voi siirtyä sivustoon <ph name="SITE"/> juuri nyt, koska sivusto lähetti sekoitetut kirjautumistiedot, joita Dissenter ei voi käsitellä. Verkkovirheet ja hyökkäykset ovat yleensä väliaikaisia, joten sivu luultavasti toimii myöhemmin.</translation>
 <translation id="4813512666221746211">Verkkovirhe</translation>
 <translation id="4816492930507672669">Sovita sivulle</translation>
 <translation id="484462545196658690">Automaattinen</translation>
@@ -918,7 +918,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="4989542687859782284">Ei käytettävissä</translation>
 <translation id="4989809363548539747">Tätä laajennusta ei tueta.</translation>
 <translation id="4995216769782533993">Vahvista turvakoodi, jotta kortin tiedot voidaan jakaa tälle sivustolle</translation>
-<translation id="3676215163710610678">Kun tämä vaihtoehto on käytössä, Brave nopeuttaa lomakkeiden täyttämistä tallentamalla kortin tiedot tälle laittelle.</translation>
+<translation id="3676215163710610678">Kun tämä vaihtoehto on käytössä, Dissenter nopeuttaa lomakkeiden täyttämistä tallentamalla kortin tiedot tälle laittelle.</translation>
 <translation id="5015510746216210676">Laitteen nimi:</translation>
 <translation id="5017554619425969104">Kopioimasi teksti</translation>
 <translation id="5018422839182700155">Sivun avaaminen epäonnistui</translation>
@@ -927,7 +927,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5029568752722684782">Poista kopio</translation>
 <translation id="5030338702439866405">Myöntänyt</translation>
 <translation id="503069730517007720">Ohjelmiston <ph name="SOFTWARE_NAME"/> juurivarmennetta edellytetään, mutta sitä ei ole asennettu. IT-järjestelmänvalvojan on tutustuttava ohjelmiston <ph name="SOFTWARE_NAME"/> määritysohjeisiin, jotta hän voi korjata tämän ongelman. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">Tietoja Brave-kääntäjästä</translation>
+<translation id="6425384654920630035">Tietoja Dissenter-kääntäjästä</translation>
 <translation id="503498442187459473"><ph name="HOST"/> haluaa käyttää kameraasi ja mikrofoniasi.</translation>
 <translation id="5039804452771397117">Salli</translation>
 <translation id="5040262127954254034">Tietosuoja</translation>
@@ -944,7 +944,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5088142053160410913">Viesti operaattorille</translation>
 <translation id="5089810972385038852">Osavaltio/alue</translation>
 <translation id="5093232627742069661">Kolmoistaite</translation>
-<translation id="4906192414477726331">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN"/>; Brave ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
+<translation id="4906192414477726331">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN"/>; Dissenter ei luota sen suojausvarmenteeseen. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="5095208057601539847">Provinssi</translation>
 <translation id="5097099694988056070">Laitetilastot esim. CPU:n/RAM-muistin käytöstä</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -956,7 +956,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5126510351761255129">Vahvista kortti</translation>
 <translation id="6291230311289558881">Hallinnoi osoitteita…</translation>
 <translation id="5138227688689900538">Näytä vähemmän</translation>
-<translation id="7186167407612593632">Salaa synkronoidut salasanat Brave-kirjautumistietojesi avulla</translation>
+<translation id="7186167407612593632">Salaa synkronoidut salasanat Dissenter-kirjautumistietojesi avulla</translation>
 <translation id="5145883236150621069">Käytäntövastaus sisältää virhekoodin</translation>
 <translation id="5146995429444047494">Ilmoitukset on estetty: <ph name="ORIGIN"/></translation>
 <translation id="5148809049217731050">Tulostuspuoli ylöspäin</translation>
@@ -964,8 +964,8 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5158275234811857234">Kansi</translation>
 <translation id="5161506081086828129">Pinoaja 9</translation>
 <translation id="5164798890604758545">Teksti on lisätty</translation>
-<translation id="2996889577833788807">Anna kortin <ph name="CREDIT_CARD"/> CVC. Vahvistamisen jälkeen korttitiedot Brave-tililtäsi jaetaan tämän sivuston kanssa.</translation>
-<translation id="8515152881111950319">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee vaihtamaan salasanan välittömästi.</translation>
+<translation id="2996889577833788807">Anna kortin <ph name="CREDIT_CARD"/> CVC. Vahvistamisen jälkeen korttitiedot Dissenter-tililtäsi jaetaan tämän sivuston kanssa.</translation>
+<translation id="8515152881111950319">Voit menettää organisaatiosi tilin käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Dissenter suosittelee vaihtamaan salasanan välittömästi.</translation>
 <translation id="5171045022955879922">Kirjoita hakusanoja tai URL-osoite</translation>
 <translation id="5171689220826475070">European Fanfold</translation>
 <translation id="5172758083709347301">Kaikki tietokoneen käyttäjät</translation>
@@ -974,7 +974,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5201306358585911203">Viesti tälle sivulle upotetulta sivulta</translation>
 <translation id="5205222826937269299">Nimi vaaditaan</translation>
 <translation id="5209518306177824490">SHA-1-tunnistetiedosto</translation>
-<translation id="1051285409463218679">Maksutavat ja osoitteet Brave Paysta</translation>
+<translation id="1051285409463218679">Maksutavat ja osoitteet Dissenter Paysta</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">Sähköposti vaaditaan</translation>
 <translation id="5230733896359313003">Toimitusosoite</translation>
@@ -998,7 +998,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5287456746628258573">Tämä sivusto käyttää vanhentunutta tietoturvamääritystä, joka voi paljastaa tietosi (esim. salasanat tai credit-korttien numerot), kun ne lähetetään sivustolle.</translation>
 <translation id="5288108484102287882">Käytäntöarvojen vahvistus aiheutti varoituksia</translation>
 <translation id="5289384342738547352">Useiden dokumenttien käsittely</translation>
-<translation id="3764885446986388155">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee tarkistamaan tallennetut salasanasi nyt.</translation>
+<translation id="3764885446986388155">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Dissenter suosittelee tarkistamaan tallennetut salasanasi nyt.</translation>
 <translation id="5299298092464848405">Virhe jäsennettäessä käytäntöä</translation>
 <translation id="5300589172476337783">Näytä</translation>
 <translation id="5306593769196050043">Molemmat taulukot</translation>
@@ -1057,7 +1057,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5541086400771735334">Postilaatikko 7</translation>
 <translation id="5541546772353173584">Lisää sähköposti</translation>
 <translation id="5545756402275714221">Sinulle valitut artikkelit</translation>
-<translation id="6084314943327785510">Brave vertaa salasanojasi säännöllisesti listoihin salasanoista, jotka on julkaistu verkossa. Tätä varten salasanat ja käyttäjänimet salataan, joten kukaan (myöskään Brave) ei voi lukea niitä.</translation>
+<translation id="6084314943327785510">Dissenter vertaa salasanojasi säännöllisesti listoihin salasanoista, jotka on julkaistu verkossa. Tätä varten salasanat ja käyttäjänimet salataan, joten kukaan (myöskään Dissenter) ei voi lukea niitä.</translation>
 <translation id="5556459405103347317">Lataa uudelleen</translation>
 <translation id="5560088892362098740">Viimeinen voimassaolopäivä</translation>
 <translation id="5565735124758917034">Aktiivinen</translation>
@@ -1070,14 +1070,14 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="560412284261940334">Hallintaa ei tueta</translation>
 <translation id="5605670050355397069">Kierrevihko</translation>
 <translation id="5607240918979444548">Arkkitehti-C</translation>
-<translation id="4067274479097837765">Tämä voi olla vilpillinen tai valesivusto. Brave suosittelee siltä poistumista.</translation>
+<translation id="4067274479097837765">Tämä voi olla vilpillinen tai valesivusto. Dissenter suosittelee siltä poistumista.</translation>
 <translation id="5610142619324316209">Tarkista yhteys.</translation>
 <translation id="5610807607761827392">Voit hallita kortteja ja osoitteita <ph name="BEGIN_LINK"/>Asetuksissa<ph name="END_LINK"/>.</translation>
 <translation id="5612720917913232150"><ph name="URL"/> haluaa käyttää tietokoneesi sijaintia.</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> uudelleenohjasi sinut liian monta kertaa.</translation>
 <translation id="5629630648637658800">Käytännön asetuksien lataaminen epäonnistui</translation>
 <translation id="5631439013527180824">Laitteenhallintatunnus on virheellinen</translation>
-<translation id="2590378115732684772">Datasi salattiin <ph name="BEGIN_LINK"/>Brave-salasanallasi<ph name="END_LINK"/> <ph name="TIME"/>. Aloita synkronointi antamalla salasana.</translation>
+<translation id="2590378115732684772">Datasi salattiin <ph name="BEGIN_LINK"/>Dissenter-salasanallasi<ph name="END_LINK"/> <ph name="TIME"/>. Aloita synkronointi antamalla salasana.</translation>
 <translation id="5633066919399395251">Sivustolle <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> hyökännyt taho voi yrittää asentaa tietokoneellesi vaarallisia ohjelmia, jotka varastavat tai poistavat tietojasi, esimerkiksi kuvia, salasanoja, viestejä tai luottokorttitietoja. <ph name="BEGIN_LEARN_MORE_LINK"/>Lisätietoja<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">Harhaanjohtava sisältö estetty</translation>
 <translation id="5644090287519800334">1. puolen kuvan X vaihto</translation>
@@ -1100,8 +1100,8 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5710435578057952990">Tämän sivuston identiteettiä ei ole vahvistettu.</translation>
 <translation id="5720705177508910913">Nykyinen käyttäjä</translation>
 <translation id="5728056243719941842">C5 (kirjekuori)</translation>
-<translation id="3006790309890592320">Brave suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Tallenna kortti Brave-tilillesi}other{Tallenna kortit Brave-tilillesi}}</translation>
+<translation id="3006790309890592320">Dissenter suosittelee salasanan vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Tallenna kortti Dissenter-tilillesi}other{Tallenna kortit Dissenter-tilillesi}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Käytä tämän kortin kanssa virtuaalinumeroa}other{Valitse kortti}}</translation>
 <translation id="5759751709240058861">käyttää ja liikuttaa kameraasi</translation>
 <translation id="5763042198335101085">Anna voimassa oleva sähköpostiosoite.</translation>
@@ -1115,7 +1115,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="5785756445106461925">Tällä sivulla on kuitenkin muita osia, jotka eivät ole suojattuja. Muut voivat tarkastella näitä osia siirron aikana, ja hyökkääjä voi muuttaa sivun ulkoasua muokkaamalla näitä osia.</translation>
 <translation id="5786044859038896871">Täytetäänkö kortin tiedot?</translation>
 <translation id="5798290721819630480">Hylätäänkö muutokset?</translation>
-<translation id="2828698628112858998">Vaihda kotisivua Braven asetuksissa</translation>
+<translation id="2828698628112858998">Vaihda kotisivua Dissentern asetuksissa</translation>
 <translation id="5803412860119678065">Täytetäänkö kortin <ph name="CARD_DETAIL"/> tiedot?</translation>
 <translation id="5804241973901381774">Käyttöoikeudet</translation>
 <translation id="5804427196348435412">Käytä NFC-laitteita</translation>
@@ -1144,7 +1144,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="59174027418879706">Käytössä</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">Päällä</translation>
-<translation id="2687595201721621314">Tallennetaanko kortti Brave-tilille?</translation>
+<translation id="2687595201721621314">Tallennetaanko kortti Dissenter-tilille?</translation>
 <translation id="5922853866070715753">Lähes valmis</translation>
 <translation id="5932224571077948991">Sivustolla on häiritseviä tai harhaanjohtavia mainoksia</translation>
 <translation id="5946937721014915347">Avataan <ph name="SITE_NAME"/>…</translation>
@@ -1193,10 +1193,10 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6104072995492677441">JIS B6 (128 mm x 182 mm)</translation>
 <translation id="6106989379647458772">Verkkosivu <ph name="PAGE"/> saattaa olla väliaikaisesti poissa käytöstä tai se on siirretty pysyvästi uuteen osoitteeseen.</translation>
 <translation id="6107012941649240045">Myönnetty kohteelle</translation>
-<translation id="8233947174119245051">Brave-tililläsi voi olla muita selaushistoriatietoja osoitteessa <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
+<translation id="8233947174119245051">Dissenter-tililläsi voi olla muita selaushistoriatietoja osoitteessa <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/>.</translation>
 <translation id="6116338172782435947">nähdä leikepöydälle kopioidun tekstin ja kuvat</translation>
 <translation id="6120179357481664955">Muistatko UPI-tunnuksesi?</translation>
-<translation id="5972135347314259717">Brave Enterprise Connectors</translation>
+<translation id="5972135347314259717">Dissenter Enterprise Connectors</translation>
 <translation id="6146055958333702838">Tarkista kaikki kaapelit ja käynnistä uudelleen reitittimet, modeemit ja muut
     käytössä olevat verkkolaitteet.</translation>
 <translation id="614940544461990577">Kokeile seuraavia toimenpiteitä:</translation>
@@ -1208,11 +1208,11 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6180316780098470077">Uudelleenyritysten aikaväli</translation>
 <translation id="6196640612572343990">Estä kolmannen osapuolen evästeet</translation>
 <translation id="6203231073485539293">Tarkista internetyhteytesi</translation>
-<translation id="8385639954311581596">Poistetaanko osoite Braveista?</translation>
+<translation id="8385639954311581596">Poistetaanko osoite Dissenterista?</translation>
 <translation id="622039917539443112">Pystytaite</translation>
-<translation id="6221345481584921695">Brave-selaussuoja havaitsi sivustossa <ph name="SITE"/> äskettäin <ph name="BEGIN_LINK"/>haittaohjelmia<ph name="END_LINK"/>. Tavallisesti turvalliset sivustot voivat joskus saada haittaohjelmatartunnan. Haitallinen sisältö on peräisin tunnetusta haittaohjelmien jakelusivustosta nimeltä <ph name="SUBRESOURCE_HOST"/>.</translation>
+<translation id="6221345481584921695">Dissenter-selaussuoja havaitsi sivustossa <ph name="SITE"/> äskettäin <ph name="BEGIN_LINK"/>haittaohjelmia<ph name="END_LINK"/>. Tavallisesti turvalliset sivustot voivat joskus saada haittaohjelmatartunnan. Haitallinen sisältö on peräisin tunnetusta haittaohjelmien jakelusivustosta nimeltä <ph name="SUBRESOURCE_HOST"/>.</translation>
 <translation id="6234122620015464377">Leikkaa jokaisen dokumentin jälkeen</translation>
-<translation id="4765229189146046954">Brave Pay ‑logo</translation>
+<translation id="4765229189146046954">Dissenter Pay ‑logo</translation>
 <translation id="6241121617266208201">Piilota ehdotukset</translation>
 <translation id="624499991300733384">Tulosteiden koontipalvelu</translation>
 <translation id="6254436959401408446">Muisti ei riitä sivun avaamiseen</translation>
@@ -1222,10 +1222,10 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6264485186158353794">Takaisin suojaukseen</translation>
 <translation id="6265794661083428563">Kopioi käytännön <ph name="POLICY_NAME"/> arvo</translation>
 <translation id="6266934640124581640">Vaaleanturkoosi</translation>
-<translation id="9136010393039243713">Brave-päivitys</translation>
+<translation id="9136010393039243713">Dissenter-päivitys</translation>
 <translation id="6276112860590028508">Lukulistasi sivuja tulee näkyviin tänne.</translation>
-<translation id="7954557091400543500">Jos haluat maksaa nopeammin ensi kerralla, tallenna kortti ja laskutusosoite Brave-tilillesi.</translation>
-<translation id="293801390522973485">Brave <ph name="BEGIN_EMPHASIS"/>ei tallenna<ph name="END_EMPHASIS"/> näitä tietoja:
+<translation id="7954557091400543500">Jos haluat maksaa nopeammin ensi kerralla, tallenna kortti ja laskutusosoite Dissenter-tilillesi.</translation>
+<translation id="293801390522973485">Dissenter <ph name="BEGIN_EMPHASIS"/>ei tallenna<ph name="END_EMPHASIS"/> näitä tietoja:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>Selaushistoriasi
           <ph name="LIST_ITEM"/>Evästeet ja sivustodata
@@ -1235,7 +1235,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6282194474023008486">Postinumero</translation>
 <translation id="6290238015253830360">Suositellut artikkelit näkyvät tässä.</translation>
 <translation id="6293309776179964942">JIS B5 (182 mm x 257 mm)</translation>
-<translation id="5880900081429361525">Braven Brave Assistant suljetaan</translation>
+<translation id="5880900081429361525">Dissentern Dissenter Assistant suljetaan</translation>
 <translation id="6305205051461490394">Sivustoon <ph name="URL"/> ei saada yhteyttä.</translation>
 <translation id="6312113039770857350">Verkkosivu ei ole saatavilla</translation>
 <translation id="6321917430147971392">Tarkista DNS-asetukset</translation>
@@ -1260,7 +1260,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6401136357288658127">Tämä käytäntö on vanhentunut. Käytä <ph name="NEW_POLICY"/> ‑käytäntöä sen sijaan.</translation>
 <translation id="6404511346730675251">Muokkaa kirjanmerkkiä</translation>
 <translation id="6406765186087300643">C0 (kirjekuori)</translation>
-<translation id="9018981925326888629">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="9018981925326888629">Lisäsit juuri salasanasi harhaanjohtavalle sivustolle. Dissenter suosittelee salasanan vaihtamista välittömästi.</translation>
 <translation id="6410264514553301377">Anna kortin <ph name="CREDIT_CARD"/> vanhentumispäivä ja CVC</translation>
 <translation id="6423385022588644828">Vahvista kortit jatkossa nopeammin Touch ID:llä</translation>
 <translation id="6425092077175753609">Material</translation>
@@ -1280,7 +1280,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6476284679642588870">Ylläpidä maksutapoja</translation>
 <translation id="6489534406876378309">Aloita kaatumistietojen lähettäminen</translation>
 <translation id="6499038740797743453">Vaihdetaanko salasana?</translation>
-<translation id="3960299545138990065">Käynnistä Brave uudelleen.</translation>
+<translation id="3960299545138990065">Käynnistä Dissenter uudelleen.</translation>
 <translation id="6517596291481585650">Varoitus: tätä käytäntöä ei yhdistetty käytännössä kuvatulla tavalla luettelona, sillä se ei ole luettelo.</translation>
 <translation id="6518133107902771759">Vahvista</translation>
 <translation id="6521745193039995384">Ei aktiivinen</translation>
@@ -1310,14 +1310,14 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6631202559048444592">Käytännölle on useita lähteitä, mutta arvot ovat samat.</translation>
 <translation id="663260587451432563">JIS B4 (257 mm x 364 mm)</translation>
 <translation id="6643016212128521049">Tyhjennä</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Ei mitään}=1{1 sivustolta (sinua ei kirjata ulos Brave-tililtäsi)}other{# sivustolta (sinua ei kirjata ulos Brave-tililtäsi)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Ei mitään}=1{1 sivustolta (sinua ei kirjata ulos Dissenter-tililtäsi)}other{# sivustolta (sinua ei kirjata ulos Dissenter-tililtäsi)}}</translation>
 <translation id="6652101503459149953">Käytä Windows Hellota</translation>
 <translation id="6657585470893396449">Salasana</translation>
 <translation id="6665553082534466207">Kolme reikää oikealla</translation>
 <translation id="6685834062052613830">Kirjaudu ulos ja suorita määritys loppuun.</translation>
 <translation id="6687335167692595844">Fonttikokoa pyydetty</translation>
 <translation id="6689249931105087298">Suhteellinen mustan pisteen pakkauksella</translation>
-<translation id="5406652219015697259">Brave tarjoaa korttien tallentamista Brave-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista. Kortinhaltijan nimi on peräisin tililtäsi.</translation>
+<translation id="5406652219015697259">Dissenter tarjoaa korttien tallentamista Dissenter-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista. Kortinhaltijan nimi on peräisin tililtäsi.</translation>
 <translation id="6704582573942289642">Onko tämä oikea sivusto?</translation>
 <translation id="6710213216561001401">Edellinen</translation>
 <translation id="6710594484020273272">&lt;Anna hakukysely&gt;</translation>
@@ -1350,14 +1350,14 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6874604403660855544">&amp;Toista lisäys</translation>
 <translation id="6884662655240309489">Koko 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave teki sivusta yksinkertaisemman, jotta sen lukeminen olisi helpompaa. Brave nouti alkuperäisen sivun suojaamattoman yhteyden kautta.</translation>
+<translation id="7265969755975834932">Dissenter teki sivusta yksinkertaisemman, jotta sen lukeminen olisi helpompaa. Dissenter nouti alkuperäisen sivun suojaamattoman yhteyden kautta.</translation>
 <translation id="6891596781022320156">Käytännön tasoa ei tueta.</translation>
 <translation id="6895330447102777224">Korttisi vahvistettiin.</translation>
 <translation id="6897140037006041989">User agent</translation>
 <translation id="6898699227549475383">Organisaatio (O)</translation>
 <translation id="6910240653697687763"><ph name="URL"/> haluaa MIDI-laitteidesi täyden hallintaoikeuden.</translation>
 <translation id="6915804003454593391">Käyttäjä:</translation>
-<translation id="6722453239914327220">Tämä nimi on peräisin Brave-tililtäsi</translation>
+<translation id="6722453239914327220">Tämä nimi on peräisin Dissenter-tililtäsi</translation>
 <translation id="6944692733090228304">Kirjoitit salasanan sivustolle, jota <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> ei ylläpidä. Älä käytä samaa salasanaa muissa sovelluksissa tai muilla sivustoilla tilisi turvallisuuden vuoksi.</translation>
 <translation id="6945221475159498467">Valitse</translation>
 <translation id="6948701128805548767">Valitse osoite, niin näet noutotavat ja vaatimukset.</translation>
@@ -1373,10 +1373,10 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="6972629891077993081">HID-laitteet</translation>
 <translation id="6973656660372572881">Sekä kiinteät välityspalvelimet että .pac-URL-osoite on määritetty.</translation>
 <translation id="6973932557599545801">En valitettavasti voi auttaa. Voit jatkaa omatoimisesti.</translation>
-<translation id="846000886289004690">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/> ja <ph name="WEBSITE_2"/>).</translation>
+<translation id="846000886289004690">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/> ja <ph name="WEBSITE_2"/>).</translation>
 <translation id="6979158407327259162">Google Drive</translation>
 <translation id="6979440798594660689">Mykistä (oletus)</translation>
-<translation id="1714833602699685456">Lataamasi tiedostot lähetetään Brave Cloudiin tai kolmansille osapuolille analysoitaviksi. Ne voidaan esimerkiksi skannata arkaluontoisten tietojen tai haittaohjelmien varalta.</translation>
+<translation id="1714833602699685456">Lataamasi tiedostot lähetetään Dissenter Cloudiin tai kolmansille osapuolille analysoitaviksi. Ne voidaan esimerkiksi skannata arkaluontoisten tietojen tai haittaohjelmien varalta.</translation>
 <translation id="6989763994942163495">Näytä lisäasetukset...</translation>
 <translation id="6993898126790112050">6x9 (kirjekuori)</translation>
 <translation id="6996312675313362352">Käännä aina <ph name="ORIGINAL_LANGUAGE"/></translation>
@@ -1399,7 +1399,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="7083258188081898530">Lokero 9</translation>
 <translation id="7086090958708083563">Käyttäjä pyysi lataamista</translation>
 <translation id="7087282848513945231">Piirikunta</translation>
-<translation id="5711818857380891233">Tee Brave-haku: <ph name="LINK"/></translation>
+<translation id="5711818857380891233">Tee Dissenter-haku: <ph name="LINK"/></translation>
 <translation id="7108338896283013870">Piilota</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> haluaa käyttää kameraasi.</translation>
 <translation id="7108819624672055576">Laajennuksen sallima</translation>
@@ -1433,7 +1433,7 @@ Muussa tapauksessa tämä estetään tietosuoja-asetuksilla. Jos sallit tämän,
 <translation id="7219179957768738017">Yhteys käyttää protokollaa <ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">Käsitellään.</translation>
 <translation id="7221855153210829124">Näytä ilmoitukset</translation>
-<translation id="3619365259205518877">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
+<translation id="3619365259205518877">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
 <translation id="7233592378249864828">Tulosta vahvistussivu</translation>
 <translation id="7238585580608191973">SHA-256-tunnistetiedosto</translation>
 <translation id="7240120331469437312">Varmenteen kohteen vaihtoehtoinen nimi</translation>
@@ -1456,7 +1456,7 @@ Lisätietoja:
 <translation id="7320336641823683070">Yhteysohjeet</translation>
 <translation id="7323804146520582233">Piilota osio <ph name="SECTION"/></translation>
 <translation id="733354035281974745">Laitteen paikallisen tilin ohitus</translation>
-<translation id="8539546768943490744">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ja <ph name="WEBSITE_3"/>).</translation>
+<translation id="8539546768943490744">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ja <ph name="WEBSITE_3"/>).</translation>
 <translation id="7334320624316649418">&amp;Toista uudelleenjärjestely</translation>
 <translation id="7337706099755338005">Ei saatavilla käyttöympäristössäsi</translation>
 <translation id="733923710415886693">Palvelimen varmenteesta ei ole saatu Certificate Transparencyn vaatimia tietoja.</translation>
@@ -1465,7 +1465,7 @@ Lisätietoja:
 <translation id="7349430561505560861">A4-ekstra</translation>
 <translation id="7353601530677266744">Komentorivi</translation>
 <translation id="7372973238305370288">hakutulos</translation>
-<translation id="3898257577441589237">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Brave luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Brave haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
+<translation id="3898257577441589237">Tämän virheen syynä on varmenne, jonka sinä tai joku muu asensi laitteellesi. Varmennetta on aiemmin käytetty verkkojen valvontaan ja kaappaamiseen, eikä Dissenter luota siihen. Valvomiselle voi olla oikea syy esimerkiksi oppilaitoksen tai yrityksen verkossa, mutta Dissenter haluaa sinun tietävän valvonnasta, vaikket voi lopettaa sitä. Valvonta voi tapahtua missä tahansa selaimessa tai sovelluksessa, jolla on pääsy verkkoon.</translation>
 <translation id="7375818412732305729">Tiedosto on liitetty</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Mediaohjaimet</translation>
@@ -1483,7 +1483,7 @@ Lisätietoja:
       &lt;li&gt;Valitse &lt;strong&gt;Käynnistystapa&lt;/strong&gt;-kohdasta &lt;strong&gt;Ei käytössä&lt;/strong&gt;.
       &lt;li&gt;Siirry &lt;strong&gt;Palvelun tila&lt;/strong&gt; ‑kohtaan ja valitse &lt;strong&gt;Pysäytä&lt;/strong&gt;.
       &lt;li&gt;Valitse &lt;strong&gt;Käytä&lt;/strong&gt; ja sen jälkeen &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Saat ohjeita ohjelmiston pysyvään poistamiseen tietokoneelta &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Brave-ohjekeskuksesta&lt;/a&gt;.
+      &lt;li&gt;Saat ohjeita ohjelmiston pysyvään poistamiseen tietokoneelta &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;Dissenter-ohjekeskuksesta&lt;/a&gt;.
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">suorittaa Flashin</translation>
 <translation id="741007362987735528">Leveä</translation>
@@ -1503,7 +1503,7 @@ Lisätietoja:
 <translation id="7481312909269577407">Seuraava</translation>
 <translation id="7485870689360869515">Tietoja ei löydy.</translation>
 <translation id="7488762544858401571">Muokattu</translation>
-<translation id="3692186536781145635">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Brave suosittelee, että tarkistat tallennetut salasanasi ja vaihdat salasanan heti (<ph name="ORIGIN"/>).</translation>
+<translation id="3692186536781145635">Jonkin sivuston tai sovelluksen tietosuojaloukkaus paljasti salasanasi. Dissenter suosittelee, että tarkistat tallennetut salasanasi ja vaihdat salasanan heti (<ph name="ORIGIN"/>).</translation>
 <translation id="7495528107193238112">Tämä sisältö on estetty. Pyydä sivuston omistajalta apua ongelman korjaamiseen.</translation>
 <translation id="7498234416455752244">Jatka muokkausta</translation>
 <translation id="7508255263130623398">Palautettu käytännön laitetunnus on tyhjä tai ei vastaa nykyistä laitetunnusta.</translation>
@@ -1521,13 +1521,13 @@ Lisätietoja:
 <translation id="7542995811387359312">Automaattinen luottokortin tietojen täyttäminen on poistettu käytöstä, koska tämä lomake ei käytä suojattua yhteyttä.</translation>
 <translation id="7548892272833184391">Yhteysvirheiden korjaaminen</translation>
 <translation id="7549584377607005141">Tämän sivun näyttäminen oikein edellyttää aiemmin lähetettyjä tietoja. Voit lähettää tiedot uudelleen, mutta tällöin sivulla mahdollisesti suoritettu toiminto toistetaan.</translation>
-<translation id="5474381306981932386">Käyttäjänimi laitteella ja käyttäjänimi Bravessa</translation>
+<translation id="5474381306981932386">Käyttäjänimi laitteella ja käyttäjänimi Dissenterssa</translation>
 <translation id="7552846755917812628">Kokeile seuraavia keinoja:</translation>
 <translation id="7554791636758816595">Uusi välilehti</translation>
 <translation id="7567204685887185387">Palvelin ei voinut todistaa olevansa <ph name="DOMAIN"/>; sen suojausvarmenne on ehkä luotu vilpillisesti. Tämä voi johtua määritysvirheestä tai verkkoyhteytesi siepanneesta hyökkääjästä.</translation>
 <translation id="7569983096843329377">Musta</translation>
 <translation id="7575207903026901870">Ehdotuksen poistopainike, poista ehdotus painamalla Enter</translation>
-<translation id="405970181812690156">Voit maksaa sivustoilla ja sovelluksissa nopeasti eri laitteillasi käyttämällä Braveen tallennettuja kortteja.</translation>
+<translation id="405970181812690156">Voit maksaa sivustoilla ja sovelluksissa nopeasti eri laitteillasi käyttämällä Dissenteren tallennettuja kortteja.</translation>
 <translation id="7581199239021537589">2. puolen kuvan Y vaihto</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> haluaa käyttää evästeitä ja sivustodataa täällä: <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">Palvelimen varmenne rikkoo nimirajoituksia.</translation>
@@ -1536,12 +1536,12 @@ Lisätietoja:
 <translation id="7600965453749440009">Älä koskaan käännä kieltä <ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">Arvo on alueen ulkopuolella (<ph name="VALUE"/>).</translation>
 <translation id="7613889955535752492">Vanhenee: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">Tietojasi on jo salattu Brave-tilisi salasanan muulla versiolla. Syötä salasana alla.</translation>
-<translation id="8565825862287624454">Järjestelmänvalvoja on ottanut Brave Enterprise Connectorsin käyttöön selaimellesi. Nämä liittimet pääsevät osaan datastasi.</translation>
+<translation id="6994126885316933886">Tietojasi on jo salattu Dissenter-tilisi salasanan muulla versiolla. Syötä salasana alla.</translation>
+<translation id="8565825862287624454">Järjestelmänvalvoja on ottanut Dissenter Enterprise Connectorsin käyttöön selaimellesi. Nämä liittimet pääsevät osaan datastasi.</translation>
 <translation id="7619838219691048931">Viimeinen sivu</translation>
 <translation id="762844065391966283">Yksi kerrallaan</translation>
 <translation id="7633909222644580952">Tehokkuusdata ja virheraportit</translation>
-<translation id="6386821459680628976">Poistetaanko luottokortti Braveista?</translation>
+<translation id="6386821459680628976">Poistetaanko luottokortti Dissenterista?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Ei mitään}=1{1 salasana tililläsi (<ph name="DOMAIN_LIST"/>)}other{# salasanaa tililläsi (<ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Sarjaportit</translation>
 <translation id="7639968568612851608">Tummanharmaa</translation>
@@ -1594,9 +1594,9 @@ Lisätietoja:
 <translation id="7802523362929240268">Sivusto on luotettava</translation>
 <translation id="780301667611848630">Ei kiitos</translation>
 <translation id="7805768142964895445">Tila</translation>
-<translation id="3350174497208615172">Muuta hakukoneasetuksia Bravessa</translation>
+<translation id="3350174497208615172">Muuta hakukoneasetuksia Dissenterssa</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">Poistetaanko lomake-ehdotus Braven tiedoista?</translation>
+<translation id="4670564340385807132">Poistetaanko lomake-ehdotus Dissentern tiedoista?</translation>
 <translation id="781440967107097262">Jaetaanko leikepöytä?</translation>
 <translation id="7815407501681723534">Haku <ph name="SEARCH_STRING"/> tuotti <ph name="NUMBER_OF_RESULTS"/> <ph name="SEARCH_RESULTS"/>.</translation>
 <translation id="782886543891417279">Käyttämäsi Wi-Fi (<ph name="WIFI_NAME"/>) saattaa edellyttää kirjautumista.</translation>
@@ -1605,7 +1605,7 @@ Lisätietoja:
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
 <translation id="7862185352068345852">Poistutaanko sivustolta?</translation>
 <translation id="7865448901209910068">Paras nopeus</translation>
-<translation id="1012292338579042608">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
+<translation id="1012292338579042608">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
 <translation id="7878562273885520351">Salasanasi on saattanut vaarantua.</translation>
 <translation id="7882421473871500483">Ruskea</translation>
 <translation id="7887683347370398519">Tarkista CVC ja yritä uudelleen.</translation>
@@ -1615,7 +1615,7 @@ Lisätietoja:
 <translation id="7932579305932748336">Päällystys</translation>
 <translation id="79338296614623784">Anna kelvollinen puhelinnumero.</translation>
 <translation id="7934052535022478634">Maksu valmis</translation>
-<translation id="8329449853370113380"><ph name="URL"/> yrittää toistaa suojattua sisältöä. Brave vahvistaa laitteesi tunnistetiedot.</translation>
+<translation id="8329449853370113380"><ph name="URL"/> yrittää toistaa suojattua sisältöä. Dissenter vahvistaa laitteesi tunnistetiedot.</translation>
 <translation id="7935031712718413217">Mahdollinen väärennetty URL-osoite</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Vanhenee <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1647,11 +1647,11 @@ Lisätietoja:
 <translation id="8042918947222776840">Valitse noutotapa</translation>
 <translation id="8057711352706143257"><ph name="SOFTWARE_NAME"/> on määritetty virheellisesti. Ongelma korjaantuu yleensä, jos <ph name="SOFTWARE_NAME"/> poistetaan. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">Jotain meni pieleen.</translation>
-<translation id="5442778523450464826">Lisäsit juuri salasanasi petolliselle sivustolle. Brave voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Bravelle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
+<translation id="5442778523450464826">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter voi auttaa. Valitse Suojaa tili, niin voit vaihtaa salasanasi ja Dissenterlle ilmoitetaan tilin mahdollisesta vaarantumisesta.</translation>
 <translation id="8074253406171541171">10x13 (kirjekuori)</translation>
 <translation id="8078141288243656252">Kierrettyyn asiakirjaan ei voi tehdä merkintöjä</translation>
 <translation id="8079031581361219619">Ladataanko sivusto uudelleen?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">Luonnos</translation>
 <translation id="8088680233425245692">Artikkelin näyttäminen epäonnistui.</translation>
 <translation id="808894953321890993">Vaihda salasana</translation>
@@ -1670,7 +1670,7 @@ Lisätietoja:
 <translation id="8150722005171944719">Tiedosto osoitteessa <ph name="URL"/> ei ole luettavissa. Se on voitu poistaa tai siirtää, tai tiedoston käyttöluvat voivat estää sen käytön.</translation>
 <translation id="8157295877370077682">Poistu sivustolta</translation>
 <translation id="8163866351304776260">Neljä reikää vasemmalla</translation>
-<translation id="4351627595884993315">Brave tarjoaa korttien tallentamista Brave-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista.</translation>
+<translation id="4351627595884993315">Dissenter tarjoaa korttien tallentamista Dissenter-tilillesi, koska olet kirjautuneena sisään. Voit muuttaa tätä koska tahansa asetuksista.</translation>
 <translation id="8184538546369750125">Käytä yleistä oletusasetusta (salli)</translation>
 <translation id="8194797478851900357">K&amp;umoa siirto</translation>
 <translation id="8197543752516192074">Käännä sivu</translation>
@@ -1681,7 +1681,7 @@ Lisätietoja:
 <translation id="8211406090763984747">Yhteys on turvallinen</translation>
 <translation id="8218327578424803826">Määrätty sijainti:</translation>
 <translation id="8220146938470311105">C7/C6 (kirjekuori)</translation>
-<translation id="3272614036080146686">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/>).</translation>
+<translation id="3272614036080146686">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee vaihtamaan salasanan heti kaikilla sivustoilla, joilla käytät sitä (esim. <ph name="WEBSITE_1"/>).</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">Alustan lämpötila</translation>
 <translation id="8241707690549784388">Etsimäsi sivu käytti antamiasi tietoja. Sivulle palaaminen voi johtaa jokaisen tekemäsi toiminnon toistamiseen. Haluatko jatkaa?</translation>
@@ -1708,7 +1708,7 @@ Lisätietoja:
 <translation id="830498451218851433">Keskitaite</translation>
 <translation id="8307358339886459768">Pieni kuva</translation>
 <translation id="8307888238279532626">Asennetut sovellukset ja se, miten usein niitä käytetään</translation>
-<translation id="8390490312179389407">Tämä sivu on epäilyttävä (Braven merkitsemä).</translation>
+<translation id="8390490312179389407">Tämä sivu on epäilyttävä (Dissentern merkitsemä).</translation>
 <translation id="831997045666694187">Ilta</translation>
 <translation id="8332188693563227489">Sivuston <ph name="HOST_NAME"/> käyttöoikeus evättiin</translation>
 <translation id="833262891116910667">Korosta</translation>
@@ -1739,14 +1739,14 @@ Lisätietoja:
 <translation id="8473863474539038330">Osoitteet ja muita tietoja</translation>
 <translation id="8474910779563686872">Näytä kehittäjätiedot</translation>
 <translation id="8479754468255770962">Niitti vasemmassa alakulmassa</translation>
-<translation id="5142582872611298328">Jos haluat käyttää Brave-tilillesi tallennettuja kortteja, kirjaudu Braveen</translation>
+<translation id="5142582872611298328">Jos haluat käyttää Dissenter-tilillesi tallennettuja kortteja, kirjaudu Dissenteren</translation>
 <translation id="8488350697529856933">Käyttöalue</translation>
 <translation id="8490137692873530638">Pinoaja 10</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> ei vastannut riittävän nopeasti.</translation>
-<translation id="230699814587342492">Brave-salasanat</translation>
+<translation id="230699814587342492">Dissenter-salasanat</translation>
 <translation id="8503813439785031346">Käyttäjätunnus</translation>
 <translation id="8508648098325802031">Hakukuvake</translation>
-<translation id="1426902392270366682">Brave voi auttaa suojaamaan Brave-tiliäsi ja vaihtamaan salasanasi.</translation>
+<translation id="1426902392270366682">Dissenter voi auttaa suojaamaan Dissenter-tiliäsi ja vaihtamaan salasanasi.</translation>
 <translation id="8541158209346794904">Bluetooth-laite</translation>
 <translation id="8542014550340843547">Kolme niittiä alareunassa</translation>
 <translation id="8543181531796978784">Voit <ph name="BEGIN_ERROR_LINK"/>ilmoittaa löytyneestä ongelmasta<ph name="END_ERROR_LINK"/> tai <ph name="BEGIN_LINK"/>siirtyä mahdollisesti haitalliselle sivustolle<ph name="END_LINK"/>, jos ymmärrät tietoturvariskit.</translation>
@@ -1780,19 +1780,19 @@ Lisätietoja:
 <translation id="8719528812645237045">Useita reikiä yläreunassa</translation>
 <translation id="8725066075913043281">Yritä uudelleen</translation>
 <translation id="8730621377337864115">Valmis</translation>
-<translation id="6326805297893828864">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä ajanjaksoina. Brave ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
+<translation id="6326805297893828864">Kellosi täytyy asettaa oikeaan aikaan, jotta salattu yhteys voidaan muodostaa. Tämä johtuu siitä, että verkkosivustojen tunnistamisessa käytettävät varmenteet ovat voimassa vain tiettyinä ajanjaksoina. Dissenter ei voi vahvistaa varmenteita, koska laitteesi kello on väärässä ajassa.</translation>
 <translation id="8740359287975076522">Sivuston <ph name="HOST_NAME"/> &lt;abbr id="dnsDefinition"&gt;DNS-osoitetta&lt;/abbr&gt; ei löydy. Ongelmaa diagnosoidaan.</translation>
 <translation id="874918643257405732">Aseta tämä välilehti kirjanmerkiksi</translation>
 <translation id="8751426954251315517">Yritä seuraavalla kerralla uudelleen</translation>
 <translation id="8759274551635299824">Tämä kortti on vanhentunut.</translation>
 <translation id="87601671197631245">Tämä sivusto käyttää vanhentunutta tietoturvamääritystä, joka voi paljastaa tietosi (esim. salasanat, viestit tai credit-kortit), kun ne lähetetään sivustolle.</translation>
-<translation id="8761567432415473239">Brave-selaussuoja <ph name="BEGIN_LINK"/>löysi hiljattain haitallisia ohjelmia<ph name="END_LINK"/> sivustolta <ph name="SITE"/>.</translation>
+<translation id="8761567432415473239">Dissenter-selaussuoja <ph name="BEGIN_LINK"/>löysi hiljattain haitallisia ohjelmia<ph name="END_LINK"/> sivustolta <ph name="SITE"/>.</translation>
 <translation id="8763927697961133303">USB-laite</translation>
-<translation id="565908431635579039">Lisäsit juuri salasanasi petolliselle sivustolle. Brave suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
+<translation id="565908431635579039">Lisäsit juuri salasanasi petolliselle sivustolle. Dissenter suosittelee tarkistamaan näihin tallentamasi salasanat: <ph name="WEBSITE_1"/> ja muut sivustot, joilla salasana on käytössä tällä hetkellä.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Toista poisto</translation>
-<translation id="5304100303568917877">Saatat menettää <ph name="ORG_NAME"/>-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Brave suosittelee salasanan vaihtamista välittömästi.</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> on laittanut Brave Enterprise Connectorsin päälle selaimessasi. Nämä liittimet pääsevät osaan datastasi.</translation>
+<translation id="5304100303568917877">Saatat menettää <ph name="ORG_NAME"/>-tilisi käyttöoikeuden tai joutua identiteettivarkauden uhriksi. Dissenter suosittelee salasanan vaihtamista välittömästi.</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> on laittanut Dissenter Enterprise Connectorsin päälle selaimessasi. Nämä liittimet pääsevät osaan datastasi.</translation>
 <translation id="8800988563907321413">Nearby-ehdotuksesi näkyvät tässä.</translation>
 <translation id="8805819170075074995">Luettelokohde <ph name="LANGUAGE_ID"/>: Kohde on ohitettu, koska se sisältyy myös SpellcheckLanguage-käytäntöön.</translation>
 <translation id="8807160976559152894">Leikkaa jokaisen sivun jälkeen</translation>
@@ -1800,8 +1800,8 @@ Lisätietoja:
 <translation id="883848425547221593">Muut kirjanmerkit</translation>
 <translation id="884264119367021077">Toimitusosoite</translation>
 <translation id="884923133447025588">Kumoamisjärjestelmää ei löytynyt.</translation>
-<translation id="7487066225574140895">Braven kanssa jakaminen</translation>
-<translation id="4764754838347156633">Brave suosittelee organisaation <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
+<translation id="7487066225574140895">Dissentern kanssa jakaminen</translation>
+<translation id="4764754838347156633">Dissenter suosittelee organisaation <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> salasanasi vaihtamista, jos olet käyttänyt sitä myös muilla sivustoilla.</translation>
 <translation id="8866481888320382733">Virhe jäsennettäessä käytännön asetuksia</translation>
 <translation id="8866928039507595380">Taite</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1813,23 +1813,23 @@ Lisätietoja:
 <translation id="8903921497873541725">Lähennä</translation>
 <translation id="890485472659500557">Insinööri-C</translation>
 <translation id="890493561996401738">Ehdotuksen poistopainike, poista painamalla Enter, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Brave-tilisi avulla</translation>
+<translation id="2684652081942622950">Dissenter-tilisi avulla</translation>
 <translation id="8918231688545606538">Tämä sivu on epäilyttävä</translation>
 <translation id="892588693504540538">Reikä oikeassa yläkulmassa</translation>
-<translation id="7757992844965332255">Haluatko tallentaa tämän kortin Brave-tilillesi?</translation>
+<translation id="7757992844965332255">Haluatko tallentaa tämän kortin Dissenter-tilillesi?</translation>
 <translation id="8932102934695377596">Kellosi jätättää</translation>
 <translation id="893332455753468063">Lisää nimi</translation>
 <translation id="8943282376843390568">Lime</translation>
 <translation id="8957210676456822347">Captive portal -valtuutus</translation>
-<translation id="109444839364056698">Kun Brave Enterprise Connectors merkitsee tietoturvatapahtuman, tapahtumasta lähetetään olennaisia tietoja järjestelmänvalvojallesi. Tiedot voivat olla Bravessa avaamiesi sivujen URL-osoitteita, tiedostonimiä tai sisällönkuvaustietoja ja käyttäjänimi, jolla kirjaudut sisään laitteellesi ja Braveen.</translation>
+<translation id="109444839364056698">Kun Dissenter Enterprise Connectors merkitsee tietoturvatapahtuman, tapahtumasta lähetetään olennaisia tietoja järjestelmänvalvojallesi. Tiedot voivat olla Dissenterssa avaamiesi sivujen URL-osoitteita, tiedostonimiä tai sisällönkuvaustietoja ja käyttäjänimi, jolla kirjaudut sisään laitteellesi ja Dissenteren.</translation>
 <translation id="8962950042226115166">Epäilyttävä sivusto</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>Ehdotuksia:<ph name="MARKUP_2"/>Varmista tiedonsiirtoyhteyden saatavuus.<ph name="MARKUP_3"/>Lataa verkkosivu uudelleen.<ph name="MARKUP_4"/>Tarkista syöttämäsi osoite.<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">Tallenna kortti</translation>
 <translation id="8971063699422889582">Palvelimen varmenne on vanhentunut.</translation>
 <translation id="8975012916872825179">Sisältää puhelinnumerot, sähköpostiosoitteet ja toimitusosoitteet</translation>
 <translation id="8975263830901772334">Tulostamiesi tiedostojen nimet</translation>
-<translation id="8978053250194585037">Braven selaussuoja havaitsi äskettäin <ph name="BEGIN_LINK"/>tietojenkalasteluyrityksen<ph name="END_LINK"/> sivustolla <ph name="SITE"/>. Tietojenkalastelusivustot yrittävät huijata käyttäjiä tekeytymällä toisiksi sivustoiksi.</translation>
-<translation id="5889706513445719653">Maksutavat ja osoitteet Brave Paysta</translation>
+<translation id="8978053250194585037">Dissentern selaussuoja havaitsi äskettäin <ph name="BEGIN_LINK"/>tietojenkalasteluyrityksen<ph name="END_LINK"/> sivustolla <ph name="SITE"/>. Tietojenkalastelusivustot yrittävät huijata käyttäjiä tekeytymällä toisiksi sivustoiksi.</translation>
+<translation id="5889706513445719653">Maksutavat ja osoitteet Dissenter Paysta</translation>
 <translation id="8987927404178983737">Kuukausi</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">Sivusto sisältää haitallisia ohjelmia</translation>
@@ -1858,10 +1858,10 @@ Lisätietoja:
 <translation id="9089260154716455634">Ei-aktiivisen ajan käytäntö:</translation>
 <translation id="9095388113577226029">Lisää kieliä…</translation>
 <translation id="9101630580131696064">Lokero 1</translation>
-<translation id="6373940988468425649"><ph name="SITE"/> suojaa tietosi normaalisti salauksen avulla. Kun Brave yritti tällä kertaa yhdistää sivustoon <ph name="SITE"/>, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE"/>, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Brave katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
+<translation id="6373940988468425649"><ph name="SITE"/> suojaa tietosi normaalisti salauksen avulla. Kun Dissenter yritti tällä kertaa yhdistää sivustoon <ph name="SITE"/>, sivusto palautti epätavalliset ja virheelliset kirjautumistiedot. Hyökkääjä saattaa yrittää esiintyä sivustona <ph name="SITE"/>, tai Wi-Fi-kirjautumisruutu on keskeyttänyt yhteyden. Tietosi ovat edelleen turvassa, sillä Dissenter katkaisi yhteyden, ennen kuin mitään tietoja vaihdettiin.</translation>
 <translation id="9106062320799175032">Lisää laskutusosoite</translation>
 <translation id="9114524666733003316">Vahvistetaan korttia…</translation>
-<translation id="3582535072753734287">Yritys tai muu organisaatio ei ylläpidä selainta. Laitteen toimintaa saatetaan ylläpitää Braven ulkopuolelta. <ph name="BEGIN_LINK"/>Lue lisää<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Yritys tai muu organisaatio ei ylläpidä selainta. Laitteen toimintaa saatetaan ylläpitää Dissentern ulkopuolelta. <ph name="BEGIN_LINK"/>Lue lisää<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">Lähetetty</translation>
 <translation id="9128870381267983090">Yhdistä verkkoon</translation>
 <translation id="9137013805542155359">Näytä alkuperäinen</translation>
@@ -1869,7 +1869,7 @@ Lisätietoja:
 <translation id="9148088599418889305">Valitse toimitustapa</translation>
 <translation id="9148507642005240123">K&amp;umoa muokkaus</translation>
 <translation id="9150045010208374699">Käyttää kameraa</translation>
-<translation id="5874192512642998555">Järjestelmänvalvoja voi muuttaa selaimen määrityksiä etäyhteydellä. Toimintaa tällä laitteella saatetaan ylläpitää myös Braven ulkopuolelta. <ph name="BEGIN_LINK"/>Lue lisää<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Järjestelmänvalvoja voi muuttaa selaimen määrityksiä etäyhteydellä. Toimintaa tällä laitteella saatetaan ylläpitää myös Dissentern ulkopuolelta. <ph name="BEGIN_LINK"/>Lue lisää<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Päivitetty</translation>
 <translation id="9157595877708044936">Valmistellaan...</translation>
 <translation id="9158625974267017556">C6 (kirjekuori)</translation>
@@ -1885,12 +1885,12 @@ Lisätietoja:
 <translation id="9191834167571392248">Reikä vasemmassa alakulmassa</translation>
 <translation id="9205078245616868884">Tietosi on salattu synkronoinnin tunnuslauseesi avulla. Aloita synkronointi antamalla tunnuslause.</translation>
 <translation id="9207861905230894330">Artikkelin lisääminen epäonnistui.</translation>
-<translation id="2206050430829841793">Sovellus estää Bravea muodostamasta turvallista yhteyttä tähän sivustoon</translation>
+<translation id="2206050430829841793">Sovellus estää Dissentera muodostamasta turvallista yhteyttä tähän sivustoon</translation>
 <translation id="9219103736887031265">Kuvat</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">TYHJENNÄ LOMAKE</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Saatat menettää Brave-tilisi käyttöoikeuden. Brave suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
+<translation id="7486559383537872796">Saatat menettää Dissenter-tilisi käyttöoikeuden. Dissenter suosittelee vaihtamaan salasanan nyt. Sinua pyydetään kirjautumaan sisään.</translation>
 <translation id="939736085109172342">Uusi kansio</translation>
 <translation id="945855313015696284">Tarkista tiedot alta ja poista virheelliset kortit.</translation>
 <translation id="950736567201356821">Kolme reikää yläreunassa</translation>
@@ -1916,7 +1916,7 @@ Lisätietoja:
     &lt;li&gt;Yritä yhdistää toiseen verkkoon&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1 (728 mm x 1 030 mm)</translation>
-<translation id="6771143571626203666">Brave Paysta</translation>
+<translation id="6771143571626203666">Dissenter Paysta</translation>
 <translation id="8820817407110198400">Kirjanmerkit</translation>
 <translation id="8362995731815961365">Tämän tietokoneen määrittänyt henkilö on estänyt tämän sivuston.</translation>
 <translation id="4075123085690634698">Avaa sivu uudessa incognito-ikkunassa (⇧ + ⌘ + N).</translation>
@@ -1928,7 +1928,7 @@ Lisätietoja:
 <translation id="2227116904818538760">Olet siirtynyt incognito-tilaan</translation>
 <translation id="2007417459975034427">Nyt voit selata verkkoa yksityisesti. Laitteen muut käyttäjät eivät näe selaushistoriaasi. Lataukset ja kirjanmerkit kuitenkin tallennetaan.</translation>
 <translation id="2586968635953373425">Avaa incognito-ikkuna</translation>
-<translation id="3489858312836205593">Avaa uusi Braven incognito-ikkuna</translation>
+<translation id="3489858312836205593">Avaa uusi Dissentern incognito-ikkuna</translation>
 <translation id="6984479912851154518">Incognito-tilasta poistutaan ulkoisessa sovelluksessa maksamisen vuoksi. Haluatko jatkaa?</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Vaihe 1: Kirjaudu portaaliin&lt;/h4&gt;
     &lt;p&gt;Kahviloiden, lentokenttien ja joidenkin muiden paikkojen Wi-Fi-verkot voivat edellyttää kirjautumista. Voit avata kirjautumissivun siirtymällä sivulle, jonka osoitteen alkuosa on &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;
@@ -1938,11 +1938,11 @@ Lisätietoja:
     &lt;/ol&gt;
     &lt;h4&gt;Vaihe 2: Avaa sivu incognito-tilassa (vain tietokoneella)&lt;/h4&gt;
     &lt;p&gt;Avaa incognito-ikkunassa sivu, jolla olit.&lt;/p&gt;
-    &lt;p&gt;Jos sivu aukeaa, Brave-laajennus ei toimi oikein. Voit korjata virheen poistamalla laajennuksen käytöstä.&lt;/p&gt;
+    &lt;p&gt;Jos sivu aukeaa, Dissenter-laajennus ei toimi oikein. Voit korjata virheen poistamalla laajennuksen käytöstä.&lt;/p&gt;
     &lt;h4&gt;Vaihe 3: Päivitä käyttöjärjestelmäsi&lt;/h4&gt;
     &lt;p&gt;Varmista, että laitteesi on päivitetty.&lt;/p&gt;
     &lt;h4&gt;Vaihe 4: Poista virustorjuntaohjelmisto käytöstä väliaikaisesti&lt;/h4&gt;
-    &lt;p&gt;Näet tämän virheen, jos käyttämäsi virustorjuntaohjelmiston HTTPS-suojaus tai HTTPS-skannaus estää Braven tietoturvatoimintojen käytön.&lt;/p&gt;
+    &lt;p&gt;Näet tämän virheen, jos käyttämäsi virustorjuntaohjelmiston HTTPS-suojaus tai HTTPS-skannaus estää Dissentern tietoturvatoimintojen käytön.&lt;/p&gt;
     &lt;p&gt;Voit korjata ongelman poistamalla virustorjuntaohjelmiston käytöstä. Jos sivu toimii ohjelmiston sammuttamisen jälkeen, poista ohjelmisto käytöstä käydessäsi turvallisilla sivustoilla.&lt;/p&gt;
     &lt;p&gt;Muista ottaa virustorjuntaohjelmisto takaisin käyttöön, kun olet valmis.&lt;/p&gt;
     &lt;h4&gt;Vaihe 5: Pyydä lisäapua&lt;/h4&gt;

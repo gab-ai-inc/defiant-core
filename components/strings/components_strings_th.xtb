@@ -26,7 +26,7 @@
 <translation id="1088860948719068836">เพิ่มชื่อบนบัตร</translation>
 <translation id="1089439967362294234">เปลี่ยนรหัสผ่าน</translation>
 <translation id="1096545575934602868">ช่องนี้ต้องมีข้อมูลไม่เกิน <ph name="MAX_ITEMS_LIMIT"/> รายการ ระบบจะทิ้งรายการอื่นๆ ทั้งหมด</translation>
-<translation id="1920681928837417101">จัดการรหัสผ่านในการตั้งค่า Brave</translation>
+<translation id="1920681928837417101">จัดการรหัสผ่านในการตั้งค่า Dissenter</translation>
 <translation id="1101672080107056897">การดำเนินการผิดพลาด</translation>
 <translation id="1103523840287552314">แปลภาษา<ph name="LANGUAGE"/>ทุกครั้ง</translation>
 <translation id="1110994991967754504">เลือกสิทธิ์สำหรับ<ph name="PERMISSION_NAME"/></translation>
@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">ไม่ระบุชื่อ</translation>
 <translation id="1236081509407217141">อนุญาต VR ไหม</translation>
 <translation id="1240347957665416060">ชื่ออุปกรณ์ของคุณ</translation>
-<translation id="1052005765108026699">เพื่อความรวดเร็วในการชำระเงินครั้งถัดไป โปรดบันทึกบัตร ชื่อ และที่อยู่สำหรับการเรียกเก็บเงินไว้ในบัญชี Brave</translation>
+<translation id="1052005765108026699">เพื่อความรวดเร็วในการชำระเงินครั้งถัดไป โปรดบันทึกบัตร ชื่อ และที่อยู่สำหรับการเรียกเก็บเงินไว้ในบัญชี Dissenter</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/> <ph name="TYPE_2"/> (ซิงค์แล้ว)</translation>
 <translation id="1256368399071562588">&lt;p&gt;หากคุณพยายามเข้าชมเว็บไซต์ แต่เว็บไซต์ไม่เปิดขึ้นมา ให้ลองแก้ข้อผิดพลาดด้วยขั้นตอนการแก้ปัญหาต่อไปนี้&lt;/p&gt;
     &lt;ol&gt;
@@ -73,7 +73,7 @@
 <translation id="1270502636509132238">วิธีการรับสินค้า</translation>
 <translation id="1281476433249504884">สแต็กเกอร์ 1</translation>
 <translation id="1285320974508926690">ไม่ต้องแปลเว็บไซต์นี้</translation>
-<translation id="1209478311331937175">"ซอฟต์แวร์ในคอมพิวเตอร์ของคุณทำให้ Brave เชื่อมต่อกับเว็บอย่างปลอดภัยไม่ได้" (คอมพิวเตอร์ที่ใช้ระบบปฏิบัติการ Windows เท่านั้น)</translation>
+<translation id="1209478311331937175">"ซอฟต์แวร์ในคอมพิวเตอร์ของคุณทำให้ Dissenter เชื่อมต่อกับเว็บอย่างปลอดภัยไม่ได้" (คอมพิวเตอร์ที่ใช้ระบบปฏิบัติการ Windows เท่านั้น)</translation>
 <translation id="1294154142200295408">บรรทัดคำสั่งรูปแบบต่างๆ</translation>
 <translation id="129553762522093515">เพิ่งปิด</translation>
 <translation id="129863573139666797"><ph name="BEGIN_LINK"/>ลองล้างคุกกี้<ph name="END_LINK"/></translation>
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">พิมพ์</translation>
 <translation id="1442386063175183758">พับทบด้านขวา</translation>
 <translation id="1442987760062738829">เจาะรู</translation>
-<translation id="7408760246081928496">ข้อความที่คุณวางหรือแนบจะส่งไปยัง Brave Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อน</translation>
+<translation id="7408760246081928496">ข้อความที่คุณวางหรือแนบจะส่งไปยัง Dissenter Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อน</translation>
 <translation id="1455413310270022028">ยางลบ</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5x7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">เปลี่ยนรหัสผ่าน</translation>
 <translation id="1484290072879560759">เลือกที่อยู่สำหรับจัดส่ง</translation>
 <translation id="1492194039220927094">การพุชนโยบาย:</translation>
-<translation id="1812569385220097122">แสดงบัตรจากบัญชี Brave ของคุณ</translation>
+<translation id="1812569385220097122">แสดงบัตรจากบัญชี Dissenter ของคุณ</translation>
 <translation id="1507202001669085618">&lt;p&gt;คุณจะเห็นข้อผิดพลาดนี้ หากใช้พอร์ทัล Wi-Fi ที่คุณต้องลงชื่อเข้าใช้ก่อนจึงจะสามารถออนไลน์ได้&lt;/p&gt;
     &lt;p&gt;ในการแก้ไขข้อผิดพลาด ให้คลิก&lt;strong&gt;เชื่อมต่อ&lt;/strong&gt;บนหน้าเว็บที่คุณพยายามจะเปิด&lt;/p&gt;</translation>
 <translation id="1513706915089223971">ลิสต์ประวัติรายการ</translation>
 <translation id="1517433312004943670">ต้องระบุหมายเลขโทรศัพท์</translation>
 <translation id="1519264250979466059">วันที่สร้าง</translation>
-<translation id="5524011986660000129">Brave ชีต</translation>
+<translation id="5524011986660000129">Dissenter ชีต</translation>
 <translation id="1527263332363067270">กำลังรอการเชื่อมต่อ…</translation>
 <translation id="1529521330346880926">10x15 (ซองจดหมาย)</translation>
 <translation id="1529789484829130889">ถาด 8</translation>
@@ -171,10 +171,10 @@
 <translation id="1644574205037202324">ประวัติการเข้าชม</translation>
 <translation id="1645368109819982629">ไม่รองรับโปรโตคอล</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave ทำให้หน้านี้อ่านง่ายขึ้น Brave ดึงข้อมูลหน้าต้นฉบับผ่านการเชื่อมต่อที่ปลอดภัย</translation>
+<translation id="3848846802033604519">Dissenter ทำให้หน้านี้อ่านง่ายขึ้น Dissenter ดึงข้อมูลหน้าต้นฉบับผ่านการเชื่อมต่อที่ปลอดภัย</translation>
 <translation id="1656489000284462475">การรับ</translation>
 <translation id="1662550410081243962">บันทึกและกรอกวิธีการชำระเงิน</translation>
-<translation id="1838576226863399477">ข้อมูลบัตรและที่อยู่มาจาก Brave คุณสามารถจัดการข้อมูลเหล่านี้ใน<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
+<translation id="1838576226863399477">ข้อมูลบัตรและที่อยู่มาจาก Dissenter คุณสามารถจัดการข้อมูลเหล่านี้ใน<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
 <translation id="1671391448414634642">จากนี้ไประบบจะแปลหน้าภาษา<ph name="SOURCE_LANGUAGE"/>เป็นภาษา<ph name="TARGET_LANGUAGE"/></translation>
 <translation id="1682696192498422849">ด้านขอบสั้นก่อน</translation>
 <translation id="168693727862418163">ตรวจสอบค่านโยบายนี้กับสคีมาไม่ได้ ระบบจะเพิกเฉยต่อค่านี้</translation>
@@ -209,7 +209,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">โปรดอัปเดตข้อความรหัสผ่านที่ซิงค์ของคุณ</translation>
 <translation id="1787142507584202372">แท็บที่คุณเปิดไว้จะปรากฏที่นี่</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">ชื่อผู้ถือบัตร</translation>
 <translation id="1807528111851433570">แผ่นงานเริ่มต้น</translation>
@@ -222,7 +222,7 @@
 <translation id="1842969606798536927">จ่าย</translation>
 <translation id="1871208020102129563">พร็อกซีถูกตั้งค่าให้ใช้พร็อกซีเซิร์ฟเวอร์แบบคงที่ ไม่ใช่ URL สคริปต์ .pac</translation>
 <translation id="1871284979644508959">ช่องที่ต้องกรอก</translation>
-<translation id="85321348617848915">Brave ฟอร์ม</translation>
+<translation id="85321348617848915">Dissenter ฟอร์ม</translation>
 <translation id="187918866476621466">เปิดหน้าเริ่มต้นใช้งาน</translation>
 <translation id="1883255238294161206">ยุบรายการ</translation>
 <translation id="1898423065542865115">การกรอง</translation>
@@ -233,19 +233,19 @@
 <translation id="1914326953223720820">บริการแตกไฟล์</translation>
 <translation id="1915697529809968049">ใช้ Touch ID แทน CVC ไหม</translation>
 <translation id="1916770123977586577">โหลดหน้านี้ซ้ำเพื่อใช้การตั้งค่าที่อัปเดตกับไซต์นี้</translation>
-<translation id="688541908229382784">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Brave ขอแนะนำให้คุณเปลี่ยนรหัสผ่านที่ใช้ใน <ph name="ORIGIN"/> โดยทันที</translation>
+<translation id="688541908229382784">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Dissenter ขอแนะนำให้คุณเปลี่ยนรหัสผ่านที่ใช้ใน <ph name="ORIGIN"/> โดยทันที</translation>
 <translation id="1919345977826869612">โฆษณา</translation>
 <translation id="1919367280705858090">ขอความช่วยเหลือเกี่ยวกับข้อความแสดงข้อผิดพลาดที่เจาะจง</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{ไม่มี}=1{เว็บไซต์ 1 แห่ง}other{เว็บไซต์ # แห่ง}}</translation>
 <translation id="194030505837763158">ไปที่ <ph name="LINK"/></translation>
 <translation id="1947454675006758438">เย็บด้วยลวดเย็บกระดาษด้านขวาบน</translation>
-<translation id="990584554013599191">ช่วยปรับปรุงความปลอดภัยในอินเทอร์เน็ตสำหรับทุกคนโดยการส่ง <ph name="BEGIN_WHITEPAPER_LINK"/>URL ของหน้าเว็บบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้า<ph name="END_WHITEPAPER_LINK"/>ให้ Brave <ph name="BEGIN_PRIVACY_PAGE_LINK"/>นโยบายความเป็นส่วนตัว<ph name="END_PRIVACY_PAGE_LINK"/></translation>
+<translation id="990584554013599191">ช่วยปรับปรุงความปลอดภัยในอินเทอร์เน็ตสำหรับทุกคนโดยการส่ง <ph name="BEGIN_WHITEPAPER_LINK"/>URL ของหน้าเว็บบางหน้าที่คุณเข้าชม ข้อมูลระบบที่จำกัด และเนื้อหาบางส่วนของหน้า<ph name="END_WHITEPAPER_LINK"/>ให้ Dissenter <ph name="BEGIN_PRIVACY_PAGE_LINK"/>นโยบายความเป็นส่วนตัว<ph name="END_PRIVACY_PAGE_LINK"/></translation>
 <translation id="1962204205936693436">บุ๊กมาร์กของ <ph name="DOMAIN"/></translation>
 <translation id="1973335181906896915">ข้อผิดพลาดในการจัดเรียง</translation>
 <translation id="1974060860693918893">ขั้นสูง</translation>
 <translation id="1975584088563498795">กล่องจดหมาย 10</translation>
 <translation id="1978555033938440688">เวอร์ชันของเฟิร์มแวร์</translation>
-<translation id="711418501679417607">ล้างข้อมูลประวัติการเข้าชมของ Brave</translation>
+<translation id="711418501679417607">ล้างข้อมูลประวัติการเข้าชมของ Dissenter</translation>
 <translation id="1992331125980284532">JIS B3</translation>
 <translation id="1992796205810278279">เข้าถึงคุกกี้และข้อมูลเว็บไซต์
 
@@ -261,7 +261,7 @@
 <translation id="2030481566774242610">หรือคุณหมายถึง <ph name="LINK"/></translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>ตรวจสอบพร็อกซีและไฟร์วอลล์<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">ถาด 7</translation>
-<translation id="3163988908275223348">ลงชื่อเข้าใช้เพื่อใช้รหัสผ่านที่บันทึกไว้ในบัญชี Brave</translation>
+<translation id="3163988908275223348">ลงชื่อเข้าใช้เพื่อใช้รหัสผ่านที่บันทึกไว้ในบัญชี Dissenter</translation>
 <translation id="2053111141626950936">ระบบจะไม่แปลหน้าเว็บภาษา<ph name="LANGUAGE"/></translation>
 <translation id="2053553514270667976">รหัสไปรษณีย์</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 คำแนะนำ}other{# คำแนะนำ}}</translation>
@@ -314,7 +314,7 @@
 <translation id="2258928405015593961">ป้อนวันที่หมดอายุในอนาคตแล้วลองอีกครั้ง</translation>
 <translation id="225943865679747347">รหัสข้อผิดพลาด: <ph name="ERROR_CODE"/></translation>
 <translation id="2262243747453050782">ข้อผิดพลาดของ HTTP</translation>
-<translation id="112540507627099823">อัปเดตข้อมูลบัตรเครดิตสำหรับป้อนข้อความอัตโนมัติในการตั้งค่า Brave</translation>
+<translation id="112540507627099823">อัปเดตข้อมูลบัตรเครดิตสำหรับป้อนข้อความอัตโนมัติในการตั้งค่า Dissenter</translation>
 <translation id="2267047181501709434">กำลังยืนยันตัวตนของคุณ...</translation>
 <translation id="2270484714375784793">หมายเลขโทรศัพท์</translation>
 <translation id="2276057643614339130">ฐานการพิมพ์</translation>
@@ -365,7 +365,7 @@
 <translation id="2491120439723279231">ใบรับรองของเซิร์ฟเวอร์มีข้อผิดพลาด</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">โปรแกรมแยกวิเคราะห์ JSON</translation>
-<translation id="5047769237368272183">หากเลือกไว้ Brave จะจัดเก็บสำเนาบัตรของคุณบนอุปกรณ์นี้เพื่อการกรอกแบบฟอร์มที่รวดเร็วขึ้น</translation>
+<translation id="5047769237368272183">หากเลือกไว้ Dissenter จะจัดเก็บสำเนาบัตรของคุณบนอุปกรณ์นี้เพื่อการกรอกแบบฟอร์มที่รวดเร็วขึ้น</translation>
 <translation id="2498091847651709837">สแกนบัตรใหม่</translation>
 <translation id="2501278716633472235">ย้อนกลับ</translation>
 <translation id="2505268675989099013">ปกป้องบัญชี</translation>
@@ -427,7 +427,7 @@
 <translation id="277133753123645258">วิธีการจัดส่งสินค้า</translation>
 <translation id="277499241957683684">ไม่มีอุปกรณ์บันทึก</translation>
 <translation id="2775884851269838147">หน้าที่พิมพ์หน้าแรก</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">การเชื่อมต่อได้รับการรีเซ็ตแล้ว</translation>
 <translation id="2792012897584536778">ผู้ดูแลระบบของอุปกรณ์นี้ได้ตั้งค่าใบรับรองความปลอดภัยที่อาจอนุญาตให้ตนดูเนื้อหาของเว็บไซต์ที่คุณเข้าชมได้</translation>
 <translation id="2799020568854403057">เว็บไซต์ที่จะเปิดมีแอปอันตราย</translation>
@@ -473,7 +473,7 @@
 <translation id="2989742184762224133">เย็บด้วยลวดเย็บกระดาษด้านบน 2 ครั้ง</translation>
 <translation id="2991174974383378012">การแชร์กับเว็บไซต์</translation>
 <translation id="2991571918955627853">คุณไม่สามารถไปที่ <ph name="SITE"/> ได้ในขณะนี้เนื่องจากเว็บไซต์ใช้ HSTS โดยปกติข้อผิดพลาดของเครือข่ายและการโจมตีจะเกิดขึ้นเพียงชั่วคราว หน้านี้จึงอาจใช้งานได้ในภายหลัง</translation>
-<translation id="6683975920571472553">คำแนะนำโดย Brave</translation>
+<translation id="6683975920571472553">คำแนะนำโดย Dissenter</translation>
 <translation id="3002501248619246229">ตรวจสอบสื่อของถาดกระดาษเข้า</translation>
 <translation id="3005723025932146533">แสดงสำเนาที่บันทึกไว้</translation>
 <translation id="3008447029300691911">ป้อน CVC สำหรับ <ph name="CREDIT_CARD"/> เมื่อยืนยันแล้ว รายละเอียดบัตรของคุณจะแชร์กับเว็บไซต์นี้</translation>
@@ -556,7 +556,7 @@
 <translation id="3399952811970034796">ที่อยู่สำหรับจัดส่ง</translation>
 <translation id="3402261774528610252">การเชื่อมต่อที่ใช้โหลดเว็บไซต์นี้ใช้ TLS 1.0 หรือ TLS 1.1 ซึ่งเลิกใช้งานแล้วและจะถูกปิดใช้ในอนาคต เมื่อปิดใช้แล้ว ระบบจะไม่ให้ผู้ใช้โหลดเว็บไซต์นี้ เซิร์ฟเวอร์ควรเปิดใช้ TLS 1.2 ขึ้นไป</translation>
 <translation id="3414952576877147120">ขนาด:</translation>
-<translation id="25726459489263481">ไฟล์ที่คุณอัปโหลดหรือแนบจะส่งไปยัง Brave Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อนหรือมัลแวร์</translation>
+<translation id="25726459489263481">ไฟล์ที่คุณอัปโหลดหรือแนบจะส่งไปยัง Dissenter Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อนหรือมัลแวร์</translation>
 <translation id="3422248202833853650">ลองออกจากโปรแกรมอื่นๆ เพื่อเพิ่มหน่วยความจำ</translation>
 <translation id="3422472998109090673">ไม่สามารถเข้าถึง <ph name="HOST_NAME"/> ได้ในขณะนี้</translation>
 <translation id="3423742043356668186">ระบุระบบแล้ว</translation>
@@ -565,7 +565,7 @@
 <translation id="3428151540071562330">URI ของเซิร์ฟเวอร์เทมเพลต DnsOverHttpsTemplates อย่างน้อย 1 รายการไม่ถูกต้องและจะไม่มีการนำไปใช้</translation>
 <translation id="3431636764301398940">บันทึกบัตรนี้ลงในอุปกรณ์นี้</translation>
 <translation id="3432601291244612633">ปิดหน้า</translation>
-<translation id="4527130811319726464">ใช้รหัสผ่านที่บันทึกไว้ในบัญชี Brave</translation>
+<translation id="4527130811319726464">ใช้รหัสผ่านที่บันทึกไว้ในบัญชี Dissenter</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">เจ้าของอุปกรณ์นี้ปิดเกมไดโนเสาร์</translation>
 <translation id="3447884698081792621">แสดงใบรับรอง (ออกโดย <ph name="ISSUER"/>)</translation>
@@ -595,7 +595,7 @@
 <translation id="3567778190852720481">ลงทะเบียนด้วยบัญชีองค์กรไม่ได้ (บัญชีองค์กรไม่มีสิทธิ์)</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">หน้าที่ฝังไว้ใน <ph name="SITE"/> บอกว่า</translation>
-<translation id="230476913390177517">Brave จะแจ้งให้คุณทราบเมื่อหน้านี้พร้อมใช้งาน &lt;a&gt;ยกเลิก&lt;/a&gt;</translation>
+<translation id="230476913390177517">Dissenter จะแจ้งให้คุณทราบเมื่อหน้านี้พร้อมใช้งาน &lt;a&gt;ยกเลิก&lt;/a&gt;</translation>
 <translation id="3582930987043644930">เพิ่มชื่อ</translation>
 <translation id="3583757800736429874">&amp;ทำซ้ำการย้าย</translation>
 <translation id="3584299510153766161">เจาะรูด้านล่าง 2 รู</translation>
@@ -638,7 +638,7 @@
 <translation id="373042150751172459">B4 (ซองจดหมาย)</translation>
 <translation id="3731873414101415120">เว็บไซต์ที่คุณเข้าชมและเนื้อหาของหน้าที่ไม่ปลอดภัย</translation>
 <translation id="3736520371357197498">หากคุณเข้าใจความเสี่ยงต่อความปลอดภัย คุณสามารถ<ph name="BEGIN_LINK"/>ไปยังไซต์ที่ไม่ปลอดภัยนี้<ph name="END_LINK"/> ก่อนจะมีการนำโปรแกรมอันตรายออก</translation>
-<translation id="4098534208927606680">เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Brave กับเว็บไซต์นี้</translation>
+<translation id="4098534208927606680">เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Dissenter กับเว็บไซต์นี้</translation>
 <translation id="3748148204939282805">ผู้โจมตีที่อยู่ใน <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> อาจหลอกล่อให้คุณทำบางสิ่งที่อันตราย เช่น การติดตั้งซอฟต์แวร์หรือเปิดเผยข้อมูลส่วนบุคคล (ตัวอย่างเช่น รหัสผ่าน หมายเลขโทรศัพท์ หรือบัตรเครดิต) <ph name="BEGIN_LEARN_MORE_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">ออกจากการแสดงภาพซ้อนภาพ</translation>
 <translation id="3759461132968374835">คุณไม่ได้รายงานข้อขัดข้องเมื่อเร็วๆ นี้ ข้อขัดข้องที่เกิดขึ้นเมื่อปิดใช้งานการรายงานข้อขัดข้อง จะไม่ปรากฏที่นี่</translation>
@@ -646,7 +646,7 @@
 <translation id="3761718714832595332">ซ่อนสถานะ</translation>
 <translation id="3765032636089507299">หน้า Google Safe Browsing อยู่ในระหว่างการปรับปรุง</translation>
 <translation id="3765588406864124894">กล่องจดหมาย 9</translation>
-<translation id="5141491707451394486">คุณต้องการบันทึกบัตรนี้ลงในบัญชี Brave และในอุปกรณ์นี้ไหม</translation>
+<translation id="5141491707451394486">คุณต้องการบันทึกบัตรนี้ลงในบัญชี Dissenter และในอุปกรณ์นี้ไหม</translation>
 <translation id="3780694243617746492">ถาดกระดาษออก</translation>
 <translation id="3781428340399460090">ชมพูเจิดจ้า</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -676,7 +676,7 @@
 <translation id="3901925938762663762">บัตรหมดอายุ</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">แท็บเล็ต</translation>
-<translation id="2650609753175229582"><ph name="URL"/> ต้องการเล่นเนื้อหาที่ได้รับความคุ้มครอง ข้อมูลประจำตัวของอุปกรณ์จะได้รับการยืนยันโดย Brave และเว็บไซต์นี้อาจเข้าถึงข้อมูลดังกล่าว</translation>
+<translation id="2650609753175229582"><ph name="URL"/> ต้องการเล่นเนื้อหาที่ได้รับความคุ้มครอง ข้อมูลประจำตัวของอุปกรณ์จะได้รับการยืนยันโดย Dissenter และเว็บไซต์นี้อาจเข้าถึงข้อมูลดังกล่าว</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">ใช้ WebAuthn แทน CVC ไหม</translation>
 <translation id="3946209740501886391">ถามทุกครั้งบนเว็บไซต์นี้</translation>
@@ -691,7 +691,7 @@
 <translation id="3964661563329879394">{COUNT,plural, =0{ไม่มี}=1{จากเว็บไซต์ 1 แห่ง }other{จากเว็บไซต์ #  แห่ง }}</translation>
 <translation id="397105322502079400">กำลังคำนวณ...</translation>
 <translation id="3973234410852337861"><ph name="HOST_NAME"/> ถูกบล็อก</translation>
-<translation id="2321540973325616220">Brave ระบุว่าเว็บไซต์นี้อาจเป็นเว็บไซต์ปลอมหรือฉ้อโกง
+<translation id="2321540973325616220">Dissenter ระบุว่าเว็บไซต์นี้อาจเป็นเว็บไซต์ปลอมหรือฉ้อโกง
 
     หากคุณเชื่อว่าคำเตือนนี้เป็นข้อผิดพลาด โปรดไปที่ https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals</translation>
 <translation id="3987940399970879459">ไม่ถึง 1 MB</translation>
@@ -761,7 +761,7 @@
 <translation id="4275830172053184480">รีสตาร์ทอุปกรณ์ของคุณ</translation>
 <translation id="4277028893293644418">รีเซ็ตรหัสผ่าน</translation>
 <translation id="4279811152705618813"><ph name="DEVICE_TYPE"/> ของคุณจัดการโดย <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{บันทึกบัตรนี้ลงในบัญชี Brave ของคุณแล้ว}other{บันทึกบัตรเหล่านี้ลงในบัญชี Brave ของคุณแล้ว}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{บันทึกบัตรนี้ลงในบัญชี Dissenter ของคุณแล้ว}other{บันทึกบัตรเหล่านี้ลงในบัญชี Dissenter ของคุณแล้ว}}</translation>
 <translation id="42981349822642051">ขยาย</translation>
 <translation id="4300675098767811073">เจาะรูด้านขวาหลายรู</translation>
 <translation id="4302965934281694568">Chou3 (ซองจดหมาย)</translation>
@@ -774,7 +774,7 @@
 <translation id="4326324639298822553">ตรวจสอบวันหมดอายุแล้วลองอีกครั้ง</translation>
 <translation id="4331519897422864041">สแต็กเกอร์ 5</translation>
 <translation id="4331708818696583467">ไม่ปลอดภัย</translation>
-<translation id="6116812392674177288">ไม่มีการตรวจพบว่าคอมพิวเตอร์เครื่องนี้ได้รับการจัดการโดยองค์กร ดังนั้นนโยบายจะติดตั้งเฉพาะส่วนขยายที่โฮสต์ใน Brave เว็บสโตร์โดยอัตโนมัติ URL การอัปเดตของ Brave เว็บสโตร์คือ "<ph name="CWS_UPDATE_URL"/>"</translation>
+<translation id="6116812392674177288">ไม่มีการตรวจพบว่าคอมพิวเตอร์เครื่องนี้ได้รับการจัดการโดยองค์กร ดังนั้นนโยบายจะติดตั้งเฉพาะส่วนขยายที่โฮสต์ใน Dissenter เว็บสโตร์โดยอัตโนมัติ URL การอัปเดตของ Dissenter เว็บสโตร์คือ "<ph name="CWS_UPDATE_URL"/>"</translation>
 <translation id="4346197816712207223">บัตรเครดิตที่ยอมรับ</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">ผู้โจมตีในเว็บไซต์นี้อาจพยายามติดตั้งโปรแกรมอันตรายซึ่งจะขโมยหรือลบข้อมูล (ตัวอย่างเช่น รูปภาพ รหัสผ่าน ข้อความ และบัตรเครดิต) ลงในคอมพิวเตอร์ของคุณ</translation>
@@ -799,7 +799,7 @@
 <translation id="4477350412780666475">แทร็กถัดไป</translation>
 <translation id="4482953324121162758">ระบบจะไม่แปลเว็บไซต์นี้</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">ฟีเจอร์เหล่านี้ปิดใช้งานอยู่โดยค่าเริ่มต้น และจะไม่มีให้ใช้งานใน Brave เวอร์ชันต่อๆ ไป</translation>
+<translation id="3614771894046523359">ฟีเจอร์เหล่านี้ปิดใช้งานอยู่โดยค่าเริ่มต้น และจะไม่มีให้ใช้งานใน Dissenter เวอร์ชันต่อๆ ไป</translation>
 <translation id="4493480324863638523">URL ไม่ถูกต้อง ต้องเป็น URL ที่มีรูปแบบมาตรฐาน เช่น http://example.com หรือ https://example.com</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">ข้อผิดพลาดในการตรวจสอบ: <ph name="VALIDATION_ERROR"/></translation>
@@ -807,7 +807,7 @@
 <translation id="450710068430902550">การแชร์กับผู้ดูแลระบบ</translation>
 <translation id="4508814173490746936">ใช้ Touch ID ไม่ได้</translation>
 <translation id="4510487217173779431">Chou4 (ซองจดหมาย)</translation>
-<translation id="4892470328555495647">ข้อมูลบัตรและที่อยู่มาจาก Brave และบัญชี Brave (<ph name="ACCOUNT_EMAIL"/>) คุณสามารถจัดการข้อมูลเหล่านี้ใน<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
+<translation id="4892470328555495647">ข้อมูลบัตรและที่อยู่มาจาก Dissenter และบัญชี Dissenter (<ph name="ACCOUNT_EMAIL"/>) คุณสามารถจัดการข้อมูลเหล่านี้ใน<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
 <translation id="4517607026994743406">Comm-10 (ซองจดหมาย)</translation>
 <translation id="4522570452068850558">รายละเอียด</translation>
 <translation id="4524138615196389145">ยืนยันบัตรได้เร็วขึ้นโดยใช้ WebAuthn จากนี้ไป</translation>
@@ -833,7 +833,7 @@
 <translation id="4670064810192446073">Virtual Reality</translation>
 <translation id="467662567472608290">เซิร์ฟเวอร์นี้ไม่สามารถพิสูจน์ได้ว่าเป็น <ph name="DOMAIN"/> เพราะใบรับรองความปลอดภัยมีข้อผิดพลาด โดยอาจเกิดจากการกำหนดค่าผิดหรือผู้บุกรุกที่ขัดขวางการเชื่อมต่อของคุณ</translation>
 <translation id="4677585247300749148"><ph name="URL"/> ต้องการตอบสนองต่อเหตุการณ์การเข้าถึงพิเศษ</translation>
-<translation id="8197094463444457125">Brave สไลด์</translation>
+<translation id="8197094463444457125">Dissenter สไลด์</translation>
 <translation id="4690462567478992370">หยุดใช้ใบรับรองที่ไม่ถูกต้อง</translation>
 <translation id="4691835149146451662">Architecture-A (ซองจดหมาย)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -863,11 +863,11 @@
 <translation id="4785689107224900852">เปลี่ยนเป็นแท็บนี้</translation>
 <translation id="4791134497475588553">แอป Linux ที่ติดตั้งไว้และเวลาที่ใช้งานครั้งล่าสุด</translation>
 <translation id="4796594887379589189">รหัสบัญชีงาน</translation>
-<translation id="7110430050177876111">ป้อนวันที่หมดอายุและ CVC ของ <ph name="CREDIT_CARD"/> เพื่ออัปเดตรายละเอียดของบัตร เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Brave กับเว็บไซต์นี้</translation>
+<translation id="7110430050177876111">ป้อนวันที่หมดอายุและ CVC ของ <ph name="CREDIT_CARD"/> เพื่ออัปเดตรายละเอียดของบัตร เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Dissenter กับเว็บไซต์นี้</translation>
 <translation id="4800132727771399293">ตรวจสอบวันหมดอายุและ CVC แล้วลองอีกครั้ง</translation>
 <translation id="480334179571489655">ข้อผิดพลาดเกี่ยวกับนโยบายต้นทาง</translation>
 <translation id="4803924862070940586"><ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
-<translation id="8896585555528145662">คุณไม่สามารถไปที่ <ph name="SITE"/> ได้ในขณะนี้ เนื่องจากเว็บไซต์ดังกล่าวส่งข้อมูลรับรองที่เข้ารหัส ซึ่ง Brave ไม่สามารถประมวลผลได้ โดยปกติข้อผิดพลาดของเครือข่ายและการบุกรุกจะเกิดขึ้นเพียงชั่วคราว หน้านี้จึงอาจใช้งานได้ในภายหลัง</translation>
+<translation id="8896585555528145662">คุณไม่สามารถไปที่ <ph name="SITE"/> ได้ในขณะนี้ เนื่องจากเว็บไซต์ดังกล่าวส่งข้อมูลรับรองที่เข้ารหัส ซึ่ง Dissenter ไม่สามารถประมวลผลได้ โดยปกติข้อผิดพลาดของเครือข่ายและการบุกรุกจะเกิดขึ้นเพียงชั่วคราว หน้านี้จึงอาจใช้งานได้ในภายหลัง</translation>
 <translation id="4813512666221746211">ข้อผิดพลาดของเครือข่าย</translation>
 <translation id="4816492930507672669">พอดีกับหน้า</translation>
 <translation id="484462545196658690">อัตโนมัติ</translation>
@@ -905,7 +905,7 @@
 <translation id="4989542687859782284">ไม่มี</translation>
 <translation id="4989809363548539747">ไม่รองรับปลั๊กอินนี้</translation>
 <translation id="4995216769782533993">ยืนยันรหัสความปลอดภัยเพื่อแชร์รายละเอียดบัตรกับเว็บไซต์นี้</translation>
-<translation id="3676215163710610678">หากเปิดใช้ Brave จะเก็บสำเนาการ์ดของคุณในอุปกรณ์นี้เพื่อให้การกรอกฟอร์มทำได้เร็วขึ้น</translation>
+<translation id="3676215163710610678">หากเปิดใช้ Dissenter จะเก็บสำเนาการ์ดของคุณในอุปกรณ์นี้เพื่อให้การกรอกฟอร์มทำได้เร็วขึ้น</translation>
 <translation id="5015510746216210676">ชื่อเครื่อง:</translation>
 <translation id="5017554619425969104">ข้อความที่คุณคัดลอก</translation>
 <translation id="5018422839182700155">ไม่สามารถเปิดหน้านี้</translation>
@@ -914,7 +914,7 @@
 <translation id="5029568752722684782">ล้างสำเนา</translation>
 <translation id="5030338702439866405">ออกโดย</translation>
 <translation id="503069730517007720">ไม่ได้ติดตั้งใบรับรองรากที่จำเป็นของ "<ph name="SOFTWARE_NAME"/>" ผู้ดูแลระบบ IT ควรดูวิธีการกำหนดค่าของ "<ph name="SOFTWARE_NAME"/>" เพื่อแก้ไขปัญหานี้ <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">เกี่ยวกับ Brave แปลภาษา</translation>
+<translation id="6425384654920630035">เกี่ยวกับ Dissenter แปลภาษา</translation>
 <translation id="503498442187459473"><ph name="HOST"/> ต้องการใช้กล้องถ่ายรูปและไมโครโฟนของคุณ</translation>
 <translation id="5039804452771397117">อนุญาต</translation>
 <translation id="5040262127954254034">ความเป็นส่วนตัว</translation>
@@ -931,7 +931,7 @@
 <translation id="5088142053160410913">ข้อความถึงผู้ดำเนินการ</translation>
 <translation id="5089810972385038852">รัฐ</translation>
 <translation id="5093232627742069661">พับแบบตัว Z</translation>
-<translation id="4906192414477726331">เซิร์ฟเวอร์นี้ไม่สามารถพิสูจน์ได้ว่าเป็น <ph name="DOMAIN"/> เพราะ Brave ไม่เชื่อถือใบรับรองความปลอดภัย โดยอาจเกิดจากการกำหนดค่าผิดหรือผู้บุกรุกที่ขัดขวางการเชื่อมต่อของคุณ</translation>
+<translation id="4906192414477726331">เซิร์ฟเวอร์นี้ไม่สามารถพิสูจน์ได้ว่าเป็น <ph name="DOMAIN"/> เพราะ Dissenter ไม่เชื่อถือใบรับรองความปลอดภัย โดยอาจเกิดจากการกำหนดค่าผิดหรือผู้บุกรุกที่ขัดขวางการเชื่อมต่อของคุณ</translation>
 <translation id="5095208057601539847">จังหวัด</translation>
 <translation id="5097099694988056070">สถิติของอุปกรณ์ เช่น การใช้ CPU/RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -943,7 +943,7 @@
 <translation id="5126510351761255129">ยืนยันบัตร</translation>
 <translation id="6291230311289558881">จัดการที่อยู่...</translation>
 <translation id="5138227688689900538">แสดงน้อยลง</translation>
-<translation id="7186167407612593632">เข้ารหัสผ่านที่ซิงค์ด้วยข้อมูลรับรอง Brave ของคุณ</translation>
+<translation id="7186167407612593632">เข้ารหัสผ่านที่ซิงค์ด้วยข้อมูลรับรอง Dissenter ของคุณ</translation>
 <translation id="5145883236150621069">มีรหัสข้อผิดพลาดในการตอบกลับนโยบาย</translation>
 <translation id="5146995429444047494">บล็อกการแจ้งเตือนของ <ph name="ORIGIN"/> ไว้</translation>
 <translation id="5148809049217731050">หงายหน้าขึ้น</translation>
@@ -951,8 +951,8 @@
 <translation id="5158275234811857234">หน้าปก</translation>
 <translation id="5161506081086828129">สแต็กเกอร์ 9</translation>
 <translation id="5164798890604758545">มีการป้อนข้อความ</translation>
-<translation id="2996889577833788807">ป้อน CVC ของ <ph name="CREDIT_CARD"/> เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Brave กับเว็บไซต์นี้</translation>
-<translation id="8515152881111950319">คุณอาจเข้าถึงบัญชีขององค์กรไม่ได้หรือถูกโจรกรรมข้อมูลประจำตัว Brave ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
+<translation id="2996889577833788807">ป้อน CVC ของ <ph name="CREDIT_CARD"/> เมื่อยืนยันแล้ว ระบบจะแชร์รายละเอียดของบัตรจากบัญชี Dissenter กับเว็บไซต์นี้</translation>
+<translation id="8515152881111950319">คุณอาจเข้าถึงบัญชีขององค์กรไม่ได้หรือถูกโจรกรรมข้อมูลประจำตัว Dissenter ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
 <translation id="5171045022955879922">ค้นหาหรือพิมพ์ URL</translation>
 <translation id="5171689220826475070">กระดาษต่อเนื่องแบบยุโรป</translation>
 <translation id="5172758083709347301">ผู้ใช้คอมพิวเตอร์นี้</translation>
@@ -961,7 +961,7 @@
 <translation id="5201306358585911203">หน้าที่ฝังไว้ในหน้าเว็บนี้บอกว่า</translation>
 <translation id="5205222826937269299">ต้องระบุชื่อ</translation>
 <translation id="5209518306177824490">ลายนิ้วมือ SHA-1</translation>
-<translation id="1051285409463218679">วิธีการชำระเงินและที่อยู่จาก Brave Pay</translation>
+<translation id="1051285409463218679">วิธีการชำระเงินและที่อยู่จาก Dissenter Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">ต้องระบุอีเมล</translation>
 <translation id="5230733896359313003">ที่อยู่ในการจัดส่ง</translation>
@@ -985,7 +985,7 @@
 <translation id="5287456746628258573">เว็บไซต์นี้ใช้การกำหนดค่าความปลอดภัยที่ล้าสมัย ซึ่งอาจทำให้ข้อมูลของคุณรั่วไหลเมื่อส่งไปยังเว็บไซต์นี้ (เช่น รหัสผ่านหรือหมายเลขบัตรเครดิต)</translation>
 <translation id="5288108484102287882">มีคำเตือนจากการตรวจสอบความถูกต้องของค่านโยบาย</translation>
 <translation id="5289384342738547352">การจัดการเอกสารหลายรายการ</translation>
-<translation id="3764885446986388155">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Brave ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้โดยทันที</translation>
+<translation id="3764885446986388155">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Dissenter ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้โดยทันที</translation>
 <translation id="5299298092464848405">ข้อผิดพลาดในการแยกวิเคราะห์นโยบาย</translation>
 <translation id="5300589172476337783">แสดง</translation>
 <translation id="5306593769196050043">ทั้ง 2 แผ่นงาน</translation>
@@ -1044,7 +1044,7 @@
 <translation id="5541086400771735334">กล่องจดหมาย 7</translation>
 <translation id="5541546772353173584">เพิ่มอีเมล</translation>
 <translation id="5545756402275714221">บทความสำหรับคุณ</translation>
-<translation id="6084314943327785510">Brave ตรวจสอบรหัสผ่านของคุณเป็นระยะโดยเทียบกับรายการที่มีการเผยแพร่ออนไลน์ เราเข้ารหัสชื่อผู้ใช้และรหัสผ่านเมื่อทำการตรวจสอบเพื่อไม่ให้ผู้ใดอ่านข้อมูลดังกล่าวได้ รวมถึง Brave</translation>
+<translation id="6084314943327785510">Dissenter ตรวจสอบรหัสผ่านของคุณเป็นระยะโดยเทียบกับรายการที่มีการเผยแพร่ออนไลน์ เราเข้ารหัสชื่อผู้ใช้และรหัสผ่านเมื่อทำการตรวจสอบเพื่อไม่ให้ผู้ใดอ่านข้อมูลดังกล่าวได้ รวมถึง Dissenter</translation>
 <translation id="5556459405103347317">โหลดใหม่</translation>
 <translation id="5560088892362098740">วันที่หมดอายุ</translation>
 <translation id="5565735124758917034">ใช้งานอยู่</translation>
@@ -1057,14 +1057,14 @@
 <translation id="560412284261940334">ไม่สนับสนุนการจัดการ</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">เว็บไซต์นี้อาจเป็นเว็บไซต์ปลอมหรือฉ้อโกง Brave แนะนำให้คุณออกจากเว็บไซต์เดี๋ยวนี้</translation>
+<translation id="4067274479097837765">เว็บไซต์นี้อาจเป็นเว็บไซต์ปลอมหรือฉ้อโกง Dissenter แนะนำให้คุณออกจากเว็บไซต์เดี๋ยวนี้</translation>
 <translation id="5610142619324316209">ตรวจสอบการเชื่อมต่อ</translation>
 <translation id="5610807607761827392">คุณสามารถจัดการบัตรและที่อยู่ใน<ph name="BEGIN_LINK"/>การตั้งค่า<ph name="END_LINK"/></translation>
 <translation id="5612720917913232150"><ph name="URL"/> ต้องการใช้ตำแหน่งเครื่องคอมพิวเตอร์ของคุณ</translation>
 <translation id="5617949217645503996"><ph name="HOST_NAME"/> เปลี่ยนเส้นทางของคุณบ่อยเกินไป</translation>
 <translation id="5629630648637658800">ไม่สามารถโหลดการตั้งค่านโยบาย</translation>
 <translation id="5631439013527180824">โทเค็นการจัดการอุปกรณ์ไม่ถูกต้อง</translation>
-<translation id="2590378115732684772">ข้อมูลของคุณเข้ารหัสลับไว้ด้วย<ph name="BEGIN_LINK"/>รหัสผ่าน Brave<ph name="END_LINK"/> เมื่อ <ph name="TIME"/> ป้อนรหัสผ่านเพื่อเริ่มซิงค์</translation>
+<translation id="2590378115732684772">ข้อมูลของคุณเข้ารหัสลับไว้ด้วย<ph name="BEGIN_LINK"/>รหัสผ่าน Dissenter<ph name="END_LINK"/> เมื่อ <ph name="TIME"/> ป้อนรหัสผ่านเพื่อเริ่มซิงค์</translation>
 <translation id="5633066919399395251">ผู้โจมตีที่กำลังอยู่ใน <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> อาจพยายามติดตั้งโปรแกรมอันตรายซึ่งจะขโมยหรือลบข้อมูล (ตัวอย่างเช่น รูปภาพ รหัสผ่าน ข้อความ และบัตรเครดิต) ลงในคอมพิวเตอร์ของคุณ <ph name="BEGIN_LEARN_MORE_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">บล็อกเนื้อหาที่หลอกลวงแล้ว</translation>
 <translation id="5644090287519800334">เปลี่ยนตำแหน่งรูปภาพด้าน 1 ตามแกน X</translation>
@@ -1087,8 +1087,8 @@
 <translation id="5710435578057952990">ข้อมูลประจำตัวของเว็บไซต์นี้ยังไม่ได้รับการยืนยัน</translation>
 <translation id="5720705177508910913">ผู้ใช้ปัจจุบัน</translation>
 <translation id="5728056243719941842">C5 (ซองจดหมาย)</translation>
-<translation id="3006790309890592320">Brave ขอแนะนำให้รีเซ็ตรหัสผ่านหากคุณใช้รหัสผ่านนี้ซ้ำในเว็บไซต์อื่น</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{บันทึกบัตรลงในบัญชี Brave ของคุณ}other{บันทึกบัตรลงในบัญชี Brave ของคุณ}}</translation>
+<translation id="3006790309890592320">Dissenter ขอแนะนำให้รีเซ็ตรหัสผ่านหากคุณใช้รหัสผ่านนี้ซ้ำในเว็บไซต์อื่น</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{บันทึกบัตรลงในบัญชี Dissenter ของคุณ}other{บันทึกบัตรลงในบัญชี Dissenter ของคุณ}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{ใช้หมายเลขเสมือนสำหรับบัตรนี้}other{เลือกบัตร}}</translation>
 <translation id="5759751709240058861">ใช้และเคลื่อนย้ายกล้องของคุณ</translation>
 <translation id="5763042198335101085">ป้อนที่อยู่อีเมลที่ถูกต้อง</translation>
@@ -1102,7 +1102,7 @@
 <translation id="5785756445106461925">นอกจากนี้ หน้านี้ประกอบด้วยทรัพยากรอื่นๆ ซึ่งไม่ปลอดภัย ผู้อื่นสามารถดูทรัพยากรเหล่านี้ขณะถ่ายโอน และผู้บุกรุกสามารถแก้ไขเพื่อเปลี่ยนรูปลักษณ์ของหน้าได้</translation>
 <translation id="5786044859038896871">คุณต้องการกรอกข้อมูลบัตรไหม</translation>
 <translation id="5798290721819630480">ทิ้งการเปลี่ยนแปลงไหม</translation>
-<translation id="2828698628112858998">เปลี่ยนหน้าแรกในการตั้งค่า Brave</translation>
+<translation id="2828698628112858998">เปลี่ยนหน้าแรกในการตั้งค่า Dissenter</translation>
 <translation id="5803412860119678065">คุณต้องการกรอกข้อมูล <ph name="CARD_DETAIL"/> ไหม</translation>
 <translation id="5804241973901381774">การอนุญาต</translation>
 <translation id="5804427196348435412">ใช้อุปกรณ์ NFC</translation>
@@ -1131,7 +1131,7 @@
 <translation id="59174027418879706">เปิดใช้งาน</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">เปิด</translation>
-<translation id="2687595201721621314">บันทึกบัตรลงในบัญชี Brave ไหม</translation>
+<translation id="2687595201721621314">บันทึกบัตรลงในบัญชี Dissenter ไหม</translation>
 <translation id="5922853866070715753">เกือบเสร็จแล้ว</translation>
 <translation id="5932224571077948991">เว็บไซต์แสดงโฆษณาที่แทรกหรือทำให้เข้าใจผิด</translation>
 <translation id="5946937721014915347">กำลังเปิด <ph name="SITE_NAME"/>…</translation>
@@ -1180,10 +1180,10 @@
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">หน้าเว็บที่ <ph name="PAGE"/> อาจใช้งานไม่ได้ชั่วคราวหรืออาจมีการย้ายไปยังที่อยู่เว็บใหม่อย่างถาวรแล้ว</translation>
 <translation id="6107012941649240045">ออกให้แก่</translation>
-<translation id="8233947174119245051">บัญชี Brave อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
+<translation id="8233947174119245051">บัญชี Dissenter อาจมีประวัติการท่องเว็บรูปแบบอื่นๆ ที่ <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/></translation>
 <translation id="6116338172782435947">ดูข้อความและรูปภาพที่คัดลอกไปที่คลิปบอร์ด</translation>
 <translation id="6120179357481664955">จำรหัส UPI ไหม</translation>
-<translation id="5972135347314259717">เครื่องมือเชื่อมต่อ Brave Enterprise</translation>
+<translation id="5972135347314259717">เครื่องมือเชื่อมต่อ Dissenter Enterprise</translation>
 <translation id="6146055958333702838">ตรวจสายเคเบิลและรีบูตเราเตอร์ โมเด็ม หรืออุปกรณ์เครือข่ายอื่น
     ที่คุณอาจใช้งานอยู่</translation>
 <translation id="614940544461990577">ลอง:</translation>
@@ -1195,11 +1195,11 @@
 <translation id="6180316780098470077">ช่วงเว้นระหว่างการลองใหม่แต่ละครั้ง</translation>
 <translation id="6196640612572343990">บล็อกคุกกี้ของบุคคลที่สาม</translation>
 <translation id="6203231073485539293">ตรวจสอบการเชื่อมต่ออินเทอร์เน็ต</translation>
-<translation id="8385639954311581596">ต้องการนำที่อยู่ออกจาก Brave ใช่ไหม</translation>
+<translation id="8385639954311581596">ต้องการนำที่อยู่ออกจาก Dissenter ใช่ไหม</translation>
 <translation id="622039917539443112">พับแบบขนาน</translation>
 <translation id="6221345481584921695">เมื่อเร็วๆ นี้ Google Safe Browsing <ph name="BEGIN_LINK"/>ตรวจพบมัลแวร์<ph name="END_LINK"/>ใน <ph name="SITE"/> เว็บไซต์ที่โดยปกติจะปลอดภัยบางครั้งอาจติดมัลแวร์ เนื้อหาที่เป็นอันตรายมาจาก <ph name="SUBRESOURCE_HOST"/> ซึ่งเป็นผู้เผยแพร่มัลแวร์ที่เป็นที่รู้จัก</translation>
 <translation id="6234122620015464377">ตัดออกหลังเอกสารแต่ละฉบับ</translation>
-<translation id="4765229189146046954">โลโก้ Brave Pay</translation>
+<translation id="4765229189146046954">โลโก้ Dissenter Pay</translation>
 <translation id="6241121617266208201">ซ่อนคำแนะนำ</translation>
 <translation id="624499991300733384">บริการจัดวางองค์ประกอบการพิมพ์</translation>
 <translation id="6254436959401408446">หน่วยความจำไม่เพียงพอที่จะเปิดหน้านี้</translation>
@@ -1209,10 +1209,10 @@
 <translation id="6264485186158353794">กลับสู่ความปลอดภัย</translation>
 <translation id="6265794661083428563">คัดลอกค่าของนโยบาย <ph name="POLICY_NAME"/></translation>
 <translation id="6266934640124581640">น้ำเงินอมเขียวอ่อน</translation>
-<translation id="9136010393039243713">Brave อัปเดต</translation>
+<translation id="9136010393039243713">Dissenter อัปเดต</translation>
 <translation id="6276112860590028508">หน้าเว็บจากเรื่องรออ่านของคุณจะปรากฏที่นี่</translation>
-<translation id="7954557091400543500">เพื่อให้ชำระเงินได้เร็วขึ้นในครั้งถัดไป โปรดบันทึกบัตรและที่อยู่สำหรับการเรียกเก็บเงินไว้ในบัญชี Brave</translation>
-<translation id="293801390522973485">Brave <ph name="BEGIN_EMPHASIS"/>จะไม่บันทึก<ph name="END_EMPHASIS"/>ข้อมูลต่อไปนี้
+<translation id="7954557091400543500">เพื่อให้ชำระเงินได้เร็วขึ้นในครั้งถัดไป โปรดบันทึกบัตรและที่อยู่สำหรับการเรียกเก็บเงินไว้ในบัญชี Dissenter</translation>
+<translation id="293801390522973485">Dissenter <ph name="BEGIN_EMPHASIS"/>จะไม่บันทึก<ph name="END_EMPHASIS"/>ข้อมูลต่อไปนี้
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>ประวัติการท่องเว็บ
           <ph name="LIST_ITEM"/>คุกกี้และข้อมูลเว็บไซต์
@@ -1222,7 +1222,7 @@
 <translation id="6282194474023008486">รหัสไปรษณีย์</translation>
 <translation id="6290238015253830360">บทความที่แนะนำจะปรากฏที่นี่</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">Brave Assistant ใน Brave หยุดทำงาน</translation>
+<translation id="5880900081429361525">Dissenter Assistant ใน Dissenter หยุดทำงาน</translation>
 <translation id="6305205051461490394">ไม่สามารถเข้าถึง <ph name="URL"/></translation>
 <translation id="6312113039770857350">หน้าเว็บไม่พร้อมใช้งาน</translation>
 <translation id="6321917430147971392">ตรวจสอบการตั้งค่า DNS</translation>
@@ -1247,7 +1247,7 @@
 <translation id="6401136357288658127">นโยบายนี้เลิกใช้งานไปแล้ว คุณควรใช้นโยบาย <ph name="NEW_POLICY"/> แทน</translation>
 <translation id="6404511346730675251">แก้ไขบุ๊กมาร์ก</translation>
 <translation id="6406765186087300643">C0 (ซองจดหมาย)</translation>
-<translation id="9018981925326888629">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
+<translation id="9018981925326888629">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
 <translation id="6410264514553301377">ป้อนวันหมดอายุและ CVC ของ <ph name="CREDIT_CARD"/></translation>
 <translation id="6423385022588644828">ยืนยันบัตรได้เร็วขึ้นโดยใช้ Touch ID จากนี้ไป</translation>
 <translation id="6425092077175753609">วัสดุ</translation>
@@ -1267,7 +1267,7 @@
 <translation id="6476284679642588870">จัดการวิธีการชำระเงิน</translation>
 <translation id="6489534406876378309">เริ่มอัปโหลดข้อขัดข้อง</translation>
 <translation id="6499038740797743453">รีเซ็ตรหัสผ่านไหม</translation>
-<translation id="3960299545138990065">รีสตาร์ท Brave</translation>
+<translation id="3960299545138990065">รีสตาร์ท Dissenter</translation>
 <translation id="6517596291481585650">คำเตือน: ระบบไม่ได้รวมนโยบายนี้เป็นรายการตามที่นโยบายระบุเพราะไม่ใช่รายการ</translation>
 <translation id="6518133107902771759">ยืนยัน</translation>
 <translation id="6521745193039995384">ไม่ได้ใช้งานอยู่</translation>
@@ -1297,14 +1297,14 @@
 <translation id="6631202559048444592">นโยบายนี้มีแหล่งที่มามากกว่า 1 แห่งแต่มีค่าต่างๆ เหมือนกัน</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">ล้าง</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{ไม่มี}=1{จาก 1 เว็บไซต์ (คุณจะไม่ออกจากระบบบัญชี Brave)}other{จาก # เว็บไซต์ (คุณจะไม่ออกจากระบบบัญชี Brave)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{ไม่มี}=1{จาก 1 เว็บไซต์ (คุณจะไม่ออกจากระบบบัญชี Dissenter)}other{จาก # เว็บไซต์ (คุณจะไม่ออกจากระบบบัญชี Dissenter)}}</translation>
 <translation id="6652101503459149953">ใช้ Windows Hello</translation>
 <translation id="6657585470893396449">รหัสผ่าน</translation>
 <translation id="6665553082534466207">เจาะรูด้านขวา 3 รู</translation>
 <translation id="6685834062052613830">ออกจากระบบและตั้งค่าให้เสร็จสมบูรณ์</translation>
 <translation id="6687335167692595844">ขอขนาดแบบอักษรแล้ว</translation>
 <translation id="6689249931105087298">สัมพัทธ์กับการบีบจุดสีดำ</translation>
-<translation id="5406652219015697259">Brave เสนอที่จะบันทึกบัตรลงในบัญชี Brave ของคุณเพราะคุณลงชื่อเข้าใช้อยู่ คุณปรับเปลี่ยนลักษณะการทำงานนี้ได้ในการตั้งค่า ชื่อผู้ถือบัตรมาจากบัญชีของคุณ</translation>
+<translation id="5406652219015697259">Dissenter เสนอที่จะบันทึกบัตรลงในบัญชี Dissenter ของคุณเพราะคุณลงชื่อเข้าใช้อยู่ คุณปรับเปลี่ยนลักษณะการทำงานนี้ได้ในการตั้งค่า ชื่อผู้ถือบัตรมาจากบัญชีของคุณ</translation>
 <translation id="6704582573942289642">ใช่เว็บไซต์ที่ถูกต้องไหม</translation>
 <translation id="6710213216561001401">ก่อนหน้า</translation>
 <translation id="6710594484020273272">&lt;พิมพ์ข้อความค้นหา&gt;</translation>
@@ -1337,14 +1337,14 @@
 <translation id="6874604403660855544">&amp;ทำซ้ำการเพิ่ม</translation>
 <translation id="6884662655240309489">ขนาด 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave ทำให้หน้านี้อ่านง่ายขึ้น Brave ดึงข้อมูลหน้าต้นฉบับผ่านการเชื่อมต่อที่ไม่ปลอดภัย</translation>
+<translation id="7265969755975834932">Dissenter ทำให้หน้านี้อ่านง่ายขึ้น Dissenter ดึงข้อมูลหน้าต้นฉบับผ่านการเชื่อมต่อที่ไม่ปลอดภัย</translation>
 <translation id="6891596781022320156">ระดับนโยบายไม่ได้รับการสนับสนุน</translation>
 <translation id="6895330447102777224">บัตรของคุณได้รับการยืนยันแล้ว</translation>
 <translation id="6897140037006041989">User agent</translation>
 <translation id="6898699227549475383">องค์กร (O)</translation>
 <translation id="6910240653697687763"><ph name="URL"/> ต้องการที่จะได้รับสิทธิ์ควบคุมอุปกรณ์ MIDI เต็มรูปแบบ</translation>
 <translation id="6915804003454593391">ผู้ใช้:</translation>
-<translation id="6722453239914327220">ชื่อนี้มาจากบัญชี Brave ของคุณ</translation>
+<translation id="6722453239914327220">ชื่อนี้มาจากบัญชี Dissenter ของคุณ</translation>
 <translation id="6944692733090228304">คุณป้อนรหัสผ่านในเว็บไซต์ที่ <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> ไม่ได้จัดการ เพื่อปกป้องบัญชี โปรดอย่าใช้รหัสผ่านซ้ำในแอปและเว็บไซต์อื่นๆ</translation>
 <translation id="6945221475159498467">เลือก</translation>
 <translation id="6948701128805548767">หากต้องการดูวิธีการรับสินค้าและข้อกำหนด โปรดเลือกที่อยู่</translation>
@@ -1360,10 +1360,10 @@
 <translation id="6972629891077993081">อุปกรณ์ HID</translation>
 <translation id="6973656660372572881">มีการระบุทั้งพร็อกซีเซิร์ฟเวอร์แบบคงที่และ URL สคริปต์ .pac ไว้</translation>
 <translation id="6973932557599545801">ขออภัย ฉันช่วยคุณไม่ได้ โปรดดำเนินการต่อด้วยตนเอง</translation>
-<translation id="846000886289004690">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave แนะนำให้ไปที่ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านทันที</translation>
-<translation id="6979158407327259162">Brave ไดรฟ์</translation>
+<translation id="846000886289004690">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter แนะนำให้ไปที่ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านทันที</translation>
+<translation id="6979158407327259162">Dissenter ไดรฟ์</translation>
 <translation id="6979440798594660689">ปิดเสียง (ค่าเริ่มต้น)</translation>
-<translation id="1714833602699685456">ไฟล์ที่คุณดาวน์โหลดจะส่งไปยัง Brave Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อนหรือมัลแวร์</translation>
+<translation id="1714833602699685456">ไฟล์ที่คุณดาวน์โหลดจะส่งไปยัง Dissenter Cloud หรือบุคคลที่สามเพื่อทำการวิเคราะห์ เช่น สแกนหาข้อมูลที่ละเอียดอ่อนหรือมัลแวร์</translation>
 <translation id="6989763994942163495">แสดงการตั้งค่าขั้นสูง...</translation>
 <translation id="6993898126790112050">6x9 (ซองจดหมาย)</translation>
 <translation id="6996312675313362352">แปลภาษา<ph name="ORIGINAL_LANGUAGE"/>เสมอ</translation>
@@ -1386,7 +1386,7 @@
 <translation id="7083258188081898530">ถาด 9</translation>
 <translation id="7086090958708083563">ผู้ใช้ขอการอัปโหลด</translation>
 <translation id="7087282848513945231">ประเทศ</translation>
-<translation id="5711818857380891233">ค้นหา <ph name="LINK"/> จาก Brave</translation>
+<translation id="5711818857380891233">ค้นหา <ph name="LINK"/> จาก Dissenter</translation>
 <translation id="7108338896283013870">ซ่อน</translation>
 <translation id="7108634116785509031"><ph name="HOST"/> ต้องการใช้กล้องถ่ายรูปของคุณ</translation>
 <translation id="7108819624672055576">อนุญาตโดยส่วนขยาย</translation>
@@ -1420,7 +1420,7 @@
 <translation id="7219179957768738017">การเชื่อมต่อใช้ <ph name="SSL_VERSION"/></translation>
 <translation id="7220786058474068424">กำลังดำเนินการ</translation>
 <translation id="7221855153210829124">แสดงการแจ้งเตือน</translation>
-<translation id="3619365259205518877">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
+<translation id="3619365259205518877">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
 <translation id="7233592378249864828">พิมพ์แผ่นงานยืนยัน</translation>
 <translation id="7238585580608191973">ลายนิ้วมือ SHA-256</translation>
 <translation id="7240120331469437312">ชื่อสำรองของหัวเรื่องใบรับรอง</translation>
@@ -1443,7 +1443,7 @@
 <translation id="7320336641823683070">ความช่วยเหลือเกี่ยวกับการเชื่อมต่อ</translation>
 <translation id="7323804146520582233">ซ่อนส่วน "<ph name="SECTION"/>"</translation>
 <translation id="733354035281974745">ลบล้างบัญชีภายในอุปกรณ์</translation>
-<translation id="8539546768943490744">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ขอแนะนำให้ไปที่ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านทันที</translation>
+<translation id="8539546768943490744">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ขอแนะนำให้ไปที่ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านทันที</translation>
 <translation id="7334320624316649418">&amp;ทำซ้ำการจัดลำดับใหม่</translation>
 <translation id="7337706099755338005">ยังไม่พร้อมให้ใช้งานในแพลตฟอร์มของคุณ</translation>
 <translation id="733923710415886693">ไม่มีการเปิดเผยใบรับรองของเซิร์ฟเวอร์ผ่านความโปร่งใสของใบรับรอง</translation>
@@ -1452,7 +1452,7 @@
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">บรรทัดคำสั่ง </translation>
 <translation id="7372973238305370288">ผลการค้นหา</translation>
-<translation id="3898257577441589237">ปัญหานี้เกิดจากใบรับรองที่คุณหรือคนอื่นติดตั้งไว้ในอุปกรณ์ เป็นที่ทราบกันว่า ใบรับรองนี้ใช้สำหรับการตรวจสอบและสกัดกั้นเครือข่าย และ Brave ไม่เชื่อถือใบรับรองนี้ แม้ว่าจะมีบางกรณีที่การตรวจสอบชอบด้วยกฎหมาย เช่น เครือข่ายของบริษัทหรือโรงเรียน แต่ Brave ก็ยังอยากจะแน่ใจว่าคุณรับรู้ว่ามีการตรวจสอบถึงแม้จะหยุดการตรวจสอบนั้นไม่ได้ก็ตาม การตรวจสอบอาจเกิดขึ้นได้ในทุกเบราว์เซอร์หรือแอปพลิเคชันที่เข้าถึงเว็บ</translation>
+<translation id="3898257577441589237">ปัญหานี้เกิดจากใบรับรองที่คุณหรือคนอื่นติดตั้งไว้ในอุปกรณ์ เป็นที่ทราบกันว่า ใบรับรองนี้ใช้สำหรับการตรวจสอบและสกัดกั้นเครือข่าย และ Dissenter ไม่เชื่อถือใบรับรองนี้ แม้ว่าจะมีบางกรณีที่การตรวจสอบชอบด้วยกฎหมาย เช่น เครือข่ายของบริษัทหรือโรงเรียน แต่ Dissenter ก็ยังอยากจะแน่ใจว่าคุณรับรู้ว่ามีการตรวจสอบถึงแม้จะหยุดการตรวจสอบนั้นไม่ได้ก็ตาม การตรวจสอบอาจเกิดขึ้นได้ในทุกเบราว์เซอร์หรือแอปพลิเคชันที่เข้าถึงเว็บ</translation>
 <translation id="7375818412732305729">มีการแนบไฟล์</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">การควบคุมสื่อ</translation>
@@ -1470,7 +1470,7 @@
       &lt;li&gt;เลือก&lt;strong&gt;ปิดใช้อยู่&lt;/strong&gt;ในส่วน&lt;strong&gt;ประเภทการเริ่มต้น&lt;/strong&gt;
       &lt;li&gt;คลิก&lt;strong&gt;หยุด&lt;/strong&gt;ในส่วน&lt;strong&gt;สถานะบริการ&lt;/strong&gt;
       &lt;li&gt;คลิก&lt;strong&gt;ใช้&lt;/strong&gt; แล้วคลิก&lt;strong&gt;ตกลง&lt;/strong&gt;
-      &lt;li&gt;ไปที่&lt;a href="https://support.google.com/chrome/answer/6098869"&gt;ศูนย์ช่วยเหลือของ Brave&lt;/a&gt; เพื่อดูวิธีนำซอฟต์แวร์ดังกล่าวออกจากคอมพิวเตอร์อย่างถาวร
+      &lt;li&gt;ไปที่&lt;a href="https://support.google.com/chrome/answer/6098869"&gt;ศูนย์ช่วยเหลือของ Dissenter&lt;/a&gt; เพื่อดูวิธีนำซอฟต์แวร์ดังกล่าวออกจากคอมพิวเตอร์อย่างถาวร
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">เรียกใช้ Flash</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1490,7 +1490,7 @@
 <translation id="7481312909269577407">ส่งต่อ</translation>
 <translation id="7485870689360869515">ไม่พบข้อมูล</translation>
 <translation id="7488762544858401571">แก้ไขแล้ว</translation>
-<translation id="3692186536781145635">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Brave ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้และเปลี่ยนรหัสผ่านที่ใช้ใน <ph name="ORIGIN"/> โดยทันที</translation>
+<translation id="3692186536781145635">การละเมิดข้อมูลในเว็บไซต์หรือแอปเปิดเผยรหัสผ่านของคุณ Dissenter ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้และเปลี่ยนรหัสผ่านที่ใช้ใน <ph name="ORIGIN"/> โดยทันที</translation>
 <translation id="7495528107193238112">เนื้อหานี้ถูกบล็อก โปรดติดต่อเจ้าของเว็บไซต์เพื่อให้แก้ปัญหา</translation>
 <translation id="7498234416455752244">แก้ไขต่อ</translation>
 <translation id="7508255263130623398">รหัสอุปกรณ์นโยบายที่ส่งกลับว่างเปล่าหรือไม่ตรงกับรหัสอุปกรณ์ปัจจุบัน</translation>
@@ -1508,13 +1508,13 @@
 <translation id="7542995811387359312">การป้อนหมายเลขบัตรเครดิตอัตโนมัติถูกปิดใช้งานเนื่องจากฟอร์มนี้ไม่ได้ใช้การเชื่อมต่อที่ปลอดภัย</translation>
 <translation id="7548892272833184391">แก้ไขข้อผิดพลาดในการเชื่อมต่อ</translation>
 <translation id="7549584377607005141">หน้าเว็บนี้ต้องใช้ข้อมูลที่คุณป้อนก่อนหน้านี้เพื่อให้แสดงได้อย่างถูกต้อง คุณสามารถส่งข้อมูลนี้ได้อีกครั้ง แต่การทำเช่นนั้นจะเป็นการทำสิ่งที่หน้าเว็บนี้เคยดำเนินการซ้ำอีกครั้ง</translation>
-<translation id="5474381306981932386">ชื่อผู้ใช้ของคุณในอุปกรณ์และใน Brave</translation>
+<translation id="5474381306981932386">ชื่อผู้ใช้ของคุณในอุปกรณ์และใน Dissenter</translation>
 <translation id="7552846755917812628">ลองทำตามเคล็ดลับต่อไปนี้:</translation>
 <translation id="7554791636758816595">แท็บใหม่</translation>
 <translation id="7567204685887185387">เซิร์ฟเวอร์นี้ไม่สามารถพิสูจน์ได้ว่าเป็น <ph name="DOMAIN"/> เพราะอาจมีการออกใบรับรองความปลอดภัยปลอม โดยอาจเกิดจากการกำหนดค่าผิดหรือผู้บุกรุกที่ขัดขวางการเชื่อมต่อของคุณ</translation>
 <translation id="7569983096843329377">สีดำ</translation>
 <translation id="7575207903026901870">ปุ่ม "นำคำแนะนำออก" กด Enter เพื่อนำคำแนะนำนี้ออก</translation>
-<translation id="405970181812690156">ชำระเงินบนเว็บไซต์และแอปในอุปกรณ์ต่างๆ ได้อย่างรวดเร็วด้วยบัตรที่คุณได้บันทึกไว้กับ Brave</translation>
+<translation id="405970181812690156">ชำระเงินบนเว็บไซต์และแอปในอุปกรณ์ต่างๆ ได้อย่างรวดเร็วด้วยบัตรที่คุณได้บันทึกไว้กับ Dissenter</translation>
 <translation id="7581199239021537589">เปลี่ยนตำแหน่งรูปภาพด้าน 2 ตามแกน Y</translation>
 <translation id="7591636454931265313"><ph name="EMBEDDED_URL"/> ต้องการใช้คุกกี้และข้อมูลเว็บไซต์ใน <ph name="TOP_LEVEL_URL"/></translation>
 <translation id="7592362899630581445">ใบรับรองของเซิร์ฟเวอร์ละเมิดข้อกำหนดชื่อ</translation>
@@ -1523,12 +1523,12 @@
 <translation id="7600965453749440009">ไม่ต้องแปลภาษา<ph name="LANGUAGE"/></translation>
 <translation id="7610193165460212391">ค่าอยู่นอกช่วง <ph name="VALUE"/></translation>
 <translation id="7613889955535752492">หมดอายุ: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">คุณมีข้อมูลที่ถูกเข้ารหัสโดยใช้รหัสผ่านบัญชี Brave รูปแบบอื่นอยู่แล้ว โปรดป้อนรหัสผ่านด้านล่าง</translation>
-<translation id="8565825862287624454">ผู้ดูแลระบบได้เปิดใช้เครื่องมือเชื่อมต่อ Brave Enterprise ในเบราว์เซอร์ เครื่องมือเชื่อมต่อเหล่านี้เข้าถึงข้อมูลบางอย่างของคุณได้</translation>
+<translation id="6994126885316933886">คุณมีข้อมูลที่ถูกเข้ารหัสโดยใช้รหัสผ่านบัญชี Dissenter รูปแบบอื่นอยู่แล้ว โปรดป้อนรหัสผ่านด้านล่าง</translation>
+<translation id="8565825862287624454">ผู้ดูแลระบบได้เปิดใช้เครื่องมือเชื่อมต่อ Dissenter Enterprise ในเบราว์เซอร์ เครื่องมือเชื่อมต่อเหล่านี้เข้าถึงข้อมูลบางอย่างของคุณได้</translation>
 <translation id="7619838219691048931">แผ่นงานสุดท้าย</translation>
 <translation id="762844065391966283">ทีละรายการ</translation>
 <translation id="7633909222644580952">ข้อมูลประสิทธิภาพและรายงานข้อขัดข้อง</translation>
-<translation id="6386821459680628976">ต้องการนำบัตรเครดิตออกจาก Brave ใช่ไหม</translation>
+<translation id="6386821459680628976">ต้องการนำบัตรเครดิตออกจาก Dissenter ใช่ไหม</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{ไม่มี}=1{รหัสผ่าน 1 รายการในบัญชี (สำหรับ <ph name="DOMAIN_LIST"/>)}other{รหัสผ่าน # รายการในบัญชี (สำหรับ <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">พอร์ตอนุกรม</translation>
 <translation id="7639968568612851608">เทาเข้ม</translation>
@@ -1581,9 +1581,9 @@
 <translation id="7802523362929240268">ไซต์ถูกต้อง</translation>
 <translation id="780301667611848630">ไม่ ขอบคุณ</translation>
 <translation id="7805768142964895445">สถานะ</translation>
-<translation id="3350174497208615172">เปลี่ยนการตั้งค่าเครื่องมือค้นหาใน Brave</translation>
+<translation id="3350174497208615172">เปลี่ยนการตั้งค่าเครื่องมือค้นหาใน Dissenter</translation>
 <translation id="7812922009395017822">Mir</translation>
-<translation id="4670564340385807132">นำคำแนะนำสำหรับแบบฟอร์มออกจาก Brave ไหม</translation>
+<translation id="4670564340385807132">นำคำแนะนำสำหรับแบบฟอร์มออกจาก Dissenter ไหม</translation>
 <translation id="781440967107097262">แชร์คลิปบอร์ดไหม</translation>
 <translation id="7815407501681723534">พบ<ph name="SEARCH_RESULTS"/> <ph name="NUMBER_OF_RESULTS"/> รายการสำหรับ "<ph name="SEARCH_STRING"/>"</translation>
 <translation id="782886543891417279">Wi-Fi ที่คุณใช้ (<ph name="WIFI_NAME"/>) อาจต้องการให้คุณไปที่หน้าการเข้าสู่ระบบ</translation>
@@ -1592,7 +1592,7 @@
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">ออกจากเว็บไซต์ไหม</translation>
 <translation id="7865448901209910068">เร็วที่สุด</translation>
-<translation id="1012292338579042608">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
+<translation id="1012292338579042608">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
 <translation id="7878562273885520351">รหัสผ่านของคุณอาจถูกขโมยได้</translation>
 <translation id="7882421473871500483">น้ำตาล</translation>
 <translation id="7887683347370398519">ตรวจสอบ CVC และลองอีกครั้ง</translation>
@@ -1602,7 +1602,7 @@
 <translation id="7932579305932748336">เคลือบ</translation>
 <translation id="79338296614623784">ป้อนหมายเลขโทรศัพท์ที่ถูกต้อง</translation>
 <translation id="7934052535022478634">การชำระเงินเสร็จสมบูรณ์</translation>
-<translation id="8329449853370113380"><ph name="URL"/> ต้องการเปิดเนื้อหาที่ได้รับความคุ้มครอง Brave จะตรวจสอบข้อมูลประจำตัวของอุปกรณ์</translation>
+<translation id="8329449853370113380"><ph name="URL"/> ต้องการเปิดเนื้อหาที่ได้รับความคุ้มครอง Dissenter จะตรวจสอบข้อมูลประจำตัวของอุปกรณ์</translation>
 <translation id="7935031712718413217">อาจเป็น URL ที่มีการปลอมแปลง</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">หมดอายุ <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1634,11 +1634,11 @@
 <translation id="8042918947222776840">เลือกวิธีรับสินค้า</translation>
 <translation id="8057711352706143257">กำหนดค่า "<ph name="SOFTWARE_NAME"/>" ไม่ถูกต้อง การถอนการติดตั้ง "<ph name="SOFTWARE_NAME"/>" มักแก้ไขปัญหานี้ได้ <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">ขออภัย มีบางอย่างผิดพลาด</translation>
-<translation id="5442778523450464826">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ช่วยคุณได้ หากต้องการเปลี่ยนรหัสผ่านและแจ้งให้ Brave ทราบว่าบัญชีของคุณอาจมีความเสี่ยง ให้คลิก "ปกป้องบัญชี"</translation>
+<translation id="5442778523450464826">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ช่วยคุณได้ หากต้องการเปลี่ยนรหัสผ่านและแจ้งให้ Dissenter ทราบว่าบัญชีของคุณอาจมีความเสี่ยง ให้คลิก "ปกป้องบัญชี"</translation>
 <translation id="8074253406171541171">10x13 (ซองจดหมาย)</translation>
 <translation id="8078141288243656252">เมื่อหมุนแล้วจะใส่หมายเหตุไม่ได้</translation>
 <translation id="8079031581361219619">โหลดเว็บไซต์ซ้ำไหม</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">ฉบับร่าง</translation>
 <translation id="8088680233425245692">การดูบทความล้มเหลว</translation>
 <translation id="808894953321890993">เปลี่ยนรหัสผ่าน</translation>
@@ -1657,7 +1657,7 @@
 <translation id="8150722005171944719">ไฟล์ที่ <ph name="URL"/> ไม่สามารถอ่านได้ เนื่องจากอาจถูกลบ ย้ายไปแล้ว หรือการอนุญาตของไฟล์อาจป้องกันการเข้าถึง</translation>
 <translation id="8157295877370077682">ออกจากเว็บไซต์</translation>
 <translation id="8163866351304776260">เจาะรูด้านซ้าย 4 รู</translation>
-<translation id="4351627595884993315">Brave เสนอที่จะบันทึกบัตรลงในบัญชี Brave ของคุณเพราะคุณลงชื่อเข้าใช้อยู่ คุณปรับเปลี่ยนลักษณะการทำงานนี้ได้ในการตั้งค่า</translation>
+<translation id="4351627595884993315">Dissenter เสนอที่จะบันทึกบัตรลงในบัญชี Dissenter ของคุณเพราะคุณลงชื่อเข้าใช้อยู่ คุณปรับเปลี่ยนลักษณะการทำงานนี้ได้ในการตั้งค่า</translation>
 <translation id="8184538546369750125">ใช้ค่าเริ่มต้นสากล (อนุญาต)</translation>
 <translation id="8194797478851900357">&amp;เลิกทำการย้าย</translation>
 <translation id="8197543752516192074">แปลหน้าเว็บ</translation>
@@ -1668,7 +1668,7 @@
 <translation id="8211406090763984747">การเชื่อมต่อปลอดภัย</translation>
 <translation id="8218327578424803826">ตำแหน่งที่มอบหมาย:</translation>
 <translation id="8220146938470311105">C7/C6 (ซองจดหมาย)</translation>
-<translation id="3272614036080146686">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave แนะนำให้ไปที่ <ph name="WEBSITE_1"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านโดยทันที</translation>
+<translation id="3272614036080146686">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter แนะนำให้ไปที่ <ph name="WEBSITE_1"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ และเปลี่ยนรหัสผ่านโดยทันที</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">อุณหภูมิของแพลตฟอร์ม</translation>
 <translation id="8241707690549784388">หน้าที่คุณกำลังมองหาใช้ข้อมูลที่คุณได้ป้อนไว้แล้ว การกลับไปสู่หน้านั้นอาจทำให้คุณต้องทำซ้ำการดำเนินการใดๆ ที่คุณทำแล้ว คุณต้องการดำเนินการต่อหรือไม่</translation>
@@ -1695,7 +1695,7 @@
 <translation id="830498451218851433">พับครึ่ง</translation>
 <translation id="8307358339886459768">รูปภาพขนาดเล็ก</translation>
 <translation id="8307888238279532626">แอปที่ติดตั้งและความถี่ในการใช้</translation>
-<translation id="8390490312179389407">หน้านี้ดูน่าสงสัย (แจ้งโดย Brave)</translation>
+<translation id="8390490312179389407">หน้านี้ดูน่าสงสัย (แจ้งโดย Dissenter)</translation>
 <translation id="831997045666694187">ตอนเย็น</translation>
 <translation id="8332188693563227489">การเข้าถึง <ph name="HOST_NAME"/> ถูกปฏิเสธ</translation>
 <translation id="833262891116910667">ไฮไลต์</translation>
@@ -1726,14 +1726,14 @@
 <translation id="8473863474539038330">ที่อยู่และอื่นๆ</translation>
 <translation id="8474910779563686872">แสดงรายละเอียดนักพัฒนาซอฟต์แวร์</translation>
 <translation id="8479754468255770962">เย็บด้วยลวดเย็บกระดาษด้านซ้ายล่าง</translation>
-<translation id="5142582872611298328">หากต้องการใช้การ์ดจากบัญชี Brave ให้ลงชื่อเข้าใช้ Brave</translation>
+<translation id="5142582872611298328">หากต้องการใช้การ์ดจากบัญชี Dissenter ให้ลงชื่อเข้าใช้ Dissenter</translation>
 <translation id="8488350697529856933">ใช้กับ</translation>
 <translation id="8490137692873530638">สแต็กเกอร์ 10</translation>
 <translation id="8498891568109133222"><ph name="HOST_NAME"/> ใช้เวลาตอบกลับนานเกินไป</translation>
-<translation id="230699814587342492">รหัสผ่าน Brave</translation>
+<translation id="230699814587342492">รหัสผ่าน Dissenter</translation>
 <translation id="8503813439785031346">ชื่อผู้ใช้</translation>
 <translation id="8508648098325802031">ไอคอนค้นหา</translation>
-<translation id="1426902392270366682">Brave ช่วยคุณปกป้องบัญชี Brave และเปลี่ยนรหัสผ่านได้</translation>
+<translation id="1426902392270366682">Dissenter ช่วยคุณปกป้องบัญชี Dissenter และเปลี่ยนรหัสผ่านได้</translation>
 <translation id="8541158209346794904">อุปกรณ์บลูทูธ</translation>
 <translation id="8542014550340843547">เย็บด้วยลวดเย็บกระดาษด้านล่าง 3 ครั้ง</translation>
 <translation id="8543181531796978784">คุณสามารถ<ph name="BEGIN_ERROR_LINK"/>รายงานปัญหาในการตรวจหา<ph name="END_ERROR_LINK"/>ได้ หรือหากคุณเข้าใจถึงความเสี่ยงต่อความปลอดภัยของคุณ คุณสามารถ<ph name="BEGIN_LINK"/>เข้าชมเว็บไซต์ที่ไม่ปลอดภัย<ph name="END_LINK"/>ได้</translation>
@@ -1767,7 +1767,7 @@
 <translation id="8719528812645237045">เจาะรูด้านบนหลายรู</translation>
 <translation id="8725066075913043281">ลองอีกครั้ง</translation>
 <translation id="8730621377337864115">เสร็จสิ้น</translation>
-<translation id="6326805297893828864">หากต้องเริ่มการเชื่อมต่อที่ปลอดภัย นาฬิกาจะต้องตั้งค่าไว้อย่างถูกต้อง เนื่องจากใบรับรองที่เว็บไซต์ใช้เพื่อระบุตนเองจะใช้ได้เฉพาะช่วงเวลาหนึ่งเท่านั้น นาฬิกาของอุปกรณ์ไม่ถูกต้อง Brave จึงไม่สามารถยืนยันใบรับรองเหล่านี้ได้</translation>
+<translation id="6326805297893828864">หากต้องเริ่มการเชื่อมต่อที่ปลอดภัย นาฬิกาจะต้องตั้งค่าไว้อย่างถูกต้อง เนื่องจากใบรับรองที่เว็บไซต์ใช้เพื่อระบุตนเองจะใช้ได้เฉพาะช่วงเวลาหนึ่งเท่านั้น นาฬิกาของอุปกรณ์ไม่ถูกต้อง Dissenter จึงไม่สามารถยืนยันใบรับรองเหล่านี้ได้</translation>
 <translation id="8740359287975076522">ไม่พบ&lt;abbr id="dnsDefinition"&gt;ที่อยู่ DNS&lt;/abbr&gt; ของ <ph name="HOST_NAME"/> กำลังวินิจฉัยปัญหา</translation>
 <translation id="874918643257405732">บุ๊กมาร์กแท็บนี้</translation>
 <translation id="8751426954251315517">โปรดลองอีกครั้งในคราวหน้า</translation>
@@ -1775,11 +1775,11 @@
 <translation id="87601671197631245">เว็บไซต์นี้ใช้การกำหนดค่าความปลอดภัยที่ล้าสมัย ซึ่งอาจเปิดเผยข้อมูลของคุณ (เช่น รหัสผ่าน ข้อความ หรือบัตรเครดิต) เมื่อมีการส่งไปยังเว็บไซต์นี้</translation>
 <translation id="8761567432415473239">Google Safe Browsing <ph name="BEGIN_LINK"/>พบโปรแกรมที่เป็นอันตราย<ph name="END_LINK"/>บน <ph name="SITE"/> เมื่อเร็วๆ นี้</translation>
 <translation id="8763927697961133303">อุปกรณ์ USB</translation>
-<translation id="565908431635579039">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Brave ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
+<translation id="565908431635579039">คุณเพิ่งใส่รหัสผ่านในเว็บไซต์ที่มีการหลอกลวง Dissenter ขอแนะนำให้ตรวจสอบรหัสผ่านที่บันทึกไว้สำหรับ <ph name="WEBSITE_1"/> และเว็บไซต์อื่นๆ ที่คุณใช้รหัสผ่านนี้ทันที</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;ทำซ้ำการนำออก</translation>
-<translation id="5304100303568917877">คุณอาจเข้าถึงบัญชี <ph name="ORG_NAME"/> ไม่ได้หรือถูกโจรกรรมข้อมูลประจำตัว Brave ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
-<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> ได้เปิดใช้เครื่องมือเชื่อมต่อ Brave Enterprise ในเบราว์เซอร์ เครื่องมือเชื่อมต่อเหล่านี้เข้าถึงข้อมูลบางอย่างของคุณได้</translation>
+<translation id="5304100303568917877">คุณอาจเข้าถึงบัญชี <ph name="ORG_NAME"/> ไม่ได้หรือถูกโจรกรรมข้อมูลประจำตัว Dissenter ขอแนะนำให้เปลี่ยนรหัสผ่านตอนนี้เลย</translation>
+<translation id="9156291179464624174"><ph name="ENROLLMENT_DOMAIN"/> ได้เปิดใช้เครื่องมือเชื่อมต่อ Dissenter Enterprise ในเบราว์เซอร์ เครื่องมือเชื่อมต่อเหล่านี้เข้าถึงข้อมูลบางอย่างของคุณได้</translation>
 <translation id="8800988563907321413">คำแนะนำในบริเวณใกล้เคียงจะปรากฏที่นี่</translation>
 <translation id="8805819170075074995">รายการ "<ph name="LANGUAGE_ID"/>": ระบบไม่สนใจรายการนี้เพราะมีอยู่ในนโยบาย SpellcheckLanguage เช่นกัน</translation>
 <translation id="8807160976559152894">ตัดออกหลังหน้าแต่ละหน้า</translation>
@@ -1787,8 +1787,8 @@
 <translation id="883848425547221593">บุ๊กมาร์กอื่นๆ</translation>
 <translation id="884264119367021077">ที่อยู่สำหรับจัดส่ง</translation>
 <translation id="884923133447025588">ไม่พบกระบวนการเพิกถอน</translation>
-<translation id="7487066225574140895">การแชร์กับ Brave</translation>
-<translation id="4764754838347156633">Brave ขอแนะนำให้รีเซ็ตรหัสผ่าน <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> หากคุณใช้รหัสผ่านนี้ซ้ำในเว็บไซต์อื่น</translation>
+<translation id="7487066225574140895">การแชร์กับ Dissenter</translation>
+<translation id="4764754838347156633">Dissenter ขอแนะนำให้รีเซ็ตรหัสผ่าน <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> หากคุณใช้รหัสผ่านนี้ซ้ำในเว็บไซต์อื่น</translation>
 <translation id="8866481888320382733">ข้อผิดพลาดในการแยกวิเคราะห์การตั้งค่านโยบาย</translation>
 <translation id="8866928039507595380">พับ</translation>
 <translation id="886872106311861689">B3</translation>
@@ -1800,15 +1800,15 @@
 <translation id="8903921497873541725">ขยาย</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">ปุ่ม "นำคำแนะนำออก" กด Enter เพื่อนำออก <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">บัญชี Brave</translation>
+<translation id="2684652081942622950">บัญชี Dissenter</translation>
 <translation id="8918231688545606538">หน้านี้ดูน่าสงสัย</translation>
 <translation id="892588693504540538">เจาะรูด้านขวาบน</translation>
-<translation id="7757992844965332255">คุณต้องการบันทึกบัตรนี้ในบัญชี Brave ไหม</translation>
+<translation id="7757992844965332255">คุณต้องการบันทึกบัตรนี้ในบัญชี Dissenter ไหม</translation>
 <translation id="8932102934695377596">นาฬิกาช้าเกินไป</translation>
 <translation id="893332455753468063">เพิ่มชื่อ</translation>
 <translation id="8943282376843390568">เหลืองมะนาว</translation>
 <translation id="8957210676456822347">การให้สิทธิ์แคปทีฟพอร์ทัล</translation>
-<translation id="109444839364056698">เมื่อเครื่องมือเชื่อมต่อ Brave Enterprise ติดธงการดำเนินการด้านความปลอดภัย ระบบจะส่งข้อมูลที่เกี่ยวข้องกับการดำเนินการนั้นไปให้ผู้ดูแลระบบ ข้อมูลนี้อาจมี URL ของหน้าที่คุณเข้าชมใน Brave, ชื่อหรือข้อมูลเมตาของไฟล์ และชื่อผู้ใช้ที่คุณลงชื่อเข้าใช้อุปกรณ์และ Brave</translation>
+<translation id="109444839364056698">เมื่อเครื่องมือเชื่อมต่อ Dissenter Enterprise ติดธงการดำเนินการด้านความปลอดภัย ระบบจะส่งข้อมูลที่เกี่ยวข้องกับการดำเนินการนั้นไปให้ผู้ดูแลระบบ ข้อมูลนี้อาจมี URL ของหน้าที่คุณเข้าชมใน Dissenter, ชื่อหรือข้อมูลเมตาของไฟล์ และชื่อผู้ใช้ที่คุณลงชื่อเข้าใช้อุปกรณ์และ Dissenter</translation>
 <translation id="8962950042226115166">เว็บไซต์ที่น่าสงสัย</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>คำแนะนำ:<ph name="MARKUP_2"/>ตรวจสอบว่าคุณมีการเชื่อมต่ออินเทอร์เน็ต<ph name="MARKUP_3"/>โหลดหน้าเว็บนี้อีกครั้งในภายหลัง<ph name="MARKUP_4"/>ตรวจสอบที่อยู่ที่คุณป้อน<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">บันทึกบัตร</translation>
@@ -1816,7 +1816,7 @@
 <translation id="8975012916872825179">รวมข้อมูล เช่น หมายเลขโทรศัพท์ อีเมล และที่อยู่สำหรับจัดส่ง</translation>
 <translation id="8975263830901772334">ชื่อของไฟล์ที่คุณพิมพ์</translation>
 <translation id="8978053250194585037">เมื่อเร็วๆ นี้ Google Safe Browsing <ph name="BEGIN_LINK"/>ตรวจพบฟิชชิง<ph name="END_LINK"/>ใน <ph name="SITE"/> เว็บไซต์ฟิชชิงปลอมเป็นเว็บไซต์อื่นๆ เพื่อหลอกคุณ</translation>
-<translation id="5889706513445719653">วิธีการชำระเงินและที่อยู่จาก Brave Pay</translation>
+<translation id="5889706513445719653">วิธีการชำระเงินและที่อยู่จาก Dissenter Pay</translation>
 <translation id="8987927404178983737">เดือน</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">ไซต์ที่จะเปิดมีโปรแกรมที่เป็นอันตราย</translation>
@@ -1845,10 +1845,10 @@
 <translation id="9089260154716455634">นโยบายสำหรับช่วงที่ไม่ค่อยมีการใช้งาน:</translation>
 <translation id="9095388113577226029">ภาษาเพิ่มเติม...</translation>
 <translation id="9101630580131696064">ถาด 1</translation>
-<translation id="6373940988468425649">โดยทั่วไป <ph name="SITE"/> จะใช้การเข้ารหัสเพื่อปกป้องข้อมูลของคุณ เมื่อ Brave พยายามเชื่อมต่อกับ <ph name="SITE"/> ในครั้งนี้ เว็บไซต์ดังกล่าวส่งข้อมูลรับรองที่ผิดปกติและไม่ถูกต้องกลับมา เหตุการณ์นี้อาจเกิดขึ้นเมื่อผู้บุกรุกพยายามปลอมเป็น <ph name="SITE"/> หรือหน้าจอการลงชื่อเข้าใช้ Wi-Fi รบกวนการเชื่อมต่อ ข้อมูลของคุณยังปลอดภัยอยู่เนื่องจาก Brave หยุดการเชื่อมต่อก่อนมีการแลกเปลี่ยนข้อมูล</translation>
+<translation id="6373940988468425649">โดยทั่วไป <ph name="SITE"/> จะใช้การเข้ารหัสเพื่อปกป้องข้อมูลของคุณ เมื่อ Dissenter พยายามเชื่อมต่อกับ <ph name="SITE"/> ในครั้งนี้ เว็บไซต์ดังกล่าวส่งข้อมูลรับรองที่ผิดปกติและไม่ถูกต้องกลับมา เหตุการณ์นี้อาจเกิดขึ้นเมื่อผู้บุกรุกพยายามปลอมเป็น <ph name="SITE"/> หรือหน้าจอการลงชื่อเข้าใช้ Wi-Fi รบกวนการเชื่อมต่อ ข้อมูลของคุณยังปลอดภัยอยู่เนื่องจาก Dissenter หยุดการเชื่อมต่อก่อนมีการแลกเปลี่ยนข้อมูล</translation>
 <translation id="9106062320799175032">เพิ่มที่อยู่สำหรับการเรียกเก็บเงิน</translation>
 <translation id="9114524666733003316">กำลังยืนยันบัตร…</translation>
-<translation id="3582535072753734287">เบราว์เซอร์นี้ไม่ได้จัดการโดยบริษัทหรือองค์กรอื่นๆ กิจกรรมในอุปกรณ์นี้อาจมีการจัดการภายนอก Brave <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">เบราว์เซอร์นี้ไม่ได้จัดการโดยบริษัทหรือองค์กรอื่นๆ กิจกรรมในอุปกรณ์นี้อาจมีการจัดการภายนอก Dissenter <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">อัปโหลดแล้ว</translation>
 <translation id="9128870381267983090">เชื่อมต่อกับเครือข่าย</translation>
 <translation id="9137013805542155359">แสดงหน้าเว็บเดิม</translation>
@@ -1856,7 +1856,7 @@
 <translation id="9148088599418889305">เลือกวิธีการจัดส่ง</translation>
 <translation id="9148507642005240123">&amp;เลิกทำการแก้ไข</translation>
 <translation id="9150045010208374699">ใช้กล้องถ่ายรูปของคุณ</translation>
-<translation id="5874192512642998555">ผู้ดูแลระบบจะเปลี่ยนการตั้งค่าเบราว์เซอร์จากระยะไกลได้ กิจกรรมในอุปกรณ์นี้อาจมีการจัดการภายนอก Brave ได้ด้วย <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">ผู้ดูแลระบบจะเปลี่ยนการตั้งค่าเบราว์เซอร์จากระยะไกลได้ กิจกรรมในอุปกรณ์นี้อาจมีการจัดการภายนอก Dissenter ได้ด้วย <ph name="BEGIN_LINK"/>ดูข้อมูลเพิ่มเติม<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">อัปเดตแล้ว</translation>
 <translation id="9157595877708044936">กำลังตั้งค่า...</translation>
 <translation id="9158625974267017556">C6 (ซองจดหมาย)</translation>
@@ -1867,17 +1867,17 @@
 <translation id="9173282814238175921">เอกสารเดียว/แผ่นงานใหม่</translation>
 <translation id="917450738466192189">ใบรับรองของเซิร์ฟเวอร์ไม่ถูกต้อง</translation>
 <translation id="9174917557437862841">ปุ่มเปลี่ยนแท็บ โปรดกด Enter เพื่อเปลี่ยนไปยังแท็บนี้</translation>
-<translation id="9183302530794969518">Brave เอกสาร</translation>
+<translation id="9183302530794969518">Dissenter เอกสาร</translation>
 <translation id="9183425211371246419"><ph name="HOST_NAME"/> ใช้โปรโตคอลที่ไม่รองรับ</translation>
 <translation id="9191834167571392248">เจาะรูด้านซ้ายล่าง</translation>
 <translation id="9205078245616868884">ข้อมูลของคุณมีการเข้ารหัสด้วยรหัสผ่านการซิงค์ โปรดป้อนรหัสผ่านเพื่อเริ่มซิงค์</translation>
 <translation id="9207861905230894330">การเพิ่มบทความล้มเหลว</translation>
-<translation id="2206050430829841793">มีแอปพลิเคชันที่ห้ามไม่ให้ Brave เชื่อมต่อกับไซต์นี้อย่างปลอดภัย</translation>
+<translation id="2206050430829841793">มีแอปพลิเคชันที่ห้ามไม่ให้ Dissenter เชื่อมต่อกับไซต์นี้อย่างปลอดภัย</translation>
 <translation id="9219103736887031265">ภาพ</translation>
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">ล้างฟอร์ม</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">คุณอาจสูญเสียสิทธิ์เข้าถึงบัญชี Brave ของคุณ Brave ขอแนะนำให้เปลี่ยนรหัสผ่านทันที ระบบจะขอให้คุณลงชื่อเข้าใช้</translation>
+<translation id="7486559383537872796">คุณอาจสูญเสียสิทธิ์เข้าถึงบัญชี Dissenter ของคุณ Dissenter ขอแนะนำให้เปลี่ยนรหัสผ่านทันที ระบบจะขอให้คุณลงชื่อเข้าใช้</translation>
 <translation id="939736085109172342">โฟลเดอร์ใหม่</translation>
 <translation id="945855313015696284">ตรวจสอบข้อมูลด้านล่างและลบบัตรที่ไม่ถูกต้อง</translation>
 <translation id="950736567201356821">เจาะรูด้านบน 3 รู</translation>
@@ -1902,7 +1902,7 @@
     &lt;li&gt;ลองเชื่อมต่อกับเครือข่ายอื่น&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">จาก Brave Pay</translation>
+<translation id="6771143571626203666">จาก Dissenter Pay</translation>
 <translation id="8820817407110198400">บุ๊กมาร์ก</translation>
 <translation id="8362995731815961365">ผู้ที่ตั้งค่าคอมพิวเตอร์เครื่องนี้เลือกบล็อกเว็บไซต์นี้</translation>
 <translation id="4075123085690634698">เปิดหน้าเว็บในหน้าต่างที่ไม่ระบุตัวตนใหม่ (⇧⌘N)</translation>
@@ -1914,7 +1914,7 @@
 <translation id="2227116904818538760">คุณเข้าสู่โหมดไม่ระบุตัวตนแล้ว</translation>
 <translation id="2007417459975034427">คุณท่องเว็บแบบเป็นส่วนตัวได้แล้วตอนนี้ และผู้อื่นที่ใช้อุปกรณ์เครื่องนี้จะไม่เห็นกิจกรรมของคุณ แต่จะยังมีการบันทึกการดาวน์โหลดและบุ๊กมาร์กไว้อยู่</translation>
 <translation id="2586968635953373425">เปิดหน้าต่างที่ไม่ระบุตัวตน</translation>
-<translation id="3489858312836205593">เปิดหน้าต่างใหม่ที่ไม่ระบุตัวตนของ Brave</translation>
+<translation id="3489858312836205593">เปิดหน้าต่างใหม่ที่ไม่ระบุตัวตนของ Dissenter</translation>
 <translation id="6984479912851154518">ออกจากโหมดไม่ระบุตัวตนเพื่อชำระเงินผ่านแอปพลิเคชันภายนอก ดำเนินการต่อไหม</translation>
 <translation id="1426112902089905810">&lt;h4&gt;ขั้นตอนที่ 1: ลงชื่อเข้าใช้พอร์ทัล&lt;/h4&gt;
     &lt;p&gt;เครือข่าย Wi-Fi ในสถานที่หลายแห่งอย่างร้านกาแฟหรือสนามบินจำเป็นต้องให้คุณลงชื่อเข้าใช้ หากต้องการดูหน้าลงชื่อเข้าใช้ โปรดไปที่หน้าเว็บที่ใช้ &lt;code&gt;http://&lt;/code&gt;&lt;/p&gt;
@@ -1924,11 +1924,11 @@
     &lt;/ol&gt;
     &lt;h4&gt;ขั้นตอนที่ 2: เปิดหน้าเว็บในโหมดไม่ระบุตัวตน (เฉพาะคอมพิวเตอร์)&lt;/h4&gt;
     &lt;p&gt;เปิดหน้าเว็บที่คุณได้เข้าชมในหน้าต่างที่ไม่ระบุตัวตน&lt;/p&gt;
-    &lt;p&gt;หากหน้านั้นเปิดขึ้น แสดงว่าส่วนขยาย Brave ทำงานไม่ถูกต้อง โปรดปิดส่วนขยายเพื่อแก้ไขข้อผิดพลาด&lt;/p&gt;
+    &lt;p&gt;หากหน้านั้นเปิดขึ้น แสดงว่าส่วนขยาย Dissenter ทำงานไม่ถูกต้อง โปรดปิดส่วนขยายเพื่อแก้ไขข้อผิดพลาด&lt;/p&gt;
     &lt;h4&gt;ขั้นตอนที่ 3: อัปเดตระบบปฏิบัติการ&lt;/h4&gt;
     &lt;p&gt;ตรวจสอบว่าอุปกรณ์ใช้เวอร์ชันล่าสุด&lt;/p&gt;
     &lt;h4&gt;ขั้นตอนที่ 4: ปิดโปรแกรมป้องกันไวรัสชั่วคราว&lt;/h4&gt;
-    &lt;p&gt;คุณจะเห็นข้อผิดพลาดนี้ หากคุณมีซอฟต์แวร์ป้องกันไวรัสที่มอบ "การป้องกัน HTTPS" หรือ "การสแกน HTTPS" ซึ่งกำลังขัดขวางการรักษาความปลอดภัยของ Brave&lt;/p&gt;
+    &lt;p&gt;คุณจะเห็นข้อผิดพลาดนี้ หากคุณมีซอฟต์แวร์ป้องกันไวรัสที่มอบ "การป้องกัน HTTPS" หรือ "การสแกน HTTPS" ซึ่งกำลังขัดขวางการรักษาความปลอดภัยของ Dissenter&lt;/p&gt;
     &lt;p&gt;ในการแก้ไขปัญหานี้ ให้ปิดซอฟต์แวร์ป้องกันไวรัส หากหน้าเว็บทำงานเป็นปกติหลังจากปิดซอฟต์แวร์แล้ว ให้ปิดซอฟต์แวร์นี้เมื่อคุณใช้งานเว็บไซต์ที่มีความปลอดภัย&lt;/p&gt;
     &lt;p&gt;อย่าลืมเปิดโปรแกรมป้องกันไวรัสอีกครั้ง เมื่อคุณใช้งานเสร็จแล้ว&lt;/p&gt;
     &lt;h4&gt;ขั้นตอนที่ 5: รับความช่วยเหลือเพิ่มเติม&lt;/h4&gt;

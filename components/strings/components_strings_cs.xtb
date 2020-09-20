@@ -60,7 +60,7 @@
 <translation id="1232569758102978740">Bez názvu</translation>
 <translation id="1236081509407217141">Povolit virtuální realitu?</translation>
 <translation id="1240347957665416060">Název zařízení</translation>
-<translation id="1052005765108026699">Abyste příště mohli zaplatit rychleji, uložte si kartu, jméno a fakturační adresu do účtu Brave.</translation>
+<translation id="1052005765108026699">Abyste příště mohli zaplatit rychleji, uložte si kartu, jméno a fakturační adresu do účtu Dissenter.</translation>
 <translation id="1253921432148366685"><ph name="TYPE_1"/>, <ph name="TYPE_2"/> (synchronizováno)</translation>
 <translation id="1256368399071562588">&lt;p&gt;Pokud se pokoušíte navštívit konkrétní web, ale ten se neotevírá, nejdříve chybu zkuste opravit provedením těchto kroků:&lt;/p&gt;
     &lt;ol&gt;
@@ -118,7 +118,7 @@
 <translation id="1430915738399379752">Tisk</translation>
 <translation id="1442386063175183758">Pravé otevírací přeložení</translation>
 <translation id="1442987760062738829">Děrování</translation>
-<translation id="7408760246081928496">Text, který vložíte nebo připojíte, je odesílán k analýze do služby Brave Cloud nebo třetím stranám. Může například projít kontrolou přítomnosti citlivých údajů.</translation>
+<translation id="7408760246081928496">Text, který vložíte nebo připojíte, je odesílán k analýze do služby Dissenter Cloud nebo třetím stranám. Může například projít kontrolou přítomnosti citlivých údajů.</translation>
 <translation id="1455413310270022028">Guma</translation>
 <translation id="1462245070427461050">JIS B9</translation>
 <translation id="1463543813647160932">5:7</translation>
@@ -129,13 +129,13 @@
 <translation id="1476595624592550506">Změňte heslo</translation>
 <translation id="1484290072879560759">Vybrat dodací adresu</translation>
 <translation id="1492194039220927094">Přenesení zásad:</translation>
-<translation id="1812569385220097122">Zobrazit karty z vašeho účtu Brave</translation>
+<translation id="1812569385220097122">Zobrazit karty z vašeho účtu Dissenter</translation>
 <translation id="1507202001669085618">&lt;p&gt;Tato chyba se zobrazí při použití portálu Wi-Fi, na kterém je třeba se před přístupem na internet přihlásit.&lt;/p&gt;
     &lt;p&gt;Chybu odstraníte tím, že na stránce, kterou se snažíte otevřít, kliknete na &lt;strong&gt;Připojení&lt;/strong&gt;.&lt;/p&gt;</translation>
 <translation id="1513706915089223971">Seznam položek v historii</translation>
 <translation id="1517433312004943670">Je vyžadováno telefonní číslo</translation>
 <translation id="1519264250979466059">Datum sestavení</translation>
-<translation id="5524011986660000129">Tabulky Brave</translation>
+<translation id="5524011986660000129">Tabulky Dissenter</translation>
 <translation id="1527263332363067270">Čeká se na připojení…</translation>
 <translation id="1529521330346880926">10x15 (obálka)</translation>
 <translation id="1529789484829130889">Přihrádka 8</translation>
@@ -171,7 +171,7 @@
 <translation id="1644574205037202324">Historie</translation>
 <translation id="1645368109819982629">Nepodporovaný protokol</translation>
 <translation id="1652415888492971589">JIS B8</translation>
-<translation id="3848846802033604519">Brave tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Brave načetl přes zabezpečené připojení.</translation>
+<translation id="3848846802033604519">Dissenter tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Dissenter načetl přes zabezpečené připojení.</translation>
 <translation id="1656489000284462475">Vyzvednutí</translation>
 <translation id="1662550410081243962">Ukládat a vyplňovat platební metody</translation>
 <translation id="1838576226863399477">Karty a adresy pocházejí z Chromu. Můžete je spravovat v <ph name="BEGIN_LINK"/>Nastavení<ph name="END_LINK"/>.</translation>
@@ -209,7 +209,7 @@
 <translation id="1778646502362731194">JIS B0</translation>
 <translation id="1783075131180517613">Aktualizujte prosím heslovou frázi pro synchronizaci.</translation>
 <translation id="1787142507584202372">Zde se zobrazí otevřené karty</translation>
-<translation id="3480410886581896628">Brave Smart Lock</translation>
+<translation id="3480410886581896628">Dissenter Smart Lock</translation>
 <translation id="1800473098294731951">B9</translation>
 <translation id="1803264062614276815">Jméno držitele karty</translation>
 <translation id="1807528111851433570">Počáteční list</translation>
@@ -222,7 +222,7 @@
 <translation id="1842969606798536927">Zaplatit</translation>
 <translation id="1871208020102129563">Proxy je nastaveno na používání pevně daných serverů proxy, nikoliv adresy URL skriptu PAC.</translation>
 <translation id="1871284979644508959">Povinné pole</translation>
-<translation id="85321348617848915">Formuláře Brave</translation>
+<translation id="85321348617848915">Formuláře Dissenter</translation>
 <translation id="187918866476621466">Otevřít počáteční stránky</translation>
 <translation id="1883255238294161206">Sbalit seznam</translation>
 <translation id="1898423065542865115">Filtrování</translation>
@@ -233,7 +233,7 @@
 <translation id="1914326953223720820">Služba rozbalování souborů ZIP</translation>
 <translation id="1915697529809968049">Použít Touch ID namísto CVC?</translation>
 <translation id="1916770123977586577">Chcete-li pro tento web použít aktualizovaná nastavení, načtěte tuto stránku znovu</translation>
-<translation id="688541908229382784">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Brave doporučuje okamžitě změnit heslo na webu <ph name="ORIGIN"/>.</translation>
+<translation id="688541908229382784">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Dissenter doporučuje okamžitě změnit heslo na webu <ph name="ORIGIN"/>.</translation>
 <translation id="1919345977826869612">Reklamy</translation>
 <translation id="1919367280705858090">Nápověda ke konkrétní chybové zprávě</translation>
 <translation id="192020519938775529">{COUNT,plural, =0{Žádné}=1{1 web}few{# weby}many{# webu}other{# webů}}</translation>
@@ -261,7 +261,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2030481566774242610">Měli jste na mysli <ph name="LINK"/>?</translation>
 <translation id="2032962459168915086"><ph name="BEGIN_LINK"/>Zkontrolovat proxy server a firewall<ph name="END_LINK"/></translation>
 <translation id="2042213636306070719">Přihrádka 7</translation>
-<translation id="3163988908275223348">Chcete-li používat hesla uložená v účtu Brave, přihlaste se</translation>
+<translation id="3163988908275223348">Chcete-li používat hesla uložená v účtu Dissenter, přihlaste se</translation>
 <translation id="2053111141626950936">Stránky v jazyce <ph name="LANGUAGE"/> se nebudou překládat.</translation>
 <translation id="2053553514270667976">PSČ</translation>
 <translation id="2064691555167957331">{COUNT,plural, =1{1 návrh}few{# návrhy}many{# návrhu}other{# návrhů}}</translation>
@@ -335,7 +335,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2344028582131185878">Automatická stahování</translation>
 <translation id="2346319942568447007">Obrázek, který jste zkopírovali</translation>
 <translation id="2354001756790975382">Ostatní záložky</translation>
-<translation id="2354430244986887761">Bezpečné prohlížení Brave na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>nalezlo škodlivé aplikace<ph name="END_LINK"/>.</translation>
+<translation id="2354430244986887761">Bezpečné prohlížení Dissenter na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>nalezlo škodlivé aplikace<ph name="END_LINK"/>.</translation>
 <translation id="2355395290879513365">Útočníci mohou vidět obrázky, které si na tomto webu prohlížíte, a oklamat vás tím, že tyto obrázky upraví.</translation>
 <translation id="2356070529366658676">Zeptat se</translation>
 <translation id="2359629602545592467">Několik</translation>
@@ -365,7 +365,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="2491120439723279231">Certifikát serveru obsahuje chyby.</translation>
 <translation id="2493640343870896922">Letter-Plus</translation>
 <translation id="2495083838625180221">Analyzátor souborů JSON</translation>
-<translation id="5047769237368272183">Pokud je tato možnost zaškrtnuta, prohlížeč Brave do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
+<translation id="5047769237368272183">Pokud je tato možnost zaškrtnuta, prohlížeč Dissenter do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
 <translation id="2498091847651709837">Naskenovat novou kartu</translation>
 <translation id="2501278716633472235">Zpět</translation>
 <translation id="2505268675989099013">Ochránit účet</translation>
@@ -427,12 +427,12 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="277133753123645258">Způsob dopravy</translation>
 <translation id="277499241957683684">Chybějící záznam zařízení</translation>
 <translation id="2775884851269838147">První tisková stránka</translation>
-<translation id="5152275065296016556">Brave Pay</translation>
+<translation id="5152275065296016556">Dissenter Pay</translation>
 <translation id="2784949926578158345">Připojení bylo resetováno.</translation>
 <translation id="2792012897584536778">Administrátoři tohoto zařízení nastavili bezpečnostní certifikáty, které jim mohou umožnit zobrazit obsah webů, které navštěvujete.</translation>
 <translation id="2799020568854403057">Web, na který se chystáte přejít, obsahuje škodlivé aplikace</translation>
 <translation id="2799223571221894425">Restartovat</translation>
-<translation id="2803306138276472711">Služba Bezpečné prohlížení Brave na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>zjistila malware<ph name="END_LINK"/>. Někdy mohou být malwarem nakaženy i weby, které jsou obvykle bezpečné.</translation>
+<translation id="2803306138276472711">Služba Bezpečné prohlížení Dissenter na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>zjistila malware<ph name="END_LINK"/>. Někdy mohou být malwarem nakaženy i weby, které jsou obvykle bezpečné.</translation>
 <translation id="2807052079800581569">Pozice obrázku na ose Y</translation>
 <translation id="2824514415781424867">Sdílet polohu?</translation>
 <translation id="2824775600643448204">Adresní a vyhledávací řádek</translation>
@@ -553,7 +553,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3399952811970034796">Adresa doručení</translation>
 <translation id="3402261774528610252">Připojení použité k načtení tohoto webu použilo protokol TLS 1.0 nebo TLS 1.1, který již není podporován a v budoucnu bude deaktivován. Po deaktivaci již uživatelé nebudou moci tento web načíst. Na serveru je třeba aktivovat protokol TLS 1.2 nebo novější.</translation>
 <translation id="3414952576877147120">Velikost:</translation>
-<translation id="25726459489263481">Soubory, které nahrajete nebo připojíte, jsou odesílány k analýze do služby Brave Cloud nebo třetím stranám. Mohou například projít kontrolou přítomnosti citlivých údajů nebo malwaru.</translation>
+<translation id="25726459489263481">Soubory, které nahrajete nebo připojíte, jsou odesílány k analýze do služby Dissenter Cloud nebo třetím stranám. Mohou například projít kontrolou přítomnosti citlivých údajů nebo malwaru.</translation>
 <translation id="3422248202833853650">Zkuste uvolnit paměť ukončením jiných programů.</translation>
 <translation id="3422472998109090673">Web <ph name="HOST_NAME"/> momentálně není dostupný.</translation>
 <translation id="3423742043356668186">Určeno systémem</translation>
@@ -562,7 +562,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3428151540071562330">Některé identifikátory URI šablon serverů DnsOverHttpsTemplates jsou neplatné a nebudou použity.</translation>
 <translation id="3431636764301398940">Uložit tuto kartu do zařízení</translation>
 <translation id="3432601291244612633">Zavřít stránku</translation>
-<translation id="4527130811319726464">Použít hesla uložená v účtu Brave</translation>
+<translation id="4527130811319726464">Použít hesla uložená v účtu Dissenter</translation>
 <translation id="3443726618221119081">Juuro-Ku-Kai</translation>
 <translation id="3447661539832366887">Vlastník tohoto zařízení hru s dinosaurem vypnul.</translation>
 <translation id="3447884698081792621">Zobrazit certifikát (vydavatel: <ph name="ISSUER"/>)</translation>
@@ -593,7 +593,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3567778190852720481">Pomocí podnikového účtu se nelze zaregistrovat.</translation>
 <translation id="3574305903863751447"><ph name="CITY"/>, <ph name="STATE"/> <ph name="COUNTRY"/></translation>
 <translation id="3576616784287504635">Vložená stránka na webu <ph name="SITE"/> říká</translation>
-<translation id="230476913390177517">Až bude tato stránka připravená, Brave vás bude informovat. &lt;a&gt;Zrušit&lt;/a&gt;</translation>
+<translation id="230476913390177517">Až bude tato stránka připravená, Dissenter vás bude informovat. &lt;a&gt;Zrušit&lt;/a&gt;</translation>
 <translation id="3582930987043644930">Přidejte jméno</translation>
 <translation id="3583757800736429874">&amp;Opakovat přesunutí</translation>
 <translation id="3584299510153766161">Dvě díry dole</translation>
@@ -635,7 +635,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="373042150751172459">B4 (obálka)</translation>
 <translation id="3731873414101415120">Navštívené weby a obsah nezabezpečených stránek</translation>
 <translation id="3736520371357197498">Pokud bezpečnostní rizika chápete, můžete <ph name="BEGIN_LINK"/>tento nespolehlivý web navštívit<ph name="END_LINK"/> ještě před tím, než budou nebezpečné programy odstraněny.</translation>
-<translation id="4098534208927606680">Po potvrzení budou údaje o kartě z vašeho účtu Brave poskytnuty tomuto webu.</translation>
+<translation id="4098534208927606680">Po potvrzení budou údaje o kartě z vašeho účtu Dissenter poskytnuty tomuto webu.</translation>
 <translation id="3748148204939282805">Útočníci na webu <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/> vás mohou podvodem přimět k nebezpečnému chování, jako je instalace softwaru nebo vyzrazení osobních údajů (například hesel, telefonních čísel nebo platebních karet). <ph name="BEGIN_LEARN_MORE_LINK"/>Další informace<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="3754210790023674521">Ukončit režim obrazu v obraze</translation>
 <translation id="3759461132968374835">Nemáte žádná nedávno hlášená selhání. Selhání, ke kterým došlo, když byla služba hlášení o selháních vypnutá, se zde nezobrazují.</translation>
@@ -643,7 +643,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3761718714832595332">Skrýt stav</translation>
 <translation id="3765032636089507299">Stránka Bezpečného procházení je ve výstavbě.</translation>
 <translation id="3765588406864124894">Schránka 9</translation>
-<translation id="5141491707451394486">Chcete tuto kartu uložit do svého účtu Brave a do tohoto zařízení?</translation>
+<translation id="5141491707451394486">Chcete tuto kartu uložit do svého účtu Dissenter a do tohoto zařízení?</translation>
 <translation id="3780694243617746492">Výstupní přihrádka</translation>
 <translation id="3781428340399460090">Jasně růžová</translation>
 <translation id="3783418713923659662">Mastercard</translation>
@@ -673,7 +673,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3901925938762663762">Karta vypršela</translation>
 <translation id="3906600011954732550">B5-Extra</translation>
 <translation id="3906954721959377182">Tablet</translation>
-<translation id="2650609753175229582"><ph name="URL"/> chce přehrávat chráněný obsah. Brave ověří identitu vašeho zařízení a tento web k ní může získat přístup.</translation>
+<translation id="2650609753175229582"><ph name="URL"/> chce přehrávat chráněný obsah. Dissenter ověří identitu vašeho zařízení a tento web k ní může získat přístup.</translation>
 <translation id="3909695131102177774"><ph name="LABEL"/> <ph name="ERROR"/></translation>
 <translation id="3939773374150895049">Použít WebAuthn namísto CVC?</translation>
 <translation id="3946209740501886391">Na tomto webu se vždy zeptat</translation>
@@ -688,7 +688,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="3964661563329879394">{COUNT,plural, =0{Žádné}=1{Z 1 webu }few{Z # webů }many{Z # webu }other{Z # webů }}</translation>
 <translation id="397105322502079400">Probíhá výpočet…</translation>
 <translation id="3973234410852337861">Web <ph name="HOST_NAME"/> je blokován</translation>
-<translation id="2321540973325616220">Brave zjistil, že by tento web mohl být falešný nebo podvodný.
+<translation id="2321540973325616220">Dissenter zjistil, že by tento web mohl být falešný nebo podvodný.
 
     Pokud se domníváte, že se tato zpráva zobrazila v důsledku chyby, navštivte web https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.</translation>
 <translation id="3987940399970879459">Méně než 1 MB</translation>
@@ -758,7 +758,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4275830172053184480">Restartovat zařízení</translation>
 <translation id="4277028893293644418">Resetovat heslo</translation>
 <translation id="4279811152705618813">Váš <ph name="DEVICE_TYPE"/> spravuje doména <ph name="ENROLLMENT_DOMAIN"/></translation>
-<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Tato karta byla uložena do vašeho učtu Brave}few{Tyto karty byly uloženy do vašeho účtu Brave.}many{Tyto karty byly uloženy do vašeho účtu Brave.}other{Tyto karty byly uloženy do vašeho účtu Brave.}}</translation>
+<translation id="8314946990939758167">{NUM_CARDS,plural, =1{Tato karta byla uložena do vašeho učtu Dissenter}few{Tyto karty byly uloženy do vašeho účtu Dissenter.}many{Tyto karty byly uloženy do vašeho účtu Dissenter.}other{Tyto karty byly uloženy do vašeho účtu Dissenter.}}</translation>
 <translation id="42981349822642051">Rozbalit</translation>
 <translation id="4300675098767811073">Několik děr vpravo</translation>
 <translation id="4302965934281694568">Chou3 (obálka)</translation>
@@ -771,7 +771,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4326324639298822553">Zkontrolujte datum vypršení platnosti a zkuste to znovu.</translation>
 <translation id="4331519897422864041">Stohovač 5</translation>
 <translation id="4331708818696583467">Nezabezpečeno</translation>
-<translation id="6116812392674177288">Tento počítač nebyl rozpoznán jako spravovaný organizací, proto lze pomocí zásad automaticky instalovat pouze rozšíření hostovaná v Internetovém obchodě Brave. Adresa URL Internetového obchodu Brave pro aktualizace je <ph name="CWS_UPDATE_URL"/>.</translation>
+<translation id="6116812392674177288">Tento počítač nebyl rozpoznán jako spravovaný organizací, proto lze pomocí zásad automaticky instalovat pouze rozšíření hostovaná v Internetovém obchodě Dissenter. Adresa URL Internetového obchodu Dissenter pro aktualizace je <ph name="CWS_UPDATE_URL"/>.</translation>
 <translation id="4346197816712207223">Přijímané kreditní karty</translation>
 <translation id="4346833872170306413">Roc-16K</translation>
 <translation id="4356973930735388585">Útočníci, kteří se aktuálně nacházejí na tomto webu, se mohou pokusit nainstalovat vám do počítače nebezpečné programy, které mohou ukrást nebo smazat vaše informace (například fotky, hesla, zprávy nebo platební karty).</translation>
@@ -796,7 +796,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4477350412780666475">Další skladba</translation>
 <translation id="4482953324121162758">Tento web se nebude překládat.</translation>
 <translation id="4490717597759821841">A7</translation>
-<translation id="3614771894046523359">Tyto funkce jsou ve výchozím nastavení zakázány. V budoucích verzích prohlížeče Brave nebudou k dispozici.</translation>
+<translation id="3614771894046523359">Tyto funkce jsou ve výchozím nastavení zakázány. V budoucích verzích prohlížeče Dissenter nebudou k dispozici.</translation>
 <translation id="4493480324863638523">Neplatná adresa URL. Je třeba použít adresu URL se standardním schématem, např. http://example.com nebo https://example.com.</translation>
 <translation id="4503882053543859973">Architecture-D</translation>
 <translation id="4506176782989081258">Chyba ověřování: <ph name="VALIDATION_ERROR"/>.</translation>
@@ -804,7 +804,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="450710068430902550">Sdílení s administrátorem</translation>
 <translation id="4508814173490746936">Touch ID nebylo možné použít</translation>
 <translation id="4510487217173779431">Chou4 (obálka)</translation>
-<translation id="4892470328555495647">Karty a adresy pocházejí z Chromu a z vašeho účtu Brave (<ph name="ACCOUNT_EMAIL"/>). Můžete je spravovat v <ph name="BEGIN_LINK"/>Nastavení<ph name="END_LINK"/>.</translation>
+<translation id="4892470328555495647">Karty a adresy pocházejí z Chromu a z vašeho účtu Dissenter (<ph name="ACCOUNT_EMAIL"/>). Můžete je spravovat v <ph name="BEGIN_LINK"/>Nastavení<ph name="END_LINK"/>.</translation>
 <translation id="4517607026994743406">Comm-10 (obálka)</translation>
 <translation id="4522570452068850558">Podrobnosti</translation>
 <translation id="4524138615196389145">Od teď karty potvrzujte rychleji díky využití standardu WebAuthn</translation>
@@ -830,7 +830,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4670064810192446073">Virtuální realita</translation>
 <translation id="467662567472608290">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN"/>, protože jeho bezpečnostní certifikát obsahuje chyby. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
 <translation id="4677585247300749148"><ph name="URL"/> chce reagovat na události přístupnosti</translation>
-<translation id="8197094463444457125">Prezentace Brave</translation>
+<translation id="8197094463444457125">Prezentace Dissenter</translation>
 <translation id="4690462567478992370">Přestat používat neplatný certifikát</translation>
 <translation id="4691835149146451662">Architecture-A (obálka)</translation>
 <translation id="4701488924964507374"><ph name="SENTENCE1"/> <ph name="SENTENCE2"/></translation>
@@ -860,11 +860,11 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4785689107224900852">Přejít na tuto kartu</translation>
 <translation id="4791134497475588553">Nainstalované aplikace pro Linux a čas jejich posledního použití</translation>
 <translation id="4796594887379589189">ID účtu úlohy</translation>
-<translation id="7110430050177876111">Chcete-li aktualizovat údaje o kartě, zadejte datum vypršení platnosti a kód CVC karty <ph name="CREDIT_CARD"/>. Po potvrzení budou údaje o kartě z vašeho účtu Brave poskytnuty tomuto webu.</translation>
+<translation id="7110430050177876111">Chcete-li aktualizovat údaje o kartě, zadejte datum vypršení platnosti a kód CVC karty <ph name="CREDIT_CARD"/>. Po potvrzení budou údaje o kartě z vašeho účtu Dissenter poskytnuty tomuto webu.</translation>
 <translation id="4800132727771399293">Zkontrolujte datum vypršení platnosti a kód CVC a zkuste to znovu.</translation>
 <translation id="480334179571489655">Chyba zásad ohledně původu</translation>
 <translation id="4803924862070940586"><ph name="FORMATTED_TOTAL_AMOUNT"/> <ph name="CURRENCY_CODE"/></translation>
-<translation id="8896585555528145662">Web <ph name="SITE"/> teď nemůžete navštívit, protože webové stránky odeslaly zakódované identifikační údaje, které Brave nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
+<translation id="8896585555528145662">Web <ph name="SITE"/> teď nemůžete navštívit, protože webové stránky odeslaly zakódované identifikační údaje, které Dissenter nedokáže zpracovat. Síťové chyby a útoky jsou obvykle dočasné, tato stránka pravděpodobně později bude fungovat.</translation>
 <translation id="4813512666221746211">Chyba sítě</translation>
 <translation id="4816492930507672669">Přizpůsobit na stránku</translation>
 <translation id="484462545196658690">Automaticky</translation>
@@ -902,7 +902,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="4989542687859782284">Nedostupné</translation>
 <translation id="4989809363548539747">Tento plugin není podporován</translation>
 <translation id="4995216769782533993">Chcete-li s tímto webem sdílet údaje o kartě, zadejte bezpečnostní kód</translation>
-<translation id="3676215163710610678">Pokud je tato možnost aktivována, Brave do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
+<translation id="3676215163710610678">Pokud je tato možnost aktivována, Dissenter do zařízení uloží kopii karty za účelem rychlejšího vyplňování formulářů.</translation>
 <translation id="5015510746216210676">Název počítače:</translation>
 <translation id="5017554619425969104">Zkopírovaný text</translation>
 <translation id="5018422839182700155">Tuto stránku nelze otevřít</translation>
@@ -911,7 +911,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5029568752722684782">Vymazat kopii</translation>
 <translation id="5030338702439866405">Vydal:</translation>
 <translation id="503069730517007720">Je vyžadován kořenový certifikát pro software <ph name="SOFTWARE_NAME"/>, ale není nainstalován. Při řešení tohoto problému by si měl administrátor IT prostudovat pokyny ke konfiguraci softwaru <ph name="SOFTWARE_NAME"/>. <ph name="FURTHER_EXPLANATION"/></translation>
-<translation id="6425384654920630035">O Překladači Brave</translation>
+<translation id="6425384654920630035">O Překladači Dissenter</translation>
 <translation id="503498442187459473">Web <ph name="HOST"/> chce použít váš mikrofon a kameru</translation>
 <translation id="5039804452771397117">Povolit</translation>
 <translation id="5040262127954254034">Ochrana soukromí</translation>
@@ -928,7 +928,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5088142053160410913">Zpráva operátorovi</translation>
 <translation id="5089810972385038852">Stát/kraj</translation>
 <translation id="5093232627742069661">Přeložení do Z</translation>
-<translation id="4906192414477726331">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN"/>. Brave jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
+<translation id="4906192414477726331">Server nedokázal prokázat, že patří doméně <ph name="DOMAIN"/>. Dissenter jeho bezpečnostnímu certifikátu nedůvěřuje. Může to být způsobeno nesprávnou konfigurací nebo tím, že vaše připojení zachytává útočník.</translation>
 <translation id="5095208057601539847">Provincie</translation>
 <translation id="5097099694988056070">Statistiky zařízení, například využití CPU/RAM</translation>
 <translation id="5097501891273180634">A2</translation>
@@ -940,7 +940,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5126510351761255129">Ověřte svou kartu</translation>
 <translation id="6291230311289558881">Spravovat adresy...</translation>
 <translation id="5138227688689900538">Zobrazit méně</translation>
-<translation id="7186167407612593632">Šifrovat synchronizovaná hesla pomocí hesla k účtu Brave</translation>
+<translation id="7186167407612593632">Šifrovat synchronizovaná hesla pomocí hesla k účtu Dissenter</translation>
 <translation id="5145883236150621069">Odpověď zásady obsahuje kód chyby</translation>
 <translation id="5146995429444047494">Oznámení z webu <ph name="ORIGIN"/> jsou blokována</translation>
 <translation id="5148809049217731050">Lícem nahoru</translation>
@@ -948,8 +948,8 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5158275234811857234">Titulní strana</translation>
 <translation id="5161506081086828129">Stohovač 9</translation>
 <translation id="5164798890604758545">Zadání textu</translation>
-<translation id="2996889577833788807">Zadejte kód CVC karty <ph name="CREDIT_CARD"/>. Po potvrzení budou údaje o kartě z vašeho účtu Brave poskytnuty tomuto webu.</translation>
-<translation id="8515152881111950319">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Brave doporučuje okamžitě změnit heslo.</translation>
+<translation id="2996889577833788807">Zadejte kód CVC karty <ph name="CREDIT_CARD"/>. Po potvrzení budou údaje o kartě z vašeho účtu Dissenter poskytnuty tomuto webu.</translation>
+<translation id="8515152881111950319">Mohli byste ztratit přístup k účtu organizace nebo by mohlo dojít k odcizení vaší identity. Dissenter doporučuje okamžitě změnit heslo.</translation>
 <translation id="5171045022955879922">Vyhledávejte či zadejte URL</translation>
 <translation id="5171689220826475070">Fanfold-European</translation>
 <translation id="5172758083709347301">Počítač</translation>
@@ -958,7 +958,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5201306358585911203">Stránka vložená na této stránce říká</translation>
 <translation id="5205222826937269299">Je nutné zadat jméno</translation>
 <translation id="5209518306177824490">Digitální otisk SHA-1</translation>
-<translation id="1051285409463218679">Platební metody a adresy pomocí služby Brave Pay</translation>
+<translation id="1051285409463218679">Platební metody a adresy pomocí služby Dissenter Pay</translation>
 <translation id="5215363486134917902">Folio-Sp</translation>
 <translation id="5222812217790122047">Je nutné zadat e-mail</translation>
 <translation id="5230733896359313003">Dodací adresa</translation>
@@ -982,7 +982,7 @@ Jinak to vaše nastavení ochrany soukromí bude blokovat. Povolením umožníte
 <translation id="5287456746628258573">Tento web používá zastaralou konfiguraci zabezpečení, která vaše informace odesílané na tento web (například hesla nebo čísla kreditních karet) vystavuje riziku odhalení.</translation>
 <translation id="5288108484102287882">Ověření hodnot zásad vygenerovalo upozornění</translation>
 <translation id="5289384342738547352">Zpracování více dokumentů</translation>
-<translation id="3764885446986388155">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Brave doporučuje okamžitě zkontrolovat uložená hesla.</translation>
+<translation id="3764885446986388155">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Dissenter doporučuje okamžitě zkontrolovat uložená hesla.</translation>
 <translation id="5299298092464848405">Při analýze zásady došlo k chybě</translation>
 <translation id="5300589172476337783">Zobrazit</translation>
 <translation id="5306593769196050043">Oba listy</translation>
@@ -1041,7 +1041,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="5541086400771735334">Schránka 7</translation>
 <translation id="5541546772353173584">Přidání e-mailu</translation>
 <translation id="5545756402275714221">Články pro vás</translation>
-<translation id="6084314943327785510">Brave vaše hesla pravidelně porovnává se seznamy hesel, která unikla na internet. Vaše hesla a uživatelská jména jsou při tom šifrována, takže je nemůže nikdo zobrazit (ani Brave).</translation>
+<translation id="6084314943327785510">Dissenter vaše hesla pravidelně porovnává se seznamy hesel, která unikla na internet. Vaše hesla a uživatelská jména jsou při tom šifrována, takže je nemůže nikdo zobrazit (ani Dissenter).</translation>
 <translation id="5556459405103347317">Načíst znovu</translation>
 <translation id="5560088892362098740">Datum vypršení platnosti</translation>
 <translation id="5565735124758917034">Aktivní</translation>
@@ -1054,14 +1054,14 @@ Kontaktujte administrátora systému.</translation>
 <translation id="560412284261940334">Správa není podporována</translation>
 <translation id="5605670050355397069">Ledger</translation>
 <translation id="5607240918979444548">Architecture-C</translation>
-<translation id="4067274479097837765">Tento web může být falešný nebo podvodný. Brave vám doporučuje okamžitě odejít.</translation>
+<translation id="4067274479097837765">Tento web může být falešný nebo podvodný. Dissenter vám doporučuje okamžitě odejít.</translation>
 <translation id="5610142619324316209">Zkontrolovat připojení</translation>
 <translation id="5610807607761827392">Karty a adresy můžete spravovat v <ph name="BEGIN_LINK"/>Nastavení<ph name="END_LINK"/>.</translation>
 <translation id="5612720917913232150">Web <ph name="URL"/> chce použít polohu vašeho počítače</translation>
 <translation id="5617949217645503996">Web <ph name="HOST_NAME"/> vás přesměroval příliš mnohokrát.</translation>
 <translation id="5629630648637658800">Načítání nastavení zásady se nezdařilo</translation>
 <translation id="5631439013527180824">Neplatný token správy zařízení</translation>
-<translation id="2590378115732684772">Vaše údaje byly zašifrovány pomocí <ph name="BEGIN_LINK"/>hesla účtu Brave<ph name="END_LINK"/> ze dne <ph name="TIME"/>. Chcete-li spustit synchronizaci, zadejte jej.</translation>
+<translation id="2590378115732684772">Vaše údaje byly zašifrovány pomocí <ph name="BEGIN_LINK"/>hesla účtu Dissenter<ph name="END_LINK"/> ze dne <ph name="TIME"/>. Chcete-li spustit synchronizaci, zadejte jej.</translation>
 <translation id="5633066919399395251">Útočníci, kteří se aktuálně nacházejí na webu <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/>, se mohou pokusit nainstalovat vám do počítače nebezpečné programy, které mohou ukrást nebo smazat vaše informace (například fotky, hesla, zprávy nebo platební karty). <ph name="BEGIN_LEARN_MORE_LINK"/>Další informace<ph name="END_LEARN_MORE_LINK"/></translation>
 <translation id="563324245173044180">Byl zablokován klamavý obsah.</translation>
 <translation id="5644090287519800334">Posun obrázku strany 1 na ose X</translation>
@@ -1085,7 +1085,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="5720705177508910913">Aktuální uživatel</translation>
 <translation id="5728056243719941842">C5 (obálka)</translation>
 <translation id="3006790309890592320">Pokud jste heslo použili na jiném webu, doporučujeme vám ho resetovat.</translation>
-<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Uložit kartu do účtu Brave}few{Uložit karty do účtu Brave}many{Uložit karty do účtu Brave}other{Uložit karty do účtu Brave}}</translation>
+<translation id="5576538372759072019">{NUM_CARDS,plural, =1{Uložit kartu do účtu Dissenter}few{Uložit karty do účtu Dissenter}many{Uložit karty do účtu Dissenter}other{Uložit karty do účtu Dissenter}}</translation>
 <translation id="5745980000221562234">{NUM_CARDS,plural, =1{Použijte pro tuto kartu virtuální číslo}few{Vyberte kartu}many{Vyberte kartu}other{Vyberte kartu}}</translation>
 <translation id="5759751709240058861">Používání a natáčení kamery</translation>
 <translation id="5763042198335101085">Zadejte platnou e-mailovou adresu</translation>
@@ -1128,7 +1128,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="59174027418879706">Povoleno</translation>
 <translation id="5919090499915321845">B10</translation>
 <translation id="5921185718311485855">Zapnuto</translation>
-<translation id="2687595201721621314">Uložit kartu do účtu Brave?</translation>
+<translation id="2687595201721621314">Uložit kartu do účtu Dissenter?</translation>
 <translation id="5922853866070715753">Téměř dokončeno</translation>
 <translation id="5932224571077948991">Web zobrazuje rušivé nebo zavádějící reklamy</translation>
 <translation id="5946937721014915347">Otevírání webu <ph name="SITE_NAME"/>…</translation>
@@ -1177,10 +1177,10 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6104072995492677441">JIS B6</translation>
 <translation id="6106989379647458772">Webová stránka <ph name="PAGE"/> může být dočasně nefunkční nebo mohla být trvale přesunuta na novou webovou adresu.</translation>
 <translation id="6107012941649240045">Vydán pro</translation>
-<translation id="8233947174119245051">Na stránce <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> mohou být k dispozici další druhy historie prohlížení zaznamenané ve vašem účtu Brave.</translation>
+<translation id="8233947174119245051">Na stránce <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> mohou být k dispozici další druhy historie prohlížení zaznamenané ve vašem účtu Dissenter.</translation>
 <translation id="6116338172782435947">Přístup k textu a obrázkům zkopírovaným do schránky</translation>
 <translation id="6120179357481664955">Uložit vaše UPI ID?</translation>
-<translation id="5972135347314259717">Konektory Brave Enterprise</translation>
+<translation id="5972135347314259717">Konektory Dissenter Enterprise</translation>
 <translation id="6146055958333702838">Zkontrolujte všechny kabely a restartujte všechny směrovače, modemy a další síťová zařízení, která používáte.</translation>
 <translation id="614940544461990577">Zkuste:</translation>
 <translation id="6150036310511284407">Tři díry vlevo</translation>
@@ -1191,11 +1191,11 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6180316780098470077">Interval opakování</translation>
 <translation id="6196640612572343990">Blokovat soubory cookie třetích stran</translation>
 <translation id="6203231073485539293">Zkontrolujte připojení k internetu</translation>
-<translation id="8385639954311581596">Odstranit adresu z prohlížeče Brave?</translation>
+<translation id="8385639954311581596">Odstranit adresu z prohlížeče Dissenter?</translation>
 <translation id="622039917539443112">Paralelní přeložení</translation>
-<translation id="6221345481584921695">Služba Bezpečné prohlížení Brave na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>zjistila malware<ph name="END_LINK"/>. Někdy mohou být malwarem nakaženy i weby, které jsou obvykle bezpečné. Tento škodlivý obsah pochází z webu <ph name="SUBRESOURCE_HOST"/>, který je distribucí malwaru známý.</translation>
+<translation id="6221345481584921695">Služba Bezpečné prohlížení Dissenter na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>zjistila malware<ph name="END_LINK"/>. Někdy mohou být malwarem nakaženy i weby, které jsou obvykle bezpečné. Tento škodlivý obsah pochází z webu <ph name="SUBRESOURCE_HOST"/>, který je distribucí malwaru známý.</translation>
 <translation id="6234122620015464377">Oříznout za každým dokumentem</translation>
-<translation id="4765229189146046954">Logo Brave Pay</translation>
+<translation id="4765229189146046954">Logo Dissenter Pay</translation>
 <translation id="6241121617266208201">Skrýt návrhy</translation>
 <translation id="624499991300733384">Služba tvůrce tisku</translation>
 <translation id="6254436959401408446">K otevření této stránky není k dispozici dostatek paměti</translation>
@@ -1205,10 +1205,10 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6264485186158353794">Zpět na bezpečnější stránku</translation>
 <translation id="6265794661083428563">Zkopírovat hodnotu zásady <ph name="POLICY_NAME"/></translation>
 <translation id="6266934640124581640">Světle modrozelená</translation>
-<translation id="9136010393039243713">Aktualizace Brave</translation>
+<translation id="9136010393039243713">Aktualizace Dissenter</translation>
 <translation id="6276112860590028508">Zde naleznete stránky ze seznamu četby</translation>
-<translation id="7954557091400543500">Abyste příště mohli zaplatit rychleji, uložte si kartu a fakturační adresu do účtu Brave.</translation>
-<translation id="293801390522973485">Brave <ph name="BEGIN_EMPHASIS"/>nebude ukládat<ph name="END_EMPHASIS"/> následující informace:
+<translation id="7954557091400543500">Abyste příště mohli zaplatit rychleji, uložte si kartu a fakturační adresu do účtu Dissenter.</translation>
+<translation id="293801390522973485">Dissenter <ph name="BEGIN_EMPHASIS"/>nebude ukládat<ph name="END_EMPHASIS"/> následující informace:
         <ph name="BEGIN_LIST"/>
           <ph name="LIST_ITEM"/>vaši historii prohlížení,
           <ph name="LIST_ITEM"/>soubory cookie a data webů,
@@ -1218,7 +1218,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6282194474023008486">PSČ</translation>
 <translation id="6290238015253830360">Zde se zobrazí navrhované články</translation>
 <translation id="6293309776179964942">JIS B5</translation>
-<translation id="5880900081429361525">Zastavování Asistenta Brave v Chromu</translation>
+<translation id="5880900081429361525">Zastavování Asistenta Dissenter v Chromu</translation>
 <translation id="6305205051461490394">Web <ph name="URL"/> není dostupný.</translation>
 <translation id="6312113039770857350">Webová stránka není k dispozici</translation>
 <translation id="6321917430147971392">Zkontrolujte nastavení DNS</translation>
@@ -1243,7 +1243,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6401136357288658127">Podpora této zásady byla ukončena. Měli byste místo ní používat zásadu <ph name="NEW_POLICY"/>.</translation>
 <translation id="6404511346730675251">Upravit záložku</translation>
 <translation id="6406765186087300643">C0 (obálka)</translation>
-<translation id="9018981925326888629">Právě jste své heslo zadali na klamavém webu. Brave doporučuje okamžitě změnit heslo.</translation>
+<translation id="9018981925326888629">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje okamžitě změnit heslo.</translation>
 <translation id="6410264514553301377">Zadejte datum vypršení platnosti a kód CVC karty <ph name="CREDIT_CARD"/>.</translation>
 <translation id="6423385022588644828">Od teď karty potvrzujte rychleji pomocí technologie Touch ID</translation>
 <translation id="6425092077175753609">Material</translation>
@@ -1263,7 +1263,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6476284679642588870">Správa platebních metod</translation>
 <translation id="6489534406876378309">Začít nahrávat zprávy o selhání</translation>
 <translation id="6499038740797743453">Resetovat heslo?</translation>
-<translation id="3960299545138990065">Restartujte Brave</translation>
+<translation id="3960299545138990065">Restartujte Dissenter</translation>
 <translation id="6517596291481585650">Upozornění: Tato zásada nebyla podle zásady sloučena jako seznam, protože se nejedná o seznam.</translation>
 <translation id="6518133107902771759">Ověřit</translation>
 <translation id="6521745193039995384">Neaktivní</translation>
@@ -1293,14 +1293,14 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6631202559048444592">Pro zásadu je k dispozici několik zdrojů, ale hodnoty jsou stejné.</translation>
 <translation id="663260587451432563">JIS B4</translation>
 <translation id="6643016212128521049">Vymazat</translation>
-<translation id="1375868315964791309">{COUNT,plural, =0{Žádné}=1{Z 1 webu (nebudete odhlášeni z účtu Brave)}few{Ze # webů (nebudete odhlášeni z účtu Brave)}many{Z # webu (nebudete odhlášeni z účtu Brave)}other{Z # webů (nebudete odhlášeni z účtu Brave)}}</translation>
+<translation id="1375868315964791309">{COUNT,plural, =0{Žádné}=1{Z 1 webu (nebudete odhlášeni z účtu Dissenter)}few{Ze # webů (nebudete odhlášeni z účtu Dissenter)}many{Z # webu (nebudete odhlášeni z účtu Dissenter)}other{Z # webů (nebudete odhlášeni z účtu Dissenter)}}</translation>
 <translation id="6652101503459149953">Použít Windows Hello</translation>
 <translation id="6657585470893396449">Heslo</translation>
 <translation id="6665553082534466207">Tři díry vpravo</translation>
 <translation id="6685834062052613830">Odhlaste se a dokončete nastavení</translation>
 <translation id="6687335167692595844">Požadována velikost písma</translation>
 <translation id="6689249931105087298">Relativní s kompresí černého bodu</translation>
-<translation id="5406652219015697259">Brave vám nabízí uložení karet do účtu Brave, protože jste přihlášeni. Toto chování můžete změnit v Nastavení. Jméno držitele karty pochází z vašeho účtu.</translation>
+<translation id="5406652219015697259">Dissenter vám nabízí uložení karet do účtu Dissenter, protože jste přihlášeni. Toto chování můžete změnit v Nastavení. Jméno držitele karty pochází z vašeho účtu.</translation>
 <translation id="6704582573942289642">Je tohle správný web?</translation>
 <translation id="6710213216561001401">Předchozí</translation>
 <translation id="6710594484020273272">&lt;Zadejte vyhledávací dotaz&gt;</translation>
@@ -1333,14 +1333,14 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6874604403660855544">&amp;Opakovat přidání</translation>
 <translation id="6884662655240309489">Velikost 1</translation>
 <translation id="6886577214605505410"><ph name="LOCATION_TITLE"/> <ph name="SHORT_URL"/></translation>
-<translation id="7265969755975834932">Brave tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Brave načetl přes nezabezpečené připojení.</translation>
+<translation id="7265969755975834932">Dissenter tuto stránku zjednodušil, aby se snadněji četla. Původní stránku Dissenter načetl přes nezabezpečené připojení.</translation>
 <translation id="6891596781022320156">Úroveň zásady není podporována.</translation>
 <translation id="6895330447102777224">Vaše karta je ověřena</translation>
 <translation id="6897140037006041989">User agent</translation>
 <translation id="6898699227549475383">Organizace (O)</translation>
 <translation id="6910240653697687763">Web <ph name="URL"/> chce získat úplnou kontrolu nad zařízeními MIDI</translation>
 <translation id="6915804003454593391">Uživatel:</translation>
-<translation id="6722453239914327220">Toto jméno pochází z vašeho účtu Brave</translation>
+<translation id="6722453239914327220">Toto jméno pochází z vašeho účtu Dissenter</translation>
 <translation id="6944692733090228304">Zadali jste heslo na webu, který není spravován organizací <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/>. Aby byl váš účet chráněn, nepoužívejte jeho heslo v jiných aplikacích a na jiných webech.</translation>
 <translation id="6945221475159498467">Vybrat</translation>
 <translation id="6948701128805548767">Chcete-li zobrazit způsoby vyzvednutí a požadavky, vyberte adresu</translation>
@@ -1356,10 +1356,10 @@ Kontaktujte administrátora systému.</translation>
 <translation id="6972629891077993081">Zařízení HID</translation>
 <translation id="6973656660372572881">Určeny jsou pevně dané servery proxy i adresa URL skriptu PAC.</translation>
 <translation id="6973932557599545801">Pardon, nedokážu vám pomoct. Je to na vás.</translation>
-<translation id="846000886289004690">Právě jste své heslo zadali na klamavém webu. Brave doporučuje navštívit weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> a další weby, na nichž toto heslo používáte, a okamžitě ho změnit.</translation>
-<translation id="6979158407327259162">Disk Brave</translation>
+<translation id="846000886289004690">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje navštívit weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> a další weby, na nichž toto heslo používáte, a okamžitě ho změnit.</translation>
+<translation id="6979158407327259162">Disk Dissenter</translation>
 <translation id="6979440798594660689">Ztlumit (výchozí)</translation>
-<translation id="1714833602699685456">Soubory, které stáhnete, jsou odesílány k analýze do služby Brave Cloud nebo třetím stranám. Mohou například projít kontrolou přítomnosti citlivých údajů nebo malwaru.</translation>
+<translation id="1714833602699685456">Soubory, které stáhnete, jsou odesílány k analýze do služby Dissenter Cloud nebo třetím stranám. Mohou například projít kontrolou přítomnosti citlivých údajů nebo malwaru.</translation>
 <translation id="6989763994942163495">Zobrazit rozšířená nastavení...</translation>
 <translation id="6993898126790112050">6x9 (obálka)</translation>
 <translation id="6996312675313362352">Jazyk <ph name="ORIGINAL_LANGUAGE"/> vždy překládat</translation>
@@ -1416,7 +1416,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7219179957768738017">Připojení používá protokol <ph name="SSL_VERSION"/>.</translation>
 <translation id="7220786058474068424">Zpracovávání</translation>
 <translation id="7221855153210829124">Zobrazovat oznámení</translation>
-<translation id="3619365259205518877">Právě jste své heslo zadali na klamavém webu. Brave doporučuje zkontrolovat uložená hesla pro weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/>a další weby, na nichž toto heslo používáte.</translation>
+<translation id="3619365259205518877">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje zkontrolovat uložená hesla pro weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/>a další weby, na nichž toto heslo používáte.</translation>
 <translation id="7233592378249864828">Tisknout potvrzující list</translation>
 <translation id="7238585580608191973">Digitální otisk SHA-256</translation>
 <translation id="7240120331469437312">Alternativní název subjektu certifikátu</translation>
@@ -1438,7 +1438,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7320336641823683070">Pomoc s připojením</translation>
 <translation id="7323804146520582233">Skrýt sekci <ph name="SECTION"/></translation>
 <translation id="733354035281974745">Místní přepsání účtu na zařízení</translation>
-<translation id="8539546768943490744">Právě jste své heslo zadali na klamavém webu. Brave doporučuje navštívit weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> a další weby, na nichž toto heslo používáte, a okamžitě ho změnit.</translation>
+<translation id="8539546768943490744">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje navštívit weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/>, <ph name="WEBSITE_3"/> a další weby, na nichž toto heslo používáte, a okamžitě ho změnit.</translation>
 <translation id="7334320624316649418">&amp;Opakovat změnu uspořádání</translation>
 <translation id="7337706099755338005">Pro vaši platformu nedostupné.</translation>
 <translation id="733923710415886693">Certifikát serveru nebyl zveřejněn prostřednictvím projektu Certificate Transparency.</translation>
@@ -1447,7 +1447,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7349430561505560861">A4-Extra</translation>
 <translation id="7353601530677266744">Příkazový řádek</translation>
 <translation id="7372973238305370288">výsledek vyhledávání</translation>
-<translation id="3898257577441589237">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Brave mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Brave se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
+<translation id="3898257577441589237">K tomuto problému dochází kvůli certifikátu, který jste vy nebo někdo jiný nainstalovali do zařízení. O certifikátu je známo, že se používá ke sledování a zachytávání provozu v sítích, a Dissenter mu nedůvěřuje. Ačkoliv sledování v některých případech (například ve školní nebo firemní síti) může být legitimní a nemůžete mu zabránit, Dissenter se chce ujistit, že o něm víte. Ke sledování může docházet v kterémkoliv prohlížeči nebo aplikaci, které přistupují k webu.</translation>
 <translation id="7375818412732305729">Připojení souboru</translation>
 <translation id="7377249249140280793"><ph name="RELATIVE_DATE"/> - <ph name="FULL_DATE"/></translation>
 <translation id="7378594059915113390">Ovládání médií</translation>
@@ -1465,7 +1465,7 @@ Kontaktujte administrátora systému.</translation>
       &lt;li&gt;V poli &lt;strong&gt;Typ spouštění&lt;/strong&gt; vyberte &lt;strong&gt;Zakázáno&lt;/strong&gt;.
       &lt;li&gt;Pod položkou &lt;strong&gt;Stav služby&lt;/strong&gt; klikněte na &lt;strong&gt;Zastavit&lt;/strong&gt;.
       &lt;li&gt;Klikněte na &lt;strong&gt;Použít&lt;/strong&gt; a poté na &lt;strong&gt;OK&lt;/strong&gt;.
-      &lt;li&gt;Informace o tom, jak tento software trvale odstranit z počítače, naleznete v &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;centru nápovědy prohlížeče Brave&lt;/a&gt;.
+      &lt;li&gt;Informace o tom, jak tento software trvale odstranit z počítače, naleznete v &lt;a href="https://support.google.com/chrome/answer/6098869"&gt;centru nápovědy prohlížeče Dissenter&lt;/a&gt;.
       &lt;/ol&gt;</translation>
 <translation id="7409836189476010449">Spustit Flash</translation>
 <translation id="741007362987735528">Wide-Format</translation>
@@ -1485,7 +1485,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7481312909269577407">Vpřed</translation>
 <translation id="7485870689360869515">Nebyla nalezena žádná data.</translation>
 <translation id="7488762544858401571">Upravené</translation>
-<translation id="3692186536781145635">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Brave doporučuje okamžitě zkontrolovat uložená hesla a změnit heslo na webu <ph name="ORIGIN"/>.</translation>
+<translation id="3692186536781145635">Vaše heslo bylo vyzrazeno při porušení zabezpečení webu nebo aplikace. Dissenter doporučuje okamžitě zkontrolovat uložená hesla a změnit heslo na webu <ph name="ORIGIN"/>.</translation>
 <translation id="7495528107193238112">Tento obsah je blokován. Požádejte vlastníka webu, aby tento problém vyřešil.</translation>
 <translation id="7498234416455752244">Pokračovat v úpravách</translation>
 <translation id="7508255263130623398">Vrácené ID zařízení pro zásady je prázdné nebo neodpovídá aktuálnímu ID zařízení</translation>
@@ -1518,12 +1518,12 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7600965453749440009">Jazyk <ph name="LANGUAGE"/> nikdy nepřekládat</translation>
 <translation id="7610193165460212391">Hodnota <ph name="VALUE"/> je mimo rozsah.</translation>
 <translation id="7613889955535752492">Vypršení platnosti: <ph name="EXPIRATION_MONTH"/>/<ph name="EXPIRATION_YEAR"/></translation>
-<translation id="6994126885316933886">Již máte údaje, které jsou šifrovány pomocí jiné verze vašeho hesla k účtu Brave. Zadejte toto heslo prosím níže.</translation>
-<translation id="8565825862287624454">Administrátor vám v prohlížeči zapnul konektory Brave Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
+<translation id="6994126885316933886">Již máte údaje, které jsou šifrovány pomocí jiné verze vašeho hesla k účtu Dissenter. Zadejte toto heslo prosím níže.</translation>
+<translation id="8565825862287624454">Administrátor vám v prohlížeči zapnul konektory Dissenter Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
 <translation id="7619838219691048931">Koncový list</translation>
 <translation id="762844065391966283">Jednotlivě</translation>
 <translation id="7633909222644580952">Údaje o výkonu a přehledy selhání</translation>
-<translation id="6386821459680628976">Odstranit platební kartu z prohlížeče Brave?</translation>
+<translation id="6386821459680628976">Odstranit platební kartu z prohlížeče Dissenter?</translation>
 <translation id="7637586430889951925">{COUNT,plural, =0{Žádné}=1{V účtu máte 1 heslo (pro domény <ph name="DOMAIN_LIST"/>)}few{V účtu máte # hesla (pro domény <ph name="DOMAIN_LIST"/>)}many{V účtu máte # hesla (pro domény <ph name="DOMAIN_LIST"/>)}other{V účtu máte # hesel (pro domény <ph name="DOMAIN_LIST"/>)}}</translation>
 <translation id="7638605456503525968">Sériové porty</translation>
 <translation id="7639968568612851608">Tmavě šedá</translation>
@@ -1587,7 +1587,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7855695075675558090"><ph name="TOTAL_LABEL"/> <ph name="CURRENCY_CODE"/> <ph name="FORMATTED_TOTAL_AMOUNT"/></translation>
 <translation id="7862185352068345852">Opustit web?</translation>
 <translation id="7865448901209910068">Nejlepší rychlost</translation>
-<translation id="1012292338579042608">Právě jste své heslo zadali na klamavém webu. Brave doporučuje zkontrolovat uložená hesla pro weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> a další weby, na nichž toto heslo používáte.</translation>
+<translation id="1012292338579042608">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje zkontrolovat uložená hesla pro weby <ph name="WEBSITE_1"/>, <ph name="WEBSITE_2"/> a další weby, na nichž toto heslo používáte.</translation>
 <translation id="7878562273885520351">Heslo může být prolomeno</translation>
 <translation id="7882421473871500483">Hnědá</translation>
 <translation id="7887683347370398519">Zkontrolujte kód CVC a zkuste to znovu</translation>
@@ -1597,7 +1597,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="7932579305932748336">Potah</translation>
 <translation id="79338296614623784">Zadejte platné telefonní číslo</translation>
 <translation id="7934052535022478634">Platba dokončena</translation>
-<translation id="8329449853370113380">Web <ph name="URL"/> chce přehrát chráněný obsah. Brave ověří identitu vašeho zařízení.</translation>
+<translation id="8329449853370113380">Web <ph name="URL"/> chce přehrát chráněný obsah. Dissenter ověří identitu vašeho zařízení.</translation>
 <translation id="7935031712718413217">Možná spoofingová adresa URL</translation>
 <translation id="7935318582918952113">DOM Distiller</translation>
 <translation id="7937554595067888181">Platnost vyprší <ph name="EXPIRATION_DATE_ABBR"/></translation>
@@ -1629,11 +1629,11 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8042918947222776840">Vybrat způsob vyzvednutí</translation>
 <translation id="8057711352706143257">Software <ph name="SOFTWARE_NAME"/> není nakonfigurován správně. Tento problém lze obvykle vyřešit odinstalováním softwaru <ph name="SOFTWARE_NAME"/>. <ph name="FURTHER_EXPLANATION"/></translation>
 <translation id="8066955247577885446">Lituji, něco se pokazilo.</translation>
-<translation id="5442778523450464826">Právě jste své heslo zadali na klamavém webu. Brave vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
+<translation id="5442778523450464826">Právě jste své heslo zadali na klamavém webu. Dissenter vám může pomoci. Chcete-li změnit heslo a oznámit Googlu, že váš účet může být ohrožen, klikněte na Ochránit účet.</translation>
 <translation id="8074253406171541171">10x13 (obálka)</translation>
 <translation id="8078141288243656252">Když je dokument otočený, nelze do něj přidávat značky a poznámky</translation>
 <translation id="8079031581361219619">Načíst web znovu?</translation>
-<translation id="939305735877869636">Brave</translation>
+<translation id="939305735877869636">Dissenter</translation>
 <translation id="8086971161893892807">Koncept</translation>
 <translation id="8088680233425245692">Zobrazení článku se nezdařilo.</translation>
 <translation id="808894953321890993">Změnit heslo</translation>
@@ -1652,7 +1652,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8150722005171944719">Soubor na adrese <ph name="URL"/> nelze načíst. Možná byl odstraněn, přesunut nebo mohou přístupu bránit oprávnění souboru.</translation>
 <translation id="8157295877370077682">Opustit web</translation>
 <translation id="8163866351304776260">Čtyři díry vlevo</translation>
-<translation id="4351627595884993315">Brave vám nabízí uložení karet do účtu Brave, protože jste přihlášeni. Toto chování můžete změnit v Nastavení.</translation>
+<translation id="4351627595884993315">Dissenter vám nabízí uložení karet do účtu Dissenter, protože jste přihlášeni. Toto chování můžete změnit v Nastavení.</translation>
 <translation id="8184538546369750125">Použít výchozí globální hodnotu (Povolit)</translation>
 <translation id="8194797478851900357">&amp;Vrátit přesunutí zpět</translation>
 <translation id="8197543752516192074">Přeložit stránku</translation>
@@ -1663,7 +1663,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="8211406090763984747">Připojení je zabezpečené</translation>
 <translation id="8218327578424803826">Přiřazené místo:</translation>
 <translation id="8220146938470311105">C7/C6 (obálka)</translation>
-<translation id="3272614036080146686">Právě jste své heslo zadali na klamavém webu. Brave doporučuje navštívit web <ph name="WEBSITE_1"/> a další weby, kde toto heslo používáte, a okamžitě jej změnit.</translation>
+<translation id="3272614036080146686">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje navštívit web <ph name="WEBSITE_1"/> a další weby, kde toto heslo používáte, a okamžitě jej změnit.</translation>
 <translation id="822964464349305906"><ph name="TYPE_1"/>, <ph name="TYPE_2"/></translation>
 <translation id="8232343881378637145">Teplota platformy</translation>
 <translation id="8241707690549784388">Stránka, kterou hledáte, používala vámi zadané informace. Návrat na tuto stránku by mohl způsobit, že akce, kterou jste provedli, bude opakována. Přejete si pokračovat?</translation>
@@ -1690,7 +1690,7 @@ Kontaktujte administrátora systému.</translation>
 <translation id="830498451218851433">Přeložení napůl</translation>
 <translation id="8307358339886459768">Small-Photo</translation>
 <translation id="8307888238279532626">Nainstalované aplikace a četnost jejich používání</translation>
-<translation id="8390490312179389407">Tato stránka je podezřelá (nahlášeno Bravem).</translation>
+<translation id="8390490312179389407">Tato stránka je podezřelá (nahlášeno Dissenterm).</translation>
 <translation id="831997045666694187">Večer</translation>
 <translation id="8332188693563227489">Přístup k webu <ph name="HOST_NAME"/> byl odepřen</translation>
 <translation id="833262891116910667">Zvýraznit</translation>
@@ -1721,14 +1721,14 @@ Další podrobnosti:
 <translation id="8473863474539038330">Adresy a další</translation>
 <translation id="8474910779563686872">Zobrazit podrobnosti pro vývojáře</translation>
 <translation id="8479754468255770962">Sponka vlevo dole</translation>
-<translation id="5142582872611298328">Chcete-li používat karty z účtu Brave, přihlaste se do Chromu.</translation>
+<translation id="5142582872611298328">Chcete-li používat karty z účtu Dissenter, přihlaste se do Chromu.</translation>
 <translation id="8488350697529856933">Platí pro</translation>
 <translation id="8490137692873530638">Stohovač 10</translation>
 <translation id="8498891568109133222">Odpověď webu <ph name="HOST_NAME"/> trvala příliš dlouho.</translation>
-<translation id="230699814587342492">Hesla Brave</translation>
+<translation id="230699814587342492">Hesla Dissenter</translation>
 <translation id="8503813439785031346">Uživatelské jméno</translation>
 <translation id="8508648098325802031">Ikona Vyhledávání</translation>
-<translation id="1426902392270366682">Brave vám může pomoci ochránit váš účet Brave a změnit heslo.</translation>
+<translation id="1426902392270366682">Dissenter vám může pomoci ochránit váš účet Dissenter a změnit heslo.</translation>
 <translation id="8541158209346794904">Zařízení Bluetooth</translation>
 <translation id="8542014550340843547">Tři sponky dole</translation>
 <translation id="8543181531796978784">Můžete <ph name="BEGIN_ERROR_LINK"/>nahlásit problém se zjištěným webem<ph name="END_ERROR_LINK"/>. Pokud bezpečnostní rizika chápete, můžete <ph name="BEGIN_LINK"/>tento nespolehlivý web navštívit<ph name="END_LINK"/>.</translation>
@@ -1762,19 +1762,19 @@ Další podrobnosti:
 <translation id="8719528812645237045">Několik otvorů nahoře</translation>
 <translation id="8725066075913043281">Zkusit znovu</translation>
 <translation id="8730621377337864115">Hotovo</translation>
-<translation id="6326805297893828864">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Brave tyto certifikáty nemůže ověřit.</translation>
+<translation id="6326805297893828864">Aby bylo možné navázat zabezpečené spojení, hodiny musejí být nastaveny správně. Důvodem je, že certifikáty, pomocí kterých se weby identifikují, platí pouze pro pevně daná období. Jelikož hodiny v zařízení nejsou nastaveny správně, prohlížeč Dissenter tyto certifikáty nemůže ověřit.</translation>
 <translation id="8740359287975076522">&lt;abbr id="dnsDefinition"&gt;Adresu DNS&lt;/abbr&gt; webu <ph name="HOST_NAME"/> nelze najít. Diagnostikování problému…</translation>
 <translation id="874918643257405732">Přidat tuto kartu do záložek</translation>
 <translation id="8751426954251315517">Zkuste to znovu později</translation>
 <translation id="8759274551635299824">Platnost této karty vypršela</translation>
 <translation id="87601671197631245">Tento web používá zastaralou konfiguraci zabezpečení, která vaše informace odesílané na tento web (například hesla, zprávy nebo kreditní karty) vystavuje riziku odhalení.</translation>
-<translation id="8761567432415473239">Bezpečné prohlížení Brave na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>nalezlo škodlivé programy<ph name="END_LINK"/>.</translation>
+<translation id="8761567432415473239">Bezpečné prohlížení Dissenter na webu <ph name="SITE"/> nedávno <ph name="BEGIN_LINK"/>nalezlo škodlivé programy<ph name="END_LINK"/>.</translation>
 <translation id="8763927697961133303">Zařízení USB</translation>
-<translation id="565908431635579039">Právě jste své heslo zadali na klamavém webu. Brave doporučuje zkontrolovat uložená hesla pro web <ph name="WEBSITE_1"/> a další weby, na nichž toto heslo používáte.</translation>
+<translation id="565908431635579039">Právě jste své heslo zadali na klamavém webu. Dissenter doporučuje zkontrolovat uložená hesla pro web <ph name="WEBSITE_1"/> a další weby, na nichž toto heslo používáte.</translation>
 <translation id="877985182522063539">A4</translation>
 <translation id="8790007591277257123">&amp;Opakovat smazání</translation>
 <translation id="5304100303568917877">Mohli byste ztratit přístup k účtu <ph name="ORG_NAME"/> nebo by mohlo dojít k odcizení vaší identity. Doporučujeme vám okamžitě změnit heslo.</translation>
-<translation id="9156291179464624174">Administrátor organizace <ph name="ENROLLMENT_DOMAIN"/> vám v prohlížeči zapnul konektory Brave Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
+<translation id="9156291179464624174">Administrátor organizace <ph name="ENROLLMENT_DOMAIN"/> vám v prohlížeči zapnul konektory Dissenter Enterprise Connectors. Tyto konektory mají přístup k některým vašim datům.</translation>
 <translation id="8800988563907321413">Zde se zobrazí návrhy funkce Nablízku</translation>
 <translation id="8805819170075074995">Položka seznamu „<ph name="LANGUAGE_ID"/>“: Položka byla ignorována, protože je zahrnuta také v zásadě SpellcheckLanguage.</translation>
 <translation id="8807160976559152894">Oříznutí za každou stránkou</translation>
@@ -1782,7 +1782,7 @@ Další podrobnosti:
 <translation id="883848425547221593">Jiné záložky</translation>
 <translation id="884264119367021077">Dodací adresa</translation>
 <translation id="884923133447025588">Nebyl nalezen žádný mechanismus zamítnutí.</translation>
-<translation id="7487066225574140895">Sdílení s Bravem</translation>
+<translation id="7487066225574140895">Sdílení s Dissenterm</translation>
 <translation id="4764754838347156633">Pokud jste heslo organizace <ph name="BEGIN_BOLD"/><ph name="ORG_NAME"/><ph name="END_BOLD"/> použili na jiném webu, doporučujeme vám ho resetovat.</translation>
 <translation id="8866481888320382733">Při analýze nastavení zásady došlo k chybě</translation>
 <translation id="8866928039507595380">Přeložení</translation>
@@ -1795,23 +1795,23 @@ Další podrobnosti:
 <translation id="8903921497873541725">Přiblížit</translation>
 <translation id="890485472659500557">Engineering-C</translation>
 <translation id="890493561996401738">Tlačítko Odstranit návrh, odstranění provedete stisknutím klávesy Enter, <ph name="REMOVE_BUTTON_FOCUSED_FRIENDLY_MATCH_TEXT"/></translation>
-<translation id="2684652081942622950">Účet Brave</translation>
+<translation id="2684652081942622950">Účet Dissenter</translation>
 <translation id="8918231688545606538">Tato stránka je podezřelá</translation>
 <translation id="892588693504540538">Děrování vpravo nahoře</translation>
-<translation id="7757992844965332255">Chcete tuto kartu uložit do účtu Brave?</translation>
+<translation id="7757992844965332255">Chcete tuto kartu uložit do účtu Dissenter?</translation>
 <translation id="8932102934695377596">Vaše hodiny se zpožďují</translation>
 <translation id="893332455753468063">Přidání jména</translation>
 <translation id="8943282376843390568">Limetková</translation>
 <translation id="8957210676456822347">Autorizace captive portálu</translation>
-<translation id="109444839364056698">Když konektory Brave Enterprise Connectors nahlásí události týkající se zabezpečení, administrátorovi budou odeslána související data o události. Mohou být zahrnuty adresy URL stránek, které navštěvujete v Chromu, názvy souborů nebo metadata a uživatelské jméno, pomocí něhož se přihlašujete do svého zařízení a do Chromu.</translation>
+<translation id="109444839364056698">Když konektory Dissenter Enterprise Connectors nahlásí události týkající se zabezpečení, administrátorovi budou odeslána související data o události. Mohou být zahrnuty adresy URL stránek, které navštěvujete v Chromu, názvy souborů nebo metadata a uživatelské jméno, pomocí něhož se přihlašujete do svého zařízení a do Chromu.</translation>
 <translation id="8962950042226115166">Podezřelý web</translation>
 <translation id="8963213021028234748"><ph name="MARKUP_1"/>Návrhy:<ph name="MARKUP_2"/>Zkontrolujte, zda máte datové připojení.<ph name="MARKUP_3"/>Načtěte tuto webovou stránku znovu později.<ph name="MARKUP_4"/>Zkontrolujte zadanou adresu.<ph name="MARKUP_5"/></translation>
 <translation id="8968766641738584599">Uložit kartu</translation>
 <translation id="8971063699422889582">Platnost certifikátu serveru vypršela.</translation>
 <translation id="8975012916872825179">Zahrnuje informace jako telefonní čísla, e-mailové adresy a dodací adresy</translation>
 <translation id="8975263830901772334">Názvy souborů, které tisknete</translation>
-<translation id="8978053250194585037">Služba Bezpečné prohlížení Brave nedávno na webu <ph name="SITE"/> <ph name="BEGIN_LINK"/>zjistila phishing<ph name="END_LINK"/>. Phishingové weby se vás snaží oklamat tím, že se vydávají za jiné weby.</translation>
-<translation id="5889706513445719653">Platební metody a adresy pomocí služby Brave Pay</translation>
+<translation id="8978053250194585037">Služba Bezpečné prohlížení Dissenter nedávno na webu <ph name="SITE"/> <ph name="BEGIN_LINK"/>zjistila phishing<ph name="END_LINK"/>. Phishingové weby se vás snaží oklamat tím, že se vydávají za jiné weby.</translation>
+<translation id="5889706513445719653">Platební metody a adresy pomocí služby Dissenter Pay</translation>
 <translation id="8987927404178983737">Měsíc</translation>
 <translation id="8989148748219918422"><ph name="ORGANIZATION"/> [<ph name="COUNTRY"/>]</translation>
 <translation id="8996941253935762404">Web, na který se chystáte přejít, obsahuje škodlivé programy</translation>
@@ -1840,10 +1840,10 @@ Další podrobnosti:
 <translation id="9089260154716455634">Zásada Off-Hours:</translation>
 <translation id="9095388113577226029">Další jazyky...</translation>
 <translation id="9101630580131696064">Přihrádka 1</translation>
-<translation id="6373940988468425649">Web <ph name="SITE"/> vaše informace běžně chrání šifrováním. Když se prohlížeč Brave k webu <ph name="SITE"/> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE"/> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Brave připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
+<translation id="6373940988468425649">Web <ph name="SITE"/> vaše informace běžně chrání šifrováním. Když se prohlížeč Dissenter k webu <ph name="SITE"/> pokusil připojit tentokrát, web vrátil neobvyklé a nesprávné identifikační údaje. K tomuto problému může dojít, pokud se za web <ph name="SITE"/> pokouší vydávat nějaký útočník nebo pokud bylo připojení přerušeno přihlašovací obrazovkou sítě Wi-Fi. Vaše informace jsou i nadále v bezpečí, protože prohlížeč Dissenter připojení přerušil dříve, než došlo k odeslání jakýchkoliv dat.</translation>
 <translation id="9106062320799175032">Přidání fakturační adresy</translation>
 <translation id="9114524666733003316">Ověřování karty...</translation>
-<translation id="3582535072753734287">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Brave. <ph name="BEGIN_LINK"/>Další informace<ph name="END_LINK"/></translation>
+<translation id="3582535072753734287">Tento prohlížeč není spravován administrátorem ani jinou organizací. Aktivita na tomto zařízení může být spravována mimo Dissenter. <ph name="BEGIN_LINK"/>Další informace<ph name="END_LINK"/></translation>
 <translation id="9119042192571987207">Nahráno</translation>
 <translation id="9128870381267983090">Připojit k síti</translation>
 <translation id="9137013805542155359">Zobrazit originál</translation>
@@ -1851,7 +1851,7 @@ Další podrobnosti:
 <translation id="9148088599418889305">Vybrat způsob dopravy</translation>
 <translation id="9148507642005240123">&amp;Vrátit úpravy zpět</translation>
 <translation id="9150045010208374699">Používat fotoaparát</translation>
-<translation id="5874192512642998555">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Brave. <ph name="BEGIN_LINK"/>Další informace<ph name="END_LINK"/></translation>
+<translation id="5874192512642998555">Administrátor může nastavení prohlížeče vzdáleně změnit. Aktivita na tomto zařízení může být spravována také mimo Dissenter. <ph name="BEGIN_LINK"/>Další informace<ph name="END_LINK"/></translation>
 <translation id="9154194610265714752">Aktualizováno</translation>
 <translation id="9157595877708044936">Nastavování...</translation>
 <translation id="9158625974267017556">C6 (obálka)</translation>
@@ -1862,7 +1862,7 @@ Další podrobnosti:
 <translation id="9173282814238175921">Jeden dokument / nový list</translation>
 <translation id="917450738466192189">Certifikát serveru je neplatný.</translation>
 <translation id="9174917557437862841">Tlačítko přepínání karet. Stisknutím klávesy Enter přejdete na tuto kartu</translation>
-<translation id="9183302530794969518">Dokumenty Brave</translation>
+<translation id="9183302530794969518">Dokumenty Dissenter</translation>
 <translation id="9183425211371246419">Web <ph name="HOST_NAME"/> používá nepodporovaný protokol.</translation>
 <translation id="9191834167571392248">Děrování vlevo dole</translation>
 <translation id="9205078245616868884">Vaše data jsou šifrována pomocí heslové fráze pro synchronizaci. Chcete-li zahájit synchronizaci, zadejte ji.</translation>
@@ -1872,7 +1872,7 @@ Další podrobnosti:
 <translation id="933712198907837967">Diners Club</translation>
 <translation id="935608979562296692">VYMAZAT FORMULÁŘ</translation>
 <translation id="936474030629450166">Super-B</translation>
-<translation id="7486559383537872796">Mohli byste ztratit přístup k účtu Brave. Brave doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
+<translation id="7486559383537872796">Mohli byste ztratit přístup k účtu Dissenter. Dissenter doporučuje okamžitě změnit heslo. Budete vyzváni k přihlášení.</translation>
 <translation id="939736085109172342">Nová složka</translation>
 <translation id="945855313015696284">Zkontrolujte níže uvedené informace a vymažte neplatné karty</translation>
 <translation id="950736567201356821">Tři díry nahoře</translation>
@@ -1897,7 +1897,7 @@ Další podrobnosti:
     &lt;li&gt;Zkuste se připojit k jiné síti.&lt;/li&gt;
     &lt;/ul&gt;</translation>
 <translation id="994346157028146140">JIS B1</translation>
-<translation id="6771143571626203666">Z Brave Pay</translation>
+<translation id="6771143571626203666">Z Dissenter Pay</translation>
 <translation id="8820817407110198400">Záložky</translation>
 <translation id="8362995731815961365">Uživatel, který tento počítač nastavoval, se rozhodl tento web blokovat.</translation>
 <translation id="4075123085690634698">Otevřete stránku v novém anonymním okně (⇧⌘N)</translation>
@@ -1909,7 +1909,7 @@ Další podrobnosti:
 <translation id="2227116904818538760">Jste v anonymním režimu</translation>
 <translation id="2007417459975034427">Nyní můžete procházet internet v soukromí a ostatní uživatelé tohoto zařízení vaši aktivitu neuvidí. Stažené soubory a záložky budou uloženy.</translation>
 <translation id="2586968635953373425">Otevřít anonymní okno</translation>
-<translation id="3489858312836205593">Otevřít nové anonymní okno prohlížeče Brave</translation>
+<translation id="3489858312836205593">Otevřít nové anonymní okno prohlížeče Dissenter</translation>
 <translation id="6984479912851154518">Chystáte se opustit anonymní režim, abyste mohli zaplatit v externí aplikaci. Chcete pokračovat?</translation>
 <translation id="1426112902089905810">&lt;h4&gt;Krok 1: Přihlaste se do portálu&lt;/h4&gt;
     &lt;p&gt;Wi-Fi sítě v místech, jako jsou kavárny nebo letiště, vyžadují přihlášení. Chcete-li zobrazit přihlašovací stránku, přejděte na stránku, která používá schéma &lt;code&gt;http://&lt;/code&gt;.&lt;/p&gt;

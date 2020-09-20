@@ -96,19 +96,19 @@
   <message name="IDS_OS_SETTINGS_TAG_CELLULAR_DISCONNECT" desc="Text for search result item which, when clicked, navigates the user to Cellular network settings, with a button to disconnect from the currently-connected Celluar network.">
     Disconnect Cellular network
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_INSTANT_MOBILE_NETWORKS" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Bravebook to use mobile connection from phone).">
+  <message name="IDS_OS_SETTINGS_TAG_INSTANT_MOBILE_NETWORKS" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Dissenterbook to use mobile connection from phone).">
     Mobile networks
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_OFF" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Bravebook to use mobile connection from phone), with a toggle to turn off the feature. Alternate phrase for: 'Disable Instant Tethering'">
+  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_OFF" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Dissenterbook to use mobile connection from phone), with a toggle to turn off the feature. Alternate phrase for: 'Disable Instant Tethering'">
     Turn off Instant Tethering
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_OFF_ALT1" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Bravebook to use mobile connection from phone), with a toggle to turn off the feature. Alternate phrase for: 'Turn off Instant Tethering'">
+  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_OFF_ALT1" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Dissenterbook to use mobile connection from phone), with a toggle to turn off the feature. Alternate phrase for: 'Turn off Instant Tethering'">
     Disable Instant Tethering
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_ON" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Bravebook to use mobile connection from phone), with a toggle to turn on the feature. Alternate phrase for: 'Enable Instant Tethering'">
+  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_ON" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Dissenterbook to use mobile connection from phone), with a toggle to turn on the feature. Alternate phrase for: 'Enable Instant Tethering'">
     Turn on Instant Tethering
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_ON_ALT1" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Bravebook to use mobile connection from phone), with a toggle to turn on the feature. Alternate phrase for: 'Turn on Instant Tethering'">
+  <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING_TURN_ON_ALT1" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings (allows Dissenterbook to use mobile connection from phone), with a toggle to turn on the feature. Alternate phrase for: 'Turn on Instant Tethering'">
     Enable Instant Tethering
   </message>
   <message name="IDS_OS_SETTINGS_TAG_INSTANT_TETHERING" desc="Text for search result item which, when clicked, navigates the user to Instant Tethering settings, which lists properties about the currently-connected Instant Tethering network. Alternate phrase for: 'Disconnect Instant Tethering network', 'Configure Wi-Fi'">
@@ -193,22 +193,22 @@
   </message>
 
   <!-- MultiDevice section. -->
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE" desc="Text for search result item which, when clicked, navigates the user to multi-device settings (connects Android phone to Bravebook). Alternate phrase for: 'Phone'">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE" desc="Text for search result item which, when clicked, navigates the user to multi-device settings (connects Android phone to Dissenterbook). Alternate phrase for: 'Phone'">
     Connected devices
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_ALT1" desc="Text for search result item which, when clicked, navigates the user to multi-device settings (connects Android phone to Bravebook). Alternate phrase for: 'Connected devices'">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_ALT1" desc="Text for search result item which, when clicked, navigates the user to multi-device settings (connects Android phone to Dissenterbook). Alternate phrase for: 'Connected devices'">
     Phone
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_SMART_LOCK" desc="Text for search result item which, when clicked, navigates the user to Smart Lock settings (unlock Bravebook with Android phone).">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_SMART_LOCK" desc="Text for search result item which, when clicked, navigates the user to Smart Lock settings (unlock Dissenterbook with Android phone).">
     Smart Lock
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_MESSAGES" desc="Text for search result item which, when clicked, navigates the user to Messages settings (sync SMS between Bravebook and Android phone). Alternate phrase for: 'Android messages'">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_MESSAGES" desc="Text for search result item which, when clicked, navigates the user to Messages settings (sync SMS between Dissenterbook and Android phone). Alternate phrase for: 'Android messages'">
     Messages
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_MESSAGES_ALT1" desc="Text for search result item which, when clicked, navigates the user to Messages settings (sync SMS between Bravebook and Android phone). Alternate phrase for: 'Messages'">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_MESSAGES_ALT1" desc="Text for search result item which, when clicked, navigates the user to Messages settings (sync SMS between Dissenterbook and Android phone). Alternate phrase for: 'Messages'">
     Android messages
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_SMART_LOCK_OPTIONS" desc="Text for search result item which, when clicked, navigates the user to Smart Lock screen lock settings (for signing into Bravebook with Android phone).">
+  <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_SMART_LOCK_OPTIONS" desc="Text for search result item which, when clicked, navigates the user to Smart Lock screen lock settings (for signing into Dissenterbook with Android phone).">
     Smart Lock screen lock options
   </message>
   <message name="IDS_OS_SETTINGS_TAG_MULTIDEVICE_FORGET" desc="Text for search result item which, when clicked, navigates the user to multi-device settings, which an option to disconnect the currently-connected Android phone. Alternate phrase for: 'Disconnect connected phone'">
@@ -334,25 +334,25 @@
   <message name="IDS_OS_SETTINGS_TAG_PARENTAL_CONTROLS_ALT2" desc="Text for search result item which, when clicked, navigates the user to parental control settings. Alternate phrase for: 'Parental controls', 'Child accounts'">
     Family Link
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_SYNC_AND_GOOGLE_SERVICES" desc="Text for search result item which, when clicked, navigates the user to settings for Sync (syncs data between multiple Bravebooks) and Brave Services.">
-    Sync and Brave services
+  <message name="IDS_OS_SETTINGS_TAG_SYNC_AND_GOOGLE_SERVICES" desc="Text for search result item which, when clicked, navigates the user to settings for Sync (syncs data between multiple Dissenterbooks) and Dissenter Services.">
+    Sync and Dissenter services
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_SYNC_ENCRYPTION_OPTIONS" desc="Text for search result item which, when clicked, navigates the user to sync settings, with an option to choose whether synced data is encrypted with the user's Brave account password or with a custom password chosen by the user. Alternate phrase for: 'Sync encryption password'">
+  <message name="IDS_OS_SETTINGS_TAG_SYNC_ENCRYPTION_OPTIONS" desc="Text for search result item which, when clicked, navigates the user to sync settings, with an option to choose whether synced data is encrypted with the user's Dissenter account password or with a custom password chosen by the user. Alternate phrase for: 'Sync encryption password'">
     Sync encryption options
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_SYNC_ENCRYPTION_OPTIONS_ALT1" desc="Text for search result item which, when clicked, navigates the user to sync settings, with an option to choose whether synced data is encrypted with the user's Brave account password or with a custom password chosen by the user. Alternate phrase for: 'Sync encryption options'">
+  <message name="IDS_OS_SETTINGS_TAG_SYNC_ENCRYPTION_OPTIONS_ALT1" desc="Text for search result item which, when clicked, navigates the user to sync settings, with an option to choose whether synced data is encrypted with the user's Dissenter account password or with a custom password chosen by the user. Alternate phrase for: 'Sync encryption options'">
     Sync encryption password
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_SYNC_MANAGEMENT" desc="Text for search result item which, when clicked, navigates the user to sync settings, with the option to decide which types of data are synced via Brave Sync.">
+  <message name="IDS_OS_SETTINGS_TAG_SYNC_MANAGEMENT" desc="Text for search result item which, when clicked, navigates the user to sync settings, with the option to decide which types of data are synced via Dissenter Sync.">
     Sync management
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_AUTOCOMPLETE_SEARCHES_AND_URLS" desc="Text for search result item which, when clicked, navigates the user to Brave services settings, with a toggle to enable/disable a feature which autocompletes user searches and URLs using browser history and cookies.">
+  <message name="IDS_OS_SETTINGS_TAG_AUTOCOMPLETE_SEARCHES_AND_URLS" desc="Text for search result item which, when clicked, navigates the user to Dissenter services settings, with a toggle to enable/disable a feature which autocompletes user searches and URLs using browser history and cookies.">
     Autocomplete searches and URLs
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_MAKE_SEARCHES_AND_BROWSER_BETTER" desc="Text for search result item which, when clicked, navigates the user to Brave services settings, with a toggle to enable/disable a feature which sends URLs of pages the user has visited to Brave, which helps to improve search/browsing results.">
-    Send URLs of pages you visit to Brave
+  <message name="IDS_OS_SETTINGS_TAG_MAKE_SEARCHES_AND_BROWSER_BETTER" desc="Text for search result item which, when clicked, navigates the user to Dissenter services settings, with a toggle to enable/disable a feature which sends URLs of pages the user has visited to Dissenter, which helps to improve search/browsing results.">
+    Send URLs of pages you visit to Dissenter
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_GOOGLE_DRIVE_SEARCH_SUGGESTIONS" desc="Text for search result item which, when clicked, navigates the user to Brave services settings, with a toggle to enable/disable a feature which provides suggestions to visit Google Drive items when the user types in the address bar.">
+  <message name="IDS_OS_SETTINGS_TAG_GOOGLE_DRIVE_SEARCH_SUGGESTIONS" desc="Text for search result item which, when clicked, navigates the user to Dissenter services settings, with a toggle to enable/disable a feature which provides suggestions to visit Google Drive items when the user types in the address bar.">
     Google Drive search suggestions
   </message>
 
@@ -638,7 +638,7 @@
   <message name="IDS_OS_SETTINGS_TAG_AMBIENT_MODE_TURN_OFF_ALT1" desc="Text for search result item which, when clicked, navigates the user to ambient mode settings, with a toggle to enable/disable the feature. Alternate phrase for: 'Turn off Ambient mode'">
     Disable ambient mode
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_AMBIENT_MODE_CHOOSE_SOURCE" desc="Text for search result item which, when clicked, navigates the user to ambient mode settings, with buttons to choose a source (e.g., photos from Brave Photos or an art gallery).">
+  <message name="IDS_OS_SETTINGS_TAG_AMBIENT_MODE_CHOOSE_SOURCE" desc="Text for search result item which, when clicked, navigates the user to ambient mode settings, with buttons to choose a source (e.g., photos from Dissenter Photos or an art gallery).">
     Choose ambient mode source
   </message>
   <message name="IDS_OS_SETTINGS_TAG_AMBIENT_MODE_TURN_ON" desc="Text for search result item which, when clicked, navigates the user to ambient mode settings, with a toggle to enable/disable the feature. Alternate phrase for: 'Enable Ambient mode'">
@@ -652,44 +652,44 @@
   <message name="IDS_OS_SETTINGS_TAG_PREFERRED_SEARCH_ENGINE" desc="Text for search result item which, when clicked, navigates the user to search settings, with an option to set the user's preferred search engine.">
     Preferred search engine
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings.">
-    Brave Assistant
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings.">
+    Dissenter Assistant
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_RELATED_INFO" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable letting Assistant show info related to what's on the screen.">
-    Brave Assistant related information
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_RELATED_INFO" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable letting Assistant show info related to what's on the screen.">
+    Dissenter Assistant related information
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_QUICK_ANSWERS" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable letting Assistant show related info when the user right-clicks.">
-    Brave Assistant quick answers
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_QUICK_ANSWERS" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable letting Assistant show related info when the user right-clicks.">
+    Dissenter Assistant quick answers
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Brave' out loud. Alternate phrase for: 'Okay Brave', 'Hey Brave'">
-    Brave Assistant "Ok Brave"
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Dissenter' out loud. Alternate phrase for: 'Okay Dissenter', 'Hey Dissenter'">
+    Dissenter Assistant "Ok Dissenter"
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE_ALT1" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Brave' out loud. Alternate phrase for: 'Brave Assistant 'Ok Brave'', 'Hey Brave'">
-    Okay Brave
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE_ALT1" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Dissenter' out loud. Alternate phrase for: 'Dissenter Assistant 'Ok Dissenter'', 'Hey Dissenter'">
+    Okay Dissenter
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE_ALT2" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Brave' out loud. Alternate phrase for: 'Brave Assistant 'Ok Brave'', 'Okay Brave'">
-    Hey Brave
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_OK_GOOGLE_ALT2" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable letting users summon the Assistant by saying 'Ok Dissenter' out loud. Alternate phrase for: 'Dissenter Assistant 'Ok Dissenter'', 'Okay Dissenter'">
+    Hey Dissenter
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_NOTIFICATIONS" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable Assistant notifications.">
-    Brave Assistant Notifications
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_NOTIFICATIONS" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable Assistant notifications.">
+    Dissenter Assistant Notifications
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_PREFERRED_INPUT" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with a toggle to enable/disable having the preferred input be voice instead of keyboard.">
-    Brave Assistant voice input
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_PREFERRED_INPUT" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with a toggle to enable/disable having the preferred input be voice instead of keyboard.">
+    Dissenter Assistant voice input
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_OFF" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with an option to turn functionality off. Alternate phrase for: 'Disable Brave Assistant'">
-    Turn off Brave Assistant
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_OFF" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with an option to turn functionality off. Alternate phrase for: 'Disable Dissenter Assistant'">
+    Turn off Dissenter Assistant
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_OFF_ALT1" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with an option to turn functionality off. Alternate phrase for: 'Turn off Brave Assistant'">
-    Disable Brave Assistant
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_OFF_ALT1" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with an option to turn functionality off. Alternate phrase for: 'Turn off Dissenter Assistant'">
+    Disable Dissenter Assistant
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_ON" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with an option to turn functionality on. Alternate phrase for: 'Enable Brave Assistant'">
-    Turn on Brave Assistant
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_ON" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with an option to turn functionality on. Alternate phrase for: 'Enable Dissenter Assistant'">
+    Turn on Dissenter Assistant
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_ON_ALT1" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with an option to turn functionality on. Alternate phrase for: 'Turn on Brave Assistant'">
-    Enable Brave Assistant
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TURN_ON_ALT1" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with an option to turn functionality on. Alternate phrase for: 'Turn on Dissenter Assistant'">
+    Enable Dissenter Assistant
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TRAIN_VOICE_MODEL" desc="Text for search result item which, when clicked, navigates the user to Brave Assistant settings, with an option to train a voice model to listen for commands such as 'Okay Brave' or 'Hey Brave'">
-    Train Brave Assistant voice model
+  <message name="IDS_OS_SETTINGS_TAG_ASSISTANT_TRAIN_VOICE_MODEL" desc="Text for search result item which, when clicked, navigates the user to Dissenter Assistant settings, with an option to train a voice model to listen for commands such as 'Okay Dissenter' or 'Hey Dissenter'">
+    Train Dissenter Assistant voice model
   </message>
 
   <!-- Apps section. -->
@@ -731,16 +731,16 @@
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings. Alternate phrase for: 'Linux'">
     Crostini
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Bravebook. Alternate phrase for: 'Linux shared directories', 'Crostini shared folders', 'Crostini shared directories'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Dissenterbook. Alternate phrase for: 'Linux shared directories', 'Crostini shared folders', 'Crostini shared directories'">
     Linux shared folders
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Bravebook. Alternate phrase for: 'Linux shared folders', 'Crostini shared folders', 'Crostini shared directories'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Dissenterbook. Alternate phrase for: 'Linux shared folders', 'Crostini shared folders', 'Crostini shared directories'">
     Linux shared directories
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT2" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Bravebook. Alternate phrase for: 'Linux shared folders', 'Linux shared directories', 'Crostini shared directories'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT2" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Dissenterbook. Alternate phrase for: 'Linux shared folders', 'Linux shared directories', 'Crostini shared directories'">
     Crostini shared folders
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT3" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Bravebook. Alternate phrase for: 'Linux shared folders', 'Linux shared directories', 'Crostini shared folders'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SHARED_FOLDERS_ALT3" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to share folders with the Dissenterbook. Alternate phrase for: 'Linux shared folders', 'Linux shared directories', 'Crostini shared folders'">
     Crostini shared directories
   </message>
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_USB_PREFERENCES" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to set USB preferences. Alternate phrase for: 'Crostini USB preferences'">
@@ -749,28 +749,28 @@
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_USB_PREFERENCES_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with the option to set USB preferences. Alternate phrase for: 'Linux USB preferences'">
     Crostini USB preferences
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
     Remove Linux
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Linux', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Linux', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
     Remove Crostini
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT2" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT2" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Crostini', 'Delete Linux', 'Delete Crostini'">
     Uninstall Linux
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT3" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Delete Linux', 'Delete Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT3" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Delete Linux', 'Delete Crostini'">
     Uninstall Crostini
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT4" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT4" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Crostini'">
     Delete Linux
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT5" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Bravebook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_REMOVE_ALT5" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to delete the Linux installation on Dissenterbook. Alternate phrase for: 'Remove Linux', 'Remove Crostini', 'Uninstall Linux', 'Uninstall Crostini', 'Delete Linux'">
     Delete Crostini
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SETUP" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to set up Linux integration with Bravebook. Alternate phrase for: 'Set up Crostini'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SETUP" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to set up Linux integration with Dissenterbook. Alternate phrase for: 'Set up Crostini'">
     Set up Linux
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SETUP_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to set up Linux integration with Bravebook. Alternate phrase for: 'Set up Linux'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_SETUP_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to set up Linux integration with Dissenterbook. Alternate phrase for: 'Set up Linux'">
     Set up Crostini
   </message>
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_BACKUP_RESTORE" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to back up and restore Linux apps/files. Alternate phrase for: 'Crostini backup'">
@@ -785,10 +785,10 @@
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ANDROID_APPS_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with options for developing Android apps. Alternate phrase for: 'Linux Android app development'">
     Crostini Android app development
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ANDROID_APPS_ADB" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with a toggle to enable/disable Android ADB (Android to Bravebook device bridge). Alternate phrase for: 'Crostini Android app ADB'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ANDROID_APPS_ADB" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with a toggle to enable/disable Android ADB (Android to Dissenterbook device bridge). Alternate phrase for: 'Crostini Android app ADB'">
     Linux Android app ADB
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ANDROID_APPS_ADB_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with a toggle to enable/disable Android ADB (Android to Bravebook device bridge). Alternate phrase for: 'Linux Android app ADB'">
+  <message name="IDS_OS_SETTINGS_TAG_CROSTINI_ANDROID_APPS_ADB_ALT1" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with a toggle to enable/disable Android ADB (Android to Dissenterbook device bridge). Alternate phrase for: 'Linux Android app ADB'">
     Crostini Android app ADB
   </message>
   <message name="IDS_OS_SETTINGS_TAG_CROSTINI_PORT_FORWARDING" desc="Text for search result item which, when clicked, navigates the user to Linux (a.k.a. Crostini) settings, with an option to set up port forwarding. Alternate phrase for: 'Crostini port forwarding'">
@@ -840,16 +840,16 @@
   <message name="IDS_OS_SETTINGS_TAG_PRIVACY_VERIFIED_ACCESS" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable verified access.">
     Verified access
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_WIFI_SLEEP" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing Wi-Fi to remain active while Bravebook is sleeping. Alternate phrase for: 'Keep Wi-Fi on while idle'">
+  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_WIFI_SLEEP" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing Wi-Fi to remain active while Dissenterbook is sleeping. Alternate phrase for: 'Keep Wi-Fi on while idle'">
     Keep Wi-Fi on during sleep
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_WIFI_SLEEP_ALT1" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing Wi-Fi to remain active while Bravebook is sleeping. Alternate phrase for: 'Keep Wi-Fi on during sleep'">
+  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_WIFI_SLEEP_ALT1" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing Wi-Fi to remain active while Dissenterbook is sleeping. Alternate phrase for: 'Keep Wi-Fi on during sleep'">
     Keep Wi-Fi on while idle
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_CRASH_REPORTS" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing usage statistics and crash reports to be sent to Brave. Alternate phrase for: 'Feedback reports'">
+  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_CRASH_REPORTS" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing usage statistics and crash reports to be sent to Dissenter. Alternate phrase for: 'Feedback reports'">
     Usage statistics and crash reports
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_CRASH_REPORTS_ALT1" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing usage statistics and crash reports to be sent to Brave. Alternate phrase for: 'Usage statistics and crash reports'">
+  <message name="IDS_OS_SETTINGS_TAG_PRIVACY_CRASH_REPORTS_ALT1" desc="Text for search result item which, when clicked, navigates the user to privacy settings, with a toggle to enable/disable allowing usage statistics and crash reports to be sent to Dissenter. Alternate phrase for: 'Usage statistics and crash reports'">
     Feedback reports
   </message>
 
@@ -938,10 +938,10 @@
   <message name="IDS_OS_SETTINGS_TAG_A11Y_MANAGE_ALT1" desc="Text for search result item which, when clicked, navigates the user to manage accessibility (a.k.a. a11y) settings. Alternate phrase for: 'Manage accessibility features'">
     Manage a11y
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_A11y_CHROMEVOX" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable BraveVox (spoken feedback).">
-    BraveVox (spoken feedback)
+  <message name="IDS_OS_SETTINGS_TAG_A11y_CHROMEVOX" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable DissenterVox (spoken feedback).">
+    DissenterVox (spoken feedback)
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_A11y_CHROMEVOX_ALT1" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable BraveVox (spoken feedback). Alternate phrase for: 'BraveVox (spoken feedback)'">
+  <message name="IDS_OS_SETTINGS_TAG_A11y_CHROMEVOX_ALT1" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable DissenterVox (spoken feedback). Alternate phrase for: 'DissenterVox (spoken feedback)'">
     Screen reader
   </message>
   <message name="IDS_OS_SETTINGS_TAG_A11Y_CURSOR_COLOR" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable custom cursor colors.">
@@ -1043,8 +1043,8 @@
   <message name="IDS_OS_SETTINGS_TAG_A11Y_SWITCH_ACCESS_AUTO_SCAN_KEYBOARD" desc="Text for search result item which, when clicked, navigates the user to accessibility switch access settings, with a slider to set the auto-scan repeat rate.">
     Switch access keyboard auto-scan
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_A11Y_LABELS_FROM_GOOGLE" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable getting image descriptions from Brave.">
-    Get image descriptions from Brave
+  <message name="IDS_OS_SETTINGS_TAG_A11Y_LABELS_FROM_GOOGLE" desc="Text for search result item which, when clicked, navigates the user to accessibility settings, with a toggle to enable/disable getting image descriptions from Dissenter.">
+    Get image descriptions from Dissenter
   </message>
 
   <!-- Reset section. -->
@@ -1077,10 +1077,10 @@
   <message name="IDS_OS_SETTINGS_TAG_ABOUT_HELP" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link which opens the 'Help' app.">
     Help
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ABOUT_REPORT_ISSUE" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link which opens the 'Send feedback to Brave' app. Alternate phrase for: 'Report a bug'">
+  <message name="IDS_OS_SETTINGS_TAG_ABOUT_REPORT_ISSUE" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link which opens the 'Send feedback to Dissenter' app. Alternate phrase for: 'Report a bug'">
     Report an issue
   </message>
-  <message name="IDS_OS_SETTINGS_TAG_ABOUT_REPORT_ISSUE_ALT1" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link which opens the 'Send feedback to Brave' app. Alternate phrase for: 'Report an issue'">
+  <message name="IDS_OS_SETTINGS_TAG_ABOUT_REPORT_ISSUE_ALT1" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link which opens the 'Send feedback to Dissenter' app. Alternate phrase for: 'Report an issue'">
     Report a bug
   </message>
   <message name="IDS_OS_SETTINGS_TAG_ABOUT_TERMS_OF_SERVICE" desc="Text for search result item which, when clicked, navigates the user to 'About Chrome OS' settings, with a link to the Terms of Service.">

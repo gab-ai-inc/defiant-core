@@ -1,14 +1,14 @@
 <?xml version="1.0" ?>
 <!DOCTYPE translationbundle>
 <translationbundle lang="zh-TW">
-<translation id="3333887201479867589">Brave Rewards</translation>
-<translation id="7942180974165298215">Brave 廣告阻擋</translation>
+<translation id="3333887201479867589">Dissenter Rewards</translation>
+<translation id="7942180974165298215">Dissenter 廣告阻擋</translation>
 <translation id="4615489450165434530">回報壞掉的網站</translation>
 <translation id="6406506848690869874">同步</translation>
 <translation id="5655621391922317800">加密錢包</translation>
 <translation id="2445484935443597917">建立新的個人資料</translation>
 <translation id="2666990579225592931">開啟訪客視窗</translation>
-<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") 在 Brave 中是不允許的。</translation>
+<translation id="120759863357279975"><ph name="EXTENSION_NAME"/> (extension ID "<ph name="EXTENSION_ID"/>") 在 Dissenter 中是不允許的。</translation>
 <translation id="6786747875388722282">擴充功能</translation>
 <translation id="984275831282074731">付款方式</translation>
 <translation id="3699882589215410581">安裝並執行 Widevine</translation>
@@ -18,31 +18,31 @@
 <translation id="8762452230727230396">Tor 會讓您對您造訪的網站隱藏 IP 位置。</translation>
 <translation id="8053096063396012732">安裝 Widevine</translation>
 <translation id="4840334696217618631">重新啟動瀏覽器以啟用 Widevine</translation>
-<translation id="8410111618231938546">Google Widevine 為數位版權管理 (DRM) 碼的一部分，非 Brave Software 所有，且我們無法偵測。Google Widevine 碼是從 Google 伺服器而非我們的伺服器下載。它僅在您同意該選項時裝載。我們不鼓勵使用 DRM，但我們尊重使用者的選擇，並了解部分 Brave 使用者想使用要求安裝 DRM 的服務。
+<translation id="8410111618231938546">Google Widevine 為數位版權管理 (DRM) 碼的一部分，非 Gab AI Inc 所有，且我們無法偵測。Google Widevine 碼是從 Google 伺服器而非我們的伺服器下載。它僅在您同意該選項時裝載。我們不鼓勵使用 DRM，但我們尊重使用者的選擇，並了解部分 Dissenter 使用者想使用要求安裝 DRM 的服務。
 
-安裝該擴充功能即表示您同意 Google Widevine 使用條款。您同意 Brave 不為您使用 Google Widevine 而產生的任何相關損害或損失負責。</translation>
+安裝該擴充功能即表示您同意 Google Widevine 使用條款。您同意 Dissenter 不為您使用 Google Widevine 而產生的任何相關損害或損失負責。</translation>
 <translation id="410351446219883937">自動播放</translation>
 <translation id="3218385319396786393">此頁面已禁止自動播放</translation>
 <translation id="4988333904713528597">永遠允許自動播放 <ph name="HOST"/></translation>
 <translation id="4150684676757176434">繼續阻擋自動撥放</translation>
-<translation id="5883458389055721080">Brave 未驗證過此擴充套件的安全性。只在您信任此開開發者時才安裝此擴充套件。</translation>
+<translation id="5883458389055721080">Dissenter 未驗證過此擴充套件的安全性。只在您信任此開開發者時才安裝此擴充套件。</translation>
 <translation id="8081858229109418493">設定檔名稱和圖示</translation>
-<translation id="2044383478723007273">Brave 顏色</translation>
+<translation id="2044383478723007273">Dissenter 顏色</translation>
 <translation id="1692470335103807198">取得更多主題</translation>
-<translation id="2906510232093002459">Brave 預設圖像</translation>
+<translation id="2906510232093002459">Dissenter 預設圖像</translation>
 <translation id="2814998458708016836">使用寬網址列</translation>
-<translation id="6123134130710658846">隱藏 Brave Rewards 按鈕</translation>
-<translation id="7635711399568194460">當 Brave Rewards 未啟用時，在網址列隱藏 Brave Rewards 按鈕</translation>
+<translation id="6123134130710658846">隱藏 Dissenter Rewards 按鈕</translation>
+<translation id="7635711399568194460">當 Dissenter Rewards 未啟用時，在網址列隱藏 Dissenter Rewards 按鈕</translation>
 <translation id="1520361618554057102">總是在新分頁上顯示書籤</translation>
 <translation id="5802665280774361839">在網址列顯示自動完成</translation>
 <translation id="597020512043916976">在自動完成建議中顯示熱門網站</translation>
-<translation id="264150068416846820">在自動完成建議中顯示 Brave 建議的網站</translation>
+<translation id="264150068416846820">在自動完成建議中顯示 Dissenter 建議的網站</translation>
 <translation id="7781069478569868053">新分頁</translation>
-<translation id="2467749191278759605">自訂您的 Brave 儀表板</translation>
+<translation id="2467749191278759605">自訂您的 Dissenter 儀表板</translation>
 <translation id="1717331825806276156">背景圖片</translation>
 <translation id="1820041496463124489">贊助圖片</translation>
-<translation id="8173998484743827990">Brave 統計</translation>
-<translation id="5551238871320268996">Brave Together</translation>
+<translation id="8173998484743827990">Dissenter 統計</translation>
+<translation id="5551238871320268996">Dissenter Together</translation>
 <translation id="6966052266404721769">幣安</translation>
 <translation id="8533411848724153701">Gemini</translation>
 <translation id="4643117005422448078">熱門網站</translation>
@@ -57,7 +57,7 @@
 <translation id="3488584642074079080">使用 Tor 在隱私視窗中打開連結</translation>
 <translation id="6313675821927505581">新的使用 Tor 的視窗</translation>
 <translation id="2638041073279639246">在使用 Tor 的隱私視窗中開啟連結</translation>
-<translation id="3425600262621021599">在使用 Tor 的 Brave 隱私視窗中開啟連結</translation>
+<translation id="3425600262621021599">在使用 Tor 的 Dissenter 隱私視窗中開啟連結</translation>
 <translation id="3155170474926428993">Tor 啟動程式</translation>
 <translation id="2515126961943087659">BAT 廣告服務</translation>
 <translation id="7924918279836988121">Bat 分類帳服務</translation>
@@ -66,7 +66,7 @@
 <translation id="6303294677342628402">防護</translation>
 <translation id="7133511168130368997">封鎖在整個網路上追蹤您的追蹤器與廣告。</translation>
 <translation id="2761825942249694703">這些是預設的防護設定。它們會套用到所有的網頁，除非您在特定的網頁上於防護面板中修改了某些東西才會有所不同。變更這些不會影響您既有的每個網站的設定。</translation>
-<translation id="8754605759692119662">這將會封鎖網站上大多數的廣告，但不包含 Brave 的隱私廣告，那些可在後方的頁面中控制</translation>
+<translation id="8754605759692119662">這將會封鎖網站上大多數的廣告，但不包含 Dissenter 的隱私廣告，那些可在後方的頁面中控制</translation>
 <translation id="6388201778088078932">設定。</translation>
 <translation id="9185018653595759199">阻擋社群媒體</translation>
 <translation id="7390783310074170337">預設瀏覽</translation>
@@ -98,7 +98,7 @@
 <translation id="8502234992433094996">使用 Google 服務來推播訊息</translation>
 <translation id="5565355416171743213">開始使用同步</translation>
 <translation id="4332558599726753990">同步設定</translation>
-<translation id="2187778349654214731">要開始，您必須在您所有要同步的裝置上安裝 Brave。然後，將它們使用同步代碼相互連結。</translation>
+<translation id="2187778349654214731">要開始，您必須在您所有要同步的裝置上安裝 Dissenter。然後，將它們使用同步代碼相互連結。</translation>
 <translation id="7530575064080939974">管理您的同步裝置</translation>
 <translation id="7575156386943878014">同步管理程式</translation>
 <translation id="1755198127524719638">同步設定</translation>
@@ -112,18 +112,18 @@
 <translation id="7885157704277298658">已複製！</translation>
 <translation id="8802630444265810662">使用行動裝置掃描 QR code 來傳輸您的同步代碼</translation>
 <translation id="6221331245829088299">顯示 QR code 時發生錯誤，請重新整理並再試一次。</translation>
-<translation id="298546024891487702">要開始，您需要在所有計劃進行同步的裝置上安裝 Brave。要將它們鏈結在一起，請開始一條您會用來安全連結所有裝置的同步鏈。</translation>
+<translation id="298546024891487702">要開始，您需要在所有計劃進行同步的裝置上安裝 Dissenter。要將它們鏈結在一起，請開始一條您會用來安全連結所有裝置的同步鏈。</translation>
 <translation id="6200528822592747640">開始一條新的同步鏈</translation>
 <translation id="5184726904895809379">我有組「同步代碼」</translation>
 <translation id="8780295742023331191">檢視「同步代碼」</translation>
 <translation id="9017050385815017931">手機/平板電腦</translation>
 <translation id="1736420071277903564">電腦</translation>
 <translation id="3407602902101449803">同步鏈 QR 碼</translation>
-<translation id="8369686073965491869">在您的行動裝置上，前往「設定」面板中的「Brave 同步」，按一下按鈕</translation>
+<translation id="8369686073965491869">在您的行動裝置上，前往「設定」面板中的「Dissenter 同步」，按一下按鈕</translation>
 <translation id="6527776448555649991">“掃描同步代碼”。</translation>
 <translation id="1400862780574843709">用您的相機掃描下方的 QR 碼。</translation>
 <translation id="5086223971958279691">同步鏈代碼</translation>
-<translation id="2899261497479389619">在您的目標電腦上，前往設定中的「Brave 同步」，按一下按鈕</translation>
+<translation id="2899261497479389619">在您的目標電腦上，前往設定中的「Dissenter 同步」，按一下按鈕</translation>
 <translation id="4827439149833241990">“我有組「同步代碼」”。</translation>
 <translation id="24067401253841795">輸入下面顯示的同步鏈代碼文字。把這個代碼視為密碼。如果某人拿到它，他就可以讀取並修改您已同步的資料。</translation>
 <translation id="3034163433136515805">檢視 QR 碼</translation>
@@ -135,7 +135,7 @@
 <translation id="4112587618563511470">無效的同步代碼，請檢查並再試一次。</translation>
 <translation id="2339730291919608488">離開同步鏈結</translation>
 <translation id="115699408012835975">如果您重設同步，您將必須重新輸入從其他裝置而來的同步代碼以與其同步。您確定您想要繼續嗎？</translation>
-<translation id="3396347744975515056">Brave 同步已升級並需要設定</translation>
+<translation id="3396347744975515056">Dissenter 同步已升級並需要設定</translation>
 <translation id="7473245612074035141">開始設定</translation>
 <translation id="6696935187608454456">協助小費</translation>
 <translation id="2775956301559569472">在 404 頁面上顯示 Wayback Machine 提示</translation>
@@ -152,7 +152,7 @@
 <translation id="5913089932885076110">啟動時載入加密錢包</translation>
 <translation id="6554397389149987360">使用 Hangouts 元件來啟用畫面分享和其它瀏覽器功能。</translation>
 <translation id="1765684547504191670">使用媒體路由器元件以在瀏覽器中啟用 Chromecast。</translation>
-<translation id="9156965752763025780">你的變更將於下次重新啟動 Brave 時生效。</translation>
+<translation id="9156965752763025780">你的變更將於下次重新啟動 Dissenter 時生效。</translation>
 <translation id="7179921470347911571">立刻重新啟動</translation>
 <translation id="4154389611571860454">使用 IPFS 配對擴充套件以在瀏覽器中支援 IPFS。</translation>
 <translation id="8137559199583651773">管理擴充功能</translation>
@@ -165,52 +165,52 @@
 <translation id="3789841737615482174">安裝</translation>
 <translation id="7658239707568436148">取消</translation>
 <translation id="1307431692088049276">不要再問了</translation>
-<translation id="3371343170427636147">Brave 瀏覽器 Nightly 應用程式</translation>
-<translation id="4097979995947147464">Brave 瀏覽器 Beta 應用程式</translation>
-<translation id="8303432794159193481">Brave 瀏覽器 Dev 應用程式</translation>
-<translation id="8292967014767479012">Brave 瀏覽器應用程式</translation>
-<translation id="4743468424889072281">Brave 瀏覽器 Development 應用程式</translation>
+<translation id="3371343170427636147">Dissenter 瀏覽器 Nightly 應用程式</translation>
+<translation id="4097979995947147464">Dissenter 瀏覽器 Beta 應用程式</translation>
+<translation id="8303432794159193481">Dissenter 瀏覽器 Dev 應用程式</translation>
+<translation id="8292967014767479012">Dissenter 瀏覽器應用程式</translation>
+<translation id="4743468424889072281">Dissenter 瀏覽器 Development 應用程式</translation>
 <translation id="6624718837376802990">俐落獎勵化身</translation>
-<translation id="6617313057407561765">俐落 Brave 化身</translation>
+<translation id="6617313057407561765">俐落 Dissenter 化身</translation>
 <translation id="6754445808455578019">俐落海洋化身</translation>
 <translation id="1202230982786524987">俐落草地化身</translation>
 <translation id="5795513892420634319">俐落玉米化身</translation>
 <translation id="3561521017993720050">俐落高貴化身</translation>
 <translation id="1235866128911626592">俐落忍者化身</translation>
 <translation id="2090755120827623384">俠客獎勵化身</translation>
-<translation id="2018119859356143702">俠客 Brave 化身</translation>
+<translation id="2018119859356143702">俠客 Dissenter 化身</translation>
 <translation id="4740488466586929481">俠客海洋化身</translation>
 <translation id="5006207620676644913">俠客草地化身</translation>
 <translation id="3989232963815817109">俠客玉米化身</translation>
 <translation id="4594102608669574640">高貴俠客化身</translation>
 <translation id="2183738260538789532">俠客忍者化身</translation>
 <translation id="1364533449989493534">閃爍獎勵化身</translation>
-<translation id="7885078296101135895">閃爍 Brave 化身</translation>
+<translation id="7885078296101135895">閃爍 Dissenter 化身</translation>
 <translation id="5569105529336093187">閃爍海洋化身</translation>
 <translation id="8905105122495847950">閃爍草地化身</translation>
 <translation id="5118043134512650846">閃爍玉米化身</translation>
 <translation id="7054896317531348319">閃爍皇家化身</translation>
 <translation id="5493441852328628982">閃爍忍者化身</translation>
 <translation id="2752844432779340213">橢圓獎勵化身</translation>
-<translation id="3981340065784739675">橢圓 Brave 化身</translation>
+<translation id="3981340065784739675">橢圓 Dissenter 化身</translation>
 <translation id="8950124663623888116">橢圓海洋化身</translation>
 <translation id="1029136880675307651">橢圓草地化身</translation>
 <translation id="3285059582709531888">橢圓玉米化身</translation>
 <translation id="8540390244071055918">高貴橢圓化身</translation>
 <translation id="3435440003463944104">橢圓忍者化身</translation>
 <translation id="4222150638283443362">糖果獎勵化身</translation>
-<translation id="8888471219870198387">糖果 Brave 化身</translation>
+<translation id="8888471219870198387">糖果 Dissenter 化身</translation>
 <translation id="2883756935342108947">糖果海洋化身</translation>
 <translation id="6280956561199400472">糖果草地化身</translation>
 <translation id="5318548116565208315">糖果粒化身</translation>
 <translation id="1959966725083452288">高貴糖果化身</translation>
 <translation id="2039034364578911089">糖果忍者化身</translation>
-<translation id="1872784258300710671">Brave 使用完全私密的產品分析來評估特定功能的整體使用量</translation>
+<translation id="1872784258300710671">Dissenter 使用完全私密的產品分析來評估特定功能的整體使用量</translation>
 <translation id="8712637175834984815">我瞭解了</translation>
 <translation id="4394049700291259645">停用</translation>
-<translation id="6469509880167172749">自動傳送完全私密的產品分析給 Brave</translation>
-<translation id="7090566321964540749">此匿名資訊只會讓 Brave 評估特定功能的整題使用量。</translation>
-<translation id="9111960429693394744">您想要為 Dapps 使用 Brave 的加密錢包或 MetaMask 呢？</translation>
+<translation id="6469509880167172749">自動傳送完全私密的產品分析給 Dissenter</translation>
+<translation id="7090566321964540749">此匿名資訊只會讓 Dissenter 評估特定功能的整題使用量。</translation>
+<translation id="9111960429693394744">您想要為 Dapps 使用 Dissenter 的加密錢包或 MetaMask 呢？</translation>
 <translation id="8721775358057000783">您想要在此頁面上啟動 web3 支援的加密錢包嗎？</translation>
 <translation id="7583735190612229830">設定 Crypto Wallets 以與此應用程式和其他類似的應用程式互動。</translation>
 <translation id="4823406846571523661">設定加密錢包</translation>
@@ -222,17 +222,17 @@
 <translation id="2609895996619941644">您想要檢查 Wayback Machine 上是否有已儲存的版本嗎？</translation>
 <translation id="8053093028263274061">抱歉，無可用的已儲存版本。</translation>
 <translation id="8517321676372639828">檢查已儲存的版本</translation>
-<translation id="191143826155037518">Brave 是以 <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla 公眾授權條款 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) 提供，其包含了其他多種授權條款的 <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>開放原始碼軟體<ph name="END_LINK_OSS">&lt;/a&gt;</ph>。
+<translation id="191143826155037518">Dissenter 是以 <ph name="BEGIN_LINK_MPL">&lt;a target="_blank" href="$1"&gt;</ph>Mozilla 公眾授權條款 2.0<ph name="END_LINK_MPL">&lt;/a&gt;</ph> (MPL) 提供，其包含了其他多種授權條款的 <ph name="BEGIN_LINK_OSS">&lt;a target="_blank" href="$2"&gt;</ph>開放原始碼軟體<ph name="END_LINK_OSS">&lt;/a&gt;</ph>。
         您可以閱讀 <ph name="BEGIN_LINK_BUILD_INSTRUCTIONS">&lt;a target="_blank" href="$3"&gt;</ph>如何下載並自行建構<ph name="END_LINK_BUILD_INSTRUCTIONS">&lt;/a&gt;</ph> 特定 <ph name="BEGIN_LINK_SOURCE_CODE">&lt;a target="_blank" href="$4"&gt;</ph>原始碼來建立此副本<ph name="END_LINK_SOURCE_CODE">&lt;/a&gt;</ph> 的說明。</translation>
 <translation id="4474155171896946103">將所有分頁加入書籤...</translation>
 <translation id="2336228925368920074">將所有分頁加入書籤...</translation>
 <translation id="796831669370432378">要新增書籤，點擊網址列旁的書籤按鈕</translation>
 <translation id="4989337484121655457">需要完整的硬碟存取權限</translation>
-<translation id="5501596373144334003">Brave 需要完整磁碟存取以從 Safari 匯入您的書籤與歷史紀錄。</translation>
+<translation id="5501596373144334003">Dissenter 需要完整磁碟存取以從 Safari 匯入您的書籤與歷史紀錄。</translation>
 <translation id="8515328844674404333">了解如何從您的系統偏好設定中，允許完整的硬碟存取權限。</translation>
 <translation id="6414878884710400018">開啟系統偏好設定</translation>
 <translation id="5570470519803062774">網站與 Shields 設定</translation>
 <translation id="8487693399751278191">正在匯入書籤……</translation>
 <translation id="2557899542277210112">為了快速存取，請將您的書籤置於書籤列上。</translation>
-<translation id="2808630562319398131">重設 Brave 獎勵資料…</translation>
+<translation id="2808630562319398131">重設 Dissenter 獎勵資料…</translation>
 </translationbundle>

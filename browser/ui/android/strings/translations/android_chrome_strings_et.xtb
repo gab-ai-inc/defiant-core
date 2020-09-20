@@ -8,7 +8,7 @@
 <translation id="1041308826830691739">Veebisaitidelt</translation>
 <translation id="1045899828449635435">Kas kustutada ka nende saitide andmed?</translation>
 <translation id="10614374240317010">Ei ole kunagi salvestatud</translation>
-<translation id="5428209950370661546">Muud Brave'i teenused</translation>
+<translation id="5428209950370661546">Muud Dissenter'i teenused</translation>
 <translation id="1068672505746868501">Ära tõlgi kunagi <ph name="SOURCE_LANGUAGE"/> keeles olevaid lehti</translation>
 <translation id="107147699690128016">Kui muudate faililaiendit, võib fail avaneda mõnes teises rakenduses ja teie seadmele ohtu kujutada.</translation>
 <translation id="1100066534610197918">Ava rühmas uuel vahelehel</translation>
@@ -36,7 +36,7 @@
 <translation id="123724288017357924">Praeguse lehe uuesti laadimine, eirates vahemälus olevat sisu</translation>
 <translation id="124116460088058876">Rohkem keeli</translation>
 <translation id="124678866338384709">Aktiivse vahelehe sulgemine</translation>
-<translation id="1996480094660735607">Brave'i Doodle'i vigurlogo: <ph name="DOODLE_DESCRIPTION"/></translation>
+<translation id="1996480094660735607">Dissenter'i Doodle'i vigurlogo: <ph name="DOODLE_DESCRIPTION"/></translation>
 <translation id="1260236875608242557">Otsimine ja avastamine</translation>
 <translation id="1266864766717917324">Üksust <ph name="CONTENT_TYPE"/> ei õnnestunud jagada</translation>
 <translation id="1283039547216852943">Laiendamiseks puudutage</translation>
@@ -49,8 +49,8 @@
 <translation id="1310482092992808703">Vahelehtede grupeerimine</translation>
 <translation id="1311657260431405215">See QR-kood ei ole URL: <ph name="QRCODEVALUE"/></translation>
 <translation id="1327257854815634930">Navigeerimisajalugu on avatud</translation>
-<translation id="6773423637732432200">Brave'i ei saa värskendada. Rohkem valikuid</translation>
-<translation id="3169981355900570544">Brave'i funktsioonide otseteed</translation>
+<translation id="6773423637732432200">Dissenter'i ei saa värskendada. Rohkem valikuid</translation>
+<translation id="3169981355900570544">Dissenter'i funktsioonide otseteed</translation>
 <translation id="1347468774581902829">Tegevuste haldamine</translation>
 <translation id="1360432990279830238">Login välja ja keelan sünkroonimise?</translation>
 <translation id="1373696734384179344">Valitud sisu allalaadimiseks pole piisavalt mäluruumi.</translation>
@@ -62,7 +62,7 @@
 <translation id="1407135791313364759">Ava kõik</translation>
 <translation id="1409426117486808224">Avatud vahelehtede lihtsustatud vaade</translation>
 <translation id="1409879593029778104">Faili <ph name="FILE_NAME"/> ei laaditud alla, kuna fail on juba olemas.</translation>
-<translation id="1853026300647876496">Brave'iga ühenduse võtmine. See võib natuke aega võtta …</translation>
+<translation id="1853026300647876496">Dissenter'iga ühenduse võtmine. See võib natuke aega võtta …</translation>
 <translation id="1416550906796893042">Rakenduse versioon</translation>
 <translation id="1430915738399379752">Printimine</translation>
 <translation id="1450753235335490080">Üksust <ph name="CONTENT_TYPE"/> ei saa jagada</translation>
@@ -72,12 +72,12 @@
 <translation id="1513858653616922153">Kustuta parool</translation>
 <translation id="1521774566618522728">Aktiivne täna</translation>
 <translation id="1543538514740974167">Jõudke siia kiiremini</translation>
-<translation id="8090895580117672212">Oma Brave'i konto haldamiseks puudutage nuppu „Konto haldamine”</translation>
+<translation id="8090895580117672212">Oma Dissenter'i konto haldamiseks puudutage nuppu „Konto haldamine”</translation>
 <translation id="1549000191223877751">Teisalda teise aknasse</translation>
-<translation id="1705567146636171298">Värskenda Brave'i</translation>
+<translation id="1705567146636171298">Värskenda Dissenter'i</translation>
 <translation id="1569387923882100876">Ühendatud seade</translation>
 <translation id="1571304935088121812">Kasutajanime kopeerimine</translation>
-<translation id="852740676285943527">Brave vajab seadmete otsimiseks juurdepääsu teie asukohale. Juurdepääs asukohale on <ph name="BEGIN_LINK"/>selles seadmes välja lülitatud<ph name="END_LINK"/>.</translation>
+<translation id="852740676285943527">Dissenter vajab seadmete otsimiseks juurdepääsu teie asukohale. Juurdepääs asukohale on <ph name="BEGIN_LINK"/>selles seadmes välja lülitatud<ph name="END_LINK"/>.</translation>
 <translation id="1620510694547887537">Kaamera</translation>
 <translation id="1628019612362412531">{NUM_SELECTED,plural, =1{Eemalda 1 valitud üksus}other{Eemalda # valitud üksust}}</translation>
 <translation id="1641113438599504367">Ohutu sirvimine</translation>
@@ -86,7 +86,7 @@
 <translation id="1670399744444387456">Põhiseaded</translation>
 <translation id="1671236975893690980">Allalaadimine on ootel …</translation>
 <translation id="1672586136351118594">Ära kuva uuesti</translation>
-<translation id="297583746595929792">Ostke pilt Brave Lensi abil <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
+<translation id="297583746595929792">Ostke pilt Dissenter Lensi abil <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="1692118695553449118">Sünkroonimine on sisse lülitatud</translation>
 <translation id="1718835860248848330">Viimase tunni jooksul</translation>
 <translation id="1736419249208073774">Avastage</translation>
@@ -97,37 +97,37 @@
 <translation id="1782483593938241562">Lõppkuupäev: <ph name="DATE"/></translation>
 <translation id="1791662854739702043">Installitud</translation>
 <translation id="1792959175193046959">Allalaadimise vaikeasukohta saab alati muuta</translation>
-<translation id="2368444735104192323">Brave'i ja Chrome OS-i lisateenusetingimused</translation>
+<translation id="2368444735104192323">Dissenter'i ja Chrome OS-i lisateenusetingimused</translation>
 <translation id="1807246157184219062">Hele</translation>
 <translation id="1810845389119482123">Sünkroonimise algseadistus ei jõudnud lõpule</translation>
 <translation id="1821253160463689938">Kasutage küpsisefaile oma eelistuste meelespidamiseks isegi siis, kui te neid lehti ei külasta</translation>
 <translation id="1826516787628120939">Kontrollimine</translation>
 <translation id="1829244130665387512">Otsi leheküljelt</translation>
 <translation id="1856325424225101786">Kas lähtestada lihtsustatud režiim?</translation>
-<translation id="5817715962196959877">Brave laadib nüüd faile kiiremini alla</translation>
+<translation id="5817715962196959877">Dissenter laadib nüüd faile kiiremini alla</translation>
 <translation id="1883903952484604915">Minu failid</translation>
 <translation id="1919950603503897840">Kontaktide valimine</translation>
 <translation id="1925021887439448749">Sisestage kohandatud veebiaadress</translation>
 <translation id="1928696683969751773">Värskendused</translation>
-<translation id="1875543012935658554">Avage Brave uuesti.</translation>
+<translation id="1875543012935658554">Avage Dissenter uuesti.</translation>
 <translation id="1933845786846280168">Valitud vaheleht</translation>
 <translation id="1943432128510653496">Paroolide salvestamine</translation>
 <translation id="1952172573699511566">Veebisaidid kuvavad teksti võimaluse korral teie eelistatud keeles.</translation>
-<translation id="3968054912784331254">Selles Androidi versioonis ei toetata enam Brave'i värskendusi</translation>
+<translation id="3968054912784331254">Selles Androidi versioonis ei toetata enam Dissenter'i värskendusi</translation>
 <translation id="1966710179511230534">Värskendage oma sisselogimisandmeid.</translation>
 <translation id="1974060860693918893">Täpsemad</translation>
-<translation id="714362445477979774">Brave'i andmete sünkroonimine</translation>
+<translation id="714362445477979774">Dissenter'i andmete sünkroonimine</translation>
 <translation id="1986685561493779662">Nimi on juba olemas</translation>
 <translation id="1987739130650180037"><ph name="MESSAGE"/> – nupp <ph name="LINK_NAME"/></translation>
 <translation id="1989112275319619282">Sirvi</translation>
 <translation id="1993768208584545658"><ph name="SITE"/> soovib siduda</translation>
 <translation id="2000419248597011803">Saadab teie vaikeotsingumootorile mõned küpsisefailid ja otsingud teie aadressiribalt ning otsingukastist</translation>
-<translation id="1320169905922104972">Krediitkaardid ja aadressid, mis kasutavad teenust Brave Pay</translation>
+<translation id="1320169905922104972">Krediitkaardid ja aadressid, mis kasutavad teenust Dissenter Pay</translation>
 <translation id="2013642289801508067">{FILE_COUNT,plural, =1{# fail}other{# faili}}</translation>
 <translation id="2017836877785168846">Kustutab aadressiribalt ajaloo ja automaatse täitmise teabe.</translation>
 <translation id="2021896219286479412">Saidi juhtelemendid täisekraanil</translation>
 <translation id="2038563949887743358">Valiku Taotle arvutisaiti sisselülitamine</translation>
-<translation id="7675869148432102528">Rakendusel <ph name="APP_NAME"/> on samuti Brave’i andmeid</translation>
+<translation id="7675869148432102528">Rakendusel <ph name="APP_NAME"/> on samuti Dissenter’i andmeid</translation>
 <translation id="2049574241039454490"><ph name="FILE_SIZE_OF_TOTAL"/> <ph name="SEPARATOR"/> <ph name="DESCRIPTION"/></translation>
 <translation id="2056878612599315956">Sait on peatatud</translation>
 <translation id="2067805253194386918">tekst</translation>
@@ -135,24 +135,24 @@
 <translation id="2096012225669085171">Seadmete vahel sünkroonimine ja isikupärastamine</translation>
 <translation id="2100273922101894616">Automaatne sisselogimine</translation>
 <translation id="2100314319871056947">Proovige teksti jagada väiksemate lõikudena</translation>
-<translation id="4749189475009528195">Vaadake lisateavet veebisaitide teemade kohta ilma lehelt lahkumata. Funktsioon Puuduta otsimiseks saadab sõna ja seda ümbritseva konteksti Brave'i otsingule, saates tagasi definitsioonid, pildid, otsingutulemused ja muud üksikasjad.
+<translation id="4749189475009528195">Vaadake lisateavet veebisaitide teemade kohta ilma lehelt lahkumata. Funktsioon Puuduta otsimiseks saadab sõna ja seda ümbritseva konteksti Dissenter'i otsingule, saates tagasi definitsioonid, pildid, otsingutulemused ja muud üksikasjad.
 
 Puudutage otsimiseks mis tahes sõna. Otsingu täpsustamiseks puudutage pikalt, et valida rohkem või vähem sõnu. Otsingu muutmiseks avage paneel, puudutage uuel vahelehel avamiseks ikooni ja tehke otsingukastis muudatused.</translation>
 <translation id="2111511281910874386">Minge lehele</translation>
 <translation id="2122601567107267586">Rakendust ei õnnestunud avada</translation>
-<translation id="796823723482603597">Brave'i toega</translation>
+<translation id="796823723482603597">Dissenter'i toega</translation>
 <translation id="2131665479022868825"><ph name="DATA"/> salvestati</translation>
 <translation id="213279576345780926"><ph name="TAB_TITLE"/> suleti</translation>
 <translation id="2139186145475833000">Avaekraanile lisamine</translation>
 <translation id="2154484045852737596">Kaardi muutmine</translation>
 <translation id="2154710561487035718">Kopeeri URL</translation>
 <translation id="2156074688469523661">Järelejäänud saidid (<ph name="NUMBER_OF_SITES"/>)</translation>
-<translation id="6162454065885854378">Kui soovite midagi oma telefonist teise seadmega jagada, lülitage sünkroonimine mõlema seadme Brave'i seadetes sisse</translation>
+<translation id="6162454065885854378">Kui soovite midagi oma telefonist teise seadmega jagada, lülitage sünkroonimine mõlema seadme Dissenter'i seadetes sisse</translation>
 <translation id="2169830938017475061">Kohe</translation>
 <translation id="2175927920773552910">QR-kood</translation>
 <translation id="218608176142494674">Jagamine</translation>
 <translation id="2227444325776770048">Jätka kasutajana <ph name="USER_FULL_NAME"/></translation>
-<translation id="7956662517480676674">Sünkroonimine ja Brave'i teen.</translation>
+<translation id="7956662517480676674">Sünkroonimine ja Dissenter'i teen.</translation>
 <translation id="2239812875700136898">Hallake oma lugusid funktsiooni Discover nupuga Valikud</translation>
 <translation id="2259659629660284697">Paroolide eksportimine …</translation>
 <translation id="2268044343513325586">Täpsustamine</translation>
@@ -165,32 +165,32 @@ Puudutage otsimiseks mis tahes sõna. Otsingu täpsustamiseks puudutage pikalt, 
 <translation id="2328985652426384049">Ei saa sisse logida</translation>
 <translation id="234265804618409743">Kaamerat ei saa avada. Midagi läks valesti.</translation>
 <translation id="2345671828921229300">Otsimiseks puudutage sõna pikalt</translation>
-<translation id="3587672679800759167">Brave'i kasutatav andmemaht kokku, sh kontod, järjehoidjad ja salvestatud seaded</translation>
+<translation id="3587672679800759167">Dissenter'i kasutatav andmemaht kokku, sh kontod, järjehoidjad ja salvestatud seaded</translation>
 <translation id="2353636109065292463">Interneti-ühenduse kontrollimine</translation>
 <translation id="2359808026110333948">Jätka</translation>
 <translation id="2369533728426058518">avatud vahelehed</translation>
 <translation id="2387895666653383613">Teksti skaleerimine</translation>
 <translation id="2394602618534698961">Allalaaditud failid kuvatakse siin</translation>
-<translation id="801672626447970525">Kui logite oma Brave'i kontole sisse, lülitatakse see funktsioon sisse</translation>
+<translation id="801672626447970525">Kui logite oma Dissenter'i kontole sisse, lülitatakse see funktsioon sisse</translation>
 <translation id="2407674018644220013">Kas soovite rakenduse <ph name="APP_NAME"/> määrata vaikerakenduseks?</translation>
 <translation id="2410754283952462441">Konto valimine</translation>
 <translation id="2414886740292270097">Tume</translation>
 <translation id="2426805022920575512">Vali muu konto</translation>
 <translation id="2433507940547922241">Välimus</translation>
 <translation id="2450083983707403292">Kas soovite faili <ph name="FILE_NAME"/> allalaadimist uuesti alustada?</translation>
-<translation id="934250516944040460">Vaadake lisateavet veebisaitide teemade kohta ilma lehelt lahkumata. Funktsioon Puuduta otsimiseks saadab sõna ja seda ümbritseva konteksti Brave'i otsingule, saates tagasi definitsioonid, pildid, otsingutulemused ja muud üksikasjad.
+<translation id="934250516944040460">Vaadake lisateavet veebisaitide teemade kohta ilma lehelt lahkumata. Funktsioon Puuduta otsimiseks saadab sõna ja seda ümbritseva konteksti Dissenter'i otsingule, saates tagasi definitsioonid, pildid, otsingutulemused ja muud üksikasjad.
 
 Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige rohkem või vähem sõnu. Otsingu muutmiseks avage paneel, puudutage uuel vahelehel avamiseks ikooni ja tehke otsingukastis muudatused.</translation>
 <translation id="246532703174860178">Jaga</translation>
 <translation id="2479148705183875116">Ava seaded</translation>
 <translation id="2482878487686419369">Märguanded</translation>
-<translation id="6361779936989026201">Brave'i assistent Brave'is</translation>
+<translation id="6361779936989026201">Dissenter'i assistent Dissenter'is</translation>
 <translation id="2496180316473517155">Sirvimise ajalugu</translation>
 <translation id="2497852260688568942">Administraator on sünkroonimise keelanud</translation>
-<translation id="7222718784508482526">Privaatsuse, turvalisuse ning andmete kogumisega seotud lisaseadete nägemiseks avage valik <ph name="BEGIN_LINK"/>Sünkroonimine ja Brave'i teenused<ph name="END_LINK"/></translation>
+<translation id="7222718784508482526">Privaatsuse, turvalisuse ning andmete kogumisega seotud lisaseadete nägemiseks avage valik <ph name="BEGIN_LINK"/>Sünkroonimine ja Dissenter'i teenused<ph name="END_LINK"/></translation>
 <translation id="2517472476991765520">Kontrolli</translation>
-<translation id="7340390500800578919">Lihtsustatud režiimis laadib Brave lehti kiiremini ja kasutab kuni 60% vähem andmemahtu. Külastatud lehtede optimeerimiseks saadab Brave teie veebiliikluse Brave’ile. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
-<translation id="284843628681142937">Saadab Brave'ile teie külastatud lehtede URL-id</translation>
+<translation id="7340390500800578919">Lihtsustatud režiimis laadib Dissenter lehti kiiremini ja kasutab kuni 60% vähem andmemahtu. Külastatud lehtede optimeerimiseks saadab Dissenter teie veebiliikluse Dissenter’ile. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
+<translation id="284843628681142937">Saadab Dissenter'ile teie külastatud lehtede URL-id</translation>
 <translation id="2532336938189706096">Veebi kuva</translation>
 <translation id="2534155362429831547"><ph name="NUMBER_OF_ITEMS"/> üksust kustutati</translation>
 <translation id="2536728043171574184">Kuvatakse on lehe võrguühenduseta koopia</translation>
@@ -198,7 +198,7 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="2546283357679194313">Küpsised ja saidiandmed</translation>
 <translation id="2567385386134582609">KUJUTIS</translation>
 <translation id="257088987046510401">Teemad</translation>
-<translation id="2324920234469020158">See tühjendab vahemälu, kustutab küpsised ja muud andmed, mis pärinevad Brave'i arvates ebatähtsatelt saitidelt.</translation>
+<translation id="2324920234469020158">See tühjendab vahemälu, kustutab küpsised ja muud andmed, mis pärinevad Dissenter'i arvates ebatähtsatelt saitidelt.</translation>
 <translation id="2587052924345400782">Saadaval on uuem versioon</translation>
 <translation id="2593272815202181319">Püsisammkiri</translation>
 <translation id="2612676031748830579">Kaardi number</translation>
@@ -209,7 +209,7 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="2651091186440431324">{FILE_COUNT,plural, =1{# helifail}other{# helifaili}}</translation>
 <translation id="2656405586795711023">Veebirakendused</translation>
 <translation id="2677748264148917807">Lahku</translation>
-<translation id="4550860619133710557">Brave'i kasutades nõustute <ph name="BEGIN_LINK1"/>Brave'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Brave'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>. Kehtib ka <ph name="BEGIN_LINK3"/>Family Linkiga hallatavate Brave’i kontode privaatsusteatis<ph name="END_LINK3"/>.</translation>
+<translation id="4550860619133710557">Dissenter'i kasutades nõustute <ph name="BEGIN_LINK1"/>Dissenter'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Dissenter'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>. Kehtib ka <ph name="BEGIN_LINK3"/>Family Linkiga hallatavate Dissenter’i kontode privaatsusteatis<ph name="END_LINK3"/>.</translation>
 <translation id="2707726405694321444">Lehe värskendamine</translation>
 <translation id="2709516037105925701">Automaatne täitmine</translation>
 <translation id="2717722538473713889">E-posti aadressid</translation>
@@ -220,28 +220,28 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="2777555524387840389">Jäänud on <ph name="SECONDS"/> sekundit</translation>
 <translation id="2779651927720337254">ebaõnnestus</translation>
 <translation id="2781151931089541271">Jäänud on 1 sekund</translation>
-<translation id="1379423114029199501">Oma keele kasutamiseks värskendage Brave uusimale versioonile</translation>
+<translation id="1379423114029199501">Oma keele kasutamiseks värskendage Dissenter uusimale versioonile</translation>
 <translation id="2810645512293415242">Lihtsustatud leht andmemahu säästmiseks ja laadimise kiirendamiseks.</translation>
-<translation id="7068873021383263704">Vaadake ja hallake salvestatud paroole oma <ph name="BEGIN_LINK"/>Brave'i kontol<ph name="END_LINK"/></translation>
+<translation id="7068873021383263704">Vaadake ja hallake salvestatud paroole oma <ph name="BEGIN_LINK"/>Dissenter'i kontol<ph name="END_LINK"/></translation>
 <translation id="2818669890320396765">Järjehoidjate kõikidesse seadmetesse hankimiseks logige sisse ja lülitage sünkroonimine sisse</translation>
 <translation id="2827278682606527653">Voo kaardimenüü on poole kõrgusega</translation>
 <translation id="2842985007712546952">Emakaust</translation>
 <translation id="2860954141821109167">Veenduge, et telefonirakendus oleks selles seadmes lubatud</translation>
 <translation id="2870560284913253234">Sait</translation>
-<translation id="2876369937070532032">Saadab mõnede teie külastatud lehtede URL-id Brave'ile, kui teie turvalisus ohtu satub</translation>
-<translation id="8541922081612557424">Teave Brave'i kohta</translation>
+<translation id="2876369937070532032">Saadab mõnede teie külastatud lehtede URL-id Dissenter'ile, kui teie turvalisus ohtu satub</translation>
+<translation id="8541922081612557424">Teave Dissenter'i kohta</translation>
 <translation id="2891154217021530873">Peata lehe laadimine</translation>
 <translation id="2892647708214602204">Kui see fail on valmis, kuvatakse märguanne</translation>
-<translation id="4013614219085422040">Brave võib kasutada teie ajalugu otsingu ja muude Brave'i teenuste isikupärastamiseks</translation>
+<translation id="4013614219085422040">Dissenter võib kasutada teie ajalugu otsingu ja muude Dissenter'i teenuste isikupärastamiseks</translation>
 <translation id="2898264748040935573">Salvestatud parooli muutmine</translation>
 <translation id="2900528713135656174">Looge sündmus</translation>
 <translation id="2903493209154104877">Aadressid</translation>
 <translation id="290376772003165898">Kas leht ei ole <ph name="LANGUAGE"/> keeles?</translation>
 <translation id="2904414404539560095">Vahelehe jagamise seadmete loend (täiskõrgusel avatud).</translation>
-<translation id="7339921667754113786">Brave'i märguannete platvorm</translation>
+<translation id="7339921667754113786">Dissenter'i märguannete platvorm</translation>
 <translation id="2923908459366352541">Nimi on sobimatu</translation>
 <translation id="2927707377793151377">Valige teine teenusepakkuja:</translation>
-<translation id="6355102470683871794">Rakenduse Brave <ph name="APP_NAME"/> salvestusruum</translation>
+<translation id="6355102470683871794">Rakenduse Dissenter <ph name="APP_NAME"/> salvestusruum</translation>
 <translation id="2942036813789421260">Eelvaate vaheleht on suletud</translation>
 <translation id="2956410042958133412">Seda kontot haldavad <ph name="PARENT_NAME_1"/> ja <ph name="PARENT_NAME_2"/>.</translation>
 <translation id="2968755619301702150">Sertifikaadikuvaja</translation>
@@ -255,14 +255,14 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="3036750288708366620"><ph name="BEGIN_LINK"/>Küsige abi<ph name="END_LINK"/></translation>
 <translation id="305593374596241526">Asukoht on välja lülitatud. Lülitage see sisse <ph name="BEGIN_LINK"/>Androidi seadetes<ph name="END_LINK"/>.</translation>
 <translation id="3058498974290601450">Saate sünkroonimise seadetes alati sisse lülitada</translation>
-<translation id="7006260220514217183">Brave'i ohutu sirvimine on välja lülitatud. Brave soovitab selle sisse lülitada.</translation>
+<translation id="7006260220514217183">Dissenter'i ohutu sirvimine on välja lülitatud. Dissenter soovitab selle sisse lülitada.</translation>
 <translation id="3060635849835183725">{BOOKMARKS_COUNT,plural, =1{<ph name="BOOKMARKS_COUNT_ONE"/> järjehoidja}other{<ph name="BOOKMARKS_COUNT_MANY"/> järjehoidjat}}</translation>
-<translation id="6153252609477956632">Teie huvidega seotud artiklid Brave'is</translation>
+<translation id="6153252609477956632">Teie huvidega seotud artiklid Dissenter'is</translation>
 <translation id="3114012059975132928">Videopleier</translation>
 <translation id="3114507951000454849">Lugege tänaseid uudiseid <ph name="NEWS_ICON"/></translation>
 <translation id="3123734510202723619">Teadaanded</translation>
 <translation id="3143515551205905069">Tühista sünkroonimine</translation>
-<translation id="5063487983358782016">Brave'i avaleht</translation>
+<translation id="5063487983358782016">Dissenter'i avaleht</translation>
 <translation id="3157842584138209013">Nupu Rohkem valikuid abil saate vaadata, kui palju andmemahtu olete säästnud</translation>
 <translation id="3166827708714933426">Vahelehe ja akna otseteed</translation>
 <translation id="3169472444629675720">Discover</translation>
@@ -279,24 +279,24 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="3259831549858767975">Lehel kuvatud sisu vähendamine</translation>
 <translation id="3269093882174072735">Laadi kujutis</translation>
 <translation id="3269956123044984603">Vahelehtede hankimiseks oma teistest seadmetest lülitage Androidi kontoseadetes sisse valik „Andmete automaatne sünkroonimine”.</translation>
-<translation id="82609232232243542">Brave'i sisselogimine</translation>
+<translation id="82609232232243542">Dissenter'i sisselogimine</translation>
 <translation id="3288003805934695103">Laadige leht uuesti</translation>
 <translation id="32895400574683172">Märguanded on lubatud</translation>
 <translation id="3295530008794733555">Sirvige kiiremini. Kasutage vähem andmemahtu.</translation>
 <translation id="3298243779924642547">Lite</translation>
 <translation id="3303414029551471755">Kas soovite jätkata sisu allalaadimist?</translation>
-<translation id="919933208285147476">Rakendus töötab Brave'is</translation>
-<translation id="5294439808117722387">Kohandate praegu sünkroonimise ja Brave'i teenuste seadeid. Sünkroonimise sisselülitamiseks puudutage ekraani alaosas nuppu Kinnita. Liigu üles</translation>
+<translation id="919933208285147476">Rakendus töötab Dissenter'is</translation>
+<translation id="5294439808117722387">Kohandate praegu sünkroonimise ja Dissenter'i teenuste seadeid. Sünkroonimise sisselülitamiseks puudutage ekraani alaosas nuppu Kinnita. Liigu üles</translation>
 <translation id="3328801116991980348">Saiditeave</translation>
 <translation id="3333961966071413176">Kõik kontaktid</translation>
 <translation id="3334729583274622784">Kas muuta faililaiendit?</translation>
 <translation id="3341058695485821946">Vaadake, kui palju andmemahtu olete säästnud</translation>
-<translation id="8134317863207426198">Lihtsustatud lehte pakub Brave. Algse lehe laadimiseks puudutage nuppu Laadi algne.</translation>
+<translation id="8134317863207426198">Lihtsustatud lehte pakub Dissenter. Algse lehe laadimiseks puudutage nuppu Laadi algne.</translation>
 <translation id="3359667936385849800">Kasutage oma praegust teenusepakkujat</translation>
 <translation id="3367813778245106622">Sünkroonimise alustamiseks logige uuesti sisse</translation>
 <translation id="337236281855091893">Otsimiseks puudutage sõna pikalt</translation>
 <translation id="2746024117903470217">Selle lehe jagamiseks teise seadmega lülitage sünkroonimine teise seadme Chome'i seadetes sisse</translation>
-<translation id="8801234437789558906">Teie järjehoidjaid, ajalugu, paroole ja muid Brave'i andmeid ei sünkroonita enam teie Brave'i kontoga</translation>
+<translation id="8801234437789558906">Teie järjehoidjaid, ajalugu, paroole ja muid Dissenter'i andmeid ei sünkroonita enam teie Dissenter'i kontoga</translation>
 <translation id="3384347053049321195">Jaga kujutist</translation>
 <translation id="3387650086002190359">Faili <ph name="FILE_NAME"/> allalaadimine ebaõnnestus failisüsteemi vigade tõttu.</translation>
 <translation id="3389286852084373014">Tekst on liiga pikk</translation>
@@ -312,16 +312,16 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="3522247891732774234">Värskendus on saadaval. Rohkem valikuid</translation>
 <translation id="3524138585025253783">Arendaja kasutajaliides</translation>
 <translation id="3527085408025491307">Kaust</translation>
-<translation id="9078804073692109646">Salvestatud paroole ei ole. Brave saab teie paroole kontrollida, kui olete need salvestanud.</translation>
+<translation id="9078804073692109646">Salvestatud paroole ei ole. Dissenter saab teie paroole kontrollida, kui olete need salvestanud.</translation>
 <translation id="3542235761944717775"><ph name="KILOBYTES"/> kB on saadaval</translation>
 <translation id="3549657413697417275">Otsige oma ajaloost</translation>
 <translation id="3557336313807607643">Kontaktide lisamine</translation>
-<translation id="1908301351964700579">Brave teeb VR-i kasutamiseks endiselt ettevalmistusi. Taaskäivitage Brave hiljem.</translation>
+<translation id="1908301351964700579">Dissenter teeb VR-i kasutamiseks endiselt ettevalmistusi. Taaskäivitage Dissenter hiljem.</translation>
 <translation id="3568688522516854065">Oma teistest seadmetest vahelehtede hankimiseks logige sisse ja lülitage sünkroonimine sisse</translation>
 <translation id="3587482841069643663">Kõik</translation>
-<translation id="9205995714227143200">Saitide salvestusruum, mida Brave peab ebatähtsaks (nt saidid, mida külastate harva või millel ei ole salvestatud seadeid)</translation>
+<translation id="9205995714227143200">Saitide salvestusruum, mida Dissenter peab ebatähtsaks (nt saidid, mida külastate harva või millel ei ole salvestatud seadeid)</translation>
 <translation id="3594780231884063836">Video vaigistamine</translation>
-<translation id="3551285888947169900">Kustutab ajaloo kõigist sisselogitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Brave'i kontol olla muus vormis sirvimisajalugu.</translation>
+<translation id="3551285888947169900">Kustutab ajaloo kõigist sisselogitud seadmetest. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Dissenter'i kontol olla muus vormis sirvimisajalugu.</translation>
 <translation id="3616113530831147358">Heli</translation>
 <translation id="3631987586758005671">Jagamine seadmega <ph name="DEVICE_NAME"/></translation>
 <translation id="3632295766818638029">Parooli kuvamine</translation>
@@ -330,14 +330,14 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="3692944402865947621">Faili <ph name="FILE_NAME"/> allalaadimine nurjus, kuna salvestuskoht ei ole saadaval.</translation>
 <translation id="3701167022068948696">Paranda kohe</translation>
 <translation id="3714981814255182093">Leiuriba avamine</translation>
-<translation id="5805364706385912897">Brave peatas selle lehe, kuna see kasutab liiga palju mälu.</translation>
+<translation id="5805364706385912897">Dissenter peatas selle lehe, kuna see kasutab liiga palju mälu.</translation>
 <translation id="3738139272394829648">Puudutage otsimiseks</translation>
 <translation id="3739899004075612870">Teenuses <ph name="PRODUCT_NAME"/> järjehoidj. lisatud</translation>
 <translation id="3749259744154402564">Ei toetata</translation>
 <translation id="3763247130972274048">10 sekundi võrra kerimiseks topeltpuudutage videos vasakul või paremal</translation>
 <translation id="3771001275138982843">Värskendust ei saanud alla laadida</translation>
 <translation id="3771290962915251154">See seade on keelatud, kuna vanemlik järelevalve on sisse lülitatud</translation>
-<translation id="1138681184697033370">Brave’i teenusetingimused</translation>
+<translation id="1138681184697033370">Dissenter’i teenusetingimused</translation>
 <translation id="3773755127849930740"><ph name="BEGIN_LINK"/>Lülitage Bluetooth sisse<ph name="END_LINK"/>, et sidumine lubada</translation>
 <translation id="3775705724665058594">Saatmine teie seadmetesse</translation>
 <translation id="3778956594442850293">Lisatud avaekraanile</translation>
@@ -356,10 +356,10 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="3928666092801078803">Minu andmete kombineerimine</translation>
 <translation id="393697183122708255">Lubatud häälotsing pole saadaval</translation>
 <translation id="395206256282351086">Otsingu- ja saidisoovitused on keelatud</translation>
-<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Brave laadib teie lehe, kui see on valmis}other{Brave laadib teie lehed, kui need on valmis}}</translation>
-<translation id="8997474919031554666">Parooli krüpteerimine ei hõlma Brave Pay makseviise ega aadresse. Teie krüpteeritud andmeid saavad lugeda vaid need, kes teavad teie parooli – seda ei saadeta Brave'ile ja Brave ei talleta seda. Kui unustate parooli või soovite seda seadet muuta, tuleb teil sünkroonimine lähtestada. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
+<translation id="6945986954012067786">{NUM_IN_PROGRESS,plural, =1{Dissenter laadib teie lehe, kui see on valmis}other{Dissenter laadib teie lehed, kui need on valmis}}</translation>
+<translation id="8997474919031554666">Parooli krüpteerimine ei hõlma Dissenter Pay makseviise ega aadresse. Teie krüpteeritud andmeid saavad lugeda vaid need, kes teavad teie parooli – seda ei saadeta Dissenter'ile ja Dissenter ei talleta seda. Kui unustate parooli või soovite seda seadet muuta, tuleb teil sünkroonimine lähtestada. <ph name="BEGIN_LINK"/>Lisateave<ph name="END_LINK"/></translation>
 <translation id="3967822245660637423">Allalaadimine on lõpule viidud</translation>
-<translation id="7961941514656597723"><ph name="APP_NAME"/> avaneb Brave'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>Brave'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Brave'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>. Kehtib ka <ph name="BEGIN_LINK3"/>Family Linkiga hallatavate Brave’i kontode privaatsusteatis<ph name="END_LINK3"/>.</translation>
+<translation id="7961941514656597723"><ph name="APP_NAME"/> avaneb Dissenter'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>Dissenter'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Dissenter'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>. Kehtib ka <ph name="BEGIN_LINK3"/>Family Linkiga hallatavate Dissenter’i kontode privaatsusteatis<ph name="END_LINK3"/>.</translation>
 <translation id="397583555483684758">Sünkroonimine lakkas töötamast</translation>
 <translation id="3976396876660209797">Eemaldage see otsetee ja looge see uuesti</translation>
 <translation id="3985215325736559418">Kas soovite faili <ph name="FILE_NAME"/> uuesti alla laadida?</translation>
@@ -373,21 +373,21 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="4060598801229743805">Ekraani ülaosas saadaolevad valikud</translation>
 <translation id="4062305924942672200">Juriidiline teave</translation>
 <translation id="4084682180776658562">Järjehoidja</translation>
-<translation id="4521874409998847950">Avaldajalt <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>sisu pakub Brave<ph name="END_DEEMPHASIZED"/></translation>
+<translation id="4521874409998847950">Avaldajalt <ph name="PUBLISHER_ORIGIN"/> – <ph name="BEGIN_DEEMPHASIZED"/>sisu pakub Dissenter<ph name="END_DEEMPHASIZED"/></translation>
 <translation id="4095146165863963773">Kas kustutada rakenduse andmed?</translation>
-<translation id="673197144963363525">Aidake muuta Brave'i paremaks, saates Brave'ile kasutusstatistikat ja krahhiaruandeid.</translation>
+<translation id="673197144963363525">Aidake muuta Dissenter'i paremaks, saates Dissenter'ile kasutusstatistikat ja krahhiaruandeid.</translation>
 <translation id="4116038641877404294">Laadige lehed alla, et neid võrguühenduseta kasutada</translation>
 <translation id="4135200667068010335">Vahelehe jagamise seadmete loend on suletud.</translation>
 <translation id="4149994727733219643">Veebilehtede lihtsustatud vaade</translation>
 <translation id="4170011742729630528">Teenus pole saadaval, proovige hiljem uuesti.</translation>
 <translation id="4179980317383591987">Kasutati <ph name="AMOUNT"/></translation>
 <translation id="4181841719683918333">Keeled</translation>
-<translation id="3845332215609790146">Otsi Brave Lensi abil <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
+<translation id="3845332215609790146">Otsi Dissenter Lensi abil <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="4195643157523330669">Ava uuel vahelehel</translation>
 <translation id="4198423547019359126">Ükski allalaadimise asukoht ei ole saadaval</translation>
-<translation id="4628143400597876607">Brave saab kontrollida, kas seaded kaitsevad teid järgmise eest.</translation>
-<translation id="6003646045106347985">Brave'i soovitatud isikupärastatud sisu hankimiseks lülitage sünkroonimine sisse</translation>
-<translation id="7810580217418711046">Krüpteeri sünkroonitud andmed Brave'i parooli abil <ph name="TIME"/> seisuga</translation>
+<translation id="4628143400597876607">Dissenter saab kontrollida, kas seaded kaitsevad teid järgmise eest.</translation>
+<translation id="6003646045106347985">Dissenter'i soovitatud isikupärastatud sisu hankimiseks lülitage sünkroonimine sisse</translation>
+<translation id="7810580217418711046">Krüpteeri sünkroonitud andmed Dissenter'i parooli abil <ph name="TIME"/> seisuga</translation>
 <translation id="4242533952199664413">Ava seaded</translation>
 <translation id="4248098802131000011">Tagage oma paroolide turvalisus, et vältida andmetega seotud rikkumisi ja muid turvaprobleeme</translation>
 <translation id="4250229828105606438">Ekraanipilt</translation>
@@ -405,22 +405,22 @@ Puudutage pikalt mis tahes sõna, et seda otsida. Otsingu täpsustamiseks valige
 <translation id="4404568932422911380">Järjehoidjaid pole</translation>
 <translation id="4405224443901389797">Teisalda asukohta …</translation>
 <translation id="4411535500181276704">Lihtsustatud režiim</translation>
-<translation id="5749788945734786627">Brave'i konto haldamine</translation>
+<translation id="5749788945734786627">Dissenter'i konto haldamine</translation>
 <translation id="4432792777822557199"><ph name="SOURCE_LANGUAGE"/> keeles olevad lehed tõlgitakse edaspidi <ph name="TARGET_LANGUAGE"/> keelde</translation>
-<translation id="8856898588039823173">Lihtsustatud lehte pakub Brave. Puudutage algse lehe laadimiseks.</translation>
+<translation id="8856898588039823173">Lihtsustatud lehte pakub Dissenter. Puudutage algse lehe laadimiseks.</translation>
 <translation id="4452411734226507615">Vahelehe <ph name="TAB_TITLE"/> sulgemine</translation>
 <translation id="4452548195519783679">Lisatud järjehoidjana kausta <ph name="FOLDER_NAME"/></translation>
 <translation id="4472118726404937099">Seadmete vahel sisu sünkroonimiseks ja isikupärastamiseks logige sisse ja lülitage sünkroonimine sisse.</translation>
-<translation id="918192811481327695">Aidake täiustada Brave'i funktsioone ja toimivust</translation>
-<translation id="3133489217401741157">Brave'i jaoks installitakse moodulit <ph name="MODULE"/> …</translation>
-<translation id="53119194224775367">Kõik Brave'i rakenduse andmed kustutatakse jäädavalt. See hõlmab kõiki faile, seadeid, kontosid, andmebaase jms.</translation>
+<translation id="918192811481327695">Aidake täiustada Dissenter'i funktsioone ja toimivust</translation>
+<translation id="3133489217401741157">Dissenter'i jaoks installitakse moodulit <ph name="MODULE"/> …</translation>
+<translation id="53119194224775367">Kõik Dissenter'i rakenduse andmed kustutatakse jäädavalt. See hõlmab kõiki faile, seadeid, kontosid, andmebaase jms.</translation>
 <translation id="4493497663118223949">Lihtsustatud režiim on sees</translation>
 <translation id="4508528996305412043">Voo kaardimenüü on avatud</translation>
 <translation id="4513387527876475750">{DAYS,plural, =1{# päev tagasi}other{# päeva tagasi}}</translation>
 <translation id="451872707440238414">Otsi järjehoidjatest</translation>
-<translation id="1664855196866195614">Valitud andmed eemaldati Brave'ist ja teie sünkroonitud seadmetest.
+<translation id="1664855196866195614">Valitud andmed eemaldati Dissenter'ist ja teie sünkroonitud seadmetest.
 
-Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Brave'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja tegevused muudes Brave'i teenustes.</translation>
+Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Dissenter'i kontol olla muus vormis sirvimisajalugu, nt otsingud ja tegevused muudes Dissenter'i teenustes.</translation>
 <translation id="4532845899244822526">Kausta valimine</translation>
 <translation id="4538018662093857852">Lülita lihtsustatud režiim sisse</translation>
 <translation id="4550003330909367850">Parooli vaatamiseks või siia kleepimiseks määrake selles seadmes ekraanilukk.</translation>
@@ -446,7 +446,7 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="4714588616299687897">Säästke kuni 60% andmemahtu</translation>
 <translation id="4719927025381752090">Paku tõlkimist</translation>
 <translation id="4720023427747327413">Ava teenuses <ph name="PRODUCT_NAME"/></translation>
-<translation id="4939482511480190003">Aidake Brave'i täiustada. <ph name="BEGIN_LINK"/>Vastake küsitlusele<ph name="END_LINK"/></translation>
+<translation id="4939482511480190003">Aidake Dissenter'i täiustada. <ph name="BEGIN_LINK"/>Vastake küsitlusele<ph name="END_LINK"/></translation>
 <translation id="4732120983431207637">Virnaharutaja</translation>
 <translation id="473775607612524610">Värskenda</translation>
 <translation id="4738836084190194332">Viimati sünkroonitud: <ph name="WHEN"/></translation>
@@ -454,32 +454,32 @@ Veebisaidil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> v�
 <translation id="4759238208242260848">Allalaadimised</translation>
 <translation id="4763829664323285145">{FILE_COUNT,plural, =1{1 allalaadimine on lõpule viidud.}other{# allalaadimist on lõpule viidud.}}</translation>
 <translation id="4767937498890654900">{FILE_COUNT,plural, =1{1 allalaadimine on ajastatud.}other{# allalaadimist on ajastatud.}}</translation>
-<translation id="1533987887228911109">Näete Brave'is oma saidi <ph name="SITE_NAME"/> sisselogimise olekut, sirvimisandmeid ja saidi andmeid.</translation>
-<translation id="5149495116300586333">Parooli krüpteerimine ei hõlma Brave Pay makseviise ja aadresse.
+<translation id="1533987887228911109">Näete Dissenter'is oma saidi <ph name="SITE_NAME"/> sisselogimise olekut, sirvimisandmeid ja saidi andmeid.</translation>
+<translation id="5149495116300586333">Parooli krüpteerimine ei hõlma Dissenter Pay makseviise ja aadresse.
 
 Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_LINK"/></translation>
 <translation id="4807098396393229769">Kaardil olev nimi</translation>
 <translation id="4824958205181053313">Kas tühistada sünkroonimine?</translation>
-<translation id="2593289874938379417">Brave'il pole soovitud allikale juurdepääsu.</translation>
+<translation id="2593289874938379417">Dissenter'il pole soovitud allikale juurdepääsu.</translation>
 <translation id="4837753911714442426">Valikute avamine lehe printimiseks</translation>
 <translation id="4842092870884894799">Parooli loomise hüpikakna kuvamine</translation>
 <translation id="4860895144060829044">Helistage</translation>
-<translation id="5131234170665854056">Moodulit <ph name="MODULE"/> ei saa Brave'i jaoks installida</translation>
+<translation id="5131234170665854056">Moodulit <ph name="MODULE"/> ei saa Dissenter'i jaoks installida</translation>
 <translation id="4875775213178255010">Sisu soovitused</translation>
 <translation id="4878404682131129617">Puhverserveri kaudu tunneli loomine ebaõnnestus</translation>
 <translation id="4880127995492972015">Tõlgi …</translation>
 <translation id="4881695831933465202">Ava</translation>
 <translation id="488187801263602086">Faili ümbernimetamine</translation>
 <translation id="4882831918239250449">Juhtige, kuidas teie sirvimisajalugu kasutatakse otsingu, reklaamide ja muu isikupärastamiseks</translation>
-<translation id="1248710015876067820">Toetamata arv Brave'i eksemplare.</translation>
-<translation id="3217997482476578430">Discover Brave'ilt</translation>
+<translation id="1248710015876067820">Toetamata arv Dissenter'i eksemplare.</translation>
+<translation id="3217997482476578430">Discover Dissenter'ilt</translation>
 <translation id="4910889077668685004">Makserakendused</translation>
 <translation id="4913161338056004800">Lähtesta statistika</translation>
 <translation id="4913169188695071480">Peata värskendamine</translation>
 <translation id="4915549754973153784"><ph name="BEGIN_LINK"/>Hankige abi<ph name="END_LINK"/>, kuni seadmeid otsitakse …</translation>
 <translation id="4921180162323349895">{FILE_COUNT,plural, =1{# leht}other{# lehte}}</translation>
 <translation id="49268022542405662">Teie paroolid eksporditakse ja laaditakse alla tekstifailina. Need on nähtavad kõigile ja igale rakendusele, kellel/millel on sihtkaustale juurdepääs.</translation>
-<translation id="1955495299630319741">Kuna logite välja kontolt, mida haldab <ph name="DOMAIN_NAME"/>, kustutatakse sellest seadmest teie Brave'i andmed. Need jäävad alles teie Brave'i kontole.</translation>
+<translation id="1955495299630319741">Kuna logite välja kontolt, mida haldab <ph name="DOMAIN_NAME"/>, kustutatakse sellest seadmest teie Dissenter'i andmed. Need jäävad alles teie Dissenter'i kontole.</translation>
 <translation id="4943703118917034429">Virtuaalreaalsus</translation>
 <translation id="4943872375798546930">Tulemusi pole</translation>
 <translation id="4961107849584082341">Tõlkige leht mis tahes keelde</translation>
@@ -488,7 +488,7 @@ Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_
 <translation id="4988210275050210843">Faili allalaadimine (<ph name="MEGABYTES"/>).</translation>
 <translation id="4988526792673242964">Leheküljed</translation>
 <translation id="4994033804516042629">Kontakte ei leitud</translation>
-<translation id="6447211988989208781">Brave'i kontotegevuste haldus</translation>
+<translation id="6447211988989208781">Dissenter'i kontotegevuste haldus</translation>
 <translation id="5005498671520578047">Parooli kopeerimine</translation>
 <translation id="5011311129201317034"><ph name="SITE"/> soovib ühenduse luua</translation>
 <translation id="5013696553129441713">Uusi soovitusi pole</translation>
@@ -507,7 +507,7 @@ Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_
 <translation id="5161254044473106830">Pealkiri on kohustuslik</translation>
 <translation id="5162754098604580781">{FILE_COUNT,plural, =1{1 allalaadimine ebaõnnestus.}other{# allalaadimist ebaõnnestus.}}</translation>
 <translation id="5170568018924773124">Kuva kaustas</translation>
-<translation id="8445059357334030806">Ava Brave'is</translation>
+<translation id="8445059357334030806">Ava Dissenter'is</translation>
 <translation id="5193988420012215838">Kopeeritud lõikelauale</translation>
 <translation id="5197729504361054390">Teie valitud kontakte jagatakse saidiga <ph name="BEGIN_BOLD"/><ph name="SITE"/><ph name="END_BOLD"/>.</translation>
 <translation id="5199929503336119739">Tööprofiil</translation>
@@ -522,7 +522,7 @@ Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_
 <translation id="5304593522240415983">See väli ei tohi olla tühi</translation>
 <translation id="5308380583665731573">Ühendamine</translation>
 <translation id="5317780077021120954">Salvesta</translation>
-<translation id="989239400026154074">Brave soovitab Brave'i</translation>
+<translation id="989239400026154074">Dissenter soovitab Dissenter'i</translation>
 <translation id="5324858694974489420">Vanemlikud seaded</translation>
 <translation id="5327248766486351172">Nimi</translation>
 <translation id="5342314432463739672">Lubade taotlused</translation>
@@ -552,7 +552,7 @@ Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_
 <translation id="5515439363601853141">Avage oma parooli vaatamiseks</translation>
 <translation id="5517095782334947753">Teil on järjehoidjad, ajalugu, paroolid ja muud seaded kontolt <ph name="FROM_ACCOUNT"/>.</translation>
 <translation id="5524843473235508879">Ümbersuunamine blokeeriti.</translation>
-<translation id="2367014990350929709">Brave vajab seadmete otsimiseks juurdepääsu teie asukohale. <ph name="BEGIN_LINK1"/>Värskendage lube<ph name="END_LINK1"/>. Juurdepääs asukohale on samuti <ph name="BEGIN_LINK2"/>selles seadmes välja lülitatud<ph name="END_LINK2"/>.</translation>
+<translation id="2367014990350929709">Dissenter vajab seadmete otsimiseks juurdepääsu teie asukohale. <ph name="BEGIN_LINK1"/>Värskendage lube<ph name="END_LINK1"/>. Juurdepääs asukohale on samuti <ph name="BEGIN_LINK2"/>selles seadmes välja lülitatud<ph name="END_LINK2"/>.</translation>
 <translation id="5534640966246046842">Sait on kopeeritud</translation>
 <translation id="5548606607480005320">Ohutuskontroll</translation>
 <translation id="5561549206367097665">Võrguühenduse ootamine …</translation>
@@ -580,40 +580,40 @@ Seade muutmiseks <ph name="BEGIN_LINK"/>lähtestage sünkroonimine<ph name="END_
 <translation id="5732819098735351888">Allalaadimine algab WiFi kaudu.</translation>
 <translation id="5733983706093266635">QR-koodi ei saa luua. URL on pikem kui <ph name="CHARACTER_LIMIT"/> tähemärki.</translation>
 <translation id="5748802427693696783">Tavapärased vahelehed on aktiveeritud</translation>
-<translation id="3088191967551450609">Brave vajab failide allalaadimiseks juurdepääsu salvestusruumile.</translation>
+<translation id="3088191967551450609">Dissenter vajab failide allalaadimiseks juurdepääsu salvestusruumile.</translation>
 <translation id="5763514718066511291">Puudutage URL-i kopeerimiseks selle rakenduse jaoks</translation>
 <translation id="5765780083710877561">Kirjeldus:</translation>
 <translation id="5793665092639000975">Kasutusel on <ph name="SPACE_USED"/> <ph name="SPACE_AVAILABLE"/>-st</translation>
 <translation id="5795872532621730126">Otsi ja sirvi</translation>
-<translation id="5736731321935944068">Brave võib kasutada teie ajalugu otsingu, reklaamide ja muude Brave'i teenuste isikupärastamiseks</translation>
+<translation id="5736731321935944068">Dissenter võib kasutada teie ajalugu otsingu, reklaamide ja muude Dissenter'i teenuste isikupärastamiseks</translation>
 <translation id="5809361687334836369">{HOURS,plural, =1{# tund tagasi}other{# tundi tagasi}}</translation>
-<translation id="5311273890481188673">Autoriõigus <ph name="YEAR"/> Brave LLC. Kõik õigused on kaitstud.</translation>
+<translation id="5311273890481188673">Autoriõigus <ph name="YEAR"/> Dissenter LLC. Kõik õigused on kaitstud.</translation>
 <translation id="5817918615728894473">Seo</translation>
 <translation id="583281660410589416">Tundmatu</translation>
 <translation id="5833984609253377421">Jaga linki</translation>
-<translation id="3888648114124182147">Brave'i värskenduse allalaadimine …</translation>
+<translation id="3888648114124182147">Dissenter'i värskenduse allalaadimine …</translation>
 <translation id="584120177693484274">Märgistamata</translation>
 <translation id="5853623416121554550">peatatud</translation>
 <translation id="5854790677617711513">Vanemad kui 30 päeva</translation>
-<translation id="998321811308652668">Brave ei saa Bluetoothi adapterit sisse lülitada</translation>
+<translation id="998321811308652668">Dissenter ei saa Bluetoothi adapterit sisse lülitada</translation>
 <translation id="5860491529813859533">Lülita sisse</translation>
 <translation id="5862731021271217234">Vahelehtede hankimiseks oma teistest seadmetest lülitage sünkroonimine sisse</translation>
 <translation id="5864174910718532887">Üksikasjad: sorditud saidi nime alusel</translation>
 <translation id="5864419784173784555">Teise allalaadimise ootamine …</translation>
 <translation id="5869522115854928033">Salvestatud paroolid</translation>
 <translation id="5876056640971328065">Video peatamine</translation>
-<translation id="9037412730408024068">Selleks et aidata teil toiminguid teha, saadetakse Brave'ile nende saitide URL-id ja sisu, millel assistenti kasutate, ning teave, mille assistendi kaudu esitate</translation>
+<translation id="9037412730408024068">Selleks et aidata teil toiminguid teha, saadetakse Dissenter'ile nende saitide URL-id ja sisu, millel assistenti kasutate, ning teave, mille assistendi kaudu esitate</translation>
 <translation id="5919204609460789179">Sünkroonimise alustamiseks värskendage teenust <ph name="PRODUCT_NAME"/></translation>
 <translation id="5937580074298050696"><ph name="AMOUNT"/> on säästetud</translation>
 <translation id="5939518447894949180">Lähtesta</translation>
-<translation id="6103327872225198548">Otsimiseks kasutatakse Brave'it</translation>
-<translation id="8109318360573330108">Saadab Brave'ile teie soovitud lehe URL-i</translation>
-<translation id="305870044889644984">Brave'i abikeskuse avamine uuel vahelehel</translation>
+<translation id="6103327872225198548">Otsimiseks kasutatakse Dissenter'it</translation>
+<translation id="8109318360573330108">Saadab Dissenter'ile teie soovitud lehe URL-i</translation>
+<translation id="305870044889644984">Dissenter'i abikeskuse avamine uuel vahelehel</translation>
 <translation id="5958275228015807058">Leidke oma failid ja lehed jaotisest Allalaadimised</translation>
 <translation id="5962718611393537961">Ahendamiseks puudutage</translation>
-<translation id="7760665516427405230">Selle lehe jagamiseks teise seadmega lülitage sünkroonimine Brave'i seadetes sisse</translation>
+<translation id="7760665516427405230">Selle lehe jagamiseks teise seadmega lülitage sünkroonimine Dissenter'i seadetes sisse</translation>
 <translation id="5979084224081478209">Kontrolli paroole</translation>
-<translation id="6456271171669383967">Säilita Brave</translation>
+<translation id="6456271171669383967">Säilita Dissenter</translation>
 <translation id="6005538289190791541">Soovitatud parool</translation>
 <translation id="6036057147555329831">Täiendav ICU</translation>
 <translation id="6039379616847168523">Järgmisele vahelehele liikumine</translation>
@@ -644,7 +644,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="624789221780392884">Värskendus on valmis</translation>
 <translation id="6255999984061454636">Sisu soovitused</translation>
 <translation id="6277522088822131679">Lehe printimisel ilmnes probleem. Proovige uuesti.</translation>
-<translation id="7766792282581704663">Brave'i kasutades nõustute <ph name="BEGIN_LINK1"/>Brave'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Brave'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>.</translation>
+<translation id="7766792282581704663">Dissenter'i kasutades nõustute <ph name="BEGIN_LINK1"/>Dissenter'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Dissenter'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>.</translation>
 <translation id="629730747756840877">Konto</translation>
 <translation id="6297765934698848803">Teie seadet haldav organisatsioon on kaamera välja lülitanud.</translation>
 <translation id="6303969859164067831">Logi välja ja lülita sünkroonimine välja</translation>
@@ -660,7 +660,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6366047038980456022">Rakenduse <ph name="APP_NAME"/> nutikus ja kiirus võimaldavad veebi avastada, tegutseda ning sisu luua</translation>
 <translation id="6369229450655021117">Siin saab otsida veebis, jagada sõpradega ja näha avatud lehekülgi</translation>
 <translation id="6378173571450987352">Üksikasjad: sorditud kasutatud andmemahu alusel</translation>
-<translation id="4993481112200507346"><ph name="APP_NAME"/> avaneb Brave'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>Brave'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Brave'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>.</translation>
+<translation id="4993481112200507346"><ph name="APP_NAME"/> avaneb Dissenter'is. Jätkates nõustute <ph name="BEGIN_LINK1"/>Dissenter'i teenusetingimustega<ph name="END_LINK1"/> ning <ph name="BEGIN_LINK2"/>Dissenter'i ja Chrome OS-i lisateenusetingimustega<ph name="END_LINK2"/>.</translation>
 <translation id="6381421346744604172">Tumenda veebisaidid</translation>
 <translation id="6395288395575013217">LINK</translation>
 <translation id="6397616442223433927">Võrguühendus taastus</translation>
@@ -675,59 +675,59 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="6444421004082850253">{FILE_COUNT,plural, =1{# pilt}other{# pilti}}</translation>
 <translation id="6447558397796644647">Seda järjehoidjat ei leita. Kontrollige õigekirja või lisage uus järjehoidja.</translation>
 <translation id="6461962085415701688">Faili ei saa avada</translation>
-<translation id="9055113864158719823">Näete saite, mida Brave'is külastate, ja saate nendele taimereid määrata.\n\nBrave saab teavet saitide kohta, millele taimereid määrate, ja näeb, kui kaua neid külastate. Selle teabe abil muudetakse teenus Digitaalne heaolu paremaks.</translation>
+<translation id="9055113864158719823">Näete saite, mida Dissenter'is külastate, ja saate nendele taimereid määrata.\n\nDissenter saab teavet saitide kohta, millele taimereid määrate, ja näeb, kui kaua neid külastate. Selle teabe abil muudetakse teenus Digitaalne heaolu paremaks.</translation>
 <translation id="6475951671322991020">Laadi video alla</translation>
 <translation id="6477928892249167417">Näib, et need saidid on teile olulised:</translation>
 <translation id="6482749332252372425">Faili <ph name="FILE_NAME"/> allalaadimine ebaõnnestus, kuna salvestusruumi on liiga vähe.</translation>
 <translation id="6496823230996795692">Rakenduse <ph name="APP_NAME"/> esmakordseks kasutamiseks looge ühendus Internetiga.</translation>
-<translation id="3960299545138990065">Taaskäivitage Brave</translation>
+<translation id="3960299545138990065">Taaskäivitage Dissenter</translation>
 <translation id="6527303717912515753">Jaga</translation>
-<translation id="708829030563435351">Brave'is külastatud saite ei kuvata. Kõik saitide taimerid kustutatakse.</translation>
-<translation id="7723158744459952869">Brave'il kulus reageerimiseks liiga kaua aega</translation>
+<translation id="708829030563435351">Dissenter'is külastatud saite ei kuvata. Kõik saitide taimerid kustutatakse.</translation>
+<translation id="7723158744459952869">Dissenter'il kulus reageerimiseks liiga kaua aega</translation>
 <translation id="6539092367496845964">Midagi läks valesti. Proovige hiljem uuesti.</translation>
 <translation id="6545017243486555795">Kustuta kõik andmed</translation>
 <translation id="6560414384669816528">Otsi teenusega Sogou</translation>
 <translation id="656065428026159829">Kuva rohkem</translation>
-<translation id="5813223329348543512">Brave aitas teil säästa <ph name="GIGABYTES"/> GB andmemahtu</translation>
+<translation id="5813223329348543512">Dissenter aitas teil säästa <ph name="GIGABYTES"/> GB andmemahtu</translation>
 <translation id="6573096386450695060">Luba alati</translation>
-<translation id="5157964048453367290">Siin kuvatakse teie teistes seadmetes Brave'is avatud vahelehed.</translation>
+<translation id="5157964048453367290">Siin kuvatakse teie teistes seadmetes Dissenter'is avatud vahelehed.</translation>
 <translation id="6583199322650523874">Praeguse lehe lisamine järjehoidjatesse</translation>
 <translation id="6588043302623806746">Kasuta turvalist DNS-i</translation>
 <translation id="6590471736817333463">Säästke kuni 60% andmemahtu</translation>
 <translation id="6593061639179217415">Arvutisait</translation>
 <translation id="6597891566292541626">Paigutage QR-/ribakood sellesse kaadrisse.</translation>
-<translation id="663059986967017181">Brave'i kopeeritud</translation>
+<translation id="663059986967017181">Dissenter'i kopeeritud</translation>
 <translation id="662080504995468778">Jää siia</translation>
 <translation id="6627583120233659107">Muuda kausta</translation>
 <translation id="6643016212128521049">Tühjenda</translation>
 <translation id="6643649862576733715">Sordi säästetud andmemahu alusel</translation>
 <translation id="6648977384226967773">{CONTACT,plural, =1{<ph name="CONTACT_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/>}other{<ph name="CONTACT_PREVIEW"/>\u2026 ja veel <ph name="NUMBER_OF_ADDITIONAL_CONTACTS"/>}}</translation>
 <translation id="6649642165559792194">Kujutise eelvaade <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
-<translation id="8428644385678426438">Brave vajab seadmete skannimiseks juurdepääsu teie asukohale. <ph name="BEGIN_LINK"/>Värskendage lube<ph name="END_LINK"/></translation>
+<translation id="8428644385678426438">Dissenter vajab seadmete skannimiseks juurdepääsu teie asukohale. <ph name="BEGIN_LINK"/>Värskendage lube<ph name="END_LINK"/></translation>
 <translation id="6657585470893396449">Parool</translation>
 <translation id="6659594942844771486">Vaheleht</translation>
 <translation id="666731172850799929">Ava rakenduses <ph name="APP_NAME"/></translation>
-<translation id="7392539049993970338">Brave'i privaatsusteatis</translation>
+<translation id="7392539049993970338">Dissenter'i privaatsusteatis</translation>
 <translation id="6671495933530132209">Kopeeri kujutis</translation>
-<translation id="8581481290581777242">Kas kustutada sellest seadmest Brave'i andmed?</translation>
+<translation id="8581481290581777242">Kas kustutada sellest seadmest Dissenter'i andmed?</translation>
 <translation id="6689172468748959065">Profiilifotod</translation>
 <translation id="6691888250440401212">1. Valige <ph name="APP_NAME"/>\n2. Puudutage valikut „Määra vaikeseadeks”</translation>
 <translation id="6697492270171225480">Kui lehte ei leita, kuvatakse sarnaste lehtede soovitusi</translation>
 <translation id="6698801883190606802">Sünkroonitud andmete haldamine</translation>
-<translation id="1006927014032731288">Brave'i serverid optimeerivad teie külastatavaid lehti.</translation>
+<translation id="1006927014032731288">Dissenter'i serverid optimeerivad teie külastatavaid lehti.</translation>
 <translation id="6710213216561001401">Eelmine</translation>
 <translation id="671481426037969117">Teie rakenduse <ph name="FQDN"/> taimeri aeg sai otsa. See alustab uuesti homme.</translation>
 <translation id="6738867403308150051">Allalaadimine ...</translation>
-<translation id="6741063444351041466"><ph name="BEGIN_LINK"/>Administraator<ph name="END_LINK"/> lülitas Brave'i ohutu sirvimise välja</translation>
+<translation id="6741063444351041466"><ph name="BEGIN_LINK"/>Administraator<ph name="END_LINK"/> lülitas Dissenter'i ohutu sirvimise välja</translation>
 <translation id="6767294960381293877">Vahelehe jagamise seadmete loend (poolel kõrgusel avatud).</translation>
 <translation id="6811034713472274749">Leht on vaatamiseks valmis</translation>
 <translation id="6820686453637990663">CVC</translation>
 <translation id="6831043979455480757">Tõlgi</translation>
-<translation id="4991384657077828949">Aidake Brave'i turvalisust täiustada</translation>
+<translation id="4991384657077828949">Aidake Dissenter'i turvalisust täiustada</translation>
 <translation id="6846298663435243399">Laadimine…</translation>
 <translation id="6850409657436465440">Allalaadimine on endiselt pooleli</translation>
 <translation id="6850830437481525139">Suleti <ph name="TAB_COUNT"/> vahelehte</translation>
-<translation id="4046835482356054431">Discover Brave'ilt – väljas</translation>
+<translation id="4046835482356054431">Discover Dissenter'ilt – väljas</translation>
 <translation id="6864459304226931083">Laadi kujutis alla</translation>
 <translation id="6865313869410766144">Automaattäitmise vormiandmed</translation>
 <translation id="6884306546558072722">Jätkake uurimist võrguühenduseta</translation>
@@ -753,7 +753,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7063006564040364415">Sünkroonimisserveriga ei saanud ühendust.</translation>
 <translation id="7071521146534760487">Konto haldamine</translation>
 <translation id="7077143737582773186">SD-kaart</translation>
-<translation id="1968157943459987269">Kustutab aadressiribalt ajaloo ja automaatse täitmise andmed. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Brave'i kontol olla muus vormis sirvimisajalugu.</translation>
+<translation id="1968157943459987269">Kustutab aadressiribalt ajaloo ja automaatse täitmise andmed. Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Dissenter'i kontol olla muus vormis sirvimisajalugu.</translation>
 <translation id="7128355412245153445">Näete avalehe nuppu puudutades oma sageli külastatud saite ja hiljutisi lugusid</translation>
 <translation id="7138678301420049075">Muu</translation>
 <translation id="7146622961999026732">Näib, et need saidid ja rakendused on teile olulised:</translation>
@@ -765,16 +765,16 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7189372733857464326">Google Play teenuste värskendamise lõpetamise ootamine</translation>
 <translation id="7191430249889272776">Taustal on avatud vaheleht.</translation>
 <translation id="723171743924126238">Kujutiste valimine</translation>
-<translation id="3512968675351418494">Hankige Brave'i uusim versioon, et saaksite oma keeles veebi sirvida</translation>
+<translation id="3512968675351418494">Hankige Dissenter'i uusim versioon, et saaksite oma keeles veebi sirvida</translation>
 <translation id="7243308994586599757">Valikud on saadaval ekraani allosas</translation>
-<translation id="8287068819750208230">Veenduge, et seadmes <ph name="TARGET_DEVICE_NAME"/> oleks Brave'i sünkroonimine sisse lülitatud</translation>
+<translation id="8287068819750208230">Veenduge, et seadmes <ph name="TARGET_DEVICE_NAME"/> oleks Dissenter'i sünkroonimine sisse lülitatud</translation>
 <translation id="7274013316676448362">Blokeeritud sait</translation>
 <translation id="7290209999329137901">Ümbernimetamine ei ole võimalik</translation>
 <translation id="7291387454912369099">Maksmine assistendi kaudu</translation>
-<translation id="2997266899014181325">Sünkroonimise alustamiseks lülitage sisse valik „Brave'i andmete sünkroonimine”.</translation>
+<translation id="2997266899014181325">Sünkroonimise alustamiseks lülitage sisse valik „Dissenter'i andmete sünkroonimine”.</translation>
 <translation id="729975465115245577">Seadmes pole sünkroonimiseks piisavalt salvestusruumi.</translation>
 <translation id="7302081693174882195">Üksikasjad: sorditud säästetud andmemahu alusel</translation>
-<translation id="3252158532344029638">Lihtsustatud režiimis laadib Brave lehti kiiremini ja kasutab kuni 60 protsenti vähem andmemahtu.</translation>
+<translation id="3252158532344029638">Lihtsustatud režiimis laadib Dissenter lehti kiiremini ja kasutab kuni 60 protsenti vähem andmemahtu.</translation>
 <translation id="7333031090786104871">Eelmist saiti alles lisatakse</translation>
 <translation id="7340958967809483333">Funktsiooni Discover valikud</translation>
 <translation id="7352939065658542140">VIDEO</translation>
@@ -783,13 +783,13 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7375125077091615385">Tüüp:</translation>
 <translation id="7396940094317457632"><ph name="FILE_NAME"/>.</translation>
 <translation id="7400418766976504921">URL</translation>
-<translation id="724102042129299115">Brave'i esmakordse käitamise kasutuskogemus</translation>
+<translation id="724102042129299115">Dissenter'i esmakordse käitamise kasutuskogemus</translation>
 <translation id="741204030948306876">Jah, sobib</translation>
 <translation id="7413229368719586778">Alguskuupäev: <ph name="DATE"/></translation>
 <translation id="7431991332293347422">Juhtige, kuidas kasutatakse teie sirvimisajalugu otsingu ja muu isikupärastamiseks</translation>
-<translation id="6234515504547364178">Brave'ist väljalogimine</translation>
+<translation id="6234515504547364178">Dissenter'ist väljalogimine</translation>
 <translation id="7444811645081526538">Rohkem kategooriaid</translation>
-<translation id="3699067418237091329">Logib teid enamikult saitidelt välja. Brave'i kontolt teid välja ei logita.</translation>
+<translation id="3699067418237091329">Logib teid enamikult saitidelt välja. Dissenter'i kontolt teid välja ei logita.</translation>
 <translation id="7454641608352164238">Pole piisavalt ruumi</translation>
 <translation id="7475192538862203634">Kui näete seda sageli, proovige neid <ph name="BEGIN_LINK"/>soovitusi<ph name="END_LINK"/>.</translation>
 <translation id="7475688122056506577">SD-kaarti ei leitud. Mõned failid võivad puududa.</translation>
@@ -807,22 +807,22 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7542481630195938534">Soovitusi ei saa hankida</translation>
 <translation id="7559975015014302720">Lihtsustatud režiim on väljas</translation>
 <translation id="7562080006725997899">Sirvimisandmete kustutamine</translation>
-<translation id="7814200940910057384">Brave'i andmed kustutati</translation>
+<translation id="7814200940910057384">Dissenter'i andmed kustutati</translation>
 <translation id="7577900504646297215">Huvide haldamine</translation>
 <translation id="757855969265046257">{FILES,plural, =1{<ph name="FILES_DOWNLOADED_ONE"/> fail laaditi alla}other{<ph name="FILES_DOWNLOADED_MANY"/> faili laaditi alla}}</translation>
 <translation id="7588219262685291874">Aktiveeri tume teema, kui akusäästja on seadmes sisse lülitatud</translation>
-<translation id="3235722914093408050">Brave'i sünkroonimise alustamiseks avage Androidi seaded ja lubage uuesti Androidi süsteemi sünkroonimine</translation>
+<translation id="3235722914093408050">Dissenter'i sünkroonimise alustamiseks avage Androidi seaded ja lubage uuesti Androidi süsteemi sünkroonimine</translation>
 <translation id="7596558890252710462">Operatsioonisüsteem</translation>
 <translation id="7605594153474022051">Sünkroonimine ei tööta</translation>
 <translation id="7606077192958116810">Lihtsustatud režiim on sees. Hallake seda menüüs Seaded.</translation>
-<translation id="649070405679044769">Brave'isse sisse logitud kasutajana</translation>
+<translation id="649070405679044769">Dissenter'isse sisse logitud kasutajana</translation>
 <translation id="7619072057915878432">Faili <ph name="FILE_NAME"/> allalaadimine ebaõnnestus võrguvea tõttu.</translation>
 <translation id="7624880197989616768"><ph name="BEGIN_LINK1"/>Hankige abi<ph name="END_LINK1"/> või <ph name="BEGIN_LINK2"/>otsige uuesti<ph name="END_LINK2"/></translation>
-<translation id="7207456302801184289">Tere tulemast Brave'i</translation>
+<translation id="7207456302801184289">Tere tulemast Dissenter'i</translation>
 <translation id="7630202231528827509">Teenusepakkuja URL</translation>
 <translation id="7638584964844754484">Vale parool</translation>
 <translation id="7641339528570811325">Sirvimisandmete kustutamine …</translation>
-<translation id="3598578758776312506">Paroolide krüpteerimine Brave'i mandaatidega</translation>
+<translation id="3598578758776312506">Paroolide krüpteerimine Dissenter'i mandaatidega</translation>
 <translation id="7658239707568436148">Tühista</translation>
 <translation id="7665369617277396874">Konto lisamine</translation>
 <translation id="766587987807204883">Artiklid kuvatakse siin ja saate neid lugeda ka võrguühenduseta</translation>
@@ -831,7 +831,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7704317875155739195">Otsingute ja URL-ide automaatne täitmine</translation>
 <translation id="7725024127233776428">Järjehoidjatesse lisatud lehed kuvatakse siin</translation>
 <translation id="773466115871691567">Tõlgi alati <ph name="SOURCE_LANGUAGE"/> keeles olevad lehed</translation>
-<translation id="1943176487615318915">Ohtlike rakenduste ja saitide tuvastamiseks saadab Brave mõnede teie külastatud lehtede URL-id, piiratud süsteemiteabe ja mõne lehe sisu Brave'ile</translation>
+<translation id="1943176487615318915">Ohtlike rakenduste ja saitide tuvastamiseks saadab Dissenter mõnede teie külastatud lehtede URL-id, piiratud süsteemiteabe ja mõne lehe sisu Dissenter'ile</translation>
 <translation id="7757787379047923882">Teksti jagati seadmest <ph name="DEVICE_NAME"/></translation>
 <translation id="7761849928583394409">Kuupäeva ja kellaaja valimine</translation>
 <translation id="7762668264895820836">SD-kaart <ph name="SD_CARD_NUMBER"/></translation>
@@ -844,21 +844,21 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7810647596859435254">Ava rakendusega …</translation>
 <translation id="7821588508402923572">Siin kuvatakse teie säästetud andmemaht</translation>
 <translation id="783819812427904514">Video vaigistuse tühistamine</translation>
-<translation id="7068829570137757602">Brave'i teenused</translation>
+<translation id="7068829570137757602">Dissenter'i teenused</translation>
 <translation id="784934925303690534">Ajavahemik</translation>
 <translation id="7851858861565204677">Muud seadmed</translation>
 <translation id="7857691613771368249">Küsi, millal failid salvestada</translation>
 <translation id="7875915731392087153">Looge meil</translation>
 <translation id="7876243839304621966">Eemalda kõik</translation>
 <translation id="7882131421121961860">Ajalugu ei leitud</translation>
-<translation id="6143689084714664628">Töötab Brave'is</translation>
+<translation id="6143689084714664628">Töötab Dissenter'is</translation>
 <translation id="7925590027513907933">{FILE_COUNT,plural, =1{Faili allalaadimine.}other{# faili allalaadimine.}}</translation>
 <translation id="7926975587469166629">Kaardi hüüdnimi</translation>
 <translation id="7929962904089429003">Menüü avamine</translation>
 <translation id="7942131818088350342">Teenus <ph name="PRODUCT_NAME"/> on aegunud.</translation>
 <translation id="7947953824732555851">Nõustu ja logi sisse</translation>
 <translation id="7963646190083259054">Teenusepakkuja:</translation>
-<translation id="5149323899804758325">QR-koodi skannimiseks muutke seadeid, et Brave saaks teie kaamerat kasutada</translation>
+<translation id="5149323899804758325">QR-koodi skannimiseks muutke seadeid, et Dissenter saaks teie kaamerat kasutada</translation>
 <translation id="7971136598759319605">Aktiivne 1 päev tagasi</translation>
 <translation id="7975379999046275268">Lehe eelvaade <ph name="BEGIN_NEW"/>Uus<ph name="END_NEW"/></translation>
 <translation id="7981313251711023384">Eellaaditakse lehti kiiremaks sirvimiseks ja otsimiseks</translation>
@@ -866,7 +866,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="7986741934819883144">Kontakti valimine</translation>
 <translation id="7998918019931843664">Suletud vahelehe uuesti avamine</translation>
 <translation id="8004582292198964060">Brauser</translation>
-<translation id="3325020657155065477">Kustuta sellest seadmest ka Brave'i andmed</translation>
+<translation id="3325020657155065477">Kustuta sellest seadmest ka Dissenter'i andmed</translation>
 <translation id="8015452622527143194">Lehel kuvatud sisu vaikesuuruses kuvamine</translation>
 <translation id="8026334261755873520">Sirvimisandmete kustutamine</translation>
 <translation id="8027863900915310177">Valige, kuhu alla laadida</translation>
@@ -875,7 +875,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="804335162455518893">SD-kaarti ei leitud</translation>
 <translation id="805047784848435650">Teie sirvimisajaloo põhjal</translation>
 <translation id="8051695050440594747"><ph name="MEGABYTES"/> MB on saadaval</translation>
-<translation id="2317945146070194624">Ava uuel Brave'i vahelehel</translation>
+<translation id="2317945146070194624">Ava uuel Dissenter'i vahelehel</translation>
 <translation id="8063895661287329888">Järjehoidja lisamine ebaõnnestus.</translation>
 <translation id="806745655614357130">Hoia minu andmed eraldi</translation>
 <translation id="8067883171444229417">Esita video</translation>
@@ -884,11 +884,11 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8084114998886531721">Salvestatud parool</translation>
 <translation id="8105893657415066307"><ph name="DESCRIPTION"/> <ph name="SEPARATOR"/> <ph name="FILE_SIZE"/></translation>
 <translation id="8109613176066109935">Järjehoidjate kõigisse oma seadmetesse hankimiseks lülitage sünkroonimine sisse</translation>
-<translation id="4565206163201411670">Kas kuvada teie Brave'i tegevused teenuses Digitaalne heaolu?</translation>
-<translation id="1506404221681151315">QR-koodi skannimiseks lubage Brave'il oma kaamerat kasutada</translation>
+<translation id="4565206163201411670">Kas kuvada teie Dissenter'i tegevused teenuses Digitaalne heaolu?</translation>
+<translation id="1506404221681151315">QR-koodi skannimiseks lubage Dissenter'il oma kaamerat kasutada</translation>
 <translation id="8127542551745560481">Avalehe muutmine</translation>
 <translation id="813082847718468539">Kuvab saidi teabe</translation>
-<translation id="6209156474097347789">Puudutamine otsimiseks saadab valitud sõna ja praeguse lehe kontekstina Brave'i otsingusse. Saate selle välja lülitada jaotises <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
+<translation id="6209156474097347789">Puudutamine otsimiseks saadab valitud sõna ja praeguse lehe kontekstina Dissenter'i otsingusse. Saate selle välja lülitada jaotises <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
 <translation id="8156139159503939589">Millistes keeltes te loete?</translation>
 <translation id="8168435359814927499">Sisu</translation>
 <translation id="8186512483418048923"><ph name="FILES"/> faili on jään.</translation>
@@ -902,7 +902,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8232956427053453090">Säilita andmed</translation>
 <translation id="8233540874193135768">QR-koodi skannimiseks kasutage kaameraga seadet.</translation>
 <translation id="8250920743982581267">Dokumendid</translation>
-<translation id="5138664332909611586">Brave eemaldas osa sisust, kuna leht kasutab liiga palju mälu.</translation>
+<translation id="5138664332909611586">Dissenter eemaldas osa sisust, kuna leht kasutab liiga palju mälu.</translation>
 <translation id="8260126382462817229">Proovige uuesti sisse logida</translation>
 <translation id="8261506727792406068">Kustuta</translation>
 <translation id="8266862848225348053">Allalaadimise asukoht</translation>
@@ -910,7 +910,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8284326494547611709">Subtiitrid</translation>
 <translation id="8310344678080805313">Tavapärased vahekaardid</translation>
 <translation id="8316092324682955408"><ph name="DOMAIN_NAME"/> ja muud saidid</translation>
-<translation id="6195417478702700398">Parima sirvimiskogemuse tagamiseks avage Brave, et seda värskendada</translation>
+<translation id="6195417478702700398">Parima sirvimiskogemuse tagamiseks avage Dissenter, et seda värskendada</translation>
 <translation id="8339163506404995330"><ph name="LANGUAGE"/> keeles olevaid lehti ei tõlgita</translation>
 <translation id="8349013245300336738">Sordi kasutatud andmemahu alusel</translation>
 <translation id="8364299278605033898">Vaadake populaarseid veebisaite</translation>
@@ -931,9 +931,9 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8489271220582375723">Lehe Ajalugu avamine</translation>
 <translation id="8493948351860045254">Vabasta ruum</translation>
 <translation id="8497726226069778601">Siin pole midagi vaadata ... veel</translation>
-<translation id="230699814587342492">Brave'i paroolid</translation>
+<translation id="230699814587342492">Dissenter'i paroolid</translation>
 <translation id="8503813439785031346">Kasutajanimi</translation>
-<translation id="133012818630824069">Brave'i salvestatud paroolide eksportimine</translation>
+<translation id="133012818630824069">Dissenter'i salvestatud paroolide eksportimine</translation>
 <translation id="8516012719330875537">Pildiredigeerija</translation>
 <translation id="8523928698583292556">Salvestatud parooli kustutamine</translation>
 <translation id="8525306231823319788">Täisekraan</translation>
@@ -948,11 +948,11 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8571213806525832805">Viimased 4 nädalat</translation>
 <translation id="8583805026567836021">Kontoandmete kustutamine</translation>
 <translation id="860043288473659153">Kaardiomaniku nimi</translation>
-<translation id="5784514951651328424">Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Brave'i kontol olla muus vormis sirvimisajalugu.</translation>
+<translation id="5784514951651328424">Aadressil <ph name="BEGIN_LINK"/>myactivity.google.com<ph name="END_LINK"/> võib teie Dissenter'i kontol olla muus vormis sirvimisajalugu.</translation>
 <translation id="8617240290563765734">Kas avada allalaaditud sisus toodud soovitatud URL?</translation>
 <translation id="8636825310635137004">Vahelehtede hankimiseks oma teistest seadmetest lülitage sünkroonimine sisse.</translation>
 <translation id="8641930654639604085">Proovi blokeerida täiskasvanutele mõeldud saidid</translation>
-<translation id="2734140769649165081">Andmeid saab kustutada Brave’i seadetes.</translation>
+<translation id="2734140769649165081">Andmeid saab kustutada Dissenter’i seadetes.</translation>
 <translation id="8655599981421006542">Puudutage siin uute vahelehtede loomiseks ja eelmistele vahelehtedele naasmiseks</translation>
 <translation id="8662811608048051533">Logib teid enamikult saitidelt välja.</translation>
 <translation id="8664979001105139458">Faili nimi on juba olemas</translation>
@@ -971,21 +971,21 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="8840953339110955557">Leht võib veebiversioonist erineda.</translation>
 <translation id="8853345339104747198"><ph name="TAB_TITLE"/>, vahekaart</translation>
 <translation id="8854223127042600341">Vaadake oma võrguühenduseta faile</translation>
-<translation id="6084271560289605378">Ava Brave'i seaded</translation>
+<translation id="6084271560289605378">Ava Dissenter'i seaded</translation>
 <translation id="8909135823018751308">Jaga ...</translation>
-<translation id="2684652081942622950">Brave'i konto</translation>
+<translation id="2684652081942622950">Dissenter'i konto</translation>
 <translation id="8920114477895755567">Vanema üksikasjade ootamine.</translation>
 <translation id="8921772741368021346"><ph name="POSITION"/>/<ph name="DURATION"/></translation>
 <translation id="8922289737868596582">Laadige lehed alla nupu Rohkem valikuid abil, et neid võrguühenduseta kasutada</translation>
-<translation id="1174893863889683998">Kas eemaldada teie Brave'i tegevused teenusest Digitaalne heaolu?</translation>
+<translation id="1174893863889683998">Kas eemaldada teie Dissenter'i tegevused teenusest Digitaalne heaolu?</translation>
 <translation id="8942627711005830162">Ava teises aknas</translation>
-<translation id="3257320067425202300">Brave aitas teil säästa <ph name="MEGABYTES"/> MB andmemahtu</translation>
+<translation id="3257320067425202300">Dissenter aitas teil säästa <ph name="MEGABYTES"/> MB andmemahtu</translation>
 <translation id="8965591936373831584">ootel</translation>
 <translation id="8970887620466824814">Midagi läks valesti.</translation>
 <translation id="8972098258593396643">Kas soovite alla laadida vaikekausta?</translation>
 <translation id="8988028529677883095">Kasutage oma telefoni turvavõtmena</translation>
 <translation id="8990209962746788689">QR-koodi ei saa luua</translation>
-<translation id="3275122921244685452">Logite sisse kontoga, mida haldab <ph name="MANAGED_DOMAIN"/>, ja annate selle administraatorile üle Brave'i andmete juhtimise. Teie andmed seotakse jäädavalt selle kontoga. Brave'ist väljalogimisel kustutatakse teie andmed sellest seadmest, kuid need jäävad alles teie Brave'i kontole.</translation>
+<translation id="3275122921244685452">Logite sisse kontoga, mida haldab <ph name="MANAGED_DOMAIN"/>, ja annate selle administraatorile üle Dissenter'i andmete juhtimise. Teie andmed seotakse jäädavalt selle kontoga. Dissenter'ist väljalogimisel kustutatakse teie andmed sellest seadmest, kuid need jäävad alles teie Dissenter'i kontole.</translation>
 <translation id="9028914725102941583">Seadmete vahel jagamiseks lülitage sünkroonimine sisse</translation>
 <translation id="9040142327097499898">Märguanded on lubatud. Asukoht on selle seadme puhul välja lülitatud.</translation>
 <translation id="9041669420854607037">{FILE_COUNT,plural, =1{# video}other{# videot}}</translation>
@@ -993,7 +993,7 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="9063523880881406963">Valiku Taotle arvutisaiti väljalülitamine</translation>
 <translation id="9065203028668620118">Muuda</translation>
 <translation id="9070377983101773829">Häälotsingu alustamine</translation>
-<translation id="8494430740943879273">Brave'i soovitatud isikupärastatud sisu hankimiseks logige sisse ja lülitage sünkroonimine sisse</translation>
+<translation id="8494430740943879273">Dissenter'i soovitatud isikupärastatud sisu hankimiseks logige sisse ja lülitage sünkroonimine sisse</translation>
 <translation id="9086302186042011942">Sünkroonimine</translation>
 <translation id="9086455579313502267">Ei saa võrgule juurdepääsu</translation>
 <translation id="9100505651305367705">Pakutakse artiklite kuvamist lihtsustatud vaates, kui seda toetatakse</translation>
@@ -1011,12 +1011,12 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="9206873250291191720">A</translation>
 <translation id="9209888181064652401">Ei saa helistada</translation>
 <translation id="9219103736887031265">Pildid</translation>
-<translation id="4596514158372210596">Brave'i tegevuste eemaldamine teenusest Digitaalne heaolu</translation>
-<translation id="2830145431802238213">Kasutage Brave'is lihtsustatud režiimi</translation>
+<translation id="4596514158372210596">Dissenter'i tegevuste eemaldamine teenusest Digitaalne heaolu</translation>
+<translation id="2830145431802238213">Kasutage Dissenter'is lihtsustatud režiimi</translation>
 <translation id="932327136139879170">Kodu</translation>
 <translation id="93753284658583800">Avalehte muudeti</translation>
 <translation id="938850635132480979">Viga: <ph name="ERROR_CODE"/></translation>
-<translation id="5406914950576900927">Brave saab Hiinas otsimiseks kasutada teenust <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>. Seda saate muuta menüüs <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
+<translation id="5406914950576900927">Dissenter saab Hiinas otsimiseks kasutada teenust <ph name="BEGIN_BOLD"/>Sogou<ph name="END_BOLD"/>. Seda saate muuta menüüs <ph name="BEGIN_LINK"/>Seaded<ph name="END_LINK"/>.</translation>
 <translation id="968900484120156207">Teie külastatud lehed kuvatakse siin</translation>
 <translation id="970715775301869095">Jäänud on <ph name="MINUTES"/> minutit</translation>
 <translation id="974555521953189084">Sünkroonimise alustamiseks sisestage parool</translation>
@@ -1025,8 +1025,8 @@ Näiteks võivad mõned veebisaidid taotlusele reageerida nii, et näitavad teil
 <translation id="987264212798334818">Üldine</translation>
 <translation id="996149300115483134">Voo kaardimenüü on suletud</translation>
 <translation id="5186185447130319458">Privaatne</translation>
-<translation id="9063160602596686558">Brave Software'ile saadetakse automaatselt kasutusstatistikat ja krahhiaruandeid</translation>
-<translation id="1438581767753657407">Brave kiirendab lihtsustatud režiimis oma serveritega lehtede laadimist. Lihtsustatud režiim laeb väga aeglaste lehtede puhul vaid tähtsat sisu. Lihtsustatud režiimi ei saa kasutada privaatsetel vahelehtedel.</translation>
+<translation id="9063160602596686558">Gab AI Inc'ile saadetakse automaatselt kasutusstatistikat ja krahhiaruandeid</translation>
+<translation id="1438581767753657407">Dissenter kiirendab lihtsustatud režiimis oma serveritega lehtede laadimist. Lihtsustatud režiim laeb väga aeglaste lehtede puhul vaid tähtsat sisu. Lihtsustatud režiimi ei saa kasutada privaatsetel vahelehtedel.</translation>
 <translation id="2633278372998075009">Privaatsed vahelehed</translation>
 <translation id="6099151465289169210">Lülituti privaatsetele vahelehtedele</translation>
 <translation id="4243710787042215766">Avage privaatsel vahelehel</translation>

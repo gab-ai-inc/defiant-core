@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!--This file is created by l10nUtil.js. Do not edit manually.-->
 <grit-part>
-  <!-- Strings describing Brave security policy for DevTools security panel -->
+  <!-- Strings describing Dissenter security policy for DevTools security panel -->
   <message name="IDS_ERROR_PAGE_SUMMARY" desc="Main summary for a non cert error page." translateable="false">
     This is an error page.
   </message>
@@ -145,13 +145,13 @@
 
   <!-- Safety tips -->
   <message name="IDS_SECURITY_TAB_SAFETY_TIP_TITLE" desc="Title of the devtools security tab when the page you are on triggered a safety tip.">
-    This page is suspicious (flagged by Brave).
+    This page is suspicious (flagged by Dissenter).
   </message>
   <message name="IDS_SECURITY_TAB_SAFETY_TIP_BAD_REPUTATION_SUMMARY" desc="Message to display in devtools security tab when the page you are on triggered a safety tip.">
     This page is suspicious
   </message>
   <message name="IDS_SECURITY_TAB_SAFETY_TIP_BAD_REPUTATION_DESCRIPTION" desc="Body of     message to display in devtools security tab when you are viewing a page that     triggered a safety tip.">
-    Brave has determined that this site could be fake or fraudulent.
+    Dissenter has determined that this site could be fake or fraudulent.
 
     If you believe this is shown in error please visit https://bugs.chromium.org/p/chromium/issues/entry?template=Safety+Tips+Appeals.
   </message>
