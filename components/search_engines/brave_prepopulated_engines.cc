@@ -44,7 +44,7 @@ const PrepopulatedEngine duckduckgo = {
     L"DuckDuckGo",
     L":d",
     "https://duckduckgo.com/favicon.ico",
-    "https://duckduckgo.com/?q={searchTerms}&t=brave",
+    "https://duckduckgo.com/?q={searchTerms}",
     "UTF-8",
     "https://ac.duckduckgo.com/ac/?q={searchTerms}&type=list",
     NULL,
@@ -149,7 +149,7 @@ const PrepopulatedEngine startpage = {
 #define BRAVE_YAHOO_SEARCH_URL(PREFIX) \
   "https://" PREFIX                    \
   ".search.yahoo.com"                  \
-  "/search?p={searchTerms}&fr=brave_yset"
+  "/search?p={searchTerms}"
 #define BRAVE_YAHOO_SUGGEST_URL(PREFIX) \
   "https://" PREFIX                     \
   ".search.yahoo.com"                   \

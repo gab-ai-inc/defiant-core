@@ -1,5 +1,5 @@
 diff --git a/chrome/installer/linux/debian/build.sh b/chrome/installer/linux/debian/build.sh
-index b5755a2ce97534dbcd7d1ad8bd977bb12679f683..541f70f9ca69cb1ae01392ea1dfe51702df06139 100755
+index b5755a2ce97534dbcd7d1ad8bd977bb12679f683..6c4e38d6d4f0913583e9dc079fcc771bd5ab0286 100755
 --- a/chrome/installer/linux/debian/build.sh
 +++ b/chrome/installer/linux/debian/build.sh
 @@ -21,7 +21,7 @@ gen_changelog() {
@@ -82,7 +82,7 @@ index b5755a2ce97534dbcd7d1ad8bd977bb12679f683..541f70f9ca69cb1ae01392ea1dfe5170
                          sed ':a;N;$!ba;s/\n/, /g')
 +# Ensure that our signing key is up-to-date (brave/brave-browser#4205).
 +if [ "$CHANNEL" = "stable" ]; then
-+  COMMON_DEPS="${COMMON_DEPS}, brave-keyring"
++  COMMON_DEPS="${COMMON_DEPS}"
 +fi
  
  # Make everything happen in the OUTPUTDIR.

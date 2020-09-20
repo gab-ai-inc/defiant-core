@@ -29,7 +29,7 @@ void BraveLocationBarModelDelegate::FormattedStringFromURL(const GURL& url,
         new_formatted_url,
         0,
         base::UTF8ToUTF16("chrome://"),
-        base::UTF8ToUTF16("brave://"));
+        base::UTF8ToUTF16("dissenter://"));
   }
 
 #if BUILDFLAG(BRAVE_WALLET_ENABLED)
