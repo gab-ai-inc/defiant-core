@@ -200,7 +200,7 @@ const std::map<int, const std::vector<BravePrepopulatedEngineID>*>
 
 // Default search engine. Overridable on a per-country basis.
 const BravePrepopulatedEngineID default_engine =
-    PREPOPULATED_ENGINE_ID_GOOGLE;
+    PREPOPULATED_ENGINE_ID_DUCKDUCKGO;
 
 // A map tracking the singular default search engine per-country.
 const std::map<int, BravePrepopulatedEngineID>
