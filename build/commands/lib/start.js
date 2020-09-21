@@ -118,7 +118,7 @@ const start = (passthroughArgs, buildConfig = config.defaultBuildConfig, options
 
   let outputPath = options.output_path
   if (!outputPath) {
-    outputPath = path.join(config.outputDir, 'brave')
+    outputPath = path.join(config.outputDir, 'dissenter')
     if (process.platform === 'win32') {
       outputPath = outputPath + '.exe'
     } else if (process.platform === 'darwin') {
