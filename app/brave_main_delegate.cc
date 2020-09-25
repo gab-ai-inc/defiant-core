@@ -69,12 +69,12 @@ const char kBraveSyncServiceStagingURL[] =
     "https://sync-v2.bravesoftware.com/v2";
 #if defined(OFFICIAL_BUILD)
 // production
-const char kBraveSyncServiceURL[] = "https://sync-v2.brave.com/v2";
+const char kBraveSyncServiceURL[] = "https://127.0.0.1/v2";
 #else
 // For local server development "http://localhost:8295/v2 can also be overriden
 // by switches::kSyncServiceURL
 // dev
-const char kBraveSyncServiceURL[] = "https://sync-v2.brave.software/v2";
+const char kBraveSyncServiceURL[] = "https://127.0.0.1/v2";
 #endif
 }  // namespace
 
